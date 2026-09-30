@@ -1,0 +1,31 @@
+{
+  "scan_duration_minutes": 25,
+  "action_refresh_minutes": 5,
+  "ui_refresh_seconds": 60,
+  "strong_catalyst_min_expected_move_pct": 3.0,
+  "min_price_usd": 5.0,
+  "min_volume": 500000,
+  "min_relative_volume": 2.0,
+  "premarket_min_pct": 1.0,
+  "premarket_max_pct": 10.0,
+  "avoid_already_extended_above_pct": 10.0,
+  "require_positive_short_term_momentum": true,
+  "prioritize_satispay": true,
+  "regions": ["USA","Europe","Canada","Asia"],
+  "include_premarket": true,
+  "include_afterhours": true,
+  "popup_alerts": true,
+  "vibration": false,
+  "priority_catalyst_types": [
+    "FDA/EMA approval or regulatory decision",
+    "positive clinical trial readout",
+    "major contract / order",
+    "M&A / strategic investment",
+    "partnership / licensing deal",
+    "earnings beat + raised guidance",
+    "material guidance increase",
+    "SEC filing with material event",
+    "analyst upgrade with material target change",
+    "major product / AI / semiconductor catalyst"
+  ]
+}

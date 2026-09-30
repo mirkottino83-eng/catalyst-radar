@@ -1,0 +1,10 @@
+[
+  {"name":"SEC EDGAR","tier":1,"type":"official","free":true,"enabled":true,"coverage":"8-K, 6-K, 10-Q, 10-K, S-4, 425 and material filings"},
+  {"name":"FDA","tier":1,"type":"official","free":true,"enabled":true,"coverage":"Approvals, CRLs, safety communications and advisory updates"},
+  {"name":"EMA","tier":1,"type":"official","free":true,"enabled":true,"coverage":"CHMP opinions, approvals and regulatory updates"},
+  {"name":"Company Investor Relations","tier":1,"type":"official","free":true,"enabled":true,"coverage":"Earnings, guidance, contracts, partnerships, launches and M&A"},
+  {"name":"Reuters","tier":1,"type":"wire","free":false,"enabled":true,"coverage":"Breaking corporate, macro and geopolitical headlines","note":"Full live Reuters feed requires licensed access. Free mode only detects Reuters links/headlines surfaced by public indexes; it never claims a licensed full feed."},
+  {"name":"GDELT","tier":2,"type":"news_index","free":true,"enabled":true,"coverage":"Global breaking-news discovery, including corporate, geopolitical and macro stories"},
+  {"name":"Google News RSS","tier":2,"type":"news_index","free":true,"enabled":true,"coverage":"Headline discovery and corroboration"},
+  {"name":"Yahoo Finance via yfinance","tier":2,"type":"market_data","free":true,"enabled":true,"coverage":"Quotes, price changes, volume and market context","note":"Unofficial and can break; TradingView remains the visual verification layer."}
+]
