@@ -239,7 +239,7 @@ def main():
     all_tickers=[w['ticker'] for w in UNIVERSE]+['^TNX','CL=F','BZ=F','^IXIC','^SOX','^VIX','DX-Y.NYB']
     market=load_market(all_tickers);macro=macro_snapshot(market);geo=geopolitical_snapshot();macro['geopolitical_risk_score']=geo['risk_score'];macro['geopolitical_headlines']=geo['headlines'];
     if geo['headlines']: macro['summary'] += ' Geopolitica: '+geo['headlines'][0]['title']
-     catalysts=build_candidates(market,macro)
+    catalysts=build_candidates(market,macro)
     sources=[
       {'name':'SEC EDGAR','note':'Filings societari ufficiali USA: 8-K, 6-K, 10-Q, 10-K, 20-F.','limited':False},
       {'name':'FDA / EMA','note':'Catalyst biotech/regolatori tramite fonti ufficiali e indicizzazione news.','limited':False},
