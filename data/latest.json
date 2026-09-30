@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-30T17:55:08.450556+00:00",
+  "generated_at": "2026-09-30T18:12:16.659354+00:00",
   "status": "ok",
   "macro": {
-    "treasury_10y": 5.297999858856201,
-    "treasury_10y_change_bp": 4.299974441528303,
-    "wti": 90.8499984741211,
-    "wti_change_pct": 1.6446646519078012,
-    "brent": 98.4000015258789,
-    "brent_change_pct": -4.084213823550142,
-    "nasdaq_level": 27055.958984375,
-    "nasdaq_change_pct": 0.9643419915249973,
-    "sox_level": 12625.4189453125,
-    "sox_change_pct": -0.029623592473393412,
-    "vix": 15.890000343322754,
-    "vix_change_pct": -0.9351656087462135,
-    "dollar_index": 101.40399932861328,
-    "macro_score": 50.1,
+    "treasury_10y": 5.300000190734863,
+    "treasury_10y_change_bp": 4.500007629394521,
+    "wti": 90.73999786376953,
+    "wti_change_pct": 1.5215939272134493,
+    "brent": 98.23999786376953,
+    "brent_change_pct": -4.240178018716301,
+    "nasdaq_level": 27047.439453125,
+    "nasdaq_change_pct": 0.9325497764632651,
+    "sox_level": 12641.634765625,
+    "sox_change_pct": 0.0987762386466029,
+    "vix": 15.819999694824219,
+    "vix_change_pct": -1.371578604401169,
+    "dollar_index": 101.4209976196289,
+    "macro_score": 50.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.96%, SOX -0.03%, US10Y 5.30, WTI +1.64%. Geopolitica: Middle East Crude Oil Exports Back at Prewar Levels, Analysts Say - WSJ",
+    "summary": "Tech bias neutral. Nasdaq +0.93%, SOX +0.10%, US10Y 5.30, WTI +1.52%. Geopolitica: Middle East Crude Oil Exports Back at Prewar Levels, Analysts Say - WSJ",
     "geopolitical_risk_score": 57,
     "geopolitical_headlines": [
       {
@@ -26,8 +26,8 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT244S2RDMHZTTXRPcUszQzMzT09RV0pjLThiYjNRNG1va1JwOHNrWW5rWjhSWUpwVU9CV3hRQnVBYXVVX3hYV2xhaVFsQ1lQeWxRTTJPRkRsUG1VUFJfSGlwQnhjOU1Id0Nad3BVOTY0MlE0d0l2OVZXVVFMNU1QSnRlSVpMTjFHT2dBSEJ0MGFaQ2tJVkJBQ2dBY1B4NHFyVW5RQjlwV3FLYWJOc1NFaWI4OA?oc=5"
       },
       {
-        "title": "Most Gulf stocks in red as Trump rebuffs Iran sanctions easing - reuters.com",
-        "source": "reuters.com",
+        "title": "Most Gulf stocks in red as Trump rebuffs Iran sanctions easing - Reuters",
+        "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUXVhYUF1TUUzc19EUEw5NUpBdkNPS2JxaWx0Z0pzN0lxMWE0TC1McXdfYldta1ljWmpONU5sVnJna21aR19hU1Z3TGJmWDRsN0JHalRxLUpDc2g1d0xrdHBPMlk4MTBDNHRUR0g2VUdlbmc3MHhfUy1ScFVsdk1Ra1N1aE9wYzV1dXZTUmZUVlVvOE9jZHl5dDY3ZWRXRFNHZXJnZG1jaTJlVHBlOFA4Q2k5MA?oc=5"
       },
       {
@@ -47,7 +47,40 @@
       }
     ]
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "d7d4ce822348",
+      "ticker": "SAP",
+      "company": "SAP",
+      "category": "Europe Software / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "SAP stock weighs cloud growth against acquisition costs - AD HOC NEWS",
+      "reason": "Catalyst ma rilevato; il punteggio pesa fonte, freschezza, volumi, momentum, macro e quanto del rally sembra già avvenuto.",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYS0xRGVydERjT2kwcExkZzFBNmMxeFVybG9lQl9rYUk4Ql9lZ0FyQXYyTDRtOVVPY0x1eUdDeUtWbFZMekh4c19FWk9TTkJPeTdvS0R3RlBKQTZocWNjVl9lVV9CNVo4MUNaUnhDYWcwb21HX2FfZkJ2azFySnROWng4S3ItTDBRWk9sbUNHUU1vRmlMRU04VWJxQmFtX29EX09XR1Q3ejc2U0ZHQXRLZ1B0cWthWkhEZWc?oc=5",
+      "published_at": "2026-09-30T11:56:50+00:00",
+      "age_label": "6 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -0.0,
+      "short_term_change_pct": 0.17,
+      "relative_volume": 0.95,
+      "estimated_impact_pct": 4.0,
+      "confidence_score": 67.0,
+      "source_verified": false,
+      "tradingview_symbol": "SAP",
+      "risk_flags": "Segnale da confermare con prezzo e volumi in tempo reale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 62,
+        "volume": 43,
+        "momentum": 52,
+        "macro": 51,
+        "extension_penalty": 0
+      }
+    }
+  ],
   "watchlist": [
     {
       "ticker": "AMD",
