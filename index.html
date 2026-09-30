@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#070b14" />
+  <meta name="description" content="Catalyst Radar: scanner gratuito di catalyst azionari, macro, momentum e fonti." />
+  <title>Catalyst Radar</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <div class="brand">
+      <div class="radar-logo"><span></span><i></i></div>
+      <div>
+        <h1>Catalyst Radar</h1>
+        <p>News + macro + momentum + verifica fonti</p>
+      </div>
+    </div>
+    <div class="status-row">
+      <span id="marketBadge" class="badge neutral">Market</span>
+      <span id="lastUpdate" class="muted">Aggiornamento…</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero panel">
+      <div class="hero-copy">
+        <div class="eyebrow">25 MIN CATALYST SWEEP</div>
+        <h2>Intercetta catalyst forti prima che il movimento sia già esteso.</h2>
+        <p>Lo scanner combina qualità e freschezza della notizia, forza del catalyst, prezzo, volumi, momentum e quadro macro. Le fonti ufficiali hanno priorità.</p>
+        <div class="actions">
+          <button id="scanBtn" class="primary">▶ Avvia monitor 25 min</button>
+          <button id="refreshBtn" class="secondary">↻ Aggiorna dati</button>
+          <button id="installBtn" class="secondary hidden">＋ Installa app</button>
+        </div>
+        <small class="hero-note">Il motore GitHub esegue scansioni automatiche ogni 15 minuti. Il monitor da 25 minuti controlla nuovi risultati e ti avvisa mentre l'app è aperta.</small>
+      </div>
+      <div class="timer-wrap">
+        <div class="timer-ring" id="timerRing">
+          <div>
+            <strong id="timer">25:00</strong>
+            <span id="timerState">PRONTO</span>
+          </div>
+        </div>
+        <p id="scanHint">Durante il monitoraggio i risultati vengono ricontrollati automaticamente.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div><div class="eyebrow">MARKET REGIME</div><h3>Macro radar</h3></div>
+        <span id="macroBias" class="badge neutral">NEUTRAL</span>
+      </div>
+      <div id="macroGrid" class="macro-grid"></div>
+      <div id="macroSummary" class="macro-summary panel">Caricamento quadro macro…</div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div><div class="eyebrow">CATALYST FEED</div><h3>Segnali rilevati</h3></div>
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="all">Tutti</button>
+          <button class="filter" data-filter="critical">Priorità</button>
+          <button class="filter" data-filter="tech">Tech</button>
+          <button class="filter" data-filter="biotech">Biotech</button>
+        </div>
+      </div>
+      <div id="emptyState" class="empty panel hidden">
+        <strong>Nessun catalyst forte confermato.</strong>
+        <span>Il radar continua a controllare. I titoli già troppo estesi vengono penalizzati.</span>
+      </div>
+      <div id="catalystList" class="catalyst-list"></div>
+    </section>
+
+    <section class="chart-section panel">
+      <div class="section-head compact">
+        <div><div class="eyebrow">TRADINGVIEW</div><h3 id="chartTitle">Grafico live / delayed</h3></div>
+        <a id="openTradingView" class="text-link" href="https://www.tradingview.com/" target="_blank" rel="noopener">Apri TradingView ↗</a>
+      </div>
+      <div id="tvChart" class="tv-chart"><div class="chart-placeholder">Seleziona “Grafico” su un catalyst per caricare TradingView.</div></div>
+      <small class="muted">La disponibilità real-time o delayed dipende dal feed/exchange di TradingView.</small>
+    </section>
+
+    <section>
+      <div class="section-head"><div><div class="eyebrow">WATCHLIST</div><h3>Priorità personali</h3></div></div>
+      <div id="watchlist" class="watchlist panel"></div>
+    </section>
+
+    <section>
+      <div class="section-head"><div><div class="eyebrow">SOURCE CONTROL</div><h3>Fonti e copertura</h3></div></div>
+      <div id="sources" class="sources-grid"></div>
+    </section>
+
+    <section class="disclaimer panel">
+      <strong>Come leggere i punteggi</strong>
+      <p>“Confidence” è un punteggio euristico di qualità del segnale, non una probabilità garantita di rialzo. “Impatto stimato” è una stima indicativa basata su tipo di catalyst, estensione già avvenuta, volumi, momentum e macro. Catalyst Radar è uno strumento informativo, non consulenza finanziaria.</p>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
