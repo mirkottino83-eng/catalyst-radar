@@ -1,25 +1,30 @@
 {
-  "generated_at": "2026-10-01T20:14:40.278082+00:00",
+  "generated_at": "2026-10-01T20:34:39.612779+00:00",
   "status": "ok",
   "macro": {
     "treasury_10y": 5.236999988555908,
     "treasury_10y_change_bp": -5.600023269653336,
-    "wti": 93.13999938964844,
-    "wti_change_pct": 3.0081854410358932,
-    "brent": 102.48999786376953,
-    "brent_change_pct": -1.0045406430887693,
+    "wti": 92.93000030517578,
+    "wti_change_pct": 2.775936946537705,
+    "brent": 102.37999725341797,
+    "brent_change_pct": -1.1107906301925596,
     "nasdaq_level": 26871.595703125,
     "nasdaq_change_pct": 0.039220924399518964,
     "sox_level": 12829.0,
     "sox_change_pct": 1.5867124115942266,
-    "vix": 16.450000762939453,
-    "vix_change_pct": 0.6731983434782318,
-    "dollar_index": 102.03099822998047,
-    "macro_score": 60.9,
+    "vix": 16.389999389648438,
+    "vix_change_pct": 0.3059928800100309,
+    "dollar_index": 102.01899719238281,
+    "macro_score": 62.1,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +0.04%, SOX +1.59%, US10Y 5.24, WTI +3.01%. Geopolitica: Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack - CNBC",
-    "geopolitical_risk_score": 89,
+    "summary": "Tech bias positive. Nasdaq +0.04%, SOX +1.59%, US10Y 5.24, WTI +2.78%. Geopolitica: US sanctions target Iran's auto, rail sectors after blockade chokes shipping lanes - reuters.com",
+    "geopolitical_risk_score": 80,
     "geopolitical_headlines": [
+      {
+        "title": "US sanctions target Iran's auto, rail sectors after blockade chokes shipping lanes - reuters.com",
+        "source": "reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMGQ5cWhPbnlFT0hFQU1VME1qVVB2SndmZVROdUpzUU1sVGxRcDZndDN0R1BwdGVXRThreEJhTnV4WWQzZ19xUjlqZ3hqWjBWSEJWQ1JtcExJNVVRTG95UHQ1RjFsc21pbWQ4Q3c3dnhvYWZXUF9uNmQ0UHhWT1pJRXg3Yk42b0dOS0FJVmNsbGJLeFZTQkNKcW5ocVZVSzBlS2tnSnRpM044NEhMZW1FMG94N1U2dW1fUXJkbng1clJZSHpaZVVGLXFyeDBYcXM?oc=5"
+      },
       {
         "title": "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack - CNBC",
         "source": "CNBC",
@@ -31,42 +36,37 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcGNCX0VlMWRST1A0YVJxWVlHTGI2VGE2UUtRZXpnTTMwQW0zWmpDakdpTUI3ZFcwd0VLQ0xMemFfRkg1VkdjUGh1YUppeVNTdkZSbFVPX3lhMjZSR3ZITVJObHRJdC0ycklwUmF2d042VU5UeHlWWm1KNVJuVUQ4VW9PNHpfZHVRRW5iMzRiekdxWWhmWE42R011RXF6SjZUZktEdjZQZVdObkJXbVZqSlR3?oc=5"
       },
       {
-        "title": "US sanctions target Iran's auto, rail sectors after blockade chokes shipping lanes - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMGQ5cWhPbnlFT0hFQU1VME1qVVB2SndmZVROdUpzUU1sVGxRcDZndDN0R1BwdGVXRThreEJhTnV4WWQzZ19xUjlqZ3hqWjBWSEJWQ1JtcExJNVVRTG95UHQ1RjFsc21pbWQ4Q3c3dnhvYWZXUF9uNmQ0UHhWT1pJRXg3Yk42b0dOS0FJVmNsbGJLeFZTQkNKcW5ocVZVSzBlS2tnSnRpM044NEhMZW1FMG94N1U2dW1fUXJkbng1clJZSHpaZVVGLXFyeDBYcXM?oc=5"
-      },
-      {
         "title": "Dueling Perceptions Cloud Resolution of the U.S.-Iran Conflict - The Soufan Center",
         "source": "The Soufan Center",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYMXVJdlhFYjFsTU9hTGVoSC16NGZBTHZ3U0NUQzBhYWlxLU10X2dZdTJwZlZBeENlM2dpNk9qWUFydVlSbFpLOUFQUlZuNDZ6VWlVRm9PUm9DNnRHMjctM0xjd1U?oc=5"
       },
       {
-        "title": "Iran Offers to Allow Nuclear Inspectors If Sanctions Are Eased - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclN5TVFKWVhqRjNsSlB6SkJ5NWRaRXBZREVMVzZheWtjSWxUVHc5d2RzakVrSnZsakRNczE5SWdxYkdFZnV1ek0zTkJmSzAxVGJ3bHFqdDh0LUdubTdldkkwT21ZRExtSkZYX3JfdmFtaDFRaFZCMmJCYXUybGZlZUZvLXowaFdVdC1xQ2pXb2ZYcjZYNEFEQlZwSEE4ejNVREMtRUh6emo4NnVORWk2RlU4dw?oc=5"
+        "title": "Oil Climbs as U.S. Sends Another Aircraft Carrier to Middle East - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNmhPcVdsYXVvN2poOUlFX1dYN3htRTFkenA5T2VwekZleFZRZ0Uyb1ZUbWkzOXVzaUdlXzJKQWFzSDN6cURIMmUxbG00QWhvR2Utdy1acFplejVvU3hWTDlHRG5zZnNyalNnZ01DdEp1bUxBcWxLak9KTmhjbUw3VXJ5TFRodWExMEVETkNoRi1JemdmTF9IbGZBcGo2ZW5zREdjSjNlQ2R4X3hKbkNzb3REQl9CVEx4U2xIZDRvZDBCMUNOYVZzdHhZMkVXRDBQUmlrRnA1M3ZaSTFfX1l2M0t6bEZaT0treWMw?oc=5"
       }
     ]
   },
   "catalysts": [
     {
-      "id": "69916981e933",
+      "id": "aac753fd3fe6",
       "ticker": "QCOM",
       "company": "Qualcomm",
       "category": "Semiconductors",
       "priority": "high",
       "satispay_status": "check",
-      "headline": "Qualcomm Director Mark D. McLaughlin Reports Acquisition of 393 DSUs and Ownership Details - Kalkine Media",
+      "headline": "Qualcomm Director Mark D. McLaughlin Reports Acquisition of 393 DSUs and Ownership Details - kalkinemedia.com",
       "reason": "Catalyst ma rilevato; il punteggio pesa fonte, freschezza, volumi, momentum, macro e quanto del rally sembra già avvenuto.",
-      "source": "Kalkine Media",
+      "source": "kalkinemedia.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMWtPODhIQzVOS2FrUGRXM2gwU1VsTzFXSkVwbUhIWEFFc0t6VXdsX2dzMHJOcHBLeUdYd0V1QlFXbGk5ajlqNGxJTnRtczQ3aURVM0QtNTVWdERybDNRTEZkUGRnTG1mRWd2cEh3dHd1aEdDWXg2cHNNUnRTODJNeUFwNHpZUWZWM2x3b3BSMGJta25pQ210VVZPbUpNRkRNOS1qYVhENmpLaHRUcFMwbmFJN1VoSTI2aWltMkVYWTNRbUlLaXhxTm5WcmVJTVFUUFE?oc=5",
       "published_at": "2026-10-01T00:12:11+00:00",
       "age_label": "20 h fa",
       "catalyst_type": "ma",
       "current_change_pct": -1.06,
       "short_term_change_pct": -0.64,
-      "relative_volume": 0.6,
-      "estimated_impact_pct": 3.7,
-      "confidence_score": 62.0,
+      "relative_volume": 0.76,
+      "estimated_impact_pct": 3.8,
+      "confidence_score": 64.0,
       "source_verified": false,
       "tradingview_symbol": "QCOM",
       "risk_flags": "Segnale da confermare con prezzo e volumi in tempo reale.",
@@ -74,9 +74,9 @@
         "source_quality": 68,
         "catalyst_strength": 90,
         "freshness": 48,
-        "volume": 27,
+        "volume": 35,
         "momentum": 42,
-        "macro": 61,
+        "macro": 62,
         "extension_penalty": 0
       }
     },
@@ -94,9 +94,9 @@
       "published_at": "2026-10-01T07:49:34+00:00",
       "age_label": "12 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.14,
-      "short_term_change_pct": -0.04,
-      "relative_volume": 0.97,
+      "current_change_pct": 1.11,
+      "short_term_change_pct": -0.05,
+      "relative_volume": 1.02,
       "estimated_impact_pct": 1.7,
       "confidence_score": 61.0,
       "source_verified": false,
@@ -106,9 +106,9 @@
         "source_quality": 68,
         "catalyst_strength": 74,
         "freshness": 48,
-        "volume": 44,
-        "momentum": 50,
-        "macro": 61,
+        "volume": 46,
+        "momentum": 49,
+        "macro": 62,
         "extension_penalty": 0
       }
     }
