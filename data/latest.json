@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-02T04:10:41.683880+00:00",
+  "generated_at": "2026-10-02T04:29:55.497812+00:00",
   "status": "ok",
   "macro": {
     "treasury_10y": 5.236999988555908,
     "treasury_10y_change_bp": -5.600023269653336,
-    "wti": 92.48999786376953,
-    "wti_change_pct": -0.4091793599376059,
-    "brent": 102.08000183105469,
-    "brent_change_pct": -0.22480278861051195,
+    "wti": 92.5,
+    "wti_change_pct": -0.39840932016732555,
+    "brent": 102.05999755859375,
+    "brent_change_pct": -0.24435539631092462,
     "nasdaq_level": 26871.599609375,
     "nasdaq_change_pct": 0.03923546682607082,
     "sox_level": 12829.0,
     "sox_change_pct": 1.5867124115942266,
     "vix": 16.389999389648438,
     "vix_change_pct": 0.3059928800100309,
-    "dollar_index": 101.93099975585938,
+    "dollar_index": 101.92500305175781,
     "macro_score": 67.7,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +0.04%, SOX +1.59%, US10Y 5.24, WTI -0.41%. Geopolitica: US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes - reuters.com",
-    "geopolitical_risk_score": 89,
+    "summary": "Tech bias positive. Nasdaq +0.04%, SOX +1.59%, US10Y 5.24, WTI -0.40%. Geopolitica: US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes - reuters.com",
+    "geopolitical_risk_score": 80,
     "geopolitical_headlines": [
       {
         "title": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes - reuters.com",
@@ -41,9 +41,9 @@
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1seXlUdi1SdjkxUUZoVVI2REo0ZlJUS2hCYTZvV2ZRb0w0UUlTNThzQ1NYbmxqSl9ScVpTQU5Pd3VKajhHYU56RS1vS0d5SUpIS2poQ1hBMA?oc=5"
       },
       {
-        "title": "Trump the environmentalist? How his Iran war exposed the fragility of dirty energy - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc29TdWxIdFE4aFRFRDhJLUZqZk9qMXdkRHF4NkwyZUZNTDQ4M1BfRUUxWngyaEctdXNwNjZXUnQwOU5WRnBUbUl3OWJLcUo4Xy1zSDhrNVZlWHMzWHlTOHFOR2ZObHgyQWpxRlJha2l5THhJMVJqOFpkVHlBeHA1Vjhlcw?oc=5"
+        "title": "Oil Flows Are Up, but Iran Is Still Menacing the Strait of Hormuz - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMWxXSWF3aGlYdDN2Y1FKR3hQdk5mVHpzcTl4dm9wc2s4Qk1YTnlkU3U0elRVbDl3b0NHYlFfdHpidTd2UHJOR3FtVzdNUDg0SUNJRnVFcXl2N29haEo3YXktc3FGejktUjdTYWoxQk9aOTdUbUlDS2R2WW5HTk1fUXJnNlh0aHNZX0dBTzVHQkg?oc=5"
       }
     ]
   },
@@ -72,6 +72,38 @@
       "risk_flags": "Segnale da confermare con prezzo e volumi in tempo reale.",
       "factors": {
         "source_quality": 75,
+        "catalyst_strength": 78,
+        "freshness": 78,
+        "volume": 84,
+        "momentum": 45,
+        "macro": 50,
+        "extension_penalty": 0
+      }
+    },
+    {
+      "id": "f4c158104552",
+      "ticker": "NKE",
+      "company": "Nike",
+      "category": "Consumer",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Nike earnings beat by $0.04, revenue fell short of estimates - Investing.com",
+      "reason": "Catalyst earnings beat rilevato; il punteggio pesa fonte, freschezza, volumi, momentum, macro e quanto del rally sembra già avvenuto.",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZjlpN3ZvQjhGZjI0SU5sNXhPZEk1dEN2WW1XZ09JTTJ1ejA1c1BJU29VLUY1NFJuWnNSaHRPaFZIczBlSXpJVG5xa0ZMeERQZTlWaEE3WTM0YnFNRnVyZFBRY2dkRkE2MkY0S2JvRUJrWHg5Mmk3ZEpTODJhTVNaTmR1VllwMFdRenJtVi05dk9DakRoVzgxNGE5YjV6QWdCdldEWHYtRFY?oc=5",
+      "published_at": "2026-10-02T02:20:47+00:00",
+      "age_label": "2 h fa",
+      "catalyst_type": "earnings_beat",
+      "current_change_pct": -0.71,
+      "short_term_change_pct": -0.4,
+      "relative_volume": 2.94,
+      "estimated_impact_pct": 2.5,
+      "confidence_score": 71.0,
+      "source_verified": false,
+      "tradingview_symbol": "NKE",
+      "risk_flags": "Segnale da confermare con prezzo e volumi in tempo reale.",
+      "factors": {
+        "source_quality": 68,
         "catalyst_strength": 78,
         "freshness": 78,
         "volume": 84,
@@ -113,38 +145,6 @@
       }
     },
     {
-      "id": "f4c158104552",
-      "ticker": "NKE",
-      "company": "Nike",
-      "category": "Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Nike earnings beat by $0.04, revenue fell short of estimates - Investing.com",
-      "reason": "Catalyst earnings beat rilevato; il punteggio pesa fonte, freschezza, volumi, momentum, macro e quanto del rally sembra già avvenuto.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZjlpN3ZvQjhGZjI0SU5sNXhPZEk1dEN2WW1XZ09JTTJ1ejA1c1BJU29VLUY1NFJuWnNSaHRPaFZIczBlSXpJVG5xa0ZMeERQZTlWaEE3WTM0YnFNRnVyZFBRY2dkRkE2MkY0S2JvRUJrWHg5Mmk3ZEpTODJhTVNaTmR1VllwMFdRenJtVi05dk9DakRoVzgxNGE5YjV6QWdCdldEWHYtRFY?oc=5",
-      "published_at": "2026-10-02T02:20:47+00:00",
-      "age_label": "109 min fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": -0.71,
-      "short_term_change_pct": -0.4,
-      "relative_volume": 2.94,
-      "estimated_impact_pct": 2.5,
-      "confidence_score": 71.0,
-      "source_verified": false,
-      "tradingview_symbol": "NKE",
-      "risk_flags": "Segnale da confermare con prezzo e volumi in tempo reale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 78,
-        "freshness": 78,
-        "volume": 84,
-        "momentum": 45,
-        "macro": 50,
-        "extension_penalty": 0
-      }
-    },
-    {
       "id": "03dcf1148d99",
       "ticker": "NKE",
       "company": "Nike",
@@ -156,7 +156,7 @@
       "source": "Investing.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQekZKMTdsUHMwMW1rdklXSTJYUWhZcFFzSzNwcEdHVC1kZ2t0dWktdG9DUV9tdnd5aGZyUF9YaUlTS09ZSmpUQXdORDBwcUUxRG1Rd3dhNXZwVTh0cFVQd2dlTDdDOFVrcXBmMldmS2ZYMlpfQ05rbjdiOGgtREp2d0FQMW8wOGxHNWRrMDAwY1pJTlJKMnYtSnB2ZFMyTzlaeHZUbERqNnJJcTg3MXc?oc=5",
       "published_at": "2026-10-01T20:25:09+00:00",
-      "age_label": "7 h fa",
+      "age_label": "8 h fa",
       "catalyst_type": "earnings_beat",
       "current_change_pct": -0.71,
       "short_term_change_pct": -0.4,
