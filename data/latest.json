@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-05T01:29:18.538392+00:00",
+  "generated_at": "2026-10-05T01:47:21.993133+00:00",
   "status": "ok",
   "macro": {
     "treasury_10y": 5.2769999504089355,
     "treasury_10y_change_bp": 3.999996185302677,
-    "wti": 90.47000122070312,
-    "wti_change_pct": -0.7024469162123181,
-    "brent": 101.8499984741211,
-    "brent_change_pct": -0.3911995363118925,
+    "wti": 90.30999755859375,
+    "wti_change_pct": -0.8780628321792827,
+    "brent": 101.79000091552734,
+    "brent_change_pct": -0.44987685522998033,
     "nasdaq_level": 27190.859375,
     "nasdaq_change_pct": 1.188093638882659,
     "sox_level": 13136.669921875,
     "sox_change_pct": 2.3982377572297153,
     "vix": 15.3100004196167,
     "vix_change_pct": -6.5893777318493445,
-    "dollar_index": 102.0,
+    "dollar_index": 102.0009994506836,
     "macro_score": 74.9,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.19%, SOX +2.40%, US10Y 5.28, WTI -0.70%. Geopolitica: Iran's oil minister resigns for personal reasons, state media reports - Reuters",
-    "geopolitical_risk_score": 64,
+    "summary": "Tech bias strong positive. Nasdaq +1.19%, SOX +2.40%, US10Y 5.28, WTI -0.88%. Geopolitica: Iran's oil minister resigns for personal reasons, state media reports - Reuters",
+    "geopolitical_risk_score": 53,
     "geopolitical_headlines": [
       {
         "title": "Iran's oil minister resigns for personal reasons, state media reports - Reuters",
@@ -36,18 +36,51 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT3JPTFpBZkF2VnVVNE1kdVhKTEJTbjBvSXlmcFlDOE1GOXh6MDB4S1pQWUtyUXJKaS1oUjRDNXZmcE1PNHlMdGk4TEZVYmZaWnh3a3NwSE9oOWlnVnRUS2xha0VhZWRTdXFZdThnNE5PYjU5VUp2emE2OGV5c1pXTV9zc3J6WmExb09MaUdkdHFIejVvQWc?oc=5"
       },
       {
-        "title": "Iran Keeps Up Pace of Strikes With Attack on Brand New LR2 Tanker - The Maritime Executive",
-        "source": "The Maritime Executive",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcTV3bEFSU2NPYkxnN09GOHFNUGdoV3pTc1ZJYmlzRk5fUlJ3cmdaX3lIRGtuNkx0TnNDVHVvOU91R05MQ0Zzb1RWMkNCQnlBaXJENzd6OXpGRkxlOUVOT090c1lkQ0R3V2FxRHpRbUEwTUJ5Q2p2akowMjlIOW0xUjB6aXo4cnhPcGpSM3pnTDgxbWdkdFg3ZFRKZTdqTjdyVHkzSEdBTQ?oc=5"
+        "title": "Iran Oil Minister Resigns amid US Blockade on Oil Exports - کوردستان 24",
+        "source": "کوردستان 24",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUzcwUFJTOVBQVUhUeW9SLUdPYllnNGxKcW5PNnR1TVF5dGpYRGl0aUtsdE03NE9FcldvR1BvazdMbVBzd0ZtZEt5d2ttcDhrdW9NS2NJOGZyVHA1a29GTFY0eklleU5MeEhhY00xdC0zSHUxRXlxTnpoV3hVUWlBal9uNGtHVVZrZk5xbGlBcVNSM0MwR2tqdU9pRWtNcjBHLWlv?oc=5"
       },
       {
-        "title": "Iran says no military solution to war as peace talks with US stall - France 24",
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYkdGTmxyRWNXbGxHTklnUzRHbmk0OHJYNVQ2NUFpZHZ0NnB4V0xXa1ZMLWN0UmY0TlFxMHJtbHpwY0lvOFEyak90eVZJSlZHbjl3MTl1ZDFYY2FWQkJfOExRNkxCNXNuX1B2bUYxdnNLRzBYbkcyMjF4RHpoRzdRaUZmRm9JNjlkdmZTWWxLOFNpdjdJV3ZhVA?oc=5"
+        "title": "Live - Explosion heard near Iran’s Qeshm, Sirik Islands - iranintl.com",
+        "source": "iranintl.com",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOTk9NY25oVDA1VHhzR0hxT0pvLWs0MkRyZGN4QU5NZjl5RHZRNk13anozbldGMi1HcGlvclRQWktscHRETDIyd0luOTBhN3N6aVViYnRRU0YwWHlSQnc?oc=5"
       }
     ]
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "ea00d21790c2",
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "category": "Cloud / Software / AI",
+      "priority": "high",
+      "satispay_status": "check",
+      "headline": "Oracle Announces $10 Million Partnership with the Nashville Symphony - Oracle",
+      "reason": "Catalyst partnership rilevato; il punteggio pesa fonte, freschezza, volumi, momentum, macro e quanto del rally sembra già avvenuto.",
+      "source": "Oracle",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLWRRRVdubGFKRGdfQmNOQk5WdDVQVFprRjBpRzhlN0R5eDA4dHFiaUo2a2NFZmJXTzJzeG81ek42WE5WM2Vtb00xTExnRmllY0pzUHRLZ3Q1SXQydGl6UGttNDVNNDZvSXhyMHZCdkZHMmhObmJrTVpWTnBkWVk1SlJ2RFhFWjhycDcyclRMMHZteGZ4YXkxSDdBa1h2Nk85QXdEZnZMQ2I?oc=5",
+      "published_at": "2026-10-04T22:06:08+00:00",
+      "age_label": "3 h fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": 3.06,
+      "short_term_change_pct": 0.03,
+      "relative_volume": 1.15,
+      "estimated_impact_pct": 1.5,
+      "confidence_score": 68.0,
+      "source_verified": false,
+      "tradingview_symbol": "ORCL",
+      "risk_flags": "Segnale da confermare con prezzo e volumi in tempo reale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 78,
+        "volume": 50,
+        "momentum": 50,
+        "macro": 75,
+        "extension_penalty": 0
+      }
+    }
+  ],
   "watchlist": [
     {
       "ticker": "AMD",
