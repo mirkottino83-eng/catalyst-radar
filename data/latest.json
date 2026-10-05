@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-05T07:15:52.060728+00:00",
+  "generated_at": "2026-10-05T07:45:32.313960+00:00",
   "status": "ok",
   "macro": {
     "treasury_10y": 5.2769999504089355,
     "treasury_10y_change_bp": 3.999996185302677,
-    "wti": 89.91999816894531,
-    "wti_change_pct": -1.3061161600640414,
-    "brent": 101.5,
-    "brent_change_pct": -0.7334963325183352,
+    "wti": 89.70999908447266,
+    "wti_change_pct": -1.536605769399857,
+    "brent": 101.37999725341797,
+    "brent_change_pct": -0.8508584318650647,
     "nasdaq_level": 27190.859375,
     "nasdaq_change_pct": 1.188093638882659,
     "sox_level": 13136.669921875,
     "sox_change_pct": 2.3982377572297153,
-    "vix": 15.3100004196167,
-    "vix_change_pct": -6.5893777318493445,
-    "dollar_index": 102.2959976196289,
-    "macro_score": 74.9,
-    "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.19%, SOX +2.40%, US10Y 5.28, WTI -1.31%. Geopolitica: Iran's oil minister resigns for personal reasons, state media reports - Reuters",
+    "vix": 16.329999923706055,
+    "vix_change_pct": 6.6623087925094415,
+    "dollar_index": 102.24500274658203,
+    "macro_score": 61.5,
+    "tech_bias": "positive",
+    "summary": "Tech bias positive. Nasdaq +1.19%, SOX +2.40%, US10Y 5.28, WTI -1.54%. Geopolitica: Iran's oil minister resigns for personal reasons, state media reports - Reuters",
     "geopolitical_risk_score": 44,
     "geopolitical_headlines": [
       {
@@ -36,14 +36,14 @@
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSnhBUXRBdFU4Uk1LNDZKSzY1T2NwSkQ4QzVNVzc3Zm9wLVVLXy11d1RDVmg4eUVIcEpKSmV1VEl1NDUzNEtEN2xfMjNfODRNMVVUMjI3YVluRmduZkRuZ1NSa242dThtOXFBUjJyNGZYaFQ0VzJSTUQ3alE0RUUzN3E1SnlRREhfYUxVUGM2REdScEFfWVlTclpmcG5HakdjSzNHMWNacnFQX0o3SlE?oc=5"
       },
       {
+        "title": "Our Oil Columnist Got an EV. A Bad Omen for Big Petroleum? - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZVRJc3N3d2RtQ1lHc2h3elU2VldCOTNNVTVNR0p5VV9SSURUTUUzOTRkTldYZXhQTGxLbkJpZG1POWVKN29oMDZQbEF1c0t5Ykt2M3RzdnFCXy1uOENCRzE4ckxETm5iNkpxZ09wUHVKQmJDMGplNmJBOFg1QU83WHMtY0w1NnlBM1gwak9WeC1ONklMMW5zOGgzenpyLURMaXhXSXd4eUxZd0ZHTFE?oc=5"
+      },
+      {
         "title": "What can Iran’s new oil chief change under the US blockade? - Iran International",
         "source": "Iran International",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MQTZTTjlJeGNleEt0R1dwaVRva1Q4TFVUeWNUdXJKWEtMbFc3WW9IY2dZbFM2QVV5ZWl2Sk5GaEQ0MmlRTFE5YjlBV1RoTHU0V1E?oc=5"
-      },
-      {
-        "title": "Daily Open: Who's steering oil now? - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWFFyTWpXUW9xRm13SF8yR1JTT01ncmh6V09qWWUxcU50R240WlV6MDFXRmJ1THp3WGdaYW9NZGtQZHppc1g2S3lQUExUY0lGNHBrOERiZFY0dTgzNHlKY1lUbFdtMVBJNWNnejB5ZkUyVmtHaWpvX2tKNFNfYzI1X3BqM1hrRlUxQUtvT1Y0X0pqOXd3SWMwWDBhVdIBmwFBVV95cUxQWFFyTWpXUW9xRm13SF8yR1JTT01ncmh6V09qWWUxcU50R240WlV6MDFXRmJ1THp3WGdaYW9NZGtQZHppc1g2S3lQUExUY0lGNHBrOERiZFY0dTgzNHlKY1lUbFdtMVBJNWNnejB5ZkUyVmtHaWpvX2tKNFNfYzI1X3BqM1hrRlUxQUtvT1Y0X0pqOXd3SWMwWDBhVQ?oc=5"
       }
     ]
   },
@@ -65,8 +65,8 @@
       "current_change_pct": 3.06,
       "short_term_change_pct": 0.03,
       "relative_volume": 1.15,
-      "estimated_impact_pct": 1.6,
-      "confidence_score": 68.0,
+      "estimated_impact_pct": 1.5,
+      "confidence_score": 67.0,
       "source_verified": false,
       "tradingview_symbol": "ORCL",
       "risk_flags": "Segnale da confermare con prezzo e volumi in tempo reale.",
@@ -76,7 +76,7 @@
         "freshness": 62,
         "volume": 50,
         "momentum": 50,
-        "macro": 75,
+        "macro": 62,
         "extension_penalty": 0
       }
     }
