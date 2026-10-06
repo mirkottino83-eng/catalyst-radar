@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-06T06:13:18.029224+00:00",
+  "generated_at": "2026-10-06T06:39:17.499721+00:00",
   "status": "ok",
   "macro": {
     "treasury_10y": 5.310999870300293,
     "treasury_10y_change_bp": 3.399991989135744,
-    "wti": 89.41000366210938,
-    "wti_change_pct": -0.022360106226282372,
-    "brent": 100.44999694824219,
-    "brent_change_pct": 0.12958258952693313,
+    "wti": 88.7699966430664,
+    "wti_change_pct": -0.7380114725004439,
+    "brent": 99.83000183105469,
+    "brent_change_pct": -0.48843487366438954,
     "nasdaq_level": 27477.310546875,
     "nasdaq_change_pct": 1.0534833339558514,
     "sox_level": 13172.740234375,
     "sox_change_pct": 0.27457729176811885,
     "vix": 15.520000457763672,
     "vix_change_pct": 1.3716527262657596,
-    "dollar_index": 102.19599914550781,
+    "dollar_index": 102.26799774169922,
     "macro_score": 54.7,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +0.27%, US10Y 5.31, WTI -0.02%. Geopolitica: Iran’s oil minister resigns as US sends new proposals through mediators - NewsNation",
+    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +0.27%, US10Y 5.31, WTI -0.74%. Geopolitica: Iran’s oil minister resigns as US sends new proposals through mediators - NewsNation",
     "geopolitical_risk_score": 44,
     "geopolitical_headlines": [
       {
@@ -31,14 +31,14 @@
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGFMcUJwTDBpZnh0djlPVlU4OHBVWjA5VTVjSW5IOWoxdDdSVmQycWVlWmp0ejNoaHdWakRiZE5pOW1KS1Z0R1lvMW1oMk5xRUNqaFZHUUFTd3h3MEppSzNsTXl0ZUpCc2FvODdvdHR2Y0p1ZHdjbHZwTG04SnlxaHdISG1tVHVhdWV3X3ZRUEM?oc=5"
       },
       {
-        "title": "IRGC commander, son helped build new oil-sales network - iranintl.com",
-        "source": "iranintl.com",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfWDdYbmhIRi1IeldQcEpTQ1Rrei1LVFZGUF9WODFvR3RoMWI5dFFvbGFaSnVCbGpDTzM2aWZCQ0kxVE1LVUJ2Rkd4aUhJc1dkaUE?oc=5"
-      },
-      {
         "title": "Trump backed Iran into a corner. The regime isn’t blinking - CNN",
         "source": "CNN",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcVlaUmNHUF9jYnhFb0pRZzdLVTNYaEVtRlhDdVhlWldiTXpiUnc5YWlBQjBUTGlUeDVHVkF3Qk9pSml6dHVHM0JmdmMwMlU1QlZzUnlwd2l5MUlGTjM4VkJBcGo0cC0yYXZSRU5YMXZMdTNLUVVlRWFUZVBJRk9udDVyWWxGM1ZzT1E?oc=5"
+      },
+      {
+        "title": "IRGC commander, son helped build new oil-sales network - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfWDdYbmhIRi1IeldQcEpTQ1Rrei1LVFZGUF9WODFvR3RoMWI5dFFvbGFaSnVCbGpDTzM2aWZCQ0kxVE1LVUJ2Rkd4aUhJc1dkaUE?oc=5"
       },
       {
         "title": "More Oil, Same War: Why Increased Exports Aren’t a Sign of Iran’s Imminent Defeat - Council on Foreign Relations (CFR)",
@@ -49,15 +49,47 @@
   },
   "catalysts": [
     {
-      "id": "c25f5328e09e",
+      "id": "bc52ff32227b",
+      "ticker": "NET",
+      "company": "Cloudflare",
+      "category": "Cloud / Cybersecurity",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "STMicroelectronics announces status of common share repurchase program - manilatimes.net",
+      "reason": "Catalyst buyback rilevato; il punteggio pesa fonte, freschezza, volumi, momentum, macro e quanto del rally sembra già avvenuto.",
+      "source": "manilatimes.net",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRjA4UThzYV9TaDZSLS1ON1EtM0FSZEtSQXdHWmhucW9pVDctZTdLMTFzQzJIMGtpN2RmOENfbUhYSHZSN3NuQnhxTHk1bmdXOWUtOUpXNmxsR05LTEY2UHg0eC1sMGlIeTlSc1JkaGtXbWdLN1lyYm1qdUtmYzM0aC1uOHZ5NDhpbEYzX1pRRnd3bkZjdDVDZjktd2pwNnZvWk5jR1MyRTdnNVpiQ2hfODk0OFA1SnJRZmZnM0gxZ01MejVtR3p2WEpTOTN0ODhvQ0VVcXVRZjZlRm9wWjE0amhB0gHiAUFVX3lxTFBGMDhROHNhX1NoNlItLU43US0zQVJkS1JBd0daaG5xb2lUNy1lN0sxMXNDMkgwa2k3ZGY4Q19tSFhIdlI3c25CeHFMeTVuZ1c5ZS05Slc2bGxHTktMRjZQeDR4LWwwaUh5OVJzUmRoa1dtZ0s3WXJibWp1S2ZjMzRoLW44dnk0OGlsRjNfWlFGd3duRmN0NUNmOS13anA2dm9aTmNHUzJFN2c1WmJDaF84OTQ4UDVKclFmZmczSDFnTUx6NW1HenZYSlM5M3Q4OG9DRVVxdVFmNmVGb3BaMTRqaEE?oc=5",
+      "published_at": "2026-10-05T12:04:24+00:00",
+      "age_label": "18 h fa",
+      "catalyst_type": "buyback",
+      "current_change_pct": 2.99,
+      "short_term_change_pct": 0.06,
+      "relative_volume": 1.2,
+      "estimated_impact_pct": 1.1,
+      "confidence_score": 59.0,
+      "source_verified": false,
+      "tradingview_symbol": "NET",
+      "risk_flags": "Segnale da confermare con prezzo e volumi in tempo reale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 68,
+        "freshness": 48,
+        "volume": 52,
+        "momentum": 51,
+        "macro": 55,
+        "extension_penalty": 0
+      }
+    },
+    {
+      "id": "dc99f7a52104",
       "ticker": "STM",
       "company": "STMicroelectronics",
       "category": "Europe Semiconductors",
       "priority": "normal",
       "satispay_status": "check",
-      "headline": "STMicroelectronics announces status of common share repurchase program - The Manila Times",
+      "headline": "STMicroelectronics announces status of common share repurchase program - manilatimes.net",
       "reason": "Catalyst buyback rilevato; il punteggio pesa fonte, freschezza, volumi, momentum, macro e quanto del rally sembra già avvenuto.",
-      "source": "The Manila Times",
+      "source": "manilatimes.net",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRjA4UThzYV9TaDZSLS1ON1EtM0FSZEtSQXdHWmhucW9pVDctZTdLMTFzQzJIMGtpN2RmOENfbUhYSHZSN3NuQnhxTHk1bmdXOWUtOUpXNmxsR05LTEY2UHg0eC1sMGlIeTlSc1JkaGtXbWdLN1lyYm1qdUtmYzM0aC1uOHZ5NDhpbEYzX1pRRnd3bkZjdDVDZjktd2pwNnZvWk5jR1MyRTdnNVpiQ2hfODk0OFA1SnJRZmZnM0gxZ01MejVtR3p2WEpTOTN0ODhvQ0VVcXVRZjZlRm9wWjE0amhB0gHiAUFVX3lxTFBGMDhROHNhX1NoNlItLU43US0zQVJkS1JBd0daaG5xb2lUNy1lN0sxMXNDMkgwa2k3ZGY4Q19tSFhIdlI3c25CeHFMeTVuZ1c5ZS05Slc2bGxHTktMRjZQeDR4LWwwaUh5OVJzUmRoa1dtZ0s3WXJibWp1S2ZjMzRoLW44dnk0OGlsRjNfWlFGd3duRmN0NUNmOS13anA2dm9aTmNHUzJFN2c1WmJDaF84OTQ4UDVKclFmZmczSDFnTUx6NW1HenZYSlM5M3Q4OG9DRVVxdVFmNmVGb3BaMTRqaEE?oc=5",
       "published_at": "2026-10-05T12:04:24+00:00",
       "age_label": "18 h fa",
