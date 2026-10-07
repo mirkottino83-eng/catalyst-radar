@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-07T12:17:39.051824+00:00",
+  "generated_at": "2026-10-07T12:51:13.790093+00:00",
   "status": "ok",
   "macro": {
-    "treasury_10y": 5.269000053405762,
-    "treasury_10y_change_bp": -4.199981689453147,
-    "wti": 89.86000061035156,
-    "wti_change_pct": 0.4695864909221914,
-    "brent": 101.31999969482422,
-    "brent_change_pct": 0.73573061274399,
+    "treasury_10y": 5.335000038146973,
+    "treasury_10y_change_bp": 6.599998474121051,
+    "wti": 90.08999633789062,
+    "wti_change_pct": 0.7267373420636991,
+    "brent": 101.72000122070312,
+    "brent_change_pct": 1.1334255009890493,
     "nasdaq_level": 27599.7890625,
     "nasdaq_change_pct": 0.44574419107015206,
     "sox_level": 13217.8203125,
     "sox_change_pct": 0.34222247856494636,
-    "vix": 15.8100004196167,
-    "vix_change_pct": 5.329781336015738,
-    "dollar_index": 102.38500213623047,
-    "macro_score": 48.7,
-    "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.45%, SOX +0.34%, US10Y 5.27, WTI +0.47%. Geopolitica: Iran-backed Houthis deny losing ground in Yemen as oil prices ease despite fierce fighting - CBS News",
-    "geopolitical_risk_score": 62,
+    "vix": 15.789999961853027,
+    "vix_change_pct": 5.196533784658697,
+    "dollar_index": 102.47000122070312,
+    "macro_score": 38.2,
+    "tech_bias": "negative",
+    "summary": "Tech bias negative. Nasdaq +0.45%, SOX +0.34%, US10Y 5.34, WTI +0.73%. Geopolitica: Iran-backed Houthis deny losing ground in Yemen as oil prices ease despite fierce fighting - CBS News",
+    "geopolitical_risk_score": 53,
     "geopolitical_headlines": [
       {
         "title": "Iran-backed Houthis deny losing ground in Yemen as oil prices ease despite fierce fighting - CBS News",
@@ -26,7 +26,12 @@
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQczhsWnBDYVFqOGRhcWt5dS1WUy01WWZyWjV0UEIxVTZwUVV0RlBlcnpwbnhhRHVEZG83dE5HS05LWUxKWWR2MG9oWDVNQzE1aElqVkN3Tzc4Mjl4ZTQtTmNJVXMyTWVESmJ5MEJIZ2RWME13WGszcEhmUENQUmdLdEkxRXJ1TWszcnZiUklfblBaVVQ1RVRWUDRXS3BfQ1BhTlhHSA?oc=5"
       },
       {
-        "title": "How a Small Business Got Entangled in U.S. Sanctions on Iranian Oil - The New York Times",
+        "title": "Has Russia’s fuel crisis given Iranian oil an opening in Central Asia? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTXBRcGs2Q1RSWXRCVGkzV3BPSy1WSnlXRVhtWEQ4X0pnZE5LaENJRXVFNkNIdDJWTllRYXpwVzY0YUh0Z1dnVGZPeW9CeC1TNzhVTVlSZHh5Y3p6LUNnUVpuS2RZdUlUaFVUUnR3SENhUGZ4bXRhVFExeTdpT0lVYTFyTWdKWkt3Y2xfQWNaSmJYVEZIOHM3M2VaVWI2RjZPLUduUWNwSXZ0S3g0R1HSAbMBQVVfeXFMTVhpN0k3VzR6MkVRSFNDRFlBWGtnN000VDYwRWhKd0gzNjBQMDJjNV9kMHBIelVsOGFieEdyR0FlT1VscjdzcEg4X01LdUJ4T0hsWHQ3R2htR2VtSEs1X1NYSHpqVURONnhXVU1qblNlYWpiMVNNVVhpR251WmZ6eUZnc1pUZm1uSzVrc01EZVhQNmxIdFlFcnMtVThiSUQwX2RweUpPOWd1SjBrcGltMDVHSUE?oc=5"
+      },
+      {
+        "title": "Iranian Oil, a Minor Player and the Limits of U.S. Sanctions - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZzFKamVMcUVHSXE4OUpnODBFUFZxNE02U2JpQmZWcjdkSk5TdHl6QlFYZHlyRDgwYTlON3htNVJHOHRCRHBCWmJmU2tBd2tnOHVBV3VqTVViVFdDM0xwam9BMmlFZWVLSDBFU2dlZjhZVk1vS2ZBTU9xWk56Nmtzb2Qtd2poejlrSUZ2YVhkQVZENXRX?oc=5"
       },
@@ -36,14 +41,9 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGpoVjItaDZJaTZmNzBfekFfXzEyeUdQY2NRaWJwSUEtVDU1dmRlZHE2TjE0RWRWdnlWbWctX1FOdGI5OVBLWmtGTTVTRkRDYkt4WnBsN0k4Y3JucGJobnN3blo3N25HeXJQdlY0TW1Bb0hhbFBlV0xZWVlkX0hRRFQzdGxLbkZ2YkFYNHBadUQzeTU4SHpKakhoWVpTTEc0TW5jaE5NUDFCZ2pHd2NyQU1ZUQ?oc=5"
       },
       {
-        "title": "Iraq devalues its currency as Iran-U.S. war disrupts oil shipping routes - WMTW",
-        "source": "WMTW",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRWE1OW5vTU9LWWZQaHQ2TTlZRDVfZGdnZmpoZTVaUXNKRHN5MmJWUHJ6Z3d4MVZRTG9rNmR0NVBIdG9mNlg1YWFVR3QxTkpaOG5vRGJ3aF9qT1gxTVpTc1lWNWpzdzdRbTVocTNyNXJDM0h0UVI0ZE9zc1I5a3ZXTmgyVWYwRHJ6U2w4X05Wd0M3Z2VOUGIw?oc=5"
-      },
-      {
-        "title": "CNBC Daily Open: Fragile rebound in oil exports threatened by Iran attacks in Hormuz - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNzl5V2RMNE53b2k2NEd0clVvVUljWkNQVmZVeXdNVEo0dUxRbEtFSmhKdmVoU3RyVU5RUlZBN3RFYkZPRTZKcll3NDYyMWN4UHFFN1FQdEdFMTUtUjBvcUpZclY0VV9XVUQ1WDhLYmhkVlFweDVHSjJackhYUVdVNW90VWLSAYoBQVVfeXFMUGxQT2liNldmMUJteGhZTmREb3hjSE1TcFlPb0I2QkJFQnpJN0FETS1NY0VpVFpDeVVERllaSlV5SU5nTkczcFVCQjBVMnNacVJuZWstUm9xbEhfWW5EWS1kN2ZEQ3MtNDZDYWpyUGJwanphUVA2SmVZdXF1SGg3RW9ac2dUSWNPTGp3?oc=5"
+        "title": "Oil prices climb above $100 on Strait of Hormuz attacks, Gulf storm threat - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZHV1MkUxaGpvYzQ3U0hXZ1BwdFZxM3ZBTDA1aEFfd1ZadkdxNG9GcWJ2RUVtX1BNcm9KcWlRV1NDRGpqbmJBQXJyQndqMkpmakI4SUtIYTNpUnUyMlpqVWZUNFkyM3ljRUE1R2t1LUd6LS1uUHJvWnVycGlCRW82Sko3YmFSc2JRZy1GUTJKVEh5SHlXZXdYSTJCYVBFUDhaZ0NadVJOcG9XZVB6TG45Sm9LQ2dYblZ6QllBVi1WSjhkeGhKM3NnMQ?oc=5"
       }
     ]
   },
