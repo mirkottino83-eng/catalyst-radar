@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-08T22:19:55.801337+00:00",
+  "generated_at": "2026-10-08T22:43:31.296381+00:00",
   "status": "ok",
   "macro": {
     "treasury_10y": 5.230999946594238,
     "treasury_10y_change_bp": -4.60000038146973,
-    "wti": 91.0199966430664,
-    "wti_change_pct": 3.1037583842967953,
-    "brent": 103.93000030517578,
-    "brent_change_pct": 3.722558353829397,
+    "wti": 91.05999755859375,
+    "wti_change_pct": 3.1490697980716575,
+    "brent": 103.73999786376953,
+    "brent_change_pct": 3.532935153037897,
     "nasdaq_level": 27193.33984375,
     "nasdaq_change_pct": -1.2540524485118887,
     "sox_level": 12623.71484375,
@@ -15,15 +15,20 @@
     "vix": 15.40999984741211,
     "vix_change_pct": 2.188328417610186,
     "dollar_index": 102.11499786376953,
-    "macro_score": 6.7,
+    "macro_score": 6.6,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.25%, SOX -3.39%, US10Y 5.23, WTI +3.10%. Geopolitica: US imposes fresh sanctions on Iran's shadow fleet - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -1.25%, SOX -3.39%, US10Y 5.23, WTI +3.15%. Geopolitica: US imposes fresh sanctions on Iran's shadow fleet - Reuters",
     "geopolitical_risk_score": 80,
     "geopolitical_headlines": [
       {
         "title": "US imposes fresh sanctions on Iran's shadow fleet - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUm45bHRGMFlmNEV2d2lTTkFvQURQckhMSGhYRlhxWUtOb1d2cGhCTnVXUEJaMF94S2xZNXFWMF9ONTVraWdWdnVOME04c2xyMk5tRnhHVjI3YVFmQTZIWVR6MXhDUUNram9tRjlsejRlRXVQUERDX3NkY2ZIVmlsOV9Ic0wxOVNPSmVCRmtVVExGcWZNY0tCTw?oc=5"
+      },
+      {
+        "title": "Iran Conflict Remains Deeply Unpopular as Many Americans Expect It To Go On for Months - Pew Research Center",
+        "source": "Pew Research Center",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOXd1WTRmanhmX0wxcjRzaERwcm5ocVlnNERtTUl6ZU5qbWdCQXlkQjByV2lXVkx5MUdrTG0zZFI4NEplZXVrZWRsaWFSLVhIM2xWYWVjX0loWEw1TDJjdUtpRzI3aXV6LUhXNjI0cUpMWm82QnVYd1J6RXRuWXBadDQ4YXNCS0JmY09Gek8yUWdDYzBneXowRnFGOTVMSXRJNFVteUNETHZlVk1CQlNkX2ExQzZwSU9zVVA4ZFVfdVZFVmhEUE9FdW1JdVdDeVJ0dFVCMA?oc=5"
       },
       {
         "title": "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign - CNBC",
@@ -34,11 +39,6 @@
         "title": "Tanker attacked off Qatar as Iran claims route transporting oil through strait of Hormuz will be ‘closed’ - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGpBZ3dHeE0yV0pvMTR0VTBMdHpZQUZoWjdneXNyV0d3RWVoZm1TWFJ5cS16Y0lCRk5PM2dEdVp1dlp2ZEJwTkQ5SlR4dVVoYzVwa0pEdjd5OUJCUTZmaVdRTUk4alo5TTJFRlVVV2lkSzl3MU5PMER5WkR1T2tlYVdNNU15cGQxMVViendna1NZRjBxdnUxb2dMZHFua2ZzVFZ4YTJ4cUg?oc=5"
-      },
-      {
-        "title": "Iran Conflict Remains Deeply Unpopular as Many Americans Expect It To Go On for Months - Pew Research Center",
-        "source": "Pew Research Center",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOXd1WTRmanhmX0wxcjRzaERwcm5ocVlnNERtTUl6ZU5qbWdCQXlkQjByV2lXVkx5MUdrTG0zZFI4NEplZXVrZWRsaWFSLVhIM2xWYWVjX0loWEw1TDJjdUtpRzI3aXV6LUhXNjI0cUpMWm82QnVYd1J6RXRuWXBadDQ4YXNCS0JmY09Gek8yUWdDYzBneXowRnFGOTVMSXRJNFVteUNETHZlVk1CQlNkX2ExQzZwSU9zVVA4ZFVfdVZFVmhEUE9FdW1JdVdDeVJ0dFVCMA?oc=5"
       },
       {
         "title": "Oil surges, stocks sink on jitters over US plans in Iran war - AFP.com",
@@ -60,10 +60,10 @@
       "source": "Pharmaceutical Technology",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOajktY1lCZnhkYVZxY05URzVJVk1leWhlS3dGOWJFbEJkNGJRNmdHOGtJNTdvMVh6Q25YZE0xZDVCMGtycTExMGhFUXB4aVVBZVJ1Z0ZPNFFuSnNrdlBxN0U2d1V5NE9YRFA1M3Y2ZFd5c1RUVE9KNGpIR2Z0bzdmdEpJVjFhbHJKUk9NSFJOYzNOdUwwYnc?oc=5",
       "published_at": "2026-10-08T14:20:37+00:00",
-      "age_label": "7 h fa",
+      "age_label": "8 h fa",
       "catalyst_type": "fda_approval",
       "current_change_pct": -0.64,
-      "short_term_change_pct": 0.01,
+      "short_term_change_pct": -0.17,
       "relative_volume": 1.43,
       "estimated_impact_pct": 5.7,
       "confidence_score": 71.0,
@@ -75,7 +75,7 @@
         "catalyst_strength": 98,
         "freshness": 62,
         "volume": 58,
-        "momentum": 50,
+        "momentum": 48,
         "macro": 50,
         "extension_penalty": 0
       }
@@ -92,7 +92,7 @@
       "source": "AD HOC NEWS",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNVhmMzJOYUFzbjR1SW9YaHJ4d2thWVQxTlk3QUNGX2VCQmk0SGJ2UGRUTnNJOVdMc3dWU19QSlhYVkF5Qnd2WGVvajU1TnN0NUtyeVFyY2IxWElydXdhWm1rN1p5a3gwT2xlUzY1dFVTWkphTGJMMHRhcmZITnBROTFWTU5IeHV1dmxvZDhFQ2tOLUNDdmtjM1hlOXJIaTFBcERTYk54OTZlUDZqQWlnaW4tM01hX2d2QUxOemhLeUxpMXRWR2Zjc2hDTlhYT2h6UkJDV0ZKa25pTDRDNG93?oc=5",
       "published_at": "2026-10-08T09:21:06+00:00",
-      "age_label": "12 h fa",
+      "age_label": "13 h fa",
       "catalyst_type": "ma",
       "current_change_pct": 1.08,
       "short_term_change_pct": 0.35,
@@ -124,10 +124,10 @@
       "source": "Kalkine Media",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQUFsNlJzb01zelVSZlVpT1lZQklwOVZuOUxiMC14ZmljVnFENnp4V1piZnRWS28yM0VRSFFWLXVYV2FtcS1EdnUyWDhVd1N1UHJmZjBZblNob0lFWUczZDV2Ql9najRER2NrbHY1RXRWeU0waml6NHpOZFZPWTVYODlDcndGS1NTYlBMcVVMdTJuRmR1SnhIZ24yYk5hRnRja2xhTHJ1S1RUeVpQaTdiRy1yY0hVOTZRVFA2U3U4NFUxTnlGdHBjenJtc3Y0YjVyWE11SFZEWQ?oc=5",
       "published_at": "2026-10-08T01:26:50+00:00",
-      "age_label": "20 h fa",
+      "age_label": "21 h fa",
       "catalyst_type": "ma",
       "current_change_pct": 2.46,
-      "short_term_change_pct": -0.04,
+      "short_term_change_pct": -0.4,
       "relative_volume": 1.2,
       "estimated_impact_pct": 3.2,
       "confidence_score": 61.0,
@@ -139,7 +139,7 @@
         "catalyst_strength": 90,
         "freshness": 48,
         "volume": 52,
-        "momentum": 49,
+        "momentum": 45,
         "macro": 7,
         "extension_penalty": 0
       }
