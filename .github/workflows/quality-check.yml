@@ -5,7 +5,9 @@ on:
     branches: [main]
     paths:
       - 'scripts/**'
+      - 'tests/**'
       - 'app.js'
+      - 'styles.css'
       - 'index.html'
       - 'sw.js'
       - '.github/workflows/quality-check.yml'
@@ -23,6 +25,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Verify Python scanner syntax
-        run: python -m py_compile scripts/scanner.py
+        run: python -m py_compile scripts/scanner.py scripts/history.py
+      - name: Verify archived price calculations
+        run: python -m unittest discover -s tests -v
       - name: Verify JavaScript syntax
-        run: node --check app.js
+        run: node --check app.js && node --check sw.js
