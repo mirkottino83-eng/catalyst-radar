@@ -32,3 +32,6 @@
 .personal-remove:hover{color:#fff}
 @media(max-width:900px){.archive-stats{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:650px){.archive-item{padding:14px}.archive-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.archive-head>strong{font-size:16px}.archive-stat strong{font-size:15px}.archive-stat small{font-size:10px}.data-timestamps{font-size:10px}}
+
+.personal-graph{border:0;background:#132a41;color:var(--cyan);border-radius:8px;padding:5px 7px;cursor:pointer;font-size:10px;font-weight:700}
+.personal-graph:hover{background:#25435f}
