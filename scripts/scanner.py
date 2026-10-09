@@ -7,6 +7,7 @@ from urllib.parse import quote_plus
 import feedparser
 import requests
 import yfinance as yf
+from history import update_history
 
 ROOT=Path(__file__).resolve().parents[1]
 WATCH=json.loads((ROOT/'config/watchlist.json').read_text())
@@ -134,6 +135,12 @@ def load_market(tickers):
                         volume=vol,
                         relative_volume=(vol/avg if vol and avg else None)
                     )
+                    # Salva solo dati realmente scaricati, senza interpolazioni.
+                    d['day_closes'] = [
+                        (str(idx.date()), float(value))
+                        for idx, value in df['Close'].dropna().items()
+                        if safe_float(value) is not None and float(value) > 0
+                    ]
 
         except Exception as e:
             print('daily parse',t,e)
@@ -149,6 +156,15 @@ def load_market(tickers):
 
                     d['last_price']=last
                     d['short_term_change_pct']=pct(last,hour)
+                    d['bars_5m'] = [
+                        (int(idx.to_pydatetime().timestamp()), float(value))
+                        for idx, value in df['Close'].dropna().items()
+                        if safe_float(value) is not None and float(value) > 0
+                    ]
+                    if d['bars_5m']:
+                        d['last_quote_at'] = datetime.fromtimestamp(
+                            d['bars_5m'][-1][0], timezone.utc
+                        ).isoformat()
 
         except Exception as e:
             print('intra parse',t,e)
@@ -337,7 +353,15 @@ def macro_snapshot(market):
 
         'macro_score':round(score,1),
         'tech_bias':bias,
-        'summary':summary
+        'summary':summary,
+        'quote_times': {
+            'treasury_10y':tnx.get('last_quote_at'),
+            'wti':wti.get('last_quote_at'),
+            'brent':brent.get('last_quote_at'),
+            'nasdaq':nas.get('last_quote_at'),
+            'sox':sox.get('last_quote_at'),
+            'vix':vix.get('last_quote_at'),
+        }
     }
 
 def sec_filings(max_age_hours=24):
@@ -896,6 +920,9 @@ def main():
         macro
     )
 
+    history_count, history_changed = update_history(catalysts, market, now())
+    print(f"Archivio: {history_count} eventi, modifiche: {history_changed}")
+
     sources=[
         {
             'name':'SEC EDGAR',
@@ -934,6 +961,8 @@ def main():
         'status':'ok',
         'macro':macro,
         'catalysts':catalysts,
+        'archive_count':history_count,
+        'background_schedule_minutes':15,
         'watchlist':WATCH,
         'sources':sources
     }
