@@ -30,15 +30,15 @@
   <main>
     <section class="hero panel">
       <div class="hero-copy">
-        <div class="eyebrow">25 MIN CATALYST SWEEP</div>
-        <h2>Intercetta catalyst forti prima che il movimento sia già esteso.</h2>
+        <div class="eyebrow">SCANNER CLOUD • CONTROLLO AUTOMATICO</div>
+        <h2>Monitoraggio periodico di catalyst e macro, anche con l'app chiusa.</h2>
         <p>Lo scanner combina qualità e freschezza della notizia, forza del catalyst, prezzo, volumi, momentum e quadro macro. Le fonti ufficiali hanno priorità.</p>
         <div class="actions">
-          <button id="scanBtn" class="primary">▶ Avvia monitor 25 min</button>
+          <button id="scanBtn" class="primary">▶ Monitor locale 25 min</button>
           <button id="refreshBtn" class="secondary">↻ Aggiorna dati</button>
           <button id="installBtn" class="secondary hidden">＋ Installa app</button>
         </div>
-        <small class="hero-note">Il motore GitHub pianifica scansioni ogni 15 minuti (l’avvio può subire ritardi). L’ora di una notizia RSS indica la pubblicazione dell’articolo, non necessariamente il momento dell’evento. Verifica sempre la fonte primaria. Il monitor di 25 minuti aggiorna la schermata mentre l’app è aperta.</small>
+        <small class="hero-note">Lo scanner gira sui server GitHub anche quando il telefono è spento o l'app è chiusa: circa ogni 15 minuti, con possibili ritardi e interruzioni del servizio. Il timer di 25 minuti è soltanto il controllo locale a schermo, NON avvia lo scanner cloud. Prezzi e notizie possono essere ritardati; l'orario RSS non prova l'ora dell'evento.</small>
       </div>
       <div class="timer-wrap">
         <div class="timer-ring" id="timerRing">
@@ -58,6 +58,8 @@
       </div>
       <div id="macroGrid" class="macro-grid"></div>
       <div id="macroSummary" class="macro-summary panel">Caricamento quadro macro…</div>
+      <div id="macroQuoteTimes" class="data-timestamps">Ultime quotazioni disponibili: verifica in corso…</div>
+      <div id="backendStatus" class="data-timestamps">Ultima scansione cloud: in attesa…</div>
     </section>
 
     <section>
@@ -68,6 +70,7 @@
           <button class="filter" data-filter="critical">Priorità</button>
           <button class="filter" data-filter="tech">Tech</button>
           <button class="filter" data-filter="biotech">Biotech</button>
+          <button class="filter" data-filter="personal">Miei titoli</button>
         </div>
       </div>
       <div id="emptyState" class="empty panel hidden">
@@ -75,6 +78,16 @@
         <span>Il radar continua a controllare. I titoli già troppo estesi vengono penalizzati.</span>
       </div>
       <div id="catalystList" class="catalyst-list"></div>
+    </section>
+
+    <section id="archiveSection">
+      <div class="section-head">
+        <div><div class="eyebrow">CATALYST HISTORY</div><h3>Archivio e risultati reali</h3></div>
+        <span id="archiveCount" class="badge neutral">Archivio in caricamento</span>
+      </div>
+      <p class="section-description">I catalyst sono conservati dal primo rilevamento dopo l'aggiornamento. Orario della notizia, variazione alla pubblicazione (se verificabile) e rendimento osservato rispetto al prezzo della notizia dopo 2, 5 e 8 ore. Non sono profitti di un'operazione.</p>
+      <div id="archiveList" class="archive-list"><div class="empty panel">Caricamento archivio…</div></div>
+      <button id="archiveMoreBtn" class="secondary hidden" type="button">Mostra altri catalyst</button>
     </section>
 
     <section class="chart-section panel">
@@ -90,9 +103,19 @@
       <small class="muted">La disponibilità real-time o delayed dipende dal feed/exchange di TradingView.</small>
     </section>
 
-    <section>
-      <div class="section-head"><div><div class="eyebrow">WATCHLIST</div><h3>Priorità personali</h3></div></div>
-      <div id="watchlist" class="watchlist panel"></div>
+    <section id="personalSection">
+      <div class="section-head"><div><div class="eyebrow">WATCHLIST PERSONALE</div><h3>I miei titoli</h3></div></div>
+      <div class="watchlist panel">
+        <form id="personalForm" class="personal-form" autocomplete="off">
+          <label for="personalTicker">Aggiungi ticker</label>
+          <div class="personal-controls">
+            <input id="personalTicker" name="ticker" placeholder="es. AMD, GOOGL, NBIS" maxlength="12" autocapitalize="characters" spellcheck="false" required>
+            <button class="primary" type="submit">＋ Aggiungi</button>
+          </div>
+        </form>
+        <div id="watchlist" class="personal-items"></div>
+        <small class="section-description">Puoi aggiungere o rimuovere titoli liberamente. La lista è salvata su questo telefono: filtra i segnali già rilevati, ma non amplia l'universo dello scanner GitHub né si sincronizza fra dispositivi.</small>
+      </div>
     </section>
 
     <section>
