@@ -15,7 +15,7 @@ UNIVERSE=WATCH+[{**d,'satispay_status':'check'} for d in DISCOVERY]
 OUT=ROOT/'data/latest.json'
 UA={'User-Agent':'CatalystRadar/1.0 contact: github-actions'}
 
-MAX_NEWS_AGE_HOURS=24
+MAX_NEWS_AGE_HOURS=6
 
 POSITIVE={
  'fda_approval':(['fda approves','fda approval','approved by the fda','ema recommends approval','chmp positive'],98,8.0),
@@ -27,8 +27,16 @@ POSITIVE={
  'partnership':(['strategic partnership','partnership with','collaboration with','joint venture'],74,3.2),
  'analyst_upgrade':(['upgraded to buy','upgrade to buy','price target raised','initiated with buy'],60,2.2),
  'buyback':(['share repurchase','stock buyback','buyback authorization'],68,2.8),
- 'approval_other':(['approval','authorized','clearance','cleared by'],70,3.0),
 }
+
+# Rimuove titoli non operativi: un articolo nuovo puo descrivere un evento vecchio.
+# Questo filtro e volutamente conservativo e non garantisce la data dell'evento.
+NON_ACTIONABLE_PATTERNS=[
+    r'\b(?:sponsorship|sponsors?|sponsored|philanthrop\w*|charity|donation|donates?|scholarship)\b',
+    r'\b(?:previously announced|last (?:week|month|year)|a look back|news recap|explainer|explained)\b',
+    r'\b(?:should you buy|stock prediction|price prediction|what investors need to know)\b',
+    r'\b(?:community event|volunteer program|opinion|editorial)\b',
+]
 
 NEGATIVE=[
  'offering','secondary offering','dilution','downgrade','cuts guidance',
@@ -183,6 +191,9 @@ def google_news(query,max_items=20):
 
 def classify_headline(title):
     low=title.lower()
+
+    if any(re.search(p, low) for p in NON_ACTIONABLE_PATTERNS):
+        return None
 
     if any(k in low for k in NEGATIVE):
         return None
@@ -405,8 +416,12 @@ def sec_filings(max_age_hours=24):
 def build_candidates(market,macro):
     items=[]
 
-    for i in range(0,len(UNIVERSE),6):
-        group=UNIVERSE[i:i+6]
+    groups=[UNIVERSE[i:i+6] for i in range(0,len(UNIVERSE),6)]
+    # Ricerca mirata aggiuntiva per i titoli critici, senza abbandonare
+    # la scansione estesa di tutti i settori.
+    groups += [[w] for w in WATCH if w.get('priority')=='critical']
+
+    for group in groups:
 
         names=' OR '.join(
             '"'+w['company']+'"'
@@ -529,10 +544,9 @@ def build_candidates(market,macro):
                     'headline':n['title'],
 
                     'reason':
-                        f"Catalyst {typ.replace('_',' ')} rilevato; "
-                        "il punteggio pesa fonte, freschezza, "
-                        "volumi, momentum, macro e quanto del "
-                        "rally sembra già avvenuto.",
+                        f"Possibile evento {typ.replace('_',' ')} indicizzato da Google News. "
+                        "La data e quella della pubblicazione: verificare fonte primaria "
+                        "e data dell'evento prima di considerarlo un catalyst nuovo.",
 
                     'source':n['source'] or 'Google News',
                     'url':n['url'],
@@ -547,7 +561,12 @@ def build_candidates(market,macro):
                     'estimated_impact_pct':round(est,1),
                     'confidence_score':round(conf,0),
 
-                    'source_verified':srcq>=88,
+                    # Fonte autorevole NON significa evento verificato:
+                    # il motore ha letto un indice RSS, non il documento primario.
+                    'source_verified':False,
+                    'verification_status':'RSS_INDICIZZATO_DA_VERIFICARE',
+                    'headline_published_at':n['published'].isoformat(),
+                    'event_occurred_at':None,
 
                     'tradingview_symbol':w['ticker'],
 
@@ -654,11 +673,9 @@ def build_candidates(market,macro):
             'headline':f['title'],
 
             'reason':
-                'Nuovo filing ufficiale SEC. '
-                'Il filing è una conferma primaria '
-                'dell’evento societario, ma non viene '
-                'interpretato automaticamente come positivo '
-                'senza ulteriore contesto.',
+                'Documento SEC ufficiale rilevato. Il modulo e la data di deposito '
+                'non permettono di stabilire se sia un catalyst positivo: '
+                'leggere il contenuto prima di operare.',
 
             'source':'SEC',
             'url':f['url'],
@@ -671,15 +688,11 @@ def build_candidates(market,macro):
             'short_term_change_pct':round(mom,2),
             'relative_volume':round(rv,2),
 
-            'estimated_impact_pct':round(
-                max(
-                    .5,
-                    2*(conf/100)
-                ),
-                1
-            ),
+            # Filing generici non sono segnali long: nessun rialzo stimato.
+            'estimated_impact_pct':0.0,
 
-            'confidence_score':round(conf,0),
+            'confidence_score':min(45,round(conf,0)),
+            'verification_status':'SEC_DOCUMENTO_UFFICIALE_EVENTO_NON_CLASSIFICATO',
 
             'source_verified':True,
 
@@ -812,8 +825,20 @@ def geopolitical_snapshot():
     ]
 
     headlines=[]
+    # Evita articoli didattici e analisi storiche come breaking news.
+    reliable=('reuters','associated press','bloomberg','cnbc','bbc',
+              'financial times','wall street journal','ap news','axios')
+    live_verbs=('attack','strike','hit','closed','closure','blockade',
+                'seized','missile','sanction','ceasefire','talks','negotiat',
+                'reopen','deploy','target','warn','threat')
 
-    for r in rows[:5]:
+    for r in rows:
+        if len(headlines)>=5:
+            break
+        if not any(s in (r.get('source') or '').lower() for s in reliable):
+            continue
+        if not any(v in r['title'].lower() for v in live_verbs):
+            continue
 
         if not is_recent(r['published']):
             continue
