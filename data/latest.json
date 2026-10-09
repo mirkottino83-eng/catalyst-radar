@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:30:55.927917+00:00",
+  "generated_at": "2026-10-09T21:31:36.984722+00:00",
   "status": "ok",
   "macro": {
     "treasury_10y": 5.24399995803833,
@@ -8,10 +8,10 @@
     "wti_change_pct": 0.18581899913583388,
     "brent": 104.43000030517578,
     "brent_change_pct": 0.14384496320947182,
-    "nasdaq_level": 27366.169921875,
-    "nasdaq_change_pct": 0.6355603214539318,
-    "sox_level": 12572.419921875,
-    "sox_change_pct": -0.4062992513390373,
+    "nasdaq_level": 27366.17,
+    "nasdaq_change_pct": 0.6355606087485421,
+    "sox_level": 12572.42,
+    "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
     "dollar_index": 102.23100280761719,
@@ -347,13 +347,13 @@
   "sources": [
     {
       "name": "SEC EDGAR",
-      "note": "Filings societari ufficiali USA: 8-K, 6-K, 10-Q, 10-K, 20-F.",
-      "limited": false
+      "note": "Accesso diretto SEC puo essere bloccato sui runner GitHub. I filing sono coperti solo se recuperati realmente.",
+      "limited": true
     },
     {
       "name": "FDA / EMA",
-      "note": "Catalyst biotech/regolatori tramite fonti ufficiali e indicizzazione news.",
-      "limited": false
+      "note": "FDA/EMA tramite notizie pubblicamente indicizzate; non e disponibile un feed ufficiale completo.",
+      "limited": true
     },
     {
       "name": "Google News RSS",
