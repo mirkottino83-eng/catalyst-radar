@@ -42,7 +42,69 @@ function renderCatalysts(){
   $("#catalystList").innerHTML=list.map(c=>{const move=Number(c.current_change_pct),conf=Math.round(Number(c.confidence_score||0)),impact=Number(c.estimated_impact_pct||0);return `<article class="catalyst"><div class="ticker"><div class="ticker-bubble">${esc(c.ticker)}</div><div><h4>${esc(c.ticker)}</h4><small>${esc(c.company||"")}</small></div></div><div><div class="headline">${esc(c.headline||c.reason||"Catalyst rilevato")}</div><div class="reason">${esc(c.reason||"")}</div><div class="meta"><span class="chip">${esc(c.catalyst_type||"News")}</span><span class="chip">${esc(c.source||"source")}</span><span class="chip">${esc(c.age_label||"")}</span><span class="chip">${c.verification_status==="SEC_DOCUMENTO_UFFICIALE_EVENTO_NON_CLASSIFICATO"?"SEC: evento non valutato":c.source_verified?"✓ fonte ufficiale":"RSS: evento da verificare"}</span>${c.satispay_status==="unavailable"?'<span class="chip">non su Satispay</span>':""}</div></div><div class="scores"><div class="score"><span>MOVIMENTO</span><strong class="${move>0?"pos":move<0?"neg":"flat"}">${signed(move)}</strong></div><div class="score"><span>IMPATTO STIMATO</span><strong>${impact>0?"+":""}${fmt(impact,1)}%</strong></div><div class="score full"><span>CONFIDENCE SCORE</span><strong>${conf}%</strong><div class="bar"><i style="--w:${Math.min(100,conf)}%"></i></div></div></div><div class="catalyst-actions"><button class="mini-btn" onclick='showChart(${JSON.stringify(c.tradingview_symbol||c.ticker)},${JSON.stringify(c.ticker)})'>Grafico</button>${c.url?`<a class="mini-btn" href="${esc(c.url)}" target="_blank" rel="noopener" style="text-decoration:none">Fonte ↗</a>`:""}<button class="mini-btn" onclick='showWhy(${JSON.stringify(c.ticker)})'>Perché?</button></div></article>`}).join("");
 }
 window.showWhy=ticker=>{const c=(state.data?.catalysts||[]).find(x=>x.ticker===ticker);if(!c)return;const f=c.factors||{};alert(`${ticker} — scoring\n\nFonte: ${f.source_quality??"—"}/100\nCatalyst: ${f.catalyst_strength??"—"}/100\nFreschezza: ${f.freshness??"—"}/100\nVolumi: ${f.volume??"—"}/100\nMomentum: ${f.momentum??"—"}/100\nMacro: ${f.macro??"—"}/100\nPenalità estensione: ${f.extension_penalty??0}\n\n${c.risk_flags||""}`)};
-window.showChart=(symbol,ticker)=>{const normalized=symbol.includes(":")?symbol:("NASDAQ:"+symbol);$("#chartTitle").textContent=ticker+" — TradingView";$("#openTradingView").href="https://www.tradingview.com/chart/?symbol="+encodeURIComponent(normalized);const holder=$("#tvChart");holder.innerHTML='<div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div></div>';const s=document.createElement("script");s.type="text/javascript";s.src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";s.async=true;s.text=JSON.stringify({autosize:true,symbol:normalized,interval:"5",timezone:"America/New_York",theme:"dark",style:"1",locale:"it",allow_symbol_change:true,calendar:false,support_host:"https://www.tradingview.com"});holder.firstChild.appendChild(s);holder.scrollIntoView({behavior:"smooth",block:"center"})};
+const CHART_NYSE=new Set(["OXY","PFE","NKE","DELL","ORCL","TSM","SHEL","MT","E","BABA","NVO","SAP","STM","SE","RDDT","HIMS","UBER","NET","PLTR"]);
+const CHART_NASDAQ=new Set(["AMD","INTC","NBIS","GOOGL","GOOG","NVDA","QCOM","MRNA","MU","META","AVGO","ASML","SMCI","MSFT","AMZN","ENPH","CRWD","CRWV","LULU","PLUG","APP","ARM","CRDO","RKLB","SOFI","COIN","MSTR","MARA","TSLA","SHOP","SNOW","DDOG","CELH","BIDU","JD","PDD","MELI"]);
+const chartState={sequence:0,symbol:null,ticker:null,timeout:null,observer:null};
+function chartSymbol(raw){
+  const symbol=String(raw||"").trim().toUpperCase();
+  if(!/^[A-Z0-9._:-]{1,35}$/.test(symbol))return null;
+  if(symbol.includes(":"))return symbol;
+  if(CHART_NYSE.has(symbol))return "NYSE:"+symbol;
+  if(CHART_NASDAQ.has(symbol))return "NASDAQ:"+symbol;
+  return symbol; // Non assegnare NASDAQ a un titolo sconosciuto.
+}
+function chartFail(requestId){
+  if(requestId!==chartState.sequence)return;
+  clearTimeout(chartState.timeout);
+  if(chartState.observer)chartState.observer.disconnect();
+  $("#chartStatus").textContent="TradingView non ha risposto. Riprova oppure apri il grafico su TradingView.";
+  $("#tvChart").innerHTML='<div class="chart-placeholder">Impossibile caricare il grafico incorporato. Usa «Ricarica grafico» o «Apri TradingView».</div>';
+}
+window.showChart=(symbol,ticker)=>{
+  const normalized=chartSymbol(symbol);
+  if(!normalized){toast("Simbolo grafico non valido");return}
+  chartState.sequence+=1;
+  const requestId=chartState.sequence;
+  chartState.symbol=symbol;
+  chartState.ticker=ticker||symbol;
+  clearTimeout(chartState.timeout);
+  if(chartState.observer)chartState.observer.disconnect();
+  $("#chartTitle").textContent=chartState.ticker+" — TradingView";
+  $("#openTradingView").href="https://www.tradingview.com/chart/?symbol="+encodeURIComponent(normalized);
+  $("#retryChartBtn").classList.remove("hidden");
+  $("#chartStatus").textContent="Caricamento grafico "+normalized+"…";
+  const holder=$("#tvChart");
+  holder.innerHTML='<div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div></div>';
+  const container=holder.firstElementChild;
+  // Ogni selezione è indipendente: ignora errori tardivi del grafico precedente.
+  chartState.observer=new MutationObserver(()=>{
+    if(requestId!==chartState.sequence)return;
+    if(container.querySelector("iframe")){
+      clearTimeout(chartState.timeout);
+      chartState.observer.disconnect();
+      $("#chartStatus").textContent="Widget aperto. Se il grafico mostra un errore, usa Ricarica o Apri TradingView.";
+    }
+  });
+  chartState.observer.observe(container,{childList:true,subtree:true});
+  const script=document.createElement("script");
+  script.type="text/javascript";
+  script.src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+  script.async=true;
+  script.textContent=JSON.stringify({
+    autosize:true,symbol:normalized,interval:"5",timezone:"exchange",
+    theme:"dark",style:"1",locale:"it",allow_symbol_change:true,
+    calendar:false,support_host:"https://www.tradingview.com"
+  });
+  script.addEventListener("error",()=>chartFail(requestId));
+  chartState.timeout=setTimeout(()=>{
+    if(!container.querySelector("iframe"))chartFail(requestId);
+  },18000);
+  container.appendChild(script);
+  holder.scrollIntoView({behavior:"smooth",block:"center"});
+};
+$("#retryChartBtn").addEventListener("click",()=>{
+  if(chartState.symbol)window.showChart(chartState.symbol,chartState.ticker);
+});
 function renderWatchlist(){$("#watchlist").innerHTML=(state.data.watchlist||[]).map(w=>`<span class="watch-chip ${esc(w.priority||"")} ${w.satispay_status==="unavailable"?"unavailable":""}" title="${esc(w.company||"")}">${esc(w.ticker)}</span>`).join("")}
 function renderSources(){$("#sources").innerHTML=(state.data.sources||[]).map(s=>`<div class="source"><div class="source-state"><strong>${esc(s.name)}</strong><span class="dot ${s.limited?"limited":""}"></span></div><p>${esc(s.note||s.coverage||"")}</p></div>`).join("")}
 function startScan(){if(state.scanEnd){stopScan();return}state.scanEnd=Date.now()+25*60*1000;$("#scanBtn").textContent="■ Ferma monitor";$("#timerState").textContent="SCANNING";if("Notification" in window&&Notification.permission==="default")Notification.requestPermission();tick();state.scanTimer=setInterval(tick,1000);loadData(true);state.refreshTimer=setInterval(()=>loadData(false),60*1000);toast("Monitor da 25 minuti avviato")}
