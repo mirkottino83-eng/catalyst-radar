@@ -226,8 +226,8 @@ function renderArchive(){
       '<div class="archive-stat"><small>Impatto previsto*</small><strong>'+
       (e.estimated_impact_pct==null?"N/D":signed(e.estimated_impact_pct))+
       '</strong><small>Stima euristica, non previsione garantita</small></div>'+
-      ...[2,5,8].map(h=>'<div class="archive-stat"><small>Reale dopo '+h+'h vs prezzo notizia</small>'+
-      outcomeView(e,h)+'</div>')+
+      [2,5,8].map(h=>'<div class="archive-stat"><small>Reale dopo '+h+'h vs prezzo notizia</small>'+
+      outcomeView(e,h)+'</div>').join("")+
       '</div><div class="archive-actions">'+graphBtn+sourceLink+
       '<span class="muted">'+esc(e.verification_status||"Da verificare")+'</span></div>'+
       '</article>';
