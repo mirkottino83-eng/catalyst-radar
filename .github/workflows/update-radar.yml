@@ -2,6 +2,12 @@ name: Update Catalyst Radar
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'config/**'
+      - '.github/workflows/update-radar.yml'
   schedule:
     - cron: '*/15 * * * *' # best effort: GitHub can delay scheduled runs
 
