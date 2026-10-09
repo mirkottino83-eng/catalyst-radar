@@ -80,9 +80,13 @@
     <section class="chart-section panel">
       <div class="section-head compact">
         <div><div class="eyebrow">TRADINGVIEW</div><h3 id="chartTitle">Grafico live / delayed</h3></div>
-        <a id="openTradingView" class="text-link" href="https://www.tradingview.com/" target="_blank" rel="noopener">Apri TradingView ↗</a>
+        <div class="chart-tools">
+          <button id="retryChartBtn" class="mini-btn hidden" type="button">↻ Ricarica grafico</button>
+          <a id="openTradingView" class="text-link" href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">Apri TradingView ↗</a>
+        </div>
       </div>
       <div id="tvChart" class="tv-chart"><div class="chart-placeholder">Seleziona “Grafico” su un catalyst per caricare TradingView.</div></div>
+      <div id="chartStatus" class="chart-status" role="status" aria-live="polite">Grafico incorporato da TradingView. Se non funziona puoi aprirlo direttamente.</div>
       <small class="muted">La disponibilità real-time o delayed dipende dal feed/exchange di TradingView.</small>
     </section>
 
