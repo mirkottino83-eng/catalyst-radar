@@ -1,4 +1,4 @@
-const CACHE='catalyst-radar-v3-chart-recovery';
+const CACHE='catalyst-radar-v4-background-history';
 const STATIC=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting()));
@@ -11,7 +11,7 @@ self.addEventListener('fetch',e=>{
   // TradingView e tutte le richieste a terzi sono gestite dal browser, non dalla cache PWA.
   if(u.origin!==self.location.origin)return;
   if(e.request.method!=='GET')return;
-  if(u.pathname.endsWith('/data/latest.json')){
+  if((u.pathname.endsWith('/data/latest.json')||u.pathname.endsWith('/data/history.json'))){
     e.respondWith(fetch(e.request,{cache:'no-store'}).catch(()=>caches.match(e.request)));
     return;
   }
