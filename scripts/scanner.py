@@ -156,6 +156,9 @@ def load_market(tickers):
 
                     d['last_price']=last
                     d['short_term_change_pct']=pct(last,hour)
+                    # Preferisci l'ultima quotazione osservata al close giornaliero.
+                    if last is not None and d.get('previous_close'):
+                        d['current_change_pct'] = pct(last,d['previous_close'])
                     d['bars_5m'] = [
                         (int(idx.to_pydatetime().timestamp()), float(value))
                         for idx, value in df['Close'].dropna().items()
@@ -324,29 +327,29 @@ def macro_snapshot(market):
         f"Tech bias {bias.replace('_',' ')}. "
         f"Nasdaq {n:+.2f}%, "
         f"SOX {s:+.2f}%, "
-        f"US10Y {tnx.get('price') or tnx.get('last_price') or 0:.2f}, "
+        f"US10Y {tnx.get('last_price') or tnx.get('price') or 0:.2f}, "
         f"WTI {oil:+.2f}%."
     )
 
     return {
-        'treasury_10y':tnx.get('price') or tnx.get('last_price'),
+        'treasury_10y':tnx.get('last_price') or tnx.get('price'),
         'treasury_10y_change_bp':
             (tnx.get('current_change_pct') or 0)
             *(tnx.get('previous_close') or 0),
 
-        'wti':wti.get('price') or wti.get('last_price'),
+        'wti':wti.get('last_price') or wti.get('price'),
         'wti_change_pct':wti.get('current_change_pct'),
 
-        'brent':brent.get('price') or brent.get('last_price'),
+        'brent':brent.get('last_price') or brent.get('price'),
         'brent_change_pct':brent.get('current_change_pct'),
 
-        'nasdaq_level':nas.get('price') or nas.get('last_price'),
+        'nasdaq_level':nas.get('last_price') or nas.get('price'),
         'nasdaq_change_pct':nas.get('current_change_pct'),
 
-        'sox_level':sox.get('price') or sox.get('last_price'),
+        'sox_level':sox.get('last_price') or sox.get('price'),
         'sox_change_pct':sox.get('current_change_pct'),
 
-        'vix':vix.get('price') or vix.get('last_price'),
+        'vix':vix.get('last_price') or vix.get('price'),
         'vix_change_pct':vix.get('current_change_pct'),
 
         'dollar_index':dxy.get('price') or dxy.get('last_price'),
@@ -926,13 +929,13 @@ def main():
     sources=[
         {
             'name':'SEC EDGAR',
-            'note':'Filings societari ufficiali USA: 8-K, 6-K, 10-Q, 10-K, 20-F.',
-            'limited':False
+            'note':'Accesso diretto SEC puo essere bloccato sui runner GitHub. I filing sono coperti solo se recuperati realmente.',
+            'limited':True
         },
         {
             'name':'FDA / EMA',
-            'note':'Catalyst biotech/regolatori tramite fonti ufficiali e indicizzazione news.',
-            'limited':False
+            'note':'FDA/EMA tramite notizie pubblicamente indicizzate; non e disponibile un feed ufficiale completo.',
+            'limited':True
         },
         {
             'name':'Google News RSS',
