@@ -149,6 +149,8 @@ function renderWatchlist(){
   }
   box.innerHTML=state.favorites.map(t=>
     '<span class="watch-chip personal-chip">'+esc(t)+
+    ' <button class="personal-graph" type="button" data-graph="'+esc(t)+
+    '" aria-label="Grafico '+esc(t)+'">Grafico</button>'+
     ' <button class="personal-remove" type="button" data-remove="'+esc(t)+
     '" aria-label="Rimuovi '+esc(t)+'">×</button></span>').join("");
 }
@@ -244,6 +246,8 @@ window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();state.defer
 state.favorites=getFavorites();
 $("#personalForm").addEventListener("submit",handleFavoriteInput);
 $("#watchlist").addEventListener("click",e=>{
+  const graph=e.target.closest("[data-graph]");
+  if(graph){window.showChart(graph.dataset.graph,graph.dataset.graph);return}
   const remove=e.target.closest("[data-remove]");
   if(!remove)return;
   state.favorites=state.favorites.filter(t=>t!==remove.dataset.remove);
@@ -255,4 +259,7 @@ $("#archiveList").addEventListener("click",e=>{
   if(btn)window.showChart(btn.dataset.chart,btn.dataset.chart);
 });
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(console.warn));
-loadData();setInterval(()=>loadData(false),5*60*1000);
+loadData();
+setInterval(()=>loadData(false),5*60*1000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)loadData(false)});
+window.addEventListener("pageshow",e=>{if(e.persisted)loadData(false)});
