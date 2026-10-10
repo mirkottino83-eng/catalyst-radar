@@ -8,6 +8,10 @@ import feedparser
 import requests
 import yfinance as yf
 from history import update_history
+from signal_quality import (
+    read_time, headline_status, quote_health, hourly_change,
+    hourly_relative_volume, early_signal
+)
 
 ROOT=Path(__file__).resolve().parents[1]
 WATCH=json.loads((ROOT/'config/watchlist.json').read_text())
@@ -133,7 +137,8 @@ def load_market(tickers):
                         previous_close=prev,
                         current_change_pct=pct(close,prev),
                         volume=vol,
-                        relative_volume=(vol/avg if vol and avg else None)
+                        relative_volume_daily=(vol/avg if vol and avg else None),
+                        relative_volume=None
                     )
                     # Salva solo dati realmente scaricati, senza interpolazioni.
                     d['day_closes'] = [
@@ -152,10 +157,7 @@ def load_market(tickers):
 
                 if len(df):
                     last=safe_float(df['Close'].iloc[-1])
-                    hour=safe_float(df['Close'].iloc[-13]) if len(df)>=13 else safe_float(df['Close'].iloc[0])
-
                     d['last_price']=last
-                    d['short_term_change_pct']=pct(last,hour)
                     # Preferisci l'ultima quotazione osservata al close giornaliero.
                     if last is not None and d.get('previous_close'):
                         d['current_change_pct'] = pct(last,d['previous_close'])
@@ -164,6 +166,14 @@ def load_market(tickers):
                         for idx, value in df['Close'].dropna().items()
                         if safe_float(value) is not None and float(value) > 0
                     ]
+                    d['short_term_change_pct'] = hourly_change(d['bars_5m'])
+                    if 'Volume' in df:
+                        volume_bars = [
+                            (int(idx.to_pydatetime().timestamp()), float(value))
+                            for idx, value in df['Volume'].dropna().items()
+                            if safe_float(value) is not None and float(value) >= 0
+                        ]
+                        d['relative_volume'] = hourly_relative_volume(volume_bars)
                     if d['bars_5m']:
                         d['last_quote_at'] = datetime.fromtimestamp(
                             d['bars_5m'][-1][0], timezone.utc
@@ -408,11 +418,10 @@ def sec_filings(max_age_hours=24):
                 if form not in ('8-K','6-K','10-Q','10-K','20-F'):
                     continue
 
-                d=datetime.fromisoformat(
-                    r['filingDate'][i]+'T12:00:00+00:00'
-                )
-
-                if d<cutoff:
+                # Never invent noon UTC as the filing release time.
+                accepted = r.get('acceptanceDateTime', [])
+                d = read_time(accepted[i]) if i < len(accepted) else None
+                if d is None or d < cutoff or d > now() + timedelta(minutes=5):
                     continue
 
                 acc=r['accessionNumber'][i].replace('-','')
