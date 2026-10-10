@@ -1,4 +1,4 @@
-const state={data:null,filter:"all",scanEnd:null,scanTimer:null,refreshTimer:null,deferredInstall:null,history:null,historyShown:30,favorites:[]};
+const state={data:null,filter:"all",deferredInstall:null,history:null,historyShown:30,favorites:[]};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const fmt=(v,d=2)=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))?Number(v).toFixed(d):"—";
 const signed=v=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))?((Number(v)>0?"+":"")+Number(v).toFixed(2)+"%"):"N/D";
@@ -13,15 +13,8 @@ async function loadData(manual=false){
     state.data=data; render();
     if(!previous||previous.generated_at!==data.generated_at)loadHistory();
     if(manual) toast("Dati aggiornati");
-    if(previous&&state.scanEnd) detectNewSignals(previous,data);
   }catch(e){console.error(e);$("#lastUpdate").textContent="Dati non disponibili";if(manual)toast("Aggiornamento non riuscito")}
 }
-function detectNewSignals(prev,next){
-  const old=new Set((prev.catalysts||[]).map(x=>x.id||x.ticker+"|"+x.headline));
-  const fresh=(next.catalysts||[]).filter(x=>!old.has(x.id||x.ticker+"|"+x.headline)&&x.early_signal===true&&Number(x.confidence_score||0)>=70);
-  if(fresh.length){const top=fresh[0];notify("Catalyst Radar",`${top.ticker}: candidato precoce · qualità ${Math.round(top.confidence_score)}/100 · RSS da verificare`)}
-}
-function notify(title,body){if("Notification" in window&&Notification.permission==="granted")new Notification(title,{body,icon:"./assets/icon-192.png"});toast(body)}
 function render(){if(!state.data)return;renderHeader();renderMacro();renderMovers();renderCatalysts();renderArchive();renderWatchlist();renderSources()}
 function renderHeader(){
   const d=state.data,ts=d.generated_at?new Date(d.generated_at):null;
@@ -56,10 +49,18 @@ function renderMacro(){
   const age=Date.now()-Date.parse(state.data.generated_at);
   const readable=Number.isFinite(age)?Math.max(0,Math.floor(age/60000)):null;
   const st=$("#backendStatus");
-  st.textContent="Scanner su GitHub indipendente dall'app · scansioni programmate ogni 15 min"+
+  st.textContent="Scanner su GitHub indipendente dall'app · scansioni programmate ogni 5 min (non garantite)"+
     (readable===null?" · aggiornamento non disponibile": " · ultimo file dati "+readable+" min fa")+
     " · le fonti gratuite possono avere ritardi.";
-  st.classList.toggle("data-stale",readable!==null&&readable>45);
+  st.classList.toggle("data-stale",readable===null||readable>20);
+  const push=$("#pushStatus");
+  if(push)push.textContent=state.data.push_configured
+    ?"Notifiche ntfy: invio configurato · verificare la sottoscrizione sull'app Android"
+    :"Notifiche ntfy: non ancora attive sul telefono · configura il canale ntfy in GitHub";
+  const indicator=$("#scanIndicator");
+  if(indicator)indicator.textContent=(readable===null||readable>20)?"RITARDO":"AUTO";
+  const mode=$("#scanMode");
+  if(mode)mode.textContent=(readable===null||readable>20)?"DATI VECCHI":"OGNI 5 MIN";
 }
 function renderMovers(){
  const target=$("#moversList");
@@ -258,14 +259,7 @@ function renderArchive(){
 }
 
 function renderSources(){$("#sources").innerHTML=(state.data.sources||[]).map(s=>`<div class="source"><div class="source-state"><strong>${esc(s.name)}</strong><span class="dot ${s.limited?"limited":""}"></span></div><p>${esc(s.note||s.coverage||"")}</p></div>`).join("")}
-function startScan(){if(state.scanEnd){stopScan();return}state.scanEnd=Date.now()+25*60*1000;$("#scanBtn").textContent="■ Ferma monitor";$("#timerState").textContent="SCANNING";if("Notification" in window&&Notification.permission==="default")Notification.requestPermission();tick();state.scanTimer=setInterval(tick,1000);loadData(true);state.refreshTimer=setInterval(()=>loadData(false),60*1000);toast("Monitor da 25 minuti avviato")}
-function stopScan(done=false){state.scanEnd=null;clearInterval(state.scanTimer);clearInterval(state.refreshTimer);state.scanTimer=null;state.refreshTimer=null;$("#scanBtn").textContent="▶ Monitor locale 25 min";$("#timer").textContent="25:00";$("#timerState").textContent=done?"COMPLETO":"PRONTO";$("#timerRing").style.setProperty("--progress","0%");if(done){loadData(true);notify("Catalyst Radar","Monitor di 25 minuti completato.")}}
-function tick(){const left=Math.max(0,state.scanEnd-Date.now()),total=25*60*1000;if(left<=0){stopScan(true);return}const min=Math.floor(left/60000),sec=Math.floor((left%60000)/1000);$("#timer").textContent=`${String(min).padStart(2,"0")}:${String(sec).padStart(2,"0")}`;$("#timerRing").style.setProperty("--progress",`${100-(left/total*100)}%`)}
-$("#moversList").addEventListener("click",e=>{
- const b=e.target.closest("[data-mover-chart]");
- if(b)window.showChart(b.dataset.moverChart,b.dataset.moverChart);
-});
-$("#scanBtn").addEventListener("click",startScan);$("#refreshBtn").addEventListener("click",()=>loadData(true));$("#filters").addEventListener("click",e=>{if(!e.target.matches(".filter"))return;$$('.filter').forEach(x=>x.classList.remove("active"));e.target.classList.add("active");state.filter=e.target.dataset.filter;renderCatalysts()});
+$("#refreshBtn").addEventListener("click",()=>loadData(true));$("#filters").addEventListener("click",e=>{if(!e.target.matches(".filter"))return;$$('.filter').forEach(x=>x.classList.remove("active"));e.target.classList.add("active");state.filter=e.target.dataset.filter;renderCatalysts()});
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();state.deferredInstall=e;$("#installBtn").classList.remove("hidden")});$("#installBtn").addEventListener("click",async()=>{if(!state.deferredInstall)return;state.deferredInstall.prompt();await state.deferredInstall.userChoice;state.deferredInstall=null;$("#installBtn").classList.add("hidden")});
 state.favorites=getFavorites();
 $("#personalForm").addEventListener("submit",handleFavoriteInput);
@@ -284,6 +278,6 @@ $("#archiveList").addEventListener("click",e=>{
 });
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(console.warn));
 loadData();
-setInterval(()=>loadData(false),5*60*1000);
+setInterval(()=>loadData(false),60*1000);
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)loadData(false)});
 window.addEventListener("pageshow",e=>{if(e.persisted)loadData(false)});
