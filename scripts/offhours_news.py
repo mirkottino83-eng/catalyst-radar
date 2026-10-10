@@ -33,8 +33,21 @@ EVENT_TOKENS = (
     "investment", "approval", "launch", "supply"
 )
 ESCALATION = ("attack", "strike", "missile", "sanction", "blockade",
-              "seized", "threat", "drone", "war")
-DEESCALATION = ("ceasefire", "truce", "peace", "negotiat", "reopen", "talks")
+              "seized", "threat", "drone", "war", "killed", "dead",
+              "wounded", "injur", "bomb", "shell")
+# Never mistake "ceasefire anniversary" for an actual new peace agreement.
+DEESCALATION_SIGNALS = (
+    "ceasefire agreed", "agree ceasefire", "sign ceasefire",
+    "ceasefire deal", "ceasefire announced", "ceasefire begins",
+    "ceasefire reached", "truce agreed", "truce reached",
+    "peace deal", "peace talks resumed", "talks resume",
+    "negotiations resume", "reopen shipping", "reopens strait",
+)
+SECONDARY_CORPORATE = (
+    r"\\b(?:should you buy|better buy|stocks to buy|stock to buy|buy now|"
+    r"price prediction|stock prediction|which stock|which chip stock|"
+    r"top stocks for|buy or sell|stock to own)\\b",
+)
 
 def _date(value):
     if not isinstance(value, datetime) or value.tzinfo is None:
@@ -45,7 +58,7 @@ def classify_geo(title):
     low = (title or "").lower()
     if any(x in low for x in ESCALATION):
         return "POSSIBILE_ESCALATION_DA_VERIFICARE"
-    if any(x in low for x in DEESCALATION):
+    if any(x in low for x in DEESCALATION_SIGNALS):
         return "POSSIBILE_DISTENSIONE_DA_VERIFICARE"
     return "CONTESTO_NON_CLASSIFICATO"
 
@@ -71,6 +84,8 @@ def build_news_watch(fetch_news, at=None):
                 info["recent"] += 1
                 title = str(article.get("title") or "").strip()
                 if len(title) < 18 or not any(k in title.lower() for k in EVENT_TOKENS):
+                    continue
+                if kind=="corporate" and any(re.search(p,title,re.I) for p in SECONDARY_CORPORATE):
                     continue
                 key = re.sub(r"\W+", " ", title.lower()).strip()
                 if key in seen[kind]:
@@ -99,6 +114,17 @@ def build_news_watch(fetch_news, at=None):
             # No exception string: RSS errors can contain full URLs or sensitive tokens.
             info["error_type"] = type(err).__name__
         sources.append(info)
+    # Avoid one breaking story crowding out whole regions/sectors.
+    by_area={}
+    for kind in records:
+        limited=[]
+        for item in sorted(records[kind],key=lambda a:a["published_at"],reverse=True):
+            area=item["area"]
+            if by_area.get((kind,area),0)>=5:
+                continue
+            limited.append(item)
+            by_area[(kind,area)]=by_area.get((kind,area),0)+1
+        records[kind]=limited
     for kind in records:
         records[kind] = sorted(records[kind],
                                key=lambda item: item["published_at"],reverse=True)[:16]
