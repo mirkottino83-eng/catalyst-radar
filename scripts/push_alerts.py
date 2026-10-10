@@ -57,7 +57,34 @@ def fresh_macro(macro, market, at):
             and macro["wti_change_pct"] <= 2
             and macro.get("geopolitical_risk_score", 35) <= 60)
 
+def high_impact_headline(c, at):
+    """Earlier but clearly flagged RSS lead; never claim a verified event or live move."""
+    dt=read_time(c.get("published_at"))
+    if dt is None or not (0 <= (at-dt).total_seconds()/60 <= 20):
+        return False
+    if c.get("verification_status") != "RSS_INDICIZZATO_DA_VERIFICARE":
+        return False
+    if c.get("satispay_status") == "unavailable":
+        return False
+    quality=c.get("factors") or {}
+    if (quality.get("source_quality") or 0) < 85 or (quality.get("catalyst_strength") or 0) < 84:
+        return False
+    if c.get("catalyst_type") not in {
+        "fda_approval","trial_success","ma","large_contract",
+        "guidance_raise","earnings_beat"
+    }:
+        return False
+    if c.get("quote_status")=="RECENT_UNOFFICIAL":
+        move=c.get("current_change_pct")
+        if move is not None and move > 8:
+            return False
+    return True
+
 def eligible_candidate(c, at):
+    # Permit high-impact indexed releases BEFORE the price moves, explicitly
+    # unverified and without presenting stale quotes as current.
+    if high_impact_headline(c, at):
+        return True
     if c.get("verification_status") != "RSS_INDICIZZATO_DA_VERIFICARE":
         return False
     if c.get("quote_status") != "RECENT_UNOFFICIAL":
@@ -77,7 +104,6 @@ def eligible_candidate(c, at):
         return False
     if score < 78 or not (-2 <= move <= 8) or hour <= 0 or rv < 1.2:
         return False
-    # Preserve the user preference to prioritize supported brokers where known.
     if c.get("satispay_status") == "unavailable":
         return False
     return True
@@ -106,11 +132,16 @@ def make_alerts(catalysts,macro,market,state,at=None):
             continue
         direction=c.get("current_change_pct")
         rv=c.get("relative_volume")
-        label="Candidato precoce" if c.get("early_signal") else "Catalyst potenziale"
+        headline_only=high_impact_headline(c,at)
+        label=("Notizia forte DA VERIFICARE" if headline_only else
+               "Candidato precoce" if c.get("early_signal") else "Catalyst potenziale")
+        move_label=(f"{direction:+.2f}%" if direction is not None
+                    and c.get("quote_status")=="RECENT_UNOFFICIAL" else "N/D")
+        volume_label=f"{rv:.2f}x" if rv is not None else "N/D"
         pending.append({
             "kind":"catalyst", "key":key, "ticker":c["ticker"],
             "title":f"Catalyst Radar · {c['ticker']} · {label}",
-            "message":f"{c.get('headline','')[:220]}\nVariazione {direction:+.2f}% · RVOL 1h {rv:.2f}x · qualità {c['confidence_score']:.0f}/100.\nNEWS RSS DA VERIFICARE · non è un segnale di acquisto.",
+            "message":f"{c.get('headline','')[:220]}\nVariazione osservata {move_label} · RVOL 1h {volume_label} · qualità {c.get('confidence_score',0):.0f}/100.\nNEWS RSS NON VERIFICATA · controlla fonte originale e ora dell'evento.",
             "priority":"4", "tags":"chart_with_upwards_trend",
         })
     favourable=fresh_macro(macro,market,at)
