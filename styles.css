@@ -35,3 +35,14 @@
 
 .personal-graph{border:0;background:#132a41;color:var(--cyan);border-radius:8px;padding:5px 7px;cursor:pointer;font-size:10px;font-weight:700}
 .personal-graph:hover{background:#25435f}
+
+/* Observed intraday anomaly scanner */
+.mover-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.mover{padding:15px;display:flex;align-items:flex-start;flex-direction:column;gap:10px;min-width:0}
+.mover-name{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap}
+.mover-name strong{font-size:18px;color:var(--cyan)}
+.mover-name small{font-size:11px;color:var(--muted)}
+.mover-metrics{display:flex;gap:14px;flex-wrap:wrap;font-size:12px}
+.mover-metrics b{color:var(--text)}
+.early-chip{color:var(--cyan);border-color:rgba(94,231,255,.46)}
+@media(max-width:650px){.mover-list{grid-template-columns:1fr}.mover{padding:13px}}
