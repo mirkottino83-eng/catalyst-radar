@@ -92,3 +92,15 @@
 .notification-switch input:disabled+.notification-switch-track{opacity:.4;cursor:not-allowed}
 #deviceNotificationStatus{padding:9px 3px 0;line-height:1.5}
 @media(max-width:650px){.notification-preference{padding:14px;gap:12px}.hero{grid-template-columns:1fr}}
+
+/* Verified timestamp display for 24/7 informational news watch */
+.news-watch-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.news-watch-panel{padding:17px;min-width:0}
+.news-watch-panel h4{margin:0 0 12px;font-size:15px}
+.news-watch-list{display:grid;gap:1px}
+.news-watch-item{padding:12px 0;border-top:1px solid var(--line);display:grid;gap:5px;min-width:0}
+.news-watch-item:first-child{border-top:0}
+.news-watch-item a,.news-watch-item strong{font-size:13px;line-height:1.5;color:var(--text);text-decoration:none;overflow-wrap:anywhere}
+.news-watch-item a:hover{text-decoration:underline;color:var(--cyan)}
+.news-watch-date,.news-watch-item small{color:var(--muted);font-size:10px;line-height:1.45}
+@media(max-width:700px){.news-watch-columns{grid-template-columns:1fr}.news-watch-panel{padding:13px}}

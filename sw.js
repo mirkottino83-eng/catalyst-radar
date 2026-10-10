@@ -1,4 +1,4 @@
-const CACHE='catalyst-radar-v8-always-on-local-switch';
+const CACHE='catalyst-radar-v9-offhours-news-health';
 const STATIC=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting()));

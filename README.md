@@ -31,6 +31,28 @@ Web app/PWA for **research and monitoring**, not a trading broker. Runs as a sta
 - **Quality rather than probability:** score 0–100 is an explanatory ranking, **not a statistical chance** of a rise. Indicative impact is omitted if quote, 1-hour price or volume are unavailable/stale.
 - **TradingView:** opens an embedded/free chart to verify observations manually. Chart feed real-time access depends on TradingView/exchange.
 
+## News monitor anche a borse chiuse
+
+Lo scanner ora pubblica `news_watch` all'interno di `data/latest.json`:
+liste separate geopolitica e notizie societarie, aggiornate anche di sabato,
+domenica e nei festivi. Il feed RSS non dipende da variazioni di prezzo,
+volumi o quotazioni aperte. Vengono visualizzati soltanto orari originali
+di **pubblicazione indicizzata** e collegamenti agli articoli.
+
+Ogni query riporta quanti articoli RSS sono stati recuperati, quanti
+rientrano nelle ultime 48 ore e lo stato della fonte:
+`OK`, `NO_RSS_ITEMS`, `NO_RECENT_ITEMS`, `FILTERED` oppure `ERROR`.
+Zero notizie non significa zero eventi: verifica lo stato delle fonti.
+Google News RSS è un indice imperfetto e non offre garanzia di tempestività
+né la copertura di Reuters/Bloomberg completa.
+
+Il radar delle quotazioni resta inattivo nel weekend; Nasdaq, Treasury,
+SOX e gli altri dati macro sono etichettati come **ultima seduta** quando vecchi.
+Il punteggio geopolitico è dichiarato indeterminato se non esistono
+headlines recenti selezionate; in questo caso non può sostenere un alert di
+«macro molto favorevole». Le notifiche ntfy attuali su catalyst continuano
+ad applicare i controlli di qualità: non sono un feed breaking news generale.
+
 ## Data and important limitations
 
 - Market prices come from unofficial Yahoo Finance endpoints via `yfinance`. Coverage/latency vary; no licensed tick-by-tick feed. On market closures, observations are stale and the momentum list can be empty.
