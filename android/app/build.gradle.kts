@@ -51,5 +51,6 @@ android {
 
 dependencies {
     implementation("androidx.webkit:webkit:1.14.0")
+    implementation("androidx.core:core:1.16.0")
     implementation("com.google.firebase:firebase-messaging:25.1.3")
 }
