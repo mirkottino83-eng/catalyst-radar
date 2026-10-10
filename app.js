@@ -31,7 +31,13 @@ function saveDeviceNotifications(enabled){
 }
 function renderDeviceNotifications(){
   const input=$("#deviceNotificationToggle"),status=$("#deviceNotificationStatus");
+  const detail=$("#notificationPlatformInfo");
   if(!input||!status)return;
+  if(detail){
+    detail.textContent=isNativeRadar()
+      ?"Versione Android: gli avvisi Firebase sono separati da ntfy. Questo interruttore controlla le notifiche di QUESTO telefono anche con l'app chiusa, dopo la configurazione Firebase e l'autorizzazione Android. La scansione del mercato continua indipendentemente."
+      :"Versione web: l'interruttore controlla gli avvisi locali quando la pagina è aperta. Le notifiche dell'app esterna ntfy sono indipendenti e vanno silenziate direttamente in ntfy.";
+  }
   input.checked=state.notificationsEnabled;
   if(isNativeRadar()){
     input.disabled=state.nativeBusy||state.nativeAvailable!==true;

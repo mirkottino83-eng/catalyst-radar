@@ -9,6 +9,7 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.webkit.WebChromeClient
+import android.webkit.WebResourceError
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
@@ -62,9 +63,27 @@ class MainActivity : Activity() {
                 }
                 return true
             }
+            override fun onReceivedError(view: WebView, request: WebResourceRequest, error: WebResourceError) {
+                super.onReceivedError(view, request, error)
+                if (!request.isForMainFrame) return
+                if (request.url.scheme != "https" || request.url.host != HOST) return
+                // Main document only: a failing third-party chart must not hide the dashboard.
+                val offline = """
+                    <!doctype html><html lang="it"><head><meta name="viewport"
+                    content="width=device-width, initial-scale=1"></head>
+                    <body style="background:#070b14;color:#e8f0f9;font:16px system-ui;
+                    text-align:center;padding:48px 20px">
+                    <h1>Catalyst Radar</h1>
+                    <p>Connessione non disponibile. I dati non sono aggiornati.</p>
+                    <p>Il monitoraggio sui server continua indipendentemente dal telefono.</p>
+                    <p><a href="$HOME" style="color:#63dbec">Riprova a collegarti</a></p>
+                    </body></html>
+                """.trimIndent()
+                view.loadDataWithBaseURL(null, offline, "text/html", "UTF-8", null)
+            }
             override fun onPageFinished(view: WebView, url: String?) {
                 super.onPageFinished(view, url)
-                sendStatus("ready")
+                if (url?.startsWith(HOME) == true) sendStatus("ready")
             }
         }
 
