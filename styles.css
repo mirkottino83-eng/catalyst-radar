@@ -46,3 +46,10 @@
 .mover-metrics b{color:var(--text)}
 .early-chip{color:var(--cyan);border-color:rgba(94,231,255,.46)}
 @media(max-width:650px){.mover-list{grid-template-columns:1fr}.mover{padding:13px}}
+
+/* Continuous scan: static state indicator rather than a fake countdown */
+.status-static{display:inline-flex;align-items:center;gap:8px;cursor:default}
+.live-dot{height:8px;width:8px;background:#046c37;border-radius:50%;box-shadow:0 0 9px rgba(2,91,41,.28)}
+#scanIndicator{font-size:30px}
+#scanMode{letter-spacing:1px}
+#pushStatus{padding:12px 0 0;line-height:1.5}

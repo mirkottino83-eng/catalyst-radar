@@ -31,23 +31,24 @@
     <section class="hero panel">
       <div class="hero-copy">
         <div class="eyebrow">SCANNER CLOUD • CONTROLLO AUTOMATICO</div>
-        <h2>Monitoraggio periodico di catalyst e macro, anche con l'app chiusa.</h2>
+        <h2>Monitoraggio automatico dei catalyst e del quadro macro.</h2>
         <p>Lo scanner combina qualità e freschezza della notizia, forza del catalyst, prezzo, volumi, momentum e quadro macro. Le fonti ufficiali hanno priorità.</p>
         <div class="actions">
-          <button id="scanBtn" class="primary">▶ Monitor locale 25 min</button>
+          <span class="primary status-static"><span class="live-dot"></span> Monitoraggio cloud automatico</span>
           <button id="refreshBtn" class="secondary">↻ Aggiorna dati</button>
           <button id="installBtn" class="secondary hidden">＋ Installa app</button>
         </div>
-        <small class="hero-note">Lo scanner gira sui server GitHub anche quando il telefono è spento o l'app è chiusa: circa ogni 15 minuti, con possibili ritardi e interruzioni del servizio. Il timer di 25 minuti è soltanto il controllo locale a schermo, NON avvia lo scanner cloud. Prezzi e notizie possono essere ritardati; l'orario RSS non prova l'ora dell'evento.</small>
+        <small class="hero-note">Lo scanner gira su GitHub anche con l'app chiusa: tentativo ogni 5 minuti, con possibili ritardi o esecuzioni saltate. L'app aperta controlla ogni minuto se sono disponibili nuovi risultati. Le fonti gratuite possono avere ritardi: non è un feed in tempo reale.</small>
+        <div id="pushStatus" class="data-timestamps">Notifiche push: controllo configurazione…</div>
       </div>
       <div class="timer-wrap">
         <div class="timer-ring" id="timerRing">
           <div>
-            <strong id="timer">25:00</strong>
-            <span id="timerState">PRONTO</span>
+            <strong id="scanIndicator">AUTO</strong>
+            <span id="scanMode">OGNI 5 MIN</span>
           </div>
         </div>
-        <p id="scanHint">Durante il monitoraggio i risultati vengono ricontrollati automaticamente.</p>
+        <p id="scanHint">Funzionamento automatico, senza timer da riavviare.</p>
       </div>
     </section>
 

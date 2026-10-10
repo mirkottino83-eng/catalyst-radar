@@ -9,7 +9,7 @@ on:
       - 'config/**'
       - '.github/workflows/update-radar.yml'
   schedule:
-    - cron: '*/15 * * * *' # best effort: GitHub can delay scheduled runs
+    - cron: '2-59/5 * * * *' # every 5 minutes; scheduling is best effort
 
 permissions:
   contents: write
@@ -31,14 +31,16 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run scanner
+      - name: Run scanner and optional ntfy push
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python scripts/scanner.py
 
       - name: Commit latest data and persistent history
         run: |
           git config user.name "catalyst-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/latest.json data/history.json
+          git add data/latest.json data/history.json data/alert_state.json
           if git diff --cached --quiet; then
             echo "No changes"
           else
