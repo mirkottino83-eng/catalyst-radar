@@ -22,6 +22,18 @@ Web app/PWA for **research and monitoring**, not a trading broker. Runs as a sta
 - Availability on Satispay is marked 'check' unless independently confirmed.
 - No paid service accounts or proprietary Benzinga/Finviz/TradingView feeds are used.
 
+## Remote controls (server-wide and authenticated)
+
+The PWA has **three visible commands**: enable monitoring 24/7 (best-effort every 5m), disable monitoring, and toggle ntfy notifications independently. The switches apply to the **GitHub cloud backend**, not just local browser refresh.
+
+For security, GitHub Pages cannot directly modify a private GitHub Actions workflow without authenticating. Each button opens a **pre-filled GitHub issue**. Sign into the owning GitHub account and press **Submit new issue** to confirm the action. The owner-only GitHub Actions workflow `.github/workflows/radar-controls.yml` checks the issue author and exact issue title, edits `config/control.json`, pushes the public boolean state, and closes the request. Other users cannot change these settings. The app reads the public state file on reload or every minute; the update may take a few minutes to propagate through GitHub Pages.
+
+- **Monitoring OFF:** scheduled jobs still wake briefly every 5 minutes to read the setting, but skip market/news scans and ntfy delivery. The latest dashboard is marked paused; history is retained. This is not disabling the GitHub cron itself.
+- **Monitoring ON:** the next scheduled or push-triggered run resumes actual scanning.
+- **Notifications OFF:** market scans keep running, but no new ntfy messages are sent. Your ntfy subscription remains in place.
+- **Notifications ON:** ntfy sending resumes (provided the secret `NTFY_TOPIC` was configured). It does not send missed alerts retroactively.
+- This method needs no PAT/password stored in your PWA and no paid hosting. Control requests are visible as closed issues in the public repository, and they contain *no secrets*.
+
 ## Development and tests
 
 Python 3.12, `pip install -r requirements.txt`, `python scripts/scanner.py`. The scanner requires internet and may fail to fetch some free sources. Run local tests without network using `python -m unittest discover -s tests -v`. The `quality-check.yml` GitHub workflow checks syntax and tests on pull requests.
