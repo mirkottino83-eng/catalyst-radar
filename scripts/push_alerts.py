@@ -49,13 +49,17 @@ def fresh_macro(macro, market, at):
               "treasury_10y_change_bp", "wti_change_pct", "macro_score")
     if any(macro.get(k) is None for k in values):
         return False
+    geo=macro.get("geopolitical_risk_score")
+    # Unknown geopolitical risk cannot count as verified favourable macro.
+    if not isinstance(geo, (int, float)):
+        return False
     return (macro["macro_score"] >= 72
             and macro["nasdaq_change_pct"] >= 0.5
             and macro["sox_change_pct"] >= 0.5
             and macro["vix_change_pct"] <= 0
             and macro["treasury_10y_change_bp"] <= 4
             and macro["wti_change_pct"] <= 2
-            and macro.get("geopolitical_risk_score", 35) <= 60)
+            and geo <= 60)
 
 def high_impact_headline(c, at):
     """Earlier but clearly flagged RSS lead; never claim a verified event or live move."""
