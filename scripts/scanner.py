@@ -10,6 +10,7 @@ import yfinance as yf
 from history import update_history
 from push_alerts import run_alerts, TOPIC_PATTERN
 from fcm_push import run_fcm_alerts, enabled as fcm_enabled
+from offhours_news import build_news_watch
 from signal_quality import (
     read_time, headline_status, quote_health, hourly_change,
     hourly_relative_volume, early_signal
@@ -191,7 +192,16 @@ def load_market(tickers):
 def google_news(query,max_items=20):
     url='https://news.google.com/rss/search?q='+quote_plus(query)+'&hl=en-US&gl=US&ceid=US:en'
 
-    feed=feedparser.parse(url)
+    # Explicit HTTP timeout/health failure rather than a silent empty RSS list.
+    # An empty Google RSS response is not evidence that no market news exists.
+    resp=requests.get(
+        url,headers={"User-Agent":"Mozilla/5.0 (compatible; CatalystRadar/1.0; news-monitor)"},
+        timeout=16
+    )
+    resp.raise_for_status()
+    feed=feedparser.parse(resp.content)
+    if getattr(feed,"bozo",False) and not feed.entries:
+        raise ValueError("News RSS response could not be parsed")
 
     out=[]
 
@@ -922,9 +932,14 @@ def main():
 
     macro=macro_snapshot(market)
 
+    # Separate, exchange-independent scan: Saturday/Sunday press is still news.
+    news_watch=build_news_watch(google_news,now())
     geo=geopolitical_snapshot()
 
-    macro['geopolitical_risk_score']=geo['risk_score']
+    macro['geopolitical_risk_score']=geo['risk_score'] if geo['headlines'] else None
+    macro['geopolitical_risk_status']=(
+        'INDEXED_INDICATIVE' if geo['headlines'] else 'UNKNOWN_NO_RECENT_VERIFIED_HEADLINES'
+    )
     macro['geopolitical_headlines']=geo['headlines']
 
     if geo['headlines']:
@@ -982,6 +997,7 @@ def main():
         'macro':macro,
         'catalysts':catalysts,
         'movers':movers,
+        'news_watch':news_watch,
         'archive_count':history_count,
         'background_schedule_minutes':5,
         'push_configured':bool(TOPIC_PATTERN.fullmatch(os.getenv('NTFY_TOPIC','').strip())),
@@ -1012,7 +1028,10 @@ def main():
 
     print(
         f'wrote {OUT} '
-        f'with {len(catalysts)} catalysts and {len(movers)} movers'
+        f'with {len(catalysts)} catalysts and {len(movers)} movers; '
+        f'weekend news geopolitical={len(news_watch["geopolitics"])} '
+        f'corporate={len(news_watch["corporate"])} '
+        f'source_status={news_watch["status"]}'
     )
 
 if __name__=='__main__':
