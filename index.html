@@ -44,7 +44,7 @@
           </label>
         </div>
         <p id="deviceNotificationStatus" class="data-timestamps" aria-live="polite">Controllo preferenza notifiche…</p>
-        <small class="hero-note">Versione web attuale: l'interruttore controlla soltanto gli avvisi di questa app quando è aperta. Le notifiche in background ricevute dall'app esterna ntfy restano indipendenti: per fermarle devi silenziare il canale su ntfy. Prima della pubblicazione su Play Store integreremo notifiche per singolo utente tramite Firebase Cloud Messaging, così il medesimo interruttore potrà controllare anche quelle in background.</small>
+        <small id="notificationPlatformInfo" class="hero-note">Versione web: l'interruttore controlla soltanto gli avvisi mentre la pagina è aperta. Le notifiche dell'app esterna ntfy vanno gestite separatamente in ntfy. La versione Android usa invece notifiche Firebase per ciascun dispositivo, quando Firebase è configurato.</small>
         <div class="actions">
           <button id="refreshBtn" class="secondary">↻ Aggiorna dati</button>
           <button id="installBtn" class="secondary hidden">＋ Installa app</button>
