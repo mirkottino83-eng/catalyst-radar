@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from offhours_news import build_news_watch, QUERIES
+from offhours_news import build_news_watch, QUERIES, classify_geo
 
 SAT = datetime(2026,10,10,18,0,tzinfo=timezone.utc)
 
@@ -31,6 +31,27 @@ class TestWeekendNews(unittest.TestCase):
         self.assertEqual(result["geopolitics"][0]["verification_status"],
                          "INDICE_RSS_DA_VERIFICARE")
         self.assertFalse(result["open_market_required"])
+
+    def test_ceasefire_anniversary_killings_are_not_peace(self):
+        self.assertEqual(classify_geo("Child among eight killed on ceasefire anniversary"),
+                         "POSSIBILE_ESCALATION_DA_VERIFICARE")
+        self.assertEqual(classify_geo("Sides announce ceasefire deal after peace talks"),
+                         "POSSIBILE_DISTENSIONE_DA_VERIFICARE")
+        self.assertEqual(classify_geo("One year after ceasefire, diplomatic opinions differ"),
+                         "CONTESTO_NON_CLASSIFICATO")
+
+    def test_filter_better_buy_comparison_articles(self):
+        def fetch(q,n):
+            return [{"title":"Broadcom vs. Intel: Which Chip Stock Is a Better Buy?",
+                     "published":SAT-timedelta(minutes=4),
+                     "url":"https://example.org/opinion","source":"Financial news"},
+                    {"title":"Intel announces new multi-year chip supply agreement",
+                     "published":SAT-timedelta(minutes=6),
+                     "url":"https://example.org/contract","source":"Wire"}]
+        result=build_news_watch(fetch,SAT)
+        self.assertTrue(result["corporate"])
+        self.assertTrue(all("better buy" not in x["title"].lower() for x in result["corporate"]))
+        self.assertTrue(any("supply agreement" in x["title"].lower() for x in result["corporate"]))
 
     def test_zero_does_not_hide_feed_error(self):
         def fetch(q,limit):
