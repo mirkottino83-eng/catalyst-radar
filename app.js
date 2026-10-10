@@ -152,7 +152,7 @@ async function loadData(manual=false){
     if(manual) toast("Dati aggiornati");
   }catch(e){console.error(e);$("#lastUpdate").textContent="Dati non disponibili";if(manual)toast("Aggiornamento non riuscito")}
 }
-function render(){if(!state.data)return;renderHeader();renderMacro();renderMovers();renderCatalysts();renderArchive();renderWatchlist();renderSources()}
+function render(){if(!state.data)return;renderHeader();renderMacro();renderNewsWatch();renderMovers();renderCatalysts();renderArchive();renderWatchlist();renderSources()}
 function renderHeader(){
   const d=state.data,ts=d.generated_at?new Date(d.generated_at):null;
   $("#lastUpdate").textContent=ts?"Agg. "+ts.toLocaleString("it-IT",{hour:"2-digit",minute:"2-digit",day:"2-digit",month:"2-digit"}):"Aggiornamento —";
@@ -191,6 +191,48 @@ function renderMacro(){
     " · le fonti gratuite possono avere ritardi.";
   st.classList.toggle("data-stale",readable===null||readable>20);
 }
+function renderNewsWatch(){
+  const obj=state.data.news_watch||null;
+  const status=$("#newsWatchStatus"),health=$("#newsSourceHealth");
+  if(!status||!health)return;
+  if(!obj){
+    status.textContent="SCANSIONE NON DISPONIBILE";
+    health.textContent="Il backend non ha ancora pubblicato la nuova diagnostica delle notizie. Non significa che non ci siano notizie.";
+    return;
+  }
+  const sources=Array.isArray(obj.sources)?obj.sources:[];
+  const fails=sources.filter(s=>s.status==="ERROR");
+  const allFail=sources.length>0&&fails.length===sources.length;
+  status.textContent=allFail?"FONTI NON RAGGIUNGIBILI":fails.length?"COPERTURA PARZIALE":"RICERCA ESEGUITA";
+  status.className="badge "+(fails.length?"negative":"neutral");
+  const time=obj.updated_at?new Date(obj.updated_at).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}):"N/D";
+  const names=sources.map(x=>x.area+": "+x.status+(x.fetched!=null?" ("+x.fetched+" RSS)": "")).join(" · ");
+  health.textContent="Ultimo controllo "+time+" · "+names+
+    ". Se una fonte non risponde, il numero zero non significa assenza di notizie.";
+  for(const [key,id] of [["geopolitics","geopoliticsNews"],["corporate","corporateNews"]]){
+    const container=$("#"+id);
+    if(!container)continue;
+    const articles=Array.isArray(obj[key])?obj[key]:[];
+    if(!articles.length){
+      container.innerHTML='<p class="muted">'+(
+        allFail?"Non è stato possibile consultare le fonti.":
+        "Nessun articolo pertinente selezionato nelle ultime 48 ore. Controlla lo stato delle fonti."
+      )+'</p>';
+      continue;
+    }
+    container.innerHTML=articles.map(item=>{
+      const href=validHref(item.url);
+      const t=item.published_at?new Date(item.published_at).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}):"Ora N/D";
+      const title=esc(item.title||"Notizia senza titolo");
+      return '<article class="news-watch-item"><div class="news-watch-date">'+esc(t)+
+        ' · '+esc(item.source||"Indice RSS")+' · '+esc(item.area||"")+'</div>'+
+        (href?'<a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">'+title+'</a>':
+        '<strong>'+title+'</strong>')+
+        '<small>RSS da verificare alla fonte · nessun movimento azionario garantito</small></article>';
+    }).join("");
+  }
+}
+
 function renderMovers(){
  const target=$("#moversList");
  if(!target)return;
