@@ -29,7 +29,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Verify Python scanner syntax
-        run: python -m py_compile scripts/scanner.py scripts/history.py scripts/signal_quality.py scripts/push_alerts.py
+        run: python -m py_compile scripts/scanner.py scripts/history.py scripts/signal_quality.py scripts/push_alerts.py scripts/fcm_push.py
       - name: Install lightweight test dependency
         run: pip install requests pyyaml
       - name: Verify archived price calculations

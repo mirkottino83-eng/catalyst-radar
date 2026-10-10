@@ -1,4 +1,4 @@
-const state={data:null,filter:"all",deferredInstall:null,history:null,historyShown:30,favorites:[],notificationsEnabled:false};
+const state={data:null,filter:"all",deferredInstall:null,history:null,historyShown:30,favorites:[],notificationsEnabled:false,nativeAvailable:null,nativeBusy:false,nativeStatus:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const fmt=(v,d=2)=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))?Number(v).toFixed(d):"—";
 const signed=v=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))?((Number(v)>0?"+":"")+Number(v).toFixed(2)+"%"):"N/D";
@@ -10,6 +10,17 @@ const toast=m=>{const e=$("#toast");e.textContent=m;e.classList.add("show");setT
 // Current legacy ntfy Android subscription is independent and must be muted
 // in ntfy itself; a future Play Store native app will use FCM per device.
 const DEVICE_NOTIFICATIONS_KEY="catalyst-radar-device-notifications-v1";
+const isNativeRadar=()=>!!(window.CatalystRadarNative&&typeof window.CatalystRadarNative.postMessage==="function");
+window.addEventListener("CatalystRadarNativeState",event=>{
+  if(!isNativeRadar())return;
+  const detail=event.detail||{};
+  state.nativeAvailable=detail.available===true;
+  state.nativeBusy=detail.busy===true;
+  state.nativeStatus=detail.status||"ready";
+  state.notificationsEnabled=detail.enabled===true;
+  renderDeviceNotifications();
+  if(detail.error)toast(detail.error);
+});
 function readDeviceNotifications(){
   try{return localStorage.getItem(DEVICE_NOTIFICATIONS_KEY)==="enabled"}
   catch(_){return false}
@@ -22,6 +33,22 @@ function renderDeviceNotifications(){
   const input=$("#deviceNotificationToggle"),status=$("#deviceNotificationStatus");
   if(!input||!status)return;
   input.checked=state.notificationsEnabled;
+  if(isNativeRadar()){
+    input.disabled=state.nativeBusy||state.nativeAvailable!==true;
+    if(state.nativeAvailable===null){
+      status.textContent="Verifica configurazione notifiche Android…";
+    }else if(!state.nativeAvailable){
+      status.textContent="Notifiche Android non ancora configurate con Firebase: necessaria la configurazione prima del Play Store.";
+    }else if(state.nativeBusy){
+      status.textContent="Aggiornamento notifiche Android in corso…";
+    }else if(state.notificationsEnabled){
+      status.textContent="ON: notifiche native abilitate per questo telefono, anche con l'app chiusa. Puoi disattivarle qui.";
+    }else{
+      status.textContent="OFF: notifiche native disabilitate soltanto su questo telefono.";
+    }
+    return;
+  }
+  input.disabled=false;
   const usable=("Notification" in window) && Notification.permission==="granted";
   if(!state.notificationsEnabled){
     status.textContent="Disattivate: nessun nuovo avviso locale da Catalyst Radar. Le notifiche ntfy esterne vanno silenziate direttamente in ntfy.";
@@ -32,6 +59,19 @@ function renderDeviceNotifications(){
   }
 }
 async function updateDeviceNotifications(enabled){
+  if(isNativeRadar()){
+    if(state.nativeAvailable!==true||state.nativeBusy)return;
+    state.nativeBusy=true;
+    renderDeviceNotifications();
+    try{
+      window.CatalystRadarNative.postMessage(JSON.stringify({type:"setNotifications",enabled:!!enabled}));
+    }catch(error){
+      state.nativeBusy=false;
+      renderDeviceNotifications();
+      toast("Impossibile aggiornare le notifiche native.");
+    }
+    return;
+  }
   if(enabled && "Notification" in window && Notification.permission==="default"){
     try{await Notification.requestPermission()}catch(e){console.warn("Notification permission:",e)}
   }
@@ -74,6 +114,7 @@ function newLocalAlerts(previous,current){
   return result;
 }
 async function showDeviceAlert(title,body){
+  if(isNativeRadar())return; // Native FCM service owns notifications. Never duplicate.
   if(!state.notificationsEnabled||!("Notification" in window)||Notification.permission!=="granted")return;
   try{
     if("serviceWorker" in navigator){
@@ -362,6 +403,11 @@ $("#archiveList").addEventListener("click",e=>{
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(console.warn));
 state.notificationsEnabled=readDeviceNotifications();
 renderDeviceNotifications();
+if(isNativeRadar()){
+  state.notificationsEnabled=false; // Wait for native persisted per-phone preference.
+  renderDeviceNotifications();
+  window.CatalystRadarNative.postMessage(JSON.stringify({type:"getState"}));
+}
 loadData();
 setInterval(()=>loadData(false),60*1000);
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)loadData(false)});
