@@ -20,8 +20,9 @@ jobs:
           gradle-version: '8.13'
       - name: Install Android 16 SDK
         run: |
-          test -d "${ANDROID_HOME:-/usr/local/lib/android/sdk}" || exit 1
-          sdkmanager "platforms;android-36" "build-tools;35.0.0"
+          SDK_HOME="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+          test -x "$SDK_HOME/cmdline-tools/latest/bin/sdkmanager" || exit 1
+          "$SDK_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;35.0.0"
       - name: Set up private Firebase config and signing key
         env:
           FIREBASE_GOOGLE_SERVICES_JSON_B64: ${{ secrets.FIREBASE_GOOGLE_SERVICES_JSON_B64 }}
