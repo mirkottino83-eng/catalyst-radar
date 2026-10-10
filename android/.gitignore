@@ -1,0 +1,10 @@
+# Never commit signing material or machine credentials
+local.properties
+*.jks
+*.keystore
+app/google-services.json
+build/
+**/build/
+.gradle/
+.idea/
+*.iml
