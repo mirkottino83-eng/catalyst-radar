@@ -1,5 +1,25 @@
 # Catalyst Radar
 
+## Android / Google Play (in preparazione)
+
+Abbiamo aggiunto un **progetto Android nativo** nella cartella `android/` con target
+**API 36**, un'interfaccia sicura con la dashboard GitHub Pages e la gestione
+notifiche Firebase per **singolo telefono**. I servizi ntfy della PWA sono
+indipendenti: i loro messaggi non sono comandati dall'interruttore Android.
+
+- Prova APK su GitHub Actions: **Android Play Store readiness**
+- AAB firmato (richiede credenziali e configurazione Firebase): **Build signed Android App Bundle for Google Play**
+- Procedura completa: [docs/PLAY_STORE.md](docs/PLAY_STORE.md)
+- Testo scheda Play: [docs/PLAY_LISTING_IT.md](docs/PLAY_LISTING_IT.md)
+- Informativa pubblica **ancora in bozza**: [privacy.html](privacy.html)
+
+**Importante:** in assenza di `google-services.json` l'APK di debug è utilizzabile
+per provare la dashboard, ma il selettore delle notifiche Android mostra
+Firebase non configurato e non può inviare push. Anche con build riuscita,
+restano da completare configurazione Firebase, upload key, test reali,
+licenze di redistribuzione dati, scheda privacy e account Google Play.
+Non è ancora una release approvata né pubblicata nello Store.
+
 Web app/PWA for **research and monitoring**, not a trading broker. Runs as a static dashboard; a Python scanner updates `data/latest.json` through GitHub Actions. No Replit required.
 
 ## What the free scanner does
