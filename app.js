@@ -182,7 +182,16 @@ function renderMacro(){
   const qt=m.quote_times||{};
   const dated=Object.entries({Treasury:qt.treasury_10y,WTI:qt.wti,Brent:qt.brent,Nasdaq:qt.nasdaq,SOX:qt.sox,VIX:qt.vix})
     .map(([name,time])=>time?name+" "+new Date(time).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}):name+" N/D");
-  $("#macroQuoteTimes").textContent="Ora dell'ultima quotazione disponibile (non necessariamente live): "+dated.join(" · ");
+  const nasdaqTs=Date.parse(qt.nasdaq||"");
+  const quotesStale=!Number.isFinite(nasdaqTs)||(Date.now()-nasdaqTs)>90*60*1000;
+  const staleLabel=quotesStale?"ULTIMA SEDUTA · NON LIVE — ":"";
+  $("#macroQuoteTimes").textContent=staleLabel+"Ora dell'ultima quotazione disponibile (non necessariamente live): "+dated.join(" · ");
+  if(quotesStale){
+    $("#macroSummary").textContent="Quotazioni della precedente seduta, non prezzi attuali. "+
+      (m.summary||"")+
+      (m.geopolitical_risk_status==="UNKNOWN_NO_RECENT_VERIFIED_HEADLINES"
+        ?" · Geopolitica: rischio non determinabile dalle news selezionate.":"");
+  }
   const age=Date.now()-Date.parse(state.data.generated_at);
   const readable=Number.isFinite(age)?Math.max(0,Math.floor(age/60000)):null;
   const st=$("#backendStatus");
