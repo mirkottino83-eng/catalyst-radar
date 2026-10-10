@@ -9,7 +9,7 @@ on:
       - 'config/**'
       - '.github/workflows/update-radar.yml'
   schedule:
-    - cron: '2-59/5 * * * *' # every 5 minutes; scheduling is best effort
+    - cron: '2-59/5 * * * *' # best-effort five-minute scan; scheduled jobs can be delayed or skipped
 
 permissions:
   contents: write
