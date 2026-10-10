@@ -33,28 +33,23 @@
         <div class="eyebrow">SCANNER CLOUD • CONTROLLO AUTOMATICO</div>
         <h2>Monitoraggio automatico dei catalyst e del quadro macro.</h2>
         <p>Lo scanner combina qualità e freschezza della notizia, forza del catalyst, prezzo, volumi, momentum e quadro macro. Le fonti ufficiali hanno priorità.</p>
-        <div class="actions control-actions" aria-label="Controlli monitoraggio cloud">
-          <button id="enableMonitorBtn" type="button" class="primary" disabled>▶ Attiva monitoraggio continuo</button>
-          <button id="disableMonitorBtn" type="button" class="secondary" disabled>■ Disattiva monitoraggio</button>
-          <button id="togglePushBtn" type="button" class="secondary" disabled>🔔 Notifiche: caricamento…</button>
+        <div class="notification-preference">
+          <div class="notification-preference-copy">
+            <strong>Notifiche sul dispositivo</strong>
+            <small>Scorri il pallino a destra per attivare gli avvisi dell'app o a sinistra per disattivarli.</small>
+          </div>
+          <label class="notification-switch">
+            <input id="deviceNotificationToggle" type="checkbox" role="switch" aria-label="Notifiche su questo dispositivo" aria-describedby="deviceNotificationStatus" />
+            <span class="notification-switch-track" aria-hidden="true"><span class="notification-switch-thumb"></span></span>
+          </label>
         </div>
-        <div id="remoteControlStatus" class="data-timestamps" role="status" aria-live="polite">Lettura stato remoto da GitHub…</div>
-        <small class="hero-note">I pulsanti richiedono una conferma su GitHub: si apre una richiesta già compilata e devi premere «Submit new issue». Dopo la conferma il server aggiorna lo stato. Nessuna password o token viene inserita nell'app.</small>
+        <p id="deviceNotificationStatus" class="data-timestamps" aria-live="polite">Controllo preferenza notifiche…</p>
+        <small class="hero-note">Versione web attuale: l'interruttore controlla soltanto gli avvisi di questa app quando è aperta. Le notifiche in background ricevute dall'app esterna ntfy restano indipendenti: per fermarle devi silenziare il canale su ntfy. Prima della pubblicazione su Play Store integreremo notifiche per singolo utente tramite Firebase Cloud Messaging, così il medesimo interruttore potrà controllare anche quelle in background.</small>
         <div class="actions">
           <button id="refreshBtn" class="secondary">↻ Aggiorna dati</button>
           <button id="installBtn" class="secondary hidden">＋ Installa app</button>
         </div>
-        <small class="hero-note">Lo scanner gira su GitHub anche con l'app chiusa: tentativo ogni 5 minuti, con possibili ritardi o esecuzioni saltate. L'app aperta controlla ogni minuto se sono disponibili nuovi risultati. Le fonti gratuite possono avere ritardi: non è un feed in tempo reale.</small>
-        <div id="pushStatus" class="data-timestamps">Notifiche push: controllo configurazione…</div>
-      </div>
-      <div class="timer-wrap">
-        <div class="timer-ring" id="timerRing">
-          <div>
-            <strong id="scanIndicator">AUTO</strong>
-            <span id="scanMode">OGNI 5 MIN</span>
-          </div>
-        </div>
-        <p id="scanHint">Il monitoraggio cloud resta attivo anche con l'app chiusa, finché non lo disattivi.</p>
+        <small class="hero-note">Il monitoraggio rimane attivo sui server GitHub anche quando chiudi l'app: una scansione richiesta ogni 5 minuti (best effort, con possibili ritardi). La pagina aggiorna i dati disponibili ogni minuto mentre è aperta. Non è un feed di quotazioni tick-by-tick.</small>
       </div>
     </section>
 
