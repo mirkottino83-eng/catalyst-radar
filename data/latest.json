@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:10:56.844042+00:00",
+  "generated_at": "2026-10-10T20:26:20.700818+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -33,6 +33,48 @@
   },
   "catalysts": [
     {
+      "id": "b2403f40c484",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Nvidia Reportedly in Talks to Acquire Reflection AI, Betting on Open-Weight Models and New AI Computing Demand - TradingKey",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTdoMzRYOXY0WFJUQ3FrbmNCSjlyWUx5TFE3VXFlS1NTdjJJdEpVbFJPQjBTY3VmS2FMbE41SF9RbTBrd3FaZFBuNWtqVDlVdU90ckdBTTdZdXNQdWctdWpSWU16SGhXVUpCckpWWTM1dTI2RVl4bDRPaFdHaWRZTWQ0eU1YYktMY01SaUU3WVotVEJ2c09OTjl6Wm5RZHAzXy1sdnNGSW9hSE8yd2MwVXA0emNsNXpXSDZja2N3aWZpSGllTW9tZ0czQV9sa2R2ZUUwWkFIS0I?oc=5",
+      "published_at": "2026-10-10T20:19:53+00:00",
+      "age_label": "6 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -0.5,
+      "short_term_change_pct": -0.03,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-09T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1231.2,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 52.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-10T20:19:53+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 50,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    },
+    {
       "id": "f27d060b9194",
       "ticker": "NVDA",
       "company": "NVIDIA",
@@ -44,7 +86,7 @@
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSFAzNzlXTG5BbHZkbU5EX3lMZEl6Z3ZROVJPbE5NbFNwdXQtZ3N3cDlCYTNBVlg2VF9fTVE5RnIxS0I3b0dUejNudmZseG03RzVCdTBBS3hWaWM5S05KYV9WLWVOMENkODV0N2RXQzctank0bVpfSWo1bjNmbGg0Wi1RWFA?oc=5",
       "published_at": "2026-10-10T18:14:28+00:00",
-      "age_label": "116 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "ma",
       "current_change_pct": -0.5,
       "short_term_change_pct": -0.03,
@@ -52,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1215.9,
+      "quote_age_minutes": 1231.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -77,7 +119,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-10T20:10:43.780955+00:00",
+    "updated_at": "2026-10-10T20:26:08.627764+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -94,7 +136,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -115,7 +157,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       }
     ],
     "geopolitics": [
@@ -165,21 +207,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Dozens reported injured in Yemeni Houthi attack at Riyadh airport - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVhuZnBjakRva1RIcHU3NmJlU05aNmdnNnJuUHRRSG56ZkR5ZnRxWmNvT3I5Q0FKSFJNSXl3MExXZ3RYd2tzOHh1OFItWHBlM19jVVk5TXROTHZHMjd2T1pyWDJnbDcyY0JUYWcwVUI5ZFlaSC04SUtSQWppZWdkb0hhNXBKUFU4Z3A2MVJ5aFZQb0M2WFZYdGtvZEtRS20tRUlDZmYyU1pfNEdxazBHVGhvd240RnB3SnpaQQ?oc=5",
+        "published_at": "2026-10-10T18:28:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Germany reaffirms Russia sanctions after Trump-Putin diesel supply agreement - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNmJQM3NXMWRLZVUzQTBVYU9sc2xpdzRRR044OU15anFzS0ZKNlhDVjVnSjJvUHRGRjUyV2JBMGRvTU9CU1paZm1XTjV6b0NESW92NUVwb29pdm16NDNURW5HdGJtblBCbmtTbkRYQnEtUU5LWnlwOHh2VVZxOWhMelFzczAxOEE1cERnZzdsVlBMcFg0R2RnMjBmdUw0Z0JtbkpkYlJHMjMwOGw5Q2pUWg?oc=5",
         "published_at": "2026-10-10T18:12:54+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "DW News. . Both China and the US are racing for chips, energy, talent, data centers, and global AI influence. The AI race isn't just about who builds the smartest model. It's about who writes the rules. Can the rest of the world trust one system more than the ",
-        "source": "Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZnRKVHJ3b2VIVGJ4UnRmdW01UWYwVUMzZmpuam5vRHJYZkNGdUU1NU00NDhNSDJkeE4xRnVQYmdrMFp2Uk9OS3pVc2kzM3Z2WXRXNGphVHkybVdKa0d0c0Y1MUY1OFNyNGhtdElJLWpiTjhKU3R2SHowTHRXSmVqR2ZEcFdyYy01eVZEbWI2NTVzQjJTR2VwdFFwak1jQVpYYTdLMy1WUTBGeFNPQ0dxeU9xeG5uTV93ZzZZYVEzTkJPMUdCRlVzNVBLVHhkXzlpWFNrY1QybWRxejhvSzBPcnpR?oc=5",
-        "published_at": "2026-10-10T17:40:05+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -201,6 +243,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Oil tanker explodes after striking naval mine in Hormuz, IRGC claims - report - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBUHBTSEE2RWp1Q2JER29qVzlWOTJ1RlRjVUd3YlB0enNMa1ZmOXYyTWZzVVRZSTdlMkhIaXJFNVlNcjIwdFBJSEFDcko0bFlocjl4U3d0RTE1LVRiN0QwVFp2dFlvcWt4dVE?oc=5",
+        "published_at": "2026-10-10T17:16:35+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "EU-China trade relations hit crunch time as Brussels pushes for rebalancing - Investing.com",
         "source": "Investing.com",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOREdSblFYMXBqbUpZRVFaUEhfQlktTmFBT1Q0WktJSmt0c1hmdU05NzVkSDJsVkZXejY1QkR0bWIzTWNGa2RNNFhfMmZqV1p6dTc4WDcwTGh4eVlVelpuT0JDbEgwYkRjWEZvbHZiNjFpSGd1MmxDcFVtb2NKbHdVemxLTm02bnJ4V1hoeldsUVRqcE0xTURscEVQOFQ1bll5ZzgyWmxkUmV2LXZ2dXpSNGRIZ1JRRkJXZFQ1aHFzZlAwVXo2WS1YaG9aOA?oc=5",
@@ -210,29 +261,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Several injured in fresh attack on Riyadh’s King Khalid International Airport - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NNm8zRGJqcUNiY05QN1Y0MHN1QnJVV0IzNTl2OHY2T3NEdlVkanBTUWFlVEprZVZrLXNvbVFtMWxxeXRreFZmRDFRY0lUbWdtcENxXzBMMm9LNm8?oc=5",
-        "published_at": "2026-10-10T16:56:32+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Germany sticks to Russia sanctions after Trump diesel deal - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYzBrUE1heDRjMEt4OFNqcUxIdURaelhuYUV0QUhoWEhIU2RxOGN2ek9GVzk3eWp6M21jcm93ODRnQmZrN3JBNE5EMV9kVjNOUUw1N1RsWm1WWXdWd25JUFNSVS1QTWhKdzdGek5kY1luU1lwM1lVUXo4c2VuX1h4QzJwOUI1LWNyTEJmcm1uWHJPZDFJOVdYNmlR?oc=5",
-        "published_at": "2026-10-10T16:42:46+00:00",
+        "title": "Russian attacks kill 17 in Ukraine after Trump strikes diesel deal with Putin - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdTQ5eDJvOGhzTVpQYWxucGhZSEJEOC0wMmNqTXU3OF9leUlNNmJfN1R0dUxUa3hfN2RhTjU3cERGZWhCa1Jqb2pTRHZKS0ZFY25ZSGRYVVh5R3ZyNjBRWkxIbU9OcmhXYlM0ZURxVERfbjRvby1YVWwxTGt4Sm1kUHQ3dXBaOFl5SnJ6TTE1SFFScFRNNnN5N0ExUEludTRjUGQ3dGJUTdIBrAFBVV95cUxORllLcDRxODFPY3ZjNkVZMmlFcFUySkY5Q1ZFT3dZY2FlTVVPOTFLWnJkalV4WEgwZi1qbHN6bjA1MXhiZ1B6R0l6OG5lYmhQYlRwd2Z0YXhpeEFUdkd0dXM0NTJISTBRLVdzYzdLeE9uUUJKZlY1ZHhEMjlLWXE4czdPNlJ3N2YxY043ZDRpNWN6eDFCNk9KSVV3aUJ5cXltTjEtdTQyWjU5YTRU?oc=5",
+        "published_at": "2026-10-10T16:14:27+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Riyadh airport suspends operations after Houthi attack injures several - Le Monde.fr",
-        "source": "Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdXNsYWwwMzFQbWNaNEtJc2YtVE83bnoyLUtvRW55QTZ4LUJoOE9qbTM5aTM4VXVvaFFRaV8yMGZIOHBTU0JDTk1uSWYxY1Mza0xFTS05YzFYLWprbXUwTl9FakVDQzg5YnB6a1ZHNVRNWFphMVYteU54TWo4QVlMV1V2UzN0WVlKZkZLdUVRLWFpYVRzbHJ2VGhaT3dpeXFqSG5XWnhQQnp3LWQzRHJMN053ZHdjTUtiYk9sYWhPQ0Y2RmhlQ3Bn?oc=5",
-        "published_at": "2026-10-10T16:09:38+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -252,6 +285,15 @@
         "published_at": "2026-10-10T06:20:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU, China strike interim trade deal, envoy says - TelegraphHerald.com",
+        "source": "TelegraphHerald.com",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTG9GS0N6U3YxYXZsTlZDSUlTQk9OckNRUDlBVGFra25NaTdUWEw0SDNBTnJfdF82WG1SOF94SE9pVlhhR0hnTHQyaDNPWVdqMWhQX20yS2FDTFdMTG80aTBkZzAzbWlOTnduR1RMdmNua0xsT2s3LS1XLU56dEE1LVVmalhaNkRodkNKM2tpV1lMak9md29qZA?oc=5",
+        "published_at": "2026-10-10T05:30:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -284,6 +326,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Teva Announces U.S. Food and Drug Administration (FDA) Approval of WELTRUZA™ (Olanzapine) For Extended-Release Injectable Suspension, as the First and Only Once-Monthly Subcutaneous Injectable Olanzapine for Adults with Schizophrenia - Teva Pharmaceuticals",
+        "source": "Teva Pharmaceuticals",
+        "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxPVWVsRF80cmpva2RFM25oTkRnM21FWkxpcWo1c0JPd2N2ckhHNHVYRDViNGJoc0VXRTlEUzVTVkk5dG1RbzkzSDg1WGYxTEszbjVHT2plSmRDbW85VFZSZ3lvTm9XZDdMQzFxN3NWX1RhNEpnbS1OdFdrU2dFalNiUUxMakUweWcyUE9yVWtUMFFHN1R6ay1TeFN1cmRPbE96b0Q5aEwwSXBNMVpjcGh5V0Iya2VDR0xLMWtTVlZ0Ui1ZdDhXUWFITFBkNEI4UnF5RkVVNlp3U3pEX21YVlB2UjhBSUtiY21pX2FPQnN0RUtEQkQ3TFBHOEFwc05haXo1cjJZS0J2bUJ0VEhLQ2ZuMmN4SlM3R2x0bkdDa0F2RnU3dTVkRFZPVTRWSGpiakthWGI0VXEwZmp0eUxsZ2xubXRMeG5weVFZY1JrSlY3NTBrSlltaFRiVVNkUHpTcGQ0RnVyM2s1enNQSFRlWkxsSlJrUlNOWFgxaEp4Yk5rZGZQZTZEdktqbVZlMmRKTF9HOXp6X1MzaThVbmpiUnc0UXJ5NW1xb2o4T29BdE9RU3dsSnZKSE9PVGtTNkREWlZaM2ZqQ2N1VFcxM0FlRnFCbnVpOXQ1eW1zbEhNS2VR?oc=5",
+        "published_at": "2026-10-10T05:39:02+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
@@ -309,20 +360,11 @@
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOXNGN3pjSGNMdGluU1gwMzRlYkdqNW14dVFIRkhBLUFudWxKdk85SUxnaWk4SGVQUDFTbFZlS2FhQTVJeXJvMjFTR25XcmpKVEM1SHlUZlY0czJsMDJGS1N1aFdzTk5wZldTWFkyVVhqdE5KZjdjQkpBd0RScmRiajlDRGtZSmNVUEQwbFNXbGFqaXplNjRjMjhqTnFSOGtWeWsxVE42T3J0ZVkwaFZKX2QwVFI3MEk?oc=5",
-        "published_at": "2026-10-09T17:54:52+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 2,
+  "archive_count": 3,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
