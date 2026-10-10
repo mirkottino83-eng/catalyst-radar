@@ -647,9 +647,10 @@ def build_candidates(market,macro):
             {}
         )
 
-        move=m.get('current_change_pct') or 0
-        mom=m.get('short_term_change_pct') or 0
-        rv=m.get('relative_volume') or 1
+        move=m.get('current_change_pct')
+        mom=m.get('short_term_change_pct')
+        rv=m.get('relative_volume')
+        quote=quote_health(m.get('last_quote_at'), now())
 
         strength=(
             58
@@ -659,17 +660,9 @@ def build_candidates(market,macro):
 
         srcq=100
 
-        vol_score=clamp(
-            45
-            +25*math.log(
-                max(rv,.25),
-                2
-            )
-        )
-
-        mom_score=clamp(
-            50+12*mom
-        )
+        vol_score=(clamp(45+25*math.log(max(rv,.25),2))
+                   if rv is not None else 28)
+        mom_score=(clamp(50+12*mom) if mom is not None else 35)
 
         macro_score=macro['macro_score']
 
@@ -678,7 +671,7 @@ def build_candidates(market,macro):
                 0,
                 (move-5)*4
             )
-            if move>5
+            if move is not None and move>5
             else 0
         )
 
@@ -721,9 +714,15 @@ def build_candidates(market,macro):
 
             'catalyst_type':'SEC filing',
 
-            'current_change_pct':round(move,2),
-            'short_term_change_pct':round(mom,2),
-            'relative_volume':round(rv,2),
+            'current_change_pct':round(move,2) if move is not None else None,
+            'short_term_change_pct':round(mom,2) if mom is not None else None,
+            'relative_volume':round(rv,2) if rv is not None else None,
+            'volume_metric':'1h vs preceding NY session same hour',
+            'quote_at':m.get('last_quote_at'),
+            'quote_status':quote['status'],
+            'quote_age_minutes':quote['age_minutes'],
+            'early_signal':False,
+            'signal_status':'SEC_UNCLASSIFIED',
 
             # Filing generici non sono segnali long: nessun rialzo stimato.
             'estimated_impact_pct':0.0,
@@ -732,6 +731,8 @@ def build_candidates(market,macro):
             'verification_status':'SEC_DOCUMENTO_UFFICIALE_EVENTO_NON_CLASSIFICATO',
 
             'source_verified':True,
+            'headline_published_at':f['published'].isoformat(),
+            'event_occurred_at':None,
 
             'tradingview_symbol':w['ticker'],
 
