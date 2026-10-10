@@ -8,7 +8,6 @@ import feedparser
 import requests
 import yfinance as yf
 from history import update_history
-from control_state import load_control
 from push_alerts import run_alerts, TOPIC_PATTERN
 from signal_quality import (
     read_time, headline_status, quote_health, hourly_change,
@@ -905,35 +904,6 @@ def geopolitical_snapshot():
     }
 
 def main():
-    controls=load_control()
-    if not controls.get("monitoring_enabled",False):
-        try:
-            previous=json.loads(OUT.read_text(encoding="utf-8"))
-        except (OSError,ValueError):
-            previous={}
-        try:
-            history_doc=json.loads((ROOT/'data/history.json').read_text(encoding="utf-8"))
-            history_count=len(history_doc.get("events",[]))
-        except (OSError,ValueError):
-            history_count=0
-        result={
-            'generated_at':now().isoformat(),
-            'status':'paused',
-            'control':controls,
-            'macro':{},
-            'catalysts':[],
-            'movers':[],
-            'archive_count':history_count,
-            'background_schedule_minutes':5,
-            'push_configured':bool(TOPIC_PATTERN.fullmatch(os.getenv('NTFY_TOPIC','').strip())),
-            'watchlist':WATCH,
-            'sources':previous.get('sources',[])
-        }
-        OUT.parent.mkdir(parents=True,exist_ok=True)
-        OUT.write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n',encoding="utf-8")
-        print("Scanner intentionally paused. No market fetch and no push notifications.")
-        return
-
     all_tickers=[
         w['ticker']
         for w in UNIVERSE
@@ -1007,7 +977,7 @@ def main():
     result={
         'generated_at':now().isoformat(),
         'status':'ok',
-        'control':controls,
+        'monitoring_enabled':True,
         'macro':macro,
         'catalysts':catalysts,
         'movers':movers,
@@ -1032,11 +1002,9 @@ def main():
         encoding='utf-8'
     )
 
-    # Server-side switch disables ntfy, including with the PWA closed.
-    if controls.get('notifications_enabled', False):
-        run_alerts(catalysts,macro,market)
-    else:
-        print("Notification sending disabled by GitHub runtime control.")
+    # Legacy ntfy channel remains subscribed until migrated to per-installation
+    # Firebase Cloud Messaging. Do not expose a global notification toggle.
+    run_alerts(catalysts,macro,market)
 
     print(
         f'wrote {OUT} '

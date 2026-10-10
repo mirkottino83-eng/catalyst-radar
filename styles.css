@@ -60,3 +60,35 @@
 .control-actions button:disabled{opacity:.52;cursor:not-allowed;box-shadow:none}
 #remoteControlStatus{margin-top:10px;padding:9px 10px;border:1px solid var(--line);border-radius:11px;background:#0a1626}
 @media(max-width:650px){.control-actions{display:grid;grid-template-columns:1fr;gap:8px}.control-actions button{width:100%}}
+
+/* Play Store-ready direction: each phone owns its notification choice.
+   Browser variant currently supports foreground alerts only. */
+.hero{grid-template-columns:minmax(0,1fr)}
+.hero:after{display:none}
+.notification-preference{
+ display:flex;align-items:center;justify-content:space-between;gap:16px;
+ padding:17px 18px;margin-top:18px;
+ background:linear-gradient(135deg,#101f32,#0c1727);
+ border:1px solid #294365;border-radius:17px;
+}
+.notification-preference-copy{display:flex;flex-direction:column;gap:6px;min-width:0}
+.notification-preference-copy strong{font-size:15px}
+.notification-preference-copy small{font-size:11px;line-height:1.5;color:var(--muted)}
+.notification-switch{width:62px;height:38px;flex:0 0 62px;position:relative;cursor:pointer}
+.notification-switch input{
+ position:absolute;inset:0;opacity:0;width:100%;height:100%;margin:0;cursor:pointer;z-index:2
+}
+.notification-switch-track{
+ display:block;height:38px;width:62px;background:#354052;border:1px solid #58677a;
+ border-radius:999px;position:relative;transition:background .2s ease,border-color .2s ease
+}
+.notification-switch-thumb{
+ position:absolute;left:5px;top:5px;width:26px;height:26px;border-radius:50%;
+ background:#fff;box-shadow:0 2px 5px #0007;transition:transform .2s ease
+}
+.notification-switch input:checked+.notification-switch-track{background:#179d66;border-color:#37cc94}
+.notification-switch input:checked+.notification-switch-track .notification-switch-thumb{transform:translateX(24px)}
+.notification-switch input:focus-visible+.notification-switch-track{outline:3px solid var(--cyan);outline-offset:3px}
+.notification-switch input:disabled+.notification-switch-track{opacity:.4;cursor:not-allowed}
+#deviceNotificationStatus{padding:9px 3px 0;line-height:1.5}
+@media(max-width:650px){.notification-preference{padding:14px;gap:12px}.hero{grid-template-columns:1fr}}

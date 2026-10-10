@@ -1,4 +1,4 @@
-const state={data:null,filter:"all",deferredInstall:null,history:null,historyShown:30,favorites:[],control:null};
+const state={data:null,filter:"all",deferredInstall:null,history:null,historyShown:30,favorites:[],notificationsEnabled:false};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const fmt=(v,d=2)=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))?Number(v).toFixed(d):"—";
 const signed=v=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))?((Number(v)>0?"+":"")+Number(v).toFixed(2)+"%"):"N/D";
@@ -6,56 +6,90 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&
 const toast=m=>{const e=$("#toast");e.textContent=m;e.classList.add("show");setTimeout(()=>e.classList.remove("show"),2500)};
 
 
-// Remote switches are owned by GitHub, never browser-only localStorage.
-const CONTROL_REPO="mirkottino83-eng/catalyst-radar";
-const CONTROL_TITLES={
-  enableMonitor:"Catalyst Radar control: enable-monitoring",
-  disableMonitor:"Catalyst Radar control: disable-monitoring",
-  enablePush:"Catalyst Radar control: enable-notifications",
-  disablePush:"Catalyst Radar control: disable-notifications"
-};
-async function loadControl(){
-  try{
-    const response=await fetch("./config/control.json?t="+Date.now(),{cache:"no-store"});
-    if(!response.ok)throw Error("HTTP "+response.status);
-    const result=await response.json();
-    if(typeof result.monitoring_enabled!=="boolean" || typeof result.notifications_enabled!=="boolean")throw Error("invalid control data");
-    state.control=result;
-    renderControlButtons();
-    if(state.data)renderMacro();
-  }catch(e){
-    console.warn("Impossibile leggere il controllo remoto",e);
-    if(!state.control && state.data?.control)state.control=state.data.control;
-    renderControlButtons();
+// Per-installation browser setting. This never writes a shared GitHub setting.
+// Current legacy ntfy Android subscription is independent and must be muted
+// in ntfy itself; a future Play Store native app will use FCM per device.
+const DEVICE_NOTIFICATIONS_KEY="catalyst-radar-device-notifications-v1";
+function readDeviceNotifications(){
+  try{return localStorage.getItem(DEVICE_NOTIFICATIONS_KEY)==="enabled"}
+  catch(_){return false}
+}
+function saveDeviceNotifications(enabled){
+  try{localStorage.setItem(DEVICE_NOTIFICATIONS_KEY,enabled?"enabled":"disabled");return true}
+  catch(_){return false}
+}
+function renderDeviceNotifications(){
+  const input=$("#deviceNotificationToggle"),status=$("#deviceNotificationStatus");
+  if(!input||!status)return;
+  input.checked=state.notificationsEnabled;
+  const usable=("Notification" in window) && Notification.permission==="granted";
+  if(!state.notificationsEnabled){
+    status.textContent="Disattivate: nessun nuovo avviso locale da Catalyst Radar. Le notifiche ntfy esterne vanno silenziate direttamente in ntfy.";
+  }else if(usable){
+    status.textContent="Attive: avvisi locali per nuovi catalyst e macro quando questa app è aperta. ntfy esterna è indipendente.";
+  }else{
+    status.textContent="Preferenza attiva, ma le notifiche locali del browser non sono autorizzate o supportate. Controlla i permessi Android. ntfy resta indipendente.";
   }
 }
-function renderControlButtons(){
-  const on=$("#enableMonitorBtn"),off=$("#disableMonitorBtn"),push=$("#togglePushBtn"),label=$("#remoteControlStatus");
-  if(!on||!off||!push||!label)return;
-  const settings=state.control;
-  if(!settings||typeof settings.monitoring_enabled!=="boolean"||typeof settings.notifications_enabled!=="boolean"){
-    on.disabled=off.disabled=push.disabled=true;
-    label.textContent="Stato GitHub non disponibile: i comandi restano disabilitati per sicurezza.";
+async function updateDeviceNotifications(enabled){
+  if(enabled && "Notification" in window && Notification.permission==="default"){
+    try{await Notification.requestPermission()}catch(e){console.warn("Notification permission:",e)}
+  }
+  if(!saveDeviceNotifications(enabled)){
+    toast("Impossibile salvare la preferenza su questo dispositivo");
+    renderDeviceNotifications();
     return;
   }
-  on.disabled=settings.monitoring_enabled;
-  off.disabled=!settings.monitoring_enabled;
-  push.disabled=false;
-  push.textContent=settings.notifications_enabled?"🔕 Disattiva notifiche":"🔔 Attiva notifiche";
-  const status=settings.monitoring_enabled?"ATTIVO anche in background":"DISATTIVATO sul server";
-  const notify=settings.notifications_enabled?"abilitate":"disabilitate";
-  label.textContent="Scanner: "+status+" · Notifiche: "+notify+
-    " · Le modifiche richiedono conferma nell'account GitHub.";
+  state.notificationsEnabled=enabled;
+  renderDeviceNotifications();
+  if(!enabled)toast("Avvisi locali disattivati. Per silenziare ntfy usa la sua app.");
+  else if(!("Notification" in window)||Notification.permission!=="granted")
+    toast("Preferenza salvata: autorizza le notifiche del browser in Android.");
+  else toast("Avvisi locali attivati su questo dispositivo.");
 }
-function requestControl(action){
-  const title=CONTROL_TITLES[action];
-  if(!title||!state.control){toast("Stato remoto non disponibile");return}
-  const body="Richiesta di controllo Catalyst Radar. Premi «Submit new issue» per autorizzare il comando. "+
-    "Solo il proprietario del repository può modificarne lo stato. Non inserire dati segreti in questa richiesta.";
-  const url="https://github.com/"+CONTROL_REPO+"/issues/new?title="+encodeURIComponent(title)+
-    "&body="+encodeURIComponent(body);
-  window.open(url,"_blank","noopener,noreferrer");
-  toast("Conferma il comando su GitHub, poi torna qui e aggiorna i dati");
+function isMacroFresh(snapshot){
+  const macro=snapshot?.macro||{};
+  if(macro.tech_bias!=="strong_positive"||Number(macro.macro_score||0)<72)return false;
+  const names=["nasdaq","sox","vix","treasury_10y","wti"];
+  return names.every(k=>{
+    const t=Date.parse(macro.quote_times?.[k]||"");
+    return Number.isFinite(t)&&Math.abs(Date.now()-t)<25*60*1000;
+  });
+}
+function newLocalAlerts(previous,current){
+  if(!previous||!current||previous.generated_at===current.generated_at)return [];
+  const known=new Set((previous.catalysts||[]).map(x=>x.id||x.ticker+"|"+x.headline));
+  const fresh=(current.catalysts||[]).filter(x=>
+    !known.has(x.id||x.ticker+"|"+x.headline)&&
+    x.verification_status==="RSS_INDICIZZATO_DA_VERIFICARE"&&
+    (x.early_signal===true||Number(x.confidence_score||0)>=78));
+  const result=fresh.slice(0,2).map(x=>({
+    title:"Catalyst Radar · "+x.ticker,
+    body:(x.headline||"Nuovo catalyst da verificare")+" · Notizia RSS non verificata."
+  }));
+  if(isMacroFresh(current)&&!isMacroFresh(previous)){
+    result.push({title:"Catalyst Radar · Macro tech favorevole",
+      body:"Contesto tech favorevole secondo gli indicatori disponibili: verifica volumi, dati e fonti."});
+  }
+  return result;
+}
+async function showDeviceAlert(title,body){
+  if(!state.notificationsEnabled||!("Notification" in window)||Notification.permission!=="granted")return;
+  try{
+    if("serviceWorker" in navigator){
+      const reg=await navigator.serviceWorker.getRegistration("./");
+      if(reg?.showNotification){
+        await reg.showNotification(title,{
+          body,
+          icon:"./assets/icon-192.png",
+          tag:"catalyst-radar-"+title,
+          renotify:false,
+        });
+        return;
+      }
+    }
+    new Notification(title,{body,icon:"./assets/icon-192.png"});
+  }catch(err){console.warn("Avviso locale non disponibile:",err)}
 }
 
 async function loadData(manual=false){
@@ -65,6 +99,9 @@ async function loadData(manual=false){
     const data=await r.json(), previous=state.data;
     state.data=data; render();
     if(!previous||previous.generated_at!==data.generated_at)loadHistory();
+    if(state.notificationsEnabled && previous){
+      newLocalAlerts(previous,data).forEach(x=>showDeviceAlert(x.title,x.body));
+    }
     if(manual) toast("Dati aggiornati");
   }catch(e){console.error(e);$("#lastUpdate").textContent="Dati non disponibili";if(manual)toast("Aggiornamento non riuscito")}
 }
@@ -106,25 +143,6 @@ function renderMacro(){
     (readable===null?" · aggiornamento non disponibile": " · ultimo file dati "+readable+" min fa")+
     " · le fonti gratuite possono avere ritardi.";
   st.classList.toggle("data-stale",readable===null||readable>20);
-  const controls=state.control||state.data.control;
-  const paused=controls?.monitoring_enabled===false;
-  const push=$("#pushStatus");
-  if(push)push.textContent=!state.data.push_configured
-    ?"ntfy non configurato sul server: nessuna notifica push può essere inviata."
-    :controls?.notifications_enabled===false
-      ?"Notifiche disattivate dal pannello: nessun nuovo invio ntfy."
-      :paused
-        ?"Monitoraggio in pausa: nessuna notifica inviata."
-        :"Notifiche ntfy abilitate per i catalyst e i segnali macro qualificati.";
-  const indicator=$("#scanIndicator");
-  if(indicator)indicator.textContent=paused?"OFF":(readable===null||readable>20)?"RITARDO":"AUTO";
-  const mode=$("#scanMode");
-  if(mode)mode.textContent=paused?"PAUSA":(readable===null||readable>20)?"DATI VECCHI":"OGNI 5 MIN";
-  if(paused){
-    st.textContent="Monitoraggio cloud DISATTIVATO: la scansione mercati e l'invio notifiche sono sospesi.";
-    st.classList.remove("data-stale");
-  }
-  renderControlButtons();
 }
 function renderMovers(){
  const target=$("#moversList");
@@ -323,13 +341,8 @@ function renderArchive(){
 }
 
 function renderSources(){$("#sources").innerHTML=(state.data.sources||[]).map(s=>`<div class="source"><div class="source-state"><strong>${esc(s.name)}</strong><span class="dot ${s.limited?"limited":""}"></span></div><p>${esc(s.note||s.coverage||"")}</p></div>`).join("")}
-$("#enableMonitorBtn").addEventListener("click",()=>requestControl("enableMonitor"));
-$("#disableMonitorBtn").addEventListener("click",()=>requestControl("disableMonitor"));
-$("#togglePushBtn").addEventListener("click",()=>{
-  if(!state.control)return;
-  requestControl(state.control.notifications_enabled?"disablePush":"enablePush");
-});
-$("#refreshBtn").addEventListener("click",()=>{loadControl();loadData(true)});$("#filters").addEventListener("click",e=>{if(!e.target.matches(".filter"))return;$$('.filter').forEach(x=>x.classList.remove("active"));e.target.classList.add("active");state.filter=e.target.dataset.filter;renderCatalysts()});
+$("#deviceNotificationToggle").addEventListener("change",e=>updateDeviceNotifications(e.target.checked));
+$("#refreshBtn").addEventListener("click",()=>loadData(true));$("#filters").addEventListener("click",e=>{if(!e.target.matches(".filter"))return;$$('.filter').forEach(x=>x.classList.remove("active"));e.target.classList.add("active");state.filter=e.target.dataset.filter;renderCatalysts()});
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();state.deferredInstall=e;$("#installBtn").classList.remove("hidden")});$("#installBtn").addEventListener("click",async()=>{if(!state.deferredInstall)return;state.deferredInstall.prompt();await state.deferredInstall.userChoice;state.deferredInstall=null;$("#installBtn").classList.add("hidden")});
 state.favorites=getFavorites();
 $("#personalForm").addEventListener("submit",handleFavoriteInput);
@@ -347,8 +360,9 @@ $("#archiveList").addEventListener("click",e=>{
   if(btn)window.showChart(btn.dataset.chart,btn.dataset.chart);
 });
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(console.warn));
-loadControl();
+state.notificationsEnabled=readDeviceNotifications();
+renderDeviceNotifications();
 loadData();
-setInterval(()=>{loadControl();loadData(false)},60*1000);
-document.addEventListener("visibilitychange",()=>{if(!document.hidden){loadControl();loadData(false)}});
-window.addEventListener("pageshow",e=>{if(e.persisted){loadControl();loadData(false)}});
+setInterval(()=>loadData(false),60*1000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)loadData(false)});
+window.addEventListener("pageshow",e=>{if(e.persisted)loadData(false)});
