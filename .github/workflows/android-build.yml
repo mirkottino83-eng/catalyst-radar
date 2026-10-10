@@ -30,6 +30,23 @@ jobs:
           "$SDK_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;35.0.0"
       - name: Build Android debug APK
         run: gradle --no-daemon -p android :app:assembleDebug
+      - name: Verify optional Firebase plugin with mock configuration
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          mock={
+              "project_info":{"project_number":"123456789012","project_id":"catalyst-radar-build-test",
+                              "storage_bucket":"catalyst-radar-build-test.appspot.com"},
+              "client":[{"client_info":{"mobilesdk_app_id":"1:123456789012:android:abcdef0123456789",
+                                        "android_client_info":{"package_name":"com.mirkottino83.catalystradar"}},
+                         "api_key":[{"current_key":"AIzaSyFakeForCompileOnlyDoNotDeploy000000"}]}],
+              "configuration_version":"1"
+          }
+          Path("android/app/google-services.json").write_text(json.dumps(mock),encoding="utf-8")
+          PY
+          gradle --no-daemon -p android :app:compileDebugKotlin
+          rm android/app/google-services.json
       - uses: actions/upload-artifact@v4
         with:
           name: catalyst-radar-android-debug
