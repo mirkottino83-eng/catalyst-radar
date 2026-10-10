@@ -18,11 +18,11 @@ async function loadData(manual=false){
 }
 function detectNewSignals(prev,next){
   const old=new Set((prev.catalysts||[]).map(x=>x.id||x.ticker+"|"+x.headline));
-  const fresh=(next.catalysts||[]).filter(x=>!old.has(x.id||x.ticker+"|"+x.headline)&&Number(x.confidence_score||0)>=70);
-  if(fresh.length){const top=fresh[0];notify("Catalyst Radar",`${top.ticker}: nuovo catalyst forte — confidence ${Math.round(top.confidence_score)}%`)}
+  const fresh=(next.catalysts||[]).filter(x=>!old.has(x.id||x.ticker+"|"+x.headline)&&x.early_signal===true&&Number(x.confidence_score||0)>=70);
+  if(fresh.length){const top=fresh[0];notify("Catalyst Radar",`${top.ticker}: candidato precoce · qualità ${Math.round(top.confidence_score)}/100 · RSS da verificare`)}
 }
 function notify(title,body){if("Notification" in window&&Notification.permission==="granted")new Notification(title,{body,icon:"./assets/icon-192.png"});toast(body)}
-function render(){if(!state.data)return;renderHeader();renderMacro();renderCatalysts();renderArchive();renderWatchlist();renderSources()}
+function render(){if(!state.data)return;renderHeader();renderMacro();renderMovers();renderCatalysts();renderArchive();renderWatchlist();renderSources()}
 function renderHeader(){
   const d=state.data,ts=d.generated_at?new Date(d.generated_at):null;
   $("#lastUpdate").textContent=ts?"Agg. "+ts.toLocaleString("it-IT",{hour:"2-digit",minute:"2-digit",day:"2-digit",month:"2-digit"}):"Aggiornamento —";
@@ -61,10 +61,30 @@ function renderMacro(){
     " · le fonti gratuite possono avere ritardi.";
   st.classList.toggle("data-stale",readable!==null&&readable>45);
 }
+function renderMovers(){
+ const target=$("#moversList");
+ if(!target)return;
+ const movers=state.data?.movers||[];
+ if(!movers.length){target.innerHTML='<div class="empty panel">Nessuna accelerazione con quotazioni recenti. Durante il weekend è normale.</div>';return}
+ target.innerHTML=movers.map(m=>{
+   const t=String(m.ticker||"").toUpperCase();
+   const rv=m.relative_volume==null?"N/D":fmt(m.relative_volume,2)+"×";
+   const qt=m.quote_at?new Date(m.quote_at).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}):"N/D";
+   return `<article class="mover panel">
+    <div class="mover-name"><strong>${esc(t)}</strong><small>${esc(m.company||"")}</small></div>
+    <div class="mover-metrics"><span>Giorno: <b>${signed(m.current_change_pct)}</b></span>
+    <span>Ultima ora: <b>${signed(m.short_term_change_pct)}</b></span><span>RVOL 1h: <b>${esc(rv)}</b></span></div>
+    <div class="meta">${m.early_move?'<span class="chip early-chip">Sotto +1,5% · da verificare</span>':""}
+    <span class="chip">Quotazione: ${esc(qt)}</span>
+    ${m.satispay_status==="unavailable"?'<span class="chip">non su Satispay</span>':""}</div>
+    <button type="button" class="mini-btn" data-mover-chart="${esc(t)}">Grafico</button>
+   </article>`;
+ }).join("");
+}
 function renderCatalysts(){
-  const list=(state.data.catalysts||[]).filter(x=>{if(state.filter==="all")return true;if(state.filter==="critical")return x.priority==="critical"||Number(x.confidence_score)>=75;if(state.filter==="tech")return /tech|semi|ai|cloud|software|cyber/i.test(x.category||"");if(state.filter==="biotech")return /bio|pharma|health/i.test(x.category||"");if(state.filter==="personal")return state.favorites.includes(x.ticker)});
+  const list=(state.data.catalysts||[]).filter(x=>{if(state.filter==="all")return true;if(state.filter==="early")return x.early_signal===true;if(state.filter==="volume")return x.quote_status==="RECENT_UNOFFICIAL"&&x.relative_volume!=null&&Number(x.relative_volume)>=1.5;if(state.filter==="critical")return x.priority==="critical"||Number(x.confidence_score)>=75;if(state.filter==="tech")return /tech|semi|ai|cloud|software|cyber/i.test(x.category||"");if(state.filter==="biotech")return /bio|pharma|health/i.test(x.category||"");if(state.filter==="personal")return state.favorites.includes(x.ticker)});
   $("#emptyState").classList.toggle("hidden",list.length>0);
-  $("#catalystList").innerHTML=list.map(c=>{const move=Number(c.current_change_pct),conf=Math.round(Number(c.confidence_score||0)),impact=Number(c.estimated_impact_pct||0);return `<article class="catalyst"><div class="ticker"><div class="ticker-bubble">${esc(c.ticker)}</div><div><h4>${esc(c.ticker)}</h4><small>${esc(c.company||"")}</small></div></div><div><div class="headline">${esc(c.headline||c.reason||"Catalyst rilevato")}</div><div class="reason">${esc(c.reason||"")}</div><div class="meta"><span class="chip">${esc(c.catalyst_type||"News")}</span><span class="chip">${esc(c.source||"source")}</span><span class="chip">${esc(c.age_label||"")}</span><span class="chip">${c.verification_status==="SEC_DOCUMENTO_UFFICIALE_EVENTO_NON_CLASSIFICATO"?"SEC: evento non valutato":c.source_verified?"✓ fonte ufficiale":"RSS: evento da verificare"}</span>${c.satispay_status==="unavailable"?'<span class="chip">non su Satispay</span>':""}</div></div><div class="scores"><div class="score"><span>MOVIMENTO</span><strong class="${move>0?"pos":move<0?"neg":"flat"}">${signed(move)}</strong></div><div class="score"><span>IMPATTO STIMATO</span><strong>${impact>0?"+":""}${fmt(impact,1)}%</strong></div><div class="score full"><span>CONFIDENCE SCORE</span><strong>${conf}%</strong><div class="bar"><i style="--w:${Math.min(100,conf)}%"></i></div></div></div><div class="catalyst-actions"><button class="mini-btn" onclick='showChart(${JSON.stringify(c.tradingview_symbol||c.ticker)},${JSON.stringify(c.ticker)})'>Grafico</button>${c.url?`<a class="mini-btn" href="${esc(c.url)}" target="_blank" rel="noopener" style="text-decoration:none">Fonte ↗</a>`:""}<button class="mini-btn" onclick='showWhy(${JSON.stringify(c.ticker)})'>Perché?</button></div></article>`}).join("");
+  $("#catalystList").innerHTML=list.map(c=>{const move=c.current_change_pct==null?null:Number(c.current_change_pct),conf=Math.round(Number(c.confidence_score||0)),impact=c.estimated_impact_pct==null?null:Number(c.estimated_impact_pct);return `<article class="catalyst"><div class="ticker"><div class="ticker-bubble">${esc(c.ticker)}</div><div><h4>${esc(c.ticker)}</h4><small>${esc(c.company||"")}</small></div></div><div><div class="headline">${esc(c.headline||c.reason||"Catalyst rilevato")}</div><div class="reason">${esc(c.reason||"")}</div><div class="meta"><span class="chip">${esc(c.catalyst_type||"News")}</span><span class="chip">${esc(c.source||"source")}</span><span class="chip">${esc(c.age_label||"")}</span><span class="chip">RVOL 1h ${c.relative_volume==null?"N/D":fmt(c.relative_volume,2)+"×"}</span><span class="chip">${c.quote_status==="RECENT_UNOFFICIAL"?"Quotazione "+fmt(c.quote_age_minutes,0)+" min fa":"Prezzo non aggiornato"}</span>${c.early_signal?'<span class="chip early-chip">PRECOCE · DA VERIFICARE</span>':""}<span class="chip">${c.verification_status==="SEC_DOCUMENTO_UFFICIALE_EVENTO_NON_CLASSIFICATO"?"SEC: evento non valutato":c.source_verified?"✓ fonte ufficiale":"RSS: evento da verificare"}</span>${c.satispay_status==="unavailable"?'<span class="chip">non su Satispay</span>':""}</div></div><div class="scores"><div class="score"><span>MOVIMENTO</span><strong class="${move>0?"pos":move<0?"neg":"flat"}">${signed(move)}</strong></div><div class="score"><span>IMPATTO INDICATIVO</span><strong>${impact==null?"N/D":(impact>0?"+":"")+fmt(impact,1)+"%"}</strong></div><div class="score full"><span>QUALITÀ · NON PROBABILITÀ</span><strong>${conf}/100</strong><div class="bar"><i style="--w:${Math.min(100,conf)}%"></i></div></div></div><div class="catalyst-actions"><button class="mini-btn" onclick='showChart(${JSON.stringify(c.tradingview_symbol||c.ticker)},${JSON.stringify(c.ticker)})'>Grafico</button>${c.url?`<a class="mini-btn" href="${esc(c.url)}" target="_blank" rel="noopener" style="text-decoration:none">Fonte ↗</a>`:""}<button class="mini-btn" onclick='showWhy(${JSON.stringify(c.ticker)})'>Perché?</button></div></article>`}).join("");
 }
 window.showWhy=ticker=>{const c=(state.data?.catalysts||[]).find(x=>x.ticker===ticker);if(!c)return;const f=c.factors||{};alert(`${ticker} — scoring\n\nFonte: ${f.source_quality??"—"}/100\nCatalyst: ${f.catalyst_strength??"—"}/100\nFreschezza: ${f.freshness??"—"}/100\nVolumi: ${f.volume??"—"}/100\nMomentum: ${f.momentum??"—"}/100\nMacro: ${f.macro??"—"}/100\nPenalità estensione: ${f.extension_penalty??0}\n\n${c.risk_flags||""}`)};
 const CHART_NYSE=new Set(["OXY","PFE","NKE","DELL","ORCL","TSM","SHEL","MT","E","BABA","NVO","SAP","STM","SE","RDDT","HIMS","UBER","NET","PLTR","SNOW"]);
@@ -241,6 +261,10 @@ function renderSources(){$("#sources").innerHTML=(state.data.sources||[]).map(s=
 function startScan(){if(state.scanEnd){stopScan();return}state.scanEnd=Date.now()+25*60*1000;$("#scanBtn").textContent="■ Ferma monitor";$("#timerState").textContent="SCANNING";if("Notification" in window&&Notification.permission==="default")Notification.requestPermission();tick();state.scanTimer=setInterval(tick,1000);loadData(true);state.refreshTimer=setInterval(()=>loadData(false),60*1000);toast("Monitor da 25 minuti avviato")}
 function stopScan(done=false){state.scanEnd=null;clearInterval(state.scanTimer);clearInterval(state.refreshTimer);state.scanTimer=null;state.refreshTimer=null;$("#scanBtn").textContent="▶ Monitor locale 25 min";$("#timer").textContent="25:00";$("#timerState").textContent=done?"COMPLETO":"PRONTO";$("#timerRing").style.setProperty("--progress","0%");if(done){loadData(true);notify("Catalyst Radar","Monitor di 25 minuti completato.")}}
 function tick(){const left=Math.max(0,state.scanEnd-Date.now()),total=25*60*1000;if(left<=0){stopScan(true);return}const min=Math.floor(left/60000),sec=Math.floor((left%60000)/1000);$("#timer").textContent=`${String(min).padStart(2,"0")}:${String(sec).padStart(2,"0")}`;$("#timerRing").style.setProperty("--progress",`${100-(left/total*100)}%`)}
+$("#moversList").addEventListener("click",e=>{
+ const b=e.target.closest("[data-mover-chart]");
+ if(b)window.showChart(b.dataset.moverChart,b.dataset.moverChart);
+});
 $("#scanBtn").addEventListener("click",startScan);$("#refreshBtn").addEventListener("click",()=>loadData(true));$("#filters").addEventListener("click",e=>{if(!e.target.matches(".filter"))return;$$('.filter').forEach(x=>x.classList.remove("active"));e.target.classList.add("active");state.filter=e.target.dataset.filter;renderCatalysts()});
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();state.deferredInstall=e;$("#installBtn").classList.remove("hidden")});$("#installBtn").addEventListener("click",async()=>{if(!state.deferredInstall)return;state.deferredInstall.prompt();await state.deferredInstall.userChoice;state.deferredInstall=null;$("#installBtn").classList.add("hidden")});
 state.favorites=getFavorites();
