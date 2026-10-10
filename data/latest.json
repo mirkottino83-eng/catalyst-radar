@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:59:02.492683+00:00",
+  "generated_at": "2026-10-10T17:06:13.994355+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -27,11 +27,339 @@
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 35,
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
+  "news_watch": {
+    "updated_at": "2026-10-10T17:06:01.216278+00:00",
+    "open_market_required": false,
+    "window_hours": 48,
+    "status": "OK",
+    "sources": [
+      {
+        "area": "Medio Oriente / energia",
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 13
+      },
+      {
+        "area": "Russia / Ucraina",
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 15
+      },
+      {
+        "area": "USA / Cina / Taiwan",
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 12
+      },
+      {
+        "area": "Titoli tech e AI",
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 4
+      },
+      {
+        "area": "Farmaceutica e settori",
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 11
+      }
+    ],
+    "geopolitics": [
+      {
+        "title": "Saudi Arabia Closes Airport in Riyadh After Damaging New Houthi Attack - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3A1N0dSaEowdHRsQm11d1EzUnJneHRRYWRYa2NWU0ZfeUgwOUNzMHpNN2dVWFJQeVRZRDdYTTJ5YUtwX2YwUEprdWowUW1hYXplbjlsbnBuaTk1RUc3ZnBseDgyMFI2Q09BNllMRXVUWm52RXQ1R3ViSEZpZW1OOWlqenhMSDlPMXY2NWVzOEpHTkctQld3WWJaNVh0M05rdUhTQlBCNGl2SXVqR29UbkVNMm8wR00?oc=5",
+        "published_at": "2026-10-10T16:57:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Child among eight killed by Israel on Gaza ‘ceasefire’ anniversary - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNEt6WkNIVUVCQV9laGswamVmRE1YcTNWUFF2Z25vaXVyTGtPb3diN1JCN1F4ZHlYZUZKYWxEY0otRDlMMElUTlRYRUNRTmp3R0swX2kxTXA1QVlqb2t1TE55SUVsZElZeVFmdldHNjZEa3RjMUJHYkhQRDdkVjcwcTI5OTJaYW85VGNWUkhsX1kxZ3ltVHfSAZsBQVVfeXFMTWFpM015RWV4R0xjR0hVdjhSZ0tLOEpuY2c1SEZHQ1ZiUTlBUDFFQjF4aWVXRzZXTXZUVHBBZ21JR0dOaC1tdjh2STlpR0pXNWhJV1dkWGxnWWtKRFNsTGYyeUtmeUNTZlF2UUY2WmpEa0lTeUhEdGpHdmJ6ZEJoWmYtZ2xRMy1ZeUlJVHZMTTdOdTNBUXJXQWhhYWs?oc=5",
+        "published_at": "2026-10-10T16:14:32+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_DISTENSIONE_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russian attacks kill 17 in Ukraine after Trump strikes diesel deal with Putin - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdTQ5eDJvOGhzTVpQYWxucGhZSEJEOC0wMmNqTXU3OF9leUlNNmJfN1R0dUxUa3hfN2RhTjU3cERGZWhCa1Jqb2pTRHZKS0ZFY25ZSGRYVVh5R3ZyNjBRWkxIbU9OcmhXYlM0ZURxVERfbjRvby1YVWwxTGt4Sm1kUHQ3dXBaOFl5SnJ6TTE1SFFScFRNNnN5N0ExUEludTRjUGQ3dGJUTdIBrAFBVV95cUxORllLcDRxODFPY3ZjNkVZMmlFcFUySkY5Q1ZFT3dZY2FlTVVPOTFLWnJkalV4WEgwZi1qbHN6bjA1MXhiZ1B6R0l6OG5lYmhQYlRwd2Z0YXhpeEFUdkd0dXM0NTJISTBRLVdzYzdLeE9uUUJKZlY1ZHhEMjlLWXE4czdPNlJ3N2YxY043ZDRpNWN6eDFCNk9KSVV3aUJ5cXltTjEtdTQyWjU5YTRU?oc=5",
+        "published_at": "2026-10-10T16:14:27+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russian strikes kill at least 20 in Ukraine after Trump gets diesel deal with Moscow - CBS News",
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OWFA3OWV1Uy00bm5ydUxjM1ZxVHFFV0lFTldIYURIbmNuM19JdENydFhkWVY2ak1aNHlXUDVyY2Z3akE0UDRqUTBMdmFEeFQ2emhBLVYtdGtzYzBSLXBaSVpvM3FlWWlWZ2QtWmdpVTZxbVctZHl2NUhn?oc=5",
+        "published_at": "2026-10-10T16:11:42+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia faces new level of peril in Houthi attacks, amid wider Iran war - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5",
+        "published_at": "2026-10-10T16:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Dozens reported injured in Yemeni Houthi attack at Riyadh airport - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVhuZnBjakRva1RIcHU3NmJlU05aNmdnNnJuUHRRSG56ZkR5ZnRxWmNvT3I5Q0FKSFJNSXl3MExXZ3RYd2tzOHh1OFItWHBlM19jVVk5TXROTHZHMjd2T1pyWDJnbDcyY0JUYWcwVUI5ZFlaSC04SUtSQWppZWdkb0hhNXBKUFU4Z3A2MVJ5aFZQb0M2WFZYdGtvZEtRS20tRUlDZmYyU1pfNEdxazBHVGhvd240RnB3SnpaQQ?oc=5",
+        "published_at": "2026-10-10T15:59:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Riyadh airport again target of Houthi missile attack, authorities say - Euronews.com",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTlpTNzdrVk9yckloLXB6ai1Zc3pMeHdhSUVCZEVrbWNNTlRjMW9yS0ZUeHpvUUdOSmlMaFpIZmdHVWxHZXBTOGp1STViRUZ0T0NFdG43MUxIWjdFRlBRcjlOYjhnbzJTT3FZX1hvdVVUek9wTFBweURBblpJSVlHSmFjMWx3M1E4MHhFVklVdVotOEQ5OHl6WHVsR2ZReThCWW15Y0lRLUIzdXVQWDdYa3dZMVN6QmdXNS02N1lURnU?oc=5",
+        "published_at": "2026-10-10T15:48:55+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Dozens injured in Houthi attack on Riyadh airport - Middle East Eye",
+        "source": "Middle East Eye",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPcGVWZlBMV0xDVW1nYVMtMVdZWDQtV0wzOW9sZVpfemtuRHQzWWpfZ2RMWG81aXlCcjhaZFh2OGJCQzdkZkZrX2VyY2RmU1ZCYXY5a2dfTGFRX2NzUllYODFQdTlITWJGeWpwbl9Va0U4Qzd1VmtVN0hVMGlMNWVpb3FxbGtkVXR1a0EyaUhfaHJGWVR4djFmMzN1Um5OcjBpdldBRE1WT0h4THJ3RTJQMGhvQ05Ec09WckdxMXNtQU1ZRHJrMTFCaU5uQ3Nfd1ctbFRkaWdfeHVvYlNJZnAzR1VsMkVsWlBWSkZRaHFzU2h5bjgtUDI0V1FBa29LZ1RPZ0lrTEpB?oc=5",
+        "published_at": "2026-10-10T15:39:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Live - Dozens wounded in Riyadh airport strike, Western nations issue warnings - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FT3dpQlJkSFZUVG9GSmE0OERYLVdfZGdUN25jVzdfV0NDNG5yTGg0ZGs5WmRXb0QxUnJMSGh5Wkx5cU9FWUpvYTIzLUNXZHAxU1VSelFrNG9kQmRYVFE?oc=5",
+        "published_at": "2026-10-10T15:35:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "At least five in intensive care after Houthi attack on Riyadh airport - The Times of Israel",
+        "source": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaWFZbEtUc1lObzFrS0tBT1FpME0zaGVrVWJ3SC1jYzFFelk5LWtUdFBoYnZxZjBYanpyWEJqSWVrQUN5ZFJ2U2pjcWM4MlFlVV9hWTdabTB0Ykc2WnUzV1VkOUFDbThWbEtxZkdHX0dLeHZFTWN6TFh4WW9Wd3g0MEZXa20wWVdYUm81SmNTZzdXay1Ub2tVQkVZVTh4eXNCbFpNUVQxYnYzemM3SHNyd04xTERsdw?oc=5",
+        "published_at": "2026-10-10T15:10:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Riyadh’s King Khalid International Airport has come under another attack, reports say - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NNm8zRGJqcUNiY05QN1Y0MHN1QnJVV0IzNTl2OHY2T3NEdlVkanBTUWFlVEprZVZrLXNvbVFtMWxxeXRreFZmRDFRY0lUbWdtcENxXzBMMm9LNm8?oc=5",
+        "published_at": "2026-10-10T15:05:55+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "‘Gifts to Putin’: Ukraine rattled as Trump eases sanctions on Russian oil - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1Ja2RHUFhhYVRTdFk4R2c3YW5GNUc3dkp4MW16VDV5MFFKdUI5WUhnZXlvVVpCSXQtQURIblljN3c3MzNmd21ydFRjWUZMLWxxaGdVQVNGNk5Mc1lFV0RPMnl6Szl3SEhFNFZRYnNuaUJMaVFIN1JIa2F2cnRCc0tsb0JfVHZWUHpkZUJkMnZJYldlZHFBZTY4Yk96ZXlQdHJndUdZS3poS2wxa1hB?oc=5",
+        "published_at": "2026-10-10T14:46:31+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany pursues new Russia sanctions despite US diesel deal - Arab News",
+        "source": "Arab News",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmtKSTlVdnJOb0YtUU85THlGM2dVUG9mUlBHeWRtc1dEcHV0U0hjODIySVhoVzc3VWFSYms2ODlqQ2JsUGk0bl8tc2ZwekdnbE5YYncxWE9kTlpTM1NmTHlsc2djMnhFWmNlUi14cHpMMXFhZE5BczN6VXJMUGNRSnIyajhlYmNieExOaU5mY1BWcE5WX3lqRWdrcjV4MWM?oc=5",
+        "published_at": "2026-10-10T14:23:11+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany Stands Firm on Russia Sanctions Despite Trump’s Diesel Announcement - Modern Diplomacy",
+        "source": "Modern Diplomacy",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHVtTFo5VWNBaFhqTUppR3NlM2NBUXlJRE0yYkVBMzVSTGt1cXg5WEhTbDJKdGN6T1pmbmw5M2dRZ1B5LTNObWNZRk5Bc0NlbnJ4ZmpoanRHZnFOaERCTWU1aFJrRlVMZUN1WmdMWkJGeEtYOUlxcVBEMHIxUUtQX1BuY0Jsd29zX0VSYUxUTkw1M2t3OVl6c19OVzhWY2VNYlVZdzJrS2x6TzNGVDIyVTRTaw?oc=5",
+        "published_at": "2026-10-10T14:02:30+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany sticks to Russia sanctions after Trump diesel deal - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYzBrUE1heDRjMEt4OFNqcUxIdURaelhuYUV0QUhoWEhIU2RxOGN2ek9GVzk3eWp6M21jcm93ODRnQmZrN3JBNE5EMV9kVjNOUUw1N1RsWm1WWXdWd25JUFNSVS1QTWhKdzdGek5kY1luU1lwM1lVUXo4c2VuX1h4QzJwOUI1LWNyTEJmcm1uWHJPZDFJOVdYNmlR?oc=5",
+        "published_at": "2026-10-10T13:02:26+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Why is US turning to Russia for diesel despite sanctions? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSGNTbVgyVC14ZDVBOEs3Mm1rTW16emtnYzdRZm1OWi1SQ0xod09CRWZaajVkbEVmanlDdUxDRGd4NXNJOFdJYUYwUmV2UW00VXl2a2p4M0ZxNVc2NGlNdFIyN1R4UEFwTzN4aFdDcFNSM3ZKdnpIN3Bqek1wT25UUkhZUVV4UlJ0YjNROFc3TEgwQ25hZWlmZmJMVVJ1ZUnSAaQBQVVfeXFMT1R5NE0yR3F1TTRkZHZCb1h4M2lvd1JTMklBT05BUWY5SGRsSVFSbG9LTlNNeDJVNFpnMk9ZcVVpNnBLOUxPQmdacjA2VTdCeWVSei1lbmVJYUw1MFBnN1RRV2VjNENoQmhDck5EbkpXaFpoUW0wQ1ktbG54Z2l2LTVyN2dDc3BERTZzYTlOVGdyNDItSnh3UnFRc2RlbWktbWtKVXI?oc=5",
+        "published_at": "2026-10-10T12:22:30+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
+    "corporate": [
+      {
+        "title": "Broadcom vs. Intel: Which Chip Stock Is a Better Buy in 2026? - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObGJqNWprbG9kZlVUbTBKSkU3WmFuS3VMUWhyS0xzX1pTZkJKdlNyZ0ZMR2F4MWFmS2pjMzVRRWJNd2NjVXFKYXczdEZwNS1EZTZkbmtXa1JxblAtcXRIallHb1p5YjNESUlON0pmbXFZeGRKSDY2RzNTSHhfaU1KNzNGUHpsSmNOUXdpQzZhbzFkbFp5Yk96OXlzRnhxaXZqbDNJMGRCYzhpaDJfYWdUcw?oc=5",
+        "published_at": "2026-10-10T15:54:21+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flagship - Tom's Hardware",
+        "source": "Tom's Hardware",
+        "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQSjBCd255Y1gyWXBvSnlpVW4xNHVteF9MTG40Yngxdml6SnJ2R2JoNkF4OTdzMGJ1dkRIaVNoVlc0MnItdkNCTV9QX2FscW4zRGw1UkFTV285VW9DZS0tWmNXdmR2dUtCNmh6dWRWcmxSN3lVWDVhZ01qNUxGZ2k1bW03LWZPWndlX3NXcENxczczNUJNSUU4OHNzN3pQbmlkMmpPM2xfVXA1Z1E0b2dsMUZ4UXRGUkJ5aWh5MnVMUjZuNDMyeHBOUFdjNEJ1X3V2Wm1seDlfWHpEbC1idlR3RFhIMzhvTzRhYXFYWF91UEhXTEpfMldZUXNhMmt6Vmtsa0dnQ1B3eS15X0tmVEFXYWo5RFlUZWl6b21LTUtGM3FQbjJ0eFZscy1IOE9LaEdWb3F2Nnd4TWVXcnBKN2J1TTNzbEhaQ0ExVEpYQTRuaEhOLWg1elY2U0pYc3dvdHBac0JLLQ?oc=5",
+        "published_at": "2026-10-10T12:20:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Super Micro Contractor Pleads Guilty in $2.5B China AI Server Scheme - NVIDIA (NASDAQ:NVDA) - Benzinga",
+        "source": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWFFqVndRYy1CM2M4OThZYUF3VkZYTjYyZ0FSSWF3ME1wNC1Dd3dnc29SaTlYSEc2Y01aMGdvT09XLW9lc29hSGg5dVU1Z05Gck8xSE55UVUwS0ZZT1hQVXZGRHhLR1dJTlF1SUd3alVKcVNZUGVkRlZaMmRTMzRrcjk3YlpyRy1BNDRmQjZRcmdVLTFHbjlzUExiZw?oc=5",
+        "published_at": "2026-10-10T08:13:47+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-10T03:32:42+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Asahi Kasei Therapeutics Announces FDA Approval of HOVILPRI® (pritelivir) Tablets for Mucocutaneous HSV Lesions Refractory (With or Without Resistance) to Standard Antiviral Treatment in Immunocompromised Adults - Business Wire",
+        "source": "Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxOZTREM1lSdWtEUnRkQ1o2MkR1ZjZzVGJQTnM2V3N3NC1GVnRQa0MybnJTN3RrSTk1MTN3a21oNGdES3dFTHZfSl9NajVxQ1JnemJKcHFGODJMeVlJSUpWc0ZSeldqalJjQkl1QTNCbGhtMWZTVHpncGMzWl9DRnZHX0dFWnBtemJqV0VUZWFxa0tKb2diSE82elozV2hMbFRVcWVpS2hESjctejVHVGRUbno1NVVJR01MYi1HbUtKejVCOHRnR21OZW4ydVpuajFZRC1QZ2RZeDhVU3RZUlhPREZkVElyeGRENm8tcmlwbHRCTEVNempTS05VWXpiOHRDeFZMQ1NDczJQc2JKMF9ESVJIRWd6LUphM0VTSmItWFRYRldOZFc0U1F5NzFQbktzT1lxYUxkeFZsWlJ0cmw0TnVFOEJMcUw1emVyTnZsWkZfZDlqSHFJTksxX0djeTlUVHVoMDNpY2JTdHlYTE1QbEVDbno1QXhuNW9v?oc=5",
+        "published_at": "2026-10-09T22:41:33+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Asahi Kasei's recently acquired helicase primase inhibitor gets FDA approval for herpes lesions - FirstWord Pharma",
+        "source": "FirstWord Pharma",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zTU9KTFBDcVRlcWVLQ1p2MURXQThsVE1JMkdTc2lWdTgxbG9aQTY5dHFMWmliQm9VQ3dnMmk3NktuN0ZMSE1Ca3g4WHJlbno0NUs0?oc=5",
+        "published_at": "2026-10-09T22:40:43+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M?oc=5",
+        "published_at": "2026-10-09T22:27:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teva: 'Hold' On FDA Approval Of Weltruza And Pivot To Growth Strategy (TEVA) - Seeking Alpha",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE5laWU4RDNxUUtZTE53eVUwamIzN2xvdXcxMjlEZnA3UWlQZlZJT2R2S3ZrMW91RmZFY1hGNFpXT0pKaGdMQ25GTUNkUkNvM2NnanRNY21qZmk0bjhmN3hORmZYR2Z3cjRDbXZ2SzVibjFFWjJLSjdNLWJWTHMzT1BvT3Z2czd1U1RmeEttb0prYXpveDNjemlUSFBPd1RCM08yd3loVEY5RFhRTl9LWnNKQ0tLNXlsVW0ySU9aQQ?oc=5",
+        "published_at": "2026-10-09T20:55:56+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Letai: MCEDs are a “great ideal”—alas, the data don’t support widespread use “Projecting sub-ideal tests across a large population can cause harm,” Letai says, as Galleri cruises toward FDA approval - The Cancer Letter",
+        "source": "The Cancer Letter",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzb1FKMmRRUVlvVFBJVnhfVDJ2N3QzOHJyamxKZ0ZSczJWVVAxSm1IWGtRVXZvbkhZMEhGRTYtdzNrVDlaclpza3BrbDZtbTJ3cFlRN3BhMk82UmVMQ1ZCVEd3?oc=5",
+        "published_at": "2026-10-09T19:14:30+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOXNGN3pjSGNMdGluU1gwMzRlYkdqNW14dVFIRkhBLUFudWxKdk85SUxnaWk4SGVQUDFTbFZlS2FhQTVJeXJvMjFTR25XcmpKVEM1SHlUZlY0czJsMDJGS1N1aFdzTk5wZldTWFkyVVhqdE5KZjdjQkpBd0RScmRiajlDRGtZSmNVUEQwbFNXbGFqaXplNjRjMjhqTnFSOGtWeWsxVE42T3J0ZVkwaFZKX2QwVFI3MEk?oc=5",
+        "published_at": "2026-10-09T17:54:52+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Olanzapine LAI (Weltruza) Receives FDA Approval for Schizophrenia - Psychiatric Times",
+        "source": "Psychiatric Times",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGVFR0lYRkxsVE0yU3hRU09nTTNnNVRJUTl6cjVZSTFGaEl1RmZ4cEQyVHlGZi1YR0dSSDY0dHZTcUpEcXJPajhGV1BtQWFZU3NnTHdEQVpMXzY4cjhxNk9KdWJxNFNMaWhyQll0b3AtekRlMGx4VzBaNURYdE1PbTM5bUlYRWctZmhhV1dWcWV4VlZvX1BYSHJSbUR3MnVtMmow?oc=5",
+        "published_at": "2026-10-09T13:37:08+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSTJVdk8yOXBNTi11VDFGdG4tUlA0dG1CbXpuYlBURlhvSHAteFc2R0JvQkxhcUlSRzV5aU1GLWxnMnhFT3RnY29DUWNlaW5FV3FVRXM4WjVuUVFheEpyaWRsMU9pSzluQ3RlM25XaUQ4T1dDdEh5QXZDblhuU2EtVXNaVFRjYzIzdFZzb2RZWHotZFdqVHNwMTRaMUllbVVkWEJVamJ0SdIBrAFBVV95cUxNM0NEV3I4U0VnRURKVVpKSXhjaklMUjBUMThud3lYdm04bTRIOUQ4ckdpeGhldnJqMUMzenlyNzBsYlRDVHZSZVNiLVp6dG15b3RfYlVGUlZwVGxrcEk4SVlTNG9UOUVDcEN0bDlpNlo2anhGTHhXSlp3SjRESHh3RnhWNU1IbG1DVjRkZ1dCSFQyM0wyWmZza0lMMkZGMms3c2xiTWdsLVg0b3F5?oc=5",
+        "published_at": "2026-10-09T13:14:15+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teva Announces U.S. Food and Drug Administration (FDA) Approval of WELTRUZA™ (Olanzapine) For Extended-Release Injectable Suspension, as the First and Only Once-Monthly Subcutaneous Injectable Olanzapine for Adults with Schizophrenia - Teva Pharmaceuticals",
+        "source": "Teva Pharmaceuticals",
+        "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxQV1NMcTdkbFZwcVpKRWphcWw0WW5yZVlqRU51emd1RmFNdGZURkZ2dW5hZldTanJRVW1lVzVlM2xncEFJRFlPd2RVQVBTWVlWVGhyUDVScXlmT3lUTVc0a2ptN0tFcS1iZFViSUt4VV91R0J4RWp0bkNFMzhWUDVsaWdYUzZ6M3h6ajlGYkhRRjBIQm5DVkJzcGZQODJ3eTEyOTI1ajhNXzVnSzh0WWhJRmZnNkZ4eTNEamhRZndGMHlFOTdTQkt6Y3FKLU9VSExfX25LN0h5VTZpYjlIRDJnaFkxX3VNc1JISXVOWWFER3Z0b2szXzV5ekpCcm5vb2R2THBUMjdLNDFmVFBtYWVNVDVzRUtNenI2bFU5MThMRWhVSl9SWTJqdkQ3SFhuMGpnQkQxODlWRGdRdmdQVkhJU2dGaFI0Q1hEQ2lQRkViQVd2el9JaGluTWp0ZE4xajFuTUxYTHNOYllfQjJHR0h0UXJ3ZE1vby1YWTYxSk9HU1dScC1reGZvYUYzZnRZaDJXRjZUNmxEMURER0tZbjloekFEdUo0U3NTQ3VodXJzOE01T3JyblNqWjNRdHM2WjM4LV9NcDVkZXdxQm8?oc=5",
+        "published_at": "2026-10-09T11:05:44+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Dr Sinicrope on the FDA Approval of Atezolizumab Plus Chemo for Colon Cancer - OncLive",
+        "source": "OncLive",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0JMWFluNndVMDlza3UyU2QyN1B4c2RzRWhSb08tMHU2T25fZjM1TWVsTlpwbjBZOHFUMHlqd0NhV190NWRSMUJfeE9pMmZua0ZrWE1KbDdWZ1NNUHQ0QmpTTkt3a0p0dTMyLWVZZ2xyYUtZTi1naUxqQVdubHdkYUhiUUItVnNoQnRCNU5EY3NOYXBxakFrVGhPMFpUWWdaZTZzaFRYVlo?oc=5",
+        "published_at": "2026-10-09T07:00:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Abbott Gains FDA Approval for CardioMEMS Update Letting Heart Failure Patients View Pressure Readings on Their Phones - Patient Care Online",
+        "source": "Patient Care Online",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPekh2c19uTVJiQ2xFUWVFQlh5R3loUGVyVy02djVkN2ZzdkFGbXJvbjdIdmI5eTBJTDl4amtvVk5zUEtBWWQxUGhBQUNrQnlXTV9COUtUdVByd1ZkWnQtdkFJZjE5Sk0xRkVPcXZsZGpNbmt6YzR6Unl2azJMMGp2WUpJc0RVOVBSaGVTOGpNZ1hwcGszcWNVRXZjblJGc3pDN0d1dUlpajM4QlVqV0ZiTmRGZW5ZT2hfVTBuallvUWZyaElVbi1UVEZuNmlrYmVRcnBYLTdFdXdUU0FOM1hGSlliR2dEV3BaRjJxRQ?oc=5",
+        "published_at": "2026-10-08T23:06:44+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
+    "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
+  },
   "archive_count": 0,
   "background_schedule_minutes": 5,
   "push_configured": true,
