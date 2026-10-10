@@ -8,6 +8,10 @@ import feedparser
 import requests
 import yfinance as yf
 from history import update_history
+from signal_quality import (
+    read_time, headline_status, quote_health, hourly_change,
+    hourly_relative_volume, early_signal
+)
 
 ROOT=Path(__file__).resolve().parents[1]
 WATCH=json.loads((ROOT/'config/watchlist.json').read_text())
@@ -133,7 +137,8 @@ def load_market(tickers):
                         previous_close=prev,
                         current_change_pct=pct(close,prev),
                         volume=vol,
-                        relative_volume=(vol/avg if vol and avg else None)
+                        relative_volume_daily=(vol/avg if vol and avg else None),
+                        relative_volume=None
                     )
                     # Salva solo dati realmente scaricati, senza interpolazioni.
                     d['day_closes'] = [
@@ -152,10 +157,7 @@ def load_market(tickers):
 
                 if len(df):
                     last=safe_float(df['Close'].iloc[-1])
-                    hour=safe_float(df['Close'].iloc[-13]) if len(df)>=13 else safe_float(df['Close'].iloc[0])
-
                     d['last_price']=last
-                    d['short_term_change_pct']=pct(last,hour)
                     # Preferisci l'ultima quotazione osservata al close giornaliero.
                     if last is not None and d.get('previous_close'):
                         d['current_change_pct'] = pct(last,d['previous_close'])
@@ -164,6 +166,14 @@ def load_market(tickers):
                         for idx, value in df['Close'].dropna().items()
                         if safe_float(value) is not None and float(value) > 0
                     ]
+                    d['short_term_change_pct'] = hourly_change(d['bars_5m'])
+                    if 'Volume' in df:
+                        volume_bars = [
+                            (int(idx.to_pydatetime().timestamp()), float(value))
+                            for idx, value in df['Volume'].dropna().items()
+                            if safe_float(value) is not None and float(value) >= 0
+                        ]
+                        d['relative_volume'] = hourly_relative_volume(volume_bars)
                     if d['bars_5m']:
                         d['last_quote_at'] = datetime.fromtimestamp(
                             d['bars_5m'][-1][0], timezone.utc
@@ -408,11 +418,10 @@ def sec_filings(max_age_hours=24):
                 if form not in ('8-K','6-K','10-Q','10-K','20-F'):
                     continue
 
-                d=datetime.fromisoformat(
-                    r['filingDate'][i]+'T12:00:00+00:00'
-                )
-
-                if d<cutoff:
+                # Never invent noon UTC as the filing release time.
+                accepted = r.get('acceptanceDateTime', [])
+                d = read_time(accepted[i]) if i < len(accepted) else None
+                if d is None or d < cutoff or d > now() + timedelta(minutes=5):
                     continue
 
                 acc=r['accessionNumber'][i].replace('-','')
@@ -471,7 +480,9 @@ def build_candidates(market,macro):
 
         for n in news:
 
-            if not is_recent(n['published']):
+            # Indexed RSS publication time is not verified company-event time.
+            quality=headline_status(n['title'],n['published'],now(),MAX_NEWS_AGE_HOURS)
+            if quality != 'NEW_RSS_UNVERIFIED':
                 continue
 
             cl=classify_headline(n['title'])
@@ -498,30 +509,23 @@ def build_candidates(market,macro):
                     n['title']
                 )
 
-                rv=m.get('relative_volume') or 1
+                rv=m.get('relative_volume')
+                vol_score=(clamp(45+25*math.log(max(rv,.25),2))
+                           if rv is not None else 28)
 
-                vol_score=clamp(
-                    45
-                    +25*math.log(
-                        max(rv,.25),
-                        2
-                    )
-                )
+                mom=m.get('short_term_change_pct')
+                mom_score=(clamp(50+12*mom) if mom is not None else 35)
 
-                mom=m.get('short_term_change_pct') or 0
-
-                mom_score=clamp(
-                    50+12*mom
-                )
-
-                move=m.get('current_change_pct') or 0
+                move=m.get('current_change_pct')
+                quote=quote_health(m.get('last_quote_at'), now())
+                quote_penalty=0 if quote['is_recent'] else 18
 
                 extension=(
                     max(
                         0,
                         (move-5)*4
                     )
-                    if move>5
+                    if move is not None and move>5
                     else 0
                 )
 
@@ -543,16 +547,14 @@ def build_candidates(market,macro):
                     +.10*mom_score
                     +.10*macro_score
                     -extension
+                    -quote_penalty
                 )
 
-                est=min(
-                    7.5,
-                    max(
-                        .5,
-                        impact*(conf/100)
-                        -max(0,move)*.20
-                    )
-                )
+                # No numeric estimated impact when market observations are stale.
+                est=(round(min(7.5,max(.5,impact*(conf/100)-max(0,move)*.20)),1)
+                     if quote['is_recent'] and move is not None
+                     and mom is not None and rv is not None else None)
+                early=early_signal(mins,move,mom,rv,quote['is_recent'])
 
                 if conf<48:
                     continue
@@ -581,11 +583,17 @@ def build_candidates(market,macro):
                     'age_label':label,
 
                     'catalyst_type':typ,
-                    'current_change_pct':round(move,2),
-                    'short_term_change_pct':round(mom,2),
-                    'relative_volume':round(rv,2),
+                    'current_change_pct':round(move,2) if move is not None else None,
+                    'short_term_change_pct':round(mom,2) if mom is not None else None,
+                    'relative_volume':round(rv,2) if rv is not None else None,
+                    'volume_metric':'1h vs previous NY trading session same clock window',
+                    'quote_at':m.get('last_quote_at'),
+                    'quote_status':quote['status'],
+                    'quote_age_minutes':quote['age_minutes'],
+                    'early_signal':early,
+                    'signal_status':'EARLY_UNVERIFIED' if early else 'NEWS_TO_VERIFY',
 
-                    'estimated_impact_pct':round(est,1),
+                    'estimated_impact_pct':est,
                     'confidence_score':round(conf,0),
 
                     # Fonte autorevole NON significa evento verificato:
@@ -598,10 +606,11 @@ def build_candidates(market,macro):
                     'tradingview_symbol':w['ticker'],
 
                     'risk_flags':(
+                        'Quotazione non aggiornata: non trattare il momentum come live.'
+                        if not quote['is_recent'] else
                         'Titolo già esteso: attenzione a inseguire il movimento.'
-                        if move>8
-                        else
-                        'Segnale da confermare con prezzo e volumi in tempo reale.'
+                        if move is not None and move>8 else
+                        'Notizia RSS da verificare alla fonte originale.'
                     ),
 
                     'factors':{
@@ -611,7 +620,8 @@ def build_candidates(market,macro):
                         'volume':round(vol_score),
                         'momentum':round(mom_score),
                         'macro':round(macro_score),
-                        'extension_penalty':round(extension)
+                        'extension_penalty':round(extension),
+                        'stale_quote_penalty':quote_penalty
                     }
                 })
 
@@ -637,9 +647,10 @@ def build_candidates(market,macro):
             {}
         )
 
-        move=m.get('current_change_pct') or 0
-        mom=m.get('short_term_change_pct') or 0
-        rv=m.get('relative_volume') or 1
+        move=m.get('current_change_pct')
+        mom=m.get('short_term_change_pct')
+        rv=m.get('relative_volume')
+        quote=quote_health(m.get('last_quote_at'), now())
 
         strength=(
             58
@@ -649,17 +660,9 @@ def build_candidates(market,macro):
 
         srcq=100
 
-        vol_score=clamp(
-            45
-            +25*math.log(
-                max(rv,.25),
-                2
-            )
-        )
-
-        mom_score=clamp(
-            50+12*mom
-        )
+        vol_score=(clamp(45+25*math.log(max(rv,.25),2))
+                   if rv is not None else 28)
+        mom_score=(clamp(50+12*mom) if mom is not None else 35)
 
         macro_score=macro['macro_score']
 
@@ -668,7 +671,7 @@ def build_candidates(market,macro):
                 0,
                 (move-5)*4
             )
-            if move>5
+            if move is not None and move>5
             else 0
         )
 
@@ -711,9 +714,15 @@ def build_candidates(market,macro):
 
             'catalyst_type':'SEC filing',
 
-            'current_change_pct':round(move,2),
-            'short_term_change_pct':round(mom,2),
-            'relative_volume':round(rv,2),
+            'current_change_pct':round(move,2) if move is not None else None,
+            'short_term_change_pct':round(mom,2) if mom is not None else None,
+            'relative_volume':round(rv,2) if rv is not None else None,
+            'volume_metric':'1h vs preceding NY session same hour',
+            'quote_at':m.get('last_quote_at'),
+            'quote_status':quote['status'],
+            'quote_age_minutes':quote['age_minutes'],
+            'early_signal':False,
+            'signal_status':'SEC_UNCLASSIFIED',
 
             # Filing generici non sono segnali long: nessun rialzo stimato.
             'estimated_impact_pct':0.0,
@@ -722,6 +731,8 @@ def build_candidates(market,macro):
             'verification_status':'SEC_DOCUMENTO_UFFICIALE_EVENTO_NON_CLASSIFICATO',
 
             'source_verified':True,
+            'headline_published_at':f['published'].isoformat(),
+            'event_occurred_at':None,
 
             'tradingview_symbol':w['ticker'],
 
@@ -769,6 +780,53 @@ def build_candidates(market,macro):
     )
 
     return out[:30]
+
+def build_movers(market):
+    """Finviz-style anomaly watchlist, based ONLY on observed data.
+
+    These are price/volume observations, not verified catalysts or buy signals.
+    """
+    out=[]
+    for w in UNIVERSE:
+        ticker=w['ticker']
+        m=market.get(ticker,{})
+        price=m.get('last_price') or m.get('price')
+        move=m.get('current_change_pct')
+        hour=m.get('short_term_change_pct')
+        rvol=m.get('relative_volume')
+        health=quote_health(m.get('last_quote_at'),now())
+
+        if not health['is_recent'] or price is None or price < 5:
+            continue
+        if move is None or hour is None:
+            continue
+        if move > 10 or hour <= 0:
+            continue
+        if hour < 0.8 and (rvol is None or rvol < 1.5):
+            continue
+
+        early=(-2 <= move <= 1.5 and hour > 0 and rvol is not None and rvol >= 1.2)
+        out.append({
+            'ticker':ticker,
+            'company':w['company'],
+            'category':w.get('category',''),
+            'priority':w.get('priority','normal'),
+            'satispay_status':w.get('satispay_status','check'),
+            'current_change_pct':round(move,2),
+            'short_term_change_pct':round(hour,2),
+            'relative_volume':round(rvol,2) if rvol is not None else None,
+            'quote_at':m.get('last_quote_at'),
+            'early_move':early,
+            'status':'ANOMALY_NOT_A_CATALYST',
+            'tradingview_symbol':ticker
+        })
+    return sorted(
+        out,
+        key=lambda x:(x['early_move'], x['priority']=='critical',
+                      x['relative_volume'] or 0, x['short_term_change_pct']),
+        reverse=True
+    )[:20]
+
 
 def notify_if_needed(catalysts):
     topic=os.getenv(
@@ -922,6 +980,7 @@ def main():
         market,
         macro
     )
+    movers=build_movers(market)
 
     history_count, history_changed = update_history(catalysts, market, now())
     print(f"Archivio: {history_count} eventi, modifiche: {history_changed}")
@@ -964,6 +1023,7 @@ def main():
         'status':'ok',
         'macro':macro,
         'catalysts':catalysts,
+        'movers':movers,
         'archive_count':history_count,
         'background_schedule_minutes':15,
         'watchlist':WATCH,
@@ -988,7 +1048,7 @@ def main():
 
     print(
         f'wrote {OUT} '
-        f'with {len(catalysts)} catalysts'
+        f'with {len(catalysts)} catalysts and {len(movers)} movers'
     )
 
 if __name__=='__main__':

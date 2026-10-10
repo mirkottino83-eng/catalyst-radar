@@ -62,12 +62,23 @@
       <div id="backendStatus" class="data-timestamps">Ultima scansione cloud: in attesa…</div>
     </section>
 
+    <section id="moversSection">
+      <div class="section-head">
+        <div><div class="eyebrow">MOMENTUM SCANNER</div><h3>Movimenti anomali osservati</h3></div>
+        <span class="badge neutral">Non sono catalyst verificati</span>
+      </div>
+      <p class="section-description">Scansione tipo Finviz: variazione nell'ultima ora e volume relativo rispetto alla stessa fascia oraria della precedente seduta NY. I dati gratuiti non sono garantiti live; senza quotazione recente il titolo non compare.</p>
+      <div id="moversList" class="mover-list"><div class="empty panel">Caricamento movimenti...</div></div>
+    </section>
+
     <section>
       <div class="section-head">
         <div><div class="eyebrow">CATALYST FEED</div><h3>Segnali rilevati</h3></div>
         <div class="filters" id="filters">
           <button class="filter active" data-filter="all">Tutti</button>
           <button class="filter" data-filter="critical">Priorità</button>
+          <button class="filter" data-filter="early">Prima di +1,5%</button>
+          <button class="filter" data-filter="volume">Volumi forti</button>
           <button class="filter" data-filter="tech">Tech</button>
           <button class="filter" data-filter="biotech">Biotech</button>
           <button class="filter" data-filter="personal">Miei titoli</button>
@@ -125,7 +136,7 @@
 
     <section class="disclaimer panel">
       <strong>Come leggere i punteggi</strong>
-      <p>“Confidence” è un punteggio euristico di qualità del segnale, non una probabilità garantita di rialzo. “Impatto stimato” è una stima indicativa basata su tipo di catalyst, estensione già avvenuta, volumi, momentum e macro. Catalyst Radar è uno strumento informativo, non consulenza finanziaria.</p>
+      <p>Il punteggio qualità (0–100) non è una probabilità di rialzo. L'impatto indicativo è mostrato solo se quotazioni, momentum e volume sono disponibili e recenti: NON è una previsione affidabile. Un titolo nel Momentum Scanner non ha necessariamente un catalyst; le notizie RSS restano da verificare con le fonti primarie. Catalyst Radar è informativo e non costituisce consulenza finanziaria.</p>
     </section>
   </main>
 
