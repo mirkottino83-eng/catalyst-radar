@@ -1,0 +1,41 @@
+name: Test Catalyst Radar mobile notifications
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/test-mobile-notifications.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate private ntfy topic and deliver test notification
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          python - <<'PY'
+          import os, re, urllib.request
+          topic=os.getenv("NTFY_TOPIC","").strip()
+          if not re.fullmatch(r"[A-Za-z0-9_-]{16,64}",topic):
+              raise SystemExit("NTFY_TOPIC missing or invalid; recheck GitHub Actions secret. No topic value disclosed.")
+          request=urllib.request.Request(
+              "https://ntfy.sh/"+topic,
+              data=("Prova di collegamento riuscita. Catalyst Radar potrà notificarti i catalyst rilevanti e il quadro macro favorevole quando verranno rilevati.").encode("utf-8"),
+              headers={
+                  "Title":"Catalyst Radar - notifica di prova",
+                  "Priority":"default",
+                  "Tags":"white_check_mark",
+                  "Click":"https://mirkottino83-eng.github.io/catalyst-radar/",
+                  "Cache":"no"
+              },
+              method="POST",
+          )
+          with urllib.request.urlopen(request, timeout=15) as response:
+              if response.status not in (200,201,202):
+                  raise SystemExit("Notification server rejected test delivery")
+              print("ntfy test accepted by server; phone subscription still needs confirmation")
+          PY
