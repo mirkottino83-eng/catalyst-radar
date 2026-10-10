@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T19:21:22.832771+00:00",
+  "generated_at": "2026-10-10T19:35:13.957860+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -44,7 +44,7 @@
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSFAzNzlXTG5BbHZkbU5EX3lMZEl6Z3ZROVJPbE5NbFNwdXQtZ3N3cDlCYTNBVlg2VF9fTVE5RnIxS0I3b0dUejNudmZseG03RzVCdTBBS3hWaWM5S05KYV9WLWVOMENkODV0N2RXQzctank0bVpfSWo1bjNmbGg0Wi1RWFA?oc=5",
       "published_at": "2026-10-10T18:14:28+00:00",
-      "age_label": "66 min fa",
+      "age_label": "80 min fa",
       "catalyst_type": "ma",
       "current_change_pct": -0.5,
       "short_term_change_pct": -0.03,
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1166.4,
+      "quote_age_minutes": 1180.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -73,11 +73,53 @@
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
+    },
+    {
+      "id": "f803fc6ea4ff",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Nvidia reportedly in talks to acquire Reflection AI, its open-model bet - Crypto Briefing",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvcTNHZ1JOY2FXaUF6Z1BYdE5QTkJRWGhDZmhzWmN3R3FpekZYSW9WcG9VU0swWC1neUgtN0czaHduX2JmMDExY01wQU1JWkY3TVlXOGgzckRsdGFSOTE4YmNyOHJlT0o0SlJKcW9FWQ?oc=5",
+      "published_at": "2026-10-10T18:30:14+00:00",
+      "age_label": "64 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -0.5,
+      "short_term_change_pct": -0.03,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-09T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1180.2,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 50.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-10T18:30:14+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 90,
+        "volume": 28,
+        "momentum": 50,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
     }
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-10T19:21:11.794064+00:00",
+    "updated_at": "2026-10-10T19:35:01.206715+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -108,7 +150,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
@@ -120,10 +162,19 @@
     ],
     "geopolitics": [
       {
-        "title": "Dozens reported injured in Yemeni Houthi attack at Riyadh airport - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVhuZnBjakRva1RIcHU3NmJlU05aNmdnNnJuUHRRSG56ZkR5ZnRxWmNvT3I5Q0FKSFJNSXl3MExXZ3RYd2tzOHh1OFItWHBlM19jVVk5TXROTHZHMjd2T1pyWDJnbDcyY0JUYWcwVUI5ZFlaSC04SUtSQWppZWdkb0hhNXBKUFU4Z3A2MVJ5aFZQb0M2WFZYdGtvZEtRS20tRUlDZmYyU1pfNEdxazBHVGhvd240RnB3SnpaQQ?oc=5",
-        "published_at": "2026-10-10T18:28:00+00:00",
+        "title": "Trump says Ukraine needs a new president, blames Zelenskyy's strikes on Russian refineries for high diesel prices - CBS News",
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OWFA3OWV1Uy00bm5ydUxjM1ZxVHFFV0lFTldIYURIbmNuM19JdENydFhkWVY2ak1aNHlXUDVyY2Z3akE0UDRqUTBMdmFEeFQ2emhBLVYtdGtzYzBSLXBaSVpvM3FlWWlWZ2QtWmdpVTZxbVctZHl2NUhn?oc=5",
+        "published_at": "2026-10-10T19:12:54+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlHRHF6bWpaWFM5UW41VnZYSmJmYzVrUkFzQmZUdldhUUJfdkwwck5OYkxfWmlvRnRkSENQUHp3Rmk3ci1VMDBlak1IeDQtcHJocGRfakhyWUttLVlxbkZNSjZjMUIzNk9wNndNaURjdGNrNUxpZklFNDkyWmo5U3I5RFZTZ0FvdlNhUVZvaDg5NkhudVk4RVhR?oc=5",
+        "published_at": "2026-10-10T18:30:34+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -138,10 +189,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Germany reaffirms Russia sanctions after Trump-Putin diesel supply agreement - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNmJQM3NXMWRLZVUzQTBVYU9sc2xpdzRRR044OU15anFzS0ZKNlhDVjVnSjJvUHRGRjUyV2JBMGRvTU9CU1paZm1XTjV6b0NESW92NUVwb29pdm16NDNURW5HdGJtblBCbmtTbkRYQnEtUU5LWnlwOHh2VVZxOWhMelFzczAxOEE1cERnZzdsVlBMcFg0R2RnMjBmdUw0Z0JtbkpkYlJHMjMwOGw5Q2pUWg?oc=5",
-        "published_at": "2026-10-10T18:12:54+00:00",
+        "title": "Trump says Zelenskyy ‘better damn well stop' attacks on Russian oil refineries, calls for new Ukrainian leader - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQTVXT0VxQ0RQbUVXbjN2SEg5bnBITl94U0plVEtzZTdYMnM1RE1YUE94aUd2SmlhU2UxMGhvMkNTNGxYS19RSFpMMGNtZjdFNmE2U09WVWxwRC00RVc5TUhmMnpjN0p3YVFlX2JzWUEwcm1HYUFwWnZkRTVnVktNRjQzS2VPME0?oc=5",
+        "published_at": "2026-10-10T18:10:34+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -228,15 +279,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russian attacks kill 17 in Ukraine after Trump strikes diesel deal with Putin - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdTQ5eDJvOGhzTVpQYWxucGhZSEJEOC0wMmNqTXU3OF9leUlNNmJfN1R0dUxUa3hfN2RhTjU3cERGZWhCa1Jqb2pTRHZKS0ZFY25ZSGRYVVh5R3ZyNjBRWkxIbU9OcmhXYlM0ZURxVERfbjRvby1YVWwxTGt4Sm1kUHQ3dXBaOFl5SnJ6TTE1SFFScFRNNnN5N0ExUEludTRjUGQ3dGJUTdIBrAFBVV95cUxORllLcDRxODFPY3ZjNkVZMmlFcFUySkY5Q1ZFT3dZY2FlTVVPOTFLWnJkalV4WEgwZi1qbHN6bjA1MXhiZ1B6R0l6OG5lYmhQYlRwd2Z0YXhpeEFUdkd0dXM0NTJISTBRLVdzYzdLeE9uUUJKZlY1ZHhEMjlLWXE4czdPNlJ3N2YxY043ZDRpNWN6eDFCNk9KSVV3aUJ5cXltTjEtdTQyWjU5YTRU?oc=5",
-        "published_at": "2026-10-10T16:14:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China, EU reach deal to 'moderate' China's car exports to EU - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYldUVjVveXpLU2UyWmRWR3NoY0YtOVZINjJiRGtoSUdaZkxIeVBmVmVXdXlBbGFfc1RtSFRoZUNWTTZtT09obUZSN1ZaUTY4VEtlNkhNT2VtdWdfaDJUUW5hVFRhNjRSS092Z3QzVmNsUDFfdUE1UW5KNXdjOEc4UmNldzhOZzlzWGpHSHAtMExTMXPSAZMBQVVfeXFMTjN6NUNxQjUyQjJMZWVEUmxqVjJpdEJPalhCU3JmQXdLcnVfbDNRSnhONW41VGJZUFlwX1BqWVl6Y0lGMnpLVGt5RHhneG5JSVlrcFZESzRtbWZGQ2tEZ0h2M3JiUktZUHQybjgwU1hVb21YWkRxMGpXdmYyaVE0a3U1bkNpbkc1LXZYSjdNS2lSeGpR?oc=5",
@@ -271,15 +313,6 @@
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWHUxdEt3Q2cyVm5rQWZJSi1qYUg0Slppdlh2bk5Cb01ZRk9mVEE4OFFYZlhrMS1weW04NnEyc2dwbS1JU2tKa2p4RjNWUHF6ZEN6eHBUdW5zRXNhMlJXQWxWQThvUm1fMkdQcERnNzZMenhXZkZlWlh1ZXp1d3VNMDFlaHAwaWFKaTFjbA?oc=5",
         "published_at": "2026-10-10T12:43:14+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Is Micron Technology (MU) Facing New Supply Chain Risk In Taiwan? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTXlFcXRPbktDQ1hqekFyaTlVRFhYdmk4RV9IUE8zMzZYOU42RkQ4MEprQVlzNm5CZ1ZjRTEycVV4RTB5REhKcDdZVVBMdWVGcXlWcDNSRUdJM3hONWY5SHdIeTg4Z0N6d0lDcklMNXktRzE3ZE1CQ1FLRHF2bHdaZG5nOXkwakotbng0SXFzN2JZY1ZHcWp0dnNvVEs?oc=5",
-        "published_at": "2026-10-10T10:09:44+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -331,7 +364,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 1,
+  "archive_count": 2,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
