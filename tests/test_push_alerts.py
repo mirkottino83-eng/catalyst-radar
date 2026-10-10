@@ -60,6 +60,47 @@ class PushTests(unittest.TestCase):
         c["satispay_status"]="unavailable"
         self.assertFalse(push_alerts.eligible_candidate(c,NOW))
 
+    def test_important_headline_before_price_reaction(self):
+        c=catalyst()
+        c["quote_status"]="STALE"
+        c["quote_at"]=(NOW-timedelta(hours=3)).isoformat()
+        c["current_change_pct"]=None
+        c["relative_volume"]=None
+        c["short_term_change_pct"]=None
+        c["confidence_score"]=61
+        c["factors"]={"source_quality":95,"catalyst_strength":90}
+        c["catalyst_type"]="large_contract"
+        self.assertTrue(push_alerts.eligible_candidate(c,NOW))
+        alerts,_=push_alerts.make_alerts([c],macro(),market(),{},NOW)
+        news=next(a for a in alerts if a["kind"]=="catalyst")
+        self.assertIn("DA VERIFICARE",news["title"])
+        self.assertIn("Variazione osservata N/D",news["message"])
+        c["factors"]["source_quality"]=60
+        self.assertFalse(push_alerts.eligible_candidate(c,NOW))
+
+    def test_macro_failed_delivery_retries(self):
+        import requests
+        topic=os.environ.get("NTFY_TOPIC")
+        original=push_alerts.STATE_PATH
+        with tempfile.TemporaryDirectory() as directory:
+            push_alerts.STATE_PATH=Path(directory)/"state.json"
+            os.environ["NTFY_TOPIC"]="random_topic_abcdefghijkl1234"
+            try:
+                def fail(topic,alert):
+                    raise requests.RequestException("failed")
+                result=push_alerts.run_alerts([],macro(),market(),NOW,publisher=fail)
+                self.assertEqual(result["sent"],0)
+                self.assertFalse(push_alerts.load_state().get("macro_favorable"))
+                good=[]
+                second=push_alerts.run_alerts([],macro(),market(),NOW,
+                        publisher=lambda t,a:good.append(a["kind"]))
+                self.assertEqual(second["sent"],1)
+                self.assertEqual(good,["macro"])
+            finally:
+                push_alerts.STATE_PATH=original
+                if topic is None:os.environ.pop("NTFY_TOPIC",None)
+                else:os.environ["NTFY_TOPIC"]=topic
+
     def test_opt_in_and_successful_delivery_only(self):
         original=push_alerts.STATE_PATH
         topic=os.environ.get("NTFY_TOPIC")
