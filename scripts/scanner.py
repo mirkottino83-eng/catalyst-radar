@@ -9,6 +9,7 @@ import requests
 import yfinance as yf
 from history import update_history
 from push_alerts import run_alerts, TOPIC_PATTERN
+from fcm_push import run_fcm_alerts, enabled as fcm_enabled
 from signal_quality import (
     read_time, headline_status, quote_health, hourly_change,
     hourly_relative_volume, early_signal
@@ -984,6 +985,7 @@ def main():
         'archive_count':history_count,
         'background_schedule_minutes':5,
         'push_configured':bool(TOPIC_PATTERN.fullmatch(os.getenv('NTFY_TOPIC','').strip())),
+        'fcm_configured':fcm_enabled(),
         'watchlist':WATCH,
         'sources':sources
     }
@@ -1005,6 +1007,8 @@ def main():
     # Legacy ntfy channel remains subscribed until migrated to per-installation
     # Firebase Cloud Messaging. Do not expose a global notification toggle.
     run_alerts(catalysts,macro,market)
+    # Independent opt-in push to all Play Store Android installations using FCM.
+    run_fcm_alerts(catalysts,macro,market)
 
     print(
         f'wrote {OUT} '
