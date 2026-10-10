@@ -17,7 +17,7 @@ Web app/PWA for **research and monitoring**, not a trading broker. Runs as a sta
 - Google News RSS is an *index*, not licensed Benzinga/Reuters breaking news. The RSS publication timestamp is **not** proof of when a corporate event took place.
 - A relative volume number is computed only where comparable 5-minute bars exist for the same NY-clock 1-hour window of the previous session. Otherwise it shows **N/D**, not an assumed 1.0x.
 - U.S. market holidays, GitHub scheduler delays, Yahoo API restrictions and SEC rate limits can cause missing or stale results.
-- The GitHub Actions schedule is **best effort every 15 minutes**, not guaranteed continuous background execution. The phone's local 25-minute monitor does not launch a new cloud scan.
+- The GitHub Actions schedule requests a scan **every 5 minutes** (minute 2, 7, 12, etc., UTC). The actual execution can be delayed, skipped or unavailable; this is not a continuous, tick-by-tick feed. The phone auto-refreshes displayed data every minute while the app is open. No local countdown is needed.
 - Adding a local watchlist symbol filters visible results, but does not add it to the cloud scan universe.
 - Availability on Satispay is marked 'check' unless independently confirmed.
 - No paid service accounts or proprietary Benzinga/Finviz/TradingView feeds are used.
@@ -26,8 +26,24 @@ Web app/PWA for **research and monitoring**, not a trading broker. Runs as a sta
 
 Python 3.12, `pip install -r requirements.txt`, `python scripts/scanner.py`. The scanner requires internet and may fail to fetch some free sources. Run local tests without network using `python -m unittest discover -s tests -v`. The `quality-check.yml` GitHub workflow checks syntax and tests on pull requests.
 
-## Alerts
+## Android alerts (free ntfy, explicit opt-in)
 
-No new push subscriptions are configured by this change. Browser notifications only work under browser permission and foreground activity. An optional `NTFY_TOPIC` environment variable can send updates, but it must be intentionally configured and secured by the user. Do not expose private topics or API keys in this public repository.
+The Android phone needs the independent **ntfy** app. Push still arrives with Catalyst Radar closed, *only after* the private topic is connected to GitHub.
+
+1. Install [ntfy for Android](https://ntfy.sh/) (Google Play or F-Droid).
+2. Generate a **long random topic** (16–64 characters, letters/numbers/underscore/hyphen; prefer 30+ random characters). In ntfy choose **Subscribe to topic** and enter it. Leave ntfy notifications enabled in Android.
+3. Visit repository **Settings → Secrets and variables → Actions → New repository secret**. Name: `NTFY_TOPIC`, value: **exactly the same random topic**. Do not enter the value into a tracked file, issue, commit, screenshot, or chat.
+4. In GitHub **Actions → Update Catalyst Radar → Run workflow** (or let the next scheduled run start). Verify `data/latest.json` shows `"push_configured": true`. This only proves the sender is configured, not that the phone subscribed.
+5. When a qualifying *new* signal appears, Android receives the notification. No alerts at the weekend solely on stale macro quotes. If desired, set ntfy notification sound to **silent/no vibration** in Android settings.
+
+Security: free/public ntfy topic names are unprotected subscriptions; anyone who guesses the topic can read/send messages. Use an unpredictable topic and share it with no one. A paid or self-hosted authenticated server would offer stronger access control.
+
+### When push is sent
+
+- **Potential catalysts:** high-scoring *unverified* RSS news indexed within 45 minutes, with recent price, positive 1-hour momentum, same-clock relative volume >= 1.2x, daily move no higher than +8%, and no known platform-unavailable symbol. Maximum two per scan, de-duplicated per news ID and per ticker over 2 hours. These are leads for verification, not trade instructions.
+- **Very favourable tech macro:** only with recent Nasdaq, SOX, VIX, Treasury and WTI quotes during the NY cash market session. Requires strong-positive technical score and corroborating index, VIX, yield, oil and geopolitical filters. Alerts only on a transition to favourable conditions with 4h cooldown.
+- Persistence: alert IDs and macro state stored in `data/alert_state.json`; the **topic secret is never written** to the repository or results. Failed sends do not count as delivered.
+
+No notifications can arrive until `NTFY_TOPIC` is configured. GitHub Actions, free quote feeds and ntfy free delivery have no hard latency guarantee.
 
 For informational research only; not personalized financial advice.
