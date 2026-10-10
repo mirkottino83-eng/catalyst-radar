@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:26:20.700818+00:00",
+  "generated_at": "2026-10-10T20:41:59.539080+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -44,7 +44,7 @@
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTdoMzRYOXY0WFJUQ3FrbmNCSjlyWUx5TFE3VXFlS1NTdjJJdEpVbFJPQjBTY3VmS2FMbE41SF9RbTBrd3FaZFBuNWtqVDlVdU90ckdBTTdZdXNQdWctdWpSWU16SGhXVUpCckpWWTM1dTI2RVl4bDRPaFdHaWRZTWQ0eU1YYktMY01SaUU3WVotVEJ2c09OTjl6Wm5RZHAzXy1sdnNGSW9hSE8yd2MwVXA0emNsNXpXSDZja2N3aWZpSGllTW9tZ0czQV9sa2R2ZUUwWkFIS0I?oc=5",
       "published_at": "2026-10-10T20:19:53+00:00",
-      "age_label": "6 min fa",
+      "age_label": "21 min fa",
       "catalyst_type": "ma",
       "current_change_pct": -0.5,
       "short_term_change_pct": -0.03,
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1231.2,
+      "quote_age_minutes": 1246.9,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -60,6 +60,48 @@
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-10T20:19:53+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 50,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    },
+    {
+      "id": "88f13643dbc0",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Nvidia in Talks for Additional Investment or Acquisition of AI Startup Reflection AI: FT - news.sbs.co.kr",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "news.sbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySWVoZUZDN0xOVUVKaVc0RGpsSTEtLUxVaWFmbWl2WkZNM3dSSVB2WlNHWEdvcHEtUW9Rci0yWkEyWS04ZWRRWTZxbldGOXpwWmFic2NtOHZSUGJTaWRIWXZSZHA1T01JYTBjZnV3?oc=5",
+      "published_at": "2026-10-10T20:21:53+00:00",
+      "age_label": "20 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -0.5,
+      "short_term_change_pct": -0.03,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-09T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1247.0,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 52.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-10T20:21:53+00:00",
       "event_occurred_at": null,
       "tradingview_symbol": "NVDA",
       "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
@@ -94,7 +136,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1231.3,
+      "quote_age_minutes": 1247.0,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -119,7 +161,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-10T20:26:08.627764+00:00",
+    "updated_at": "2026-10-10T20:41:47.248290+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -136,7 +178,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -162,6 +204,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlHRHF6bWpaWFM5UW41VnZYSmJmYzVrUkFzQmZUdldhUUJfdkwwck5OYkxfWmlvRnRkSENQUHp3Rmk3ci1VMDBlak1IeDQtcHJocGRfakhyWUttLVlxbkZNSjZjMUIzNk9wNndNaURjdGNrNUxpZklFNDkyWmo5U3I5RFZTZ0FvdlNhUVZvaDg5NkhudVk4RVhR?oc=5",
+        "published_at": "2026-10-10T20:27:33+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Saudi Arabia faces new level of peril in Houthi attacks, amid wider Iran war - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5",
@@ -176,15 +227,6 @@
         "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNRVRWS1hPanFCMldSUC1uNFpsWVFIX3FnNnkzV3RpektPcERUMFlfMGRQeDZhWElEdFdYeFJOTU54UTJnVm95ZmZyTUpLbmMxZkJzRjE3bEIxcDdvQUpHWXA3QnBZN3YtaWU1LVdKU3o0Y2tid2FkUzR4SXZLbWY0UkpuS1F6TGtOUk5STm9rYmhhRmRpcEl2ckZCRXNwSzZHU0czVzI3cV9HVjhhNW5ZQnVobnRoNGpscDdlWFN1NmhTT3pKNHV6YWxsOFF1OHpkcjJuenZ2RXJMMWxULVdRdmgxU0xOYVpnWkJfTWhfcXRJbEtiU2hObGttZXIzMVpnVlFvMEVjZm1mVlJNU0hHOFU3THVKcHlrcHhtZFNFNFBpdw?oc=5",
         "published_at": "2026-10-10T19:22:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says Ukraine needs a new president, blames Zelenskyy's strikes on Russian refineries for high diesel prices - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OWFA3OWV1Uy00bm5ydUxjM1ZxVHFFV0lFTldIYURIbmNuM19JdENydFhkWVY2ak1aNHlXUDVyY2Z3akE0UDRqUTBMdmFEeFQ2emhBLVYtdGtzYzBSLXBaSVpvM3FlWWlWZ2QtWmdpVTZxbVctZHl2NUhn?oc=5",
-        "published_at": "2026-10-10T19:12:54+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -225,6 +267,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "DW News. . Both China and the US are racing for chips, energy, talent, data centers, and global AI influence. The AI race isn't just about who builds the smartest model. It's about who writes the rules. Can the rest of the world trust one system more than the ",
+        "source": "Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZnRKVHJ3b2VIVGJ4UnRmdW01UWYwVUMzZmpuam5vRHJYZkNGdUU1NU00NDhNSDJkeE4xRnVQYmdrMFp2Uk9OS3pVc2kzM3Z2WXRXNGphVHkybVdKa0d0c0Y1MUY1OFNyNGhtdElJLWpiTjhKU3R2SHowTHRXSmVqR2ZEcFdyYy01eVZEbWI2NTVzQjJTR2VwdFFwak1jQVpYYTdLMy1WUTBGeFNPQ0dxeU9xeG5uTV93ZzZZYVEzTkJPMUdCRlVzNVBLVHhkXzlpWFNrY1QybWRxejhvSzBPcnpR?oc=5",
+        "published_at": "2026-10-10T17:40:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "EU-China trade relations hit crunch time as Brussels pushes for rebalancing - Yahoo Finance Singapore",
         "source": "Yahoo Finance Singapore",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbjJQdEp6NjJ3STZ4U29VYnNJajhZOThYZDl1dkFBN1hfb0N4UVJ2eU5TTFhMUlpFWW9Fc3lCX3hJLTZxR2pXbUo4anFLNEV1ejRiQ0M4REN4dmdydERrRUoteUhXWU9ZTWM2ZTV6NnZKSTN2TWRiRGdZaEk3RUtjLTZ5TQ?oc=5",
@@ -240,15 +291,6 @@
         "published_at": "2026-10-10T17:19:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil tanker explodes after striking naval mine in Hormuz, IRGC claims - report - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBUHBTSEE2RWp1Q2JER29qVzlWOTJ1RlRjVUd3YlB0enNMa1ZmOXYyTWZzVVRZSTdlMkhIaXJFNVlNcjIwdFBJSEFDcko0bFlocjl4U3d0RTE1LVRiN0QwVFp2dFlvcWt4dVE?oc=5",
-        "published_at": "2026-10-10T17:16:35+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -270,6 +312,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump announces major diesel deal with Putin, infuriating Ukraine - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45R1VMR0FnSGE4WGFsYTRYOGpkSlRhXzByUjdPUklvbHUzeFBwcHFGLWhGb1lPWTBYZXpLZEpocXlfc0xTUU5qbVhoX1lhWEwwRmp3N3lkd2QwOFVhQWRxc2ZTTm11dmdNN01qVUVyc2xoU2ljOGlBUXF0cE9EUQ?oc=5",
+        "published_at": "2026-10-10T15:37:35+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China, EU reach deal to 'moderate' China's car exports to EU - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYldUVjVveXpLU2UyWmRWR3NoY0YtOVZINjJiRGtoSUdaZkxIeVBmVmVXdXlBbGFfc1RtSFRoZUNWTTZtT09obUZSN1ZaUTY4VEtlNkhNT2VtdWdfaDJUUW5hVFRhNjRSS092Z3QzVmNsUDFfdUE1UW5KNXdjOEc4UmNldzhOZzlzWGpHSHAtMExTMXPSAZMBQVVfeXFMTjN6NUNxQjUyQjJMZWVEUmxqVjJpdEJPalhCU3JmQXdLcnVfbDNRSnhONW41VGJZUFlwX1BqWVl6Y0lGMnpLVGt5RHhneG5JSVlrcFZESzRtbWZGQ2tEZ0h2M3JiUktZUHQybjgwU1hVb21YWkRxMGpXdmYyaVE0a3U1bkNpbkc1LXZYSjdNS2lSeGpR?oc=5",
@@ -286,18 +337,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU, China strike interim trade deal, envoy says - TelegraphHerald.com",
-        "source": "TelegraphHerald.com",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTG9GS0N6U3YxYXZsTlZDSUlTQk9OckNRUDlBVGFra25NaTdUWEw0SDNBTnJfdF82WG1SOF94SE9pVlhhR0hnTHQyaDNPWVdqMWhQX20yS2FDTFdMTG80aTBkZzAzbWlOTnduR1RMdmNua0xsT2s3LS1XLU56dEE1LVVmalhaNkRodkNKM2tpV1lMak9md29qZA?oc=5",
-        "published_at": "2026-10-10T05:30:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Nvidia Discusses Boosting Reflection Investment, Computing Deal - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhNbm44LUd6U3ZnU2t4ZXVxVlBObW55LURVTlJjcnNOWHJmZEhwNEd4UDdiWHFwaDBZSGw0blpidEN3QldtTl9haFYwNjVpUFJYTVRUOHJ6bU9SZE5jLUVzT2ItQXk4cjNhVEk5TnlBZnIxeE5SZ2x2cW9XRFVRb2lDQkdlWUF5S01CN1RKZGxnRWQ0aVhFNmhaS2VFUXhYVlAtYjJnUlBoSFZ6VUE?oc=5",
+        "published_at": "2026-10-10T20:22:30+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Israeli Pharma Giant Teva Wins FDA Approval for Monthly Schizophrenia Injection Weltruza - Haaretz",
         "source": "Haaretz",
@@ -312,24 +363,6 @@
         "source": "Simply Wall Street",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZFZPS3IwaG0xck5kMUFYUkJDOEpfUmJ1QU1kSUtXa1NyRUhPTUJud0hwMEpDTzZFQm1sTXA1bzlaTTZxVFJRVjhHY0QzajV5TFc3bnlWV2doN1FLWWhhWDFPazhMT2Q3MmQ0NWpUS2EwUEdiYy1wdWpDa0VvUzQ0SWNfRG1lNTROdy1MazlXeVFuQXFlenhjNlI1RWUxdEdzcklfMWVGbXczQ2ZCYXg2Ujdnam5zMTdGUVc3WW5zMUtIbmR3cGdCVS12YWU3UmdicmlR0gHYAUFVX3lxTFBKTTdJU05kZU1JUEtSdXBfVTZKR3Zqbl9MOFEtVHVQS0t0LWUzNUxDMFlhdmFCSTNEdEVfNTctdWYxc2FHYlZlLXk3dW0zc2xnUm1FU1oyYTdLR0dTVFFFSU0tSXJjN3cxUWNtbC11LXRvUUxhSlg5N2c1TWZCcGZtN0R0VXBGS2pQS3ZLdWQ4cFhwbExQbE84ZGxKRHBCYkd2ZFBOOG1SMHlUMTc0SHdYVGl3b0Jvemc0MngzaHUxTXRMRjN4T3FZU1VIa2pJZlI1RUxGRWIzbg?oc=5",
         "published_at": "2026-10-10T15:20:39+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Is Micron Technology (MU) Facing New Supply Chain Risk In Taiwan? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTXlFcXRPbktDQ1hqekFyaTlVRFhYdmk4RV9IUE8zMzZYOU42RkQ4MEprQVlzNm5CZ1ZjRTEycVV4RTB5REhKcDdZVVBMdWVGcXlWcDNSRUdJM3hONWY5SHdIeTg4Z0N6d0lDcklMNXktRzE3ZE1CQ1FLRHF2bHdaZG5nOXkwakotbng0SXFzN2JZY1ZHcWp0dnNvVEs?oc=5",
-        "published_at": "2026-10-10T10:09:44+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Teva Announces U.S. Food and Drug Administration (FDA) Approval of WELTRUZA™ (Olanzapine) For Extended-Release Injectable Suspension, as the First and Only Once-Monthly Subcutaneous Injectable Olanzapine for Adults with Schizophrenia - Teva Pharmaceuticals",
-        "source": "Teva Pharmaceuticals",
-        "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxPVWVsRF80cmpva2RFM25oTkRnM21FWkxpcWo1c0JPd2N2ckhHNHVYRDViNGJoc0VXRTlEUzVTVkk5dG1RbzkzSDg1WGYxTEszbjVHT2plSmRDbW85VFZSZ3lvTm9XZDdMQzFxN3NWX1RhNEpnbS1OdFdrU2dFalNiUUxMakUweWcyUE9yVWtUMFFHN1R6ay1TeFN1cmRPbE96b0Q5aEwwSXBNMVpjcGh5V0Iya2VDR0xLMWtTVlZ0Ui1ZdDhXUWFITFBkNEI4UnF5RkVVNlp3U3pEX21YVlB2UjhBSUtiY21pX2FPQnN0RUtEQkQ3TFBHOEFwc05haXo1cjJZS0J2bUJ0VEhLQ2ZuMmN4SlM3R2x0bkdDa0F2RnU3dTVkRFZPVTRWSGpiakthWGI0VXEwZmp0eUxsZ2xubXRMeG5weVFZY1JrSlY3NTBrSlltaFRiVVNkUHpTcGQ0RnVyM2s1enNQSFRlWkxsSlJrUlNOWFgxaEp4Yk5rZGZQZTZEdktqbVZlMmRKTF9HOXp6X1MzaThVbmpiUnc0UXJ5NW1xb2o4T29BdE9RU3dsSnZKSE9PVGtTNkREWlZaM2ZqQ2N1VFcxM0FlRnFCbnVpOXQ1eW1zbEhNS2VR?oc=5",
-        "published_at": "2026-10-10T05:39:02+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -360,11 +393,20 @@
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOXNGN3pjSGNMdGluU1gwMzRlYkdqNW14dVFIRkhBLUFudWxKdk85SUxnaWk4SGVQUDFTbFZlS2FhQTVJeXJvMjFTR25XcmpKVEM1SHlUZlY0czJsMDJGS1N1aFdzTk5wZldTWFkyVVhqdE5KZjdjQkpBd0RScmRiajlDRGtZSmNVUEQwbFNXbGFqaXplNjRjMjhqTnFSOGtWeWsxVE42T3J0ZVkwaFZKX2QwVFI3MEk?oc=5",
+        "published_at": "2026-10-09T17:54:52+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 3,
+  "archive_count": 4,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
