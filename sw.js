@@ -1,4 +1,4 @@
-const CACHE='catalyst-radar-v4-background-history';
+const CACHE='catalyst-radar-v5-momentum-quality';
 const STATIC=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting()));
