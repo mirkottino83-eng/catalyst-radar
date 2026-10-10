@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T19:05:53.983518+00:00",
+  "generated_at": "2026-10-10T19:21:22.832771+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -44,7 +44,7 @@
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSFAzNzlXTG5BbHZkbU5EX3lMZEl6Z3ZROVJPbE5NbFNwdXQtZ3N3cDlCYTNBVlg2VF9fTVE5RnIxS0I3b0dUejNudmZseG03RzVCdTBBS3hWaWM5S05KYV9WLWVOMENkODV0N2RXQzctank0bVpfSWo1bjNmbGg0Wi1RWFA?oc=5",
       "published_at": "2026-10-10T18:14:28+00:00",
-      "age_label": "51 min fa",
+      "age_label": "66 min fa",
       "catalyst_type": "ma",
       "current_change_pct": -0.5,
       "short_term_change_pct": -0.03,
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1150.9,
+      "quote_age_minutes": 1166.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-10T19:05:43.148344+00:00",
+    "updated_at": "2026-10-10T19:21:11.794064+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -115,10 +115,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       }
     ],
     "geopolitics": [
+      {
+        "title": "Dozens reported injured in Yemeni Houthi attack at Riyadh airport - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVhuZnBjakRva1RIcHU3NmJlU05aNmdnNnJuUHRRSG56ZkR5ZnRxWmNvT3I5Q0FKSFJNSXl3MExXZ3RYd2tzOHh1OFItWHBlM19jVVk5TXROTHZHMjd2T1pyWDJnbDcyY0JUYWcwVUI5ZFlaSC04SUtSQWppZWdkb0hhNXBKUFU4Z3A2MVJ5aFZQb0M2WFZYdGtvZEtRS20tRUlDZmYyU1pfNEdxazBHVGhvd240RnB3SnpaQQ?oc=5",
+        "published_at": "2026-10-10T18:28:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Saudi Arabia faces new level of peril in Houthi attacks, amid wider Iran war - The Washington Post",
         "source": "The Washington Post",
@@ -133,6 +142,15 @@
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNmJQM3NXMWRLZVUzQTBVYU9sc2xpdzRRR044OU15anFzS0ZKNlhDVjVnSjJvUHRGRjUyV2JBMGRvTU9CU1paZm1XTjV6b0NESW92NUVwb29pdm16NDNURW5HdGJtblBCbmtTbkRYQnEtUU5LWnlwOHh2VVZxOWhMelFzczAxOEE1cERnZzdsVlBMcFg0R2RnMjBmdUw0Z0JtbkpkYlJHMjMwOGw5Q2pUWg?oc=5",
         "published_at": "2026-10-10T18:12:54+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVkd3Y2lGYXNsajhHYzk4VkdmSVBlYVM0WHQ5MHRIR09QSUk0QzB3MWl5U0l6a0xIT0FKQW4wRG55ckxBOGluRTZSS2F3VVh1dFZyNkNQUDdCRHk4SUNGOTV0V0xkWkdlVlExcW11UmJyX05CSFVOQ0FSWWVlbHgtRHRZNDhqV3FOMVhpc0pKVFY1M182bVM5Z0x1M09paEpKelE?oc=5",
+        "published_at": "2026-10-10T18:09:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -201,15 +219,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Several injured in fresh attack on Riyadh’s King Khalid International Airport - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NNm8zRGJqcUNiY05QN1Y0MHN1QnJVV0IzNTl2OHY2T3NEdlVkanBTUWFlVEprZVZrLXNvbVFtMWxxeXRreFZmRDFRY0lUbWdtcENxXzBMMm9LNm8?oc=5",
-        "published_at": "2026-10-10T16:56:32+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine Peace Talks Sputter After Trump and Putin Strike Fuel Deal - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPemRINWVHeU1PM2lHVjQ0RXNIamU0eDYwcDBkYW9PTnNxa2tNVjVhTHpLdFUzbVpOWnhXNmFvZVdmdEUtZ2pGT3VES2Z3c3R2bFBLdUVhOVBLRDA1VS1Fem9HWElCeWQ1ZjRpUjl2U0JvOUdMal9VNC1TRXBidDU4bW9ITGQ2aUFWM2UxclR2aw?oc=5",
@@ -228,15 +237,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘Gifts to Putin’: Ukraine rattled as Trump eases sanctions on Russian oil - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1Ja2RHUFhhYVRTdFk4R2c3YW5GNUc3dkp4MW16VDV5MFFKdUI5WUhnZXlvVVpCSXQtQURIblljN3c3MzNmd21ydFRjWUZMLWxxaGdVQVNGNk5Mc1lFV0RPMnl6Szl3SEhFNFZRYnNuaUJMaVFIN1JIa2F2cnRCc0tsb0JfVHZWUHpkZUJkMnZJYldlZHFBZTY4Yk96ZXlQdHJndUdZS3poS2wxa1hB?oc=5",
-        "published_at": "2026-10-10T14:46:31+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China, EU reach deal to 'moderate' China's car exports to EU - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYldUVjVveXpLU2UyWmRWR3NoY0YtOVZINjJiRGtoSUdaZkxIeVBmVmVXdXlBbGFfc1RtSFRoZUNWTTZtT09obUZSN1ZaUTY4VEtlNkhNT2VtdWdfaDJUUW5hVFRhNjRSS092Z3QzVmNsUDFfdUE1UW5KNXdjOEc4UmNldzhOZzlzWGpHSHAtMExTMXPSAZMBQVVfeXFMTjN6NUNxQjUyQjJMZWVEUmxqVjJpdEJPalhCU3JmQXdLcnVfbDNRSnhONW41VGJZUFlwX1BqWVl6Y0lGMnpLVGt5RHhneG5JSVlrcFZESzRtbWZGQ2tEZ0h2M3JiUktZUHQybjgwU1hVb21YWkRxMGpXdmYyaVE0a3U1bkNpbkc1LXZYSjdNS2lSeGpR?oc=5",
@@ -246,7 +246,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "EU Says China Will Cut Hybrid Car Exports by Millions - Bloomberg.com",
+        "title": "EU Says Accord With China Could Cut Hybrid Car Exports by Half - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSGliVlhRNmZ2WGZXZXpYWmZUdjRFUXBwRmlqWHBaNzZKYWVGTDI5cDJVS0hwblE1VG5hVmI4T25QRmZJcHYwNlN2UXdXckM5anhQbzQ4TlhzVXV6T2xSaEJwTlhPQTFOZFlBcC0xZGc5enFUTDRpYzBLWjNHSm1GQUtrdEFQWUpRQlhWSlVTU0V2VG1CQXlVQ3YxUEY0UzM4ajd3TUlibzQ2R0ZodmVidUNqRQ?oc=5",
         "published_at": "2026-10-10T06:20:00+00:00",
@@ -275,10 +275,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flagship - Tom's Hardware",
-        "source": "Tom's Hardware",
-        "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQSjBCd255Y1gyWXBvSnlpVW4xNHVteF9MTG40Yngxdml6SnJ2R2JoNkF4OTdzMGJ1dkRIaVNoVlc0MnItdkNCTV9QX2FscW4zRGw1UkFTV285VW9DZS0tWmNXdmR2dUtCNmh6dWRWcmxSN3lVWDVhZ01qNUxGZ2k1bW03LWZPWndlX3NXcENxczczNUJNSUU4OHNzN3pQbmlkMmpPM2xfVXA1Z1E0b2dsMUZ4UXRGUkJ5aWh5MnVMUjZuNDMyeHBOUFdjNEJ1X3V2Wm1seDlfWHpEbC1idlR3RFhIMzhvTzRhYXFYWF91UEhXTEpfMldZUXNhMmt6Vmtsa0dnQ1B3eS15X0tmVEFXYWo5RFlUZWl6b21LTUtGM3FQbjJ0eFZscy1IOE9LaEdWb3F2Nnd4TWVXcnBKN2J1TTNzbEhaQ0ExVEpYQTRuaEhOLWg1elY2U0pYc3dvdHBac0JLLQ?oc=5",
-        "published_at": "2026-10-10T12:20:00+00:00",
+        "title": "Why Is Micron Technology (MU) Facing New Supply Chain Risk In Taiwan? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTXlFcXRPbktDQ1hqekFyaTlVRFhYdmk4RV9IUE8zMzZYOU42RkQ4MEprQVlzNm5CZ1ZjRTEycVV4RTB5REhKcDdZVVBMdWVGcXlWcDNSRUdJM3hONWY5SHdIeTg4Z0N6d0lDcklMNXktRzE3ZE1CQ1FLRHF2bHdaZG5nOXkwakotbng0SXFzN2JZY1ZHcWp0dnNvVEs?oc=5",
+        "published_at": "2026-10-10T10:09:44+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -302,15 +302,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Asahi Kasei Therapeutics Announces FDA Approval of HOVILPRI® (pritelivir) Tablets for Mucocutaneous HSV Lesions Refractory (With or Without Resistance) to Standard Antiviral Treatment in Immunocompromised Adults - Business Wire",
-        "source": "Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxOZTREM1lSdWtEUnRkQ1o2MkR1ZjZzVGJQTnM2V3N3NC1GVnRQa0MybnJTN3RrSTk1MTN3a21oNGdES3dFTHZfSl9NajVxQ1JnemJKcHFGODJMeVlJSUpWc0ZSeldqalJjQkl1QTNCbGhtMWZTVHpncGMzWl9DRnZHX0dFWnBtemJqV0VUZWFxa0tKb2diSE82elozV2hMbFRVcWVpS2hESjctejVHVGRUbno1NVVJR01MYi1HbUtKejVCOHRnR21OZW4ydVpuajFZRC1QZ2RZeDhVU3RZUlhPREZkVElyeGRENm8tcmlwbHRCTEVNempTS05VWXpiOHRDeFZMQ1NDczJQc2JKMF9ESVJIRWd6LUphM0VTSmItWFRYRldOZFc0U1F5NzFQbktzT1lxYUxkeFZsWlJ0cmw0TnVFOEJMcUw1emVyTnZsWkZfZDlqSHFJTksxX0djeTlUVHVoMDNpY2JTdHlYTE1QbEVDbno1QXhuNW9v?oc=5",
-        "published_at": "2026-10-09T22:41:33+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Asahi Kasei's recently acquired helicase primase inhibitor gets FDA approval for herpes lesions - FirstWord Pharma",
         "source": "FirstWord Pharma",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zTU9KTFBDcVRlcWVLQ1p2MURXQThsVE1JMkdTc2lWdTgxbG9aQTY5dHFMWmliQm9VQ3dnMmk3NktuN0ZMSE1Ca3g4WHJlbno0NUs0?oc=5",
@@ -325,6 +316,15 @@
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M?oc=5",
         "published_at": "2026-10-09T22:27:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOXNGN3pjSGNMdGluU1gwMzRlYkdqNW14dVFIRkhBLUFudWxKdk85SUxnaWk4SGVQUDFTbFZlS2FhQTVJeXJvMjFTR25XcmpKVEM1SHlUZlY0czJsMDJGS1N1aFdzTk5wZldTWFkyVVhqdE5KZjdjQkpBd0RScmRiajlDRGtZSmNVUEQwbFNXbGFqaXplNjRjMjhqTnFSOGtWeWsxVE42T3J0ZVkwaFZKX2QwVFI3MEk?oc=5",
+        "published_at": "2026-10-09T17:54:52+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
