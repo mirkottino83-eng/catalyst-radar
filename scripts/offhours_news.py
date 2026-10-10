@@ -44,9 +44,9 @@ DEESCALATION_SIGNALS = (
     "negotiations resume", "reopen shipping", "reopens strait",
 )
 SECONDARY_CORPORATE = (
-    r"\\b(?:should you buy|better buy|stocks to buy|stock to buy|buy now|"
+    r"\b(?:should you buy|better buy|stocks to buy|stock to buy|buy now|"
     r"price prediction|stock prediction|which stock|which chip stock|"
-    r"top stocks for|buy or sell|stock to own)\\b",
+    r"top stocks for|buy or sell|stock to own)\b",
 )
 
 def _date(value):
