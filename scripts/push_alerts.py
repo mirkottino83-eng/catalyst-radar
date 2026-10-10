@@ -96,6 +96,8 @@ def make_alerts(catalysts,macro,market,state,at=None):
             break
         if not eligible_candidate(c,at):
             continue
+        if any(p.get("ticker")==c["ticker"] for p in pending):
+            continue
         key=c.get("id") or c.get("ticker","")+"|"+c.get("headline","")
         if key in sent:
             continue
@@ -150,10 +152,14 @@ def run_alerts(catalysts,macro,market,at=None,publisher=publish):
     state["sent"]={k:v for k,v in state["sent"].items()
                    if (t:=read_time(v)) and t>=cutoff}
     delivered=0
+    delivered_macro=False
+    macro_was_queued=any(p["kind"]=="macro" for p in pending)
     for alert in pending:
         try:
             publisher(topic,alert)
             delivered+=1
+            if alert["kind"]=="macro":
+                delivered_macro=True
             if alert["kind"]=="catalyst":
                 state["sent"][alert["key"]]=at.isoformat()
                 state["last_by_ticker"][alert["ticker"]]=at.isoformat()
@@ -165,7 +171,8 @@ def run_alerts(catalysts,macro,market,at=None,publisher=publish):
             print(f"ntfy send failure ({alert['kind']}): {exc.__class__.__name__}")
         except Exception as exc:
             print(f"ntfy unexpected failure ({alert['kind']}): {exc.__class__.__name__}")
-    state["macro_favorable"]=favourable
+    # Retry unsent macro transition next run; never mark failed push as delivered.
+    state["macro_favorable"]=(favourable and (not macro_was_queued or delivered_macro))
     state["updated_at"]=at.isoformat()
     save_state(state)
     print(f"ntfy configured; delivered {delivered} alert(s)")
