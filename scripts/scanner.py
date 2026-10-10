@@ -781,6 +781,53 @@ def build_candidates(market,macro):
 
     return out[:30]
 
+def build_movers(market):
+    """Finviz-style anomaly watchlist, based ONLY on observed data.
+
+    These are price/volume observations, not verified catalysts or buy signals.
+    """
+    out=[]
+    for w in UNIVERSE:
+        ticker=w['ticker']
+        m=market.get(ticker,{})
+        price=m.get('last_price') or m.get('price')
+        move=m.get('current_change_pct')
+        hour=m.get('short_term_change_pct')
+        rvol=m.get('relative_volume')
+        health=quote_health(m.get('last_quote_at'),now())
+
+        if not health['is_recent'] or price is None or price < 5:
+            continue
+        if move is None or hour is None:
+            continue
+        if move > 10 or hour <= 0:
+            continue
+        if hour < 0.8 and (rvol is None or rvol < 1.5):
+            continue
+
+        early=(-2 <= move <= 1.5 and hour > 0 and rvol is not None and rvol >= 1.2)
+        out.append({
+            'ticker':ticker,
+            'company':w['company'],
+            'category':w.get('category',''),
+            'priority':w.get('priority','normal'),
+            'satispay_status':w.get('satispay_status','check'),
+            'current_change_pct':round(move,2),
+            'short_term_change_pct':round(hour,2),
+            'relative_volume':round(rvol,2) if rvol is not None else None,
+            'quote_at':m.get('last_quote_at'),
+            'early_move':early,
+            'status':'ANOMALY_NOT_A_CATALYST',
+            'tradingview_symbol':ticker
+        })
+    return sorted(
+        out,
+        key=lambda x:(x['early_move'], x['priority']=='critical',
+                      x['relative_volume'] or 0, x['short_term_change_pct']),
+        reverse=True
+    )[:20]
+
+
 def notify_if_needed(catalysts):
     topic=os.getenv(
         'NTFY_TOPIC',
@@ -933,6 +980,7 @@ def main():
         market,
         macro
     )
+    movers=build_movers(market)
 
     history_count, history_changed = update_history(catalysts, market, now())
     print(f"Archivio: {history_count} eventi, modifiche: {history_changed}")
@@ -975,6 +1023,7 @@ def main():
         'status':'ok',
         'macro':macro,
         'catalysts':catalysts,
+        'movers':movers,
         'archive_count':history_count,
         'background_schedule_minutes':15,
         'watchlist':WATCH,
@@ -999,7 +1048,7 @@ def main():
 
     print(
         f'wrote {OUT} '
-        f'with {len(catalysts)} catalysts'
+        f'with {len(catalysts)} catalysts and {len(movers)} movers'
     )
 
 if __name__=='__main__':
