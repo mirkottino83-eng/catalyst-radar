@@ -40,10 +40,10 @@ Security: free/public ntfy topic names are unprotected subscriptions; anyone who
 
 ### When push is sent
 
-- **Potential catalysts:** high-scoring *unverified* RSS news indexed within 45 minutes, with recent price, positive 1-hour momentum, same-clock relative volume >= 1.2x, daily move no higher than +8%, and no known platform-unavailable symbol. Maximum two per scan, de-duplicated per news ID and per ticker over 2 hours. These are leads for verification, not trade instructions.
+- **Potential catalysts:** (A) high-impact indexed releases from recognized financial news/wire sources within 20 minutes **even before a price reaction**, always explicitly flagged *UNVERIFIED*, or (B) high-scoring RSS candidates within 45 minutes with recent price, positive 1-hour momentum, same-clock relative volume >= 1.2x and move <= +8%. Maximum two per scan; deduplicated per news ID and per ticker over 2 hours. No fake price is shown when data is missing. These are leads for verification, not trade instructions.
 - **Very favourable tech macro:** only with recent Nasdaq, SOX, VIX, Treasury and WTI quotes during the NY cash market session. Requires strong-positive technical score and corroborating index, VIX, yield, oil and geopolitical filters. Alerts only on a transition to favourable conditions with 4h cooldown.
 - Persistence: alert IDs and macro state stored in `data/alert_state.json`; the **topic secret is never written** to the repository or results. Failed sends do not count as delivered.
 
-No notifications can arrive until `NTFY_TOPIC` is configured. GitHub Actions, free quote feeds and ntfy free delivery have no hard latency guarantee.
+No notifications can arrive until `NTFY_TOPIC` is configured. GitHub Actions, free quote feeds and ntfy free delivery have no hard latency guarantee. The ntfy.sh free tier has rate limits (including a published default 250 messages/day).
 
 For informational research only; not personalized financial advice.
