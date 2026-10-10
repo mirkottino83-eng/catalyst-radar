@@ -31,8 +31,19 @@ jobs:
       - name: Verify Python scanner syntax
         run: python -m py_compile scripts/scanner.py scripts/history.py scripts/signal_quality.py scripts/push_alerts.py scripts/control_state.py scripts/apply_control.py
       - name: Install lightweight test dependency
-        run: pip install requests
+        run: pip install requests pyyaml
       - name: Verify archived price calculations
         run: python -m unittest discover -s tests -v
+      - name: Validate workflow YAML syntax
+        run: |
+          python - <<'PY'
+          import yaml
+          from pathlib import Path
+          for filename in Path(".github/workflows").glob("*.yml"):
+              with filename.open(encoding="utf-8") as stream:
+                  obj=yaml.safe_load(stream)
+              assert isinstance(obj, dict) and isinstance(obj.get("jobs"),dict), filename
+              print("Workflow YAML valid:", filename)
+          PY
       - name: Verify JavaScript syntax
         run: node --check app.js && node --check sw.js
