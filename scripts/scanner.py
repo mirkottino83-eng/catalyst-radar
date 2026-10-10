@@ -8,6 +8,7 @@ import feedparser
 import requests
 import yfinance as yf
 from history import update_history
+from push_alerts import run_alerts, TOPIC_PATTERN
 from signal_quality import (
     read_time, headline_status, quote_health, hourly_change,
     hourly_relative_volume, early_signal
@@ -828,51 +829,6 @@ def build_movers(market):
     )[:20]
 
 
-def notify_if_needed(catalysts):
-    topic=os.getenv(
-        'NTFY_TOPIC',
-        ''
-    ).strip()
-
-    if not topic:
-        return
-
-    strong=[
-        x
-        for x in catalysts
-        if x['confidence_score']>=80
-        and (x.get('current_change_pct') or 0)<10
-        and (x.get('short_term_change_pct') or 0)>=1.5
-    ]
-
-    if not strong:
-        return
-
-    x=strong[0]
-
-    try:
-        requests.post(
-            'https://ntfy.sh/'+topic,
-
-            data=(
-                f"{x['ticker']} — "
-                f"{x['headline']} | "
-                f"confidence {x['confidence_score']:.0f}% | "
-                f"move {x['current_change_pct']:+.2f}%"
-            ).encode(),
-
-            headers={
-                'Title':'Catalyst Radar',
-                'Priority':'high',
-                'Tags':'chart_with_upwards_trend'
-            },
-
-            timeout=15
-        )
-
-    except Exception as e:
-        print('ntfy',e)
-
 def geopolitical_snapshot():
     try:
         rows=google_news(
@@ -1025,7 +981,8 @@ def main():
         'catalysts':catalysts,
         'movers':movers,
         'archive_count':history_count,
-        'background_schedule_minutes':15,
+        'background_schedule_minutes':5,
+        'push_configured':bool(TOPIC_PATTERN.fullmatch(os.getenv('NTFY_TOPIC','').strip())),
         'watchlist':WATCH,
         'sources':sources
     }
@@ -1044,7 +1001,8 @@ def main():
         encoding='utf-8'
     )
 
-    notify_if_needed(catalysts)
+    # Optional mobile notifications: only after an unguessable secret is configured.
+    run_alerts(catalysts,macro,market)
 
     print(
         f'wrote {OUT} '
