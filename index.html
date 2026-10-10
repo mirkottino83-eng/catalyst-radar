@@ -33,8 +33,14 @@
         <div class="eyebrow">SCANNER CLOUD • CONTROLLO AUTOMATICO</div>
         <h2>Monitoraggio automatico dei catalyst e del quadro macro.</h2>
         <p>Lo scanner combina qualità e freschezza della notizia, forza del catalyst, prezzo, volumi, momentum e quadro macro. Le fonti ufficiali hanno priorità.</p>
+        <div class="actions control-actions" aria-label="Controlli monitoraggio cloud">
+          <button id="enableMonitorBtn" type="button" class="primary" disabled>▶ Attiva monitoraggio continuo</button>
+          <button id="disableMonitorBtn" type="button" class="secondary" disabled>■ Disattiva monitoraggio</button>
+          <button id="togglePushBtn" type="button" class="secondary" disabled>🔔 Notifiche: caricamento…</button>
+        </div>
+        <div id="remoteControlStatus" class="data-timestamps" role="status" aria-live="polite">Lettura stato remoto da GitHub…</div>
+        <small class="hero-note">I pulsanti richiedono una conferma su GitHub: si apre una richiesta già compilata e devi premere «Submit new issue». Dopo la conferma il server aggiorna lo stato. Nessuna password o token viene inserita nell'app.</small>
         <div class="actions">
-          <span class="primary status-static"><span class="live-dot"></span> Monitoraggio cloud automatico</span>
           <button id="refreshBtn" class="secondary">↻ Aggiorna dati</button>
           <button id="installBtn" class="secondary hidden">＋ Installa app</button>
         </div>
@@ -48,7 +54,7 @@
             <span id="scanMode">OGNI 5 MIN</span>
           </div>
         </div>
-        <p id="scanHint">Funzionamento automatico, senza timer da riavviare.</p>
+        <p id="scanHint">Il monitoraggio cloud resta attivo anche con l'app chiusa, finché non lo disattivi.</p>
       </div>
     </section>
 

@@ -10,6 +10,8 @@ on:
       - 'styles.css'
       - 'index.html'
       - 'sw.js'
+      - '.github/workflows/radar-controls.yml'
+      - '.github/workflows/update-radar.yml'
       - '.github/workflows/quality-check.yml'
   pull_request:
     branches: [main]
@@ -27,7 +29,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Verify Python scanner syntax
-        run: python -m py_compile scripts/scanner.py scripts/history.py scripts/signal_quality.py scripts/push_alerts.py
+        run: python -m py_compile scripts/scanner.py scripts/history.py scripts/signal_quality.py scripts/push_alerts.py scripts/control_state.py scripts/apply_control.py
       - name: Install lightweight test dependency
         run: pip install requests
       - name: Verify archived price calculations

@@ -1,9 +1,62 @@
-const state={data:null,filter:"all",deferredInstall:null,history:null,historyShown:30,favorites:[]};
+const state={data:null,filter:"all",deferredInstall:null,history:null,historyShown:30,favorites:[],control:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const fmt=(v,d=2)=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))?Number(v).toFixed(d):"—";
 const signed=v=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))?((Number(v)>0?"+":"")+Number(v).toFixed(2)+"%"):"N/D";
 const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 const toast=m=>{const e=$("#toast");e.textContent=m;e.classList.add("show");setTimeout(()=>e.classList.remove("show"),2500)};
+
+
+// Remote switches are owned by GitHub, never browser-only localStorage.
+const CONTROL_REPO="mirkottino83-eng/catalyst-radar";
+const CONTROL_TITLES={
+  enableMonitor:"Catalyst Radar control: enable-monitoring",
+  disableMonitor:"Catalyst Radar control: disable-monitoring",
+  enablePush:"Catalyst Radar control: enable-notifications",
+  disablePush:"Catalyst Radar control: disable-notifications"
+};
+async function loadControl(){
+  try{
+    const response=await fetch("./config/control.json?t="+Date.now(),{cache:"no-store"});
+    if(!response.ok)throw Error("HTTP "+response.status);
+    const result=await response.json();
+    if(typeof result.monitoring_enabled!=="boolean" || typeof result.notifications_enabled!=="boolean")throw Error("invalid control data");
+    state.control=result;
+    renderControlButtons();
+    if(state.data)renderMacro();
+  }catch(e){
+    console.warn("Impossibile leggere il controllo remoto",e);
+    if(!state.control && state.data?.control)state.control=state.data.control;
+    renderControlButtons();
+  }
+}
+function renderControlButtons(){
+  const on=$("#enableMonitorBtn"),off=$("#disableMonitorBtn"),push=$("#togglePushBtn"),label=$("#remoteControlStatus");
+  if(!on||!off||!push||!label)return;
+  const settings=state.control;
+  if(!settings||typeof settings.monitoring_enabled!=="boolean"||typeof settings.notifications_enabled!=="boolean"){
+    on.disabled=off.disabled=push.disabled=true;
+    label.textContent="Stato GitHub non disponibile: i comandi restano disabilitati per sicurezza.";
+    return;
+  }
+  on.disabled=settings.monitoring_enabled;
+  off.disabled=!settings.monitoring_enabled;
+  push.disabled=false;
+  push.textContent=settings.notifications_enabled?"🔕 Disattiva notifiche":"🔔 Attiva notifiche";
+  const status=settings.monitoring_enabled?"ATTIVO anche in background":"DISATTIVATO sul server";
+  const notify=settings.notifications_enabled?"abilitate":"disabilitate";
+  label.textContent="Scanner: "+status+" · Notifiche: "+notify+
+    " · Le modifiche richiedono conferma nell'account GitHub.";
+}
+function requestControl(action){
+  const title=CONTROL_TITLES[action];
+  if(!title||!state.control){toast("Stato remoto non disponibile");return}
+  const body="Richiesta di controllo Catalyst Radar. Premi «Submit new issue» per autorizzare il comando. "+
+    "Solo il proprietario del repository può modificarne lo stato. Non inserire dati segreti in questa richiesta.";
+  const url="https://github.com/"+CONTROL_REPO+"/issues/new?title="+encodeURIComponent(title)+
+    "&body="+encodeURIComponent(body);
+  window.open(url,"_blank","noopener,noreferrer");
+  toast("Conferma il comando su GitHub, poi torna qui e aggiorna i dati");
+}
 
 async function loadData(manual=false){
   try{
@@ -53,14 +106,25 @@ function renderMacro(){
     (readable===null?" · aggiornamento non disponibile": " · ultimo file dati "+readable+" min fa")+
     " · le fonti gratuite possono avere ritardi.";
   st.classList.toggle("data-stale",readable===null||readable>20);
+  const controls=state.control||state.data.control;
+  const paused=controls?.monitoring_enabled===false;
   const push=$("#pushStatus");
-  if(push)push.textContent=state.data.push_configured
-    ?"Notifiche ntfy: invio configurato · verificare la sottoscrizione sull'app Android"
-    :"Notifiche ntfy: non ancora attive sul telefono · configura il canale ntfy in GitHub";
+  if(push)push.textContent=!state.data.push_configured
+    ?"ntfy non configurato sul server: nessuna notifica push può essere inviata."
+    :controls?.notifications_enabled===false
+      ?"Notifiche disattivate dal pannello: nessun nuovo invio ntfy."
+      :paused
+        ?"Monitoraggio in pausa: nessuna notifica inviata."
+        :"Notifiche ntfy abilitate per i catalyst e i segnali macro qualificati.";
   const indicator=$("#scanIndicator");
-  if(indicator)indicator.textContent=(readable===null||readable>20)?"RITARDO":"AUTO";
+  if(indicator)indicator.textContent=paused?"OFF":(readable===null||readable>20)?"RITARDO":"AUTO";
   const mode=$("#scanMode");
-  if(mode)mode.textContent=(readable===null||readable>20)?"DATI VECCHI":"OGNI 5 MIN";
+  if(mode)mode.textContent=paused?"PAUSA":(readable===null||readable>20)?"DATI VECCHI":"OGNI 5 MIN";
+  if(paused){
+    st.textContent="Monitoraggio cloud DISATTIVATO: la scansione mercati e l'invio notifiche sono sospesi.";
+    st.classList.remove("data-stale");
+  }
+  renderControlButtons();
 }
 function renderMovers(){
  const target=$("#moversList");
@@ -259,7 +323,13 @@ function renderArchive(){
 }
 
 function renderSources(){$("#sources").innerHTML=(state.data.sources||[]).map(s=>`<div class="source"><div class="source-state"><strong>${esc(s.name)}</strong><span class="dot ${s.limited?"limited":""}"></span></div><p>${esc(s.note||s.coverage||"")}</p></div>`).join("")}
-$("#refreshBtn").addEventListener("click",()=>loadData(true));$("#filters").addEventListener("click",e=>{if(!e.target.matches(".filter"))return;$$('.filter').forEach(x=>x.classList.remove("active"));e.target.classList.add("active");state.filter=e.target.dataset.filter;renderCatalysts()});
+$("#enableMonitorBtn").addEventListener("click",()=>requestControl("enableMonitor"));
+$("#disableMonitorBtn").addEventListener("click",()=>requestControl("disableMonitor"));
+$("#togglePushBtn").addEventListener("click",()=>{
+  if(!state.control)return;
+  requestControl(state.control.notifications_enabled?"disablePush":"enablePush");
+});
+$("#refreshBtn").addEventListener("click",()=>{loadControl();loadData(true)});$("#filters").addEventListener("click",e=>{if(!e.target.matches(".filter"))return;$$('.filter').forEach(x=>x.classList.remove("active"));e.target.classList.add("active");state.filter=e.target.dataset.filter;renderCatalysts()});
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();state.deferredInstall=e;$("#installBtn").classList.remove("hidden")});$("#installBtn").addEventListener("click",async()=>{if(!state.deferredInstall)return;state.deferredInstall.prompt();await state.deferredInstall.userChoice;state.deferredInstall=null;$("#installBtn").classList.add("hidden")});
 state.favorites=getFavorites();
 $("#personalForm").addEventListener("submit",handleFavoriteInput);
@@ -277,7 +347,8 @@ $("#archiveList").addEventListener("click",e=>{
   if(btn)window.showChart(btn.dataset.chart,btn.dataset.chart);
 });
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(console.warn));
+loadControl();
 loadData();
-setInterval(()=>loadData(false),60*1000);
-document.addEventListener("visibilitychange",()=>{if(!document.hidden)loadData(false)});
-window.addEventListener("pageshow",e=>{if(e.persisted)loadData(false)});
+setInterval(()=>{loadControl();loadData(false)},60*1000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden){loadControl();loadData(false)}});
+window.addEventListener("pageshow",e=>{if(e.persisted){loadControl();loadData(false)}});

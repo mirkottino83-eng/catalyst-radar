@@ -1,4 +1,4 @@
-const CACHE='catalyst-radar-v6-continuous-notifications';
+const CACHE='catalyst-radar-v7-github-control-buttons';
 const STATIC=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting()));

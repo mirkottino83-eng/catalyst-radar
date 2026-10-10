@@ -53,3 +53,10 @@
 #scanIndicator{font-size:30px}
 #scanMode{letter-spacing:1px}
 #pushStatus{padding:12px 0 0;line-height:1.5}
+
+/* Mobile-friendly authenticated remote controls */
+.control-actions{align-items:stretch}
+.control-actions button{flex:1 1 205px;min-width:0;min-height:48px;text-align:center}
+.control-actions button:disabled{opacity:.52;cursor:not-allowed;box-shadow:none}
+#remoteControlStatus{margin-top:10px;padding:9px 10px;border:1px solid var(--line);border-radius:11px;background:#0a1626}
+@media(max-width:650px){.control-actions{display:grid;grid-template-columns:1fr;gap:8px}.control-actions button{width:100%}}
