@@ -480,7 +480,9 @@ def build_candidates(market,macro):
 
         for n in news:
 
-            if not is_recent(n['published']):
+            # Indexed RSS publication time is not verified company-event time.
+            quality=headline_status(n['title'],n['published'],now(),MAX_NEWS_AGE_HOURS)
+            if quality != 'NEW_RSS_UNVERIFIED':
                 continue
 
             cl=classify_headline(n['title'])
@@ -507,30 +509,23 @@ def build_candidates(market,macro):
                     n['title']
                 )
 
-                rv=m.get('relative_volume') or 1
+                rv=m.get('relative_volume')
+                vol_score=(clamp(45+25*math.log(max(rv,.25),2))
+                           if rv is not None else 28)
 
-                vol_score=clamp(
-                    45
-                    +25*math.log(
-                        max(rv,.25),
-                        2
-                    )
-                )
+                mom=m.get('short_term_change_pct')
+                mom_score=(clamp(50+12*mom) if mom is not None else 35)
 
-                mom=m.get('short_term_change_pct') or 0
-
-                mom_score=clamp(
-                    50+12*mom
-                )
-
-                move=m.get('current_change_pct') or 0
+                move=m.get('current_change_pct')
+                quote=quote_health(m.get('last_quote_at'), now())
+                quote_penalty=0 if quote['is_recent'] else 18
 
                 extension=(
                     max(
                         0,
                         (move-5)*4
                     )
-                    if move>5
+                    if move is not None and move>5
                     else 0
                 )
 
@@ -552,16 +547,14 @@ def build_candidates(market,macro):
                     +.10*mom_score
                     +.10*macro_score
                     -extension
+                    -quote_penalty
                 )
 
-                est=min(
-                    7.5,
-                    max(
-                        .5,
-                        impact*(conf/100)
-                        -max(0,move)*.20
-                    )
-                )
+                # No numeric estimated impact when market observations are stale.
+                est=(round(min(7.5,max(.5,impact*(conf/100)-max(0,move)*.20)),1)
+                     if quote['is_recent'] and move is not None
+                     and mom is not None and rv is not None else None)
+                early=early_signal(mins,move,mom,rv,quote['is_recent'])
 
                 if conf<48:
                     continue
@@ -590,11 +583,17 @@ def build_candidates(market,macro):
                     'age_label':label,
 
                     'catalyst_type':typ,
-                    'current_change_pct':round(move,2),
-                    'short_term_change_pct':round(mom,2),
-                    'relative_volume':round(rv,2),
+                    'current_change_pct':round(move,2) if move is not None else None,
+                    'short_term_change_pct':round(mom,2) if mom is not None else None,
+                    'relative_volume':round(rv,2) if rv is not None else None,
+                    'volume_metric':'1h vs previous NY trading session same clock window',
+                    'quote_at':m.get('last_quote_at'),
+                    'quote_status':quote['status'],
+                    'quote_age_minutes':quote['age_minutes'],
+                    'early_signal':early,
+                    'signal_status':'EARLY_UNVERIFIED' if early else 'NEWS_TO_VERIFY',
 
-                    'estimated_impact_pct':round(est,1),
+                    'estimated_impact_pct':est,
                     'confidence_score':round(conf,0),
 
                     # Fonte autorevole NON significa evento verificato:
@@ -607,10 +606,11 @@ def build_candidates(market,macro):
                     'tradingview_symbol':w['ticker'],
 
                     'risk_flags':(
+                        'Quotazione non aggiornata: non trattare il momentum come live.'
+                        if not quote['is_recent'] else
                         'Titolo già esteso: attenzione a inseguire il movimento.'
-                        if move>8
-                        else
-                        'Segnale da confermare con prezzo e volumi in tempo reale.'
+                        if move is not None and move>8 else
+                        'Notizia RSS da verificare alla fonte originale.'
                     ),
 
                     'factors':{
@@ -620,7 +620,8 @@ def build_candidates(market,macro):
                         'volume':round(vol_score),
                         'momentum':round(mom_score),
                         'macro':round(macro_score),
-                        'extension_penalty':round(extension)
+                        'extension_penalty':round(extension),
+                        'stale_quote_penalty':quote_penalty
                     }
                 })
 
