@@ -1,17 +1,21 @@
 {
-  "scan_duration_minutes": 25,
-  "action_refresh_minutes": 5,
+  "action_refresh_minutes": 1,
   "ui_refresh_seconds": 60,
-  "strong_catalyst_min_expected_move_pct": 3.0,
-  "min_price_usd": 5.0,
+  "strong_catalyst_min_expected_move_pct": 3,
+  "min_price_usd": 5,
   "min_volume": 500000,
-  "min_relative_volume": 2.0,
-  "premarket_min_pct": 1.0,
-  "premarket_max_pct": 10.0,
-  "avoid_already_extended_above_pct": 10.0,
+  "min_relative_volume": 2,
+  "premarket_min_pct": 1,
+  "premarket_max_pct": 10,
+  "avoid_already_extended_above_pct": 10,
   "require_positive_short_term_momentum": true,
   "prioritize_satispay": true,
-  "regions": ["USA","Europe","Canada","Asia"],
+  "regions": [
+    "USA",
+    "Europe",
+    "Canada",
+    "Asia"
+  ],
   "include_premarket": true,
   "include_afterhours": true,
   "popup_alerts": true,
@@ -27,5 +31,7 @@
     "SEC filing with material event",
     "analyst upgrade with material target change",
     "major product / AI / semiconductor catalyst"
-  ]
+  ],
+  "cloud_scan_schedule_minutes": 5,
+  "notifications": "ntfy_opt_in"
 }
