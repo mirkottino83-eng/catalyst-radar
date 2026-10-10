@@ -15,12 +15,13 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - uses: android-actions/setup-android@v3
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.13'
       - name: Install Android 16 SDK
-        run: sdkmanager "platforms;android-36" "build-tools;35.0.0"
+        run: |
+          test -d "${ANDROID_HOME:-/usr/local/lib/android/sdk}" || exit 1
+          sdkmanager "platforms;android-36" "build-tools;35.0.0"
       - name: Set up private Firebase config and signing key
         env:
           FIREBASE_GOOGLE_SERVICES_JSON_B64: ${{ secrets.FIREBASE_GOOGLE_SERVICES_JSON_B64 }}
