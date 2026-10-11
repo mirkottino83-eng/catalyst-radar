@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:59:07.551989+00:00",
+  "generated_at": "2026-10-11T15:12:57.036601+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -15,7 +15,7 @@
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.23100280761719,
+    "dollar_index": 102.20999908447266,
     "macro_score": 49.8,
     "tech_bias": "neutral",
     "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI +0.39%. Geopolitica: Trump says Russia and Ukraine reached 'energy ceasefire' - Reuters",
@@ -37,53 +37,10 @@
       }
     ]
   },
-  "catalysts": [
-    {
-      "id": "59fb92d613ba",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Nvidia may be planning for more stake or acquisition deal for $25 billion in open-source AI startup - The Times of India",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQMWtWV0tqVjZhTmQ5V2R1OV9zN2ppRC1XUl8xUkhPb0otNzVoOXVCcUljWmlCaG1KNW4wbTV5d0RIcmVMRVRFdEZNVmtweU9kaE9MWWVYRW4xOF8xZDdfb0RSNTdKcXFTclRXT0VkaG1WNkpPWFZPeVVPT0J4akwzQ2JxalpHdGRvMVY5LWdkNWY5aEc5TjF5cHNiVnFmeXA3SmpmdXh1blo1MC1OX2FQZnFvYmowU2dxZFBhQzZvQndqcjVkR0lBRDUyNmhOX2xsUlRtSlhmNDkwWEtjeW14Ulo5cWVzWHlKcmdQVXhCQTdyZW5DbklmajZHOUVacndQbXpVdWg4SF92SEczNVHSAZMCQVVfeXFMTThwU1pXRlNGVER5XzdzUXdNOEpqUHd6NkVjWS15U0J6bkNVRmFvVl9JeUhHSW1ucHhXa3p3RzlFOXA1OFBNVVF0N3gzdHRJYnVTeDhUaGU1Z1VzZXpMancxUXpETUl5ZW1KMHZ1czczTkwxRWJBQWw0Skc4ei1ZRjNIdVg3eDl2Y0pCSnUwT19zb3dDSjRQZWFRTjk4Q29URDRYeDdJMV9sLTZmWWlwZWc3N1dYRG5qVHJsbkFIbTN1VGdpb1ZHTUE2TmlxN014QXE0YUxGQURjQTg0dHRsbXJidWlxblRpb1YtWGllVmhWeGpIQ09VUW9yejdxNVBTalphbXNLbUkyVEJkSG00SV9mdlk?oc=5",
-      "published_at": "2026-10-11T11:03:00+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -0.5,
-      "short_term_change_pct": -0.03,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-09T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 2344.0,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 48.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-11T11:03:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 50,
-        "macro": 50,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T14:58:55.718691+00:00",
+    "updated_at": "2026-10-11T15:12:45.245953+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -126,10 +83,46 @@
     ],
     "geopolitics": [
       {
-        "title": "Trump says Russia, Ukraine agree to 'energy ceasefire' - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcXJ2LU04blFuQ3BhX2VvZW51NzZydHVzd3hLamZMVzdCaG1tUmh1WW1GTHQ4NEdSV3RqM3dmLWhCbFdrVnc5VWR4cmU1V1R2SmNiQzRRT18tMV9lNkI4emxrQXZpWFdDOTUxNWJySE5tc0daZ2VBQmhBWUk5alNDcFlhZG1QOTd3NllvdUJXTW0zczRLLV930gGXAUFVX3lxTE0tRFhUa3JyczNfbmFxSjV1bnNOMnRFUklZLXV2T3V3UEFpNGExNWlFMHlCY1dsVUswaWc5WmVhb2hOaHNOTkF0U0ljd09yVXhVcFdtUk51alduWVJ1QTBxUTNWOTRkN0hKRFQ4aU1KMHhLakdVXzZERmNMX0twNGlKYTBTWXN6S1BvN0wyaE1RemlHd3pUZWM?oc=5",
-        "published_at": "2026-10-11T14:49:19+00:00",
+        "title": "Zelenskyy urges Trump to endorse 'energy ceasefire' with Russia - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1VQSGhZaTdJcC1sT29sUTJZZjFYd0tpQm4zN3VJRklkc29STTdGWk1vZlljS1drNGFBUnVYYVN5M2t1OV9TeXJscVpsTWw1cGNSaGYwU0pFN203aTJ5M1g1b1NoVFpnbklMNDV1OWJ2cGRqV2RJLVFWRndLQ2lNMEp6aEdISzBHZmZjQ25VMTBrdw?oc=5",
+        "published_at": "2026-10-11T15:07:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says Russia and Ukraine reach ‘energy ceasefire’ but gives no details - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPamZWc0pzUzdKd3YzOVM2MXRGdTc1akUwMDBma1pxUkt1OXd3ajk5RUlhLS1xaHJsVVdwVXk5cDVaMlFIcGxqSWtpelg1UUsydjFIZ3VpSXBKMTBnVlh3TTFUMGdjNlBtMWhEZmFpSnFTNVBDMWx1OVN5X2xGQS1DUndqS2RPQ2FBWXIxNGE5QzFhX0wzaW9vWUkwb2VoUHhGZU5Z?oc=5",
+        "published_at": "2026-10-11T15:03:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump claims Russia and Ukraine agree to energy ceasefire, but Zelenskyy says this is ‘news for me’ - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNenNrNjdxdUZuN0RldlJxbHBrYWM0aEdGU25GM21GMTZjZ3I3YXNlcnNWazNNcEdid3FuNUUxblppNDFSUmpBeE4tWjN5U2QzbVZ3U2Q5QlZVblFNaHFFTHZpWVBCbjdCQ1RTWkc2aDdESnNwaEhGX0ltVUpUdUl2YW53RU5BVGx2OF9hR2xxREpWWkM4dF8tMHZmVnFQbGJHZGgybEJNRWNkVUJVR3c?oc=5",
+        "published_at": "2026-10-11T15:02:43+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China, EU talks keep trade ties stable - China Daily",
+        "source": "China Daily",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aSUxmdFNsdXJZYVNqS1NDaHV5QkMyRzgtb2F1dllrSEVkMkh5UWtHVXRvc0RyWVZ2N1dVUFJYa1loYV9QYnI4ZjJpb1pWalpYSDQ3dlRLT25BVUpOa3NTWkNNY21oSnp2RVpoU25EZjVIZ1BTRWlmTy1Jb2RHQQ?oc=5",
+        "published_at": "2026-10-11T14:50:10+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says Ukraine and Russia have agreed 'energy ceasefire' - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04QUtQbDZLV05uX0dPcEwxc3poa1BGZGVYdmVjM2NzQ3pUMkowOVd6ZzBMTGRZNG9KVlhUNHNqR3o1SG5sel96Rnd3YVJQMjEwZ09zRnoxSFcxQ2s?oc=5",
+        "published_at": "2026-10-11T14:46:50+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -144,37 +137,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says Russia and Ukraine reach ‘energy ceasefire’ but gives no details - Spectrum News",
-        "source": "Spectrum News",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV3RCVElvS096eThPaTlnUXlRYm45dEZkd010NE1NNGtScDF6akNLX1BiX0RDcDg0YWF0dkhPamQ4ajhfdjhid3ZsbHUteDlQSGVBVktNajN1SmJPT1N3QlJWaGVha3JORU5Uc2tKOWdBS0x3REl2YkdBWEZoRXgzOS1pV1BOU204Z2VBQlAyeU1pTzdKWS1FLVlldE5FVXZBQ3VnM0JIdFpzX1RNNWZxOE52Zlh2cnZyb1F5cjRyS1NNWEdYRVNHMlpaOXliVTBs?oc=5",
-        "published_at": "2026-10-11T14:37:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How Ukraine uses precision drone strikes to hobble Russian oil refineries - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcXdpYUp0cGR5eTE2V2RveDh3WmtCbU1xbm9WNTRkOUIzVTI0bHhrX2MzaS1CVDZ0UFNVVXRLYzVEbXFvVG9uNzFxbXVQQXpTWTR3MGh0UzdJTTdmRFNGRFd0TW1GakJHOUxIV0hpUmdIVXIxR3h4WDl2em5XXzdialowdzFTQk43TjB1QlFERTJTOFdhN1NoWGpyRWNDMkNCSTlQQnVpWHVJX2NRbkRZMk8wV3pIVUZpaWFRd3VTeGx0bC1maDFMdE1zTkRsdHdzY01xS3Nmcw?oc=5",
-        "published_at": "2026-10-11T14:34:03+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump announces Russia-Ukraine \"energy ceasefire\" after calling for Zelenskyy's replacement - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53MzgwTkdIZVdhZ2Rad3JPR3ZPLWRnNXU4TFY2Q0dUTUU4MnZJRF9MVTdiVVBpQW5xTmpmdkFJNHVsQVNRX1lDWmgzRXhfWHNwdU93Tzdyd2NaMGxlS0xOQXQ2SlNtNnRXMnBsdlhTMUQwMjNibEhWeA?oc=5",
-        "published_at": "2026-10-11T14:33:12+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi coalition vows retaliation after deadly Houthi attack on Riyadh airport - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVjlrc2t5SHJ4aGYtclhmaXhoVHcxaDJ1TTdIVkk1bXpNT0tnOWtIRFI4ZjNraVZGWG9pNTQ5LWlWdjFQbnlSdnlCQU4yYjNtX0FFZ1RQMFZTMmVmS3V6eHhmNzV0eWFvNnR6a1VpaENvOVNkZWFRaDJLckU0UFU3TVVkYkh1bTdSVEVRb3lQVlVEVUpRRXVMdElkdERBb0lNdG40Yg?oc=5",
-        "published_at": "2026-10-11T14:23:00+00:00",
+        "published_at": "2026-10-11T14:25:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -198,18 +164,18 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi attack on Riyadh airport forces swift rethink of Trump’s new strategy - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUzM2RmVFOC1KaFZuVEJMOTlQUVdHakVxeXBYSHdvZ3dpYVRWZVFjekE5NXY1ZmVHblhMczRiTkxMNWl0SlhIVFN6NWRMbFhBdkM0RVRmZWQ5WllTcFlZVE9LOTRaeWZ2ZEwwbTJsYW9sZnhWZEp2bVI5SEgtSWxnM3JjWnBoWmZuanA5YklySDhMQVl5eF9hLXFSS0Q?oc=5",
+        "title": "Saudi Arabia extends airport closure and moves Riyadh schools online after deadly strike - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObXk0VFduYU1ldGM0N3RTZGlUVEFiOV9GdHBJTExieVVQT0preW1GRGVHLUZHN3VyZ3pYUzdXbGYzVHdHdUsweFFUekY3Nk13LTl3dWtmdmpiMDh5ZXR3Sm9kZ1VvbFlZNFU3UXgzYlJEaml0VGNHS09ia0E3QUJERDcwRkRsd2UzNWZYWjZlUDJWYUtoZlh6Ng?oc=5",
         "published_at": "2026-10-11T13:23:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi Arabia extends airport closure and moves Riyadh schools online after deadly strike - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObXk0VFduYU1ldGM0N3RTZGlUVEFiOV9GdHBJTExieVVQT0preW1GRGVHLUZHN3VyZ3pYUzdXbGYzVHdHdUsweFFUekY3Nk13LTl3dWtmdmpiMDh5ZXR3Sm9kZ1VvbFlZNFU3UXgzYlJEaml0VGNHS09ia0E3QUJERDcwRkRsd2UzNWZYWjZlUDJWYUtoZlh6Ng?oc=5",
+        "title": "Houthi attack on Riyadh airport forces swift rethink of Trump’s new strategy - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUzM2RmVFOC1KaFZuVEJMOTlQUVdHakVxeXBYSHdvZ3dpYVRWZVFjekE5NXY1ZmVHblhMczRiTkxMNWl0SlhIVFN6NWRMbFhBdkM0RVRmZWQ5WllTcFlZVE9LOTRaeWZ2ZEwwbTJsYW9sZnhWZEp2bVI5SEgtSWxnM3JjWnBoWmZuanA5YklySDhMQVl5eF9hLXFSS0Q?oc=5",
         "published_at": "2026-10-11T13:23:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -249,15 +215,6 @@
         "published_at": "2026-10-11T05:45:06+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "With bilateral trade booming, why are Japan-China tensions rising? - The Japan Times",
-        "source": "The Japan Times",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMXY5SExtcS1CMU4zWjRpSjFkejdQc194TU96OF80VG52LWNEWmJQNllMQ1BZVHBVbUNURHJIcGNIWFA1MDJyRVdRcm01YXJWRVVBUE9rZGFWV3RlMC0tdExQVlBUb1JXRlM5ZWpvZWQyYjRERmZCQVlMM1o4SmdyaVQ3X2syY25yS1lV?oc=5",
-        "published_at": "2026-10-11T05:31:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
