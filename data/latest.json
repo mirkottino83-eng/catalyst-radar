@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T03:40:12.665838+00:00",
+  "generated_at": "2026-10-11T03:55:16.811925+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -43,8 +43,8 @@
       "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
       "source": "조선일보",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbTVLODZwcFNNeGdOOGNPTkxXUnh3c1hBcGRaWXV6LTNTRGQ3d1A4RXZmUUlsczZMTHZreHU0X0Z4SC1jZTZjSURiZkpxLWE0QnRkOWlKRzQzY1hhQ2xCLWwwbEFiUVZzVTRaNkpaYm1SNWhwMzR2blNnVEg3TF9rRElSZ1VCYVhZ?oc=5",
-      "published_at": "2026-10-11T03:25:23+00:00",
-      "age_label": "14 min fa",
+      "published_at": "2026-10-11T03:24:36+00:00",
+      "age_label": "30 min fa",
       "catalyst_type": "ma",
       "current_change_pct": -0.5,
       "short_term_change_pct": -0.03,
@@ -52,21 +52,21 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1665.1,
+      "quote_age_minutes": 1680.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 52.0,
+      "confidence_score": 50.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-11T03:25:23+00:00",
+      "headline_published_at": "2026-10-11T03:24:36+00:00",
       "event_occurred_at": null,
       "tradingview_symbol": "NVDA",
       "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 100,
+        "freshness": 90,
         "volume": 28,
         "momentum": 50,
         "macro": 50,
@@ -94,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1665.2,
+      "quote_age_minutes": 1680.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -119,7 +119,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T03:40:01.718958+00:00",
+    "updated_at": "2026-10-11T03:55:05.758452+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -177,6 +177,15 @@
         "published_at": "2026-10-11T03:09:05+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Could Thai durian export duty mean higher prices, higher quality in China? - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdlFZamNIYjNQeG1NLVU2Q2xnTml3MGhqRVdDbTAzZk5mZTlNX1FFQThUcHNqX2ZKVkJyOWtBV1NBQWRsM284QWEtclhfMjFXeWJyQVg2X1J6aWhFQTZkNS1COFMwSTVZbGZIbnVoWWpwNHRlbXktXzBTbzUxVm5YLTEwa3hyNnRxOVNXelN0MWxwUnFlNzFlcFEtZUY4MXJUajhWNlRIMFBnMzYwTVByRnhBWUpIclN2ajRfVWt1YUpuMmw2dmpseQ?oc=5",
+        "published_at": "2026-10-11T03:00:09+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -283,15 +292,6 @@
         "source": "Investing.com",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOREdSblFYMXBqbUpZRVFaUEhfQlktTmFBT1Q0WktJSmt0c1hmdU05NzVkSDJsVkZXejY1QkR0bWIzTWNGa2RNNFhfMmZqV1p6dTc4WDcwTGh4eVlVelpuT0JDbEgwYkRjWEZvbHZiNjFpSGd1MmxDcFVtb2NKbHdVemxLTm02bnJ4V1hoeldsUVRqcE0xTURscEVQOFQ1bll5ZzgyWmxkUmV2LXZ2dXpSNGRIZ1JRRkJXZFQ1aHFzZlAwVXo2WS1YaG9aOA?oc=5",
         "published_at": "2026-10-10T16:57:22+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China, EU reach deal to 'moderate' China's car exports to EU - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYldUVjVveXpLU2UyWmRWR3NoY0YtOVZINjJiRGtoSUdaZkxIeVBmVmVXdXlBbGFfc1RtSFRoZUNWTTZtT09obUZSN1ZaUTY4VEtlNkhNT2VtdWdfaDJUUW5hVFRhNjRSS092Z3QzVmNsUDFfdUE1UW5KNXdjOEc4UmNldzhOZzlzWGpHSHAtMExTMXPSAZMBQVVfeXFMTjN6NUNxQjUyQjJMZWVEUmxqVjJpdEJPalhCU3JmQXdLcnVfbDNRSnhONW41VGJZUFlwX1BqWVl6Y0lGMnpLVGt5RHhneG5JSVlrcFZESzRtbWZGQ2tEZ0h2M3JiUktZUHQybjgwU1hVb21YWkRxMGpXdmYyaVE0a3U1bkNpbkc1LXZYSjdNS2lSeGpR?oc=5",
-        "published_at": "2026-10-10T07:59:59+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
