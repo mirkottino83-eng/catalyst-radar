@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:05:53.558945+00:00",
+  "generated_at": "2026-10-11T07:24:14.912377+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1870.8,
+      "quote_age_minutes": 1889.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T07:05:43.055538+00:00",
+    "updated_at": "2026-10-11T07:24:04.133947+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -108,17 +108,26 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "'Flagrant violation of int'l law': World leaders rally behind Riyadh after Houthi airport strike - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pbXpTbmNTSWliM3U2T2dWV1dBTVd1S1lyZkk3T1ZiUzhoOGdoSjFxVGlsZXlScUlqcUwyVVE0Z21RUnE3MlZUcWt4c0hQY3FvUklKU2Z3aGlsMnU3Wjdz?oc=5",
+        "published_at": "2026-10-11T06:25:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "US forces disable ship ‘attempting to run’ Iran blockade in Gulf of Oman - Al Jazeera",
         "source": "Al Jazeera",
@@ -126,6 +135,15 @@
         "published_at": "2026-10-11T06:14:35+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump’s Russia oil deal is a ‘massive slap in the face’ for Europe, says Czech PM - The Budapest Times",
+        "source": "The Budapest Times",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSFM3b0dFWU4xUGMzLXN5UHRUYVl1NG5ubUpXOVBRbnpBdWZZXzVvLV8wY3djM3hTOFhyOXhUZWN5LUh1U0ZHV2lySWdmb1hVLU5LVDNYd0dZVndsaVJuNGpQcm1EQXVMMkRrV1haRnAxYXpkaXU0SE96MDdBTUZ3Z0dEb1BZWTh6VDBsdUI2d0VGVkpkeExSMTlab3hIOUdfWFVrWkE5aVR2RHVZVF90WFpSRQ?oc=5",
+        "published_at": "2026-10-11T05:45:32+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -147,6 +165,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "House Republican, invoking Reagan, moves to block Trump's Russia oil deal - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT0ZSVG5SSkJWekROWFF6Q2NVU1lXWGR4c1hzcUZfOTN6NFIzeENYUlJFX0lJb2xTTk1uVE5ITGhPbUJNUlJ6VkJaTmtaNXVYU05uZE5ydHY4bnlUbG5CWXRSTzBzb2ZjdHVhczhKVmpuNEJnZW0xWVlWSXpsRHdGWmYxVjhMMGZNRzhV?oc=5",
+        "published_at": "2026-10-11T05:07:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Afghanistan opens potential China trade route to Persian Gulf - Nikkei Asia",
         "source": "Nikkei Asia",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcFRvWDVSR3VUVUZxcjlMeUdyOFFDLWQ4QXNhazZSVGFMZDdEVzQxWHU0SXQtOGtSNWgxREVscTlxRFhTQXVmUXhhdjJRVnJNbWtwekVGSFVYZW9YUmlEM2x0aVY1b0VLTmx6SkZDeVlyNXNUM0VxZkYzUFNNblRfN0FwdF83d1lpS05veFN4X1NYTnp3TzRYWkRIbnplVmFZTjRRalZYZS00Mk9qZ2c?oc=5",
@@ -156,37 +183,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "House Republican, invoking Reagan, moves to block Trump's Russia oil deal - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT0ZSVG5SSkJWekROWFF6Q2NVU1lXWGR4c1hzcUZfOTN6NFIzeENYUlJFX0lJb2xTTk1uVE5ITGhPbUJNUlJ6VkJaTmtaNXVYU05uZE5ydHY4bnlUbG5CWXRSTzBzb2ZjdHVhczhKVmpuNEJnZW0xWVlWSXpsRHdGWmYxVjhMMGZNRzhV?oc=5",
-        "published_at": "2026-10-11T04:56:01+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Live - Trump says Saudis can defend themselves after deadliest attack in 11 years - Iran International",
+        "title": "US weighs strikes on Houthis and Iran after deadly Saudi airport attack - Iran International",
         "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FT3dpQlJkSFZUVG9GSmE0OERYLVdfZGdUN25jVzdfV0NDNG5yTGg0ZGs5WmRXb0QxUnJMSGh5Wkx5cU9FWUpvYTIzLUNXZHAxU1VSelFrNG9kQmRYVFE?oc=5",
-        "published_at": "2026-10-11T04:39:41+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's trade strength rooted in competitiveness, not currency depreciation - CCTV.com English",
-        "source": "CCTV.com English",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUQ3BxYmhZYjhLUURtamk4R0o2a25Kc2ZkdWo2a0hoeWdRS1NGbWg2VWt5YUxPOEUtb0xKNkpIdThlcTRNWWo5bXV1TF93dVhscEJCcURHZUk3WTJRSGtTNDl6dXVQTF9MNHk3YmFjOWZqLTJpQlJ0TUYyQm8?oc=5",
-        "published_at": "2026-10-11T04:29:46+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Coalition Forces vow firm response over Riyadh airport strike, Trump says Houthi attack ‘not acceptable’ - アラブニュース",
-        "source": "アラブニュース",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYnRXQ2h2RWNEYUo0MnM5YVVmS1RYWFR4SXJuSTlFMTlqOW1pcVBETXdST3lIb29lTkVxcGIzeXJsSk44UXdaSHV6UXhmeFJ6aktmdU5CSk5EU2lxUGNKTWFua283YVNhdktTLWdtaWZUTzNuX0RNMW5ZZEZYN2M2SDl4dXNGUTBXUTIyVzA0NDRVQ2E1Zi1FYnBUbFZxcXViczYyVkJkQ3pBRlNTWnJXcTZ1ZXdlcmZEbjVVRGFYUzJGS29lczh6dks5dldkankzc3pScGNCam5VRktva1BaSkw1OA?oc=5",
-        "published_at": "2026-10-11T04:22:21+00:00",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tTzBYU0lxSGR2OEJ1S0ZsSDRQcVZHRlFOV0dQeWsxZ3VrZFNyRU5lTGxISEhvU09GREx2WUJjeVVzYVFWVGktSFdQZC1BeHdyY0E?oc=5",
+        "published_at": "2026-10-11T04:19:54+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -198,6 +198,15 @@
         "published_at": "2026-10-11T04:14:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China & EU set March 2027 trade talks, seek stable ties - Fibre2Fashion",
+        "source": "Fibre2Fashion",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS1E0RkF6WTE1LWZKVFRXQkk0RFpTZlByMVd5bDlZOThkWndNY3dZTkRHalhyNUkzd3pXb2lMWk8tTnRIXzJ6VnlTa19BaDV2SnlRX2NnRUxoU1FNNUdwUjFUa0w1dmdmRGtXa25jSUtXUVRLOGNuVTNpNndfMHIxVjVtb2J5U2s4dF9oUmtzenBwdW5KTzNhMlZ6b3VSMm0zaEQyVWNyaUJsc3BuRkdzSVZwS2hxSjZFbFVDUXNUaDQ?oc=5",
+        "published_at": "2026-10-11T04:05:24+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -244,18 +253,27 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How Russia turned sanctions into a diesel deal - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVlRNeFlKelNtVmNHOTFBWjZjc1V0ZWlrZWN5QmFHZVYzbEQ2S2M4S2RROUV2VUpBeVhkNTJYaVhpdmN6U0Qwa0Zra29CRldGaDFac29ma3BMdkpzOXlBWDRvd2NpWHFFTl93ZmpVRG9mZVo4MjFsajJsMDRKMzlnMGYwbndYSTFmMlhN?oc=5",
-        "published_at": "2026-10-10T22:05:06+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Super Micro contractor pleads guilty to scheme to divert Nvidia-powered AI servers to China - mezha.net",
+        "source": "mezha.net",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYVZmRjFxbEx2V2RIS1pQZnJkSEpRNmdLeVdaTG1Wcm8xMW8zODk1THVQcG1fQ1NISWlOZVlfeEVhclMtb3BTcUhfM3pkTENhTGxKcWNxYlJndXBYRVJENGluaG1nMXFwVFR3N1VCbHFHdmI5RVFBTU9TeS1GQkVMSzJITnY3aUZU?oc=5",
+        "published_at": "2026-10-11T07:16:49+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Key facts: Analysts Hike AMD Targets; Traders Warn on Debt, AI Hardware - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTF9UQXUxSUQzMFlaVW5RWXBkUFg1cVFpLU11WjRNbWdSTTkwclpBUmc4Tkk5YTZySFF1U3VEVjZSNEpYcEVSNzVKbk1fcXg5a2lISzZtbHkwcnpZMnptQ1dIY2FodnBRcGxVc0ZQMnJxSFlTSkpDdVM3UHVha3BxR1pHZFJGYVQzREVhaHRNTHZVSUNyaFR5SkhEQjdzc3dILVd4XzZmaVRJeEJ4Mi1sTHItYUozUGVXOVhpZlFQWXpIWW5yQTRFdm5n?oc=5",
+        "published_at": "2026-10-11T07:00:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Nvidia weighs buyout of Reflection AI at $25B valuation - Dealroom",
         "source": "Dealroom",
@@ -266,10 +284,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-11T06:22:59+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "HLB's liver cancer drug push gains momentum after first FDA approval - The Korea Herald",
         "source": "The Korea Herald",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpOWthMlI3Wk1XMFlRLWNXbFhETkgyWEhrMFR1d1FYZEhfcm1TVWl4LTZ4OFhPTG91cnFaVURNNFdfNFQ0SkVTQnp3YWN0T2U5c0FyaVlWNA?oc=5",
         "published_at": "2026-10-11T05:13:47+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM0dWbDhnenNwYzNLQlJwUk1rVW9Kd250Z2RSNUM3b3dUUm1haGY1QWp1QkJkNzEwbHl5dHBKZmxySTFkdEs4WGktb1ZOOEctODZSMS1FWlAzaHpqckpFcVlrLWtGdFdJMUhQZDgwUmVqLVVaOWstMkREN0U5N3ZlSl9RbHRDb3V0VVRhRlgzLTBfd1VzVGRxRjVmZVFWTl9feW45U29KcGFWOFBfellQUHpqWQ?oc=5",
+        "published_at": "2026-10-11T02:06:22+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -293,38 +329,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Frontline Breast Cancer Approval Could Be A Big Moment For Pfizer Stock (PFE) - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSk03SVNOZGVNSVBLUnVwX1U2Skd2am5fTDhRLVR1UEtLdC1lMzVMQzBZYXZhQkkzRHRFXzU3LXVmMXNhR2JWZS15N3VtM3NsZ1JtRVNaMmE3S0dHU1RRRUlNLUlyYzd3MVFjbWwtdS10b1FMYUpYOTdnNU1mQnBmbTdEdFVwRktqUEt2S3VkOHBYcGxMUGxPOGRsSkRwQmJHdmRQTjhtUjB5VDE3NEh3WFRpd29Cb3pnNDJ4M2h1MU10TEYzeE9xWVNVSGtqSWZSNUVMRkViM27SAdgBQVVfeXFMUEpNN0lTTmRlTUlQS1J1cF9VNkpHdmpuX0w4US1UdVBLS3QtZTM1TEMwWWF2YUJJM0R0RV81Ny11ZjFzYUdiVmUteTd1bTNzbGdSbUVTWjJhN0tHR1NUUUVJTS1JcmM3dzFRY21sLXUtdG9RTGFKWDk3ZzVNZkJwZm03RHRVcEZLalBLdkt1ZDhwWHBsTFBsTzhkbEpEcEJiR3ZkUE44bVIweVQxNzRId1hUaXdvQm96ZzQyeDNodTFNdExGM3hPcVlTVUhraklmUjVFTEZFYjNu?oc=5",
-        "published_at": "2026-10-10T19:00:20+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Israeli Pharma Giant Teva Wins FDA Approval for Monthly Schizophrenia Injection Weltruza - Haaretz",
         "source": "Haaretz",
         "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONnY0andBVDJvbGNGeTRXVWFiWU0wRkd6dEFIdHh4ZkNEelRuLWtlX20xUzUycWFCVEQ2MHdHOVlNVFB6VlZiQldZOGxic3pId1hidUM2bnVOQjRsbm1UWFlzSlp5b3hBZTNXb1V2a3lnQ1pYR080dXJsRjVWZzZRUjBERDFvZ2xaLWQwNjdvMEtkUExCcjlwaDhvVnFfVjRjOTYyRGRtRDR6YmJ1MEJjeHkxUzRJX2c1Z3FuZTZ2YVBUalZ6cWZtdWJDUkZDVTZjMU1Dd2tLVmh0MFBjVXZmS21rQTYwUFB1NnphQUI4VC13R2V0VXlJUHEwSFQtMHpIRzNiZ282blE5SHl1dmc?oc=5",
         "published_at": "2026-10-10T17:50:00+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "A Drug for 15,000 Patients Just Got FDA Approval and Here is Why That is Not Small News - Moomoo",
-        "source": "Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTVEdnlRUlhkWnVNLUpzMllxR19sZ01VMUxtNTBNZWVIWXdTX1hfOWJtVnM4cWdvQXp4cnBoNzBib0JLa25lcmdORmd6Tl9zVnlkOV9HX0R2MmR3RWt5NTV3RDVQNGxJMy1uUkM5REdqem4zRXB1N29oXzNxOGM2VldWeENtOHhCdlpNbEszTFhKaXlORUVuUHprT2toTUZKMmZoeQ?oc=5",
-        "published_at": "2026-10-10T16:32:40+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M?oc=5",
-        "published_at": "2026-10-09T22:27:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
