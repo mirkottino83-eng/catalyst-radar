@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:14:34.341015+00:00",
+  "generated_at": "2026-10-11T14:31:22.178489+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 2299.5,
+      "quote_age_minutes": 2316.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T14:14:23.214228+00:00",
+    "updated_at": "2026-10-11T14:31:09.906707+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -94,7 +94,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -115,10 +115,37 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "Saudi coalition vows retaliation after deadly Houthi attack on Riyadh airport - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVjlrc2t5SHJ4aGYtclhmaXhoVHcxaDJ1TTdIVkk1bXpNT0tnOWtIRFI4ZjNraVZGWG9pNTQ5LWlWdjFQbnlSdnlCQU4yYjNtX0FFZ1RQMFZTMmVmS3V6eHhmNzV0eWFvNnR6a1VpaENvOVNkZWFRaDJLckU0UFU3TVVkYkh1bTdSVEVRb3lQVlVEVUpRRXVMdElkdERBb0lNdG40Yg?oc=5",
+        "published_at": "2026-10-11T14:25:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Sen. Thom Tillis says he believes Trump’s fuel deal with Russia could be breaking the law - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkRWSmlZSVZ0U1JTakctcFo0MFZkdzZHV0o3N3J1NzBzdFZwdjhwX2FOMnVqeERUQUMwOEFhQWtfelU5TURMd2dBYUdydlJWSXFDR0tTRkx2S2ljeXc3dFU3NzNIMkhrMHFGR1BRQmR1QTg5M3p2NW0xRDJZc3F4MFJjSnpYdXBjczJsYnYxSjhiYlVmZHI4dFVtTWVOY0dFT3lmMC0xR0dMZw?oc=5",
+        "published_at": "2026-10-11T14:15:34+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine's Zelenskiy tells ABC he will organize elections if Russia agrees to 60-day ceasefire - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbHBvR1Y0bmdYLTV0NHhWQXE1MFFTMHlvYmZRYnRILVMxM3JiSnJaSVBmbUkzVmN6VXptNnBsNDhXRXZEX2hBS1FOZGhyc3Zid3poMksyLUVLNHZkTGNUekxjWUlyejF6N3hpVDdQcFE4OG92REpjamxKSzV0YURObE9xV1FwYlJ5TVUwZjB5N3hSYzJLTUJuV0c0VG1TZ29jMlN0dDQyOTNDR2tBR1dRRS1jWmloaGVTbU9LOEN2ZnBFZFlmdHJn?oc=5",
+        "published_at": "2026-10-11T14:10:05+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "President Zelenskyy defends attacks on Russian oil refineries, says it's up to Ukrainians to choose country's leaders - ABC News - Breaking News, Latest News and Videos",
         "source": "ABC News - Breaking News, Latest News and Videos",
@@ -147,6 +174,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ukraine will stop hitting refineries if Russia halts energy attacks, Zelenskiy says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEo5WEZxUk5OcWNWU1Z1Z0g4SGlFQmxKckFxbS05WFd6UUxDNE0xa0NZRzZoR004Tms3azQ3aTVfUVIwNXlTU1ljcW9HLTREUGZBVVFiWlpVWXI3V1c3Zmt2UEJ2ME43azRMb0Vlei1iQUNPbzk4bV94bkRGTzBmREMydnBCRzVSclBoVkhrWkx4TFJ2YWdsRS1COGVOWU9pRDJqSUFNRk1pUnpQM2dlQ3o0eGpYSHYzbWdDX3dtQWtYT2Zz?oc=5",
+        "published_at": "2026-10-11T13:27:27+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Houthi attack on Riyadh airport will force rethink of Donald Trump’s strategy - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUzM2RmVFOC1KaFZuVEJMOTlQUVdHakVxeXBYSHdvZ3dpYVRWZVFjekE5NXY1ZmVHblhMczRiTkxMNWl0SlhIVFN6NWRMbFhBdkM0RVRmZWQ5WllTcFlZVE9LOTRaeWZ2ZEwwbTJsYW9sZnhWZEp2bVI5SEgtSWxnM3JjWnBoWmZuanA5YklySDhMQVl5eF9hLXFSS0Q?oc=5",
@@ -165,47 +201,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russian disinformation bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers — Ukraine intensifies bombing of Yandex data centers in response to Moscow’s strikes on Kyiv data centers - Tom's Hard",
-        "source": "Tom's Hardware",
-        "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxOemd1T0h5QmN3QVRsMEpMOUMyTWRBcDlkb0p4V2ZNSjZMQVh5UDRYTVAyZER6TTZmeDREWjM3X0tCcHJNTG01TDZwclJwUUluS2lTc0p1bkVZNWJFU2JZY1BmZzBxZXJWNXpaaktPVDlOVFI1dUxmRXhacTVBSkw3d250VUYzdlNQaE42VWdrVlFycWpEQXh2NTl6OGM1bmV1SVhnbGFOVzJtcHRFbHlSNDlydXZvbkVDQkFGcWxibnJ1a0c2SDJ3MHE3WnNOWlRPOXBXS0lsS3JWOFVIa0hfMkhjUkxZRGl0RlZhYXVURlA4UmxUVm1QYTB1WEcxRkZvYnBkWkxuaWpPUVR3V09LdWN1V2VQSzdkdkpOcEswb2c2X2JhZGlneVZBaTV2ZTFjMEV1OS1uWGdEMTZnUVE1RlFaRHFFUU5ocmw0RGQxREdZUG1hb25PUmx0UWZVS0g2VlZkNXZWWmVHbThUeHhQMzQ0cXF3Z25NVjRGQzk3bmNtMlg2eGs2SGhBZVpTaG5PX1lHV0Z2OHJTVjhUcXcwcmhlVG1EdjZo?oc=5",
-        "published_at": "2026-10-11T13:15:09+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "World leaders condemn Houthi attack; Iran warns of further strikes - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04M0NpOGNsLUpHZW9FWHlxZGxBTTM3bTVJeEhXNXdCRXhLX2VmQk8wV2tjYUNQcGFQWFRuLURoUnFrM2Rxd2llODdoYTdhVjk3MHc?oc=5",
-        "published_at": "2026-10-11T13:03:17+00:00",
+        "title": "Most Gulf stocks in red after attack on Riyadh airport - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5",
+        "published_at": "2026-10-11T13:19:13+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "'Flagrant violation of int'l law': World leaders rally behind Riyadh after Houthi airport strike - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pbXpTbmNTSWliM3U2T2dWV1dBTVd1S1lyZkk3T1ZiUzhoOGdoSjFxVGlsZXlScUlqcUwyVVE0Z21RUnE3MlZUcWt4c0hQY3FvUklKU2Z3aGlsMnU3Wjdz?oc=5",
-        "published_at": "2026-10-11T12:55:05+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump Faces Russia Sanctions Deadline as Republicans Risk Losing Congress - Kyiv Post",
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56ZGhGcVRkWlVVNHpvY2ppUVRYUnVpM3FiMTBibUtsSWw0T0d0dUtxNjdUY0hHcWxjSmYyT3JjZF9tQWl5amhaVDNCcDV1ZHcx?oc=5",
-        "published_at": "2026-10-11T11:40:49+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Kyiv pushes back on Trump’s call for a new Ukrainian president as drones hit Russian data hub - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYm1RVFpmLUhpSG54M25FVmMyOEJCa0hpRVp1M1ljOWt1dXhraE5LeTdjLTdhSDBtTm5RMmh5dnh0ajN5bWpWRVJsdDBrOHJEcThYTU5sY1JTS2V4QXBsU2FySU95YUxRSFk2UVBCMk1JbDEtV0lERUg0Z2E0b3Vsc1VQWkRwc21ubDNyMXk5RS0zTXZWbE51V1hKQkVNUE1fSHZIWXNZRzZXYklPX1hRTnJ4MTVJTTRD0gG-AUFVX3lxTFAtaEtLTy1JUnI4Y3J6X0hOd1JubjBRQ09qbFJISE1ram9IeUwtNEc5c3ROX29la2dYQUdvQzVnbVZmNlVIMVJ4R21UMHZfdzJ3MmdXN1g1cTItbjJHZDMwU2NjR092dUxVZlNFTFZCVXhRS1d1bHNMRHE4OUhERUZPeDY4X1I2RURZYktCTC1VUGVnaEdwWWwzS05xeUFXYjd6WVk0blhBYmpwNVNtUEk4Y2Q2VzJ2UlFKa2lwanc?oc=5",
-        "published_at": "2026-10-11T11:29:08+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -266,19 +266,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "How Investors May Respond To Supernus Pharmaceuticals (SUPN) FDA Approval For ONAPGO - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZDgyVDBvdTVWZXgyZ1g3R29RN3BvVXJLNXQ1bm44aTJ6dVlTSXpucTBnY3JxMWR1bGFDRkhaUl9BQnNLOVJjMlk3czBIdC01U0xrbExEaDVVSm8wRVdjaEpHLWs1YmJOZm8wUDNMWmhFX0cyVFdjQUlZSFBTVlNYM1ctZUVWZ0RTcHM3YS1pNzROdERFdUlZbEhVQkNTTzk5SWRqcmRPTEJiQ1lUQWNaQ01uUzREUmc0ZE1WZjdQVEstcC12N2czOXRvU2pNRTl0cThDY2p3RDdTT0RzeWZ2SVJqUnFuaE5qbVp5RHRGUdIB9AFBVV95cUxOMGoxSDhyQmNJSUpYTGlwNFVBSjk0TEZFQmNfWldxM0xlS1FkeFhkcnpOZEYtYS1xckhjVUx2VHEtVzdKX0t1Y2lKWjdYZFB0S3p3aWFRcmVqbG1qdnF0ZzBKZ0tWMlotN2VOaXFyS1A1eldDNmR3QUdXQnZPM3BDVTExZkdaa1dqLW9IRU01RnMwU1ZiOFpIbFJCX2ROQnJ2UzZ3UVViaVhteTBlcUZXNUpWRElHYVBUbThjUnM5bXBpTE1XTjc5NUZCaG5yWV93LW9WbXFYRG1EamxBVWppRGpnUzRBTktPX0RBTXg3Y2d0Z1RP?oc=5",
-        "published_at": "2026-10-11T11:26:15+00:00",
+        "title": "new weight loss drug fda - Olhar Digital",
+        "source": "Olhar Digital",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HMlJrMDBMTjF6R3ZMYkhFaW1oUndPVEdyZnVMcXRFTFFvQUprWTRNTkhJLUYxTWpNQVlkSkJRYzU5Qk1GRklpLWQxRnFGMFA0bWUwOHhqRVp5Umk0V2hORzgxc1FuR3IxWEV5NVk3MnV3ZU85QnM4?oc=5",
+        "published_at": "2026-10-11T11:46:51+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Why MedinCell (ENXTPA:MEDCL) Is Up 16.9% And What's Next After FDA Approval - Simply Wall Street",
+        "title": "How Investors May Respond To Supernus Pharmaceuticals (SUPN) FDA Approval For ONAPGO - Simply Wall Street",
         "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZnE5clBoWFZMVU5XS2ZHc1g2SzRMMmJtZWdHYW9GMEp2MmlGN3ZrZE5pa0x5OUxnT1pYRHdQZTJJWWZ3c0VWaG1pU2JkUVRQZXh2cVI1czdpMWtJaGprNGZZM3dibDhtQTZGaE1YcXcwa3MtYVIxV29iUzhmT2FTczF0a2Q5ZzlVdXhzakZpemxYemx6THRKekxZT1lFU3M1UEFvWU45aTJSM0hYb21HcTZ2Y24yOUZJZkxESnV2R2dSZkZlbHQzbi1iVTJwU3d0cGZvajQ0NjQ5U0t6eEFlM0FR0gHnAUFVX3lxTE1rcnFRSWdzckFKcFNZQms5U05Nbkk0dGFYeDJDVkRHcnl2SHlISTJxemljQVZBaU54TnZremdieGxaQU9wbTBmUy1VcEpwOS1fa25KNmF6YWVKbm1kR05ONHRiSlE2Qmx4NXJGMFFkbHBvTzZiRzhpbEUyeHVjSkJwUE8xWi0wbllBZm80R3BMYWx1aURmMkJ6b0MxMmJ2ekVzc1hWQ1p1cy0wbXBHR0pXRzFRLThqRzNQaENQZmEtQV9QX3l6bkN5M0RLRE1fSVdVT0FScVFva3ZpLTNySkxVVkMzOURZVQ?oc=5",
-        "published_at": "2026-10-11T07:47:22+00:00",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZDgyVDBvdTVWZXgyZ1g3R29RN3BvVXJLNXQ1bm44aTJ6dVlTSXpucTBnY3JxMWR1bGFDRkhaUl9BQnNLOVJjMlk3czBIdC01U0xrbExEaDVVSm8wRVdjaEpHLWs1YmJOZm8wUDNMWmhFX0cyVFdjQUlZSFBTVlNYM1ctZUVWZ0RTcHM3YS1pNzROdERFdUlZbEhVQkNTTzk5SWRqcmRPTEJiQ1lUQWNaQ01uUzREUmc0ZE1WZjdQVEstcC12N2czOXRvU2pNRTl0cThDY2p3RDdTT0RzeWZ2SVJqUnFuaE5qbVp5RHRGUdIB9AFBVV95cUxOMGoxSDhyQmNJSUpYTGlwNFVBSjk0TEZFQmNfWldxM0xlS1FkeFhkcnpOZEYtYS1xckhjVUx2VHEtVzdKX0t1Y2lKWjdYZFB0S3p3aWFRcmVqbG1qdnF0ZzBKZ0tWMlotN2VOaXFyS1A1eldDNmR3QUdXQnZPM3BDVTExZkdaa1dqLW9IRU01RnMwU1ZiOFpIbFJCX2ROQnJ2UzZ3UVViaVhteTBlcUZXNUpWRElHYVBUbThjUnM5bXBpTE1XTjc5NUZCaG5yWV93LW9WbXFYRG1EamxBVWppRGpnUzRBTktPX0RBTXg3Y2d0Z1RP?oc=5",
+        "published_at": "2026-10-11T11:26:15+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
