@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:09:34.424560+00:00",
+  "generated_at": "2026-10-11T16:26:03.084391+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T16:09:23.376630+00:00",
+    "updated_at": "2026-10-11T16:25:51.450149+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -64,24 +64,33 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 2
+        "accepted": 1
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "Saudi airport struck again a day after deadly attack - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd3M5MTVOZmhBYU5OT0RNMHd6dmN0RWgzb2hNRnRaYmRlbFZnQzB3TTVZWUZucDZXekNkSlFxS21TS2JhNUxJSElTNms1Q0hGOGYzUk9vWndFWHVoVlQ2emF1bFhMOWFZOGdGVDQ5Q0NsMHlUa1NIQ2t2SmpNTmcwWkFBSGE2aTRkanoyUF9iWk5xMUxqVGE5bFhmeFl0bFA5cWpV?oc=5",
+        "published_at": "2026-10-11T16:04:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Why the US-China trade truce matters - The Manila Times",
         "source": "The Manila Times",
@@ -98,15 +107,6 @@
         "published_at": "2026-10-11T15:52:22+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump claims Russia and Ukraine agree to energy ceasefire - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVVF2eXRIalp5NDI3SDlpcW9xVkVfTXlWb1VYN2NveGg2OFFQMTVTb01mVUFGVTl0SHVJbTl0YXFwOXJmNURFQ29TRm12MGFoRmRnSEx3aE84X3VGWjlsMnktMTZOaURXRE9VTXNuUl8zWWRPMW5obVlmSDI2ZUhtZFplQmlaQQ?oc=5",
-        "published_at": "2026-10-11T15:45:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -128,6 +128,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump claims Russia and Ukraine agree to energy ceasefire - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVVF2eXRIalp5NDI3SDlpcW9xVkVfTXlWb1VYN2NveGg2OFFQMTVTb01mVUFGVTl0SHVJbTl0YXFwOXJmNURFQ29TRm12MGFoRmRnSEx3aE84X3VGWjlsMnktMTZOaURXRE9VTXNuUl8zWWRPMW5obVlmSDI2ZUhtZFplQmlaQQ?oc=5",
+        "published_at": "2026-10-11T15:19:57+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Zelenskyy urges Trump to endorse 'energy ceasefire' with Russia - Politico",
         "source": "Politico",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1VQSGhZaTdJcC1sT29sUTJZZjFYd0tpQm4zN3VJRklkc29STTdGWk1vZlljS1drNGFBUnVYYVN5M2t1OV9TeXJscVpsTWw1cGNSaGYwU0pFN203aTJ5M1g1b1NoVFpnbklMNDV1OWJ2cGRqV2RJLVFWRndLQ2lNMEp6aEdISzBHZmZjQ25VMTBrdw?oc=5",
@@ -137,10 +146,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says Russia and Ukraine reach ‘energy ceasefire’ but gives no details - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPamZWc0pzUzdKd3YzOVM2MXRGdTc1akUwMDBma1pxUkt1OXd3ajk5RUlhLS1xaHJsVVdwVXk5cDVaMlFIcGxqSWtpelg1UUsydjFIZ3VpSXBKMTBnVlh3TTFUMGdjNlBtMWhEZmFpSnFTNVBDMWx1OVN5X2xGQS1DUndqS2RPQ2FBWXIxNGE5QzFhX0wzaW9vWUkwb2VoUHhGZU5Z?oc=5",
-        "published_at": "2026-10-11T15:03:00+00:00",
+        "title": "Trump claims Russia and Ukraine agree to energy ceasefire, but Zelenskyy says this is ‘news for me’ - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNenNrNjdxdUZuN0RldlJxbHBrYWM0aEdGU25GM21GMTZjZ3I3YXNlcnNWazNNcEdid3FuNUUxblppNDFSUmpBeE4tWjN5U2QzbVZ3U2Q5QlZVblFNaHFFTHZpWVBCbjdCQ1RTWkc2aDdESnNwaEhGX0ltVUpUdUl2YW53RU5BVGx2OF9hR2xxREpWWkM4dF8tMHZmVnFQbGJHZGgybEJNRWNkVUJVR3c?oc=5",
+        "published_at": "2026-10-11T15:02:43+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -191,15 +200,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi Arabia extends airport closure and moves Riyadh schools online after deadly strike - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObXk0VFduYU1ldGM0N3RTZGlUVEFiOV9GdHBJTExieVVQT0preW1GRGVHLUZHN3VyZ3pYUzdXbGYzVHdHdUsweFFUekY3Nk13LTl3dWtmdmpiMDh5ZXR3Sm9kZ1VvbFlZNFU3UXgzYlJEaml0VGNHS09ia0E3QUJERDcwRkRsd2UzNWZYWjZlUDJWYUtoZlh6Ng?oc=5",
-        "published_at": "2026-10-11T13:23:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Deutsche Bank: Crunch Time for EU-China Trade Relations - The Dark Side Of The Boom",
         "source": "The Dark Side Of The Boom",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaUdjcEdROEkyQmVwQWdtTHhZdFpGZERZd3pWN0dYWDBWaWhnSmh1SVowLUt3Wmo0UjJoeGVyOGFLUDBqOWpzR2poYnNrbDNvcHMwRGc3SUVnMGR1ZWN2NDBDdllob1VqbWJCN05NQnhDV2lESW1BSThyazNjSkZ6ZTNB?oc=5",
@@ -209,16 +209,25 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "DW News. . Berlin has blocked the state-owned Chinese shipping giant COSCO's takeover of logistics firm Zippel, citing security fears. Can Germany reduce its dependence on China without sparking a trade war? #dwbusiness - Facebook",
-        "source": "Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNFZEaEY1NzVFbF82WlhVbVVSR3FPRkZXYXhCYmM4VUlJOVY4bFRySlowaGxBenRTWFAwTkhQTmFtbjRFNXZIUEtLcmxyV0VHVExPaVRPVkJUMkc2Q0otVWRaU3AyRjVPRE1yb0JDNjJnNDNtSVpFV21ZUl9rVTZEYmltQ2FQRHZ1VWdWbU4zdXE1VVlyTDhvNFBhTk9GcHJwV2xlNVBfSnZKRHdwa21tTnZkMGVXVVJNTkd6UGRoVmNwMEFhRkhrWG1SckQyY1JBV2g5UWw2X3REVGFrMWlQQ1d3?oc=5",
-        "published_at": "2026-10-11T05:45:06+00:00",
+        "title": "With bilateral trade booming, why are Japan-China tensions rising? - The Japan Times",
+        "source": "The Japan Times",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMXY5SExtcS1CMU4zWjRpSjFkejdQc194TU96OF80VG52LWNEWmJQNllMQ1BZVHBVbUNURHJIcGNIWFA1MDJyRVdRcm01YXJWRVVBUE9rZGFWV3RlMC0tdExQVlBUb1JXRlM5ZWpvZWQyYjRERmZCQVlMM1o4SmdyaVQ3X2syY25yS1lV?oc=5",
+        "published_at": "2026-10-11T05:31:00+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS0piLVIzaEtVdHlkZ25uOU5UdzJsMk1FX3pjTGo0LVZuTXJvdmtNbE1kNW5yY0pkdlNpSDduME1uWk9jZjhQcFZ3R2FYMzNlZnFQcU10aEFfREp6QXM4WkIwVXV3YXk1MXNDZ2ppWlpXallxSldxMWxlOUQ5QmFIelFyZ0F2VFdTZWFHMmRqdHg?oc=5",
+        "published_at": "2026-10-11T16:15:07+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Pfizer Is Trading at Less Than 10 Times Earnings. But Is the Stock Actually Cheap? - Yahoo Finance",
         "source": "Yahoo Finance",
@@ -238,15 +247,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "mounjaro fda approved for weight loss - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXktWE14RjB2UUFrMlZ0WjNTYVc3OW1kX1JhRHB5RlNXS0VOSEFSNVNabkVqbTNsQ05MeU5PX1dod0lHY0F4clJ6dXZNM1RsbXpCSGRYZXdFVmJaWnhTWVFiNW1Jalg0VUdKV0Z1WkItMmtBeXhqU2djblNpNWJyaFloVGhjSEdRSUlxVHFaRQ?oc=5",
-        "published_at": "2026-10-11T11:36:55+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "How Investors May Respond To Supernus Pharmaceuticals (SUPN) FDA Approval For ONAPGO - Simply Wall Street",
         "source": "Simply Wall Street",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZDgyVDBvdTVWZXgyZ1g3R29RN3BvVXJLNXQ1bm44aTJ6dVlTSXpucTBnY3JxMWR1bGFDRkhaUl9BQnNLOVJjMlk3czBIdC01U0xrbExEaDVVSm8wRVdjaEpHLWs1YmJOZm8wUDNMWmhFX0cyVFdjQUlZSFBTVlNYM1ctZUVWZ0RTcHM3YS1pNzROdERFdUlZbEhVQkNTTzk5SWRqcmRPTEJiQ1lUQWNaQ01uUzREUmc0ZE1WZjdQVEstcC12N2czOXRvU2pNRTl0cThDY2p3RDdTT0RzeWZ2SVJqUnFuaE5qbVp5RHRGUdIB9AFBVV95cUxOMGoxSDhyQmNJSUpYTGlwNFVBSjk0TEZFQmNfWldxM0xlS1FkeFhkcnpOZEYtYS1xckhjVUx2VHEtVzdKX0t1Y2lKWjdYZFB0S3p3aWFRcmVqbG1qdnF0ZzBKZ0tWMlotN2VOaXFyS1A1eldDNmR3QUdXQnZPM3BDVTExZkdaa1dqLW9IRU01RnMwU1ZiOFpIbFJCX2ROQnJ2UzZ3UVViaVhteTBlcUZXNUpWRElHYVBUbThjUnM5bXBpTE1XTjc5NUZCaG5yWV93LW9WbXFYRG1EamxBVWppRGpnUzRBTktPX0RBTXg3Y2d0Z1RP?oc=5",
@@ -258,8 +258,8 @@
       {
         "title": "Why MedinCell (ENXTPA:MEDCL) Is Up 16.9% And What's Next After FDA Approval - Simply Wall Street",
         "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNa3JxUUlnc3JBSnBTWUJrOVNOTW5JNHRhWHgyQ1ZER3J5dkh5SEkycXppY0FWQWlOeE52a3pnYnhsWkFPcG0wZlMtVXBKcDktX2tuSjZhemFlSm5tZEdOTjR0YkpRNkJseDVyRjBRZGxwb082Ykc4aWxFMnh1Y0pCcFBPMVotMG5ZQWZvNEdwTGFsdWlEZjJCem9DMTJidnpFc3NYVkNadXMtMG1wR0dKV0cxUS04akczUGhDUGZhLUFfUF95em5DeTNES0RNX0lXVU9BUnFRb2t2aS0zckpMVVZDMzlEWVXSAecBQVVfeXFMTWtycVFJZ3NyQUpwU1lCazlTTk1uSTR0YVh4MkNWREdyeXZIeUhJMnF6aWNBVkFpTnhOdmt6Z2J4bFpBT3BtMGZTLVVwSnA5LV9rbko2YXphZUpubWRHTk40dGJKUTZCbHg1ckYwUWRscG9PNmJHOGlsRTJ4dWNKQnBQTzFaLTBuWUFmbzRHcExhbHVpRGYyQnpvQzEyYnZ6RXNzWFZDWnVzLTBtcEdHSldHMVEtOGpHM1BoQ1BmYS1BX1BfeXpuQ3kzREtETV9JV1VPQVJxUW9rdmktM3JKTFVWQzM5RFlV?oc=5",
-        "published_at": "2026-10-11T07:47:23+00:00",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZnE5clBoWFZMVU5XS2ZHc1g2SzRMMmJtZWdHYW9GMEp2MmlGN3ZrZE5pa0x5OUxnT1pYRHdQZTJJWWZ3c0VWaG1pU2JkUVRQZXh2cVI1czdpMWtJaGprNGZZM3dibDhtQTZGaE1YcXcwa3MtYVIxV29iUzhmT2FTczF0a2Q5ZzlVdXhzakZpemxYemx6THRKekxZT1lFU3M1UEFvWU45aTJSM0hYb21HcTZ2Y24yOUZJZkxESnV2R2dSZkZlbHQzbi1iVTJwU3d0cGZvajQ0NjQ5U0t6eEFlM0FR0gHnAUFVX3lxTE1rcnFRSWdzckFKcFNZQms5U05Nbkk0dGFYeDJDVkRHcnl2SHlISTJxemljQVZBaU54TnZremdieGxaQU9wbTBmUy1VcEpwOS1fa25KNmF6YWVKbm1kR05ONHRiSlE2Qmx4NXJGMFFkbHBvTzZiRzhpbEUyeHVjSkJwUE8xWi0wbllBZm80R3BMYWx1aURmMkJ6b0MxMmJ2ekVzc1hWQ1p1cy0wbXBHR0pXRzFRLThqRzNQaENQZmEtQV9QX3l6bkN5M0RLRE1fSVdVT0FScVFva3ZpLTNySkxVVkMzOURZVQ?oc=5",
+        "published_at": "2026-10-11T07:47:22+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -269,15 +269,6 @@
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhNbm44LUd6U3ZnU2t4ZXVxVlBObW55LURVTlJjcnNOWHJmZEhwNEd4UDdiWHFwaDBZSGw0blpidEN3QldtTl9haFYwNjVpUFJYTVRUOHJ6bU9SZE5jLUVzT2ItQXk4cjNhVEk5TnlBZnIxeE5SZ2x2cW9XRFVRb2lDQkdlWUF5S01CN1RKZGxnRWQ0aVhFNmhaS2VFUXhYVlAtYjJnUlBoSFZ6VUE?oc=5",
         "published_at": "2026-10-10T20:22:30+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M?oc=5",
-        "published_at": "2026-10-09T22:27:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
