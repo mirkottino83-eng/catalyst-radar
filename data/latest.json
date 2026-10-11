@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:24:36.158005+00:00",
+  "generated_at": "2026-10-11T01:37:50.279933+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -31,57 +31,304 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "eaf5f39786a8",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Nvidia weighs bolder bet on open-weight AI, including possible ReflectionAI acquisition - 디지털투데이",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVS05QjkydXlVZVRGakJ3dF8tb1BjYjdfNUtfZl9wYTM1WmFoQkp2OThHaXh6b2FRRkllOVI1aWJQSlhtZ0gxYlptVWNsc3dHa2pQLWtOUmhIUENFM19hNkU1eUJXN21vOENxNjRZdHRxRnNCUDJMc1ZlMnZadjZwN3BjYndiMTFOWTBlaDhRWVk2YUJYSnNXWldKd0Z0T1hMcFJXRW0zcHU2ZkQwcWxraEVyNnpMNkdCUzNnTUZqWnU0SkNUbnJaUlVUd3M?oc=5",
+      "published_at": "2026-10-11T00:04:18+00:00",
+      "age_label": "93 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -0.5,
+      "short_term_change_pct": -0.03,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-09T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1542.8,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 48.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-11T00:04:18+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 50,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T01:21:57.177153+00:00",
+    "updated_at": "2026-10-11T01:37:37.845637+00:00",
     "open_market_required": false,
     "window_hours": 48,
-    "status": "SOURCE_ERRORS",
+    "status": "OK",
     "sources": [
       {
         "area": "Medio Oriente / energia",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 3
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 11
       }
     ],
-    "geopolitics": [],
-    "corporate": [],
+    "geopolitics": [
+      {
+        "title": "12 killed, hundreds injured in Saudi Arabia airport attack as Houthi strikes intensify - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5",
+        "published_at": "2026-10-11T01:32:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlHRHF6bWpaWFM5UW41VnZYSmJmYzVrUkFzQmZUdldhUUJfdkwwck5OYkxfWmlvRnRkSENQUHp3Rmk3ci1VMDBlak1IeDQtcHJocGRfakhyWUttLVlxbkZNSjZjMUIzNk9wNndNaURjdGNrNUxpZklFNDkyWmo5U3I5RFZTZ0FvdlNhUVZvaDg5NkhudVk4RVhR?oc=5",
+        "published_at": "2026-10-11T00:31:33+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Analysis • A Saudi Arabia under attack could dictate the timing of a war against Iran - Haaretz",
+        "source": "Haaretz",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOakpDR1lCeVRSSVNVUTA2eW56MWFzeVJUUnJWZHRBRG11THlqcm1rWmVjbk1qaWVuRFBWNmdEV0ZTa1dyRU9VV3ZueXdkSDNNV1h5aUJ2Q3FQeEV1ejFldW4tazBnT2dILW5LZnhXODR2c2VTSjFsT3ViZTAwWEZxMG4zSmQ0VVZCc0xOS2xNeHpGSVVWRlBzak50QThqaWRsQk9uckxSXzktUWdyZjUxWkpReWxILU5IcElhbXBtaVFNUlMtWC1DdXJsOV9jM2h6MmlZZHh2X3phRmVsTUtPQTJGVURUQnZxb2JneTlqRkRNelBtQVlaR2JyWkNhSTdobFpaTjI3Zm9zR3czeDMydw?oc=5",
+        "published_at": "2026-10-11T00:25:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "At least 12 people killed, more than 300 injured in strike on Riyadh airport, Saudi officials say - CBS News",
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zdWxvTF9TUXJiNnR0cWcySU0zSmd0X1JTdU9pTTVPX2ZHaFpSYjFXdUUxM0ViMVBFUkZOSDRVQjRPbF82aTFxcklqVGJYbUlFQzYzeldQdzRpd0JuVlU4T2R0ZzNKWlNWSW5PSG1SSk9NQ2dPT04tX2gxMkV4Zw?oc=5",
+        "published_at": "2026-10-11T00:14:59+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "12 killed, 300 injured in Houthi attack on Saudi airport - upi",
+        "source": "upi",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQWVLOEpoYjJTU2U5MDRRcERuSjZDeWRBM0FhbV9aaGJjUjRlVkZudXNqRFNYMi10OGU2OC1aSXhod0cxWUgxaDJvemlQb2NEcWk3a2phc3UtOHRSdkpxdGdUV00wZmkzdjJVNzFSMXdOQ2NjWnA1TUZRdks3WFdlTHJldWNuZ0pkVWZXUDRvblpaM0Yxb004U3JDdHpEeWhRaVNv0gGoAUFVX3lxTFBSVlZnWWN3MUs3MnNUNkdJazk1eUMxcHVBbmVEZEtmMWRWVEplX2E3b09VajNCSUVZdzktTGYxM0NISWxSRDM4X0lSbHkxUmJIM3hkekp2aEpzNkVqU1VocE5kUlBkY2NQVGRUOTRjR0FIaWNrZWZWY2dZSEVyVVc1Z21oMW5obVRSVzk5VHBORDROZTZRZ0Qzd2RTUmZoejNjNFJ1czZnUA?oc=5",
+        "published_at": "2026-10-11T00:12:25+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How Russia turned sanctions into a diesel deal - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVlRNeFlKelNtVmNHOTFBWjZjc1V0ZWlrZWN5QmFHZVYzbEQ2S2M4S2RROUV2VUpBeVhkNTJYaVhpdmN6U0Qwa0Zra29CRldGaDFac29ma3BMdkpzOXlBWDRvd2NpWHFFTl93ZmpVRG9mZVo4MjFsajJsMDRKMzlnMGYwbndYSTFmMlhN?oc=5",
+        "published_at": "2026-10-10T23:50:52+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China's trade strength rooted in competitiveness, not currency depreciation - Global Times",
+        "source": "Global Times",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3a1pmNnJVR0lVSURVYkEwUjEwbkc1UHdJRE9HNEIwQUdnVUlQcXNCbDVxdlU3clZab054Z3Joekc1QjJTVDZkMi1IaGlhaG1zVk1lejF5SjZNRExRVVhDM01B?oc=5",
+        "published_at": "2026-10-10T23:36:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "House Republican, invoking Reagan, moves to block Trump's Russia oil deal - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT0ZSVG5SSkJWekROWFF6Q2NVU1lXWGR4c1hzcUZfOTN6NFIzeENYUlJFX0lJb2xTTk1uVE5ITGhPbUJNUlJ6VkJaTmtaNXVYU05uZE5ydHY4bnlUbG5CWXRSTzBzb2ZjdHVhczhKVmpuNEJnZW0xWVlWSXpsRHdGWmYxVjhMMGZNRzhV?oc=5",
+        "published_at": "2026-10-10T22:05:01+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKbVFFOUgycHh5RmVhUzkwNUtXWVNBLWJSU0d4U05vN1RmY3JZb2xmM2lGbVR1OVctcjdRRS1KQzQweE91Wkx4QUNPdGQyOWpXNXlrQVNUVWtiTzQ?oc=5",
+        "published_at": "2026-10-10T19:28:28+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says Zelenskyy ‘better damn well stop' attacks on Russian oil refineries, calls for new Ukrainian leader - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQTVXT0VxQ0RQbUVXbjN2SEg5bnBITl94U0plVEtzZTdYMnM1RE1YUE94aUd2SmlhU2UxMGhvMkNTNGxYS19RSFpMMGNtZjdFNmE2U09WVWxwRC00RVc5TUhmMnpjN0p3YVFlX2JzWUEwcm1HYUFwWnZkRTVnVktNRjQzS2VPME0?oc=5",
+        "published_at": "2026-10-10T18:41:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "DW News. . Both China and the US are racing for chips, energy, talent, data centers, and global AI influence. The AI race isn't just about who builds the smartest model. It's about who writes the rules. Can the rest of the world trust one system more than the ",
+        "source": "Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZnRKVHJ3b2VIVGJ4UnRmdW01UWYwVUMzZmpuam5vRHJYZkNGdUU1NU00NDhNSDJkeE4xRnVQYmdrMFp2Uk9OS3pVc2kzM3Z2WXRXNGphVHkybVdKa0d0c0Y1MUY1OFNyNGhtdElJLWpiTjhKU3R2SHowTHRXSmVqR2ZEcFdyYy01eVZEbWI2NTVzQjJTR2VwdFFwak1jQVpYYTdLMy1WUTBGeFNPQ0dxeU9xeG5uTV93ZzZZYVEzTkJPMUdCRlVzNVBLVHhkXzlpWFNrY1QybWRxejhvSzBPcnpR?oc=5",
+        "published_at": "2026-10-10T17:40:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU-China trade relations hit crunch time as Brussels pushes for rebalancing - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbjJQdEp6NjJ3STZ4U29VYnNJajhZOThYZDl1dkFBN1hfb0N4UVJ2eU5TTFhMUlpFWW9Fc3lCX3hJLTZxR2pXbUo4anFLNEV1ejRiQ0M4REN4dmdydERrRUoteUhXWU9ZTWM2ZTV6NnZKSTN2TWRiRGdZaEk3RUtjLTZ5TQ?oc=5",
+        "published_at": "2026-10-10T17:22:37+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine Strikes Major Russian Oil Hub Hours After Trump’s Deal With Putin - Newsweek",
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb3c5cnlQNEJCNTFxTHBqaE5WQzVkSzFHajk1WVc0eXhtQnpodW1JYi1BYmEtWHYyb281S2tqWWJCMndtYnVaUlhsOG0zWnR2Y1ZRUVpENDZxZnlKMllsbXRyQm9WSk55VG5MWHpPSkdSWlYwa21zTHdYNUlhNERiTG1aZ0xQa3YxY3hmS3J5SE1mWEpfXzZvRkVXN1FJU195bThnTnFaTzV5dw?oc=5",
+        "published_at": "2026-10-10T17:19:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU-China trade relations hit crunch time as Brussels pushes for rebalancing - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOREdSblFYMXBqbUpZRVFaUEhfQlktTmFBT1Q0WktJSmt0c1hmdU05NzVkSDJsVkZXejY1QkR0bWIzTWNGa2RNNFhfMmZqV1p6dTc4WDcwTGh4eVlVelpuT0JDbEgwYkRjWEZvbHZiNjFpSGd1MmxDcFVtb2NKbHdVemxLTm02bnJ4V1hoeldsUVRqcE0xTURscEVQOFQ1bll5ZzgyWmxkUmV2LXZ2dXpSNGRIZ1JRRkJXZFQ1aHFzZlAwVXo2WS1YaG9aOA?oc=5",
+        "published_at": "2026-10-10T16:57:22+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China, EU reach deal to 'moderate' China's car exports to EU - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYldUVjVveXpLU2UyWmRWR3NoY0YtOVZINjJiRGtoSUdaZkxIeVBmVmVXdXlBbGFfc1RtSFRoZUNWTTZtT09obUZSN1ZaUTY4VEtlNkhNT2VtdWdfaDJUUW5hVFRhNjRSS092Z3QzVmNsUDFfdUE1UW5KNXdjOEc4UmNldzhOZzlzWGpHSHAtMExTMXPSAZMBQVVfeXFMTjN6NUNxQjUyQjJMZWVEUmxqVjJpdEJPalhCU3JmQXdLcnVfbDNRSnhONW41VGJZUFlwX1BqWVl6Y0lGMnpLVGt5RHhneG5JSVlrcFZESzRtbWZGQ2tEZ0h2M3JiUktZUHQybjgwU1hVb21YWkRxMGpXdmYyaVE0a3U1bkNpbkc1LXZYSjdNS2lSeGpR?oc=5",
+        "published_at": "2026-10-10T07:59:59+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
+    "corporate": [
+      {
+        "title": "Moderna Now Trades 61% Above Wall Street's Average Price Target. Should You Sell? - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTFPWTVCSmM5RGNJeFdCVjA5MnZUTW1CZVVOZHk4UGRfSW5SMXBNWmJ2Rll3UW9FNmFJUTNaUmxMc1MwYTN4Y3JBZEtjZEVWYjBZRGVoOXUxZ1RTUDh0ekpJWDhKaTllZF8yT2ZxVmJ5eWdIS0x6bmVteDRWQ0EyaE8zdkVkbS1qWEwzS0M4SGVENjZreXc?oc=5",
+        "published_at": "2026-10-10T22:21:27+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Discusses Boosting Reflection Investment, Computing Deal - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhNbm44LUd6U3ZnU2t4ZXVxVlBObW55LURVTlJjcnNOWHJmZEhwNEd4UDdiWHFwaDBZSGw0blpidEN3QldtTl9haFYwNjVpUFJYTVRUOHJ6bU9SZE5jLUVzT2ItQXk4cjNhVEk5TnlBZnIxeE5SZ2x2cW9XRFVRb2lDQkdlWUF5S01CN1RKZGxnRWQ0aVhFNmhaS2VFUXhYVlAtYjJnUlBoSFZ6VUE?oc=5",
+        "published_at": "2026-10-10T20:22:30+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israeli Pharma Giant Teva Wins FDA Approval for Monthly Schizophrenia Injection Weltruza - Haaretz",
+        "source": "Haaretz",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONnY0andBVDJvbGNGeTRXVWFiWU0wRkd6dEFIdHh4ZkNEelRuLWtlX20xUzUycWFCVEQ2MHdHOVlNVFB6VlZiQldZOGxic3pId1hidUM2bnVOQjRsbm1UWFlzSlp5b3hBZTNXb1V2a3lnQ1pYR080dXJsRjVWZzZRUjBERDFvZ2xaLWQwNjdvMEtkUExCcjlwaDhvVnFfVjRjOTYyRGRtRDR6YmJ1MEJjeHkxUzRJX2c1Z3FuZTZ2YVBUalZ6cWZtdWJDUkZDVTZjMU1Dd2tLVmh0MFBjVXZmS21rQTYwUFB1NnphQUI4VC13R2V0VXlJUHEwSFQtMHpIRzNiZ282blE5SHl1dmc?oc=5",
+        "published_at": "2026-10-10T17:50:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "A Drug for 15,000 Patients Just Got FDA Approval and Here is Why That is Not Small News - Moomoo",
+        "source": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTVEdnlRUlhkWnVNLUpzMllxR19sZ01VMUxtNTBNZWVIWXdTX1hfOWJtVnM4cWdvQXp4cnBoNzBib0JLa25lcmdORmd6Tl9zVnlkOV9HX0R2MmR3RWt5NTV3RDVQNGxJMy1uUkM5REdqem4zRXB1N29oXzNxOGM2VldWeENtOHhCdlpNbEszTFhKaXlORUVuUHprT2toTUZKMmZoeQ?oc=5",
+        "published_at": "2026-10-10T16:32:40+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Frontline Breast Cancer Approval Could Be A Big Moment For Pfizer Stock (PFE) - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZFZPS3IwaG0xck5kMUFYUkJDOEpfUmJ1QU1kSUtXa1NyRUhPTUJud0hwMEpDTzZFQm1sTXA1bzlaTTZxVFJRVjhHY0QzajV5TFc3bnlWV2doN1FLWWhhWDFPazhMT2Q3MmQ0NWpUS2EwUEdiYy1wdWpDa0VvUzQ0SWNfRG1lNTROdy1MazlXeVFuQXFlenhjNlI1RWUxdEdzcklfMWVGbXczQ2ZCYXg2Ujdnam5zMTdGUVc3WW5zMUtIbmR3cGdCVS12YWU3UmdicmlR0gHYAUFVX3lxTFBKTTdJU05kZU1JUEtSdXBfVTZKR3Zqbl9MOFEtVHVQS0t0LWUzNUxDMFlhdmFCSTNEdEVfNTctdWYxc2FHYlZlLXk3dW0zc2xnUm1FU1oyYTdLR0dTVFFFSU0tSXJjN3cxUWNtbC11LXRvUUxhSlg5N2c1TWZCcGZtN0R0VXBGS2pQS3ZLdWQ4cFhwbExQbE84ZGxKRHBCYkd2ZFBOOG1SMHlUMTc0SHdYVGl3b0Jvemc0MngzaHUxTXRMRjN4T3FZU1VIa2pJZlI1RUxGRWIzbg?oc=5",
+        "published_at": "2026-10-10T15:20:39+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flagship - Tom's Hardware",
+        "source": "Tom's Hardware",
+        "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQSjBCd255Y1gyWXBvSnlpVW4xNHVteF9MTG40Yngxdml6SnJ2R2JoNkF4OTdzMGJ1dkRIaVNoVlc0MnItdkNCTV9QX2FscW4zRGw1UkFTV285VW9DZS0tWmNXdmR2dUtCNmh6dWRWcmxSN3lVWDVhZ01qNUxGZ2k1bW03LWZPWndlX3NXcENxczczNUJNSUU4OHNzN3pQbmlkMmpPM2xfVXA1Z1E0b2dsMUZ4UXRGUkJ5aWh5MnVMUjZuNDMyeHBOUFdjNEJ1X3V2Wm1seDlfWHpEbC1idlR3RFhIMzhvTzRhYXFYWF91UEhXTEpfMldZUXNhMmt6Vmtsa0dnQ1B3eS15X0tmVEFXYWo5RFlUZWl6b21LTUtGM3FQbjJ0eFZscy1IOE9LaEdWb3F2Nnd4TWVXcnBKN2J1TTNzbEhaQ0ExVEpYQTRuaEhOLWg1elY2U0pYc3dvdHBac0JLLQ?oc=5",
+        "published_at": "2026-10-10T12:20:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teva Announces U.S. Food and Drug Administration (FDA) Approval of WELTRUZA™ (Olanzapine) For Extended-Release Injectable Suspension, as the First and Only Once-Monthly Subcutaneous Injectable Olanzapine for Adults with Schizophrenia - Teva Pharmaceuticals",
+        "source": "Teva Pharmaceuticals",
+        "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxPVWVsRF80cmpva2RFM25oTkRnM21FWkxpcWo1c0JPd2N2ckhHNHVYRDViNGJoc0VXRTlEUzVTVkk5dG1RbzkzSDg1WGYxTEszbjVHT2plSmRDbW85VFZSZ3lvTm9XZDdMQzFxN3NWX1RhNEpnbS1OdFdrU2dFalNiUUxMakUweWcyUE9yVWtUMFFHN1R6ay1TeFN1cmRPbE96b0Q5aEwwSXBNMVpjcGh5V0Iya2VDR0xLMWtTVlZ0Ui1ZdDhXUWFITFBkNEI4UnF5RkVVNlp3U3pEX21YVlB2UjhBSUtiY21pX2FPQnN0RUtEQkQ3TFBHOEFwc05haXo1cjJZS0J2bUJ0VEhLQ2ZuMmN4SlM3R2x0bkdDa0F2RnU3dTVkRFZPVTRWSGpiakthWGI0VXEwZmp0eUxsZ2xubXRMeG5weVFZY1JrSlY3NTBrSlltaFRiVVNkUHpTcGQ0RnVyM2s1enNQSFRlWkxsSlJrUlNOWFgxaEp4Yk5rZGZQZTZEdktqbVZlMmRKTF9HOXp6X1MzaThVbmpiUnc0UXJ5NW1xb2o4T29BdE9RU3dsSnZKSE9PVGtTNkREWlZaM2ZqQ2N1VFcxM0FlRnFCbnVpOXQ1eW1zbEhNS2VR?oc=5",
+        "published_at": "2026-10-10T05:39:02+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M?oc=5",
+        "published_at": "2026-10-09T22:27:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
   "archive_count": 10,
