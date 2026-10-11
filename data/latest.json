@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:30:20.634871+00:00",
+  "generated_at": "2026-10-11T06:55:30.404437+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -31,295 +31,57 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "a4f69aab7a05",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "NVIDIA Reviews Reflection AI Acquisition for Open-Weight AI - 조선일보",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbTVLODZwcFNNeGdOOGNPTkxXUnh3c1hBcGRaWXV6LTNTRGQ3d1A4RXZmUUlsczZMTHZreHU0X0Z4SC1jZTZjSURiZkpxLWE0QnRkOWlKRzQzY1hhQ2xCLWwwbEFiUVZzVTRaNkpaYm1SNWhwMzR2blNnVEg3TF9rRElSZ1VCYVhZ?oc=5",
-      "published_at": "2026-10-11T03:24:36+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -0.5,
-      "short_term_change_pct": -0.03,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-09T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 1835.2,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 48.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-11T03:24:36+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 50,
-        "macro": 50,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T06:30:08.730452+00:00",
+    "updated_at": "2026-10-11T06:52:46.772194+00:00",
     "open_market_required": false,
     "window_hours": 48,
-    "status": "OK",
+    "status": "SOURCE_ERRORS",
     "sources": [
       {
         "area": "Medio Oriente / energia",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 14
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Russia / Ucraina",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 14
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "USA / Cina / Taiwan",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 14
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Titoli tech e AI",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 2
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 13
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       }
     ],
-    "geopolitics": [
-      {
-        "title": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLWVoSG40NmNyb1B5YkpTVUlpc1l3b1FaYTdlczcwUURLTkt2R2FUX2dfTGFsc2pJS2lfSDY0Tzd5RUpVWjFZdEw1R0o4UUhkdEJSSWpsd0hIRTU5eTZpRkRhV2IyazRnRVc4dzk4STlZWVpobkF1am84bGtHOXZFbk9Kdk5rMU9yR0pGajk1STBYTkdGZFhVbzM1MU1hdV9Rcm11d1ZrdFdCWG96VHfSAbMBQVVfeXFMTmpLZWNQZ1RyWXk2Q0VHMUs3cUpwUGtUQVRJdGgxd01rV1RsbWg0ZkdQTGtyNTlVRFRDcXVGWU5lQTd0VXZYV0FKSlQzWDh2MmZyeWFiNlVYRHBPcTJoTnRLQVRfWFVBb09UUDduNFBfdktFM1k2UDByaFFtNnV6c1l4SHg5bXkyYXQ0a0dDU3hFUFcyUDUtdzNNMHdYTnFCbkFYa2hIeWZfd1BCTjltNktXanc?oc=5",
-        "published_at": "2026-10-11T05:15:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Afghanistan opens potential China trade route to Persian Gulf - Nikkei Asia",
-        "source": "Nikkei Asia",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcFRvWDVSR3VUVUZxcjlMeUdyOFFDLWQ4QXNhazZSVGFMZDdEVzQxWHU0SXQtOGtSNWgxREVscTlxRFhTQXVmUXhhdjJRVnJNbWtwekVGSFVYZW9YUmlEM2x0aVY1b0VLTmx6SkZDeVlyNXNUM0VxZkYzUFNNblRfN0FwdF83d1lpS05veFN4X1NYTnp3TzRYWkRIbnplVmFZTjRRalZYZS00Mk9qZ2c?oc=5",
-        "published_at": "2026-10-11T05:04:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Live - Trump says Saudis can defend themselves after deadliest attack in 11 years - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FT3dpQlJkSFZUVG9GSmE0OERYLVdfZGdUN25jVzdfV0NDNG5yTGg0ZGs5WmRXb0QxUnJMSGh5Wkx5cU9FWUpvYTIzLUNXZHAxU1VSelFrNG9kQmRYVFE?oc=5",
-        "published_at": "2026-10-11T04:39:41+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's trade strength rooted in competitiveness, not currency depreciation - CCTV.com English",
-        "source": "CCTV.com English",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUQ3BxYmhZYjhLUURtamk4R0o2a25Kc2ZkdWo2a0hoeWdRS1NGbWg2VWt5YUxPOEUtb0xKNkpIdThlcTRNWWo5bXV1TF93dVhscEJCcURHZUk3WTJRSGtTNDl6dXVQTF9MNHk3YmFjOWZqLTJpQlJ0TUYyQm8?oc=5",
-        "published_at": "2026-10-11T04:29:46+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US weighs strikes on Houthis and Iran after deadly Saudi airport attack - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tTzBYU0lxSGR2OEJ1S0ZsSDRQcVZHRlFOV0dQeWsxZ3VrZFNyRU5lTGxISEhvU09GREx2WUJjeVVzYVFWVGktSFdQZC1BeHdyY0E?oc=5",
-        "published_at": "2026-10-11T04:19:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's Ministry of National Defense slams Lai's 'Double Ten' speech for hyping up 'mainland military threat,' pursuing 'Taiwan independence' - Global Times",
-        "source": "Global Times",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlOEx4UElMVFpaSUpIOTFhMHdnS0xLLTdHQ0FHVXByNm5QQ0d2X0VxNTN2R2dWck4xQWxHMGRnWDZvYmVvZmJySlpMaVlBRkVCTVZ0M19vWXpzV254UmdEYThR?oc=5",
-        "published_at": "2026-10-11T04:14:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China and EU can manage trade differences through dialogue, Wang Yi says - chinadailyhk",
-        "source": "chinadailyhk",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wMUdmNld3LTZMNXl6TXlTQUZwY1JWMW5TMjB5bXBSdTNoV3NNc2ZTRi1BNXlHeHdhS1h4bkJfdjkxem8yZlA5bURQWmpXbTUtR3dtRjR6Y0Q?oc=5",
-        "published_at": "2026-10-11T04:04:04+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian Yandex data centre operations disrupted after drone strike - France 24",
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc0gzVUJLTXlBam55QTVxSU94VFVObVlyOHN2NDVsVEpLWlBIV3RDSUNtc2ltS0xHSUJmYzltYzJFdTlEd2V0eHljaHFOM3JFeDZJWTVDOHJyZGpGaXA2ZzFUekF1YU83c1hoQlBwOE5RZnVMNkRWbEFkdmZzRmhzM3NRaUlhSVJnNFBsQlhmbWZrRjRCNjE0RWFldC0zeEZqRFFNOGhDTTNhZnBMQ2d4dm0tMA?oc=5",
-        "published_at": "2026-10-11T03:33:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US forces disable ship ‘attempting to run’ Iran blockade in Gulf of Oman - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNW9FeS0xY0pkWHlqMHYyZnVvVUUxd3RSOG5fdlFrY2pqcmt3T3htTXQxNjk1VHdVX3ZZZ0l2SmZSdE50UzZld3lYNWlDMk5kbnBFcTNPUjVrOXN4R1pNc3VnVkVHcmozZVpUSG9XT2tYWk1OZjI2M1RPU3ZkRHF0M3BkQ0J5dWN5c2NqOEUtWl9UOE0tNFpuZmVDZTRFVHRsTXlLUm9iOTFsbGtoQ0NLSDhR0gG3AUFVX3lxTE5oeXI0NjB5enlxWHA5LVQ1X3l6SU9CV2xzN2Jxa0tNbkVyX0VtZ1FTY21RMFh3M2plMUV4cUpzNC1aVkFYZHVxbGVWNHAwSDRBQ01QRXBnU1dyZFJ1SENOQjNWMmlzTF9tWmpReHdDeWhjOHE2RUdCbHJWamRRa3RCSV8yQkNLNGsxc1NoTU5mRlBlbm5VVnU4aXRYVW44Yzh1QTg4S2F6ZldxODhGMmMyLWk0VUtpSQ?oc=5",
-        "published_at": "2026-10-11T03:19:21+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGcxd2Q2QXhUSGFCZ3NmdUotNFR2bkxvZ0t5dUN3ZGFoWnEyeVVMaXU3YmxST3daXzhOeVpCcDRIbXJhYlJ2MUdsOEhNYVcwcThEZlQyZUFGQWFpeklPYlY2T0FZb3hQY0liUkRfZ3hpT3pOUTRkb2hhSUhkdmJSTmtrSURzZEhMdllIa1pqNm9mUDhCT3hnM1k5cDQ4bjh0OVBaNk9YMHpJd9IBrwFBVV95cUxOeEY5RWlrVmxYUFllYXkyMk5QeUZQZGZ6OGNGZ2dvVlo5cXB3STlBbnMxWmFpQUJYQ200VFZoaVdmM0lTRFpKTWRWMXRQUDhuc1lSdjduZHhSSXRLQjZNalhjNXdiYjhwd2xhbzlqbUF3RnN4bmV2U1hFdHJKYTZlWkllancybkk4Y0Rkc2tSZ0dPZlFiZzAyT0EzX29wMEJ0WnRGR3JUdU80aWU2TU00?oc=5",
-        "published_at": "2026-10-11T03:09:05+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Could Thai durian export duty mean higher prices, higher quality in China? - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdlFZamNIYjNQeG1NLVU2Q2xnTml3MGhqRVdDbTAzZk5mZTlNX1FFQThUcHNqX2ZKVkJyOWtBV1NBQWRsM284QWEtclhfMjFXeWJyQVg2X1J6aWhFQTZkNS1COFMwSTVZbGZIbnVoWWpwNHRlbXktXzBTbzUxVm5YLTEwa3hyNnRxOVNXelN0MWxwUnFlNzFlcFEtZUY4MXJUajhWNlRIMFBnMzYwTVByRnhBWUpIclN2ajRfVWt1YUpuMmw2dmpseQ?oc=5",
-        "published_at": "2026-10-11T03:00:09+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Criticized on Russia diesel deal, Trump says Ukraine needs new leader - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR2xRWTRYVUlBb0djb0FZT1J4dkxKeEhiR0N0Nkl6Z0hqSU1BRWV5X2M4dWwxeHkxZEtBOGNwcl9UUlEwTDVvbTFaSWRFOW91bkREcy01aUNTdlpYRUh3cEtFTW5SdHdiMDZCbWJHd1p6TjhkNXBuUGJiTkhZV3U5MlVQUHV4SS1tUzBVUXlrMzJ6cmcxdjhVeVRPa0xHWGJWUkHSAacBQVVfeXFMTlpGRWozRTFRTGZITFB6TkpLQWJkUENBTG02QnA4cE4ybGxudjJhTWhfWEp0bUM5SnFLSTFnMnFFX2VHSDVNUjZqQXl5R2J2VVJpRG5JU0Z6aEg5WXBaNXhIZGhqazB1LTNNT1dwd1FFV25haU5vdm94V2xvaEc4VExiQWtmWm52Unl3cUlSMmJhRDJXc3dSWU56S2NxTUxJejBaV1N1dGc?oc=5",
-        "published_at": "2026-10-11T01:51:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine says it won't stop attacking Russian oil resources amid diesel fuel deal with U.S. - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTkdyeVcxQzhJR2hPYTZEb2dlWHBJZjQ0Y2NHYl9YTkxuYnl5bU94YnBGYnV2RE5jRm1lWnRicmdZZllsZGJjd2w0SGdacDY2Uy1POW9Zb2piRHFCRXVUeUVJd3paOEdRMWlxZ0tyWTM1X1hadWxpZ3NhZ0R1TEZoUnFUbW1abUkwRElWNFVkV1hIWXhvTVpQZHROUW9WdWtEd0F0T1VnZXJpZ0VZLXZwbHFQcVRYNk5wMkE?oc=5",
-        "published_at": "2026-10-11T00:39:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "House Republican, invoking Reagan, moves to block Trump's Russia oil deal - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT0ZSVG5SSkJWekROWFF6Q2NVU1lXWGR4c1hzcUZfOTN6NFIzeENYUlJFX0lJb2xTTk1uVE5ITGhPbUJNUlJ6VkJaTmtaNXVYU05uZE5ydHY4bnlUbG5CWXRSTzBzb2ZjdHVhczhKVmpuNEJnZW0xWVlWSXpsRHdGWmYxVjhMMGZNRzhV?oc=5",
-        "published_at": "2026-10-10T22:05:47+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump, Putin reach deal to release Russian diesel to world - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbmRaWXVKcExSNXQ2WnRFVUQta3VXSkxvZFQ3TlktNGpIT2lMX0phaHVUSVBkRy12c1BKYU1BckdScW42U3lYaFdoNHdXRzM3U05rV3N2Skhsa24ybHZpdV9UU3pFeGRrWEhQa2R0eUVCLVpCYWZHUEdxdHJUWC1ySXV6WE9hTHNrU2Q0WlAwc1VoNUJxR1BZT2hhRlNyUHNpVmxMY2huQdIBpwFBVV95cUxQT0lwN082dktuSjdYWVlMUGVFamxsekRqeE5hNWhHaWNHU2dqUUJOYWVtTXF0SnhGNll1NHVIWkFRSzlsTWdZdjB0UVZHZVAta0Z6Y01Pd3BCdmJVTXFUdllQelZSM3VYek9nd1RJX2NXSUpfdmQ2QlkzY0FzWDBoTWczdk5sNUNjRl9pNnBrWkUwTVZob09ObFZIMnJBWTFvSUZSMnpSOA?oc=5",
-        "published_at": "2026-10-10T18:12:03+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      }
-    ],
-    "corporate": [
-      {
-        "title": "HLB's liver cancer drug push gains momentum after first FDA approval - The Korea Herald",
-        "source": "The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpOWthMlI3Wk1XMFlRLWNXbFhETkgyWEhrMFR1d1FYZEhfcm1TVWl4LTZ4OFhPTG91cnFaVURNNFdfNFQ0SkVTQnp3YWN0T2U5c0FyaVlWNA?oc=5",
-        "published_at": "2026-10-11T05:13:47+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM0dWbDhnenNwYzNLQlJwUk1rVW9Kd250Z2RSNUM3b3dUUm1haGY1QWp1QkJkNzEwbHl5dHBKZmxySTFkdEs4WGktb1ZOOEctODZSMS1FWlAzaHpqckpFcVlrLWtGdFdJMUhQZDgwUmVqLVVaOWstMkREN0U5N3ZlSl9RbHRDb3V0VVRhRlgzLTBfd1VzVGRxRjVmZVFWTl9feW45U29KcGFWOFBfellQUHpqWQ?oc=5",
-        "published_at": "2026-10-11T02:06:22+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna Now Trades 61% Above Wall Street's Average Price Target. Should You Sell? - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTFPWTVCSmM5RGNJeFdCVjA5MnZUTW1CZVVOZHk4UGRfSW5SMXBNWmJ2Rll3UW9FNmFJUTNaUmxMc1MwYTN4Y3JBZEtjZEVWYjBZRGVoOXUxZ1RTUDh0ekpJWDhKaTllZF8yT2ZxVmJ5eWdIS0x6bmVteDRWQ0EyaE8zdkVkbS1qWEwzS0M4SGVENjZreXc?oc=5",
-        "published_at": "2026-10-10T23:15:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia Discusses Boosting Reflection Investment, Computing Deal - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhNbm44LUd6U3ZnU2t4ZXVxVlBObW55LURVTlJjcnNOWHJmZEhwNEd4UDdiWHFwaDBZSGw0blpidEN3QldtTl9haFYwNjVpUFJYTVRUOHJ6bU9SZE5jLUVzT2ItQXk4cjNhVEk5TnlBZnIxeE5SZ2x2cW9XRFVRb2lDQkdlWUF5S01CN1RKZGxnRWQ0aVhFNmhaS2VFUXhYVlAtYjJnUlBoSFZ6VUE?oc=5",
-        "published_at": "2026-10-10T20:22:30+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Israeli Pharma Giant Teva Wins FDA Approval for Monthly Schizophrenia Injection Weltruza - Haaretz",
-        "source": "Haaretz",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONnY0andBVDJvbGNGeTRXVWFiWU0wRkd6dEFIdHh4ZkNEelRuLWtlX20xUzUycWFCVEQ2MHdHOVlNVFB6VlZiQldZOGxic3pId1hidUM2bnVOQjRsbm1UWFlzSlp5b3hBZTNXb1V2a3lnQ1pYR080dXJsRjVWZzZRUjBERDFvZ2xaLWQwNjdvMEtkUExCcjlwaDhvVnFfVjRjOTYyRGRtRDR6YmJ1MEJjeHkxUzRJX2c1Z3FuZTZ2YVBUalZ6cWZtdWJDUkZDVTZjMU1Dd2tLVmh0MFBjVXZmS21rQTYwUFB1NnphQUI4VC13R2V0VXlJUHEwSFQtMHpIRzNiZ282blE5SHl1dmc?oc=5",
-        "published_at": "2026-10-10T17:50:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "A Drug for 15,000 Patients Just Got FDA Approval and Here is Why That is Not Small News - Moomoo",
-        "source": "Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTVEdnlRUlhkWnVNLUpzMllxR19sZ01VMUxtNTBNZWVIWXdTX1hfOWJtVnM4cWdvQXp4cnBoNzBib0JLa25lcmdORmd6Tl9zVnlkOV9HX0R2MmR3RWt5NTV3RDVQNGxJMy1uUkM5REdqem4zRXB1N29oXzNxOGM2VldWeENtOHhCdlpNbEszTFhKaXlORUVuUHprT2toTUZKMmZoeQ?oc=5",
-        "published_at": "2026-10-10T16:32:40+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M?oc=5",
-        "published_at": "2026-10-09T22:27:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      }
-    ],
+    "geopolitics": [],
+    "corporate": [],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
   "archive_count": 11,
