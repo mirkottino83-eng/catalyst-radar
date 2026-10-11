@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T03:22:03.493932+00:00",
+  "generated_at": "2026-10-11T03:40:12.665838+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -33,6 +33,48 @@
   },
   "catalysts": [
     {
+      "id": "a4f69aab7a05",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "NVIDIA Reviews Reflection AI Acquisition for Open-Weight AI - 조선일보",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbTVLODZwcFNNeGdOOGNPTkxXUnh3c1hBcGRaWXV6LTNTRGQ3d1A4RXZmUUlsczZMTHZreHU0X0Z4SC1jZTZjSURiZkpxLWE0QnRkOWlKRzQzY1hhQ2xCLWwwbEFiUVZzVTRaNkpaYm1SNWhwMzR2blNnVEg3TF9rRElSZ1VCYVhZ?oc=5",
+      "published_at": "2026-10-11T03:25:23+00:00",
+      "age_label": "14 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -0.5,
+      "short_term_change_pct": -0.03,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-09T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1665.1,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 52.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-11T03:25:23+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 50,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    },
+    {
       "id": "eaf5f39786a8",
       "ticker": "NVDA",
       "company": "NVIDIA",
@@ -52,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1647.0,
+      "quote_age_minutes": 1665.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -77,7 +119,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T03:21:51.935974+00:00",
+    "updated_at": "2026-10-11T03:40:01.718958+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -108,7 +150,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 2
+        "accepted": 3
       },
       {
         "area": "Farmaceutica e settori",
@@ -123,9 +165,27 @@
         "title": "12 killed, hundreds injured in Saudi Arabia airport attack as Houthi strikes intensify - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5",
-        "published_at": "2026-10-11T03:02:39+00:00",
+        "published_at": "2026-10-11T03:25:05+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGcxd2Q2QXhUSGFCZ3NmdUotNFR2bkxvZ0t5dUN3ZGFoWnEyeVVMaXU3YmxST3daXzhOeVpCcDRIbXJhYlJ2MUdsOEhNYVcwcThEZlQyZUFGQWFpeklPYlY2T0FZb3hQY0liUkRfZ3hpT3pOUTRkb2hhSUhkdmJSTmtrSURzZEhMdllIa1pqNm9mUDhCT3hnM1k5cDQ4bjh0OVBaNk9YMHpJd9IBrwFBVV95cUxOeEY5RWlrVmxYUFllYXkyMk5QeUZQZGZ6OGNGZ2dvVlo5cXB3STlBbnMxWmFpQUJYQ200VFZoaVdmM0lTRFpKTWRWMXRQUDhuc1lSdjduZHhSSXRLQjZNalhjNXdiYjhwd2xhbzlqbUF3RnN4bmV2U1hFdHJKYTZlWkllancybkk4Y0Rkc2tSZ0dPZlFiZzAyT0EzX29wMEJ0WnRGR3JUdU80aWU2TU00?oc=5",
+        "published_at": "2026-10-11T03:09:05+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EDITORIAL | 'Deal With the Devil': Trump turns back on Ukraine, gives windfall to Russia - Texarkana Gazette",
+        "source": "Texarkana Gazette",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGtQX2piY3lxVHF3QTE5YWdlWUZ1ZVlmcGpySWloWUJ3WVFJT1J6eVA0WHpmNjgwTlUtVUdVeWlmSnJBMTBNQU5WaXdrOWhUeWtJSk5Ha2UyckdYUzJZdzMzcGlxUGZXZUwzaHllSFRaSXBuRG9YcUVwTG1MWU92ZmlrbFYyYmowMG9OZ3VILUxhQlhYak8yVFlmdnhNc1dDUVE?oc=5",
+        "published_at": "2026-10-11T03:00:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -147,21 +207,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "At least 12 people killed, more than 300 injured in strike on Riyadh airport, Saudi officials say - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zdWxvTF9TUXJiNnR0cWcySU0zSmd0X1JTdU9pTTVPX2ZHaFpSYjFXdUUxM0ViMVBFUkZOSDRVQjRPbF82aTFxcklqVGJYbUlFQzYzeldQdzRpd0JuVlU4T2R0ZzNKWlNWSW5PSG1SSk9NQ2dPT04tX2gxMkV4Zw?oc=5",
-        "published_at": "2026-10-11T01:58:20+00:00",
+        "title": "US military says it disabled cargo vessel trying to run Iran blockade - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV2Nqd2RXZnpaY3lzeHVxN2Y0VC1ZZEpTSlFVeFpYbW1nQUZqRE5kSGt1NXo0TTFQQmtLSnFFX045Qk1pc2lpMWxXaGxfVkxxazIwNVdVYl82TWJZa2VURkhNWllYX1I1Vk00OFZoNzNNRmRQLURKVFpKbVVaVzZ4SjloWnB0SE1WTi1MWEp3TWttQ1h3MkpDcktydGU4MzdvVDlJS0V3Zk8xRkpp?oc=5",
+        "published_at": "2026-10-11T01:35:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Criticized on Russia diesel deal, Trump says Ukraine needs new leader - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR2xRWTRYVUlBb0djb0FZT1J4dkxKeEhiR0N0Nkl6Z0hqSU1BRWV5X2M4dWwxeHkxZEtBOGNwcl9UUlEwTDVvbTFaSWRFOW91bkREcy01aUNTdlpYRUh3cEtFTW5SdHdiMDZCbWJHd1p6TjhkNXBuUGJiTkhZV3U5MlVQUHV4SS1tUzBVUXlrMzJ6cmcxdjhVeVRPa0xHWGJWUkHSAacBQVVfeXFMTlpGRWozRTFRTGZITFB6TkpLQWJkUENBTG02QnA4cE4ybGxudjJhTWhfWEp0bUM5SnFLSTFnMnFFX2VHSDVNUjZqQXl5R2J2VVJpRG5JU0Z6aEg5WXBaNXhIZGhqazB1LTNNT1dwd1FFV25haU5vdm94V2xvaEc4VExiQWtmWm52Unl3cUlSMmJhRDJXc3dSWU56S2NxTUxJejBaV1N1dGc?oc=5",
-        "published_at": "2026-10-11T01:51:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -169,15 +220,6 @@
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlHRHF6bWpaWFM5UW41VnZYSmJmYzVrUkFzQmZUdldhUUJfdkwwck5OYkxfWmlvRnRkSENQUHp3Rmk3ci1VMDBlak1IeDQtcHJocGRfakhyWUttLVlxbkZNSjZjMUIzNk9wNndNaURjdGNrNUxpZklFNDkyWmo5U3I5RFZTZ0FvdlNhUVZvaDg5NkhudVk4RVhR?oc=5",
         "published_at": "2026-10-11T00:31:33+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "12 killed, 300 injured in Houthi attack on Saudi airport - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQWVLOEpoYjJTU2U5MDRRcERuSjZDeWRBM0FhbV9aaGJjUjRlVkZudXNqRFNYMi10OGU2OC1aSXhod0cxWUgxaDJvemlQb2NEcWk3a2phc3UtOHRSdkpxdGdUV00wZmkzdjJVNzFSMXdOQ2NjWnA1TUZRdks3WFdlTHJldWNuZ0pkVWZXUDRvblpaM0Yxb004U3JDdHpEeWhRaVNv0gGoAUFVX3lxTFBSVlZnWWN3MUs3MnNUNkdJazk1eUMxcHVBbmVEZEtmMWRWVEplX2E3b09VajNCSUVZdzktTGYxM0NISWxSRDM4X0lSbHkxUmJIM3hkekp2aEpzNkVqU1VocE5kUlBkY2NQVGRUOTRjR0FIaWNrZWZWY2dZSEVyVVc1Z21oMW5obVRSVzk5VHBORDROZTZRZ0Qzd2RTUmZoejNjNFJ1czZnUA?oc=5",
-        "published_at": "2026-10-11T00:12:25+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -204,7 +246,7 @@
         "title": "Trump says Zelenskyy ‘better damn well stop' attacks on Russian oil refineries, calls for new Ukrainian leader - Politico",
         "source": "Politico",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQTVXT0VxQ0RQbUVXbjN2SEg5bnBITl94U0plVEtzZTdYMnM1RE1YUE94aUd2SmlhU2UxMGhvMkNTNGxYS19RSFpMMGNtZjdFNmE2U09WVWxwRC00RVc5TUhmMnpjN0p3YVFlX2JzWUEwcm1HYUFwWnZkRTVnVktNRjQzS2VPME0?oc=5",
-        "published_at": "2026-10-10T18:05:00+00:00",
+        "published_at": "2026-10-10T18:41:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -269,8 +311,17 @@
         "title": "Nvidia Discusses Boosting Reflection Investment, Computing Deal - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhNbm44LUd6U3ZnU2t4ZXVxVlBObW55LURVTlJjcnNOWHJmZEhwNEd4UDdiWHFwaDBZSGw0blpidEN3QldtTl9haFYwNjVpUFJYTVRUOHJ6bU9SZE5jLUVzT2ItQXk4cjNhVEk5TnlBZnIxeE5SZ2x2cW9XRFVRb2lDQkdlWUF5S01CN1RKZGxnRWQ0aVhFNmhaS2VFUXhYVlAtYjJnUlBoSFZ6VUE?oc=5",
-        "published_at": "2026-10-10T18:52:58+00:00",
+        "published_at": "2026-10-10T20:22:30+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Frontline Breast Cancer Approval Could Be A Big Moment For Pfizer Stock (PFE) - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSk03SVNOZGVNSVBLUnVwX1U2Skd2am5fTDhRLVR1UEtLdC1lMzVMQzBZYXZhQkkzRHRFXzU3LXVmMXNhR2JWZS15N3VtM3NsZ1JtRVNaMmE3S0dHU1RRRUlNLUlyYzd3MVFjbWwtdS10b1FMYUpYOTdnNU1mQnBmbTdEdFVwRktqUEt2S3VkOHBYcGxMUGxPOGRsSkRwQmJHdmRQTjhtUjB5VDE3NEh3WFRpd29Cb3pnNDJ4M2h1MU10TEYzeE9xWVNVSGtqSWZSNUVMRkViM27SAdgBQVVfeXFMUEpNN0lTTmRlTUlQS1J1cF9VNkpHdmpuX0w4US1UdVBLS3QtZTM1TEMwWWF2YUJJM0R0RV81Ny11ZjFzYUdiVmUteTd1bTNzbGdSbUVTWjJhN0tHR1NUUUVJTS1JcmM3dzFRY21sLXUtdG9RTGFKWDk3ZzVNZkJwZm03RHRVcEZLalBLdkt1ZDhwWHBsTFBsTzhkbEpEcEJiR3ZkUE44bVIweVQxNzRId1hUaXdvQm96ZzQyeDNodTFNdExGM3hPcVlTVUhraklmUjVFTEZFYjNu?oc=5",
+        "published_at": "2026-10-10T19:00:20+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -293,11 +344,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Frontline Breast Cancer Approval Could Be A Big Moment For Pfizer Stock (PFE) - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZFZPS3IwaG0xck5kMUFYUkJDOEpfUmJ1QU1kSUtXa1NyRUhPTUJud0hwMEpDTzZFQm1sTXA1bzlaTTZxVFJRVjhHY0QzajV5TFc3bnlWV2doN1FLWWhhWDFPazhMT2Q3MmQ0NWpUS2EwUEdiYy1wdWpDa0VvUzQ0SWNfRG1lNTROdy1MazlXeVFuQXFlenhjNlI1RWUxdEdzcklfMWVGbXczQ2ZCYXg2Ujdnam5zMTdGUVc3WW5zMUtIbmR3cGdCVS12YWU3UmdicmlR0gHYAUFVX3lxTFBKTTdJU05kZU1JUEtSdXBfVTZKR3Zqbl9MOFEtVHVQS0t0LWUzNUxDMFlhdmFCSTNEdEVfNTctdWYxc2FHYlZlLXk3dW0zc2xnUm1FU1oyYTdLR0dTVFFFSU0tSXJjN3cxUWNtbC11LXRvUUxhSlg5N2c1TWZCcGZtN0R0VXBGS2pQS3ZLdWQ4cFhwbExQbE84ZGxKRHBCYkd2ZFBOOG1SMHlUMTc0SHdYVGl3b0Jvemc0MngzaHUxTXRMRjN4T3FZU1VIa2pJZlI1RUxGRWIzbg?oc=5",
-        "published_at": "2026-10-10T15:20:39+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flagship - Tom's Hardware",
+        "source": "Tom's Hardware",
+        "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQSjBCd255Y1gyWXBvSnlpVW4xNHVteF9MTG40Yngxdml6SnJ2R2JoNkF4OTdzMGJ1dkRIaVNoVlc0MnItdkNCTV9QX2FscW4zRGw1UkFTV285VW9DZS0tWmNXdmR2dUtCNmh6dWRWcmxSN3lVWDVhZ01qNUxGZ2k1bW03LWZPWndlX3NXcENxczczNUJNSUU4OHNzN3pQbmlkMmpPM2xfVXA1Z1E0b2dsMUZ4UXRGUkJ5aWh5MnVMUjZuNDMyeHBOUFdjNEJ1X3V2Wm1seDlfWHpEbC1idlR3RFhIMzhvTzRhYXFYWF91UEhXTEpfMldZUXNhMmt6Vmtsa0dnQ1B3eS15X0tmVEFXYWo5RFlUZWl6b21LTUtGM3FQbjJ0eFZscy1IOE9LaEdWb3F2Nnd4TWVXcnBKN2J1TTNzbEhaQ0ExVEpYQTRuaEhOLWg1elY2U0pYc3dvdHBac0JLLQ?oc=5",
+        "published_at": "2026-10-10T12:20:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -322,7 +373,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 10,
+  "archive_count": 11,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
