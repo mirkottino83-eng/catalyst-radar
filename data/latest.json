@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:16:48.004139+00:00",
+  "generated_at": "2026-10-11T21:33:34.942838+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -27,20 +27,25 @@
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 28,
+    "geopolitical_risk_score": 37,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
     "geopolitical_headlines": [
       {
         "title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEo5WEZxUk5OcWNWU1Z1Z0g4SGlFQmxKckFxbS05WFd6UUxDNE0xa0NZRzZoR004Tms3azQ3aTVfUVIwNXlTU1ljcW9HLTREUGZBVVFiWlpVWXI3V1c3Zmt2UEJ2ME43azRMb0Vlei1iQUNPbzk4bV94bkRGTzBmREMydnBCRzVSclBoVkhrWkx4TFJ2YWdsRS1COGVOWU9pRDJqSUFNRk1pUnpQM2dlQ3o0eGpYSHYzbWdDX3dtQWtYT2Zz?oc=5"
+      },
+      {
+        "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5"
       }
     ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T21:16:36.372957+00:00",
+    "updated_at": "2026-10-11T21:33:23.745647+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,7 +55,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -64,7 +69,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
@@ -83,10 +88,19 @@
     ],
     "geopolitics": [
       {
+        "title": "Saudi Arabia vows retaliation against Houthis after airport strike kills at least 12 - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5",
+        "published_at": "2026-10-11T21:22:41+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
         "source": "Axios",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5",
-        "published_at": "2026-10-11T20:15:06+00:00",
+        "published_at": "2026-10-11T20:31:21+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -105,15 +119,6 @@
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDVTS1ZGSF8wX1ZNRk8wdUFmVFd5SmkyNWlkZmktVFRNNUxqSWxwUF8tT01GN2d0RzNtWmxSY0Y5aHJ1YlBWWHB3cjh4OXRjczc0UlNtWlJFc3JpUzlPMkZTS0laSDVOakFxZTVpNVZ0U19JUi03RTVvWVZGVlY0U0JUcDlPODJMZ1paTW9VUUp2M3VaSUFKVl91TENySDVHYXQ0RVQ0SlBEWUlTOUHSAbMBQVVfeXFMTVRZSG13RHl2RzVyQWtTSE9pb09YdldWYXcwSXBBOXRDeERqRGdwQXZFd2NfS2tjY0NxbDJwbTgybXFHeldfOHBaeVo5RGNRVnBsOXRya3JTTHc4T0RYS09BdGIydkFpMHlKX056NDhLc2w3a1o0ZHJzQkdRamtfMmZyQjB4MWktOEZqVXRfRXhfNWVwQVdwSUozemRzemkwR2puUmxBRFVDSHZBQXFZeUVIRDA?oc=5",
         "published_at": "2026-10-11T20:00:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi Arabia vows major response after Houthi strike on airport kills 12, injures 309 - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5",
-        "published_at": "2026-10-11T19:52:41+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -173,10 +178,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says Russia, Ukraine agree to 'energy ceasefire' - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcXJ2LU04blFuQ3BhX2VvZW51NzZydHVzd3hLamZMVzdCaG1tUmh1WW1GTHQ4NEdSV3RqM3dmLWhCbFdrVnc5VWR4cmU1V1R2SmNiQzRRT18tMV9lNkI4emxrQXZpWFdDOTUxNWJySE5tc0daZ2VBQmhBWUk5alNDcFlhZG1QOTd3NllvdUJXTW0zczRLLV930gGXAUFVX3lxTE0tRFhUa3JyczNfbmFxSjV1bnNOMnRFUklZLXV2T3V3UEFpNGExNWlFMHlCY1dsVUswaWc5WmVhb2hOaHNOTkF0U0ljd09yVXhVcFdtUk51alduWVJ1QTBxUTNWOTRkN0hKRFQ4aU1KMHhLakdVXzZERmNMX0twNGlKYTBTWXN6S1BvN0wyaE1RemlHd3pUZWM?oc=5",
-        "published_at": "2026-10-11T17:54:47+00:00",
+        "title": "Trump’s diesel deal with Putin drives a wedge through the Western alliance - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tazh4RFp6TWVidFo0T09jUlRnZHh2Wm1zZmk4VXJfOWtZaHkzOWhkVm1EMkt3UGtTVUU0Y0lQMEE4c0pCcFBjLTNXT01BR2FlWkFVQ3RaZWNSVlpkb2JBV3BHUWJ1ZWljOW55b2htcTZnQVJWRkxDM0gyQmY?oc=5",
+        "published_at": "2026-10-11T17:30:09+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
