@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T19:27:13.804543+00:00",
+  "generated_at": "2026-10-11T19:39:02.633379+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -18,7 +18,7 @@
     "dollar_index": 102.20999908447266,
     "macro_score": 49.8,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI +0.39%.",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI +0.39%. Geopolitica: Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
       "wti": "2026-10-09T20:55:00+00:00",
@@ -27,61 +27,253 @@
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 28,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEo5WEZxUk5OcWNWU1Z1Z0g4SGlFQmxKckFxbS05WFd6UUxDNE0xa0NZRzZoR004Tms3azQ3aTVfUVIwNXlTU1ljcW9HLTREUGZBVVFiWlpVWXI3V1c3Zmt2UEJ2ME43azRMb0Vlei1iQUNPbzk4bV94bkRGTzBmREMydnBCRzVSclBoVkhrWkx4TFJ2YWdsRS1COGVOWU9pRDJqSUFNRk1pUnpQM2dlQ3o0eGpYSHYzbWdDX3dtQWtYT2Zz?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T19:24:26.764826+00:00",
+    "updated_at": "2026-10-11T19:38:50.690076+00:00",
     "open_market_required": false,
     "window_hours": 48,
-    "status": "SOURCE_ERRORS",
+    "status": "OK",
     "sources": [
       {
         "area": "Medio Oriente / energia",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 16
       },
       {
         "area": "USA / Cina / Taiwan",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 1
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 14
       }
     ],
-    "geopolitics": [],
-    "corporate": [],
+    "geopolitics": [
+      {
+        "title": "U.S. and China release $60 billion nonsensitive product lists for tariff cuts after Trump-Xi meeting - Agri News",
+        "source": "Agri News",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRmFnbndySEcwM2dKMkRRaVg4dGxrc2FwQmExdlhWZ2FwM2JSeHVLanRvTHl2cGlGV09MV0NPeUtPV0g2a3lPckl3NkFVMEJ5ZUgzODM5Qi1iZTFxb25uV2IxazdoN25hMG13QmRmOHRvcEoweEhlMU52X25vVEVrNmZGaUhOczc5REVmWG14QVZ1Wk9PcFlTQ011MS1yUFROWEZqQW9ReENKTXA5WlRTa2xWTzJESnpsZkN1OW9nUXF2YVBWQmdlUEFPak9zU1VRSFdjS2c1N2Q0ak9qU2t3cjZn?oc=5",
+        "published_at": "2026-10-11T19:30:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEo5WEZxUk5OcWNWU1Z1Z0g4SGlFQmxKckFxbS05WFd6UUxDNE0xa0NZRzZoR004Tms3azQ3aTVfUVIwNXlTU1ljcW9HLTREUGZBVVFiWlpVWXI3V1c3Zmt2UEJ2ME43azRMb0Vlei1iQUNPbzk4bV94bkRGTzBmREMydnBCRzVSclBoVkhrWkx4TFJ2YWdsRS1COGVOWU9pRDJqSUFNRk1pUnpQM2dlQ3o0eGpYSHYzbWdDX3dtQWtYT2Zz?oc=5",
+        "published_at": "2026-10-11T19:06:43+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "'Energy ceasefire' agreed between Russia and Ukraine, Trump says - Euronews.com",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWlA1dGJuY1FiV1NCSWp4WXIyaTAxbkpHdU5aT0hrUFJGdFNiYmNUQ1M2N2FZbjdzUFBhbnpLSDhSdGdKV21RcmdKZUMzck1oQ3ZLMkhqaHl2TE90bXJtc0Z3YXBNVGtoYTZnM0IwMk5iWkVBVUc0bXpvNkliSFAxbGlVUHloOUVESFBzOUx2V2NmWjl5ejdXR1hURVlMQQ?oc=5",
+        "published_at": "2026-10-11T19:01:14+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia vows major response after Houthi strike on airport kills 12, injures 309 - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5",
+        "published_at": "2026-10-11T18:45:41+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
+        "published_at": "2026-10-11T18:18:11+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says Russia, Ukraine agree to 'energy ceasefire' - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcXJ2LU04blFuQ3BhX2VvZW51NzZydHVzd3hLamZMVzdCaG1tUmh1WW1GTHQ4NEdSV3RqM3dmLWhCbFdrVnc5VWR4cmU1V1R2SmNiQzRRT18tMV9lNkI4emxrQXZpWFdDOTUxNWJySE5tc0daZ2VBQmhBWUk5alNDcFlhZG1QOTd3NllvdUJXTW0zczRLLV930gGXAUFVX3lxTE0tRFhUa3JyczNfbmFxSjV1bnNOMnRFUklZLXV2T3V3UEFpNGExNWlFMHlCY1dsVUswaWc5WmVhb2hOaHNOTkF0U0ljd09yVXhVcFdtUk51alduWVJ1QTBxUTNWOTRkN0hKRFQ4aU1KMHhLakdVXzZERmNMX0twNGlKYTBTWXN6S1BvN0wyaE1RemlHd3pUZWM?oc=5",
+        "published_at": "2026-10-11T17:54:47+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack killed 12 - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWlN4NkdrSnF3dWhtU0M0TmJ5T2tRNmxyT0tuN09Lb0hyWnhPdW9FbkdNUEMzVU5SY1l2dHJnVE4yMTFSbEtZU3lSeDdTSG5JYjZqTXFsa1piUkV0M0xZMUIwamdKNEZQRWFNQ1lxV011NTN2bEdvQ083V3B0WDZkbmNFTlVYcmtKRUJGSzNPcVdwSDhKQWRCYVc5NmRNNkJ0NTdjM0ktbkY5cVRtQVdpQkQwRUxLaEx1bWdIc3Z0Ny1aZk1lTDBDQWk0ckbSAcwBQVVfeXFMUGx2M1UtQjFSRkpCbmduUEZvLTRjcjZjVTRkQzNEbzBJQzRuaVZWZWtKQ3JIWUlhbk44X0kxZFYtdW1NblJfYmdVSFFkWHBmdkpkdXdkY2FZYy1nOVZ5VzliZDBBSUMwQmhEVlZOZ19iS1lTY3RwcGlCREdsekdJWTkySXBFaTg3TjlFWUpvM214N1JtT1lpWGNTYy1HY05EajliRUs5M19zYXJlSXNHMHBsN0loQ3hZNnlVWFMzNlVuWnkyS3JxYzFic1BK?oc=5",
+        "published_at": "2026-10-11T17:52:46+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi airport struck again a day after deadly attack - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd3M5MTVOZmhBYU5OT0RNMHd6dmN0RWgzb2hNRnRaYmRlbFZnQzB3TTVZWUZucDZXekNkSlFxS21TS2JhNUxJSElTNms1Q0hGOGYzUk9vWndFWHVoVlQ2emF1bFhMOWFZOGdGVDQ5Q0NsMHlUa1NIQ2t2SmpNTmcwWkFBSGE2aTRkanoyUF9iWk5xMUxqVGE5bFhmeFl0bFA5cWpV?oc=5",
+        "published_at": "2026-10-11T17:30:41+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump’s diesel deal with Putin drives a wedge through the Western alliance - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tazh4RFp6TWVidFo0T09jUlRnZHh2Wm1zZmk4VXJfOWtZaHkzOWhkVm1EMkt3UGtTVUU0Y0lQMEE4c0pCcFBjLTNXT01BR2FlWkFVQ3RaZWNSVlpkb2JBV3BHUWJ1ZWljOW55b2htcTZnQVJWRkxDM0gyQmY?oc=5",
+        "published_at": "2026-10-11T17:30:09+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China has agreed to limit car exports to the EU to avoid a large-scale trade war - Українські Національні Новини (УНН)",
+        "source": "Українські Національні Новини (УНН)",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSTNyMWlibGFmWGZIdjhUUUE0eXRVN1Q3WkRSRWtSRzI0R241ZFE4dTBIZVUtX2dobWZRQ0l1aDMwU29ZSVM2VTYwNTdBQkwtRlR2N0d5VFJsX05zaUx1S3NDS0NZV3pwMFVvdHVHTGZaUkk2cXFKdWdISHlYeHNIaUZ2dWZBZ0hWcDdpckdPUkJ5T1QwYjkteHJvOU9RRXNfMXZKeGxn0gGkAUFVX3lxTE1vOGhBNVNXUzhIQ3MxSllXRnFBWVJ0YVFvRGtYN0VyTkNLOVozeExWY3lmY1ZlRkhybkUxcDlqVkNadm1KcjdvZTF4SkRWWDN6VXZmZlJTYXVIb1JuNmhobWdiM0IzTkpaV3hjNmxsbmNSQ3RtSHJfYndlWUhJRWQ5SVhnUExpZWE4S1ZWRVJ6dG9sWEZhcnFnaFZOWjcwbW1FeTU5?oc=5",
+        "published_at": "2026-10-11T17:20:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says Russia and Ukraine reach ‘energy ceasefire’ but gives no details - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPamZWc0pzUzdKd3YzOVM2MXRGdTc1akUwMDBma1pxUkt1OXd3ajk5RUlhLS1xaHJsVVdwVXk5cDVaMlFIcGxqSWtpelg1UUsydjFIZ3VpSXBKMTBnVlh3TTFUMGdjNlBtMWhEZmFpSnFTNVBDMWx1OVN5X2xGQS1DUndqS2RPQ2FBWXIxNGE5QzFhX0wzaW9vWUkwb2VoUHhGZU5Z?oc=5",
+        "published_at": "2026-10-11T17:16:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "After oil increasingly left the Gulf, Iran is trying to regain its stranglehold on shipping - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43VjFQRFkxRVVwaTRiTHBubTY3M19MS1I2RFZsbWxHakhPUlNfc0Y5WVFvQ2xrY3FaSTAycE1sVmU3QXhnZ1RRTGlndVNPX3MyVVplNXllaFpGN1F6MjMtUnkzRl9JVDNCcWhyaVhOc0otM3lsbXZuWGljYw?oc=5",
+        "published_at": "2026-10-11T16:28:49+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Why the US-China trade truce matters - The Manila Times",
+        "source": "The Manila Times",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcXQzS0hoOTZST1RDZFJDaDBFY1pLejdPbW5jOGhMNFlSXzBmR1R1WENfMVMxa3YxUmxPQzh4NzJzUVVYRkV5VXRkX2JjU3Iyay1Ib09kUUR1azZaVWpoal9abldsRlhhRzU0QXZzUF92MUJXVzJ5SVA5bk5ObmNBdmpOU2lpY3Y3V19wd1VJWUFnakt5SU8xMUtRaU9kd2t60gGmAUFVX3lxTE9xN2lxa2pmRlpldnk1OGdmbjdRWTZmTEVFcGZtTER1V1gwQUxDai1PN2lZSTRYdmhDZEZsUklJVmVRYldXeUx3dkFTby0wdHBNSjR3S3o2c1FVTDVXVk5mRGJzbW1lRDJQQW94VjBoY3VUTGhjMGJUNlVYSkJpaV9Pb0pxNjdmU1ZROFVSbUNYVy1OX2tHLTZGY3dZNUhLaGxLaFBNS1E?oc=5",
+        "published_at": "2026-10-11T16:02:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China, EU talks keep trade ties stable - China Daily",
+        "source": "China Daily",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aSUxmdFNsdXJZYVNqS1NDaHV5QkMyRzgtb2F1dllrSEVkMkh5UWtHVXRvc0RyWVZ2N1dVUFJYa1loYV9QYnI4ZjJpb1pWalpYSDQ3dlRLT25BVUpOa3NTWkNNY21oSnp2RVpoU25EZjVIZ1BTRWlmTy1Jb2RHQQ?oc=5",
+        "published_at": "2026-10-11T14:50:10+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China Moves to Stave Off Wider EU Trade War With Hybrid Deal - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUFFlQ2RWX2k2c19mRUlseHB2TDlOM0xYSVdXc29YSHBVS2o0OE1qRHFXQU1JR093ellFZ2xSNEg3cUZISWx1SllLdmpuQWNBaFoyQmJHU1RaMHZ0YlFXN3l0eVZkNlhvQlRaTElKWExxTFh4cmNOc0xIeVdpdWh0MHdicmVsajVQMEdtMkZRRzFMOXpyRzBXQmdDQ2lpUlFKVlRMdzVlSXR3aE51ZU9ZZA?oc=5",
+        "published_at": "2026-10-11T13:52:31+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
+    "corporate": [
+      {
+        "title": "health news today fda approval weight loss drug - Olhar Digital",
+        "source": "Olhar Digital",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWUM4SVMwdWxpcHpxTG9sQVRQeHpQS1ZMSkN4NWp5YWxHd0VfcThVeDhrUW04XzJ5Ujd4QWowOEZWT3E2dzlocndPZDRGYjNxemZtWldacWhzbUxWQVdhc0RNMTNyX3EyOXhORzNYU3lWTElVSzJYSFpJWXlWRmp1SV9lc1ZPbFRJX09PMHdQaXhjamJaYWc?oc=5",
+        "published_at": "2026-10-11T17:52:04+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ahmet Dirican: New FDA Approval Brings Immunotherapy Into Curative-Intent Colon Cancer Treatment - Oncodaily",
+        "source": "Oncodaily",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KeEo4NnZjRExTaTJoYlFjQ3ZHT1dTelZ3ZTFlZFVxZExCdnBvcTBrd1NnYlJyRm9tLTlPNDhjSl85dFJtdDVXelJYZmQxb1Z2d0ZFRkdsdzJ2MW9mOEZn?oc=5",
+        "published_at": "2026-10-11T16:54:28+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Earnings Beat Could Be A Big Moment For Micron Stock (MU) - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc1NPOUtCYllRVFRsQjAxYjNZX0pnLThsQjI5MnJxeGlNWVFSRlFISFF4dGoybmJQVjVGRC1xbXhqcHB2SUZBWGJVbWwzM0ZhQzkyd09EbHBQYllQRVFJMzdnaC1OSF80MzdoNXYzSkFnYXE4c3VhdDlWZVVuUi1fMGdDUnlrTnZPa20xbWdfTk1pOGduWS1zWG8xZEE3M1J2YlVFUFE4QWZ3WF9wUjM4UGJZYkgyTGN2cVNxR2VsX3Bqam12dGlHSEJVdmV1RXMw0gHWAUFVX3lxTFBWUUpkdFY5SURnT1NqZHhBTnQ0ZnR6TWlyNzNqWldxVUZ2d2EyeGNaQkd0aFBKOEphaXJabmh5eGhSVEFmblN2eWY5NENSMHVYVGRfZzc5bXBId3FIRWJPajlLR0hGWlJkd1AyWHdJTlhRRFpRN21FMTJyTnpiX0FpTW5QVXo4anRjeDVUOURDN1dzNFhkeWJOSElGZFQ0VGlxeFo0aWsyY2J6LWlWZUR1MUY4bjNzVFhVTU1WcFZiT3FhWm9Fd2JVUTltZEFzQTRCaGxjN0E?oc=5",
+        "published_at": "2026-10-11T16:53:01+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "how long has zepbound been fda approved - Olhar Digital",
+        "source": "Olhar Digital",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWnF6Y2RXWXdPcVUzdTljRnFkTjlPOEZEdHRiYmJrNHZDNGxlZUNjV3NHRmFGWUZ4MnFqalBOQktVbjRnVXc3WVpoV2VkdVJ6dW9vWGZxTk5ZdTFZOS1sNXpsT3ZmRkl1bV8wWnVMa0xjM25nbmNMcmNpLWtlVjVfcVdQbnZUNC15bE1v?oc=5",
+        "published_at": "2026-10-11T16:41:05+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pfizer Is Trading at Less Than 10 Times Earnings. But Is the Stock Actually Cheap? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNajRETGxxSkxoZWFzb0oya2Jsalk0M3B4RlRsR3RFX3o0UjB2UHY4clRpSHZIWEcwb2EtWmxpZ1M4MDdpQmthc28weTJVNUxWY0xtbkRtaVhaRUxOOHYtNW8xMGpXeDJtZmdIemlCZGFzaEdFeHZ5SGpfMEdRS3d4MC1TM1J3RnN4OE41c2FRMjY5SEhUZk5oLQ?oc=5",
+        "published_at": "2026-10-11T13:01:29+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "mounjaro fda approved for weight loss - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXktWE14RjB2UUFrMlZ0WjNTYVc3OW1kX1JhRHB5RlNXS0VOSEFSNVNabkVqbTNsQ05MeU5PX1dod0lHY0F4clJ6dXZNM1RsbXpCSGRYZXdFVmJaWnhTWVFiNW1Jalg0VUdKV0Z1WkItMmtBeXhqU2djblNpNWJyaFloVGhjSEdRSUlxVHFaRQ?oc=5",
+        "published_at": "2026-10-11T11:36:55+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
   "archive_count": 13,
