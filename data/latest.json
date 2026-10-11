@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:39:34.542473+00:00",
+  "generated_at": "2026-10-11T07:53:30.973426+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -18,7 +18,7 @@
     "dollar_index": 102.20999908447266,
     "macro_score": 49.8,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI +0.39%.",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI +0.39%. Geopolitica: US hits commercial tanker in Gulf of Oman as tensions flare - Financial Times",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
       "wti": "2026-10-09T20:55:00+00:00",
@@ -27,14 +27,20 @@
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 35,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "US hits commercial tanker in Gulf of Oman as tensions flare - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZF9DS1hBWldLa0lJMWU3YkJTdkNKZGpCRlhlSnFPMFlMWmRLWUhZYW1ydmJSUGVvOU9NUTA3YWI5SDFKRy1mZ3ZWemRURF9XZVRhUmhBdXRGMnJSVGFYcmdoNHJHYlpveXl2djJFTmhzWjJ1ZU84VzJZc2Q5enVSdm1QTmU?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T07:39:24.420945+00:00",
+    "updated_at": "2026-10-11T07:53:20.626933+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +50,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -58,14 +64,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +82,33 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Trump calls on Ukraine to replace Zelenskyy amid tensions over Russia deal - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVGhVUFFuc21VY0Yxd29Rb1plWTVoWWo0WVpfOTEyTzJVanJRd1JCSTVRV0phdjM2UkRtMUZMaUJuckVLZC1vLTV1X3pDU2JCOWZFb1B6OEpfcGptOU1ZNWlKRnhWSnZ5UEhZd2NIVjNkMUNjbmNhMTFKT3VUUVZjZUVGSi15cUVlNHVxbGhvVWduX1gzRFppc3BBNThtSkQwc1pkMTlKSlh5c1YtTXFnVDZ30gG3AUFVX3lxTFBYNHcyeFdIRkpzd21TZGZDcVZJblgzNXV6NWZfckNyMDQzLUxlYzJzcFhmYlhrengzZ3V5WElmUU9SNlA5VFR5Yk5LMU1xNWo1eWptVjNzQ1QySUpTNE1fSlo5Z3lJX3FvUTRJT2Fpekp3eDlQd0YtYU8zWS1jdGhQNmU2WjBiWlFvN0E2RVd4N1NNMFF2czl1enpFTzNfUWJZa1RXNEV2U3BHRGxNSWQ1SEtCc0w5SQ?oc=5",
+        "published_at": "2026-10-11T06:56:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bangladesh condemns deadly Houthi attack on Riyadh airport - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUUtvM0hrX055Unh4ZkhsTGFtUFZBQUR4dVFZRkNqWTAtdjVMVS1oamhMNEJteEtSYlNsTHc0WWNzd19WM1NUUjVsa3lsMHJjOFlDUlhsd014OWRHVnlqc3NnVFhnNlN4ZnlOQ0FDdGI5LUQzLWc0TXBvaUh3ZUNLc2Z3Q2gzU2NyZ28xbVBBd1pMX05lQ093S1BPSEV6VzVTcWdyWDhoUQ?oc=5",
+        "published_at": "2026-10-11T06:47:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Deals with dictators lead to hell: Estonia’s PM urges Europe to help Ukraine destroy Russia's refineries after Washington eased sanctions on diesel - Euromaidan Press",
+        "source": "Euromaidan Press",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOdE1ValVzRjVGVTU2amE5ZmYxbkc0UzZiMFNDNjg5aGVPU0lVVmRqVW0wWnEyV19kTmRJVlgxWUlyMV95ZVRzSExOSmc1cFZWbE9SOFlzbjlIRUF1UGdHRGRHLU1TN0UyZ0NZZnFNY2FjbGxBTW45Yzc5TFJ1SFhMNHc0UDNuMlhLLXR6NFBlR3o1cW5ZUWE2LS11aE9Fdy1vYUw5MTc1eXI5T0pNaWh3N3lDM1FKU29sT2lsUkloZzlUU0Q0dnZycVFfZHowUWFMUG0xclFzUVNfRWxVUTZXQUpKcEMxTHhJZlJXRmMtVm1MYjZZaUwxbmJLYWliWXNrNEQ3QXY3bUstUTFPQnFzYkJB?oc=5",
+        "published_at": "2026-10-11T06:40:05+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "'Flagrant violation of int'l law': World leaders rally behind Riyadh after Houthi airport strike - The Jerusalem Post",
         "source": "The Jerusalem Post",
@@ -140,15 +173,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US weighs strikes on Houthis and Iran after deadly Saudi airport attack - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tTzBYU0lxSGR2OEJ1S0ZsSDRQcVZHRlFOV0dQeWsxZ3VrZFNyRU5lTGxISEhvU09GREx2WUJjeVVzYVFWVGktSFdQZC1BeHdyY0E?oc=5",
-        "published_at": "2026-10-11T04:19:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China's Ministry of National Defense slams Lai's 'Double Ten' speech for hyping up 'mainland military threat,' pursuing 'Taiwan independence' - Global Times",
         "source": "Global Times",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlOEx4UElMVFpaSUpIOTFhMHdnS0xLLTdHQ0FHVXByNm5QQ0d2X0VxNTN2R2dWck4xQWxHMGRnWDZvYmVvZmJySlpMaVlBRkVCTVZ0M19vWXpzV254UmdEYThR?oc=5",
@@ -158,21 +182,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "China & EU set March 2027 trade talks, seek stable ties - Fibre2Fashion",
+        "source": "Fibre2Fashion",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS1E0RkF6WTE1LWZKVFRXQkk0RFpTZlByMVd5bDlZOThkWndNY3dZTkRHalhyNUkzd3pXb2lMWk8tTnRIXzJ6VnlTa19BaDV2SnlRX2NnRUxoU1FNNUdwUjFUa0w1dmdmRGtXa25jSUtXUVRLOGNuVTNpNndfMHIxVjVtb2J5U2s4dF9oUmtzenBwdW5KTzNhMlZ6b3VSMm0zaEQyVWNyaUJsc3BuRkdzSVZwS2hxSjZFbFVDUXNUaDQ?oc=5",
+        "published_at": "2026-10-11T04:05:24+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China and EU can manage trade differences through dialogue, Wang Yi says - chinadailyhk",
         "source": "chinadailyhk",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wMUdmNld3LTZMNXl6TXlTQUZwY1JWMW5TMjB5bXBSdTNoV3NNc2ZTRi1BNXlHeHdhS1h4bkJfdjkxem8yZlA5bURQWmpXbTUtR3dtRjR6Y0Q?oc=5",
         "published_at": "2026-10-11T04:04:04+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Deals with dictators lead to hell: Estonia’s PM urges Europe to help Ukraine destroy Russia's refineries after Washington eased sanctions on diesel - Euromaidan Press",
-        "source": "Euromaidan Press",
-        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOdE1ValVzRjVGVTU2amE5ZmYxbkc0UzZiMFNDNjg5aGVPU0lVVmRqVW0wWnEyV19kTmRJVlgxWUlyMV95ZVRzSExOSmc1cFZWbE9SOFlzbjlIRUF1UGdHRGRHLU1TN0UyZ0NZZnFNY2FjbGxBTW45Yzc5TFJ1SFhMNHc0UDNuMlhLLXR6NFBlR3o1cW5ZUWE2LS11aE9Fdy1vYUw5MTc1eXI5T0pNaWh3N3lDM1FKU29sT2lsUkloZzlUU0Q0dnZycVFfZHowUWFMUG0xclFzUVNfRWxVUTZXQUpKcEMxTHhJZlJXRmMtVm1MYjZZaUwxbmJLYWliWXNrNEQ3QXY3bUstUTFPQnFzYkJB?oc=5",
-        "published_at": "2026-10-11T04:03:37+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -189,24 +213,6 @@
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdlFZamNIYjNQeG1NLVU2Q2xnTml3MGhqRVdDbTAzZk5mZTlNX1FFQThUcHNqX2ZKVkJyOWtBV1NBQWRsM284QWEtclhfMjFXeWJyQVg2X1J6aWhFQTZkNS1COFMwSTVZbGZIbnVoWWpwNHRlbXktXzBTbzUxVm5YLTEwa3hyNnRxOVNXelN0MWxwUnFlNzFlcFEtZUY4MXJUajhWNlRIMFBnMzYwTVByRnhBWUpIclN2ajRfVWt1YUpuMmw2dmpseQ?oc=5",
         "published_at": "2026-10-11T03:00:09+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EDITORIAL | 'Deal With the Devil': Trump turns back on Ukraine, gives windfall to Russia - Texarkana Gazette",
-        "source": "Texarkana Gazette",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGtQX2piY3lxVHF3QTE5YWdlWUZ1ZVlmcGpySWloWUJ3WVFJT1J6eVA0WHpmNjgwTlUtVUdVeWlmSnJBMTBNQU5WaXdrOWhUeWtJSk5Ha2UyckdYUzJZdzMzcGlxUGZXZUwzaHllSFRaSXBuRG9YcUVwTG1MWU92ZmlrbFYyYmowMG9OZ3VILUxhQlhYak8yVFlmdnhNc1dDUVE?oc=5",
-        "published_at": "2026-10-11T03:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China says can avoid 'escalation' after EU trade talks - The Jakarta Post",
-        "source": "The Jakarta Post",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeEd3UlFELVd3VG85TXFkQTVYZTZEaGNrV3E5WHRrVTNFMXFlY0kxZ24xU1RpeGhRSFdXMkVIUV95dXMxcG5MQkRkcHpyMG1XNkU5NkNkOFY2Sy1DN3J5emRRdHNDajBoS09QZnVoZTNwZWp2UHZWODdJakFvb1VDMzZWcUZtV0h3SXVzNGt0enk5SXEyZVczR1hyaFlGNjQ1eGlzb2lBcmNVdFc2ZElQaU5iSEc5UTNZTUJLRzZEb3k2dDRGMll5ZTRrQzBTYWdocWdfYjh4VmdzSUdZNW5J?oc=5",
-        "published_at": "2026-10-11T02:52:16+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -250,15 +256,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM0dWbDhnenNwYzNLQlJwUk1rVW9Kd250Z2RSNUM3b3dUUm1haGY1QWp1QkJkNzEwbHl5dHBKZmxySTFkdEs4WGktb1ZOOEctODZSMS1FWlAzaHpqckpFcVlrLWtGdFdJMUhQZDgwUmVqLVVaOWstMkREN0U5N3ZlSl9RbHRDb3V0VVRhRlgzLTBfd1VzVGRxRjVmZVFWTl9feW45U29KcGFWOFBfellQUHpqWQ?oc=5",
-        "published_at": "2026-10-11T02:06:22+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Moderna Now Trades 61% Above Wall Street's Average Price Target. Should You Sell? - The Motley Fool",
         "source": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTFPWTVCSmM5RGNJeFdCVjA5MnZUTW1CZVVOZHk4UGRfSW5SMXBNWmJ2Rll3UW9FNmFJUTNaUmxMc1MwYTN4Y3JBZEtjZEVWYjBZRGVoOXUxZ1RTUDh0ekpJWDhKaTllZF8yT2ZxVmJ5eWdIS0x6bmVteDRWQ0EyaE8zdkVkbS1qWEwzS0M4SGVENjZreXc?oc=5",
@@ -277,6 +274,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Frontline Breast Cancer Approval Could Be A Big Moment For Pfizer Stock (PFE) - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSk03SVNOZGVNSVBLUnVwX1U2Skd2am5fTDhRLVR1UEtLdC1lMzVMQzBZYXZhQkkzRHRFXzU3LXVmMXNhR2JWZS15N3VtM3NsZ1JtRVNaMmE3S0dHU1RRRUlNLUlyYzd3MVFjbWwtdS10b1FMYUpYOTdnNU1mQnBmbTdEdFVwRktqUEt2S3VkOHBYcGxMUGxPOGRsSkRwQmJHdmRQTjhtUjB5VDE3NEh3WFRpd29Cb3pnNDJ4M2h1MU10TEYzeE9xWVNVSGtqSWZSNUVMRkViM27SAdgBQVVfeXFMUEpNN0lTTmRlTUlQS1J1cF9VNkpHdmpuX0w4US1UdVBLS3QtZTM1TEMwWWF2YUJJM0R0RV81Ny11ZjFzYUdiVmUteTd1bTNzbGdSbUVTWjJhN0tHR1NUUUVJTS1JcmM3dzFRY21sLXUtdG9RTGFKWDk3ZzVNZkJwZm03RHRVcEZLalBLdkt1ZDhwWHBsTFBsTzhkbEpEcEJiR3ZkUE44bVIweVQxNzRId1hUaXdvQm96ZzQyeDNodTFNdExGM3hPcVlTVUhraklmUjVFTEZFYjNu?oc=5",
+        "published_at": "2026-10-10T19:00:20+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Israeli Pharma Giant Teva Wins FDA Approval for Monthly Schizophrenia Injection Weltruza - Haaretz",
         "source": "Haaretz",
         "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONnY0andBVDJvbGNGeTRXVWFiWU0wRkd6dEFIdHh4ZkNEelRuLWtlX20xUzUycWFCVEQ2MHdHOVlNVFB6VlZiQldZOGxic3pId1hidUM2bnVOQjRsbm1UWFlzSlp5b3hBZTNXb1V2a3lnQ1pYR080dXJsRjVWZzZRUjBERDFvZ2xaLWQwNjdvMEtkUExCcjlwaDhvVnFfVjRjOTYyRGRtRDR6YmJ1MEJjeHkxUzRJX2c1Z3FuZTZ2YVBUalZ6cWZtdWJDUkZDVTZjMU1Dd2tLVmh0MFBjVXZmS21rQTYwUFB1NnphQUI4VC13R2V0VXlJUHEwSFQtMHpIRzNiZ282blE5SHl1dmc?oc=5",
@@ -291,6 +297,15 @@
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTVEdnlRUlhkWnVNLUpzMllxR19sZ01VMUxtNTBNZWVIWXdTX1hfOWJtVnM4cWdvQXp4cnBoNzBib0JLa25lcmdORmd6Tl9zVnlkOV9HX0R2MmR3RWt5NTV3RDVQNGxJMy1uUkM5REdqem4zRXB1N29oXzNxOGM2VldWeENtOHhCdlpNbEszTFhKaXlORUVuUHprT2toTUZKMmZoeQ?oc=5",
         "published_at": "2026-10-10T16:32:40+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M?oc=5",
+        "published_at": "2026-10-09T22:27:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
