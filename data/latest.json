@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T10:19:42.339036+00:00",
+  "generated_at": "2026-10-11T10:36:04.623781+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -58,7 +58,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 2064.7,
+      "quote_age_minutes": 2081.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -83,7 +83,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T10:19:31.453930+00:00",
+    "updated_at": "2026-10-11T10:35:53.297714+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -100,7 +100,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -126,6 +126,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Ukraine Will Stop Hitting Russian Oil Only if Putin Ends Energy Strikes, Zelenskyy Says - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZk5tWHd5TEVkWHMwNGpjbUxpWFJJc251ZV9haWljbkRfM1JxS2lHcmNUUmViZHAwY0FRMTAtSDRzaTFqV0pfRkQ0alBja1JtaEk2dXpnU1RMTUhldndkMllPVW5pM01XdjZ2VUxrNC1MU1ZkR1hIUTZxdEZUNDdFeDF4NnhMV29rY09MMTktbUdjekU5eEsxUk03VnRyMHVrUWdYYjRwWjROdEgtY0h6enZPVWxIZUhYZ2FfVkFrZmJ1cG1ibkx1by1IQlREdw?oc=5",
+        "published_at": "2026-10-11T10:28:40+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "UK must bring US and Ukraine ‘back together’ amid diesel deal, Streeting says - www.the-independent.com",
         "source": "www.the-independent.com",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV3cyUWUyaEZoV3NCbXpuQ3VES2RkVWtLVkctcmZhSFJWNVBHNmtNWWdXVDB5SVlxQWtXQ1lFZkR0cGVlVUV3UzBCS1lGaUVGS2FEcVNfYURZMUtvdHB3bHZ5THpFekFTYzdGV2hUd19LWDdMd1V4MjRhSjB2eTh3M0tVbkpSSmp1VGhOc0FraWlGV241SG9zYUlDbWVwSzBZaFFEdWlIY2h5M191V2RNZ2M2MzlnVE01dGZpR2xPMDlSSnQwX19kLTVn?oc=5",
@@ -139,15 +148,6 @@
         "source": "The Moscow Times",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjdvNEdTbU9rU0Rvd2lCY0JGQ0hQYTBEYUctZXc2QmNGZGNBd290Q2tXc0p6MnloenIxLXNyOVI3bUFWTWJ3djNfRWljekVaalFwcllPdi1LU1I5WldFazBYaGFpOWJ2bW9PMy13WU1Vd05IU0tQLUMyYnpYZVo4TFlTZEY0ckZhOUJYaDZhalhnUjFGWEd0VncydzNQRDRfelBoZXk4LVlnUGhrR3VURjRQSWRSeXFDcU9ubVl3?oc=5",
         "published_at": "2026-10-11T09:04:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine steps up strikes on Russia’s tech infrastructure, damaging third data center in 4 days - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYm1RVFpmLUhpSG54M25FVmMyOEJCa0hpRVp1M1ljOWt1dXhraE5LeTdjLTdhSDBtTm5RMmh5dnh0ajN5bWpWRVJsdDBrOHJEcThYTU5sY1JTS2V4QXBsU2FySU95YUxRSFk2UVBCMk1JbDEtV0lERUg0Z2E0b3Vsc1VQWkRwc21ubDNyMXk5RS0zTXZWbE51V1hKQkVNUE1fSHZIWXNZRzZXYklPX1hRTnJ4MTVJTTRD0gG-AUFVX3lxTFAtaEtLTy1JUnI4Y3J6X0hOd1JubjBRQ09qbFJISE1ram9IeUwtNEc5c3ROX29la2dYQUdvQzVnbVZmNlVIMVJ4R21UMHZfdzJ3MmdXN1g1cTItbjJHZDMwU2NjR092dUxVZlNFTFZCVXhRS1d1bHNMRHE4OUhERUZPeDY4X1I2RURZYktCTC1VUGVnaEdwWWwzS05xeUFXYjd6WVk0blhBYmpwNVNtUEk4Y2Q2VzJ2UlFKa2lwanc?oc=5",
-        "published_at": "2026-10-11T09:02:33+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -173,8 +173,8 @@
       {
         "title": "What the Iran war has done to the world’s energy supply, in charts - Al Jazeera",
         "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNmVnQ1JDb2hvaXFrc2xlLXVQVXk1MUxVVW1rUFJENm84S1VmS2ZaNFNTVjZUU2hKRDRIdGU4Z2VCUTdZMGg2Q05PVFk2bFVPUFBHRURHaWgyZkVPSkc0QnlxT3UyenVZbWpyWGFVby0wVFZ1NmRGZHpVd0lzWGpTaHdNS3Z4LXR0d0RIdlgyaXpQaWZZZnFZWXhZeTRkelJFdXV1enpNWW5rMVdFWUpJ0gGvAUFVX3lxTFA2ZWdDUkNvaG9pcWtzbGUtdVBVeTUxTFVVbWtQUkQ2bzhLVWZLZlo0U1NWNlRTaEpENEh0ZThnZUJRN1kwaDZDTk9UWTZsVU9QUEdFREdpaDJmRU9KRzRCeXFPdTJ6dVltanJYYVVvLTBUVnU2ZEZkelV3SXNYalNod01LdngtdHR3REh2WDJpelBpZllmcVlZeFl5NGR6UkV1dXV6ek1ZbmsxV0VZSkk?oc=5",
-        "published_at": "2026-10-11T08:22:30+00:00",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRzFYc2VSOHpyUE1vTFZCazhLczV3dWpZaUQzdmY3bExLeTMySVNpdm9OdzNtN29MTDRfRThhRzB2NnFGQXV6TjFXdzhkVXBnNksydE1mc2d4ZE1zNzJ0bm9qZVpPMDBQcVJBUy10NHdSQnNfcEwwQTEwTV91RklEZlpwb3dIYTFQWm5tV3BWbmJBYXdUT2pHRDF1dUw5cmpmYzk4eDljNVJKZw?oc=5",
+        "published_at": "2026-10-11T08:29:37+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -317,10 +317,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Israeli Pharma Giant Teva Wins FDA Approval for Monthly Schizophrenia Injection Weltruza - Haaretz",
-        "source": "Haaretz",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONnY0andBVDJvbGNGeTRXVWFiWU0wRkd6dEFIdHh4ZkNEelRuLWtlX20xUzUycWFCVEQ2MHdHOVlNVFB6VlZiQldZOGxic3pId1hidUM2bnVOQjRsbm1UWFlzSlp5b3hBZTNXb1V2a3lnQ1pYR080dXJsRjVWZzZRUjBERDFvZ2xaLWQwNjdvMEtkUExCcjlwaDhvVnFfVjRjOTYyRGRtRDR6YmJ1MEJjeHkxUzRJX2c1Z3FuZTZ2YVBUalZ6cWZtdWJDUkZDVTZjMU1Dd2tLVmh0MFBjVXZmS21rQTYwUFB1NnphQUI4VC13R2V0VXlJUHEwSFQtMHpIRzNiZ282blE5SHl1dmc?oc=5",
-        "published_at": "2026-10-10T17:50:00+00:00",
+        "title": "Frontline Breast Cancer Approval Could Be A Big Moment For Pfizer Stock (PFE) - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSk03SVNOZGVNSVBLUnVwX1U2Skd2am5fTDhRLVR1UEtLdC1lMzVMQzBZYXZhQkkzRHRFXzU3LXVmMXNhR2JWZS15N3VtM3NsZ1JtRVNaMmE3S0dHU1RRRUlNLUlyYzd3MVFjbWwtdS10b1FMYUpYOTdnNU1mQnBmbTdEdFVwRktqUEt2S3VkOHBYcGxMUGxPOGRsSkRwQmJHdmRQTjhtUjB5VDE3NEh3WFRpd29Cb3pnNDJ4M2h1MU10TEYzeE9xWVNVSGtqSWZSNUVMRkViM27SAdgBQVVfeXFMUEpNN0lTTmRlTUlQS1J1cF9VNkpHdmpuX0w4US1UdVBLS3QtZTM1TEMwWWF2YUJJM0R0RV81Ny11ZjFzYUdiVmUteTd1bTNzbGdSbUVTWjJhN0tHR1NUUUVJTS1JcmM3dzFRY21sLXUtdG9RTGFKWDk3ZzVNZkJwZm03RHRVcEZLalBLdkt1ZDhwWHBsTFBsTzhkbEpEcEJiR3ZkUE44bVIweVQxNzRId1hUaXdvQm96ZzQyeDNodTFNdExGM3hPcVlTVUhraklmUjVFTEZFYjNu?oc=5",
+        "published_at": "2026-10-10T19:00:20+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
