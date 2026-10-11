@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:24:14.912377+00:00",
+  "generated_at": "2026-10-11T07:39:34.542473+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -31,53 +31,10 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "a4f69aab7a05",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "NVIDIA Reviews Reflection AI Acquisition for Open-Weight AI - 조선일보",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbTVLODZwcFNNeGdOOGNPTkxXUnh3c1hBcGRaWXV6LTNTRGQ3d1A4RXZmUUlsczZMTHZreHU0X0Z4SC1jZTZjSURiZkpxLWE0QnRkOWlKRzQzY1hhQ2xCLWwwbEFiUVZzVTRaNkpaYm1SNWhwMzR2blNnVEg3TF9rRElSZ1VCYVhZ?oc=5",
-      "published_at": "2026-10-11T03:24:36+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -0.5,
-      "short_term_change_pct": -0.03,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-09T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 1889.1,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 48.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-11T03:24:36+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 50,
-        "macro": 50,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T07:24:04.133947+00:00",
+    "updated_at": "2026-10-11T07:39:24.420945+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -94,14 +51,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
@@ -201,15 +158,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China & EU set March 2027 trade talks, seek stable ties - Fibre2Fashion",
-        "source": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS1E0RkF6WTE1LWZKVFRXQkk0RFpTZlByMVd5bDlZOThkWndNY3dZTkRHalhyNUkzd3pXb2lMWk8tTnRIXzJ6VnlTa19BaDV2SnlRX2NnRUxoU1FNNUdwUjFUa0w1dmdmRGtXa25jSUtXUVRLOGNuVTNpNndfMHIxVjVtb2J5U2s4dF9oUmtzenBwdW5KTzNhMlZ6b3VSMm0zaEQyVWNyaUJsc3BuRkdzSVZwS2hxSjZFbFVDUXNUaDQ?oc=5",
-        "published_at": "2026-10-11T04:05:24+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China and EU can manage trade differences through dialogue, Wang Yi says - chinadailyhk",
         "source": "chinadailyhk",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wMUdmNld3LTZMNXl6TXlTQUZwY1JWMW5TMjB5bXBSdTNoV3NNc2ZTRi1BNXlHeHdhS1h4bkJfdjkxem8yZlA5bURQWmpXbTUtR3dtRjR6Y0Q?oc=5",
@@ -246,12 +194,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine says it won't stop attacking Russian oil resources amid diesel fuel deal with U.S. - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTkdyeVcxQzhJR2hPYTZEb2dlWHBJZjQ0Y2NHYl9YTkxuYnl5bU94YnBGYnV2RE5jRm1lWnRicmdZZllsZGJjd2w0SGdacDY2Uy1POW9Zb2piRHFCRXVUeUVJd3paOEdRMWlxZ0tyWTM1X1hadWxpZ3NhZ0R1TEZoUnFUbW1abUkwRElWNFVkV1hIWXhvTVpQZHROUW9WdWtEd0F0T1VnZXJpZ0VZLXZwbHFQcVRYNk5wMkE?oc=5",
-        "published_at": "2026-10-11T00:39:00+00:00",
+        "title": "EDITORIAL | 'Deal With the Devil': Trump turns back on Ukraine, gives windfall to Russia - Texarkana Gazette",
+        "source": "Texarkana Gazette",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGtQX2piY3lxVHF3QTE5YWdlWUZ1ZVlmcGpySWloWUJ3WVFJT1J6eVA0WHpmNjgwTlUtVUdVeWlmSnJBMTBNQU5WaXdrOWhUeWtJSk5Ha2UyckdYUzJZdzMzcGlxUGZXZUwzaHllSFRaSXBuRG9YcUVwTG1MWU92ZmlrbFYyYmowMG9OZ3VILUxhQlhYak8yVFlmdnhNc1dDUVE?oc=5",
+        "published_at": "2026-10-11T03:00:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China says can avoid 'escalation' after EU trade talks - The Jakarta Post",
+        "source": "The Jakarta Post",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeEd3UlFELVd3VG85TXFkQTVYZTZEaGNrV3E5WHRrVTNFMXFlY0kxZ24xU1RpeGhRSFdXMkVIUV95dXMxcG5MQkRkcHpyMG1XNkU5NkNkOFY2Sy1DN3J5emRRdHNDajBoS09QZnVoZTNwZWp2UHZWODdJakFvb1VDMzZWcUZtV0h3SXVzNGt0enk5SXEyZVczR1hyaFlGNjQ1eGlzb2lBcmNVdFc2ZElQaU5iSEc5UTNZTUJLRzZEb3k2dDRGMll5ZTRrQzBTYWdocWdfYjh4VmdzSUdZNW5J?oc=5",
+        "published_at": "2026-10-11T02:52:16+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -280,15 +237,6 @@
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeHQ1cjBTTjlrVkRLaTU0RlhVcjFLbkRmUkhxZHlZdHdZTndJTG53U3pVSnlBWUJxbGFVVVBqbW5BMnBpOWtIckxlcmREQTZGYmhWdUdNbzktNWRjSWdPZTZDVU1remRKRHVHdGhnbVdEM0hrc0FGankwclhWTUZfT193SV9HYVRQRGJJcXdzNDdiZw?oc=5",
         "published_at": "2026-10-11T06:48:50+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-11T06:22:59+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -333,6 +281,15 @@
         "source": "Haaretz",
         "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONnY0andBVDJvbGNGeTRXVWFiWU0wRkd6dEFIdHh4ZkNEelRuLWtlX20xUzUycWFCVEQ2MHdHOVlNVFB6VlZiQldZOGxic3pId1hidUM2bnVOQjRsbm1UWFlzSlp5b3hBZTNXb1V2a3lnQ1pYR080dXJsRjVWZzZRUjBERDFvZ2xaLWQwNjdvMEtkUExCcjlwaDhvVnFfVjRjOTYyRGRtRDR6YmJ1MEJjeHkxUzRJX2c1Z3FuZTZ2YVBUalZ6cWZtdWJDUkZDVTZjMU1Dd2tLVmh0MFBjVXZmS21rQTYwUFB1NnphQUI4VC13R2V0VXlJUHEwSFQtMHpIRzNiZ282blE5SHl1dmc?oc=5",
         "published_at": "2026-10-10T17:50:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "A Drug for 15,000 Patients Just Got FDA Approval and Here is Why That is Not Small News - Moomoo",
+        "source": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTVEdnlRUlhkWnVNLUpzMllxR19sZ01VMUxtNTBNZWVIWXdTX1hfOWJtVnM4cWdvQXp4cnBoNzBib0JLa25lcmdORmd6Tl9zVnlkOV9HX0R2MmR3RWt5NTV3RDVQNGxJMy1uUkM5REdqem4zRXB1N29oXzNxOGM2VldWeENtOHhCdlpNbEszTFhKaXlORUVuUHprT2toTUZKMmZoeQ?oc=5",
+        "published_at": "2026-10-10T16:32:40+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
