@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-11T23:30:31.733958+00:00",
+  "generated_at": "2026-10-11T23:45:42.852349+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 91.91000366210938,
-    "wti_change_pct": 0.06532954707145766,
-    "brent": 104.87000274658203,
-    "brent_change_pct": 0.14324056926122708,
+    "wti": 90.97000122070312,
+    "wti_change_pct": -0.9580808579609412,
+    "brent": 103.7699966430664,
+    "brent_change_pct": -0.9071854149758196,
     "nasdaq_level": 27366.17,
     "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.23999786376953,
-    "macro_score": 50.5,
+    "dollar_index": 102.20899963378906,
+    "macro_score": 50.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI +0.07%. Geopolitica: Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -0.96%. Geopolitica: Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-11T23:20:00+00:00",
-      "brent": "2026-10-11T23:15:00+00:00",
+      "wti": "2026-10-11T23:35:00+00:00",
+      "brent": "2026-10-11T23:35:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
@@ -55,7 +55,7 @@
       "source": "GuruFocus",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZUM4NXlya0VPdW9ncG45b0xCSUxuN0ZmZEVVeW5KbFk0YmQ0VXFtWGxhTkNiUUIxdC03ZlAyWURzU1BtZE15c3c3OHgtQlMtTk5BYl9jY2Uyd0lFdUdyVWVDYVdCZ1dvU1p2a1JuTGVueDh6ZDRHb05ITXI5dVExc2t3QU1jQW0wZzJfWUxvYlFfSm5NY0JGSHBQQXFCb0E0WVRGaXFpb1VjS1E?oc=5",
       "published_at": "2026-10-11T22:16:52+00:00",
-      "age_label": "73 min fa",
+      "age_label": "88 min fa",
       "catalyst_type": "ma",
       "current_change_pct": -0.5,
       "short_term_change_pct": -0.03,
@@ -63,7 +63,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 2855.4,
+      "quote_age_minutes": 2870.6,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -80,7 +80,7 @@
         "freshness": 90,
         "volume": 28,
         "momentum": 50,
-        "macro": 50,
+        "macro": 51,
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
@@ -88,7 +88,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-11T23:30:20.780882+00:00",
+    "updated_at": "2026-10-11T23:45:32.092950+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -126,7 +126,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       }
     ],
     "geopolitics": [
@@ -135,6 +135,15 @@
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5",
         "published_at": "2026-10-11T22:52:41+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran offers mediation in Saudi-Yemen conflict after Houthi strike leaves 13 dead - Haaretz",
+        "source": "Haaretz",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOR2MxOGRzOWhBbWw2OTZ1X1k3cVNIZmx2VDJSbjl6dXJKQ01hNGFBTjhNbjhpa0ZIcV9sbnpybE1TU0NwLTVFcV82NUY5X2V3T1lEalV6Zkx6NTVxSEtIdkFlUEN0RFd6QUtPUkNWaVRSRXBiVlJMSlI3aXJEdHVZRDlLSUdiOHhjOTNtT2N2MkJ3M2tjSHQxVzE5cjBDbXZTem1aX1FhRG1qa1BjWU9vbGE2SkNYcGpIbmI5bXh0OFB1cHFONDQ2QkJwT0VvNG9kcS05RTVvYkVnQ08zcjVJVDVPMUxQRnhWbUh4dUN4bnlzNVVGRkdkb1JMX2Y5eHdsYUMxRUlpNGxqaUYyeHlxNGl6S2ZJUElm?oc=5",
+        "published_at": "2026-10-11T22:51:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -248,15 +257,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack killed 12 - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWlN4NkdrSnF3dWhtU0M0TmJ5T2tRNmxyT0tuN09Lb0hyWnhPdW9FbkdNUEMzVU5SY1l2dHJnVE4yMTFSbEtZU3lSeDdTSG5JYjZqTXFsa1piUkV0M0xZMUIwamdKNEZQRWFNQ1lxV011NTN2bEdvQ083V3B0WDZkbmNFTlVYcmtKRUJGSzNPcVdwSDhKQWRCYVc5NmRNNkJ0NTdjM0ktbkY5cVRtQVdpQkQwRUxLaEx1bWdIc3Z0Ny1aZk1lTDBDQWk0ckbSAcwBQVVfeXFMUGx2M1UtQjFSRkpCbmduUEZvLTRjcjZjVTRkQzNEbzBJQzRuaVZWZWtKQ3JIWUlhbk44X0kxZFYtdW1NblJfYmdVSFFkWHBmdkpkdXdkY2FZYy1nOVZ5VzliZDBBSUMwQmhEVlZOZ19iS1lTY3RwcGlCREdsekdJWTkySXBFaTg3TjlFWUpvM214N1JtT1lpWGNTYy1HY05EajliRUs5M19zYXJlSXNHMHBsN0loQ3hZNnlVWFMzNlVuWnkyS3JxYzFic1BK?oc=5",
-        "published_at": "2026-10-11T17:52:46+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China has agreed to limit car exports to the EU to avoid a large-scale trade war - Українські Національні Новини (УНН)",
         "source": "Українські Національні Новини (УНН)",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSTNyMWlibGFmWGZIdjhUUUE0eXRVN1Q3WkRSRWtSRzI0R241ZFE4dTBIZVUtX2dobWZRQ0l1aDMwU29ZSVM2VTYwNTdBQkwtRlR2N0d5VFJsX05zaUx1S3NDS0NZV3pwMFVvdHVHTGZaUkk2cXFKdWdISHlYeHNIaUZ2dWZBZ0hWcDdpckdPUkJ5T1QwYjkteHJvOU9RRXNfMXZKeGxn0gGkAUFVX3lxTE1vOGhBNVNXUzhIQ3MxSllXRnFBWVJ0YVFvRGtYN0VyTkNLOVozeExWY3lmY1ZlRkhybkUxcDlqVkNadm1KcjdvZTF4SkRWWDN6VXZmZlJTYXVIb1JuNmhobWdiM0IzTkpaV3hjNmxsbmNSQ3RtSHJfYndlWUhJRWQ5SVhnUExpZWE4S1ZWRVJ6dG9sWEZhcnFnaFZOWjcwbW1FeTU5?oc=5",
@@ -322,10 +322,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "best weight loss drops fda approved - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVGZvUUdJdGkybnJNZF9rTHpBXzBvZXNIdlBLX3ZoX29zaGE0ZTVpYTBMa2hzT21RaFJvZDlPb1dMQmoyamhXeUZHY0JOMEFxdW93dUIyTlVpNW9Ea085RUYzbVZ4SDhFSHNTU2JCSzk0aTF0MWtySm1ibS1yS1ZQRnllNmJCWDBwbmJneldR?oc=5",
-        "published_at": "2026-10-11T13:27:10+00:00",
+        "title": "Pfizer Is Trading at Less Than 10 Times Earnings. But Is the Stock Actually Cheap? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNajRETGxxSkxoZWFzb0oya2Jsalk0M3B4RlRsR3RFX3o0UjB2UHY4clRpSHZIWEcwb2EtWmxpZ1M4MDdpQmthc28weTJVNUxWY0xtbkRtaVhaRUxOOHYtNW8xMGpXeDJtZmdIemlCZGFzaEdFeHZ5SGpfMEdRS3d4MC1TM1J3RnN4OE41c2FRMjY5SEhUZk5oLQ?oc=5",
+        "published_at": "2026-10-11T13:01:29+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
