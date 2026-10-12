@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T22:22:04.791321+00:00",
+  "generated_at": "2026-10-12T22:38:39.310669+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 93.29000091552734,
-    "wti_change_pct": 1.5677762279026952,
-    "brent": 106.08000183105469,
-    "brent_change_pct": 1.298701866403995,
+    "wti": 93.26000213623047,
+    "wti_change_pct": 1.5351156075485983,
+    "brent": 106.04000091552734,
+    "brent_change_pct": 1.2605038955664671,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
@@ -16,13 +16,13 @@
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
     "dollar_index": 102.5719985961914,
-    "macro_score": 17.4,
+    "macro_score": 17.5,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.57%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.54%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-12T22:10:00+00:00",
-      "brent": "2026-10-12T22:10:00+00:00",
+      "wti": "2026-10-12T22:25:00+00:00",
+      "brent": "2026-10-12T22:25:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
@@ -55,19 +55,19 @@
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNnYVAxMXFER1prSDY4Z3hDenBIRlVBUVpaYzRZd3VhTzlCdEhoVHVDdmZLTlgyWUtabE9CLThwY0xNbC1xaHRMdGlteHR4VVMxOGhUelRKVm05Umpqb3V1NEtiTkt1b1ZZNzc0b2p2TWRiNkFGS0xidnVEc3ZVYjZpeHRpTzM3bnVqTkliYVFNVlFCODlfZkUzOE5JZDdIZWtreEdPaXFFQQ?oc=5",
       "published_at": "2026-10-12T22:07:50+00:00",
-      "age_label": "14 min fa",
+      "age_label": "30 min fa",
       "catalyst_type": "ma",
-      "current_change_pct": 0.45,
-      "short_term_change_pct": 0.07,
+      "current_change_pct": 0.51,
+      "short_term_change_pct": 0.15,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T22:20:00+00:00",
+      "quote_at": "2026-10-12T22:37:44+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.1,
+      "quote_age_minutes": 0.9,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 67.0,
+      "confidence_score": 65.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-12T22:07:50+00:00",
@@ -77,10 +77,52 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 100,
+        "freshness": 90,
+        "volume": 28,
+        "momentum": 52,
+        "macro": 18,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "8559163cac51",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "category": "Megacap Tech / Cloud",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Amazon reportedly weighs $7B startup acquisition as AI spending accelerates - MyNorthwest.com",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "MyNorthwest.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JR2hYdFlsT1h4YUMxS0QxRUdRekpiT05mWkpfNld6WkdKcXVqTF9EUEhuR2JpR3dYa2J3ckYyUU5GTVZIVlJ5MFZPUTdpQWZidjRvZ2N5c3EyRExzT1dEWnBUakttNk05cEFxcnJEdVJOS2JrcHc?oc=5",
+      "published_at": "2026-10-12T17:09:34+00:00",
+      "age_label": "5 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -1.01,
+      "short_term_change_pct": 0.1,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-12T22:35:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.5,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 61.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-12T17:09:34+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "AMZN",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 62,
         "volume": 28,
         "momentum": 51,
-        "macro": 17,
+        "macro": 18,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -88,7 +130,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T22:21:51.474074+00:00",
+    "updated_at": "2026-10-12T22:38:24.262174+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -123,13 +165,22 @@
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "NO_RSS_ITEMS",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
+        "source": "Mashable",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
+        "published_at": "2026-10-12T22:25:05+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire - AP News",
         "source": "AP News",
@@ -149,6 +200,24 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Energy prices rise after Trump’s ‘energy ceasefire’ fails to move Russia or Ukraine - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGFrRDRZWWhPUnEtNVNhbnBFZFc4cS00MmhuZC1hZDJzc0dROWpwU18waGpMY1hRNWFGS19LZXNUc0ZhSUgwRDUyR0hnaHhHRkRZbXRXVlN0YUU2MzVTbVo1cVBESFgyQUdfQUs5d201TUJ6YW56NVB3aDVLazNnZUlLdHowVHpPLUI5MFk4Tk9yMkFR?oc=5",
+        "published_at": "2026-10-12T21:42:27+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi minister vows 'serious response' to Houthi attacks on airports - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5",
+        "published_at": "2026-10-12T20:54:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "The Single Customer: Who Governs Iran’s Oil Trade with China - The China-Global South Project",
         "source": "The China-Global South Project",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOUhpeTViT3Jia2VOa0xaRDFXUzBJWXJxU3ItRFNENG9DZ0I2aWFaTXNZbkpjcHpiQ3VXT1VjQkY2aWl0OGRhMHhOTjdrMUFZMXhmdmQ5S3FtUFdhSEpEc1RDbTBYY2RJTGtYeGFiaGt3c296YVVmek1WZ2h6V2k0eV9vMHBmNkFLTXlN?oc=5",
@@ -158,38 +227,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
-        "source": "Mashable",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
-        "published_at": "2026-10-12T19:51:07+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ticker: China’s carmakers export more; EU sanctions nearly 1,600 Russian people and firms - Boston Herald",
         "source": "Boston Herald",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUDV3b3h3UWxGUTYydXhGWFFScFNtZldlQldDNmlWVDhDaGVwYTlvTUo4SkROem1qZDF5dkpnbHRiZmlmTXBpZWFCV2I3aTVEUWo5ZjRzRkYxdDBZb0ZjRlNpM2pwVWJIVkFOSWg4WXdDWVhPb1FMT2tMR2xWV3hqTG5nNkpfWmlYMVFOMFZnRU11eUowem5uMVBITkJndEhPdFg3RnNuaVd6YjZ0WUZ0Y2xMZnBtcy1MUzZvV0FlanJIaENl?oc=5",
         "published_at": "2026-10-12T19:36:02+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Energy prices rise after Trump’s ‘energy ceasefire’ fails to move Russia or Ukraine - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGFrRDRZWWhPUnEtNVNhbnBFZFc4cS00MmhuZC1hZDJzc0dROWpwU18waGpMY1hRNWFGS19LZXNUc0ZhSUgwRDUyR0hnaHhHRkRZbXRXVlN0YUU2MzVTbVo1cVBESFgyQUdfQUs5d201TUJ6YW56NVB3aDVLazNnZUlLdHowVHpPLUI5MFk4Tk9yMkFR?oc=5",
-        "published_at": "2026-10-12T19:15:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "UK blames Iran for airbase plot, sanctions two Iranian nationals - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRG1HQUhkZXVQNnlVX2lncldfd2lGQWd6UEdNcWtFRmR4SVZPNW9kSHY0LXhyMWJGTXZjbWRseGZqY0I5eEEtRjJ2YTktcE94M1ZEWkpqbFpzNmMtMnRETlF1a256SkVlSXBrZF9IR1hIcy1Xd3RkaDJSSGpiMHl3akdCbDdObDFQTjBpUjRmOXM2SGtPTWNrSTdUdy1UbzZQUkVvYnlBcVDSAa4BQVVfeXFMTTRHWjZ3aUotTExWNThqTk1tM24zWndPbVRLS3dRLVlrRHNyTkQ4ODZXRHlpYWszbVdSRWp5U0tmZnZDd18tT1RJR01JLXJvUE4yczJrajFnSkNPbVBab3FPNjg5a21FeW5MLTVsbU9FOE5KZTNKSXNjb01SM3p3QWdDMzhaTXZnTkE0M183eW5YQmt0V0F2YnlOLVFJeHpkWENJakdISWFVNVNLczVR?oc=5",
-        "published_at": "2026-10-12T18:55:10+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -203,12 +245,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Kremlin relishes in U.S.-Russia diesel deal and Trump's criticism of Zelenskyy - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQczM0ZDZsSi1XSFdMY2JYMEU4enBvX0JwVElUWTQ3STJRVFhGcEdYYmFPMWdtQVZjSXg1YXBPRDJYZE5PcndVQUR1cUx5ZTJPRXFIa281Y2M1QXZ5Zmw1czRkdDFwdXkzaVZUU3Nld3JvUTV6UXg2THBxNk5vQ0N2czVNMGlTT2pibDNhNWJ3MGJJdGxkeC1zOFlad1g1eG1TYUlZN0l1aDVESWhFeExGbdIBtgFBVV95cUxOVGlTTHhWakJOU0ZrT2tGM2p2dVBTcEFZa0kwRmVNclRZZlB4ZVJORzY2X2Izc2pCaGtZZDN4SzBKbUlFSVlEdm9BYV8yYWstTFJ6YXdiLWo3MW1MM085bERfZUszcUFWS3BFaXEtUVRaenE5RXhzcDhDQmloNUNZSmVZc2Q4ckJSTThFbHdtUDBKaHlMcElOY1F6MHBTV0d3MWp2Rzc1Zk92dUN6clZSdXFSWlZVQQ?oc=5",
-        "published_at": "2026-10-12T18:12:20+00:00",
+        "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5",
+        "published_at": "2026-10-12T18:31:43+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -304,6 +346,51 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "TEVA Stock Alert: What to Know as Teva Therapeutics' Scores FDA Approval for Schizophrenia Treament - Barchart.com",
+        "source": "Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUmhnN0c4MHVMc19HaUZHRzNfTVNtNFhrX2RZRE9ZdnpjRjRsUHJHV2V2d2JZLXBXMm50TFVZTXR6Q3JDb1RJcmtEdkIzWVJ4ZGQ3QmJYeHJ5VXd1LUhBY29RZlgtWDdKQWxSbDZ0S3oxaDdGZVQ2WmN4eWp4NG5VT2NLQzlrcy1BMFlzWlAtVnlsLVpzTC10Zm5BSTQyaTE2VWZ0aGs4My16V3I2TFpJY1BnTG5qUTVQamlhaE9wQzVWMDBqanVsb3BMOURoeXFRRGhjM183Rjg?oc=5",
+        "published_at": "2026-10-12T17:53:58+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Energy stocks gear up for strong Q3 earnings: Top Quant picks - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmFxdDVtZnFlMUU4NmdyYXpyX005dVZmakJyTDgwT2otUmtKNWJtckZfdFg2TTlSQUVSSGhlTWYwYmlacjIwNk45dnZsTF9lOGtaZ1dlSXVvWXJuakpIaW41a2l5QS12bVBVc2xFR1dyU1k2c3ZWblZBd0JVUVMxR2lYTTBKaW5uR1ZWQmk2TXBuRS1HazZFSC1lSWFlcHBCRlFKS09RNzMzUTY2UGY5cmlFSUxNMFJtQWNDenpReDk?oc=5",
+        "published_at": "2026-10-12T17:20:43+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Asahi Kasei Acquisition Pays Off With FDA Approval for Novel Herpes Drug - MedCity News",
+        "source": "MedCity News",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONENtWE5vMUl3Q2p4Nm85SHlZVGE1UVB5aFB6aHZQZDZSUnhjTjNmY0JIZHNySkllX3dXVUJOWFoyRW90eTVjWGllMlF6SXVETlpNNmlMWFdMcDVPTkphZVJ0T0YtWTVBZmFBSEVzeldpUDJnMi0wUV9wejlSejZyMlhYb2RiM2tla3Z4c2VETVVwYlBGbzZLcFZiaG1qOHVp?oc=5",
+        "published_at": "2026-10-12T14:48:24+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Truist previews biotech earnings with focus on Insmed, BridgeBio - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUW1tdWpVcXl1dFdDRTZNcy1hWFVoT19oXzFPbWxvcVlaRjZmLVFhbjRITFV6MjlJSlp2WjhVYjhZeXRUMFRrOC1aV3piMUJTdF9rNTRGWmp0b3lpS2ZBMU1rN2ZnZDZuMVNzdThjaVd4X0x5N3pMZWxnNEJqSENfSG00X0hHTHlIanJaSkpfZHB1cFg2b0FMYnRpNGZObmFGMENVeUdGal9Ra3NFSXJuWnpVbEZBcXl2czU5YVhsdm0?oc=5",
+        "published_at": "2026-10-12T14:35:47+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teva wins FDA approval for once-monthly olanzapine injection - Manufacturing Chemist",
+        "source": "Manufacturing Chemist",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVjFiMjhYYkh1NzFsZFR3OGR4eHBuWVJlOURlVTNSbElBRjhhMmVqSjhzd3pUNWNfc21ndW5DdnpseDZZTy1SYjAxeEhlVU96cVpQX2FuallsaGFFN2tFZUswd2ZBMDhQSUhHazR4RDRDbS1XeFdZWXZkcVhpeHdIdE9iX2M2SFRUY01V?oc=5",
+        "published_at": "2026-10-12T14:33:47+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Microsoft makes ‘biggest bet yet’ on its own silicon, unveils new AI chip to reduce reliance on Nvidia - GeekWire",
         "source": "GeekWire",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUEZEbjdfOE1lY3RRLVpLcGZDNlUtLU93MTlhbW9JYzRoMmlGZHJsNmd5UFRXNjZkWE9FUmhLRFNqOTZVQ3dKaHkyNm15blIwSXduVk9wb18wV1d4djQ5Sm9Fc1E0aFA3cC0wbjhubVFHRlM2emVWTGhvRGNDYmJiN0JwV2tfQ2xHelBzUEU5R1ZPNVZPNW4tY1VhbjhuQUtHMXZILWdqTDgwdkFHZU5XbnZKNEdWUjk2M01jQ1pUeV9tQ2NUQ3FEV0Rn?oc=5",
@@ -315,7 +402,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 33,
+  "archive_count": 34,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
