@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-10-12T00:48:42.531435+00:00",
+  "generated_at": "2026-10-12T01:09:30.462574+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 90.5,
-    "wti_change_pct": -1.4697860604771407,
-    "brent": 103.33000183105469,
-    "brent_change_pct": -1.3273485231526494,
+    "wti": 90.41000366210938,
+    "wti_change_pct": -1.5677679215394202,
+    "brent": 103.2699966430664,
+    "brent_change_pct": -1.3846491221679358,
     "nasdaq_level": 27366.17,
     "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.13600158691406,
+    "dollar_index": 102.12699890136719,
     "macro_score": 50.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.47%. Geopolitica: Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.57%. Geopolitica: Oil climbs as Mideast conflict, tanker attacks persist - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T00:35:00+00:00",
-      "brent": "2026-10-12T00:35:00+00:00",
+      "wti": "2026-10-12T00:55:00+00:00",
+      "brent": "2026-10-12T00:55:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 37,
+    "geopolitical_risk_score": 53,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
     "geopolitical_headlines": [
+      {
+        "title": "Oil climbs as Mideast conflict, tanker attacks persist - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0xoWVo4eTNVMU5uQXk0Rk9WeWlMaWN0TFlDbWwzX1FqNy1iWW5iUzk0REtlMGNVSnlGWkRCb0tySkQwRFZ0NzVDQzRFVk1IcWNqVFIteWpOVTRVM01xblZ0TzN1dWdlNUdYWTRMUUFBOGhwQ2xTYl9NaTF0bmk5UllSanctMGJDT1g3MnVuX1IxTWpwR193RHoyV1BEd2FqOWlDcg?oc=5"
+      },
       {
         "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
         "source": "Axios",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5"
-      },
-      {
-        "title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEo5WEZxUk5OcWNWU1Z1Z0g4SGlFQmxKckFxbS05WFd6UUxDNE0xa0NZRzZoR004Tms3azQ3aTVfUVIwNXlTU1ljcW9HLTREUGZBVVFiWlpVWXI3V1c3Zmt2UEJ2ME43azRMb0Vlei1iQUNPbzk4bV94bkRGTzBmREMydnBCRzVSclBoVkhrWkx4TFJ2YWdsRS1COGVOWU9pRDJqSUFNRk1pUnpQM2dlQ3o0eGpYSHYzbWdDX3dtQWtYT2Zz?oc=5"
       }
     ]
   },
@@ -63,7 +63,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 2933.6,
+      "quote_age_minutes": 2954.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -88,7 +88,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T00:48:31.637852+00:00",
+    "updated_at": "2026-10-12T01:09:19.485126+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -98,7 +98,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Russia / Ucraina",
@@ -131,10 +131,28 @@
     ],
     "geopolitics": [
       {
-        "title": "Saudi Arabia vows retaliation against Houthis after airport strike kills at least 12 - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5",
-        "published_at": "2026-10-12T00:22:41+00:00",
+        "title": "Houthi strike on Riyadh airport kills one, injures 11 in second attack in two days - France 24",
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWE9fVlV1VWUwX2lfQkpnQ0RCbFpzZ1c5V3ZYWjQ1RUwwU19xV2MxeG9mMEgtOURkMm1EY043MXJyT09UUlg3emlvR3JqbUJTaGFad2FSYWpwZVBUeTR3RlpudkVtWWNBbEJiOEloX1BSWlRCeXc1YTNqNVNTMnFQS1F6ejJEVjZZcWhF?oc=5",
+        "published_at": "2026-10-12T01:01:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "One dead in new attack on Saudi airport, a day after Houthi strike kills 13 - Al-Monitor",
+        "source": "Al-Monitor",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTkx0UW5NUnNsbnlvYzJWMEhkUjZtLU1CVEdaZ18zSEYyajBNclY3WHp4QlpzRFBicm4tTGJJeWhycFhyTHNrbVJKRk13RG5nS0dDUFVpTjJRSy1EckluV0ZPd3JFLUlkV2ZZQzRzU0tDNzhGdk1PZ2dQMk5keHdiWDdyd3N6X1dTWXFDYzJWSnRwMkdkX1ltVFIzaERZZXp2WGdVVnFqdDMwSUFtV2wtdA?oc=5",
+        "published_at": "2026-10-12T00:43:12+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi and Yemeni Airports Hit in New Round of Strikes - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWFJHOWNmYjhtTVdPTWNHd3cyeUtzLVpmNHg5dW40eVN3WkhoVXp1TTFMZmxXOERod1A0ZlItYWlhZ3B3VVNkT0pmS0NDOGYwS19ZX296RkhfSDI1bmhVWVpKdjlPTFdqVG42emhKbnJpRjNyU0NOSHFRRXM4S0lOY2M3VjZOcWZROW15TnV3?oc=5",
+        "published_at": "2026-10-11T23:45:12+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -197,7 +215,7 @@
         "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
         "source": "Axios",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5",
-        "published_at": "2026-10-11T20:46:56+00:00",
+        "published_at": "2026-10-11T21:04:37+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -218,15 +236,6 @@
         "published_at": "2026-10-11T20:10:27+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Yemen fighting expands as Houthis attack Saudi airport again: What to know - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDVTS1ZGSF8wX1ZNRk8wdUFmVFd5SmkyNWlkZmktVFRNNUxqSWxwUF8tT01GN2d0RzNtWmxSY0Y5aHJ1YlBWWHB3cjh4OXRjczc0UlNtWlJFc3JpUzlPMkZTS0laSDVOakFxZTVpNVZ0U19JUi03RTVvWVZGVlY0U0JUcDlPODJMZ1paTW9VUUp2M3VaSUFKVl91TENySDVHYXQ0RVQ0SlBEWUlTOUHSAbMBQVVfeXFMTVRZSG13RHl2RzVyQWtTSE9pb09YdldWYXcwSXBBOXRDeERqRGdwQXZFd2NfS2tjY0NxbDJwbTgybXFHeldfOHBaeVo5RGNRVnBsOXRya3JTTHc4T0RYS09BdGIydkFpMHlKX056NDhLc2w3a1o0ZHJzQkdRamtfMmZyQjB4MWktOEZqVXRfRXhfNWVwQVdwSUozemRzemkwR2puUmxBRFVDSHZBQXFZeUVIRDA?oc=5",
-        "published_at": "2026-10-11T20:00:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -254,15 +263,6 @@
         "published_at": "2026-10-11T19:05:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran War Day 226: One American Dead in Houthi Attack on Saudi Airport - The American Conservative",
-        "source": "The American Conservative",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX25SYmhHcng5dU0tbHJOMnpIVVpURFlPYkNDbGR1c3ZaMUFQZHpFMXhmNUdJZHd1WnRaRndFcDFLX0dOeDZaY21GcFRseWRfcUZud18yM1lEVUlLTV9zaEI5UUtaN0YtTVFiVnA2X1NkT01tSS1BNW1YeDYzbVZ4WGZEYmx3R2MwRmdWUjM1RVJkZ2lTMmlKNXRMTWhBeTNrWjZ1RFBXVkVXTHlRdnc?oc=5",
-        "published_at": "2026-10-11T18:46:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
