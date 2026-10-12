@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-12T05:29:41.660534+00:00",
+  "generated_at": "2026-10-12T05:49:24.640246+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 90.5199966430664,
-    "wti_change_pct": -1.448015082362164,
-    "brent": 103.56999969482422,
-    "brent_change_pct": -1.0981679836454705,
+    "wti": 90.58000183105469,
+    "wti_change_pct": -1.3826855352907064,
+    "brent": 103.7300033569336,
+    "brent_change_pct": -0.9453761002953587,
     "nasdaq_level": 27366.17,
     "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.23500061035156,
+    "dollar_index": 102.23400115966797,
     "macro_score": 50.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.45%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.38%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T05:15:00+00:00",
-      "brent": "2026-10-12T05:15:00+00:00",
+      "wti": "2026-10-12T05:35:00+00:00",
+      "brent": "2026-10-12T05:35:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
@@ -38,48 +38,6 @@
     ]
   },
   "catalysts": [
-    {
-      "id": "ae5dd1a1d729",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Nvidia Eyes Reflection AI Acquisition: A Major Move That Could Reshape the Future of Open-Source Artificial Intelligence - Kingy AI",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Kingy AI",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VMGdWMzhXNXkzN0dzTWlLal91bFR5bWtMVS1ESGRQaUxieDVJdFlnWTQ5RmI3WmI0ZWYwMU1VZkZqOEswM1o5czJpdTdsaVhHZldVMUlGMlExMDNXdFlhaktlcUxFUQ?oc=5",
-      "published_at": "2026-10-12T04:19:16+00:00",
-      "age_label": "70 min fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -0.5,
-      "short_term_change_pct": -0.03,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-09T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 3214.7,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 50.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-12T04:19:16+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 90,
-        "volume": 28,
-        "momentum": 50,
-        "macro": 51,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    },
     {
       "id": "cf0ff8eb219a",
       "ticker": "NVDA",
@@ -100,7 +58,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 3214.6,
+      "quote_age_minutes": 3234.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -121,11 +79,53 @@
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
+    },
+    {
+      "id": "ae5dd1a1d729",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Nvidia Eyes Reflection AI Acquisition: A Major Move That Could Reshape the Future of Open-Source Artificial Intelligence - Kingy AI",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Kingy AI",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VMGdWMzhXNXkzN0dzTWlLal91bFR5bWtMVS1ESGRQaUxieDVJdFlnWTQ5RmI3WmI0ZWYwMU1VZkZqOEswM1o5czJpdTdsaVhHZldVMUlGMlExMDNXdFlhaktlcUxFUQ?oc=5",
+      "published_at": "2026-10-12T04:19:16+00:00",
+      "age_label": "90 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -0.5,
+      "short_term_change_pct": -0.03,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-09T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 3234.4,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 49.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-12T04:19:16+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 50,
+        "macro": 51,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
     }
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T05:29:31.205860+00:00",
+    "updated_at": "2026-10-12T05:49:14.090280+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -163,7 +163,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       }
     ],
     "geopolitics": [
@@ -171,7 +171,7 @@
         "title": "China sanctions Paraguay, Belize ministers over Taiwan ties - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQkQ5TFA5MWRza05HQ1o1aVFjSWppTVdLSzQzU1R6M2UxdzAwY2JRWjFoMGdlNFFJS3BtaWNEcll2YW9jdElRWEFrR3NsOVJmeDRRUmw2R2Z2d29DUzhkYk1pcE1lWUFlSGlCV1ZsVTc5cGxlZHBlYmE3ZVQ0eVFaYXc4cWRNLW5EMGNxQlpEMmJDZFRSeFdQNmRRMmdLYW1nd1HSAacBQVVfeXFMTkRLVzZyaUZsM1hYVkNVelYteGdsVlBTVlJWWDZUSU9CRFdzWURSVXY0NHhQUXRGN1otaGFFbVpTWjc2amQySzBGRE5pNjBGSWdqM2JVRFdSTnlLelkteXloaU0wYnk0UWtfTmUyRzEtWFlLNXJkelRvaWlpeGdWQkVSdXlfUTlSZ2lzRUN0RC1PY2hsbGZlVzNPSjRibldfb0pqSkN1U1k?oc=5",
-        "published_at": "2026-10-12T04:58:30+00:00",
+        "published_at": "2026-10-12T05:01:47+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -204,10 +204,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Moves to Stave Off Wider EU Trade War With Hybrid Deal - Bloomberg.com",
+        "title": "China Sanctions Officials of Taiwan’s Allies for the First Time - Bloomberg.com",
         "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUFFlQ2RWX2k2c19mRUlseHB2TDlOM0xYSVdXc29YSHBVS2o0OE1qRHFXQU1JR093ellFZ2xSNEg3cUZISWx1SllLdmpuQWNBaFoyQmJHU1RaMHZ0YlFXN3l0eVZkNlhvQlRaTElKWExxTFh4cmNOc0xIeVdpdWh0MHdicmVsajVQMEdtMkZRRzFMOXpyRzBXQmdDQ2lpUlFKVlRMdzVlSXR3aE51ZU9ZZA?oc=5",
-        "published_at": "2026-10-12T03:47:00+00:00",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbi1pNmhMMnZVMDVOWUp2S3l1b0w1R005SkRUcjJJbjlJbll3azJBVnd0TmFNcjFWNGxFZlUwOEd1Q294YmduX2VqUU1OZzJqS1lHZWNoeUczb094QWNaZVNqdW02NGRuODhxQWU2dkc5VlpReTZiZzRrbUstUjJhYWNXbWc0b0l2aDktRHBoX2w1MndpaG51NElBVGhGZUUyMXV6OWpGWnpZY1JKdGZTd040ZUc?oc=5",
+        "published_at": "2026-10-12T03:44:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -227,6 +227,15 @@
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSHZYVkEtRV9yN2ktb3kwNUw2aGw0d0VRYzNNUzNLd2tOWmtuYlliNlFUVmZ1c3c2empSX0dlcXozUEZaaDkxdnVXeUhMQ1NjNXVFZVY3WmVGd3ByN3NjbzZFUXpQcnMxOXBtR2tVcUxaZkl5Y0R0bksyYVpmTU53Z0lxa0xfcVRaMkdMcGtobHR2cHJlaTJ2RnF3RGY5cXpnSU9ETDNwejdCZ25RRGlQa3BKelRIUnRReG5FR2FkZ0hmdUxCSTdvYnVBWUkxdGhWd3B4bQ?oc=5",
         "published_at": "2026-10-12T03:20:00+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi and Yemeni Airports Hit in New Round of Strikes - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWFJHOWNmYjhtTVdPTWNHd3cyeUtzLVpmNHg5dW40eVN3WkhoVXp1TTFMZmxXOERod1A0ZlItYWlhZ3B3VVNkT0pmS0NDOGYwS19ZX296RkhfSDI1bmhVWVpKdjlPTFdqVG42emhKbnJpRjNyU0NOSHFRRXM4S0lOY2M3VjZOcWZROW15TnV3?oc=5",
+        "published_at": "2026-10-12T02:27:42+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -267,15 +276,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Fresh Houthi strike hits Riyadh airport a day after deadly attack - France 24",
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWE9fVlV1VWUwX2lfQkpnQ0RCbFpzZ1c5V3ZYWjQ1RUwwU19xV2MxeG9mMEgtOURkMm1EY043MXJyT09UUlg3emlvR3JqbUJTaGFad2FSYWpwZVBUeTR3RlpudkVtWWNBbEJiOEloX1BSWlRCeXc1YTNqNVNTMnFQS1F6ejJEVjZZcWhF?oc=5",
-        "published_at": "2026-10-12T01:01:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump’s US-Russia diesel deal draws bipartisan criticism - CNN",
         "source": "CNN",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NkX1hxREY5UlRMTEEtaWtteDdaNlhrYzdZTnZVVEZrbUxVdzNSRk1VZFJWNmcxTWRGdE5VcFpZM2ZpVXU1a0J2dzBPLUkta3BaQVBIZzh5ZmllZThwZ2p3cGRZLWpNZ3FlX3ItcG9yelhQWi1JeUJSQm0xRHcxTWdtanBoVmxtV3c?oc=5",
@@ -297,7 +297,7 @@
         "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
         "source": "Axios",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5",
-        "published_at": "2026-10-11T20:27:02+00:00",
+        "published_at": "2026-10-11T20:47:57+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
