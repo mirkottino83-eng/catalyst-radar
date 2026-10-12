@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-10-12T10:27:03.253627+00:00",
+  "generated_at": "2026-10-12T10:46:50.945169+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 92.80000305175781,
-    "wti_change_pct": 1.0343000472715191,
-    "brent": 105.73999786376953,
-    "brent_change_pct": 0.974022757044013,
+    "wti": 92.55000305175781,
+    "wti_change_pct": 0.7621171358363599,
+    "brent": 105.44999694824219,
+    "brent_change_pct": 0.6970929326104214,
     "nasdaq_level": 27366.17,
-    "nasdaq_change_pct": null,
+    "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
-    "vix": 15.489999771118164,
-    "vix_change_pct": 4.380051292768505,
-    "dollar_index": 102.38200378417969,
-    "macro_score": 34.7,
+    "vix": 15.479999542236328,
+    "vix_change_pct": 4.312664306387015,
+    "dollar_index": 102.37300109863281,
+    "macro_score": 40.4,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq +0.00%, SOX -0.41%, US10Y 5.24, WTI +1.03%. Geopolitica: Diesel prices slip after Trump claims ‘energy ceasefire’ in Ukraine war - Financial Times",
+    "summary": "Tech bias negative. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI +0.76%. Geopolitica: Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T10:15:00+00:00",
-      "brent": "2026-10-12T10:15:00+00:00",
+      "wti": "2026-10-12T10:35:00+00:00",
+      "brent": "2026-10-12T10:35:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
-      "vix": "2026-10-12T10:10:00+00:00"
+      "vix": "2026-10-12T10:30:00+00:00"
     },
-    "geopolitical_risk_score": 37,
+    "geopolitical_risk_score": 44,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
     "geopolitical_headlines": [
       {
-        "title": "Diesel prices slip after Trump claims ‘energy ceasefire’ in Ukraine war - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWE52S2p6cHN1U0JlNDdMNkRQeGZFN1hIQ0hhaGY3SWo0MUdwQy13RkNPMVRnVVlScWRYUHcycVRsV1N4ZnM2aEI1TjZwNEdEOGc5RVAzQ1A1SURhZmYwdmptRXl2NVNnYjdtX1Vrckx5Wk10bDZMZnJROEJvcTFPNGZ4QW4?oc=5"
+        "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5"
       }
     ]
   },
@@ -50,15 +50,15 @@
       "source": "marketscreener.com",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMkwzam5wZ0dkNXRwZWtsWF9pVTNpbm1icmVkeFNUa3FBc1htNWVMdlpWNVdveTUwWENSaXk2ZHZWbTlCaUpGeUV1akt4azZtc3lKSGQ1dXBybmowQXF6MTNVYmJyR3JselN5RDNWWXZfeUwyWU5jZVQyN1FuVGRGUEZYVWVUNGJWMU1MM3djR2R3c2pUM0g0Z1ZFQ1I0WGhaOGc?oc=5",
       "published_at": "2026-10-12T09:31:45+00:00",
-      "age_label": "55 min fa",
+      "age_label": "75 min fa",
       "catalyst_type": "ma",
-      "current_change_pct": -0.43,
-      "short_term_change_pct": -0.03,
+      "current_change_pct": -0.31,
+      "short_term_change_pct": 0.04,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T10:26:44+00:00",
+      "quote_at": "2026-10-12T10:45:58+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.3,
+      "quote_age_minutes": 0.9,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -75,7 +75,7 @@
         "freshness": 90,
         "volume": 28,
         "momentum": 50,
-        "macro": 35,
+        "macro": 40,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -94,13 +94,13 @@
       "published_at": "2026-10-12T05:48:09+00:00",
       "age_label": "4 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": -0.43,
-      "short_term_change_pct": -0.03,
+      "current_change_pct": -0.31,
+      "short_term_change_pct": 0.04,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T10:26:44+00:00",
+      "quote_at": "2026-10-12T10:45:58+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.3,
+      "quote_age_minutes": 0.9,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -117,57 +117,30 @@
         "freshness": 62,
         "volume": 28,
         "momentum": 50,
-        "macro": 35,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "87372f8fae4c",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Nvidia explores deeper Reflection AI ties, including acquisition, report says - TechGig",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "TechGig",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMGJuTXlTYjNiZEtraGtuLUpWdjVIbFZkeHFDVURnNUtVbFlhQWlPOGlXRHg3d19zRXVkS29uMHJSa2dMMTg4MkM3U29LNVdXbURpYU50QTRTaUlPY3Y4NThxVDZTYTNNOUFmLVBzM25YTHkyV3hsYnpEUms4azZ5LWJjbjlUQ3I0OElONTlLSDBBUGktT3FpaUxSbGNnMTF5Rl9xeVFwSlprODNHcWxMWEpmNVJmWU5iMjJz0gHAAUFVX3lxTE1oR3VDLXNBMkYwaGk3WUxNcXdKY29LdlFpajM2bGItTWhWVk5PXzZ3aS1wcWJtVEZrYmhaTlM0OUF3MTVsc0ZzSGwxTWNfOEEyUnY1LTU5Z2lsaTZJa1RyVTF3Vlo0SjBwTEc4Ykw2RU96Z0FjaGF2N0xWTXN1X19na1VtWHRHWVdPTlF5NFFBTkx2MUdzSk9vdFQ1eVNfMDRtS01keXVGNjZNU05SNGhmWGJKcllVN1BjNEtsTThZMw?oc=5",
-      "published_at": "2026-10-12T04:39:25+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -0.43,
-      "short_term_change_pct": -0.03,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T10:26:44+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.3,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 63.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-12T04:39:25+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 50,
-        "macro": 35,
+        "macro": 40,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "SAP",
+      "company": "SAP",
+      "category": "Europe Software / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 2.33,
+      "short_term_change_pct": 0.92,
+      "relative_volume": null,
+      "quote_at": "2026-10-12T10:45:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "SAP"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-12T10:26:52.350961+00:00",
+    "updated_at": "2026-10-12T10:46:40.723212+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -191,21 +164,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 2
+        "accepted": 3
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       }
     ],
     "geopolitics": [
@@ -228,6 +201,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "The U.S. and Israel Should Close Aviation Sanctions Loopholes on Russia and Iran - Middle East Forum",
+        "source": "Middle East Forum",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlM1Mk12aDBrUURkazluQld1RWV0cHVxVWxTQ3V6RnRqMzFWeXI3NVBzUzRmSW5nVnlRUkEzcEVRa3Y1R3JCSG5oMWxhRUVrcF9mQ09rRDhEMGZsdmtTZlZMbi1aQm9XWDlhYUd3ZDJzcDhaaFlwdmlJalp0ZUZiMWJTOGRfMXBzMHo5SmxENUkyQkhTd0FMM09IU0cwbmZxT2ZkOWZuYUdyZFM2NDBOT2dNelY4ek0?oc=5",
+        "published_at": "2026-10-12T10:02:15+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Ukraine Will Stop Hitting Russian Oil Only if Putin Ends Energy Strikes, Zelenskyy Says - UNITED24 Media",
         "source": "UNITED24 Media",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZk5tWHd5TEVkWHMwNGpjbUxpWFJJc251ZV9haWljbkRfM1JxS2lHcmNUUmViZHAwY0FRMTAtSDRzaTFqV0pfRkQ0alBja1JtaEk2dXpnU1RMTUhldndkMllPVW5pM01XdjZ2VUxrNC1MU1ZkR1hIUTZxdEZUNDdFeDF4NnhMV29rY09MMTktbUdjekU5eEsxUk03VnRyMHVrUWdYYjRwWjROdEgtY0h6enZPVWxIZUhYZ2FfVkFrZmJ1cG1ibkx1by1IQlREdw?oc=5",
@@ -243,15 +225,6 @@
         "published_at": "2026-10-12T09:28:09+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Dutch Defense Minister Urges Russia Sanctions to Remain in Place - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX0lPdTZxSjA4ZE5Wa04yQzh0dTViSmJnVjF0TzVGcHZlaC04WVJWYkJZZDRnSXNPdmg0eFhrbmEyekZ3LVJtMkMyWUVHUFV4bzA4VVFoQjg0TnFrU1N5MEItUjZFc2c5cXgyTTVCSGhrbmdHdHRvcFJzNmdvNnRmN2VwcU1Qbzh2S25ST2FFRVZLdkJ1Tm15Q1FZMU5IWXF4X2Y5MGdYQnFpWlVqUmRXYno2NGlxQQ?oc=5",
-        "published_at": "2026-10-12T09:26:48+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -286,6 +259,15 @@
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamJ2ZGp1bmNfdEs1MUlid3YzVTcxNmRtZW9DRjE5LUhjM0E5cHJ3elNrYzVXTVBWOVNYX0hVTVJ2anJUUG44QnBvWnJfNVVUbnRTTDZEcVdqSTFSeWxuemlXOVJvWUhObmhiOVk0X083ckp4WEtQTUU3dnVNMW1wd3VxUlctaG5RbGpISVI3bVNQZXpHT3hWVEZZbDJrblZTYmhPVG9pVlJxUUJ3MnFNUmozQk5iNkp6OFlzNWppUEN1VXc?oc=5",
         "published_at": "2026-10-12T08:41:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russian State TV Celebrates Trump’s Russia Oil Plan: ‘Always Liked Trump’ - Newsweek",
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTTJrOENsZ2V4TjZYR01WWFJ0ZXl4R1U5UC1wYWV6R3hWMk1XcXA2NDQ1Nzc0M3JuWW9GbUFFQUFGSkdZRjhUMHE4UWdZdHkzSWhHU2ZSbm5oZTV4V3RBcWd3blNGaERxYzJSbllRRzFpN1pseUlIUmtkMTQwTlY3UmxFdjZ2R0k1Q3cyQTUtMWZEeVFiWWlqaENsUzVTb1FMWDZKNEhR?oc=5",
+        "published_at": "2026-10-12T08:33:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -327,25 +309,25 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China sanctions Paraguay and Belize officials over ties with Taiwan - Madison Courier",
-        "source": "Madison Courier",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcVJMel95VGdjTHNfakhjUFFFVmxPR2RBbGo1cFpiQkNtS0NLdFBBRk1GYkZDc0VucXZXaXROeFdiVUdEUjVfa0pPNVRIcmNmaGlfRTlFTElpLTh5NHdUQW05VGtIOUJTZ3d6cGpaTm1yc2NtcjI0N0JfNGJIcTkySnZCRmQ0VXhfVjIzQ2h1UzBRcVhveGVMNEhSeTNad3BLLVZuZE1ZRW1xS01ybGhyX0NCaFBsX1g3ZHdFMzUxUEJ1R3F1WTZtSFZLSGN6cGF5a0VLeTRkc3F3Tk1OUm1NV1MySGotTEtaay1Xcg?oc=5",
+        "title": "China sanctions Paraguay and Belize officials over ties with Taiwan - Ottumwa Courier",
+        "source": "Ottumwa Courier",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPaXg3bWl3akowMDRiREZpLTYyTGc5eHlCTllORG5pSTVKRzEtS04yT1RsSmpNZmFVMTNRWUFlS2RCcjlHcU5hY1VzckotQzM5WDM1cTA5TGxxdnFmeDAxa21VNWxPVlkzN1U3cjU1b2dQRjBqV0QyVFVMb2hYdlVTeWdpcFNtSkVVbnJaY0p3ak10ZGtwQ3NOR2NsalVUTWNaYlowQVZKSXNQNEJ6Y3loWThHcTdlazU2VXBmM25DSWstNk9Nc2pMZFk0NlFzVHlvUDRRbnhHZm9uQkNEQkdkRnVMaUhuZHhGNmRPdnRJd0xrc1pfNkRLTk5wVQ?oc=5",
         "published_at": "2026-10-12T07:28:06+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Watch Riyadh Airport Hit Again After Deadly Houthi Attack Leaves People Killed, Hundreds Injured - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQekhtVERFSnRZTElqTmNFOWVoVmpmUmlQS1hfQzZDdl9HMGFTYXQ2dDNpaUo3WFRfdGt1bW1GVnE2WFNDangzWGtyNllfODBkZ3NqUUhBbnBGdzAwSC05RVBYMFpKbW1ZMV82cVktR091VnNHQlpobjdEU0xlNGtUSkswbHNsUFMyVjhRb3NVeUEzemJjV3UwTQ?oc=5",
-        "published_at": "2026-10-12T06:54:07+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "INTC, AMD, NVDA, MU: Chip Stocks Open Mixed Premarket After Worst Week In A Month - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMjFKNmtYYmdMUWZOczlVOEtJdG9YRFpBY05PZ0pyZmRlSFgwZG5ULVlCeHVZdlBUM25Bem9Hc2I3Y3JaM3Z6ek1NS0lIVi0zWkVuZFB0TkVZZ3o2UmdzRlZMR1YtajdhU20yZ25PZWo1QlJualJRTFNpT0VwRmhOeGI1cjhIXzBHNVZMWHJUVQ?oc=5",
+        "published_at": "2026-10-12T08:55:35+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck - CNBC",
         "source": "CNBC",
@@ -392,10 +374,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "new diet pill approved by the fda - BusinessWorld Online",
+        "title": "new weight loss drug awaiting fda approval - BusinessWorld Online",
         "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aUWdxb1dhRFRZTmRNdWtXUHNYNW5tWkZzeWpzSVJoQXRkYUpwQWhraVdVNjRXbFZGYXd6NVZrbVI5MDZiTmV1N0tsVlpxQTZPdWJJTkVqSHFfV0s0QkJ6OGwzU2FMVU5JVXlWRHdZRlZJSVVwTHNlUGVtSkszc3M?oc=5",
-        "published_at": "2026-10-12T06:56:04+00:00",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUUQxSzZoeFFuLXg3OTZVSlVoRWV6RWlUSDloZmFhUTF4TTRqNmVkLVlJN1NLSm91Mmg3VGRHYmc3bEpWTGVKbGhBXzA0RGdQNHpOZDdnNjl2UXVvb21Sbmk4ZXJCZjlRbVhXUGdDQ1lmRUlJNXdabFBwaFZ0MmhZa0FDVkFIUms?oc=5",
+        "published_at": "2026-10-12T06:32:35+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
