@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T23:24:21.399894+00:00",
+  "generated_at": "2026-10-12T23:40:13.196385+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 93.44999694824219,
-    "wti_change_pct": 1.7419689719122777,
-    "brent": 106.19000244140625,
-    "brent_change_pct": 1.4037444648276942,
+    "wti": 93.27999877929688,
+    "wti_change_pct": 1.556886585663575,
+    "brent": 106.06999969482422,
+    "brent_change_pct": 1.2891505523151103,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
@@ -16,13 +16,13 @@
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
     "dollar_index": 102.5719985961914,
-    "macro_score": 17.0,
+    "macro_score": 17.4,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.74%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.56%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-12T23:10:00+00:00",
-      "brent": "2026-10-12T23:05:00+00:00",
+      "wti": "2026-10-12T23:25:00+00:00",
+      "brent": "2026-10-12T23:25:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
@@ -50,19 +50,19 @@
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNnYVAxMXFER1prSDY4Z3hDenBIRlVBUVpaYzRZd3VhTzlCdEhoVHVDdmZLTlgyWUtabE9CLThwY0xNbC1xaHRMdGlteHR4VVMxOGhUelRKVm05Umpqb3V1NEtiTkt1b1ZZNzc0b2p2TWRiNkFGS0xidnVEc3ZVYjZpeHRpTzM3bnVqTkliYVFNVlFCODlfZkUzOE5JZDdIZWtreEdPaXFFQQ?oc=5",
       "published_at": "2026-10-12T22:07:50+00:00",
-      "age_label": "76 min fa",
+      "age_label": "92 min fa",
       "catalyst_type": "ma",
-      "current_change_pct": 0.45,
-      "short_term_change_pct": -0.01,
+      "current_change_pct": 0.46,
+      "short_term_change_pct": -0.07,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T23:20:00+00:00",
+      "quote_at": "2026-10-12T23:35:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 4.3,
+      "quote_age_minutes": 5.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 65.0,
+      "confidence_score": 63.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-12T22:07:50+00:00",
@@ -72,9 +72,9 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 90,
+        "freshness": 78,
         "volume": 28,
-        "momentum": 50,
+        "momentum": 49,
         "macro": 17,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -83,7 +83,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T23:24:09.718095+00:00",
+    "updated_at": "2026-10-12T23:40:01.035603+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -126,6 +126,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Ukraine's Zelenskyy says it's \"increasingly evident that Russia is unwilling to accept an energy ceasefire\" - CBS News",
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRGFKRjE3ZWZxd3BxZ00tSHdSUWZnbjZGX2pRRzF6a3d2Z1ZONEVOUlJWTXh3TElaQnRrVDdBdUUwZndCeDNLYmhDT0Jfay1JNGtCS3lWQVZ4WDUtRWZuemdQTW80dmo2OEkxYmotUzVha2FPdUhzZTU3MVNDOUNQNGN6dXpJVWdr?oc=5",
+        "published_at": "2026-10-12T23:03:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
         "source": "Mashable",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
@@ -162,11 +171,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Why Trump’s Diesel-Supply Deal With Russia Won’t Ease Fuel Prices Much - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMlQxNnlleGR2S2RRdHZnN3B0YkVxM1hXdkp5TUVvV1RxTnVLTklIbGVyWnRuQTV0QWlQRU1QY3N2aHlCemdkNXgtWFpDMFVDZDYteDdEc0ZjRzBUWHNhd1I1UHM2emxOUnllQ3FZaUtkQTgtaTVDcjRLWWFwWkNVdl9BRk9NM18ySk9OUEN3X3QyZFNPb05UTkFncU5WWlk2S3FSaFZIMjFEUFVqSUdaN00yTEZSUFJJ?oc=5",
-        "published_at": "2026-10-12T21:03:00+00:00",
-        "area": "Russia / Ucraina",
+        "title": "Why do Iran’s oil ‘intermediaries’ owe the government billions? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdElvWV9iWk44NzJubHBPYkQzU011ZEM0cXZCTmJrLXdDOFhLQWRseExNNVBZZjFLUUlIamR2eFAzcm9FRzJZakV3a1ZqZ3pMSTg0VVpnSHlxYi12VF9HdFQ2TGR6NTZ2R0stbnVCY0NnQm9IY29fVFF1Tmh6OWt5TGJaZVIyZjF4TnVUVDh2NXhobHEtVFZMSHFsRDVkWko2U1NF0gGoAUFVX3lxTE92SXd4c2RPRU16QzFTdFpfTWoyU1BRenprVkZrRVFMSVBoc0NVNXl1cnprYWh0ejdxcHBUSkxka2NwdXlhM2hpNkhwT3lHdXJMbHBqX1A0N3c2QjA1X1ZiTWE1R1JxbDhlZldwZXBZTmxxVjN0eWQ5Tl9zVEMxdXhpakRUVkhKcUhHbWdOSEJQZGFrR0F2WC1YOTVjZHRxMG5PUzUyN21pMg?oc=5",
+        "published_at": "2026-10-12T21:20:37+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -198,15 +207,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "UK blames Iran for airbase plot, sanctions two Iranian nationals - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRG1HQUhkZXVQNnlVX2lncldfd2lGQWd6UEdNcWtFRmR4SVZPNW9kSHY0LXhyMWJGTXZjbWRseGZqY0I5eEEtRjJ2YTktcE94M1ZEWkpqbFpzNmMtMnRETlF1a256SkVlSXBrZF9IR1hIcy1Xd3RkaDJSSGpiMHl3akdCbDdObDFQTjBpUjRmOXM2SGtPTWNrSTdUdy1UbzZQUkVvYnlBcVDSAa4BQVVfeXFMTTRHWjZ3aUotTExWNThqTk1tM24zWndPbVRLS3dRLVlrRHNyTkQ4ODZXRHlpYWszbVdSRWp5U0tmZnZDd18tT1RJR01JLXJvUE4yczJrajFnSkNPbVBab3FPNjg5a21FeW5MLTVsbU9FOE5KZTNKSXNjb01SM3p3QWdDMzhaTXZnTkE0M183eW5YQmt0V0F2YnlOLVFJeHpkWENJakdISWFVNVNLczVR?oc=5",
-        "published_at": "2026-10-12T18:55:10+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Why are the Houthis attacking Saudi airports and how are the missiles getting through? - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORnJnYXRDbWtzWG1hWXFTczhaQU04Z3NFbW1nclFrdk9DV2U1SzkycFV2VGFpcXNKbkxrUl9XX1l0YUl2YjRJTnNFeWVFMUNmaktERFBiWHQwMzdQTy1VVEVIODdqNE8zTmxfaEw2cmZfYU1LOUpPS3VTbENWc09oMUxFcWJpU1ZCWEF4TjhnRnljRkpERC04cUdNNmxrTHd2OGc2b093?oc=5",
@@ -220,15 +220,6 @@
         "source": "AppleValleyNewsNow.com",
         "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTHQ0NnZVcnBsU0VDYk9qNHlUUElPVVlJdFV5cHVGTmE5OWMtOVQ1bGNFSDlYclZTb0hnaFpCWEYycVpXZkRVOE5XNnkzZFlCWDhvMVNDZXFoRGpVbWVFWmY5dVF3eWI1TzZvdHBmQjhWY05GSWQwYTFtOXZwM21BUm9yZ19rWXd2UFBSTmR4NlJ3cW1xWHhjY0FrWENWelp1REU0QTBncVlYckpMbm5kbTZhVC1DRS1SRnJmRW8xSE9JM3FZRUFBd3F4dE1NZUx4dU1XRG5aekczaVU2eEtXWENJUDZndWdXamwyak9iT1VOUXNvcjFrbFk3NW5mR0tIR1NiUGd0X3VTeDA?oc=5",
         "published_at": "2026-10-12T17:47:56+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Secretary Rubio Responds to Houthi Attack on Saudi Airport - The Presidential Prayer Team",
-        "source": "The Presidential Prayer Team",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONWpKblNrbVdhYmRGZnZidXRJSDQzUXJaMmhpYkNXb05mN3FXS1p3ZVlvRGdyX1BGRVVmWXV2UUxaNXZCYWMwSld3MW5IempSU0pKaGQ3V0J2VGpqbDlxRmZ2MTkzMjB4eXp0THREekZvY3E0bm5jSl9Nd1lSN29VOFN5VG0xdVVUZVBHYmJSQVRKcU9vR1M2WWMtckFGMDBqdlh0UXcyNTlwd0JRbHc?oc=5",
-        "published_at": "2026-10-12T17:00:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -258,6 +249,15 @@
         "published_at": "2026-10-12T16:22:22+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Riyadh airport hit again by fresh Houthi strike - Taipei Times",
+        "source": "Taipei Times",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLNkVOM0hnZFREcnh3akhjMXdnWnBiSUZBRG9aWk9zZXR3Y0dhRnVhMWFsSG5FTFc1cUVTbXpHU25GY1lzbm5yQ1FPN0ZkaHMxTmRJX3o5VUtacWpISE9ubVRCZWNQbmZYanlrYjVlTEFET0c1TFhEdA?oc=5",
+        "published_at": "2026-10-12T16:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
