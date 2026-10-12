@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T22:54:39.957161+00:00",
+  "generated_at": "2026-10-12T23:06:29.315802+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 93.33999633789062,
-    "wti_change_pct": 1.6222078263717465,
-    "brent": 106.13999938964844,
-    "brent_change_pct": 1.3559951799013037,
+    "wti": 93.4000015258789,
+    "wti_change_pct": 1.6875373734432042,
+    "brent": 106.18000030517578,
+    "brent_change_pct": 1.3941931507388317,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
@@ -16,29 +16,24 @@
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
     "dollar_index": 102.5719985961914,
-    "macro_score": 17.3,
+    "macro_score": 17.1,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.62%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.69%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-12T22:40:00+00:00",
-      "brent": "2026-10-12T22:35:00+00:00",
+      "wti": "2026-10-12T22:56:00+00:00",
+      "brent": "2026-10-12T22:50:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 37,
+    "geopolitical_risk_score": 28,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
     "geopolitical_headlines": [
       {
         "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWxLV1J6R2V3UDNKc2FwUU9oQ2dvUGVXd2FQTTNQdFM2QVVBLU54eWN0SFktR25BT0l3U3NIRldielJHYjBLY1lfMTk1OGZGVUZtOG4yMXhINzZSVDhwdXZScWtCUDdVYWxjSkF6RThTcHhyMWN3Z1hrWjNMSFJFMm04eVRKZ2luSkJjWUpKM2RYSXdXa2ZKbk94MjRjaXFDRDRtLXd3c3pMbk1Ld21LOE13WEZMUXp5YWdEcnNYMzc?oc=5"
-      },
-      {
-        "title": "Supertankers Turn From Gulf Oil Transfer Hub Amid Iran’s Attacks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2UxSi1WM2FNQXNMdkNCemU2VURQWmpBeGNJVlRZM0h5MVJUa3VwaW1vQTNaTkI3MG5uYXJhY0tiMDBkNjdMYlNpdkt3SmVpUnBPWWNwVllqdklrSmYzTGIyR1hxckhKb2piVzZ6YlczLU5Vd24xNHd5YzdMNElUWkV0Q0VTZS1udzdCWXN6dThxS0hrVFpOX1BEZmRNUFBVMFBQcGIxRnh0SU1rX2VxNUZDUEdBZw?oc=5"
       }
     ]
   },
@@ -55,15 +50,15 @@
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNnYVAxMXFER1prSDY4Z3hDenBIRlVBUVpaYzRZd3VhTzlCdEhoVHVDdmZLTlgyWUtabE9CLThwY0xNbC1xaHRMdGlteHR4VVMxOGhUelRKVm05Umpqb3V1NEtiTkt1b1ZZNzc0b2p2TWRiNkFGS0xidnVEc3ZVYjZpeHRpTzM3bnVqTkliYVFNVlFCODlfZkUzOE5JZDdIZWtreEdPaXFFQQ?oc=5",
       "published_at": "2026-10-12T22:07:50+00:00",
-      "age_label": "46 min fa",
+      "age_label": "58 min fa",
       "catalyst_type": "ma",
-      "current_change_pct": 0.48,
-      "short_term_change_pct": 0.14,
+      "current_change_pct": 0.4,
+      "short_term_change_pct": -0.14,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T22:52:03+00:00",
+      "quote_at": "2026-10-12T23:05:44+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.6,
+      "quote_age_minutes": 0.7,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -79,7 +74,7 @@
         "catalyst_strength": 90,
         "freshness": 90,
         "volume": 28,
-        "momentum": 52,
+        "momentum": 48,
         "macro": 17,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -99,13 +94,13 @@
       "published_at": "2026-10-12T17:09:34+00:00",
       "age_label": "5 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": -0.99,
-      "short_term_change_pct": 0.14,
+      "current_change_pct": -1.07,
+      "short_term_change_pct": -0.01,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T22:51:26+00:00",
+      "quote_at": "2026-10-12T23:05:58+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 3.1,
+      "quote_age_minutes": 0.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -121,7 +116,7 @@
         "catalyst_strength": 90,
         "freshness": 62,
         "volume": 28,
-        "momentum": 52,
+        "momentum": 50,
         "macro": 17,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -130,7 +125,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T22:54:28.331223+00:00",
+    "updated_at": "2026-10-12T23:06:17.651427+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -161,7 +156,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -179,15 +174,6 @@
         "published_at": "2026-10-12T22:25:05+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWxLV1J6R2V3UDNKc2FwUU9oQ2dvUGVXd2FQTTNQdFM2QVVBLU54eWN0SFktR25BT0l3U3NIRldielJHYjBLY1lfMTk1OGZGVUZtOG4yMXhINzZSVDhwdXZScWtCUDdVYWxjSkF6RThTcHhyMWN3Z1hrWjNMSFJFMm04eVRKZ2luSkJjWUpKM2RYSXdXa2ZKbk94MjRjaXFDRDRtLXd3c3pMbk1Ld21LOE13WEZMUXp5YWdEcnNYMzc?oc=5",
-        "published_at": "2026-10-12T21:55:43+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -218,6 +204,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Why do Iran’s oil ‘intermediaries’ owe the government billions? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdkl3eHNkT0VNekMxU3RaX01qMlNQUXp6a1ZGa0VRTElQaHNDVTV5dXJ6a2FodHo3cXBwVEpMZGtjcHV5YTNoaTZIcE95R3VyTGxwal9QNDd3NkIwNV9WYk1hNUdScWw4ZWZXcGVwWU5scVYzdHlkOU5fc1RDMXV4aWpEVFZISnFIR21nTkhCUGRha0dBdlgtWDk1Y2R0cTBuT1M1MjdtaTLSAagBQVVfeXFMT3ZJd3hzZE9FTXpDMVN0Wl9NajJTUFF6emtWRmtFUUxJUGhzQ1U1eXVyemthaHR6N3FwcFRKTGRrY3B1eWEzaGk2SHBPeUd1ckxscGpfUDQ3dzZCMDVfVmJNYTVHUnFsOGVmV3BlcFlObHFWM3R5ZDlOX3NUQzF1eGlqRFRWSEpxSEdtZ05IQlBkYWtHQXZYLVg5NWNkdHEwbk9TNTI3bWky?oc=5",
+        "published_at": "2026-10-12T21:17:11+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Saudi minister vows 'serious response' to Houthi attacks on airports - BBC",
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5",
@@ -236,29 +231,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Oil Climbs as Fighting Flares in Middle East, Ukraine - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT2VNZDJQX0Z6SW1YbzFBdHlvYmtlVzdPZEcxRjRwWjVDZWJsRUNfdENWUWFjT29TVmdPSVVFc0JfVTQ2ZDZZUV9GTU05N3BBTWxwd0NOZE0zQlRzOFVyYWhoWWNyT3ZQejlzWGxQLVpiTXRPdjJKMk1lYXNMZTRkX19TMDJxZkpJU2xObzJ6SlpUbFdBNThySFhvMEs?oc=5",
+        "published_at": "2026-10-12T20:15:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Ticker: China’s carmakers export more; EU sanctions nearly 1,600 Russian people and firms - Boston Herald",
         "source": "Boston Herald",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUDV3b3h3UWxGUTYydXhGWFFScFNtZldlQldDNmlWVDhDaGVwYTlvTUo4SkROem1qZDF5dkpnbHRiZmlmTXBpZWFCV2I3aTVEUWo5ZjRzRkYxdDBZb0ZjRlNpM2pwVWJIVkFOSWg4WXdDWVhPb1FMT2tMR2xWV3hqTG5nNkpfWmlYMVFOMFZnRU11eUowem5uMVBITkJndEhPdFg3RnNuaVd6YjZ0WUZ0Y2xMZnBtcy1MUzZvV0FlanJIaENl?oc=5",
         "published_at": "2026-10-12T19:36:02+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "UK blames Iran for airbase plot, sanctions two Iranian nationals - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRG1HQUhkZXVQNnlVX2lncldfd2lGQWd6UEdNcWtFRmR4SVZPNW9kSHY0LXhyMWJGTXZjbWRseGZqY0I5eEEtRjJ2YTktcE94M1ZEWkpqbFpzNmMtMnRETlF1a256SkVlSXBrZF9IR1hIcy1Xd3RkaDJSSGpiMHl3akdCbDdObDFQTjBpUjRmOXM2SGtPTWNrSTdUdy1UbzZQUkVvYnlBcVDSAa4BQVVfeXFMTTRHWjZ3aUotTExWNThqTk1tM24zWndPbVRLS3dRLVlrRHNyTkQ4ODZXRHlpYWszbVdSRWp5U0tmZnZDd18tT1RJR01JLXJvUE4yczJrajFnSkNPbVBab3FPNjg5a21FeW5MLTVsbU9FOE5KZTNKSXNjb01SM3p3QWdDMzhaTXZnTkE0M183eW5YQmt0V0F2YnlOLVFJeHpkWENJakdISWFVNVNLczVR?oc=5",
-        "published_at": "2026-10-12T18:55:10+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Another Hormuz? What to know about the Houthi threat to the Red Sea - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPek9rZ1lJTlNXenlqS0tKUDZqaHpSRTZXT0RTRGVkM3NWRzJsWnI5bTAwQzVWWmdjYlkzekZWTEwxR2RTcUxnb2ZLSVF2QjZBS1F2T18zcEhuMkgtdzRsMkU2clo1V2twOFhqMURSdC1PUGxXaURLa1loN2FzVlduZ2lfTGdSY0VkRGNnS2Yzem1wNW1wUXpZM0FCeTdiZVZQMTlNVzdiekpneTFhYWhza2VB?oc=5",
-        "published_at": "2026-10-12T18:36:09+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -306,9 +292,27 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Riyadh airport hit again by fresh Houthi strike - Taipei Times",
+        "source": "Taipei Times",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLNkVOM0hnZFREcnh3akhjMXdnWnBiSUZBRG9aWk9zZXR3Y0dhRnVhMWFsSG5FTFc1cUVTbXpHU25GY1lzbm5yQ1FPN0ZkaHMxTmRJX3o5VUtacWpISE9ubVRCZWNQbmZYanlrYjVlTEFET0c1TFhEdA?oc=5",
+        "published_at": "2026-10-12T16:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Navitas shares surge 5% on Nvidia AI infrastructure partnership - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLUZlZUZ0YUQtU19Va3pPUHE5ZXFhZ29acUZ4ZjZXWnVWQXptOHljbW9NSTdhQkNSajR4U1FXb05XblNWMnd4Mk5DSU82a0NwLUNqNnVUZ1dZN3ZvcVhreFN6QnQ1QUNUWEcyajhIOHJiZ1lhWG9lRHpfUS15TTd4ajJ5N0g?oc=5",
+        "published_at": "2026-10-12T20:54:35+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points - Investor's Business Daily",
         "source": "Investor's Business Daily",
@@ -387,15 +391,6 @@
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVjFiMjhYYkh1NzFsZFR3OGR4eHBuWVJlOURlVTNSbElBRjhhMmVqSjhzd3pUNWNfc21ndW5DdnpseDZZTy1SYjAxeEhlVU96cVpQX2FuallsaGFFN2tFZUswd2ZBMDhQSUhHazR4RDRDbS1XeFdZWXZkcVhpeHdIdE9iX2M2SFRUY01V?oc=5",
         "published_at": "2026-10-12T14:33:47+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Microsoft makes ‘biggest bet yet’ on its own silicon, unveils new AI chip to reduce reliance on Nvidia - GeekWire",
-        "source": "GeekWire",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUEZEbjdfOE1lY3RRLVpLcGZDNlUtLU93MTlhbW9JYzRoMmlGZHJsNmd5UFRXNjZkWE9FUmhLRFNqOTZVQ3dKaHkyNm15blIwSXduVk9wb18wV1d4djQ5Sm9Fc1E0aFA3cC0wbjhubVFHRlM2emVWTGhvRGNDYmJiN0JwV2tfQ2xHelBzUEU5R1ZPNVZPNW4tY1VhbjhuQUtHMXZILWdqTDgwdkFHZU5XbnZKNEdWUjk2M01jQ1pUeV9tQ2NUQ3FEV0Rn?oc=5",
-        "published_at": "2026-10-12T13:22:17+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
