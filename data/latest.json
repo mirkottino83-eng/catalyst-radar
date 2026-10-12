@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-12T04:34:54.221139+00:00",
+  "generated_at": "2026-10-12T04:55:40.176491+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 90.29000091552734,
-    "wti_change_pct": -1.6984187093190717,
-    "brent": 103.3499984741211,
-    "brent_change_pct": -1.3082531804928799,
+    "wti": 90.37999725341797,
+    "wti_change_pct": -1.600436848256781,
+    "brent": 103.41000366210938,
+    "brent_change_pct": -1.2509525814775935,
     "nasdaq_level": 27366.17,
     "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.16899871826172,
+    "dollar_index": 102.17900085449219,
     "macro_score": 50.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.70%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.60%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T04:20:00+00:00",
-      "brent": "2026-10-12T04:20:00+00:00",
+      "wti": "2026-10-12T04:45:00+00:00",
+      "brent": "2026-10-12T04:45:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
@@ -55,7 +55,7 @@
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkZqYXozcjF2VVVDQ2kzazlTZ0JfbW9HYnotT1hESENZUTdzN0VSdlBCcW5BMEhsbUxCQk9zM0tqZVM4QkJEeVI5UFFnNFdxNGtWRUw1ZDBUT3JaeDNRWGRYUGp4R0dieW5uYjc1VEIxWGZ3UFZBam5LQ3QtNExUTE15TGFRbkdmUm1UTnlkdDJMY3YwU1dmQm0tM3RRVlFNR0tnUWhiNTJ4TW1GY3ZwNnM5VjU4aGxaZWhBU2Nnaw?oc=5",
       "published_at": "2026-10-12T02:54:20+00:00",
-      "age_label": "100 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "ma",
       "current_change_pct": -0.5,
       "short_term_change_pct": -0.03,
@@ -63,7 +63,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 3159.8,
+      "quote_age_minutes": 3180.6,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -88,7 +88,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T04:34:42.403108+00:00",
+    "updated_at": "2026-10-12T04:55:29.343310+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -105,21 +105,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
@@ -194,10 +194,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Saudi and Yemeni Airports Hit in New Round of Strikes - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWFJHOWNmYjhtTVdPTWNHd3cyeUtzLVpmNHg5dW40eVN3WkhoVXp1TTFMZmxXOERod1A0ZlItYWlhZ3B3VVNkT0pmS0NDOGYwS19ZX296RkhfSDI1bmhVWVpKdjlPTFdqVG42emhKbnJpRjNyU0NOSHFRRXM4S0lOY2M3VjZOcWZROW15TnV3?oc=5",
+        "published_at": "2026-10-12T02:27:42+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Saudi Arabia says 1 dead, 11 injured in latest attack on Riyadh airport - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNclpxV0Fzd1pLbllockhyS0RFUXZsX1JXc3JwSVlfMGxSeTJuNnlYSWczNG8wZmhhM3VZWWM0dHA3R1l4MG9LcjFlVlgyc0hTelF5T1hlRERMODdRS0pySUNtbHU3YXFoOTBPQXliNjJ5a3ZkZHh0ckZYRUxBRmtHY1JqN2l5c05OUXg3SWt0dHZLZTViOGF6X0R1UVpMa05LcDB6U21wbi10WEtGaEp3MDRB0gG3AUFVX3lxTE55X2U2QWFtYzVqMTdHNUxqWlFPdUk1QnZldGVfUm15Q3BVVW5rQ09FUGo1NFJoREUzaXRQUlc5aWJac0ZfeGp2UXM5NmpQZ3VkaTVOd0FfZmpEMUs1d1RyQ3k3UnZ4MGxYYkVEZDRldWpaN1lEMFBxSXlnbDl2aEpKam83bUxBWGFnUFYwTFg0MzZHRWtNY2pBUkdJamh5WE10aTEwMVEya0NPdEtSaGk4c1pndlI1MA?oc=5",
         "published_at": "2026-10-12T02:18:12+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack - The Japan Times",
+        "source": "The Japan Times",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUEt5VVhzOGM0OUpXbWpMa0h5WGdabjB3WE5WSjVRdFllVmF6cXRrYWFwVENQU1JYZEp3NXV1OGZlcWpaODdjbGgzRDJnWmZ5ZmkxR0VHX19UOGJvakdLakFleWw2c2tXVEpTMmFya0ZLVGhqOC0wdW5DVnJhaGxocE5DUENHaWs?oc=5",
+        "published_at": "2026-10-12T02:18:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -221,29 +239,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Fresh Houthi strike hits Riyadh airport a day after deadly attack - France 24",
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWE9fVlV1VWUwX2lfQkpnQ0RCbFpzZ1c5V3ZYWjQ1RUwwU19xV2MxeG9mMEgtOURkMm1EY043MXJyT09UUlg3emlvR3JqbUJTaGFad2FSYWpwZVBUeTR3RlpudkVtWWNBbEJiOEloX1BSWlRCeXc1YTNqNVNTMnFQS1F6ejJEVjZZcWhF?oc=5",
-        "published_at": "2026-10-12T01:01:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5",
-        "published_at": "2026-10-12T00:32:43+00:00",
+        "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0xoWVo4eTNVMU5uQXk0Rk9WeWlMaWN0TFlDbWwzX1FqNy1iWW5iUzk0REtlMGNVSnlGWkRCb0tySkQwRFZ0NzVDQzRFVk1IcWNqVFIteWpOVTRVM01xblZ0TzN1dWdlNUdYWTRMUUFBOGhwQ2xTYl9NaTF0bmk5UllSanctMGJDT1g3MnVuX1IxTWpwR193RHoyV1BEd2FqOWlDcg?oc=5",
+        "published_at": "2026-10-11T23:26:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
-        "published_at": "2026-10-11T22:33:24+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -267,15 +267,6 @@
       }
     ],
     "corporate": [
-      {
-        "title": "Tech Momentum Monitor: Software Strength Builds as Earnings Season Approaches - Moomoo",
-        "source": "Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRTg0d2dCb1NCWVp4RlluMmRuRU52LXJJZEJ4WVlILXJIdHRjY3NsUHFxdkc2YmIxU0Q1WGtvZy1VRDBTZEFmQ2JETDI3Y3ZMb2hqRDhtTC15RGhRdzQzNGFCWERyTjVKOTlCa3lqUUwxekM1MDNxNDBDdmgzZFVYbDNNSE15Y091Q2kzZUF1RmJkTDBDaVAzcms0dFRDMDZfZFJGLXl5bkZmcWRYYU5DcFRlQmFGamJ4eFgxMjd6Q1M2LW53Y2pUejRn?oc=5",
-        "published_at": "2026-10-12T03:43:12+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
       {
         "title": "Stocktwits Pharma Pulse: JNJ Earnings, Cancer Updates And Two FDA Target Dates — The Week’s Biotech Watchlist - Yahoo Finance",
         "source": "Yahoo Finance",
