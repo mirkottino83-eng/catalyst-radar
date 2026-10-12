@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-12T10:05:35.246695+00:00",
+  "generated_at": "2026-10-12T10:27:03.253627+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 92.91000366210938,
-    "wti_change_pct": 1.1540611928120281,
-    "brent": 105.87000274658203,
-    "brent_change_pct": 1.0981679836454594,
+    "wti": 92.80000305175781,
+    "wti_change_pct": 1.0343000472715191,
+    "brent": 105.73999786376953,
+    "brent_change_pct": 0.974022757044013,
     "nasdaq_level": 27366.17,
-    "nasdaq_change_pct": 0.6355606087485421,
+    "nasdaq_change_pct": null,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
-    "vix": 15.479999542236328,
-    "vix_change_pct": 4.312664306387015,
-    "dollar_index": 102.38400268554688,
-    "macro_score": 39.7,
+    "vix": 15.489999771118164,
+    "vix_change_pct": 4.380051292768505,
+    "dollar_index": 102.38200378417969,
+    "macro_score": 34.7,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI +1.15%. Geopolitica: Diesel prices slip after Trump claims ‘energy ceasefire’ in Ukraine war - Financial Times",
+    "summary": "Tech bias negative. Nasdaq +0.00%, SOX -0.41%, US10Y 5.24, WTI +1.03%. Geopolitica: Diesel prices slip after Trump claims ‘energy ceasefire’ in Ukraine war - Financial Times",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T09:55:00+00:00",
-      "brent": "2026-10-12T09:55:00+00:00",
+      "wti": "2026-10-12T10:15:00+00:00",
+      "brent": "2026-10-12T10:15:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
-      "vix": "2026-10-12T09:50:00+00:00"
+      "vix": "2026-10-12T10:10:00+00:00"
     },
     "geopolitical_risk_score": 37,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
@@ -50,15 +50,15 @@
       "source": "marketscreener.com",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMkwzam5wZ0dkNXRwZWtsWF9pVTNpbm1icmVkeFNUa3FBc1htNWVMdlpWNVdveTUwWENSaXk2ZHZWbTlCaUpGeUV1akt4azZtc3lKSGQ1dXBybmowQXF6MTNVYmJyR3JselN5RDNWWXZfeUwyWU5jZVQyN1FuVGRGUEZYVWVUNGJWMU1MM3djR2R3c2pUM0g0Z1ZFQ1I0WGhaOGc?oc=5",
       "published_at": "2026-10-12T09:31:45+00:00",
-      "age_label": "33 min fa",
+      "age_label": "55 min fa",
       "catalyst_type": "ma",
-      "current_change_pct": -0.28,
-      "short_term_change_pct": 0.17,
+      "current_change_pct": -0.43,
+      "short_term_change_pct": -0.03,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T10:00:00+00:00",
+      "quote_at": "2026-10-12T10:26:44+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.6,
+      "quote_age_minutes": 0.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -74,8 +74,8 @@
         "catalyst_strength": 90,
         "freshness": 90,
         "volume": 28,
-        "momentum": 52,
-        "macro": 40,
+        "momentum": 50,
+        "macro": 35,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -94,13 +94,13 @@
       "published_at": "2026-10-12T05:48:09+00:00",
       "age_label": "4 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": -0.28,
-      "short_term_change_pct": 0.17,
+      "current_change_pct": -0.43,
+      "short_term_change_pct": -0.03,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T10:00:00+00:00",
+      "quote_at": "2026-10-12T10:26:44+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.6,
+      "quote_age_minutes": 0.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -116,50 +116,8 @@
         "catalyst_strength": 90,
         "freshness": 62,
         "volume": 28,
-        "momentum": 52,
-        "macro": 40,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "ae5dd1a1d729",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Nvidia Eyes Reflection AI Acquisition: A Major Move That Could Reshape the Future of Open-Source Artificial Intelligence - Kingy AI",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Kingy AI",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VMGdWMzhXNXkzN0dzTWlLal91bFR5bWtMVS1ESGRQaUxieDVJdFlnWTQ5RmI3WmI0ZWYwMU1VZkZqOEswM1o5czJpdTdsaVhHZldVMUlGMlExMDNXdFlhaktlcUxFUQ?oc=5",
-      "published_at": "2026-10-12T04:19:16+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -0.28,
-      "short_term_change_pct": 0.17,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T10:00:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.6,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 63.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-12T04:19:16+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 52,
-        "macro": 40,
+        "momentum": 50,
+        "macro": 35,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -178,13 +136,13 @@
       "published_at": "2026-10-12T04:39:25+00:00",
       "age_label": "5 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": -0.28,
-      "short_term_change_pct": 0.17,
+      "current_change_pct": -0.43,
+      "short_term_change_pct": -0.03,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T10:00:00+00:00",
+      "quote_at": "2026-10-12T10:26:44+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.6,
+      "quote_age_minutes": 0.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -200,8 +158,8 @@
         "catalyst_strength": 90,
         "freshness": 62,
         "volume": 28,
-        "momentum": 52,
-        "macro": 40,
+        "momentum": 50,
+        "macro": 35,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -209,7 +167,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T10:05:24.096358+00:00",
+    "updated_at": "2026-10-12T10:26:52.350961+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -219,7 +177,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -233,14 +191,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
@@ -252,12 +210,48 @@
     ],
     "geopolitics": [
       {
+        "title": "Iran urges Saudi Arabia to pursue diplomacy after Houthis escalate attacks - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNGJYd2dvZFlTODdMVEcwQzRoUkxZUWxZSFMxUFRLcUpsakJyeEtoUkJSSVRrU3htMHpBQ2FMQl83NjlkOGJqY1FUOWN4MHhXT0ZyaVdSR3lUb0ZnZjQzMm9HVDM4R3prTWJaOHg2Zk1BMUVzOHlCd0ZFUnViSzRUNHYwbkJSOG5vMWViNjNiSFFmTmJ2Zk9NcXZjTUtZUdIBowFBVV95cUxPd1o1TnpEUEtwbE9LSFh6XzhlQVRrWGVuSUl5OXQ2M29XTFNQY0p5V3lCVDFCNEt0ZEwxTHlwVHdfdHc4SG5ZUEpUYWhxaU8wN3FlZHM5Z0VMUVcxNzhjazNSSGxyeEU1YU9oZGxpYWxQeUZGXzNIajFUMmY5MU51dV94R1BQZkhrblh3Zkp2c0l1czhHZ3dhRXc1cTY0dHdCaU1v?oc=5",
+        "published_at": "2026-10-12T10:07:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Contributor: The U.S. and China created a new 'Trade Board' built on buzz words - Los Angeles Times",
+        "source": "Los Angeles Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZnc4Q2pNSGdkaVVPTWJtcmVsVGczRWlOMVMxZnlYUW1SaUxoMklkbmJ0NjNSMFFmREdfT0x5aC1xdTNsQ2V3TUY0MWFRYnpHZkpPUmxvU3FESkswaTZObm9ieXdVb0R2eDEzRWZFbTFsSkNsbkg1b18yWkVHbXI4TDVVSjZGZw?oc=5",
+        "published_at": "2026-10-12T10:07:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine Will Stop Hitting Russian Oil Only if Putin Ends Energy Strikes, Zelenskyy Says - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZk5tWHd5TEVkWHMwNGpjbUxpWFJJc251ZV9haWljbkRfM1JxS2lHcmNUUmViZHAwY0FRMTAtSDRzaTFqV0pfRkQ0alBja1JtaEk2dXpnU1RMTUhldndkMllPVW5pM01XdjZ2VUxrNC1MU1ZkR1hIUTZxdEZUNDdFeDF4NnhMV29rY09MMTktbUdjekU5eEsxUk03VnRyMHVrUWdYYjRwWjROdEgtY0h6enZPVWxIZUhYZ2FfVkFrZmJ1cG1ibkx1by1IQlREdw?oc=5",
+        "published_at": "2026-10-12T09:29:49+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China’s panda diplomacy: how Beijing combines conservation and trade - The Conversation",
         "source": "The Conversation",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNckNBRU1vR29BY1hlQlRZUG1qNkNQNWEybUhqRkNZMG5IbXpCV2NtSkVXTlc0Q3Z2bzhHM2R2aFg0eDY1N0FsVEo5VWhnUjFmR19PMGtuQVpNa3JMamxPQ2JpV1FmdGhpbVkwS2FPdms2LWZ4SnQ0YnRjY1JnYkxkZngyYnJlaGtWaFhMVlB6WnkzTGhoRmc5d2lYUFA3VDV6d0tZ?oc=5",
         "published_at": "2026-10-12T09:28:09+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Dutch Defense Minister Urges Russia Sanctions to Remain in Place - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX0lPdTZxSjA4ZE5Wa04yQzh0dTViSmJnVjF0TzVGcHZlaC04WVJWYkJZZDRnSXNPdmg0eFhrbmEyekZ3LVJtMkMyWUVHUFV4bzA4VVFoQjg0TnFrU1N5MEItUjZFc2c5cXgyTTVCSGhrbmdHdHRvcFJzNmdvNnRmN2VwcU1Qbzh2S25ST2FFRVZLdkJ1Tm15Q1FZMU5IWXF4X2Y5MGdYQnFpWlVqUmRXYno2NGlxQQ?oc=5",
+        "published_at": "2026-10-12T09:26:48+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -279,15 +273,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia introduces drone classes in public schools - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZFhfb25pV0hIMzJHSEVCaFY1SUVfTWtBeGRRTUVLemZGVnZ6Tl9tOGtpNlVwVGZyZHJYcllTYWZwUjNvZzhTNnh5ZjJJb2NlSGUwenA5U3Q5U3hkR09aX1Nwa1cyR05MNHBiREpKaHRtbE1fcG15ZnRxXzdCOW9jYjZwVXA0WTU0RTE2OHVXOWlsNFFqUTJRcTNNM04wZVlWN0xv0gGoAUFVX3lxTE5ubHBOZGJocjJsRWtfRk95bkR6cTJIdWh3dHVUcGoydFJ3Q0JITlNLODZlRXBIXzc0NW54NEJKSGFjLWNtUkR1eFQzeHlzS0FDV01WN3ZvYXdmQ1UyNTdqYTNKbmNRX2tUNHVzMnZFQjZvOENGWFJ5bVdNaE9Ha1JsaHdRZXVHWFMtR0N2aFNxclFlUm03bFZnTXNiVXZOQmw5cDZLdFNIbw?oc=5",
-        "published_at": "2026-10-12T08:51:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia’ war against Ukraine: EU adopts 22nd package of sanctions - EU NEIGHBOURS east",
         "source": "EU NEIGHBOURS east",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWXYwYlRxVV9lbDRvaURQUmI3V0xaZ3F2WjR6dG9nT3l6Vk0xazdidlJrVUgzTjVqcDBZX1pwTjBKWnZ2cFNSOVFsWnJ1VGkzR0J5R3Y4dTNOZE04YVlMcElzUEdwcnhZeTVsdEdmb1ptVEdjY1hfMHctWjFXeGhLcDhTSjBnSHdnNHRkZ2w5cjVmVG52R1ltMTF6Q0FUVHpzRDM4Vkp5NzVsbERv?oc=5",
@@ -301,15 +286,6 @@
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamJ2ZGp1bmNfdEs1MUlid3YzVTcxNmRtZW9DRjE5LUhjM0E5cHJ3elNrYzVXTVBWOVNYX0hVTVJ2anJUUG44QnBvWnJfNVVUbnRTTDZEcVdqSTFSeWxuemlXOVJvWUhObmhiOVk0X083ckp4WEtQTUU3dnVNMW1wd3VxUlctaG5RbGpISVI3bVNQZXpHT3hWVEZZbDJrblZTYmhPVG9pVlJxUUJ3MnFNUmozQk5iNkp6OFlzNWppUEN1VXc?oc=5",
         "published_at": "2026-10-12T08:41:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian State TV Celebrates Trump’s Russia Oil Plan: ‘Always Liked Trump’ - Newsweek",
-        "source": "Newsweek",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTTJrOENsZ2V4TjZYR01WWFJ0ZXl4R1U5UC1wYWV6R3hWMk1XcXA2NDQ1Nzc0M3JuWW9GbUFFQUFGSkdZRjhUMHE4UWdZdHkzSWhHU2ZSbm5oZTV4V3RBcWd3blNGaERxYzJSbllRRzFpN1pseUlIUmtkMTQwTlY3UmxFdjZ2R0k1Q3cyQTUtMWZEeVFiWWlqaENsUzVTb1FMWDZKNEhR?oc=5",
-        "published_at": "2026-10-12T08:33:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -333,27 +309,27 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "China sanctions Paraguay and Belize officials over ties with Taiwan - Jacksonville Journal-Courier",
+        "source": "Jacksonville Journal-Courier",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdFcyZ0JmbmRuVnBMTXE3eWdYcndmbDh3YmhrdDdZYkxhYkM1M2t3MDdMR2FILXhjdGJIaF9rNzdFdWF1VHU4RGI1MG1jUG83SEVhdFhjWmE4ZWZjSkE5bHBGSVcxWjBFczdXZGlEZFJXUUdkV3VRZUVkTDgxdGNwZU8teFV4NVpKazU5TXdycGJubFpnZ01QQjhiazVTT2VjdmItTTNkbzhVanoxLVNR?oc=5",
+        "published_at": "2026-10-12T07:44:17+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "New video shows terrifying moment Saudi airport struck in deadly Houthi attack - AppleValleyNewsNow.com",
+        "source": "AppleValleyNewsNow.com",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTHQ0NnZVcnBsU0VDYk9qNHlUUElPVVlJdFV5cHVGTmE5OWMtOVQ1bGNFSDlYclZTb0hnaFpCWEYycVpXZkRVOE5XNnkzZFlCWDhvMVNDZXFoRGpVbWVFWmY5dVF3eWI1TzZvdHBmQjhWY05GSWQwYTFtOXZwM21BUm9yZ19rWXd2UFBSTmR4NlJ3cW1xWHhjY0FrWENWelp1REU0QTBncVlYckpMbm5kbTZhVC1DRS1SRnJmRW8xSE9JM3FZRUFBd3F4dE1NZUx4dU1XRG5aekczaVU2eEtXWENJUDZndWdXamwyak9iT1VOUXNvcjFrbFk3NW5mR0tIR1NiUGd0X3VTeDA?oc=5",
+        "published_at": "2026-10-12T07:33:36+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China sanctions Paraguay and Belize officials over ties with Taiwan - Madison Courier",
         "source": "Madison Courier",
         "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcVJMel95VGdjTHNfakhjUFFFVmxPR2RBbGo1cFpiQkNtS0NLdFBBRk1GYkZDc0VucXZXaXROeFdiVUdEUjVfa0pPNVRIcmNmaGlfRTlFTElpLTh5NHdUQW05VGtIOUJTZ3d6cGpaTm1yc2NtcjI0N0JfNGJIcTkySnZCRmQ0VXhfVjIzQ2h1UzBRcVhveGVMNEhSeTNad3BLLVZuZE1ZRW1xS01ybGhyX0NCaFBsX1g3ZHdFMzUxUEJ1R3F1WTZtSFZLSGN6cGF5a0VLeTRkc3F3Tk1OUm1NV1MySGotTEtaay1Xcg?oc=5",
-        "published_at": "2026-10-12T07:28:06+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China sanctions Paraguay and Belize officials over ties with Taiwan - The Killeen Daily Herald",
-        "source": "The Killeen Daily Herald",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdl90aGhMUVVQODlZbzVIVDJjS1lDZVRuOU9lOVFoMzZkc1lXQkg0c2t3LU1nZnJMMWgyX3o0UzlLd0RLaFVUNG1IVmF1Zy1tOHpEamg0VDFwM3R2R0pzN0pKVVpkc1ZVTllCaGZlMkZxWkpVUkowSUZkU1Zka0JnTThZMzFaNVZVMW5WMHBmdTJicXhsRjA4QzdFelE0cUpqYlV2NTBieWNfVUJ0X3BteDF3emlBYkFYdTNYaGVSdVVrd0h5dUZaTlFsU1hsbVlBSFVfbl8tN1NmQWxPcm1oQnZB?oc=5",
-        "published_at": "2026-10-12T07:28:06+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China sanctions Paraguay and Belize officials over ties with Taiwan - Ottumwa Courier",
-        "source": "Ottumwa Courier",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPaXg3bWl3akowMDRiREZpLTYyTGc5eHlCTllORG5pSTVKRzEtS04yT1RsSmpNZmFVMTNRWUFlS2RCcjlHcU5hY1VzckotQzM5WDM1cTA5TGxxdnFmeDAxa21VNWxPVlkzN1U3cjU1b2dQRjBqV0QyVFVMb2hYdlVTeWdpcFNtSkVVbnJaY0p3ak10ZGtwQ3NOR2NsalVUTWNaYlowQVZKSXNQNEJ6Y3loWThHcTdlazU2VXBmM25DSWstNk9Nc2pMZFk0NlFzVHlvUDRRbnhHZm9uQkNEQkdkRnVMaUhuZHhGNmRPdnRJd0xrc1pfNkRLTk5wVQ?oc=5",
         "published_at": "2026-10-12T07:28:06+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -364,24 +340,6 @@
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQekhtVERFSnRZTElqTmNFOWVoVmpmUmlQS1hfQzZDdl9HMGFTYXQ2dDNpaUo3WFRfdGt1bW1GVnE2WFNDangzWGtyNllfODBkZ3NqUUhBbnBGdzAwSC05RVBYMFpKbW1ZMV82cVktR091VnNHQlpobjdEU0xlNGtUSkswbHNsUFMyVjhRb3NVeUEzemJjV3UwTQ?oc=5",
         "published_at": "2026-10-12T06:54:07+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Dramatic footage shows moment of Houthi attack on Saudi airport - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc0N1cmRqaFV6M2o1NHlPUWJnbHdlLVcyQUwxeTRXbTB0ejVuRXM2dkVuaTRWeWNEWEp4NDdhT2pvMVBWbENYdnVydXNLdk13Qk5JSC11YS1xOXJwNVNNczlxX0ZqOUhrelNVc21sRzJ1cm1RczhsZm1UcV94c1AtZ3ZBdEIyU0M0YzN0NU1XU3lJeUVpckJYWWNQYjRsRGNhT2NzME5NN2Q0UQ?oc=5",
-        "published_at": "2026-10-12T06:43:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Countries warn against travel to Saudi Arabia following Houthi attacks - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUXloNUhDeHJHd2ZMZ0t5Q01BS0lfOEpicUg0QkpNRm8yS3F3dW8tZG1tY3d3dUFFcm8tZFZpYUxWUkxqZTE4MGpZa1Zwd0lEUHFlNlRjbUJ2QkJXM0ZsUGxQd3R5dGx3bFFXM05RYUJaTmlzOV9RUkJGWDRrV18tLXlmV04yUWlpMGdPdlZjZ2hZQ0I5bE9BN29Uc0R6Znc5M2VPNjM2S19mZjlWU3cwVWsyLXVKUdIBuwFBVV95cUxNd19UdnpSYkZCTnZOVW53VmFrTUlhc1lMaVNFRWpMQ0NORUhiTW9QemhubWt4Z3FSSnpBQ3lLRDRqSjRXSXdCQzVxX3NWcWdpR0JRQ0hGNldYc002cngyWEVEMEd2MFZCaE1oTGRnbGZELUpxY1hWcVZnR1J5bmtqQmhJQk81M0VRMDRCM0ZpVXJvWmFPeDR0RXBiVkNKbFNwcVBORTdPM3R3bnpCc3YtVkd3Q3F5VWJhQ2lB?oc=5",
-        "published_at": "2026-10-12T06:09:51+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -416,15 +374,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "SpaceX Seeks $40 Billion to Buy Nvidia AI Chips - StratNews Global",
-        "source": "StratNews Global",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9HREVDTjFzSVpvekw2cm4tMzRxZi02TGo1bWUxcmFZd1lwSnJ2ZzlwMVdfbXdTclE5UkYzcXMwNTVuSTA5VzZhMnZVVURmTE1UQzZZdGRYa041dlJPZloybFI5YURZUng1Yjl4cGhiVmlNZXdrdlM5Mlp3MzByZw?oc=5",
-        "published_at": "2026-10-12T07:26:32+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Equity in earnings of RTW Biotech Opportunities Ltd USD – HAN:0BM - TradingView",
         "source": "TradingView",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ0tmUnVWUjVTLU9FUUpLSk95V1NHbHBzUE5EZVJaR21Lemx5ampEMFE4M21sZFJJVFlWeHFRbGtiZkE4ZXZYRG9PMXpheV9OaW1XMU0wdDl4VEdmSU5wN05HaFFReFViMjg4NWlXVjZIMmpzelBTRFl4aGRsWjVINHV6TFhtWlpFdUlDSTAxUWpEZ29MTkE?oc=5",
@@ -443,10 +392,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "fda approved weight loss drugs 2023 - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOGlVUjN4MGpoejhjLTZGMEZROF9IdFVTX25EWmRtaU5BR0gzVjFyYkVRRTRuX2o4ekgza1FqR1IyU1JOYXZoX2NaeVAybzZoOTBUTmlTaTNaMV83QlFVanBrYmNvSE5rME5DVXl2UkZIWHNnLWtXbXdQYm83c0M1UTdBd2xPUUZCQmVhSkdRRQ?oc=5",
-        "published_at": "2026-10-12T05:42:35+00:00",
+        "title": "new diet pill approved by the fda - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aUWdxb1dhRFRZTmRNdWtXUHNYNW5tWkZzeWpzSVJoQXRkYUpwQWhraVdVNjRXbFZGYXd6NVZrbVI5MDZiTmV1N0tsVlpxQTZPdWJJTkVqSHFfV0s0QkJ6OGwzU2FMVU5JVXlWRHdZRlZJSVVwTHNlUGVtSkszc3M?oc=5",
+        "published_at": "2026-10-12T06:56:04+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
