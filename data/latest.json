@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-12T06:31:52.038510+00:00",
+  "generated_at": "2026-10-12T07:01:26.741300+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 91.22000122070312,
-    "wti_change_pct": -0.6858979465257931,
-    "brent": 104.52999877929688,
-    "brent_change_pct": -0.18143854009876614,
+    "wti": 91.37000274658203,
+    "wti_change_pct": -0.5225865383920558,
+    "brent": 104.62000274658203,
+    "brent_change_pct": -0.09549128433482545,
     "nasdaq_level": 27366.17,
     "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.2040023803711,
+    "dollar_index": 102.16699981689453,
     "macro_score": 50.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -0.69%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -0.52%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T06:20:00+00:00",
-      "brent": "2026-10-12T06:20:00+00:00",
+      "wti": "2026-10-12T06:50:00+00:00",
+      "brent": "2026-10-12T06:50:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
@@ -38,48 +38,6 @@
     ]
   },
   "catalysts": [
-    {
-      "id": "cf0ff8eb219a",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Nvidia Reportedly in Talks to Acquire Reflection AI: Why This Open-Model Company Is Worth NVDA's Bet - TradingKey",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkZqYXozcjF2VVVDQ2kzazlTZ0JfbW9HYnotT1hESENZUTdzN0VSdlBCcW5BMEhsbUxCQk9zM0tqZVM4QkJEeVI5UFFnNFdxNGtWRUw1ZDBUT3JaeDNRWGRYUGp4R0dieW5uYjc1VEIxWGZ3UFZBam5LQ3QtNExUTE15TGFRbkdmUm1UTnlkdDJMY3YwU1dmQm0tM3RRVlFNR0tnUWhiNTJ4TW1GY3ZwNnM5VjU4aGxaZWhBU2Nnaw?oc=5",
-      "published_at": "2026-10-12T02:54:20+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -0.5,
-      "short_term_change_pct": -0.03,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-09T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 3276.7,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 49.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-12T02:54:20+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 50,
-        "macro": 51,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    },
     {
       "id": "ae5dd1a1d729",
       "ticker": "NVDA",
@@ -100,7 +58,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 3276.9,
+      "quote_age_minutes": 3306.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -125,7 +83,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T06:31:40.889870+00:00",
+    "updated_at": "2026-10-12T07:01:14.902412+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -149,7 +107,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
@@ -163,10 +121,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Beijing sanctions Paraguayan and Belizean ministers over support for Taiwan - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOeFhtcmVJUWF1alZ0RDMyY0dWRDJHSDg0cTA5Sy1oUW9NWjNHTGRQZ05JNEVXS1M0Y0VYR0o5QjlSNU5HX1k5eWNkYlJBN3p0SzAwWXJBaXo5VzRXRTZxbjNDNlU0YTgyMUZHejJYQmdHSGFraTIwV2xTUm9vajF6bG9GWXh3OXp1ZnN5ZXRGSXNMblZpUXlYalNZejljNHJjT1pBVEtQaFdVYThPa1UzalRsdTBtaS1IakZ5NVpnUl9fWDdiLUs4ZFEtbkRfNnBUenN4M0UtVWk1aGF3SmRsbzdlNHNRS1FnQ3ZtWTR3cXhsYUNq?oc=5",
+        "published_at": "2026-10-12T06:21:53+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Countries warn against travel to Saudi Arabia following Houthi attacks - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUXloNUhDeHJHd2ZMZ0t5Q01BS0lfOEpicUg0QkpNRm8yS3F3dW8tZG1tY3d3dUFFcm8tZFZpYUxWUkxqZTE4MGpZa1Zwd0lEUHFlNlRjbUJ2QkJXM0ZsUGxQd3R5dGx3bFFXM05RYUJaTmlzOV9RUkJGWDRrV18tLXlmV04yUWlpMGdPdlZjZ2hZQ0I5bE9BN29Uc0R6Znc5M2VPNjM2S19mZjlWU3cwVWsyLXVKUdIBuwFBVV95cUxNd19UdnpSYkZCTnZOVW53VmFrTUlhc1lMaVNFRWpMQ0NORUhiTW9QemhubWt4Z3FSSnpBQ3lLRDRqSjRXSXdCQzVxX3NWcWdpR0JRQ0hGNldYc002cngyWEVEMEd2MFZCaE1oTGRnbGZELUpxY1hWcVZnR1J5bmtqQmhJQk81M0VRMDRCM0ZpVXJvWmFPeDR0RXBiVkNKbFNwcVBORTdPM3R3bnpCc3YtVkd3Q3F5VWJhQ2lB?oc=5",
+        "published_at": "2026-10-12T06:09:51+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "China sanctions Paraguay, Belize ministers over Taiwan ties - TRT World",
         "source": "TRT World",
@@ -174,15 +150,6 @@
         "published_at": "2026-10-12T05:53:13+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker - Seatrade Maritime News",
-        "source": "Seatrade Maritime News",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU255S0ZwRHJ6dTY1RHlYLVdxNDI5SlZ5cU5sVUV4RWtjTXp6NG5JZnlzazhDT24xWHVTTC1TSnItX2tKZEVGa3VnbWp0MG9PUERvQm5BUGUzWTFMNmR6cnBoQ1gwQ2pzWE44cUtlVmRWdFYzOVdLV2NER3ZXdlZiVlRDWE1GMkJkdWFXaFY2LWNUZlRoTXhfSGhYZkQ5SGFReGZLbUEzVXE?oc=5",
-        "published_at": "2026-10-12T05:48:45+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -222,15 +189,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China sanctions Paraguay, Belize ministers over diplomatic ties with Taiwan - The Times of India",
-        "source": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSjQxbE1HRm9vT3gtTEFqRm01UGRuUXF0WjZIQWUwN0FEZnVUOHM2RlVLMUZWUm9GM0dBbEJsdmdoTlBkLUVkb0oyZjJZYkJJWmtXVmc5TUNnb1BmZGN0OVJMZGZZa3hjNFVIM2hmWFlmbFF5ZVczOGU3d3R4ZFpEVU9qam5zWnUtUjhZM28zSkxDQXB0bFZsUmNGWWx3N0w3Mk00dTJycWp3dlozVk83ekVRdHdZTmE0ZkFqd1QydGhkUlhHNFVKc0dIVWptajdySjFhaEZ2MUJKbTlXU05IY3B30gHnAUFVX3lxTE1sR3J1TnFkZWVXVkZLWGlNdC16bUxEc2Q2TnRrdTZvbVVmc0VwTW5NNGdQZ04yTkNHVVBLQ3ZtLW1RTFJQdTNxMHBBX0M4ZUlfRjYxc2ROMmlod3ZCRURyMzZyemROT25JWFY2Z2VtUS1sYU95b0h2X1hmMUpzRmJIUGtIdkcyaXNVUlJpZ1QxTS1QR1BxdlhNWEhvSVlQdFJVQ3NOcnNHak9pYWdRR0pvWkhGZHQ2aEg3ekQ5aDJlTFhpY0FNaHhyMzk5bzZJaG9zeDMtdEV5SnJmYnJfYXpnTldpeFFZSQ?oc=5",
-        "published_at": "2026-10-12T04:45:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Deadly Strikes In Saudi Arabia, Ceasefire Confusion, DOJ Press Probe: Weekend Roundup - Katie Couric Media",
         "source": "Katie Couric Media",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNTYzY3psMEg1OGFVZWlBSjN1ckhGRmxOMVZTc1hqQjEyWWZHUjJhb24xUExnb2VqVlBDRGNuVm8xdVZNTUFGYUc1U25RWk10cUhYQUF4SHNXSmw5MTdxZ3pTMG1SRDBiTzJ0SmZiMFNzajMxZXlLc0F5cVItMmtxTVFZUi1DajRmTHMzc0thVE16am5jdVJZZDJ0LWM0Q1di?oc=5",
@@ -249,15 +207,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine war briefing: Russia attacks multiple power plants after Trump energy ceasefire claim - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSHZYVkEtRV9yN2ktb3kwNUw2aGw0d0VRYzNNUzNLd2tOWmtuYlliNlFUVmZ1c3c2empSX0dlcXozUEZaaDkxdnVXeUhMQ1NjNXVFZVY3WmVGd3ByN3NjbzZFUXpQcnMxOXBtR2tVcUxaZkl5Y0R0bksyYVpmTU53Z0lxa0xfcVRaMkdMcGtobHR2cHJlaTJ2RnF3RGY5cXpnSU9ETDNwejdCZ25RRGlQa3BKelRIUnRReG5FR2FkZ0hmdUxCSTdvYnVBWUkxdGhWd3B4bQ?oc=5",
-        "published_at": "2026-10-12T03:20:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran accuses CENTCOM chief of running oil smuggling operations in Strait of Hormuz - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdmZiX2w1dktDTGcwbzRkeEdOdVpWNWdYUjI0R0llVzg0dG5ZVTc3YTNJVGJEcE9iNUZGMU9uZTRpRmtXcDlWdk1hdnhhWGg4OXdtSTk0WV9WdFotN3NibzcxVTVJdFFtdkZkUFJqb0w5N2RXdnhOek5VcHZpOGkxNFhMT3JobEt5LXZXdDJuN0I2SFhTaTNvb19YMmNHVXpjcHF3UHRPZk1TREUwc2lLcm45eVgzc2VEWnVTOGZ3R3U?oc=5",
@@ -267,20 +216,29 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi and Yemeni Airports Hit in New Round of Strikes - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWFJHOWNmYjhtTVdPTWNHd3cyeUtzLVpmNHg5dW40eVN3WkhoVXp1TTFMZmxXOERod1A0ZlItYWlhZ3B3VVNkT0pmS0NDOGYwS19ZX296RkhfSDI1bmhVWVpKdjlPTFdqVG42emhKbnJpRjNyU0NOSHFRRXM4S0lOY2M3VjZOcWZROW15TnV3?oc=5",
-        "published_at": "2026-10-12T02:27:42+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi Arabia says 1 dead, 11 injured in latest attack on Riyadh airport - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNclpxV0Fzd1pLbllockhyS0RFUXZsX1JXc3JwSVlfMGxSeTJuNnlYSWczNG8wZmhhM3VZWWM0dHA3R1l4MG9LcjFlVlgyc0hTelF5T1hlRERMODdRS0pySUNtbHU3YXFoOTBPQXliNjJ5a3ZkZHh0ckZYRUxBRmtHY1JqN2l5c05OUXg3SWt0dHZLZTViOGF6X0R1UVpMa05LcDB6U21wbi10WEtGaEp3MDRB0gG3AUFVX3lxTE55X2U2QWFtYzVqMTdHNUxqWlFPdUk1QnZldGVfUm15Q3BVVW5rQ09FUGo1NFJoREUzaXRQUlc5aWJac0ZfeGp2UXM5NmpQZ3VkaTVOd0FfZmpEMUs1d1RyQ3k3UnZ4MGxYYkVEZDRldWpaN1lEMFBxSXlnbDl2aEpKam83bUxBWGFnUFYwTFg0MzZHRWtNY2pBUkdJamh5WE10aTEwMVEya0NPdEtSaGk4c1pndlI1MA?oc=5",
         "published_at": "2026-10-12T02:18:12+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack - The Japan Times",
+        "source": "The Japan Times",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUEt5VVhzOGM0OUpXbWpMa0h5WGdabjB3WE5WSjVRdFllVmF6cXRrYWFwVENQU1JYZEp3NXV1OGZlcWpaODdjbGgzRDJnWmZ5ZmkxR0VHX19UOGJvakdLakFleWw2c2tXVEpTMmFya0ZLVGhqOC0wdW5DVnJhaGxocE5DUENHaWs?oc=5",
+        "published_at": "2026-10-12T02:18:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine war briefing: Russia attacks multiple power plants after Trump energy ceasefire claim - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSHZYVkEtRV9yN2ktb3kwNUw2aGw0d0VRYzNNUzNLd2tOWmtuYlliNlFUVmZ1c3c2empSX0dlcXozUEZaaDkxdnVXeUhMQ1NjNXVFZVY3WmVGd3ByN3NjbzZFUXpQcnMxOXBtR2tVcUxaZkl5Y0R0bksyYVpmTU53Z0lxa0xfcVRaMkdMcGtobHR2cHJlaTJ2RnF3RGY5cXpnSU9ETDNwejdCZ25RRGlQa3BKelRIUnRReG5FR2FkZ0hmdUxCSTdvYnVBWUkxdGhWd3B4bQ?oc=5",
+        "published_at": "2026-10-12T02:05:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -335,7 +293,7 @@
         "title": "GenScript and NVIDIA Launch Global PitchFest to Accelerate AI-Driven Drug Discovery Startups - BioPharma APAC",
         "source": "BioPharma APAC",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNTAyd2xsTW5POWdSS1l2cjlQeXlpbjY3aXpwdERYNTJnaEljWi05OHVRUVhkcG5JRWxYSkNmN2Nza2htU3M2VlVGZGtwVzdSa2lSNVFJVnF6TVZTYTdlVUJ5XzRFWGpnSHp2d2FzMkVQVmlfOXNKZW1TWkNrbjFOUXMtUGVNemh5Q2NXVmtKQW1UX1VYUUUtOHdCM3hBSTlRR0EyYkhOU2Z3TExUc2pFR21vaDFKdFpLT0N4WTFMM0RhVU9NN1diZ252c25WcFN6bVE?oc=5",
-        "published_at": "2026-10-12T00:33:45+00:00",
+        "published_at": "2026-10-12T00:39:33+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
