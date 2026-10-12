@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-12T01:29:24.451446+00:00",
+  "generated_at": "2026-10-12T01:49:44.061150+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 90.18000030517578,
-    "wti_change_pct": -1.8181798548595918,
-    "brent": 102.9800033569336,
-    "brent_change_pct": -1.6615716610835274,
+    "wti": 90.4800033569336,
+    "wti_change_pct": -1.4915570385921062,
+    "brent": 103.44000244140625,
+    "brent_change_pct": -1.2223059247289392,
     "nasdaq_level": 27366.17,
     "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.11299896240234,
+    "dollar_index": 102.13200378417969,
     "macro_score": 50.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.82%. Geopolitica: Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies - Reuters",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.49%. Geopolitica: Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T01:15:00+00:00",
-      "brent": "2026-10-12T01:15:00+00:00",
+      "wti": "2026-10-12T01:35:00+00:00",
+      "brent": "2026-10-12T01:35:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
@@ -63,7 +63,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 2974.3,
+      "quote_age_minutes": 2994.6,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -88,7 +88,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T01:29:12.925566+00:00",
+    "updated_at": "2026-10-12T01:49:32.927576+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -112,7 +112,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
@@ -135,6 +135,24 @@
         "source": "France 24",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWE9fVlV1VWUwX2lfQkpnQ0RCbFpzZ1c5V3ZYWjQ1RUwwU19xV2MxeG9mMEgtOURkMm1EY043MXJyT09UUlg3emlvR3JqbUJTaGFad2FSYWpwZVBUeTR3RlpudkVtWWNBbEJiOEloX1BSWlRCeXc1YTNqNVNTMnFQS1F6ejJEVjZZcWhF?oc=5",
         "published_at": "2026-10-12T01:01:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China and EU can manage trade differences through dialogue, Foreign Minister Wang Yi says - Asia News Network",
+        "source": "Asia News Network",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUGNKbFI5WEhHM0ctb0xvMUR5SWpndkp2bUl3aXFYRFZwZzZKdEhRS21pS2lvQjhJMUpPcFBqcVVjclN1bTl5cDBYUG5Gc2FlZ2NWZ28yMzZDRmpRaDV1X1dfUm5Dc1RxRHZhRGdSeE1wSXhOTUpjeVBMVURSbFZic01pODR2MjhRQm5LZVJYTmZrREtiS1RLQm5VQzl4eXZtYXBfaU12eWQ5UEM4a21JbGtxR0k?oc=5",
+        "published_at": "2026-10-12T00:58:40+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia vows retaliation against Houthis after airport strike kills at least 12 - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5",
+        "published_at": "2026-10-12T00:48:32+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -167,20 +185,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Lawmakers push back on Trump’s fuel deal with Russia - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkRWSmlZSVZ0U1JTakctcFo0MFZkdzZHV0o3N3J1NzBzdFZwdjhwX2FOMnVqeERUQUMwOEFhQWtfelU5TURMd2dBYUdydlJWSXFDR0tTRkx2S2ljeXc3dFU3NzNIMkhrMHFGR1BRQmR1QTg5M3p2NW0xRDJZc3F4MFJjSnpYdXBjczJsYnYxSjhiYlVmZHI4dFVtTWVOY0dFT3lmMC0xR0dMZw?oc=5",
-        "published_at": "2026-10-11T21:08:19+00:00",
+        "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5",
+        "published_at": "2026-10-11T21:45:02+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trade: How the EU plans to prepare for a showdown with China - Table.Briefings",
-        "source": "Table.Briefings",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT3RaR25aeVJkTzJjVzY3MjRTMkk3V1FLaHN4UWhfVnFNbThKenFsZ2JJamtabE9rSGExNjFCTmMya1cxXzcwZkgxSGQtMkNDX0g1bXIxOGU2NUNSeXc1aXJnLXFqM1RkRGY0REJlM0hkYTA0MmFnT04xQm5fc0tyVmNteGNuNnVqcFdMckw5bmhWaWpGWHhZRFhoblZsUW1ldEJfUG1KdnQ?oc=5",
-        "published_at": "2026-10-11T20:43:40+00:00",
-        "area": "USA / Cina / Taiwan",
+        "title": "Trump’s US-Russia diesel deal draws bipartisan criticism - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NkX1hxREY5UlRMTEEtaWtteDdaNlhrYzdZTnZVVEZrbUxVdzNSRk1VZFJWNmcxTWRGdE5VcFpZM2ZpVXU1a0J2dzBPLUkta3BaQVBIZzh5ZmllZThwZ2p3cGRZLWpNZ3FlX3ItcG9yelhQWi1JeUJSQm0xRHcxTWdtanBoVmxtV3c?oc=5",
+        "published_at": "2026-10-11T21:26:10+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -188,18 +206,18 @@
         "title": "Trump Pushes Russia-Ukraine Energy Ceasefire as Export Deal Draws Criticism - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY1g0QVBLX2lGU0RUSUxWNDNYM2ZHUWlwVGVqTHNBMnB5VXp3eTVndndiM0VBTHJ2Qkw0SlVmWEU0clBBVWFiaTBvTjVRUDFxZTVEUnhWWVVOd0FfU1ZsRmxYZXR0RTdMcmFYbF9LMjlGY3pQdmNpQ3NSejh6NW5INjVzY3VNTVotNC1aN002aTNCVkdJR1Y3T0pXbVlzeWV0SnBKZEF6clhNZFJUNlZv?oc=5",
-        "published_at": "2026-10-11T20:36:57+00:00",
+        "published_at": "2026-10-11T21:22:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5",
-        "published_at": "2026-10-11T20:26:43+00:00",
+        "title": "Lawmakers push back on Trump’s fuel deal with Russia - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkRWSmlZSVZ0U1JTakctcFo0MFZkdzZHV0o3N3J1NzBzdFZwdjhwX2FOMnVqeERUQUMwOEFhQWtfelU5TURMd2dBYUdydlJWSXFDR0tTRkx2S2ljeXc3dFU3NzNIMkhrMHFGR1BRQmR1QTg5M3p2NW0xRDJZc3F4MFJjSnpYdXBjczJsYnYxSjhiYlVmZHI4dFVtTWVOY0dFT3lmMC0xR0dMZw?oc=5",
+        "published_at": "2026-10-11T21:08:19+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -230,15 +248,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSFhUNWlxY0VWSjhteUoxY1JNYnIxR2RJLXV4NE02eWxKd1lsRU1JNHB2aUVmeDNDZzBWaWVPM0JxUlBIcEZCMkRnQkJ3dlBPYjBxcko3TGlaSEY4ZndpN05FVDk0NFowU1J6bmhxUkpzRGN6STdQbnNyS0Z6X0t6dmhVcVFTQkZWQ2NGY9IBkgFBVV95cUxQYTAxSjdOUGkwUWxZNmwwbUNkckYxTnM5cUFXakhSLVg2LXp5R0lIYVliZnl5SmlvelFnVXdjR3FMRWxscnlBZFdQVXM2blJBV3VLMWFPOXlSeUxubW90RkZKMm5BeWRNc1VSX1N1T1lqczNHZVVxeVAwUnpaNklKVXNCZ1V5alIzX19SVFF2Z3dvdw?oc=5",
-        "published_at": "2026-10-11T19:32:40+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "U.S. and China release $60 billion nonsensitive product lists for tariff cuts after Trump-Xi meeting - Agri News",
         "source": "Agri News",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRmFnbndySEcwM2dKMkRRaVg4dGxrc2FwQmExdlhWZ2FwM2JSeHVLanRvTHl2cGlGV09MV0NPeUtPV0g2a3lPckl3NkFVMEJ5ZUgzODM5Qi1iZTFxb25uV2IxazdoN25hMG13QmRmOHRvcEoweEhlMU52X25vVEVrNmZGaUhOczc5REVmWG14QVZ1Wk9PcFlTQ011MS1yUFROWEZqQW9ReENKTXA5WlRTa2xWTzJESnpsZkN1OW9nUXF2YVBWQmdlUEFPak9zU1VRSFdjS2c1N2Q0ak9qU2t3cjZn?oc=5",
@@ -254,15 +263,6 @@
         "published_at": "2026-10-11T19:05:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack killed 12 - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWlN4NkdrSnF3dWhtU0M0TmJ5T2tRNmxyT0tuN09Lb0hyWnhPdW9FbkdNUEMzVU5SY1l2dHJnVE4yMTFSbEtZU3lSeDdTSG5JYjZqTXFsa1piUkV0M0xZMUIwamdKNEZQRWFNQ1lxV011NTN2bEdvQ083V3B0WDZkbmNFTlVYcmtKRUJGSzNPcVdwSDhKQWRCYVc5NmRNNkJ0NTdjM0ktbkY5cVRtQVdpQkQwRUxLaEx1bWdIc3Z0Ny1aZk1lTDBDQWk0ckbSAcwBQVVfeXFMUGx2M1UtQjFSRkpCbmduUEZvLTRjcjZjVTRkQzNEbzBJQzRuaVZWZWtKQ3JIWUlhbk44X0kxZFYtdW1NblJfYmdVSFFkWHBmdkpkdXdkY2FZYy1nOVZ5VzliZDBBSUMwQmhEVlZOZ19iS1lTY3RwcGlCREdsekdJWTkySXBFaTg3TjlFWUpvM214N1JtT1lpWGNTYy1HY05EajliRUs5M19zYXJlSXNHMHBsN0loQ3hZNnlVWFMzNlVuWnkyS3JxYzFic1BK?oc=5",
-        "published_at": "2026-10-11T17:52:46+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
