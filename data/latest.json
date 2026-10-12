@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T21:21:31.022406+00:00",
+  "generated_at": "2026-10-12T21:38:36.566791+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -15,7 +15,7 @@
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.5780029296875,
+    "dollar_index": 102.58000183105469,
     "macro_score": 17.7,
     "tech_bias": "strong_negative",
     "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.43%. Geopolitica: Supertankers Turn From Gulf Oil Transfer Hub Amid Iran’s Attacks - Bloomberg.com",
@@ -24,7 +24,7 @@
       "wti": "2026-10-12T20:55:00+00:00",
       "brent": "2026-10-12T20:55:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
-      "sox": "2026-10-12T21:10:00+00:00",
+      "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
     },
     "geopolitical_risk_score": 37,
@@ -45,7 +45,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T21:21:19.092225+00:00",
+    "updated_at": "2026-10-12T21:38:24.686247+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -69,14 +69,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -87,6 +87,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Oil prices spike after Houthi attacks on Saudi airports - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTTZ5RGNoVEhkQU9PWXZCMWlyaTB2NFJmb2dZa2FMSkl3VWdrTUZrY3dTTU9scnJ6TUxWazRLbjluTUNFUVFKUFFGaDdjUng4QWczcERLUXhlNEFMWTNBVWs2bDJWYXZZZU5yX2hvdmdOandqZVJiVWhKYzg0QTRhZm1LNFFhajFfRVlpajdicE_SAZYBQVVfeXFMT1hrMExFRVMxY2V5MF80bTRKbVRpMzR1eVQyRjVFQnBTOTJjTkVwb3RHTm1KOGRxNEE2Yl9ieWkxQ0t4SFQ5SFB2enFyTlVsTTdOZjZZWEVTMU81ZkhjSHVBOUlCUi1hUVViV1JhaWZxbWNBSGdJMlA0XzdoalFsM2dLOXpPSVdMdUhScE9CQ0tnVjZNVmZR?oc=5",
+        "published_at": "2026-10-12T21:30:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "The Single Customer: Who Governs Iran’s Oil Trade with China - The China-Global South Project",
         "source": "The China-Global South Project",
@@ -142,6 +151,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Another Hormuz? What to know about the Houthi threat to the Red Sea - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPek9rZ1lJTlNXenlqS0tKUDZqaHpSRTZXT0RTRGVkM3NWRzJsWnI5bTAwQzVWWmdjYlkzekZWTEwxR2RTcUxnb2ZLSVF2QjZBS1F2T18zcEhuMkgtdzRsMkU2clo1V2twOFhqMURSdC1PUGxXaURLa1loN2FzVlduZ2lfTGdSY0VkRGNnS2Yzem1wNW1wUXpZM0FCeTdiZVZQMTlNVzdiekpneTFhYWhza2VB?oc=5",
+        "published_at": "2026-10-12T18:36:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Kremlin relishes in U.S.-Russia diesel deal and Trump's criticism of Zelenskyy - PBS",
         "source": "PBS",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQczM0ZDZsSi1XSFdMY2JYMEU4enBvX0JwVElUWTQ3STJRVFhGcEdYYmFPMWdtQVZjSXg1YXBPRDJYZE5PcndVQUR1cUx5ZTJPRXFIa281Y2M1QXZ5Zmw1czRkdDFwdXkzaVZUU3Nld3JvUTV6UXg2THBxNk5vQ0N2czVNMGlTT2pibDNhNWJ3MGJJdGxkeC1zOFlad1g1eG1TYUlZN0l1aDVESWhFeExGbdIBtgFBVV95cUxOVGlTTHhWakJOU0ZrT2tGM2p2dVBTcEFZa0kwRmVNclRZZlB4ZVJORzY2X2Izc2pCaGtZZDN4SzBKbUlFSVlEdm9BYV8yYWstTFJ6YXdiLWo3MW1MM085bERfZUszcUFWS3BFaXEtUVRaenE5RXhzcDhDQmloNUNZSmVZc2Q4ckJSTThFbHdtUDBKaHlMcElOY1F6MHBTV0d3MWp2Rzc1Zk92dUN6clZSdXFSWlZVQQ?oc=5",
@@ -164,15 +182,6 @@
         "source": "AppleValleyNewsNow.com",
         "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTHQ0NnZVcnBsU0VDYk9qNHlUUElPVVlJdFV5cHVGTmE5OWMtOVQ1bGNFSDlYclZTb0hnaFpCWEYycVpXZkRVOE5XNnkzZFlCWDhvMVNDZXFoRGpVbWVFWmY5dVF3eWI1TzZvdHBmQjhWY05GSWQwYTFtOXZwM21BUm9yZ19rWXd2UFBSTmR4NlJ3cW1xWHhjY0FrWENWelp1REU0QTBncVlYckpMbm5kbTZhVC1DRS1SRnJmRW8xSE9JM3FZRUFBd3F4dE1NZUx4dU1XRG5aekczaVU2eEtXWENJUDZndWdXamwyak9iT1VOUXNvcjFrbFk3NW5mR0tIR1NiUGd0X3VTeDA?oc=5",
         "published_at": "2026-10-12T17:47:56+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Secretary Rubio Responds to Houthi Attack on Saudi Airport - The Presidential Prayer Team",
-        "source": "The Presidential Prayer Team",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONWpKblNrbVdhYmRGZnZidXRJSDQzUXJaMmhpYkNXb05mN3FXS1p3ZVlvRGdyX1BGRVVmWXV2UUxaNXZCYWMwSld3MW5IempSU0pKaGQ3V0J2VGpqbDlxRmZ2MTkzMjB4eXp0THREekZvY3E0bm5jSl9Nd1lSN29VOFN5VG0xdVVUZVBHYmJSQVRKcU9vR1M2WWMtckFGMDBqdlh0UXcyNTlwd0JRbHc?oc=5",
-        "published_at": "2026-10-12T17:00:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -212,23 +221,14 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi Attack on Riyadh Airport Kills One Person, a Day After Another Strike Killed 12 People - Democracy Now!",
-        "source": "Democracy Now!",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmJCSGlpVk4zdFZTZi1HbTdwajFRQ3NvVEhsNGRSZXlwTWp0R3E1SG5WbTlpRXRkc0ZpX2kwNDB5N3NFZy1JTTJCNGdmN1dUUnNmY2JzdnktbWxLX2Jvd3ZvSW4xU0pWYXRtTllEMmtLNnRZSE5raXZSN19yN1Z4Nk1PS1BVR3JZZXhseTMxZ2hianp5dldnTldaX0VwbGMwOWxGelFLQ1lVQWxEbW4zLXZnTnoyNFRwMTJCYkRTNTZLTldIeGVxYVBVUnF1c25UYW5CdDVLT0JfUQ?oc=5",
-        "published_at": "2026-10-12T14:48:24+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Intel and Broadcom CEOs Warn AI’s Next Big Bottleneck Won’t Be Chips - Inc.com",
-        "source": "Inc.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZm55Yl9iTVMzbGZieWdiZkVzVUlsdTdqS1hSZTFmY0FVOTFPRHgwYXVZRnlWNHhwTS1veml6MHVkcS1Ec1FRcFdLLTE0WHRTMHlla0tnRl9KeWEtTUhwNFIyLU5RMXRZVEdidDdMXzFxdDdtR2JZQ0lxdDdPbUdub1BmWExyb3lZNUlPS1paMzc4N1VCZHNvN2x3UWxwWXZDSmFCdU9PMnZrOHdqN2hvZnF5cHc?oc=5",
-        "published_at": "2026-10-12T20:28:12+00:00",
+        "title": "Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points - Investor's Business Daily",
+        "source": "Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSlk0RnVxb1Y1NnB2cDJ0R0FtVlBhZ1dUV3JsenBRSUNxNW5xNGJySFd3M2MzekJBaXlhRzlObnNmaUZ4UlZSOVdqazFnc2VVVDJmYWJ4Rm1ROTJUNXMybXRfRm5VZ0JIWEZVNEpDZXVZM2VqWkFQR0Q5aV9IbGwwSnA5QjZvdXFId1pDa18xektnbThpN2pRbFRtWW52dHg3aGcw?oc=5",
+        "published_at": "2026-10-12T20:53:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -238,6 +238,15 @@
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHVSM1ltUmRIUHVldm04ZU5JX2hLc0lhYjZVaDMzMDlkVkxXNUM3OTFFVU1kdlM1R3BneGN5cXp3Ui1Yc211TFF0VUU3ZlpRWjhBRy0yOGJjdlZxR3FmdmFHdFNMRDM3Rnh3WjJMd0d1MHNINEdvdWpBVEc5TTJNMjk1Xy1JNEY2b1g5RkYzWXYtakQ0SmNnMHdoUlRnbjFMSWVBUm9QaVBXbkFNUVgwSDVLdURleTBwMHc?oc=5",
         "published_at": "2026-10-12T20:22:23+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Micron Stock Drops as Chinese Rival CXMT Advances New Chip - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjZjZW1lY0MxOFF6RHhzOTJqSTN4VzZIYlJIaXNsbVdZR2YxdjlaSVJOUjl2LTd3dHNyMW9HYVM1T2ZUM1duSFZiaVBfSmJmSlhwcjhzU0ZMaWxhUHhUY2FhZk4yMlVWOUZqMmZKU3JfYW5kajRHOHh4bzRFdk0xZElHeU0?oc=5",
+        "published_at": "2026-10-12T20:12:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -301,15 +310,6 @@
         "source": "GeekWire",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUEZEbjdfOE1lY3RRLVpLcGZDNlUtLU93MTlhbW9JYzRoMmlGZHJsNmd5UFRXNjZkWE9FUmhLRFNqOTZVQ3dKaHkyNm15blIwSXduVk9wb18wV1d4djQ5Sm9Fc1E0aFA3cC0wbjhubVFHRlM2emVWTGhvRGNDYmJiN0JwV2tfQ2xHelBzUEU5R1ZPNVZPNW4tY1VhbjhuQUtHMXZILWdqTDgwdkFHZU5XbnZKNEdWUjk2M01jQ1pUeV9tQ2NUQ3FEV0Rn?oc=5",
         "published_at": "2026-10-12T13:22:17+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Microsoft reveals Maia 300 AI chip as it works to reduce dependence on Nvidia, AMD - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdzlOWjZPREptdmhCandwSVY1VlRpbGZfbTFKalh1a29UT192S0FiVnpQSHZKb1ZiRjRWQnVMLW5LdTVxUjBWbWM5VXl4czJnLWM4aFpnWU1NYk80VW5KYjJxQUt5THB5QkpVZkFXU2hNQ28wdlIwWmhyRENSTWY0d2phRklOb05XdFVaQS1YRFNyZHE3blRsYk12X2hZS0MySlBSb0ZUUGJPYS1rNUR1N0NCczZneFcyVUk1cTVSaXZURWVwTXV6SGJ6RG5TNzFOd1p2TDhodGM?oc=5",
-        "published_at": "2026-10-12T13:00:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
