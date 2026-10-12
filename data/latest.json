@@ -1,118 +1,62 @@
 {
-  "generated_at": "2026-10-12T20:32:35.415398+00:00",
+  "generated_at": "2026-10-12T20:53:07.979566+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 93.19000244140625,
-    "wti_change_pct": 1.4589047246012843,
-    "brent": 106.04000091552734,
-    "brent_change_pct": 1.2605038955664671,
+    "wti": 93.19999694824219,
+    "wti_change_pct": 1.4697860604771407,
+    "brent": 106.05000305175781,
+    "brent_change_pct": 1.270055209655352,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.5989990234375,
+    "dollar_index": 102.58599853515625,
     "macro_score": 17.6,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.46%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.47%. Geopolitica: Supertankers Turn From Gulf Oil Transfer Hub Amid Iran’s Attacks - Bloomberg.com",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-12T20:20:00+00:00",
-      "brent": "2026-10-12T20:20:00+00:00",
-      "nasdaq": "2026-10-12T20:30:00+00:00",
-      "sox": "2026-10-12T20:30:00+00:00",
+      "wti": "2026-10-12T20:40:00+00:00",
+      "brent": "2026-10-12T20:40:00+00:00",
+      "nasdaq": "2026-10-12T20:50:00+00:00",
+      "sox": "2026-10-12T20:50:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
     },
     "geopolitical_risk_score": 37,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
     "geopolitical_headlines": [
       {
-        "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWxLV1J6R2V3UDNKc2FwUU9oQ2dvUGVXd2FQTTNQdFM2QVVBLU54eWN0SFktR25BT0l3U3NIRldielJHYjBLY1lfMTk1OGZGVUZtOG4yMXhINzZSVDhwdXZScWtCUDdVYWxjSkF6RThTcHhyMWN3Z1hrWjNMSFJFMm04eVRKZ2luSkJjWUpKM2RYSXdXa2ZKbk94MjRjaXFDRDRtLXd3c3pMbk1Ld21LOE13WEZMUXp5YWdEcnNYMzc?oc=5"
-      },
-      {
         "title": "Supertankers Turn From Gulf Oil Transfer Hub Amid Iran’s Attacks - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2UxSi1WM2FNQXNMdkNCemU2VURQWmpBeGNJVlRZM0h5MVJUa3VwaW1vQTNaTkI3MG5uYXJhY0tiMDBkNjdMYlNpdkt3SmVpUnBPWWNwVllqdklrSmYzTGIyR1hxckhKb2piVzZ6YlczLU5Vd24xNHd5YzdMNElUWkV0Q0VTZS1udzdCWXN6dThxS0hrVFpOX1BEZmRNUFBVMFBQcGIxRnh0SU1rX2VxNUZDUEdBZw?oc=5"
+      },
+      {
+        "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWxLV1J6R2V3UDNKc2FwUU9oQ2dvUGVXd2FQTTNQdFM2QVVBLU54eWN0SFktR25BT0l3U3NIRldielJHYjBLY1lfMTk1OGZGVUZtOG4yMXhINzZSVDhwdXZScWtCUDdVYWxjSkF6RThTcHhyMWN3Z1hrWjNMSFJFMm04eVRKZ2luSkJjWUpKM2RYSXdXa2ZKbk94MjRjaXFDRDRtLXd3c3pMbk1Ld21LOE13WEZMUXp5YWdEcnNYMzc?oc=5"
       }
     ]
   },
   "catalysts": [],
   "movers": [
     {
-      "ticker": "MSFT",
-      "company": "Microsoft",
-      "category": "Megacap Tech / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 1.02,
-      "short_term_change_pct": 0.09,
-      "relative_volume": 10.43,
-      "quote_at": "2026-10-12T20:30:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MSFT"
-    },
-    {
-      "ticker": "MSTR",
-      "company": "Strategy",
-      "category": "Bitcoin / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -0.62,
-      "short_term_change_pct": 0.68,
-      "relative_volume": 2.47,
-      "quote_at": "2026-10-12T20:30:35+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MSTR"
-    },
-    {
-      "ticker": "AMD",
-      "company": "Advanced Micro Devices",
-      "category": "Semiconductors / AI",
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "category": "AI / Cloud",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": -2.23,
-      "short_term_change_pct": 0.22,
-      "relative_volume": 2.09,
-      "quote_at": "2026-10-12T20:31:44+00:00",
+      "current_change_pct": -4.85,
+      "short_term_change_pct": 1.04,
+      "relative_volume": null,
+      "quote_at": "2026-10-12T20:50:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMD"
-    },
-    {
-      "ticker": "SHOP",
-      "company": "Shopify",
-      "category": "E-commerce / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 4.95,
-      "short_term_change_pct": 0.66,
-      "relative_volume": 1.65,
-      "quote_at": "2026-10-12T20:25:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SHOP"
-    },
-    {
-      "ticker": "SOFI",
-      "company": "SoFi Technologies",
-      "category": "Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -3.29,
-      "short_term_change_pct": 0.2,
-      "relative_volume": 1.57,
-      "quote_at": "2026-10-12T20:30:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SOFI"
+      "tradingview_symbol": "NBIS"
     },
     {
       "ticker": "COIN",
@@ -120,17 +64,45 @@
       "category": "Crypto / Fintech",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 1.13,
-      "short_term_change_pct": 1.52,
-      "relative_volume": 0.71,
-      "quote_at": "2026-10-12T20:30:00+00:00",
+      "current_change_pct": 1.19,
+      "short_term_change_pct": 1.95,
+      "relative_volume": null,
+      "quote_at": "2026-10-12T20:45:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "COIN"
+    },
+    {
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "category": "Space / Technology",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -3.53,
+      "short_term_change_pct": 0.99,
+      "relative_volume": null,
+      "quote_at": "2026-10-12T20:50:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "RKLB"
+    },
+    {
+      "ticker": "MSTR",
+      "company": "Strategy",
+      "category": "Bitcoin / Software",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -0.66,
+      "short_term_change_pct": 0.9,
+      "relative_volume": null,
+      "quote_at": "2026-10-12T20:50:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MSTR"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-12T20:32:23.347571+00:00",
+    "updated_at": "2026-10-12T20:52:55.813030+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -173,12 +145,39 @@
     ],
     "geopolitics": [
       {
+        "title": "The Single Customer: Who Governs Iran’s Oil Trade with China - The China-Global South Project",
+        "source": "The China-Global South Project",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOUhpeTViT3Jia2VOa0xaRDFXUzBJWXJxU3ItRFNENG9DZ0I2aWFaTXNZbkpjcHpiQ3VXT1VjQkY2aWl0OGRhMHhOTjdrMUFZMXhmdmQ5S3FtUFdhSEpEc1RDbTBYY2RJTGtYeGFiaGt3c296YVVmek1WZ2h6V2k0eV9vMHBmNkFLTXlN?oc=5",
+        "published_at": "2026-10-12T20:38:19+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Climbs as Fighting Flares in Middle East, Ukraine - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT2VNZDJQX0Z6SW1YbzFBdHlvYmtlVzdPZEcxRjRwWjVDZWJsRUNfdENWUWFjT29TVmdPSVVFc0JfVTQ2ZDZZUV9GTU05N3BBTWxwd0NOZE0zQlRzOFVyYWhoWWNyT3ZQejlzWGxQLVpiTXRPdjJKMk1lYXNMZTRkX19TMDJxZkpJU2xObzJ6SlpUbFdBNThySFhvMEs?oc=5",
+        "published_at": "2026-10-12T20:15:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYk9yd3EweHFPQ2doVnFxQmxCdEJxMmdBdF9FT2tzdExGZmR3eUo0TjFyTmU0azY4UEtmRW56djNGaERmMGdpcmNHZWRPcllwdEhPUVhsNjJqMzYxRko2dXA0VTBtdGZvYUdid1hZZkFMeGtJOGdVX1J0NUU5X29naUJaUVNxMG9LWEw2Q3prUHVTNTlyanVIbjFxOE80Y3oyNTlfX3VhT2U?oc=5",
         "published_at": "2026-10-12T19:52:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY1h5ek9QWEw0bXVmSUpuTlA1MDlVNXg1SzlnSkpwT1BXLVZHVnNMT1k0V3pfaU8tVFhUcWw1TWl1SE9Kcm04T0RYNjlhbGdyaUFQZEtOU2x6NmtJOGVfYXFWaHY3b1R0TDA5SzVsSDg0UTU2M2NGZk50WEZRTHBTSnJVWTBGbUJ6RjlnWFp0WTl1bkdWYmNYcl9ISXFSNS10OTBUZmVwQXpKSkI5REN1YTdkbnE?oc=5",
+        "published_at": "2026-10-12T19:45:16+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -209,15 +208,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Kremlin relishes in U.S.-Russia diesel deal and Trump's criticism of Zelenskyy - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVGlTTHhWakJOU0ZrT2tGM2p2dVBTcEFZa0kwRmVNclRZZlB4ZVJORzY2X2Izc2pCaGtZZDN4SzBKbUlFSVlEdm9BYV8yYWstTFJ6YXdiLWo3MW1MM085bERfZUszcUFWS3BFaXEtUVRaenE5RXhzcDhDQmloNUNZSmVZc2Q4ckJSTThFbHdtUDBKaHlMcElOY1F6MHBTV0d3MWp2Rzc1Zk92dUN6clZSdXFSWlZVQdIBtgFBVV95cUxOVGlTTHhWakJOU0ZrT2tGM2p2dVBTcEFZa0kwRmVNclRZZlB4ZVJORzY2X2Izc2pCaGtZZDN4SzBKbUlFSVlEdm9BYV8yYWstTFJ6YXdiLWo3MW1MM085bERfZUszcUFWS3BFaXEtUVRaenE5RXhzcDhDQmloNUNZSmVZc2Q4ckJSTThFbHdtUDBKaHlMcElOY1F6MHBTV0d3MWp2Rzc1Zk92dUN6clZSdXFSWlZVQQ?oc=5",
-        "published_at": "2026-10-12T18:12:20+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Why are the Houthis attacking Saudi airports and how are the missiles getting through? - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORnJnYXRDbWtzWG1hWXFTczhaQU04Z3NFbW1nclFrdk9DV2U1SzkycFV2VGFpcXNKbkxrUl9XX1l0YUl2YjRJTnNFeWVFMUNmaktERFBiWHQwMzdQTy1VVEVIODdqNE8zTmxfaEw2cmZfYU1LOUpPS3VTbENWc09oMUxFcWJpU1ZCWEF4TjhnRnljRkpERC04cUdNNmxrTHd2OGc2b093?oc=5",
@@ -233,15 +223,6 @@
         "published_at": "2026-10-12T17:47:56+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTaGRvQkRDWnpVYTFrajZyUVprTi1OM2tXZXpIUl8wOWZycm1LelV2SlVfZUw5MFhHUEN5STNYVV80d1pYeUFQOW9wSGRVdEF3eW1xVE9zbzJpRjQ?oc=5",
-        "published_at": "2026-10-12T17:32:13+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -267,15 +248,6 @@
         "source": "Euronews.com",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZXpGT2Ywa243UTNndGMxb243MXRFeHVqWkxKeVNpVnZYS0lYRk1HZEItM0s1NXFEb3pTU19sVDBpcGN2TU51NklpZ0VpcXVtalpxOXVkZVZLbzZkMWxWd3hHN25FbGU1eGxpbmVMSE5ndFIyNi02MF9td3JoMGw5eG1UVlpScnV3dXhiUGtKVUtaTDl5Nm9IR19RQW16Y1NkZy1j?oc=5",
         "published_at": "2026-10-12T16:22:22+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU ‘safeguards’ hybrid car sector from Chinese imports under new deal - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOREYtQU45cmhRUFFGWkV6VU9qTlNDM2pYdHhFeHEwZ3o1bDZvZXJ2SXRHN0lJREc5dEw0SWZ0Wm12NW1xblpRcTRxZUVXTmtHUm5qczVmdklnLXVTVVhNNzdWV0d3XzdGYXJQSHZkd2tVUzVRN1BxTmtCZ0pvMXVUdm0tVy0?oc=5",
-        "published_at": "2026-10-12T16:18:02+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -310,19 +282,28 @@
     ],
     "corporate": [
       {
-        "title": "Intel aims to boost AI turnaround with new GPU chips to take on Nvidia - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR2VrWlNjQkNsTnQ0ekFBelpEWnlPZnYyeVE2X3hlUUI1b0ViRllhSlJscEtRWkZOcndkVHBuOFQ0ei14eGpHbjBYLTFaWHdmQUltcUdvNmFJZUcyTE9sR3UxRk11MkNmVUlHS1RUOXZrN1M5TkhRZlVCRGs0YmFMNlhxMGlhdDZWeGRGd0hPcmsyRi0yUXZWZDJuMmhaTXg5MFEwTlNzM002cmZzc1UxZlduNk1MWm11VVdvcU9wSU02YW9nY3FYWmpn?oc=5",
-        "published_at": "2026-10-12T19:29:16+00:00",
+        "title": "Intel and Broadcom CEOs Warn AI’s Next Big Bottleneck Won’t Be Chips - Inc.com",
+        "source": "Inc.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZm55Yl9iTVMzbGZieWdiZkVzVUlsdTdqS1hSZTFmY0FVOTFPRHgwYXVZRnlWNHhwTS1veml6MHVkcS1Ec1FRcFdLLTE0WHRTMHlla0tnRl9KeWEtTUhwNFIyLU5RMXRZVEdidDdMXzFxdDdtR2JZQ0lxdDdPbUdub1BmWExyb3lZNUlPS1paMzc4N1VCZHNvN2x3UWxwWXZDSmFCdU9PMnZrOHdqN2hvZnF5cHc?oc=5",
+        "published_at": "2026-10-12T20:28:12+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "AI Infrastructure Stocks With Real Earnings Leverage From Ciena, Micron And KLA - Yahoo Finance",
+        "title": "Microsoft plans huge deployment of its own AI chips, with an eye on saving costs - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHVSM1ltUmRIUHVldm04ZU5JX2hLc0lhYjZVaDMzMDlkVkxXNUM3OTFFVU1kdlM1R3BneGN5cXp3Ui1Yc211TFF0VUU3ZlpRWjhBRy0yOGJjdlZxR3FmdmFHdFNMRDM3Rnh3WjJMd0d1MHNINEdvdWpBVEc5TTJNMjk1Xy1JNEY2b1g5RkYzWXYtakQ0SmNnMHdoUlRnbjFMSWVBUm9QaVBXbkFNUVgwSDVLdURleTBwMHc?oc=5",
+        "published_at": "2026-10-12T20:22:23+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Intel aims to boost AI turnaround with new GPU chips to take on Nvidia - Yahoo Finance",
         "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY3oyMFJ0bmdORzMydzk5Q2Z0WERMUzlKR3BqbG0yeExQckNrSkhnZ1JVS0h4RmVRc0hueVVxNEY4bWV3OEx6MmdLc0VCaWFYX3hPMmFiUzJyRlJySFFrY1VsdUJlUDJQcW03RW02STUwR01qUWFCYlBxVHh6SjhKcFpKVVBWMDg4XzZSN0dYT3YyTnVjZXRCdGd2bzlaZHltRDI3aQ?oc=5",
-        "published_at": "2026-10-12T18:09:08+00:00",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR2VrWlNjQkNsTnQ0ekFBelpEWnlPZnYyeVE2X3hlUUI1b0ViRllhSlJscEtRWkZOcndkVHBuOFQ0ei14eGpHbjBYLTFaWHdmQUltcUdvNmFJZUcyTE9sR3UxRk11MkNmVUlHS1RUOXZrN1M5TkhRZlVCRGs0YmFMNlhxMGlhdDZWeGRGd0hPcmsyRi0yUXZWZDJuMmhaTXg5MFEwTlNzM002cmZzc1UxZlduNk1MWm11VVdvcU9wSU02YW9nY3FYWmpn?oc=5",
+        "published_at": "2026-10-12T19:29:16+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -351,15 +332,6 @@
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmFxdDVtZnFlMUU4NmdyYXpyX005dVZmakJyTDgwT2otUmtKNWJtckZfdFg2TTlSQUVSSGhlTWYwYmlacjIwNk45dnZsTF9lOGtaZ1dlSXVvWXJuakpIaW41a2l5QS12bVBVc2xFR1dyU1k2c3ZWblZBd0JVUVMxR2lYTTBKaW5uR1ZWQmk2TXBuRS1HazZFSC1lSWFlcHBCRlFKS09RNzMzUTY2UGY5cmlFSUxNMFJtQWNDenpReDk?oc=5",
         "published_at": "2026-10-12T17:20:43+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Microsoft plans huge deployment of its own AI chips, with an eye on saving costs - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHVSM1ltUmRIUHVldm04ZU5JX2hLc0lhYjZVaDMzMDlkVkxXNUM3OTFFVU1kdlM1R3BneGN5cXp3Ui1Yc211TFF0VUU3ZlpRWjhBRy0yOGJjdlZxR3FmdmFHdFNMRDM3Rnh3WjJMd0d1MHNINEdvdWpBVEc5TTJNMjk1Xy1JNEY2b1g5RkYzWXYtakQ0SmNnMHdoUlRnbjFMSWVBUm9QaVBXbkFNUVgwSDVLdURleTBwMHc?oc=5",
-        "published_at": "2026-10-12T15:06:26+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
