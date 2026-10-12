@@ -1,90 +1,339 @@
 {
-  "generated_at": "2026-10-12T03:00:29.871769+00:00",
+  "generated_at": "2026-10-12T03:13:56.129776+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 90.05000305175781,
-    "wti_change_pct": -1.9597119785150885,
-    "brent": 102.94000244140625,
-    "brent_change_pct": -1.6997696319210553,
+    "wti": 90.04000091552734,
+    "wti_change_pct": -1.9706016207542087,
+    "brent": 102.93000030517578,
+    "brent_change_pct": -1.7093209460099401,
     "nasdaq_level": 27366.17,
     "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.18199920654297,
+    "dollar_index": 102.16699981689453,
     "macro_score": 50.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.96%.",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.97%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T02:45:00+00:00",
-      "brent": "2026-10-12T02:45:00+00:00",
+      "wti": "2026-10-12T03:00:00+00:00",
+      "brent": "2026-10-12T03:00:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 21,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUkdVMXVPN1BzRFlhOVdNQkFTU3hkRW1WOUdtNERzSnNDNkhRd29jTXhRZ0xvSUZWQVpCUUd1b29CWEpHYWtmaVFRbXR6bTUtaTlaODhKd0I0YVhub3BjRDJ0Uks1VzhpUzRSbkE4Y2N1X19CR0tpOHEtXzNMY2JOY1pPOHZTU2PSAYwBQVVfeXFMUDJ2R2cwNjhmemExeXRWRFFPb28wM0ZpVjVkQjRZYnBDS0QzVDUtME94REtVZFBlYkM5dUNmUzNIWTNhR0lvUTZDZVlfSjAyWW05OHhkRzNQX0ROczVnSTQzeWpSTko1Uzlra2RUNFFXRUV3QVU2T3pSOG42Y3lOaTNqc3plZTJGdmRZcmQ?oc=5"
+      },
+      {
+        "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0xoWVo4eTNVMU5uQXk0Rk9WeWlMaWN0TFlDbWwzX1FqNy1iWW5iUzk0REtlMGNVSnlGWkRCb0tySkQwRFZ0NzVDQzRFVk1IcWNqVFIteWpOVTRVM01xblZ0TzN1dWdlNUdYWTRMUUFBOGhwQ2xTYl9NaTF0bmk5UllSanctMGJDT1g3MnVuX1IxTWpwR193RHoyV1BEd2FqOWlDcg?oc=5"
+      }
+    ]
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "cf0ff8eb219a",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Nvidia Reportedly in Talks to Acquire Reflection AI: Why This Open-Model Company Is Worth NVDA's Bet - TradingKey",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkZqYXozcjF2VVVDQ2kzazlTZ0JfbW9HYnotT1hESENZUTdzN0VSdlBCcW5BMEhsbUxCQk9zM0tqZVM4QkJEeVI5UFFnNFdxNGtWRUw1ZDBUT3JaeDNRWGRYUGp4R0dieW5uYjc1VEIxWGZ3UFZBam5LQ3QtNExUTE15TGFRbkdmUm1UTnlkdDJMY3YwU1dmQm0tM3RRVlFNR0tnUWhiNTJ4TW1GY3ZwNnM5VjU4aGxaZWhBU2Nnaw?oc=5",
+      "published_at": "2026-10-12T02:54:20+00:00",
+      "age_label": "19 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -0.5,
+      "short_term_change_pct": -0.03,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-09T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 3078.8,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 52.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-12T02:54:20+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 50,
+        "macro": 51,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T02:57:47.954522+00:00",
+    "updated_at": "2026-10-12T03:13:44.306929+00:00",
     "open_market_required": false,
     "window_hours": 48,
-    "status": "SOURCE_ERRORS",
+    "status": "OK",
     "sources": [
       {
         "area": "Medio Oriente / energia",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 7
       },
       {
         "area": "Titoli tech e AI",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 15
       }
     ],
-    "geopolitics": [],
-    "corporate": [],
+    "geopolitics": [
+      {
+        "title": "China sanctions Paraguay, Belize ministers over Taiwan ties - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRlZjMXA3dXh6Z1ljWUVLdmthRFBsUlN0alB6Y0ZSYmVJMzVJbXJURjM3eGF4bW53S2Npc1lJai1GZjNDb1k1bkNoSTFndDRvOTQtcGVkOFJlczJRYW93NXdrRkU5U1Q1UXBRUktJeWhmSnNVcnEzUlVQajJiTzVRbk5wN2luMUN2R2VuMHYzNnY3UEV3d28xXzZaZUg4alpBRVV2NW9mczFRZw?oc=5",
+        "published_at": "2026-10-12T02:54:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUkdVMXVPN1BzRFlhOVdNQkFTU3hkRW1WOUdtNERzSnNDNkhRd29jTXhRZ0xvSUZWQVpCUUd1b29CWEpHYWtmaVFRbXR6bTUtaTlaODhKd0I0YVhub3BjRDJ0Uks1VzhpUzRSbkE4Y2N1X19CR0tpOHEtXzNMY2JOY1pPOHZTU2PSAYwBQVVfeXFMUDJ2R2cwNjhmemExeXRWRFFPb28wM0ZpVjVkQjRZYnBDS0QzVDUtME94REtVZFBlYkM5dUNmUzNIWTNhR0lvUTZDZVlfSjAyWW05OHhkRzNQX0ROczVnSTQzeWpSTko1Uzlra2RUNFFXRUV3QVU2T3pSOG42Y3lOaTNqc3plZTJGdmRZcmQ?oc=5",
+        "published_at": "2026-10-12T02:16:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine war briefing: Russia attacks multiple power plants after Trump energy ceasefire claim - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSHZYVkEtRV9yN2ktb3kwNUw2aGw0d0VRYzNNUzNLd2tOWmtuYlliNlFUVmZ1c3c2empSX0dlcXozUEZaaDkxdnVXeUhMQ1NjNXVFZVY3WmVGd3ByN3NjbzZFUXpQcnMxOXBtR2tVcUxaZkl5Y0R0bksyYVpmTU53Z0lxa0xfcVRaMkdMcGtobHR2cHJlaTJ2RnF3RGY5cXpnSU9ETDNwejdCZ25RRGlQa3BKelRIUnRReG5FR2FkZ0hmdUxCSTdvYnVBWUkxdGhWd3B4bQ?oc=5",
+        "published_at": "2026-10-12T02:05:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump’s Zelensky attack, Russia diesel deal draw criticism in U.S. and abroad - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRDJoSExmM24xR3N0eW5LRy1rYUJyV3BTbURWenNJTlcwWlRsNUxJV2NyN0VzM2JYSFlOODJqdmdXekhFanJkRWE5NzJ4eVVDT1c4RFM2d2RHNzJtcGV3YkJzZmZqYVhISXBRWkt3bHRyQlJHdlY0OFJRT21zTUpxZk83akZZSmh3X2pKRlcwU1VzSjhvVFc2bk10MWdPclo3bXQtdGMzTFRFcFZNNERhVVdiTjRRUQ?oc=5",
+        "published_at": "2026-10-12T01:31:56+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Fresh Houthi strike hits Riyadh airport a day after deadly attack - France 24",
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWE9fVlV1VWUwX2lfQkpnQ0RCbFpzZ1c5V3ZYWjQ1RUwwU19xV2MxeG9mMEgtOURkMm1EY043MXJyT09UUlg3emlvR3JqbUJTaGFad2FSYWpwZVBUeTR3RlpudkVtWWNBbEJiOEloX1BSWlRCeXc1YTNqNVNTMnFQS1F6ejJEVjZZcWhF?oc=5",
+        "published_at": "2026-10-12T01:01:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China and EU can manage trade differences through dialogue, Foreign Minister Wang Yi says - Asia News Network",
+        "source": "Asia News Network",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUGNKbFI5WEhHM0ctb0xvMUR5SWpndkp2bUl3aXFYRFZwZzZKdEhRS21pS2lvQjhJMUpPcFBqcVVjclN1bTl5cDBYUG5Gc2FlZ2NWZ28yMzZDRmpRaDV1X1dfUm5Dc1RxRHZhRGdSeE1wSXhOTUpjeVBMVURSbFZic01pODR2MjhRQm5LZVJYTmZrREtiS1RLQm5VQzl4eXZtYXBfaU12eWQ5UEM4a21JbGtxR0k?oc=5",
+        "published_at": "2026-10-12T00:58:40+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi and Yemeni Airports Hit in New Round of Strikes - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWFJHOWNmYjhtTVdPTWNHd3cyeUtzLVpmNHg5dW40eVN3WkhoVXp1TTFMZmxXOERod1A0ZlItYWlhZ3B3VVNkT0pmS0NDOGYwS19ZX296RkhfSDI1bmhVWVpKdjlPTFdqVG42emhKbnJpRjNyU0NOSHFRRXM4S0lOY2M3VjZOcWZROW15TnV3?oc=5",
+        "published_at": "2026-10-11T23:45:12+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China Moves to Stave Off Wider EU Trade War With Hybrid Deal - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUFFlQ2RWX2k2c19mRUlseHB2TDlOM0xYSVdXc29YSHBVS2o0OE1qRHFXQU1JR093ellFZ2xSNEg3cUZISWx1SllLdmpuQWNBaFoyQmJHU1RaMHZ0YlFXN3l0eVZkNlhvQlRaTElKWExxTFh4cmNOc0xIeVdpdWh0MHdicmVsajVQMEdtMkZRRzFMOXpyRzBXQmdDQ2lpUlFKVlRMdzVlSXR3aE51ZU9ZZA?oc=5",
+        "published_at": "2026-10-11T23:29:29+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0xoWVo4eTNVMU5uQXk0Rk9WeWlMaWN0TFlDbWwzX1FqNy1iWW5iUzk0REtlMGNVSnlGWkRCb0tySkQwRFZ0NzVDQzRFVk1IcWNqVFIteWpOVTRVM01xblZ0TzN1dWdlNUdYWTRMUUFBOGhwQ2xTYl9NaTF0bmk5UllSanctMGJDT1g3MnVuX1IxTWpwR193RHoyV1BEd2FqOWlDcg?oc=5",
+        "published_at": "2026-10-11T23:26:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
+        "published_at": "2026-10-11T22:33:24+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "CCTV shows moment of deadly Houthi strike on Riyadh airport - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR1MtSTdOTm5UU1oyN2l6cHp6bUp0SE9KMm42VEd0cUhqWEtjbmVyU1lWdnZ4QnhLZU5PTGNrQnRKaURuLTNORzByT2d3RW1HTmhVQXlyT2JWRFZNS21QZFJ2TjhzYkJyNHdLNmJMU3lrcnFIbzJMY29GTjEyVS1CdWl6ODRJYVE4Ny1kaXdZRHVmYkl0T2VFZDFKTVFJRDlyLTJxeGI2dWE0UmPSAbABQVVfeXFMTVhScGpjLWVEeUJIQ1RfZF9naVlETm9uVlRZZ0xSWE5FakJQLU0xNzhyZ2w3cTRaUDNRV0FGbHY2cGV4RlRGakxJYmJETWpYc1dhSy1GR1J1a0RYZnk1d2xQdW1GbV9hM2ZDaXFJaVV1Q0lHV1NwNWVyN05YdUhRRGdoVFF6THZJYW43M3FzNG92NzNsemNkdXdPS1pJUE9KSC1vMmI4ZkJLTWY1NVdmeDg?oc=5",
+        "published_at": "2026-10-11T22:24:33+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump’s US-Russia diesel deal draws bipartisan criticism - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NkX1hxREY5UlRMTEEtaWtteDdaNlhrYzdZTnZVVEZrbUxVdzNSRk1VZFJWNmcxTWRGdE5VcFpZM2ZpVXU1a0J2dzBPLUkta3BaQVBIZzh5ZmllZThwZ2p3cGRZLWpNZ3FlX3ItcG9yelhQWi1JeUJSQm0xRHcxTWdtanBoVmxtV3c?oc=5",
+        "published_at": "2026-10-11T21:26:10+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump Pushes Russia-Ukraine Energy Ceasefire as Export Deal Draws Criticism - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY1g0QVBLX2lGU0RUSUxWNDNYM2ZHUWlwVGVqTHNBMnB5VXp3eTVndndiM0VBTHJ2Qkw0SlVmWEU0clBBVWFiaTBvTjVRUDFxZTVEUnhWWVVOd0FfU1ZsRmxYZXR0RTdMcmFYbF9LMjlGY3pQdmNpQ3NSejh6NW5INjVzY3VNTVotNC1aN002aTNCVkdJR1Y3T0pXbVlzeWV0SnBKZEF6clhNZFJUNlZv?oc=5",
+        "published_at": "2026-10-11T21:22:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU ‘safeguards’ hybrid car sector from Chinese imports under new deal - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOREYtQU45cmhRUFFGWkV6VU9qTlNDM2pYdHhFeHEwZ3o1bDZvZXJ2SXRHN0lJREc5dEw0SWZ0Wm12NW1xblpRcTRxZUVXTmtHUm5qczVmdklnLXVTVVhNNzdWV0d3XzdGYXJQSHZkd2tVUzVRN1BxTmtCZ0pvMXVUdm0tVy0?oc=5",
+        "published_at": "2026-10-11T20:00:01+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. and China release $60 billion nonsensitive product lists for tariff cuts after Trump-Xi meeting - Agri News",
+        "source": "Agri News",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRmFnbndySEcwM2dKMkRRaVg4dGxrc2FwQmExdlhWZ2FwM2JSeHVLanRvTHl2cGlGV09MV0NPeUtPV0g2a3lPckl3NkFVMEJ5ZUgzODM5Qi1iZTFxb25uV2IxazdoN25hMG13QmRmOHRvcEoweEhlMU52X25vVEVrNmZGaUhOczc5REVmWG14QVZ1Wk9PcFlTQ011MS1yUFROWEZqQW9ReENKTXA5WlRTa2xWTzJESnpsZkN1OW9nUXF2YVBWQmdlUEFPak9zU1VRSFdjS2c1N2Q0ak9qU2t3cjZn?oc=5",
+        "published_at": "2026-10-11T19:30:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
+    "corporate": [
+      {
+        "title": "Stocktwits Pharma Pulse: JNJ Earnings, Cancer Updates And Two FDA Target Dates — The Week’s Biotech Watchlist - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWI2YzF1alFVSFRjQk5ZSUd1bXRCOUxXeGVtaUpOOGdicGNyQ3pMbUJpeEw2OU5hMlM1SEdsQWdYTi1ZNHRJb2dPMDRKUTRjRTA1ZkxPR3FlUmVHdVdENExHZ0hReno3Uk85aDlHQ1NwTVR0TlRxb1BWRFNDMDdiTUs2T241SWgyY2pZM0gwRXQxaHBpdU01NEN6OFVNQQ?oc=5",
+        "published_at": "2026-10-12T02:17:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Is Edwards Lifesciences (EW) Undervalued After FDA Approval Of Its AUTUS Valve? - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeDY1bVdzVGEyS0F1c3dOd0g1N1ZZQ21BY0xpM1hrcmFLSXRyeDFFeVctUWVIYlFUTFlqZkYyT1cwX0FGRkFEbVpYa0lTZk5vZHktX25QbmYyZFRtcXpMMEFqYXpjMEF4YTZpaU1OaEFfV0w3c2NWYWw3NUJsNjVvY3ZwTjgzdkhDVzdlbm1jbTRKUHNCUDJJUUtIMm9DdmN4YU54V3BwdEYtYTNyUGtsR3VzVVRBa29UajRYckJfemR3aEtUSWU1TG9uWUZaZU10RUtz0gHYAUFVX3lxTFBWeXVQM010MHplTkY1QVRKTTQyaE1xWDU1c2RCc2J1VTU2NmFfZks5d25qcjhnOHJ6MXpSVEhpVFV3YkFVazRMNkxEMnVrMnB3Yk05ekJHNy1DZnFmZFJweWY4bjlaOVJLcXdMbDNNUnpIOTZQWXg1RUg3OVlNb2F2WG9aVlRrZ0ZEeVNUZFAtZ0QxQnR4aHRKVGhGZHJVWENGb0RBMDdOeU1KRzlIcmhBX1g3Q0dZNm5OSFJVQlFLd0tQZ3J4Xzd6cl8yRmZnWDdENmgycWZiYQ?oc=5",
+        "published_at": "2026-10-12T02:00:40+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "GenScript and NVIDIA Launch Global PitchFest to Accelerate AI-Driven Drug Discovery Startups - BioPharma APAC",
+        "source": "BioPharma APAC",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNTAyd2xsTW5POWdSS1l2cjlQeXlpbjY3aXpwdERYNTJnaEljWi05OHVRUVhkcG5JRWxYSkNmN2Nza2htU3M2VlVGZGtwVzdSa2lSNVFJVnF6TVZTYTdlVUJ5XzRFWGpnSHp2d2FzMkVQVmlfOXNKZW1TWkNrbjFOUXMtUGVNemh5Q2NXVmtKQW1UX1VYUUUtOHdCM3hBSTlRR0EyYkhOU2Z3TExUc2pFR21vaDFKdFpLT0N4WTFMM0RhVU9NN1diZ252c25WcFN6bVE?oc=5",
+        "published_at": "2026-10-12T00:33:45+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "3 Energy Stocks Investors Are Watching After Saudi Supply Risk Returns - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVndBWG5jSGdlRjljcGh3ZEFwYTVkdjVBTWN4R0hyNzJpTjAwOThZdk1zVlFjYlZCd0NCTmFaZGEzU0oyQ1MtYXpwZFNHTXlDSy1EbDFrXzdrdW00TzVvT3hWLWUzYVJxTDRCVzNYUC11Ni13cDg2aEUzV0tLd0Q3MXUxVmFJT0pMVDFSTlBTN0J2OENnRWtYRG16b292dkFBUzFEY1RVblZwcjJGUUdjT1lGWFNBbWp2ODNxNlVyOWNSeUM30gHKAUFVX3lxTFB0TWVfZzB4aWliX2NrV05zVElXdjJxSWRIS0VrRnRhMzh2c0FXTXlHYzNLZmZfWHdfandrR1JjZEZOelI4MUh3SU1Eai1xbzZlbmpZeTNDT3VrTDJRbjEwcE1FemN4UWhfT2wtYUZMa2pTNmtnY01LMHdWR09ZVjkyeEdneTBSdW9EdDR5MHltODJGc202ZzItLWwxOTNZTkJfaTh0U1lzaGdMZGt5R1lFUUxJVU9YSHRhdkhnS1daS1J6Z2JfWnR6MkE?oc=5",
+        "published_at": "2026-10-11T23:04:51+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "NVAX Stock Rises Overnight Ahead Of Q4 Print With Pfizer Tailwinds — Analyst Warns Of 20% Crash - Stocktwits",
+        "source": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPY1JPSldLQVNnd0FCS0ptOUszZkVYMzN3dXdtMUs3R2hNZkF3RFBzaTBHbkMwdGlheHd2ZGItb2ktQUd4MVFDTXEtX1UxYUVKUlpwSnl3bVZxQVlELWpSaHlNVEtpYkRTUFhMTFlXRFAxaHhmeE9tdThPRU9kZHpKZ0xUdzNPWFhwc3pBTGhLUVlIT2FzdUFwdjJNVHdvU1ZPUUtqTEREUUh0OWU0QlRpdUZkYmRNNUM4VVdHTFQ2V3lTWGtTMENhUnlRTlVXeVNpUWRaSjl2cjBNTlFSWkd0UldSUmVsWHNyQk1mRg?oc=5",
+        "published_at": "2026-10-11T20:03:27+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "SpaceX Seeks $40B to Buy NVIDIA Chips for Orbit AI [2026] - https://tech-insider.org/",
+        "source": "https://tech-insider.org/",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jN3NIc2xkcnZTYzQ2czlrWE1KZGxpZmFyLU1ySldDOVFKcmlFYkJQVWlwbHVzVlN2QVd3cjdzX2pBMjJRV2djVVFabmpzb1p2X1Z6MWQ0ejFjejd0eXpFR2xoLUJITzRTNjJ4OVVHVUtQQWxvdE9rN0d4NEk?oc=5",
+        "published_at": "2026-10-11T19:49:38+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "health news today fda approval weight loss drug - Olhar Digital",
+        "source": "Olhar Digital",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWUM4SVMwdWxpcHpxTG9sQVRQeHpQS1ZMSkN4NWp5YWxHd0VfcThVeDhrUW04XzJ5Ujd4QWowOEZWT3E2dzlocndPZDRGYjNxemZtWldacWhzbUxWQVdhc0RNMTNyX3EyOXhORzNYU3lWTElVSzJYSFpJWXlWRmp1SV9lc1ZPbFRJX09PMHdQaXhjamJaYWc?oc=5",
+        "published_at": "2026-10-11T17:52:04+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 15,
+  "archive_count": 16,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
