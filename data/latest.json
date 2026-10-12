@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-12T19:07:21.158372+00:00",
+  "generated_at": "2026-10-12T19:25:11.651538+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 93.62000274658203,
-    "wti_change_pct": 1.9270596645242666,
-    "brent": 106.55999755859375,
-    "brent_change_pct": 1.7570629454183528,
-    "nasdaq_level": 27231.359375,
-    "nasdaq_change_pct": -0.49261751739413384,
-    "sox_level": 12235.439453125,
-    "sox_change_pct": -2.6803150932278474,
-    "vix": 15.319999694824219,
-    "vix_change_pct": 3.2344982297902725,
-    "dollar_index": 102.59600067138672,
-    "macro_score": 14.7,
+    "wti": 93.61000061035156,
+    "wti_change_pct": 1.9161700222851463,
+    "brent": 106.52999877929688,
+    "brent_change_pct": 1.7284162886697096,
+    "nasdaq_level": 27233.025390625,
+    "nasdaq_change_pct": -0.48652965186616326,
+    "sox_level": 12231.44921875,
+    "sox_change_pct": -2.7120530911613816,
+    "vix": 15.3100004196167,
+    "vix_change_pct": 3.167117669785524,
+    "dollar_index": 102.58799743652344,
+    "macro_score": 14.6,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.49%, SOX -2.68%, US10Y 5.24, WTI +1.93%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -0.49%, SOX -2.71%, US10Y 5.24, WTI +1.92%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
     "quote_times": {
-      "treasury_10y": "2026-10-12T18:50:00+00:00",
-      "wti": "2026-10-12T18:55:00+00:00",
-      "brent": "2026-10-12T18:55:00+00:00",
-      "nasdaq": "2026-10-12T19:05:00+00:00",
-      "sox": "2026-10-12T19:05:00+00:00",
-      "vix": "2026-10-12T18:50:00+00:00"
+      "treasury_10y": "2026-10-12T18:55:00+00:00",
+      "wti": "2026-10-12T19:10:00+00:00",
+      "brent": "2026-10-12T19:10:00+00:00",
+      "nasdaq": "2026-10-12T19:20:00+00:00",
+      "sox": "2026-10-12T19:20:00+00:00",
+      "vix": "2026-10-12T19:05:00+00:00"
     },
     "geopolitical_risk_score": 28,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
@@ -37,110 +37,25 @@
       }
     ]
   },
-  "catalysts": [
-    {
-      "id": "cf16624bf636",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Nvidia Negotiates Investment or Acquisition of Open Source Startup Reflection AI - TIKR.com",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "TIKR.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQX0V1TXBRMUFGaUExSUsxbjBNNS05R18xT0JZN2Y5QnNPVzMzc1FuN2h3dEFXdDlRb3lBbnVtNVFMVlVPLU96S3RtX0dzYTVCWlN3czRGS0tiNUNEWHpORWRsamhjNTd0S0w2QlFETXd6ZEFvSnhLWm5VQzRjZTlrVQ?oc=5",
-      "published_at": "2026-10-12T13:15:26+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -1.21,
-      "short_term_change_pct": 0.03,
-      "relative_volume": 0.7,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-12T19:05:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.3,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 3.7,
-      "confidence_score": 61.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-12T13:15:26+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 62,
-        "volume": 32,
-        "momentum": 50,
-        "macro": 15,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [
-    {
-      "ticker": "RDDT",
-      "company": "Reddit",
-      "category": "Internet / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.54,
-      "short_term_change_pct": 0.17,
-      "relative_volume": 10.31,
-      "quote_at": "2026-10-12T19:05:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "RDDT"
-    },
     {
       "ticker": "NBIS",
       "company": "Nebius Group",
       "category": "AI / Cloud",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": -5.89,
-      "short_term_change_pct": 0.36,
-      "relative_volume": 2.15,
-      "quote_at": "2026-10-12T19:05:00+00:00",
+      "current_change_pct": -5.66,
+      "short_term_change_pct": 0.31,
+      "relative_volume": 1.62,
+      "quote_at": "2026-10-12T19:20:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "NBIS"
-    },
-    {
-      "ticker": "SNOW",
-      "company": "Snowflake",
-      "category": "Cloud / Software / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -2.75,
-      "short_term_change_pct": 0.07,
-      "relative_volume": 2.59,
-      "quote_at": "2026-10-12T19:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SNOW"
-    },
-    {
-      "ticker": "HIMS",
-      "company": "Hims & Hers Health",
-      "category": "Health / Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 0.1,
-      "short_term_change_pct": 0.95,
-      "relative_volume": 0.33,
-      "quote_at": "2026-10-12T19:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "HIMS"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-12T19:07:09.154253+00:00",
+    "updated_at": "2026-10-12T19:25:00.432259+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -150,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -171,7 +86,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -183,12 +98,21 @@
     ],
     "geopolitics": [
       {
-        "title": "Another Hormuz? What to know about the Houthi threat to the Red Sea - NBC News",
+        "title": "Energy prices rise after Trump’s ‘energy ceasefire’ fails to move Russia or Ukraine - NBC News",
         "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPek9rZ1lJTlNXenlqS0tKUDZqaHpSRTZXT0RTRGVkM3NWRzJsWnI5bTAwQzVWWmdjYlkzekZWTEwxR2RTcUxnb2ZLSVF2QjZBS1F2T18zcEhuMkgtdzRsMkU2clo1V2twOFhqMURSdC1PUGxXaURLa1loN2FzVlduZ2lfTGdSY0VkRGNnS2Yzem1wNW1wUXpZM0FCeTdiZVZQMTlNVzdiekpneTFhYWhza2VB?oc=5",
-        "published_at": "2026-10-12T18:36:09+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGFrRDRZWWhPUnEtNVNhbnBFZFc4cS00MmhuZC1hZDJzc0dROWpwU18waGpMY1hRNWFGS19LZXNUc0ZhSUgwRDUyR0hnaHhHRkRZbXRXVlN0YUU2MzVTbVo1cVBESFgyQUdfQUs5d201TUJ6YW56NVB3aDVLazNnZUlLdHowVHpPLUI5MFk4Tk9yMkFR?oc=5",
+        "published_at": "2026-10-12T19:15:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia hits Ukraine gas facilities after Trump claims ‘energy ceasefire’ - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMkd4WnpPRUFOV2diLTNLWTBoakp1bFZ5NXBuU2h3Q3FZaWVHOTdTaUdsTXVIRHV1SjRRcVFCWXdDVTZLTWlzLThleTRvMTNVQk9pSDdQYlhJanhERHVMa3lEVHJ0RDVzNGhzczMyUnpPYi10bjlJM240UUswS3FHdGVvQ1BIN0xoZ3c?oc=5",
+        "published_at": "2026-10-12T18:53:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -198,6 +122,15 @@
         "published_at": "2026-10-12T18:29:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Kremlin relishes in U.S.-Russia diesel deal and Trump's criticism of Zelenskyy - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQczM0ZDZsSi1XSFdMY2JYMEU4enBvX0JwVElUWTQ3STJRVFhGcEdYYmFPMWdtQVZjSXg1YXBPRDJYZE5PcndVQUR1cUx5ZTJPRXFIa281Y2M1QXZ5Zmw1czRkdDFwdXkzaVZUU3Nld3JvUTV6UXg2THBxNk5vQ0N2czVNMGlTT2pibDNhNWJ3MGJJdGxkeC1zOFlad1g1eG1TYUlZN0l1aDVESWhFeExGbdIBtgFBVV95cUxOVGlTTHhWakJOU0ZrT2tGM2p2dVBTcEFZa0kwRmVNclRZZlB4ZVJORzY2X2Izc2pCaGtZZDN4SzBKbUlFSVlEdm9BYV8yYWstTFJ6YXdiLWo3MW1MM085bERfZUszcUFWS3BFaXEtUVRaenE5RXhzcDhDQmloNUNZSmVZc2Q4ckJSTThFbHdtUDBKaHlMcElOY1F6MHBTV0d3MWp2Rzc1Zk92dUN6clZSdXFSWlZVQQ?oc=5",
+        "published_at": "2026-10-12T18:12:20+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -228,39 +161,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine war briefing: Russia attacks multiple power plants after Trump energy ceasefire claim - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSHZYVkEtRV9yN2ktb3kwNUw2aGw0d0VRYzNNUzNLd2tOWmtuYlliNlFUVmZ1c3c2empSX0dlcXozUEZaaDkxdnVXeUhMQ1NjNXVFZVY3WmVGd3ByN3NjbzZFUXpQcnMxOXBtR2tVcUxaZkl5Y0R0bksyYVpmTU53Z0lxa0xfcVRaMkdMcGtobHR2cHJlaTJ2RnF3RGY5cXpnSU9ETDNwejdCZ25RRGlQa3BKelRIUnRReG5FR2FkZ0hmdUxCSTdvYnVBWUkxdGhWd3B4bQ?oc=5",
-        "published_at": "2026-10-12T17:17:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump calls for Zelenskyy to be replaced amid Russia-Ukraine ceasefire dispute - Fox Business",
-        "source": "Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DbXc3VmRMa2pFdzJCaEVPc3NkamxZdmpTS05WQmpJSkJ6c2hVV3pMVnBHUjBRUTRfREplc3pUdGMyRS1SbzdXdzFmN05JcHlHQ1U0NFRSc1Niczg?oc=5",
-        "published_at": "2026-10-12T17:09:19+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China says sanctions on Latin American ministers over Taiwan ties 'a warning to others' - Courthouse News",
         "source": "Courthouse News",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbHJTOUF0WWY1S2FMR0ZHZlRHeF9UVlNMOWFjRTkxa3U5WDhUMVZhVzdpREdUVlN1aGdqalpaaEVIdEx2YmQ0RHRmeGJwSUFBRUtxT1lDNnhwNGw2bW85czVMWHE2UklJYk9BbkJPR0VVUUJyZUVvZnpJaWFIdjhfc092NjhSWGhaUnlMMUhpeUFXcUt1djNUX0hkQk5abE43U1h1Y3RZNW4tRmhLM0RlMXY5WGVJMmdT?oc=5",
         "published_at": "2026-10-12T16:43:28+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Bipartisan lawmakers criticize Trump's diesel deal with Russia - Spectrum News",
-        "source": "Spectrum News",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZndfZVJVSHdyU2Y2M1puVFFDdGFFWWh5SEgzdnpUQklMZk9kR3RmdEs2eHdIcGp0VDZIcjBxN2ZIblE4cXZ0NzI5OHlzOHRDY081emZtdHNBaDlXeWFGc2hwS1o2MUx4NnFwT0k5WXBaVi1ibG5zbEVPYXhBRVQ1Y0xsM3lUZjRtZE5xNUdSN2pya2NFVDAzWjZR?oc=5",
-        "published_at": "2026-10-12T16:29:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -273,10 +179,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi attack raises questions over Saudi defense capabilities - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTFNhRm9xZ0xzYXNnV0RsRERmMDJXZnJWcHV5R1NlbmttVDBBOXpKTWN1T0dNZTFaQV9RbWg2YnZkd0Q0eFJUMldRbW9jbFVkZF9pWkxzVnFjdXBNelAxUmxOdDYyd0ZNLXMtZnUtUl8tU1lnU2F4QlZxOWZaU1NaUWFVOFU3ZjFOUXBRX1pxc19mc3FBNTA5SnN2WFFKLV9HSFNQRWtLTm5yZHExVDZtbjZtTFFEUzll?oc=5",
-        "published_at": "2026-10-12T16:02:37+00:00",
+        "title": "Riyadh airport hit again by fresh Houthi strike - Taipei Times",
+        "source": "Taipei Times",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLNkVOM0hnZFREcnh3akhjMXdnWnBiSUZBRG9aWk9zZXR3Y0dhRnVhMWFsSG5FTFc1cUVTbXpHU25GY1lzbm5yQ1FPN0ZkaHMxTmRJX3o5VUtacWpISE9ubVRCZWNQbmZYanlrYjVlTEFET0c1TFhEdA?oc=5",
+        "published_at": "2026-10-12T16:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia Faces More Attacks as It Reels From Airport Strikes - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMEpXdU85R2o4TEJvcnF4SHpEOHZWRUtuR0hrbllBc3VIWVpIWTJJeU53czh4SUR0ZXRPTEVkSlVobDBmUmxqcWJUakN3Yjd2QnV6R3c0TVFMNmN0NXZpd0tHY2U3M1lOSy1md09ILWdHai1Oa0NpemNZeExwWklDZmJ6eTdSdTJybWc?oc=5",
+        "published_at": "2026-10-12T15:44:54+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -347,20 +262,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Micron Stock Drops as Chinese Rival CXMT Advances New Chip - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjZjZW1lY0MxOFF6RHhzOTJqSTN4VzZIYlJIaXNsbVdZR2YxdjlaSVJOUjl2LTd3dHNyMW9HYVM1T2ZUM1duSFZiaVBfSmJmSlhwcjhzU0ZMaWxhUHhUY2FhZk4yMlVWOUZqMmZKU3JfYW5kajRHOHh4bzRFdk0xZElHeU0?oc=5",
-        "published_at": "2026-10-12T16:25:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "health news today fda approval weight loss drug - Olhar Digital",
         "source": "Olhar Digital",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZzI3QjVTTTN2emloRURpOTdEblZZSHlxN29nRjhoMXZITkJ4ZXhTbEM2MjBpRG83RXpId2Zsd21GeVRHU2E1OVd6SnFPeEtrcFlkRkozc3U4WVJaWllxVkxFVHBtT282djVzQzFub2tXbVBSZmxFUjJzemtVeVVQdEtsRGt1OHR0NGdYZXdBUWFIRXIxTkhHNVZVbktsUQ?oc=5",
         "published_at": "2026-10-12T16:11:15+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Microsoft plans huge deployment of its own AI chips, with an eye on saving costs - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHVSM1ltUmRIUHVldm04ZU5JX2hLc0lhYjZVaDMzMDlkVkxXNUM3OTFFVU1kdlM1R3BneGN5cXp3Ui1Yc211TFF0VUU3ZlpRWjhBRy0yOGJjdlZxR3FmdmFHdFNMRDM3Rnh3WjJMd0d1MHNINEdvdWpBVEc5TTJNMjk1Xy1JNEY2b1g5RkYzWXYtakQ0SmNnMHdoUlRnbjFMSWVBUm9QaVBXbkFNUVgwSDVLdURleTBwMHc?oc=5",
+        "published_at": "2026-10-12T15:06:26+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -401,10 +316,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Super Micro contractor pleads guilty in $2.5B AI server smuggling case - Quartz",
-        "source": "Quartz",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOTRLZFJhaUh6NGFhdFVBekhsZjVoTW15NDREWFYyZ1RXTTJhRnBycUFqejdmODNHOFNkcUtfY3ptN3hRSTZiS1RSaEthTkQzekV6WGJtWXk3OC10MENsWXNRdUJ0MTI3eENHNVI1clJfM1BGS3RrOVZRaUJfT2hvcFl1OC1xZUU?oc=5",
-        "published_at": "2026-10-12T12:47:14+00:00",
+        "title": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSUlaRUJHQWVtcE9QajhJcGlUR29iN3VuTEhZajk3VXh0ejdrdnRBY3JYSjFkYjVMNFJaZW9Jc0tmSU53R3d3YkY5OFV4RXlnT29MMFVDaWYzazVac3dkV201cjg2SFZ1U19CSlo1aUpKYUQxdkNnMkJMNWdGM2h6STczemZfaVpSM2NkMXZHTlIzZkhIX0tLNHVXQm1CazhtTFRXVndB0gGrAUFVX3lxTE9oZHFvczdjeF8wNDB1MDJGMEItSFhEcVlvdkNvSi0xV0s0RVNJQl8xS0NzbUhwaUlsYV85dzcwMWxuRXhtWmQ1ZVF3bEZDekZaaDV6VTlkRk5QUGxfaXJOV3ZqdkZOanVmOUhyZWtHd0xNaEhHNXpqSGR5a19FbVJRLV9oSWs0VzdOSFlpWmtWYmk1X0IteWE4cFllOWdFQ3dJRzNJaUhhcVZwWQ?oc=5",
+        "published_at": "2026-10-12T08:27:52+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
