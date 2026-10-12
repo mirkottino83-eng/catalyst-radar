@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-12T04:13:37.938707+00:00",
+  "generated_at": "2026-10-12T04:34:54.221139+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.24399995803833,
     "treasury_10y_change_bp": 1.3000011444091757,
-    "wti": 90.20999908447266,
-    "wti_change_pct": -1.7855192345054949,
-    "brent": 103.13999938964844,
-    "brent_change_pct": -1.5087870632514155,
+    "wti": 90.29000091552734,
+    "wti_change_pct": -1.6984187093190717,
+    "brent": 103.3499984741211,
+    "brent_change_pct": -1.3082531804928799,
     "nasdaq_level": 27366.17,
     "nasdaq_change_pct": 0.6355606087485421,
     "sox_level": 12572.42,
     "sox_change_pct": -0.4062986324639084,
     "vix": 14.84000015258789,
     "vix_change_pct": -3.698894876497627,
-    "dollar_index": 102.1709976196289,
+    "dollar_index": 102.16899871826172,
     "macro_score": 50.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.79%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
+    "summary": "Tech bias neutral. Nasdaq +0.64%, SOX -0.41%, US10Y 5.24, WTI -1.70%. Geopolitica: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine - CNBC",
     "quote_times": {
       "treasury_10y": "2026-10-09T18:55:00+00:00",
-      "wti": "2026-10-12T04:00:00+00:00",
-      "brent": "2026-10-12T04:00:00+00:00",
+      "wti": "2026-10-12T04:20:00+00:00",
+      "brent": "2026-10-12T04:20:00+00:00",
       "nasdaq": "2026-10-09T21:15:00+00:00",
       "sox": "2026-10-09T21:15:00+00:00",
       "vix": "2026-10-09T20:10:00+00:00"
@@ -55,7 +55,7 @@
       "source": "TradingKey",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkZqYXozcjF2VVVDQ2kzazlTZ0JfbW9HYnotT1hESENZUTdzN0VSdlBCcW5BMEhsbUxCQk9zM0tqZVM4QkJEeVI5UFFnNFdxNGtWRUw1ZDBUT3JaeDNRWGRYUGp4R0dieW5uYjc1VEIxWGZ3UFZBam5LQ3QtNExUTE15TGFRbkdmUm1UTnlkdDJMY3YwU1dmQm0tM3RRVlFNR0tnUWhiNTJ4TW1GY3ZwNnM5VjU4aGxaZWhBU2Nnaw?oc=5",
       "published_at": "2026-10-12T02:54:20+00:00",
-      "age_label": "79 min fa",
+      "age_label": "100 min fa",
       "catalyst_type": "ma",
       "current_change_pct": -0.5,
       "short_term_change_pct": -0.03,
@@ -63,11 +63,11 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-09T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 3138.5,
+      "quote_age_minutes": 3159.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 50.0,
+      "confidence_score": 49.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-12T02:54:20+00:00",
@@ -77,7 +77,7 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 90,
+        "freshness": 78,
         "volume": 28,
         "momentum": 50,
         "macro": 51,
@@ -88,7 +88,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-12T04:13:26.785682+00:00",
+    "updated_at": "2026-10-12T04:34:42.403108+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -98,14 +98,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -126,10 +126,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "China sanctions Paraguay, Belize ministers - Breakingthenews.net",
+        "source": "Breakingthenews.net",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaHpuSElscEZYc0E1c3BXdVhfQVd5N0tiU0p5aVJQVEw4ekxpRUIzVjZWc1ZWZ0MtbkRUc09kYnZaSGQ4TWlxSXRhSHhoX1cxcUR3RlRta3VuSExQOERndVd2eHFqMnJScFBTODc2d1cxM2NCZkItQlpHaUI2aTdnNDB1Nm5LTGtNUFhSd05tdw?oc=5",
+        "published_at": "2026-10-12T04:21:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China sanctions Paraguay and Belize ministers over Taiwan ties - UA.NEWS",
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSDZsdmliUWdIRjJob0ZzUXZuX1pNRmJKT08zNmtHTHBsN1BnOHIxMjZEWmoxckNXcnEtMi1rc0hRUGg5WGl2eVIzaU1YNV8tNFllNlFoVjV3VExyMlJDZm1sSzIzOUljSVdyRWZMeXAzc2JrZUl6aWFWWTJqS2lTRHJPbFRWV21LTThyWVo1aDF3S2ZTSENLUW9NY051Zw?oc=5",
+        "published_at": "2026-10-12T04:15:59+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "EU-China Deal Could Halve Chinese Hybrid Car Exports - Caixin Global",
         "source": "Caixin Global",
@@ -158,15 +176,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Sanctions Paraguay, Belize Ministers Over Taiwan Ties - The China-Global South Project",
-        "source": "The China-Global South Project",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMUNsMGNLTjg3NGlqU1VEbDdIMGFEX0ZVYmM2cXQxam1pVTM4TU15RkhWbkY3Um0wMVF2RGNyQXpBREY0SkE2OWZ0bi1ET3g0THpyRUxPUnNlOXhuLTVhbDdwbF9lRHNxbUJnUWRmN1NrZWJjTm10Rks5ZkpwZW5IRlZzN2JpS09YNFVxSw?oc=5",
-        "published_at": "2026-10-12T03:29:39+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine war briefing: Russia attacks multiple power plants after Trump energy ceasefire claim - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSHZYVkEtRV9yN2ktb3kwNUw2aGw0d0VRYzNNUzNLd2tOWmtuYlliNlFUVmZ1c3c2empSX0dlcXozUEZaaDkxdnVXeUhMQ1NjNXVFZVY3WmVGd3ByN3NjbzZFUXpQcnMxOXBtR2tVcUxaZkl5Y0R0bksyYVpmTU53Z0lxa0xfcVRaMkdMcGtobHR2cHJlaTJ2RnF3RGY5cXpnSU9ETDNwejdCZ25RRGlQa3BKelRIUnRReG5FR2FkZ0hmdUxCSTdvYnVBWUkxdGhWd3B4bQ?oc=5",
@@ -176,21 +185,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran offers mediation in Saudi-Yemen conflict after Houthi strike leaves 13 dead - Haaretz",
-        "source": "Haaretz",
-        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOR2MxOGRzOWhBbWw2OTZ1X1k3cVNIZmx2VDJSbjl6dXJKQ01hNGFBTjhNbjhpa0ZIcV9sbnpybE1TU0NwLTVFcV82NUY5X2V3T1lEalV6Zkx6NTVxSEtIdkFlUEN0RFd6QUtPUkNWaVRSRXBiVlJMSlI3aXJEdHVZRDlLSUdiOHhjOTNtT2N2MkJ3M2tjSHQxVzE5cjBDbXZTem1aX1FhRG1qa1BjWU9vbGE2SkNYcGpIbmI5bXh0OFB1cHFONDQ2QkJwT0VvNG9kcS05RTVvYkVnQ08zcjVJVDVPMUxQRnhWbUh4dUN4bnlzNVVGRkdkb1JMX2Y5eHdsYUMxRUlpNGxqaUYyeHlxNGl6S2ZJUElm?oc=5",
-        "published_at": "2026-10-12T03:06:00+00:00",
+        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker - Seatrade Maritime News",
+        "source": "Seatrade Maritime News",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU255S0ZwRHJ6dTY1RHlYLVdxNDI5SlZ5cU5sVUV4RWtjTXp6NG5JZnlzazhDT24xWHVTTC1TSnItX2tKZEVGa3VnbWp0MG9PUERvQm5BUGUzWTFMNmR6cnBoQ1gwQ2pzWE44cUtlVmRWdFYzOVdLV2NER3ZXdlZiVlRDWE1GMkJkdWFXaFY2LWNUZlRoTXhfSGhYZkQ5SGFReGZLbUEzVXE?oc=5",
+        "published_at": "2026-10-12T02:29:21+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China sanctions Paraguay, Belize ministers over Taiwan ties - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRlZjMXA3dXh6Z1ljWUVLdmthRFBsUlN0alB6Y0ZSYmVJMzVJbXJURjM3eGF4bW53S2Npc1lJai1GZjNDb1k1bkNoSTFndDRvOTQtcGVkOFJlczJRYW93NXdrRkU5U1Q1UXBRUktJeWhmSnNVcnEzUlVQajJiTzVRbk5wN2luMUN2R2VuMHYzNnY3UEV3d28xXzZaZUg4alpBRVV2NW9mczFRZw?oc=5",
-        "published_at": "2026-10-12T02:54:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -233,7 +233,7 @@
         "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine - Axios",
         "source": "Axios",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHZpRnVWRlc4eWdqQzRGNnFiY2xheFhYb3Z6QXFrWGFQNk9aUkpuemc5cmQxSnFYMi10YjJPRzQtWmtVRkZHNWJlM0s4S1VvdVFFT19vdndGYWYzUFdxOVRvQk1laV96VGFkN29oeHpNMWItUzR1MW43R1dVd3I0ZWFTd1hNRUxqUER0TmhvcENYNGs?oc=5",
-        "published_at": "2026-10-12T00:10:38+00:00",
+        "published_at": "2026-10-12T00:32:43+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -248,19 +248,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump claims Ukraine and Russia have agreed to energy ceasefire | CNN Politics - CNN",
+        "title": "Trump’s US-Russia diesel deal draws bipartisan criticism - CNN",
         "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQalNDcWxock1MMXBUNGg4Mk4zQVFrVUNHV0ZVSVR1SUtiSllodXFGYkpVNlNFTkVxNU5EV3FZUjNVVkVIU0t2c1JFMU5zUkJuVWk2X2dMcVhfbUJvRENCam16dFBnZHloS3dxZ1llem5GNE1JY2FDY2hfeE9GOEEwODJ2NWhqXzE3?oc=5",
-        "published_at": "2026-10-11T21:50:09+00:00",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NkX1hxREY5UlRMTEEtaWtteDdaNlhrYzdZTnZVVEZrbUxVdzNSRk1VZFJWNmcxTWRGdE5VcFpZM2ZpVXU1a0J2dzBPLUkta3BaQVBIZzh5ZmllZThwZ2p3cGRZLWpNZ3FlX3ItcG9yelhQWi1JeUJSQm0xRHcxTWdtanBoVmxtV3c?oc=5",
+        "published_at": "2026-10-11T21:26:10+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump Pushes Russia-Ukraine Energy Ceasefire as Export Deal Draws Criticism - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY1g0QVBLX2lGU0RUSUxWNDNYM2ZHUWlwVGVqTHNBMnB5VXp3eTVndndiM0VBTHJ2Qkw0SlVmWEU0clBBVWFiaTBvTjVRUDFxZTVEUnhWWVVOd0FfU1ZsRmxYZXR0RTdMcmFYbF9LMjlGY3pQdmNpQ3NSejh6NW5INjVzY3VNTVotNC1aN002aTNCVkdJR1Y3T0pXbVlzeWV0SnBKZEF6clhNZFJUNlZv?oc=5",
-        "published_at": "2026-10-11T21:22:00+00:00",
+        "title": "Lawmakers push back on Trump’s fuel deal with Russia - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkRWSmlZSVZ0U1JTakctcFo0MFZkdzZHV0o3N3J1NzBzdFZwdjhwX2FOMnVqeERUQUMwOEFhQWtfelU5TURMd2dBYUdydlJWSXFDR0tTRkx2S2ljeXc3dFU3NzNIMkhrMHFGR1BRQmR1QTg5M3p2NW0xRDJZc3F4MFJjSnpYdXBjczJsYnYxSjhiYlVmZHI4dFVtTWVOY0dFT3lmMC0xR0dMZw?oc=5",
+        "published_at": "2026-10-11T21:08:19+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
