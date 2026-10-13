@@ -1,40 +1,83 @@
 {
-  "generated_at": "2026-10-13T10:59:38.397027+00:00",
+  "generated_at": "2026-10-13T11:17:42.686264+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 91.9000015258789,
-    "wti_change_pct": -1.9628721781759118,
-    "brent": 104.6500015258789,
-    "brent_change_pct": -1.8752929877030478,
+    "wti": 91.80000305175781,
+    "wti_change_pct": -2.0695485984873585,
+    "brent": 104.56999969482422,
+    "brent_change_pct": -1.9503064240931733,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.529999732971191,
-    "vix_change_pct": 2.1038770152639996,
-    "dollar_index": 102.2979965209961,
-    "macro_score": 21.3,
+    "vix": 15.5600004196167,
+    "vix_change_pct": 2.301120187981054,
+    "dollar_index": 102.27100372314453,
+    "macro_score": 20.9,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.96%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -2.07%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T10:45:00+00:00",
-      "brent": "2026-10-13T10:45:00+00:00",
+      "wti": "2026-10-13T11:05:00+00:00",
+      "brent": "2026-10-13T11:05:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T10:40:00+00:00"
+      "vix": "2026-10-13T11:00:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "7ca496159643",
+      "ticker": "SAP",
+      "company": "SAP",
+      "category": "Europe Software / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Sinch expands SAP partnership with RCS integration for SAP Engagement Cloud - Yahoo Finance",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnBMR1pPVFFWakIwUmxxQ0RQXzFrY2o4Ym1ZX09hSWxZdk0xeXVRMW9NUEEyQXUwZGFtc3pYUFZBQkc4akhFUUVvdmZsck5OQ2F4NHlaekZXelJaZDdpUGg2cnZEZFpnYU5DbEtMb0YtY0Z2aHhsc2pweGhyVkZWNmFqRkNiLVdWRUF0YXc0TTFGNC1VbG9zbm12c1B3dw?oc=5",
+      "published_at": "2026-10-13T05:52:00+00:00",
+      "age_label": "5 h fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": 1.65,
+      "short_term_change_pct": 0.15,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-13T11:15:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 2.7,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 58.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-13T05:52:00+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "SAP",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 75,
+        "catalyst_strength": 74,
+        "freshness": 62,
+        "volume": 28,
+        "momentum": 52,
+        "macro": 21,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T10:59:26.982900+00:00",
+    "updated_at": "2026-10-13T11:17:31.174253+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -72,7 +115,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
@@ -81,6 +124,15 @@
         "source": "The Bell",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGdTdoblpTQkVQTWhNcDJoWXVrSTEzcFV4MkNHaHpVOFV1Vzc2c29WRF85RDVNRHgyZEtoNUJxTFV3S1hvSjYtc1phYk45UEs0M1JTVGNlZUVqVFFNSjhmUjNMdDlXeWswb19kYWw3U1F1THRORk15RXFHRHI?oc=5",
         "published_at": "2026-10-13T10:42:05+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEwxZktQOXVmXzgzX24wQ0F2dVVpQXdDS3RUWVBOYTA0aXV1MkJWaWo5RktXeVhSZVdPWGVoNklwUF9WbDdjYXJUTkNMUnpiUmEtNG9qM1lqUi12VktFVTkzeEZCS0Nzb25vNlhHTTl4amx3cV92bTdnQ2hnUTdJZzMzaWlkX0xwUWlKT2JwRXZmeTRDcllDSnpmcXotdUZPc2sxRFF30gGrAUFVX3lxTE1GQ3RSS0pUXzgwNkRDYVZjTkNHbldMbjRVTnBYWmQ1YUx3MlY5V0VBcFVCQTk2bTQ1dTVaTVdEdUM5dWJsYWVsR1ZFYzNGZHF3akRLT3l4OS0yZDFnUHJlQ1NVOEdGcDQyTmM1NGdyUW9aZTZRai0wZEYzQWdMTWVXeWR3SjlUQlhWaEw4X0RGMU9PdmhvQmhTUEtIZW1nTkRLWVhtb3VkaTQ3MA?oc=5",
+        "published_at": "2026-10-13T10:33:52+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -140,6 +192,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ship sinks in new drone attack off Bulgaria, PM summons Russian ambassador - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtOXhiczM5QnZQbVJGRVpuZm5UOXBfaFpVRFhOV2M1bk1YOGFoMVdKMjN1dm4zMEpqeE9ZUXFFU0Z1VkNwRTBpaE9JdXBjanBDUVA0dDlwS0tNT2c?oc=5",
+        "published_at": "2026-10-13T08:52:48+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike - Seatrade Maritime News",
         "source": "Seatrade Maritime News",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE9tRlhQVUh1WWJWbkhDeDdOeWF6NVhqYlBoRUdORHQ1c0hBemNQQlJ3VVk4RDZIemJKLUZDTDVNc0JNWXhMNzNHem4tRldHaGFPdGsxdk5kakVhYlZON0FuZjVRUl9aVVlUOGdxUUlDNkJ3V0xVc2YtRndpTnBLZThOWEtkS19iYlVJcGZ1VlNYbWlnSlE2WDNMN1hUUGplZndOQ0FxWGZ1cVk3TVRHdGFkVEg?oc=5",
@@ -151,18 +212,9 @@
       {
         "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows - DW.com",
         "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaDAyYXZIYkJwdGF3cWU2Zmo0U09RYVFGLXFzTlk3cWpjdDIwalZKdjFNeVNDcDdXNGh3ZlU5S2M4bE1zR0lGYV94NzRHTDBzTktPRlgzR0FzTG9reU84MTlfYldUemRzcl85R20xb1JWamxEU3NPdGc3QnpwZF9paW5sdENlektHUTU2Zjc4b0tnQ1J6YmJiWm0yZUVXZ1E4TThGVUdleUc2bXllUlRj0gGvAUFVX3lxTFBoMDJhdkhiQnB0YXdxZTZmajRTT1FhUUYtcXNOWTdxamN0MjBqVkp2MU15U0NwN1c0aHdmVTlLYzhsTXNHSUZhX3g3NEdMMHNOS09GWDNHQXNMb2t5TzgxOV9iV1R6ZHNyXzlHbTFvUlZqbERTc090ZzdCenBkX2lpbmx0Q2V6S0dRNTZmNzhvS2dDUnpiYmJabTJlRVdnUThNOEZVR2V5RzZteWVSVGM?oc=5",
-        "published_at": "2026-10-13T08:49:55+00:00",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXpoSGxnbGVuMHJnTzZMekxDbVh6S003bDlWLTYtS29OclQtM3duN3lKYjFfd0lrWXFzOUIxUmI4R0JjUktvMXVkTXVSZDBhQ3JWaHQ2MmI3VUJWTTdRRnRXWDMwMGdaMTJ5ZHBCSDlmdzdFU3NoWEdETEw2LUkzRzdJNUlyaW5DNVJ4V1lCaWNYZFFaX0NiS3pVVU1BT2ZxUnlJZXNBcnB5XzBBaW9N0gGvAUFVX3lxTFBoMDJhdkhiQnB0YXdxZTZmajRTT1FhUUYtcXNOWTdxamN0MjBqVkp2MU15U0NwN1c0aHdmVTlLYzhsTXNHSUZhX3g3NEdMMHNOS09GWDNHQXNMb2t5TzgxOV9iV1R6ZHNyXzlHbTFvUlZqbERTc090ZzdCenBkX2lpbmx0Q2V6S0dRNTZmNzhvS2dDUnpiYmJabTJlRVdnUThNOEZVR2V5RzZteWVSVGM?oc=5",
+        "published_at": "2026-10-13T08:48:49+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Bulgaria Summons Russian Envoy Over New Black Sea Drone Attacks - Balkan Insight",
-        "source": "Balkan Insight",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM3ZUUmkxLTdjeGFsZnBLN2trZ0R4RzBpT3NZUEFhbGxRWFpzTVViSERYR0VndVhrMkF2SGZzSmY5WXFRRVFER3NRbURvMjAzU2tFdEpudmUwQm52V2dkYjVNUFdEd0ZkTDh2eG5EcVo1ZTBYbmdnVkUyV1hVRUg5dzBfM0lwQVZYRmxNMUFES1NXMmVreVY4bUtiSWJBdlRQZFQ3bDhRMA?oc=5",
-        "published_at": "2026-10-13T08:33:41+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -190,15 +242,6 @@
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wQmNpWW1fRjRsWk9VbE1PRzBWRjRHbUtReXRTYlZWYXZrWUg0SlBnclhaaWZnQ2YzM21veXZidGdtM0Rfc0x6aU1FTHEzYXhVbVE?oc=5",
         "published_at": "2026-10-13T07:03:55+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NATO fund targets drone defence technologies as Ukraine reshapes priorities - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTXB5YmkxMi15dGRGMVBZN2VVNDZUR2VTUXJoX0NLTkdnQ1Y1LUdZLUo2bGRPUmZOamd6cEZhSklGMVhPeXdoMGNjcXFNNUJfYmtSYzk2V0hMN1ExNFNOSGh0T2oxcVRiallqR3dOWFI3YS1KNE00QW1NSWd6TGxidjVhZnlWSDVGSVlrVUdJa1N1SGJTNzIzQ3JsOTNCSG9HWk5wUklzR1M1akUwU3RQVW5OX29WN290RmtxTk9mSF9LeEU?oc=5",
-        "published_at": "2026-10-13T06:01:00+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -277,15 +320,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbEtnZDk3dlRTcjFhS2M3TU9mQTh5cVJDZFlGMUxGQnA4VFM0cEZvVmtHZE5PUVlBcW5nWFFrMGU4ZU5NeXVxQ2VGWVZocUJtNWtJOVhzSndSYXlOanl0WkZSbFVfZ3p3VDlUeWhWcTJ3aU9wTVp2bmQxemJyS0cxTWhPVUt6OE53cE84Y0l1Zw?oc=5",
-        "published_at": "2026-10-13T05:51:23+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
@@ -299,6 +333,15 @@
         "source": "pharma.economictimes.indiatimes.com",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWUgybFk4Y1pxNnlkV282M1E0MHJVNGtYLUg0MFB0bm5QcllKNE9uV3VzS0NYOHNhRmVvRGU2bEdCLVotRk9ZME85d2Fkd2FKU1dWZ2wybl9ERUNXbnNlRjlMSzV1ZU9JX2YyX3NlejJxZHk4V2JmU3MzaUh1SXd4VU1Za1htSEtfa3k2TmYxNEtMNnN2eFFSNEt3Yl9hTlp5QkYzT1RYRFRDUHJIbUdIWWQ5M0V3alF2X1F5bXBTMWc1TjI2MTM2NHRYTk1CVmJ1NlVPR0dpanN3dzN3NUEzRFY4eVd5eXVOS1HSAe8BQVVfeXFMUEJ2NDZ2UUFtRC1ON001RWp2SGdYU1RCWk1lVnFIRHVGZXJXOEg1RXNSbW5jSmpUZnVvU3J0a0cxTkVDNXhDLVEyYm5TWFR5Y2ozVmdvWDdyalhaVWZveEd1N2tZOVN2c0s1NUtBdWFsVjE2bXNnb0l0UFhKWFFTN0RTZlVCVkFlZU1FM09GV215dnVWeWxhRVhuZXI4ZW5GQWhxMnVXSmU4S0t3ZkgySmRJV29Td0FmTWtKS2RhbHFGSHR2UVhoU3hENDhiVUpYN1hvdXZHc09lM1NyYlJ5THJWRFBwMHY4SkdQdTc1dEk?oc=5",
         "published_at": "2026-10-13T02:20:45+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "[Vicente LLP Webinar] Psychedelic Medicine After FDA Approval: What Clinics and Investors Need to Know - Vicente LLP",
+        "source": "Vicente LLP",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
+        "published_at": "2026-10-13T00:09:04+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
