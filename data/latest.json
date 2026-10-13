@@ -1,112 +1,55 @@
 {
-  "generated_at": "2026-10-13T09:01:54.537110+00:00",
+  "generated_at": "2026-10-13T09:23:18.427511+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.08999633789062,
-    "wti_change_pct": -1.7601894212509128,
-    "brent": 105.12999725341797,
-    "brent_change_pct": -1.4252266767123323,
+    "wti": 91.91999816894531,
+    "wti_change_pct": -1.9415401496692852,
+    "brent": 104.94000244140625,
+    "brent_change_pct": -1.603374646045097,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.390000343322754,
-    "vix_change_pct": 1.183433956110047,
-    "dollar_index": 102.32599639892578,
-    "macro_score": 23.1,
+    "vix": 15.399999618530273,
+    "vix_change_pct": 1.2491754103009844,
+    "dollar_index": 102.3030014038086,
+    "macro_score": 23.0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.76%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.94%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T08:50:00+00:00",
-      "brent": "2026-10-13T08:50:00+00:00",
+      "wti": "2026-10-13T09:10:00+00:00",
+      "brent": "2026-10-13T09:10:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T08:45:00+00:00"
+      "vix": "2026-10-13T09:05:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "7ca496159643",
-      "ticker": "SAP",
-      "company": "SAP",
-      "category": "Europe Software / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Sinch expands SAP partnership with RCS integration for SAP Engagement Cloud - Yahoo Finance",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnBMR1pPVFFWakIwUmxxQ0RQXzFrY2o4Ym1ZX09hSWxZdk0xeXVRMW9NUEEyQXUwZGFtc3pYUFZBQkc4akhFUUVvdmZsck5OQ2F4NHlaekZXelJaZDdpUGg2cnZEZFpnYU5DbEtMb0YtY0Z2aHhsc2pweGhyVkZWNmFqRkNiLVdWRUF0YXc0TTFGNC1VbG9zbm12c1B3dw?oc=5",
-      "published_at": "2026-10-13T05:52:00+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": 1.31,
-      "short_term_change_pct": null,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-13T08:49:31+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 12.3,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 59.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-13T05:52:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "SAP",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 75,
-        "catalyst_strength": 74,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 35,
-        "macro": 23,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [
     {
-      "ticker": "AMD",
-      "company": "Advanced Micro Devices",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "category": "Europe Semiconductors",
+      "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -3.34,
-      "short_term_change_pct": 1.0,
+      "current_change_pct": -3.55,
+      "short_term_change_pct": 1.13,
       "relative_volume": null,
-      "quote_at": "2026-10-13T09:00:00+00:00",
+      "quote_at": "2026-10-13T09:20:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMD"
-    },
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave",
-      "category": "AI / Cloud",
-      "priority": "high",
-      "satispay_status": "unavailable",
-      "current_change_pct": -3.64,
-      "short_term_change_pct": 0.88,
-      "relative_volume": null,
-      "quote_at": "2026-10-13T09:00:07+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWV"
+      "tradingview_symbol": "STM"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-13T09:01:42.578089+00:00",
+    "updated_at": "2026-10-13T09:23:07.519165+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -130,14 +73,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
@@ -149,11 +92,11 @@
     ],
     "geopolitics": [
       {
-        "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXpoSGxnbGVuMHJnTzZMekxDbVh6S003bDlWLTYtS29OclQtM3duN3lKYjFfd0lrWXFzOUIxUmI4R0JjUktvMXVkTXVSZDBhQ3JWaHQ2MmI3VUJWTTdRRnRXWDMwMGdaMTJ5ZHBCSDlmdzdFU3NoWEdETEw2LUkzRzdJNUlyaW5DNVJ4V1lCaWNYZFFaX0NiS3pVVU1BT2ZxUnlJZXNBcnB5XzBBaW9N?oc=5",
-        "published_at": "2026-10-13T08:48:49+00:00",
-        "area": "USA / Cina / Taiwan",
+        "title": "Houthi official warns US against entering war in Yemen as Saudis weather attacks - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbmxZQ3hGVHVaZWRiNU9TNjlqdVMxMmY4Z0NLYkZ0N3JQdS02V0pleEdjam9NeG9jZmpNaFlacDJqZkRBSzZSdURpejNrd1RGNVViWjFhQ3FBTkk4S0oxdmJvWklucUVDZEc1N0RXeDQ1dU5JVzBvY3poMGMydFJlOE9yd2x6OEUxMXlTU050RG9PSFJ6ZkRvdUNxaEdrOHE4TWVTRG1TaTRmRkxwQXhrUlZQaVE2NWhfN1hISUJZNGkzamZwN2dnX0tGcm9vY1nSAc8BQVVfeXFMT05fMVlFZTNLelZKRlpyWDNNUWhtYnJpYUFEVmFVdXp4NUdlMTQ2Z3dKV21yM1JpMThVTVpFSENGUDZ4YTBPcHlpa0ZWR0JaRjhYUFhuUkFHR1ZGekt2UWNvX3Y2Yk5WTFhWREFDNXFnbUUxcHhlaHhkWE00S3dMQWoxWXlOVlRjeVFBZzJ0WmFPUzBvXzNfU3JlQ3laSUQtX09NWjRTYjc4anJZSElkYUZxUWwzdjZYaFNLNkNwdFdfcC04ME9nV2lYcjZWckw4?oc=5",
+        "published_at": "2026-10-13T09:00:25+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -161,8 +104,17 @@
         "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike - Seatrade Maritime News",
         "source": "Seatrade Maritime News",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE9tRlhQVUh1WWJWbkhDeDdOeWF6NVhqYlBoRUdORHQ1c0hBemNQQlJ3VVk4RDZIemJKLUZDTDVNc0JNWXhMNzNHem4tRldHaGFPdGsxdk5kakVhYlZON0FuZjVRUl9aVVlUOGdxUUlDNkJ3V0xVc2YtRndpTnBLZThOWEtkS19iYlVJcGZ1VlNYbWlnSlE2WDNMN1hUUGplZndOQ0FxWGZ1cVk3TVRHdGFkVEg?oc=5",
-        "published_at": "2026-10-13T08:48:45+00:00",
+        "published_at": "2026-10-13T08:50:09+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXpoSGxnbGVuMHJnTzZMekxDbVh6S003bDlWLTYtS29OclQtM3duN3lKYjFfd0lrWXFzOUIxUmI4R0JjUktvMXVkTXVSZDBhQ3JWaHQ2MmI3VUJWTTdRRnRXWDMwMGdaMTJ5ZHBCSDlmdzdFU3NoWEdETEw2LUkzRzdJNUlyaW5DNVJ4V1lCaWNYZFFaX0NiS3pVVU1BT2ZxUnlJZXNBcnB5XzBBaW9N?oc=5",
+        "published_at": "2026-10-13T08:48:49+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -273,18 +225,27 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanVwNWhNU0N5c0tUNUlMQk84TEVXSlJNZnplNjE1VEhrbDFaZnVPeFN0VURnMXBuWENaR3Y2ODdnY3dIc0xmaHpnUjVXM0dTcFZxcndxamo2VE1VbWsycklpNmVoUGg2MWhzV0I0MzlGVUUzdEVmUWg5bWN4TEk3VzdhaW9JcVR2LU42cm9zeTJ6elVaRmlUU0VHYjVzRHBFVXNtaFdiMTJSS0pHMVAzVVBNaHRhd9IBuwFBVV95cUxPNlVqVV9MaVV3c2VNWG51TWhwQ1k1Y1NxVmlULTdtUmsyRmk5QWFFdGV3Z2RVMEZaQ1RlZzEzYjBKWVBCVmNjcW0yMkotMXk4ekctZ3hrZm5vWXFFYmR0dUpZdHhiRlJyT09nNVRoN2lISWhtemExdHNmajVfZmRSRllma01nRTEzWjdWQml1cTB2OXVPWVI3WHJzVU92VEdYcHFhTlB4QW91WXRaWl9lbmNHQ1k0bVR3Q2xr?oc=5",
-        "published_at": "2026-10-13T03:08:35+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
+        "published_at": "2026-10-13T09:03:25+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Micron Stock Falls Again as Musk Issues Warning on Chinese Memory Chips - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTGluY1JiRXZzd0lhWDJfclZvZHVMTGdYZl9reDBxamZCRU5jYy1tMER0cGFrNVN4eUI3UHpzWF9tQXZudkZNcXBzeVp4MXhBdFdLSnhrc1pYQVZmMEhhREpqZkVzNWpuZ0RBRzVUWFM3Wk1iMTZLamVLcUlPZzgxLVBJSGhLdFQ3QXY4?oc=5",
+        "published_at": "2026-10-13T08:48:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Nvidia’s China AI chip market share falls to 34% as Huawei gains ground: IDC (NVDA:NASDAQ) - Seeking Alpha",
         "source": "Seeking Alpha",
@@ -304,28 +265,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOai1qN2FwNVBmbF9mZmdmeFNoTGd3VWRkeDBOeXhLRDV1dXd5c0lDZXN1UEVpdjhhdEF1bXVaRzBBZzFYeC1ucEhSUE5qeXd3VnBCdDRidnBGQXdBVGhxV1dpQTVoZURzQW4yZHZUWW5ieWdiY1hlZGZ5ZUNfVWUwV2NBUldsdkk0ZldVcF9RUDJZVkhXaU1z?oc=5",
-        "published_at": "2026-10-13T07:01:59+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Nvidia AI chip share in China falls as Huawei catches up- Reuters - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZUZsb2dHV3NNb1BsZ1NRcWN3ZlNGVVh5YjNsR3QzS1RqSnZDcFViWEF2eTA0eVdEZkdZVVBnQ2d4SjRIcy1PSk5IQmc1WlhWam9TbnlGTW9hVDd2UTgyNXlZa0NfWUQzeG4tbW5tWUp0cU1TTWxCbk13MVVQSS1Ld3FaNFVscV81UnJrc1lleG9MUEZJ?oc=5",
         "published_at": "2026-10-13T06:15:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Chinese Tech Firms Bought 1 Million Nvidia Gaming Chips This Year. Here’s Where It Shows Up - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTks0Mk9kVnIwN0dIczhkM1NEUVZMeGxOUnpCU0ExZlU2RHFZelNHUTJqcEVyYll1Rm94ZGdqb040akF2bTVnWVhiQzhOUGpUU3hDRUY0MVZxSGM4bWpsWDlyTmZ3dFdoSFZnTEExU0NERDlVRlBoRm5fNE5nOFRLdnZWQmJrdnU2R3Y1MHY0ckVwQldqdlE?oc=5",
-        "published_at": "2026-10-13T05:57:20+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -340,15 +283,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points - Investor's Business Daily",
-        "source": "Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSlk0RnVxb1Y1NnB2cDJ0R0FtVlBhZ1dUV3JsenBRSUNxNW5xNGJySFd3M2MzekJBaXlhRzlObnNmaUZ4UlZSOVdqazFnc2VVVDJmYWJ4Rm1ROTJUNXMybXRfRm5VZ0JIWEZVNEpDZXVZM2VqWkFQR0Q5aV9IbGwwSnA5QjZvdXFId1pDa18xektnbThpN2pRbFRtWW52dHg3aGcw?oc=5",
-        "published_at": "2026-10-13T03:03:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - pharma.economictimes.indiatimes.com",
         "source": "pharma.economictimes.indiatimes.com",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWUgybFk4Y1pxNnlkV282M1E0MHJVNGtYLUg0MFB0bm5QcllKNE9uV3VzS0NYOHNhRmVvRGU2bEdCLVotRk9ZME85d2Fkd2FKU1dWZ2wybl9ERUNXbnNlRjlMSzV1ZU9JX2YyX3NlejJxZHk4V2JmU3MzaUh1SXd4VU1Za1htSEtfa3k2TmYxNEtMNnN2eFFSNEt3Yl9hTlp5QkYzT1RYRFRDUHJIbUdIWWQ5M0V3alF2X1F5bXBTMWc1TjI2MTM2NHRYTk1CVmJ1NlVPR0dpanN3dzN3NUEzRFY4eVd5eXVOS1HSAe8BQVVfeXFMUEJ2NDZ2UUFtRC1ON001RWp2SGdYU1RCWk1lVnFIRHVGZXJXOEg1RXNSbW5jSmpUZnVvU3J0a0cxTkVDNXhDLVEyYm5TWFR5Y2ozVmdvWDdyalhaVWZveEd1N2tZOVN2c0s1NUtBdWFsVjE2bXNnb0l0UFhKWFFTN0RTZlVCVkFlZU1FM09GV215dnVWeWxhRVhuZXI4ZW5GQWhxMnVXSmU4S0t3ZkgySmRJV29Td0FmTWtKS2RhbHFGSHR2UVhoU3hENDhiVUpYN1hvdXZHc09lM1NyYlJ5THJWRFBwMHY4SkdQdTc1dEk?oc=5",
@@ -358,19 +292,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Predicting How Today's FDA Approval of Zanidatamab Will Affect Gastric Cancer Care - OncLive",
-        "source": "OncLive",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSG54emladEVoSDNuWkFZSkRfc0xnV0ZwU0ZUX2s2akZWQTE4ZGExVHhyWnhHaVA5YW5jbE5sYUNoTFpkQzJDWC00d0tic3NmbS1Vd0xnR2RGQWgxYmI5TnpQSlVVUGFpbDA3UjYzWEEyZzU4Vkl5RUhGdVpsMWJFb002U01BVEJ2YVBFV1huRXZ0cUl5VnY0U3djT3JSRk8yaFJJOF93dVY3QUNVOTlzOUpNUQ?oc=5",
-        "published_at": "2026-10-13T00:26:47+00:00",
+        "title": "[Vicente LLP Webinar] Psychedelic Medicine After FDA Approval: What Clinics and Investors Need to Know - Vicente LLP",
+        "source": "Vicente LLP",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
+        "published_at": "2026-10-13T00:09:04+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "[Vicente LLP Webinar] Psychedelic Medicine After FDA Approval: What Clinics and Investors Need to Know - Vicente LLP",
-        "source": "Vicente LLP",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
-        "published_at": "2026-10-13T00:09:04+00:00",
+        "title": "TEVA Stock Alert: What to Know as Teva Therapeutics' Scores FDA Approval for Schizophrenia Treament - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNk91MHRKMWVYVGxJS21hbWtES09aR0FqZ1lpZUR5ZTU3U2YxME5oMnJ1LXdZVzJBZThGandvdlhISmUzVGI5bmo0RnhWVUZycUI5OFZ0SGhSTng4alpiT1E3VnZhZ0RlVU9pTmNFeFdHTlN1YUpoSUxxOVMwbl9YZzNwUm1oeGs0aFhsYl9aOFM?oc=5",
+        "published_at": "2026-10-12T17:53:58+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Energy stocks gear up for strong Q3 earnings: Top Quant picks - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmFxdDVtZnFlMUU4NmdyYXpyX005dVZmakJyTDgwT2otUmtKNWJtckZfdFg2TTlSQUVSSGhlTWYwYmlacjIwNk45dnZsTF9lOGtaZ1dlSXVvWXJuakpIaW41a2l5QS12bVBVc2xFR1dyU1k2c3ZWblZBd0JVUVMxR2lYTTBKaW5uR1ZWQmk2TXBuRS1HazZFSC1lSWFlcHBCRlFKS09RNzMzUTY2UGY5cmlFSUxNMFJtQWNDenpReDk?oc=5",
+        "published_at": "2026-10-12T17:20:43+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
