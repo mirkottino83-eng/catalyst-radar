@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T06:56:53.653117+00:00",
+  "generated_at": "2026-10-13T07:17:39.426658+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.41000366210938,
-    "wti_change_pct": -1.418811854031632,
-    "brent": 105.33000183105469,
-    "brent_change_pct": -1.2376930857370128,
+    "wti": 92.58000183105469,
+    "wti_change_pct": -1.2374611256132595,
+    "brent": 105.51000213623047,
+    "brent_change_pct": -1.0689164306967314,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.38500213623047,
+    "dollar_index": 102.34700012207031,
     "macro_score": 20.5,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.42%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.24%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T06:45:00+00:00",
-      "brent": "2026-10-13T06:45:00+00:00",
+      "wti": "2026-10-13T07:05:00+00:00",
+      "brent": "2026-10-13T07:05:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T06:56:42.377474+00:00",
+    "updated_at": "2026-10-13T07:17:28.338098+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +44,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -176,6 +176,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Oil falls as Russia diesel supply prospects counter Gulf supply risks - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa2sxWTVlekZ2bXloVXNiOUltMm5iODVOMW9NTUo4Q016ZU02OFQ5TU9relFTcUZSaW8xV0c2YmNVbE5jWW5uQjhKeXNKaWxBcE92SU1fQUU0R2RVamdNUzRhTER3NzEzMFUtRVd3bzVnZ1g0ZmtRek95VHdYbVNNMmNacmlDd3dLTThmaGF2VVJDYTc4c1hQeUZfX0ZGQzZjTXlpLU52U3JuUGpjOHJjWndoS19LandSX0dtMmdUMzNKZw?oc=5",
+        "published_at": "2026-10-13T00:25:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlFmZ0kwWmYtTnNQeVZ5dklfNXNiZlFLRDh6TEZrUEpLYmtFMk1IckdOeHBUb1YyQV9pbXRPeUpib1VXMEV3dHJtYWs5V1BDMnQzM0ZsSTk2cXVFQ0xYbGplWUlUSEhrZlpHbzZTX05xdElackFubFV0YUhudVFFNUo4cVpLazRFaUlINkcySkVVcWJFU3ZIRHVB?oc=5",
@@ -201,18 +210,18 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump announced a partial Russia-Ukraine ceasefire. Did either country know about it? - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONlJxWjlHNmVhVnBwLXEySWdtZC1wZzZleGFSSEY2N1UtTE1kSldJNHZoVm5OczRpeEo3cGljVERadjhuazVINEFoZ1lPdWJWUlZ2TERNVUVEaEN3Wk5JaGlFRzZBMWsxTUFJYXFVNE9YUEx5NjVWLXV4M0h0RElTOEhSVzVZOVZjdzVLbURodE1ON3cyZmhXeWl3UFlmOTljSHR6SXBDeFdPOW1icHRxRlhHS0NEdTBLeDJueVJRWGhpVFpBZVdB?oc=5",
-        "published_at": "2026-10-12T21:43:48+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Chinese Tech Firms Bought 1 Million Nvidia Gaming Chips This Year. Here’s Where It Shows Up - TIKR.com",
+        "source": "TIKR.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZqVnEwSTlzc3BtYUV0M3dfOWc0UjB4NmcxajFDTENNWVZDWlJCdlcxTU5GTlVpSW1WaHVodTNNOG9hTGV3aXV2TkM5d1M0elIzMlRKZ1dPM2ZBbk4xdmZsTlJIenBXczRuZ0h1N1QtSHhGMUVXU1VfOFV1QjE1WnJ3OWZvUHk0Z1ZybGZnZW04eS1JNU1JQ2FqaURBLTFmSGpBZlNEVkJnam83eXM4QlJVQnNoTmM?oc=5",
+        "published_at": "2026-10-13T07:07:04+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Nvidia AI chip share in China falls as Huawei catches up- Reuters - Yahoo Finance",
         "source": "Yahoo Finance",
@@ -250,19 +259,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Predicting How Today's FDA Approval of Zanidatamab Will Affect Gastric Cancer Care - OncLive",
-        "source": "OncLive",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSG54emladEVoSDNuWkFZSkRfc0xnV0ZwU0ZUX2s2akZWQTE4ZGExVHhyWnhHaVA5YW5jbE5sYUNoTFpkQzJDWC00d0tic3NmbS1Vd0xnR2RGQWgxYmI5TnpQSlVVUGFpbDA3UjYzWEEyZzU4Vkl5RUhGdVpsMWJFb002U01BVEJ2YVBFV1huRXZ0cUl5VnY0U3djT3JSRk8yaFJJOF93dVY3QUNVOTlzOUpNUQ?oc=5",
-        "published_at": "2026-10-13T00:26:47+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
-        "published_at": "2026-10-13T00:15:06+00:00",
+        "published_at": "2026-10-13T02:14:02+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -273,15 +273,6 @@
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
         "published_at": "2026-10-13T00:09:04+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Intel aims to boost AI turnaround with new GPU chips to take on Nvidia - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR2VrWlNjQkNsTnQ0ekFBelpEWnlPZnYyeVE2X3hlUUI1b0ViRllhSlJscEtRWkZOcndkVHBuOFQ0ei14eGpHbjBYLTFaWHdmQUltcUdvNmFJZUcyTE9sR3UxRk11MkNmVUlHS1RUOXZrN1M5TkhRZlVCRGs0YmFMNlhxMGlhdDZWeGRGd0hPcmsyRi0yUXZWZDJuMmhaTXg5MFEwTlNzM002cmZzc1UxZlduNk1MWm11VVdvcU9wSU02YW9nY3FYWmpn?oc=5",
-        "published_at": "2026-10-12T19:29:16+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -299,6 +290,15 @@
         "source": "TradingView",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmFxdDVtZnFlMUU4NmdyYXpyX005dVZmakJyTDgwT2otUmtKNWJtckZfdFg2TTlSQUVSSGhlTWYwYmlacjIwNk45dnZsTF9lOGtaZ1dlSXVvWXJuakpIaW41a2l5QS12bVBVc2xFR1dyU1k2c3ZWblZBd0JVUVMxR2lYTTBKaW5uR1ZWQmk2TXBuRS1HazZFSC1lSWFlcHBCRlFKS09RNzMzUTY2UGY5cmlFSUxNMFJtQWNDenpReDk?oc=5",
         "published_at": "2026-10-12T17:20:43+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "MRNA, LNTH, BMY, CAPR, RARE Stocks In Focus — These FDA Decisions Could Shape August Trading - Stocktwits",
+        "source": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcENPalFzUF9XZWpRX3p6U3NzRGhGaFFibm1abExONTRHeXV4UFFGZzlxRmpPdVFhVTNzRHNiR2JkbVdMRHBLVnViVFZYYkducXNHZVNFQk9NQWx1THhXQkQyOXpwZnVqYlJwTXJNTjVFMkZlaGMzYlZRWTV0ZHVlQVZfU2dQYjVXMVhGOTJmaEwwVHFpb0U2UnRZMllqRTdnaHR3Vjd3NThmalpNeHp4SE9OeTd2RTl4Q1JFdlNJS0VPYWRsTFljYWEzbHY2dTBhUW5DQUM4YlhhM0xaSXphMXB3ank?oc=5",
+        "published_at": "2026-10-12T16:54:08+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
