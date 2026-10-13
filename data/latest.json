@@ -1,40 +1,55 @@
 {
-  "generated_at": "2026-10-13T11:57:01.422582+00:00",
+  "generated_at": "2026-10-13T12:15:25.890411+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.2699966430664,
-    "wti_change_pct": -1.5681686091346458,
-    "brent": 104.95999908447266,
-    "brent_change_pct": -1.584624863785089,
+    "wti": 92.44000244140625,
+    "wti_change_pct": -1.3868097418271108,
+    "brent": 104.93000030517578,
+    "brent_change_pct": -1.6127531140126217,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.4399995803833,
     "vix_change_pct": 1.512160037208976,
-    "dollar_index": 102.2490005493164,
+    "dollar_index": 102.27100372314453,
     "macro_score": 22.5,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.57%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.39%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T11:45:00+00:00",
-      "brent": "2026-10-13T11:45:00+00:00",
+      "wti": "2026-10-13T12:05:00+00:00",
+      "brent": "2026-10-13T12:05:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T11:40:00+00:00"
+      "vix": "2026-10-13T12:00:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "CRDO",
+      "company": "Credo Technology",
+      "category": "Semiconductors / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -9.68,
+      "short_term_change_pct": 1.23,
+      "relative_volume": null,
+      "quote_at": "2026-10-13T12:15:01+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRDO"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-13T11:56:49.278588+00:00",
+    "updated_at": "2026-10-13T12:15:14.666706+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,36 +66,63 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 12
       }
     ],
     "geopolitics": [
+      {
+        "title": "Trade Between U.S. And China Stabilizing At Reduced Levels - Seeking Alpha",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHhSSlJTYUJPSkhRV3N5ZjI4QWViTXhMUEZ4WklWdTNQMzdELVNsY2FsN1NnaEhuMDJiRnJPR29uUXpuQ2RLa1NYRi01YVlTTjNZaG51MTctUmFHM0pVMHJzWEVMRGZrUGlUTmtCTGwwUm9QZ2pza3VTMnB6Z1ZCa045dm1DaDQ1SVpjcmk2enJ0bVN2?oc=5",
+        "published_at": "2026-10-13T12:01:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Britt affirms support for Russia sanctions, won’t defend Trump’s diesel deal - Alabama Daily News",
         "source": "Alabama Daily News",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbVFSRXM4NDcyd0ZLNVdFN0hwdDAzQWdaenNFOXVkNXlpekpmZzNwamhMV3dVRk55Y0hIdXB1aUJVdGw1QXpRNjBha1dqZGhvd0l5Z0w1djF2QzZBbm1BYjhDYWZyMVNJeFpHeVV3cVkyU1lScXdtQ3VpSzE1dGhoeUJfbE9Uc0lYaXRrVjczTGRzSEszWXN5WjNjY19YQnM?oc=5",
         "published_at": "2026-10-13T11:51:42+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "UAE condemns Houthi attack on Saudi airport, backs Kingdom’s security measures - アラブニュース",
+        "source": "アラブニュース",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRUc1Zm5ESUV2OTV3dGgwdDhtdnp3QmU5Z3VGWXdpQ1F6ZUp4cTBKY2ppNmFtX01fLVMzRTdjSDNfRWRDenN2QVA3M1NTalhuZ2t2RHFQS2doWVVOdGZBM0RpU2tQNVlILTRTLWdBQ1lDbzVLWHFnWm1aTFhkTlI0UktpTFlxWXBHMGJ5a1lHREZKemxCRmZ0Z2R2UVdWS0RGWjBaX0RmWXROaVBwamttMFZ2Ym5lV1YxN1EtQThvZ3Mzdw?oc=5",
+        "published_at": "2026-10-13T11:36:13+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtOXhiczM5QnZQbVJGRVpuZm5UOXBfaFpVRFhOV2M1bk1YOGFoMVdKMjN1dm4zMEpqeE9ZUXFFU0Z1VkNwRTBpaE9JdXBjanBDUVA0dDlwS0tNT2c?oc=5",
+        "published_at": "2026-10-13T10:57:17+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -119,15 +161,6 @@
         "published_at": "2026-10-13T10:05:45+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US and Europe Draft Peace Framework That Freezes Frontline and Sets Terms for Russia Sanctions Relief - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeGFsQ0NpdkM4UVdYVTdwZGVrX3dnNkhXTjdUTEQtaHU5REplZFEydHZKRWNDV0RYY2JmZmR3THcwZWVkLUs0ZjBRcnVSbHcybFJ6Y3FXZTZIdC1sUjgxd0tXUkhTcjJWYmc1Wm10RmZOQ1pGbHRNeXdJenRuWnNFR014SGh2TktxQTh3cWVNX2hSdWRrTW5VNUFNTm9kRjJ6VHBhRUMwN2ZtdFRVNGRBYlVuTTVGdlZtS3JFT1p4V2lvV0p3dmMycklMVUNCX1BNRjRxb2lPUmJOTzNYWU9IYi1R?oc=5",
-        "published_at": "2026-10-13T10:04:08+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -192,27 +225,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran officials hinted at land incursions if US resumes strikes - WSJ - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wQmNpWW1fRjRsWk9VbE1PRzBWRjRHbUtReXRTYlZWYXZrWUg0SlBnclhaaWZnQ2YzM21veXZidGdtM0Rfc0x6aU1FTHEzYXhVbVE?oc=5",
-        "published_at": "2026-10-13T07:03:55+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China sanctions officials in Paraguay and Belize over their countries’ ties with Taiwan - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX2lxdnRVVWZzV3dRUlRsZ1l1UUp6V1pUdDB5WEJxSERYN2JZWU4zMWVyU19vQnc0R3ZubXZvdnZMb3JFNkN3TlpSaDE0YWlEZGV4bUdCSWFaMUpKU2NJNERTRG5zdTh2V3NhbUk3V25EdHFmc0wyQ3d4YW1NaU53TDVZRFg1eWhSWlY4N191R0kwTXk3WlZtVUVrTm5zWlk?oc=5",
-        "published_at": "2026-10-13T04:32:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Guggenheim reiterates Pfizer stock rating ahead of Q3 earnings By Investing.com - Investing.com Canada",
+        "source": "Investing.com Canada",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUEVoa2x2aDBFUjhxaDlnMXF3eHBuY3JkWHRkZWQ0XzBEWWhYNl81VDNZbzY5TUViS29WUWs1MnRHMmZPU1k5cTBsbk13RXlpZVJpN0l0eDJwOGlObWE1R0VmNUstUnpIdjNVZmhqR3M1ajFlemItanJqMDJWWDA4Q3poVUVidkFReHMxZy0wRnVvdGRPcnhpczdSNV96MTdFeUxZN21NZ3h0Zm11S1V2ZHJrOC1aMXllREhUS1lxb0U?oc=5",
+        "published_at": "2026-10-13T12:10:27+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "H.C. Wainwright reiterates Halozyme stock rating on FDA approval By Investing.com - Investing.com India",
         "source": "Investing.com India",
@@ -223,20 +247,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Tech Selloff Deepens as Bank Earnings Fuel Stock Market Rotation - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDBxMVh3eDN5d2lJNllhUGJhOG5PWjU5VTdPUThTbWtYbF9EMzJrQmpDTWIzTFZhSy1seDBpZ2NDWDhUNldaZUFyUy1LOEVFeENxUmZiU3BBQ0NqT2xTeUlEeGVLS3paYkYwUU1yclhxVHlYTTRYZ3VtOGp1UEdncFNQdXVTQXNvWGgzaGdVaTVnaDR3dXprLTc4akg?oc=5",
+        "published_at": "2026-10-13T11:49:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Analysts eye RevMed’s pancreatic cancer launch, Merck’s data blitz for Q3 earnings - BioSpace",
         "source": "BioSpace",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ0dFbVBHYnhob3E5MDZaTjJNZTE1RnVORjkwb3hhRDQwVHd2bGlITWZ3U0ZjbGk3bVBMczZid0Y0NjdWRHR6NXNycGRoSmNzZzdnZldhbnZFSkg4eXJrdDc1Mll3OEdKbVFGZE9keWFYX2NBUVZUajJJNVVyOVBIeTNfdWs0ZVJhN05JdzBrbS02REJYYUh4V1QzcjA3QUZ3OUZmV1VIS0owTUZSMFhPMTIzdw?oc=5",
         "published_at": "2026-10-13T10:43:14+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia Stock Slips. How Broadcom and Microsoft Are Shaking the Chip Sector. - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOXVla2g5SlhMWnc4QkQ4LUl3U2ZvU09mcXVQQXFORlQ4Mk55VXFKNG9UVkFiYzI1TVhZbGVnMUtxc1BBM0pfVnQzU1B3ZkJTQlctMDZweG1FSUczWnp1NTlGd0p4aFk1SWZ5c0JCbzV1RXdJN0xzejZIZEx6RlN0ZlJ2cktzdXNCcGY2eDhB?oc=5",
-        "published_at": "2026-10-13T10:20:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -268,15 +292,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Exec on Execs: China's Rise in Biotech Investment - Pharmaceutical Executive",
-        "source": "Pharmaceutical Executive",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwU1pQdWYwR2hlMTNEXzExeXRCY001UE5RQ2xTSEl4UlpxX2NwUUdJSXFmZFRablFmakNhcG1lQnN1S2RHaWxnVDNWa1pnbDU4R0w1cjNfaEFJT1R1V042a015VnYwakVEN3ByRkJRZw?oc=5",
-        "published_at": "2026-10-13T06:24:04+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Nvidia AI chip share in China falls as Huawei catches up- Reuters - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZUZsb2dHV3NNb1BsZ1NRcWN3ZlNGVVh5YjNsR3QzS1RqSnZDcFViWEF2eTA0eVdEZkdZVVBnQ2d4SjRIcy1PSk5IQmc1WlhWam9TbnlGTW9hVDd2UTgyNXlZa0NfWUQzeG4tbW5tWUp0cU1TTWxCbk13MVVQSS1Ld3FaNFVscV81UnJrc1lleG9MUEZJ?oc=5",
@@ -286,19 +301,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbEtnZDk3dlRTcjFhS2M3TU9mQTh5cVJDZFlGMUxGQnA4VFM0cEZvVmtHZE5PUVlBcW5nWFFrMGU4ZU5NeXVxQ2VGWVZocUJtNWtJOVhzSndSYXlOanl0WkZSbFVfZ3p3VDlUeWhWcTJ3aU9wTVp2bmQxemJyS0cxTWhPVUt6OE53cE84Y0l1Zw?oc=5",
-        "published_at": "2026-10-13T05:51:23+00:00",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-13T05:05:18+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-13T05:05:18+00:00",
+        "title": "[Vicente LLP Webinar] Psychedelic Medicine After FDA Approval: What Clinics and Investors Need to Know - Vicente LLP",
+        "source": "Vicente LLP",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
+        "published_at": "2026-10-13T00:09:04+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
