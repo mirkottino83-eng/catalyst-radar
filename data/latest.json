@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T05:45:39.547752+00:00",
+  "generated_at": "2026-10-13T06:01:58.274896+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.44999694824219,
-    "wti_change_pct": -1.3761477970183789,
-    "brent": 105.37999725341797,
-    "brent_change_pct": -1.19081505324945,
+    "wti": 92.80000305175781,
+    "wti_change_pct": -1.0027681175945768,
+    "brent": 105.75,
+    "brent_change_pct": -0.8438832752013736,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.42900085449219,
+    "dollar_index": 102.39700317382812,
     "macro_score": 20.5,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.38%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.00%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T05:35:00+00:00",
-      "brent": "2026-10-13T05:30:00+00:00",
+      "wti": "2026-10-13T05:50:00+00:00",
+      "brent": "2026-10-13T05:50:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T05:45:28.800245+00:00",
+    "updated_at": "2026-10-13T06:01:45.208210+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
@@ -72,7 +72,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
@@ -100,15 +100,6 @@
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54ZkU0elVpRTVVZkFtMGJtbm05b2padDh0eVJVdjBfZk9XNHN0aDBYZV9tU2JTdHlwMnY5VGRSN043MkUxU1RTVEN3Vk1JV1pfRkJkT3ZlZXNQVERBR0pOaHVIeFVPbGRGakNvWmthQ1FsNEtzTlg3cFpn0gF_QVVfeXFMTnBkQlZnZkpDYTRoY2ZaMHlnWWp4eFF5LUNZTTF5ZHNQaFlqem01T3hPUGI1VHBUc0VMdW1mREp4elRwSmEzVFd5NTRuOHNFMTVrelh5cGJwYTlsQ2N0NGhZRk1hZVpxbGV6bzdQVjAwX3JtNnBLVTAwYVQ1NzlSWQ?oc=5",
         "published_at": "2026-10-13T03:45:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AI boom bolstered growth in global trade, benefiting China and India, IMF says - WTVB",
-        "source": "WTVB",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU0VwMWZ0WDdFSVptOFhZcXZvT0l3XzZ4NzhKdnlURUxMWGlDaS1WVXpGbUp2em15TmFUX05pSmJ6dTY0N0VwZE5KWDNVRjcyblJ6XzRHRTI3cy14WVFfOVJTYzdXUmZ5U3dKWFpfUXRWa3YyU08tTWZneWc0UGM5ekNzRW1JRFp2MV9MRExJd1JtUnV6TnM1VDNpdTZJcUtqOFowOU9pS1JrZlU?oc=5",
-        "published_at": "2026-10-13T03:44:10+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -167,6 +158,24 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
+        "published_at": "2026-10-13T02:14:02+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russian bot traffic decimated overnight after Ukraine drone strikes knock multiple Yandex data centers offline - TechRadar",
+        "source": "TechRadar",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOR0NMOUJGYVgxZHZzaGpWYVlsS1FQd3E3OUYxNVVPMjNEVG9zNFRGaHdVYktuSTdoT2hRc1NTSG9nQ0IzVkJZSkZsQjdRS19DTUpNcDlRc2NxZ01HT0V0dnBzeGxDOVNtdkFBQ3ZzcUdLZkh5WDNKUVdHd2hwSDFKQmF1cFo4RVhaeklxWDcwUFBBcDh3THFTUnloUzhNY1d0VmtHZ2ZfRGhMSkJQZXRlaWVZaG9CZ09BNHloTHJ5bG04VlU0NnItTFlrT05RMUdCRERFV005bw?oc=5",
+        "published_at": "2026-10-13T01:11:29+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlFmZ0kwWmYtTnNQeVZ5dklfNXNiZlFLRDh6TEZrUEpLYmtFMk1IckdOeHBUb1YyQV9pbXRPeUpib1VXMEV3dHJtYWs5V1BDMnQzM0ZsSTk2cXVFQ0xYbGplWUlUSEhrZlpHbzZTX05xdElackFubFV0YUhudVFFNUo4cVpLazRFaUlINkcySkVVcWJFU3ZIRHVB?oc=5",
@@ -201,18 +210,18 @@
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Energy prices rise after Trump’s ‘energy ceasefire’ fails to move Russia or Ukraine - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGFrRDRZWWhPUnEtNVNhbnBFZFc4cS00MmhuZC1hZDJzc0dROWpwU18waGpMY1hRNWFGS19LZXNUc0ZhSUgwRDUyR0hnaHhHRkRZbXRXVlN0YUU2MzVTbVo1cVBESFgyQUdfQUs5d201TUJ6YW56NVB3aDVLazNnZUlLdHowVHpPLUI5MFk4Tk9yMkFR?oc=5",
-        "published_at": "2026-10-12T21:42:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "new fda approved diabetes drug for weight loss - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWENWZENNMGtSc05kLWNhVjRaSVVMSF8zNy15SzJkRUFHZVF5dE5EZXhpREZPNGN3dkxMOWJ0M0liWXJvM1F4QmZScmhFU3BvQ0RpS3V1MXhQOWZLVi1ucDZJU1RKSWJIU3VJN1hCQmlNT2lYVkdzaFkxR3hQSUtmbnBLREdXUExXSUg4?oc=5",
+        "published_at": "2026-10-13T04:19:05+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points - Investor's Business Daily",
         "source": "Investor's Business Daily",
@@ -241,15 +250,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Predicting How Today's FDA Approval of Zanidatamab Will Affect Gastric Cancer Care - OncLive",
-        "source": "OncLive",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSG54emladEVoSDNuWkFZSkRfc0xnV0ZwU0ZUX2s2akZWQTE4ZGExVHhyWnhHaVA5YW5jbE5sYUNoTFpkQzJDWC00d0tic3NmbS1Vd0xnR2RGQWgxYmI5TnpQSlVVUGFpbDA3UjYzWEEyZzU4Vkl5RUhGdVpsMWJFb002U01BVEJ2YVBFV1huRXZ0cUl5VnY0U3djT3JSRk8yaFJJOF93dVY3QUNVOTlzOUpNUQ?oc=5",
-        "published_at": "2026-10-13T00:26:47+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "[Vicente LLP Webinar] Psychedelic Medicine After FDA Approval: What Clinics and Investors Need to Know - Vicente LLP",
         "source": "Vicente LLP",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
@@ -259,10 +259,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Navitas shares surge 5% on Nvidia AI infrastructure partnership - Yahoo Finance",
+        "title": "Intel aims to boost AI turnaround with new GPU chips to take on Nvidia - Yahoo Finance",
         "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcExtOURDNzlUMVFuOXpnVmpMQ3VVOTJpVnVOZFlPalJBbVplaHdIb2VkYUJSQzZqZ0hLdHZWaDFCbzNvak5JbFl1OGcySmptNm9Sc1dVS3BSUHozU2E0MjRWbE1jeW1DclJLQjhqX3RXQXlVTVVfandvSHpCRFdHSHF5UTdTbGpSMzdrUElSYUJwQkI0NWg5WA?oc=5",
-        "published_at": "2026-10-12T20:54:35+00:00",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR2VrWlNjQkNsTnQ0ekFBelpEWnlPZnYyeVE2X3hlUUI1b0ViRllhSlJscEtRWkZOcndkVHBuOFQ0ei14eGpHbjBYLTFaWHdmQUltcUdvNmFJZUcyTE9sR3UxRk11MkNmVUlHS1RUOXZrN1M5TkhRZlVCRGs0YmFMNlhxMGlhdDZWeGRGd0hPcmsyRi0yUXZWZDJuMmhaTXg5MFEwTlNzM002cmZzc1UxZlduNk1MWm11VVdvcU9wSU02YW9nY3FYWmpn?oc=5",
+        "published_at": "2026-10-12T19:29:16+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
