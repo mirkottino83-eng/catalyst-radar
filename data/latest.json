@@ -1,46 +1,40 @@
 {
-  "generated_at": "2026-10-13T01:07:02.837715+00:00",
+  "generated_at": "2026-10-13T01:27:12.697300+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 93.30000305175781,
-    "wti_change_pct": 1.5786658701418155,
-    "brent": 106.08000183105469,
-    "brent_change_pct": 1.298701866403995,
+    "wti": 92.75,
+    "wti_change_pct": 0.9798601424391817,
+    "brent": 105.52999877929688,
+    "brent_change_pct": 0.7734888742854773,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.5530014038086,
-    "macro_score": 17.4,
+    "dollar_index": 102.4530029296875,
+    "macro_score": 18.6,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.58%. Geopolitica: Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +0.98%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T00:55:00+00:00",
-      "brent": "2026-10-13T00:56:00+00:00",
+      "wti": "2026-10-13T01:15:00+00:00",
+      "brent": "2026-10-13T01:15:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 28,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWxLV1J6R2V3UDNKc2FwUU9oQ2dvUGVXd2FQTTNQdFM2QVVBLU54eWN0SFktR25BT0l3U3NIRldielJHYjBLY1lfMTk1OGZGVUZtOG4yMXhINzZSVDhwdXZScWtCUDdVYWxjSkF6RThTcHhyMWN3Z1hrWjNMSFJFMm04eVRKZ2luSkJjWUpKM2RYSXdXa2ZKbk94MjRjaXFDRDRtLXd3c3pMbk1Ld21LOE13WEZMUXp5YWdEcnNYMzc?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T01:06:51.520469+00:00",
+    "updated_at": "2026-10-13T01:27:00.625057+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -78,7 +72,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 12
       }
     ],
     "geopolitics": [
@@ -92,9 +86,18 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanVwNWhNU0N5c0tUNUlMQk84TEVXSlJNZnplNjE1VEhrbDFaZnVPeFN0VURnMXBuWENaR3Y2ODdnY3dIc0xmaHpnUjVXM0dTcFZxcndxamo2VE1VbWsycklpNmVoUGg2MWhzV0I0MzlGVUUzdEVmUWg5bWN4TEk3VzdhaW9JcVR2LU42cm9zeTJ6elVaRmlUU0VHYjVzRHBFVXNtaFdiMTJSS0pHMVAzVVBNaHRhd9IBuwFBVV95cUxPNlVqVV9MaVV3c2VNWG51TWhwQ1k1Y1NxVmlULTdtUmsyRmk5QWFFdGV3Z2RVMEZaQ1RlZzEzYjBKWVBCVmNjcW0yMkotMXk4ekctZ3hrZm5vWXFFYmR0dUpZdHhiRlJyT09nNVRoN2lISWhtemExdHNmajVfZmRSRllma01nRTEzWjdWQml1cTB2OXVPWVI3WHJzVU92VEdYcHFhTlB4QW91WXRaWl9lbmNHQ1k0bVR3Q2xr?oc=5",
+        "published_at": "2026-10-13T00:03:48+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China falls in global ‘trade sustainability’ ranking on environmental concerns - South China Morning Post",
         "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRDlib3R0NnBmaTV5ZnJpSTZfLTBOcTZKa0NfbXU0b19tZTJLQVo3SzNMeHJ4dDR2ZlkzR0dHV1ZZdm9NZE1SZFVuNklPYTZ2NnhmYnE4QTlGblZFV3lKeXI0M3BNdE1lWWJoTHRzRnJ6dENCMm1HYjVBT1FCRk9UTnpxOF9TQ3pRQ2hYMGtmaTF0NmtzWEZzdndPa18tdzVHS242SFZYLTM3WHV5TDd4U3pXZ2JXR09PTzNvRmdPV2M5VXd0U3ZrV29ZZjFPZnBBcmNJM2JMYUrSAdgBQVVfeXFMTXpXWGp4M1FfaThuOGV1QzV2X3FPN1FyLXFaME5ObnpaM2Rhdlo5MUV0My0xbFlsZEZmWUlUU1FfZ3NyV2N1dE9aLVQzNERyTHpSR0VMMTdzaG14dkVNaUYyWEZSbkFEUE5GUWVXb3lJcUlDUHQwZ0VYek9UM3didlZUME5hWFJfa0pxYjdKRzNaN3hqUzZCQmVPcU5KY2lIUEpVdk54NTUyN1lXTEhXM01rV1c1Vlp5T3ZKZTRKWkpIdXN6YzZ2aTdmZmxqY0JOQ3lUR3lKRFB6?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeldYangzUV9pOG44ZXVDNXZfcU83UXItcVowTk5uelozZGF2WjkxRXQzLTFsWWxkRmZZSVRTUV9nc3JXY3V0T1otVDM0RHJMelJHRUwxN3NobXh2RU1pRjJYRlJuQURQTkZRZVdveUlxSUNQdDBnRVh6T1Qzd2J2VlQwTmFYUl9rSnFiN0pHM1o3eGpTNkJCZU9xTkpjaUhQSlV2Tng1NTI3WVdMSFczTWtXVzVWWnlPdkplNEpaSkh1c3pjNnZpN2ZmbGpjQk5DeVRHeUpEUHrSAdgBQVVfeXFMTXpXWGp4M1FfaThuOGV1QzV2X3FPN1FyLXFaME5ObnpaM2Rhdlo5MUV0My0xbFlsZEZmWUlUU1FfZ3NyV2N1dE9aLVQzNERyTHpSR0VMMTdzaG14dkVNaUYyWEZSbkFEUE5GUWVXb3lJcUlDUHQwZ0VYek9UM3didlZUME5hWFJfa0pxYjdKRzNaN3hqUzZCQmVPcU5KY2lIUEpVdk54NTUyN1lXTEhXM01rV1c1Vlp5T3ZKZTRKWkpIdXN6YzZ2aTdmZmxqY0JOQ3lUR3lKRFB6?oc=5",
         "published_at": "2026-10-13T00:00:15+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
@@ -137,6 +140,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Oil prices spike after Houthi attacks on Saudi airports - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTTZ5RGNoVEhkQU9PWXZCMWlyaTB2NFJmb2dZa2FMSkl3VWdrTUZrY3dTTU9scnJ6TUxWazRLbjluTUNFUVFKUFFGaDdjUng4QWczcERLUXhlNEFMWTNBVWs2bDJWYXZZZU5yX2hvdmdOandqZVJiVWhKYzg0QTRhZm1LNFFhajFfRVlpajdicE_SAZYBQVVfeXFMT1hrMExFRVMxY2V5MF80bTRKbVRpMzR1eVQyRjVFQnBTOTJjTkVwb3RHTm1KOGRxNEE2Yl9ieWkxQ0t4SFQ5SFB2enFyTlVsTTdOZjZZWEVTMU81ZkhjSHVBOUlCUi1hUVViV1JhaWZxbWNBSGdJMlA0XzdoalFsM2dLOXpPSVdMdUhScE9CQ0tnVjZNVmZR?oc=5",
+        "published_at": "2026-10-12T21:30:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says - BBC",
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTaGRvQkRDWnpVYTFrajZyUVprTi1OM2tXZXpIUl8wOWZycm1LelV2SlVfZUw5MFhHUEN5STNYVV80d1pYeUFQOW9wSGRVdEF3eW1xVE9zbzJpRjQ?oc=5",
@@ -164,6 +176,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "The Single Customer: Who Governs Iran’s Oil Trade with China - The China-Global South Project",
+        "source": "The China-Global South Project",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOUhpeTViT3Jia2VOa0xaRDFXUzBJWXJxU3ItRFNENG9DZ0I2aWFaTXNZbkpjcHpiQ3VXT1VjQkY2aWl0OGRhMHhOTjdrMUFZMXhmdmQ5S3FtUFdhSEpEc1RDbTBYY2RJTGtYeGFiaGt3c296YVVmek1WZ2h6V2k0eV9vMHBmNkFLTXlN?oc=5",
+        "published_at": "2026-10-12T20:38:19+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
         "source": "EnergyNow.com",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
@@ -182,38 +203,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Why are the Houthis attacking Saudi airports and how are the missiles getting through? - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORnJnYXRDbWtzWG1hWXFTczhaQU04Z3NFbW1nclFrdk9DV2U1SzkycFV2VGFpcXNKbkxrUl9XX1l0YUl2YjRJTnNFeWVFMUNmaktERFBiWHQwMzdQTy1VVEVIODdqNE8zTmxfaEw2cmZfYU1LOUpPS3VTbENWc09oMUxFcWJpU1ZCWEF4TjhnRnljRkpERC04cUdNNmxrTHd2OGc2b093?oc=5",
-        "published_at": "2026-10-12T17:51:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China says sanctions on Latin American ministers over Taiwan ties 'a warning to others' - Courthouse News",
         "source": "Courthouse News",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTZ3b3pJbGNCQ2tnZzhzcXZVaFQ5elh4QXFSY01YWDM3T0RPcG1tVEdjdVgxeXNtMGUzQldncHJEWFdrZFNBcEVXazlfa0xfNU9HekFuNXhkZFFZdV9nUlZzdXNQMjFTQTBYQmk0cTltb3cydk54TEVDLXdvRGthX01Jam9OaXgyNjFmd1o4eXJ0eXJ3aUJxUlN2ckYtRFFEZ3ZXQkZURGszMG53bnJfUVhXaw?oc=5",
         "published_at": "2026-10-12T16:43:28+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU’s China trade breakthrough risks taking pressure off Beijing - Euronews.com",
-        "source": "Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZXpGT2Ywa243UTNndGMxb243MXRFeHVqWkxKeVNpVnZYS0lYRk1HZEItM0s1NXFEb3pTU19sVDBpcGN2TU51NklpZ0VpcXVtalpxOXVkZVZLbzZkMWxWd3hHN25FbGU1eGxpbmVMSE5ndFIyNi02MF9td3JoMGw5eG1UVlpScnV3dXhiUGtKVUtaTDl5Nm9IR19RQW16Y1NkZy1j?oc=5",
-        "published_at": "2026-10-12T16:22:22+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Riyadh airport hit again by fresh Houthi strike - Taipei Times",
-        "source": "Taipei Times",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLNkVOM0hnZFREcnh3akhjMXdnWnBiSUZBRG9aWk9zZXR3Y0dhRnVhMWFsSG5FTFc1cUVTbXpHU25GY1lzbm5yQ1FPN0ZkaHMxTmRJX3o5VUtacWpISE9ubVRCZWNQbmZYanlrYjVlTEFET0c1TFhEdA?oc=5",
-        "published_at": "2026-10-12T16:00:00+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
