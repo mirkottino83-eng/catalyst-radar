@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T01:47:07.489919+00:00",
+  "generated_at": "2026-10-13T02:02:14.305108+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.91999816894531,
-    "wti_change_pct": 1.1649425286878845,
-    "brent": 105.75,
-    "brent_change_pct": 0.9835740711328755,
+    "wti": 92.70999908447266,
+    "wti_change_pct": 0.9363098798459646,
+    "brent": 105.48999786376953,
+    "brent_change_pct": 0.7352909034479493,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.48600006103516,
-    "macro_score": 18.2,
+    "dollar_index": 102.4739990234375,
+    "macro_score": 18.6,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +1.16%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +0.94%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T01:35:00+00:00",
-      "brent": "2026-10-13T01:35:00+00:00",
+      "wti": "2026-10-13T01:50:00+00:00",
+      "brent": "2026-10-13T01:50:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T01:46:56.523180+00:00",
+    "updated_at": "2026-10-13T02:02:01.086286+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -72,16 +72,52 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Saudi minister vows 'serious response' to Houthi attacks on airports - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5",
+        "published_at": "2026-10-13T01:26:02+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
         "published_at": "2026-10-13T00:15:49+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanVwNWhNU0N5c0tUNUlMQk84TEVXSlJNZnplNjE1VEhrbDFaZnVPeFN0VURnMXBuWENaR3Y2ODdnY3dIc0xmaHpnUjVXM0dTcFZxcndxamo2VE1VbWsycklpNmVoUGg2MWhzV0I0MzlGVUUzdEVmUWg5bWN4TEk3VzdhaW9JcVR2LU42cm9zeTJ6elVaRmlUU0VHYjVzRHBFVXNtaFdiMTJSS0pHMVAzVVBNaHRhd9IBuwFBVV95cUxPNlVqVV9MaVV3c2VNWG51TWhwQ1k1Y1NxVmlULTdtUmsyRmk5QWFFdGV3Z2RVMEZaQ1RlZzEzYjBKWVBCVmNjcW0yMkotMXk4ekctZ3hrZm5vWXFFYmR0dUpZdHhiRlJyT09nNVRoN2lISWhtemExdHNmajVfZmRSRllma01nRTEzWjdWQml1cTB2OXVPWVI3WHJzVU92VEdYcHFhTlB4QW91WXRaWl9lbmNHQ1k0bVR3Q2xr?oc=5",
+        "published_at": "2026-10-13T00:03:48+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China falls in global ‘trade sustainability’ ranking on environmental concerns - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeldYangzUV9pOG44ZXVDNXZfcU83UXItcVowTk5uelozZGF2WjkxRXQzLTFsWWxkRmZZSVRTUV9nc3JXY3V0T1otVDM0RHJMelJHRUwxN3NobXh2RU1pRjJYRlJuQURQTkZRZVdveUlxSUNQdDBnRVh6T1Qzd2J2VlQwTmFYUl9rSnFiN0pHM1o3eGpTNkJCZU9xTkpjaUhQSlV2Tng1NTI3WVdMSFczTWtXVzVWWnlPdkplNEpaSkh1c3pjNnZpN2ZmbGpjQk5DeVRHeUpEUHrSAdgBQVVfeXFMTXpXWGp4M1FfaThuOGV1QzV2X3FPN1FyLXFaME5ObnpaM2Rhdlo5MUV0My0xbFlsZEZmWUlUU1FfZ3NyV2N1dE9aLVQzNERyTHpSR0VMMTdzaG14dkVNaUYyWEZSbkFEUE5GUWVXb3lJcUlDUHQwZ0VYek9UM3didlZUME5hWFJfa0pxYjdKRzNaN3hqUzZCQmVPcU5KY2lIUEpVdk54NTUyN1lXTEhXM01rV1c1Vlp5T3ZKZTRKWkpIdXN6YzZ2aTdmZmxqY0JOQ3lUR3lKRFB6?oc=5",
+        "published_at": "2026-10-13T00:00:15+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine disputes Trump's claim of energy ceasefire as Russian diesel deal draws fire - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRjdEZ2RyUmxzcnAzT21NZFA0b1FOenpaYVNNSXVVckR2UzNmbkhyT21SemNQZXZURTVfVGsyTW15Mm5aRzJTWTV2UEFSZjlRT3YtRlc3YnFzWklKb0ZWYnY1T1k1UlFsd082RUtsQWVodzJ4ank5RjRrZ21GZTlzX2FkYUlhWUhRb25kSEVIMUdPaC1hc1dxTW9VSHhaUTNaUkVtTE5KS2drMUg3M0tTc3JkMkVQZmhH?oc=5",
+        "published_at": "2026-10-12T22:45:37+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -131,38 +167,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTaGRvQkRDWnpVYTFrajZyUVprTi1OM2tXZXpIUl8wOWZycm1LelV2SlVfZUw5MFhHUEN5STNYVV80d1pYeUFQOW9wSGRVdEF3eW1xVE9zbzJpRjQ?oc=5",
-        "published_at": "2026-10-12T21:20:51+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Why do Iran’s oil ‘intermediaries’ owe the government billions? - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdElvWV9iWk44NzJubHBPYkQzU011ZEM0cXZCTmJrLXdDOFhLQWRseExNNVBZZjFLUUlIamR2eFAzcm9FRzJZakV3a1ZqZ3pMSTg0VVpnSHlxYi12VF9HdFQ2TGR6NTZ2R0stbnVCY0NnQm9IY29fVFF1Tmh6OWt5TGJaZVIyZjF4TnVUVDh2NXhobHEtVFZMSHFsRDVkWko2U1NF0gGoAUFVX3lxTE92SXd4c2RPRU16QzFTdFpfTWoyU1BRenprVkZrRVFMSVBoc0NVNXl1cnprYWh0ejdxcHBUSkxka2NwdXlhM2hpNkhwT3lHdXJMbHBqX1A0N3c2QjA1X1ZiTWE1R1JxbDhlZldwZXBZTmxxVjN0eWQ5Tl9zVEMxdXhpakRUVkhKcUhHbWdOSEJQZGFrR0F2WC1YOTVjZHRxMG5PUzUyN21pMg?oc=5",
         "published_at": "2026-10-12T21:20:37+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi minister vows 'serious response' to Houthi attacks on airports - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5",
-        "published_at": "2026-10-12T20:54:09+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "The Single Customer: Who Governs Iran’s Oil Trade with China - The China-Global South Project",
-        "source": "The China-Global South Project",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOUhpeTViT3Jia2VOa0xaRDFXUzBJWXJxU3ItRFNENG9DZ0I2aWFaTXNZbkpjcHpiQ3VXT1VjQkY2aWl0OGRhMHhOTjdrMUFZMXhmdmQ5S3FtUFdhSEpEc1RDbTBYY2RJTGtYeGFiaGt3c296YVVmek1WZ2h6V2k0eV9vMHBmNkFLTXlN?oc=5",
-        "published_at": "2026-10-12T20:38:19+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -181,15 +190,6 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUDV3b3h3UWxGUTYydXhGWFFScFNtZldlQldDNmlWVDhDaGVwYTlvTUo4SkROem1qZDF5dkpnbHRiZmlmTXBpZWFCV2I3aTVEUWo5ZjRzRkYxdDBZb0ZjRlNpM2pwVWJIVkFOSWg4WXdDWVhPb1FMT2tMR2xWV3hqTG5nNkpfWmlYMVFOMFZnRU11eUowem5uMVBITkJndEhPdFg3RnNuaVd6YjZ0WUZ0Y2xMZnBtcy1MUzZvV0FlanJIaENl?oc=5",
         "published_at": "2026-10-12T19:36:02+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why are the Houthis attacking Saudi airports and how are the missiles getting through? - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORnJnYXRDbWtzWG1hWXFTczhaQU04Z3NFbW1nclFrdk9DV2U1SzkycFV2VGFpcXNKbkxrUl9XX1l0YUl2YjRJTnNFeWVFMUNmaktERFBiWHQwMzdQTy1VVEVIODdqNE8zTmxfaEw2cmZfYU1LOUpPS3VTbENWc09oMUxFcWJpU1ZCWEF4TjhnRnljRkpERC04cUdNNmxrTHd2OGc2b093?oc=5",
-        "published_at": "2026-10-12T17:51:00+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
