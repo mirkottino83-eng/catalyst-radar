@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T02:41:35.628414+00:00",
+  "generated_at": "2026-10-13T02:58:00.212613+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.55999755859375,
-    "wti_change_pct": 0.7729984717122163,
-    "brent": 105.43000030517578,
-    "brent_change_pct": 0.6779975899506407,
+    "wti": 92.58000183105469,
+    "wti_change_pct": 0.7947777561904568,
+    "brent": 105.58000183105469,
+    "brent_change_pct": 0.82123815921189,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.40599822998047,
-    "macro_score": 19.0,
+    "dollar_index": 102.41400146484375,
+    "macro_score": 18.9,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +0.77%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI +0.79%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T02:30:00+00:00",
-      "brent": "2026-10-13T02:30:00+00:00",
+      "wti": "2026-10-13T02:45:00+00:00",
+      "brent": "2026-10-13T02:45:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T02:41:23.923198+00:00",
+    "updated_at": "2026-10-13T02:57:48.102541+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,24 +58,33 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ2lCcTJZLWVsU3NJWjJRV2xZd0RXM1NtbWNnQUtfb1RsSjlNVmFEWnVxYVJ5Y0pXS0lWV284NlVCWkp2Qy1jbm5na2ZFeE5BYmNlWFVaVGttNElacjE1SGlaeVBOc1J5Z042bUlOS3JPbWpHcloxVDF5X3B2NG5hSEdCcHp0SGswU3d5VWNNWE02bE1KS0VyTVROTlJxUTRFUzNQM3hrbERWWWh5X21pSFg2ajBBOG02cXdzS1UyV09MY0k?oc=5",
+        "published_at": "2026-10-13T02:33:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "US says it opposes Chinese 'coercion', after Belize, Paraguay ministers sanctioned - Reuters",
         "source": "Reuters",
@@ -201,23 +210,14 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China says sanctions on Latin American ministers over Taiwan ties 'a warning to others' - Courthouse News",
-        "source": "Courthouse News",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTZ3b3pJbGNCQ2tnZzhzcXZVaFQ5elh4QXFSY01YWDM3T0RPcG1tVEdjdVgxeXNtMGUzQldncHJEWFdrZFNBcEVXazlfa0xfNU9HekFuNXhkZFFZdV9nUlZzdXNQMjFTQTBYQmk0cTltb3cydk54TEVDLXdvRGthX01Jam9OaXgyNjFmd1o4eXJ0eXJ3aUJxUlN2ckYtRFFEZ3ZXQkZURGszMG53bnJfUVhXaw?oc=5",
-        "published_at": "2026-10-12T16:43:28+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ2lCcTJZLWVsU3NJWjJRV2xZd0RXM1NtbWNnQUtfb1RsSjlNVmFEWnVxYVJ5Y0pXS0lWV284NlVCWkp2Qy1jbm5na2ZFeE5BYmNlWFVaVGttNElacjE1SGlaeVBOc1J5Z042bUlOS3JPbWpHcloxVDF5X3B2NG5hSEdCcHp0SGswU3d5VWNNWE02bE1KS0VyTVROTlJxUTRFUzNQM3hrbERWWWh5X21pSFg2ajBBOG02cXdzS1UyV09MY0k?oc=5",
-        "published_at": "2026-10-13T02:33:00+00:00",
+        "title": "Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points - Investor's Business Daily",
+        "source": "Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSlk0RnVxb1Y1NnB2cDJ0R0FtVlBhZ1dUV3JsenBRSUNxNW5xNGJySFd3M2MzekJBaXlhRzlObnNmaUZ4UlZSOVdqazFnc2VVVDJmYWJ4Rm1ROTJUNXMybXRfRm5VZ0JIWEZVNEpDZXVZM2VqWkFQR0Q5aV9IbGwwSnA5QjZvdXFId1pDa18xektnbThpN2pRbFRtWW52dHg3aGcw?oc=5",
+        "published_at": "2026-10-13T01:11:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -245,15 +245,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcExtOURDNzlUMVFuOXpnVmpMQ3VVOTJpVnVOZFlPalJBbVplaHdIb2VkYUJSQzZqZ0hLdHZWaDFCbzNvak5JbFl1OGcySmptNm9Sc1dVS3BSUHozU2E0MjRWbE1jeW1DclJLQjhqX3RXQXlVTVVfandvSHpCRFdHSHF5UTdTbGpSMzdrUElSYUJwQkI0NWg5WA?oc=5",
         "published_at": "2026-10-12T20:54:35+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Microsoft plans huge deployment of its own AI chips, with an eye on saving costs - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHVSM1ltUmRIUHVldm04ZU5JX2hLc0lhYjZVaDMzMDlkVkxXNUM3OTFFVU1kdlM1R3BneGN5cXp3Ui1Yc211TFF0VUU3ZlpRWjhBRy0yOGJjdlZxR3FmdmFHdFNMRDM3Rnh3WjJMd0d1MHNINEdvdWpBVEc5TTJNMjk1Xy1JNEY2b1g5RkYzWXYtakQ0SmNnMHdoUlRnbjFMSWVBUm9QaVBXbkFNUVgwSDVLdURleTBwMHc?oc=5",
-        "published_at": "2026-10-12T20:22:23+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -300,6 +291,15 @@
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUW1tdWpVcXl1dFdDRTZNcy1hWFVoT19oXzFPbWxvcVlaRjZmLVFhbjRITFV6MjlJSlp2WjhVYjhZeXRUMFRrOC1aV3piMUJTdF9rNTRGWmp0b3lpS2ZBMU1rN2ZnZDZuMVNzdThjaVd4X0x5N3pMZWxnNEJqSENfSG00X0hHTHlIanJaSkpfZHB1cFg2b0FMYnRpNGZObmFGMENVeUdGal9Ra3NFSXJuWnpVbEZBcXl2czU5YVhsdm0?oc=5",
         "published_at": "2026-10-12T14:35:47+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Microsoft makes ‘biggest bet yet’ on its own silicon, unveils new AI chip to reduce reliance on Nvidia - GeekWire",
+        "source": "GeekWire",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUEZEbjdfOE1lY3RRLVpLcGZDNlUtLU93MTlhbW9JYzRoMmlGZHJsNmd5UFRXNjZkWE9FUmhLRFNqOTZVQ3dKaHkyNm15blIwSXduVk9wb18wV1d4djQ5Sm9Fc1E0aFA3cC0wbjhubVFHRlM2emVWTGhvRGNDYmJiN0JwV2tfQ2xHelBzUEU5R1ZPNVZPNW4tY1VhbjhuQUtHMXZILWdqTDgwdkFHZU5XbnZKNEdWUjk2M01jQ1pUeV9tQ2NUQ3FEV0Rn?oc=5",
+        "published_at": "2026-10-12T13:22:17+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
