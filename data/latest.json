@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T06:01:58.274896+00:00",
+  "generated_at": "2026-10-13T06:28:10.542539+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.80000305175781,
-    "wti_change_pct": -1.0027681175945768,
-    "brent": 105.75,
-    "brent_change_pct": -0.8438832752013736,
+    "wti": 92.58000183105469,
+    "wti_change_pct": -1.2374611256132595,
+    "brent": 105.5,
+    "brent_change_pct": -1.078294898664256,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.39700317382812,
+    "dollar_index": 102.41000366210938,
     "macro_score": 20.5,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.00%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.24%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T05:50:00+00:00",
-      "brent": "2026-10-13T05:50:00+00:00",
+      "wti": "2026-10-13T06:15:00+00:00",
+      "brent": "2026-10-13T06:15:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T06:01:45.208210+00:00",
+    "updated_at": "2026-10-13T06:27:59.840744+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -72,10 +72,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "China trade and inflation data takes focus amid export strength - FXStreet",
+        "source": "FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbU9xXzBucUxVT3VCLUdDOEdOWUNWWWpJV3JLRWViWkpyRUo0WDd0bG8yNk4wZ2tLQ2dnaUxsME4tS2ZXMmp2MTFGejFUOEJwQmtHZVk4MWV0Um9SNHREZ3R5dzJITk9rTFdhUEFNWmR6Q2NoenNyT1FKU1FFS1JiUkxOWEd3TVFjZUdZaG01bFZFUlNSS0hiNGo2MEZ3QUVacDZ3OERPaTg1b1JjOWxF?oc=5",
+        "published_at": "2026-10-13T05:49:26+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "China sanctions officials in Paraguay and Belize over their countries' ties with Taiwan - Ottumwa Courier",
         "source": "Ottumwa Courier",
@@ -92,6 +101,15 @@
         "published_at": "2026-10-13T04:30:09+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Finnish Foreign Minister says US oil purchases from Russia 'not a good idea' - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWkt5Z3JOemJCNEVzdG5MM1hpdmVGcHdEQm5yVVJNcXE3WHNKYmwxV3lfWmg0Q1VCUDl2cWtmMUNUMk9USjJ5enBUQzFEOFAzV083VHNNRmtDSDBQaVo5Wl9pTW10dzFxdUJZbkRzQlZEVGx4VWl5RzN6WnRZVEdfM0tnN2tXTU5VcGw3SmFCZTZObTlkMmw3SnB5VkVKRmlyQW9ZMmp0dzZsZ1FKbmdmemJDaTFZYy1DTUFTX0d3aw?oc=5",
+        "published_at": "2026-10-13T04:19:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -143,7 +161,7 @@
         "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike - Seatrade Maritime News",
         "source": "Seatrade Maritime News",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE9tRlhQVUh1WWJWbkhDeDdOeWF6NVhqYlBoRUdORHQ1c0hBemNQQlJ3VVk4RDZIemJKLUZDTDVNc0JNWXhMNzNHem4tRldHaGFPdGsxdk5kakVhYlZON0FuZjVRUl9aVVlUOGdxUUlDNkJ3V0xVc2YtRndpTnBLZThOWEtkS19iYlVJcGZ1VlNYbWlnSlE2WDNMN1hUUGplZndOQ0FxWGZ1cVk3TVRHdGFkVEg?oc=5",
-        "published_at": "2026-10-13T02:51:08+00:00",
+        "published_at": "2026-10-13T02:55:54+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -155,24 +173,6 @@
         "published_at": "2026-10-13T02:33:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
-        "published_at": "2026-10-13T02:14:02+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian bot traffic decimated overnight after Ukraine drone strikes knock multiple Yandex data centers offline - TechRadar",
-        "source": "TechRadar",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOR0NMOUJGYVgxZHZzaGpWYVlsS1FQd3E3OUYxNVVPMjNEVG9zNFRGaHdVYktuSTdoT2hRc1NTSG9nQ0IzVkJZSkZsQjdRS19DTUpNcDlRc2NxZ01HT0V0dnBzeGxDOVNtdkFBQ3ZzcUdLZkh5WDNKUVdHd2hwSDFKQmF1cFo4RVhaeklxWDcwUFBBcDh3THFTUnloUzhNY1d0VmtHZ2ZfRGhMSkJQZXRlaWVZaG9CZ09BNHloTHJ5bG04VlU0NnItTFlrT05RMUdCRERFV005bw?oc=5",
-        "published_at": "2026-10-13T01:11:29+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -214,10 +214,10 @@
     ],
     "corporate": [
       {
-        "title": "new fda approved diabetes drug for weight loss - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWENWZENNMGtSc05kLWNhVjRaSVVMSF8zNy15SzJkRUFHZVF5dE5EZXhpREZPNGN3dkxMOWJ0M0liWXJvM1F4QmZScmhFU3BvQ0RpS3V1MXhQOWZLVi1ucDZJU1RKSWJIU3VJN1hCQmlNT2lYVkdzaFkxR3hQSUtmbnBLREdXUExXSUg4?oc=5",
-        "published_at": "2026-10-13T04:19:05+00:00",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-13T05:05:18+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -244,7 +244,7 @@
         "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
-        "published_at": "2026-10-13T02:14:02+00:00",
+        "published_at": "2026-10-13T00:15:06+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
