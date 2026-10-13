@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-13T08:23:57.276833+00:00",
+  "generated_at": "2026-10-13T08:45:20.603427+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.04000091552734,
-    "wti_change_pct": -1.8135235619620604,
-    "brent": 104.97000122070312,
-    "brent_change_pct": -1.5752463958175644,
+    "wti": 92.05000305175781,
+    "wti_change_pct": -1.8028534782641659,
+    "brent": 105.0199966430664,
+    "brent_change_pct": -1.5283683633300016,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.479999542236328,
-    "vix_change_pct": 1.7751446641169677,
-    "dollar_index": 102.31199645996094,
-    "macro_score": 22.0,
+    "vix": 15.40999984741211,
+    "vix_change_pct": 1.3149231345400025,
+    "dollar_index": 102.28500366210938,
+    "macro_score": 22.9,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.81%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.80%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T08:10:00+00:00",
-      "brent": "2026-10-13T08:10:00+00:00",
+      "wti": "2026-10-13T08:35:00+00:00",
+      "brent": "2026-10-13T08:35:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T08:05:00+00:00"
+      "vix": "2026-10-13T08:30:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -46,13 +46,13 @@
       "published_at": "2026-10-13T05:52:00+00:00",
       "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.69,
+      "current_change_pct": 1.59,
       "short_term_change_pct": null,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-13T08:05:17+00:00",
+      "quote_at": "2026-10-13T08:30:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 18.6,
+      "quote_age_minutes": 15.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -69,7 +69,7 @@
         "freshness": 78,
         "volume": 28,
         "momentum": 35,
-        "macro": 22,
+        "macro": 23,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T08:23:45.246799+00:00",
+    "updated_at": "2026-10-13T08:45:09.463772+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,14 +87,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 10
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -115,10 +115,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "Bulgaria Summons Russian Envoy Over New Black Sea Drone Attacks - Balkan Insight",
+        "source": "Balkan Insight",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM3ZUUmkxLTdjeGFsZnBLN2trZ0R4RzBpT3NZUEFhbGxRWFpzTVViSERYR0VndVhrMkF2SGZzSmY5WXFRRVFER3NRbURvMjAzU2tFdEpudmUwQm52V2dkYjVNUFdEd0ZkTDh2eG5EcVo1ZTBYbmdnVkUyV1hVRUg5dzBfM0lwQVZYRmxNMUFES1NXMmVreVY4bUtiSWJBdlRQZFQ3bDhRMA?oc=5",
+        "published_at": "2026-10-13T08:33:41+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Danone (BN FP) CEO met with Chinese Commerce Minister Wang Wentao, in which the two exchanged views on Danone's development in China and China-France economic and trade relations - Newsquawk",
+        "source": "Newsquawk",
+        "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQUzZFOV9fZERBcmloalpDckFUUXVPNXNCYmROSFRqZG1KVmo2NmtSQktOamcxSW10UkRjLUNHbWt0UWhOXzJUV0dnOUpXdEVpU20wQlBicWdwRldISzhfM25BdEE4S19IalRXdHdEcURGN1RYdVY0a2pIUUdHaXFqVGhtSC05OWZGUXVSSjBoZ1FKLXh0YlptenNSWDJseXlDdjRNckt2TWdZc1ZGQXpwZjRXQkRvREo2NC1MRHZpb244NDR6VHFGMWV5U1NlR2MwV0NWOG5IalQzQXdIZzdwYzVFbWtlbGthYXFYUUVBOWp5b1lNMC1LQkU4ZkVxanhPSjdFS2lVdGhFYUlvWFRtRGtwTVk2Y1lMZ0M2Rl94SzNTUno1TVlKbG4wck9EMW1DdExmbA?oc=5",
+        "published_at": "2026-10-13T08:11:36+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "U.S. Condemns China’s Sanctions on Belize, Paraguay Ministers Over Taiwan Ties - The China-Global South Project",
         "source": "The China-Global South Project",
@@ -147,15 +165,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China trade and inflation data takes focus amid export strength - FXStreet",
-        "source": "FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbU9xXzBucUxVT3VCLUdDOEdOWUNWWWpJV3JLRWViWkpyRUo0WDd0bG8yNk4wZ2tLQ2dnaUxsME4tS2ZXMmp2MTFGejFUOEJwQmtHZVk4MWV0Um9SNHREZ3R5dzJITk9rTFdhUEFNWmR6Q2NoenNyT1FKU1FFS1JiUkxOWEd3TVFjZUdZaG01bFZFUlNSS0hiNGo2MEZ3QUVacDZ3OERPaTg1b1JjOWxF?oc=5",
-        "published_at": "2026-10-13T05:49:26+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China sanctions officials in Paraguay and Belize over their countries' ties with Taiwan - Ottumwa Courier",
         "source": "Ottumwa Courier",
         "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOYmRScU5QYi1qOGRueVF2Smg4cFp4ZzBKOURYNFN4S2FGTWpKSmY0ZTFhU2dqX0dNS3QwWm9kU1pMN3VURkVNenFHZWlRc2ZhZnBlQmZ3bUhRWjBFNURSclV0bjN2WHFIeXJ5dUM3Y1hKLUgzYlNBMFZPa0lQUGRCLW45d1NzZ19PQmRPQmV2RE1fNkh0Vi1fSmpTeklOSDBhS1dQYlFpRGhfbmZ2Y0FvXzZxVWdoaFFPeEh1T0ZLUFhYWmJtVWl1SVo3WTNRdXBVT1dJakFaaHU1Y3l0bC1lVlM3Wk5XdDNBOTRJX1JpdUVKcVAwOXIxNkhSUGZLcmFEaEZrNnZXZmhWUklxNFotT0RXQkI?oc=5",
@@ -178,15 +187,6 @@
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5",
         "published_at": "2026-10-13T04:30:09+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Latest Attack By Iran-Aligned Houthi Rebels On Saudi Airport Kills 1, Injures 11 - Radio Free Europe/Radio Liberty",
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "published_at": "2026-10-13T04:19:54+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -228,11 +228,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russian bot traffic decimated overnight after Ukraine drone strikes knock multiple Yandex data centers offline - TechRadar",
-        "source": "TechRadar",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOR0NMOUJGYVgxZHZzaGpWYVlsS1FQd3E3OUYxNVVPMjNEVG9zNFRGaHdVYktuSTdoT2hRc1NTSG9nQ0IzVkJZSkZsQjdRS19DTUpNcDlRc2NxZ01HT0V0dnBzeGxDOVNtdkFBQ3ZzcUdLZkh5WDNKUVdHd2hwSDFKQmF1cFo4RVhaeklxWDcwUFBBcDh3THFTUnloUzhNY1d0VmtHZ2ZfRGhMSkJQZXRlaWVZaG9CZ09BNHloTHJ5bG04VlU0NnItTFlrT05RMUdCRERFV005bw?oc=5",
-        "published_at": "2026-10-13T01:10:00+00:00",
+        "title": "Trump's Russia deal leaves GOP candidates with a Putin problem - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOVZDbTdjTHE1M3JpM0xVXzdlblZPOXZpTXktVlFlQWdNZDMxSVBuMU9fUUVNQ1dWZmRqYVdyVEpEdnI1cElTdjFNWl8zZTNQdktyWldONnBrUTVqOGp1dUQyM3RuN1psMHdYbFFzNHp6OTFTRFA5MUNRRFYzMnhqU0RnOFY?oc=5",
+        "published_at": "2026-10-13T01:27:46+00:00",
         "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlFmZ0kwWmYtTnNQeVZ5dklfNXNiZlFLRDh6TEZrUEpLYmtFMk1IckdOeHBUb1YyQV9pbXRPeUpib1VXMEV3dHJtYWs5V1BDMnQzM0ZsSTk2cXVFQ0xYbGplWUlUSEhrZlpHbzZTX05xdElackFubFV0YUhudVFFNUo4cVpLazRFaUlINkcySkVVcWJFU3ZIRHVB?oc=5",
+        "published_at": "2026-10-12T22:54:00+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -244,15 +253,6 @@
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYk9yd3EweHFPQ2doVnFxQmxCdEJxMmdBdF9FT2tzdExGZmR3eUo0TjFyTmU0azY4UEtmRW56djNGaERmMGdpcmNHZWRPcllwdEhPUVhsNjJqMzYxRko2dXA0VTBtdGZvYUdid1hZZkFMeGtJOGdVX1J0NUU5X29naUJaUVNxMG9LWEw2Q3prUHVTNTlyanVIbjFxOE80Y3oyNTlfX3VhT2U?oc=5",
-        "published_at": "2026-10-12T21:50:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -262,6 +262,15 @@
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcFprX0tjenVNRDBjeGdscHZoczV6bEUxbjZwUHktOXlUMXRORm10Xzgzai13ZnhOUC1FcmNfM0VSR1N3dnNDYmpqMEhzUnhWOE02QWtkRWJLVUc5MkRyWE8xV3g1bFVxVG10ckprcnhVNGhUVWlTRnVPaGFvY1drU1RJa1YtNFJhRXdFRkZxTFlaSnlPMWw0bENWd0FJS3pLZEZNNVJSMThKeVJ4MUluNXE1Wm9hLWQ2c1liRk9zZ1VhV0dtWERyRm1ETU1ZRmUta0tXcXVuci1ILUxDLXdB0gHkAUFVX3lxTE1LdGdlb3pfZ05oemRlN2NSZ21BMklzVk9SWC1qYm9HMkJxRTRQUXpPX0ZwdDVqTEVTMHl3WEEwc01rUWVVczR3R0h4aVozdjIxMk9BbWthWmh4V01IYWRRZzFfUGUwVlBvNWJxcUZRdzBkWm95cVhZNGJBWVdqMFhWQWRnZFM5dlpHS1BrZ3lTMmgtWXdHb1lqamVTOGhoZElSaHNyTFd0UGFKcHQ4UFBwTEJCMmw0LXd5TDNoTmlfeDlWb0FvajJiajR1NXNiOUs5Z1VuZEZ0SmplNHNkV0N0T21yTg?oc=5",
         "published_at": "2026-10-13T07:41:32+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOai1qN2FwNVBmbF9mZmdmeFNoTGd3VWRkeDBOeXhLRDV1dXd5c0lDZXN1UEVpdjhhdEF1bXVaRzBBZzFYeC1ucEhSUE5qeXd3VnBCdDRidnBGQXdBVGhxV1dpQTVoZURzQW4yZHZUWW5ieWdiY1hlZGZ5ZUNfVWUwV2NBUldsdkk0ZldVcF9RUDJZVkhXaU1z?oc=5",
+        "published_at": "2026-10-13T07:01:59+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -333,15 +342,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNk91MHRKMWVYVGxJS21hbWtES09aR0FqZ1lpZUR5ZTU3U2YxME5oMnJ1LXdZVzJBZThGandvdlhISmUzVGI5bmo0RnhWVUZycUI5OFZ0SGhSTng4alpiT1E3VnZhZ0RlVU9pTmNFeFdHTlN1YUpoSUxxOVMwbl9YZzNwUm1oeGs0aFhsYl9aOFM?oc=5",
         "published_at": "2026-10-12T17:53:58+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Energy stocks gear up for strong Q3 earnings: Top Quant picks - TradingView",
-        "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmFxdDVtZnFlMUU4NmdyYXpyX005dVZmakJyTDgwT2otUmtKNWJtckZfdFg2TTlSQUVSSGhlTWYwYmlacjIwNk45dnZsTF9lOGtaZ1dlSXVvWXJuakpIaW41a2l5QS12bVBVc2xFR1dyU1k2c3ZWblZBd0JVUVMxR2lYTTBKaW5uR1ZWQmk2TXBuRS1HazZFSC1lSWFlcHBCRlFKS09RNzMzUTY2UGY5cmlFSUxNMFJtQWNDenpReDk?oc=5",
-        "published_at": "2026-10-12T17:20:43+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
