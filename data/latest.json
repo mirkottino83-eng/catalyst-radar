@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T22:02:17.185808+00:00",
+  "generated_at": "2026-10-13T22:28:39.089708+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.79000091552734,
-    "wti_change_pct": 1.120122760493092,
-    "brent": 106.36000061035156,
-    "brent_change_pct": -0.2719183416579507,
+    "wti": 94.7300033569336,
+    "wti_change_pct": 1.0561185360840497,
+    "brent": 106.25,
+    "brent_change_pct": -0.37506002827562,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.21299743652344,
-    "macro_score": 46.1,
+    "dollar_index": 102.21499633789062,
+    "macro_score": 46.2,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.12%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.06%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-13T20:55:00+00:00",
-      "brent": "2026-10-13T20:55:00+00:00",
+      "wti": "2026-10-13T22:15:00+00:00",
+      "brent": "2026-10-13T22:15:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T22:02:05.371656+00:00",
+    "updated_at": "2026-10-13T22:28:27.884301+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -72,10 +72,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Missile hits headquarters of Saudi Aramco, source says, as Houthi conflict escalates - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUHZtMnk3dUVFWmVkT2FmZVRqNWNrUUc5YkNkWVJMOEhWMmo1dnc2S3FlUlExbjFscTdlY3NQcExPejdxUlF1clZ5S1BKQ1JLdjhzaFdXT2l1YVBmN2VVSkFOSlJNNmlTR2w5d082MDR2b3RkY1VrTTlwWFhuclBteVRaTmtMRUczY0VPaWxBeVV1RE9vUE9kRFZaUlZEX0NnOXZqVnNtNlJIcFU3cnE2VVFTNzhfNVZ0TzZiQWFtSUJCdXJXYU5rU0JB?oc=5",
+        "published_at": "2026-10-13T21:49:46+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "US Defends Paraguay and Belize After China Imposes Sanctions Over Taiwan Ties: 'We Stand With Our Friends' - Latin Times",
         "source": "Latin Times",
@@ -95,6 +104,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZW5UZm9rTkVDR01LTzZFcTQ0MUprS3hKLTdHaWtXQkVUQzdOSzNJUWJxRlQ3WkpnbUl0TzZlMWg2eVI1bzJidmpzQnFlaC1VcVRpS1FaN0tvZENEeS1LMUVPVmFaM3o0cEI2bkx6bGhMZ1c4WXliLTg3c0djRjgwUU9YWTE5d3F5dFlVV3hlWXh4clk0eUZNWGczUnhUbmtsbElkR2ExNEFqcVRKUEJwT053?oc=5",
+        "published_at": "2026-10-13T20:32:12+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Lawmakers Argue Trump's Russia Diesel Deal 'Violates' the Law. Here's What Legal Experts Say - Time Magazine",
         "source": "Time Magazine",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcjJDOFZveTZzQWowY0ZmNlJFS01kbHpZY3BlVkREdGltal9HakF4Rk8tZkJGVWxGVGtGdlE3RkFCMGQzSkp3Tjk4Y0traUdTRlVRbk5rZlNUTzJNZkp0djFOemY4cmtMN3VJTlQ0TWtRdzBjN0lEb2k5RnFVV2NBSldUUHllaG1aRjFfTTNYcVJtdVVhX2RPaVVhTW5VMFdoQ3BXSUxOSQ?oc=5",
@@ -108,6 +126,15 @@
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVA2WjlXNVNqR1RhTzFnOFd4bGstWUFZMDhCbXBNUEsxNzU4b2N2Tktwck9tMlFvSERMbFVwcnNkMUFTSVBxMjlia2VhMlQwZVllRlo5ZFpaUnl6aWFxSWJGaXhIeFJFcVA1ZUUxRHJqWjNqalNrU1UwMUtfX1hKTXhtN3pNVHdOSW93WGh5NlRuZW5KdVJPOGtsWWVHbG9UMy1tUjZrcWxEWGZkUldicFVURDFjdmdza3Q0?oc=5",
         "published_at": "2026-10-13T20:26:54+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Don’t hold your breath for Russia sanctions - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTzN5QjFNMk5GN2d5ZVAxTmppWnljTGVvaEhCSHRIaWxQdTVIa3dOeFB2RWxzWFd5dS1FNUNaYkRIMGdZazhpUzA3QUl4ekpVX2kwVHpaaWYyalFkOUZ2ZW14ZktXbnZXVzZLa19YTVRyOGpqeWlUcXkzTEY3RmRxOEthaTYzM0FXWGZaQktqcDZMNnJ2MklXdmM3NUFIM2V0N09Lc1FSUDlvV0ZxazRHVlFJM0hWa3o3SjJkV2RIRnI?oc=5",
+        "published_at": "2026-10-13T20:24:44+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -131,21 +158,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEwxZktQOXVmXzgzX24wQ0F2dVVpQXdDS3RUWVBOYTA0aXV1MkJWaWo5RktXeVhSZVdPWGVoNklwUF9WbDdjYXJUTkNMUnpiUmEtNG9qM1lqUi12VktFVTkzeEZCS0Nzb25vNlhHTTl4amx3cV92bTdnQ2hnUTdJZzMzaWlkX0xwUWlKT2JwRXZmeTRDcllDSnpmcXotdUZPc2sxRFF30gGrAUFVX3lxTE1GQ3RSS0pUXzgwNkRDYVZjTkNHbldMbjRVTnBYWmQ1YUx3MlY5V0VBcFVCQTk2bTQ1dTVaTVdEdUM5dWJsYWVsR1ZFYzNGZHF3akRLT3l4OS0yZDFnUHJlQ1NVOEdGcDQyTmM1NGdyUW9aZTZRai0wZEYzQWdMTWVXeWR3SjlUQlhWaEw4X0RGMU9PdmhvQmhTUEtIZW1nTkRLWVhtb3VkaTQ3MA?oc=5",
-        "published_at": "2026-10-13T20:01:36+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran Shipping Update – October 13, 2026 - United Against Nuclear Iran | UANI",
-        "source": "United Against Nuclear Iran | UANI",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd2t0UFNhYm9aYzhtVk1yem9lem1KTGNjM1FvSlhVbGE2Q01WOUN5VkpBeno3QnU1bjhQWWFzdThzYkRZS1l0QXpaRmdHd3U3S2NsbWVLNmg3UnRoWTY2MXQ2UXp5NTNWSTlRRWxxZ2RXSERNUWRkY3ZhVGFxczdpV0kwaG96Z0MyRVMtVlVXZw?oc=5",
-        "published_at": "2026-10-13T20:01:08+00:00",
+        "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NTXliU09wdmZTVFFLc3dfamVjQlRpUnNuVXY3QmpLLUVGYjVXZHBZNm8taks5cTJaVUNndmNFZy01WGxNcFp0YzFlb0NZcXBQclBsZFF1T1o2SGM?oc=5",
+        "published_at": "2026-10-13T20:02:15+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -158,28 +176,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "The Oct. 7 Attack Changed Israel, but Not Its Politics - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFk0YU1EQndRUnJFVHRmeExWZXlnXzZhN0tNMzFCdHg5V25KOFRCYWJwTndvWFcwTjhOVUNOc2JMUWZGaHA0eDJHQWhPNWx1RlFkRlZRUy1BNXJwUkhsQkJXVWRfMVl6YVR2WV9IblBKMl9fZ20zaF9HNUFyNzRCMlpwdlE2b0V1U1duV1FOYzF5YkZuYkE?oc=5",
-        "published_at": "2026-10-13T18:58:37+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi coalition strikes fuel depot near Yemen's capital - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NTXliU09wdmZTVFFLc3dfamVjQlRpUnNuVXY3QmpLLUVGYjVXZHBZNm8taks5cTJaVUNndmNFZy01WGxNcFp0YzFlb0NZcXBQclBsZFF1T1o2SGM?oc=5",
-        "published_at": "2026-10-13T18:55:50+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXU0Wi0tVm5aMk5WYWZNYTBlLW9uVktRN2VyRUxPQUpUazM3cXVLRnZNMF9ad01tVWFZUlBRWV9WVU9BOGoxXzdFWWMyQndhclVId3R5VlBIeTBOTF9JbnN4eVdnWThmd19ZWktfYlJwYTdHNkRZaGFtX3Roci12TWR3OE5EVi1ERDhWOHlGSV9XTDRScG9uakVjRlVzTnBpYk0zZWthdHg4SG9tRmVkVkZsWDM?oc=5",
-        "published_at": "2026-10-13T18:39:31+00:00",
+        "title": "Saudi Aramco HQ attacked in suspected Houthi strike - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlJvcU95eUR0QzVMRjJzX25MNl9HWm8tNU5HNUx1R3EtOVI5U0NvRjhEdTZ2VzJtc2FPQUwzVmU3dWY2ck9ZSjhFUXd0OVRmazY1SGpWMWgtZjk0MnhlRFotQmZrMzhGY3RWUnVTVlJfOHBRVHJwNThrbDl3T0tXTnVSbXg?oc=5",
+        "published_at": "2026-10-13T19:13:39+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -214,6 +214,15 @@
     ],
     "corporate": [
       {
+        "title": "Nebius (NBIS) Stock Could Be Above Fair Value After Inferize Deal - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNODA4N3NiNXFYdzhDMm8weTlQTlM1ZEZwOXZ1cFA2OWx1dzhEa0w3QzZrX3pISG1VZkNtaDVvQ2djd2d5bndnQ1ZLbUh4SUs2QllXT0J0a0FvSG43SFlMTGFUVm80a3NGSllWRUloTWRUZUF1cVJPa1FsdzBCYVFnMy0tOWpZSnRDTWNYOGs2RzZMZ2k3Y051VEtZWFRLbFdBb1hqWm9jMjZjOGlvNXRvTWp4TXUzcjh6SDJnTlFNVzJCUWRYTUFIWFZKd9IB0AFBVV95cUxQV3F6QWdJM3ktRzdRSDFwZXNXMGgyZFd0WndERmpydS10Z0pKZE5jQ241QmM4Q0J3a0lQRXF6Ql83ZlpVRGgxbmd0SWhzTTNPWWVaNC1zOEg3Vy1xeFpvdXc2ZEpEYUpBeVFwQnhnWjR6bGRMN2UySzI2R09MUmpKV3BoWXVXQV9rUFdUcVRSR3NCSUszMkpmSnlCb01LZmVGb0xYZV9FQl9ENFVqME5ERlBsOVN2M24zT19BbWpnZ1RiMXptWE5CcXRWSm04VXVE?oc=5",
+        "published_at": "2026-10-13T22:00:57+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Micron (MU) Trades at 7x Forward Earnings: Is it a Bargain or a Peak-Cycle Warning? - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWExNWXJkR0c2WmZYNFFxZE9HSmY3ZTA0VDIxa1IwOEFXU1dzbW96TU5mRTMtLVJQRlhBaFdvck1ncWdKUU9WS1lxUDZ3LXVYdU5RbjRZbjlUQXhsS2ZCbEZDcF8tRGI4QkJRWjhOMWxBclQ1dGswa2xYcWw5WS1BM3M2a0tVUE9uUFR3X2g4Yk5ONmJBYnFZ?oc=5",
@@ -228,6 +237,15 @@
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUxJdVNwblBhMC1rUU9TbGpZSW5OWFo5WmdHcGczYjBaeFJ0OWtKckV0dWRIUkR5LVJmRl8zTnI5UnlSSmhlM3R3MkdRUFNlZkRfY0RDLXdpd015N3Fqc0IwcHpmWjhFSXRnUkNVRVlXYWZuakpNaEVxOWY2LVp2cUpiTDVfQ0FGa25yMW01dzZmeXpxamlNdEd0NmtZQkN6SWtUdw?oc=5",
         "published_at": "2026-10-13T20:37:01+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Novartis (NVS) Gains FDA Approval for Lamprene, Enhancing Patien - GuruFocus",
+        "source": "GuruFocus",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYWs1dVYwWWVsLU4wbHc5bzl1ZC1na01GYjlUVl8xbzVFZHVROVhXTjd5SUhKajRUUXdWVWo0NVAySlAxbU9QQjR4bHB0OWowY3JUSXh4Z3BJREJ2TV83SlBaTVQ1X3pISFBKcVpKbGJFUTI3QkI1a0VDaHdlZzgyeFk4ck1FZ3FsZVlXam0yM2lHblRvQkZRbnJVRVRUZFlXbDV4VWZud25zN3Fl?oc=5",
+        "published_at": "2026-10-13T20:04:27+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -268,15 +286,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nebius (NBIS) Has Pricing Power. Its Earnings Don’t Show It Yet. - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTXlqaVVzWUxrYWxzWF9jT0tmQ1NjVG5mb0JwRnFxLU9rVUNnZklqZ1daQzhFSXpZMnlMT2pLZm1zdWFvQ2RFc1Jvek1ydzJLLVduLW5QMG9Sd2kyRzBqYnJaNUY4X2I5YWFzWGpUOThsNWxxRU9mUnpoNXhVTklYRzRUdTRkOUVuT3JoS1NWR1pRUXZxazR5WU1RcDd4QWs?oc=5",
-        "published_at": "2026-10-13T17:45:32+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Does FDA Approval Change The Bull Case For Asahi Kasei (TSE:3407)? - Simply Wall Street",
         "source": "Simply Wall Street",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMlBoZGNoTWFEdTJRT1dQaUp4ZHJlSF9xa3hrU19oZ1Y4bHZMQ012aFBuTE1qbm5qejBYTlV5RV9QMGxVa3pzR3l5M3FvcXNZdVZQVTIwWlJrY2E4elc5RHItV20wLWhuLVRkWmNjUW53TUZld1FqbEp0bmpwcXV3UzlCR2RpZEFWc2NfZ2FlcXNsSjlyQS0wWTJWQTJ2Sm1IMmZ6TGNxSm5YSnFHNWEteUtfY2ZqcWFBZE1melhoYmQwX1lMaS05SnlMbE1VYU800gHWAUFVX3lxTE15cDJrTkhGUUFNNDZud2RtcW1YUU5HRlc1MmExVGxHNGRicUhfeERsSUk3QVBTZ19Da0VCaDEzb0s5TllzdlJNWXZmOXFLbE1Md0t5WXF6MzdmMkFLSjdCaWpsVjYyQk0xeC1LTEhkMnBTMjctVF9icmw3Q0g2OU0zRGpTa2gtZFdkTlYtUjlZVDNSd05WOEZJV1kySXdRMXQzOXJOeHJmdWhnQk1sNFV2a0VCVm91elhobTM1N1RyR1pIRk8tWVJobnZ2eDJUZ1NJUGdRWXc?oc=5",
@@ -290,15 +299,6 @@
         "source": "Diagnostic and Interventional Cardiology",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXpVdXMwVktOVFEzNUtGTWFSb296ODFpNTVoRXc2Q2c1T0VqR013S09CUHBRQ21OSnlzZmFIQjhOQ3RRSnctbFc5Y0c2ZC12eGJZTHRTeTg3b29BRXdQczRXYU5MMUhCNkE5enZsdWg4X0J2b01qcmZ1Ty1UQ1hoNE1kQURyMTFXRFdwcmZENXRlVlRCa1JoZA?oc=5",
         "published_at": "2026-10-13T16:24:36+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer: The Earnings Test That Matters (NYSE:PFE) - Seeking Alpha",
-        "source": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQkVfWE02eDM5T2t5Sl9NWkJBVGxmTnZHUE5wVTZvLWMzaHBlTlVUQmdDd0Z1V1ZUS3U5UXFOcDJ4R0JwNmVqRERJLU1NZjhnN2stbU0wSXBRX0dvTFlaeFF5UEYxbWFUZlBKNGszVUMzVTV4bHZ2aVR5X1doUzl5TFJFa2s?oc=5",
-        "published_at": "2026-10-13T13:26:26+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
