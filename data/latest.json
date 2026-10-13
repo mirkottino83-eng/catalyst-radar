@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-13T09:42:31.086613+00:00",
+  "generated_at": "2026-10-13T09:59:54.971377+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.05000305175781,
-    "wti_change_pct": -1.8028534782641659,
-    "brent": 104.86000061035156,
-    "brent_change_pct": -1.6783880824352337,
+    "wti": 92.05999755859375,
+    "wti_change_pct": -1.792191533455434,
+    "brent": 104.88999938964844,
+    "brent_change_pct": -1.65025983220769,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.369999885559082,
-    "vix_change_pct": 1.0519385076319887,
-    "dollar_index": 102.35199737548828,
-    "macro_score": 23.4,
+    "vix": 15.319999694824219,
+    "vix_change_pct": 0.723206156484979,
+    "dollar_index": 102.34600067138672,
+    "macro_score": 24.1,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.80%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.79%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T09:30:00+00:00",
-      "brent": "2026-10-13T09:30:00+00:00",
+      "wti": "2026-10-13T09:45:00+00:00",
+      "brent": "2026-10-13T09:45:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T09:25:00+00:00"
+      "vix": "2026-10-13T09:40:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,19 +44,19 @@
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnBMR1pPVFFWakIwUmxxQ0RQXzFrY2o4Ym1ZX09hSWxZdk0xeXVRMW9NUEEyQXUwZGFtc3pYUFZBQkc4akhFUUVvdmZsck5OQ2F4NHlaekZXelJaZDdpUGg2cnZEZFpnYU5DbEtMb0YtY0Z2aHhsc2pweGhyVkZWNmFqRkNiLVdWRUF0YXc0TTFGNC1VbG9zbm12c1B3dw?oc=5",
       "published_at": "2026-10-13T05:52:00+00:00",
-      "age_label": "3 h fa",
+      "age_label": "4 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.42,
-      "short_term_change_pct": -0.17,
+      "current_change_pct": 1.48,
+      "short_term_change_pct": 0.17,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-13T09:35:48+00:00",
+      "quote_at": "2026-10-13T09:44:02+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 6.7,
+      "quote_age_minutes": 15.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 60.0,
+      "confidence_score": 58.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-13T05:52:00+00:00",
@@ -66,10 +66,10 @@
       "factors": {
         "source_quality": 75,
         "catalyst_strength": 74,
-        "freshness": 78,
+        "freshness": 62,
         "volume": 28,
-        "momentum": 48,
-        "macro": 23,
+        "momentum": 52,
+        "macro": 24,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -85,14 +85,28 @@
       "current_change_pct": -3.66,
       "short_term_change_pct": 0.83,
       "relative_volume": null,
-      "quote_at": "2026-10-13T09:40:33+00:00",
+      "quote_at": "2026-10-13T09:40:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "STM"
+    },
+    {
+      "ticker": "ARM",
+      "company": "Arm Holdings",
+      "category": "Semiconductors",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": -5.55,
+      "short_term_change_pct": 0.8,
+      "relative_volume": null,
+      "quote_at": "2026-10-13T09:58:12+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "ARM"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-13T09:42:20.344820+00:00",
+    "updated_at": "2026-10-13T09:59:43.025388+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -109,7 +123,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -138,16 +152,7 @@
         "title": "The Oct. 7 Attack Changed Israel, but Not Its Politics - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFk0YU1EQndRUnJFVHRmeExWZXlnXzZhN0tNMzFCdHg5V25KOFRCYWJwTndvWFcwTjhOVUNOc2JMUWZGaHA0eDJHQWhPNWx1RlFkRlZRUy1BNXJwUkhsQkJXVWRfMVl6YVR2WV9IblBKMl9fZ20zaF9HNUFyNzRCMlpwdlE2b0V1U1duV1FOYzF5YkZuYkE?oc=5",
-        "published_at": "2026-10-13T09:21:04+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi official warns US against entering war in Yemen as Saudis weather attacks - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbmxZQ3hGVHVaZWRiNU9TNjlqdVMxMmY4Z0NLYkZ0N3JQdS02V0pleEdjam9NeG9jZmpNaFlacDJqZkRBSzZSdURpejNrd1RGNVViWjFhQ3FBTkk4S0oxdmJvWklucUVDZEc1N0RXeDQ1dU5JVzBvY3poMGMydFJlOE9yd2x6OEUxMXlTU050RG9PSFJ6ZkRvdUNxaEdrOHE4TWVTRG1TaTRmRkxwQXhrUlZQaVE2NWhfN1hISUJZNGkzamZwN2dnX0tGcm9vY1nSAc8BQVVfeXFMT05fMVlFZTNLelZKRlpyWDNNUWhtYnJpYUFEVmFVdXp4NUdlMTQ2Z3dKV21yM1JpMThVTVpFSENGUDZ4YTBPcHlpa0ZWR0JaRjhYUFhuUkFHR1ZGekt2UWNvX3Y2Yk5WTFhWREFDNXFnbUUxcHhlaHhkWE00S3dMQWoxWXlOVlRjeVFBZzJ0WmFPUzBvXzNfU3JlQ3laSUQtX09NWjRTYjc4anJZSElkYUZxUWwzdjZYaFNLNkNwdFdfcC04ME9nV2lYcjZWckw4?oc=5",
-        "published_at": "2026-10-13T09:00:25+00:00",
+        "published_at": "2026-10-13T09:21:05+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -194,15 +199,6 @@
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOEg4eUtySEdwLXVEUzAxSnI0eHk2bElpNVkyLWZCUUxuRndzSE8xWVJRcFY0eUFBYUdIV204Z1J1V0xyQVppQkUxQU1pcUFJaThBYWh6cHpHY1I1cmpaanYtV3NRcFRHN3FZSldaZzR3Vk1CZUN4cm9VWHZBLWFjOFpZVUtSdXFBU2JLMFZDNWhzaThfaWdBT3Naakk?oc=5",
         "published_at": "2026-10-13T07:45:03+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEwxZktQOXVmXzgzX24wQ0F2dVVpQXdDS3RUWVBOYTA0aXV1MkJWaWo5RktXeVhSZVdPWGVoNklwUF9WbDdjYXJUTkNMUnpiUmEtNG9qM1lqUi12VktFVTkzeEZCS0Nzb25vNlhHTTl4amx3cV92bTdnQ2hnUTdJZzMzaWlkX0xwUWlKT2JwRXZmeTRDcllDSnpmcXotdUZPc2sxRFF30gGrAUFVX3lxTE1GQ3RSS0pUXzgwNkRDYVZjTkNHbldMbjRVTnBYWmQ1YUx3MlY5V0VBcFVCQTk2bTQ1dTVaTVdEdUM5dWJsYWVsR1ZFYzNGZHF3akRLT3l4OS0yZDFnUHJlQ1NVOEdGcDQyTmM1NGdyUW9aZTZRai0wZEYzQWdMTWVXeWR3SjlUQlhWaEw4X0RGMU9PdmhvQmhTUEtIZW1nTkRLWVhtb3VkaTQ3MA?oc=5",
-        "published_at": "2026-10-13T07:41:09+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -261,12 +257,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54ZkU0elVpRTVVZkFtMGJtbm05b2padDh0eVJVdjBfZk9XNHN0aDBYZV9tU2JTdHlwMnY5VGRSN043MkUxU1RTVEN3Vk1JV1pfRkJkT3ZlZXNQVERBR0pOaHVIeFVPbGRGakNvWmthQ1FsNEtzTlg3cFpn0gF_QVVfeXFMTnBkQlZnZkpDYTRoY2ZaMHlnWWp4eFF5LUNZTTF5ZHNQaFlqem01T3hPUGI1VHBUc0VMdW1mREp4elRwSmEzVFd5NTRuOHNFMTVrelh5cGJwYTlsQ2N0NGhZRk1hZVpxbGV6bzdQVjAwX3JtNnBLVTAwYVQ1NzlSWQ?oc=5",
+        "published_at": "2026-10-13T03:45:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMU5hQ2Z1WXdJZF93U24zN1FqbVlYNFN4bWFRNmVRS2d4eTVyQU1xTXRFNVJRdWN4TnhGRUVfcDdidEJ3dUFyaXhFY01ZbHJHZFJSSTFWb2dJOFJzcXoyZHNVRm5KQzI4TXRUb2NfSzBkazVlVE9tLUtjY0ZPa0ExMUNVZ3BKdldiN0FoSE9feDZBWndDODBiYUJYcE1UTEx5RXpjd2d2ekxrNjJYbFVyWmN2Qjg3anBibG82U9IBwgFBVV95cUxNdzQ0NGxoUW5xZU1HRHJESXhwZ1ZXMmFhbG1WVzVMczRpR3h1V3dfdTRNQVNRLWNNQUs0VzIzLVZReHpOSzA5STFwbjNUeVZaTTBYOGt6ZVEzblBZYjV3cGsyMmhUSlFHZlVGMTBHRnVEbU12Y0tUUnV6STlOblhVZjM5aE1iQ0tRSktxd1lSSzA2dlJxTFN2ZENuWmQzMnBhQzlEVnoxTjNEQTI5REExR2NOTkJNNjM0RE5rX1BFaWlUdw?oc=5",
         "published_at": "2026-10-13T03:34:53+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine disputes Trump's claim of energy ceasefire as Russian diesel deal draws fire - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRjdEZ2RyUmxzcnAzT21NZFA0b1FOenpaYVNNSXVVckR2UzNmbkhyT21SemNQZXZURTVfVGsyTW15Mm5aRzJTWTV2UEFSZjlRT3YtRlc3YnFzWklKb0ZWYnY1T1k1UlFsd082RUtsQWVodzJ4ank5RjRrZ21GZTlzX2FkYUlhWUhRb25kSEVIMUdPaC1hc1dxTW9VSHhaUTNaUkVtTE5KS2drMUg3M0tTc3JkMkVQZmhH?oc=5",
+        "published_at": "2026-10-12T22:45:37+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -281,19 +295,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
-        "published_at": "2026-10-13T09:03:25+00:00",
+        "title": "KOSPI Slumps as AI Chip Panic Spreads. Micron Rivals SK Hynix and Samsung Drop. - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVZ4X0ExSjM2QjVCaVMycTExalNMc0kyQXQySWNndTRobWtkXzlETVp5RS1QTkpXSnZGTjRZdE5zTDdma1A1TFNmNGdHNjBhLWgwRE80bUQ1VE5aTVB6WkpXODEtQTJodDRlU2lvUV8yd2h0aXpzaFhfODkzWXJzNklKS1RMbTlralQwblVR?oc=5",
+        "published_at": "2026-10-13T09:12:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Micron Stock Falls Again as Musk Issues Warning on Chinese Memory Chips - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTGluY1JiRXZzd0lhWDJfclZvZHVMTGdYZl9reDBxamZCRU5jYy1tMER0cGFrNVN4eUI3UHpzWF9tQXZudkZNcXBzeVp4MXhBdFdLSnhrc1pYQVZmMEhhREpqZkVzNWpuZ0RBRzVUWFM3Wk1iMTZLamVLcUlPZzgxLVBJSGhLdFQ3QXY4?oc=5",
-        "published_at": "2026-10-13T08:48:00+00:00",
+        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
+        "published_at": "2026-10-13T09:03:25+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -308,11 +322,29 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia AI chip share in China falls as Huawei catches up- Reuters - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZUZsb2dHV3NNb1BsZ1NRcWN3ZlNGVVh5YjNsR3QzS1RqSnZDcFViWEF2eTA0eVdEZkdZVVBnQ2d4SjRIcy1PSk5IQmc1WlhWam9TbnlGTW9hVDd2UTgyNXlZa0NfWUQzeG4tbW5tWUp0cU1TTWxCbk13MVVQSS1Ld3FaNFVscV81UnJrc1lleG9MUEZJ?oc=5",
-        "published_at": "2026-10-13T06:15:00+00:00",
+        "title": "Advanced Micro Devices (AMD) Rolls Out Helion AI Rack As Custom Chip Pressure Builds - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcFprX0tjenVNRDBjeGdscHZoczV6bEUxbjZwUHktOXlUMXRORm10Xzgzai13ZnhOUC1FcmNfM0VSR1N3dnNDYmpqMEhzUnhWOE02QWtkRWJLVUc5MkRyWE8xV3g1bFVxVG10ckprcnhVNGhUVWlTRnVPaGFvY1drU1RJa1YtNFJhRXdFRkZxTFlaSnlPMWw0bENWd0FJS3pLZEZNNVJSMThKeVJ4MUluNXE1Wm9hLWQ2c1liRk9zZ1VhV0dtWERyRm1ETU1ZRmUta0tXcXVuci1ILUxDLXdB0gHkAUFVX3lxTE1LdGdlb3pfZ05oemRlN2NSZ21BMklzVk9SWC1qYm9HMkJxRTRQUXpPX0ZwdDVqTEVTMHl3WEEwc01rUWVVczR3R0h4aVozdjIxMk9BbWthWmh4V01IYWRRZzFfUGUwVlBvNWJxcUZRdzBkWm95cVhZNGJBWVdqMFhWQWRnZFM5dlpHS1BrZ3lTMmgtWXdHb1lqamVTOGhoZElSaHNyTFd0UGFKcHQ4UFBwTEJCMmw0LXd5TDNoTmlfeDlWb0FvajJiajR1NXNiOUs5Z1VuZEZ0SmplNHNkV0N0T21yTg?oc=5",
+        "published_at": "2026-10-13T07:41:32+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Exec on Execs: China's Rise in Biotech Investment - Pharmaceutical Executive",
+        "source": "Pharmaceutical Executive",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwU1pQdWYwR2hlMTNEXzExeXRCY001UE5RQ2xTSEl4UlpxX2NwUUdJSXFmZFRablFmakNhcG1lQnN1S2RHaWxnVDNWa1pnbDU4R0w1cjNfaEFJT1R1V042a015VnYwakVEN3ByRkJRZw?oc=5",
+        "published_at": "2026-10-13T06:24:04+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbEtnZDk3dlRTcjFhS2M3TU9mQTh5cVJDZFlGMUxGQnA4VFM0cEZvVmtHZE5PUVlBcW5nWFFrMGU4ZU5NeXVxQ2VGWVZocUJtNWtJOVhzSndSYXlOanl0WkZSbFVfZ3p3VDlUeWhWcTJ3aU9wTVp2bmQxemJyS0cxTWhPVUt6OE53cE84Y0l1Zw?oc=5",
+        "published_at": "2026-10-13T05:51:23+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -321,15 +353,6 @@
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-13T05:05:18+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - pharma.economictimes.indiatimes.com",
-        "source": "pharma.economictimes.indiatimes.com",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWUgybFk4Y1pxNnlkV282M1E0MHJVNGtYLUg0MFB0bm5QcllKNE9uV3VzS0NYOHNhRmVvRGU2bEdCLVotRk9ZME85d2Fkd2FKU1dWZ2wybl9ERUNXbnNlRjlMSzV1ZU9JX2YyX3NlejJxZHk4V2JmU3MzaUh1SXd4VU1Za1htSEtfa3k2TmYxNEtMNnN2eFFSNEt3Yl9hTlp5QkYzT1RYRFRDUHJIbUdIWWQ5M0V3alF2X1F5bXBTMWc1TjI2MTM2NHRYTk1CVmJ1NlVPR0dpanN3dzN3NUEzRFY4eVd5eXVOS1HSAe8BQVVfeXFMUEJ2NDZ2UUFtRC1ON001RWp2SGdYU1RCWk1lVnFIRHVGZXJXOEg1RXNSbW5jSmpUZnVvU3J0a0cxTkVDNXhDLVEyYm5TWFR5Y2ozVmdvWDdyalhaVWZveEd1N2tZOVN2c0s1NUtBdWFsVjE2bXNnb0l0UFhKWFFTN0RTZlVCVkFlZU1FM09GV215dnVWeWxhRVhuZXI4ZW5GQWhxMnVXSmU4S0t3ZkgySmRJV29Td0FmTWtKS2RhbHFGSHR2UVhoU3hENDhiVUpYN1hvdXZHc09lM1NyYlJ5THJWRFBwMHY4SkdQdTc1dEk?oc=5",
-        "published_at": "2026-10-13T02:20:45+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -348,15 +371,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNk91MHRKMWVYVGxJS21hbWtES09aR0FqZ1lpZUR5ZTU3U2YxME5oMnJ1LXdZVzJBZThGandvdlhISmUzVGI5bmo0RnhWVUZycUI5OFZ0SGhSTng4alpiT1E3VnZhZ0RlVU9pTmNFeFdHTlN1YUpoSUxxOVMwbl9YZzNwUm1oeGs0aFhsYl9aOFM?oc=5",
         "published_at": "2026-10-12T17:53:58+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Energy stocks gear up for strong Q3 earnings: Top Quant picks - TradingView",
-        "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmFxdDVtZnFlMUU4NmdyYXpyX005dVZmakJyTDgwT2otUmtKNWJtckZfdFg2TTlSQUVSSGhlTWYwYmlacjIwNk45dnZsTF9lOGtaZ1dlSXVvWXJuakpIaW41a2l5QS12bVBVc2xFR1dyU1k2c3ZWblZBd0JVUVMxR2lYTTBKaW5uR1ZWQmk2TXBuRS1HazZFSC1lSWFlcHBCRlFKS09RNzMzUTY2UGY5cmlFSUxNMFJtQWNDenpReDk?oc=5",
-        "published_at": "2026-10-12T17:20:43+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
