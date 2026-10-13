@@ -1,98 +1,40 @@
 {
-  "generated_at": "2026-10-13T11:39:05.640407+00:00",
+  "generated_at": "2026-10-13T11:57:01.422582+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.06999969482422,
-    "wti_change_pct": -1.7815214497575393,
-    "brent": 104.8499984741211,
-    "brent_change_pct": -1.6877665504027584,
+    "wti": 92.2699966430664,
+    "wti_change_pct": -1.5681686091346458,
+    "brent": 104.95999908447266,
+    "brent_change_pct": -1.584624863785089,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.460000038146973,
-    "vix_change_pct": 1.6436554856870123,
-    "dollar_index": 102.28399658203125,
-    "macro_score": 22.2,
+    "vix": 15.4399995803833,
+    "vix_change_pct": 1.512160037208976,
+    "dollar_index": 102.2490005493164,
+    "macro_score": 22.5,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.78%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.57%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T11:25:00+00:00",
-      "brent": "2026-10-13T11:25:00+00:00",
+      "wti": "2026-10-13T11:45:00+00:00",
+      "brent": "2026-10-13T11:45:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T11:20:00+00:00"
+      "vix": "2026-10-13T11:40:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "7ca496159643",
-      "ticker": "SAP",
-      "company": "SAP",
-      "category": "Europe Software / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Sinch expands SAP partnership with RCS integration for SAP Engagement Cloud - Yahoo Finance",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnBMR1pPVFFWakIwUmxxQ0RQXzFrY2o4Ym1ZX09hSWxZdk0xeXVRMW9NUEEyQXUwZGFtc3pYUFZBQkc4akhFUUVvdmZsck5OQ2F4NHlaekZXelJaZDdpUGg2cnZEZFpnYU5DbEtMb0YtY0Z2aHhsc2pweGhyVkZWNmFqRkNiLVdWRUF0YXc0TTFGNC1VbG9zbm12c1B3dw?oc=5",
-      "published_at": "2026-10-13T05:52:00+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": 1.67,
-      "short_term_change_pct": 0.06,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-13T11:36:21+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.7,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 58.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-13T05:52:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "SAP",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 75,
-        "catalyst_strength": 74,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 51,
-        "macro": 22,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
-  "movers": [
-    {
-      "ticker": "COIN",
-      "company": "Coinbase",
-      "category": "Crypto / Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 1.72,
-      "short_term_change_pct": 0.82,
-      "relative_volume": null,
-      "quote_at": "2026-10-13T11:38:43+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "COIN"
-    }
-  ],
+  "catalysts": [],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T11:38:54.067261+00:00",
+    "updated_at": "2026-10-13T11:56:49.278588+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -135,6 +77,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Britt affirms support for Russia sanctions, won’t defend Trump’s diesel deal - Alabama Daily News",
+        "source": "Alabama Daily News",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbVFSRXM4NDcyd0ZLNVdFN0hwdDAzQWdaenNFOXVkNXlpekpmZzNwamhMV3dVRk55Y0hIdXB1aUJVdGw1QXpRNjBha1dqZGhvd0l5Z0w1djF2QzZBbm1BYjhDYWZyMVNJeFpHeVV3cVkyU1lScXdtQ3VpSzE1dGhoeUJfbE9Uc0lYaXRrVjczTGRzSEszWXN5WjNjY19YQnM?oc=5",
+        "published_at": "2026-10-13T11:51:42+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "The fallout from Ukraine’s drone strikes on Yandex - The Bell",
         "source": "The Bell",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGdTdoblpTQkVQTWhNcDJoWXVrSTEzcFV4MkNHaHpVOFV1Vzc2c29WRF85RDVNRHgyZEtoNUJxTFV3S1hvSjYtc1phYk45UEs0M1JTVGNlZUVqVFFNSjhmUjNMdDlXeWswb19kYWw3U1F1THRORk15RXFHRHI?oc=5",
@@ -153,6 +104,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Bulgaria seeks NATO help after new drone strikes in Black Sea - Stars and Stripes",
+        "source": "Stars and Stripes",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVkw5dnJJZmgzTF94dnB4SFd1VmZhLXpDaDV3ZW15c2FMNTR5OFdZT0taaXdpb3AtVUY4ZmdGN0Ywek5SaFdYd284RUpjWDhhTXp4RTFoR0pjeWd2ajlRdWhIaUtCNVZleVpiQW8yZ19wLTF4WGN4Z0FDSXQ4NHg3S2VSVnlsZXpYeW4tbEJjNzcyd0EwNnRGZHIyWVdXQQ?oc=5",
+        "published_at": "2026-10-13T10:31:24+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "German government official says the recent EU-China trade agreement is a step in the right direction but does not solve the overall issue of the large deficit - Newsquawk",
         "source": "Newsquawk",
         "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNUGE3WmFTLWREclNBZVdXSGFZYTBkT2VsaWR6QzVhaENTTDc0MkhmUThXejBGSWhjbmVKVXg2LWdORWE3c3VtSjhVblcxUzdLSzd3NG92WDBxTnRZWkkxSnRYd21jYWpOeDc4TnpFSV82QUpnQVRSZzQwZjlxVWdPWXEtdjR2SkJtRzJDSkx6S2o3U192US1xZHo4cjA5ZUZhb0FyeDZFZDNpN3JHNVE5dzZib1FfdHVnT1BNbDlLTGpiOEtFYl9HUWpxNHhhdmkwRG85R01aVEVJR3lhdVlRS2R4d2RmUndsdGcxSmotVVI0WnVITXNNNF9hZDE5ZDVaRUNkZlNvb0dNSnZjMVFhSHNpbWtmM1dWTFR1VXpPaw?oc=5",
@@ -162,29 +122,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "US and Europe Draft Peace Framework That Freezes Frontline and Sets Terms for Russia Sanctions Relief - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeGFsQ0NpdkM4UVdYVTdwZGVrX3dnNkhXTjdUTEQtaHU5REplZFEydHZKRWNDV0RYY2JmZmR3THcwZWVkLUs0ZjBRcnVSbHcybFJ6Y3FXZTZIdC1sUjgxd0tXUkhTcjJWYmc1Wm10RmZOQ1pGbHRNeXdJenRuWnNFR014SGh2TktxQTh3cWVNX2hSdWRrTW5VNUFNTm9kRjJ6VHBhRUMwN2ZtdFRVNGRBYlVuTTVGdlZtS3JFT1p4V2lvV0p3dmMycklMVUNCX1BNRjRxb2lPUmJOTzNYWU9IYi1R?oc=5",
+        "published_at": "2026-10-13T10:04:08+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Saudi Arabia faces a grim choice as Houthis intensify attacks on airports and oil sites - Los Angeles Times",
         "source": "Los Angeles Times",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNjd3OEFFbktqM2VqMjlmYUt0ZzFGSVRBeE5VcmRFbF9veFFNTGRUbTlFYzRGY2owQ1pTS3lUOHpmVU93eDlFWFFBdm5JZ0Z1X1JUTVdOSkxEd2pnVE15eFg1azNJemFnUWc1Zkkta1F1dFNPSlBjTHdiTUtPZlZpSEN5VGc0ZlZYNDczXzNLU0JZdjVpN3pHRTdPQWh5YUtKeUo5TWExQmU1bXpfNTQwR0N2ODhqV1BPa0szcHpVRGo1SVRYT016UUVfampBMk5K?oc=5",
         "published_at": "2026-10-13T10:00:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump picks fight with GOP senators over Russia diesel deal - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kd24zX2ZBaHFxc0t5NXpXWW9HR0JRSXVadWhHVHZfSDA0N0FVRU1WV0k1cGptcC1kcnY5T0QzLUtaemozZWd4WkZobVBwQ1A0cDBaSy00WTc4NldpWEhNYi1mV19vOExLenR0ci11SHluOUR5SFpPSNIBfkFVX3lxTFA1dzhoOFZteHlpU3pnWmdYWXJSdFJiSm9CZHVxcDdLTE1naHJlWEYwV1V1ZEhQV0JZRXlDNnRudEdINm12UmNnQVJUX0hTNnJZTnhGTjBHOE1oV2tjRVRXSVBkSldGSjdiX3ozOWlvcmcxSlB4MUlEWDU2SjR0QQ?oc=5",
-        "published_at": "2026-10-13T10:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
-        "source": "Mashable",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
-        "published_at": "2026-10-13T09:55:46+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -198,20 +149,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi Arabia Faces More Attacks as It Reels From Airport Strikes - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMEpXdU85R2o4TEJvcnF4SHpEOHZWRUtuR0hrbllBc3VIWVpIWTJJeU53czh4SUR0ZXRPTEVkSlVobDBmUmxqcWJUakN3Yjd2QnV6R3c0TVFMNmN0NXZpd0tHY2U3M1lOSy1md09ILWdHai1Oa0NpemNZeExwWklDZmJ6eTdSdTJybWc?oc=5",
-        "published_at": "2026-10-13T08:54:00+00:00",
+        "title": "Houthi official warns US against entering war in Yemen as Saudis weather attacks - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbmxZQ3hGVHVaZWRiNU9TNjlqdVMxMmY4Z0NLYkZ0N3JQdS02V0pleEdjam9NeG9jZmpNaFlacDJqZkRBSzZSdURpejNrd1RGNVViWjFhQ3FBTkk4S0oxdmJvWklucUVDZEc1N0RXeDQ1dU5JVzBvY3poMGMydFJlOE9yd2x6OEUxMXlTU050RG9PSFJ6ZkRvdUNxaEdrOHE4TWVTRG1TaTRmRkxwQXhrUlZQaVE2NWhfN1hISUJZNGkzamZwN2dnX0tGcm9vY1nSAc8BQVVfeXFMT05fMVlFZTNLelZKRlpyWDNNUWhtYnJpYUFEVmFVdXp4NUdlMTQ2Z3dKV21yM1JpMThVTVpFSENGUDZ4YTBPcHlpa0ZWR0JaRjhYUFhuUkFHR1ZGekt2UWNvX3Y2Yk5WTFhWREFDNXFnbUUxcHhlaHhkWE00S3dMQWoxWXlOVlRjeVFBZzJ0WmFPUzBvXzNfU3JlQ3laSUQtX09NWjRTYjc4anJZSElkYUZxUWwzdjZYaFNLNkNwdFdfcC04ME9nV2lYcjZWckw4?oc=5",
+        "published_at": "2026-10-13T09:00:25+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ship sinks in new drone attack off Bulgaria, PM summons Russian ambassador - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtOXhiczM5QnZQbVJGRVpuZm5UOXBfaFpVRFhOV2M1bk1YOGFoMVdKMjN1dm4zMEpqeE9ZUXFFU0Z1VkNwRTBpaE9JdXBjanBDUVA0dDlwS0tNT2c?oc=5",
-        "published_at": "2026-10-13T08:52:48+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -261,16 +203,25 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China sanctions officials in Paraguay and Belize over their countries' ties with Taiwan - Ottumwa Courier",
-        "source": "Ottumwa Courier",
-        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOYmRScU5QYi1qOGRueVF2Smg4cFp4ZzBKOURYNFN4S2FGTWpKSmY0ZTFhU2dqX0dNS3QwWm9kU1pMN3VURkVNenFHZWlRc2ZhZnBlQmZ3bUhRWjBFNURSclV0bjN2WHFIeXJ5dUM3Y1hKLUgzYlNBMFZPa0lQUGRCLW45d1NzZ19PQmRPQmV2RE1fNkh0Vi1fSmpTeklOSDBhS1dQYlFpRGhfbmZ2Y0FvXzZxVWdoaFFPeEh1T0ZLUFhYWmJtVWl1SVo3WTNRdXBVT1dJakFaaHU1Y3l0bC1lVlM3Wk5XdDNBOTRJX1JpdUVKcVAwOXIxNkhSUGZLcmFEaEZrNnZXZmhWUklxNFotT0RXQkI?oc=5",
-        "published_at": "2026-10-13T04:32:25+00:00",
+        "title": "China sanctions officials in Paraguay and Belize over their countries’ ties with Taiwan - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX2lxdnRVVWZzV3dRUlRsZ1l1UUp6V1pUdDB5WEJxSERYN2JZWU4zMWVyU19vQnc0R3ZubXZvdnZMb3JFNkN3TlpSaDE0YWlEZGV4bUdCSWFaMUpKU2NJNERTRG5zdTh2V3NhbUk3V25EdHFmc0wyQ3d4YW1NaU53TDVZRFg1eWhSWlY4N191R0kwTXk3WlZtVUVrTm5zWlk?oc=5",
+        "published_at": "2026-10-13T04:32:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "H.C. Wainwright reiterates Halozyme stock rating on FDA approval By Investing.com - Investing.com India",
+        "source": "Investing.com India",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRTI0V2pUYXdZNy1XS2JjZnB4dm9lWU52TnFjd3Q0OW96eWhpaU1qYmRvRm92OUZFaElTc0ZNcmlIS3ZXTXU2S3gtWUFmeFBudUxEb0hfUmQ5TnRNQ1lQa2QtcHk4Qk5DS2dveHNTUC1KaHlvQmFEUUg1bnF3TFk0MjNEekVYeERhajJzb2hPLW9mZk5wdm5WNkM1YnVZU0RsaDZhZEZQS0RMVUZCcGRuLUdnLXZtMkR0MDg0NGxyVTU?oc=5",
+        "published_at": "2026-10-13T11:50:46+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Analysts eye RevMed’s pancreatic cancer launch, Merck’s data blitz for Q3 earnings - BioSpace",
         "source": "BioSpace",
@@ -348,15 +299,6 @@
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-13T05:05:18+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - pharma.economictimes.indiatimes.com",
-        "source": "pharma.economictimes.indiatimes.com",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWUgybFk4Y1pxNnlkV282M1E0MHJVNGtYLUg0MFB0bm5QcllKNE9uV3VzS0NYOHNhRmVvRGU2bEdCLVotRk9ZME85d2Fkd2FKU1dWZ2wybl9ERUNXbnNlRjlMSzV1ZU9JX2YyX3NlejJxZHk4V2JmU3MzaUh1SXd4VU1Za1htSEtfa3k2TmYxNEtMNnN2eFFSNEt3Yl9hTlp5QkYzT1RYRFRDUHJIbUdIWWQ5M0V3alF2X1F5bXBTMWc1TjI2MTM2NHRYTk1CVmJ1NlVPR0dpanN3dzN3NUEzRFY4eVd5eXVOS1HSAe8BQVVfeXFMUEJ2NDZ2UUFtRC1ON001RWp2SGdYU1RCWk1lVnFIRHVGZXJXOEg1RXNSbW5jSmpUZnVvU3J0a0cxTkVDNXhDLVEyYm5TWFR5Y2ozVmdvWDdyalhaVWZveEd1N2tZOVN2c0s1NUtBdWFsVjE2bXNnb0l0UFhKWFFTN0RTZlVCVkFlZU1FM09GV215dnVWeWxhRVhuZXI4ZW5GQWhxMnVXSmU4S0t3ZkgySmRJV29Td0FmTWtKS2RhbHFGSHR2UVhoU3hENDhiVUpYN1hvdXZHc09lM1NyYlJ5THJWRFBwMHY4SkdQdTc1dEk?oc=5",
-        "published_at": "2026-10-13T02:20:45+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
