@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-13T22:28:39.089708+00:00",
+  "generated_at": "2026-10-13T22:56:49.739820+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.7300033569336,
-    "wti_change_pct": 1.0561185360840497,
-    "brent": 106.25,
-    "brent_change_pct": -0.37506002827562,
+    "wti": 94.69999694824219,
+    "wti_change_pct": 1.024108284990377,
+    "brent": 106.26000213623047,
+    "brent_change_pct": -0.3656815603080954,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
@@ -16,13 +16,13 @@
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
     "dollar_index": 102.21499633789062,
-    "macro_score": 46.2,
+    "macro_score": 46.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.06%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.02%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-13T22:15:00+00:00",
-      "brent": "2026-10-13T22:15:00+00:00",
+      "wti": "2026-10-13T22:40:00+00:00",
+      "brent": "2026-10-13T22:40:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T22:28:27.884301+00:00",
+    "updated_at": "2026-10-13T22:56:37.593213+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,11 +77,38 @@
     ],
     "geopolitics": [
       {
-        "title": "Missile hits headquarters of Saudi Aramco, source says, as Houthi conflict escalates - Reuters",
+        "title": "Saudi conflict with Houthis escalates with new strikes - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3FLcG5hMEUtNVJFdEhob3IzWW56Q2ZSeUFzR3d0X21MQThoaFA5ZlFybEhlcjJvTXlQcVhISjRLQlM4ZnF2ZGl5ekZiMHg3aC04YVhSeDFEbFI4RzA3M0Zxb3l6UUpmNUV1LXpWbXhibWxucEVRcm94YU9faWVEVHhUdlRDUnF3dkwwNWFmSGNNQQ?oc=5",
+        "published_at": "2026-10-13T22:50:36+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Former U.S. ambassador on Saudi Arabia's struggle to defend against Houthi attacks - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV3RKZXlvdUJQbENhNWhPbS0xWl9GVUFDeWpQa3h5WXN3QUN3b2JJaGpqQVFZR3Z1V0pISnk0bGx0bU5KSzUxclVmQU55ZmFXWGtRc09TSjY3WVVVelVzOTE5ei1hUW05N3Q5UF9hZkVEd05TSFplM1kzTW5KSFlhd0xIRUh3bi0wMW1LQ1htd01JNnJZMXAxTVdXbGNzMmRndi1pWElkSDJIMFZKQXQtTHRGaEI?oc=5",
+        "published_at": "2026-10-13T22:45:27+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Aramco administrative building attacked, limited fire reported - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUHZtMnk3dUVFWmVkT2FmZVRqNWNrUUc5YkNkWVJMOEhWMmo1dnc2S3FlUlExbjFscTdlY3NQcExPejdxUlF1clZ5S1BKQ1JLdjhzaFdXT2l1YVBmN2VVSkFOSlJNNmlTR2w5d082MDR2b3RkY1VrTTlwWFhuclBteVRaTmtMRUczY0VPaWxBeVV1RE9vUE9kRFZaUlZEX0NnOXZqVnNtNlJIcFU3cnE2VVFTNzhfNVZ0TzZiQWFtSUJCdXJXYU5rU0JB?oc=5",
-        "published_at": "2026-10-13T21:49:46+00:00",
+        "published_at": "2026-10-13T22:27:19+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
+        "source": "Mashable",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
+        "published_at": "2026-10-13T21:19:22+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -91,15 +118,6 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbTd5U19HRnp1dUhkb2hqaV9wcmV3YkIyMEhONWc3YzVscG9SdWQtS01pX0JOV2NQVDZ2QzhQRHFrMlE5eVVrbFNuNmV2TVRnM29nUnI4bXNmVWd2SThXS1pISVZ1S1dVNW9PdTBHWXRld0tzekpSRERiUjZhM0NMYm5WNnVsZHVhS2FQNU9iWnVEX2JqUHdCVVhEX3M4VHl4UjBiXy04a2ZwR0w5blZMbW5PZnFIbGV1UmdRZTFCbHAweDRwZndB?oc=5",
         "published_at": "2026-10-13T21:10:30+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia’s Leading Sanctions Evasion Tool Is a New Kind of Illicit Finance Threat - Foundation for Defense of Democracies",
-        "source": "Foundation for Defense of Democracies",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRk44MTIta0h5dUxHa1dGSXpwTGhzOFk5bE5FVTNSREN5eDVkMEFrcXU2ZGZ5TkZTTmhqM1NadHpSbVM5RnZBQk1TaDd4ZUwxUmF1SGtWbFFVYkNZZkhpYjVoMTZHU3o3WGFNcmJxTktWcWJyZXdOZVM3Um4xZ2FGNEY1Qmk1VlRjbjg0dnMzS284bnpFSEtEQW5ITE1YcTR4RDJ1TC1NV0ZLV1lf?oc=5",
-        "published_at": "2026-10-13T20:38:29+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -158,30 +176,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NTXliU09wdmZTVFFLc3dfamVjQlRpUnNuVXY3QmpLLUVGYjVXZHBZNm8taks5cTJaVUNndmNFZy01WGxNcFp0YzFlb0NZcXBQclBsZFF1T1o2SGM?oc=5",
-        "published_at": "2026-10-13T20:02:15+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi-led coalition struck oil facilities west of Yemen’s capital, Houthi-run broadcaster says - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR002VVo0b3ZvU0RXV3V5TWdvX0Jmc1NiQjBDNjljbTVWbFZnQ1hIUm5WTUNHZFZSNlV4WWoxZVBDNFhwZUEzZF9kVUlla0dZOWstVWZQQnA1TGpqeXI4Y05KbkpOay00U3NLYkZxZ1BHQWQ4ay14eEk3bHlfSzBMVzlrd2tuQ1hyaHoteGZSZ0pyYjdvYjB1QlEtOTR1YVNZZnZTRw?oc=5",
         "published_at": "2026-10-13T19:59:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi Aramco HQ attacked in suspected Houthi strike - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlJvcU95eUR0QzVMRjJzX25MNl9HWm8tNU5HNUx1R3EtOVI5U0NvRjhEdTZ2VzJtc2FPQUwzVmU3dWY2ck9ZSjhFUXd0OVRmazY1SGpWMWgtZjk0MnhlRFotQmZrMzhGY3RWUnVTVlJfOHBRVHJwNThrbDl3T0tXTnVSbXg?oc=5",
-        "published_at": "2026-10-13T19:13:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -277,10 +277,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Why Micron Stock (MU) Is Falling Today: Musk Flags China Chip Threat - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTGluY1JiRXZzd0lhWDJfclZvZHVMTGdYZl9reDBxamZCRU5jYy1tMER0cGFrNVN4eUI3UHpzWF9tQXZudkZNcXBzeVp4MXhBdFdLSnhrc1pYQVZmMEhhREpqZkVzNWpuZ0RBRzVUWFM3Wk1iMTZLamVLcUlPZzgxLVBJSGhLdFQ3QXY4?oc=5",
-        "published_at": "2026-10-13T18:29:00+00:00",
+        "title": "Nebius (NBIS) Has Pricing Power. Its Earnings Don’t Show It Yet. - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTXlqaVVzWUxrYWxzWF9jT0tmQ1NjVG5mb0JwRnFxLU9rVUNnZklqZ1daQzhFSXpZMnlMT2pLZm1zdWFvQ2RFc1Jvek1ydzJLLVduLW5QMG9Sd2kyRzBqYnJaNUY4X2I5YWFzWGpUOThsNWxxRU9mUnpoNXhVTklYRzRUdTRkOUVuT3JoS1NWR1pRUXZxazR5WU1RcDd4QWs?oc=5",
+        "published_at": "2026-10-13T17:45:32+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
