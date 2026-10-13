@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:05:12.274085+00:00",
+  "generated_at": "2026-10-13T15:26:50.645858+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -7,25 +7,25 @@
     "treasury_10y_change_bp": -2.0999908447265714,
     "wti": 93.80000305175781,
     "wti_change_pct": 0.06401236329820481,
-    "brent": 105.6500015258789,
-    "brent_change_pct": -0.9376464938515183,
-    "nasdaq_level": 27188.1328125,
-    "nasdaq_change_pct": -0.21202301005577295,
-    "sox_level": 11994.7998046875,
-    "sox_change_pct": -1.9775630177727543,
-    "vix": 15.25,
-    "vix_change_pct": 0.2629846269079916,
-    "dollar_index": 102.23999786376953,
-    "macro_score": 33.8,
+    "brent": 105.63999938964844,
+    "brent_change_pct": -0.9470249618190429,
+    "nasdaq_level": 27165.16796875,
+    "nasdaq_change_pct": -0.2963103465752237,
+    "sox_level": 11953.4189453125,
+    "sox_change_pct": -2.315730619267131,
+    "vix": 15.329999923706055,
+    "vix_change_pct": 0.7889538807239971,
+    "dollar_index": 102.23400115966797,
+    "macro_score": 29.4,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX -1.98%, US10Y 5.22, WTI +0.06%.",
+    "summary": "Tech bias negative. Nasdaq -0.30%, SOX -2.32%, US10Y 5.22, WTI +0.06%.",
     "quote_times": {
-      "treasury_10y": "2026-10-13T14:45:00+00:00",
-      "wti": "2026-10-13T14:50:00+00:00",
-      "brent": "2026-10-13T14:50:00+00:00",
-      "nasdaq": "2026-10-13T15:00:00+00:00",
-      "sox": "2026-10-13T15:00:00+00:00",
-      "vix": "2026-10-13T14:45:00+00:00"
+      "treasury_10y": "2026-10-13T15:10:00+00:00",
+      "wti": "2026-10-13T15:15:00+00:00",
+      "brent": "2026-10-13T15:15:00+00:00",
+      "nasdaq": "2026-10-13T15:25:00+00:00",
+      "sox": "2026-10-13T15:25:00+00:00",
+      "vix": "2026-10-13T15:10:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,19 +44,19 @@
       "source": "www.calcalistech.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9naHJtcFhBNTZCaVVpR1BxZmQxU3RHNi1VazE0czhXc2I1bENlSzhHRk45bTdkOWw0amRfcHg5TVp2WkFTLVpSX0lCYWpnSHZUWm1zNFdiS0lYZTIzODBNLW5hWHQ0cFE?oc=5",
       "published_at": "2026-10-13T14:00:00+00:00",
-      "age_label": "65 min fa",
+      "age_label": "86 min fa",
       "catalyst_type": "ma",
-      "current_change_pct": -0.53,
-      "short_term_change_pct": -0.33,
-      "relative_volume": 2.03,
+      "current_change_pct": -0.71,
+      "short_term_change_pct": -0.41,
+      "relative_volume": 14.68,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-13T15:00:00+00:00",
+      "quote_at": "2026-10-13T15:25:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.2,
+      "quote_age_minutes": 1.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 4.4,
-      "confidence_score": 73.0,
+      "estimated_impact_pct": 4.6,
+      "confidence_score": 77.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-13T14:00:00+00:00",
@@ -67,9 +67,9 @@
         "source_quality": 68,
         "catalyst_strength": 90,
         "freshness": 90,
-        "volume": 71,
-        "momentum": 46,
-        "macro": 34,
+        "volume": 100,
+        "momentum": 45,
+        "macro": 29,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -77,15 +77,29 @@
   ],
   "movers": [
     {
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "category": "Megacap Tech / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": 1.03,
+      "short_term_change_pct": 0.84,
+      "relative_volume": 5.45,
+      "quote_at": "2026-10-13T15:25:00+00:00",
+      "early_move": true,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "GOOGL"
+    },
+    {
       "ticker": "TSLA",
       "company": "Tesla",
       "category": "EV / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -0.51,
-      "short_term_change_pct": 0.63,
-      "relative_volume": 5.51,
-      "quote_at": "2026-10-13T15:00:00+00:00",
+      "current_change_pct": -0.35,
+      "short_term_change_pct": 0.62,
+      "relative_volume": 8.49,
+      "quote_at": "2026-10-13T15:25:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "TSLA"
@@ -96,41 +110,13 @@
       "category": "Energy",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 1.13,
-      "short_term_change_pct": 0.1,
-      "relative_volume": 3.64,
-      "quote_at": "2026-10-13T14:55:00+00:00",
+      "current_change_pct": 1.11,
+      "short_term_change_pct": 0.53,
+      "relative_volume": 4.0,
+      "quote_at": "2026-10-13T15:20:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "E"
-    },
-    {
-      "ticker": "NVO",
-      "company": "Novo Nordisk",
-      "category": "Pharma",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -0.41,
-      "short_term_change_pct": 0.09,
-      "relative_volume": 2.11,
-      "quote_at": "2026-10-13T15:00:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NVO"
-    },
-    {
-      "ticker": "PFE",
-      "company": "Pfizer",
-      "category": "Pharma",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -0.11,
-      "short_term_change_pct": 0.55,
-      "relative_volume": 1.98,
-      "quote_at": "2026-10-13T15:00:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "PFE"
     },
     {
       "ticker": "BABA",
@@ -139,9 +125,9 @@
       "priority": "normal",
       "satispay_status": "check",
       "current_change_pct": 0.51,
-      "short_term_change_pct": 1.43,
-      "relative_volume": 1.73,
-      "quote_at": "2026-10-13T15:00:00+00:00",
+      "short_term_change_pct": 0.44,
+      "relative_volume": 1.82,
+      "quote_at": "2026-10-13T15:25:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "BABA"
@@ -152,27 +138,27 @@
       "category": "Clean Energy",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -0.6,
-      "short_term_change_pct": 0.84,
-      "relative_volume": 1.6,
-      "quote_at": "2026-10-13T15:00:00+00:00",
+      "current_change_pct": -1.46,
+      "short_term_change_pct": 0.08,
+      "relative_volume": 1.61,
+      "quote_at": "2026-10-13T15:25:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "ENPH"
     },
     {
-      "ticker": "NBIS",
-      "company": "Nebius Group",
-      "category": "AI / Cloud",
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": -3.87,
-      "short_term_change_pct": 1.28,
-      "relative_volume": 1.38,
-      "quote_at": "2026-10-13T15:00:00+00:00",
+      "current_change_pct": -0.44,
+      "short_term_change_pct": 1.45,
+      "relative_volume": 0.81,
+      "quote_at": "2026-10-13T15:25:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NBIS"
+      "tradingview_symbol": "MRNA"
     },
     {
       "ticker": "PDD",
@@ -180,59 +166,31 @@
       "category": "China E-commerce",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 3.42,
-      "short_term_change_pct": 2.12,
-      "relative_volume": 5.96,
-      "quote_at": "2026-10-13T15:00:00+00:00",
+      "current_change_pct": 3.24,
+      "short_term_change_pct": 0.31,
+      "relative_volume": 4.98,
+      "quote_at": "2026-10-13T15:25:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "PDD"
     },
     {
-      "ticker": "RDDT",
-      "company": "Reddit",
-      "category": "Internet / AI",
+      "ticker": "COIN",
+      "company": "Coinbase",
+      "category": "Crypto / Fintech",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 1.74,
-      "short_term_change_pct": 0.66,
-      "relative_volume": 2.26,
-      "quote_at": "2026-10-13T15:00:00+00:00",
+      "current_change_pct": 1.01,
+      "short_term_change_pct": 1.15,
+      "relative_volume": 0.87,
+      "quote_at": "2026-10-13T15:25:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "RDDT"
-    },
-    {
-      "ticker": "JD",
-      "company": "JD.com",
-      "category": "China E-commerce",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 0.9,
-      "short_term_change_pct": 1.18,
-      "relative_volume": 1.09,
-      "quote_at": "2026-10-13T15:00:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "JD"
-    },
-    {
-      "ticker": "BIDU",
-      "company": "Baidu",
-      "category": "China Tech / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -0.17,
-      "short_term_change_pct": 1.16,
-      "relative_volume": 1.0,
-      "quote_at": "2026-10-13T15:00:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "BIDU"
+      "tradingview_symbol": "COIN"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-13T15:05:00.007313+00:00",
+    "updated_at": "2026-10-13T15:26:38.252632+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -242,21 +200,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
@@ -270,26 +228,26 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       }
     ],
     "geopolitics": [
       {
-        "title": "Volodymyr Zelensky: Moscow already violated Trump's Ukraine-Russia ceasefire proposal - The Jerusalem Post",
+        "title": "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXU0Wi0tVm5aMk5WYWZNYTBlLW9uVktRN2VyRUxPQUpUazM3cXVLRnZNMF9ad01tVWFZUlBRWV9WVU9BOGoxXzdFWWMyQndhclVId3R5VlBIeTBOTF9JbnN4eVdnWThmd19ZWktfYlJwYTdHNkRZaGFtX3Roci12TWR3OE5EVi1ERDhWOHlGSV9XTDRScG9uakVjRlVzTnBpYk0zZWthdHg4SG9tRmVkVkZsWDM?oc=5",
+        "published_at": "2026-10-13T15:04:37+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine's Zelensky says Russia already violated Trump-brokered ceasefire proposal - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd1ZsMURob3pZd1NZRGtYTUxBa0prd18teDhCRUV3bnpIR1hiN0p5ZFVNSVoxV1NIa3RwdlMzNVVWWkJqZF9vYmt2d1dzYzRlUVYyaUh6MGZqXzltN3dCaUFTTmRfOEwyTjFqckZxdDh4ZUFUTG52ektJS1Nmc1B3TnFvdVVjdlpxeGc?oc=5",
         "published_at": "2026-10-13T14:43:04+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXU0Wi0tVm5aMk5WYWZNYTBlLW9uVktRN2VyRUxPQUpUazM3cXVLRnZNMF9ad01tVWFZUlBRWV9WVU9BOGoxXzdFWWMyQndhclVId3R5VlBIeTBOTF9JbnN4eVdnWThmd19ZWktfYlJwYTdHNkRZaGFtX3Roci12TWR3OE5EVi1ERDhWOHlGSV9XTDRScG9uakVjRlVzTnBpYk0zZWthdHg4SG9tRmVkVkZsWDM?oc=5",
-        "published_at": "2026-10-13T14:42:33+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -331,19 +289,19 @@
       {
         "title": "Could Pakistan’s Chinese-made weapons help protect Saudi Arabia from Houthi attacks? - South China Morning Post",
         "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpxVkc5cHlMdVk4ZGdFQklNSHNYZGUwRXFZdUhNalhwdS0walBkN3hZVjBRSEg2T0xqRXJJZ1EtRElleUpLSVJFRzByRUt3dm1iTmVGcVhPa1dWRC0yS0ZYa3N1ZTJfWTBWd29BZVNWc1FvQ3kxa09lczhTdFFxRVFUSm5UZDdDVTBrZi1pLTZzX3dfRXpCMzVZUWNMWWlJd1lhdVZYdk9PRWVSOUdBVTNrWlFlVkZHUWNWOW5kWDc5dEVVbkxvN3V3UjhLLUU?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpxVkc5cHlMdVk4ZGdFQklNSHNYZGUwRXFZdUhNalhwdS0walBkN3hZVjBRSEg2T0xqRXJJZ1EtRElleUpLSVJFRzByRUt3dm1iTmVGcVhPa1dWRC0yS0ZYa3N1ZTJfWTBWd29BZVNWc1FvQ3kxa09lczhTdFFxRVFUSm5UZDdDVTBrZi1pLTZzX3dfRXpCMzVZUWNMWWlJd1lhdVZYdk9PRWVSOUdBVTNrWlFlVkZHUWNWOW5kWDc5dEVVbkxvN3V3UjhLLUXSAc8BQVVfeXFMTmNoc0ZGUzRGeS1VWlZPWEtwMnZFbmxhbXF2T3JRamJDaVJmVVhfUThmem5pcGNTWGxKVWpsTDZMLW5KSzF1RW5DbVpKTEFkb3FvQ0gxYVhYZ3FIMURCMGhvMFhvOFpEWlFrU3VXcnhNa2FuOVZUOFlfd0p5V2xwVXN3ZDFZbmlxZjQ3R2s5cngtNDd2SHJ3OHVGWnBVZURiaTZsSE9HcjhkTHBHa1ZBbDV4N1NpU0ppYUw0bmxXeVFOcURZWW1BNDI0a1JTMzZZ?oc=5",
         "published_at": "2026-10-13T13:00:05+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Senators say Trump's Russian diesel deal violates US law, demand White House reverse course - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0ctQ2xEUkFkcFA5aUlUYUZaV290emNXWkFtS2xoMkMyT0FaVk11M0g5RGNfTU1Wb1UtRDdvLXlnWkxWWnJGNERDaFdaWTkzNVlldTZuU1NXWVBmWGZ6bDBxUTR0Tk5ITHl1S29ZUm9uREJDUzJNZXZTU28wUm9rVW1sYjgtbTRzZ0pELWNrUi1UQi11M1JaYm5VX09RUTBjaEhlREpzZDJwREtIR3hxSHVjRVlkZmR2Q0tacVZoRWFnQzg?oc=5",
-        "published_at": "2026-10-13T12:33:45+00:00",
+        "title": "Bulgaria to summon Russian ambassador over Black Sea drone attacks - Le Monde.fr",
+        "source": "Le Monde.fr",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObm94ZkNLbG9xbkJwVVFURzFwN1NEZU9leTJHcmlOX3FYVURlSTZocHE0ckdtOEZFMENablJKRVFwZ0E4Qmh6VkpLNnZ1bTEzd1BHSG9UQk9PcWpZdkYtT2lwajNmVDNodWo4cmY1clBXcUZWSURLOVpCT2RMcktwNGw4OXhXTkpfUVAtNHlvZlhOc3JEYWtuSEtCWFJiN2g0bzdtal81QjJZTklBTUtSQmNWWU1lLWpkbGxRZE5MME1HYmdJdHdHSmprUEkzUEtELXpZbkNpbw?oc=5",
+        "published_at": "2026-10-13T12:25:30+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -401,10 +359,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "U.S. Condemns China’s Sanctions on Belize, Paraguay Ministers Over Taiwan Ties - The China-Global South Project",
-        "source": "The China-Global South Project",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOEg4eUtySEdwLXVEUzAxSnI0eHk2bElpNVkyLWZCUUxuRndzSE8xWVJRcFY0eUFBYUdIV204Z1J1V0xyQVppQkUxQU1pcUFJaThBYWh6cHpHY1I1cmpaanYtV3NRcFRHN3FZSldaZzR3Vk1CZUN4cm9VWHZBLWFjOFpZVUtSdXFBU2JLMFZDNWhzaThfaWdBT3Naakk?oc=5",
-        "published_at": "2026-10-13T07:45:03+00:00",
+        "title": "US Backs Taiwan’s Allies After China Sanctions Belize and Paraguay Officials - Modern Diplomacy",
+        "source": "Modern Diplomacy",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYVNRejl6Sm8zcnJCRHU2WlNyQy1nVzU3RkpQTWlBeTBGX2JhT1N4cTBNbzIwS01DOFU4S2d2bXUtaWk3WThpcnlvdjk0REZvTTVyaGVxamFXOTJGNFpGMU5uZDlKRkdpVlpCdlNDMlowc3RjSERZZFZuRTdvQ2ROS3ZHQzdhMDlObHVSLURfbzNjYTVNVE5uYlRoakhkQ2VNU0NzLTdSakdOdHFTTGtFSWZ1cnU?oc=5",
+        "published_at": "2026-10-13T07:40:53+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -439,15 +397,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Horizon Space Acquisition I Corp. and ArcheNova Biotech Finalize $2 Billion Merger Agreement - Kalkine Media",
-        "source": "Kalkine Media",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcUpYY3ZQSDFPVFY2VmVoWkNWZEdZZVQ3UWNtME5taGhFSVNVUlNZc2prN0NJLVVLaW0wLV9zLV85bzUzZUhVUUthYldCandfQTFGNk53cFJ6RnRMN1RjcHJIWUNWcThQMzVPdHVEZk1SV2E5TjN0MGNEQ285QmhNdzhIWmgxOW1lYU81OWtyaERhQnRmLWZpSW1iMzNFcS1xdUk5TkhfNFh6Q0NsR0w5THA5Rm1QV0xXZjQtV2NjQWRWMkN1UzRSU1Y1OUZ3LXRSTmpZ?oc=5",
-        "published_at": "2026-10-13T12:39:11+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Guggenheim reiterates Pfizer stock rating ahead of Q3 earnings - Investing.com",
         "source": "Investing.com",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQN3A0SENha3RvTVMtQTBoT282NVRZb1JpMDR6OV9pY1NnYnFOUVNoVDhvT1l5Yy16N1NGdXlQZXlmSDIzMEd1Y0N4N2FXVUxac09OVG5HV0lRUjRCLTlwMndaY0Y4OXpOS0lmYnJQS0k4ZkJoRURIYkVXUG83Zi1RSndXUV9UeldDR0tZRjA4R0YzUTJlcEJyejh6dU1mVnNfdG9ybUUxZ0tsbVRGcDZ1R1RqMU8xcWp6cWZzNTBMcw?oc=5",
@@ -462,15 +411,6 @@
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ2tZbGFCcllSSVlDS3VDWmJRX0thanRjTGtHVEtsaExDbTZIVnV1WjEwQnFfaVpjLTgzNkRrVHg5MVNPZjdITnJDWFZSamFhVkEtMHZ2TmVka3c4S1g2RnpmaFhlR2VZaWZHQ05kTkhicmlTWi1xalJ1RFFzelh2MGl2VS1BUUZmNEE?oc=5",
         "published_at": "2026-10-13T12:28:43+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
-        "published_at": "2026-10-13T12:22:30+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -493,10 +433,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "H.C. Wainwright reiterates Halozyme stock rating on FDA approval By Investing.com - Investing.com India",
+        "source": "Investing.com India",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRTI0V2pUYXdZNy1XS2JjZnB4dm9lWU52TnFjd3Q0OW96eWhpaU1qYmRvRm92OUZFaElTc0ZNcmlIS3ZXTXU2S3gtWUFmeFBudUxEb0hfUmQ5TnRNQ1lQa2QtcHk4Qk5DS2dveHNTUC1KaHlvQmFEUUg1bnF3TFk0MjNEekVYeERhajJzb2hPLW9mZk5wdm5WNkM1YnVZU0RsaDZhZEZQS0RMVUZCcGRuLUdnLXZtMkR0MDg0NGxyVTU?oc=5",
+        "published_at": "2026-10-13T11:50:46+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Alphabet's Ruth Porat brings a pragmatic optimism to the AI race—and a warning about the possible downsides - Fortune",
         "source": "Fortune",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ndHRRZWZoM1RHOEF0LWQ3THBUV2ZsUndJaE5yWVFCOFhPNC15T29ic2R2RXM0TFdncS11LWprbzc5d2k5alV1bU1WeXBmQ2hVV0VRVkRpU3pGY1NzTUQ2M0JPbFdGeVRCcks0U25UeUIxVUE?oc=5",
         "published_at": "2026-10-13T09:20:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
+        "published_at": "2026-10-13T09:04:12+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
