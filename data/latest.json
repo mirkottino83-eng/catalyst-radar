@@ -1,61 +1,40 @@
 {
-  "generated_at": "2026-10-13T21:07:31.618335+00:00",
+  "generated_at": "2026-10-13T21:34:19.081411+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.7699966430664,
-    "wti_change_pct": 1.0987825930973028,
-    "brent": 106.37000274658203,
-    "brent_change_pct": -0.2625398736904261,
+    "wti": 94.79000091552734,
+    "wti_change_pct": 1.120122760493092,
+    "brent": 106.36000061035156,
+    "brent_change_pct": -0.2719183416579507,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.20099639892578,
-    "macro_score": 46.2,
+    "dollar_index": 102.2030029296875,
+    "macro_score": 46.1,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.10%. Geopolitica: Iran Escalates Attacks on Ships, Threatening Oil Export Recovery - Bloomberg.com",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.12%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
       "wti": "2026-10-13T20:55:00+00:00",
       "brent": "2026-10-13T20:55:00+00:00",
-      "nasdaq": "2026-10-13T21:05:00+00:00",
-      "sox": "2026-10-13T21:05:00+00:00",
+      "nasdaq": "2026-10-13T21:10:00+00:00",
+      "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Iran Escalates Attacks on Ships, Threatening Oil Export Recovery - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLTUzR213ZGFwb1pwMXpVZ2cwMjRzOGVNMXRQdEhzWHAtbDZxTW9VY25KdVFBeHBYWVdDSzNKMWZKbmoxRjN4T0FRQWZWenFSeE1PZ0NwdWs0X0dWSzBidHc3dGw2WmpkM1dYZ2NRUlZyZUZrUnhka1d0Tk5LZ2hzREwxaTFwVG5qM3JaXy1tMTMtaEt3VDhFVlFtT08tVUlHbGwwUk9YSDRiSXVtbU5mVTNGR1Y?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [
-    {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.48,
-      "short_term_change_pct": 2.4,
-      "relative_volume": null,
-      "quote_at": "2026-10-13T21:04:05+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T21:07:20.508359+00:00",
+    "updated_at": "2026-10-13T21:34:07.228455+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -86,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Farmaceutica e settori",
@@ -113,6 +92,15 @@
         "published_at": "2026-10-13T20:31:53+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Allies gave Ukraine no warning of impending missile attack, Zelenskiy says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVA2WjlXNVNqR1RhTzFnOFd4bGstWUFZMDhCbXBNUEsxNzU4b2N2Tktwck9tMlFvSERMbFVwcnNkMUFTSVBxMjlia2VhMlQwZVllRlo5ZFpaUnl6aWFxSWJGaXhIeFJFcVA1ZUUxRHJqWjNqalNrU1UwMUtfX1hKTXhtN3pNVHdOSW93WGh5NlRuZW5KdVJPOGtsWWVHbG9UMy1tUjZrcWxEWGZkUldicFVURDFjdmdza3Q0?oc=5",
+        "published_at": "2026-10-13T20:26:54+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -152,21 +140,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Saudi Aramco HQ attacked in suspected Houthi strike - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlJvcU95eUR0QzVMRjJzX25MNl9HWm8tNU5HNUx1R3EtOVI5U0NvRjhEdTZ2VzJtc2FPQUwzVmU3dWY2ck9ZSjhFUXd0OVRmazY1SGpWMWgtZjk0MnhlRFotQmZrMzhGY3RWUnVTVlJfOHBRVHJwNThrbDl3T0tXTnVSbXg?oc=5",
+        "published_at": "2026-10-13T19:13:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "The Oct. 7 Attack Changed Israel, but Not Its Politics - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFk0YU1EQndRUnJFVHRmeExWZXlnXzZhN0tNMzFCdHg5V25KOFRCYWJwTndvWFcwTjhOVUNOc2JMUWZGaHA0eDJHQWhPNWx1RlFkRlZRUy1BNXJwUkhsQkJXVWRfMVl6YVR2WV9IblBKMl9fZ20zaF9HNUFyNzRCMlpwdlE2b0V1U1duV1FOYzF5YkZuYkE?oc=5",
         "published_at": "2026-10-13T18:58:37+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelenskyy tells NPR Ukraine wants peace but will hit Russia until it follows ceasefire - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUWV4SlNjbHRLVVNlNDV3STBGRk80d1NjN3ptTmt0N3UyYXFiZWFPbkVzTG9DUFRqYmdMRnJTRlY0WXI4U2toVHVhTVRGOVNNSUNMZ2h4RTdzV2xqU3VHYkdBb2J0U005VUJKOWo0VzVPaGFwMkZrZmpkZDdLLXdPZEhoZ0habDBLUzEyYkd0Qng?oc=5",
-        "published_at": "2026-10-13T18:51:55+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -192,15 +180,6 @@
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmRBdUZFd2VfLThKOWQ3elR2ZWJzVzFrdDhMMkU2TGlFbnhiR0ZkeVVYOUhhZnNDTFNndHd3azRFZ0lqbG50Z0hlS2tVbkxhRmptNWhVRHJ3aER0WTc4ZXRPSTluRWpjdnVhOEF4bncxU3h6ZTkxSF9OQkduWWxnZTNtOURzQXM5OWRvNWNBUXBEYzlEM0VjR3N0WF9WWDdZU00yd0hR0gGrAUFVX3lxTE9xYjVUdUk4dUhhTmNFYnFCbl9TamRndElPREdPaFM3ZW0zc0NGYjd2aWRlVU1SUGxaS3NsZEY3UDBTaVJaMHZ5YnM2ZmVHNUhmTk9md0xIVzl6WFZTam13bm1iSHpEenFoUkJIcnU4dTBNSnY3NkFLZkhZajdWT2JQRUNCYlh5bWRfTGZJcS1BdEY0VUlCdzlWT1ZnUGQ1Tl9ocEdiUWZOX2Q4RQ?oc=5",
         "published_at": "2026-10-13T18:33:45+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran increases threat to Strait of Hormuz shipping - Transport Topics",
-        "source": "Transport Topics",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fRWdpaXVOblJVWUNoZFVBRkl3VjhucjRzQi1MdncxZGlBLUEtWXFETFllZmdIME5LWlR5dk8yRzh2Z05KZ080clBuaWNFMEx6alZEUlFwRjBueFYyc2NYZ3pGbzR3OVAxM0tZ?oc=5",
-        "published_at": "2026-10-13T18:16:17+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
