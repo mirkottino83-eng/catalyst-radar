@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-13T20:39:10.702279+00:00",
+  "generated_at": "2026-10-13T21:07:31.618335+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.91000366210938,
-    "wti_change_pct": 1.2481393482003167,
-    "brent": 106.5,
-    "brent_change_pct": -0.14064840481273766,
+    "wti": 94.7699966430664,
+    "wti_change_pct": 1.0987825930973028,
+    "brent": 106.37000274658203,
+    "brent_change_pct": -0.2625398736904261,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
@@ -16,195 +16,46 @@
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
     "dollar_index": 102.20099639892578,
-    "macro_score": 45.9,
+    "macro_score": 46.2,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.25%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.10%. Geopolitica: Iran Escalates Attacks on Ships, Threatening Oil Export Recovery - Bloomberg.com",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-13T20:25:00+00:00",
-      "brent": "2026-10-13T20:25:00+00:00",
-      "nasdaq": "2026-10-13T20:35:00+00:00",
-      "sox": "2026-10-13T20:35:00+00:00",
+      "wti": "2026-10-13T20:55:00+00:00",
+      "brent": "2026-10-13T20:55:00+00:00",
+      "nasdaq": "2026-10-13T21:05:00+00:00",
+      "sox": "2026-10-13T21:05:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
-  },
-  "catalysts": [
-    {
-      "id": "47b0579cb849",
-      "ticker": "SAP",
-      "company": "SAP",
-      "category": "Europe Software / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Sinch extends SAP partnership with RCS integration for SAP Engagement Cloud - MarTech Cube",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "MarTech Cube",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ0gzRDFuM1hLdFdseVNfWUF4UmMzZGpJcFRhZjBDeXJSNEN3WmloZUhZRmtjSmsxaFlXV0F1QWZBQzRsamxEVE00b1Z3Smg3M3N0emhxaWhHOEI1M0s1RzMtY0MxelRLZDdzZ0xTUHVUWXVSbDdvY2hxdGNSOHR2LWNJazBYTDhieWxnU3NycTg0M3RQRWNTZ3lWZ29xajc1Vm54Qkl3NA?oc=5",
-      "published_at": "2026-10-13T14:58:11+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": 0.87,
-      "short_term_change_pct": -0.38,
-      "relative_volume": 3.88,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-13T20:00:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 39.1,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 50.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-13T14:58:11+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "SAP",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 74,
-        "freshness": 62,
-        "volume": 94,
-        "momentum": 45,
-        "macro": 46,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
+    "geopolitical_risk_score": 44,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Iran Escalates Attacks on Ships, Threatening Oil Export Recovery - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLTUzR213ZGFwb1pwMXpVZ2cwMjRzOGVNMXRQdEhzWHAtbDZxTW9VY25KdVFBeHBYWVdDSzNKMWZKbmoxRjN4T0FRQWZWenFSeE1PZ0NwdWs0X0dWSzBidHc3dGw2WmpkM1dYZ2NRUlZyZUZrUnhka1d0Tk5LZ2hzREwxaTFwVG5qM3JaXy1tMTMtaEt3VDhFVlFtT08tVUlHbGwwUk9YSDRiSXVtbU5mVTNGR1Y?oc=5"
       }
-    }
-  ],
+    ]
+  },
+  "catalysts": [],
   "movers": [
     {
-      "ticker": "NVDA",
-      "company": "NVIDIA",
+      "ticker": "CRDO",
+      "company": "Credo Technology",
       "category": "Semiconductors / AI",
-      "priority": "critical",
+      "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 1.19,
-      "short_term_change_pct": 0.52,
-      "relative_volume": 3.76,
-      "quote_at": "2026-10-13T20:35:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NVDA"
-    },
-    {
-      "ticker": "ASML",
-      "company": "ASML Holding",
-      "category": "Semiconductor Equipment",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -1.8,
-      "short_term_change_pct": 0.92,
-      "relative_volume": 1.5,
-      "quote_at": "2026-10-13T20:35:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ASML"
-    },
-    {
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 1.68,
-      "short_term_change_pct": 0.77,
-      "relative_volume": 2.8,
-      "quote_at": "2026-10-13T20:35:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "INTC"
-    },
-    {
-      "ticker": "AMD",
-      "company": "Advanced Micro Devices",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 2.22,
-      "short_term_change_pct": 1.18,
-      "relative_volume": 2.76,
-      "quote_at": "2026-10-13T20:35:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMD"
-    },
-    {
-      "ticker": "MRNA",
-      "company": "Moderna",
-      "category": "Biotech",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 1.17,
-      "short_term_change_pct": 0.89,
+      "current_change_pct": -1.48,
+      "short_term_change_pct": 2.4,
       "relative_volume": null,
-      "quote_at": "2026-10-13T20:37:36+00:00",
+      "quote_at": "2026-10-13T21:04:05+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MRNA"
-    },
-    {
-      "ticker": "MU",
-      "company": "Micron Technology",
-      "category": "Semiconductors / Memory",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -3.75,
-      "short_term_change_pct": 1.14,
-      "relative_volume": 2.34,
-      "quote_at": "2026-10-13T20:35:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MU"
-    },
-    {
-      "ticker": "HIMS",
-      "company": "Hims & Hers Health",
-      "category": "Health / Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -3.13,
-      "short_term_change_pct": 0.14,
-      "relative_volume": 2.09,
-      "quote_at": "2026-10-13T20:35:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "HIMS"
-    },
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave",
-      "category": "AI / Cloud",
-      "priority": "high",
-      "satispay_status": "unavailable",
-      "current_change_pct": -3.09,
-      "short_term_change_pct": 0.66,
-      "relative_volume": 1.98,
-      "quote_at": "2026-10-13T20:35:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWV"
-    },
-    {
-      "ticker": "STM",
-      "company": "STMicroelectronics",
-      "category": "Europe Semiconductors",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -0.95,
-      "short_term_change_pct": 1.14,
-      "relative_volume": 1.07,
-      "quote_at": "2026-10-13T20:33:55+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "STM"
+      "tradingview_symbol": "CRDO"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-13T20:38:57.733691+00:00",
+    "updated_at": "2026-10-13T21:07:20.508359+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -214,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -247,6 +98,24 @@
     ],
     "geopolitics": [
       {
+        "title": "Russia’s Leading Sanctions Evasion Tool Is a New Kind of Illicit Finance Threat - Foundation for Defense of Democracies",
+        "source": "Foundation for Defense of Democracies",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRk44MTIta0h5dUxHa1dGSXpwTGhzOFk5bE5FVTNSREN5eDVkMEFrcXU2ZGZ5TkZTTmhqM1NadHpSbVM5RnZBQk1TaDd4ZUwxUmF1SGtWbFFVYkNZZkhpYjVoMTZHU3o3WGFNcmJxTktWcWJyZXdOZVM3Um4xZ2FGNEY1Qmk1VlRjbjg0dnMzS284bnpFSEtEQW5ITE1YcTR4RDJ1TC1NV0ZLV1lf?oc=5",
+        "published_at": "2026-10-13T20:38:29+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Lawmakers Argue Trump's Russia Diesel Deal 'Violates' the Law. Here's What Legal Experts Say - Time Magazine",
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcjJDOFZveTZzQWowY0ZmNlJFS01kbHpZY3BlVkREdGltal9HakF4Rk8tZkJGVWxGVGtGdlE3RkFCMGQzSkp3Tjk4Y0traUdTRlVRbk5rZlNUTzJNZkp0djFOemY4cmtMN3VJTlQ0TWtRdzBjN0lEb2k5RnFVV2NBSldUUHllaG1aRjFfTTNYcVJtdVVhX2RPaVVhTW5VMFdoQ3BXSUxOSQ?oc=5",
+        "published_at": "2026-10-13T20:31:53+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Don’t hold your breath for Russia sanctions - Politico",
         "source": "Politico",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTzN5QjFNMk5GN2d5ZVAxTmppWnljTGVvaEhCSHRIaWxQdTVIa3dOeFB2RWxzWFd5dS1FNUNaYkRIMGdZazhpUzA3QUl4ekpVX2kwVHpaaWYyalFkOUZ2ZW14ZktXbnZXVzZLa19YTVRyOGpqeWlUcXkzTEY3RmRxOEthaTYzM0FXWGZaQktqcDZMNnJ2MklXdmM3NUFIM2V0N09Lc1FSUDlvV0ZxazRHVlFJM0hWa3o3SjJkV2RIRnI?oc=5",
@@ -261,6 +130,15 @@
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTHZzazVzU1dESms0QjFRQzdoa3Z3RlNmUzUtM09oRUo3d0pnR2ZyX1dlRG5SVjlTdERkeEtObjh2N0JnRUgwbXhpMDQ3VmVHRmRGaUduLTc5Mk9JM1pYZWhldkJ6QndKS0FrbUtMbm5XMjBDdmtnQXJCYklrQnBFWDNGN3FvWV80TGpEa0hXUWxmdnNOYVpuakZPaG95RTdmdl9MeFdlZFFmbTVxblBLZFNJNEh4OEdzTW9QOGc4b3VlR01oLXM3QnFObw?oc=5",
         "published_at": "2026-10-13T20:16:00+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "'Gift to our adversary': More Republicans criticize Trump's Russia diesel deal - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUViSHdiMmpBMGUwOVNDWXE1bHJqRzRmMUFMT3hUeWlESnVJWHNZeVk0eTIySW1IM3VvTnhqSEFjTHdVOUhGbUptNWJSSk9GcnpSYU0wVjk2QzVuLWxBY25nQnc0cm9DbmJ3c0E2dTJIeC01RXV1QkpXZmlJb3dyWTFlODdPRFNhVEkyZUZOemJMUTZJZjVwRkRRRGpDNGVERTA4LVNXeWFkdlRBRkQ3ZXdweXMzazh4WUNB?oc=5",
+        "published_at": "2026-10-13T20:02:36+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -301,6 +179,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Pork Tariffs: China Hits U.S. Exports - Opportimes",
+        "source": "Opportimes",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYWWdkcXlXaHZDOE9HTW5VaWNZMXU3UXcwbHFBWDU4R05XZEZlbElxQ0M4dmdQTUVlSXBsc0ZwSEpRZTY3S1dsay1hZk1yWS1ud3luMlhBOXVHd3B2Nml6d284b3lXaTNFRmdDR3B5WkFDVmpr?oc=5",
+        "published_at": "2026-10-13T18:36:49+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Houthis threaten Saudi Aramco facilities, airports amid escalating conflict - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmRBdUZFd2VfLThKOWQ3elR2ZWJzVzFrdDhMMkU2TGlFbnhiR0ZkeVVYOUhhZnNDTFNndHd3azRFZ0lqbG50Z0hlS2tVbkxhRmptNWhVRHJ3aER0WTc4ZXRPSTluRWpjdnVhOEF4bncxU3h6ZTkxSF9OQkduWWxnZTNtOURzQXM5OWRvNWNBUXBEYzlEM0VjR3N0WF9WWDdZU00yd0hR0gGrAUFVX3lxTE9xYjVUdUk4dUhhTmNFYnFCbl9TamRndElPREdPaFM3ZW0zc0NGYjd2aWRlVU1SUGxaS3NsZEY3UDBTaVJaMHZ5YnM2ZmVHNUhmTk9md0xIVzl6WFZTam13bm1iSHpEenFoUkJIcnU4dTBNSnY3NkFLZkhZajdWT2JQRUNCYlh5bWRfTGZJcS1BdEY0VUlCdzlWT1ZnUGQ1Tl9ocEdiUWZOX2Q4RQ?oc=5",
@@ -319,30 +206,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Allies gave Ukraine no warning of impending missile attack, Zelenskiy says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVA2WjlXNVNqR1RhTzFnOFd4bGstWUFZMDhCbXBNUEsxNzU4b2N2Tktwck9tMlFvSERMbFVwcnNkMUFTSVBxMjlia2VhMlQwZVllRlo5ZFpaUnl6aWFxSWJGaXhIeFJFcVA1ZUUxRHJqWjNqalNrU1UwMUtfX1hKTXhtN3pNVHdOSW93WGh5NlRuZW5KdVJPOGtsWWVHbG9UMy1tUjZrcWxEWGZkUldicFVURDFjdmdza3Q0?oc=5",
-        "published_at": "2026-10-13T18:15:22+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine had no intelligence from partners about missiles headed to Kyiv, Zelenskyy says - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSnMzRkV3bXI2VkoyZ0J6MDFqbUtpUW5ISmtfaEZUN1V0dTZDQkhhV1hWQ2Y0ZWFySGk1YmNWM0pYem04aEwwcmtyc21IOXBna243QmhNZXlFaDhqMzhOYUdmb0QzLUhjMUF4dW5XRTlFUFhWS0JVUmxDelVyUDh3Yzl1V1gzTUEwUnE0QnpjNXVCbmgwekNQdU9SUUsyc2JrSGtHYWw1NFMyNVJWWjdqWUN5T2x3MGRzZXJCY1VB0gHDAUFVX3lxTE1LVk4zZll6OC15cUNIOEdYZVcxQ2haLUFIbXVsWUZ0QjNZVFJPeVEwUjNJRVpkT0NONG1vV1VRSldkSnVnSUpwYWdfcWRWSHR4RTBHWlFwNDdGZ1IyWE01MmkzcHdmNGlyOVNCeGtfb3lvWXRhSDlLQl9lMUhzSGFGMVFjOGlONDZsQ1lyN0g5Z3FqNnowV1QyaU1OYUc0NHRGa0VZV1JhWW9YakNYeDdqYVpSRTUwRkJYczY2SXN0ZGVqZw?oc=5",
-        "published_at": "2026-10-13T17:39:21+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Drone Strikes Didn’t Take Out a Russian Bot Farm, But We Were Primed to Believe It - Mother Jones",
-        "source": "Mother Jones",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdTJzTm9qQ3JVUVdIVm8yeldjOTVuSWVpc3BKRmhBeHNBSW1NSzFxaDdaaHZ4aV95ZlBFVkpEUjJUSllSN1JJN3kwOHFRQkxhaXJ0MTRpNWhBcWpWWnpXWU1saVJmOFJPeGRzUFozenZ3UVZjY0xpLXZxb21lZ05IUHJBOVRMQ28wZFVubUVoT3FwX2ZRcHVqUHpUZlNFenBqRGJpYW5mWDRpUEZhZkl2cFg5bU9MUXNOd3VtZTF2clFwb2lkYWFjWHk2MG9lWVRlVXFBanU1MVJVRjJmUUdITFhkZ2c?oc=5",
-        "published_at": "2026-10-13T17:33:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "How Maroš Šefčovič talked his way to a China trade breakthrough - POLITICO.eu",
+        "source": "POLITICO.eu",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSUNpd0YyaTNBb0F4UDg1NzNEN0daX0NXRW5OeHRMTkx2VFBkcmdmeFkxSU1ieWFhdGNnMGlIcmFYbjVaODgzQk1kOHQwcHN4QzMwVFB6dm1ibGdLYy0ycnFLTm81bDQ2dDRyMl9CTHcxdDZEU3ljQm5WZk9NcERyc0NPNDk2cW5HYU40akdqMnlMZExYVnF0eDN6VUU?oc=5",
+        "published_at": "2026-10-13T17:43:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -362,27 +231,27 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU-China trade deal…more questions than answers - American Journal of Transportation",
-        "source": "American Journal of Transportation",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUDJIWURHZGd3Y1RHSTd4NUkwYTNEX3lhdjluVl9VUloycUdubzJfVTlJZmZ2R0xLOGI0NTJST19weFpSRk4zbG5sNTNyMGlHWHE3cTZjQ0ExV2FXSGRHcjFXTTlHYlhOQkpYN2tCSTl4aW93T28wcGtCZTlCcFNSOTVtUTBpSXl2R0c1dA?oc=5",
-        "published_at": "2026-10-13T15:18:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU’s China Trade Imbalances Go Beyond Autos, Dombrovskis Says - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVXhCTGtXWWZmSWVPNnRKYkEwNDlSd1paaGR2eFlhWUFOUkw4VngzT2dTdzFvemFMOW5UTDNvMUpFN1FJRzJFWVBmOFU3NWoxSEFBMVhyNEdfa0VoMDg1N1NXTm5Lb0d2a0RFMFRNQzJ1M25GOWZEbnUxaERtMFBDcC1QNTFMVGVla1dfQm5IdkxlbFAtWGx5WkNwMWlMZlpDUmdpdktib1lxeE5YVUwtWA?oc=5",
-        "published_at": "2026-10-13T13:21:34+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Micron (MU) Trades at 7x Forward Earnings: Is it a Bargain or a Peak-Cycle Warning? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWExNWXJkR0c2WmZYNFFxZE9HSmY3ZTA0VDIxa1IwOEFXU1dzbW96TU5mRTMtLVJQRlhBaFdvck1ncWdKUU9WS1lxUDZ3LXVYdU5RbjRZbjlUQXhsS2ZCbEZDcF8tRGI4QkJRWjhOMWxBclQ1dGswa2xYcWw5WS1BM3M2a0tVUE9uUFR3X2g4Yk5ONmJBYnFZ?oc=5",
+        "published_at": "2026-10-13T20:42:23+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia’s China AI Chip Share Drops to 34% as Huawei Gains Ground - Mexico Business News",
+        "source": "Mexico Business News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUxJdVNwblBhMC1rUU9TbGpZSW5OWFo5WmdHcGczYjBaeFJ0OWtKckV0dWRIUkR5LVJmRl8zTnI5UnlSSmhlM3R3MkdRUFNlZkRfY0RDLXdpd015N3Fqc0IwcHpmWjhFSXRnUkNVRVlXYWZuakpNaEVxOWY2LVp2cUpiTDVfQ0FGa25yMW01dzZmeXpxamlNdEd0NmtZQkN6SWtUdw?oc=5",
+        "published_at": "2026-10-13T20:37:01+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Novartis (NVS) Gains FDA Approval for Lamprene, Enhancing Patien - GuruFocus",
         "source": "GuruFocus",
@@ -447,29 +316,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia plans $2B in European AI deals in the next week - The Next Web",
-        "source": "The Next Web",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JSUZZLXllTFRXQXpGOFJWcHpIY0tmbkdORWZCQWFIZ2ltNmIwYkNVWVBVaGl3U2R4RHNKMmJJenAwYUE2SWpqcEpYUHhzZTRnTldqZkYzTGNKckVMSDdVd0w1TVgydzRV?oc=5",
-        "published_at": "2026-10-13T16:41:15+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Thrombectomy System, Blood Return System Get FDA Approval - Diagnostic and Interventional Cardiology",
         "source": "Diagnostic and Interventional Cardiology",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXpVdXMwVktOVFEzNUtGTWFSb296ODFpNTVoRXc2Q2c1T0VqR013S09CUHBRQ21OSnlzZmFIQjhOQ3RRSnctbFc5Y0c2ZC12eGJZTHRTeTg3b29BRXdQczRXYU5MMUhCNkE5enZsdWg4X0J2b01qcmZ1Ty1UQ1hoNE1kQURyMTFXRFdwcmZENXRlVlRCa1JoZA?oc=5",
         "published_at": "2026-10-13T16:24:36+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia’s Huang Plans $2 Billion in Europe AI Deals in Next Week - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTUyMWwxLUpnYVFUYlNzVS1YS0d5UkpaWXhsbmZ6U08xMmNKUTFSU01rSTRjN0Z4UF9hTG0tajg4TFZqZExYVS1oZkxJWlNFM0hBc2ctbUZBU1htclhwWVB6ajludXpVT3NDZ21YaEk3UExON3ZpZVF3YU1ycDI2MS0tVU1jelR5N3F2emRKT2JDcUE4V3hiUzlxY21SNXBXdHl1YzJWREFfY2I3cWhEa2Z0VQ?oc=5",
-        "published_at": "2026-10-13T16:07:12+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
