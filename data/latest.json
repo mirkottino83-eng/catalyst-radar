@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T04:29:59.861916+00:00",
+  "generated_at": "2026-10-13T04:52:19.785870+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.58000183105469,
-    "wti_change_pct": -1.2374611256132595,
-    "brent": 105.43000030517578,
-    "brent_change_pct": -1.143929867086868,
+    "wti": 92.51000213623047,
+    "wti_change_pct": -1.3121354337201852,
+    "brent": 105.38999938964844,
+    "brent_change_pct": -1.1814365852819253,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
     "vix": 15.210000038146973,
     "vix_change_pct": 2.4932606587241724,
-    "dollar_index": 102.427001953125,
+    "dollar_index": 102.43399810791016,
     "macro_score": 20.5,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.24%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.31%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T04:15:00+00:00",
-      "brent": "2026-10-13T04:15:00+00:00",
+      "wti": "2026-10-13T04:40:00+00:00",
+      "brent": "2026-10-13T04:40:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
       "vix": "2026-10-12T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T04:29:48.641928+00:00",
+    "updated_at": "2026-10-13T04:52:07.807237+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -72,10 +72,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "China sanctions officials in Paraguay and Belize over their countries' ties with Taiwan - The Killeen Daily Herald",
+        "source": "The Killeen Daily Herald",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdkNXbjNxb1pLSFVneXlSWlVrTjhCM3g2YUVmbHA0UnFUcG9hdFBiZmR1cHdoa2EwY1JfZTBrYXZWYVZsb20zNkd1TkREdWlWTU1GRVRYU1VkcTdGT3JYYTBhUmVuSzNua0t5ZkpxZjBRNG1ZX3cwRlZxRHl1TWlxanVHckZ6Z0FpR3dQM1lLVHhHUnlLeXp2bk9SM0ZTSFFWSUZaYkFpMG9yTGdvT0FJQzFXVXdRWVFIYWY1Vm15Q3pkc0NFZTFUQXY0Rzk5cXhKV0x2TS1ONFl3V3ZEbTJMLW9aSjNFd2k2ZEkydFRSZzREUEp5eVd6a3dzdw?oc=5",
+        "published_at": "2026-10-13T04:32:25+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict - CNBC",
         "source": "CNBC",
@@ -104,10 +113,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia’s China AI-chip share falls as Huawei closes gap, report finds - The Mighty 790 KFGO",
-        "source": "The Mighty 790 KFGO",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQclhLWjhhcWpDZE85ZmJSMERpX0diQmVwR18zNmRXQ1RvRGR2NE53Z3FkSURsYTBXUzhDZ2g0cldwSkR1dzZqUEZwVVkzMmQ3a1FlV3BMY0ZCUGVuWkV6UGhtaXRUS0czMHVQYlFNMWFRcHRkWHFFNjYtWDFnVDZ4NjM0WC1MeUMtQVpHQ2lWWUV4aG1DYk94SVFJTlE?oc=5",
-        "published_at": "2026-10-13T03:07:22+00:00",
+        "title": "AI boom bolstered growth in global trade, benefiting China and India, IMF says - Central Oregon Daily",
+        "source": "Central Oregon Daily",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOS3hHSHdZa0w2d0Y1cmVKNFdIemlhYkxTZFVYN3V4eGJINTRaOU83RldNS2lXVUdTcjBnT2JSQW44anM2Y0VqQnFJMFRrckM2M2l6cm1OYU52amQtLVZBNWN2WkFIbXU1emtsc1dFcm04Q2VkMkFHdm9XOWxsNVMxQTExd1hiZWljdERFOHFsSUY4OWJVUWpWN1dGYlRhYTFRY25rWnNZWTU0allHNFhlc3NYdlVEbGZUZGN6YmZ5LTVuNGRKQUFuMmVmanFEX2Zsb1RHbnJhYlFBZnpRWFNEUDVldnNONGVGM0NYdlJkTlA3M2ppdURKY1ZPYmkzUTlBa214djVn?oc=5",
+        "published_at": "2026-10-13T02:59:29+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -131,6 +140,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ2lCcTJZLWVsU3NJWjJRV2xZd0RXM1NtbWNnQUtfb1RsSjlNVmFEWnVxYVJ5Y0pXS0lWV284NlVCWkp2Qy1jbm5na2ZFeE5BYmNlWFVaVGttNElacjE1SGlaeVBOc1J5Z042bUlOS3JPbWpHcloxVDF5X3B2NG5hSEdCcHp0SGswU3d5VWNNWE02bE1KS0VyTVROTlJxUTRFUzNQM3hrbERWWWh5X21pSFg2ajBBOG02cXdzS1UyV09MY0k?oc=5",
+        "published_at": "2026-10-13T02:33:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
@@ -149,11 +167,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China falls in global ‘trade sustainability’ ranking on environmental concerns - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRDlib3R0NnBmaTV5ZnJpSTZfLTBOcTZKa0NfbXU0b19tZTJLQVo3SzNMeHJ4dDR2ZlkzR0dHV1ZZdm9NZE1SZFVuNklPYTZ2NnhmYnE4QTlGblZFV3lKeXI0M3BNdE1lWWJoTHRzRnJ6dENCMm1HYjVBT1FCRk9UTnpxOF9TQ3pRQ2hYMGtmaTF0NmtzWEZzdndPa18tdzVHS242SFZYLTM3WHV5TDd4U3pXZ2JXR09PTzNvRmdPV2M5VXd0U3ZrV29ZZjFPZnBBcmNJM2JMYUrSAdgBQVVfeXFMTXpXWGp4M1FfaThuOGV1QzV2X3FPN1FyLXFaME5ObnpaM2Rhdlo5MUV0My0xbFlsZEZmWUlUU1FfZ3NyV2N1dE9aLVQzNERyTHpSR0VMMTdzaG14dkVNaUYyWEZSbkFEUE5GUWVXb3lJcUlDUHQwZ0VYek9UM3didlZUME5hWFJfa0pxYjdKRzNaN3hqUzZCQmVPcU5KY2lIUEpVdk54NTUyN1lXTEhXM01rV1c1Vlp5T3ZKZTRKWkpIdXN6YzZ2aTdmZmxqY0JOQ3lUR3lKRFB6?oc=5",
-        "published_at": "2026-10-13T00:00:15+00:00",
-        "area": "USA / Cina / Taiwan",
+        "title": "Oil falls as Russia diesel supply prospects counter Gulf supply risks - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa2sxWTVlekZ2bXloVXNiOUltMm5iODVOMW9NTUo4Q016ZU02OFQ5TU9relFTcUZSaW8xV0c2YmNVbE5jWW5uQjhKeXNKaWxBcE92SU1fQUU0R2RVamdNUzRhTER3NzEzMFUtRVd3bzVnZ1g0ZmtRek95VHdYbVNNMmNacmlDd3dLTThmaGF2VVJDYTc4c1hQeUZfX0ZGQzZjTXlpLU52U3JuUGpjOHJjWndoS19LandSX0dtMmdUMzNKZw?oc=5",
+        "published_at": "2026-10-13T00:25:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -176,38 +194,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump announced a partial Russia-Ukraine ceasefire. Did either country know about it? - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONlJxWjlHNmVhVnBwLXEySWdtZC1wZzZleGFSSEY2N1UtTE1kSldJNHZoVm5OczRpeEo3cGljVERadjhuazVINEFoZ1lPdWJWUlZ2TERNVUVEaEN3Wk5JaGlFRzZBMWsxTUFJYXFVNE9YUEx5NjVWLXV4M0h0RElTOEhSVzVZOVZjdzVLbURodE1ON3cyZmhXeWl3UFlmOTljSHR6SXBDeFdPOW1icHRxRlhHS0NEdTBLeDJueVJRWGhpVFpBZVdB?oc=5",
-        "published_at": "2026-10-12T21:43:48+00:00",
+        "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
+        "source": "Mashable",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
+        "published_at": "2026-10-12T22:25:05+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Energy prices rise after Trump’s ‘energy ceasefire’ fails to move Russia or Ukraine - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGFrRDRZWWhPUnEtNVNhbnBFZFc4cS00MmhuZC1hZDJzc0dROWpwU18waGpMY1hRNWFGS19LZXNUc0ZhSUgwRDUyR0hnaHhHRkRZbXRXVlN0YUU2MzVTbVo1cVBESFgyQUdfQUs5d201TUJ6YW56NVB3aDVLazNnZUlLdHowVHpPLUI5MFk4Tk9yMkFR?oc=5",
-        "published_at": "2026-10-12T21:42:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
         "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYk9yd3EweHFPQ2doVnFxQmxCdEJxMmdBdF9FT2tzdExGZmR3eUo0TjFyTmU0azY4UEtmRW56djNGaERmMGdpcmNHZWRPcllwdEhPUVhsNjJqMzYxRko2dXA0VTBtdGZvYUdid1hZZkFMeGtJOGdVX1J0NUU5X29naUJaUVNxMG9LWEw2Q3prUHVTNTlyanVIbjFxOE80Y3oyNTlfX3VhT2U?oc=5",
-        "published_at": "2026-10-12T21:25:56+00:00",
+        "published_at": "2026-10-12T21:50:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ticker: China’s carmakers export more; EU sanctions nearly 1,600 Russian people and firms - Boston Herald",
-        "source": "Boston Herald",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUDV3b3h3UWxGUTYydXhGWFFScFNtZldlQldDNmlWVDhDaGVwYTlvTUo4SkROem1qZDF5dkpnbHRiZmlmTXBpZWFCV2I3aTVEUWo5ZjRzRkYxdDBZb0ZjRlNpM2pwVWJIVkFOSWg4WXdDWVhPb1FMT2tMR2xWV3hqTG5nNkpfWmlYMVFOMFZnRU11eUowem5uMVBITkJndEhPdFg3RnNuaVd6YjZ0WUZ0Y2xMZnBtcy1MUzZvV0FlanJIaENl?oc=5",
-        "published_at": "2026-10-12T19:36:02+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
@@ -237,15 +237,6 @@
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
         "published_at": "2026-10-13T02:14:02+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Predicting How Today's FDA Approval of Zanidatamab Will Affect Gastric Cancer Care - OncLive",
-        "source": "OncLive",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSG54emladEVoSDNuWkFZSkRfc0xnV0ZwU0ZUX2s2akZWQTE4ZGExVHhyWnhHaVA5YW5jbE5sYUNoTFpkQzJDWC00d0tic3NmbS1Vd0xnR2RGQWgxYmI5TnpQSlVVUGFpbDA3UjYzWEEyZzU4Vkl5RUhGdVpsMWJFb002U01BVEJ2YVBFV1huRXZ0cUl5VnY0U3djT3JSRk8yaFJJOF93dVY3QUNVOTlzOUpNUQ?oc=5",
-        "published_at": "2026-10-13T00:26:47+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -299,6 +290,15 @@
         "source": "MedCity News",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONENtWE5vMUl3Q2p4Nm85SHlZVGE1UVB5aFB6aHZQZDZSUnhjTjNmY0JIZHNySkllX3dXVUJOWFoyRW90eTVjWGllMlF6SXVETlpNNmlMWFdMcDVPTkphZVJ0T0YtWTVBZmFBSEVzeldpUDJnMi0wUV9wejlSejZyMlhYb2RiM2tla3Z4c2VETVVwYlBGbzZLcFZiaG1qOHVp?oc=5",
         "published_at": "2026-10-12T14:48:24+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Truist previews biotech earnings with focus on Insmed, BridgeBio - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUW1tdWpVcXl1dFdDRTZNcy1hWFVoT19oXzFPbWxvcVlaRjZmLVFhbjRITFV6MjlJSlp2WjhVYjhZeXRUMFRrOC1aV3piMUJTdF9rNTRGWmp0b3lpS2ZBMU1rN2ZnZDZuMVNzdThjaVd4X0x5N3pMZWxnNEJqSENfSG00X0hHTHlIanJaSkpfZHB1cFg2b0FMYnRpNGZObmFGMENVeUdGal9Ra3NFSXJuWnpVbEZBcXl2czU5YVhsdm0?oc=5",
+        "published_at": "2026-10-12T14:35:47+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
