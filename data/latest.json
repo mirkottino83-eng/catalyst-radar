@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-13T12:15:25.890411+00:00",
+  "generated_at": "2026-10-13T12:45:59.280221+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.240000247955322,
-    "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.44000244140625,
-    "wti_change_pct": -1.3868097418271108,
-    "brent": 104.93000030517578,
-    "brent_change_pct": -1.6127531140126217,
+    "treasury_10y": 5.189000129699707,
+    "treasury_10y_change_bp": -5.099964141845702,
+    "wti": 92.0999984741211,
+    "wti_change_pct": -1.7495193375530183,
+    "brent": 104.55000305175781,
+    "brent_change_pct": -1.9690562063531925,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.4399995803833,
-    "vix_change_pct": 1.512160037208976,
+    "vix": 15.319999694824219,
+    "vix_change_pct": 0.723206156484979,
     "dollar_index": 102.27100372314453,
-    "macro_score": 22.5,
-    "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.39%.",
+    "macro_score": 28.5,
+    "tech_bias": "negative",
+    "summary": "Tech bias negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.19, WTI -1.75%.",
     "quote_times": {
-      "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T12:05:00+00:00",
-      "brent": "2026-10-13T12:05:00+00:00",
+      "treasury_10y": "2026-10-13T12:30:00+00:00",
+      "wti": "2026-10-13T12:35:00+00:00",
+      "brent": "2026-10-13T12:35:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T12:00:00+00:00"
+      "vix": "2026-10-13T12:30:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,22 +34,22 @@
   "catalysts": [],
   "movers": [
     {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
-      "priority": "normal",
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": -9.68,
-      "short_term_change_pct": 1.23,
+      "current_change_pct": -7.56,
+      "short_term_change_pct": 0.97,
       "relative_volume": null,
-      "quote_at": "2026-10-13T12:15:01+00:00",
+      "quote_at": "2026-10-13T12:45:36+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
+      "tradingview_symbol": "MRNA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-13T12:15:14.666706+00:00",
+    "updated_at": "2026-10-13T12:45:48.423810+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -59,7 +59,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -87,10 +87,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Houthis and Saudis strike each other in latest escalation - dw.com",
+        "source": "dw.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbjJIb29raWlYTWJjZW80NExqMVV2dkhHOWJpN1VtU3VUZ29nREdjTzM3eVVQeXVNRHhfMEs5bjNraS1aR3hFRmVENFpQWC1TRXRQSG1qVmhWM2tOTDlkQ0dyMEF5cUxOcTVUY1Rzc01xT0R1d3Nzc2o0TnFFS1ljRmJKM21SQlFoQkVOaGZaWHVUT1dn0gGUAUFVX3lxTE1hVGVkeUIzazJDUk1TYXdhTnBiWWI3Z2FVOU5NNkhGWUJBQ0F6eFo1RkRIZ1JKNWZ4aTUza0EydDM3d0xYcWxSVE5jd2lXU1hZNE5MZlhWM0ZOaVFLQm9LaVBzYTdfMVFQSGN5UzJKaXN3cEw2SGxmV0ZpWGc3N25iWEhkSmZlS3N4cFpXSExYc1FxYm4?oc=5",
+        "published_at": "2026-10-13T12:04:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Trade Between U.S. And China Stabilizing At Reduced Levels - Seeking Alpha",
         "source": "Seeking Alpha",
@@ -110,10 +119,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "UAE condemns Houthi attack on Saudi airport, backs Kingdom’s security measures - アラブニュース",
-        "source": "アラブニュース",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRUc1Zm5ESUV2OTV3dGgwdDhtdnp3QmU5Z3VGWXdpQ1F6ZUp4cTBKY2ppNmFtX01fLVMzRTdjSDNfRWRDenN2QVA3M1NTalhuZ2t2RHFQS2doWVVOdGZBM0RpU2tQNVlILTRTLWdBQ1lDbzVLWHFnWm1aTFhkTlI0UktpTFlxWXBHMGJ5a1lHREZKemxCRmZ0Z2R2UVdWS0RGWjBaX0RmWXROaVBwamttMFZ2Ym5lV1YxN1EtQThvZ3Mzdw?oc=5",
-        "published_at": "2026-10-13T11:36:13+00:00",
+        "title": "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXU0Wi0tVm5aMk5WYWZNYTBlLW9uVktRN2VyRUxPQUpUazM3cXVLRnZNMF9ad01tVWFZUlBRWV9WVU9BOGoxXzdFWWMyQndhclVId3R5VlBIeTBOTF9JbnN4eVdnWThmd19ZWktfYlJwYTdHNkRZaGFtX3Roci12TWR3OE5EVi1ERDhWOHlGSV9XTDRScG9uakVjRlVzTnBpYk0zZWthdHg4SG9tRmVkVkZsWDM?oc=5",
+        "published_at": "2026-10-13T11:46:54+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelenskyy says Ukraine received no intelligence from partners on incoming missile strike on Kyiv - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLU45OWs0Y1BYMTZjSExRQmJSVUtuc1p6Ny0weW8weld3U1Ntd2lyVWRCazRaalhMLXB0ZGZZV1Vpa1RVVV9HTndPUkFmdENlMWFkRXl2cDFMcGR1RlVidVdlMGlFYmwwaWMteDYtNHIzZ2psa29HczdGLTYxdjFJOFBfZnZIZE5qTE01RUQ4aE5uMmQwNFp6elBWMWpsMXc4LU1tSzNLQWh3cVI2VkRFalpfQ2I2WE5uYUdN?oc=5",
+        "published_at": "2026-10-13T11:32:32+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "The Oct. 7 Attack Changed Israel, but Not Its Politics - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFk0YU1EQndRUnJFVHRmeExWZXlnXzZhN0tNMzFCdHg5V25KOFRCYWJwTndvWFcwTjhOVUNOc2JMUWZGaHA0eDJHQWhPNWx1RlFkRlZRUy1BNXJwUkhsQkJXVWRfMVl6YVR2WV9IblBKMl9fZ20zaF9HNUFyNzRCMlpwdlE2b0V1U1duV1FOYzF5YkZuYkE?oc=5",
+        "published_at": "2026-10-13T11:07:28+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -146,15 +173,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Bulgaria seeks NATO help after new drone strikes in Black Sea - Stars and Stripes",
-        "source": "Stars and Stripes",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVkw5dnJJZmgzTF94dnB4SFd1VmZhLXpDaDV3ZW15c2FMNTR5OFdZT0taaXdpb3AtVUY4ZmdGN0Ywek5SaFdYd284RUpjWDhhTXp4RTFoR0pjeWd2ajlRdWhIaUtCNVZleVpiQW8yZ19wLTF4WGN4Z0FDSXQ4NHg3S2VSVnlsZXpYeW4tbEJjNzcyd0EwNnRGZHIyWVdXQQ?oc=5",
-        "published_at": "2026-10-13T10:31:24+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "German government official says the recent EU-China trade agreement is a step in the right direction but does not solve the overall issue of the large deficit - Newsquawk",
         "source": "Newsquawk",
         "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNUGE3WmFTLWREclNBZVdXSGFZYTBkT2VsaWR6QzVhaENTTDc0MkhmUThXejBGSWhjbmVKVXg2LWdORWE3c3VtSjhVblcxUzdLSzd3NG92WDBxTnRZWkkxSnRYd21jYWpOeDc4TnpFSV82QUpnQVRSZzQwZjlxVWdPWXEtdjR2SkJtRzJDSkx6S2o3U192US1xZHo4cjA5ZUZhb0FyeDZFZDNpN3JHNVE5dzZib1FfdHVnT1BNbDlLTGpiOEtFYl9HUWpxNHhhdmkwRG85R01aVEVJR3lhdVlRS2R4d2RmUndsdGcxSmotVVI0WnVITXNNNF9hZDE5ZDVaRUNkZlNvb0dNSnZjMVFhSHNpbWtmM1dWTFR1VXpPaw?oc=5",
@@ -173,15 +191,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "The Oct. 7 Attack Changed Israel, but Not Its Politics - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFk0YU1EQndRUnJFVHRmeExWZXlnXzZhN0tNMzFCdHg5V25KOFRCYWJwTndvWFcwTjhOVUNOc2JMUWZGaHA0eDJHQWhPNWx1RlFkRlZRUy1BNXJwUkhsQkJXVWRfMVl6YVR2WV9IblBKMl9fZ20zaF9HNUFyNzRCMlpwdlE2b0V1U1duV1FOYzF5YkZuYkE?oc=5",
-        "published_at": "2026-10-13T09:03:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Houthi official warns US against entering war in Yemen as Saudis weather attacks - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbmxZQ3hGVHVaZWRiNU9TNjlqdVMxMmY4Z0NLYkZ0N3JQdS02V0pleEdjam9NeG9jZmpNaFlacDJqZkRBSzZSdURpejNrd1RGNVViWjFhQ3FBTkk4S0oxdmJvWklucUVDZEc1N0RXeDQ1dU5JVzBvY3poMGMydFJlOE9yd2x6OEUxMXlTU050RG9PSFJ6ZkRvdUNxaEdrOHE4TWVTRG1TaTRmRkxwQXhrUlZQaVE2NWhfN1hISUJZNGkzamZwN2dnX0tGcm9vY1nSAc8BQVVfeXFMT05fMVlFZTNLelZKRlpyWDNNUWhtYnJpYUFEVmFVdXp4NUdlMTQ2Z3dKV21yM1JpMThVTVpFSENGUDZ4YTBPcHlpa0ZWR0JaRjhYUFhuUkFHR1ZGekt2UWNvX3Y2Yk5WTFhWREFDNXFnbUUxcHhlaHhkWE00S3dMQWoxWXlOVlRjeVFBZzJ0WmFPUzBvXzNfU3JlQ3laSUQtX09NWjRTYjc4anJZSElkYUZxUWwzdjZYaFNLNkNwdFdfcC04ME9nV2lYcjZWckw4?oc=5",
@@ -191,17 +200,8 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike - Seatrade Maritime News",
-        "source": "Seatrade Maritime News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE9tRlhQVUh1WWJWbkhDeDdOeWF6NVhqYlBoRUdORHQ1c0hBemNQQlJ3VVk4RDZIemJKLUZDTDVNc0JNWXhMNzNHem4tRldHaGFPdGsxdk5kakVhYlZON0FuZjVRUl9aVVlUOGdxUUlDNkJ3V0xVc2YtRndpTnBLZThOWEtkS19iYlVJcGZ1VlNYbWlnSlE2WDNMN1hUUGplZndOQ0FxWGZ1cVk3TVRHdGFkVEg?oc=5",
-        "published_at": "2026-10-13T08:50:09+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows - DW.com",
-        "source": "DW.com",
+        "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows - dw.com",
+        "source": "dw.com",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXpoSGxnbGVuMHJnTzZMekxDbVh6S003bDlWLTYtS29OclQtM3duN3lKYjFfd0lrWXFzOUIxUmI4R0JjUktvMXVkTXVSZDBhQ3JWaHQ2MmI3VUJWTTdRRnRXWDMwMGdaMTJ5ZHBCSDlmdzdFU3NoWEdETEw2LUkzRzdJNUlyaW5DNVJ4V1lCaWNYZFFaX0NiS3pVVU1BT2ZxUnlJZXNBcnB5XzBBaW9N0gGvAUFVX3lxTFBoMDJhdkhiQnB0YXdxZTZmajRTT1FhUUYtcXNOWTdxamN0MjBqVkp2MU15U0NwN1c0aHdmVTlLYzhsTXNHSUZhX3g3NEdMMHNOS09GWDNHQXNMb2t5TzgxOV9iV1R6ZHNyXzlHbTFvUlZqbERTc090ZzdCenBkX2lpbmx0Q2V6S0dRNTZmNzhvS2dDUnpiYmJabTJlRVdnUThNOEZVR2V5RzZteWVSVGM?oc=5",
         "published_at": "2026-10-13T08:48:49+00:00",
         "area": "USA / Cina / Taiwan",
@@ -229,6 +229,33 @@
     ],
     "corporate": [
       {
+        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
+        "published_at": "2026-10-13T12:22:30+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Micron Stock Slips as CXMT Advance Hits Chips - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNEtkTm5uYUh2c2FFeVZEd2hqNUYyMXJWY1VENWx2OFRJRXBoOERpRThHa0pKRmg1bFdtMzB6Mjl4ZTFGX2x0Mk1WU1cwajliZFMyTkJLVlhGTnJ0VzlDYVh2WXU5YW9PcE5NaWxTV3k4ZXNQZ282OEpfNWdrSHJmakRlVmlTNVNNSEx6bGxIbVhjUkhua0hvYXVTdFY?oc=5",
+        "published_at": "2026-10-13T12:21:43+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Micron (MU) at 5.8x Earnings: Peak Cycle or Permanent Shift? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUWxRSHV5RmlmUm84NmJfVVgtUmswQ0swQklha1IyUDlQWDdQUkltNTV3WThaYThEeHprb21wY0xodmFleVhXeXV6NEJ3OEZSZncyTTFsUzgtRWt2cmhGYi10VEpvZS1xS1pFSGl1a0hoOWhNTHNpa1hLRm8tU2h5b3pYdUE5NnRFRXRObUk5N3dBZw?oc=5",
+        "published_at": "2026-10-13T12:11:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Guggenheim reiterates Pfizer stock rating ahead of Q3 earnings By Investing.com - Investing.com Canada",
         "source": "Investing.com Canada",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUEVoa2x2aDBFUjhxaDlnMXF3eHBuY3JkWHRkZWQ0XzBEWWhYNl81VDNZbzY5TUViS29WUWs1MnRHMmZPU1k5cTBsbk13RXlpZVJpN0l0eDJwOGlObWE1R0VmNUstUnpIdjNVZmhqR3M1ajFlemItanJqMDJWWDA4Q3poVUVidkFReHMxZy0wRnVvdGRPcnhpczdSNV96MTdFeUxZN21NZ3h0Zm11S1V2ZHJrOC1aMXllREhUS1lxb0U?oc=5",
@@ -238,20 +265,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "H.C. Wainwright reiterates Halozyme stock rating on FDA approval By Investing.com - Investing.com India",
-        "source": "Investing.com India",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRTI0V2pUYXdZNy1XS2JjZnB4dm9lWU52TnFjd3Q0OW96eWhpaU1qYmRvRm92OUZFaElTc0ZNcmlIS3ZXTXU2S3gtWUFmeFBudUxEb0hfUmQ5TnRNQ1lQa2QtcHk4Qk5DS2dveHNTUC1KaHlvQmFEUUg1bnF3TFk0MjNEekVYeERhajJzb2hPLW9mZk5wdm5WNkM1YnVZU0RsaDZhZEZQS0RMVUZCcGRuLUdnLXZtMkR0MDg0NGxyVTU?oc=5",
-        "published_at": "2026-10-13T11:50:46+00:00",
+        "title": "H.C. Wainwright reiterates Halozyme stock rating on FDA approval By Investing.com - Investing.com UK",
+        "source": "Investing.com UK",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcXZjMVdkSnlYRF9HMExYeG56ZmJqWUFVUUZNR0VwdWU5MDJzYnhrX2lDbi16TkV0X3YtWUVtYkZsMkZtSWYwWFpCOXNROC0yWFFZYWRVaXprd0NVcFhFdGliMDFtVDFVODk3Y2xWaFhHUTMzaXQzQkkwX21wdkh1OXdHM3hkOFpDeWlaeVBaaE1CQVNhYjMxT2F4MFQxNE9aXzRXalMtNWNoa2NMQnRzYU42Q0NkR2duMmRQU0RxcTE?oc=5",
+        "published_at": "2026-10-13T11:40:00+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Tech Selloff Deepens as Bank Earnings Fuel Stock Market Rotation - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDBxMVh3eDN5d2lJNllhUGJhOG5PWjU5VTdPUThTbWtYbF9EMzJrQmpDTWIzTFZhSy1seDBpZ2NDWDhUNldaZUFyUy1LOEVFeENxUmZiU3BBQ0NqT2xTeUlEeGVLS3paYkYwUU1yclhxVHlYTTRYZ3VtOGp1UEdncFNQdXVTQXNvWGgzaGdVaTVnaDR3dXprLTc4akg?oc=5",
-        "published_at": "2026-10-13T11:49:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -274,20 +292,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Elon Musk just nailed it on why chip stocks like Micron and Sandisk are being drilled on surprising news out of China - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNE9WZnBVZkhpTW9ibWdjNFlWMFlkeXpuWUY5VDIyaE0tUU54Nnc1aktLODY0RWpxa2NYOVRxRkxzYmNoU0ZydU5qZy1PQ1l0WjlGbmxQaW93MWRDdzZ0aGd5RUN0RGhwMHBRU0R2RnZxSnA0NzZJMlZFcDJiaTFHY3JxYjJqeTh5Zi10eU4za2JHOXRyczhyZXJqVHk3Q0pzWVhWSTAtTjZNSXN2bmxNY0VjUFJuNWxYSjZUNEpOMTI2eEx0UXdNVWJBY1luM1hTVFlRMWEwdHc1cDA0QmJsNGlFWDlyLWVxXzI0ZkVwWGNubEx5UVdLS3AyYmxOdkNwYnVRMGlZa3N2eGFhanc?oc=5",
-        "published_at": "2026-10-13T09:04:47+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
-        "published_at": "2026-10-13T09:03:25+00:00",
-        "area": "Titoli tech e AI",
+        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOai1qN2FwNVBmbF9mZmdmeFNoTGd3VWRkeDBOeXhLRDV1dXd5c0lDZXN1UEVpdjhhdEF1bXVaRzBBZzFYeC1ucEhSUE5qeXd3VnBCdDRidnBGQXdBVGhxV1dpQTVoZURzQW4yZHZUWW5ieWdiY1hlZGZ5ZUNfVWUwV2NBUldsdkk0ZldVcF9RUDJZVkhXaU1z?oc=5",
+        "published_at": "2026-10-13T07:01:59+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -305,15 +314,6 @@
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-13T05:05:18+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "[Vicente LLP Webinar] Psychedelic Medicine After FDA Approval: What Clinics and Investors Need to Know - Vicente LLP",
-        "source": "Vicente LLP",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
-        "published_at": "2026-10-13T00:09:04+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
