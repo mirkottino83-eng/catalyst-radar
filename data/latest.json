@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-13T07:42:32.872965+00:00",
+  "generated_at": "2026-10-13T08:01:36.273311+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.36000061035156,
-    "wti_change_pct": -1.472154133631931,
-    "brent": 105.25,
-    "brent_change_pct": -1.3127065221271383,
+    "wti": 92.06999969482422,
+    "wti_change_pct": -1.7815214497575393,
+    "brent": 105.04000091552734,
+    "brent_change_pct": -1.5096114273949524,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.600000381469727,
-    "vix_change_pct": 2.5641048148890677,
-    "dollar_index": 102.28199768066406,
-    "macro_score": 20.4,
+    "vix": 15.529999732971191,
+    "vix_change_pct": 2.1038770152639996,
+    "dollar_index": 102.31900024414062,
+    "macro_score": 21.3,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.47%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.78%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T07:30:00+00:00",
-      "brent": "2026-10-13T07:32:00+00:00",
+      "wti": "2026-10-13T07:50:00+00:00",
+      "brent": "2026-10-13T07:50:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T07:25:00+00:00"
+      "vix": "2026-10-13T07:45:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T07:42:21.903518+00:00",
+    "updated_at": "2026-10-13T08:01:22.192098+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,17 +65,35 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "U.S. Condemns China’s Sanctions on Belize, Paraguay Ministers Over Taiwan Ties - The China-Global South Project",
+        "source": "The China-Global South Project",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOEg4eUtySEdwLXVEUzAxSnI0eHk2bElpNVkyLWZCUUxuRndzSE8xWVJRcFY0eUFBYUdIV204Z1J1V0xyQVppQkUxQU1pcUFJaThBYWh6cHpHY1I1cmpaanYtV3NRcFRHN3FZSldaZzR3Vk1CZUN4cm9VWHZBLWFjOFpZVUtSdXFBU2JLMFZDNWhzaThfaWdBT3Naakk?oc=5",
+        "published_at": "2026-10-13T07:45:03+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US Backs Taiwan’s Allies After China Sanctions Belize and Paraguay Officials - Modern Diplomacy",
+        "source": "Modern Diplomacy",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYVNRejl6Sm8zcnJCRHU2WlNyQy1nVzU3RkpQTWlBeTBGX2JhT1N4cTBNbzIwS01DOFU4S2d2bXUtaWk3WThpcnlvdjk0REZvTTVyaGVxamFXOTJGNFpGMU5uZDlKRkdpVlpCdlNDMlowc3RjSERZZFZuRTdvQ2ROS3ZHQzdhMDlObHVSLURfbzNjYTVNVE5uYlRoakhkQ2VNU0NzLTdSakdOdHFTTGtFSWZ1cnU?oc=5",
+        "published_at": "2026-10-13T07:40:53+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "NATO fund targets drone defence technologies as Ukraine reshapes priorities - Reuters",
         "source": "Reuters",
@@ -122,15 +140,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Latest Attack By Iran-Aligned Houthi Rebels On Saudi Airport Kills 1, Injures 11 - Radio Free Europe/Radio Liberty",
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "published_at": "2026-10-13T04:19:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54ZkU0elVpRTVVZkFtMGJtbm05b2padDh0eVJVdjBfZk9XNHN0aDBYZV9tU2JTdHlwMnY5VGRSN043MkUxU1RTVEN3Vk1JV1pfRkJkT3ZlZXNQVERBR0pOaHVIeFVPbGRGakNvWmthQ1FsNEtzTlg3cFpn0gF_QVVfeXFMTnBkQlZnZkpDYTRoY2ZaMHlnWWp4eFF5LUNZTTF5ZHNQaFlqem01T3hPUGI1VHBUc0VMdW1mREp4elRwSmEzVFd5NTRuOHNFMTVrelh5cGJwYTlsQ2N0NGhZRk1hZVpxbGV6bzdQVjAwX3JtNnBLVTAwYVQ1NzlSWQ?oc=5",
@@ -158,24 +167,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "AI boom bolstered growth in global trade, benefiting China and India, IMF says - Central Oregon Daily",
-        "source": "Central Oregon Daily",
-        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOS3hHSHdZa0w2d0Y1cmVKNFdIemlhYkxTZFVYN3V4eGJINTRaOU83RldNS2lXVUdTcjBnT2JSQW44anM2Y0VqQnFJMFRrckM2M2l6cm1OYU52amQtLVZBNWN2WkFIbXU1emtsc1dFcm04Q2VkMkFHdm9XOWxsNVMxQTExd1hiZWljdERFOHFsSUY4OWJVUWpWN1dGYlRhYTFRY25rWnNZWTU0allHNFhlc3NYdlVEbGZUZGN6YmZ5LTVuNGRKQUFuMmVmanFEX2Zsb1RHbnJhYlFBZnpRWFNEUDVldnNONGVGM0NYdlJkTlA3M2ppdURKY1ZPYmkzUTlBa214djVn?oc=5",
-        "published_at": "2026-10-13T02:59:29+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AI boom bolstered growth in global trade, benefiting China and India, IMF says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeVFzV2hGZjBlUUFETjhBYmxjM2pPNkFfS0dxTFlKUm5fRnJUQm9sYjBoNGhCNldSX2tlTGxwTWtRbG94cUdYVkhKZkZCZGRabTFtMWhyMHZfUFZmUjcwaUlTRzFCOE04MG81aWtjbHZfNGNsY1Q0M01oOFp3NFE4eFlodW1jd2tsaVNNYTgyUFlwX3d5b1hMaFU3Y19QVFVkYXZ6Q3YzMVYzZlYzV2NnLXNlZnQxREpOXzhVd1BPM2g3QQ?oc=5",
-        "published_at": "2026-10-13T02:57:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike - Seatrade Maritime News",
         "source": "Seatrade Maritime News",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE9tRlhQVUh1WWJWbkhDeDdOeWF6NVhqYlBoRUdORHQ1c0hBemNQQlJ3VVk4RDZIemJKLUZDTDVNc0JNWXhMNzNHem4tRldHaGFPdGsxdk5kakVhYlZON0FuZjVRUl9aVVlUOGdxUUlDNkJ3V0xVc2YtRndpTnBLZThOWEtkS19iYlVJcGZ1VlNYbWlnSlE2WDNMN1hUUGplZndOQ0FxWGZ1cVk3TVRHdGFkVEg?oc=5",
@@ -190,6 +181,15 @@
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOR0NMOUJGYVgxZHZzaGpWYVlsS1FQd3E3OUYxNVVPMjNEVG9zNFRGaHdVYktuSTdoT2hRc1NTSG9nQ0IzVkJZSkZsQjdRS19DTUpNcDlRc2NxZ01HT0V0dnBzeGxDOVNtdkFBQ3ZzcUdLZkh5WDNKUVdHd2hwSDFKQmF1cFo4RVhaeklxWDcwUFBBcDh3THFTUnloUzhNY1d0VmtHZ2ZfRGhMSkJQZXRlaWVZaG9CZ09BNHloTHJ5bG04VlU0NnItTFlrT05RMUdCRERFV005bw?oc=5",
         "published_at": "2026-10-13T01:11:29+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlFmZ0kwWmYtTnNQeVZ5dklfNXNiZlFLRDh6TEZrUEpLYmtFMk1IckdOeHBUb1YyQV9pbXRPeUpib1VXMEV3dHJtYWs5V1BDMnQzM0ZsSTk2cXVFQ0xYbGplWUlUSEhrZlpHbzZTX05xdElackFubFV0YUhudVFFNUo4cVpLazRFaUlINkcySkVVcWJFU3ZIRHVB?oc=5",
+        "published_at": "2026-10-12T22:54:00+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -214,6 +214,15 @@
     ],
     "corporate": [
       {
+        "title": "Advanced Micro Devices (AMD) Rolls Out Helion AI Rack As Custom Chip Pressure Builds - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcFprX0tjenVNRDBjeGdscHZoczV6bEUxbjZwUHktOXlUMXRORm10Xzgzai13ZnhOUC1FcmNfM0VSR1N3dnNDYmpqMEhzUnhWOE02QWtkRWJLVUc5MkRyWE8xV3g1bFVxVG10ckprcnhVNGhUVWlTRnVPaGFvY1drU1RJa1YtNFJhRXdFRkZxTFlaSnlPMWw0bENWd0FJS3pLZEZNNVJSMThKeVJ4MUluNXE1Wm9hLWQ2c1liRk9zZ1VhV0dtWERyRm1ETU1ZRmUta0tXcXVuci1ILUxDLXdB0gHkAUFVX3lxTE1LdGdlb3pfZ05oemRlN2NSZ21BMklzVk9SWC1qYm9HMkJxRTRQUXpPX0ZwdDVqTEVTMHl3WEEwc01rUWVVczR3R0h4aVozdjIxMk9BbWthWmh4V01IYWRRZzFfUGUwVlBvNWJxcUZRdzBkWm95cVhZNGJBWVdqMFhWQWRnZFM5dlpHS1BrZ3lTMmgtWXdHb1lqamVTOGhoZElSaHNyTFd0UGFKcHQ4UFBwTEJCMmw0LXd5TDNoTmlfeDlWb0FvajJiajR1NXNiOUs5Z1VuZEZ0SmplNHNkV0N0T21yTg?oc=5",
+        "published_at": "2026-10-13T07:41:32+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Nvidia AI chip share in China falls as Huawei catches up- Reuters - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZUZsb2dHV3NNb1BsZ1NRcWN3ZlNGVVh5YjNsR3QzS1RqSnZDcFViWEF2eTA0eVdEZkdZVVBnQ2d4SjRIcy1PSk5IQmc1WlhWam9TbnlGTW9hVDd2UTgyNXlZa0NfWUQzeG4tbW5tWUp0cU1TTWxCbk13MVVQSS1Ld3FaNFVscV81UnJrc1lleG9MUEZJ?oc=5",
@@ -227,15 +236,6 @@
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-13T05:05:18+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "new fda approved diabetes drug for weight loss - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWENWZENNMGtSc05kLWNhVjRaSVVMSF8zNy15SzJkRUFHZVF5dE5EZXhpREZPNGN3dkxMOWJ0M0liWXJvM1F4QmZScmhFU3BvQ0RpS3V1MXhQOWZLVi1ucDZJU1RKSWJIU3VJN1hCQmlNT2lYVkdzaFkxR3hQSUtmbnBLREdXUExXSUg4?oc=5",
-        "published_at": "2026-10-13T04:19:05+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -262,7 +262,7 @@
         "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
-        "published_at": "2026-10-13T02:14:02+00:00",
+        "published_at": "2026-10-13T00:15:06+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -273,15 +273,6 @@
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
         "published_at": "2026-10-13T00:09:04+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Intel aims to boost AI turnaround with new GPU chips to take on Nvidia - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR2VrWlNjQkNsTnQ0ekFBelpEWnlPZnYyeVE2X3hlUUI1b0ViRllhSlJscEtRWkZOcndkVHBuOFQ0ei14eGpHbjBYLTFaWHdmQUltcUdvNmFJZUcyTE9sR3UxRk11MkNmVUlHS1RUOXZrN1M5TkhRZlVCRGs0YmFMNlhxMGlhdDZWeGRGd0hPcmsyRi0yUXZWZDJuMmhaTXg5MFEwTlNzM002cmZzc1UxZlduNk1MWm11VVdvcU9wSU02YW9nY3FYWmpn?oc=5",
-        "published_at": "2026-10-12T19:29:16+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -299,6 +290,15 @@
         "source": "TradingView",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmFxdDVtZnFlMUU4NmdyYXpyX005dVZmakJyTDgwT2otUmtKNWJtckZfdFg2TTlSQUVSSGhlTWYwYmlacjIwNk45dnZsTF9lOGtaZ1dlSXVvWXJuakpIaW41a2l5QS12bVBVc2xFR1dyU1k2c3ZWblZBd0JVUVMxR2lYTTBKaW5uR1ZWQmk2TXBuRS1HazZFSC1lSWFlcHBCRlFKS09RNzMzUTY2UGY5cmlFSUxNMFJtQWNDenpReDk?oc=5",
         "published_at": "2026-10-12T17:20:43+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "MRNA, LNTH, BMY, CAPR, RARE Stocks In Focus — These FDA Decisions Could Shape August Trading - Stocktwits",
+        "source": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcENPalFzUF9XZWpRX3p6U3NzRGhGaFFibm1abExONTRHeXV4UFFGZzlxRmpPdVFhVTNzRHNiR2JkbVdMRHBLVnViVFZYYkducXNHZVNFQk9NQWx1THhXQkQyOXpwZnVqYlJwTXJNTjVFMkZlaGMzYlZRWTV0ZHVlQVZfU2dQYjVXMVhGOTJmaEwwVHFpb0U2UnRZMllqRTdnaHR3Vjd3NThmalpNeHp4SE9OeTd2RTl4Q1JFdlNJS0VPYWRsTFljYWEzbHY2dTBhUW5DQUM4YlhhM0xaSXphMXB3ank?oc=5",
+        "published_at": "2026-10-12T16:54:08+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
