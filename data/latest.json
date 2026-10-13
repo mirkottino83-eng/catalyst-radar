@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-13T08:45:20.603427+00:00",
+  "generated_at": "2026-10-13T09:01:54.537110+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 92.05000305175781,
-    "wti_change_pct": -1.8028534782641659,
-    "brent": 105.0199966430664,
-    "brent_change_pct": -1.5283683633300016,
+    "wti": 92.08999633789062,
+    "wti_change_pct": -1.7601894212509128,
+    "brent": 105.12999725341797,
+    "brent_change_pct": -1.4252266767123323,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.40999984741211,
-    "vix_change_pct": 1.3149231345400025,
-    "dollar_index": 102.28500366210938,
-    "macro_score": 22.9,
+    "vix": 15.390000343322754,
+    "vix_change_pct": 1.183433956110047,
+    "dollar_index": 102.32599639892578,
+    "macro_score": 23.1,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.80%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.76%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T08:35:00+00:00",
-      "brent": "2026-10-13T08:35:00+00:00",
+      "wti": "2026-10-13T08:50:00+00:00",
+      "brent": "2026-10-13T08:50:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T08:30:00+00:00"
+      "vix": "2026-10-13T08:45:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,15 +44,15 @@
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnBMR1pPVFFWakIwUmxxQ0RQXzFrY2o4Ym1ZX09hSWxZdk0xeXVRMW9NUEEyQXUwZGFtc3pYUFZBQkc4akhFUUVvdmZsck5OQ2F4NHlaekZXelJaZDdpUGg2cnZEZFpnYU5DbEtMb0YtY0Z2aHhsc2pweGhyVkZWNmFqRkNiLVdWRUF0YXc0TTFGNC1VbG9zbm12c1B3dw?oc=5",
       "published_at": "2026-10-13T05:52:00+00:00",
-      "age_label": "2 h fa",
+      "age_label": "3 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.59,
+      "current_change_pct": 1.31,
       "short_term_change_pct": null,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-13T08:30:00+00:00",
+      "quote_at": "2026-10-13T08:49:31+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 15.3,
+      "quote_age_minutes": 12.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -75,9 +75,38 @@
       }
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": -3.34,
+      "short_term_change_pct": 1.0,
+      "relative_volume": null,
+      "quote_at": "2026-10-13T09:00:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "AMD"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "category": "AI / Cloud",
+      "priority": "high",
+      "satispay_status": "unavailable",
+      "current_change_pct": -3.64,
+      "short_term_change_pct": 0.88,
+      "relative_volume": null,
+      "quote_at": "2026-10-13T09:00:07+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWV"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-13T08:45:09.463772+00:00",
+    "updated_at": "2026-10-13T09:01:42.578089+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -94,14 +123,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
@@ -119,6 +148,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXpoSGxnbGVuMHJnTzZMekxDbVh6S003bDlWLTYtS29OclQtM3duN3lKYjFfd0lrWXFzOUIxUmI4R0JjUktvMXVkTXVSZDBhQ3JWaHQ2MmI3VUJWTTdRRnRXWDMwMGdaMTJ5ZHBCSDlmdzdFU3NoWEdETEw2LUkzRzdJNUlyaW5DNVJ4V1lCaWNYZFFaX0NiS3pVVU1BT2ZxUnlJZXNBcnB5XzBBaW9N?oc=5",
+        "published_at": "2026-10-13T08:48:49+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike - Seatrade Maritime News",
+        "source": "Seatrade Maritime News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE9tRlhQVUh1WWJWbkhDeDdOeWF6NVhqYlBoRUdORHQ1c0hBemNQQlJ3VVk4RDZIemJKLUZDTDVNc0JNWXhMNzNHem4tRldHaGFPdGsxdk5kakVhYlZON0FuZjVRUl9aVVlUOGdxUUlDNkJ3V0xVc2YtRndpTnBLZThOWEtkS19iYlVJcGZ1VlNYbWlnSlE2WDNMN1hUUGplZndOQ0FxWGZ1cVk3TVRHdGFkVEg?oc=5",
+        "published_at": "2026-10-13T08:48:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Bulgaria Summons Russian Envoy Over New Black Sea Drone Attacks - Balkan Insight",
         "source": "Balkan Insight",
@@ -147,6 +194,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEwxZktQOXVmXzgzX24wQ0F2dVVpQXdDS3RUWVBOYTA0aXV1MkJWaWo5RktXeVhSZVdPWGVoNklwUF9WbDdjYXJUTkNMUnpiUmEtNG9qM1lqUi12VktFVTkzeEZCS0Nzb25vNlhHTTl4amx3cV92bTdnQ2hnUTdJZzMzaWlkX0xwUWlKT2JwRXZmeTRDcllDSnpmcXotdUZPc2sxRFF30gGrAUFVX3lxTE1GQ3RSS0pUXzgwNkRDYVZjTkNHbldMbjRVTnBYWmQ1YUx3MlY5V0VBcFVCQTk2bTQ1dTVaTVdEdUM5dWJsYWVsR1ZFYzNGZHF3akRLT3l4OS0yZDFnUHJlQ1NVOEdGcDQyTmM1NGdyUW9aZTZRai0wZEYzQWdMTWVXeWR3SjlUQlhWaEw4X0RGMU9PdmhvQmhTUEtIZW1nTkRLWVhtb3VkaTQ3MA?oc=5",
+        "published_at": "2026-10-13T07:41:09+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "US Backs Taiwan’s Allies After China Sanctions Belize and Paraguay Officials - Modern Diplomacy",
         "source": "Modern Diplomacy",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYVNRejl6Sm8zcnJCRHU2WlNyQy1nVzU3RkpQTWlBeTBGX2JhT1N4cTBNbzIwS01DOFU4S2d2bXUtaWk3WThpcnlvdjk0REZvTTVyaGVxamFXOTJGNFpGMU5uZDlKRkdpVlpCdlNDMlowc3RjSERZZFZuRTdvQ2ROS3ZHQzdhMDlObHVSLURfbzNjYTVNVE5uYlRoakhkQ2VNU0NzLTdSakdOdHFTTGtFSWZ1cnU?oc=5",
@@ -165,6 +221,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Eleven sailors missing after drone sinks ship off Bulgaria - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ0lxazhMY3hqT0E3UUxzMUVWb2d1MUpIQzVReEQtSzI2aGtZQjBBdzNCUEI3SThQZ0J1b3ZjeExrbmFpVnZSZW83MFlrUmhGTF9rWHp0dVVRaW9wWl9vZ25wTHNvZ1RqNkY4ZDIyMmNBTzZlUWxNa3RqdC1ubHV2NTBOdWtFVWltZHhTSV9oVzdEeEdTd2xDY2Zfekcza0ZMQm5ILTFJbw?oc=5",
+        "published_at": "2026-10-13T05:27:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China sanctions officials in Paraguay and Belize over their countries' ties with Taiwan - Ottumwa Courier",
         "source": "Ottumwa Courier",
         "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOYmRScU5QYi1qOGRueVF2Smg4cFp4ZzBKOURYNFN4S2FGTWpKSmY0ZTFhU2dqX0dNS3QwWm9kU1pMN3VURkVNenFHZWlRc2ZhZnBlQmZ3bUhRWjBFNURSclV0bjN2WHFIeXJ5dUM3Y1hKLUgzYlNBMFZPa0lQUGRCLW45d1NzZ19PQmRPQmV2RE1fNkh0Vi1fSmpTeklOSDBhS1dQYlFpRGhfbmZ2Y0FvXzZxVWdoaFFPeEh1T0ZLUFhYWmJtVWl1SVo3WTNRdXBVT1dJakFaaHU1Y3l0bC1lVlM3Wk5XdDNBOTRJX1JpdUVKcVAwOXIxNkhSUGZLcmFEaEZrNnZXZmhWUklxNFotT0RXQkI?oc=5",
@@ -174,19 +239,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China sanctions officials in Paraguay and Belize over their countries’ ties with Taiwan - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX2lxdnRVVWZzV3dRUlRsZ1l1UUp6V1pUdDB5WEJxSERYN2JZWU4zMWVyU19vQnc0R3ZubXZvdnZMb3JFNkN3TlpSaDE0YWlEZGV4bUdCSWFaMUpKU2NJNERTRG5zdTh2V3NhbUk3V25EdHFmc0wyQ3d4YW1NaU53TDVZRFg1eWhSWlY4N191R0kwTXk3WlZtVUVrTm5zWlk?oc=5",
-        "published_at": "2026-10-13T04:32:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi minister vows 'serious response' to Houthi attacks on airports - BBC",
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5",
         "published_at": "2026-10-13T04:30:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Latest Attack By Iran-Aligned Houthi Rebels On Saudi Airport Kills 1, Injures 11 - Radio Free Europe/Radio Liberty",
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "published_at": "2026-10-13T04:19:54+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -217,45 +282,18 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike - Seatrade Maritime News",
-        "source": "Seatrade Maritime News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE9tRlhQVUh1WWJWbkhDeDdOeWF6NVhqYlBoRUdORHQ1c0hBemNQQlJ3VVk4RDZIemJKLUZDTDVNc0JNWXhMNzNHem4tRldHaGFPdGsxdk5kakVhYlZON0FuZjVRUl9aVVlUOGdxUUlDNkJ3V0xVc2YtRndpTnBLZThOWEtkS19iYlVJcGZ1VlNYbWlnSlE2WDNMN1hUUGplZndOQ0FxWGZ1cVk3TVRHdGFkVEg?oc=5",
-        "published_at": "2026-10-13T02:55:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump's Russia deal leaves GOP candidates with a Putin problem - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOVZDbTdjTHE1M3JpM0xVXzdlblZPOXZpTXktVlFlQWdNZDMxSVBuMU9fUUVNQ1dWZmRqYVdyVEpEdnI1cElTdjFNWl8zZTNQdktyWldONnBrUTVqOGp1dUQyM3RuN1psMHdYbFFzNHp6OTFTRFA5MUNRRFYzMnhqU0RnOFY?oc=5",
-        "published_at": "2026-10-13T01:27:46+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlFmZ0kwWmYtTnNQeVZ5dklfNXNiZlFLRDh6TEZrUEpLYmtFMk1IckdOeHBUb1YyQV9pbXRPeUpib1VXMEV3dHJtYWs5V1BDMnQzM0ZsSTk2cXVFQ0xYbGplWUlUSEhrZlpHbzZTX05xdElackFubFV0YUhudVFFNUo4cVpLazRFaUlINkcySkVVcWJFU3ZIRHVB?oc=5",
-        "published_at": "2026-10-12T22:54:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine disputes Trump's claim of energy ceasefire as Russian diesel deal draws fire - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRjdEZ2RyUmxzcnAzT21NZFA0b1FOenpaYVNNSXVVckR2UzNmbkhyT21SemNQZXZURTVfVGsyTW15Mm5aRzJTWTV2UEFSZjlRT3YtRlc3YnFzWklKb0ZWYnY1T1k1UlFsd082RUtsQWVodzJ4ank5RjRrZ21GZTlzX2FkYUlhWUhRb25kSEVIMUdPaC1hc1dxTW9VSHhaUTNaUkVtTE5KS2drMUg3M0tTc3JkMkVQZmhH?oc=5",
-        "published_at": "2026-10-12T22:45:37+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Nvidia’s China AI chip market share falls to 34% as Huawei gains ground: IDC (NVDA:NASDAQ) - Seeking Alpha",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVm9JY1RJX0hYcERmWjVPcW1oUktJejViVE9kZUdNY3ZfVWJndWtrZjFrZnhydk90MmtVOU1DblcwQ2tuRkM4YjVhck1GTmtQRjJRakE5bGRjZmhkS3Z3YkNfNTAtc1lZNWhEdUJQYV9MV0NlbzJjV0lqMzlybk91WGNqUzhIeTE5TTNTN1RRZUtRNFo5ZlpHRjYyXzRYZVdReDZMN3E2R0ZnWlJOdHdFVQ?oc=5",
+        "published_at": "2026-10-13T08:24:56+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Advanced Micro Devices (AMD) Rolls Out Helion AI Rack As Custom Chip Pressure Builds - Simply Wall Street",
         "source": "Simply Wall Street",
@@ -284,6 +322,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Chinese Tech Firms Bought 1 Million Nvidia Gaming Chips This Year. Here’s Where It Shows Up - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTks0Mk9kVnIwN0dIczhkM1NEUVZMeGxOUnpCU0ExZlU2RHFZelNHUTJqcEVyYll1Rm94ZGdqb040akF2bTVnWVhiQzhOUGpUU3hDRUY0MVZxSGM4bWpsWDlyTmZ3dFdoSFZnTEExU0NERDlVRlBoRm5fNE5nOFRLdnZWQmJrdnU2R3Y1MHY0ckVwQldqdlE?oc=5",
+        "published_at": "2026-10-13T05:57:20+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
@@ -302,11 +349,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ2lCcTJZLWVsU3NJWjJRV2xZd0RXM1NtbWNnQUtfb1RsSjlNVmFEWnVxYVJ5Y0pXS0lWV284NlVCWkp2Qy1jbm5na2ZFeE5BYmNlWFVaVGttNElacjE1SGlaeVBOc1J5Z042bUlOS3JPbWpHcloxVDF5X3B2NG5hSEdCcHp0SGswU3d5VWNNWE02bE1KS0VyTVROTlJxUTRFUzNQM3hrbERWWWh5X21pSFg2ajBBOG02cXdzS1UyV09MY0k?oc=5",
-        "published_at": "2026-10-13T02:33:00+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Teva wins FDA approval for monthly schizophrenia injection Weltruza - pharma.economictimes.indiatimes.com",
+        "source": "pharma.economictimes.indiatimes.com",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWUgybFk4Y1pxNnlkV282M1E0MHJVNGtYLUg0MFB0bm5QcllKNE9uV3VzS0NYOHNhRmVvRGU2bEdCLVotRk9ZME85d2Fkd2FKU1dWZ2wybl9ERUNXbnNlRjlMSzV1ZU9JX2YyX3NlejJxZHk4V2JmU3MzaUh1SXd4VU1Za1htSEtfa3k2TmYxNEtMNnN2eFFSNEt3Yl9hTlp5QkYzT1RYRFRDUHJIbUdIWWQ5M0V3alF2X1F5bXBTMWc1TjI2MTM2NHRYTk1CVmJ1NlVPR0dpanN3dzN3NUEzRFY4eVd5eXVOS1HSAe8BQVVfeXFMUEJ2NDZ2UUFtRC1ON001RWp2SGdYU1RCWk1lVnFIRHVGZXJXOEg1RXNSbW5jSmpUZnVvU3J0a0cxTkVDNXhDLVEyYm5TWFR5Y2ozVmdvWDdyalhaVWZveEd1N2tZOVN2c0s1NUtBdWFsVjE2bXNnb0l0UFhKWFFTN0RTZlVCVkFlZU1FM09GV215dnVWeWxhRVhuZXI4ZW5GQWhxMnVXSmU4S0t3ZkgySmRJV29Td0FmTWtKS2RhbHFGSHR2UVhoU3hENDhiVUpYN1hvdXZHc09lM1NyYlJ5THJWRFBwMHY4SkdQdTc1dEk?oc=5",
+        "published_at": "2026-10-13T02:20:45+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -320,28 +367,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
-        "published_at": "2026-10-13T00:15:06+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "[Vicente LLP Webinar] Psychedelic Medicine After FDA Approval: What Clinics and Investors Need to Know - Vicente LLP",
         "source": "Vicente LLP",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
         "published_at": "2026-10-13T00:09:04+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "TEVA Stock Alert: What to Know as Teva Therapeutics' Scores FDA Approval for Schizophrenia Treament - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNk91MHRKMWVYVGxJS21hbWtES09aR0FqZ1lpZUR5ZTU3U2YxME5oMnJ1LXdZVzJBZThGandvdlhISmUzVGI5bmo0RnhWVUZycUI5OFZ0SGhSTng4alpiT1E3VnZhZ0RlVU9pTmNFeFdHTlN1YUpoSUxxOVMwbl9YZzNwUm1oeGs0aFhsYl9aOFM?oc=5",
-        "published_at": "2026-10-12T17:53:58+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
