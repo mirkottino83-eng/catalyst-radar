@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-13T16:05:01.330002+00:00",
+  "updated_at": "2026-10-13T16:26:35.217868+00:00",
   "events": [
     {
       "id": "5451cfb9cbba",
@@ -21,7 +21,11 @@
       "publication_quote_at": "2026-10-13T14:10:00+00:00",
       "pct_at_detection": -0.52,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.1,
+          "price": 225.88,
+          "quote_at": "2026-10-13T16:10:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -48,6 +52,34 @@
         "2": {
           "return_pct": -0.01,
           "price": 225.85091,
+          "quote_at": "2026-10-13T16:00:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "8a68dca8b693",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Nvidia opens up Israeli-founded Run:ai software two years after $800 million acquisition - CTech",
+      "source": "CTech",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9naHJtcFhBNTZCaVVpR1BxZmQxU3RHNi1VazE0czhXc2I1bENlSzhHRk45bTdkOWw0amRfcHg5TVp2WkFTLVpSX0lCYWpnSHZUWm1zNFdiS0lYZTIzODBNLW5hWHQ0cFE?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-13T14:00:00+00:00",
+      "first_seen_at": "2026-10-13T16:26:35.217868+00:00",
+      "estimated_impact_pct": 4.6,
+      "confidence_score": 77.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -0.2,
+      "price_at_publication": 225.875,
+      "publication_quote_at": "2026-10-13T14:00:00+00:00",
+      "pct_at_detection": 0.23,
+      "checkpoints": {
+        "2": {
+          "return_pct": -0.02,
+          "price": 225.83501,
           "quote_at": "2026-10-13T16:00:00+00:00"
         },
         "5": null,
