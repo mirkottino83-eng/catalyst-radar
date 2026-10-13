@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-13T11:17:42.686264+00:00",
+  "generated_at": "2026-10-13T11:39:05.640407+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.240000247955322,
     "treasury_10y_change_bp": -0.3999710083007916,
-    "wti": 91.80000305175781,
-    "wti_change_pct": -2.0695485984873585,
-    "brent": 104.56999969482422,
-    "brent_change_pct": -1.9503064240931733,
+    "wti": 92.06999969482422,
+    "wti_change_pct": -1.7815214497575393,
+    "brent": 104.8499984741211,
+    "brent_change_pct": -1.6877665504027584,
     "nasdaq_level": 27245.902,
     "nasdaq_change_pct": -0.4394766319815391,
     "sox_level": 12236.788,
     "sox_change_pct": -2.669588861656036,
-    "vix": 15.5600004196167,
-    "vix_change_pct": 2.301120187981054,
-    "dollar_index": 102.27100372314453,
-    "macro_score": 20.9,
+    "vix": 15.460000038146973,
+    "vix_change_pct": 1.6436554856870123,
+    "dollar_index": 102.28399658203125,
+    "macro_score": 22.2,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -2.07%.",
+    "summary": "Tech bias strong negative. Nasdaq -0.44%, SOX -2.67%, US10Y 5.24, WTI -1.78%.",
     "quote_times": {
       "treasury_10y": "2026-10-12T18:55:00+00:00",
-      "wti": "2026-10-13T11:05:00+00:00",
-      "brent": "2026-10-13T11:05:00+00:00",
+      "wti": "2026-10-13T11:25:00+00:00",
+      "brent": "2026-10-13T11:25:00+00:00",
       "nasdaq": "2026-10-12T21:15:00+00:00",
       "sox": "2026-10-12T21:15:00+00:00",
-      "vix": "2026-10-13T11:00:00+00:00"
+      "vix": "2026-10-13T11:20:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -46,11 +46,11 @@
       "published_at": "2026-10-13T05:52:00+00:00",
       "age_label": "5 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.65,
-      "short_term_change_pct": 0.15,
+      "current_change_pct": 1.67,
+      "short_term_change_pct": 0.06,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-13T11:15:00+00:00",
+      "quote_at": "2026-10-13T11:36:21+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
       "quote_age_minutes": 2.7,
       "early_signal": false,
@@ -68,16 +68,31 @@
         "catalyst_strength": 74,
         "freshness": 62,
         "volume": 28,
-        "momentum": 52,
-        "macro": 21,
+        "momentum": 51,
+        "macro": 22,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "COIN",
+      "company": "Coinbase",
+      "category": "Crypto / Fintech",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 1.72,
+      "short_term_change_pct": 0.82,
+      "relative_volume": null,
+      "quote_at": "2026-10-13T11:38:43+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "COIN"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-13T11:17:31.174253+00:00",
+    "updated_at": "2026-10-13T11:38:54.067261+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -101,7 +116,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
@@ -115,7 +130,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
@@ -177,7 +192,7 @@
         "title": "The Oct. 7 Attack Changed Israel, but Not Its Politics - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFk0YU1EQndRUnJFVHRmeExWZXlnXzZhN0tNMzFCdHg5V25KOFRCYWJwTndvWFcwTjhOVUNOc2JMUWZGaHA0eDJHQWhPNWx1RlFkRlZRUy1BNXJwUkhsQkJXVWRfMVl6YVR2WV9IblBKMl9fZ20zaF9HNUFyNzRCMlpwdlE2b0V1U1duV1FOYzF5YkZuYkE?oc=5",
-        "published_at": "2026-10-13T09:21:05+00:00",
+        "published_at": "2026-10-13T09:03:39+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -320,6 +335,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbEtnZDk3dlRTcjFhS2M3TU9mQTh5cVJDZFlGMUxGQnA4VFM0cEZvVmtHZE5PUVlBcW5nWFFrMGU4ZU5NeXVxQ2VGWVZocUJtNWtJOVhzSndSYXlOanl0WkZSbFVfZ3p3VDlUeWhWcTJ3aU9wTVp2bmQxemJyS0cxTWhPVUt6OE53cE84Y0l1Zw?oc=5",
+        "published_at": "2026-10-13T05:51:23+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
@@ -333,15 +357,6 @@
         "source": "pharma.economictimes.indiatimes.com",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWUgybFk4Y1pxNnlkV282M1E0MHJVNGtYLUg0MFB0bm5QcllKNE9uV3VzS0NYOHNhRmVvRGU2bEdCLVotRk9ZME85d2Fkd2FKU1dWZ2wybl9ERUNXbnNlRjlMSzV1ZU9JX2YyX3NlejJxZHk4V2JmU3MzaUh1SXd4VU1Za1htSEtfa3k2TmYxNEtMNnN2eFFSNEt3Yl9hTlp5QkYzT1RYRFRDUHJIbUdIWWQ5M0V3alF2X1F5bXBTMWc1TjI2MTM2NHRYTk1CVmJ1NlVPR0dpanN3dzN3NUEzRFY4eVd5eXVOS1HSAe8BQVVfeXFMUEJ2NDZ2UUFtRC1ON001RWp2SGdYU1RCWk1lVnFIRHVGZXJXOEg1RXNSbW5jSmpUZnVvU3J0a0cxTkVDNXhDLVEyYm5TWFR5Y2ozVmdvWDdyalhaVWZveEd1N2tZOVN2c0s1NUtBdWFsVjE2bXNnb0l0UFhKWFFTN0RTZlVCVkFlZU1FM09GV215dnVWeWxhRVhuZXI4ZW5GQWhxMnVXSmU4S0t3ZkgySmRJV29Td0FmTWtKS2RhbHFGSHR2UVhoU3hENDhiVUpYN1hvdXZHc09lM1NyYlJ5THJWRFBwMHY4SkdQdTc1dEk?oc=5",
         "published_at": "2026-10-13T02:20:45+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "[Vicente LLP Webinar] Psychedelic Medicine After FDA Approval: What Clinics and Investors Need to Know - Vicente LLP",
-        "source": "Vicente LLP",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
-        "published_at": "2026-10-13T00:09:04+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
