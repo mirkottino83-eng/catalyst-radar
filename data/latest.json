@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T04:05:50.327887+00:00",
+  "generated_at": "2026-10-14T04:37:14.018633+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.80000305175781,
-    "wti_change_pct": 1.1307928441909754,
-    "brent": 106.37999725341797,
-    "brent_change_pct": -0.2531685593979316,
+    "wti": 94.66000366210938,
+    "wti_change_pct": 0.5523733544002152,
+    "brent": 106.2300033569336,
+    "brent_change_pct": 0.5109290406410061,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.18000030517578,
-    "macro_score": 46.1,
+    "dollar_index": 102.09200286865234,
+    "macro_score": 47.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.13%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.55%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T03:55:00+00:00",
-      "brent": "2026-10-14T03:50:00+00:00",
+      "wti": "2026-10-14T04:25:00+00:00",
+      "brent": "2026-10-14T04:20:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T04:05:39.330807+00:00",
+    "updated_at": "2026-10-14T04:37:02.501229+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,14 +50,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -71,7 +71,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
@@ -83,6 +83,24 @@
     ],
     "geopolitics": [
       {
+        "title": "The not-so-secret vulnerability in Ukraine's drone arsenal? Chinese technology - The Killeen Daily Herald",
+        "source": "The Killeen Daily Herald",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX0hBNkl5YmZNVml4Y1J3ODV2ZGVYVHJMMTJYNV9qam82OGhmX3E2T2NTNFdBREpiQ0ZWR2JyeUtVRDdoTDRWRkJDTlQ0b1hnWm1UYlNQNVZyaXkyc1N4RGZkUjRoek9KRjhsanpEZmFGYUxpazFGSUV6WTRKZ09tOUZKcTBwaWZyZGVOWFNKamMzUlhDWGJ0RW9kV2h5V29UcXhtR1lwclRrNGFXbmhXajlTcUV4bWpuYTA5alUyTWJmVndySnlzUVh1YWUxUEJ1dEZib0t1anJpR1BUS2hzdDZNbjRYRTNrYlpBTXd3?oc=5",
+        "published_at": "2026-10-14T04:09:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade - ClickOnDetroit | WDIV Local 4",
+        "source": "ClickOnDetroit | WDIV Local 4",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeGpNbWJsRjZKNFlVSGcxVS1DdmtoRzR2V0VYelB5MlFZcEl1a3l6NDhseWpaS1VnM0IwZVhWN2hQOE1tN1pYU2NBY2Q5bUpyOE9xYnZjSGtrME1HdlZDalpxLWZveVY1ejJITjNIckdncG5qS3QwM1hhckpKczBLTkVjLXFwUEMzZGlpUHJQSlp3ZjNDLUNJOXExRHRTOEpXd3JSSXpVRUNadzA3dFNaSGs1dmJZVUZHR3VTbUNJZ1NkTUNrY1hWRw?oc=5",
+        "published_at": "2026-10-14T04:04:33+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China’s Exports Soar, Putting Its Trade Surplus on Track for a Record - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOamoyNjV5UDBSSC15UTVfbGh1eG02cHgzRVJxRGpQaVpiWjE2ODZUZkt4bmJUS3F5YjhBdFZkazJvZjNOUHhjc1hZc3BjbXlNdERLY2NoTmFpSlhuS2JPZG5EaWZDc3JBODdPXzlkWWt6Ti1mYW9kVTBsNEpXYWpqRFNn?oc=5",
@@ -92,18 +110,27 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade - KTVN",
-        "source": "KTVN",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZDdjYnROMHdaQlk5Z0dpUmp3aVViVkxPc0N4djB5d1JRSXlJdVlFQzhjemtzd1ZRZndsbk15S1VmcHVFRVlnem9QdmstUzBQaWpxcUo2b3ZzVEljNHZjNlhNSjZGYUpuWks5TThqZ0Fid3U5SDFuSlMtWlZZZDJTSXlkQlFiaDRtUXh4SXlreV9CdUNyOWU4ZVQ2ZGZJam9PQjRSQVYyaVN3dDZFcnlLMEprUnFVOS01STUtSUhuOXJWTUNNVE5remxaVmx2RzFIQjMtemQ3ZXhkeVI4S2RrZ1I0MFZUM3VHXy1aVksyMA?oc=5",
-        "published_at": "2026-10-14T03:31:57+00:00",
+        "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade - Oskaloosa Herald",
+        "source": "Oskaloosa Herald",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWi1leml1R1V5Q2ZPN2tPUFlGUXF5aFJlVTRFNUZIREVjUHJyVnh1eG9TVVBmVFE5TXJJT2NqM0R2c1RZRFFMdHptYWVBNDJHWjhPd2xUSlBmcWR4VUIydnpIaWRGS3djbnNLZHFZNjhYNlNFWlJ3aXZrUGhURkgzUDBKenFYSDhnQ01MSzVYeWNWRk1GVmR2Rzl2LXRLeHotcEdTVTVsNWJ2R1JkNmp1cnJlTjJMcmxwbGVka0dVdnZEbUZwcDVjSjF6enRCZ3lHMklxelBabDN2UzlvUUFraWU4WjNwQU15R2ZpbWc0aHRzVkFFSldzNW1MX21HZw?oc=5",
+        "published_at": "2026-10-14T03:58:56+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade - Ottumwa Courier",
-        "source": "Ottumwa Courier",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQkpKUjJLV29BaGlOaVJZcmVpM3htZzVmQzBaeXRYQU5zcS1WZmppb2tlOGMwdkFydFBZTlI3aGZqMV9ESVNmeGxCcDIxQWpKTUxoNjFNenJ5cHBOY3dMVHhGOF9XVUZJZEEzZnhYSnhQa0d5V3g4WFBLa1VEZE1ZZG84dkNzWXRqbDZoX1Jmc000MFg2RVBBTUN5QzU0NjVUQTJ6SnAtQWp2bGJ4OUMwak5pZnV0Vk9PM0lrMTJ2MUlXLUhjR0JxNTljVTVFZkVFU1JVNUpNTVoydTNhNVNkb3lHYi0wakpLSUJyYUxzZWcxaU9OUkFYei10OVZMdw?oc=5",
+        "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
+        "published_at": "2026-10-14T03:54:41+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade - KTVN",
+        "source": "KTVN",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZDdjYnROMHdaQlk5Z0dpUmp3aVViVkxPc0N4djB5d1JRSXlJdVlFQzhjemtzd1ZRZndsbk15S1VmcHVFRVlnem9QdmstUzBQaWpxcUo2b3ZzVEljNHZjNlhNSjZGYUpuWks5TThqZ0Fid3U5SDFuSlMtWlZZZDJTSXlkQlFiaDRtUXh4SXlreV9CdUNyOWU4ZVQ2ZGZJam9PQjRSQVYyaVN3dDZFcnlLMEprUnFVOS01STUtSUhuOXJWTUNNVE5remxaVmx2RzFIQjMtemQ3ZXhkeVI4S2RrZ1I0MFZUM3VHXy1aVksyMA?oc=5",
         "published_at": "2026-10-14T03:31:57+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
@@ -119,24 +146,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China’s exports surge 36.3% in September as pressure ramps up to rebalance trade - Bozeman Daily Chronicle",
-        "source": "Bozeman Daily Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNYm9QRWcxOUJSblIzMF9heFllajFYc1hOYThTbE1TN3ZLTDVWMUJVWU5lbklWVnZxUGh6UTMxZm9WOFd1RVB6UFlrRWl1QUJPek0yWVhLQ1FycDI4OU9QaTN1RGFpS29BYml2YlVGZDZ2UG13ZC1jby1hM0hYVmRhaWUxdzJhZTVfZHJfUnNGeTJGS1NmdkptLUgwcmFDemNhNGNDWE9ZUDdQamxVVnMtYVNFVkNVTTJNZW15Y0RvaWVSNTkyWDlyXzF5TDN3T21UamZ1WFp1SXU3REVIZVNHQXYzdksySlFhSENJNjluS0xCUnNxR1dOLVpoTUgtcWwyb1JYLUFXZThoVDdnMWc?oc=5",
-        "published_at": "2026-10-14T03:15:57+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
-        "published_at": "2026-10-14T01:56:57+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil rises amid growing Mideast tensions between Iran-backed Houthis and Saudi Arabia - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeS1hMFRGRUNjdFFUaXlPWl9TcnFpSHk4Y05USDF4cUR5cWpCcDhoSFl5ek9kUzVSMlZKaE1KQlhNMENyRXpNWjlKTVFtSWxRVlpxalRrdk02WWZCTy0xaEREZ25fdTBBRE9NZklpczRtQU1XVV80cGs2bXRpU0RyeFRBTGFRT3hqV3p5ejRmV2gxZWZYdnFpQzNLMHIwRE5nN09lanY4eHFGd2_SAbABQVVfeXFMUG12eVo3Ymp4NEV5UDJCZlRlcjRSbjAyVmY1WEFsUXBqZHBlc2pHOXp5emh1OVFzOGFJOGx1cWxiRFFVODI2Tnl1MkxabDh6ZHAtYWZSaV94TmhYaXZQQk80TWdVdEZDNUpFYVRZTWthZThqb2VDYnV3VnVHeXk0dnpfelFGNWtMNTVnYnRwanZKRWUtc1JNLWpPaEljMXM2ZE4zRndJeUt1SWpfSm42amE?oc=5",
@@ -146,28 +155,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Fire breaks out at a Saudi Aramco building targeted in an attack, energy ministry says - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR002VVo0b3ZvU0RXV3V5TWdvX0Jmc1NiQjBDNjljbTVWbFZnQ1hIUm5WTUNHZFZSNlV4WWoxZVBDNFhwZUEzZF9kVUlla0dZOWstVWZQQnA1TGpqeXI4Y05KbkpOay00U3NLYkZxZ1BHQWQ4ay14eEk3bHlfSzBMVzlrd2tuQ1hyaHoteGZSZ0pyYjdvYjB1QlEtOTR1YVNZZnZTRw?oc=5",
-        "published_at": "2026-10-14T01:38:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
         "source": "Mashable",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
         "published_at": "2026-10-14T01:19:22+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Several Republicans vote with Democrats to pass Ukraine aid, Russia sanctions package - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHdrTGxMZUpZTFJQZjRNZU5lVFhJYVNmdEUzYVNCZ09zTkxEMUFJaDJfNGxHOFpNZUNiQk5qQ3JBWG5qeTlLOVp6bzE4YVZpNGtKZ2tUaUV4SFhqLTlYZTBDUzUtOTIwVDBiTVZfNmdlalllemFmMTZhMHdJazhsZFdTc05BdnQ0REtuTUZhbVBSUEFNd0t4NV9iSXhRZVNSazBzZHZTNGVKS1FM0gGyAUFVX3lxTFBWc2NUSVBWYzVyNVF0dVFmV282dHpZY1Y5Snh5ZWppNnEwYzZLYXlHVHpZLW5RbVg3aHhRMlVWTDlCMXRUR0M1WDFEV3R2MV9KUEZzVWhacTVxR1dxQllKWlpuUDBkSE8tSXBMVEhYemF0cDMtbDMzcDhvc3NiLTBxemo3Y1NvV0FFUzBvSEd4c0xDblJLUUc0YkZ5b0JlUGhuMnBnWE43Si11WDlPMmhsOWc?oc=5",
-        "published_at": "2026-10-14T01:11:56+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -185,7 +176,7 @@
         "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5",
-        "published_at": "2026-10-14T00:56:15+00:00",
+        "published_at": "2026-10-14T00:56:29+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -209,6 +200,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Saudi conflict with Houthis escalates with new strikes - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3FLcG5hMEUtNVJFdEhob3IzWW56Q2ZSeUFzR3d0X21MQThoaFA5ZlFybEhlcjJvTXlQcVhISjRLQlM4ZnF2ZGl5ekZiMHg3aC04YVhSeDFEbFI4RzA3M0Zxb3l6UUpmNUV1LXpWbXhibWxucEVRcm94YU9faWVEVHhUdlRDUnF3dkwwNWFmSGNNQQ?oc=5",
+        "published_at": "2026-10-13T22:50:36+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Lawmakers Argue Trump's Russia Diesel Deal 'Violates' the Law. Here's What Legal Experts Say - Time Magazine",
         "source": "Time Magazine",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcjJDOFZveTZzQWowY0ZmNlJFS01kbHpZY3BlVkREdGltal9HakF4Rk8tZkJGVWxGVGtGdlE3RkFCMGQzSkp3Tjk4Y0traUdTRlVRbk5rZlNUTzJNZkp0djFOemY4cmtMN3VJTlQ0TWtRdzBjN0lEb2k5RnFVV2NBSldUUHllaG1aRjFfTTNYcVJtdVVhX2RPaVVhTW5VMFdoQ3BXSUxOSQ?oc=5",
@@ -225,15 +225,6 @@
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-14T00:39:11+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron (MU) Trades at 7x Forward Earnings: Is it a Bargain or a Peak-Cycle Warning? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWExNWXJkR0c2WmZYNFFxZE9HSmY3ZTA0VDIxa1IwOEFXU1dzbW96TU5mRTMtLVJQRlhBaFdvck1ncWdKUU9WS1lxUDZ3LXVYdU5RbjRZbjlUQXhsS2ZCbEZDcF8tRGI4QkJRWjhOMWxBclQ1dGswa2xYcWw5WS1BM3M2a0tVUE9uUFR3X2g4Yk5ONmJBYnFZ?oc=5",
-        "published_at": "2026-10-13T20:42:23+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -283,15 +274,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nebius (NBIS) Has Pricing Power. Its Earnings Don’t Show It Yet. - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTXlqaVVzWUxrYWxzWF9jT0tmQ1NjVG5mb0JwRnFxLU9rVUNnZklqZ1daQzhFSXpZMnlMT2pLZm1zdWFvQ2RFc1Jvek1ydzJLLVduLW5QMG9Sd2kyRzBqYnJaNUY4X2I5YWFzWGpUOThsNWxxRU9mUnpoNXhVTklYRzRUdTRkOUVuT3JoS1NWR1pRUXZxazR5WU1RcDd4QWs?oc=5",
-        "published_at": "2026-10-13T17:45:32+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Does FDA Approval Change The Bull Case For Asahi Kasei (TSE:3407)? - Simply Wall Street",
         "source": "Simply Wall Street",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMlBoZGNoTWFEdTJRT1dQaUp4ZHJlSF9xa3hrU19oZ1Y4bHZMQ012aFBuTE1qbm5qejBYTlV5RV9QMGxVa3pzR3l5M3FvcXNZdVZQVTIwWlJrY2E4elc5RHItV20wLWhuLVRkWmNjUW53TUZld1FqbEp0bmpwcXV3UzlCR2RpZEFWc2NfZ2FlcXNsSjlyQS0wWTJWQTJ2Sm1IMmZ6TGNxSm5YSnFHNWEteUtfY2ZqcWFBZE1melhoYmQwX1lMaS05SnlMbE1VYU800gHWAUFVX3lxTE15cDJrTkhGUUFNNDZud2RtcW1YUU5HRlc1MmExVGxHNGRicUhfeERsSUk3QVBTZ19Da0VCaDEzb0s5TllzdlJNWXZmOXFLbE1Md0t5WXF6MzdmMkFLSjdCaWpsVjYyQk0xeC1LTEhkMnBTMjctVF9icmw3Q0g2OU0zRGpTa2gtZFdkTlYtUjlZVDNSd05WOEZJV1kySXdRMXQzOXJOeHJmdWhnQk1sNFV2a0VCVm91elhobTM1N1RyR1pIRk8tWVJobnZ2eDJUZ1NJUGdRWXc?oc=5",
@@ -305,6 +287,15 @@
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTUyMWwxLUpnYVFUYlNzVS1YS0d5UkpaWXhsbmZ6U08xMmNKUTFSU01rSTRjN0Z4UF9hTG0tajg4TFZqZExYVS1oZkxJWlNFM0hBc2ctbUZBU1htclhwWVB6ajludXpVT3NDZ21YaEk3UExON3ZpZVF3YU1ycDI2MS0tVU1jelR5N3F2emRKT2JDcUE4V3hiUzlxY21SNXBXdHl1YzJWREFfY2I3cWhEa2Z0VQ?oc=5",
         "published_at": "2026-10-13T16:07:12+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Micron (MU) at 5.8x Earnings: Peak Cycle or Permanent Shift? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUWxRSHV5RmlmUm84NmJfVVgtUmswQ0swQklha1IyUDlQWDdQUkltNTV3WThaYThEeHprb21wY0xodmFleVhXeXV6NEJ3OEZSZncyTTFsUzgtRWt2cmhGYi10VEpvZS1xS1pFSGl1a0hoOWhNTHNpa1hLRm8tU2h5b3pYdUE5NnRFRXRObUk5N3dBZw?oc=5",
+        "published_at": "2026-10-13T12:11:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
