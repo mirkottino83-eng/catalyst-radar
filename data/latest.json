@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T00:03:56.002812+00:00",
+  "generated_at": "2026-10-14T00:41:32.359243+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
-    "treasury_10y_change_bp": 0,
-    "wti": 94.86000061035156,
-    "wti_change_pct": 1.1947970686000176,
-    "brent": 106.38999938964844,
-    "brent_change_pct": -0.24379009143040697,
+    "treasury_10y_change_bp": -2.299976348876979,
+    "wti": 94.95999908447266,
+    "wti_change_pct": 1.3014734889114532,
+    "brent": 106.58000183105469,
+    "brent_change_pct": -0.06563496842260097,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.18900299072266,
-    "macro_score": 43.8,
+    "dollar_index": 102.177001953125,
+    "macro_score": 45.8,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.19%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.30%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-13T23:50:00+00:00",
-      "brent": "2026-10-13T23:50:00+00:00",
+      "wti": "2026-10-14T00:30:00+00:00",
+      "brent": "2026-10-14T00:30:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T00:03:43.845425+00:00",
+    "updated_at": "2026-10-14T00:41:21.074570+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -72,10 +72,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       }
     ],
     "geopolitics": [
+      {
+        "title": "Houthis strike Aramco hours after Saudi-led coalition hits Sanaa oil site - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmRBdUZFd2VfLThKOWQ3elR2ZWJzVzFrdDhMMkU2TGlFbnhiR0ZkeVVYOUhhZnNDTFNndHd3azRFZ0lqbG50Z0hlS2tVbkxhRmptNWhVRHJ3aER0WTc4ZXRPSTluRWpjdnVhOEF4bncxU3h6ZTkxSF9OQkduWWxnZTNtOURzQXM5OWRvNWNBUXBEYzlEM0VjR3N0WF9WWDdZU00yd0hR0gGrAUFVX3lxTE9xYjVUdUk4dUhhTmNFYnFCbl9TamRndElPREdPaFM3ZW0zc0NGYjd2aWRlVU1SUGxaS3NsZEY3UDBTaVJaMHZ5YnM2ZmVHNUhmTk9md0xIVzl6WFZTam13bm1iSHpEenFoUkJIcnU4dTBNSnY3NkFLZkhZajdWT2JQRUNCYlh5bWRfTGZJcS1BdEY0VUlCdzlWT1ZnUGQ1Tl9ocEdiUWZOX2Q4RQ?oc=5",
+        "published_at": "2026-10-14T00:33:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Exports to China Languish Despite Beijing Summit, Rival Beef Tariffs - Meatingplace",
         "source": "Meatingplace",
@@ -91,6 +100,24 @@
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hVzV3UHRZa2pmdGZUWWFDa0Y5Y2hoSFRzR1BiWWg0MWF6UUFzS09qLUlqSXlLN2hjdk1YX1RfLVQzUjZBV3NwNTExNzhLX2k2d2NBN2pGd3JYRldaOTNuZVJKYkt1U3M?oc=5",
         "published_at": "2026-10-13T23:48:47+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump-Russia diesel deal faces pushback over supply, impact on gas prices - WBNG",
+        "source": "WBNG",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ2NtTDItQjVUMTRNeG5mNi1tenU1NWdCX09HbE8xaHhWaEhkX0h4X29SWjMxdm1vNUJ0ZlRmY1B0Slh5LXFzV3lFQy1rcWZWdC1RNDg2RExrTXNaS19tZUdOQlNPaGE2MHQzei02Q1IyekE3UnplMklZS3NGVHlKS2dsVlN3bERtRUdlNlVCZDVEVjc4ODYxeUhCdTU4ZVVKcHJRZdIBuAFBVV95cUxPUGp1MXV2TzNPc2dQWWxfaHRYVnYtSDJ1XzBWekdxaGxiN2FEejB0NEFITmZmTEE0MTJKb2RZMVVyQzNsWEJZWURCdlJ4YWUwb05YNC1uSV9JUVBWczFuUTZrZ291S2tFRkVvN2kwVkpXaEdpaHVWa0hJZjlFVERqcGRqSkNSNHMxRTlvekRkWURSdVJ0VE5GOHZlcF85THlRb2lQaXNJMVRuVDlRZmtlZ2ctRW9nd09p?oc=5",
+        "published_at": "2026-10-13T23:44:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran increases threat to Strait of Hormuz shipping, and other Middle East developments - WWLP",
+        "source": "WWLP",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQb3djVEF5ajR2eEhRb0tfNTJvb2Jmdl9NdVNmMWc1WVNVTGctM281Q19CRVpvQU1OZVhOMmp2SVU4a213dXZIbjFxVmV5S28zYjRuQmJuaUhSNEMtM2xsS2RubnVaWWZPcThQOWFKR1IxOWJfcHFsLUVMUXJXUkZjaVRVOUFJdk5pdDg3V081Z3Z3d2N4cjBGSkVCVWgzUS14R05FQjB2X1ZRYWJkTlItR3gxUHYwOXcwVFJreDl1S0dFX3JuNjZEX3F5Q3ZCSWcwX3pWc002Yk4tUHPSAeABQVVfeXFMUHMydnh6LWUwMlBUbEZUeFhOYmY1dDUzYnk4N0luOGk2Z1lHYWNHWDE5dkRWell5NDFDQzN1OUs3RU85ODEyM2tVUU9QSjFjOVcxeFZOa0pzM2RDb0Flek12cjBWdjFtWkt4MHJDTVlMZ0FVdE1WbXNWeWRyMDI0NVUyY2Y5YWl1Qjh4Qm5sOXVHTTBGLVYzM09IQnh5MU82cEZUTlh1emhqR21HYzY2b2x3M0MyeEVSZGYxeldmamZ1cTZLZ2Frc3c4RF9IcTVtbERKTXh0YWx0Q2ctOGxtTUQ?oc=5",
+        "published_at": "2026-10-13T23:29:11+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -140,38 +167,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthis Threaten Fierce Retaliation After Saudi Arabia Strikes Yemen - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU3pkeWVKbkJTNzlPNTliZmtPZ0htLWltcF9ubmp0VkhEX2lJRmhfSHNGaHdENkZSdUxlcVd0Tkg3dmMzZ2RCLWswVUFNREhUNV9zQVduYnE3OVlOejljbkIzcFh6OXF1VGlQdXAxREpBS001MVN0TmJrSU52WV81SkMxeGkwVGZFaGluNlYyVndXZGhlX0VjTzFvbnpfZw?oc=5",
-        "published_at": "2026-10-13T21:30:53+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
         "source": "Mashable",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
         "published_at": "2026-10-13T21:19:22+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US Defends Paraguay and Belize After China Imposes Sanctions Over Taiwan Ties: 'We Stand With Our Friends' - Latin Times",
-        "source": "Latin Times",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbTd5U19HRnp1dUhkb2hqaV9wcmV3YkIyMEhONWc3YzVscG9SdWQtS01pX0JOV2NQVDZ2QzhQRHFrMlE5eVVrbFNuNmV2TVRnM29nUnI4bXNmVWd2SThXS1pISVZ1S1dVNW9PdTBHWXRld0tzekpSRERiUjZhM0NMYm5WNnVsZHVhS2FQNU9iWnVEX2JqUHdCVVhEX3M4VHl4UjBiXy04a2ZwR0w5blZMbW5PZnFIbGV1UmdRZTFCbHAweDRwZndB?oc=5",
-        "published_at": "2026-10-13T21:10:30+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Aramco Headquarters Hit During Houthi Attack on Saudi Arabia - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZW5UZm9rTkVDR01LTzZFcTQ0MUprS3hKLTdHaWtXQkVUQzdOSzNJUWJxRlQ3WkpnbUl0TzZlMWg2eVI1bzJidmpzQnFlaC1VcVRpS1FaN0tvZENEeS1LMUVPVmFaM3o0cEI2bkx6bGhMZ1c4WXliLTg3c0djRjgwUU9YWTE5d3F5dFlVV3hlWXh4clk0eUZNWGczUnhUbmtsbElkR2ExNEFqcVRKUEJwT053?oc=5",
-        "published_at": "2026-10-13T20:32:12+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -194,19 +194,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "'Gift to our adversary': More Republicans criticize Trump's Russia diesel deal - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUViSHdiMmpBMGUwOVNDWXE1bHJqRzRmMUFMT3hUeWlESnVJWHNZeVk0eTIySW1IM3VvTnhqSEFjTHdVOUhGbUptNWJSSk9GcnpSYU0wVjk2QzVuLWxBY25nQnc0cm9DbmJ3c0E2dTJIeC01RXV1QkpXZmlJb3dyWTFlODdPRFNhVEkyZUZOemJMUTZJZjVwRkRRRGpDNGVERTA4LVNXeWFkdlRBRkQ3ZXdweXMzazh4WUNB?oc=5",
-        "published_at": "2026-10-13T20:02:36+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Pork Tariffs: China Hits U.S. Exports - Opportimes",
         "source": "Opportimes",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYWWdkcXlXaHZDOE9HTW5VaWNZMXU3UXcwbHFBWDU4R05XZEZlbElxQ0M4dmdQTUVlSXBsc0ZwSEpRZTY3S1dsay1hZk1yWS1ud3luMlhBOXVHd3B2Nml6d284b3lXaTNFRmdDR3B5WkFDVmpr?oc=5",
         "published_at": "2026-10-13T18:36:49+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How Maroš Šefčovič talked his way to a China trade breakthrough - POLITICO.eu",
+        "source": "POLITICO.eu",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSUNpd0YyaTNBb0F4UDg1NzNEN0daX0NXRW5OeHRMTkx2VFBkcmdmeFkxSU1ieWFhdGNnMGlIcmFYbjVaODgzQk1kOHQwcHN4QzMwVFB6dm1ibGdLYy0ycnFLTm81bDQ2dDRyMl9CTHcxdDZEU3ljQm5WZk9NcERyc0NPNDk2cW5HYU40akdqMnlMZExYVnF0eDN6VUU?oc=5",
+        "published_at": "2026-10-13T17:43:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
