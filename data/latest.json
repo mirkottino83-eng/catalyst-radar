@@ -1,83 +1,40 @@
 {
-  "generated_at": "2026-10-14T10:36:34.023640+00:00",
+  "generated_at": "2026-10-14T11:06:48.644231+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 95.30000305175781,
-    "wti_change_pct": 1.2322112488104997,
-    "brent": 106.5,
-    "brent_change_pct": 0.766389951635027,
+    "wti": 95.44000244140625,
+    "wti_change_pct": 1.3809252816935569,
+    "brent": 106.48999786376953,
+    "brent_change_pct": 0.7569262975528845,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
-    "vix": 15.220000267028809,
-    "vix_change_pct": -0.32744066297287766,
-    "dollar_index": 102.23500061035156,
-    "macro_score": 46.7,
+    "vix": 15.319999694824219,
+    "vix_change_pct": 0.32743441756168945,
+    "dollar_index": 102.25,
+    "macro_score": 45.7,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.23%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.38%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T10:25:00+00:00",
-      "brent": "2026-10-14T10:25:00+00:00",
+      "wti": "2026-10-14T10:55:00+00:00",
+      "brent": "2026-10-14T10:55:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
-      "vix": "2026-10-14T10:20:00+00:00"
+      "vix": "2026-10-14T10:50:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "3571c17618da",
-      "ticker": "AMD",
-      "company": "Advanced Micro Devices",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "JD Industrial Strikes Strategic Partnership with AMD to Push Industrial AI Terminals - BigGo Finance",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NZVZNWFBuVEx2cndYWHdZb2N2OHRhUjgyWnNJeThSV0ppZlZiRGJFQXJtOTJYVHpxWnJkdXVMdGgyb3RCWXoxMTRhMGExQ0ZWcktBcUowbVlEWEhaTG1tSi13aktDTEtNLUJzMjAxNkVMak9jcXc?oc=5",
-      "published_at": "2026-10-14T10:05:00+00:00",
-      "age_label": "31 min fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": 1.27,
-      "short_term_change_pct": 0.48,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-14T10:30:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 6.5,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 64.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-14T10:05:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "AMD",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 74,
-        "freshness": 90,
-        "volume": 28,
-        "momentum": 56,
-        "macro": 47,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T10:36:21.256897+00:00",
+    "updated_at": "2026-10-14T11:06:37.152718+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,21 +44,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
@@ -115,10 +72,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 9
       }
     ],
     "geopolitics": [
+      {
+        "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line operations - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxQ2dNaDItdmx5VHFaSFYwaGtCTW5LNWdWdkEtVE1DYVZKN1IzcHQyeEl4dUJnUkZQS0hBTGx2aUdFZmZjRHRKekdibjB5b0FqN3BvWERKNlNzLTA?oc=5",
+        "published_at": "2026-10-14T10:04:28+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Allies Warn Ukraine of Delayed Missile Waves, Air Force Says - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mRWlGYVJrQWdPOVZ5WURvXzI2Z21aRXFOOTlmU3JRNWM4cW84YnhtekplcG1aVVFRUzlZT0hwaXJMdWdjVmpRUGQ5UQ?oc=5",
+        "published_at": "2026-10-14T10:03:15+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
         "source": "DW.com",
@@ -165,9 +140,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran increases threat to Strait of Hormuz shipping - Northwest Arkansas Democrat-Gazette",
-        "source": "Northwest Arkansas Democrat-Gazette",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcWJFZnRBVndCQzR2cHlJRWxvRF9zMjg1Mlk2RmtESGo0empLd293X0s3TE15dFN4T1JYZkE4Y0hTZHF1cmhaek5ObkNCRXNtcGwzRXNqWlFwUnhGQmdmc1AtVHhUSklKd0VjaUk1OUtWMVRZdzN5RHpDY0dLdDRNbWNlVEdFODJwZmJGbUZ3WG9IZ0gxTS1qVUVR?oc=5",
+        "title": "Iran increases threat to Strait of Hormuz shipping - The Arkansas Democrat-Gazette",
+        "source": "The Arkansas Democrat-Gazette",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSzFUQnd4V1k3R1ZCTG96em9QMTZCQnY1elpkeEhxVm1aZWRpMEdFU0otcjdKU0h6SWFFRnlkYVpqcnZ3UG4tM09fckE5T0lULXU5Q1UzQVJ1dDQ0UkdXNjJSSUFwdUk1LTlDbGFfWkZNMmZFQUJCa3JrY1M4Z21YM2JXSV9XZ0VTblFtNkNWLUhsd3FXX05Rb2d3UWU4eWhy?oc=5",
         "published_at": "2026-10-14T09:10:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -219,33 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia's Novatek says Q3 gas output up 4.9% - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2s2V1ZHWmdlVWxGRHRaYnkxeUdwSi1QOEo5U2Rsa3p2ODJON3ZRTmkzM3N0RVNxVkM0c0c4cjVUVGw1d2NlMU1Rc0J0aW1aVzhqaEs3eU5mcURtcFpYWGlmLVc1Z1Y3Snd2dzZzRVpabVZUckFUdmpWMEZUaWZOWW13OWg2M3Y1ZUpqbVRJcHNyX0dzOWxV?oc=5",
-        "published_at": "2026-10-14T07:33:43+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian strikes leave 600,000 without power in Ukraine, Zelensky says - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxQ2dNaDItdmx5VHFaSFYwaGtCTW5LNWdWdkEtVE1DYVZKN1IzcHQyeEl4dUJnUkZQS0hBTGx2aUdFZmZjRHRKekdibjB5b0FqN3BvWERKNlNzLTA?oc=5",
-        "published_at": "2026-10-14T07:21:50+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "‘Massive’ Russian attack on Ukraine kills at least six, cuts power in Kyiv - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR255TWFCcWE0UHZFUTlzMlNtZVNKOUhDanV1eFNHMDVDZ2F6ZVVaZlA3QUtNTVB2RXJKZTdqRGJSaldhU0lVWVRESzRtZ3hYbVZJNnY1R3hxdElwV0RwX2w2R2JJSk95aGFqM21lQmJTTFhqR0NMLWQ0ZEpPWnVYOWNFWW1XU2NfNGRiaURZSlBKYUdaeGNnc3BwZ0wxelN4QUlILVpqSXdLbjZ5T0daem9Bb9IBuAFBVV95cUxOTkctWElMd3BpWDhKMm8yQ2lXLWgxWFE3TTFtV05zdVUwQV9PRjlFSGIwSUhzVnpnRng5NWFBWjRZQS1MZ1hfYzVLOVZaLVVacGxRclJpOVQ3bDRNSWt1OTZ1a1dhOTZkTnlrWXVHMHRtT1BzQ1RqTGhCcGZVQWloZUhkUXNZOWZWcG5JU21ibk5ZMEpDWTI4aEdOR25TVEhsS2liVkRDbTFpdGtwSEFEQTA0RjlzUFZD?oc=5",
-        "published_at": "2026-10-14T07:16:20+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Watch China's Trade Surplus Nears $1T as Exports Surge - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1NjQkdmT0YzSENjR29WdG44U2JHN1JpdzFYN2JWR2pPbjRQLXpMRzFxdm96ZnJfdFJEYWV5OUNfT3gxUHZDSjEyZkJBWlFleHR6QTVWZTlBUXlMTnA3S0RvbGs0V3hvYVZZbjNsNHowaHl0QklXVHFuQU9ScEFoa20tZzMtSkk?oc=5",
@@ -253,14 +201,23 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine launches major drone attack again on Russia - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTVOcEU1NHNfcVBOTXV2VHNGUGpKNnltdGFvMG5ZSUxpTVkwSXo1YUVJa2FNdUI4VDIyUEZtcEJLV2VSTTVTNzJBS0JWd2E2ODlEalZNdmdXUWZsdmQ3dnlsWGxSRkM4QS0wYlZrUTYxTDFKNUt5b3AxQUNLSmZ6SEpGOXhuREk4MUJIUXNiTXc5RW44Q29JQlNMWdIBoAFBVV95cUxPbExNUG1BUWxQMnU5SFZ6VENZOGdTQUtVcjl0VllxMUNHcjBiWjhMTWpHdVNRQ0FvODhrUFQxdTZYOTBOYkpwbWpTdFhBVDZJMTJMSGE5MTE0X0Q3MzA2Umd2MWRQdHNEckJrTDEtWjJQMy1URDNGZjI0XzZxR1ZtUjdhS1BNUEc1Z1ZDb0pXdEs5clVlNktWSUpCOUVSTlJR?oc=5",
+        "published_at": "2026-10-14T05:29:19+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
         "title": "Pfizer (PFE) Signs Sec61 Drug Discovery Deal With A Research Partner - Simply Wall Street",
         "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQakJoX1FlOU14VDNJWVVNbDQxZXBseVVSTnNKZm1DMGpyaTV1dGYzcGZBdkZEY19VYlU5UTltMVJ6dkZiVkg0Z0hld1ItS1hZYWdZc1hfV2N1Ym02N3FpWmFZZGI4MFpEbFJNSjVPckFWTXlrbThELUo3anVRclhzRGNqenQ0RHN5eEZyR2tXLWZvdXZGN2kwaERRU1pwbWRFVHFEdmZUVktzVjhmMUNiZ1hLZlNCZTNqQk1HaVoteXh0eTA5OXhjVGhXZlc0eHlTWk1F0gHYAUFVX3lxTE9jMDF5dkdDcjgzTnBueEVkcXNpWHFKVkxDMWxKN080SzJlR1VzWU1uMDNhR2VBZlh1OXRBUmg4WUhfeEdiZG1ROUNaZ0hfZ18ybW5PMUVqQmZwbE1iNTdhVGtENVo4YWdxeTlIeGFXamoxNUVNSFBBX2dIcTZLWDhJb2NpWU1keDRmdGRZWDF1Z1VTT2EwWmlHS1ZYNkpoMzZIbW1qbUtuckV4STZYQWJ0UExIMERpOFVlSGZ2cnFMMERjMFhNSFM0cTNUZTlnM3Z4Qi1nV1pUOQ?oc=5",
-        "published_at": "2026-10-14T09:38:10+00:00",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYzAxeXZHQ3I4M05wbnhFZHFzaVhxSlZMQzFsSjdPNEsyZUdVc1lNbjAzYUdlQWZYdTl0QVJoOFlIX3hHYmRtUTlDWmdIX2dfMm1uTzFFakJmcGxNYjU3YVRrRDVaOGFncXk5SHhhV2pqMTVFTUhQQV9nSHE2S1g4SW9jaVlNZHg0ZnRkWVgxdWdVU09hMFppR0tWWDZKaDM2SG1tam1LbnJFeEk2WEFidFBMSDBEaThVZUhmdnJxTDBEYzBYTUhTNHEzVGU5ZzN2eEItZ1daVDnSAdgBQVVfeXFMT2MwMXl2R0NyODNOcG54RWRxc2lYcUpWTEMxbEo3TzRLMmVHVXNZTW4wM2FHZUFmWHU5dEFSaDhZSF94R2JkbVE5Q1pnSF9nXzJtbk8xRWpCZnBsTWI1N2FUa0Q1WjhhZ3F5OUh4YVdqajE1RU1IUEFfZ0hxNktYOElvY2lZTWR4NGZ0ZFlYMXVnVVNPYTBaaUdLVlg2SmgzNkhtbWptS25yRXhJNlhBYnRQTEgwRGk4VWVIZnZycUwwRGMwWE1IUzRxM1RlOWczdnhCLWdXWlQ5?oc=5",
+        "published_at": "2026-10-14T09:38:11+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -280,15 +237,6 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTUyMWwxLUpnYVFUYlNzVS1YS0d5UkpaWXhsbmZ6U08xMmNKUTFSU01rSTRjN0Z4UF9hTG0tajg4TFZqZExYVS1oZkxJWlNFM0hBc2ctbUZBU1htclhwWVB6ajludXpVT3NDZ21YaEk3UExON3ZpZVF3YU1ycDI2MS0tVU1jelR5N3F2emRKT2JDcUE4V3hiUzlxY21SNXBXdHl1YzJWREFfY2I3cWhEa2Z0VQ?oc=5",
         "published_at": "2026-10-13T20:15:31+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer (PFE) Pays Out Over 226% of Earnings and Trades at 36.7x Trailing Against 9.8 Forward. What Is the Yield Telling You? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeHRIXzk5cW9ZUlJSWVFwUjA3SUx6a1dmNFdWdlVrVUR1S1RkVE93YzNWcU1mbE94TXpIQmJmZU1IaUJaekM0OFQ3VXlid0RRa2Y1X1lYRm94cjZkWE15b3p4WWxxNmFuVnhSaWNXbEFObXhvemp5RGZyQVVwVmRodDQ5R0hRekRBaURiSkpNekVSZGM?oc=5",
-        "published_at": "2026-10-13T19:01:16+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -320,10 +268,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Does FDA Approval Change The Bull Case For Asahi Kasei (TSE:3407)? - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMlBoZGNoTWFEdTJRT1dQaUp4ZHJlSF9xa3hrU19oZ1Y4bHZMQ012aFBuTE1qbm5qejBYTlV5RV9QMGxVa3pzR3l5M3FvcXNZdVZQVTIwWlJrY2E4elc5RHItV20wLWhuLVRkWmNjUW53TUZld1FqbEp0bmpwcXV3UzlCR2RpZEFWc2NfZ2FlcXNsSjlyQS0wWTJWQTJ2Sm1IMmZ6TGNxSm5YSnFHNWEteUtfY2ZqcWFBZE1melhoYmQwX1lMaS05SnlMbE1VYU800gHWAUFVX3lxTE15cDJrTkhGUUFNNDZud2RtcW1YUU5HRlc1MmExVGxHNGRicUhfeERsSUk3QVBTZ19Da0VCaDEzb0s5TllzdlJNWXZmOXFLbE1Md0t5WXF6MzdmMkFLSjdCaWpsVjYyQk0xeC1LTEhkMnBTMjctVF9icmw3Q0g2OU0zRGpTa2gtZFdkTlYtUjlZVDNSd05WOEZJV1kySXdRMXQzOXJOeHJmdWhnQk1sNFV2a0VCVm91elhobTM1N1RyR1pIRk8tWVJobnZ2eDJUZ1NJUGdRWXc?oc=5",
-        "published_at": "2026-10-13T17:31:49+00:00",
+        "title": "Thrombectomy System, Blood Return System Get FDA Approval - Diagnostic and Interventional Cardiology",
+        "source": "Diagnostic and Interventional Cardiology",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXpVdXMwVktOVFEzNUtGTWFSb296ODFpNTVoRXc2Q2c1T0VqR013S09CUHBRQ21OSnlzZmFIQjhOQ3RRSnctbFc5Y0c2ZC12eGJZTHRTeTg3b29BRXdQczRXYU5MMUhCNkE5enZsdWg4X0J2b01qcmZ1Ty1UQ1hoNE1kQURyMTFXRFdwcmZENXRlVlRCa1JoZA?oc=5",
+        "published_at": "2026-10-13T16:24:36+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pfizer: The Earnings Test That Matters (NYSE:PFE) - Seeking Alpha",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQkVfWE02eDM5T2t5Sl9NWkJBVGxmTnZHUE5wVTZvLWMzaHBlTlVUQmdDd0Z1V1ZUS3U5UXFOcDJ4R0JwNmVqRERJLU1NZjhnN2stbU0wSXBRX0dvTFlaeFF5UEYxbWFUZlBKNGszVUMzVTV4bHZ2aVR5X1doUzl5TFJFa2s?oc=5",
+        "published_at": "2026-10-13T13:26:26+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
