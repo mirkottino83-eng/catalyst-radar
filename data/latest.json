@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-14T09:01:23.912200+00:00",
+  "generated_at": "2026-10-14T09:33:10.402412+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.51000213623047,
-    "wti_change_pct": 0.3930345750806419,
-    "brent": 105.83000183105469,
-    "brent_change_pct": 0.13246228253807057,
+    "wti": 94.19999694824219,
+    "wti_change_pct": 0.06373227000504578,
+    "brent": 105.4000015258789,
+    "brent_change_pct": -0.2743882191583058,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
-    "vix": 15.220000267028809,
-    "vix_change_pct": -0.32744066297287766,
-    "dollar_index": 102.22200012207031,
-    "macro_score": 48.4,
+    "vix": 15.180000305175781,
+    "vix_change_pct": -0.5893919442689466,
+    "dollar_index": 102.21499633789062,
+    "macro_score": 49.0,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.39%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.06%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T08:50:00+00:00",
-      "brent": "2026-10-14T08:50:00+00:00",
+      "wti": "2026-10-14T09:20:00+00:00",
+      "brent": "2026-10-14T09:20:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
-      "vix": "2026-10-14T08:45:00+00:00"
+      "vix": "2026-10-14T09:15:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T09:01:11.827861+00:00",
+    "updated_at": "2026-10-14T09:33:00.123331+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,10 +77,46 @@
     ],
     "geopolitics": [
       {
+        "title": "Iran Expands Shipping Attacks as Houthi Missiles Hit Saudi Arabia and US Weighs Renewed Strikes - The Media Line",
+        "source": "The Media Line",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZUdHWUdnVHN5dGNLeGhZLU9TWnFzUjFyeTMzLXIwRUhVdXpXN21vVE9CcGhibHBvLU5nbVdUUklBdm0xVldIeUhqbnFoam84eTR5N2FZMzhXdXA5RzVRcWUwbEZOcmtNaWVVbF9xckpOWVBDRmd5ejF0SkR6ODUxYVYxT1VXdnUzVHU4RS1SbmVEd1RuUEliNl9OQTZiMFRiamxqUkxneWM1MW82ODhXSEVwZkg4VUEwOE9xZzRORG9GSjBFeWJ1Mm9uQTFrS1ZmN18zLUViSQ?oc=5",
+        "published_at": "2026-10-14T09:14:26+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran increases threat to Strait of Hormuz shipping - The Arkansas Democrat-Gazette",
+        "source": "The Arkansas Democrat-Gazette",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSzFUQnd4V1k3R1ZCTG96em9QMTZCQnY1elpkeEhxVm1aZWRpMEdFU0otcjdKU0h6SWFFRnlkYVpqcnZ3UG4tM09fckE5T0lULXU5Q1UzQVJ1dDQ0UkdXNjJSSUFwdUk1LTlDbGFfWkZNMmZFQUJCa3JrY1M4Z21YM2JXSV9XZ0VTblFtNkNWLUhsd3FXX05Rb2d3UWU4eWhy?oc=5",
+        "published_at": "2026-10-14T09:10:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s exports surge amid AI-driven demand - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zMWNrREl6T29hdzJEWVI1eGM1Q1BRUE01V09fYWhsRm10b0pyY1VYd0x6aG8yM2FwVjNjQ3NENTFwUUZHZWRWQnRQdkQ2d1Nua05kNWE4SzI3bWhMZjhzb0FwcnplSjFnQ0VOX0l0XzAyZXBE0gF6QVVfeXFMTjN5dXJmR2oxODVtNE5wR0FFbTRvNnBTZmNrVU1PVUVHZVZqRGFvTzhlRDZJdnRuYXFmd01nd1phV1NMb0JySnNfMmNtN2hIaFNGeDlLY19XN19lWW1WRlpPS1BpdlFibzVmMW1WNk95N1pfbVYzVEVsTHc?oc=5",
+        "published_at": "2026-10-14T09:05:39+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "US market regulator appointee halted probe into oil trading ahead of Iran strike reversal: Report - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdXZLVWtiUUt6SWRNY3JjbktEQnZXS082N2ZqNXlmTlZSWnI5S3FrU3ZmbmN1RmtMWnJPVkpTOW5hVlhiVUxSUVM3S0x1YllvQXMwWEpwbXZBOXRQY1B3dGVnYnVpSWV4N20zdWdid0xrdjg0Rm95UHU3c0VFTFQ5YnpzTkVOUGYtMG1tUmdqdG9MRUN2akFlcWVIUmV2LWRrT2w1TmJPaWpYV0gzd1ppZzlud2Zpc2hyQ29kOWxNOE9OSTk2d0g5cnd4YlBrMkE?oc=5",
         "published_at": "2026-10-14T08:46:34+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How do Iranians move money abroad to avoid US sanctions? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ2FTWFZtUnRrQlJZdEd2dGZraWo5SXdkZnptUjQ3TFJLblJOVkFLRDRrbGgyZ0dQRkEtTG40M2lEWUdqVDNGREpMZFRVZGFkTVIwMG1yclVWWnE1UjZpbDBuUHNubTJRVm83cDRGYVk5V0NlTTRxZFJTdlhmRHBZcG5hOTNlSkJ1Yl9aM2xRWFpCTzJjczV4Ym4wUWZnd9IBowFBVV95cUxOVERJM0JGcjlvSFBoX2RjUGZYczQ4dlBqWVAyajRhM3VUcDkxM0l3dEFLX2tjOTc4b3FSX1c2OGp4dS1Cb1prMFctU2dWN3pGWmVCMGdFc2NKWGZyWXk5dnJfdTRBS3Z2UWpheFl4OHBVNEQyVjBsek9odkRYdzdmbmtSc0F2WlZxc1ZTbGZfZGl5ZVlhNzFoM0c3eTl3bVZCQlpJ?oc=5",
+        "published_at": "2026-10-14T08:29:54+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -113,15 +149,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi Strike Hits Building at Saudi Aramco Headquarters - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUVrZjZFRVVJejMtQVh3OUE1MmtBdk9Ed1JTZ1JyV1B6UlFITDVCUVVIcGlpUEhZMDdrQzVaeDN6TnFjNVNSSVNMUS03V005UXhSNEYzaXZIZmo2WENzU2hMdVBtWjJ6YUlfTFE0VUdyWU9tcW9YRFMwdVBVc3YxYWpkcUQyTHllTnR2WUFESHRZNF9DeVhveVpRbjRMQXNVdkFFck1B?oc=5",
-        "published_at": "2026-10-14T07:59:33+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia's Novatek says Q3 gas output up 4.9% - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2s2V1ZHWmdlVWxGRHRaYnkxeUdwSi1QOEo5U2Rsa3p2ODJON3ZRTmkzM3N0RVNxVkM0c0c4cjVUVGw1d2NlMU1Rc0J0aW1aVzhqaEs3eU5mcURtcFpYWGlmLVc1Z1Y3Snd2dzZzRVpabVZUckFUdmpWMEZUaWZOWW13OWg2M3Y1ZUpqbVRJcHNyX0dzOWxV?oc=5",
@@ -131,11 +158,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Watch Saudi Aramco Headquarters Hit in Houthi Attack as Iran Escalates Hormuz Ship Strikes - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR3VXWi14eGtSd09mdkhVelY4dC1MMXRIM2Q1NDdZNDFqdWFPOFpUTVVETktVWnpKYlI0OEZTZU8tUmRoVG5DWGlQUmJ2cy1zc3BIbnhNVTNlSzR0aDhYVHRvdk9JUmZfNGV4b0hxdjdNcEtTYVhZUnVFUmRKZHdSaWhrcHZlV2ZmSkh1TzdLT01aQkNWeGlOSQ?oc=5",
-        "published_at": "2026-10-14T07:16:55+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Russian strikes leave 600,000 without power in Ukraine, Zelensky says - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxQ2dNaDItdmx5VHFaSFYwaGtCTW5LNWdWdkEtVE1DYVZKN1IzcHQyeEl4dUJnUkZQS0hBTGx2aUdFZmZjRHRKekdibjB5b0FqN3BvWERKNlNzLTA?oc=5",
+        "published_at": "2026-10-14T07:21:50+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -149,24 +176,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi Aramco HQ attacked in suspected Houthi strike - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlJvcU95eUR0QzVMRjJzX25MNl9HWm8tNU5HNUx1R3EtOVI5U0NvRjhEdTZ2VzJtc2FPQUwzVmU3dWY2ck9ZSjhFUXd0OVRmazY1SGpWMWgtZjk0MnhlRFotQmZrMzhGY3RWUnVTVlJfOHBRVHJwNThrbDl3T0tXTnVSbXg?oc=5",
-        "published_at": "2026-10-14T07:12:06+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pressured at home, EU leaders weigh China trade steps - Kansas City Star",
-        "source": "Kansas City Star",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fQ3ZTWWo1MTg3a0VfSVdOWDFDUWxZZnJ3NHd4RFRuVjVYVkdsWWFHTnFZUk5pQXd6QkZMZEVxX1JkaVZMTVliWlpQdG95c3BzXzJnZ25jNEhHbXQ0UER4VzFQSm1HNXQ3NXBnLWtPcGtIN2NiR1NJUDYzM1o?oc=5",
-        "published_at": "2026-10-14T06:36:07+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Watch China's Trade Surplus Nears $1T as Exports Surge - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1NjQkdmT0YzSENjR29WdG44U2JHN1JpdzFYN2JWR2pPbjRQLXpMRzFxdm96ZnJfdFJEYWV5OUNfT3gxUHZDSjEyZkJBWlFleHR6QTVWZTlBUXlMTnA3S0RvbGs0V3hvYVZZbjNsNHowaHl0QklXVHFuQU9ScEFoa20tZzMtSkk?oc=5",
@@ -176,28 +185,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russian Missile Strikes Kill 3 In Kyiv, Knock Out Power As Zelenskyy Says West Gave No Warning - Radio Free Europe/Radio Liberty",
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbGUtVmdPVTZWY19faVQxSEwtVWJSeWNmci1BWHdVNF9hUWV2ckg1VGhvelA3X2oydXhBUFpIYmgxM1lqbTAwVW15UnVONFo0aXVwbVlzQkRIeS04UjFiZzlpWFB3OFRXZkRVYVp3emlUVHVJR2ZINWQtV1Q0QUVjV1JnRTVmUdIBhgFBVV95cUxQbGUtVmdPVTZWY19faVQxSEwtVWJSeWNmci1BWHdVNF9hUWV2ckg1VGhvelA3X2oydXhBUFpIYmgxM1lqbTAwVW15UnVONFo0aXVwbVlzQkRIeS04UjFiZzlpWFB3OFRXZkRVYVp3emlUVHVJR2ZINWQtV1Q0QUVjV1JnRTVmUQ?oc=5",
-        "published_at": "2026-10-14T05:54:54+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China says it is willing to work with EU to boost stability of trade ties - Reuters",
+        "title": "Pressured at home, EU leaders weigh China trade steps - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ1EyNEpnYmtaNHJ5TG5kM1NWZTVQNjRrTDdsREZUVTB6Y1hzNnl4R2JhTGdva1ZTTGpXWWdqUVdwRk1kQnIyLXFPbHNpLV9tZzhVTDNsRm93cndnVDVTeWNDTlU3T1ZCUElOQmxKRGh1eHNFSXBiRzAzc2dELTMtVmZnbzNaSDlKY2hzeUpCTnZnWTN2V0dXV1dxVG1PZTBicE9yTmJsMXJUM1I4Q0c2MEd3?oc=5",
-        "published_at": "2026-10-14T05:48:00+00:00",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZC1va2NWTWZxZFZwX0o0VVhXdFBUODFPVGt5RVF0ZmZfQmN3MXdrSFlyYVczRVBLdU45bGU2NmthUldZZXF0TGdXYTI2bFpidU5WdGg4anBFckVsbUFyUV9EQW0yMzdWNUd0LV9kT3Rtd1QzdFRGc3VUODVoSkYycG1RbkxiRkpmWWh5dk5CUWk5OUpodFpBbWozVnBTZw?oc=5",
+        "published_at": "2026-10-14T06:04:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine launches major drone attack again on Russia - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTVOcEU1NHNfcVBOTXV2VHNGUGpKNnltdGFvMG5ZSUxpTVkwSXo1YUVJa2FNdUI4VDIyUEZtcEJLV2VSTTVTNzJBS0JWd2E2ODlEalZNdmdXUWZsdmQ3dnlsWGxSRkM4QS0wYlZrUTYxTDFKNUt5b3AxQUNLSmZ6SEpGOXhuREk4MUJIUXNiTXc5RW44Q29JQlNMWdIBoAFBVV95cUxPbExNUG1BUWxQMnU5SFZ6VENZOGdTQUtVcjl0VllxMUNHcjBiWjhMTWpHdVNRQ0FvODhrUFQxdTZYOTBOYkpwbWpTdFhBVDZJMTJMSGE5MTE0X0Q3MzA2Umd2MWRQdHNEckJrTDEtWjJQMy1URDNGZjI0XzZxR1ZtUjdhS1BNUEc1Z1ZDb0pXdEs5clVlNktWSUpCOUVSTlJR?oc=5",
-        "published_at": "2026-10-14T05:29:19+00:00",
+        "title": "Russian Missile Strikes Kill 3 In Kyiv, Knock Out Power As Zelenskyy Says West Gave No Warning - Radio Free Europe/Radio Liberty",
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbGUtVmdPVTZWY19faVQxSEwtVWJSeWNmci1BWHdVNF9hUWV2ckg1VGhvelA3X2oydXhBUFpIYmgxM1lqbTAwVW15UnVONFo0aXVwbVlzQkRIeS04UjFiZzlpWFB3OFRXZkRVYVp3emlUVHVJR2ZINWQtV1Q0QUVjV1JnRTVmUdIBhgFBVV95cUxQbGUtVmdPVTZWY19faVQxSEwtVWJSeWNmci1BWHdVNF9hUWV2ckg1VGhvelA3X2oydXhBUFpIYmgxM1lqbTAwVW15UnVONFo0aXVwbVlzQkRIeS04UjFiZzlpWFB3OFRXZkRVYVp3emlUVHVJR2ZINWQtV1Q0QUVjV1JnRTVmUQ?oc=5",
+        "published_at": "2026-10-14T05:54:54+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -214,19 +214,19 @@
     ],
     "corporate": [
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-14T00:39:11+00:00",
+        "title": "fda approval today september 29 2025 weight loss drug - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fLWV5OGtaS0JuVkFOZzhFbV9CamFObjlFRkpxWFBrZzFRNW41UVBvSlhjTTBCZmRLVW5kSHEtbGttanN3TW5BRG5LLVF0b0Y3eG9EbDRPRk1obm5NVmh1Wm5oS2ZheHQtTEVv?oc=5",
+        "published_at": "2026-10-14T06:31:26+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcnFlUUdSR1d1aEQxWjB1d0UxLWhRWWxMU2xaWGxfc29kcEhXMUZRSmpGbDcwWERvWlhtSEhuVzhacmdZaUZ4WDY5RW1KVElyRWtzc21yRF9UaDhsMk9CZGZ1VjVPNnVUVDQ4NVFxS21zTmQ5RjJNTVEyNGJBaUtiQnhYMlNSM1B0SGNySExR?oc=5",
-        "published_at": "2026-10-13T22:55:21+00:00",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-14T00:39:11+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -273,6 +273,15 @@
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRk1CVkM4NE5HZi00TG5zcHk0bU5aUURLaGR6NnRjaTVwbGNMeTdhVEUyclpSdEk3S210eFdhRHBtVzJzM2YtUXdGbWE4V3ZFWHBpVkl0UTAtVV9SaF9BQWEzQ2UxRWJlNDh1dkVvcUptVTgxQno3YXFhQUxIYkpCTFVWOXRhZDQ5d3h4bEFiNjE5S2RKQVlTNGZJR2xfbWVoNTd5ZFh5VnZjUVk?oc=5",
         "published_at": "2026-10-13T18:44:00+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
+        "published_at": "2026-10-13T18:04:12+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
