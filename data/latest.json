@@ -1,40 +1,46 @@
 {
-  "generated_at": "2026-10-14T00:41:32.359243+00:00",
+  "generated_at": "2026-10-14T01:16:59.922497+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.95999908447266,
-    "wti_change_pct": 1.3014734889114532,
-    "brent": 106.58000183105469,
-    "brent_change_pct": -0.06563496842260097,
+    "wti": 95.23999786376953,
+    "wti_change_pct": 1.6001707213391558,
+    "brent": 106.91999816894531,
+    "brent_change_pct": 0.25316140572289036,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.177001953125,
-    "macro_score": 45.8,
+    "dollar_index": 102.1709976196289,
+    "macro_score": 45.2,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.30%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.60%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T00:30:00+00:00",
-      "brent": "2026-10-14T00:30:00+00:00",
+      "wti": "2026-10-14T01:05:00+00:00",
+      "brent": "2026-10-14T01:05:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 44,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXl4Z2E1ajJabkV2V0d3VVN4TE4xZVdXU0xjY1FwX2QwNzVpSEZ2UUdWY2d2N0w0TEZCXzRFR2oyZ3l4MlZkMER3cDZtOFRMc2p4VzRSWE1OZGdJaHBvRlZieVJ3Unc4bXEyRHFvalF4MEkwTmduUEFtV0lBX3NZS2Q0M2hoSkozeWFNMS02MnF5QmNveXNFNklHVktxYy1RM1BRcHlSVm92aWYzRnJpNTJvVWYtemNjbklpM3Jna2t0bUIweUV6VQ?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T00:41:21.074570+00:00",
+    "updated_at": "2026-10-14T01:16:46.208187+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +50,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -58,7 +64,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Titoli tech e AI",
@@ -77,10 +83,37 @@
     ],
     "geopolitics": [
       {
+        "title": "2 Taiwanese executives arrested over mainland components in military drones - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcXE5LXAwa3F2d2dMYlFnbG5lX0wtRW8wX2VrODdKaXU3S3RaVzhaV05iYTYxRnZkaFF5RG1kcEZuS19OejB6NlZEMFVyQWM4VGZxMkc4TGN3RzEzbnpSS0RFcU9vLWptVkVoX2VMakhPVXE0U1MxbWlURmMyWEd0Z2lrQjF2SzVUQmVnelBRZVZ5YW9pRy1OeUxSWWJEU3VJVTl3NjhHQU9taFFzbnZ1SWhJT1dNWGpFQ2R6M1BvSHJGSzhkQ2M5MnlzNzk5WEZUVE1najR4eW5GOGFmYXFDMzRpY2gxMzNsejNrcnNJZkg?oc=5",
+        "published_at": "2026-10-14T01:00:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia’s Leading Sanctions Evasion Tool Is a New Kind of Illicit Finance Threat - Foundation for Defense of Democracies",
+        "source": "Foundation for Defense of Democracies",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRk44MTIta0h5dUxHa1dGSXpwTGhzOFk5bE5FVTNSREN5eDVkMEFrcXU2ZGZ5TkZTTmhqM1NadHpSbVM5RnZBQk1TaDd4ZUwxUmF1SGtWbFFVYkNZZkhpYjVoMTZHU3o3WGFNcmJxTktWcWJyZXdOZVM3Um4xZ2FGNEY1Qmk1VlRjbjg0dnMzS284bnpFSEtEQW5ITE1YcTR4RDJ1TC1NV0ZLV1lf?oc=5",
+        "published_at": "2026-10-14T00:56:15+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Houthis strike Aramco hours after Saudi-led coalition hits Sanaa oil site - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdmRBdUZFd2VfLThKOWQ3elR2ZWJzVzFrdDhMMkU2TGlFbnhiR0ZkeVVYOUhhZnNDTFNndHd3azRFZ0lqbG50Z0hlS2tVbkxhRmptNWhVRHJ3aER0WTc4ZXRPSTluRWpjdnVhOEF4bncxU3h6ZTkxSF9OQkduWWxnZTNtOURzQXM5OWRvNWNBUXBEYzlEM0VjR3N0WF9WWDdZU00yd0hR0gGrAUFVX3lxTE9xYjVUdUk4dUhhTmNFYnFCbl9TamRndElPREdPaFM3ZW0zc0NGYjd2aWRlVU1SUGxaS3NsZEY3UDBTaVJaMHZ5YnM2ZmVHNUhmTk9md0xIVzl6WFZTam13bm1iSHpEenFoUkJIcnU4dTBNSnY3NkFLZkhZajdWT2JQRUNCYlh5bWRfTGZJcS1BdEY0VUlCdzlWT1ZnUGQ1Tl9ocEdiUWZOX2Q4RQ?oc=5",
         "published_at": "2026-10-14T00:33:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXl4Z2E1ajJabkV2V0d3VVN4TE4xZVdXU0xjY1FwX2QwNzVpSEZ2UUdWY2d2N0w0TEZCXzRFR2oyZ3l4MlZkMER3cDZtOFRMc2p4VzRSWE1OZGdJaHBvRlZieVJ3Unc4bXEyRHFvalF4MEkwTmduUEFtV0lBX3NZS2Q0M2hoSkozeWFNMS02MnF5QmNveXNFNklHVktxYy1RM1BRcHlSVm92aWYzRnJpNTJvVWYtemNjbklpM3Jna2t0bUIweUV6VQ?oc=5",
+        "published_at": "2026-10-14T00:06:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -100,24 +133,6 @@
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hVzV3UHRZa2pmdGZUWWFDa0Y5Y2hoSFRzR1BiWWg0MWF6UUFzS09qLUlqSXlLN2hjdk1YX1RfLVQzUjZBV3NwNTExNzhLX2k2d2NBN2pGd3JYRldaOTNuZVJKYkt1U3M?oc=5",
         "published_at": "2026-10-13T23:48:47+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump-Russia diesel deal faces pushback over supply, impact on gas prices - WBNG",
-        "source": "WBNG",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ2NtTDItQjVUMTRNeG5mNi1tenU1NWdCX09HbE8xaHhWaEhkX0h4X29SWjMxdm1vNUJ0ZlRmY1B0Slh5LXFzV3lFQy1rcWZWdC1RNDg2RExrTXNaS19tZUdOQlNPaGE2MHQzei02Q1IyekE3UnplMklZS3NGVHlKS2dsVlN3bERtRUdlNlVCZDVEVjc4ODYxeUhCdTU4ZVVKcHJRZdIBuAFBVV95cUxPUGp1MXV2TzNPc2dQWWxfaHRYVnYtSDJ1XzBWekdxaGxiN2FEejB0NEFITmZmTEE0MTJKb2RZMVVyQzNsWEJZWURCdlJ4YWUwb05YNC1uSV9JUVBWczFuUTZrZ291S2tFRkVvN2kwVkpXaEdpaHVWa0hJZjlFVERqcGRqSkNSNHMxRTlvekRkWURSdVJ0VE5GOHZlcF85THlRb2lQaXNJMVRuVDlRZmtlZ2ctRW9nd09p?oc=5",
-        "published_at": "2026-10-13T23:44:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran increases threat to Strait of Hormuz shipping, and other Middle East developments - WWLP",
-        "source": "WWLP",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQb3djVEF5ajR2eEhRb0tfNTJvb2Jmdl9NdVNmMWc1WVNVTGctM281Q19CRVpvQU1OZVhOMmp2SVU4a213dXZIbjFxVmV5S28zYjRuQmJuaUhSNEMtM2xsS2RubnVaWWZPcThQOWFKR1IxOWJfcHFsLUVMUXJXUkZjaVRVOUFJdk5pdDg3V081Z3Z3d2N4cjBGSkVCVWgzUS14R05FQjB2X1ZRYWJkTlItR3gxUHYwOXcwVFJreDl1S0dFX3JuNjZEX3F5Q3ZCSWcwX3pWc002Yk4tUHPSAeABQVVfeXFMUHMydnh6LWUwMlBUbEZUeFhOYmY1dDUzYnk4N0luOGk2Z1lHYWNHWDE5dkRWell5NDFDQzN1OUs3RU85ODEyM2tVUU9QSjFjOVcxeFZOa0pzM2RDb0Flek12cjBWdjFtWkt4MHJDTVlMZ0FVdE1WbXNWeWRyMDI0NVUyY2Y5YWl1Qjh4Qm5sOXVHTTBGLVYzM09IQnh5MU82cEZUTlh1emhqR21HYzY2b2x3M0MyeEVSZGYxeldmamZ1cTZLZ2Frc3c4RF9IcTVtbERKTXh0YWx0Q2ctOGxtTUQ?oc=5",
-        "published_at": "2026-10-13T23:29:11+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -149,10 +164,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi Aramco administrative building attacked, limited fire reported - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUHZtMnk3dUVFWmVkT2FmZVRqNWNrUUc5YkNkWVJMOEhWMmo1dnc2S3FlUlExbjFscTdlY3NQcExPejdxUlF1clZ5S1BKQ1JLdjhzaFdXT2l1YVBmN2VVSkFOSlJNNmlTR2w5d082MDR2b3RkY1VrTTlwWFhuclBteVRaTmtMRUczY0VPaWxBeVV1RE9vUE9kRFZaUlZEX0NnOXZqVnNtNlJIcFU3cnE2VVFTNzhfNVZ0TzZiQWFtSUJCdXJXYU5rU0JB?oc=5",
-        "published_at": "2026-10-13T22:27:19+00:00",
+        "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NTXliU09wdmZTVFFLc3dfamVjQlRpUnNuVXY3QmpLLUVGYjVXZHBZNm8taks5cTJaVUNndmNFZy01WGxNcFp0YzFlb0NZcXBQclBsZFF1T1o2SGM?oc=5",
+        "published_at": "2026-10-13T22:29:55+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -176,12 +191,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Lawmakers Argue Trump's Russia Diesel Deal 'Violates' the Law. Here's What Legal Experts Say - Time Magazine",
-        "source": "Time Magazine",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcjJDOFZveTZzQWowY0ZmNlJFS01kbHpZY3BlVkREdGltal9HakF4Rk8tZkJGVWxGVGtGdlE3RkFCMGQzSkp3Tjk4Y0traUdTRlVRbk5rZlNUTzJNZkp0djFOemY4cmtMN3VJTlQ0TWtRdzBjN0lEb2k5RnFVV2NBSldUUHllaG1aRjFfTTNYcVJtdVVhX2RPaVVhTW5VMFdoQ3BXSUxOSQ?oc=5",
-        "published_at": "2026-10-13T20:31:53+00:00",
+        "title": "Ukraine Says It Received No Intelligence About Strikes 2 Nights in a Row - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON0MzaklyZEo0Yk9pMDdfN1lad0xlUE5NSGtjaXNqSkM0UVMtU19OVEJOZnhhdWNqWkplWnNwaDBVbExYMXNFUDBXSzE0Y3pnVmxCTVBmM0d2bUNMdWFsLU5LVFVtYS1HT1psaGZub1JYdW84Z2xTS2VvclFQc3FySWl0dGV5Zw?oc=5",
+        "published_at": "2026-10-13T21:17:34+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -198,15 +213,6 @@
         "source": "Opportimes",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYWWdkcXlXaHZDOE9HTW5VaWNZMXU3UXcwbHFBWDU4R05XZEZlbElxQ0M4dmdQTUVlSXBsc0ZwSEpRZTY3S1dsay1hZk1yWS1ud3luMlhBOXVHd3B2Nml6d284b3lXaTNFRmdDR3B5WkFDVmpr?oc=5",
         "published_at": "2026-10-13T18:36:49+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How Maroš Šefčovič talked his way to a China trade breakthrough - POLITICO.eu",
-        "source": "POLITICO.eu",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSUNpd0YyaTNBb0F4UDg1NzNEN0daX0NXRW5OeHRMTkx2VFBkcmdmeFkxSU1ieWFhdGNnMGlIcmFYbjVaODgzQk1kOHQwcHN4QzMwVFB6dm1ibGdLYy0ycnFLTm81bDQ2dDRyMl9CTHcxdDZEU3ljQm5WZk9NcERyc0NPNDk2cW5HYU40akdqMnlMZExYVnF0eDN6VUU?oc=5",
-        "published_at": "2026-10-13T17:43:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
