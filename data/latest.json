@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T23:43:26.014660+00:00",
+  "generated_at": "2026-10-14T00:03:56.002812+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
-    "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.66000366210938,
-    "wti_change_pct": 0.981444227977124,
-    "brent": 106.20999908447266,
-    "brent_change_pct": -0.41256674647067726,
+    "treasury_10y_change_bp": 0,
+    "wti": 94.86000061035156,
+    "wti_change_pct": 1.1947970686000176,
+    "brent": 106.38999938964844,
+    "brent_change_pct": -0.24379009143040697,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.21199798583984,
-    "macro_score": 46.4,
+    "dollar_index": 102.18900299072266,
+    "macro_score": 43.8,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.98%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.19%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-13T23:30:00+00:00",
-      "brent": "2026-10-13T23:30:00+00:00",
+      "wti": "2026-10-13T23:50:00+00:00",
+      "brent": "2026-10-13T23:50:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-13T23:43:13.253076+00:00",
+    "updated_at": "2026-10-14T00:03:43.845425+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Exports to China Languish Despite Beijing Summit, Rival Beef Tariffs - Meatingplace",
+        "source": "Meatingplace",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeThjU2wwcXBCUVFnMkJFRHdPX3hSVm9rNXdaay04MnZJQ1FnXzEwU2hNYm1SVVRqQndYRXUtS1g3S0tLUHFrdmZDczV2cm5wX0xPM004LTVkNlpSbEVtWHgtR2JxZVlXM2JSeTZheGhldE0tbkVXUWhPZEpOZ0ZISXBZMDZMdUR3SF84eU43TDdXR05wcEdvcA?oc=5",
+        "published_at": "2026-10-13T23:59:34+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China Sanctions Paraguay, Belize Ministers Over Taiwan Ties｜Daily News Digest｜2026-10-14｜web only - 天下雜誌",
+        "source": "天下雜誌",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hVzV3UHRZa2pmdGZUWWFDa0Y5Y2hoSFRzR1BiWWg0MWF6UUFzS09qLUlqSXlLN2hjdk1YX1RfLVQzUjZBV3NwNTExNzhLX2k2d2NBN2pGd3JYRldaOTNuZVJKYkt1U3M?oc=5",
+        "published_at": "2026-10-13T23:48:47+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Trump says US still sharing intel, even as Ukraine reports attacks with no warnings - Reuters",
         "source": "Reuters",
@@ -113,6 +131,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
+        "published_at": "2026-10-13T22:14:33+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Houthis Threaten Fierce Retaliation After Saudi Arabia Strikes Yemen - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU3pkeWVKbkJTNzlPNTliZmtPZ0htLWltcF9ubmp0VkhEX2lJRmhfSHNGaHdENkZSdUxlcVd0Tkg3dmMzZ2RCLWswVUFNREhUNV9zQVduYnE3OVlOejljbkIzcFh6OXF1VGlQdXAxREpBS001MVN0TmJrSU52WV81SkMxeGkwVGZFaGluNlYyVndXZGhlX0VjTzFvbnpfZw?oc=5",
@@ -140,7 +167,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia - Bloomberg.com",
+        "title": "Aramco Headquarters Hit During Houthi Attack on Saudi Arabia - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZW5UZm9rTkVDR01LTzZFcTQ0MUprS3hKLTdHaWtXQkVUQzdOSzNJUWJxRlQ3WkpnbUl0TzZlMWg2eVI1bzJidmpzQnFlaC1VcVRpS1FaN0tvZENEeS1LMUVPVmFaM3o0cEI2bkx6bGhMZ1c4WXliLTg3c0djRjgwUU9YWTE5d3F5dFlVV3hlWXh4clk0eUZNWGczUnhUbmtsbElkR2ExNEFqcVRKUEJwT053?oc=5",
         "published_at": "2026-10-13T20:32:12+00:00",
@@ -155,15 +182,6 @@
         "published_at": "2026-10-13T20:31:53+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Don’t hold your breath for Russia sanctions - Politico",
-        "source": "Politico",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTzN5QjFNMk5GN2d5ZVAxTmppWnljTGVvaEhCSHRIaWxQdTVIa3dOeFB2RWxzWFd5dS1FNUNaYkRIMGdZazhpUzA3QUl4ekpVX2kwVHpaaWYyalFkOUZ2ZW14ZktXbnZXVzZLa19YTVRyOGpqeWlUcXkzTEY3RmRxOEthaTYzM0FXWGZaQktqcDZMNnJ2MklXdmM3NUFIM2V0N09Lc1FSUDlvV0ZxazRHVlFJM0hWa3o3SjJkV2RIRnI?oc=5",
-        "published_at": "2026-10-13T20:24:44+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -192,32 +210,14 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How Maroš Šefčovič talked his way to a China trade breakthrough - POLITICO.eu",
-        "source": "POLITICO.eu",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSUNpd0YyaTNBb0F4UDg1NzNEN0daX0NXRW5OeHRMTkx2VFBkcmdmeFkxSU1ieWFhdGNnMGlIcmFYbjVaODgzQk1kOHQwcHN4QzMwVFB6dm1ibGdLYy0ycnFLTm81bDQ2dDRyMl9CTHcxdDZEU3ljQm5WZk9NcERyc0NPNDk2cW5HYU40akdqMnlMZExYVnF0eDN6VUU?oc=5",
-        "published_at": "2026-10-13T17:43:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "DW News. . The EU and China have been on a trade collision course. Now, they’ve reached an unexpected agreement: China will halve its exports of hybrid cars to the bloc. Could this mark a turning point in their strained trade relationship? #dwbusiness #dw - Fa",
-        "source": "Facebook",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTkpIM05SSmFkOTJuRV9PUkRabkpMVGlIZk5Qd1FuMERSbHdTV2s3R1JRallYNmxYWm1SdENGb01YRTlmSVV0QmR3cWxrLXh6MldFY0pvQlViZEZoeVBibWhRcmRsbHdwc3FBbDgwWHVOaG9lVTJQcXAxaHJnTkJJaU9aZmxhM3dBenB1V0ZyWGtzMk9ISFNxQ29NNTA1S2phOGk5LXdaQTdTeVFkQXlHdg?oc=5",
-        "published_at": "2026-10-13T16:10:05+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
         "title": "Nebius (NBIS) Stock Could Be Above Fair Value After Inferize Deal - Simply Wall Street",
         "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNODA4N3NiNXFYdzhDMm8weTlQTlM1ZEZwOXZ1cFA2OWx1dzhEa0w3QzZrX3pISG1VZkNtaDVvQ2djd2d5bndnQ1ZLbUh4SUs2QllXT0J0a0FvSG43SFlMTGFUVm80a3NGSllWRUloTWRUZUF1cVJPa1FsdzBCYVFnMy0tOWpZSnRDTWNYOGs2RzZMZ2k3Y051VEtZWFRLbFdBb1hqWm9jMjZjOGlvNXRvTWp4TXUzcjh6SDJnTlFNVzJCUWRYTUFIWFZKd9IB0AFBVV95cUxQV3F6QWdJM3ktRzdRSDFwZXNXMGgyZFd0WndERmpydS10Z0pKZE5jQ241QmM4Q0J3a0lQRXF6Ql83ZlpVRGgxbmd0SWhzTTNPWWVaNC1zOEg3Vy1xeFpvdXc2ZEpEYUpBeVFwQnhnWjR6bGRMN2UySzI2R09MUmpKV3BoWXVXQV9rUFdUcVRSR3NCSUszMkpmSnlCb01LZmVGb0xYZV9FQl9ENFVqME5ERlBsOVN2M24zT19BbWpnZ1RiMXptWE5CcXRWSm04VXVE?oc=5",
-        "published_at": "2026-10-13T22:00:57+00:00",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV3F6QWdJM3ktRzdRSDFwZXNXMGgyZFd0WndERmpydS10Z0pKZE5jQ241QmM4Q0J3a0lQRXF6Ql83ZlpVRGgxbmd0SWhzTTNPWWVaNC1zOEg3Vy1xeFpvdXc2ZEpEYUpBeVFwQnhnWjR6bGRMN2UySzI2R09MUmpKV3BoWXVXQV9rUFdUcVRSR3NCSUszMkpmSnlCb01LZmVGb0xYZV9FQl9ENFVqME5ERlBsOVN2M24zT19BbWpnZ1RiMXptWE5CcXRWSm04VXVE0gHQAUFVX3lxTFBXcXpBZ0kzeS1HN1FIMXBlc1cwaDJkV3Rad0RGanJ1LXRnSkpkTmNDbjVCYzhDQndrSVBFcXpCXzdmWlVEaDFuZ3RJaHNNM09ZZVo0LXM4SDdXLXF4Wm91dzZkSkRhSkF5UXBCeGdaNHpsZEw3ZTJLMjZHT0xSakpXcGhZdVdBX2tQV1RxVFJHc0JJSzMySmZKeUJvTUtmZUZvTFhlX0VCX0Q0VWowTkRGUGw5U3YzbjNPX0FtamdnVGIxem1YTkJxdFZKbThVdUQ?oc=5",
+        "published_at": "2026-10-13T22:00:58+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -236,15 +236,6 @@
         "source": "Mexico Business News",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUxJdVNwblBhMC1rUU9TbGpZSW5OWFo5WmdHcGczYjBaeFJ0OWtKckV0dWRIUkR5LVJmRl8zTnI5UnlSSmhlM3R3MkdRUFNlZkRfY0RDLXdpd015N3Fqc0IwcHpmWjhFSXRnUkNVRVlXYWZuakpNaEVxOWY2LVp2cUpiTDVfQ0FGa25yMW01dzZmeXpxamlNdEd0NmtZQkN6SWtUdw?oc=5",
         "published_at": "2026-10-13T20:37:01+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia’s Huang Plans $2 Billion in Europe AI Deals in Next Week - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTUyMWwxLUpnYVFUYlNzVS1YS0d5UkpaWXhsbmZ6U08xMmNKUTFSU01rSTRjN0Z4UF9hTG0tajg4TFZqZExYVS1oZkxJWlNFM0hBc2ctbUZBU1htclhwWVB6ajludXpVT3NDZ21YaEk3UExON3ZpZVF3YU1ycDI2MS0tVU1jelR5N3F2emRKT2JDcUE4V3hiUzlxY21SNXBXdHl1YzJWREFfY2I3cWhEa2Z0VQ?oc=5",
-        "published_at": "2026-10-13T20:15:31+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -282,6 +273,15 @@
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRk1CVkM4NE5HZi00TG5zcHk0bU5aUURLaGR6NnRjaTVwbGNMeTdhVEUyclpSdEk3S210eFdhRHBtVzJzM2YtUXdGbWE4V3ZFWHBpVkl0UTAtVV9SaF9BQWEzQ2UxRWJlNDh1dkVvcUptVTgxQno3YXFhQUxIYkpCTFVWOXRhZDQ5d3h4bEFiNjE5S2RKQVlTNGZJR2xfbWVoNTd5ZFh5VnZjUVk?oc=5",
         "published_at": "2026-10-13T18:44:00+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nebius (NBIS) Has Pricing Power. Its Earnings Don’t Show It Yet. - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTXlqaVVzWUxrYWxzWF9jT0tmQ1NjVG5mb0JwRnFxLU9rVUNnZklqZ1daQzhFSXpZMnlMT2pLZm1zdWFvQ2RFc1Jvek1ydzJLLVduLW5QMG9Sd2kyRzBqYnJaNUY4X2I5YWFzWGpUOThsNWxxRU9mUnpoNXhVTklYRzRUdTRkOUVuT3JoS1NWR1pRUXZxazR5WU1RcDd4QWs?oc=5",
+        "published_at": "2026-10-13T17:45:32+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
