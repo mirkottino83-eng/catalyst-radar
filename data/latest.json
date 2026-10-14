@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T05:06:37.940988+00:00",
+  "generated_at": "2026-10-14T05:35:27.237000+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.73999786376953,
-    "wti_change_pct": 0.6373470129712677,
-    "brent": 106.33000183105469,
-    "brent_change_pct": 0.6055439255034933,
+    "wti": 94.70999908447266,
+    "wti_change_pct": 0.6054808779687448,
+    "brent": 106.37000274658203,
+    "brent_change_pct": 0.6433913231790989,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.09100341796875,
+    "dollar_index": 102.11199951171875,
     "macro_score": 47.1,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.64%. Geopolitica: Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.61%. Geopolitica: Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T04:55:00+00:00",
-      "brent": "2026-10-14T04:55:00+00:00",
+      "wti": "2026-10-14T05:25:00+00:00",
+      "brent": "2026-10-14T05:20:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T05:06:25.651525+00:00",
+    "updated_at": "2026-10-14T05:35:15.668664+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,7 +50,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -64,7 +64,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Titoli tech e AI",
@@ -78,7 +78,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       }
     ],
     "geopolitics": [
@@ -119,28 +119,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "The not-so-secret vulnerability in Ukraine's drone arsenal? Chinese technology - The Killeen Daily Herald",
-        "source": "The Killeen Daily Herald",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX0hBNkl5YmZNVml4Y1J3ODV2ZGVYVHJMMTJYNV9qam82OGhmX3E2T2NTNFdBREpiQ0ZWR2JyeUtVRDdoTDRWRkJDTlQ0b1hnWm1UYlNQNVZyaXkyc1N4RGZkUjRoek9KRjhsanpEZmFGYUxpazFGSUV6WTRKZ09tOUZKcTBwaWZyZGVOWFNKamMzUlhDWGJ0RW9kV2h5V29UcXhtR1lwclRrNGFXbmhXajlTcUV4bWpuYTA5alUyTWJmVndySnlzUVh1YWUxUEJ1dEZib0t1anJpR1BUS2hzdDZNbjRYRTNrYlpBTXd3?oc=5",
-        "published_at": "2026-10-14T04:09:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China’s Exports Soar, Putting Its Trade Surplus on Track for a Record - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOamoyNjV5UDBSSC15UTVfbGh1eG02cHgzRVJxRGpQaVpiWjE2ODZUZkt4bmJUS3F5YjhBdFZkazJvZjNOUHhjc1hZc3BjbXlNdERLY2NoTmFpSlhuS2JPZG5EaWZDc3JBODdPXzlkWWt6Ti1mYW9kVTBsNEpXYWpqRFNn?oc=5",
-        "published_at": "2026-10-14T04:00:29+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade - Oskaloosa Herald",
-        "source": "Oskaloosa Herald",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWi1leml1R1V5Q2ZPN2tPUFlGUXF5aFJlVTRFNUZIREVjUHJyVnh1eG9TVVBmVFE5TXJJT2NqM0R2c1RZRFFMdHptYWVBNDJHWjhPd2xUSlBmcWR4VUIydnpIaWRGS3djbnNLZHFZNjhYNlNFWlJ3aXZrUGhURkgzUDBKenFYSDhnQ01MSzVYeWNWRk1GVmR2Rzl2LXRLeHotcEdTVTVsNWJ2R1JkNmp1cnJlTjJMcmxwbGVka0dVdnZEbUZwcDVjSjF6enRCZ3lHMklxelBabDN2UzlvUUFraWU4WjNwQU15R2ZpbWc0aHRzVkFFSldzNW1MX21HZw?oc=5",
-        "published_at": "2026-10-14T03:58:56+00:00",
+        "published_at": "2026-10-14T04:00:30+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -155,12 +137,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran increases threat to Strait of Hormuz shipping, and other Middle East developments - New Haven Register",
-        "source": "New Haven Register",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0ZxUnh4RnRvTmNMX2tINWRieE9LYlNWRE5HT25wSGtaYlJBM3ZmNXJMdy1jT0taZUdqaVk2YXNiZUNLOV8za1dpb2FRUWdQUXg5NE1fVVlmdjRuWmJTZXhpY3hOdWdIZUVJN2hiNm9MVzFjb0RuXzllSkZaVV8xWC1UX3VxaldSRDJxV0J0NUNWN0p5WkwtNEFKLVEzc2Ni?oc=5",
-        "published_at": "2026-10-14T03:23:27+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade - KTVN",
+        "source": "KTVN",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZDdjYnROMHdaQlk5Z0dpUmp3aVViVkxPc0N4djB5d1JRSXlJdVlFQzhjemtzd1ZRZndsbk15S1VmcHVFRVlnem9QdmstUzBQaWpxcUo2b3ZzVEljNHZjNlhNSjZGYUpuWks5TThqZ0Fid3U5SDFuSlMtWlZZZDJTSXlkQlFiaDRtUXh4SXlreV9CdUNyOWU4ZVQ2ZGZJam9PQjRSQVYyaVN3dDZFcnlLMEprUnFVOS01STUtSUhuOXJWTUNNVE5remxaVmx2RzFIQjMtemQ3ZXhkeVI4S2RrZ1I0MFZUM3VHXy1aVksyMA?oc=5",
+        "published_at": "2026-10-14T03:31:57+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -200,6 +182,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Russia’s Leading Sanctions Evasion Tool Is a New Kind of Illicit Finance Threat - Foundation for Defense of Democracies",
+        "source": "Foundation for Defense of Democracies",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRk44MTIta0h5dUxHa1dGSXpwTGhzOFk5bE5FVTNSREN5eDVkMEFrcXU2ZGZ5TkZTTmhqM1NadHpSbVM5RnZBQk1TaDd4ZUwxUmF1SGtWbFFVYkNZZkhpYjVoMTZHU3o3WGFNcmJxTktWcWJyZXdOZVM3Um4xZ2FGNEY1Qmk1VlRjbjg0dnMzS284bnpFSEtEQW5ITE1YcTR4RDJ1TC1NV0ZLV1lf?oc=5",
+        "published_at": "2026-10-14T00:58:34+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5",
@@ -216,6 +207,15 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil prices rise as Houthi-Saudi attacks spur supply uncertainty - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWhpRlRyX1ozOHVHVXFqQU9uOWUxd2NVenpBTXM0RDFRckUzTWFpdnBZWEd1VDNBajBTRFg2RTc2QnQyRGZhc1M1Z3FCOEI0VTJTNWZWczdjUGNvRU1FM3Awck1XeTA4Q25XX19SU0JmS0ExWGZHNTU4RThSRlVCeGI1NTY3al84OXFuOElB?oc=5",
+        "published_at": "2026-10-14T00:31:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -229,20 +229,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcnFlUUdSR1d1aEQxWjB1d0UxLWhRWWxMU2xaWGxfc29kcEhXMUZRSmpGbDcwWERvWlhtSEhuVzhacmdZaUZ4WDY5RW1KVElyRWtzc21yRF9UaDhsMk9CZGZ1VjVPNnVUVDQ4NVFxS21zTmQ5RjJNTVEyNGJBaUtiQnhYMlNSM1B0SGNySExR?oc=5",
+        "published_at": "2026-10-13T22:55:21+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Nvidia’s China AI Chip Share Drops to 34% as Huawei Gains Ground - Mexico Business News",
         "source": "Mexico Business News",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUxJdVNwblBhMC1rUU9TbGpZSW5OWFo5WmdHcGczYjBaeFJ0OWtKckV0dWRIUkR5LVJmRl8zTnI5UnlSSmhlM3R3MkdRUFNlZkRfY0RDLXdpd015N3Fqc0IwcHpmWjhFSXRnUkNVRVlXYWZuakpNaEVxOWY2LVp2cUpiTDVfQ0FGa25yMW01dzZmeXpxamlNdEd0NmtZQkN6SWtUdw?oc=5",
         "published_at": "2026-10-13T20:37:01+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Novartis (NVS) Gains FDA Approval for Lamprene, Enhancing Patien - GuruFocus",
-        "source": "GuruFocus",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYWs1dVYwWWVsLU4wbHc5bzl1ZC1na01GYjlUVl8xbzVFZHVROVhXTjd5SUhKajRUUXdWVWo0NVAySlAxbU9QQjR4bHB0OWowY3JUSXh4Z3BJREJ2TV83SlBaTVQ1X3pISFBKcVpKbGJFUTI3QkI1a0VDaHdlZzgyeFk4ck1FZ3FsZVlXam0yM2lHblRvQkZRbnJVRVRUZFlXbDV4VWZud25zN3Fl?oc=5",
-        "published_at": "2026-10-13T20:04:27+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
