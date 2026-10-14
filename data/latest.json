@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T23:27:00.355196+00:00",
+  "generated_at": "2026-10-14T23:49:59.422948+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.80000305175781,
-    "wti_change_pct": 0.7010873872832724,
-    "brent": 105.63999938964844,
-    "brent_change_pct": -0.047311051757736866,
+    "wti": 94.79000091552734,
+    "wti_change_pct": 0.6904626408467784,
+    "brent": 105.62999725341797,
+    "brent_change_pct": -0.056774705839890416,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 102.52799987792969,
+    "dollar_index": 102.39099884033203,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.70%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.69%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-14T23:15:00+00:00",
-      "brent": "2026-10-14T23:10:00+00:00",
+      "wti": "2026-10-14T23:35:00+00:00",
+      "brent": "2026-10-14T23:30:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -32,24 +32,9 @@
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [
-    {
-      "ticker": "STM",
-      "company": "STMicroelectronics",
-      "category": "Europe Semiconductors",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -5.83,
-      "short_term_change_pct": 0.84,
-      "relative_volume": null,
-      "quote_at": "2026-10-14T23:17:53+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "STM"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T23:26:49.205781+00:00",
+    "updated_at": "2026-10-14T23:49:47.506335+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -66,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -80,32 +65,32 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       }
     ],
     "geopolitics": [
       {
-        "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
+        "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
         "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTQ1YVV1NndsUkRwTV8wUTVHNC1wdXF1UERVd2trVDFTa2ctQTF4dENSQU43RV9CaHh3ZFBLalBlV25oMkpwbnd6VlJLMDQ0YkNTNy0ycFRHZUZFVnNuOTlYMEpfTXhqdUk0cUZuanNrR0ZQYjFBRnhfdWZrV2NIREdub2VEQ1VrVm40aUNlWEF5Z0N0M29BVno4SDdUSnZGR196SmRPazFnQnZrNHBPTmhMUTZZWnVZZlRRTzhsVQ?oc=5",
-        "published_at": "2026-10-14T22:51:03+00:00",
-        "area": "Russia / Ucraina",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
+        "published_at": "2026-10-14T23:30:55+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
+        "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
         "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
-        "published_at": "2026-10-14T22:25:14+00:00",
-        "area": "Medio Oriente / energia",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTQ1YVV1NndsUkRwTV8wUTVHNC1wdXF1UERVd2trVDFTa2ctQTF4dENSQU43RV9CaHh3ZFBLalBlV25oMkpwbnd6VlJLMDQ0YkNTNy0ycFRHZUZFVnNuOTlYMEpfTXhqdUk0cUZuanNrR0ZQYjFBRnhfdWZrV2NIREdub2VEQ1VrVm40aUNlWEF5Z0N0M29BVno4SDdUSnZGR196SmRPazFnQnZrNHBPTmhMUTZZWnVZZlRRTzhsVQ?oc=5",
+        "published_at": "2026-10-14T23:27:08+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -125,6 +110,15 @@
         "published_at": "2026-10-14T21:33:30+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran-backed Houthis struck Saudi oil giant Aramco’s executive offices, officials say - Sentinel Colorado",
+        "source": "Sentinel Colorado",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUpFaXBmVHM0TzE4UDEyU0xpclpmendQR1RYSmc0NW16dFZtblhDckw0XzhmdlNINzFYcWkyMmx6TW1xZFhQaWd4SjlndlZZcFd5NWdLUEVTblVTSDdYb2xtc2JZLXduRHhWcC1Jelp6cmQ5cWlLR25lenZDQm1RVkZkRmJVcXVIUkVURFNYeDFCVk83Tm1OMzJQZWVqZU1GYk9vNGFnWXpnc1pYNTJpNjhlSUVCRlgzVTVweFhiMDE2Yy03?oc=5",
+        "published_at": "2026-10-14T20:31:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -150,15 +144,6 @@
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?oc=5",
         "published_at": "2026-10-14T19:20:21+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Cargo ship sinks after Strait of Hormuz strike causes fire - Transport Topics",
-        "source": "Transport Topics",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdGZtZkpPMk15YkxWZl9adWJIdDZGbW5aV19BZ01ob3FnQTdkNUVoSzItbnFYeDJvTnhKd004OUVIY01iNzFrUDNWVEZkaDY4TXZydVUxMUtUcEFOUFdNT1d5ci03bHMyZTFn?oc=5",
-        "published_at": "2026-10-14T19:10:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -191,12 +176,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oklahoma Senator calls on Trump to rescind diesel deal with Russia - KOSU",
-        "source": "KOSU",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hWkRyVE5ncXhzdFdkUUFWNzdLUGxaT0J0U3A4V0ZzN2EyRWllcm5UQWNZMXExSUtDV3JyT3c5Z1dpY2pPUHNVTEVteE5EbEI4clBLd2QyeHZYQjFrOVluTVp3?oc=5",
-        "published_at": "2026-10-14T17:02:00+00:00",
+        "title": "Russia strikes Ukraine’s energy sites despite Trump’s ceasefire announcement - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUk1GdnFheUROUzhZQVJIS1dLOVhfRy13OTQ5cnpRdFZQRFlwcW9nc3ZPaGs3NVNQWE91ejJhNU9lZVpxeFEzSVg5cF9DUGlLbFFteXhjckNwMlRxTVlxdlpjbVlsVEFTWXV5WHo2TzY4MXRJNlM4bjk3dWNBanU1aHZMSWNvbHlNR1B1Y1BSc0t2QXU4UjlxUXB2ZVRaazN6Nm5RTW14b3h0dE42dWVOTnNR?oc=5",
+        "published_at": "2026-10-14T16:36:08+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -228,6 +213,24 @@
       }
     ],
     "corporate": [
+      {
+        "title": "Navitas Stock In Focus After Nvidia AI Power Board Launch - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVEU3QkFuTE1LOV9nNUpEUjR1NFJpNnJnNXJVNG41bl9udmppRXdtN0xidEJyaTZnZjh2c3pVOHNPNUoxa2hQQTF6SHlxTHpJNzFuMkdxVnF1RmNjY3N4N1FMSy1GWmNaaWFzVE1WMmZ6MWJSOUN0bEdEanpmNEtjQkNMVTc3Smo4a0tJalg3U3hWUTZrcmViMUlPM0VJdjJrUWQ4cEJ5b3Jhb2ZSME5YSGRXVkdRRzdKcUdsNEppMGhVdU0tVTVXNFNKYjFjc09Ta194LXNfa2RPbVHSAeABQVVfeXFMT3p1YUJhcGpIc2dFcFQyU0VVcGxMVzhFaTV5dDZRamtGWUEycGQ3amoxd1ByRUYyMGs3Rl9LcGd3aHdaZ2M3R2pvaDVRSHdnSnlrOHZKZTRaZnpPTVhCTk53ek10aDBncjJsVWhKQzVuU3I2N1Fxc2ZEWHRZaXRtWXpiNFJRM2ViZVFJZVFzSHlsTEw2R0R2RjZXcUpmaE9Ha0JCdWtCREFPLXp6SEdJcTdpaXdJbGt5bXpUc3cxU01EQ2E5S0RNZ1g4WFBVaHQ0ZTFQVW1DTEVqOXBVTWY5eVM?oc=5",
+        "published_at": "2026-10-14T23:48:04+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - iHeart",
+        "source": "iHeart",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcndBbzN2V24tbWhZRWpzRlZCVGIyVUkwaHQyUmVfVGhIaGZWUkpzQjRZNmRhcWtwc1NSLVlIc1NaekdpZGIwZHgwZ0ZuOGNya0lPR3VZZnBsVC0weW9yQ0RmYXZGVTN2WDlYQkQtTFNKblBLdHZrZ2F4RGJaUTg2SFIxcDQ4RDNObUotb0swZEh6QVI3VDExbFVGWXJRNER2ckVZaNIBrAFBVV95cUxNcDRGSmFaU1loMWtFRmg3N3V4Mmxrcjh4djhJNFhkZVpDdUJoaWI5dTFDVVZmVzJ6VFNPTFEya1g3ZERRQTRTNTl2UWxfd0NxaF9ITXZGdFBsT3o3R29KcXNYTjhaZ0RpLXNJMWVrRXAxUWhxU0pSSjl6UzhiQlVFYUhaLVo1SHFvOFgzY0JkUzhOTS1rNGlCNzl0NGFCRGxSWFY5UXU1QVVQYkFi?oc=5",
+        "published_at": "2026-10-14T23:34:54+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "FDA clears ImmunityBio’s Anktiva expansion in bladder cancer after regulatory whiplash - Fierce Pharma",
         "source": "Fierce Pharma",
@@ -292,28 +295,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Approval Expands Anktiva to BCG-Unresponsive Papillary Bladder Cancer - Pharmacy Times",
-        "source": "Pharmacy Times",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeU9VWFZDcXgyN1plTlNseERnLTlmWEV3N3dYVENSOW02TGNIN0FILWRaYzhkUW5ORFlQa05mUGROeUJLd3VTVU81elpCdUdzOVRJc0M4YXRaTFF4cXo4ZVhGOGltU2llZFVsdkxyOVpJcHNVQXQ1SjlBMHVlRW5VRzM0MWw2LXhId0Jmd0NxNlc4cExSYWhlZVk2bWZRX2ljTnp6Ui1uZ1U0T0U4?oc=5",
-        "published_at": "2026-10-14T17:47:49+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs - NVIDIA Newsroom",
         "source": "NVIDIA Newsroom",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
         "published_at": "2026-10-14T16:19:53+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations - Honeywell",
-        "source": "Honeywell",
-        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeTRyTTZZSXZWSGVQRjVmUEdzb05ta2RzZEhUSWdoU0JIUDVXNnV6Z2YwZ3lITGdUSUcwWTB1Z3l2bFJiX3EzaHp3WVlILXJfTzZkZHJmazE4cHZQTWhPY05HLVJnaFQteFBQempGOHB3Q21LMkR1d1FIM2VCem1JUTNRU09RTnZOalJGOXl3aU81WUJFSXhhQ2wxTFdlUTc3bkpFZWF4LWdMVmZwN2VNek44ODE0bW5KY0JLUDhZQTcteHVoOG1OaGY0eFd5VmhmWGo3YkF6Q0pXMllqVnBlcXJONW15S0JYRUFZaHh4bGhCQ3dOSF9TeGZ0aEF0amZQYlJQQ0RqWTFQa2NJLVlhalhHMDlhN3NwLWF5NVdOc2FtbkJiQ3QyamxpRDUzY3M?oc=5",
-        "published_at": "2026-10-14T13:02:07+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
