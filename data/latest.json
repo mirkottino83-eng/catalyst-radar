@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-14T07:57:50.546917+00:00",
+  "generated_at": "2026-10-14T08:26:03.138550+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.5199966430664,
-    "wti_change_pct": 0.40365121721017694,
-    "brent": 106.08000183105469,
-    "brent_change_pct": 0.36900310402079306,
+    "wti": 94.05999755859375,
+    "wti_change_pct": -0.0849817628780225,
+    "brent": 105.45999908447266,
+    "brent_change_pct": -0.21762073197141296,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
-    "vix": 15.210000038146973,
-    "vix_change_pct": -0.3929300446496975,
-    "dollar_index": 102.15899658203125,
-    "macro_score": 48.3,
+    "vix": 15.170000076293945,
+    "vix_change_pct": -0.6548813259457664,
+    "dollar_index": 102.15799713134766,
+    "macro_score": 49.1,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.40%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI -0.08%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T07:45:00+00:00",
-      "brent": "2026-10-14T07:45:00+00:00",
+      "wti": "2026-10-14T08:15:00+00:00",
+      "brent": "2026-10-14T08:15:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
-      "vix": "2026-10-14T07:40:00+00:00"
+      "vix": "2026-10-14T08:10:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T07:57:39.174838+00:00",
+    "updated_at": "2026-10-14T08:25:50.456750+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,14 +51,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Titoli tech e AI",
@@ -72,10 +72,37 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       }
     ],
     "geopolitics": [
+      {
+        "title": "EU Sanctions Russia as Trump Diesel Deal Deepens Transatlantic Rift - globalpost.com",
+        "source": "globalpost.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYXVwNHVMakt5bUxTUnp5OGRkZFFsMWo4alo1ai1Lci02cnQxM3d6UjN6WVpWLTVqS2haX1Z1eFFqZ1p2LUU1c0FNQ0NCOFBCNEt6NmM1RG5haGtGSDgwcnQtY0x1eUVnS1VoNlJPRHd4R2VSaU1OQ08tbGQ4UzM4eHZtUDFsejFSLXk0TTVBTG12SHdSMS1rOWh1T1VTMlhr?oc=5",
+        "published_at": "2026-10-14T08:23:04+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthis could attack Israel by land or sea, Israeli defense officials warn - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mQklWOG1oZFZRWTBVZ25lODJoM0h2cHc1YWpHcWt6eHM2cDJhaXJvY3JZRlJwbm9QMlZFUzMxb0paNzBkOHE0NmlGbjZQTHJrQ19DOWxJQ1VSWDRuVWx1ZEFEQllxUlVQNjNXdlRR?oc=5",
+        "published_at": "2026-10-14T08:03:29+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthi Strike Hits Building at Saudi Aramco Headquarters - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUVrZjZFRVVJejMtQVh3OUE1MmtBdk9Ed1JTZ1JyV1B6UlFITDVCUVVIcGlpUEhZMDdrQzVaeDN6TnFjNVNSSVNMUS03V005UXhSNEYzaXZIZmo2WENzU2hMdVBtWjJ6YUlfTFE0VUdyWU9tcW9YRFMwdVBVc3YxYWpkcUQyTHllTnR2WUFESHRZNF9DeVhveVpRbjRMQXNVdkFFck1B?oc=5",
+        "published_at": "2026-10-14T07:59:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Russia's Novatek says Q3 gas output up 4.9% - Reuters",
         "source": "Reuters",
@@ -86,28 +113,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘Massive’ Russian attack on Ukraine kills at least six, cuts power in Kyiv - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR255TWFCcWE0UHZFUTlzMlNtZVNKOUhDanV1eFNHMDVDZ2F6ZVVaZlA3QUtNTVB2RXJKZTdqRGJSaldhU0lVWVRESzRtZ3hYbVZJNnY1R3hxdElwV0RwX2w2R2JJSk95aGFqM21lQmJTTFhqR0NMLWQ0ZEpPWnVYOWNFWW1XU2NfNGRiaURZSlBKYUdaeGNnc3BwZ0wxelN4QUlILVpqSXdLbjZ5T0daem9Bb9IBuAFBVV95cUxOTkctWElMd3BpWDhKMm8yQ2lXLWgxWFE3TTFtV05zdVUwQV9PRjlFSGIwSUhzVnpnRng5NWFBWjRZQS1MZ1hfYzVLOVZaLVVacGxRclJpOVQ3bDRNSWt1OTZ1a1dhOTZkTnlrWXVHMHRtT1BzQ1RqTGhCcGZVQWloZUhkUXNZOWZWcG5JU21ibk5ZMEpDWTI4aEdOR25TVEhsS2liVkRDbTFpdGtwSEFEQTA0RjlzUFZD?oc=5",
-        "published_at": "2026-10-14T07:16:20+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi Aramco HQ attacked in suspected Houthi strike - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlJvcU95eUR0QzVMRjJzX25MNl9HWm8tNU5HNUx1R3EtOVI5U0NvRjhEdTZ2VzJtc2FPQUwzVmU3dWY2ck9ZSjhFUXd0OVRmazY1SGpWMWgtZjk0MnhlRFotQmZrMzhGY3RWUnVTVlJfOHBRVHJwNThrbDl3T0tXTnVSbXg?oc=5",
-        "published_at": "2026-10-14T07:12:06+00:00",
+        "title": "Watch Saudi Aramco Headquarters Hit in Houthi Attack as Iran Escalates Hormuz Ship Strikes - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR3VXWi14eGtSd09mdkhVelY4dC1MMXRIM2Q1NDdZNDFqdWFPOFpUTVVETktVWnpKYlI0OEZTZU8tUmRoVG5DWGlQUmJ2cy1zc3BIbnhNVTNlSzR0aDhYVHRvdk9JUmZfNGV4b0hxdjdNcEtTYVhZUnVFUmRKZHdSaWhrcHZlV2ZmSkh1TzdLT01aQkNWeGlOSQ?oc=5",
+        "published_at": "2026-10-14T07:16:55+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Zelensky to visit Britain; Burnham to speed missile deliveries to Kyiv - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaFpNTU5oQ0EwUDFuQjVOWi1wck83Yi0yUVpDbXJta1d0MVlXdGRrVEZvUC1MQlhOTC1iRVFqQ0VDVUd2cVZ0dGxSLWE2a3duY2pqOEx1REdoVVBSTWE1M0lqcFF0ZzVLQW9jb2RvRkJlX3RIVmt0emx5WV84aFdEd3lwWkVMejM5TDNfdk9WNmYxd2ZPS1M3RjU4WV9YYXfSAaQBQVVfeXFMUFk5a0p6MzZyTU4xaERXMHBFNXlMVndmUjd4ZUpoR2l0OENDSUxHajdGNkVoSzNFUk5heDFwX25fd0g3ZHNMaHItZ1dDa0FqVmp0cGlnZDFtdWRwS3hfaWdWTWh6ekloUWVpMXBNenNORTEtTHdlTlJXQ1J4UFRtSkxMYmZPS2x2ak9mV0tZMjdkMG9tUWxpNkE2bVkzMFBhREVtczA?oc=5",
-        "published_at": "2026-10-14T06:42:07+00:00",
+        "title": "‘Massive’ Russian attack on Ukraine kills at least six, cuts power in Kyiv - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR255TWFCcWE0UHZFUTlzMlNtZVNKOUhDanV1eFNHMDVDZ2F6ZVVaZlA3QUtNTVB2RXJKZTdqRGJSaldhU0lVWVRESzRtZ3hYbVZJNnY1R3hxdElwV0RwX2w2R2JJSk95aGFqM21lQmJTTFhqR0NMLWQ0ZEpPWnVYOWNFWW1XU2NfNGRiaURZSlBKYUdaeGNnc3BwZ0wxelN4QUlILVpqSXdLbjZ5T0daem9Bb9IBuAFBVV95cUxOTkctWElMd3BpWDhKMm8yQ2lXLWgxWFE3TTFtV05zdVUwQV9PRjlFSGIwSUhzVnpnRng5NWFBWjRZQS1MZ1hfYzVLOVZaLVVacGxRclJpOVQ3bDRNSWt1OTZ1a1dhOTZkTnlrWXVHMHRtT1BzQ1RqTGhCcGZVQWloZUhkUXNZOWZWcG5JU21ibk5ZMEpDWTI4aEdOR25TVEhsS2liVkRDbTFpdGtwSEFEQTA0RjlzUFZD?oc=5",
+        "published_at": "2026-10-14T07:16:20+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -122,15 +140,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Live: Houthi strike causes fire at Aramco site as coalition continues attacks - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXNvTzZ4TkdPVHc4bkh4emxSZzBhMXBKM04zNlFFeFoySUpBelZBQlJmVF83WVdXNDQ5VEFXei13SjlVQ0xDSHBpWU9GZElNQk9naS1ESFRMcXRMX3FHV3ptOU9nRFJLRWFBVVI4ejhHNGVSUWJNZVNHZmVBTDNMRXZvc0lfODAyTXJCM0VmQ0FJdGtjbkdWZjIyTGJMSUNOSWdOYlVjcFlCdw?oc=5",
-        "published_at": "2026-10-14T06:14:52+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Pressured at home, EU leaders weigh China trade steps - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZC1va2NWTWZxZFZwX0o0VVhXdFBUODFPVGt5RVF0ZmZfQmN3MXdrSFlyYVczRVBLdU45bGU2NmthUldZZXF0TGdXYTI2bFpidU5WdGg4anBFckVsbUFyUV9EQW0yMzdWNUd0LV9kT3Rtd1QzdFRGc3VUODVoSkYycG1RbkxiRkpmWWh5dk5CUWk5OUpodFpBbWozVnBTZw?oc=5",
@@ -140,11 +149,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Defense officials warn of possibility Houthis may conduct land or sea attack against Israel - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mQklWOG1oZFZRWTBVZ25lODJoM0h2cHc1YWpHcWt6eHM2cDJhaXJvY3JZRlJwbm9QMlZFUzMxb0paNzBkOHE0NmlGbjZQTHJrQ19DOWxJQ1VSWDRuVWx1ZEFEQllxUlVQNjNXdlRR?oc=5",
-        "published_at": "2026-10-14T05:53:18+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Russian Missile Strikes Kill 3 In Kyiv, Knock Out Power As Zelenskyy Says West Gave No Warning - Radio Free Europe/Radio Liberty",
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbGUtVmdPVTZWY19faVQxSEwtVWJSeWNmci1BWHdVNF9hUWV2ckg1VGhvelA3X2oydXhBUFpIYmgxM1lqbTAwVW15UnVONFo0aXVwbVlzQkRIeS04UjFiZzlpWFB3OFRXZkRVYVp3emlUVHVJR2ZINWQtV1Q0QUVjV1JnRTVmUdIBhgFBVV95cUxQbGUtVmdPVTZWY19faVQxSEwtVWJSeWNmci1BWHdVNF9hUWV2ckg1VGhvelA3X2oydXhBUFpIYmgxM1lqbTAwVW15UnVONFo0aXVwbVlzQkRIeS04UjFiZzlpWFB3OFRXZkRVYVp3emlUVHVJR2ZINWQtV1Q0QUVjV1JnRTVmUQ?oc=5",
+        "published_at": "2026-10-14T05:54:54+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -167,10 +176,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ukraine launches major drone attack again on Russia - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTVOcEU1NHNfcVBOTXV2VHNGUGpKNnltdGFvMG5ZSUxpTVkwSXo1YUVJa2FNdUI4VDIyUEZtcEJLV2VSTTVTNzJBS0JWd2E2ODlEalZNdmdXUWZsdmQ3dnlsWGxSRkM4QS0wYlZrUTYxTDFKNUt5b3AxQUNLSmZ6SEpGOXhuREk4MUJIUXNiTXc5RW44Q29JQlNMWdIBoAFBVV95cUxPbExNUG1BUWxQMnU5SFZ6VENZOGdTQUtVcjl0VllxMUNHcjBiWjhMTWpHdVNRQ0FvODhrUFQxdTZYOTBOYkpwbWpTdFhBVDZJMTJMSGE5MTE0X0Q3MzA2Umd2MWRQdHNEckJrTDEtWjJQMy1URDNGZjI0XzZxR1ZtUjdhS1BNUEc1Z1ZDb0pXdEs5clVlNktWSUpCOUVSTlJR?oc=5",
+        "published_at": "2026-10-14T05:29:19+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Fire breaks out at a Saudi Aramco building targeted in an attack, energy ministry says - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR002VVo0b3ZvU0RXV3V5TWdvX0Jmc1NiQjBDNjljbTVWbFZnQ1hIUm5WTUNHZFZSNlV4WWoxZVBDNFhwZUEzZF9kVUlla0dZOWstVWZQQnA1TGpqeXI4Y05KbkpOay00U3NLYkZxZ1BHQWQ4ay14eEk3bHlfSzBMVzlrd2tuQ1hyaHoteGZSZ0pyYjdvYjB1QlEtOTR1YVNZZnZTRw?oc=5",
         "published_at": "2026-10-14T05:23:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Live: Houthi strike causes fire at Aramco site as coalition continues attacks - Middle East Eye",
+        "source": "Middle East Eye",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXNvTzZ4TkdPVHc4bkh4emxSZzBhMXBKM04zNlFFeFoySUpBelZBQlJmVF83WVdXNDQ5VEFXei13SjlVQ0xDSHBpWU9GZElNQk9naS1ESFRMcXRMX3FHV3ptOU9nRFJLRWFBVVI4ejhHNGVSUWJNZVNHZmVBTDNMRXZvc0lfODAyTXJCM0VmQ0FJdGtjbkdWZjIyTGJMSUNOSWdOYlVjcFlCdw?oc=5",
+        "published_at": "2026-10-14T05:17:31+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -181,33 +208,6 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU1ZvUk5zUFlzb2oxMTd4ai0za1YwNUFBRV8xdkdXbWEzX3h2SFV5eW9HWC1mRUtVcDhyWmJLYU5MTDJOaTY0dHk0SnFkSnpjM2VsaUR0Vjc1cWhkS0VJVE1henhROUg2MDR4Nm9kQmEycE9wdm1GVXhzcFFUdkgtRnRrRjhLWkUya0QtSTlrZ3kyenho?oc=5",
         "published_at": "2026-10-14T05:17:14+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Several Republicans vote with Democrats to pass Ukraine aid, Russia sanctions package - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHdrTGxMZUpZTFJQZjRNZU5lVFhJYVNmdEUzYVNCZ09zTkxEMUFJaDJfNGxHOFpNZUNiQk5qQ3JBWG5qeTlLOVp6bzE4YVZpNGtKZ2tUaUV4SFhqLTlYZTBDUzUtOTIwVDBiTVZfNmdlalllemFmMTZhMHdJazhsZFdTc05BdnQ0REtuTUZhbVBSUEFNd0t4NV9iSXhRZVNSazBzZHZTNGVKS1FM0gGyAUFVX3lxTFBWc2NUSVBWYzVyNVF0dVFmV282dHpZY1Y5Snh5ZWppNnEwYzZLYXlHVHpZLW5RbVg3aHhRMlVWTDlCMXRUR0M1WDFEV3R2MV9KUEZzVWhacTVxR1dxQllKWlpuUDBkSE8tSXBMVEhYemF0cDMtbDMzcDhvc3NiLTBxemo3Y1NvV0FFUzBvSEd4c0xDblJLUUc0YkZ5b0JlUGhuMnBnWE43Si11WDlPMmhsOWc?oc=5",
-        "published_at": "2026-10-14T05:04:23+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
-        "published_at": "2026-10-14T04:36:06+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil rises amid growing Mideast tensions between Iran-backed Houthis and Saudi Arabia - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeS1hMFRGRUNjdFFUaXlPWl9TcnFpSHk4Y05USDF4cUR5cWpCcDhoSFl5ek9kUzVSMlZKaE1KQlhNMENyRXpNWjlKTVFtSWxRVlpxalRrdk02WWZCTy0xaEREZ25fdTBBRE9NZklpczRtQU1XVV80cGs2bXRpU0RyeFRBTGFRT3hqV3p5ejRmV2gxZWZYdnFpQzNLMHIwRE5nN09lanY4eHFGd2_SAbABQVVfeXFMUG12eVo3Ymp4NEV5UDJCZlRlcjRSbjAyVmY1WEFsUXBqZHBlc2pHOXp5emh1OVFzOGFJOGx1cWxiRFFVODI2Tnl1MkxabDh6ZHAtYWZSaV94TmhYaXZQQk80TWdVdEZDNUpFYVRZTWthZThqb2VDYnV3VnVHeXk0dnpfelFGNWtMNTVnYnRwanZKRWUtc1JNLWpPaEljMXM2ZE4zRndJeUt1SWpfSm42amE?oc=5",
-        "published_at": "2026-10-14T01:55:00+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
