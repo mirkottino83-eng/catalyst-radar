@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T02:09:41.966076+00:00",
+  "generated_at": "2026-10-14T02:38:08.829985+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 95.22000122070312,
-    "wti_change_pct": 1.5788386928325515,
-    "brent": 106.87000274658203,
-    "brent_change_pct": 0.20628337323533863,
+    "wti": 94.9000015258789,
+    "wti_change_pct": 1.237469264502411,
+    "brent": 106.4800033569336,
+    "brent_change_pct": -0.15939818707275677,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.13700103759766,
-    "macro_score": 45.2,
+    "dollar_index": 102.13600158691406,
+    "macro_score": 45.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.58%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.24%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T01:55:00+00:00",
-      "brent": "2026-10-14T01:55:00+00:00",
+      "wti": "2026-10-14T02:25:00+00:00",
+      "brent": "2026-10-14T02:25:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T02:09:30.417421+00:00",
+    "updated_at": "2026-10-14T02:37:54.705657+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -64,21 +64,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       }
     ],
     "geopolitics": [
@@ -89,6 +89,15 @@
         "published_at": "2026-10-14T01:56:57+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil rises amid growing Mideast tensions between Iran-backed Houthis and Saudi Arabia - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeS1hMFRGRUNjdFFUaXlPWl9TcnFpSHk4Y05USDF4cUR5cWpCcDhoSFl5ek9kUzVSMlZKaE1KQlhNMENyRXpNWjlKTVFtSWxRVlpxalRrdk02WWZCTy0xaEREZ25fdTBBRE9NZklpczRtQU1XVV80cGs2bXRpU0RyeFRBTGFRT3hqV3p5ejRmV2gxZWZYdnFpQzNLMHIwRE5nN09lanY4eHFGd2_SAbABQVVfeXFMUG12eVo3Ymp4NEV5UDJCZlRlcjRSbjAyVmY1WEFsUXBqZHBlc2pHOXp5emh1OVFzOGFJOGx1cWxiRFFVODI2Tnl1MkxabDh6ZHAtYWZSaV94TmhYaXZQQk80TWdVdEZDNUpFYVRZTWthZThqb2VDYnV3VnVHeXk0dnpfelFGNWtMNTVnYnRwanZKRWUtc1JNLWpPaEljMXM2ZE4zRndJeUt1SWpfSm42amE?oc=5",
+        "published_at": "2026-10-14T01:55:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -119,15 +128,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Proposed oil deal with Russia divides Wyoming elected officials - WyomingNews.com",
-        "source": "WyomingNews.com",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSEY3ZnNDdFYzOVc4M1hkaEFCYi1HY1FYQzdWazRhZmVVWUJaTUZnUEdsSjlyTFFhUzYyY25rb3VWZHMtQnVGaWxuVFk2T0Y2NFh4Z05aY1FvaUJqZGtpaU5FdlJzbVJLcUR3MGY4ZWNXUUMxUEJNXzY3czlUN1R3dVc3RExQbm1ybmFCMVRIZVJvYmVWMEVBbl94OGNmRUx2REwzMDBOeldSdjhkQy1tZ1hWejdCX3JOWEVQNm1vZjZrRE9oOGExQ2hjWi03dkp3cnZ4WWM3UENBUWVBZDRmZUlWRFo1MTlyaGlvY2p3?oc=5",
-        "published_at": "2026-10-14T00:58:23+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia’s Leading Sanctions Evasion Tool Is a New Kind of Illicit Finance Threat - Foundation for Defense of Democracies",
         "source": "Foundation for Defense of Democracies",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRk44MTIta0h5dUxHa1dGSXpwTGhzOFk5bE5FVTNSREN5eDVkMEFrcXU2ZGZ5TkZTTmhqM1NadHpSbVM5RnZBQk1TaDd4ZUwxUmF1SGtWbFFVYkNZZkhpYjVoMTZHU3o3WGFNcmJxTktWcWJyZXdOZVM3Um4xZ2FGNEY1Qmk1VlRjbjg0dnMzS284bnpFSEtEQW5ITE1YcTR4RDJ1TC1NV0ZLV1lf?oc=5",
@@ -155,29 +155,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Sanctions Paraguay, Belize Ministers Over Taiwan Ties｜Daily News Digest｜2026-10-14｜web only - 天下雜誌",
-        "source": "天下雜誌",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hVzV3UHRZa2pmdGZUWWFDa0Y5Y2hoSFRzR1BiWWg0MWF6UUFzS09qLUlqSXlLN2hjdk1YX1RfLVQzUjZBV3NwNTExNzhLX2k2d2NBN2pGd3JYRldaOTNuZVJKYkt1U3M?oc=5",
-        "published_at": "2026-10-13T23:48:47+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran increases threat to Strait of Hormuz shipping, and other Middle East developments - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjZtVDJsR2JiRDFvUWtYR0Jvei1EVklHd2VjRGxUbTZ3MlZmME4yVWhkN1ppU2JMN3NTWFk3X1B4eElWSkhiazYwb0tvMi1NMklRemNiN0F3c21ZX0NybmtxY211bEc5MXNsVkNndjN5MjRjSTUtbUpUVEZlc1hiMkx6Y2h3Z1k2Y0VpcG1vWmEtc1lwN2pnbHhqcGYyVmhGb3FTVA?oc=5",
         "published_at": "2026-10-13T23:29:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says US still sharing intel, even as Ukraine reports attacks with no warnings - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVA2WjlXNVNqR1RhTzFnOFd4bGstWUFZMDhCbXBNUEsxNzU4b2N2Tktwck9tMlFvSERMbFVwcnNkMUFTSVBxMjlia2VhMlQwZVllRlo5ZFpaUnl6aWFxSWJGaXhIeFJFcVA1ZUUxRHJqWjNqalNrU1UwMUtfX1hKTXhtN3pNVHdOSW93WGh5NlRuZW5KdVJPOGtsWWVHbG9UMy1tUjZrcWxEWGZkUldicFVURDFjdmdza3Q0?oc=5",
-        "published_at": "2026-10-13T23:07:11+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -191,12 +173,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Former U.S. ambassador on Saudi Arabia's struggle to defend against Houthi attacks - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV3RKZXlvdUJQbENhNWhPbS0xWl9GVUFDeWpQa3h5WXN3QUN3b2JJaGpqQVFZR3Z1V0pISnk0bGx0bU5KSzUxclVmQU55ZmFXWGtRc09TSjY3WVVVelVzOTE5ei1hUW05N3Q5UF9hZkVEd05TSFplM1kzTW5KSFlhd0xIRUh3bi0wMW1LQ1htd01JNnJZMXAxTVdXbGNzMmRndi1pWElkSDJIMFZKQXQtTHRGaEI?oc=5",
-        "published_at": "2026-10-13T22:45:27+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Lawmakers Argue Trump's Russia Diesel Deal 'Violates' the Law. Here's What Legal Experts Say - Time Magazine",
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcjJDOFZveTZzQWowY0ZmNlJFS01kbHpZY3BlVkREdGltal9HakF4Rk8tZkJGVWxGVGtGdlE3RkFCMGQzSkp3Tjk4Y0traUdTRlVRbk5rZlNUTzJNZkp0djFOemY4cmtMN3VJTlQ0TWtRdzBjN0lEb2k5RnFVV2NBSldUUHllaG1aRjFfTTNYcVJtdVVhX2RPaVVhTW5VMFdoQ3BXSUxOSQ?oc=5",
+        "published_at": "2026-10-13T20:31:53+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -209,10 +191,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "'Gift to our adversary': More Republicans criticize Trump's Russia diesel deal - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUViSHdiMmpBMGUwOVNDWXE1bHJqRzRmMUFMT3hUeWlESnVJWHNZeVk0eTIySW1IM3VvTnhqSEFjTHdVOUhGbUptNWJSSk9GcnpSYU0wVjk2QzVuLWxBY25nQnc0cm9DbmJ3c0E2dTJIeC01RXV1QkpXZmlJb3dyWTFlODdPRFNhVEkyZUZOemJMUTZJZjVwRkRRRGpDNGVERTA4LVNXeWFkdlRBRkQ3ZXdweXMzazh4WUNB?oc=5",
+        "published_at": "2026-10-13T20:02:36+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pork Tariffs: China Hits U.S. Exports - Opportimes",
         "source": "Opportimes",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYWWdkcXlXaHZDOE9HTW5VaWNZMXU3UXcwbHFBWDU4R05XZEZlbElxQ0M4dmdQTUVlSXBsc0ZwSEpRZTY3S1dsay1hZk1yWS1ud3luMlhBOXVHd3B2Nml6d284b3lXaTNFRmdDR3B5WkFDVmpr?oc=5",
         "published_at": "2026-10-13T18:36:49+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How Maroš Šefčovič talked his way to a China trade breakthrough - POLITICO.eu",
+        "source": "POLITICO.eu",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSUNpd0YyaTNBb0F4UDg1NzNEN0daX0NXRW5OeHRMTkx2VFBkcmdmeFkxSU1ieWFhdGNnMGlIcmFYbjVaODgzQk1kOHQwcHN4QzMwVFB6dm1ibGdLYy0ycnFLTm81bDQ2dDRyMl9CTHcxdDZEU3ljQm5WZk9NcERyc0NPNDk2cW5HYU40akdqMnlMZExYVnF0eDN6VUU?oc=5",
+        "published_at": "2026-10-13T17:43:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
