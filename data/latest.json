@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:41:20.706871+00:00",
+  "generated_at": "2026-10-14T22:08:38.576735+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -15,7 +15,7 @@
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 102.552001953125,
+    "dollar_index": 102.53500366210938,
     "macro_score": 0,
     "tech_bias": "strong_negative",
     "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +1.09%.",
@@ -32,9 +32,24 @@
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "category": "Space / Technology",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -13.73,
+      "short_term_change_pct": 2.04,
+      "relative_volume": null,
+      "quote_at": "2026-10-14T22:05:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "RKLB"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-14T21:41:08.744618+00:00",
+    "updated_at": "2026-10-14T22:08:25.921065+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +66,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -72,10 +87,37 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
+        "published_at": "2026-10-14T22:00:55+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil prices rise as Iran steps up attacks and Houthi-Saudi fighting intensifies - Inquirer.com",
+        "source": "Inquirer.com",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdHpaY3JEdE50WW95N216QW1DUGdNaEUtOVRZS0VqWXhDb0JidjBWb0hLVVdkZTROLTA0bGFnQ0NsRDd1czY1bHc1UWR6QldreXY4S1JSMUpscV9qYnZqX3ZBRlZLVTRFQ0pCZXYyeGlKYVNOVW95SFV4MUhkV0FYM3JIWXlPcGI1RWMzQzM1VFlzV3l2aE4yUG1VY1N0Z3FRamRrTU1HT0VVSGtoQVdoMTExbGRIcmItZWNUc2lmT01OV1JIRl9PQUdMVElab1NTc3NUNWJMaw?oc=5",
+        "published_at": "2026-10-14T21:46:56+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran-backed Houthis strike Saudi oil company Aramco's headquarters, officials say - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQzY0TGNicFB5Y2ZTa21iaGExMGt4djdWaHZOZVZOMnA4UzAtQnplMVYwR3kxTk1OekxLbnhlbjFKTXMyOVNRb1YtNXRKa0V0cVUxTDdEMHV4UGd6QzVHM1d4Sy04SWNnOXdIcW5uTWtzbWZrTVk1WHFhbTZUM0U0YnV3ZklqcTdMX2EydTU0cFVMSHZFZVNUUGxiYm1LTFJzclRyeDg5RlpnZk1kOGtKY3lsRmnSAboBQVVfeXFMTXZEek5DX0hPTnFmUm10T1JXTERZVVhFa1BNclBJZTV5Y3l4MXVQWkptRkc0UVBQOEcyN1Y2UUEzZFlrOWZHZFhRVl9nR3AtSmYwSEdtbVdhM19YZWZELTRvdzl4VDNfbkFEMkNRZWlRdnFJcDRoU1BGb3NGNDF1OHJOMlFScFVSWFNBR2xnZnZ6YzA4NU43NGU2am1EWmdiOEdVQ0FjaFNiYWQ2NjdwRWd5aTNvYklkNDB3?oc=5",
+        "published_at": "2026-10-14T21:33:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Iran-backed Houthis struck Saudi oil giant Aramco’s executive offices, officials say - Sentinel Colorado",
         "source": "Sentinel Colorado",
@@ -86,19 +128,37 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Defense Minister Katz threatens to seize Lebanese land if Hezbollah, Iran attack - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?oc=5",
-        "published_at": "2026-10-14T19:20:21+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Ukrainian drones lose some speed after SpaceX imposes sudden restrictions on use of Starlink - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWRmRG9DZUlZX3NNS19fcHRySUhIMlZadTN2YjVTdkdOQl9NT0lhSmJtdHM3ai1xMU9oQU1PVVRtMmdVbEFndlVWSXFJX2Y5RVEyRXlTQTFJclFBSHN3eVo2NlpMSlNrOWZfZ2hLR0VKZms1enQ1VjdicVdsN1R1RFVDVkJMLW5tQmUtbGpUN1JMMG5YWDNQSG9GVURLVmVZOVlzOFF1elAxR0w0?oc=5",
+        "published_at": "2026-10-14T20:17:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Cargo ship sinks after Strait of Hormuz strike causes fire - Transport Topics",
-        "source": "Transport Topics",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdGZtZkpPMk15YkxWZl9adWJIdDZGbW5aV19BZ01ob3FnQTdkNUVoSzItbnFYeDJvTnhKd004OUVIY01iNzFrUDNWVEZkaDY4TXZydVUxMUtUcEFOUFdNT1d5ci03bHMyZTFn?oc=5",
-        "published_at": "2026-10-14T19:10:00+00:00",
+        "title": "GOP lawmaker defends Trump’s energy ceasefire push, rips Putin over betrayal - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUHM1LUNBVlcyNUpPZWlQUUt5MlJ1UnZYYjM4YkpmVjJLalE0eUlTQTNBQkxVMnVZcGdEUElTRnlOaGZwZFdRUXhwQklVR0xhNGh2VWhRTnRfSzliUVppQ0dsUzdWb1p0TlhLQm05N1JhbXRmSXpxRU9HelV5MWZvdNIBhgFBVV95cUxPNUdyOVdnZFlVRTlYRGNVNG02VklmRlo2b3FDajdfazlOakRCOVhnVXZhWlFDakd1MHMwT3BEUWpMbHNyX3U2UUFlVDExc0o0aU9SNjc2TlU1LXQ2cVJvdVNMU1RiZlZIa0xWb3R0Um5QMnVZUzZIN3ZSU3BiNE50MVR0eDJ4dw?oc=5",
+        "published_at": "2026-10-14T19:59:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s 2026 Trade Surplus on Track to Exceed 2025 - Supply Chain Brain",
+        "source": "Supply Chain Brain",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWFM4NFV4ZmdLSWt2Rm1kZEJNVUcyUHJKekhacUpndVJQcng0Y1RVMWZuN0s1VHhnN2lnZmt2cXZRRy00ektiUlpoemZQNDJ3NG1wbXdFY3ktWkwzZHBrRlFzVXlBcmJaVHVHT28yVkFvN3pvWEp0WU1od2ljMlZMa2VhekdncVBEakNJRU1ZWnI1eTQyN3g0aGNKS0l5QQ?oc=5",
+        "published_at": "2026-10-14T19:49:32+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Defense Minister Katz threatens to seize Lebanese land if Hezbollah, Iran attack - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?oc=5",
+        "published_at": "2026-10-14T19:20:21+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -125,18 +185,9 @@
         "title": "With China Facing More Trade Barriers, It Can’t Afford to Lose Europe - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYNDNELUppYzROV3VxSjE5Zlg0cHBsSDFacFBTbEY2R011SnRGT3NuMHpDT3RiSGhfOHRnb05WQllxVVk1LVpaUzVoLUpOSlhNa3NRbU1BQmlDb1NGa3o2Tk1hRjRVWkFLeF9NSEdTeG80WC1aUEFPcFV2N2t5NVpISmg3eE01M3pwUlJNMWx3RUoyOFVRMnlGRkxNUTgxWDVuRkdn?oc=5",
-        "published_at": "2026-10-14T18:39:00+00:00",
+        "published_at": "2026-10-14T18:41:29+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5",
-        "published_at": "2026-10-14T18:32:19+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -146,24 +197,6 @@
         "published_at": "2026-10-14T18:25:07+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?oc=5",
-        "published_at": "2026-10-14T17:22:06+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukrainian drones lose some speed after SpaceX imposes sudden restrictions on use of Starlink - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWRmRG9DZUlZX3NNS19fcHRySUhIMlZadTN2YjVTdkdOQl9NT0lhSmJtdHM3ai1xMU9oQU1PVVRtMmdVbEFndlVWSXFJX2Y5RVEyRXlTQTFJclFBSHN3eVo2NlpMSlNrOWZfZ2hLR0VKZms1enQ1VjdicVdsN1R1RFVDVkJMLW5tQmUtbGpUN1JMMG5YWDNQSG9GVURLVmVZOVlzOFF1elAxR0w0?oc=5",
-        "published_at": "2026-10-14T17:18:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -185,29 +218,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Bulgaria expects to join NATO anti-drone initiative this month, says minister - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlIxWW1TMjZYeUY2Y1p6TkZwdWZQREN1MjktX3hEa2ZSbVNRbzRqVDVaUmMyYmpJdUxEQlZocEttbHZSS1NEVWszaXVfOW11eUpzRV9Lem1odnJ3bi1JTjJiYVhFVEUxd2xqSGh0VXhXTjJTN1l4WWdReHp0UzI2SktHWGZHcnphSjZOcEdKcU5xb2JablpwS1BZUktuRURNVE9uMWVieFJZbjZqMTNlcWJoOWx6WE0xblpJT1gzRQ?oc=5",
-        "published_at": "2026-10-14T16:28:07+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Sudden Starlink limits sap Ukraine drone power as Kyiv fears U.S. intelligence squeeze - PBS",
         "source": "PBS",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb3pjYWhKOU4xWmJfT040ckJEMDBZMEhfMV81eHJUb3ctOWNsQ25TUHBZbGF1NzM5NV9ZYlluWXdUcW5JVXZPa0Y2NEh6TUM1MGF1UWM1SzVNWHBIbVV3eFFMR016cXlYcjhHS05RT3lpbjBPam5QR2dJM0JKVjhKQ1laQ2sxWGZVOWxULTl6R0tUa29Ec3BfNTFLbkQxLU5zelF1Ty1MY2lQWVBwc3ZiRThZZTlUc3BHUWVfLdIBwgFBVV95cUxObURJSHdGWDRDVVh6TUlNNkRmQ3BPUGF6Z1pEV0ZaaEc4RndsaDlsUFlWNV94U0JKTVU2S0UwSFlwR0gzaFhESl93YnJveUI4cGR5RTlhOUg2WHA0TlhJV0FBRkx4c092NXN2Q282Qk0zTEE5MzEydHhiTE1QYWRRYjBRV29zMmFjWHdqR3ItQVpxWlprdDdCR1VlZy0wLV8xSks1R2dCSFEzeEpEUTV4cFRPQlViMmlFVXpxdFk2UDZsUQ?oc=5",
         "published_at": "2026-10-14T16:09:18+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "MAC criticizes China’s sanctions aiming at election interference - Taipei Times",
-        "source": "Taipei Times",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsV3E5bHAyTFZSaVdyNzhNRlhHWWRUUmVNdWpEM2xLWF9fYktscGNSUERpLXViSGQ1M19pODVuWlEyYXhHb1ZVVFZzdlAxWFNzZnplMWpILXhSczUta2lEb3NxcjJBVE52OE9qTHVjVGZveTNUWDVqdg?oc=5",
-        "published_at": "2026-10-14T16:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
@@ -219,6 +234,15 @@
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbWgyZ0ZRYnhzb2g2YnJ5M21ZVjB2eS1wMExHMDRoalhVR0IyY0YzdWVtN1VtcHJzUkU5TF9leDdwaTNWNXptc0FfT0Y1SWtyRVFrV29XTDRJQjhJWktMdW5QdWV6Rkg2SXFTdkRYOHBPb2p3VGZvSXJ1OVItUXBXbWdIVF9UZHRlYTFEb2VWXzdTUFJBSWhOTUhjZ2dXN1J1SnRkUGc5ck5vRkdzb196LUZOakVzbGp6?oc=5",
         "published_at": "2026-10-14T21:17:15+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For? - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUzNibHkxcXpGVU1NNE5xVTlpU0NRWFo0R1JZdTRGRUR6MnFfTGx0aXl0ZFY5UGl4T2NPX3cxQWdNWTVvUTFaOGNFaGNLTkdBckoxR2xMUlQ0RHFVT0ttRGZROFlwY3ZCVlJ6aHA1TFpWc0pGNzFpV21SbC14RzlTdDhucWdCRkxBSDZrLWRR?oc=5",
+        "published_at": "2026-10-14T21:11:59+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -237,15 +261,6 @@
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1ZGcUkyMFZEdXYtUDhENXZ6Rkl6b29Ic3BlOUE2a2U5d3I3UWlPM2ZYRjRnZVYyRVdPRUFjTklPeG9OY2hrdUNZaXc4YU9JWGlsNXY2WFlkQ0lzNHl1VFZoaWNLamlGT3lKQVpyN2VTMm1HVEpRd2FzdUZUN3dTbFBkOEVVUnh6SE05QTZpRmlDTk4xVUoyckJQRjlIRVJaZTBkV2hWalNwd1pKOW9QSFh5ODY4VEVZcE51Wm5RMHZ1RlVnWDVvZw?oc=5",
         "published_at": "2026-10-14T20:23:29+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Centinel Spine® Receives FDA Approval for Two-Level Use of prodisc® C Nova, Further Expanding the Match-The-Disc™ Cervical Portfolio - Orthopedics This Week",
-        "source": "Orthopedics This Week",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWlRJR0NUb0szem94MGRJVDJJUE96Z01nTHEyX2lKRjZfNEpPVU8xLWVHQnlhb2p0QV9VM1dyb0tKUEY4ZFVkUlpRRU9GV19YSXRDOGJqX05jN3huSEpxT3I3RU84eGtqMmx6RUJtdk5Jdi0tdl9uLXlfNUhIRkJsckYzLVkxTTBXR2hXVVRnMTc5T05RRkFGbnJEYk8yRlRvWGlaME9pMWV0Vl95eFRfd0loSi12NktDbUZBNmZNYkwweHBQd29Oa3o3ck1XeGVJUTU1bEM4YXZIdHBzUVdJc2Q0aFZ5ZjA4QTVQVA?oc=5",
-        "published_at": "2026-10-14T19:58:45+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -295,11 +310,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations - Honeywell",
-        "source": "Honeywell",
-        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeTRyTTZZSXZWSGVQRjVmUEdzb05ta2RzZEhUSWdoU0JIUDVXNnV6Z2YwZ3lITGdUSUcwWTB1Z3l2bFJiX3EzaHp3WVlILXJfTzZkZHJmazE4cHZQTWhPY05HLVJnaFQteFBQempGOHB3Q21LMkR1d1FIM2VCem1JUTNRU09RTnZOalJGOXl3aU81WUJFSXhhQ2wxTFdlUTc3bkpFZWF4LWdMVmZwN2VNek44ODE0bW5KY0JLUDhZQTcteHVoOG1OaGY0eFd5VmhmWGo3YkF6Q0pXMllqVnBlcXJONW15S0JYRUFZaHh4bGhCQ3dOSF9TeGZ0aEF0amZQYlJQQ0RqWTFQa2NJLVlhalhHMDlhN3NwLWF5NVdOc2FtbkJiQ3QyamxpRDUzY3M?oc=5",
-        "published_at": "2026-10-14T13:02:07+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Gore Wins FDA Approval for VBX Stent Graft in FEVAR, BEVAR - Medical Product Outsourcing",
+        "source": "Medical Product Outsourcing",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdDZUa3dVSlF2elZHc29oWHZTOEpwekNzUTlBWnZidnJlSktydzB0UWxTUjhXSnlWejJzTTlfcjJ1aUtDbnRCb0R2cXVaelpOdHZVQjcxZkpZQnBIZlN4QzZONDBEbWp0YjJNRmNSdGpBdUVpMDQ4NGRpeDM0VEFsbFJwdnl3NTZUbzNmOTJnVUl4NzlUcWFNV2Iwa2Q?oc=5",
+        "published_at": "2026-10-14T15:56:10+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
