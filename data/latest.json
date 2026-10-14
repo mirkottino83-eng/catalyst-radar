@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T01:16:59.922497+00:00",
+  "generated_at": "2026-10-14T01:45:58.231552+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 95.23999786376953,
-    "wti_change_pct": 1.6001707213391558,
-    "brent": 106.91999816894531,
-    "brent_change_pct": 0.25316140572289036,
+    "wti": 95.2300033569336,
+    "wti_change_pct": 1.589508776530435,
+    "brent": 106.94999694824219,
+    "brent_change_pct": 0.2812896559504452,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.1709976196289,
+    "dollar_index": 102.14399719238281,
     "macro_score": 45.2,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.60%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.59%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T01:05:00+00:00",
-      "brent": "2026-10-14T01:05:00+00:00",
+      "wti": "2026-10-14T01:35:00+00:00",
+      "brent": "2026-10-14T01:35:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T01:16:46.208187+00:00",
+    "updated_at": "2026-10-14T01:45:47.860130+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -83,9 +83,18 @@
     ],
     "geopolitics": [
       {
+        "title": "[Shang-Jin Wei] Why US-China trade matters - The Korea Herald",
+        "source": "The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LLWstUTJ5bUcwblgyVlFQNjA4VlhaV3VBdkdWZ215U0EwNVJtTHVkSTJJRkpjUG93TWFqTHc4YUJoMzNBZlBJSThrcGY3ZmluenI4eFFHZw?oc=5",
+        "published_at": "2026-10-14T01:31:25+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "2 Taiwanese executives arrested over mainland components in military drones - South China Morning Post",
         "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcXE5LXAwa3F2d2dMYlFnbG5lX0wtRW8wX2VrODdKaXU3S3RaVzhaV05iYTYxRnZkaFF5RG1kcEZuS19OejB6NlZEMFVyQWM4VGZxMkc4TGN3RzEzbnpSS0RFcU9vLWptVkVoX2VMakhPVXE0U1MxbWlURmMyWEd0Z2lrQjF2SzVUQmVnelBRZVZ5YW9pRy1OeUxSWWJEU3VJVTl3NjhHQU9taFFzbnZ1SWhJT1dNWGpFQ2R6M1BvSHJGSzhkQ2M5MnlzNzk5WEZUVE1najR4eW5GOGFmYXFDMzRpY2gxMzNsejNrcnNJZkg?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOckNuQWFIZTdQTThacDFLQ0ZoUHdiWGhRUERWZmNldW9jY0hlNHE1bzVTWC1GTFJKdThWSnk3TEZqRlY0bVZwbUVjdndCSlVDa3NsaHJUemhxSGFaVkx1V0FVS1FmaVpDTTB4VHpkeWs3cUFlODFnMmJWdDVVME14cWdxQlppZTFvNGJyS01UQzNrWjdWS2pySmNid2NTenNvVjM2V2kwVzdyUzNQeUFINDdYR0ZwWHhteVpGaVFuREdpQXZobHJQZg?oc=5",
         "published_at": "2026-10-14T01:00:05+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -116,15 +125,6 @@
         "published_at": "2026-10-14T00:06:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Exports to China Languish Despite Beijing Summit, Rival Beef Tariffs - Meatingplace",
-        "source": "Meatingplace",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeThjU2wwcXBCUVFnMkJFRHdPX3hSVm9rNXdaay04MnZJQ1FnXzEwU2hNYm1SVVRqQndYRXUtS1g3S0tLUHFrdmZDczV2cm5wX0xPM004LTVkNlpSbEVtWHgtR2JxZVlXM2JSeTZheGhldE0tbkVXUWhPZEpOZ0ZISXBZMDZMdUR3SF84eU43TDdXR05wcEdvcA?oc=5",
-        "published_at": "2026-10-13T23:59:34+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
