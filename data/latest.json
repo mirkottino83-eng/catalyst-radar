@@ -1,46 +1,40 @@
 {
-  "generated_at": "2026-10-14T07:21:40.087975+00:00",
+  "generated_at": "2026-10-14T07:57:50.546917+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.55000305175781,
-    "wti_change_pct": 0.4355254565196587,
-    "brent": 106.2699966430664,
-    "brent_change_pct": 0.5487692196636029,
+    "wti": 94.5199966430664,
+    "wti_change_pct": 0.40365121721017694,
+    "brent": 106.08000183105469,
+    "brent_change_pct": 0.36900310402079306,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
-    "vix": 15.270000457763672,
-    "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.1520004272461,
-    "macro_score": 47.5,
+    "vix": 15.210000038146973,
+    "vix_change_pct": -0.3929300446496975,
+    "dollar_index": 102.15899658203125,
+    "macro_score": 48.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.44%. Geopolitica: Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.40%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T07:10:00+00:00",
-      "brent": "2026-10-14T07:10:00+00:00",
+      "wti": "2026-10-14T07:45:00+00:00",
+      "brent": "2026-10-14T07:45:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
-      "vix": "2026-10-13T20:10:00+00:00"
+      "vix": "2026-10-14T07:40:00+00:00"
     },
-    "geopolitical_risk_score": 35,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T07:21:28.297039+00:00",
+    "updated_at": "2026-10-14T07:57:39.174838+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -64,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Titoli tech e AI",
@@ -82,6 +76,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Russia's Novatek says Q3 gas output up 4.9% - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2s2V1ZHWmdlVWxGRHRaYnkxeUdwSi1QOEo5U2Rsa3p2ODJON3ZRTmkzM3N0RVNxVkM0c0c4cjVUVGw1d2NlMU1Rc0J0aW1aVzhqaEs3eU5mcURtcFpYWGlmLVc1Z1Y3Snd2dzZzRVpabVZUckFUdmpWMEZUaWZOWW13OWg2M3Y1ZUpqbVRJcHNyX0dzOWxV?oc=5",
+        "published_at": "2026-10-14T07:33:43+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "‘Massive’ Russian attack on Ukraine kills at least six, cuts power in Kyiv - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR255TWFCcWE0UHZFUTlzMlNtZVNKOUhDanV1eFNHMDVDZ2F6ZVVaZlA3QUtNTVB2RXJKZTdqRGJSaldhU0lVWVRESzRtZ3hYbVZJNnY1R3hxdElwV0RwX2w2R2JJSk95aGFqM21lQmJTTFhqR0NMLWQ0ZEpPWnVYOWNFWW1XU2NfNGRiaURZSlBKYUdaeGNnc3BwZ0wxelN4QUlILVpqSXdLbjZ5T0daem9Bb9IBuAFBVV95cUxOTkctWElMd3BpWDhKMm8yQ2lXLWgxWFE3TTFtV05zdVUwQV9PRjlFSGIwSUhzVnpnRng5NWFBWjRZQS1MZ1hfYzVLOVZaLVVacGxRclJpOVQ3bDRNSWt1OTZ1a1dhOTZkTnlrWXVHMHRtT1BzQ1RqTGhCcGZVQWloZUhkUXNZOWZWcG5JU21ibk5ZMEpDWTI4aEdOR25TVEhsS2liVkRDbTFpdGtwSEFEQTA0RjlzUFZD?oc=5",
+        "published_at": "2026-10-14T07:16:20+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Saudi Aramco HQ attacked in suspected Houthi strike - Financial Times",
         "source": "Financial Times",
@@ -107,6 +119,15 @@
         "published_at": "2026-10-14T06:28:46+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Live: Houthi strike causes fire at Aramco site as coalition continues attacks - Middle East Eye",
+        "source": "Middle East Eye",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXNvTzZ4TkdPVHc4bkh4emxSZzBhMXBKM04zNlFFeFoySUpBelZBQlJmVF83WVdXNDQ5VEFXei13SjlVQ0xDSHBpWU9GZElNQk9naS1ESFRMcXRMX3FHV3ptOU9nRFJLRWFBVVI4ejhHNGVSUWJNZVNHZmVBTDNMRXZvc0lfODAyTXJCM0VmQ0FJdGtjbkdWZjIyTGJMSUNOSWdOYlVjcFlCdw?oc=5",
+        "published_at": "2026-10-14T06:14:52+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -155,21 +176,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Live: Houthi strike causes fire at Aramco site as coalition continues attacks - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXNvTzZ4TkdPVHc4bkh4emxSZzBhMXBKM04zNlFFeFoySUpBelZBQlJmVF83WVdXNDQ5VEFXei13SjlVQ0xDSHBpWU9GZElNQk9naS1ESFRMcXRMX3FHV3ptOU9nRFJLRWFBVVI4ejhHNGVSUWJNZVNHZmVBTDNMRXZvc0lfODAyTXJCM0VmQ0FJdGtjbkdWZjIyTGJMSUNOSWdOYlVjcFlCdw?oc=5",
-        "published_at": "2026-10-14T05:17:31+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "China Trade Volumes Put J&T Global Express Stock And Shipping Shares In Focus - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU1ZvUk5zUFlzb2oxMTd4ai0za1YwNUFBRV8xdkdXbWEzX3h2SFV5eW9HWC1mRUtVcDhyWmJLYU5MTDJOaTY0dHk0SnFkSnpjM2VsaUR0Vjc1cWhkS0VJVE1henhROUg2MDR4Nm9kQmEycE9wdm1GVXhzcFFUdkgtRnRrRjhLWkUya0QtSTlrZ3kyenho?oc=5",
+        "published_at": "2026-10-14T05:17:14+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Trade - WV News",
-        "source": "WV News",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjZEbmtHVjhpVjh3b3pTOXl3ODlCeGJ2M3pmR1JfS1g3NDJjWWcwQm1KQlJla0h0dG9xSFl0NkpWVDNJaXB2UGdlOUpheldUb25vNUhadF9BNjg2eUkwTTNwWlV1VEg2WEU5T2NrV2VOVUN1WF9tdnJqTDlnVGRBSlV1SVhGTThnUVRlaVVxbDBoMUFBbnc?oc=5",
-        "published_at": "2026-10-14T05:00:25+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Several Republicans vote with Democrats to pass Ukraine aid, Russia sanctions package - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHdrTGxMZUpZTFJQZjRNZU5lVFhJYVNmdEUzYVNCZ09zTkxEMUFJaDJfNGxHOFpNZUNiQk5qQ3JBWG5qeTlLOVp6bzE4YVZpNGtKZ2tUaUV4SFhqLTlYZTBDUzUtOTIwVDBiTVZfNmdlalllemFmMTZhMHdJazhsZFdTc05BdnQ0REtuTUZhbVBSUEFNd0t4NV9iSXhRZVNSazBzZHZTNGVKS1FM0gGyAUFVX3lxTFBWc2NUSVBWYzVyNVF0dVFmV282dHpZY1Y5Snh5ZWppNnEwYzZLYXlHVHpZLW5RbVg3aHhRMlVWTDlCMXRUR0M1WDFEV3R2MV9KUEZzVWhacTVxR1dxQllKWlpuUDBkSE8tSXBMVEhYemF0cDMtbDMzcDhvc3NiLTBxemo3Y1NvV0FFUzBvSEd4c0xDblJLUUc0YkZ5b0JlUGhuMnBnWE43Si11WDlPMmhsOWc?oc=5",
+        "published_at": "2026-10-14T05:04:23+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -182,39 +203,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "The not-so-secret vulnerability in Ukraine’s drone arsenal? Chinese technology - The Seattle Times",
-        "source": "The Seattle Times",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWlMzX1BHcFJ3SzNZNXdXcHE5ZnZiRzdlellJSXFGQmpZN2ZhZDlpWkZzZ0xRd2gyR3EzeEx4TzBwTERWQXlrSzZYdWZJM2dHM3hIYm1FMjNWc0xIMjI4MU13amxTRW9Xc2JCSEQzZ1lnM0dyVlM3MVBWZHItM3lnS1oyWEVkdVFtOVc2QmxIalppRmwwZHVYT05YX0RjM3l2aDZXVjdkLWZ6WjF5cVN3emtQUUZRa3ZwTkV3R016TXdSRjN3?oc=5",
-        "published_at": "2026-10-14T04:12:18+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil rises amid growing Mideast tensions between Iran-backed Houthis and Saudi Arabia - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeS1hMFRGRUNjdFFUaXlPWl9TcnFpSHk4Y05USDF4cUR5cWpCcDhoSFl5ek9kUzVSMlZKaE1KQlhNMENyRXpNWjlKTVFtSWxRVlpxalRrdk02WWZCTy0xaEREZ25fdTBBRE9NZklpczRtQU1XVV80cGs2bXRpU0RyeFRBTGFRT3hqV3p5ejRmV2gxZWZYdnFpQzNLMHIwRE5nN09lanY4eHFGd2_SAbABQVVfeXFMUG12eVo3Ymp4NEV5UDJCZlRlcjRSbjAyVmY1WEFsUXBqZHBlc2pHOXp5emh1OVFzOGFJOGx1cWxiRFFVODI2Tnl1MkxabDh6ZHAtYWZSaV94TmhYaXZQQk80TWdVdEZDNUpFYVRZTWthZThqb2VDYnV3VnVHeXk0dnpfelFGNWtMNTVnYnRwanZKRWUtc1JNLWpPaEljMXM2ZE4zRndJeUt1SWpfSm42amE?oc=5",
         "published_at": "2026-10-14T01:55:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
-        "source": "Mashable",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
-        "published_at": "2026-10-14T01:19:22+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Several Republicans vote with Democrats to pass Ukraine aid, Russia sanctions package - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHdrTGxMZUpZTFJQZjRNZU5lVFhJYVNmdEUzYVNCZ09zTkxEMUFJaDJfNGxHOFpNZUNiQk5qQ3JBWG5qeTlLOVp6bzE4YVZpNGtKZ2tUaUV4SFhqLTlYZTBDUzUtOTIwVDBiTVZfNmdlalllemFmMTZhMHdJazhsZFdTc05BdnQ0REtuTUZhbVBSUEFNd0t4NV9iSXhRZVNSazBzZHZTNGVKS1FM0gGyAUFVX3lxTFBWc2NUSVBWYzVyNVF0dVFmV282dHpZY1Y5Snh5ZWppNnEwYzZLYXlHVHpZLW5RbVg3aHhRMlVWTDlCMXRUR0M1WDFEV3R2MV9KUEZzVWhacTVxR1dxQllKWlpuUDBkSE8tSXBMVEhYemF0cDMtbDMzcDhvc3NiLTBxemo3Y1NvV0FFUzBvSEd4c0xDblJLUUc0YkZ5b0JlUGhuMnBnWE43Si11WDlPMmhsOWc?oc=5",
-        "published_at": "2026-10-14T01:11:56+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -238,11 +232,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Novartis (NVS) Gains FDA Approval for Lamprene, Enhancing Patien - GuruFocus",
-        "source": "GuruFocus",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYWs1dVYwWWVsLU4wbHc5bzl1ZC1na01GYjlUVl8xbzVFZHVROVhXTjd5SUhKajRUUXdWVWo0NVAySlAxbU9QQjR4bHB0OWowY3JUSXh4Z3BJREJ2TV83SlBaTVQ1X3pISFBKcVpKbGJFUTI3QkI1a0VDaHdlZzgyeFk4ck1FZ3FsZVlXam0yM2lHblRvQkZRbnJVRVRUZFlXbDV4VWZud25zN3Fl?oc=5",
-        "published_at": "2026-10-13T20:04:27+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Nvidia’s Huang Plans $2 Billion in Europe AI Deals in Next Week - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTUyMWwxLUpnYVFUYlNzVS1YS0d5UkpaWXhsbmZ6U08xMmNKUTFSU01rSTRjN0Z4UF9hTG0tajg4TFZqZExYVS1oZkxJWlNFM0hBc2ctbUZBU1htclhwWVB6ajludXpVT3NDZ21YaEk3UExON3ZpZVF3YU1ycDI2MS0tVU1jelR5N3F2emRKT2JDcUE4V3hiUzlxY21SNXBXdHl1YzJWREFfY2I3cWhEa2Z0VQ?oc=5",
+        "published_at": "2026-10-13T20:15:31+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -292,11 +286,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia’s Huang Plans $2 Billion in Europe AI Deals in Next Week - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTUyMWwxLUpnYVFUYlNzVS1YS0d5UkpaWXhsbmZ6U08xMmNKUTFSU01rSTRjN0Z4UF9hTG0tajg4TFZqZExYVS1oZkxJWlNFM0hBc2ctbUZBU1htclhwWVB6ajludXpVT3NDZ21YaEk3UExON3ZpZVF3YU1ycDI2MS0tVU1jelR5N3F2emRKT2JDcUE4V3hiUzlxY21SNXBXdHl1YzJWREFfY2I3cWhEa2Z0VQ?oc=5",
-        "published_at": "2026-10-13T16:07:12+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Thrombectomy System, Blood Return System Get FDA Approval - Diagnostic and Interventional Cardiology",
+        "source": "Diagnostic and Interventional Cardiology",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXpVdXMwVktOVFEzNUtGTWFSb296ODFpNTVoRXc2Q2c1T0VqR013S09CUHBRQ21OSnlzZmFIQjhOQ3RRSnctbFc5Y0c2ZC12eGJZTHRTeTg3b29BRXdQczRXYU5MMUhCNkE5enZsdWg4X0J2b01qcmZ1Ty1UQ1hoNE1kQURyMTFXRFdwcmZENXRlVlRCa1JoZA?oc=5",
+        "published_at": "2026-10-13T16:24:36+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
