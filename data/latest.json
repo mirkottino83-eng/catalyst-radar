@@ -1,282 +1,102 @@
 {
-  "generated_at": "2026-10-14T11:37:13.693652+00:00",
+  "generated_at": "2026-10-14T12:09:19.001927+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 95.86000061035156,
-    "wti_change_pct": 1.8270673803427506,
-    "brent": 106.41000366210938,
-    "brent_change_pct": 0.6812387208546822,
+    "wti": 95.93000030517578,
+    "wti_change_pct": 1.9014243967842681,
+    "brent": 106.33000183105469,
+    "brent_change_pct": 0.6055439255034933,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
-    "vix": 15.300000190734863,
-    "vix_change_pct": 0.1964618996192602,
-    "dollar_index": 102.24700164794922,
-    "macro_score": 45.1,
+    "vix": 15.350000381469727,
+    "vix_change_pct": 0.5239025625921379,
+    "dollar_index": 102.23999786376953,
+    "macro_score": 44.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.83%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.90%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T11:27:00+00:00",
-      "brent": "2026-10-14T11:25:00+00:00",
+      "wti": "2026-10-14T11:55:00+00:00",
+      "brent": "2026-10-14T11:55:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
-      "vix": "2026-10-14T11:20:00+00:00"
+      "vix": "2026-10-14T11:50:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "SE",
+      "company": "Sea Limited",
+      "category": "Asia Tech",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 1.43,
+      "short_term_change_pct": 1.06,
+      "relative_volume": null,
+      "quote_at": "2026-10-14T12:05:51+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "SE"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-14T11:37:02.306319+00:00",
+    "updated_at": "2026-10-14T12:06:31.377238+00:00",
     "open_market_required": false,
     "window_hours": 48,
-    "status": "OK",
+    "status": "SOURCE_ERRORS",
     "sources": [
       {
         "area": "Medio Oriente / energia",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 14
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Russia / Ucraina",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 13
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "USA / Cina / Taiwan",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 15
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Titoli tech e AI",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 2
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 11
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       }
     ],
-    "geopolitics": [
-      {
-        "title": "Ukraine accuses SpaceX of crippling drone missions as ties with US worsen - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSmVTMHFJSVptMmRyQVZ3bTNtYktTRldrczlZUUF6dFBmZnl3WDRvcVpJOEU1azE3OEZlUXg2d005UGpnZ2NTR08tRC1xbmtMZVc4eldhb1ZaV1k3bVV1TXZ0VENlWWQ5MGduMk51dUNQVDJaaTNyRDk2dXB0X2xLT2FsNFRpemlybjZfZXlTei1TZEo5d2xLVmRUNTRJUkhhZEVZeWpBcHZrZ21VZFBYMVl6LTVHY2k2MkhFZnJ3RU9KS0Rs?oc=5",
-        "published_at": "2026-10-14T11:26:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi rebels strike headquarters of Saudi oil giant Aramco - Anchorage Daily News",
-        "source": "Anchorage Daily News",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYkpQUzR4QjBtWUNtSXJTeFIxTzlFS0RJT29RNktsOHdZZkZEeGN2aWtOZS1MMGR0cW5fRXQ5Nm95Rm5vTFhCRlJPZEM3NjZtME9yUDBud2dPM3U1ejMwMHFQcU53MFNqZUtQV0s5R2txQWFwQkJZM2FIdlFUaE51alVXUFZSamliMHF6TWRUQ3NHTUNwZjBzYXgxVGRVbmNaZU5XVl94MA?oc=5",
-        "published_at": "2026-10-14T11:24:36+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan turns to US drone boats to track rising mainland Chinese sea activity - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSzNlWmhvWXVUYU1PaWNkUXF5RDdVaktBUmpnUUFPUmk4SFg1dlVCclYwejRGWHFfWGNlT3R0RU41ZndudU16aXA0OVcwZW5rRHFUM0xmWXl2d2RwMnpwbzlLcGFXRUpVV3Jsa21fZFAtYVJjNk4tSXg5V1hUYS1pYVVsZnpySmNhVGQ0bm9jcGhpMHktUGU1WUVUNUFfd2ZhdVVIRW5aeGRQYXJmQnU5a1lZTXZ6QXlRNDU1OFBIQ0hRXzFLYnB0NWpoNHN6MndsdEFoQUV30gHWAUFVX3lxTE9fQ2ZjVGFyaFYtM2tpbTZId0pXblRTbUdaYlIxa0J1RW1iWGZGOXNlakpUdkpkaTVvUTdKTTRKQ21zaTJtUllOU1o3RVJyb3hydDAwYm8wVUlkblFjWnZwdFMxdDhPYldyNHYtSE05YzFDMEJleHZYVVNvbEI2bXNSRGxWUFc4QWRza3RCS3dQekVJc2ItcW9xZzZtNHY4aTI1UDdzMVhsM0Vfb25HVTc2Vk9keExnYlBtdjZrTFhJMkVVd25HSk1zaVFhRS00YWlLX3lEM3c?oc=5",
-        "published_at": "2026-10-14T11:00:14+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5",
-        "published_at": "2026-10-14T09:45:38+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "‘Massive’ Russian attack on Ukraine kills at least six, damages power sites - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR255TWFCcWE0UHZFUTlzMlNtZVNKOUhDanV1eFNHMDVDZ2F6ZVVaZlA3QUtNTVB2RXJKZTdqRGJSaldhU0lVWVRESzRtZ3hYbVZJNnY1R3hxdElwV0RwX2w2R2JJSk95aGFqM21lQmJTTFhqR0NMLWQ0ZEpPWnVYOWNFWW1XU2NfNGRiaURZSlBKYUdaeGNnc3BwZ0wxelN4QUlILVpqSXdLbjZ5T0daem9Bb9IBuAFBVV95cUxOTkctWElMd3BpWDhKMm8yQ2lXLWgxWFE3TTFtV05zdVUwQV9PRjlFSGIwSUhzVnpnRng5NWFBWjRZQS1MZ1hfYzVLOVZaLVVacGxRclJpOVQ3bDRNSWt1OTZ1a1dhOTZkTnlrWXVHMHRtT1BzQ1RqTGhCcGZVQWloZUhkUXNZOWZWcG5JU21ibk5ZMEpDWTI4aEdOR25TVEhsS2liVkRDbTFpdGtwSEFEQTA0RjlzUFZD?oc=5",
-        "published_at": "2026-10-14T09:40:36+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi Strike Hits Building at Saudi Aramco Headquarters - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUVrZjZFRVVJejMtQVh3OUE1MmtBdk9Ed1JTZ1JyV1B6UlFITDVCUVVIcGlpUEhZMDdrQzVaeDN6TnFjNVNSSVNMUS03V005UXhSNEYzaXZIZmo2WENzU2hMdVBtWjJ6YUlfTFE0VUdyWU9tcW9YRFMwdVBVc3YxYWpkcUQyTHllTnR2WUFESHRZNF9DeVhveVpRbjRMQXNVdkFFck1B?oc=5",
-        "published_at": "2026-10-14T09:38:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Starlink Restrictions Disrupt Ukraine’s Drone Strike Operations - Kyiv Post",
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZTHg2bk1pd2o1ZVQzbm5heHk2Z0hudXZkbW9nNVFIOG00T1NRdkJVc2FFbDdaUGl4Q2xuZWttbjFBaHNOUHFUT3VvVQ?oc=5",
-        "published_at": "2026-10-14T09:23:40+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran Expands Shipping Attacks as Houthi Missiles Hit Saudi Arabia and US Weighs Renewed Strikes - The Media Line",
-        "source": "The Media Line",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZUdHWUdnVHN5dGNLeGhZLU9TWnFzUjFyeTMzLXIwRUhVdXpXN21vVE9CcGhibHBvLU5nbVdUUklBdm0xVldIeUhqbnFoam84eTR5N2FZMzhXdXA5RzVRcWUwbEZOcmtNaWVVbF9xckpOWVBDRmd5ejF0SkR6ODUxYVYxT1VXdnUzVHU4RS1SbmVEd1RuUEliNl9OQTZiMFRiamxqUkxneWM1MW82ODhXSEVwZkg4VUEwOE9xZzRORG9GSjBFeWJ1Mm9uQTFrS1ZmN18zLUViSQ?oc=5",
-        "published_at": "2026-10-14T09:14:26+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran increases threat to Strait of Hormuz shipping - Northwest Arkansas Democrat-Gazette",
-        "source": "Northwest Arkansas Democrat-Gazette",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcWJFZnRBVndCQzR2cHlJRWxvRF9zMjg1Mlk2RmtESGo0empLd293X0s3TE15dFN4T1JYZkE4Y0hTZHF1cmhaek5ObkNCRXNtcGwzRXNqWlFwUnhGQmdmc1AtVHhUSklKd0VjaUk1OUtWMVRZdzN5RHpDY0dLdDRNbWNlVEdFODJwZmJGbUZ3WG9IZ0gxTS1qVUVR?oc=5",
-        "published_at": "2026-10-14T09:10:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s exports surge amid AI-driven demand - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zMWNrREl6T29hdzJEWVI1eGM1Q1BRUE01V09fYWhsRm10b0pyY1VYd0x6aG8yM2FwVjNjQ3NENTFwUUZHZWRWQnRQdkQ2d1Nua05kNWE4SzI3bWhMZjhzb0FwcnplSjFnQ0VOX0l0XzAyZXBE0gF6QVVfeXFMTjN5dXJmR2oxODVtNE5wR0FFbTRvNnBTZmNrVU1PVUVHZVZqRGFvTzhlRDZJdnRuYXFmd01nd1phV1NMb0JySnNfMmNtN2hIaFNGeDlLY19XN19lWW1WRlpPS1BpdlFibzVmMW1WNk95N1pfbVYzVEVsTHc?oc=5",
-        "published_at": "2026-10-14T09:05:39+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Surging China Exports Push Trade Surplus Toward Fresh Record - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOWVSSF96T3R5Ry1QeGlWQmFMV0dyLW9EYjNyek03QkZTOXlheVVvNW0xNVNSZ1F5RW84OERGS0RlLVhvdE9ON3d4eHQ5S3UtWml5Y3pTS0NaX00xSGV0UkVpS3YxY3ZidU80dHIzZVdrcmphYnhNcldOY0VvUlJNWWQ3eFNrb3pnNVdhQV9HY1FYZlVFUmVlb0diVmhZam1GaHVxcUxyRWhQajdnVkhlVk1iTEE?oc=5",
-        "published_at": "2026-10-14T08:28:12+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXpoSGxnbGVuMHJnTzZMekxDbVh6S003bDlWLTYtS29OclQtM3duN3lKYjFfd0lrWXFzOUIxUmI4R0JjUktvMXVkTXVSZDBhQ3JWaHQ2MmI3VUJWTTdRRnRXWDMwMGdaMTJ5ZHBCSDlmdzdFU3NoWEdETEw2LUkzRzdJNUlyaW5DNVJ4V1lCaWNYZFFaX0NiS3pVVU1BT2ZxUnlJZXNBcnB5XzBBaW9N0gGvAUFVX3lxTFBoMDJhdkhiQnB0YXdxZTZmajRTT1FhUUYtcXNOWTdxamN0MjBqVkp2MU15U0NwN1c0aHdmVTlLYzhsTXNHSUZhX3g3NEdMMHNOS09GWDNHQXNMb2t5TzgxOV9iV1R6ZHNyXzlHbTFvUlZqbERTc090ZzdCenBkX2lpbmx0Q2V6S0dRNTZmNzhvS2dDUnpiYmJabTJlRVdnUThNOEZVR2V5RzZteWVSVGM?oc=5",
-        "published_at": "2026-10-14T08:04:27+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Zelenskyy's claims that Ukraine drone attack halted Russian bot traffic don't hold up - CBC",
-        "source": "CBC",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15c2xNOFpfLWtBU25CWkk0bE92aXdYWnZKTFJKZDdxX2tUcFJXelh0TWFFY2ticTBCeWRxcm9DMW52bWlOYTBUVVl3SEpYU0MwaUpuaFdiUTBKcVdfX0ZQMElsTDZGb0JHVmQ3MFJJdjZQUkJz?oc=5",
-        "published_at": "2026-10-14T08:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China on course for record trade surplus, likely irking US, EU - Daily Sabah",
-        "source": "Daily Sabah",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXRyNXRleC04ZUdFOU9YN1BUbC1mUVR1Z1d4X2RPbUlXc2otdHdaWkVVY05RTFpzWEhtV3RjUlB1UlpIUGl0MjB1VTA2UEJUMjZYQWZkdUxUR29sZ1g3VkhSck1aXzNaeV9CTWk1NlZCS2EzWEtleHFHRG9nT2lqYUZOTlY2cnAxTmFaV2RaSEZWcXF6dnhOYWRhTmNjeURjVE1KWU9JVQ?oc=5",
-        "published_at": "2026-10-14T07:46:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRDNwcVRFcXlyUXlpa0gzUDFfbTRLblNnQkRKUUt5YzVNb2tpNTZkWlBlcEpCRzVoWjN1V3hVQXg5c0VaSVBsVThYMi1zNUY4bWR6cy1yTkdiNmdjMTd4SlV4YTYyUWZQd0gtbTljdEFPdFlQMXF6SV9zYkZKZUZLTV92THlkLUVZekHSAY8BQVVfeXFMTm9uWXJaNmpianhkREM2RVE4MVh2My1MdDNPNWlkc0lpN3oxWjE0MHBpTndncGFrc2x4VFhDajJhTUx1YVp6VFZXUnBpekxXYzY5OTJnQ1FST2xyNzNhT0cyTkp3ZmZUd0g4WlJNaGtPTllBOUVVTGlMc2RQcWNvNjREaktibWNrUlBXY1Vua00?oc=5",
-        "published_at": "2026-10-14T07:04:44+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      }
-    ],
-    "corporate": [
-      {
-        "title": "A Cary drugmaker just won FDA approval for a pill it says could bring in $400M+ - The Business Journals",
-        "source": "The Business Journals",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbXBYMU5BRDgxZEtuR0hYMVJIc3h6RFp0WUx6SVJFRF9RTGxtYXNsZnBGdmhhSnBrMlY0b0xNTENzbUdZb1JtMnRfUnl5dWNBZkVFcExiWUxYUGducWxyTHdXN3ozQjc1X0dNQVhRMmo3bmNocEYtRklUQVhBYzlOZmxkcFlZMUNwbTcydTBMM2ZZc2VsTnVlX3pvNzhPOTNNQUlReFp4THU?oc=5",
-        "published_at": "2026-10-14T11:23:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer (PFE) Signs Sec61 Drug Discovery Deal With A Research Partner - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQakJoX1FlOU14VDNJWVVNbDQxZXBseVVSTnNKZm1DMGpyaTV1dGYzcGZBdkZEY19VYlU5UTltMVJ6dkZiVkg0Z0hld1ItS1hZYWdZc1hfV2N1Ym02N3FpWmFZZGI4MFpEbFJNSjVPckFWTXlrbThELUo3anVRclhzRGNqenQ0RHN5eEZyR2tXLWZvdXZGN2kwaERRU1pwbWRFVHFEdmZUVktzVjhmMUNiZ1hLZlNCZTNqQk1HaVoteXh0eTA5OXhjVGhXZlc0eHlTWk1F0gHYAUFVX3lxTE9jMDF5dkdDcjgzTnBueEVkcXNpWHFKVkxDMWxKN080SzJlR1VzWU1uMDNhR2VBZlh1OXRBUmg4WUhfeEdiZG1ROUNaZ0hfZ18ybW5PMUVqQmZwbE1iNTdhVGtENVo4YWdxeTlIeGFXamoxNUVNSFBBX2dIcTZLWDhJb2NpWU1keDRmdGRZWDF1Z1VTT2EwWmlHS1ZYNkpoMzZIbW1qbUtuckV4STZYQWJ0UExIMERpOFVlSGZ2cnFMMERjMFhNSFM0cTNUZTlnM3Z4Qi1nV1pUOQ?oc=5",
-        "published_at": "2026-10-14T09:38:10+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-14T00:39:11+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia’s Huang Plans $2 Billion in Europe AI Deals in Next Week - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTUyMWwxLUpnYVFUYlNzVS1YS0d5UkpaWXhsbmZ6U08xMmNKUTFSU01rSTRjN0Z4UF9hTG0tajg4TFZqZExYVS1oZkxJWlNFM0hBc2ctbUZBU1htclhwWVB6ajludXpVT3NDZ21YaEk3UExON3ZpZVF3YU1ycDI2MS0tVU1jelR5N3F2emRKT2JDcUE4V3hiUzlxY21SNXBXdHl1YzJWREFfY2I3cWhEa2Z0VQ?oc=5",
-        "published_at": "2026-10-13T20:15:31+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Miami biotech firm one step closer to FDA approval for type 1 diabetes treatment - The Business Journals",
-        "source": "The Business Journals",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRk1CVkM4NE5HZi00TG5zcHk0bU5aUURLaGR6NnRjaTVwbGNMeTdhVEUyclpSdEk3S210eFdhRHBtVzJzM2YtUXdGbWE4V3ZFWHBpVkl0UTAtVV9SaF9BQWEzQ2UxRWJlNDh1dkVvcUptVTgxQno3YXFhQUxIYkpCTFVWOXRhZDQ5d3h4bEFiNjE5S2RKQVlTNGZJR2xfbWVoNTd5ZFh5VnZjUVk?oc=5",
-        "published_at": "2026-10-13T18:44:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYVA3bU1jWS1xcGxwMGdRSE9FdUs2WWRzZWk1ajBITXFaemNSOTFkSjRlcWxNYlBBZkEzdm50dFRHSlctT0ktLVZySzBUallmVkZSVXNJZ3FlVkJLZkhwYXFNOGVGeXVCQmtVODRYZDZDQQ?oc=5",
-        "published_at": "2026-10-13T18:04:12+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Thrombectomy System, Blood Return System Get FDA Approval - Diagnostic and Interventional Cardiology",
-        "source": "Diagnostic and Interventional Cardiology",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXpVdXMwVktOVFEzNUtGTWFSb296ODFpNTVoRXc2Q2c1T0VqR013S09CUHBRQ21OSnlzZmFIQjhOQ3RRSnctbFc5Y0c2ZC12eGJZTHRTeTg3b29BRXdQczRXYU5MMUhCNkE5enZsdWg4X0J2b01qcmZ1Ty1UQ1hoNE1kQURyMTFXRFdwcmZENXRlVlRCa1JoZA?oc=5",
-        "published_at": "2026-10-13T16:24:36+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      }
-    ],
+    "geopolitics": [],
+    "corporate": [],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
   "archive_count": 42,
