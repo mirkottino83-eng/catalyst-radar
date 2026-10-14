@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-14T22:36:30.333619+00:00",
+  "generated_at": "2026-10-14T23:01:19.847472+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 95.06999969482422,
-    "wti_change_pct": 0.9878907066128928,
-    "brent": 105.91000366210938,
-    "brent_change_pct": 0.2081570778892594,
+    "wti": 95.0199966430664,
+    "wti_change_pct": 0.9347750787374043,
+    "brent": 105.87000274658203,
+    "brent_change_pct": 0.1703096802136761,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
@@ -18,11 +18,11 @@
     "dollar_index": 102.52799987792969,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.99%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.93%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-14T22:25:00+00:00",
-      "brent": "2026-10-14T22:20:00+00:00",
+      "wti": "2026-10-14T22:50:00+00:00",
+      "brent": "2026-10-14T22:40:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -39,17 +39,17 @@
       "category": "Space / Technology",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -13.94,
-      "short_term_change_pct": 2.19,
+      "current_change_pct": -13.11,
+      "short_term_change_pct": 0.85,
       "relative_volume": null,
-      "quote_at": "2026-10-14T22:35:00+00:00",
+      "quote_at": "2026-10-14T23:00:47+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "RKLB"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-14T22:36:18.440450+00:00",
+    "updated_at": "2026-10-14T23:01:07.953247+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -66,7 +66,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -91,6 +91,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTQ1YVV1NndsUkRwTV8wUTVHNC1wdXF1UERVd2trVDFTa2ctQTF4dENSQU43RV9CaHh3ZFBLalBlV25oMkpwbnd6VlJLMDQ0YkNTNy0ycFRHZUZFVnNuOTlYMEpfTXhqdUk0cUZuanNrR0ZQYjFBRnhfdWZrV2NIREdub2VEQ1VrVm40aUNlWEF5Z0N0M29BVno4SDdUSnZGR196SmRPazFnQnZrNHBPTmhMUTZZWnVZZlRRTzhsVQ?oc=5",
+        "published_at": "2026-10-14T22:51:03+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
         "source": "The Washington Post",
@@ -137,24 +146,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukrainian drones lose some speed after SpaceX imposes sudden restrictions on use of Starlink - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWRmRG9DZUlZX3NNS19fcHRySUhIMlZadTN2YjVTdkdOQl9NT0lhSmJtdHM3ai1xMU9oQU1PVVRtMmdVbEFndlVWSXFJX2Y5RVEyRXlTQTFJclFBSHN3eVo2NlpMSlNrOWZfZ2hLR0VKZms1enQ1VjdicVdsN1R1RFVDVkJMLW5tQmUtbGpUN1JMMG5YWDNQSG9GVURLVmVZOVlzOFF1elAxR0w0?oc=5",
-        "published_at": "2026-10-14T20:17:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "GOP lawmaker defends Trump’s energy ceasefire push, rips Putin over betrayal - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUHM1LUNBVlcyNUpPZWlQUUt5MlJ1UnZYYjM4YkpmVjJLalE0eUlTQTNBQkxVMnVZcGdEUElTRnlOaGZwZFdRUXhwQklVR0xhNGh2VWhRTnRfSzliUVppQ0dsUzdWb1p0TlhLQm05N1JhbXRmSXpxRU9HelV5MWZvdNIBhgFBVV95cUxPNUdyOVdnZFlVRTlYRGNVNG02VklmRlo2b3FDajdfazlOakRCOVhnVXZhWlFDakd1MHMwT3BEUWpMbHNyX3U2UUFlVDExc0o0aU9SNjc2TlU1LXQ2cVJvdVNMU1RiZlZIa0xWb3R0Um5QMnVZUzZIN3ZSU3BiNE50MVR0eDJ4dw?oc=5",
-        "published_at": "2026-10-14T19:59:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China’s 2026 Trade Surplus on Track to Exceed 2025 - Supply Chain Brain",
         "source": "Supply Chain Brain",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWFM4NFV4ZmdLSWt2Rm1kZEJNVUcyUHJKekhacUpndVJQcng0Y1RVMWZuN0s1VHhnN2lnZmt2cXZRRy00ektiUlpoemZQNDJ3NG1wbXdFY3ktWkwzZHBrRlFzVXlBcmJaVHVHT28yVkFvN3pvWEp0WU1od2ljMlZMa2VhekdncVBEakNJRU1ZWnI1eTQyN3g0aGNKS0l5QQ?oc=5",
@@ -194,7 +185,7 @@
         "title": "With China Facing More Trade Barriers, It Can’t Afford to Lose Europe - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYNDNELUppYzROV3VxSjE5Zlg0cHBsSDFacFBTbEY2R011SnRGT3NuMHpDT3RiSGhfOHRnb05WQllxVVk1LVpaUzVoLUpOSlhNa3NRbU1BQmlDb1NGa3o2Tk1hRjRVWkFLeF9NSEdTeG80WC1aUEFPcFV2N2t5NVpISmg3eE01M3pwUlJNMWx3RUoyOFVRMnlGRkxNUTgxWDVuRkdn?oc=5",
-        "published_at": "2026-10-14T18:41:29+00:00",
+        "published_at": "2026-10-14T18:39:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -209,12 +200,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oklahoma Senator calls on Trump to rescind diesel deal with Russia - KOSU",
-        "source": "KOSU",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hWkRyVE5ncXhzdFdkUUFWNzdLUGxaT0J0U3A4V0ZzN2EyRWllcm5UQWNZMXExSUtDV3JyT3c5Z1dpY2pPUHNVTEVteE5EbEI4clBLd2QyeHZYQjFrOVluTVp3?oc=5",
-        "published_at": "2026-10-14T17:02:00+00:00",
+        "title": "Ukrainian drones lose some speed after SpaceX imposes sudden restrictions on use of Starlink - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWRmRG9DZUlZX3NNS19fcHRySUhIMlZadTN2YjVTdkdOQl9NT0lhSmJtdHM3ai1xMU9oQU1PVVRtMmdVbEFndlVWSXFJX2Y5RVEyRXlTQTFJclFBSHN3eVo2NlpMSlNrOWZfZ2hLR0VKZms1enQ1VjdicVdsN1R1RFVDVkJMLW5tQmUtbGpUN1JMMG5YWDNQSG9GVURLVmVZOVlzOFF1elAxR0w0?oc=5",
+        "published_at": "2026-10-14T17:18:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -222,6 +213,15 @@
         "source": "PBS",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNGt0UXJQVjJ0YS11eVd1RElvWmhsLWtjdWw1S3I4dm9VZTZ2QUgzQ0JnLU8zdFZQamN0TTUxaWQ2R2dDNnlGak9qOEZSdXJvcjRFV1JQX2pMczBnSzBKM2phSE5MSm1SQlc1X25zcVRaMXhYMVFjcU04ZXl5U1BvNy1JcUdQSmg2RE1Yd29fVVQ5eUR0R1cyWFFLMzVzMlpl0gGgAUFVX3lxTE00a3RRclBWMnRhLXV5V3VESW9aaGwta2N1bDVLcjh2b1VlNnZBSDNDQmctTzN0VlBqY3RNNTFpZDZHZ0M2eUZqT2o4RlJ1cm9yNEVXUlBfakxzMGdLMEozamFITkxKbVJCVzVfbnNxVFoxeFgxUWNxTThleXlTUG83LUlxR1BKaDZETVh3b19VVDl5RHRHVzJYUUszNXMyWmU?oc=5",
         "published_at": "2026-10-14T16:56:04+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia strikes Ukraine’s energy sites despite Trump’s ceasefire announcement - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUk1GdnFheUROUzhZQVJIS1dLOVhfRy13OTQ5cnpRdFZQRFlwcW9nc3ZPaGs3NVNQWE91ejJhNU9lZVpxeFEzSVg5cF9DUGlLbFFteXhjckNwMlRxTVlxdlpjbVlsVEFTWXV5WHo2TzY4MXRJNlM4bjk3dWNBanU1aHZMSWNvbHlNR1B1Y1BSc0t2QXU4UjlxUXB2ZVRaazN6Nm5RTW14b3h0dE42dWVOTnNR?oc=5",
+        "published_at": "2026-10-14T16:36:08+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -265,6 +265,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Centinel Spine® Receives FDA Approval for Two-Level Use of prodisc® C Nova, Further Expanding the Match-The-Disc™ Cervical Portfolio - Orthopedics This Week",
+        "source": "Orthopedics This Week",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWlRJR0NUb0szem94MGRJVDJJUE96Z01nTHEyX2lKRjZfNEpPVU8xLWVHQnlhb2p0QV9VM1dyb0tKUEY4ZFVkUlpRRU9GV19YSXRDOGJqX05jN3huSEpxT3I3RU84eGtqMmx6RUJtdk5Jdi0tdl9uLXlfNUhIRkJsckYzLVkxTTBXR2hXVVRnMTc5T05RRkFGbnJEYk8yRlRvWGlaME9pMWV0Vl95eFRfd0loSi12NktDbUZBNmZNYkwweHBQd29Oa3o3ck1XeGVJUTU1bEM4YXZIdHBzUVdJc2Q0aFZ5ZjA4QTVQVA?oc=5",
+        "published_at": "2026-10-14T19:58:45+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "FDA Approves First Treatment for BCG-Unresponsive Bladder Cancer - The American Journal of Managed Care",
         "source": "The American Journal of Managed Care",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFBBX1gtcEZsb201MmlJSkhrTm9pM24tMkhFbXo4UnVSNENkS0JjWkFsNmd2Zjc0b0tVaUM3ckpGdWo3Q0RqSTlIZzNzR0RXZzFYXzBZWG0xT0FTclE1Z05hN2ZINURfUlY5NTZoNk05SlowSzk2MDVFSmVYM1NaTm9rNkcxazBsVmFOOHJ1WEZhMlFa?oc=5",
@@ -297,15 +306,6 @@
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
         "published_at": "2026-10-14T16:19:53+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Gore Wins FDA Approval for VBX Stent Graft in FEVAR, BEVAR - Medical Product Outsourcing",
-        "source": "Medical Product Outsourcing",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdDZUa3dVSlF2elZHc29oWHZTOEpwekNzUTlBWnZidnJlSktydzB0UWxTUjhXSnlWejJzTTlfcjJ1aUtDbnRCb0R2cXVaelpOdHZVQjcxZkpZQnBIZlN4QzZONDBEbWp0YjJNRmNSdGpBdUVpMDQ4NGRpeDM0VEFsbFJwdnl3NTZUbzNmOTJnVUl4NzlUcWFNV2Iwa2Q?oc=5",
-        "published_at": "2026-10-14T15:56:10+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
