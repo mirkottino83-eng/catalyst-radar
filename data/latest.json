@@ -1,322 +1,69 @@
 {
-  "generated_at": "2026-10-14T20:14:36.741291+00:00",
+  "generated_at": "2026-10-14T20:44:55.156183+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 95.16000366210938,
-    "wti_change_pct": 1.0834972159274203,
-    "brent": 106.05999755859375,
-    "brent_change_pct": 0.35007579585648596,
+    "wti": 95.05000305175781,
+    "wti_change_pct": 0.966649318046886,
+    "brent": 105.86000061035156,
+    "brent_change_pct": 0.16084602613153365,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 16.8700008392334,
-    "vix_change_pct": 10.478063742665068,
-    "dollar_index": 102.54499816894531,
+    "vix": 16.850000381469727,
+    "vix_change_pct": 10.34708497931145,
+    "dollar_index": 102.53800201416016,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +1.08%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.97%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-14T20:00:00+00:00",
-      "brent": "2026-10-14T20:00:00+00:00",
-      "nasdaq": "2026-10-14T20:10:00+00:00",
-      "sox": "2026-10-14T20:10:00+00:00",
-      "vix": "2026-10-14T19:55:00+00:00"
+      "wti": "2026-10-14T20:30:00+00:00",
+      "brent": "2026-10-14T20:30:00+00:00",
+      "nasdaq": "2026-10-14T20:40:00+00:00",
+      "sox": "2026-10-14T20:40:00+00:00",
+      "vix": "2026-10-14T20:10:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "1e8c9936b1a0",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Nvidia Weighs Reflection AI Acquisition or Bigger Investment, FT Reports - Channel Insider",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Channel Insider",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSG9fc3UyMUdWMkVfcm5TanYxYVoyRDZPampyRFAtVDJqODFQczRTQlhCYmMwNzBXNW1TUTRqN3JaZTM0N1ZsNFVfem9tNDFQSERob01NczVVOVlxek52djJWXzJpcHQyWk9GMkdUa0poY2k3enhRakstX1hqWjd6UUtKOWZVNjgzSV9BMWRCNnQ3cWRTTVpLc1g4amZXS1VER1ZXbHpMazZlY29TUjdTa1JCQTFnVWFhNl96ZER4SzFEdVJJdllF?oc=5",
-      "published_at": "2026-10-14T14:51:12+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -2.95,
-      "short_term_change_pct": 0.63,
-      "relative_volume": 0.79,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 4.6,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 3.7,
-      "confidence_score": 61.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-14T14:51:12+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 62,
-        "volume": 36,
-        "momentum": 58,
-        "macro": 0,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [
-    {
-      "ticker": "AMZN",
-      "company": "Amazon",
-      "category": "Megacap Tech / Cloud",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.84,
-      "short_term_change_pct": 0.24,
-      "relative_volume": 1.61,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMZN"
-    },
-    {
-      "ticker": "MT",
-      "company": "ArcelorMittal",
-      "category": "Materials / Steel",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.54,
-      "short_term_change_pct": 0.35,
-      "relative_volume": 1.52,
-      "quote_at": "2026-10-14T20:10:05+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MT"
-    },
     {
       "ticker": "NBIS",
       "company": "Nebius Group",
       "category": "AI / Cloud",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": -9.68,
-      "short_term_change_pct": 1.85,
-      "relative_volume": 1.46,
-      "quote_at": "2026-10-14T20:10:00+00:00",
+      "current_change_pct": -9.96,
+      "short_term_change_pct": 0.95,
+      "relative_volume": null,
+      "quote_at": "2026-10-14T20:40:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "NBIS"
     },
     {
-      "ticker": "STM",
-      "company": "STMicroelectronics",
-      "category": "Europe Semiconductors",
+      "ticker": "HIMS",
+      "company": "Hims & Hers Health",
+      "category": "Health / Consumer",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -5.47,
-      "short_term_change_pct": 0.44,
-      "relative_volume": 7.84,
-      "quote_at": "2026-10-14T20:10:00+00:00",
+      "current_change_pct": -6.65,
+      "short_term_change_pct": 0.45,
+      "relative_volume": 2.05,
+      "quote_at": "2026-10-14T20:35:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "STM"
-    },
-    {
-      "ticker": "UBER",
-      "company": "Uber Technologies",
-      "category": "Mobility / Technology",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -2.83,
-      "short_term_change_pct": 0.43,
-      "relative_volume": 4.58,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "UBER"
-    },
-    {
-      "ticker": "PLTR",
-      "company": "Palantir Technologies",
-      "category": "AI / Software",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -3.83,
-      "short_term_change_pct": 0.13,
-      "relative_volume": 3.0,
-      "quote_at": "2026-10-14T20:11:48+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "PLTR"
-    },
-    {
-      "ticker": "NET",
-      "company": "Cloudflare",
-      "category": "Cloud / Cybersecurity",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -6.53,
-      "short_term_change_pct": 0.22,
-      "relative_volume": 2.85,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NET"
-    },
-    {
-      "ticker": "BIDU",
-      "company": "Baidu",
-      "category": "China Tech / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -2.25,
-      "short_term_change_pct": 0.6,
-      "relative_volume": 1.84,
-      "quote_at": "2026-10-14T20:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "BIDU"
-    },
-    {
-      "ticker": "SOFI",
-      "company": "SoFi Technologies",
-      "category": "Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -6.63,
-      "short_term_change_pct": 0.99,
-      "relative_volume": 1.79,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SOFI"
-    },
-    {
-      "ticker": "ENPH",
-      "company": "Enphase Energy",
-      "category": "Clean Energy",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -8.46,
-      "short_term_change_pct": 0.86,
-      "relative_volume": 1.73,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ENPH"
-    },
-    {
-      "ticker": "META",
-      "company": "Meta Platforms",
-      "category": "Megacap Tech / AI",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -3.26,
-      "short_term_change_pct": 0.1,
-      "relative_volume": 1.69,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "META"
-    },
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave",
-      "category": "AI / Cloud",
-      "priority": "high",
-      "satispay_status": "unavailable",
-      "current_change_pct": -15.79,
-      "short_term_change_pct": 0.3,
-      "relative_volume": 1.66,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWV"
-    },
-    {
-      "ticker": "ORCL",
-      "company": "Oracle",
-      "category": "Cloud / Software / AI",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -8.91,
-      "short_term_change_pct": 0.43,
-      "relative_volume": 1.61,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ORCL"
-    },
-    {
-      "ticker": "TSM",
-      "company": "Taiwan Semiconductor",
-      "category": "Semiconductors",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -3.36,
-      "short_term_change_pct": 0.25,
-      "relative_volume": 1.57,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "TSM"
-    },
-    {
-      "ticker": "CELH",
-      "company": "Celsius Holdings",
-      "category": "Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -2.83,
-      "short_term_change_pct": 1.19,
-      "relative_volume": 1.37,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CELH"
-    },
-    {
-      "ticker": "MSTR",
-      "company": "Strategy",
-      "category": "Bitcoin / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -5.26,
-      "short_term_change_pct": 1.27,
-      "relative_volume": 1.22,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MSTR"
-    },
-    {
-      "ticker": "NKE",
-      "company": "Nike",
-      "category": "Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -0.45,
-      "short_term_change_pct": 0.85,
-      "relative_volume": 0.74,
-      "quote_at": "2026-10-14T20:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NKE"
+      "tradingview_symbol": "HIMS"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-14T20:14:24.479743+00:00",
+    "updated_at": "2026-10-14T20:44:41.735068+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -333,31 +80,40 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       }
     ],
     "geopolitics": [
+      {
+        "title": "Iran-backed Houthis struck Saudi oil giant Aramco’s executive offices, officials say - Sentinel Colorado",
+        "source": "Sentinel Colorado",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUpFaXBmVHM0TzE4UDEyU0xpclpmendQR1RYSmc0NW16dFZtblhDckw0XzhmdlNINzFYcWkyMmx6TW1xZFhQaWd4SjlndlZZcFd5NWdLUEVTblVTSDdYb2xtc2JZLXduRHhWcC1Jelp6cmQ5cWlLR25lenZDQm1RVkZkRmJVcXVIUkVURFNYeDFCVk83Tm1OMzJQZWVqZU1GYk9vNGFnWXpnc1pYNTJpNjhlSUVCRlgzVTVweFhiMDE2Yy03?oc=5",
+        "published_at": "2026-10-14T20:31:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Iran Shipping Update – October 14, 2026 - United Against Nuclear Iran | UANI",
         "source": "United Against Nuclear Iran | UANI",
@@ -365,15 +121,6 @@
         "published_at": "2026-10-14T19:33:53+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Cargo ship sinks after Strait of Hormuz strike causes fire - Transport Topics",
-        "source": "Transport Topics",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdGZtZkpPMk15YkxWZl9adWJIdDZGbW5aV19BZ01ob3FnQTdkNUVoSzItbnFYeDJvTnhKd004OUVIY01iNzFrUDNWVEZkaDY4TXZydVUxMUtUcEFOUFdNT1d5ci03bHMyZTFn?oc=5",
-        "published_at": "2026-10-14T19:10:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -413,15 +160,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran-backed Houthis struck Saudi oil giant Aramco's executive offices, officials say - KSL News",
-        "source": "KSL News",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNG1mc0RMdTViQUZTeU5nbWN0b2NTYTBicHUzQ211aU1ubWQ2cWI5LVdoZUtwMWRvcjVUSkFPbmRVaFZQbUtqWU9fVGN2QjlOOWxWNVlzdXMtcW9qemY5T2NXbE5keEJsSFEtaTlNajdVaksyTWpDZzNmeXBpeUstQkVadElxM2NnYVpwVE1PcjNIaVQ0SDM4d3llU1FrNlhPU2czQ09lRG16eGV5c0RXWERFN2U4bHdvU2gw?oc=5",
-        "published_at": "2026-10-14T18:05:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Defense Minister Katz threatens to seize Lebanese land if Hezbollah, Iran attack - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?oc=5",
@@ -431,10 +169,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukrainian drones lose some speed after SpaceX imposes sudden restrictions on use of Starlink - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWRmRG9DZUlZX3NNS19fcHRySUhIMlZadTN2YjVTdkdOQl9NT0lhSmJtdHM3ai1xMU9oQU1PVVRtMmdVbEFndlVWSXFJX2Y5RVEyRXlTQTFJclFBSHN3eVo2NlpMSlNrOWZfZ2hLR0VKZms1enQ1VjdicVdsN1R1RFVDVkJMLW5tQmUtbGpUN1JMMG5YWDNQSG9GVURLVmVZOVlzOFF1elAxR0w0?oc=5",
-        "published_at": "2026-10-14T17:18:00+00:00",
+        "title": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?oc=5",
+        "published_at": "2026-10-14T17:22:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine accuses US of helping Russia as Starlink restrictions disrupt drone attacks - Ynetnews",
+        "source": "Ynetnews",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92N2NYaFpEV1N3Ym9WeHJzOEF0dlRISi1QbG1jSWlqdXdFWldwMVppSF8xMjJnSklsMmRGSDF5UGpudFBLQVpDcmJ3NGhZaFFQcF84b3Bn?oc=5",
+        "published_at": "2026-10-14T17:02:55+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -449,21 +196,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "WATCH: Hegseth discusses drone warfare at U.S. Army conference - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNGt0UXJQVjJ0YS11eVd1RElvWmhsLWtjdWw1S3I4dm9VZTZ2QUgzQ0JnLU8zdFZQamN0TTUxaWQ2R2dDNnlGak9qOEZSdXJvcjRFV1JQX2pMczBnSzBKM2phSE5MSm1SQlc1X25zcVRaMXhYMVFjcU04ZXl5U1BvNy1JcUdQSmg2RE1Yd29fVVQ5eUR0R1cyWFFLMzVzMlpl0gGgAUFVX3lxTE00a3RRclBWMnRhLXV5V3VESW9aaGwta2N1bDVLcjh2b1VlNnZBSDNDQmctTzN0VlBqY3RNNTFpZDZHZ0M2eUZqT2o4RlJ1cm9yNEVXUlBfakxzMGdLMEozamFITkxKbVJCVzVfbnNxVFoxeFgxUWNxTThleXlTUG83LUlxR1BKaDZETVh3b19VVDl5RHRHVzJYUUszNXMyWmU?oc=5",
-        "published_at": "2026-10-14T16:56:04+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China records highest trade surplus in nearly 2 years - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQXgxQVdBTEJ6MXlYMm96ZWhYWDFXX0JLaHdaWXNnVG00RmlXb0FzSlNRNFo4QS1LZW0tZVQyRFpOWGRYei1IbzJSeWg1M2xJSUVaVldGRzdNUXJ3dzBNNmphbzdVbk8xa2VDeUZhM1dnZml1dV9pb1ZZb0dvN1VacG40d0tGMllEVjItcmxHR0p4VEY5?oc=5",
         "published_at": "2026-10-14T16:36:56+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia strikes Ukraine’s energy sites despite Trump’s ceasefire announcement - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUk1GdnFheUROUzhZQVJIS1dLOVhfRy13OTQ5cnpRdFZQRFlwcW9nc3ZPaGs3NVNQWE91ejJhNU9lZVpxeFEzSVg5cF9DUGlLbFFteXhjckNwMlRxTVlxdlpjbVlsVEFTWXV5WHo2TzY4MXRJNlM4bjk3dWNBanU1aHZMSWNvbHlNR1B1Y1BSc0t2QXU4UjlxUXB2ZVRaazN6Nm5RTW14b3h0dE42dWVOTnNR?oc=5",
+        "published_at": "2026-10-14T16:36:08+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -496,19 +243,19 @@
     ],
     "corporate": [
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-14T18:24:30+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Nvidia sinks as chip sell-off deepens on hot inflation data - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZmNFTFA2THdKRlp0bEVCX1BGMHIxN3pENllzUmVLM0lEdkt0Z0d2X05TaU5ieHkxcW1aNm1ITUt6a0kyOHRCQWFwbDlEcVNfdjIwYUVFYjJHR1VyY0F5cjl5UFpndXdRekN3aG9KS3c3QnZRTHNXdXhQMkFLVHY4UTFITFk2b3dPMjZRN29KUDc1bEQ4VF9tcWx1Q0kxWFVUWDBvTWptWEg0Y0hRWDEzcjktb0k1cmowSDhNckhnUUU?oc=5",
+        "published_at": "2026-10-14T20:23:29+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Dr. Mantzoros: A GLP-1 Therapy Received FDA Approval for Fatty Liver Disease - The National Herald",
-        "source": "The National Herald",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOTJBaGU0OXV3ZXFldHphenpnbU9ZWFo3X2VYcEw4LUFhMjJKdWpaaFVDVWg2MW1qZkFGYVJPcFZ1NTJOaGUyN3hiNWJadGk4ZWhIZXpBM3NPNERjMUxoZXplbGdCaUFOTDFNdnBJTjVNUkdfeXF3Zl90RGp3QlBhRXlYblhoWkE0NUgydFFaaERsSTdLcVZ5Y2NkVzdhbHBWdWRVUFczbjVRZzhqVXc?oc=5",
-        "published_at": "2026-10-14T18:14:08+00:00",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-14T18:24:30+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -541,6 +288,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym - NVIDIA Developer",
+        "source": "NVIDIA Developer",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUUtZWjdMZWpRUFVYTHNFTTRJNUNnclI4R2ttbmhfamJMX1R0Sk1JOEZfR2wxMXg2enlYOWxVMjhudDl3Wk5jaWluNEN1RHVhdWhSN2hoYm53WkRQZm0xVWc2ZzJjT0pUeHlFeHhOTUNIOGh2emhzR0R1SVh6bjRiX1pjRWJtd2JXVmRJdFJZcDZEZkpuLV95V3VVVTBRYnN1QnI2Z0ZIOVFkdlh5YXhRck1hZzNieUFXQXU3T3ZHZVFzVy1zRDlTWQ?oc=5",
+        "published_at": "2026-10-14T16:16:42+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Gore Wins FDA Approval for VBX Stent Graft in FEVAR, BEVAR - Medical Product Outsourcing",
         "source": "Medical Product Outsourcing",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdDZUa3dVSlF2elZHc29oWHZTOEpwekNzUTlBWnZidnJlSktydzB0UWxTUjhXSnlWejJzTTlfcjJ1aUtDbnRCb0R2cXVaelpOdHZVQjcxZkpZQnBIZlN4QzZONDBEbWp0YjJNRmNSdGpBdUVpMDQ4NGRpeDM0VEFsbFJwdnl3NTZUbzNmOTJnVUl4NzlUcWFNV2Iwa2Q?oc=5",
@@ -568,20 +324,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia Stock Falls. Chip Maker Splashes the Cash on AI Safety. - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qSXBTaTJ4eS16dFlsdWpOSVJ5YXFOb1UtZnROaS1MdWtGWjhFR1diZi1QZnRiUEVWZTBsQy1EbzVGeTVZajcxeHhTdURwem5BeUFnVHhRQnI5Yjl6RVh2N2IxY1g5dkNpaFphbjBLU0dWMU85djlMSy1R?oc=5",
-        "published_at": "2026-10-14T14:02:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations - Honeywell",
-        "source": "Honeywell",
-        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeTRyTTZZSXZWSGVQRjVmUEdzb05ta2RzZEhUSWdoU0JIUDVXNnV6Z2YwZ3lITGdUSUcwWTB1Z3l2bFJiX3EzaHp3WVlILXJfTzZkZHJmazE4cHZQTWhPY05HLVJnaFQteFBQempGOHB3Q21LMkR1d1FIM2VCem1JUTNRU09RTnZOalJGOXl3aU81WUJFSXhhQ2wxTFdlUTc3bkpFZWF4LWdMVmZwN2VNek44ODE0bW5KY0JLUDhZQTcteHVoOG1OaGY0eFd5VmhmWGo3YkF6Q0pXMllqVnBlcXJONW15S0JYRUFZaHh4bGhCQ3dOSF9TeGZ0aEF0amZQYlJQQ0RqWTFQa2NJLVlhalhHMDlhN3NwLWF5NVdOc2FtbkJiQ3QyamxpRDUzY3M?oc=5",
-        "published_at": "2026-10-14T13:02:07+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Deep-pocketed Verdiva axes GLP-1 switching trial over ‘market evolution’ - Fierce Biotech",
+        "source": "Fierce Biotech",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMm53TjVxTnNYUERUckRHakdhcFdPQVNhRDR1QW1vYS03YkphS3FPb2RRbDRNdzRtbk41MmpGU281N2dZcURKX0ZqN2JsZHktS1huenZ1RTZ2WDV1N3FyanhyVEhGT1ljbkFJYUExSEtKbzltR1M3SVU1NFAtNURpUkQteWhRMkluQUw4OGtMMFFkaFF5VUxxWmVjVWFvZUV3NU5WVTJNalZSNk5t?oc=5",
+        "published_at": "2026-10-14T14:13:28+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
