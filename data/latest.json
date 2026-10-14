@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T02:38:08.829985+00:00",
+  "generated_at": "2026-10-14T03:05:25.512051+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.9000015258789,
-    "wti_change_pct": 1.237469264502411,
-    "brent": 106.4800033569336,
-    "brent_change_pct": -0.15939818707275677,
+    "wti": 95.12000274658203,
+    "wti_change_pct": 1.4721622725210937,
+    "brent": 106.72000122070312,
+    "brent_change_pct": 0.06563496842260097,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.13600158691406,
-    "macro_score": 45.9,
+    "dollar_index": 102.10600280761719,
+    "macro_score": 45.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.24%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.47%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T02:25:00+00:00",
-      "brent": "2026-10-14T02:25:00+00:00",
+      "wti": "2026-10-14T02:55:00+00:00",
+      "brent": "2026-10-14T02:55:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T02:37:54.705657+00:00",
+    "updated_at": "2026-10-14T03:05:11.216438+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,21 +57,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -82,6 +82,42 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "China’s exports surge 36% as AI-related shipments boom - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOWpDeS1pemlqZUgzS0sxbDd0TVQzTklQR082SmxCc0hSVjE3TDRiNHBCQVZnNTc0SENnUjVSVW9lSkU3NTYwaF9KdHI3R1hodFFJeWdUZFc4SkEtbHk1LUw3czhvMklSQ21lY29ydlpfcEZZV0lRdmd4M080eHNqbFJ1dDY?oc=5",
+        "published_at": "2026-10-14T02:51:40+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s Trade Surplus Nears $940 Billion as Export Growth Surges - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOWVSSF96T3R5Ry1QeGlWQmFMV0dyLW9EYjNyek03QkZTOXlheVVvNW0xNVNSZ1F5RW84OERGS0RlLVhvdE9ON3d4eHQ5S3UtWml5Y3pTS0NaX00xSGV0UkVpS3YxY3ZidU80dHIzZVdrcmphYnhNcldOY0VvUlJNWWQ3eFNrb3pnNVdhQV9HY1FYZlVFUmVlb0diVmhZam1GaHVxcUxyRWhQajdnVkhlVk1iTEE?oc=5",
+        "published_at": "2026-10-14T02:41:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China's exports surge 36.3% y/y in September, imports up 31% - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRnBrUjZVeGFVQnFvOS1odzhjaGM1V1JuTU1TLTd1NTVsRk81OVhKaG1WZzdHUWZ4MFFkNWQ2RVZkc2E4NWtBM1Y3V29TMmVPR2p3TXZGRHN1dWhXLVJxNmpSRjcwS0xueE1BUDlLeGR6anM1YTdwWERkVkFTQXBhdkhMVDY3eURiNXBZ?oc=5",
+        "published_at": "2026-10-14T02:41:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s Trade Balance: Surplus unexpectedly expands in September - FXStreet",
+        "source": "FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMFN5Q3lUa0dscVNmdjlfSUxpblpJTEp3bUhRTWNKSG5KWFJTbkJWbTNUSHIyR09sc3lTRDZDMGU4UVFsbmRITGthc2FVOUZ0eWoyRnZpeHM0WktPM2JSdnJMTC1pcXVZdnB1N0dlVzZVanFsaFYyYW1lUlE0NHhQTTh0WWp2RFBBT2t1cXNyMlpUMXhoeko3VEM2QkU1NGJTdVhEVklGMEw5bHFD?oc=5",
+        "published_at": "2026-10-14T02:27:40+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
         "source": "BBC",
@@ -119,19 +155,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "2 Taiwanese executives arrested over mainland components in military drones - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOckNuQWFIZTdQTThacDFLQ0ZoUHdiWGhRUERWZmNldW9jY0hlNHE1bzVTWC1GTFJKdThWSnk3TEZqRlY0bVZwbUVjdndCSlVDa3NsaHJUemhxSGFaVkx1V0FVS1FmaVpDTTB4VHpkeWs3cUFlODFnMmJWdDVVME14cWdxQlppZTFvNGJyS01UQzNrWjdWS2pySmNid2NTenNvVjM2V2kwVzdyUzNQeUFINDdYR0ZwWHhteVpGaVFuREdpQXZobHJQZtIByAFBVV95cUxQZ19YR1JBM3Q1d1RnLXdRVlVXWTNNU09TQ2t0UkIyd2UxcGptdzFZOERnNTdGRjBWOVJDRjV2aURGNlRtUkJhaDI4OHE3Ujg4eUlKdXZOeTVoYTJrYlBEUlVIcDYtUXFna2Q2X0ZKSW1FT1dlYzRfQjN4M0lyb1IwZ18xdUdJRTcxZ3UyQ0E3V3lmVS1qWXl0U21xc053MHlXUzVBNkhSNjJ2U2JCOEl4WS12S2pTWkpiaklHUl9xOFBTTXZjVC1BcQ?oc=5",
-        "published_at": "2026-10-14T01:00:05+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia’s Leading Sanctions Evasion Tool Is a New Kind of Illicit Finance Threat - Foundation for Defense of Democracies",
         "source": "Foundation for Defense of Democracies",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRk44MTIta0h5dUxHa1dGSXpwTGhzOFk5bE5FVTNSREN5eDVkMEFrcXU2ZGZ5TkZTTmhqM1NadHpSbVM5RnZBQk1TaDd4ZUwxUmF1SGtWbFFVYkNZZkhpYjVoMTZHU3o3WGFNcmJxTktWcWJyZXdOZVM3Um4xZ2FGNEY1Qmk1VlRjbjg0dnMzS284bnpFSEtEQW5ITE1YcTR4RDJ1TC1NV0ZLV1lf?oc=5",
-        "published_at": "2026-10-14T00:56:15+00:00",
+        "published_at": "2026-10-14T00:58:34+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -182,39 +209,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Reyna: RioPlex to send trade mission to Taiwan amid surge in foreign investment interest - Rio Grande Guardian",
-        "source": "Rio Grande Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTHZzazVzU1dESms0QjFRQzdoa3Z3RlNmUzUtM09oRUo3d0pnR2ZyX1dlRG5SVjlTdERkeEtObjh2N0JnRUgwbXhpMDQ3VmVHRmRGaUduLTc5Mk9JM1pYZWhldkJ6QndKS0FrbUtMbm5XMjBDdmtnQXJCYklrQnBFWDNGN3FvWV80TGpEa0hXUWxmdnNOYVpuakZPaG95RTdmdl9MeFdlZFFmbTVxblBLZFNJNEh4OEdzTW9QOGc4b3VlR01oLXM3QnFObw?oc=5",
-        "published_at": "2026-10-13T20:16:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "'Gift to our adversary': More Republicans criticize Trump's Russia diesel deal - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUViSHdiMmpBMGUwOVNDWXE1bHJqRzRmMUFMT3hUeWlESnVJWHNZeVk0eTIySW1IM3VvTnhqSEFjTHdVOUhGbUptNWJSSk9GcnpSYU0wVjk2QzVuLWxBY25nQnc0cm9DbmJ3c0E2dTJIeC01RXV1QkpXZmlJb3dyWTFlODdPRFNhVEkyZUZOemJMUTZJZjVwRkRRRGpDNGVERTA4LVNXeWFkdlRBRkQ3ZXdweXMzazh4WUNB?oc=5",
-        "published_at": "2026-10-13T20:02:36+00:00",
+        "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEwxZktQOXVmXzgzX24wQ0F2dVVpQXdDS3RUWVBOYTA0aXV1MkJWaWo5RktXeVhSZVdPWGVoNklwUF9WbDdjYXJUTkNMUnpiUmEtNG9qM1lqUi12VktFVTkzeEZCS0Nzb25vNlhHTTl4amx3cV92bTdnQ2hnUTdJZzMzaWlkX0xwUWlKT2JwRXZmeTRDcllDSnpmcXotdUZPc2sxRFF30gGrAUFVX3lxTE1GQ3RSS0pUXzgwNkRDYVZjTkNHbldMbjRVTnBYWmQ1YUx3MlY5V0VBcFVCQTk2bTQ1dTVaTVdEdUM5dWJsYWVsR1ZFYzNGZHF3akRLT3l4OS0yZDFnUHJlQ1NVOEdGcDQyTmM1NGdyUW9aZTZRai0wZEYzQWdMTWVXeWR3SjlUQlhWaEw4X0RGMU9PdmhvQmhTUEtIZW1nTkRLWVhtb3VkaTQ3MA?oc=5",
+        "published_at": "2026-10-13T20:01:36+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pork Tariffs: China Hits U.S. Exports - Opportimes",
-        "source": "Opportimes",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYWWdkcXlXaHZDOE9HTW5VaWNZMXU3UXcwbHFBWDU4R05XZEZlbElxQ0M4dmdQTUVlSXBsc0ZwSEpRZTY3S1dsay1hZk1yWS1ud3luMlhBOXVHd3B2Nml6d284b3lXaTNFRmdDR3B5WkFDVmpr?oc=5",
-        "published_at": "2026-10-13T18:36:49+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How Maroš Šefčovič talked his way to a China trade breakthrough - POLITICO.eu",
-        "source": "POLITICO.eu",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSUNpd0YyaTNBb0F4UDg1NzNEN0daX0NXRW5OeHRMTkx2VFBkcmdmeFkxSU1ieWFhdGNnMGlIcmFYbjVaODgzQk1kOHQwcHN4QzMwVFB6dm1ibGdLYy0ycnFLTm81bDQ2dDRyMl9CTHcxdDZEU3ljQm5WZk9NcERyc0NPNDk2cW5HYU40akdqMnlMZExYVnF0eDN6VUU?oc=5",
-        "published_at": "2026-10-13T17:43:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
