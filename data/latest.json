@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T03:05:25.512051+00:00",
+  "generated_at": "2026-10-14T03:34:19.218840+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 95.12000274658203,
-    "wti_change_pct": 1.4721622725210937,
-    "brent": 106.72000122070312,
-    "brent_change_pct": 0.06563496842260097,
+    "wti": 94.8499984741211,
+    "wti_change_pct": 1.1841269849021119,
+    "brent": 106.41000366210938,
+    "brent_change_pct": -0.22503315549535774,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.10600280761719,
-    "macro_score": 45.4,
+    "dollar_index": 102.08899688720703,
+    "macro_score": 46.0,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.47%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.18%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T02:55:00+00:00",
-      "brent": "2026-10-14T02:55:00+00:00",
+      "wti": "2026-10-14T03:20:00+00:00",
+      "brent": "2026-10-14T03:20:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T03:05:11.216438+00:00",
+    "updated_at": "2026-10-14T03:34:07.527784+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -78,15 +78,33 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
       {
+        "title": "China’s exports surge 36.3% in September as pressure ramps up to rebalance trade | National News | 2news.com - KTVN",
+        "source": "KTVN",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSmxqUFNTdjNTVVNJNHBUdHpoOWxBVFZrWHM4bHlSREZrcnFhNzhWcUFZdFlYelJoY3VseThjTGdSZHRkandwdURhU0o0dFEzUVlhaG1iNWo0U1VGajhVUjg4dXBCRlpfa2dEQ3cwUjlCbzJDZzlrT2JfWHhoa2FRaDFVTVc3RlUxSnM3RWRjMHBZUUhXbGNIdmxPWXBkTDZ0N2tnWUIzQ19CakM4WExnam5jclVtdks5UTBVWjlGUzNZTVBLTGZmMWtuZldsbldVQW9DWDBJbGtSelhGTGZiTVd5eTVobFB2cE5fWG80eVZveXVIRHc?oc=5",
+        "published_at": "2026-10-14T03:15:57+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s exports surge 36.3% in September as pressure ramps up to rebalance trade - Audacy",
+        "source": "Audacy",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ2dWVm00Q0J5VVhmMzVoS0FHV29qSjlzaWNOTWRlZDJBekxSTWhQcXhBVjFERHlhOVhrSXZKZ1hUZnNIYS00QTNZOWtDYXhBaHpkNFI5X3dTQmRKV3BHNTN1ODkxY0FTTTBxazF2ZVFsVG9Nc0dLOEhnYTFmY0VSemE4NGt4d3JuOEJMZWFaZFBaWXhta2x3ZzkxaHhwQy1a?oc=5",
+        "published_at": "2026-10-14T03:09:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China’s exports surge 36% as AI-related shipments boom - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOWpDeS1pemlqZUgzS0sxbDd0TVQzTklQR082SmxCc0hSVjE3TDRiNHBCQVZnNTc0SENnUjVSVW9lSkU3NTYwaF9KdHI3R1hodFFJeWdUZFc4SkEtbHk1LUw3czhvMklSQ21lY29ydlpfcEZZV0lRdmd4M080eHNqbFJ1dDY?oc=5",
-        "published_at": "2026-10-14T02:51:40+00:00",
+        "published_at": "2026-10-14T02:52:31+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -110,15 +128,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China’s Trade Balance: Surplus unexpectedly expands in September - FXStreet",
-        "source": "FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMFN5Q3lUa0dscVNmdjlfSUxpblpJTEp3bUhRTWNKSG5KWFJTbkJWbTNUSHIyR09sc3lTRDZDMGU4UVFsbmRITGthc2FVOUZ0eWoyRnZpeHM0WktPM2JSdnJMTC1pcXVZdnB1N0dlVzZVanFsaFYyYW1lUlE0NHhQTTh0WWp2RFBBT2t1cXNyMlpUMXhoeko3VEM2QkU1NGJTdVhEVklGMEw5bHFD?oc=5",
-        "published_at": "2026-10-14T02:27:40+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
@@ -133,15 +142,6 @@
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeS1hMFRGRUNjdFFUaXlPWl9TcnFpSHk4Y05USDF4cUR5cWpCcDhoSFl5ek9kUzVSMlZKaE1KQlhNMENyRXpNWjlKTVFtSWxRVlpxalRrdk02WWZCTy0xaEREZ25fdTBBRE9NZklpczRtQU1XVV80cGs2bXRpU0RyeFRBTGFRT3hqV3p5ejRmV2gxZWZYdnFpQzNLMHIwRE5nN09lanY4eHFGd2_SAbABQVVfeXFMUG12eVo3Ymp4NEV5UDJCZlRlcjRSbjAyVmY1WEFsUXBqZHBlc2pHOXp5emh1OVFzOGFJOGx1cWxiRFFVODI2Tnl1MkxabDh6ZHAtYWZSaV94TmhYaXZQQk80TWdVdEZDNUpFYVRZTWthZThqb2VDYnV3VnVHeXk0dnpfelFGNWtMNTVnYnRwanZKRWUtc1JNLWpPaEljMXM2ZE4zRndJeUt1SWpfSm42amE?oc=5",
         "published_at": "2026-10-14T01:55:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "[Shang-Jin Wei] Why US-China trade matters - The Korea Herald",
-        "source": "The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LLWstUTJ5bUcwblgyVlFQNjA4VlhaV3VBdkdWZ215U0EwNVJtTHVkSTJJRkpjUG93TWFqTHc4YUJoMzNBZlBJSThrcGY3ZmluenI4eFFHZw?oc=5",
-        "published_at": "2026-10-14T01:31:25+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -182,19 +182,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran increases threat to Strait of Hormuz shipping, and other Middle East developments - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjZtVDJsR2JiRDFvUWtYR0Jvei1EVklHd2VjRGxUbTZ3MlZmME4yVWhkN1ppU2JMN3NTWFk3X1B4eElWSkhiazYwb0tvMi1NMklRemNiN0F3c21ZX0NybmtxY211bEc5MXNsVkNndjN5MjRjSTUtbUpUVEZlc1hiMkx6Y2h3Z1k2Y0VpcG1vWmEtc1lwN2pnbHhqcGYyVmhGb3FTVA?oc=5",
-        "published_at": "2026-10-13T23:29:00+00:00",
+        "title": "Saudi conflict with Houthis escalates with new strikes - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3FLcG5hMEUtNVJFdEhob3IzWW56Q2ZSeUFzR3d0X21MQThoaFA5ZlFybEhlcjJvTXlQcVhISjRLQlM4ZnF2ZGl5ekZiMHg3aC04YVhSeDFEbFI4RzA3M0Zxb3l6UUpmNUV1LXpWbXhibWxucEVRcm94YU9faWVEVHhUdlRDUnF3dkwwNWFmSGNNQQ?oc=5",
+        "published_at": "2026-10-13T22:50:36+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi conflict with Houthis escalates with new strikes - PBS",
+        "title": "Former U.S. ambassador on Saudi Arabia's struggle to defend against Houthi attacks - PBS",
         "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3FLcG5hMEUtNVJFdEhob3IzWW56Q2ZSeUFzR3d0X21MQThoaFA5ZlFybEhlcjJvTXlQcVhISjRLQlM4ZnF2ZGl5ekZiMHg3aC04YVhSeDFEbFI4RzA3M0Zxb3l6UUpmNUV1LXpWbXhibWxucEVRcm94YU9faWVEVHhUdlRDUnF3dkwwNWFmSGNNQQ?oc=5",
-        "published_at": "2026-10-13T22:50:36+00:00",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV3RKZXlvdUJQbENhNWhPbS0xWl9GVUFDeWpQa3h5WXN3QUN3b2JJaGpqQVFZR3Z1V0pISnk0bGx0bU5KSzUxclVmQU55ZmFXWGtRc09TSjY3WVVVelVzOTE5ei1hUW05N3Q5UF9hZkVEd05TSFplM1kzTW5KSFlhd0xIRUh3bi0wMW1LQ1htd01JNnJZMXAxTVdXbGNzMmRndi1pWElkSDJIMFZKQXQtTHRGaEI?oc=5",
+        "published_at": "2026-10-13T22:45:27+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -220,11 +220,11 @@
     ],
     "corporate": [
       {
-        "title": "Nebius (NBIS) Stock Could Be Above Fair Value After Inferize Deal - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV3F6QWdJM3ktRzdRSDFwZXNXMGgyZFd0WndERmpydS10Z0pKZE5jQ241QmM4Q0J3a0lQRXF6Ql83ZlpVRGgxbmd0SWhzTTNPWWVaNC1zOEg3Vy1xeFpvdXc2ZEpEYUpBeVFwQnhnWjR6bGRMN2UySzI2R09MUmpKV3BoWXVXQV9rUFdUcVRSR3NCSUszMkpmSnlCb01LZmVGb0xYZV9FQl9ENFVqME5ERlBsOVN2M24zT19BbWpnZ1RiMXptWE5CcXRWSm04VXVE0gHQAUFVX3lxTFBXcXpBZ0kzeS1HN1FIMXBlc1cwaDJkV3Rad0RGanJ1LXRnSkpkTmNDbjVCYzhDQndrSVBFcXpCXzdmWlVEaDFuZ3RJaHNNM09ZZVo0LXM4SDdXLXF4Wm91dzZkSkRhSkF5UXBCeGdaNHpsZEw3ZTJLMjZHT0xSakpXcGhZdVdBX2tQV1RxVFJHc0JJSzMySmZKeUJvTUtmZUZvTFhlX0VCX0Q0VWowTkRGUGw5U3YzbjNPX0FtamdnVGIxem1YTkJxdFZKbThVdUQ?oc=5",
-        "published_at": "2026-10-13T22:00:58+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-14T00:39:11+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -301,11 +301,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Thrombectomy System, Blood Return System Get FDA Approval - Diagnostic and Interventional Cardiology",
-        "source": "Diagnostic and Interventional Cardiology",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXpVdXMwVktOVFEzNUtGTWFSb296ODFpNTVoRXc2Q2c1T0VqR013S09CUHBRQ21OSnlzZmFIQjhOQ3RRSnctbFc5Y0c2ZC12eGJZTHRTeTg3b29BRXdQczRXYU5MMUhCNkE5enZsdWg4X0J2b01qcmZ1Ty1UQ1hoNE1kQURyMTFXRFdwcmZENXRlVlRCa1JoZA?oc=5",
-        "published_at": "2026-10-13T16:24:36+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Nvidia’s Huang Plans $2 Billion in Europe AI Deals in Next Week - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTUyMWwxLUpnYVFUYlNzVS1YS0d5UkpaWXhsbmZ6U08xMmNKUTFSU01rSTRjN0Z4UF9hTG0tajg4TFZqZExYVS1oZkxJWlNFM0hBc2ctbUZBU1htclhwWVB6ajludXpVT3NDZ21YaEk3UExON3ZpZVF3YU1ycDI2MS0tVU1jelR5N3F2emRKT2JDcUE4V3hiUzlxY21SNXBXdHl1YzJWREFfY2I3cWhEa2Z0VQ?oc=5",
+        "published_at": "2026-10-13T16:07:12+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
