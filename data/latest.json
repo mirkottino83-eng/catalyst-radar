@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-14T01:45:58.231552+00:00",
+  "generated_at": "2026-10-14T02:09:41.966076+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 95.2300033569336,
-    "wti_change_pct": 1.589508776530435,
-    "brent": 106.94999694824219,
-    "brent_change_pct": 0.2812896559504452,
+    "wti": 95.22000122070312,
+    "wti_change_pct": 1.5788386928325515,
+    "brent": 106.87000274658203,
+    "brent_change_pct": 0.20628337323533863,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.14399719238281,
+    "dollar_index": 102.13700103759766,
     "macro_score": 45.2,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.59%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +1.58%. Geopolitica: Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T01:35:00+00:00",
-      "brent": "2026-10-14T01:35:00+00:00",
+      "wti": "2026-10-14T01:55:00+00:00",
+      "brent": "2026-10-14T01:55:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T01:45:47.860130+00:00",
+    "updated_at": "2026-10-14T02:09:30.417421+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -78,10 +78,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       }
     ],
     "geopolitics": [
+      {
+        "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
+        "published_at": "2026-10-14T01:56:57+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "[Shang-Jin Wei] Why US-China trade matters - The Korea Herald",
         "source": "The Korea Herald",
@@ -92,12 +101,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
+        "source": "Mashable",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
+        "published_at": "2026-10-14T01:19:22+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "2 Taiwanese executives arrested over mainland components in military drones - South China Morning Post",
         "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOckNuQWFIZTdQTThacDFLQ0ZoUHdiWGhRUERWZmNldW9jY0hlNHE1bzVTWC1GTFJKdThWSnk3TEZqRlY0bVZwbUVjdndCSlVDa3NsaHJUemhxSGFaVkx1V0FVS1FmaVpDTTB4VHpkeWs3cUFlODFnMmJWdDVVME14cWdxQlppZTFvNGJyS01UQzNrWjdWS2pySmNid2NTenNvVjM2V2kwVzdyUzNQeUFINDdYR0ZwWHhteVpGaVFuREdpQXZobHJQZg?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOckNuQWFIZTdQTThacDFLQ0ZoUHdiWGhRUERWZmNldW9jY0hlNHE1bzVTWC1GTFJKdThWSnk3TEZqRlY0bVZwbUVjdndCSlVDa3NsaHJUemhxSGFaVkx1V0FVS1FmaVpDTTB4VHpkeWs3cUFlODFnMmJWdDVVME14cWdxQlppZTFvNGJyS01UQzNrWjdWS2pySmNid2NTenNvVjM2V2kwVzdyUzNQeUFINDdYR0ZwWHhteVpGaVFuREdpQXZobHJQZtIByAFBVV95cUxQZ19YR1JBM3Q1d1RnLXdRVlVXWTNNU09TQ2t0UkIyd2UxcGptdzFZOERnNTdGRjBWOVJDRjV2aURGNlRtUkJhaDI4OHE3Ujg4eUlKdXZOeTVoYTJrYlBEUlVIcDYtUXFna2Q2X0ZKSW1FT1dlYzRfQjN4M0lyb1IwZ18xdUdJRTcxZ3UyQ0E3V3lmVS1qWXl0U21xc053MHlXUzVBNkhSNjJ2U2JCOEl4WS12S2pTWkpiaklHUl9xOFBTTXZjVC1BcQ?oc=5",
         "published_at": "2026-10-14T01:00:05+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Proposed oil deal with Russia divides Wyoming elected officials - WyomingNews.com",
+        "source": "WyomingNews.com",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSEY3ZnNDdFYzOVc4M1hkaEFCYi1HY1FYQzdWazRhZmVVWUJaTUZnUEdsSjlyTFFhUzYyY25rb3VWZHMtQnVGaWxuVFk2T0Y2NFh4Z05aY1FvaUJqZGtpaU5FdlJzbVJLcUR3MGY4ZWNXUUMxUEJNXzY3czlUN1R3dVc3RExQbm1ybmFCMVRIZVJvYmVWMEVBbl94OGNmRUx2REwzMDBOeldSdjhkQy1tZ1hWejdCX3JOWEVQNm1vZjZrRE9oOGExQ2hjWi03dkp3cnZ4WWM3UENBUWVBZDRmZUlWRFo1MTlyaGlvY2p3?oc=5",
+        "published_at": "2026-10-14T00:58:23+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -137,6 +164,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Iran increases threat to Strait of Hormuz shipping, and other Middle East developments - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjZtVDJsR2JiRDFvUWtYR0Jvei1EVklHd2VjRGxUbTZ3MlZmME4yVWhkN1ppU2JMN3NTWFk3X1B4eElWSkhiazYwb0tvMi1NMklRemNiN0F3c21ZX0NybmtxY211bEc5MXNsVkNndjN5MjRjSTUtbUpUVEZlc1hiMkx6Y2h3Z1k2Y0VpcG1vWmEtc1lwN2pnbHhqcGYyVmhGb3FTVA?oc=5",
+        "published_at": "2026-10-13T23:29:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Trump says US still sharing intel, even as Ukraine reports attacks with no warnings - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVA2WjlXNVNqR1RhTzFnOFd4bGstWUFZMDhCbXBNUEsxNzU4b2N2Tktwck9tMlFvSERMbFVwcnNkMUFTSVBxMjlia2VhMlQwZVllRlo5ZFpaUnl6aWFxSWJGaXhIeFJFcVA1ZUUxRHJqWjNqalNrU1UwMUtfX1hKTXhtN3pNVHdOSW93WGh5NlRuZW5KdVJPOGtsWWVHbG9UMy1tUjZrcWxEWGZkUldicFVURDFjdmdza3Q0?oc=5",
@@ -160,42 +196,6 @@
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV3RKZXlvdUJQbENhNWhPbS0xWl9GVUFDeWpQa3h5WXN3QUN3b2JJaGpqQVFZR3Z1V0pISnk0bGx0bU5KSzUxclVmQU55ZmFXWGtRc09TSjY3WVVVelVzOTE5ei1hUW05N3Q5UF9hZkVEd05TSFplM1kzTW5KSFlhd0xIRUh3bi0wMW1LQ1htd01JNnJZMXAxTVdXbGNzMmRndi1pWElkSDJIMFZKQXQtTHRGaEI?oc=5",
         "published_at": "2026-10-13T22:45:27+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NTXliU09wdmZTVFFLc3dfamVjQlRpUnNuVXY3QmpLLUVGYjVXZHBZNm8taks5cTJaVUNndmNFZy01WGxNcFp0YzFlb0NZcXBQclBsZFF1T1o2SGM?oc=5",
-        "published_at": "2026-10-13T22:29:55+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
-        "published_at": "2026-10-13T22:14:33+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Did Ukraine’s strikes on data centers really silence Russian bots? - Mashable",
-        "source": "Mashable",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU4xdFhMeUtoTFlsSk5MeUhDTUVPTHEwbFI5Q1NZV3JHNlMzUktyb0d5TUZXWC1JMFJlVFpSTWpUeVdYQ1RjYURsMlF6N0J3UG5DMWx2Ym1JMC1sWkhpUUU5ZThHXzdKN0ZYVHgwLUxqUU9JTDljbHdYM3BhR2V4RENJOVpGRlU?oc=5",
-        "published_at": "2026-10-13T21:19:22+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine Says It Received No Intelligence About Strikes 2 Nights in a Row - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON0MzaklyZEo0Yk9pMDdfN1lad0xlUE5NSGtjaXNqSkM0UVMtU19OVEJOZnhhdWNqWkplWnNwaDBVbExYMXNFUDBXSzE0Y3pnVmxCTVBmM0d2bUNMdWFsLU5LVFVtYS1HT1psaGZub1JYdW84Z2xTS2VvclFQc3FySWl0dGV5Zw?oc=5",
-        "published_at": "2026-10-13T21:17:34+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
