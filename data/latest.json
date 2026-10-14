@@ -1,40 +1,46 @@
 {
-  "generated_at": "2026-10-14T06:40:31.426792+00:00",
+  "generated_at": "2026-10-14T07:21:40.087975+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.41000366210938,
-    "wti_change_pct": 0.2868114236366015,
-    "brent": 106.0,
-    "brent_change_pct": 0.2933083086696042,
+    "wti": 94.55000305175781,
+    "wti_change_pct": 0.4355254565196587,
+    "brent": 106.2699966430664,
+    "brent_change_pct": 0.5487692196636029,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.12899780273438,
-    "macro_score": 47.8,
+    "dollar_index": 102.1520004272461,
+    "macro_score": 47.5,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.29%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.44%. Geopolitica: Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T06:30:00+00:00",
-      "brent": "2026-10-14T06:30:00+00:00",
+      "wti": "2026-10-14T07:10:00+00:00",
+      "brent": "2026-10-14T07:10:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 35,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T06:40:20.234110+00:00",
+    "updated_at": "2026-10-14T07:21:28.297039+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +50,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -77,12 +83,21 @@
     ],
     "geopolitics": [
       {
-        "title": "Pressured at home, EU leaders weigh China trade steps - KELO-AM",
-        "source": "KELO-AM",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYl9QLVZrUVNmN0pYTVdiN0pDckVsSVNrVWFQYVZnZHhZaldrNzRxVzQyenU5UE0xbk1KWjlMUWo5M3NVY09wTnBSTmFtWmdVNDlHakJ5R2duU1VXRXVNaUVQRWp4enllVVNzbjFLX3Q2alA4MkY4R2ZoZ3VuUzRyVkhONUlHdU8t?oc=5",
-        "published_at": "2026-10-14T06:32:27+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Saudi Aramco HQ attacked in suspected Houthi strike - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlJvcU95eUR0QzVMRjJzX25MNl9HWm8tNU5HNUx1R3EtOVI5U0NvRjhEdTZ2VzJtc2FPQUwzVmU3dWY2ck9ZSjhFUXd0OVRmazY1SGpWMWgtZjk0MnhlRFotQmZrMzhGY3RWUnVTVlJfOHBRVHJwNThrbDl3T0tXTnVSbXg?oc=5",
+        "published_at": "2026-10-14T07:12:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelensky to visit Britain; Burnham to speed missile deliveries to Kyiv - upi",
+        "source": "upi",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaFpNTU5oQ0EwUDFuQjVOWi1wck83Yi0yUVpDbXJta1d0MVlXdGRrVEZvUC1MQlhOTC1iRVFqQ0VDVUd2cVZ0dGxSLWE2a3duY2pqOEx1REdoVVBSTWE1M0lqcFF0ZzVLQW9jb2RvRkJlX3RIVmt0emx5WV84aFdEd3lwWkVMejM5TDNfdk9WNmYxd2ZPS1M3RjU4WV9YYXfSAaQBQVVfeXFMUFk5a0p6MzZyTU4xaERXMHBFNXlMVndmUjd4ZUpoR2l0OENDSUxHajdGNkVoSzNFUk5heDFwX25fd0g3ZHNMaHItZ1dDa0FqVmp0cGlnZDFtdWRwS3hfaWdWTWh6ekloUWVpMXBNenNORTEtTHdlTlJXQ1J4UFRtSkxMYmZPS2x2ak9mV0tZMjdkMG9tUWxpNkE2bVkzMFBhREVtczA?oc=5",
+        "published_at": "2026-10-14T06:42:07+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -95,10 +110,37 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Pressured at home, EU leaders weigh China trade steps - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZC1va2NWTWZxZFZwX0o0VVhXdFBUODFPVGt5RVF0ZmZfQmN3MXdrSFlyYVczRVBLdU45bGU2NmthUldZZXF0TGdXYTI2bFpidU5WdGg4anBFckVsbUFyUV9EQW0yMzdWNUd0LV9kT3Rtd1QzdFRGc3VUODVoSkYycG1RbkxiRkpmWWh5dk5CUWk5OUpodFpBbWozVnBTZw?oc=5",
+        "published_at": "2026-10-14T06:04:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Defense officials warn of possibility Houthis may conduct land or sea attack against Israel - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mQklWOG1oZFZRWTBVZ25lODJoM0h2cHc1YWpHcWt6eHM2cDJhaXJvY3JZRlJwbm9QMlZFUzMxb0paNzBkOHE0NmlGbjZQTHJrQ19DOWxJQ1VSWDRuVWx1ZEFEQllxUlVQNjNXdlRR?oc=5",
+        "published_at": "2026-10-14T05:53:18+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China says it is willing to work with EU to boost stability of trade ties - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ1EyNEpnYmtaNHJ5TG5kM1NWZTVQNjRrTDdsREZUVTB6Y1hzNnl4R2JhTGdva1ZTTGpXWWdqUVdwRk1kQnIyLXFPbHNpLV9tZzhVTDNsRm93cndnVDVTeWNDTlU3T1ZCUElOQmxKRGh1eHNFSXBiRzAzc2dELTMtVmZnbzNaSDlKY2hzeUpCTnZnWTN2V0dXV1dxVG1PZTBicE9yTmJsMXJUM1I4Q0c2MEd3?oc=5",
         "published_at": "2026-10-14T05:48:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s Trade Surplus Nears $940 Billion as Export Growth Surges - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOWVSSF96T3R5Ry1QeGlWQmFMV0dyLW9EYjNyek03QkZTOXlheVVvNW0xNVNSZ1F5RW84OERGS0RlLVhvdE9ON3d4eHQ5S3UtWml5Y3pTS0NaX00xSGV0UkVpS3YxY3ZidU80dHIzZVdrcmphYnhNcldOY0VvUlJNWWQ3eFNrb3pnNVdhQV9HY1FYZlVFUmVlb0diVmhZam1GaHVxcUxyRWhQajdnVkhlVk1iTEE?oc=5",
+        "published_at": "2026-10-14T05:39:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -113,10 +155,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Defense officials warn of possibility Houthis may conduct land or sea attack against Israel - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mQklWOG1oZFZRWTBVZ25lODJoM0h2cHc1YWpHcWt6eHM2cDJhaXJvY3JZRlJwbm9QMlZFUzMxb0paNzBkOHE0NmlGbjZQTHJrQ19DOWxJQ1VSWDRuVWx1ZEFEQllxUlVQNjNXdlRR?oc=5",
-        "published_at": "2026-10-14T05:10:39+00:00",
+        "title": "Live: Houthi strike causes fire at Aramco site as coalition continues attacks - Middle East Eye",
+        "source": "Middle East Eye",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXNvTzZ4TkdPVHc4bkh4emxSZzBhMXBKM04zNlFFeFoySUpBelZBQlJmVF83WVdXNDQ5VEFXei13SjlVQ0xDSHBpWU9GZElNQk9naS1ESFRMcXRMX3FHV3ptOU9nRFJLRWFBVVI4ejhHNGVSUWJNZVNHZmVBTDNMRXZvc0lfODAyTXJCM0VmQ0FJdGtjbkdWZjIyTGJMSUNOSWdOYlVjcFlCdw?oc=5",
+        "published_at": "2026-10-14T05:17:31+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -131,29 +173,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China’s Exports Soar, Putting Its Trade Surplus on Track for a Record - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOamoyNjV5UDBSSC15UTVfbGh1eG02cHgzRVJxRGpQaVpiWjE2ODZUZkt4bmJUS3F5YjhBdFZkazJvZjNOUHhjc1hZc3BjbXlNdERLY2NoTmFpSlhuS2JPZG5EaWZDc3JBODdPXzlkWWt6Ti1mYW9kVTBsNEpXYWpqRFNn?oc=5",
-        "published_at": "2026-10-14T04:50:55+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
         "published_at": "2026-10-14T04:36:06+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Live: Houthi strike causes fire at Aramco site as coalition continues attacks - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXNvTzZ4TkdPVHc4bkh4emxSZzBhMXBKM04zNlFFeFoySUpBelZBQlJmVF83WVdXNDQ5VEFXei13SjlVQ0xDSHBpWU9GZElNQk9naS1ESFRMcXRMX3FHV3ptOU9nRFJLRWFBVVI4ejhHNGVSUWJNZVNHZmVBTDNMRXZvc0lfODAyTXJCM0VmQ0FJdGtjbkdWZjIyTGJMSUNOSWdOYlVjcFlCdw?oc=5",
-        "published_at": "2026-10-14T04:23:36+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -167,28 +191,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "The not-so-secret vulnerability in Ukraine's drone arsenal? Chinese technology - Oskaloosa Herald",
-        "source": "Oskaloosa Herald",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdU1JQ2ZaaDZobVNRR1BxVWtLMXdGX3JhN29pazF6WjNxQ2RFZXFMS056NmhoUUp1NXJuYXVJcUMwZE5qcUZwSnJWMjF1dm1WN0dKdzVNcjRGSTVsV0xyQkVydWw3RkJpQmcya3ZWNGxUQkZ5WTVCdGZLUFlLNThEbmYyS0U0MzJXRy13SFlNcHV3VTc3RXVCdERVbjc5SXhLdTRDSWlBdlpzelFhMXQwcFd3Q01Udl9NWHpRTzN5R1JWNTQ1aXNjWnBlcGd3eDFqak5RMkdqcmtNd3FoLWxXSlJIMzdMd1FHX1RwVHlMcWJsYlRBZnprSE56RzRxT3pO?oc=5",
-        "published_at": "2026-10-14T04:09:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil rises amid growing Mideast tensions between Iran-backed Houthis and Saudi Arabia - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeS1hMFRGRUNjdFFUaXlPWl9TcnFpSHk4Y05USDF4cUR5cWpCcDhoSFl5ek9kUzVSMlZKaE1KQlhNMENyRXpNWjlKTVFtSWxRVlpxalRrdk02WWZCTy0xaEREZ25fdTBBRE9NZklpczRtQU1XVV80cGs2bXRpU0RyeFRBTGFRT3hqV3p5ejRmV2gxZWZYdnFpQzNLMHIwRE5nN09lanY4eHFGd2_SAbABQVVfeXFMUG12eVo3Ymp4NEV5UDJCZlRlcjRSbjAyVmY1WEFsUXBqZHBlc2pHOXp5emh1OVFzOGFJOGx1cWxiRFFVODI2Tnl1MkxabDh6ZHAtYWZSaV94TmhYaXZQQk80TWdVdEZDNUpFYVRZTWthZThqb2VDYnV3VnVHeXk0dnpfelFGNWtMNTVnYnRwanZKRWUtc1JNLWpPaEljMXM2ZE4zRndJeUt1SWpfSm42amE?oc=5",
         "published_at": "2026-10-14T01:55:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
-        "published_at": "2026-10-14T01:27:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -223,10 +229,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia’s China AI Chip Share Drops to 34% as Huawei Gains Ground - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUxJdVNwblBhMC1rUU9TbGpZSW5OWFo5WmdHcGczYjBaeFJ0OWtKckV0dWRIUkR5LVJmRl8zTnI5UnlSSmhlM3R3MkdRUFNlZkRfY0RDLXdpd015N3Fqc0IwcHpmWjhFSXRnUkNVRVlXYWZuakpNaEVxOWY2LVp2cUpiTDVfQ0FGa25yMW01dzZmeXpxamlNdEd0NmtZQkN6SWtUdw?oc=5",
-        "published_at": "2026-10-13T20:37:01+00:00",
+        "title": "Micron (MU) Trades at 7x Forward Earnings: Is it a Bargain or a Peak-Cycle Warning? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWExNWXJkR0c2WmZYNFFxZE9HSmY3ZTA0VDIxa1IwOEFXU1dzbW96TU5mRTMtLVJQRlhBaFdvck1ncWdKUU9WS1lxUDZ3LXVYdU5RbjRZbjlUQXhsS2ZCbEZDcF8tRGI4QkJRWjhOMWxBclQ1dGswa2xYcWw5WS1BM3M2a0tVUE9uUFR3X2g4Yk5ONmJBYnFZ?oc=5",
+        "published_at": "2026-10-13T20:42:23+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
