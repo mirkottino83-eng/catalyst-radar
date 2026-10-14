@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-14T09:33:10.402412+00:00",
+  "generated_at": "2026-10-14T10:05:51.848403+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.19999694824219,
-    "wti_change_pct": 0.06373227000504578,
-    "brent": 105.4000015258789,
-    "brent_change_pct": -0.2743882191583058,
+    "wti": 94.87000274658203,
+    "wti_change_pct": 0.775444403724812,
+    "brent": 105.95999908447266,
+    "brent_change_pct": 0.2554609109939987,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.180000305175781,
     "vix_change_pct": -0.5893919442689466,
-    "dollar_index": 102.21499633789062,
-    "macro_score": 49.0,
+    "dollar_index": 102.23300170898438,
+    "macro_score": 47.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.06%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.78%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T09:20:00+00:00",
-      "brent": "2026-10-14T09:20:00+00:00",
+      "wti": "2026-10-14T09:55:00+00:00",
+      "brent": "2026-10-14T09:55:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
-      "vix": "2026-10-14T09:15:00+00:00"
+      "vix": "2026-10-14T09:50:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T09:33:00.123331+00:00",
+    "updated_at": "2026-10-14T10:05:39.908539+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +44,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,17 +65,26 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       }
     ],
     "geopolitics": [
+      {
+        "title": "Starlink Restrictions Disrupt Ukraine’s Drone Strike Operations - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZTHg2bk1pd2o1ZVQzbm5heHk2Z0hudXZkbW9nNVFIOG00T1NRdkJVc2FFbDdaUGl4Q2xuZWttbjFBaHNOUHFUT3VvVQ?oc=5",
+        "published_at": "2026-10-14T09:23:36+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Iran Expands Shipping Attacks as Houthi Missiles Hit Saudi Arabia and US Weighs Renewed Strikes - The Media Line",
         "source": "The Media Line",
@@ -113,15 +122,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "How do Iranians move money abroad to avoid US sanctions? - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ2FTWFZtUnRrQlJZdEd2dGZraWo5SXdkZnptUjQ3TFJLblJOVkFLRDRrbGgyZ0dQRkEtTG40M2lEWUdqVDNGREpMZFRVZGFkTVIwMG1yclVWWnE1UjZpbDBuUHNubTJRVm83cDRGYVk5V0NlTTRxZFJTdlhmRHBZcG5hOTNlSkJ1Yl9aM2xRWFpCTzJjczV4Ym4wUWZnd9IBowFBVV95cUxOVERJM0JGcjlvSFBoX2RjUGZYczQ4dlBqWVAyajRhM3VUcDkxM0l3dEFLX2tjOTc4b3FSX1c2OGp4dS1Cb1prMFctU2dWN3pGWmVCMGdFc2NKWGZyWXk5dnJfdTRBS3Z2UWpheFl4OHBVNEQyVjBsek9odkRYdzdmbmtSc0F2WlZxc1ZTbGZfZGl5ZVlhNzFoM0c3eTl3bVZCQlpJ?oc=5",
-        "published_at": "2026-10-14T08:29:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Surging China Exports Push Trade Surplus Toward Fresh Record - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOWVSSF96T3R5Ry1QeGlWQmFMV0dyLW9EYjNyek03QkZTOXlheVVvNW0xNVNSZ1F5RW84OERGS0RlLVhvdE9ON3d4eHQ5S3UtWml5Y3pTS0NaX00xSGV0UkVpS3YxY3ZidU80dHIzZVdrcmphYnhNcldOY0VvUlJNWWQ3eFNrb3pnNVdhQV9HY1FYZlVFUmVlb0diVmhZam1GaHVxcUxyRWhQajdnVkhlVk1iTEE?oc=5",
@@ -131,19 +131,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "EU Sanctions Russia as Trump Diesel Deal Deepens Transatlantic Rift - https://globalpost.com/",
-        "source": "https://globalpost.com/",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYXVwNHVMakt5bUxTUnp5OGRkZFFsMWo4alo1ai1Lci02cnQxM3d6UjN6WVpWLTVqS2haX1Z1eFFqZ1p2LUU1c0FNQ0NCOFBCNEt6NmM1RG5haGtGSDgwcnQtY0x1eUVnS1VoNlJPRHd4R2VSaU1OQ08tbGQ4UzM4eHZtUDFsejFSLXk0TTVBTG12SHdSMS1rOWh1T1VTMlhr?oc=5",
-        "published_at": "2026-10-14T08:23:04+00:00",
-        "area": "Russia / Ucraina",
+        "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXpoSGxnbGVuMHJnTzZMekxDbVh6S003bDlWLTYtS29OclQtM3duN3lKYjFfd0lrWXFzOUIxUmI4R0JjUktvMXVkTXVSZDBhQ3JWaHQ2MmI3VUJWTTdRRnRXWDMwMGdaMTJ5ZHBCSDlmdzdFU3NoWEdETEw2LUkzRzdJNUlyaW5DNVJ4V1lCaWNYZFFaX0NiS3pVVU1BT2ZxUnlJZXNBcnB5XzBBaW9N0gGvAUFVX3lxTFBoMDJhdkhiQnB0YXdxZTZmajRTT1FhUUYtcXNOWTdxamN0MjBqVkp2MU15U0NwN1c0aHdmVTlLYzhsTXNHSUZhX3g3NEdMMHNOS09GWDNHQXNMb2t5TzgxOV9iV1R6ZHNyXzlHbTFvUlZqbERTc090ZzdCenBkX2lpbmx0Q2V6S0dRNTZmNzhvS2dDUnpiYmJabTJlRVdnUThNOEZVR2V5RzZteWVSVGM?oc=5",
+        "published_at": "2026-10-14T08:04:27+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthis could attack Israel by land or sea, Israeli defense officials warn - The Jerusalem Post",
+        "title": "Yemen's Iran-backed Houthis may conduct land or sea attack against Israel, defense officials warn - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mQklWOG1oZFZRWTBVZ25lODJoM0h2cHc1YWpHcWt6eHM2cDJhaXJvY3JZRlJwbm9QMlZFUzMxb0paNzBkOHE0NmlGbjZQTHJrQ19DOWxJQ1VSWDRuVWx1ZEFEQllxUlVQNjNXdlRR?oc=5",
         "published_at": "2026-10-14T08:03:29+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Diesel squeeze set to last well into 2027 as Iran war disrupts supply, IEA says - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Da2trRjlrbnhRVmVhRVdNUTJ6V0pJalVlbkpiLS10YnpmbU1tVHhaU0VacnNSbk9SczlfTS1RUF9odEptRTVtWHdvSEpKYUVOcmNNbTQ2T3V6dHZ3S0dQWGNoeVlRRy0xYW9JZ0o1SF9Jb1lSd0tpVtIBfkFVX3lxTFBubTR0YnlNNXVmVHd6d3M2bmdsYTBOaTQ0OFQ3TEY0ckxBRHVSc2RKWkMxZ1JVaDIyYnluZlpOZksxa1JPNVh6QkxCTzhUcXF1anRIRzlwTDFXOG9hWkFLNjhCRllhbk5xTTVvckxzXzZzclBablVzSkZWeXZzQQ?oc=5",
+        "published_at": "2026-10-14T08:00:01+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -201,23 +210,14 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Trade Volumes Put J&T Global Express Stock And Shipping Shares In Focus - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU1ZvUk5zUFlzb2oxMTd4ai0za1YwNUFBRV8xdkdXbWEzX3h2SFV5eW9HWC1mRUtVcDhyWmJLYU5MTDJOaTY0dHk0SnFkSnpjM2VsaUR0Vjc1cWhkS0VJVE1henhROUg2MDR4Nm9kQmEycE9wdm1GVXhzcFFUdkgtRnRrRjhLWkUya0QtSTlrZ3kyenho?oc=5",
-        "published_at": "2026-10-14T05:17:14+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "fda approval today september 29 2025 weight loss drug - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fLWV5OGtaS0JuVkFOZzhFbV9CamFObjlFRkpxWFBrZzFRNW41UVBvSlhjTTBCZmRLVW5kSHEtbGttanN3TW5BRG5LLVF0b0Y3eG9EbDRPRk1obm5NVmh1Wm5oS2ZheHQtTEVv?oc=5",
-        "published_at": "2026-10-14T06:31:26+00:00",
+        "title": "Pfizer (PFE) Signs Sec61 Drug Discovery Deal With A Research Partner - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQakJoX1FlOU14VDNJWVVNbDQxZXBseVVSTnNKZm1DMGpyaTV1dGYzcGZBdkZEY19VYlU5UTltMVJ6dkZiVkg0Z0hld1ItS1hZYWdZc1hfV2N1Ym02N3FpWmFZZGI4MFpEbFJNSjVPckFWTXlrbThELUo3anVRclhzRGNqenQ0RHN5eEZyR2tXLWZvdXZGN2kwaERRU1pwbWRFVHFEdmZUVktzVjhmMUNiZ1hLZlNCZTNqQk1HaVoteXh0eTA5OXhjVGhXZlc0eHlTWk1F0gHYAUFVX3lxTE9jMDF5dkdDcjgzTnBueEVkcXNpWHFKVkxDMWxKN080SzJlR1VzWU1uMDNhR2VBZlh1OXRBUmg4WUhfeEdiZG1ROUNaZ0hfZ18ybW5PMUVqQmZwbE1iNTdhVGtENVo4YWdxeTlIeGFXamoxNUVNSFBBX2dIcTZLWDhJb2NpWU1keDRmdGRZWDF1Z1VTT2EwWmlHS1ZYNkpoMzZIbW1qbUtuckV4STZYQWJ0UExIMERpOFVlSGZ2cnFMMERjMFhNSFM0cTNUZTlnM3Z4Qi1nV1pUOQ?oc=5",
+        "published_at": "2026-10-14T09:38:10+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -228,15 +228,6 @@
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-14T00:39:11+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron (MU) Trades at 7x Forward Earnings: Is it a Bargain or a Peak-Cycle Warning? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWExNWXJkR0c2WmZYNFFxZE9HSmY3ZTA0VDIxa1IwOEFXU1dzbW96TU5mRTMtLVJQRlhBaFdvck1ncWdKUU9WS1lxUDZ3LXVYdU5RbjRZbjlUQXhsS2ZCbEZDcF8tRGI4QkJRWjhOMWxBclQ1dGswa2xYcWw5WS1BM3M2a0tVUE9uUFR3X2g4Yk5ONmJBYnFZ?oc=5",
-        "published_at": "2026-10-13T20:42:23+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
