@@ -1,46 +1,40 @@
 {
-  "generated_at": "2026-10-14T06:04:14.977385+00:00",
+  "generated_at": "2026-10-14T06:40:31.426792+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.55999755859375,
-    "wti_change_pct": 0.44614209864919374,
-    "brent": 106.16999816894531,
-    "brent_change_pct": 0.45415433480111567,
+    "wti": 94.41000366210938,
+    "wti_change_pct": 0.2868114236366015,
+    "brent": 106.0,
+    "brent_change_pct": 0.2933083086696042,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
     "vix": 15.270000457763672,
     "vix_change_pct": 0.39448007538605,
-    "dollar_index": 102.11399841308594,
-    "macro_score": 47.5,
+    "dollar_index": 102.12899780273438,
+    "macro_score": 47.8,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.45%. Geopolitica: Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.29%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T05:50:00+00:00",
-      "brent": "2026-10-14T05:50:00+00:00",
+      "wti": "2026-10-14T06:30:00+00:00",
+      "brent": "2026-10-14T06:30:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
       "vix": "2026-10-13T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 35,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Oil prices climb as Iran deploys new tactics to target ships transiting Hormuz - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T06:04:03.650066+00:00",
+    "updated_at": "2026-10-14T06:40:20.234110+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -64,29 +58,65 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       }
     ],
     "geopolitics": [
+      {
+        "title": "Pressured at home, EU leaders weigh China trade steps - KELO-AM",
+        "source": "KELO-AM",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYl9QLVZrUVNmN0pYTVdiN0pDckVsSVNrVWFQYVZnZHhZaldrNzRxVzQyenU5UE0xbk1KWjlMUWo5M3NVY09wTnBSTmFtWmdVNDlHakJ5R2duU1VXRXVNaUVQRWp4enllVVNzbjFLX3Q2alA4MkY4R2ZoZ3VuUzRyVkhONUlHdU8t?oc=5",
+        "published_at": "2026-10-14T06:32:27+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Watch China's Trade Surplus Nears $1T as Exports Surge - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1NjQkdmT0YzSENjR29WdG44U2JHN1JpdzFYN2JWR2pPbjRQLXpMRzFxdm96ZnJfdFJEYWV5OUNfT3gxUHZDSjEyZkJBWlFleHR6QTVWZTlBUXlMTnA3S0RvbGs0V3hvYVZZbjNsNHowaHl0QklXVHFuQU9ScEFoa20tZzMtSkk?oc=5",
+        "published_at": "2026-10-14T06:28:46+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China says it is willing to work with EU to boost stability of trade ties - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ1EyNEpnYmtaNHJ5TG5kM1NWZTVQNjRrTDdsREZUVTB6Y1hzNnl4R2JhTGdva1ZTTGpXWWdqUVdwRk1kQnIyLXFPbHNpLV9tZzhVTDNsRm93cndnVDVTeWNDTlU3T1ZCUElOQmxKRGh1eHNFSXBiRzAzc2dELTMtVmZnbzNaSDlKY2hzeUpCTnZnWTN2V0dXV1dxVG1PZTBicE9yTmJsMXJUM1I4Q0c2MEd3?oc=5",
+        "published_at": "2026-10-14T05:48:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Fire breaks out at a Saudi Aramco building targeted in an attack, energy ministry says - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR002VVo0b3ZvU0RXV3V5TWdvX0Jmc1NiQjBDNjljbTVWbFZnQ1hIUm5WTUNHZFZSNlV4WWoxZVBDNFhwZUEzZF9kVUlla0dZOWstVWZQQnA1TGpqeXI4Y05KbkpOay00U3NLYkZxZ1BHQWQ4ay14eEk3bHlfSzBMVzlrd2tuQ1hyaHoteGZSZ0pyYjdvYjB1QlEtOTR1YVNZZnZTRw?oc=5",
         "published_at": "2026-10-14T05:23:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Defense officials warn of possibility Houthis may conduct land or sea attack against Israel - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mQklWOG1oZFZRWTBVZ25lODJoM0h2cHc1YWpHcWt6eHM2cDJhaXJvY3JZRlJwbm9QMlZFUzMxb0paNzBkOHE0NmlGbjZQTHJrQ19DOWxJQ1VSWDRuVWx1ZEFEQllxUlVQNjNXdlRR?oc=5",
+        "published_at": "2026-10-14T05:10:39+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -110,30 +140,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Chinese Exports Accelerated in September - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUUM0eFhYRF9UMTBrT3VCZjJaclBJV2tzWXBSY1AtVUI3Zlg1Wm9QWGI1ZzBrVU43MFVNV1VEM05fdkNidGxZc1RtRE94Yi1TRVdKVERqeFVnaGhIYjFTbldEcG9jQ3ZqVEVEd0xvVjZUanMyNmFLel96MDg1WkVnSVQwem1MOG9m?oc=5",
-        "published_at": "2026-10-14T04:41:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russian strikes hit key power plant in Kyiv, Zelensky says - BBC",
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ycFNwbmdIcXFZUnhfUTFJZDd2WlI4WlZ5b2dJLUo4TGgyYnJYbzNaZmx4RUZMRlBDTmVjQUZQSEJoUDZ0SVAzQm9hSU5iRnlTUklQbmxSdzk1bkk?oc=5",
         "published_at": "2026-10-14T04:36:06+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China auto group says China EU trade consensus aids industry stability - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUJJVHVnZnJnWFVfVlpaZnBWMWxOZGdmS0EtSk05aFhQcVNQQnFLaElpX191NlBabHBrdWNGa1ctZU9kMEJfMjJyUXhQMHA3azVidGxSd2xkeGZxWXdzTHBodTFoOTZXbnFXajZMeHZIQkpUSzNZeDZHbDVJMDV4S190U3Z6YXlwd3RSZTdVUkxtenNiZUI1Qjl0bi05SEtENnRObFp2dFQ4eXJva012RGVTVzRLc2NheUtUYXcyZ2UteHZZbVRKVGV5dw?oc=5",
-        "published_at": "2026-10-14T04:31:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -161,15 +173,6 @@
         "published_at": "2026-10-14T04:09:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Asia stocks edge higher as chipmakers rebound; China trade beats forecasts - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZFJZb2VrWkxWQ0FiaklXNG5UeE81QkNpQl9XVXhmbU42VENzbUNSQ2Z4VUw5UkR2ZzNXSUp4WjFIeUxVTDlHOUc1dEFHTFkwUVZsZUFxeFJQaFFTdUZpNmd0NVRWYUdybmN0UDh2V2NhdmM1MXlBa2hKcjNOaG5Pb1ZhMHpmVVVVTk5YSG9vdU9OblN3OVBTSnpBOXBQVGFxSUwxRHlheUNzdw?oc=5",
-        "published_at": "2026-10-14T04:07:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -205,15 +208,6 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHdrTGxMZUpZTFJQZjRNZU5lVFhJYVNmdEUzYVNCZ09zTkxEMUFJaDJfNGxHOFpNZUNiQk5qQ3JBWG5qeTlLOVp6bzE4YVZpNGtKZ2tUaUV4SFhqLTlYZTBDUzUtOTIwVDBiTVZfNmdlalllemFmMTZhMHdJazhsZFdTc05BdnQ0REtuTUZhbVBSUEFNd0t4NV9iSXhRZVNSazBzZHZTNGVKS1FM0gGyAUFVX3lxTFBWc2NUSVBWYzVyNVF0dVFmV282dHpZY1Y5Snh5ZWppNnEwYzZLYXlHVHpZLW5RbVg3aHhRMlVWTDlCMXRUR0M1WDFEV3R2MV9KUEZzVWhacTVxR1dxQllKWlpuUDBkSE8tSXBMVEhYemF0cDMtbDMzcDhvc3NiLTBxemo3Y1NvV0FFUzBvSEd4c0xDblJLUUc0YkZ5b0JlUGhuMnBnWE43Si11WDlPMmhsOWc?oc=5",
         "published_at": "2026-10-14T01:11:56+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5",
-        "published_at": "2026-10-14T00:56:29+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
@@ -270,6 +264,15 @@
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRk1CVkM4NE5HZi00TG5zcHk0bU5aUURLaGR6NnRjaTVwbGNMeTdhVEUyclpSdEk3S210eFdhRHBtVzJzM2YtUXdGbWE4V3ZFWHBpVkl0UTAtVV9SaF9BQWEzQ2UxRWJlNDh1dkVvcUptVTgxQno3YXFhQUxIYkpCTFVWOXRhZDQ5d3h4bEFiNjE5S2RKQVlTNGZJR2xfbWVoNTd5ZFh5VnZjUVk?oc=5",
         "published_at": "2026-10-13T18:44:00+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nebius (NBIS) Has Pricing Power. Its Earnings Don’t Show It Yet. - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTXlqaVVzWUxrYWxzWF9jT0tmQ1NjVG5mb0JwRnFxLU9rVUNnZklqZ1daQzhFSXpZMnlMT2pLZm1zdWFvQ2RFc1Jvek1ydzJLLVduLW5QMG9Sd2kyRzBqYnJaNUY4X2I5YWFzWGpUOThsNWxxRU9mUnpoNXhVTklYRzRUdTRkOUVuT3JoS1NWR1pRUXZxazR5WU1RcDd4QWs?oc=5",
+        "published_at": "2026-10-13T17:45:32+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
