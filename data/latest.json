@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-14T08:26:03.138550+00:00",
+  "generated_at": "2026-10-14T09:01:23.912200+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.2170000076293945,
     "treasury_10y_change_bp": -2.299976348876979,
-    "wti": 94.05999755859375,
-    "wti_change_pct": -0.0849817628780225,
-    "brent": 105.45999908447266,
-    "brent_change_pct": -0.21762073197141296,
+    "wti": 94.51000213623047,
+    "wti_change_pct": 0.3930345750806419,
+    "brent": 105.83000183105469,
+    "brent_change_pct": 0.13246228253807057,
     "nasdaq_level": 27204.38,
     "nasdaq_change_pct": -0.15239133238292846,
     "sox_level": 12208.795,
     "sox_change_pct": -0.2287776367260852,
-    "vix": 15.170000076293945,
-    "vix_change_pct": -0.6548813259457664,
-    "dollar_index": 102.15799713134766,
-    "macro_score": 49.1,
+    "vix": 15.220000267028809,
+    "vix_change_pct": -0.32744066297287766,
+    "dollar_index": 102.22200012207031,
+    "macro_score": 48.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI -0.08%.",
+    "summary": "Tech bias neutral. Nasdaq -0.15%, SOX -0.23%, US10Y 5.22, WTI +0.39%.",
     "quote_times": {
       "treasury_10y": "2026-10-13T18:55:00+00:00",
-      "wti": "2026-10-14T08:15:00+00:00",
-      "brent": "2026-10-14T08:15:00+00:00",
+      "wti": "2026-10-14T08:50:00+00:00",
+      "brent": "2026-10-14T08:50:00+00:00",
       "nasdaq": "2026-10-13T21:15:00+00:00",
       "sox": "2026-10-13T21:15:00+00:00",
-      "vix": "2026-10-14T08:10:00+00:00"
+      "vix": "2026-10-14T08:45:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T08:25:50.456750+00:00",
+    "updated_at": "2026-10-14T09:01:11.827861+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,8 +77,26 @@
     ],
     "geopolitics": [
       {
-        "title": "EU Sanctions Russia as Trump Diesel Deal Deepens Transatlantic Rift - globalpost.com",
-        "source": "globalpost.com",
+        "title": "US market regulator appointee halted probe into oil trading ahead of Iran strike reversal: Report - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdXZLVWtiUUt6SWRNY3JjbktEQnZXS082N2ZqNXlmTlZSWnI5S3FrU3ZmbmN1RmtMWnJPVkpTOW5hVlhiVUxSUVM3S0x1YllvQXMwWEpwbXZBOXRQY1B3dGVnYnVpSWV4N20zdWdid0xrdjg0Rm95UHU3c0VFTFQ5YnpzTkVOUGYtMG1tUmdqdG9MRUN2akFlcWVIUmV2LWRrT2w1TmJPaWpYV0gzd1ppZzlud2Zpc2hyQ29kOWxNOE9OSTk2d0g5cnd4YlBrMkE?oc=5",
+        "published_at": "2026-10-14T08:46:34+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Surging China Exports Push Trade Surplus Toward Fresh Record - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOWVSSF96T3R5Ry1QeGlWQmFMV0dyLW9EYjNyek03QkZTOXlheVVvNW0xNVNSZ1F5RW84OERGS0RlLVhvdE9ON3d4eHQ5S3UtWml5Y3pTS0NaX00xSGV0UkVpS3YxY3ZidU80dHIzZVdrcmphYnhNcldOY0VvUlJNWWQ3eFNrb3pnNVdhQV9HY1FYZlVFUmVlb0diVmhZam1GaHVxcUxyRWhQajdnVkhlVk1iTEE?oc=5",
+        "published_at": "2026-10-14T08:28:12+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU Sanctions Russia as Trump Diesel Deal Deepens Transatlantic Rift - https://globalpost.com/",
+        "source": "https://globalpost.com/",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYXVwNHVMakt5bUxTUnp5OGRkZFFsMWo4alo1ai1Lci02cnQxM3d6UjN6WVpWLTVqS2haX1Z1eFFqZ1p2LUU1c0FNQ0NCOFBCNEt6NmM1RG5haGtGSDgwcnQtY0x1eUVnS1VoNlJPRHd4R2VSaU1OQ08tbGQ4UzM4eHZtUDFsejFSLXk0TTVBTG12SHdSMS1rOWh1T1VTMlhr?oc=5",
         "published_at": "2026-10-14T08:23:04+00:00",
         "area": "Russia / Ucraina",
@@ -98,7 +116,7 @@
         "title": "Houthi Strike Hits Building at Saudi Aramco Headquarters - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUVrZjZFRVVJejMtQVh3OUE1MmtBdk9Ed1JTZ1JyV1B6UlFITDVCUVVIcGlpUEhZMDdrQzVaeDN6TnFjNVNSSVNMUS03V005UXhSNEYzaXZIZmo2WENzU2hMdVBtWjJ6YUlfTFE0VUdyWU9tcW9YRFMwdVBVc3YxYWpkcUQyTHllTnR2WUFESHRZNF9DeVhveVpRbjRMQXNVdkFFck1B?oc=5",
-        "published_at": "2026-10-14T07:59:00+00:00",
+        "published_at": "2026-10-14T07:59:33+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -131,19 +149,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Watch China's Trade Surplus Nears $1T as Exports Surge - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1NjQkdmT0YzSENjR29WdG44U2JHN1JpdzFYN2JWR2pPbjRQLXpMRzFxdm96ZnJfdFJEYWV5OUNfT3gxUHZDSjEyZkJBWlFleHR6QTVWZTlBUXlMTnA3S0RvbGs0V3hvYVZZbjNsNHowaHl0QklXVHFuQU9ScEFoa20tZzMtSkk?oc=5",
-        "published_at": "2026-10-14T06:28:46+00:00",
+        "title": "Saudi Aramco HQ attacked in suspected Houthi strike - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlJvcU95eUR0QzVMRjJzX25MNl9HWm8tNU5HNUx1R3EtOVI5U0NvRjhEdTZ2VzJtc2FPQUwzVmU3dWY2ck9ZSjhFUXd0OVRmazY1SGpWMWgtZjk0MnhlRFotQmZrMzhGY3RWUnVTVlJfOHBRVHJwNThrbDl3T0tXTnVSbXg?oc=5",
+        "published_at": "2026-10-14T07:12:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pressured at home, EU leaders weigh China trade steps - Kansas City Star",
+        "source": "Kansas City Star",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fQ3ZTWWo1MTg3a0VfSVdOWDFDUWxZZnJ3NHd4RFRuVjVYVkdsWWFHTnFZUk5pQXd6QkZMZEVxX1JkaVZMTVliWlpQdG95c3BzXzJnZ25jNEhHbXQ0UER4VzFQSm1HNXQ3NXBnLWtPcGtIN2NiR1NJUDYzM1o?oc=5",
+        "published_at": "2026-10-14T06:36:07+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pressured at home, EU leaders weigh China trade steps - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZC1va2NWTWZxZFZwX0o0VVhXdFBUODFPVGt5RVF0ZmZfQmN3MXdrSFlyYVczRVBLdU45bGU2NmthUldZZXF0TGdXYTI2bFpidU5WdGg4anBFckVsbUFyUV9EQW0yMzdWNUd0LV9kT3Rtd1QzdFRGc3VUODVoSkYycG1RbkxiRkpmWWh5dk5CUWk5OUpodFpBbWozVnBTZw?oc=5",
-        "published_at": "2026-10-14T06:04:00+00:00",
+        "title": "Watch China's Trade Surplus Nears $1T as Exports Surge - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1NjQkdmT0YzSENjR29WdG44U2JHN1JpdzFYN2JWR2pPbjRQLXpMRzFxdm96ZnJfdFJEYWV5OUNfT3gxUHZDSjEyZkJBWlFleHR6QTVWZTlBUXlMTnA3S0RvbGs0V3hvYVZZbjNsNHowaHl0QklXVHFuQU9ScEFoa20tZzMtSkk?oc=5",
+        "published_at": "2026-10-14T06:28:46+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -167,38 +194,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China’s Trade Surplus Nears $940 Billion as Export Growth Surges - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOWVSSF96T3R5Ry1QeGlWQmFMV0dyLW9EYjNyek03QkZTOXlheVVvNW0xNVNSZ1F5RW84OERGS0RlLVhvdE9ON3d4eHQ5S3UtWml5Y3pTS0NaX00xSGV0UkVpS3YxY3ZidU80dHIzZVdrcmphYnhNcldOY0VvUlJNWWQ3eFNrb3pnNVdhQV9HY1FYZlVFUmVlb0diVmhZam1GaHVxcUxyRWhQajdnVkhlVk1iTEE?oc=5",
-        "published_at": "2026-10-14T05:39:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine launches major drone attack again on Russia - ABC News - Breaking News, Latest News and Videos",
         "source": "ABC News - Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTVOcEU1NHNfcVBOTXV2VHNGUGpKNnltdGFvMG5ZSUxpTVkwSXo1YUVJa2FNdUI4VDIyUEZtcEJLV2VSTTVTNzJBS0JWd2E2ODlEalZNdmdXUWZsdmQ3dnlsWGxSRkM4QS0wYlZrUTYxTDFKNUt5b3AxQUNLSmZ6SEpGOXhuREk4MUJIUXNiTXc5RW44Q29JQlNMWdIBoAFBVV95cUxPbExNUG1BUWxQMnU5SFZ6VENZOGdTQUtVcjl0VllxMUNHcjBiWjhMTWpHdVNRQ0FvODhrUFQxdTZYOTBOYkpwbWpTdFhBVDZJMTJMSGE5MTE0X0Q3MzA2Umd2MWRQdHNEckJrTDEtWjJQMy1URDNGZjI0XzZxR1ZtUjdhS1BNUEc1Z1ZDb0pXdEs5clVlNktWSUpCOUVSTlJR?oc=5",
         "published_at": "2026-10-14T05:29:19+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Fire breaks out at a Saudi Aramco building targeted in an attack, energy ministry says - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR002VVo0b3ZvU0RXV3V5TWdvX0Jmc1NiQjBDNjljbTVWbFZnQ1hIUm5WTUNHZFZSNlV4WWoxZVBDNFhwZUEzZF9kVUlla0dZOWstVWZQQnA1TGpqeXI4Y05KbkpOay00U3NLYkZxZ1BHQWQ4ay14eEk3bHlfSzBMVzlrd2tuQ1hyaHoteGZSZ0pyYjdvYjB1QlEtOTR1YVNZZnZTRw?oc=5",
-        "published_at": "2026-10-14T05:23:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Live: Houthi strike causes fire at Aramco site as coalition continues attacks - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXNvTzZ4TkdPVHc4bkh4emxSZzBhMXBKM04zNlFFeFoySUpBelZBQlJmVF83WVdXNDQ5VEFXei13SjlVQ0xDSHBpWU9GZElNQk9naS1ESFRMcXRMX3FHV3ptOU9nRFJLRWFBVVI4ejhHNGVSUWJNZVNHZmVBTDNMRXZvc0lfODAyTXJCM0VmQ0FJdGtjbkdWZjIyTGJMSUNOSWdOYlVjcFlCdw?oc=5",
-        "published_at": "2026-10-14T05:17:31+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -218,6 +218,15 @@
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-14T00:39:11+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "health news today fda approval weight loss drug - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcnFlUUdSR1d1aEQxWjB1d0UxLWhRWWxMU2xaWGxfc29kcEhXMUZRSmpGbDcwWERvWlhtSEhuVzhacmdZaUZ4WDY5RW1KVElyRWtzc21yRF9UaDhsMk9CZGZ1VjVPNnVUVDQ4NVFxS21zTmQ5RjJNTVEyNGJBaUtiQnhYMlNSM1B0SGNySExR?oc=5",
+        "published_at": "2026-10-13T22:55:21+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -282,24 +291,6 @@
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMlBoZGNoTWFEdTJRT1dQaUp4ZHJlSF9xa3hrU19oZ1Y4bHZMQ012aFBuTE1qbm5qejBYTlV5RV9QMGxVa3pzR3l5M3FvcXNZdVZQVTIwWlJrY2E4elc5RHItV20wLWhuLVRkWmNjUW53TUZld1FqbEp0bmpwcXV3UzlCR2RpZEFWc2NfZ2FlcXNsSjlyQS0wWTJWQTJ2Sm1IMmZ6TGNxSm5YSnFHNWEteUtfY2ZqcWFBZE1melhoYmQwX1lMaS05SnlMbE1VYU800gHWAUFVX3lxTE15cDJrTkhGUUFNNDZud2RtcW1YUU5HRlc1MmExVGxHNGRicUhfeERsSUk3QVBTZ19Da0VCaDEzb0s5TllzdlJNWXZmOXFLbE1Md0t5WXF6MzdmMkFLSjdCaWpsVjYyQk0xeC1LTEhkMnBTMjctVF9icmw3Q0g2OU0zRGpTa2gtZFdkTlYtUjlZVDNSd05WOEZJV1kySXdRMXQzOXJOeHJmdWhnQk1sNFV2a0VCVm91elhobTM1N1RyR1pIRk8tWVJobnZ2eDJUZ1NJUGdRWXc?oc=5",
         "published_at": "2026-10-13T17:31:49+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Thrombectomy System, Blood Return System Get FDA Approval - Diagnostic and Interventional Cardiology",
-        "source": "Diagnostic and Interventional Cardiology",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXpVdXMwVktOVFEzNUtGTWFSb296ODFpNTVoRXc2Q2c1T0VqR013S09CUHBRQ21OSnlzZmFIQjhOQ3RRSnctbFc5Y0c2ZC12eGJZTHRTeTg3b29BRXdQczRXYU5MMUhCNkE5enZsdWg4X0J2b01qcmZ1Ty1UQ1hoNE1kQURyMTFXRFdwcmZENXRlVlRCa1JoZA?oc=5",
-        "published_at": "2026-10-13T16:24:36+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron (MU) at 5.8x Earnings: Peak Cycle or Permanent Shift? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUWxRSHV5RmlmUm84NmJfVVgtUmswQ0swQklha1IyUDlQWDdQUkltNTV3WThaYThEeHprb21wY0xodmFleVhXeXV6NEJ3OEZSZncyTTFsUzgtRWt2cmhGYi10VEpvZS1xS1pFSGl1a0hoOWhNTHNpa1hLRm8tU2h5b3pYdUE5NnRFRXRObUk5N3dBZw?oc=5",
-        "published_at": "2026-10-13T12:11:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
