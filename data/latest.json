@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:12:00.297497+00:00",
+  "generated_at": "2026-10-14T21:41:20.706871+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -15,7 +15,7 @@
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 102.54000091552734,
+    "dollar_index": 102.552001953125,
     "macro_score": 0,
     "tech_bias": "strong_negative",
     "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +1.09%.",
@@ -23,8 +23,8 @@
       "treasury_10y": "2026-10-14T18:55:00+00:00",
       "wti": "2026-10-14T20:55:00+00:00",
       "brent": "2026-10-14T20:55:00+00:00",
-      "nasdaq": "2026-10-14T21:10:00+00:00",
-      "sox": "2026-10-14T21:10:00+00:00",
+      "nasdaq": "2026-10-14T21:15:00+00:00",
+      "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
     },
     "geopolitical_risk_score": null,
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-14T21:11:48.376107+00:00",
+    "updated_at": "2026-10-14T21:41:08.744618+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -72,7 +72,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 15
       }
     ],
     "geopolitics": [
@@ -82,15 +82,6 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUpFaXBmVHM0TzE4UDEyU0xpclpmendQR1RYSmc0NW16dFZtblhDckw0XzhmdlNINzFYcWkyMmx6TW1xZFhQaWd4SjlndlZZcFd5NWdLUEVTblVTSDdYb2xtc2JZLXduRHhWcC1Jelp6cmQ5cWlLR25lenZDQm1RVkZkRmJVcXVIUkVURFNYeDFCVk83Tm1OMzJQZWVqZU1GYk9vNGFnWXpnc1pYNTJpNjhlSUVCRlgzVTVweFhiMDE2Yy03?oc=5",
         "published_at": "2026-10-14T20:31:21+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s 2026 Trade Surplus on Track to Exceed 2025 - Supply Chain Brain",
-        "source": "Supply Chain Brain",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWFM4NFV4ZmdLSWt2Rm1kZEJNVUcyUHJKekhacUpndVJQcng0Y1RVMWZuN0s1VHhnN2lnZmt2cXZRRy00ektiUlpoemZQNDJ3NG1wbXdFY3ktWkwzZHBrRlFzVXlBcmJaVHVHT28yVkFvN3pvWEp0WU1od2ljMlZMa2VhekdncVBEakNJRU1ZWnI1eTQyN3g0aGNKS0l5QQ?oc=5",
-        "published_at": "2026-10-14T19:49:32+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -109,6 +100,15 @@
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdGZtZkpPMk15YkxWZl9adWJIdDZGbW5aV19BZ01ob3FnQTdkNUVoSzItbnFYeDJvTnhKd004OUVIY01iNzFrUDNWVEZkaDY4TXZydVUxMUtUcEFOUFdNT1d5ci03bHMyZTFn?oc=5",
         "published_at": "2026-10-14T19:10:00+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Time to Worry About Tomorrow’s Trade War - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSkFpMkQtUlJHZ1htdjN3MENDdzdpRjBUbkNGQ3JXeXE0THVQWUo5X2Y0eEx1TGNPdk8yT1pxU3dCeDlUcTNKLTRCcUtSbjVCbDlKRnBwd2V6MmNkb1pCbzJIZ05hUHpPNFdOOENjdUs3SkZWLU9GU1FGeHp5cGdIU3ZTUUxvQ1BwbU5mdkktLWtPTjltOFBtT3dR?oc=5",
+        "published_at": "2026-10-14T19:00:01+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -149,10 +149,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport - Religion News Service",
-        "source": "Religion News Service",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY1UydFNRR29tbkk5TWwtSjRIT1JKMVByd1Jmd0QxWlQ2UjNSOXlNMzBZd2F0VjdSeDRWZVlMTTdaUThBVmpTYVA2Nm1lS0JJOHF6VWR5Z3FOa3EzNGI4cEY2NzRyaC1XZFJxb1V5MDNuODYxektjUE1pc0dxZnIwYW5PVjdudHN2UVZCTUJUbmRLeVRNeXZfU0pXRGtmWnZEYkR1ekVzSHdwcFFpRHJYWFNCWEFYN05LSmkyY281RFc?oc=5",
-        "published_at": "2026-10-14T17:22:53+00:00",
+        "title": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?oc=5",
+        "published_at": "2026-10-14T17:22:06+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -185,15 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China records highest trade surplus in nearly 2 years - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQXgxQVdBTEJ6MXlYMm96ZWhYWDFXX0JLaHdaWXNnVG00RmlXb0FzSlNRNFo4QS1LZW0tZVQyRFpOWGRYei1IbzJSeWg1M2xJSUVaVldGRzdNUXJ3dzBNNmphbzdVbk8xa2VDeUZhM1dnZml1dV9pb1ZZb0dvN1VacG40d0tGMllEVjItcmxHR0p4VEY5?oc=5",
-        "published_at": "2026-10-14T16:36:56+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Bulgaria expects to join NATO anti-drone initiative this month, says minister - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlIxWW1TMjZYeUY2Y1p6TkZwdWZQREN1MjktX3hEa2ZSbVNRbzRqVDVaUmMyYmpJdUxEQlZocEttbHZSS1NEVWszaXVfOW11eUpzRV9Lem1odnJ3bi1JTjJiYVhFVEUxd2xqSGh0VXhXTjJTN1l4WWdReHp0UzI2SktHWGZHcnphSjZOcEdKcU5xb2JablpwS1BZUktuRURNVE9uMWVieFJZbjZqMTNlcWJoOWx6WE0xblpJT1gzRQ?oc=5",
@@ -210,9 +201,27 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "MAC criticizes China’s sanctions aiming at election interference - Taipei Times",
+        "source": "Taipei Times",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsV3E5bHAyTFZSaVdyNzhNRlhHWWRUUmVNdWpEM2xLWF9fYktscGNSUERpLXViSGQ1M19pODVuWlEyYXhHb1ZVVFZzdlAxWFNzZnplMWpILXhSczUta2lEb3NxcjJBVE52OE9qTHVjVGZveTNUWDVqdg?oc=5",
+        "published_at": "2026-10-14T16:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "FDA clears ImmunityBio’s Anktiva expansion in bladder cancer after regulatory whiplash - Fierce Pharma",
+        "source": "Fierce Pharma",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbWgyZ0ZRYnhzb2g2YnJ5M21ZVjB2eS1wMExHMDRoalhVR0IyY0YzdWVtN1VtcHJzUkU5TF9leDdwaTNWNXptc0FfT0Y1SWtyRVFrV29XTDRJQjhJWktMdW5QdWV6Rkg2SXFTdkRYOHBPb2p3VGZvSXJ1OVItUXBXbWdIVF9UZHRlYTFEb2VWXzdTUFJBSWhOTUhjZ2dXN1J1SnRkUGc5ck5vRkdzb196LUZOakVzbGp6?oc=5",
+        "published_at": "2026-10-14T21:17:15+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "AMD Stock Takes a Bigger Hit as Cracks Emerge in the AI Trade - Barron's",
         "source": "Barron's",
@@ -228,6 +237,15 @@
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1ZGcUkyMFZEdXYtUDhENXZ6Rkl6b29Ic3BlOUE2a2U5d3I3UWlPM2ZYRjRnZVYyRVdPRUFjTklPeG9OY2hrdUNZaXc4YU9JWGlsNXY2WFlkQ0lzNHl1VFZoaWNLamlGT3lKQVpyN2VTMm1HVEpRd2FzdUZUN3dTbFBkOEVVUnh6SE05QTZpRmlDTk4xVUoyckJQRjlIRVJaZTBkV2hWalNwd1pKOW9QSFh5ODY4VEVZcE51Wm5RMHZ1RlVnWDVvZw?oc=5",
         "published_at": "2026-10-14T20:23:29+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Centinel Spine® Receives FDA Approval for Two-Level Use of prodisc® C Nova, Further Expanding the Match-The-Disc™ Cervical Portfolio - Orthopedics This Week",
+        "source": "Orthopedics This Week",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWlRJR0NUb0szem94MGRJVDJJUE96Z01nTHEyX2lKRjZfNEpPVU8xLWVHQnlhb2p0QV9VM1dyb0tKUEY4ZFVkUlpRRU9GV19YSXRDOGJqX05jN3huSEpxT3I3RU84eGtqMmx6RUJtdk5Jdi0tdl9uLXlfNUhIRkJsckYzLVkxTTBXR2hXVVRnMTc5T05RRkFGbnJEYk8yRlRvWGlaME9pMWV0Vl95eFRfd0loSi12NktDbUZBNmZNYkwweHBQd29Oa3o3ck1XeGVJUTU1bEM4YXZIdHBzUVdJc2Q0aFZ5ZjA4QTVQVA?oc=5",
+        "published_at": "2026-10-14T19:58:45+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -273,24 +291,6 @@
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
         "published_at": "2026-10-14T16:19:53+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Gore Wins FDA Approval for VBX Stent Graft in FEVAR, BEVAR - Medical Product Outsourcing",
-        "source": "Medical Product Outsourcing",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdDZUa3dVSlF2elZHc29oWHZTOEpwekNzUTlBWnZidnJlSktydzB0UWxTUjhXSnlWejJzTTlfcjJ1aUtDbnRCb0R2cXVaelpOdHZVQjcxZkpZQnBIZlN4QzZONDBEbWp0YjJNRmNSdGpBdUVpMDQ4NGRpeDM0VEFsbFJwdnl3NTZUbzNmOTJnVUl4NzlUcWFNV2Iwa2Q?oc=5",
-        "published_at": "2026-10-14T15:56:10+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA adcomm members’ ties to industry under scrutiny - STAT",
-        "source": "STAT",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZUZlQWpNZm94b0hOQnh6emZSQnJ2Zjc1UmtzVmF5NWRWWGg4Mms3UlZfZU9xM2pLaVBzejF1SUwzLVNlQ2lDSXRuemItS0NuQW15SUVwSE5KXzh0VG0yZnM1aFEtS1hIc3I4Q1psWGQyX2Ezc0VMeGc0eFhPRWVadVBVbzJud0RBZmNaTGczblAyZEhCRXhLU2JuM3UxTWRU?oc=5",
-        "published_at": "2026-10-14T14:13:57+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
