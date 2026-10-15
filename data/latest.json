@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-15T08:30:05.667511+00:00",
+  "generated_at": "2026-10-15T09:05:27.110424+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.31999969482422,
-    "wti_change_pct": -0.8097556764334213,
-    "brent": 103.80999755859375,
-    "brent_change_pct": -2.1214407427804893,
+    "wti": 95.13999938964844,
+    "wti_change_pct": 0.05258497600539869,
+    "brent": 103.87000274658203,
+    "brent_change_pct": -2.0648640980797994,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 17.459999084472656,
-    "vix_change_pct": 3.497321967329947,
-    "dollar_index": 102.00399780273438,
+    "vix": 17.420000076293945,
+    "vix_change_pct": 3.2602205672773277,
+    "dollar_index": 102.04499816894531,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -0.81%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.05%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T08:15:00+00:00",
-      "brent": "2026-10-15T08:15:00+00:00",
+      "wti": "2026-10-15T08:55:00+00:00",
+      "brent": "2026-10-15T08:55:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-15T08:10:00+00:00"
+      "vix": "2026-10-15T08:50:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -46,17 +46,17 @@
       "published_at": "2026-10-15T03:22:00+00:00",
       "age_label": "5 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": -16.91,
-      "short_term_change_pct": null,
+      "current_change_pct": -16.43,
+      "short_term_change_pct": -0.24,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-15T08:25:00+00:00",
+      "quote_at": "2026-10-15T09:00:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.0,
+      "quote_age_minutes": 5.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 59.0,
+      "confidence_score": 60.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-15T03:22:00+00:00",
@@ -68,16 +68,101 @@
         "catalyst_strength": 90,
         "freshness": 62,
         "volume": 28,
-        "momentum": 35,
+        "momentum": 47,
         "macro": 0,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": 3.12,
+      "short_term_change_pct": 1.0,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T08:55:02+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MRNA"
+    },
+    {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": -8.21,
+      "short_term_change_pct": 0.91,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T09:00:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "AMD"
+    },
+    {
+      "ticker": "CRDO",
+      "company": "Credo Technology",
+      "category": "Semiconductors / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -12.07,
+      "short_term_change_pct": 1.05,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T09:00:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRDO"
+    },
+    {
+      "ticker": "COIN",
+      "company": "Coinbase",
+      "category": "Crypto / Fintech",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -6.02,
+      "short_term_change_pct": 0.93,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T09:05:07+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "COIN"
+    },
+    {
+      "ticker": "ARM",
+      "company": "Arm Holdings",
+      "category": "Semiconductors",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": -9.55,
+      "short_term_change_pct": 0.88,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T09:00:27+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "ARM"
+    },
+    {
+      "ticker": "MU",
+      "company": "Micron Technology",
+      "category": "Semiconductors / Memory",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": -7.44,
+      "short_term_change_pct": 0.84,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T09:05:02+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MU"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-15T08:29:54.026583+00:00",
+    "updated_at": "2026-10-15T09:05:15.373285+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -120,10 +205,28 @@
     ],
     "geopolitics": [
       {
-        "title": "Ukraine to restart strikes on Russian oil refineries, Zelensky says - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55WlVaQ0dKd18wLTRNdDZ1clMtOGU2eTBYOU5wWnY3bWgtU3lWTmNpd1pHTFZNaW9BVDZWMXh4Si1jd2c0S0pxalhyQ01FU1NXb2s3elViWGY5MlU?oc=5",
-        "published_at": "2026-10-15T08:11:48+00:00",
+        "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85Q0ZrM1c2YkJjdFdFVW1iNXVwd1VGbTFxSlhhQTB6MTRhRVRNeHM0Q1hCUENfdjFQWEdhcUV2dkV1YXhNNmJ5bHMzdXJOSFVPaWJuUUJJYnNYRVM0OU9YMUNSb0VVd3ZNM2Q2cWJfUHY4X2M5RUxR0gF8QVVfeXFMTUVLVjhUYWxoQlpfeXVydVV6aHh1dkZPVkxubTRMNmJMWUNocXZocmVFZElHMVZDcmRXM1JGZjBTMjMydnBRdF9YVmlZMVZxTVRYdzVHS2VhcWd3TXlEYXZ6empTaTJHM3d5OFRIZlpFQkxJYUN6MXZMY1hYdg?oc=5",
+        "published_at": "2026-10-15T09:02:31+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger mounts with Trump - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGlmVmZvMDNPb3VjRGN2ckNvY1ZaaHRxQmdENlI4U1hLX2tNZlVHR2lzdEt1cTN1RnZldFQwRlFzMW5jMkNsbXlYYVhmWktsRXBtdU1EN0E2ODFpWWNtenBSSjVIYS1QWHluTzFiT3BiV0pzbl9IVEZHcmNWZGEyUWUtYXFONDhBYURjdHc5WDdzZFlEZ042YVJkMUFiaTNQX0hTd01hZFdqMG9yNXIzQ0ZFUGs3cms?oc=5",
+        "published_at": "2026-10-15T09:01:27+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelensky Says Ukraine Will Resume Refinery Strikes, Defying Trump - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
+        "published_at": "2026-10-15T08:19:31+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -201,15 +304,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine accuses US of aiding Russia by withholding missile warnings of strikes on Kyiv - Le Monde.fr",
-        "source": "Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSnQ2RGhQclVXOF8zVTMyNnZSbHlucTBObGliVzQ3dU5NSUk3eFA4dDhhWG0yQ3I2SmJ1cy1qZU94TFhyTi1WdFJZSlJMZUxzdFFhY0J5b3VZWm5xR1dEc0FpaUt2OGRHWWg0TEE2RUE3WUdFRVZ5Nl8wWGNuclBBdDlJT1dVQUNmWUp3bkdTTVd5X2ptOVYweTF0Ni1udTB2dENBTTJTRDQ2N0ZLamlmZmplWURJRDhQeWlZYWwwQWlYQlpCZ0RNTlZYT2VYNl9FajFCTHZNLVNZQ3dlWkE?oc=5",
-        "published_at": "2026-10-15T06:30:30+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "New North Korea-China bridge finally opens. But will it help Pyongyang evade sanctions? - CNN",
         "source": "CNN",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qOGtXTWhIVVFwRWJuaUxnSno1clBQZ2h2ZkJVYnFVMDdtU0dfa1RnOWNLM0lXbUlFamZwSzRNWnNUZnI5Q0tsTkx2WUZJQ0t4NGkxanR5V3Znd3h4Ynd6TW9kQVZsbG01OVlXaXBleFBzeTNPOXc3OA?oc=5",
@@ -244,18 +338,18 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU leaders to tackle China exports, energy prices, budget at summit - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNl85ZmstSVZrYnFvc2tnZmdjWGRoMk5zRkVDY0hVYjFWNW1EVDZobXJNdHJWdWY0QzdtQ2R5d0FNeUczUXRHSXJPY085blBETjBfbE1PM0R1eDNkdERhc2JTU3hTU2FzUjdWM0p3MlZjNTdzWm5TXzdYX2RNeTl1U2d1bll5cTFYdEVvRkk4bTNvWmxHSkQ4UHJpZlBTU1FldzlvX3pUZ1RjMnM?oc=5",
-        "published_at": "2026-10-15T04:04:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Biotech Stocks Facing FDA Decision In November 2026 - RTTNews",
+        "source": "RTTNews",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYkFBdDR3UGZrRlg0WEcxQU93czhRV3hpdFVuaVhXOXlYX3E1WjlnQmlwTzYtbXZIQ1hnNl9LT2d2dWxJT04yaDRWNXNtWXlEREZxY2NlWkZLMUpueG9FYUtQQVBWWnVWOFpkcFZHMGxqS0xfWUpFYllKNHlvaTNUTkJ1bXR4NllSTWNFdGhfZzYtdw?oc=5",
+        "published_at": "2026-10-15T08:18:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "fda concerns unapproved glp-1 drugs retatrutide weight loss - BusinessWorld Online",
         "source": "BusinessWorld Online",
@@ -266,10 +360,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Approves First Treatment for BCG-Unresponsive Bladder Cancer - The American Journal of Managed Care",
-        "source": "The American Journal of Managed Care",
+        "title": "FDA Approves First Treatment for BCG-Unresponsive Bladder Cancer - The American Journal of Managed Care® (AJMC®)",
+        "source": "The American Journal of Managed Care® (AJMC®)",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFBBX1gtcEZsb201MmlJSkhrTm9pM24tMkhFbXo4UnVSNENkS0JjWkFsNmd2Zjc0b0tVaUM3ckpGdWo3Q0RqSTlIZzNzR0RXZzFYXzBZWG0xT0FTclE1Z05hN2ZINURfUlY5NTZoNk05SlowSzk2MDVFSmVYM1NaTm9rNkcxazBsVmFOOHJ1WEZhMlFa?oc=5",
-        "published_at": "2026-10-15T02:37:30+00:00",
+        "published_at": "2026-10-15T02:40:51+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -307,15 +401,6 @@
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1ZGcUkyMFZEdXYtUDhENXZ6Rkl6b29Ic3BlOUE2a2U5d3I3UWlPM2ZYRjRnZVYyRVdPRUFjTklPeG9OY2hrdUNZaXc4YU9JWGlsNXY2WFlkQ0lzNHl1VFZoaWNLamlGT3lKQVpyN2VTMm1HVEpRd2FzdUZUN3dTbFBkOEVVUnh6SE05QTZpRmlDTk4xVUoyckJQRjlIRVJaZTBkV2hWalNwd1pKOW9QSFh5ODY4VEVZcE51Wm5RMHZ1RlVnWDVvZw?oc=5",
         "published_at": "2026-10-14T20:23:29+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-14T18:24:30+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
