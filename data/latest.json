@@ -1,40 +1,69 @@
 {
-  "generated_at": "2026-10-15T10:08:40.643334+00:00",
+  "generated_at": "2026-10-15T10:39:49.341681+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 93.30999755859375,
-    "wti_change_pct": -1.8719096096837196,
-    "brent": 103.5999984741211,
-    "brent_change_pct": -2.319441015556889,
+    "wti": 93.69999694824219,
+    "wti_change_pct": -1.4617724715323854,
+    "brent": 104.16000366210938,
+    "brent_change_pct": -1.7914330946827595,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 17.489999771118164,
-    "vix_change_pct": 3.675156496986509,
-    "dollar_index": 102.00800323486328,
+    "vix": 17.579999923706055,
+    "vix_change_pct": 4.2086487798000505,
+    "dollar_index": 102.11599731445312,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.87%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.46%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T09:55:00+00:00",
-      "brent": "2026-10-15T09:55:00+00:00",
+      "wti": "2026-10-15T10:25:00+00:00",
+      "brent": "2026-10-15T10:25:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-15T09:50:00+00:00"
+      "vix": "2026-10-15T10:20:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "category": "AI / Cloud",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": -12.98,
+      "short_term_change_pct": 0.87,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T10:35:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "NBIS"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "category": "AI / Cloud",
+      "priority": "high",
+      "satispay_status": "unavailable",
+      "current_change_pct": -20.25,
+      "short_term_change_pct": 1.6,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T10:35:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWV"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-15T10:08:28.910286+00:00",
+    "updated_at": "2026-10-15T10:39:37.417581+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -77,19 +106,10 @@
     ],
     "geopolitics": [
       {
-        "title": "Why Trump’s diesel deal with Russia may not actually lower prices - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0MxRGV2Z3JPUWo4Yk05Nks2N2xseFVJa3VaM0ZXTzJzemktcy1ES0lSYnRGX0VHSHoxR2xGRk9kbk43anJib0hQQUJLOGRxUnpnMVBxaUtzUTEwVHl0UTk1ZnRmdXZoOFgzOUVkSW80YU1raTRjT2JFUnQ0WVMya3dEYnVkQ2hqcUF6MEZ1elR2U0JuSVE5QnB2Q0ZWYlE?oc=5",
-        "published_at": "2026-10-15T10:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce - KTVN",
-        "source": "KTVN",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMmN6TjhtdmhEajZ3dFh1VW52WGgycXFJSUpQY25Td19xY21kSmxXbkljV3V6YzlHMmpoOEFMa1FPQzd3VnRLQkJZcDFXTUVjZFBubjdiUzBMR3U2M3VaNDJYODVfelZoby1tc2tDZmJnRmlTWDM1UlV5R2ZZanFxS1puV0NRYnUxTjZBb1FYT1kwb1E2NGpyTjJDTHQyQmVjWUVRcEpNa2xYVUpIbkZGWVRIYmc0VVRld2hFWHFzaHdTaGluQkdlTUVmLW5YWFlHeDg0VEFqOGRRTllQZldMQnZueW5Mc0I3bWhtVzE3T3ZHZXdPR3Mw?oc=5",
-        "published_at": "2026-10-15T09:28:02+00:00",
+        "title": "Ukraine to resume strikes on Russian refineries, Zelenskyy says - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdnNwRlc5RTM4bnJwZW9fRkpkMGJlM0o1RkxuNUZJVlV6dXgxZGZaMkthMFlXMHVoSXI1RUJlTHN4V21hNlJnaWt1REtZUFhIM1hIcFVBMFlqNzZvaDV6Z29BY19fZ09FQkd2NDRybFI3bER3cTAwaDZjVk92VlFLWFBfR3I?oc=5",
+        "published_at": "2026-10-15T10:25:33+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -98,9 +118,72 @@
         "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger mounts with Trump - NBC News",
         "source": "NBC News",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGlmVmZvMDNPb3VjRGN2ckNvY1ZaaHRxQmdENlI4U1hLX2tNZlVHR2lzdEt1cTN1RnZldFQwRlFzMW5jMkNsbXlYYVhmWktsRXBtdU1EN0E2ODFpWWNtenBSSjVIYS1QWHluTzFiT3BiV0pzbl9IVEZHcmNWZGEyUWUtYXFONDhBYURjdHc5WDdzZFlEZ042YVJkMUFiaTNQX0hTd01hZFdqMG9yNXIzQ0ZFUGs3cms?oc=5",
-        "published_at": "2026-10-15T09:17:21+00:00",
+        "published_at": "2026-10-15T10:25:17+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US Weighs Using ‘Mother of All Bombs’ in New Iran Strike Plans: Report - The Media Line",
+        "source": "The Media Line",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb1J5ajVkY2tvVGxYb0ZMaG1kRnIyTEhfbzlqZWRSeFp2X1NvT3NiQVhrUTV3TS1DbFVUNTJIal9RZFBFSm9ZaEl0OXppX2VnT0piMDljSDY4cDRhN0FtNXZoZjlBcWxpeVVfUDNkTVZVS3FxTHNteW01Nld0UzZMMmUyNjcxd3JQYVBvWjJOTjJJbWdNXzBqVXJNNlJPcXlxWHZJYXVB?oc=5",
+        "published_at": "2026-10-15T10:20:04+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia says Ukraine resumes attacks on oil refineries - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeFZyYTgwUC1nM3AyZGg2X0ZxLV9aam1pZUNQalpMN2Rxb0h5WGZpMWswdWd6LXRsbks4emJKY05Gcmh1cHhFQVdZM2hGVlJjTUI5NjdHdUdWekFxeU9sRy1JV3F5TG1BVXJJUGQ1RzN6ZFNMeEpTUTR3RjFzN0d2UHliS1k1ZDNOTVpyal9RNy15RjUxd0FXVVRYMNIBoAFBVV95cUxOaGxHX0FFM200OV80YVI1SnYyV2RSem1uWjJWWjdRSFYybXVTdU5RTGt0cUFNUm1wUEo2MVhSTFpjUUxVS2N6Y3E2aVVCbW8zanRUY3libG1VR1UwZ3hBemJuc3pNQ3h3SlZ2U1dJNER1TEh0LWc1VTdmd1hfalRyZUtGZnJHOWdCb1pURERZWE43NXhjcTZwWllwMENpS21s?oc=5",
+        "published_at": "2026-10-15T10:12:58+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsRDgyckppOURNTkxTeml5Z2JpTXBUQ0VXRXJlaGowYmJDN0wyMUtzXzF1Q3F2ZkNwYmJ4ejllTEdaT3hTT1VON3FURDBzdGl0T1NCRExVMTRNODIyZ0hkenVLSXBrZjlncjhzanhB?oc=5",
+        "published_at": "2026-10-15T10:05:58+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia builds major new drone attack base in six weeks, satellite images show - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUWp1N3V3WmtFN2xwQWlfa285NVRlVlVvS1VUR19EcHpCSE5aaDFzR0I0YTZHeG5XM0FNOEJDaEtFYUhHaFMyekg3LUJZd0lyeVhfeFVLS1pqbzExTDJoYWdfa2N1NFNfZjIzMXhTM1FGcWlnTHIyQWNxZDY3NmdOWnNmZHNPeEhGZjMyRnV5ek0yOHVxZFJBTDdiNmxHQlg0cjJqbUNQZFUwYkFOSk5udXQ4a19WQkVfdnFSV0RidFRJRWZLOWtjazlkMk5nYjA?oc=5",
+        "published_at": "2026-10-15T09:51:31+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Prices Fall Despite Strait of Hormuz Attacks as US Considers Easing Shipping Sanctions - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS3kxeWRXakJpQ3pYXzVQYVRUQS1fV3NBMDkwODVmdmZqbXh0QmhPN2VCZ3lLckhGRUxPbHJWYmRfVXJESjBsZ3FFaXhmV0NSUGhkeDFRdVI4aHoxT1NqYVM1ZXBtblUxWjBBWV92VEF1ck1DN0xSQTRVV2IwOUlEM09yTWIwMXppY25lQldycDk?oc=5",
+        "published_at": "2026-10-15T09:40:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
+        "published_at": "2026-10-15T09:37:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China Exports Surge 36.3% in September, Topping Forecasts - Global Trade Magazine",
+        "source": "Global Trade Magazine",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPem9kdGN2bUJVVnlRUm5WR3pYZDF4UkpZd1JNQVJWdElVb0J6V2dGV29uRWRXZ1lRcVNBZTFfXzg0Skc4Q3paRjBBTkVnTGpmbkdyUzJLU2lzUll4MFRrYmJxTEV5V1h0clRaclVzODdvRDk0RDRlNE0yYVI2VTNtRzFGMEFlb3NHSnBQYl9ONS0?oc=5",
+        "published_at": "2026-10-15T09:10:25+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -122,21 +205,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia builds major new drone attack base in six weeks, satellite images show - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUWp1N3V3WmtFN2xwQWlfa285NVRlVlVvS1VUR19EcHpCSE5aaDFzR0I0YTZHeG5XM0FNOEJDaEtFYUhHaFMyekg3LUJZd0lyeVhfeFVLS1pqbzExTDJoYWdfa2N1NFNfZjIzMXhTM1FGcWlnTHIyQWNxZDY3NmdOWnNmZHNPeEhGZjMyRnV5ek0yOHVxZFJBTDdiNmxHQlg0cjJqbUNQZFUwYkFOSk5udXQ4a19WQkVfdnFSV0RidFRJRWZLOWtjazlkMk5nYjA?oc=5",
-        "published_at": "2026-10-15T08:54:50+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
-        "published_at": "2026-10-15T08:19:31+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "China's trade with other APEC economies rises 23.9% in Jan-Sept - State Council Information Office",
+        "source": "State Council Information Office",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HYzdXZ3h3U0ZVQWNMR2JsZ1NTZExhQkU5bVY5WUxfeFpHdTQzX2pfOTE3R2ZFc2F1YXVMa3gyQW54Vkx3WWxLWC1JdzVEYTR2SlFUYnVPWU1qclg1THdfMXVrWTNsTFExX2NiTE9GOFNMRmNvR1dDdDd3?oc=5",
+        "published_at": "2026-10-15T08:40:37+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -149,15 +223,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
-        "published_at": "2026-10-15T07:28:02+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Houthi attack sparks fire in Aramco facility - chinadailyhk",
         "source": "chinadailyhk",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LS0QyMVl5Z2hOVWVsYlhPUTY4Tjk2RW1mSnR3M1dLQTdYYktpNEM5SVZKUGhwVXdraWJBZjV1NVFJUm5JaWJiVEtKS2NFRlhDdTRISVpGUGw?oc=5",
@@ -167,46 +232,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Lithium Prices Plunge as EU-China Trade Deal Sparks Demand Fears - Crude Oil Prices Today | OilPrice.com",
-        "source": "Crude Oil Prices Today | OilPrice.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUk4tZFZPdXFBZG55eE5oWS1tSl9lTkNybVlQSEtJaFVoUl9IZWFlY3EwWUVZYThEQndJNjg1OVVVd2pDWWdUcEhON0lLLWtJRW41eXJ2MEphWHNsNFQxWEtuZmJmYWpyUVBLNnlpOXpOd1NqYXNiVWJVSTBuNVpDbGdBQW4yd3l0ZkVzNVV2bmYtZzRPREVUYmhXYVRwS0VHbzhSSldlNXB4b01vMXJsZjhSbGxyTExwWk51LdIBwgFBVV95cUxQRUYybXBRc0I2dHpCWFNDbWJMdWl5MXBDZHJJOF9wb2V6eGRUOW5LUTBUNUdGM2E2SXFod1U3SXdmdVFuc3ZiSWZlS194LWdaXzkzUGlSLWVoTEZHNEdnb0xKSzdBcDlQei11QWxMLVR5cDRtNEpyZjRWbzEtQ1F4clhPZldjMWw1RXlvWW1SQkotVXdYNmh4VGR4UVJKWXVaZUg3bFpkb1VHMjkxVmtWdHR5U2ZTa3k0NUVrbkhnN1M5dw?oc=5",
-        "published_at": "2026-10-15T07:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU leaders to ‘urgently’ call for new trade weapons to tackle China shock - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3h5T1lMUktUbUlsaVp5R0pzRnRCLVdXSkFRY1E2MEdoVHQzZjlHRU44VklFZ2ZOT1hFWTJHVnVQWFNLMGhRbDFBQUR3S1NhZEJyRzU1cTgybzFJVDBKYmdtMkl0VkJuSVNwYWo2U0Z4VHZma010SGYxUU9fVnVqX2hlTFo0dmo1ZTQ1bktFLW9FN2NDZHQ3cWJfcEcwV0l3NUphdWZNeFd6WTR5QVHSAa4BQVVfeXFMTm1TeHY4VnRJTmRkWDRIc0ZKWmhzQTljLVlZYXFmRkVuVV9MblZ1WWFqQnZBeUZuc2pKUnBRWmtMMUFPUDBGTG8welhnOUxBdFFzbnhuM2xfenl3TVNNSU9OTTVBLWRubG54Vk5WSnJhQ2dGSnZCMFF3MmxKR1ZUV1piTFpmLXAwSmVRSHBoV25WNHBrR0ZZX0MzTGtlS0pySjRDSEFleWFEcWNSZ3BB?oc=5",
-        "published_at": "2026-10-15T06:48:21+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Attacks On Hormuz Shipping Hit Wartime High - Radio Free Europe/Radio Liberty",
         "source": "Radio Free Europe/Radio Liberty",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
         "published_at": "2026-10-15T06:34:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
-        "published_at": "2026-10-15T06:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US weighs ‘mother of all bombs’ in new Iran strike plans: Report - Türkiye Today",
-        "source": "Türkiye Today",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNlFEUmhEYkloTmN6aUdyZ0pMM05JTFRQYzJGN09qSjJwU0djeFpWSjlNbS15MTNwWmswemN1N1JqbUZtMmFENGRWUHQxMy10ankwdUtIYlhzcFZoQ2JSWTBqSF9UWTJhc3FoSkJPSS1UMUhydk1FVzg0VXpRSjNxVV9zelZ6bEY3eFAzeHNxTHNuSTBFbjZlMnlrMURHaWlWRzdMRnVLUVA?oc=5",
-        "published_at": "2026-10-15T05:27:47+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -241,19 +270,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Approves First Treatment for BCG-Unresponsive Bladder Cancer - The American Journal of Managed Care® (AJMC®)",
-        "source": "The American Journal of Managed Care® (AJMC®)",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFBBX1gtcEZsb201MmlJSkhrTm9pM24tMkhFbXo4UnVSNENkS0JjWkFsNmd2Zjc0b0tVaUM3ckpGdWo3Q0RqSTlIZzNzR0RXZzFYXzBZWG0xT0FTclE1Z05hN2ZINURfUlY5NTZoNk05SlowSzk2MDVFSmVYM1NaTm9rNkcxazBsVmFOOHJ1WEZhMlFa?oc=5",
-        "published_at": "2026-10-15T02:40:51+00:00",
+        "title": "new weight loss drug pending fda approval - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYWlXS0JaOWNrQ0dRVW5lZ3doT25jUW5LamlBNHdlWmZoUnZwSnUwamhZZmswV3lmQWRSdG1idEN6Y3NHTlhEUkZiTDVfbFl0ZnNYMnJtOVB1X1RxU3JGOFVSYksxWVR3OWdrYmJab19fcnRUQTBDVzdaRl9Vc0V3a2FUbnRKd0hmYmI4?oc=5",
+        "published_at": "2026-10-15T04:45:53+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - 1310 WIBA - Madison's News/Talk Station",
-        "source": "1310 WIBA - Madison's News/Talk Station",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOakpHWHdtQXVYR0hTWGdoakxZbjd2OEt2M09HQ0IxVVh6OFg4QXBvVEdvWEREcEM4LXNmdlF4YU0xbkw4djNOUlV3Q0lwbHVKSU45OUdGbFdCNmsxbWh5UmdLYkNuUDd5d1F6WERwazc4ek0zZzBBV1hoWkJNRzhWcE1XWmZ3QV9JS21GVnpBRFVuYmdnOXRCOUNPMzRfOWk2aHVhT0N3?oc=5",
-        "published_at": "2026-10-14T23:26:00+00:00",
+        "title": "FDA Approves First Treatment for BCG-Unresponsive Bladder Cancer - The American Journal of Managed Care® (AJMC®)",
+        "source": "The American Journal of Managed Care® (AJMC®)",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFBBX1gtcEZsb201MmlJSkhrTm9pM24tMkhFbXo4UnVSNENkS0JjWkFsNmd2Zjc0b0tVaUM3ckpGdWo3Q0RqSTlIZzNzR0RXZzFYXzBZWG0xT0FTclE1Z05hN2ZINURfUlY5NTZoNk05SlowSzk2MDVFSmVYM1NaTm9rNkcxazBsVmFOOHJ1WEZhMlFa?oc=5",
+        "published_at": "2026-10-15T02:40:51+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
