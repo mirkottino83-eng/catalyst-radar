@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T01:18:11.160308+00:00",
+  "generated_at": "2026-10-15T01:49:31.825499+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.33999633789062,
-    "wti_change_pct": 0.21244630288810296,
-    "brent": 104.97000122070312,
-    "brent_change_pct": -0.6812387208546933,
+    "wti": 94.29000091552734,
+    "wti_change_pct": 0.1593387793195511,
+    "brent": 104.81999969482422,
+    "brent_change_pct": -0.8231646574749174,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 102.09400177001953,
+    "dollar_index": 102.08899688720703,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.21%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.16%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T01:05:00+00:00",
-      "brent": "2026-10-15T01:05:00+00:00",
+      "wti": "2026-10-15T01:35:00+00:00",
+      "brent": "2026-10-15T01:35:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T01:17:59.356381+00:00",
+    "updated_at": "2026-10-15T01:49:20.484038+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -72,7 +72,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       }
     ],
     "geopolitics": [
@@ -80,7 +80,16 @@
         "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTQ1YVV1NndsUkRwTV8wUTVHNC1wdXF1UERVd2trVDFTa2ctQTF4dENSQU43RV9CaHh3ZFBLalBlV25oMkpwbnd6VlJLMDQ0YkNTNy0ycFRHZUZFVnNuOTlYMEpfTXhqdUk0cUZuanNrR0ZQYjFBRnhfdWZrV2NIREdub2VEQ1VrVm40aUNlWEF5Z0N0M29BVno4SDdUSnZGR196SmRPazFnQnZrNHBPTmhMUTZZWnVZZlRRTzhsVQ?oc=5",
-        "published_at": "2026-10-15T01:16:12+00:00",
+        "published_at": "2026-10-15T01:44:14+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ship catches fire in Romania’s waters amid rising attacks in the Black Sea - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemtmZUNFYjRUb2F5T3U0dWtTMHpPNmVEM28wN3I3VWpKT2g2MFExMzdPaXAxaGl5eTV3enVUUnI3U3k0OUlRNVdGYlIzMkFfZnZhZFdISlo2SkYtd0pCSTUtVG1YTWJmdlhiN25USElqc2ZULVZKcTBCTzhBVExlUEdGOHIwbHpnZ3JYSTN1TnNxb08zRFVpRFplZ0M1cVVfTnhTaGhVa3B2ck8zOTBPdmVqOURtQdIBuwFBVV95cUxNZlhwTmJId2Zzd3piSDY0WmdSeU9WcFB0MG9NV3BGUHNLZERFVnVfMkFHaHRWV0ZWV09ZMy1KQmVMajM5XzlyeXNTcDctMHNkdWI2anB6UUtWeW4tbmFBOEVUMzJkcEg5QTc5SzlHUG5DRERHdUFyZzVVS0Y3eEp1QWw5WDRzVFoyMGQxTHJ6Ty02RXFYSU93Q1AwaWFKaWM1Mmo5X21OUHAzNzFIYU1POWduYUF3WnV5dnh3?oc=5",
+        "published_at": "2026-10-15T01:28:14+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -89,7 +98,7 @@
         "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
-        "published_at": "2026-10-15T01:00:55+00:00",
+        "published_at": "2026-10-15T01:26:48+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -99,15 +108,6 @@
         "source": "NewsCord",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORC1hckw5S09sR21nVTl0Zk0yZTcxX1VfRmo3b2RFRUtsMGdsNnRON1RXTjJXS3pjM240eUluclhTenpndXFaTFRaWHZxdWxUM0dBcDZLb0xKdTVKOTl0UE55bXY3cVhuZVZ4cXU4emVuRmhCcDNKTU9wTi1yc3BfN3Y1T0FQLUZUOWJpUE5RbFpQU3BCbnJJYjZYMFlzOVY3bG45MWowWkl6MWwxOTRPdTJaSVY4dl9fMXhPZlkyVUVNclByNnRrb0xUMHItWFk5ZDBSZFNoYy02S0pSdjlWa283QUs4LUtrcWc?oc=5",
         "published_at": "2026-10-15T00:08:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdC1hR0pwcGJWU2NSX0szSlhYNlBMYUc2Y1ktS0NseE5MeEVKdE9jUVVqUHlva3dxeDg4NXRTQXM0UlpyMWJlTHNSN1ZiOWFqcWdIX1NNcGRhYzBsak5iVnZrYnJaX2xGbkRLcjNrQmFkUUd2ejVHWm0ydVJ2RVJhS1VFbkRhTHg5MVJXbnJDQ3YtRmVLWWpKU2xwUXNZSzMtUWI4cjJfaXp4djM0V2lQQmc4X2VsaVkxMHFpVUZ2bWNLaldpQnBNZmNn?oc=5",
-        "published_at": "2026-10-15T00:06:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -146,15 +146,6 @@
         "published_at": "2026-10-14T21:33:30+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran-backed Houthis struck Saudi oil giant Aramco’s executive offices, officials say - Sentinel Colorado",
-        "source": "Sentinel Colorado",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUpFaXBmVHM0TzE4UDEyU0xpclpmendQR1RYSmc0NW16dFZtblhDckw0XzhmdlNINzFYcWkyMmx6TW1xZFhQaWd4SjlndlZZcFd5NWdLUEVTblVTSDdYb2xtc2JZLXduRHhWcC1Jelp6cmQ5cWlLR25lenZDQm1RVkZkRmJVcXVIUkVURFNYeDFCVk83Tm1OMzJQZWVqZU1GYk9vNGFnWXpnc1pYNTJpNjhlSUVCRlgzVTVweFhiMDE2Yy03?oc=5",
-        "published_at": "2026-10-14T20:31:21+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -200,6 +191,15 @@
         "published_at": "2026-10-14T18:39:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5",
+        "published_at": "2026-10-14T18:32:19+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
