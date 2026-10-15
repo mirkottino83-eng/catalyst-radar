@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T03:12:31.864815+00:00",
+  "generated_at": "2026-10-15T03:43:09.476191+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 93.83999633789062,
-    "wti_change_pct": -0.3186775586391133,
-    "brent": 104.30000305175781,
-    "brent_change_pct": -1.3151663899516386,
+    "wti": 94.19999694824219,
+    "wti_change_pct": 0.06373227000504578,
+    "brent": 104.55999755859375,
+    "brent_change_pct": -1.0691691330397712,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 101.9280014038086,
+    "dollar_index": 101.97899627685547,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -0.32%. Geopolitica: US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.06%. Geopolitica: US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T03:00:00+00:00",
-      "brent": "2026-10-15T03:00:00+00:00",
+      "wti": "2026-10-15T03:30:00+00:00",
+      "brent": "2026-10-15T03:30:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T03:12:19.210753+00:00",
+    "updated_at": "2026-10-15T03:42:57.836022+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,7 +57,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -82,6 +82,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Trump on Iran talks: ‘I don’t know who the hell we’re negotiating with’ - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQnZLclE5emN0cDg5LXZ0SnNNR1Q3SVRKZzJrbG9mZEVMOXZDVmdkWE5PN0IzUkdleEItaWp2SWd3bVZsSUk0QXppanUwc25RcHlORW00eDI3RC1pRzFJODZVY2xJUklPakVnZXlocTZlREJ1c2loeXBKNHRHbFhGNjUzd3l4WmFT0gGOAUFVX3lxTE81YXNsQUtaT0N4MnIwc21ta0tlVUNEV3d0eTR3RGpjR1Rqa1A5TVoyMml5aktSbDJYbklscm01S1NsWVpxaGpvNUtEUTNwLVg3MG5oWnRSMXNfN2lkX0FObGJzeWRVa25Cb2o4cmRFbG4tY0pKZkYyR081UDFiZWE5ODhGQWJaX19sZWhMVkE?oc=5",
+        "published_at": "2026-10-15T03:19:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
         "source": "The Washington Post",
@@ -173,15 +182,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Defense Minister Katz threatens to seize Lebanese land if Hezbollah, Iran attack - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?oc=5",
-        "published_at": "2026-10-14T19:20:21+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "At the table: The women who have shaped US-China trade policy - US-China Education Trust",
         "source": "US-China Education Trust",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdThrQU1IX2JRZzVhZXBWNlJuV2lOaExmNE9ycGFoVkVxV2NYYXo2emJta0FBUHQzSGx5aVhMeGNGdEthazFXeGplS3VsYlBGdWV2bUJmMDN6RDExWmxSZUdTWkNPZkNlSVEtYVhyNGtwN1ExNWZJN3JHcjVRWk9Ib3ZHQXRjQQ?oc=5",
@@ -224,6 +224,15 @@
         "source": "The American Journal of Managed Care",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFBBX1gtcEZsb201MmlJSkhrTm9pM24tMkhFbXo4UnVSNENkS0JjWkFsNmd2Zjc0b0tVaUM3ckpGdWo3Q0RqSTlIZzNzR0RXZzFYXzBZWG0xT0FTclE1Z05hN2ZINURfUlY5NTZoNk05SlowSzk2MDVFSmVYM1NaTm9rNkcxazBsVmFOOHJ1WEZhMlFa?oc=5",
         "published_at": "2026-10-15T02:37:30+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "new fda approved diabetes drug for weight loss - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeU56ZGhGUjZoOU5tNU5NODFxYUcxc0swQlVFdFo4Y0NDdUdINEpSM0dudC1CZjNDYTBha3RnajhwX3kyTExjbTI1OWpTU1ROaG13MF9CcE9vY1R2aUJPNjYyRElKUzNQbWFyUF96QkpEWFZQc1Zma040QVVyWDR2a3c2ZldhNDV3dUx2ZkhHazl5bDhOcmtvQjE1WkU?oc=5",
+        "published_at": "2026-10-15T01:26:53+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -278,15 +287,6 @@
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-14T18:24:30+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Dr. Mantzoros: A GLP-1 Therapy Received FDA Approval for Fatty Liver Disease - The National Herald",
-        "source": "The National Herald",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOTJBaGU0OXV3ZXFldHphenpnbU9ZWFo3X2VYcEw4LUFhMjJKdWpaaFVDVWg2MW1qZkFGYVJPcFZ1NTJOaGUyN3hiNWJadGk4ZWhIZXpBM3NPNERjMUxoZXplbGdCaUFOTDFNdnBJTjVNUkdfeXF3Zl90RGp3QlBhRXlYblhoWkE0NUgydFFaaERsSTdLcVZ5Y2NkVzdhbHBWdWRVUFczbjVRZzhqVXc?oc=5",
-        "published_at": "2026-10-14T18:14:08+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
