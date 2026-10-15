@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T06:44:39.810818+00:00",
+  "generated_at": "2026-10-15T07:24:24.685624+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.16999816894531,
-    "wti_change_pct": -0.967502581108759,
-    "brent": 104.51000213623047,
-    "brent_change_pct": -1.4614326400554267,
+    "wti": 93.98999786376953,
+    "wti_change_pct": -1.1567972620509792,
+    "brent": 104.23999786376953,
+    "brent_change_pct": -1.7160095575325163,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.87,
     "vix_change_pct": 10.478058246703249,
-    "dollar_index": 102.11599731445312,
+    "dollar_index": 102.08100128173828,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -0.97%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.16%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T06:30:00+00:00",
-      "brent": "2026-10-15T06:30:00+00:00",
+      "wti": "2026-10-15T07:10:00+00:00",
+      "brent": "2026-10-15T07:10:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T06:44:28.725677+00:00",
+    "updated_at": "2026-10-15T07:24:12.475219+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
@@ -76,6 +76,33 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Houthi attack sparks fire in Aramco facility - chinadailyhk",
+        "source": "chinadailyhk",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LS0QyMVl5Z2hOVWVsYlhPUTY4Tjk2RW1mSnR3M1dLQTdYYktpNEM5SVZKUGhwVXdraWJBZjV1NVFJUm5JaWJiVEtKS2NFRlhDdTRISVpGUGw?oc=5",
+        "published_at": "2026-10-15T07:09:51+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU leaders to ‘urgently’ call for new trade weapons to tackle China shock - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3h5T1lMUktUbUlsaVp5R0pzRnRCLVdXSkFRY1E2MEdoVHQzZjlHRU44VklFZ2ZOT1hFWTJHVnVQWFNLMGhRbDFBQUR3S1NhZEJyRzU1cTgybzFJVDBKYmdtMkl0VkJuSVNwYWo2U0Z4VHZma010SGYxUU9fVnVqX2hlTFo0dmo1ZTQ1bktFLW9FN2NDZHQ3cWJfcEcwV0l3NUphdWZNeFd6WTR5QVHSAa4BQVVfeXFMTm1TeHY4VnRJTmRkWDRIc0ZKWmhzQTljLVlZYXFmRkVuVV9MblZ1WWFqQnZBeUZuc2pKUnBRWmtMMUFPUDBGTG8welhnOUxBdFFzbnhuM2xfenl3TVNNSU9OTTVBLWRubG54Vk5WSnJhQ2dGSnZCMFF3MmxKR1ZUV1piTFpmLXAwSmVRSHBoV25WNHBrR0ZZX0MzTGtlS0pySjRDSEFleWFEcWNSZ3BB?oc=5",
+        "published_at": "2026-10-15T06:48:21+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "New North Korea-China bridge finally opens. But will it help Pyongyang evade sanctions? - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qOGtXTWhIVVFwRWJuaUxnSno1clBQZ2h2ZkJVYnFVMDdtU0dfa1RnOWNLM0lXbUlFamZwSzRNWnNUZnI5Q0tsTkx2WUZJQ0t4NGkxanR5V3Znd3h4Ynd6TW9kQVZsbG01OVlXaXBleFBzeTNPOXc3OA?oc=5",
+        "published_at": "2026-10-15T06:05:28+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Zelenskiy says Ukraine will resume strikes on Russian refineries, FT reports - Reuters",
         "source": "Reuters",
@@ -183,33 +210,6 @@
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
-        "published_at": "2026-10-15T03:04:20+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s trade surplus nears record as pressure mounts from trading partners - TelegraphHerald.com",
-        "source": "TelegraphHerald.com",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS21hOVcwb05FdHRJLWlTa3VJejhwSmFHMm4zcjRfTTF2RGpFRm9uM25GQ1B3eGoya1B1TnpjMFdVS052TVVZeHdEWERSUnNCejZLeGwxaTYxZU1BNi1PbTN5ZHcwYUNDUTBhNThiOU82N3REWV9wZk45TFJqRERtbVliemdJUkthUDAxV25xT0tvd0U5Q0QzNmk3TFd4cUZPMmQ4?oc=5",
-        "published_at": "2026-10-15T02:45:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China, North Korea open long-delayed border bridge to boost trade - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1BQeXBIdHBEMUdKSDd1ZGZFQnJJZmh6MVVqSE1rZVJGQzZoY0o1cjhsLVRXSzlSV19uQzdCYUtfLWJtU3pNM0NiR01ENFpySUpMUVJKSzB5ZTM3a3dzZVg0YmtWWW80TUtHc2xXZTYzWVFXVUYxbjdpQWhVNDZrWDJZdUZCU0lrS0FjVXRqVld5QQ?oc=5",
-        "published_at": "2026-10-15T02:43:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -232,9 +232,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - Talk Radio 98.3 WLAC",
-        "source": "Talk Radio 98.3 WLAC",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVUM5cFgxSUQwSlZHLVFCQzVoZVFMeHNsemVyLXNRS1dLd2YwSklwSG02amNhU0ZQekRRczkzSFFycnIyZklYQi16UThBbmttMXFsT3lKTlM1VTZtNGZtMTc3UkRKak1nc3Q3M3JMeWxPNm1wNmtJa3l2bldzaEJiYXp1aFFxRXFVOFdKN2JMeGl0YVFIdHQ1ZHI1cjkwa0ZQYlVyWjNR?oc=5",
+        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - 1310 WIBA - Madison's News/Talk Station",
+        "source": "1310 WIBA - Madison's News/Talk Station",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOakpHWHdtQXVYR0hTWGdoakxZbjd2OEt2M09HQ0IxVVh6OFg4QXBvVEdvWEREcEM4LXNmdlF4YU0xbkw4djNOUlV3Q0lwbHVKSU45OUdGbFdCNmsxbWh5UmdLYkNuUDd5d1F6WERwazc4ek0zZzBBV1hoWkJNRzhWcE1XWmZ3QV9JS21GVnpBRFVuYmdnOXRCOUNPMzRfOWk2aHVhT0N3?oc=5",
         "published_at": "2026-10-14T23:26:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
