@@ -1,40 +1,83 @@
 {
-  "generated_at": "2026-10-15T07:59:58.971236+00:00",
+  "generated_at": "2026-10-15T08:30:05.667511+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.05000305175781,
-    "wti_change_pct": -1.0936936861763336,
-    "brent": 104.1500015258789,
-    "brent_change_pct": -1.8008637343779443,
+    "wti": 94.31999969482422,
+    "wti_change_pct": -0.8097556764334213,
+    "brent": 103.80999755859375,
+    "brent_change_pct": -2.1214407427804893,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 16.87,
-    "vix_change_pct": -4.974708689431395e-06,
-    "dollar_index": 102.11100006103516,
-    "macro_score": 3.2,
+    "vix": 17.459999084472656,
+    "vix_change_pct": 3.497321967329947,
+    "dollar_index": 102.00399780273438,
+    "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.09%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -0.81%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T07:45:00+00:00",
-      "brent": "2026-10-15T07:45:00+00:00",
+      "wti": "2026-10-15T08:15:00+00:00",
+      "brent": "2026-10-15T08:15:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-14T20:15:00+00:00"
+      "vix": "2026-10-15T08:10:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "ba3509268a96",
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "category": "Space / Technology",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide? - Yahoo Finance",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObEhaOWMzWXZRVTRFQUlQcklKTktoWm5KUXdaUnkzQTFqVzNGc2RoSUpLcENmSUozcGwtNEI4ZXlFMjIxM2dQNzdwUXFqMWRPUWktU09LbzUzQjNoQlFuSmJoemxjdUs0MlpHYzJLaGZTRDBLQndVUFozTHhmbzJvNWpXNzVNVS1VdC0waVllcEhXNFJSN09V?oc=5",
+      "published_at": "2026-10-15T03:22:00+00:00",
+      "age_label": "5 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -16.91,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-15T08:25:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 5.0,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 59.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-15T03:22:00+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "RKLB",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 75,
+        "catalyst_strength": 90,
+        "freshness": 62,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 0,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T07:59:48.075546+00:00",
+    "updated_at": "2026-10-15T08:29:54.026583+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,45 +94,72 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 14
       }
     ],
     "geopolitics": [
       {
-        "title": "Ukraine to Resume Russia Oil Refinery Strikes, FT Reports - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
-        "published_at": "2026-10-15T07:31:56+00:00",
+        "title": "Ukraine to restart strikes on Russian oil refineries, Zelensky says - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55WlVaQ0dKd18wLTRNdDZ1clMtOGU2eTBYOU5wWnY3bWgtU3lWTmNpd1pHTFZNaW9BVDZWMXh4Si1jd2c0S0pxalhyQ01FU1NXb2s3elViWGY5MlU?oc=5",
+        "published_at": "2026-10-15T08:11:48+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine is going back to hitting Russian oil after its Trump-pressured pause, during which Kyiv got no US warnings of incoming ballistic missiles - Euromaidan Press",
-        "source": "Euromaidan Press",
-        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNcmJ4RjBxNjdiRUNSbmh4bmlROWppQy1sQUdIaXAwVlFCeXdQYmc3aUJvMmtrbnB6LTB3OFZ6T3JaMklqcUpYWEtZZEo1R25oQmozUDAzN3EwaFZoZEFsenRPZHR5Tlc3SU9uUXZHZWQyczc5TDdGVUliQzZsTWVYR1lZR0ljNWlJQklSQ19meFhfbXJZMVBnUTcxM0I2MG0yWlBrVVo3M0x2M0xkUGpBeUw0alRocW9nd1d2X2o3V2ZvREtNd3JOU3UwU3pnWUVUd1IyMFI1M2hjQURIakhmbXNUWi1oU0ZZdDBRNVJ4V0lkTmVHRmt3SzN3dklSWllCSEJDdGRuOGd6V045ZzlmcENn?oc=5",
-        "published_at": "2026-10-15T07:30:09+00:00",
+        "title": "Ukraine will resume strikes on Russian oil refineries, Zelenskyy says - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNzVUQmczYVVUMnQ2SlRXaXhpNVlQNW5TMU9sQTdBRC1KN3NYOElTUlRGVmlqVjJXTHBwSnBuTUE2SjNrTTYzbDFaMExFN2swM3RLdTZRNUYwN1RPNnRiMWVTMDZTanFjNkMxMW9aY1dLTDJldi1GYU5wRmJ6Z0RHNjRocXpiSmxvU2N1eWpYNWdoT0hYanlLUnEwLUt1eTdyZFBHcVF1OFFCWUFxenc?oc=5",
+        "published_at": "2026-10-15T08:03:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Europe Fights Back Against China on Trade. These Auto Makers May Benefit. - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUNwaU9QOE1DNktBOVN2YkFTVHlZVlh4dWZRRS1DNEFxeWNqeFpLRXkxMDRCRjJxT3UwMk9JRUl1VmdJNk9PaXpvekNEUGF2aU5WYXVaajh4amtuSElNOTVaYWZ4NExuMFk5ZHd5V1NFOUlYeXRjZUhROEpHb1hZWjBTdUFFMWJo?oc=5",
+        "published_at": "2026-10-15T08:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire' - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcFl3OWJIa0lCbFk5dVZOSEFHMjJpdHduQXg4UjJ0YUtyTDFfNVdwTFpfZzdaa2JXWThXZUNuSEtWN2wyTTJnc180QU1NZUplVVB4R0kza08yUTZKOFAxQlVrMTMzZ1R5cHppMXpwa29NSFJ3LUxsc2ozaVBPR3hWN182SS3SAYoBQVVfeXFMTjlIeWQ4WVUxNHdmcVhPdTdLLWRGX0twWXlXRzZIWG0wLXU3NE5ucWFRUS1taXpmcDFNQlljUXdKaXBxLXg5OTJvR0hZWHFSa05YaUlzSUNNT1F3a195aE9DejlvUk5tN0Y1ZGJWNlJSZnNkWXBGMzJxMlZMYjJERlNUbWViMDNCRF9n?oc=5",
+        "published_at": "2026-10-15T07:46:30+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelenskyy Defies Trump and Orders New Russian Refinery Attacks - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
+        "published_at": "2026-10-15T07:31:56+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -104,12 +174,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Lithium Prices Plunge as EU-China Trade Deal Sparks Demand Fears - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNHdOa3NvUUJINUZoVHlxa0hUWWRiUjF2ZF9BeXRYSXFKbkt5dlRUU1JubnRQQ1ZTUTFDVk80Y0hZVTVpODhkY2JUbkZTWGNjNW81QU44TklmZW1fc0tpeFNhS3ZhSlBrY1JTNmxVYXhZaDNReVMxU09RblFiU2RIdTlxSUJvLXlXUDJKUm1xUGY2TDJVdFI1c2taWDAyMTYzQ1E?oc=5",
+        "published_at": "2026-10-15T07:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "EU leaders to ‘urgently’ call for new trade weapons to tackle China shock - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3h5T1lMUktUbUlsaVp5R0pzRnRCLVdXSkFRY1E2MEdoVHQzZjlHRU44VklFZ2ZOT1hFWTJHVnVQWFNLMGhRbDFBQUR3S1NhZEJyRzU1cTgybzFJVDBKYmdtMkl0VkJuSVNwYWo2U0Z4VHZma010SGYxUU9fVnVqX2hlTFo0dmo1ZTQ1bktFLW9FN2NDZHQ3cWJfcEcwV0l3NUphdWZNeFd6WTR5QVHSAa4BQVVfeXFMTm1TeHY4VnRJTmRkWDRIc0ZKWmhzQTljLVlZYXFmRkVuVV9MblZ1WWFqQnZBeUZuc2pKUnBRWmtMMUFPUDBGTG8welhnOUxBdFFzbnhuM2xfenl3TVNNSU9OTTVBLWRubG54Vk5WSnJhQ2dGSnZCMFF3MmxKR1ZUV1piTFpmLXAwSmVRSHBoV25WNHBrR0ZZX0MzTGtlS0pySjRDSEFleWFEcWNSZ3BB?oc=5",
         "published_at": "2026-10-15T06:48:21+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Attacks On Hormuz Shipping Hit Wartime High - Radio Free Europe/Radio Liberty",
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "published_at": "2026-10-15T06:34:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -131,15 +219,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine resumes strikes on Russian refineries as Zelenskiy says 'we're done' - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmt3MmNHZWJGNkVUMEV6MS00VmdnZ3U4LXpGVE5PUk1ZYXA2TjhQWm9lMUtObEVyZTlqejdpeDhKZlV5QVI0dWV6VUE3cXFtSmd3WUQyTldneXBQZjB0dU5lRTItQTc3YWZJRXB6NjRfOGZaVzhYUjExQmhYQ2lWUFlkXzc0TkdNWUl6S0xrMkZBZmNCYWpLUldwVDdsTGh5ZnkxSlFPWEdKWXhzZ2FLRVI3LWk?oc=5",
-        "published_at": "2026-10-15T06:03:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
@@ -149,66 +228,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Black Sea Drone Attacks Expose Holes in Bulgarian Security Strategy - Balkan Insight",
-        "source": "Balkan Insight",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORk1YbzUxcmVkSzlSTC05Wnc2VVU4Vmw0VFFWcXJKbFVlQ0NhTzBLMnNoNU9ydTZNQmJBUlB4aFB6TzZyb2I4c01PU2VtRnZnZ2lEU28yUmFiYVdKUVhjc2FFdWJEUkZfdlRiTTBPN01FZ3ZSaV9VMFVHY05Ud2JUcTB4VHhZTXBhSG9xQUppZ3czU1BwSEoxOFlOMlRJMHVBVGNWVmFVTF92SUlS?oc=5",
-        "published_at": "2026-10-15T05:55:03+00:00",
-        "area": "Russia / Ucraina",
+        "title": "US weighs ‘mother of all bombs’ in new Iran strike plans: Report - Türkiye Today",
+        "source": "Türkiye Today",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNlFEUmhEYkloTmN6aUdyZ0pMM05JTFRQYzJGN09qSjJwU0djeFpWSjlNbS15MTNwWmswemN1N1JqbUZtMmFENGRWUHQxMy10ankwdUtIYlhzcFZoQ2JSWTBqSF9UWTJhc3FoSkJPSS1UMUhydk1FVzg0VXpRSjNxVV9zelZ6bEY3eFAzeHNxTHNuSTBFbjZlMnlrMURHaWlWRzdMRnVLUVA?oc=5",
+        "published_at": "2026-10-15T05:27:47+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China, North Korea Open Long-Stalled Bridge, Boosting Trade - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1VWd1RiZnhRdmJxMmgzVkdjdmlxTjJGMklmSjlDTlRxQW92UERUV0djUzJOS0lOT1ZJODRRWkhTUUFDWmt0QXhLSjY3V1FiUDZBTGMwSTd6YjJXNHRYbmhtbTE4ck1qTnBSNWFPenpJRWNLU3U3UExySHpFcGhfN0t1REstVFNyU2F3dk1MU2UyRGdnRG81aE5MbEFqbjhoQ1ZVeGNqTzlBTlZk?oc=5",
-        "published_at": "2026-10-15T05:26:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's trade with other APEC economies rises 23.9% in Jan-Sept - State Council Information Office",
-        "source": "State Council Information Office",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9LS19UZjFLT2xiRDNfekxMNWRSWF9pdGkyYW5MU2liQktDeEkzWVVXaS1qc3VUSnVyWm1ZR0xuOHNqOHBmNXRYQ1lXdkplUU00cGZoekNSXy1CZF9Kam53OTcwZlNKTm94NndWLUdMMDVlTjAyS3VmRDhCYTI?oc=5",
-        "published_at": "2026-10-15T05:11:25+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
         "title": "'Mother of all bombs': US potential Iran strike plans include largest non-nuclear weapon - report - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVeVQzcUFKRzBJWUVWT01RMWZfeUxoajdGd2tsVXhMZVRIV2RwbVotQ0tCT3B3NE1mY1ZibUp4Z3dScmhZa0NjYW01TUtGaTY0SlFNczlRdUMzZnN6MHd5VUZ6TXM1RFhTMkE?oc=5",
-        "published_at": "2026-10-15T05:11:09+00:00",
+        "published_at": "2026-10-15T05:15:38+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Emboldened by hybrid car deal, Europe coalesces around tougher China stance - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUTJ6WUxHNTFuYmhZX0ZISGExX0M0WnRTd0VOZjR5SXZrR1gwWHRQTVhvUFFSeVptWFhRLV9vOERLSnp4WThsR0Rjd254aFVialp0eHh1am1CREZ4bGpSQUN6cFFXN0x5LXNhZkJ3MVJTVmdtaFlxdEUzQnI5ckxpaEVTS2JoNGVwZ0dfU2VCQmlwOUxVN1RHYlRfQTNDRF9LUDdtQ3kwNFRFMkJYUklIYk81VE1zYVp3b1Fja3pHVGtGdUQ2cG5ZYtIByAFBVV95cUxNeHlyS1NsVkwza0ZDeWZLTVZrdzgxd1FibzZYUkhZcVlhR3JyYTFHQ1lWMnlqaW9RemtYcVkwUFFXSkhSMkxfRlAxd1dIZ0RjYmVuVXVFejZ1TVJESFdqQ3RYY3JBLW9VN1ZvdzVIX25pRWhQaGYwdmxUVHN4MXNVTGQySHFTaURxWlltcWJJaE8zeTQ3VDBlNlgyektabXNqemdkNGpRUHJYMUtVcTRZMGVPX1dYNmNfeGRNZ0xUM1JWd1R5cmxYVQ?oc=5",
-        "published_at": "2026-10-15T04:46:28+00:00",
+        "title": "EU leaders to tackle China exports, energy prices, budget at summit - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNl85ZmstSVZrYnFvc2tnZmdjWGRoMk5zRkVDY0hVYjFWNW1EVDZobXJNdHJWdWY0QzdtQ2R5d0FNeUczUXRHSXJPY085blBETjBfbE1PM0R1eDNkdERhc2JTU3hTU2FzUjdWM0p3MlZjNTdzWm5TXzdYX2RNeTl1U2d1bll5cTFYdEVvRkk4bTNvWmxHSkQ4UHJpZlBTU1FldzlvX3pUZ1RjMnM?oc=5",
+        "published_at": "2026-10-15T04:04:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Two cargo ships sunk in Strait of Hormuz as Iran ramps up attacks in run-up to midterms - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWt5dWE5MFQwOFNCVHdMb3Z2ZHRnMHczOG1QMEIyeW1ycXlFWTJnNUxOT0FTYzhwdTFMMmZhYjN4ZFVJbkNmS0NsdTJieWFLZ1RwQzU4WDg1MmxpdXlNLTNwV3BBZS1Gbk5wUDZ4Qy1mUG9uYU1FNEFyM0V5WlFISVE2a0IzX3U2N29z?oc=5",
-        "published_at": "2026-10-15T04:06:01+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Exclusive Interview: Trump says Iran war will end soon, oil prices will drop fast - NBC Montana",
-        "source": "NBC Montana",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSzFaLVpmRWE3M01hbnlSRHBScW5GdC0yTXQ4ck9YbDltQXZtTF93bHJydUpodGNtZGxPNGZNYWVFdS1sUDFoWkpIbnN0RjJlWG1oVkh1Z0Z3Z2pELVhHUzNobXlyMDhyZzRtSGtUck9mMmd5Zmo5OTVFazg0TnpQUjNPRGdDOUVDcGVqTFNyOVE1VHhYZUxkWWxrMkhwdEVUTldab3ZVaC0zR0lrU1hJV2xicjlBR1UyUi16UDRoVHNHYzA?oc=5",
-        "published_at": "2026-10-15T03:51:08+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -268,10 +311,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Approval Expands Anktiva to BCG-Unresponsive Papillary Bladder Cancer - Pharmacy Times",
-        "source": "Pharmacy Times",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeU9VWFZDcXgyN1plTlNseERnLTlmWEV3N3dYVENSOW02TGNIN0FILWRaYzhkUW5ORFlQa05mUGROeUJLd3VTVU81elpCdUdzOVRJc0M4YXRaTFF4cXo4ZVhGOGltU2llZFVsdkxyOVpJcHNVQXQ1SjlBMHVlRW5VRzM0MWw2LXhId0Jmd0NxNlc4cExSYWhlZVk2bWZRX2ljTnp6Ui1uZ1U0T0U4?oc=5",
-        "published_at": "2026-10-14T18:11:45+00:00",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-14T18:24:30+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -281,6 +324,15 @@
         "source": "NVIDIA Newsroom",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
         "published_at": "2026-10-14T16:19:53+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Not Nvidia. Not Micron. This Under-the-Radar Artificial Intelligence (AI) Chip Stock Could Be the Biggest Winner in 2027. - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM0JkOHdqTS1DWXVSU1RLWlhvQ0t1MkczQ3FYRmdnNlFNRUZlM3haSUljU2dVeW1yOVJla3FLNjJnMjEyb0JWaENCWVBSbkZnV3FubUZ3ZmNyWDhQRmJLa2V1UEUzV2FTbkNYV0EwaWhQODhEdEVuc2tCdUNlTzdDVm1ZUDRYSV9IX3JFejREa0x2UkJHc3c?oc=5",
+        "published_at": "2026-10-14T14:50:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -297,7 +349,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 44,
+  "archive_count": 45,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
