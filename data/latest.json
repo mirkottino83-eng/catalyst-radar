@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-15T06:07:05.028969+00:00",
+  "generated_at": "2026-10-15T06:44:39.810818+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.08000183105469,
-    "wti_change_pct": -1.06214590990944,
-    "brent": 104.47000122070312,
-    "brent_change_pct": -1.499148005365758,
+    "wti": 94.16999816894531,
+    "wti_change_pct": -0.967502581108759,
+    "brent": 104.51000213623047,
+    "brent_change_pct": -1.4614326400554267,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 16.850000381469727,
-    "vix_change_pct": 10.34708497931145,
-    "dollar_index": 102.07099914550781,
+    "vix": 16.87,
+    "vix_change_pct": 10.478058246703249,
+    "dollar_index": 102.11599731445312,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.06%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -0.97%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T05:55:00+00:00",
-      "brent": "2026-10-15T05:55:00+00:00",
+      "wti": "2026-10-15T06:30:00+00:00",
+      "brent": "2026-10-15T06:30:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-14T20:10:00+00:00"
+      "vix": "2026-10-14T20:15:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T06:06:54.238051+00:00",
+    "updated_at": "2026-10-15T06:44:28.725677+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,14 +51,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
@@ -77,12 +77,39 @@
     ],
     "geopolitics": [
       {
+        "title": "Zelenskiy says Ukraine will resume strikes on Russian refineries, FT reports - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmt3MmNHZWJGNkVUMEV6MS00VmdnZ3U4LXpGVE5PUk1ZYXA2TjhQWm9lMUtObEVyZTlqejdpeDhKZlV5QVI0dWV6VUE3cXFtSmd3WUQyTldneXBQZjB0dU5lRTItQTc3YWZJRXB6NjRfOGZaVzhYUjExQmhYQ2lWUFlkXzc0TkdNWUl6S0xrMkZBZmNCYWpLUldwVDdsTGh5ZnkxSlFPWEdKWXhzZ2FLRVI3LWk?oc=5",
+        "published_at": "2026-10-15T06:03:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
+        "published_at": "2026-10-15T06:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Black Sea Drone Attacks Expose Holes in Bulgarian Security Strategy - Balkan Insight",
         "source": "Balkan Insight",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORk1YbzUxcmVkSzlSTC05Wnc2VVU4Vmw0VFFWcXJKbFVlQ0NhTzBLMnNoNU9ydTZNQmJBUlB4aFB6TzZyb2I4c01PU2VtRnZnZ2lEU28yUmFiYVdKUVhjc2FFdWJEUkZfdlRiTTBPN01FZ3ZSaV9VMFVHY05Ud2JUcTB4VHhZTXBhSG9xQUppZ3czU1BwSEoxOFlOMlRJMHVBVGNWVmFVTF92SUlS?oc=5",
         "published_at": "2026-10-15T05:55:03+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Thursday briefing: Thanks to an erratic Trump, peace in Ukraine is still far away - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdUVHNGJvZ0RSZFBYN3RWVGxfTXhQS0NYWUF5WkJFUnJaeHpLbGlIdlVvYUFLekdiNXNZLUtrTFhmTmNBNGluRTNWSk05Zkhzakk5LXVEOGpJUm96blo2QTcydUlZWUpkQTc5aXkzT1dHcXFQaGlzTTJxUko4RjZWYWxJOHJ5VnpsdGRIQ2ZPYnk1ZWxTeklZaFRNSmlhVlBlWnFLQm93blFlYTFJRnd1VlhlWXBPbDMxWTdzRGtDcmNIbzA?oc=5",
+        "published_at": "2026-10-15T05:44:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -113,7 +140,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine to Resume Russia Refinery Strikes, Zelenskyy Tells FT - Bloomberg.com",
+        "title": "Ukraine to Resume Russia Oil Refinery Strikes, FT Reports - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
         "published_at": "2026-10-15T04:16:00+00:00",
@@ -136,15 +163,6 @@
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdnNwRlc5RTM4bnJwZW9fRkpkMGJlM0o1RkxuNUZJVlV6dXgxZGZaMkthMFlXMHVoSXI1RUJlTHN4V21hNlJnaWt1REtZUFhIM1hIcFVBMFlqNzZvaDV6Z29BY19fZ09FQkd2NDRybFI3bER3cTAwaDZjVk92VlFLWFBfR3I?oc=5",
         "published_at": "2026-10-15T04:00:39+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
-        "published_at": "2026-10-15T03:36:29+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -176,37 +194,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTQ1YVV1NndsUkRwTV8wUTVHNC1wdXF1UERVd2trVDFTa2ctQTF4dENSQU43RV9CaHh3ZFBLalBlV25oMkpwbnd6VlJLMDQ0YkNTNy0ycFRHZUZFVnNuOTlYMEpfTXhqdUk0cUZuanNrR0ZQYjFBRnhfdWZrV2NIREdub2VEQ1VrVm40aUNlWEF5Z0N0M29BVno4SDdUSnZGR196SmRPazFnQnZrNHBPTmhMUTZZWnVZZlRRTzhsVQ?oc=5",
-        "published_at": "2026-10-15T02:49:09+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia’s oil output falls 38,000 bpd in September to 8.643 million bpd, OPEC data shows - Pipeline and Gas Journal",
-        "source": "Pipeline and Gas Journal",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaDVfRTFMLWt5QUc4OXJXVENsQ0pNQ20xb1FIUEM5ZWxPUTZPS1NKM0F2WVp6XzZqNEE5ZFV5elpjRnFwRXV0ZmVyVmhBbjZlMHE0NWtpaGg3QWd5YUJJM0JHZ1NQOUZHUDl3RnJpeVJxaUpGUlExOFNNYnBxVEswY1NVY0RtMDM5Sl92REF3cjExMDFaQ0hYQjVKWEpHSl9lZUU0QlhZbEhFbTVTLURDb1FJWjBvUTZTazNYdUJMc0c0elk?oc=5",
-        "published_at": "2026-10-15T02:24:04+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU Risks Bigger China Trade Fight With Plans to Expand Curbs - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFFab1J2UDE4cm1FY1plbUJDdzNOMi1tNXVxeUNYN1RicnJyOG5jaExXaHVMN1JWUTk4cUlfYUZaYVUyTkFnUDFCS1Z5ZmdnUVkyNXAtd0xycnU1VlRnLXZEWlg0QmJ6STZkMzZfeUYzaGtwS0lZekFTS2NvWkJHWWNGeEp2bjZXQXZlVklaQm5xZ0EwZnpSTnNBdkd5bXlOVVlPV1RodU10ckVTdmEtSkItcmhGQQ?oc=5",
-        "published_at": "2026-10-14T23:00:00+00:00",
+        "title": "China’s trade surplus nears record as pressure mounts from trading partners - TelegraphHerald.com",
+        "source": "TelegraphHerald.com",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS21hOVcwb05FdHRJLWlTa3VJejhwSmFHMm4zcjRfTTF2RGpFRm9uM25GQ1B3eGoya1B1TnpjMFdVS052TVVZeHdEWERSUnNCejZLeGwxaTYxZU1BNi1PbTN5ZHcwYUNDUTBhNThiOU82N3REWV9wZk45TFJqRERtbVliemdJUkthUDAxV25xT0tvd0U5Q0QzNmk3TFd4cUZPMmQ4?oc=5",
+        "published_at": "2026-10-15T02:45:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "At the table: The women who have shaped US-China trade policy - US-China Education Trust",
-        "source": "US-China Education Trust",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdThrQU1IX2JRZzVhZXBWNlJuV2lOaExmNE9ycGFoVkVxV2NYYXo2emJta0FBUHQzSGx5aVhMeGNGdEthazFXeGplS3VsYlBGdWV2bUJmMDN6RDExWmxSZUdTWkNPZkNlSVEtYVhyNGtwN1ExNWZJN3JHcjVRWk9Ib3ZHQXRjQQ?oc=5",
-        "published_at": "2026-10-14T18:46:58+00:00",
+        "title": "China, North Korea open long-delayed border bridge to boost trade - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1BQeXBIdHBEMUdKSDd1ZGZFQnJJZmh6MVVqSE1rZVJGQzZoY0o1cjhsLVRXSzlSV19uQzdCYUtfLWJtU3pNM0NiR01ENFpySUpMUVJKSzB5ZTM3a3dzZVg0YmtWWW80TUtHc2xXZTYzWVFXVUYxbjdpQWhVNDZrWDJZdUZCU0lrS0FjVXRqVld5QQ?oc=5",
+        "published_at": "2026-10-15T02:43:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -232,9 +232,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - NewsRadio 1370 AM & 92.9 FM WSPD",
-        "source": "NewsRadio 1370 AM & 92.9 FM WSPD",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSmNNN3FFUmNrRlR2ejB0VDZUYURDaThObVEtajl4S2lSZlRRWnRYdWxtazk0clFBYVptSjhiUmZEV2dLYkdadGNfczRNeFJMdGtFVVVJZ0taRUpYbU02RGZjMDZGajE1T3M5NktiYmwzcG5ULUF5c1dPSU5sSEk3cXUyQWp6d3BVMDd3U21jS1Y1aGtfTmlIdl9Kek95QXBjZEM2a1ZR?oc=5",
+        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - Talk Radio 98.3 WLAC",
+        "source": "Talk Radio 98.3 WLAC",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVUM5cFgxSUQwSlZHLVFCQzVoZVFMeHNsemVyLXNRS1dLd2YwSklwSG02amNhU0ZQekRRczkzSFFycnIyZklYQi16UThBbmttMXFsT3lKTlM1VTZtNGZtMTc3UkRKak1nc3Q3M3JMeWxPNm1wNmtJa3l2bldzaEJiYXp1aFFxRXFVOFdKN2JMeGl0YVFIdHQ1ZHI1cjkwa0ZQYlVyWjNR?oc=5",
         "published_at": "2026-10-14T23:26:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
@@ -253,7 +253,7 @@
         "title": "AMD Stock Takes a Bigger Hit as Cracks Emerge in the AI Trade - Barron's",
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBucjRrUkMta1k0LWpMUE5NSnZIbVAweFNyZWI3RG9aaGZydDdSLV93Z2tjRS1qY3ltNkFhZXFERWFNc2dFTU9yN1RTSGQ2YVhVbGdxNjlweGNwUUUwWjVyR3hva3UwekhJd0doMVdwc0Uyam41YXBXQzI2cVZhZw?oc=5",
-        "published_at": "2026-10-14T20:47:44+00:00",
+        "published_at": "2026-10-14T20:46:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
