@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-15T12:07:39.031626+00:00",
+  "generated_at": "2026-10-15T12:46:44.990731+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.190000057220459,
-    "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.1500015258789,
-    "wti_change_pct": -0.9885317575063945,
-    "brent": 104.80999755859375,
-    "brent_change_pct": -1.1785781904336101,
+    "treasury_10y": 5.091000080108643,
+    "treasury_10y_change_bp": -9.899997711181658,
+    "wti": 93.66999816894531,
+    "wti_change_pct": -1.493320247799279,
+    "brent": 104.16000366210938,
+    "brent_change_pct": -1.7914330946827595,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 17.3700008392334,
-    "vix_change_pct": 2.9638409906725283,
-    "dollar_index": 102.11900329589844,
-    "macro_score": 0,
+    "vix": 17.65999984741211,
+    "vix_change_pct": 4.682862886061412,
+    "dollar_index": 102.18199920654297,
+    "macro_score": 0.8,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -0.99%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.09, WTI -1.49%.",
     "quote_times": {
-      "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T11:55:00+00:00",
-      "brent": "2026-10-15T11:55:00+00:00",
+      "treasury_10y": "2026-10-15T12:30:00+00:00",
+      "wti": "2026-10-15T12:35:00+00:00",
+      "brent": "2026-10-15T12:35:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-15T11:50:00+00:00"
+      "vix": "2026-10-15T12:30:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,19 +44,19 @@
       "source": "TipRanks",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdE4zYVluMDlxc1RrUWxfU1BUaUtHNzJsX3R6bUJ3NmJfZ0p5ZFNuT0s0OVpORmpRRHpzekR0NnpIanpfN3ZNMzhldEVodko1b1FMYTZlM2RZbmJNOHpUNF9FOFo4UTNGdjdkZC00MzZBZmlWSlVBSGxFUVhveFhEY2Y4Q3U4UjJmdUgzOUc0eHJ6c3UwOVVMNmZ4UmlVU3J6SG9wX3lxaU9SdTEwZTRV?oc=5",
       "published_at": "2026-10-15T12:06:44+00:00",
-      "age_label": "0 min fa",
+      "age_label": "40 min fa",
       "catalyst_type": "analyst_upgrade",
-      "current_change_pct": 2.41,
-      "short_term_change_pct": 0.39,
+      "current_change_pct": 2.97,
+      "short_term_change_pct": 0.33,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-15T12:05:00+00:00",
+      "quote_at": "2026-10-15T12:45:15+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.6,
+      "quote_age_minutes": 1.5,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 56.0,
+      "confidence_score": 55.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-15T12:06:44+00:00",
@@ -66,75 +66,18 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 60,
-        "freshness": 100,
+        "freshness": 90,
         "volume": 28,
-        "momentum": 55,
-        "macro": 0,
+        "momentum": 54,
+        "macro": 1,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave",
-      "category": "AI / Cloud",
-      "priority": "high",
-      "satispay_status": "unavailable",
-      "current_change_pct": -19.29,
-      "short_term_change_pct": 1.62,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T12:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWV"
-    },
-    {
-      "ticker": "RKLB",
-      "company": "Rocket Lab",
-      "category": "Space / Technology",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -17.63,
-      "short_term_change_pct": 1.15,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T12:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "RKLB"
-    },
-    {
-      "ticker": "NKE",
-      "company": "Nike",
-      "category": "Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 0.72,
-      "short_term_change_pct": 0.92,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T12:06:53+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NKE"
-    },
-    {
-      "ticker": "SOFI",
-      "company": "SoFi Technologies",
-      "category": "Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -8.2,
-      "short_term_change_pct": 0.86,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T12:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SOFI"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T12:07:27.487657+00:00",
+    "updated_at": "2026-10-15T12:46:33.223833+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -144,7 +87,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -165,7 +108,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 3
       },
       {
         "area": "Farmaceutica e settori",
@@ -180,9 +123,36 @@
         "title": "Join The Post on a road trip in eastern Ukraine. Don’t forget your drone detector. - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdHVGWlNJWVZZTG5KdXJMYTVtWEdyVktMbktjOFNSZ0NVUHF4bmg1YnlzV21IanZlOGIzZHNuYWJPV0wyU1pKODNORVlpYkpPUE9wVnR3d2RFRlltVktQeVNQWGJFRkR6dlNOaXFsRVA4TGp0cHFpelF4TFRHWWFYcU9tNW1weFJSOW5PbHFJNS1iX1JjYUswaDBjMXlqendyWE80SzgwbDM4cEpCOWh5SGF1Q0hmS3c?oc=5",
-        "published_at": "2026-10-15T12:02:57+00:00",
+        "published_at": "2026-10-15T12:40:47+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Hezbollah says it owned confiscated explosives, meant to attack Israel - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQUNqWTJxemdBVVByYW9Cc0N3NlU2UW9zczJReDZOeWdKMENNbUZjQmF1bE9IQ1VEOXNrcXpQU192ZUhHTVZ0cDN1N3IzS2lxY0ZTOXdGY3RvWlVObFZ2RjAyVF93ZUNCWVJKSlBpNDVINmxBNGRORXRYZUt1blF2RzFLV2VjZWJZMUg4X2tGMjd5VlpOVExvbFIxN1ExS1lMMnJXUXJPOWhfcnVXZEl2aUpDeHNqcnFSeUJ3NQ?oc=5",
+        "published_at": "2026-10-15T12:37:25+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Canada, Singapore reaffirm China trade ties amid global push for self-reliance - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYXVSV184MmJUZDlSbzN2VF84aU96TlZaZ2FORzB1STFkRGFDNElIWklNai1hRktmVHJSc0JvODlhOGpZY0ltNVRQcEdOR2JkRVRGQVA5UFBPc3JGenhYVkx2SXF3WHgtTGZ4cTZVUmI5dGZsLW1wc3Z1aXpMOHBlMjRzbnl1NER0ZGpfc2ZuWVRjRW12Z0txekZWVnBlbzVLeURsbzVXNnpyREpMLU5uSFBET0hnTmxjU1A3bno5S2c4U0lxSEcybTZjMHlkUXhQcWc?oc=5",
+        "published_at": "2026-10-15T12:30:13+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Business - China, North Korea open long-delayed trade bridge - France 24",
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVzE2Nmd1bVBIUHgzN0c4d29uOWJTNktuQlIzcTdGNE5TNDc2S2tteklXVm1tTXRDZE9jWmdGazlhVjRkZnJmeWxXRWdZUUNOdHVsYkp3NWZjRWsxTWp5UkllVml5M2hzQ19yYURwTkwwalBER2Z1c01XN3RoT2dJVzdUNmFoa01ONjAyWmtYd3FUaTRQa0xBT0ZFLXVfbHBPX1ZvRkJn?oc=5",
+        "published_at": "2026-10-15T12:20:08+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -249,15 +219,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthis deny targeting holy city of Medina after Saudi Arabia says it intercepted missile - France 24",
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcTVCdFhPdlp3eUZGWDJpaXJaNzZwV1FJNEJFd0p5QkU5bVJjUFpqaDVPblJVT2pRMjJ0U2tkbElLLWtmak9DVTM0MmY5RWJTVy01U21NeENFZWtvc24xNW44MU9FOVEtMm05SWIxcjduRm9jWm1QOWZLMXJmZ1FLZ1h1cnkxbm1UOVdkTmRFQWtxYUEtSVBWdXp3OW5YZVE3anM0RlZxdFhXZTRVY2Q4NUY0M2RRMnV6by1OODhmdklRRFFTSnQ3QnFwSFM?oc=5",
-        "published_at": "2026-10-15T10:24:35+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "US Weighs Using ‘Mother of All Bombs’ in New Iran Strike Plans: Report - The Media Line",
         "source": "The Media Line",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb1J5ajVkY2tvVGxYb0ZMaG1kRnIyTEhfbzlqZWRSeFp2X1NvT3NiQVhrUTV3TS1DbFVUNTJIal9RZFBFSm9ZaEl0OXppX2VnT0piMDljSDY4cDRhN0FtNXZoZjlBcWxpeVVfUDNkTVZVS3FxTHNteW01Nld0UzZMMmUyNjcxd3JQYVBvWjJOTjJJbWdNXzBqVXJNNlJPcXlxWHZJYXVB?oc=5",
@@ -267,16 +228,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China keen to strengthen North Korea trade ties with New Yalu River Bridge opening - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcFYzNFlJSEcyUzloOVpTMUJoMlNxS3FjZjhMVkpCZ2pMeXdRdTBuTnEtUWdLTm9vQnIxRkxNTHNqYkcxYkFjUUZzWmllVm9wMllhZW81SnROaE9NcnJreENUY3RKcDV2TmdGRUlueHFNUTlCYXZZaGxrX0pDV1pDdVl2emZtc1ZYeHNEZC0wWGV3MVlQVW1kSUZ5WUgwTzh5RFc4czNUMWpadHpvZVFmV1l5bjMzM2tUNkJmWm1qUGFPZ1Z5Wnc1c3pEUWzSAcwBQVVfeXFMTVo0M3g2S1c1ZkktNF93WjZkMkYxSW9EQU9JUF9lQ2tfc3JkRGJLcGo3LTdSdXZEdV9nXzkyd3ZoZDlZQzItcWNSVmh2aVdZNWI3bkNzNWJlOXE4aWdZaV9pSWYxb1k2eG1zU3R5SUZlYnJ0U201cWhNeGVsVVh1LWpHci1wYi1fczJNemNFVWVjQXVTMjFQNXdXOTRTYUVQcUFTem9IMkQ3cHR2Q1J0QU1yS29vV1JzVFFGNURoYURBZ0x3M2NVNU5LbGx3?oc=5",
-        "published_at": "2026-10-15T10:00:13+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
+        "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
         "published_at": "2026-10-15T10:00:00+00:00",
@@ -285,34 +237,34 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Prices Fall Despite Strait of Hormuz Attacks as US Considers Easing Shipping Sanctions - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS3kxeWRXakJpQ3pYXzVQYVRUQS1fV3NBMDkwODVmdmZqbXh0QmhPN2VCZ3lLckhGRUxPbHJWYmRfVXJESjBsZ3FFaXhmV0NSUGhkeDFRdVI4aHoxT1NqYVM1ZXBtblUxWjBBWV92VEF1ck1DN0xSQTRVV2IwOUlEM09yTWIwMXppY25lQldycDk?oc=5",
-        "published_at": "2026-10-15T09:40:06+00:00",
+        "title": "Video of Saudi passenger plane exploding after Houthi attack is AI-generated - AFP Fact Check",
+        "source": "AFP Fact Check",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDUVZfQVRxVlY4elNKdWc3b0czbThIa2k3bC01bDVuXy1nUnNmai1OdHdtaDA2dUxienRPODF5TEdJc0ZtTmExeno3eTVOWVBDdlFibGFZMEs?oc=5",
+        "published_at": "2026-10-15T07:52:51+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
-        "published_at": "2026-10-15T09:37:06+00:00",
+        "title": "Attacks On Hormuz Shipping Hit Wartime High - Radio Free Europe/Radio Liberty",
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "published_at": "2026-10-15T06:34:39+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85Q0ZrM1c2YkJjdFdFVW1iNXVwd1VGbTFxSlhhQTB6MTRhRVRNeHM0Q1hCUENfdjFQWEdhcUV2dkV1YXhNNmJ5bHMzdXJOSFVPaWJuUUJJYnNYRVM0OU9YMUNSb0VVd3ZNM2Q2cWJfUHY4X2M5RUxR0gF8QVVfeXFMTUVLVjhUYWxoQlpfeXVydVV6aHh1dkZPVkxubTRMNmJMWUNocXZocmVFZElHMVZDcmRXM1JGZjBTMjMydnBRdF9YVmlZMVZxTVRYdzVHS2VhcWd3TXlEYXZ6empTaTJHM3d5OFRIZlpFQkxJYUN6MXZMY1hYdg?oc=5",
-        "published_at": "2026-10-15T09:02:31+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Micron, Nvidia and other chip stocks face renewed pressure as AI fears swell - MarketWatch",
+        "source": "MarketWatch",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdzFZUlhsa21xa19DOXJyb3plbFQ1ek53ZF81bXdhOWJwcURqN043VktFUjBjYzVoWndQai1Dd05nUVo5N0xvejRJWGtyWi1McmRXTmFqS0tsWDV2LW96bHZISnpPY3FaVXNLQVdXV0ZnZWhRc0RKajN0MmpfamQyM2dHSkdEZ1JycTJLdmI0LU5EZTRMYXdMVENTcVBlRTBBQmJ0cjg0a0E4MjlMRU9aczNtVHRIdnh1NWc?oc=5",
+        "published_at": "2026-10-15T12:43:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Legend Biotech gets FDA IND clearance for dual-targeting CAR-T therapy - StreetInsider",
         "source": "StreetInsider",
@@ -323,10 +275,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "H.C. Wainwright reiterates Immunitybio stock rating on FDA approval expansion - Investing.com Canada",
-        "source": "Investing.com Canada",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTHc4RHpjT1hzX1FkMWJEZXlkQTNYdnpfbDZmVTRqR2hwRlRlNWZ6dTNpUzBVMGhHelJUVnh5OFlNUVBxQmtjUF95d1lvYl9IbFgtNXBQNS13S1NNeHNCWDNMU1pIU3dWLUFxV2RyWmtVRXBtRkdyWXJuZVdubVBIV3Blck9YMXdnYXF1QTJwV2ZGLTB0R0g2R2tmOXBWZG5aS29CYVdqaFhHT0RMeEZySTU1T1VBVjRoaEdMUUVhdk01WFkyNjhaSzlMNS1uOWhNdGc?oc=5",
-        "published_at": "2026-10-15T11:51:29+00:00",
+        "title": "Legend Biotech Announces U.S. FDA Clearance of IND - GlobeNewswire",
+        "source": "GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPT0RQRkhBUWhxOWlzR0xWdkgtVDU3YTF2N1NMd1VwRFJUTHRfbmxEY1REaHBfaHBrVHdMWElyQlBkUzlzNkp4WV9EOTRkT0tOYnVtZHRmQ0pSY3puRTRVMFZRNEttRko1elpPWjdjVHVxWDdDYWR2VmN4QVh3MGlzRW9MS2dzamJpOEhaU1NmZ0tQRWZqRTktSGE4cVVnWHN1aXFFempnZG9yR29udmZURnpoZzk3LVBqUjRleC1RY1U0Nk5zRXNYdV9UYTZSOE02SkoyemRqbWZMWGhITm9EdnlSbGJWSmJUcnN1bUozZDlsMWVfRVg4SnRMbVpEdzlOSXVncHhOT2F4RmJVVk9wOHB4cmNwWE1YVWpMcHdJejQ?oc=5",
+        "published_at": "2026-10-15T12:00:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -337,6 +289,15 @@
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MTHlTbEVIX0doTUhKa2Y1dFNGWlpFRGphMTB2V0UwMnBwMlZlRVFPS2RKaUV2VjRrYTZ3ZWg3T2RMbWduc1Z5dzlKVXh3UHBXbkJhNGN6UmJCNlpVSlFyX2Vpc1NWNkFteTFYUGp1ejFUTFd1SlI1b0oyd3Z2dw?oc=5",
         "published_at": "2026-10-15T11:47:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "H.C. Wainwright reiterates Immunitybio stock rating on FDA approval expansion - Investing.com UK",
+        "source": "Investing.com UK",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZTh5WFVKOGh4NjI0UEdSNmFNMXJJSkRZWEh4VjhTZ2NiUU05dkhQWTBjbGVGS2hCTk5IbkcwaXpsdlFoU1FaaVd4X2xuNlNzcHpjMUZ0dWRfenBSbzVlMGFUaGhoMmxidTJDSjdsWk13WWRXSGVhX0VrOU5vSmtVSUdaY25mNHBtOHYxcWZDRVJRS1hwRUt6LWdnMlFWRktuVlpPeEdHSlhjMU8wY1pOYm9rNGZxLUMtelNsT2N2SnlneTR0NDBRb1hVRWZfRUdqOUE?oc=5",
+        "published_at": "2026-10-15T11:46:00+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -359,46 +320,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Stocktwits Pharma Pulse: JNJ Earnings, Cancer Updates And Two FDA Target Dates — The Week’s Biotech Watchlist - Stocktwits",
-        "source": "Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONF9TM3dUVy1jdk5vQ0ZlYVFjek1rWlZRVlNwYnptRFlrMTBiWldnbW5xQm1yZGdiTTZKMlQ4aHZpMC1rcG9fQnRPNDVVT1lSTjFlbGFqQjNqanhYeEJHMVV1RVZ3N3lSVEMxUzR6dG5WamVfTE8xM2VtRFFiZHdiMWZ4Qk4wQkdrUFJRcjc3RlVTVzF0cHpGNGlRUmdSdzFSNmtUb1MtVGFUN0tTNjRWb2F6Q3RBY0ZybmwtQnlucmthSkpDSUhEeHFJSVhrdmpCVGVUaEh2VzBOb2xPUllfMW9yMTJZVFg1NVBF?oc=5",
-        "published_at": "2026-10-15T07:30:08+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AMD Stock Takes a Bigger Hit as Cracks Emerge in the AI Trade - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBucjRrUkMta1k0LWpMUE5NSnZIbVAweFNyZWI3RG9aaGZydDdSLV93Z2tjRS1qY3ltNkFhZXFERWFNc2dFTU9yN1RTSGQ2YVhVbGdxNjlweGNwUUUwWjVyR3hva3UwekhJd0doMVdwc0Uyam41YXBXQzI2cVZhZw?oc=5",
-        "published_at": "2026-10-14T20:46:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia stock sinks as chip sell-off deepens on hot inflation data - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1ZGcUkyMFZEdXYtUDhENXZ6Rkl6b29Ic3BlOUE2a2U5d3I3UWlPM2ZYRjRnZVYyRVdPRUFjTklPeG9OY2hrdUNZaXc4YU9JWGlsNXY2WFlkQ0lzNHl1VFZoaWNLamlGT3lKQVpyN2VTMm1HVEpRd2FzdUZUN3dTbFBkOEVVUnh6SE05QTZpRmlDTk4xVUoyckJQRjlIRVJaZTBkV2hWalNwd1pKOW9QSFh5ODY4VEVZcE51Wm5RMHZ1RlVnWDVvZw?oc=5",
-        "published_at": "2026-10-14T20:23:29+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs - NVIDIA Newsroom",
         "source": "NVIDIA Newsroom",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
         "published_at": "2026-10-14T16:19:53+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations - Honeywell",
-        "source": "Honeywell",
-        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeTRyTTZZSXZWSGVQRjVmUEdzb05ta2RzZEhUSWdoU0JIUDVXNnV6Z2YwZ3lITGdUSUcwWTB1Z3l2bFJiX3EzaHp3WVlILXJfTzZkZHJmazE4cHZQTWhPY05HLVJnaFQteFBQempGOHB3Q21LMkR1d1FIM2VCem1JUTNRU09RTnZOalJGOXl3aU81WUJFSXhhQ2wxTFdlUTc3bkpFZWF4LWdMVmZwN2VNek44ODE0bW5KY0JLUDhZQTcteHVoOG1OaGY0eFd5VmhmWGo3YkF6Q0pXMllqVnBlcXJONW15S0JYRUFZaHh4bGhCQ3dOSF9TeGZ0aEF0amZQYlJQQ0RqWTFQa2NJLVlhalhHMDlhN3NwLWF5NVdOc2FtbkJiQ3QyamxpRDUzY3M?oc=5",
-        "published_at": "2026-10-14T13:02:07+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
