@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T07:24:24.685624+00:00",
+  "generated_at": "2026-10-15T07:59:58.971236+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 93.98999786376953,
-    "wti_change_pct": -1.1567972620509792,
-    "brent": 104.23999786376953,
-    "brent_change_pct": -1.7160095575325163,
+    "wti": 94.05000305175781,
+    "wti_change_pct": -1.0936936861763336,
+    "brent": 104.1500015258789,
+    "brent_change_pct": -1.8008637343779443,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.87,
-    "vix_change_pct": 10.478058246703249,
-    "dollar_index": 102.08100128173828,
-    "macro_score": 0,
+    "vix_change_pct": -4.974708689431395e-06,
+    "dollar_index": 102.11100006103516,
+    "macro_score": 3.2,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.16%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.09%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T07:10:00+00:00",
-      "brent": "2026-10-15T07:10:00+00:00",
+      "wti": "2026-10-15T07:45:00+00:00",
+      "brent": "2026-10-15T07:45:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T07:24:12.475219+00:00",
+    "updated_at": "2026-10-15T07:59:48.075546+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -72,10 +72,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 12
       }
     ],
     "geopolitics": [
+      {
+        "title": "Ukraine to Resume Russia Oil Refinery Strikes, FT Reports - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
+        "published_at": "2026-10-15T07:31:56+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine is going back to hitting Russian oil after its Trump-pressured pause, during which Kyiv got no US warnings of incoming ballistic missiles - Euromaidan Press",
+        "source": "Euromaidan Press",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNcmJ4RjBxNjdiRUNSbmh4bmlROWppQy1sQUdIaXAwVlFCeXdQYmc3aUJvMmtrbnB6LTB3OFZ6T3JaMklqcUpYWEtZZEo1R25oQmozUDAzN3EwaFZoZEFsenRPZHR5Tlc3SU9uUXZHZWQyczc5TDdGVUliQzZsTWVYR1lZR0ljNWlJQklSQ19meFhfbXJZMVBnUTcxM0I2MG0yWlBrVVo3M0x2M0xkUGpBeUw0alRocW9nd1d2X2o3V2ZvREtNd3JOU3UwU3pnWUVUd1IyMFI1M2hjQURIakhmbXNUWi1oU0ZZdDBRNVJ4V0lkTmVHRmt3SzN3dklSWllCSEJDdGRuOGd6V045ZzlmcENn?oc=5",
+        "published_at": "2026-10-15T07:30:09+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Houthi attack sparks fire in Aramco facility - chinadailyhk",
         "source": "chinadailyhk",
@@ -95,6 +113,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ukraine accuses US of aiding Russia by withholding missile warnings of strikes on Kyiv - Le Monde.fr",
+        "source": "Le Monde.fr",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSnQ2RGhQclVXOF8zVTMyNnZSbHlucTBObGliVzQ3dU5NSUk3eFA4dDhhWG0yQ3I2SmJ1cy1qZU94TFhyTi1WdFJZSlJMZUxzdFFhY0J5b3VZWm5xR1dEc0FpaUt2OGRHWWg0TEE2RUE3WUdFRVZ5Nl8wWGNuclBBdDlJT1dVQUNmWUp3bkdTTVd5X2ptOVYweTF0Ni1udTB2dENBTTJTRDQ2N0ZLamlmZmplWURJRDhQeWlZYWwwQWlYQlpCZ0RNTlZYT2VYNl9FajFCTHZNLVNZQ3dlWkE?oc=5",
+        "published_at": "2026-10-15T06:30:30+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "New North Korea-China bridge finally opens. But will it help Pyongyang evade sanctions? - CNN",
         "source": "CNN",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qOGtXTWhIVVFwRWJuaUxnSno1clBQZ2h2ZkJVYnFVMDdtU0dfa1RnOWNLM0lXbUlFamZwSzRNWnNUZnI5Q0tsTkx2WUZJQ0t4NGkxanR5V3Znd3h4Ynd6TW9kQVZsbG01OVlXaXBleFBzeTNPOXc3OA?oc=5",
@@ -104,7 +131,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Zelenskiy says Ukraine will resume strikes on Russian refineries, FT reports - Reuters",
+        "title": "Ukraine resumes strikes on Russian refineries as Zelenskiy says 'we're done' - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmt3MmNHZWJGNkVUMEV6MS00VmdnZ3U4LXpGVE5PUk1ZYXA2TjhQWm9lMUtObEVyZTlqejdpeDhKZlV5QVI0dWV6VUE3cXFtSmd3WUQyTldneXBQZjB0dU5lRTItQTc3YWZJRXB6NjRfOGZaVzhYUjExQmhYQ2lWUFlkXzc0TkdNWUl6S0xrMkZBZmNCYWpLUldwVDdsTGh5ZnkxSlFPWEdKWXhzZ2FLRVI3LWk?oc=5",
         "published_at": "2026-10-15T06:03:00+00:00",
@@ -131,11 +158,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Thursday briefing: Thanks to an erratic Trump, peace in Ukraine is still far away - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdUVHNGJvZ0RSZFBYN3RWVGxfTXhQS0NYWUF5WkJFUnJaeHpLbGlIdlVvYUFLekdiNXNZLUtrTFhmTmNBNGluRTNWSk05Zkhzakk5LXVEOGpJUm96blo2QTcydUlZWUpkQTc5aXkzT1dHcXFQaGlzTTJxUko4RjZWYWxJOHJ5VnpsdGRIQ2ZPYnk1ZWxTeklZaFRNSmlhVlBlWnFLQm93blFlYTFJRnd1VlhlWXBPbDMxWTdzRGtDcmNIbzA?oc=5",
-        "published_at": "2026-10-15T05:44:00+00:00",
-        "area": "Russia / Ucraina",
+        "title": "China, North Korea Open Long-Stalled Bridge, Boosting Trade - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1VWd1RiZnhRdmJxMmgzVkdjdmlxTjJGMklmSjlDTlRxQW92UERUV0djUzJOS0lOT1ZJODRRWkhTUUFDWmt0QXhLSjY3V1FiUDZBTGMwSTd6YjJXNHRYbmhtbTE4ck1qTnBSNWFPenpJRWNLU3U3UExySHpFcGhfN0t1REstVFNyU2F3dk1MU2UyRGdnRG81aE5MbEFqbjhoQ1ZVeGNqTzlBTlZk?oc=5",
+        "published_at": "2026-10-15T05:26:00+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -167,15 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine to Resume Russia Oil Refinery Strikes, FT Reports - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
-        "published_at": "2026-10-15T04:16:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Two cargo ships sunk in Strait of Hormuz as Iran ramps up attacks in run-up to midterms - CNN",
         "source": "CNN",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWt5dWE5MFQwOFNCVHdMb3Z2ZHRnMHczOG1QMEIyeW1ycXlFWTJnNUxOT0FTYzhwdTFMMmZhYjN4ZFVJbkNmS0NsdTJieWFLZ1RwQzU4WDg1MmxpdXlNLTNwV3BBZS1Gbk5wUDZ4Qy1mUG9uYU1FNEFyM0V5WlFISVE2a0IzX3U2N29z?oc=5",
@@ -185,30 +203,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine to resume strikes on Russian refineries, Zelenskyy says - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdnNwRlc5RTM4bnJwZW9fRkpkMGJlM0o1RkxuNUZJVlV6dXgxZGZaMkthMFlXMHVoSXI1RUJlTHN4V21hNlJnaWt1REtZUFhIM1hIcFVBMFlqNzZvaDV6Z29BY19fZ09FQkd2NDRybFI3bER3cTAwaDZjVk92VlFLWFBfR3I?oc=5",
-        "published_at": "2026-10-15T04:00:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Institutional capacity, FTA network breadth, and trade efficiency in China’s aquatic-product imports: evidence from a true random-effects stochastic frontier gravity model - Frontiers",
-        "source": "Frontiers",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85SHNxeTh1c1ZDcV9GcTZ2VFJnZ2VJbGVNaXRaZkcxVlRLRFZsd19xWUdzUENiUlhmejRwbi1WWE5ZaFhFMzhLeUVraXNDZk5HVTd4Q2cxaFJfWW8yUld6amJYMWZlcllRUGg3cXVFMi0?oc=5",
-        "published_at": "2026-10-15T03:23:16+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump on Iran talks: ‘I don’t know who the hell we’re negotiating with’ - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQnZLclE5emN0cDg5LXZ0SnNNR1Q3SVRKZzJrbG9mZEVMOXZDVmdkWE5PN0IzUkdleEItaWp2SWd3bVZsSUk0QXppanUwc25RcHlORW00eDI3RC1pRzFJODZVY2xJUklPakVnZXlocTZlREJ1c2loeXBKNHRHbFhGNjUzd3l4WmFT0gGOAUFVX3lxTE81YXNsQUtaT0N4MnIwc21ta0tlVUNEV3d0eTR3RGpjR1Rqa1A5TVoyMml5aktSbDJYbklscm01S1NsWVpxaGpvNUtEUTNwLVg3MG5oWnRSMXNfN2lkX0FObGJzeWRVa25Cb2o4cmRFbG4tY0pKZkYyR081UDFiZWE5ODhGQWJaX19sZWhMVkE?oc=5",
-        "published_at": "2026-10-15T03:19:00+00:00",
+        "title": "Exclusive Interview: Trump says Iran war will end soon, oil prices will drop fast - NBC Montana",
+        "source": "NBC Montana",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSzFaLVpmRWE3M01hbnlSRHBScW5GdC0yTXQ4ck9YbDltQXZtTF93bHJydUpodGNtZGxPNGZNYWVFdS1sUDFoWkpIbnN0RjJlWG1oVkh1Z0Z3Z2pELVhHUzNobXlyMDhyZzRtSGtUck9mMmd5Zmo5OTVFazg0TnpQUjNPRGdDOUVDcGVqTFNyOVE1VHhYZUxkWWxrMkhwdEVUTldab3ZVaC0zR0lrU1hJV2xicjlBR1UyUi16UDRoVHNHYzA?oc=5",
+        "published_at": "2026-10-15T03:51:08+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -232,9 +232,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - 1310 WIBA - Madison's News/Talk Station",
-        "source": "1310 WIBA - Madison's News/Talk Station",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOakpHWHdtQXVYR0hTWGdoakxZbjd2OEt2M09HQ0IxVVh6OFg4QXBvVEdvWEREcEM4LXNmdlF4YU0xbkw4djNOUlV3Q0lwbHVKSU45OUdGbFdCNmsxbWh5UmdLYkNuUDd5d1F6WERwazc4ek0zZzBBV1hoWkJNRzhWcE1XWmZ3QV9JS21GVnpBRFVuYmdnOXRCOUNPMzRfOWk2aHVhT0N3?oc=5",
+        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - WGY",
+        "source": "WGY",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEF4QXVMeENZT2VhRjIwN2xqS0NYV2RzVEJ5TVhWM0xka1ZlYjlZY3MtYWpkZ05JNm9aczV6MEN1Z0FucHdyd214X25EdnpUcWJKVjh0Q3JJVVBhY2s5WkV5UHJtZ2xPbWE0WHFuRUx3WldvNk8zR3hkZl92VXYzczc4bHZKREJORFk5WVJZejl5UXRTTHQ3WXB0QXl1RmpQR3ppQg?oc=5",
         "published_at": "2026-10-14T23:26:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
@@ -268,10 +268,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-14T18:24:30+00:00",
+        "title": "FDA Approval Expands Anktiva to BCG-Unresponsive Papillary Bladder Cancer - Pharmacy Times",
+        "source": "Pharmacy Times",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeU9VWFZDcXgyN1plTlNseERnLTlmWEV3N3dYVENSOW02TGNIN0FILWRaYzhkUW5ORFlQa05mUGROeUJLd3VTVU81elpCdUdzOVRJc0M4YXRaTFF4cXo4ZVhGOGltU2llZFVsdkxyOVpJcHNVQXQ1SjlBMHVlRW5VRzM0MWw2LXhId0Jmd0NxNlc4cExSYWhlZVk2bWZRX2ljTnp6Ui1uZ1U0T0U4?oc=5",
+        "published_at": "2026-10-14T18:11:45+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
