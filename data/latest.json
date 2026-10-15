@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T03:43:09.476191+00:00",
+  "generated_at": "2026-10-15T04:13:09.583028+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.19999694824219,
-    "wti_change_pct": 0.06373227000504578,
-    "brent": 104.55999755859375,
-    "brent_change_pct": -1.0691691330397712,
+    "wti": 94.02999877929688,
+    "wti_change_pct": -1.1147308859148275,
+    "brent": 104.30000305175781,
+    "brent_change_pct": -1.6594329128318264,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 101.97899627685547,
+    "dollar_index": 101.97200012207031,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.06%. Geopolitica: US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.11%. Geopolitica: US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T03:30:00+00:00",
-      "brent": "2026-10-15T03:30:00+00:00",
+      "wti": "2026-10-15T04:00:00+00:00",
+      "brent": "2026-10-15T04:00:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T03:42:57.836022+00:00",
+    "updated_at": "2026-10-15T04:12:57.900544+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,7 +57,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 10
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -71,7 +71,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
@@ -82,6 +82,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Iran Fears Imminent US Attack Amid ‘warlike Atmosphere’ In Tehran - i24NEWS",
+        "source": "i24NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdFBtbmxPaFJMRlYzZmItVXRLZHZVX01zc0pkLWhoNmZxZHlGLTFhVW1ZRDAxMWJTRWVONHZSY1pNWEsydU9UUEtEWWJpMkhIbU9pQUk3bGZrdkVzZV9Nb2NFcURxQ0FfVC1yLXowckZtWnQ4Nm13YndFSDRFdEg1cGJJTkJMdjdjY09Sd1IxcTBDc0k5SUp0VGhpNUdDNGVJUmxjc3pGYkJFVDFDdnN0RW5LMDlsdmlSWlpBRmhhNkg1TlY4TXo0MmpNTQ?oc=5",
+        "published_at": "2026-10-15T03:46:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
+        "published_at": "2026-10-15T03:36:29+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Trump on Iran talks: ‘I don’t know who the hell we’re negotiating with’ - The Hill",
         "source": "The Hill",
@@ -101,12 +119,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
-        "published_at": "2026-10-15T02:30:55+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Russia’s oil output falls 38,000 bpd in September to 8.643 million bpd, OPEC data shows - Pipeline and Gas Journal",
+        "source": "Pipeline and Gas Journal",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaDVfRTFMLWt5QUc4OXJXVENsQ0pNQ20xb1FIUEM5ZWxPUTZPS1NKM0F2WVp6XzZqNEE5ZFV5elpjRnFwRXV0ZmVyVmhBbjZlMHE0NWtpaGg3QWd5YUJJM0JHZ1NQOUZHUDl3RnJpeVJxaUpGUlExOFNNYnBxVEswY1NVY0RtMDM5Sl92REF3cjExMDFaQ0hYQjVKWEpHSl9lZUU0QlhZbEhFbTVTLURDb1FJWjBvUTZTazNYdUJMc0c0elk?oc=5",
+        "published_at": "2026-10-15T02:24:04+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -114,15 +132,6 @@
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemtmZUNFYjRUb2F5T3U0dWtTMHpPNmVEM28wN3I3VWpKT2g2MFExMzdPaXAxaGl5eTV3enVUUnI3U3k0OUlRNVdGYlIzMkFfZnZhZFdISlo2SkYtd0pCSTUtVG1YTWJmdlhiN25USElqc2ZULVZKcTBCTzhBVExlUEdGOHIwbHpnZ3JYSTN1TnNxb08zRFVpRFplZ0M1cVVfTnhTaGhVa3B2ck8zOTBPdmVqOURtQdIBuwFBVV95cUxNZlhwTmJId2Zzd3piSDY0WmdSeU9WcFB0MG9NV3BGUHNLZERFVnVfMkFHaHRWV0ZWV09ZMy1KQmVMajM5XzlyeXNTcDctMHNkdWI2anB6UUtWeW4tbmFBOEVUMzJkcEg5QTc5SzlHUG5DRERHdUFyZzVVS0Y3eEp1QWw5WDRzVFoyMGQxTHJ6Ty02RXFYSU93Q1AwaWFKaWM1Mmo5X21OUHAzNzFIYU1POWduYUF3WnV5dnh3?oc=5",
         "published_at": "2026-10-15T01:28:14+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Elon Musk Blames U.S. Government for Starshield Speed Limits Disrupting Ukraine Drone Missions - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORC1hckw5S09sR21nVTl0Zk0yZTcxX1VfRmo3b2RFRUtsMGdsNnRON1RXTjJXS3pjM240eUluclhTenpndXFaTFRaWHZxdWxUM0dBcDZLb0xKdTVKOTl0UE55bXY3cVhuZVZ4cXU4emVuRmhCcDNKTU9wTi1yc3BfN3Y1T0FQLUZUOWJpUE5RbFpQU3BCbnJJYjZYMFlzOVY3bG45MWowWkl6MWwxOTRPdTJaSVY4dl9fMXhPZlkyVUVNclByNnRrb0xUMHItWFk5ZDBSZFNoYy02S0pSdjlWa283QUs4LUtrcWc?oc=5",
-        "published_at": "2026-10-15T00:08:41+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -161,15 +170,6 @@
         "published_at": "2026-10-14T22:00:47+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran-backed Houthis strike Saudi oil company Aramco's headquarters, officials say - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQzY0TGNicFB5Y2ZTa21iaGExMGt4djdWaHZOZVZOMnA4UzAtQnplMVYwR3kxTk1OekxLbnhlbjFKTXMyOVNRb1YtNXRKa0V0cVUxTDdEMHV4UGd6QzVHM1d4Sy04SWNnOXdIcW5uTWtzbWZrTVk1WHFhbTZUM0U0YnV3ZklqcTdMX2EydTU0cFVMSHZFZVNUUGxiYm1LTFJzclRyeDg5RlpnZk1kOGtKY3lsRmnSAboBQVVfeXFMTXZEek5DX0hPTnFmUm10T1JXTERZVVhFa1BNclBJZTV5Y3l4MXVQWkptRkc0UVBQOEcyN1Y2UUEzZFlrOWZHZFhRVl9nR3AtSmYwSEdtbVdhM19YZWZELTRvdzl4VDNfbkFEMkNRZWlRdnFJcDRoU1BGb3NGNDF1OHJOMlFScFVSWFNBR2xnZnZ6YzA4NU43NGU2am1EWmdiOEdVQ0FjaFNiYWQ2NjdwRWd5aTNvYklkNDB3?oc=5",
-        "published_at": "2026-10-14T21:33:30+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -229,15 +229,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "new fda approved diabetes drug for weight loss - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeU56ZGhGUjZoOU5tNU5NODFxYUcxc0swQlVFdFo4Y0NDdUdINEpSM0dudC1CZjNDYTBha3RnajhwX3kyTExjbTI1OWpTU1ROaG13MF9CcE9vY1R2aUJPNjYyRElKUzNQbWFyUF96QkpEWFZQc1Zma040QVVyWDR2a3c2ZldhNDV3dUx2ZkhHazl5bDhOcmtvQjE1WkU?oc=5",
-        "published_at": "2026-10-15T01:26:53+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - KOA 850 AM & 94.1 FM",
         "source": "KOA 850 AM & 94.1 FM",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOEQ2VnJGNWYxRUFBRGtHZHNsVERxb19MNTdLRWtYaGIyU0tUT0J4U2dZV2o4M003UmRQcjhaMWxOQTZxMjhBcEpRWTI4UVRfN055YTR6Vnp0T19MOEpKcDdvSXV0dUhqUnB1QlhXSGtEM0p6aWpHYmM3ZDZ1Z2ZYRTY2U3lOcHhTZDItZU4wRXVELVBjZ2VqQ1lWWmNpVVM5dkxVOGZjNHc1a2dHOUdr?oc=5",
@@ -252,6 +243,15 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUzNibHkxcXpGVU1NNE5xVTlpU0NRWFo0R1JZdTRGRUR6MnFfTGx0aXl0ZFY5UGl4T2NPX3cxQWdNWTVvUTFaOGNFaGNLTkdBckoxR2xMUlQ0RHFVT0ttRGZROFlwY3ZCVlJ6aHA1TFpWc0pGNzFpV21SbC14RzlTdDhucWdCRkxBSDZrLWRR?oc=5",
         "published_at": "2026-10-14T21:57:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "health news today fda approval weight loss drug - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLU4tZTRHWGphdzQtWkduUnBPWDhuVHB1LXh6dFRaYWhNRl92RlQ3R3BSOWZBRFlwTHlBWFVhc0xsYmM1ellvdjlab0lzU1FmYTl2VnAzZXN2aG9mNWNRTWI4RG44cVBFRFRWZVdiS3Y2THhlck1kQzZpSWd3eVhZTDJHeGtZVENZZDVZNXJYa1VsVVRkeklybjFrTQ?oc=5",
+        "published_at": "2026-10-14T21:35:32+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -301,10 +301,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations - Honeywell",
-        "source": "Honeywell",
-        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeTRyTTZZSXZWSGVQRjVmUEdzb05ta2RzZEhUSWdoU0JIUDVXNnV6Z2YwZ3lITGdUSUcwWTB1Z3l2bFJiX3EzaHp3WVlILXJfTzZkZHJmazE4cHZQTWhPY05HLVJnaFQteFBQempGOHB3Q21LMkR1d1FIM2VCem1JUTNRU09RTnZOalJGOXl3aU81WUJFSXhhQ2wxTFdlUTc3bkpFZWF4LWdMVmZwN2VNek44ODE0bW5KY0JLUDhZQTcteHVoOG1OaGY0eFd5VmhmWGo3YkF6Q0pXMllqVnBlcXJONW15S0JYRUFZaHh4bGhCQ3dOSF9TeGZ0aEF0amZQYlJQQ0RqWTFQa2NJLVlhalhHMDlhN3NwLWF5NVdOc2FtbkJiQ3QyamxpRDUzY3M?oc=5",
-        "published_at": "2026-10-14T13:02:07+00:00",
+        "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym - NVIDIA Developer",
+        "source": "NVIDIA Developer",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUUtZWjdMZWpRUFVYTHNFTTRJNUNnclI4R2ttbmhfamJMX1R0Sk1JOEZfR2wxMXg2enlYOWxVMjhudDl3Wk5jaWluNEN1RHVhdWhSN2hoYm53WkRQZm0xVWc2ZzJjT0pUeHlFeHhOTUNIOGh2emhzR0R1SVh6bjRiX1pjRWJtd2JXVmRJdFJZcDZEZkpuLV95V3VVVTBRYnN1QnI2Z0ZIOVFkdlh5YXhRck1hZzNieUFXQXU3T3ZHZVFzVy1zRDlTWQ?oc=5",
+        "published_at": "2026-10-14T16:16:42+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
