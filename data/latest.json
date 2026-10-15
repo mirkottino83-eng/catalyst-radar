@@ -1,168 +1,55 @@
 {
-  "generated_at": "2026-10-15T09:05:27.110424+00:00",
+  "generated_at": "2026-10-15T09:37:11.851286+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 95.13999938964844,
-    "wti_change_pct": 0.05258497600539869,
-    "brent": 103.87000274658203,
-    "brent_change_pct": -2.0648640980797994,
+    "wti": 94.9800033569336,
+    "wti_change_pct": -0.11567250519832761,
+    "brent": 104.0999984741211,
+    "brent_change_pct": -1.8480097393834494,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 17.420000076293945,
-    "vix_change_pct": 3.2602205672773277,
-    "dollar_index": 102.04499816894531,
+    "vix": 17.3799991607666,
+    "vix_change_pct": 3.0231078610685858,
+    "dollar_index": 102.00399780273438,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.05%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -0.12%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T08:55:00+00:00",
-      "brent": "2026-10-15T08:55:00+00:00",
+      "wti": "2026-10-15T09:25:00+00:00",
+      "brent": "2026-10-15T09:25:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-15T08:50:00+00:00"
+      "vix": "2026-10-15T09:20:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "ba3509268a96",
-      "ticker": "RKLB",
-      "company": "Rocket Lab",
-      "category": "Space / Technology",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Rocket Lab Retail Mood Hits All-Time Low After Neutron Delay — Can Takeover Target Iridium’s Earnings Turn The Tide? - Yahoo Finance",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObEhaOWMzWXZRVTRFQUlQcklKTktoWm5KUXdaUnkzQTFqVzNGc2RoSUpLcENmSUozcGwtNEI4ZXlFMjIxM2dQNzdwUXFqMWRPUWktU09LbzUzQjNoQlFuSmJoemxjdUs0MlpHYzJLaGZTRDBLQndVUFozTHhmbzJvNWpXNzVNVS1VdC0waVllcEhXNFJSN09V?oc=5",
-      "published_at": "2026-10-15T03:22:00+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -16.43,
-      "short_term_change_pct": -0.24,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-15T09:00:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.4,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 60.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-15T03:22:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "RKLB",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 75,
-        "catalyst_strength": 90,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 47,
-        "macro": 0,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [
-    {
-      "ticker": "MRNA",
-      "company": "Moderna",
-      "category": "Biotech",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 3.12,
-      "short_term_change_pct": 1.0,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T08:55:02+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MRNA"
-    },
     {
       "ticker": "AMD",
       "company": "Advanced Micro Devices",
       "category": "Semiconductors / AI",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": -8.21,
-      "short_term_change_pct": 0.91,
+      "current_change_pct": -8.01,
+      "short_term_change_pct": 0.88,
       "relative_volume": null,
-      "quote_at": "2026-10-15T09:00:00+00:00",
+      "quote_at": "2026-10-15T09:36:05+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "AMD"
-    },
-    {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -12.07,
-      "short_term_change_pct": 1.05,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T09:00:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
-    },
-    {
-      "ticker": "COIN",
-      "company": "Coinbase",
-      "category": "Crypto / Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -6.02,
-      "short_term_change_pct": 0.93,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T09:05:07+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "COIN"
-    },
-    {
-      "ticker": "ARM",
-      "company": "Arm Holdings",
-      "category": "Semiconductors",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -9.55,
-      "short_term_change_pct": 0.88,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T09:00:27+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ARM"
-    },
-    {
-      "ticker": "MU",
-      "company": "Micron Technology",
-      "category": "Semiconductors / Memory",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -7.44,
-      "short_term_change_pct": 0.84,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T09:05:02+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MU"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-15T09:05:15.373285+00:00",
+    "updated_at": "2026-10-15T09:36:58.271705+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -179,14 +66,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
@@ -205,10 +92,28 @@
     ],
     "geopolitics": [
       {
+        "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce - Audacy",
+        "source": "Audacy",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbTdPZV9Ed1dqeDAyMlo2TjVGQ1Z5cXdmazdnMmY0amlmS1BVenk0ajFHVGRzbDhiWjNrb2Y1TVA1VlJERXBsemxrdmZ2MWlDcFJYZm82SWp5SU9hZ2dRanBrbFZRWHJNNEQwbGJ3aFpWMTlrSG9RNE5hbDlaY2pnaV9tSmNkRTgxV3VxMUlnanZCbVRoU3J5NEFLOFdoblVEZ0V5dENvVS1ZQU1XR2NLMmljS2JjdG9sU2s2VFZMQzJFdw?oc=5",
+        "published_at": "2026-10-15T09:14:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85Q0ZrM1c2YkJjdFdFVW1iNXVwd1VGbTFxSlhhQTB6MTRhRVRNeHM0Q1hCUENfdjFQWEdhcUV2dkV1YXhNNmJ5bHMzdXJOSFVPaWJuUUJJYnNYRVM0OU9YMUNSb0VVd3ZNM2Q2cWJfUHY4X2M5RUxR0gF8QVVfeXFMTUVLVjhUYWxoQlpfeXVydVV6aHh1dkZPVkxubTRMNmJMWUNocXZocmVFZElHMVZDcmRXM1JGZjBTMjMydnBRdF9YVmlZMVZxTVRYdzVHS2VhcWd3TXlEYXZ6empTaTJHM3d5OFRIZlpFQkxJYUN6MXZMY1hYdg?oc=5",
         "published_at": "2026-10-15T09:02:31+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s Trade Surplus Goes Vertical - Robin J Brooks | Substack",
+        "source": "Robin J Brooks | Substack",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BUEZvcS0zRU51TVUtOWJVeEFmbEN3WFd2d1R0Y0ZEclAtejQ0MVExc3gwT1h2TFZKd2dpV3dBRFRPalRiWUhYLXExOUF5MW9HZkRiZ0xreDlJS0xsSlRWSDV2dG5hWXM5T2Jab2FBMFlrVVBuZ3ZmY05R?oc=5",
+        "published_at": "2026-10-15T09:02:04+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -223,19 +128,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Zelensky Says Ukraine Will Resume Refinery Strikes, Defying Trump - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
-        "published_at": "2026-10-15T08:19:31+00:00",
+        "title": "Russia builds major new drone attack base in six weeks, satellite images show - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUWp1N3V3WmtFN2xwQWlfa285NVRlVlVvS1VUR19EcHpCSE5aaDFzR0I0YTZHeG5XM0FNOEJDaEtFYUhHaFMyekg3LUJZd0lyeVhfeFVLS1pqbzExTDJoYWdfa2N1NFNfZjIzMXhTM1FGcWlnTHIyQWNxZDY3NmdOWnNmZHNPeEhGZjMyRnV5ek0yOHVxZFJBTDdiNmxHQlg0cjJqbUNQZFUwYkFOSk5udXQ4a19WQkVfdnFSV0RidFRJRWZLOWtjazlkMk5nYjA?oc=5",
+        "published_at": "2026-10-15T08:54:50+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine will resume strikes on Russian oil refineries, Zelenskyy says - Politico",
-        "source": "Politico",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNzVUQmczYVVUMnQ2SlRXaXhpNVlQNW5TMU9sQTdBRC1KN3NYOElTUlRGVmlqVjJXTHBwSnBuTUE2SjNrTTYzbDFaMExFN2swM3RLdTZRNUYwN1RPNnRiMWVTMDZTanFjNkMxMW9aY1dLTDJldi1GYU5wRmJ6Z0RHNjRocXpiSmxvU2N1eWpYNWdoT0hYanlLUnEwLUt1eTdyZFBHcVF1OFFCWUFxenc?oc=5",
-        "published_at": "2026-10-15T08:03:00+00:00",
+        "title": "Russia Says Oil Refinery Hit as Zelensky Says Ukraine ‘Done’ With Ceasefire - Newsweek",
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZDFKaXdUdWc3MXA2RnQzZFNKMGVYTGNLaElSNWVyQ05RYWRuem90cTFQejkxWkVOYzNMMGJOaXNMSTFtVGFCQi1zZ2tpeHZBNGJ0cFhlZmY3SlpkWnZWRV9YYXpIanFmc21sY3NqYWpSQlJGVVVmaUk5amRiRHlleXdDam1IZ0JsRVZNU0Jsa0pMcl95MWhYN25PTkFDbVlIS2NHZC1xclh3UHc?oc=5",
+        "published_at": "2026-10-15T08:29:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
+        "published_at": "2026-10-15T08:19:31+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -247,24 +161,6 @@
         "published_at": "2026-10-15T08:00:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire' - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcFl3OWJIa0lCbFk5dVZOSEFHMjJpdHduQXg4UjJ0YUtyTDFfNVdwTFpfZzdaa2JXWThXZUNuSEtWN2wyTTJnc180QU1NZUplVVB4R0kza08yUTZKOFAxQlVrMTMzZ1R5cHppMXpwa29NSFJ3LUxsc2ozaVBPR3hWN182SS3SAYoBQVVfeXFMTjlIeWQ4WVUxNHdmcVhPdTdLLWRGX0twWXlXRzZIWG0wLXU3NE5ucWFRUS1taXpmcDFNQlljUXdKaXBxLXg5OTJvR0hZWHFSa05YaUlzSUNNT1F3a195aE9DejlvUk5tN0Y1ZGJWNlJSZnNkWXBGMzJxMlZMYjJERlNUbWViMDNCRF9n?oc=5",
-        "published_at": "2026-10-15T07:46:30+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelenskyy Defies Trump and Orders New Russian Refinery Attacks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
-        "published_at": "2026-10-15T07:31:56+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -304,15 +200,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New North Korea-China bridge finally opens. But will it help Pyongyang evade sanctions? - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qOGtXTWhIVVFwRWJuaUxnSno1clBQZ2h2ZkJVYnFVMDdtU0dfa1RnOWNLM0lXbUlFamZwSzRNWnNUZnI5Q0tsTkx2WUZJQ0t4NGkxanR5V3Znd3h4Ynd6TW9kQVZsbG01OVlXaXBleFBzeTNPOXc3OA?oc=5",
-        "published_at": "2026-10-15T06:05:28+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
@@ -342,19 +229,19 @@
     ],
     "corporate": [
       {
-        "title": "Biotech Stocks Facing FDA Decision In November 2026 - RTTNews",
-        "source": "RTTNews",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYkFBdDR3UGZrRlg0WEcxQU93czhRV3hpdFVuaVhXOXlYX3E1WjlnQmlwTzYtbXZIQ1hnNl9LT2d2dWxJT04yaDRWNXNtWXlEREZxY2NlWkZLMUpueG9FYUtQQVBWWnVWOFpkcFZHMGxqS0xfWUpFYllKNHlvaTNUTkJ1bXR4NllSTWNFdGhfZzYtdw?oc=5",
-        "published_at": "2026-10-15T08:18:00+00:00",
+        "title": "【MetaTech (AP) FY2026 Q2 Earnings Call】MetaTech Partners with Zhengyang Biotech to Target Global hPL Market, Q2 Loss Narrows Over 90%, AI Revenue Share Projected to Reach 73% by 2027 - finance.biggo.com",
+        "source": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ucFg0TmJ0TmZna2Nqd2dDTEFzcndkVFg4WVlIOVlUOVlXYV9ERFlzYVYwLWJDRExxcVhwRm9SZDRsRDhXUFNZNnU2amNoVDhFazNiZnhoMDczd2FNY2h6MnBR?oc=5",
+        "published_at": "2026-10-15T09:14:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "fda concerns unapproved glp-1 drugs retatrutide weight loss - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONVl4X3VkZ3NYQXU2OGFPZEJUUmJPRkRKTmpqbTNkVV8zRFE5bElteTlPZXFjcEZRM1BUUVR5UENSWDBrZUdnZUxPbHZiZjFSUzVHMDlkNzRETnFaX0NwR1RvTGRqWG4waS1obzkxdDZoczRRMXFlSFAxNmFnMGhnZDZSY0lVN1NQSHBrNWstdElnRFJjUnc4UHU2anE4UWF6U2c?oc=5",
-        "published_at": "2026-10-15T05:44:56+00:00",
+        "title": "Biotech Stocks Facing FDA Decision In November 2026 - RTTNews",
+        "source": "RTTNews",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYkFBdDR3UGZrRlg0WEcxQU93czhRV3hpdFVuaVhXOXlYX3E1WjlnQmlwTzYtbXZIQ1hnNl9LT2d2dWxJT04yaDRWNXNtWXlEREZxY2NlWkZLMUpueG9FYUtQQVBWWnVWOFpkcFZHMGxqS0xfWUpFYllKNHlvaTNUTkJ1bXR4NllSTWNFdGhfZzYtdw?oc=5",
+        "published_at": "2026-10-15T08:18:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -378,10 +265,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA clears ImmunityBio’s Anktiva expansion in bladder cancer after regulatory whiplash - Fierce Pharma",
-        "source": "Fierce Pharma",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbWgyZ0ZRYnhzb2g2YnJ5M21ZVjB2eS1wMExHMDRoalhVR0IyY0YzdWVtN1VtcHJzUkU5TF9leDdwaTNWNXptc0FfT0Y1SWtyRVFrV29XTDRJQjhJWktMdW5QdWV6Rkg2SXFTdkRYOHBPb2p3VGZvSXJ1OVItUXBXbWdIVF9UZHRlYTFEb2VWXzdTUFJBSWhOTUhjZ2dXN1J1SnRkUGc5ck5vRkdzb196LUZOakVzbGp6?oc=5",
-        "published_at": "2026-10-14T21:17:15+00:00",
+        "title": "health news today fda approval weight loss drug - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLU4tZTRHWGphdzQtWkduUnBPWDhuVHB1LXh6dFRaYWhNRl92RlQ3R3BSOWZBRFlwTHlBWFVhc0xsYmM1ellvdjlab0lzU1FmYTl2VnAzZXN2aG9mNWNRTWI4RG44cVBFRFRWZVdiS3Y2THhlck1kQzZpSWd3eVhZTDJHeGtZVENZZDVZNXJYa1VsVVRkeklybjFrTQ?oc=5",
+        "published_at": "2026-10-14T21:35:32+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
