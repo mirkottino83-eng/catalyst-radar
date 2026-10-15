@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T05:10:16.877485+00:00",
+  "generated_at": "2026-10-15T05:38:32.100858+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.08000183105469,
-    "wti_change_pct": -1.06214590990944,
-    "brent": 104.36000061035156,
-    "brent_change_pct": -1.6028634616015447,
+    "wti": 94.13999938964844,
+    "wti_change_pct": -0.9990503573756526,
+    "brent": 104.44000244140625,
+    "brent_change_pct": null,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 102.0719985961914,
+    "dollar_index": 102.09700012207031,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.06%. Geopolitica: UK finance minister calls for tighter Russian shipping sanctions - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.00%. Geopolitica: UK finance minister calls for tighter Russian shipping sanctions - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T04:55:00+00:00",
-      "brent": "2026-10-15T04:55:00+00:00",
+      "wti": "2026-10-15T05:25:00+00:00",
+      "brent": "2026-10-15T05:25:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T05:10:04.304660+00:00",
+    "updated_at": "2026-10-15T05:38:20.131764+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,7 +50,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -78,10 +78,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "'Mother of all bombs': US potential Iran strike plans include largest non-nuclear weapon - report - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVeVQzcUFKRzBJWUVWT01RMWZfeUxoajdGd2tsVXhMZVRIV2RwbVotQ0tCT3B3NE1mY1ZibUp4Z3dScmhZa0NjYW01TUtGaTY0SlFNczlRdUMzZnN6MHd5VUZ6TXM1RFhTMkE?oc=5",
+        "published_at": "2026-10-15T05:11:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Emboldened by hybrid car deal, Europe coalesces around tougher China stance - South China Morning Post",
         "source": "South China Morning Post",
@@ -92,19 +101,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Two cargo ships sunk in Strait of Hormuz as Iran ramps up attacks in run-up to midterms - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWt5dWE5MFQwOFNCVHdMb3Z2ZHRnMHczOG1QMEIyeW1ycXlFWTJnNUxOT0FTYzhwdTFMMmZhYjN4ZFVJbkNmS0NsdTJieWFLZ1RwQzU4WDg1MmxpdXlNLTNwV3BBZS1Gbk5wUDZ4Qy1mUG9uYU1FNEFyM0V5WlFISVE2a0IzX3U2N29z?oc=5",
-        "published_at": "2026-10-15T04:06:01+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine to resume strikes on Russian refineries, Zelenskyy says - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdnNwRlc5RTM4bnJwZW9fRkpkMGJlM0o1RkxuNUZJVlV6dXgxZGZaMkthMFlXMHVoSXI1RUJlTHN4V21hNlJnaWt1REtZUFhIM1hIcFVBMFlqNzZvaDV6Z29BY19fZ09FQkd2NDRybFI3bER3cTAwaDZjVk92VlFLWFBfR3I?oc=5",
-        "published_at": "2026-10-15T04:01:04+00:00",
+        "published_at": "2026-10-15T04:00:39+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -119,28 +119,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Institutional capacity, FTA network breadth, and trade efficiency in China’s aquatic-product imports: evidence from a true random-effects stochastic frontier gravity model - Frontiers",
-        "source": "Frontiers",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85SHNxeTh1c1ZDcV9GcTZ2VFJnZ2VJbGVNaXRaZkcxVlRLRFZsd19xWUdzUENiUlhmejRwbi1WWE5ZaFhFMzhLeUVraXNDZk5HVTd4Q2cxaFJfWW8yUld6amJYMWZlcllRUGg3cXVFMi0?oc=5",
-        "published_at": "2026-10-15T03:23:16+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump on Iran talks: ‘I don’t know who the hell we’re negotiating with’ - The Hill",
         "source": "The Hill",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQnZLclE5emN0cDg5LXZ0SnNNR1Q3SVRKZzJrbG9mZEVMOXZDVmdkWE5PN0IzUkdleEItaWp2SWd3bVZsSUk0QXppanUwc25RcHlORW00eDI3RC1pRzFJODZVY2xJUklPakVnZXlocTZlREJ1c2loeXBKNHRHbFhGNjUzd3l4WmFT0gGOAUFVX3lxTE81YXNsQUtaT0N4MnIwc21ta0tlVUNEV3d0eTR3RGpjR1Rqa1A5TVoyMml5aktSbDJYbklscm01S1NsWVpxaGpvNUtEUTNwLVg3MG5oWnRSMXNfN2lkX0FObGJzeWRVa25Cb2o4cmRFbG4tY0pKZkYyR081UDFiZWE5ODhGQWJaX19sZWhMVkE?oc=5",
         "published_at": "2026-10-15T03:19:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
-        "published_at": "2026-10-15T03:04:20+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -152,6 +134,15 @@
         "published_at": "2026-10-15T02:49:09+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China, North Korea Open Long-Stalled Bridge, Boosting Trade - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1VWd1RiZnhRdmJxMmgzVkdjdmlxTjJGMklmSjlDTlRxQW92UERUV0djUzJOS0lOT1ZJODRRWkhTUUFDWmt0QXhLSjY3V1FiUDZBTGMwSTd6YjJXNHRYbmhtbTE4ck1qTnBSNWFPenpJRWNLU3U3UExySHpFcGhfN0t1REstVFNyU2F3dk1MU2UyRGdnRG81aE5MbEFqbjhoQ1ZVeGNqTzlBTlZk?oc=5",
+        "published_at": "2026-10-15T02:40:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -173,15 +164,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Elon Musk Blames U.S. Government for Starshield Speed Limits Disrupting Ukraine Drone Missions - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORC1hckw5S09sR21nVTl0Zk0yZTcxX1VfRmo3b2RFRUtsMGdsNnRON1RXTjJXS3pjM240eUluclhTenpndXFaTFRaWHZxdWxUM0dBcDZLb0xKdTVKOTl0UE55bXY3cVhuZVZ4cXU4emVuRmhCcDNKTU9wTi1yc3BfN3Y1T0FQLUZUOWJpUE5RbFpQU3BCbnJJYjZYMFlzOVY3bG45MWowWkl6MWwxOTRPdTJaSVY4dl9fMXhPZlkyVUVNclByNnRrb0xUMHItWFk5ZDBSZFNoYy02S0pSdjlWa283QUs4LUtrcWc?oc=5",
-        "published_at": "2026-10-15T00:08:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdC1hR0pwcGJWU2NSX0szSlhYNlBMYUc2Y1ktS0NseE5MeEVKdE9jUVVqUHlva3dxeDg4NXRTQXM0UlpyMWJlTHNSN1ZiOWFqcWdIX1NNcGRhYzBsak5iVnZrYnJaX2xGbkRLcjNrQmFkUUd2ejVHWm0ydVJ2RVJhS1VFbkRhTHg5MVJXbnJDQ3YtRmVLWWpKU2xwUXNZSzMtUWI4cjJfaXp4djM0V2lQQmc4X2VsaVkxMHFpVUZ2bWNLaldpQnBNZmNn?oc=5",
@@ -191,12 +173,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China and EU Risk New Trade Clash Over What Comes After Car Deal - Bloomberg.com",
+        "title": "EU Risks Bigger China Trade Fight With Plans to Expand Curbs - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFFab1J2UDE4cm1FY1plbUJDdzNOMi1tNXVxeUNYN1RicnJyOG5jaExXaHVMN1JWUTk4cUlfYUZaYVUyTkFnUDFCS1Z5ZmdnUVkyNXAtd0xycnU1VlRnLXZEWlg0QmJ6STZkMzZfeUYzaGtwS0lZekFTS2NvWkJHWWNGeEp2bjZXQXZlVklaQm5xZ0EwZnpSTnNBdkd5bXlOVVlPV1RodU10ckVTdmEtSkItcmhGQQ?oc=5",
         "published_at": "2026-10-14T23:00:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says ‘leakers should be shot’ for disclosing timing of Iran strike - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOV9sbHdsbTdHc1lKbHVlV0RpLUJ3WG5XclFPV2ZOQWNHVTNndmhiMGNNeERBeVAxVWNLVUdiSzBibC1ScnVKckxJblg2RDBvSFJTMzZ0TDNyTHhPMXpGSzl2bWVHZklZTmtCaWJiLVZpTVJEMk96Mkw3UWlBQ0lWQkc5VzZfd01NMUpacndfN3U4cmhOajdCcndvS2pWQmgwYlFYV0V6Q0V0UTJBSDJzMXp3?oc=5",
+        "published_at": "2026-10-14T22:41:18+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukrainian drones are forced to slow down by sudden restrictions on use of Starlink - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWRmRG9DZUlZX3NNS19fcHRySUhIMlZadTN2YjVTdkdOQl9NT0lhSmJtdHM3ai1xMU9oQU1PVVRtMmdVbEFndlVWSXFJX2Y5RVEyRXlTQTFJclFBSHN3eVo2NlpMSlNrOWZfZ2hLR0VKZms1enQ1VjdicVdsN1R1RFVDVkJMLW5tQmUtbGpUN1JMMG5YWDNQSG9GVURLVmVZOVlzOFF1elAxR0w0?oc=5",
+        "published_at": "2026-10-14T21:02:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -229,9 +229,18 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - KOA 850 AM & 94.1 FM",
-        "source": "KOA 850 AM & 94.1 FM",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOEQ2VnJGNWYxRUFBRGtHZHNsVERxb19MNTdLRWtYaGIyU0tUT0J4U2dZV2o4M003UmRQcjhaMWxOQTZxMjhBcEpRWTI4UVRfN055YTR6Vnp0T19MOEpKcDdvSXV0dUhqUnB1QlhXSGtEM0p6aWpHYmM3ZDZ1Z2ZYRTY2U3lOcHhTZDItZU4wRXVELVBjZ2VqQ1lWWmNpVVM5dkxVOGZjNHc1a2dHOUdr?oc=5",
+        "title": "new fda approved diabetes drug for weight loss - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeU56ZGhGUjZoOU5tNU5NODFxYUcxc0swQlVFdFo4Y0NDdUdINEpSM0dudC1CZjNDYTBha3RnajhwX3kyTExjbTI1OWpTU1ROaG13MF9CcE9vY1R2aUJPNjYyRElKUzNQbWFyUF96QkpEWFZQc1Zma040QVVyWDR2a3c2ZldhNDV3dUx2ZkhHazl5bDhOcmtvQjE1WkU?oc=5",
+        "published_at": "2026-10-15T01:26:53+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - NewsRadio 1370 AM & 92.9 FM WSPD",
+        "source": "NewsRadio 1370 AM & 92.9 FM WSPD",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSmNNN3FFUmNrRlR2ejB0VDZUYURDaThObVEtajl4S2lSZlRRWnRYdWxtazk0clFBYVptSjhiUmZEV2dLYkdadGNfczRNeFJMdGtFVVVJZ0taRUpYbU02RGZjMDZGajE1T3M5NktiYmwzcG5ULUF5c1dPSU5sSEk3cXUyQWp6d3BVMDd3U21jS1Y1aGtfTmlIdl9Kek95QXBjZEM2a1ZR?oc=5",
         "published_at": "2026-10-14T23:26:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
@@ -269,15 +278,6 @@
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-14T18:24:30+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Dr. Mantzoros: A GLP-1 Therapy Received FDA Approval for Fatty Liver Disease - The National Herald",
-        "source": "The National Herald",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOTJBaGU0OXV3ZXFldHphenpnbU9ZWFo3X2VYcEw4LUFhMjJKdWpaaFVDVWg2MW1qZkFGYVJPcFZ1NTJOaGUyN3hiNWJadGk4ZWhIZXpBM3NPNERjMUxoZXplbGdCaUFOTDFNdnBJTjVNUkdfeXF3Zl90RGp3QlBhRXlYblhoWkE0NUgydFFaaERsSTdLcVZ5Y2NkVzdhbHBWdWRVUFczbjVRZzhqVXc?oc=5",
-        "published_at": "2026-10-14T18:14:08+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
