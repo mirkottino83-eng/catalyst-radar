@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T00:44:55.857742+00:00",
+  "generated_at": "2026-10-15T01:18:11.160308+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.48999786376953,
-    "wti_change_pct": 0.37178508220765405,
-    "brent": 105.37000274658203,
-    "brent_change_pct": -0.30277196275174667,
+    "wti": 94.33999633789062,
+    "wti_change_pct": 0.21244630288810296,
+    "brent": 104.97000122070312,
+    "brent_change_pct": -0.6812387208546933,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 102.14600372314453,
+    "dollar_index": 102.09400177001953,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.37%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.21%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T00:30:00+00:00",
-      "brent": "2026-10-15T00:30:00+00:00",
+      "wti": "2026-10-15T01:05:00+00:00",
+      "brent": "2026-10-15T01:05:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T00:44:43.990948+00:00",
+    "updated_at": "2026-10-15T01:17:59.356381+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,14 +51,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
@@ -80,7 +80,25 @@
         "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTQ1YVV1NndsUkRwTV8wUTVHNC1wdXF1UERVd2trVDFTa2ctQTF4dENSQU43RV9CaHh3ZFBLalBlV25oMkpwbnd6VlJLMDQ0YkNTNy0ycFRHZUZFVnNuOTlYMEpfTXhqdUk0cUZuanNrR0ZQYjFBRnhfdWZrV2NIREdub2VEQ1VrVm40aUNlWEF5Z0N0M29BVno4SDdUSnZGR196SmRPazFnQnZrNHBPTmhMUTZZWnVZZlRRTzhsVQ?oc=5",
-        "published_at": "2026-10-15T00:38:46+00:00",
+        "published_at": "2026-10-15T01:16:12+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
+        "published_at": "2026-10-15T01:00:55+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Elon Musk Blames U.S. Government for Starshield Speed Limits Disrupting Ukraine Drone Missions - NewsCord",
+        "source": "NewsCord",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORC1hckw5S09sR21nVTl0Zk0yZTcxX1VfRmo3b2RFRUtsMGdsNnRON1RXTjJXS3pjM240eUluclhTenpndXFaTFRaWHZxdWxUM0dBcDZLb0xKdTVKOTl0UE55bXY3cVhuZVZ4cXU4emVuRmhCcDNKTU9wTi1yc3BfN3Y1T0FQLUZUOWJpUE5RbFpQU3BCbnJJYjZYMFlzOVY3bG45MWowWkl6MWwxOTRPdTJaSVY4dl9fMXhPZlkyVUVNclByNnRrb0xUMHItWFk5ZDBSZFNoYy02S0pSdjlWa283QUs4LUtrcWc?oc=5",
+        "published_at": "2026-10-15T00:08:41+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -91,15 +109,6 @@
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdC1hR0pwcGJWU2NSX0szSlhYNlBMYUc2Y1ktS0NseE5MeEVKdE9jUVVqUHlva3dxeDg4NXRTQXM0UlpyMWJlTHNSN1ZiOWFqcWdIX1NNcGRhYzBsak5iVnZrYnJaX2xGbkRLcjNrQmFkUUd2ejVHWm0ydVJ2RVJhS1VFbkRhTHg5MVJXbnJDQ3YtRmVLWWpKU2xwUXNZSzMtUWI4cjJfaXp4djM0V2lQQmc4X2VsaVkxMHFpVUZ2bWNLaldpQnBNZmNn?oc=5",
         "published_at": "2026-10-15T00:06:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
-        "published_at": "2026-10-14T23:30:55+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -140,6 +149,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Iran-backed Houthis struck Saudi oil giant Aramco’s executive offices, officials say - Sentinel Colorado",
+        "source": "Sentinel Colorado",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUpFaXBmVHM0TzE4UDEyU0xpclpmendQR1RYSmc0NW16dFZtblhDckw0XzhmdlNINzFYcWkyMmx6TW1xZFhQaWd4SjlndlZZcFd5NWdLUEVTblVTSDdYb2xtc2JZLXduRHhWcC1Jelp6cmQ5cWlLR25lenZDQm1RVkZkRmJVcXVIUkVURFNYeDFCVk83Tm1OMzJQZWVqZU1GYk9vNGFnWXpnc1pYNTJpNjhlSUVCRlgzVTVweFhiMDE2Yy03?oc=5",
+        "published_at": "2026-10-14T20:31:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Ukrainian drones lose some speed after SpaceX imposes sudden restrictions on use of Starlink - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWRmRG9DZUlZX3NNS19fcHRySUhIMlZadTN2YjVTdkdOQl9NT0lhSmJtdHM3ai1xMU9oQU1PVVRtMmdVbEFndlVWSXFJX2Y5RVEyRXlTQTFJclFBSHN3eVo2NlpMSlNrOWZfZ2hLR0VKZms1enQ1VjdicVdsN1R1RFVDVkJMLW5tQmUtbGpUN1JMMG5YWDNQSG9GVURLVmVZOVlzOFF1elAxR0w0?oc=5",
@@ -162,15 +180,6 @@
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?oc=5",
         "published_at": "2026-10-14T19:20:21+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Cargo ship sinks after Strait of Hormuz strike causes fire - Transport Topics",
-        "source": "Transport Topics",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdGZtZkpPMk15YkxWZl9adWJIdDZGbW5aV19BZ01ob3FnQTdkNUVoSzItbnFYeDJvTnhKd004OUVIY01iNzFrUDNWVEZkaDY4TXZydVUxMUtUcEFOUFdNT1d5ci03bHMyZTFn?oc=5",
-        "published_at": "2026-10-14T19:10:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -201,22 +210,13 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Sudden Starlink limits sap Ukraine drone power as Kyiv fears U.S. intelligence squeeze - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb3pjYWhKOU4xWmJfT040ckJEMDBZMEhfMV81eHJUb3ctOWNsQ25TUHBZbGF1NzM5NV9ZYlluWXdUcW5JVXZPa0Y2NEh6TUM1MGF1UWM1SzVNWHBIbVV3eFFMR016cXlYcjhHS05RT3lpbjBPam5QR2dJM0JKVjhKQ1laQ2sxWGZVOWxULTl6R0tUa29Ec3BfNTFLbkQxLU5zelF1Ty1MY2lQWVBwc3ZiRThZZTlUc3BHUWVfLdIBwgFBVV95cUxObURJSHdGWDRDVVh6TUlNNkRmQ3BPUGF6Z1pEV0ZaaEc4RndsaDlsUFlWNV94U0JKTVU2S0UwSFlwR0gzaFhESl93YnJveUI4cGR5RTlhOUg2WHA0TlhJV0FBRkx4c092NXN2Q282Qk0zTEE5MzEydHhiTE1QYWRRYjBRV29zMmFjWHdqR3ItQVpxWlprdDdCR1VlZy0wLV8xSks1R2dCSFEzeEpEUTV4cFRPQlViMmlFVXpxdFk2UDZsUQ?oc=5",
-        "published_at": "2026-10-14T16:09:18+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - KFBK News Radio",
-        "source": "KFBK News Radio",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOHVvUktJS3JHTnA0dnBLMjY1NjU1eE5LRjc2QUE2ODJMSUJ3STF2X2ZVbUlicjFvUHk5ZEc3akZ5ODYzRmx2SzlBWVJ3Y2tCVHZkQnFzcDBUTEhaRzh5aXpCUUpIWUdNRUZFc3VMZjhncXg3QnlJd1FodTRiVGl3M0pWckdzNS1HNXZBakVVUGZhZzd5OXZpZzBGaEotcVRxX09lMWZB?oc=5",
+        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - KOA 850 AM & 94.1 FM",
+        "source": "KOA 850 AM & 94.1 FM",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOEQ2VnJGNWYxRUFBRGtHZHNsVERxb19MNTdLRWtYaGIyU0tUT0J4U2dZV2o4M003UmRQcjhaMWxOQTZxMjhBcEpRWTI4UVRfN055YTR6Vnp0T19MOEpKcDdvSXV0dUhqUnB1QlhXSGtEM0p6aWpHYmM3ZDZ1Z2ZYRTY2U3lOcHhTZDItZU4wRXVELVBjZ2VqQ1lWWmNpVVM5dkxVOGZjNHc1a2dHOUdr?oc=5",
         "published_at": "2026-10-14T23:26:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
