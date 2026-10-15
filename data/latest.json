@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T00:07:01.760880+00:00",
+  "generated_at": "2026-10-15T00:44:55.857742+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.76000213623047,
-    "wti_change_pct": 0.6585965058442556,
-    "brent": 105.6500015258789,
-    "brent_change_pct": -0.03784739767559442,
+    "wti": 94.48999786376953,
+    "wti_change_pct": 0.37178508220765405,
+    "brent": 105.37000274658203,
+    "brent_change_pct": -0.30277196275174667,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 102.20700073242188,
+    "dollar_index": 102.14600372314453,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.66%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI +0.37%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-14T23:55:00+00:00",
-      "brent": "2026-10-14T23:50:00+00:00",
+      "wti": "2026-10-15T00:30:00+00:00",
+      "brent": "2026-10-15T00:30:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -32,24 +32,9 @@
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [
-    {
-      "ticker": "SNOW",
-      "company": "Snowflake",
-      "category": "Cloud / Software / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -6.73,
-      "short_term_change_pct": 1.11,
-      "relative_volume": null,
-      "quote_at": "2026-10-14T23:55:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SNOW"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T00:06:49.595681+00:00",
+    "updated_at": "2026-10-15T00:44:43.990948+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -73,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 15
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -95,7 +80,16 @@
         "title": "U.S. warnings sow confusion, alarm in Ukraine over intelligence, Starlink access - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTQ1YVV1NndsUkRwTV8wUTVHNC1wdXF1UERVd2trVDFTa2ctQTF4dENSQU43RV9CaHh3ZFBLalBlV25oMkpwbnd6VlJLMDQ0YkNTNy0ycFRHZUZFVnNuOTlYMEpfTXhqdUk0cUZuanNrR0ZQYjFBRnhfdWZrV2NIREdub2VEQ1VrVm40aUNlWEF5Z0N0M29BVno4SDdUSnZGR196SmRPazFnQnZrNHBPTmhMUTZZWnVZZlRRTzhsVQ?oc=5",
-        "published_at": "2026-10-15T00:04:36+00:00",
+        "published_at": "2026-10-15T00:38:46+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdC1hR0pwcGJWU2NSX0szSlhYNlBMYUc2Y1ktS0NseE5MeEVKdE9jUVVqUHlva3dxeDg4NXRTQXM0UlpyMWJlTHNSN1ZiOWFqcWdIX1NNcGRhYzBsak5iVnZrYnJaX2xGbkRLcjNrQmFkUUd2ejVHWm0ydVJ2RVJhS1VFbkRhTHg5MVJXbnJDQ3YtRmVLWWpKU2xwUXNZSzMtUWI4cjJfaXp4djM0V2lQQmc4X2VsaVkxMHFpVUZ2bWNLaldpQnBNZmNn?oc=5",
+        "published_at": "2026-10-15T00:06:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -105,6 +99,24 @@
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
         "published_at": "2026-10-14T23:30:55+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China and EU Risk New Trade Clash Over What Comes After Car Deal - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFFab1J2UDE4cm1FY1plbUJDdzNOMi1tNXVxeUNYN1RicnJyOG5jaExXaHVMN1JWUTk4cUlfYUZaYVUyTkFnUDFCS1Z5ZmdnUVkyNXAtd0xycnU1VlRnLXZEWlg0QmJ6STZkMzZfeUYzaGtwS0lZekFTS2NvWkJHWWNGeEp2bjZXQXZlVklaQm5xZ0EwZnpSTnNBdkd5bXlOVVlPV1RodU10ckVTdmEtSkItcmhGQQ?oc=5",
+        "published_at": "2026-10-14T23:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says ‘leakers should be shot’ for disclosing timing of Iran strike - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOV9sbHdsbTdHc1lKbHVlV0RpLUJ3WG5XclFPV2ZOQWNHVTNndmhiMGNNeERBeVAxVWNLVUdiSzBibC1ScnVKckxJblg2RDBvSFJTMzZ0TDNyTHhPMXpGSzl2bWVHZklZTmtCaWJiLVZpTVJEMk96Mkw3UWlBQ0lWQkc5VzZfd01NMUpacndfN3U4cmhOajdCcndvS2pWQmgwYlFYV0V6Q0V0UTJBSDJzMXp3?oc=5",
+        "published_at": "2026-10-14T22:41:18+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -182,33 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5",
-        "published_at": "2026-10-14T18:32:19+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Fruit at the Forefront of a Trade and Diplomatic Push - Global Taiwan Institute",
-        "source": "Global Taiwan Institute",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMHRyZ0RoRVdoUHZUa2pCZ3Bta3lkNzFfTDBfYlNEVmtBWm1rZk9RYlBhM1h5bndSbmQtNTgyY2ZHZm1Od2ExblZHY0xLUWJDazNQSDNDRkFIOTZOMFBlLW5oSHVWUmdzbTEweTJzRzk0YnhxLWc3clhDSHpVcnozWkFlLW1KYlRsR3JLUXBhVHk?oc=5",
-        "published_at": "2026-10-14T18:25:07+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia strikes Ukraine’s energy sites despite Trump’s ceasefire announcement - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUk1GdnFheUROUzhZQVJIS1dLOVhfRy13OTQ5cnpRdFZQRFlwcW9nc3ZPaGs3NVNQWE91ejJhNU9lZVpxeFEzSVg5cF9DUGlLbFFteXhjckNwMlRxTVlxdlpjbVlsVEFTWXV5WHo2TzY4MXRJNlM4bjk3dWNBanU1aHZMSWNvbHlNR1B1Y1BSc0t2QXU4UjlxUXB2ZVRaazN6Nm5RTW14b3h0dE42dWVOTnNR?oc=5",
-        "published_at": "2026-10-14T16:36:08+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Bulgaria expects to join NATO anti-drone initiative this month, says minister - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlIxWW1TMjZYeUY2Y1p6TkZwdWZQREN1MjktX3hEa2ZSbVNRbzRqVDVaUmMyYmpJdUxEQlZocEttbHZSS1NEVWszaXVfOW11eUpzRV9Lem1odnJ3bi1JTjJiYVhFVEUxd2xqSGh0VXhXTjJTN1l4WWdReHp0UzI2SktHWGZHcnphSjZOcEdKcU5xb2JablpwS1BZUktuRURNVE9uMWVieFJZbjZqMTNlcWJoOWx6WE0xblpJT1gzRQ?oc=5",
@@ -229,20 +214,20 @@
     ],
     "corporate": [
       {
-        "title": "Navitas Stock In Focus After Nvidia AI Power Board Launch - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVEU3QkFuTE1LOV9nNUpEUjR1NFJpNnJnNXJVNG41bl9udmppRXdtN0xidEJyaTZnZjh2c3pVOHNPNUoxa2hQQTF6SHlxTHpJNzFuMkdxVnF1RmNjY3N4N1FMSy1GWmNaaWFzVE1WMmZ6MWJSOUN0bEdEanpmNEtjQkNMVTc3Smo4a0tJalg3U3hWUTZrcmViMUlPM0VJdjJrUWQ4cEJ5b3Jhb2ZSME5YSGRXVkdRRzdKcUdsNEppMGhVdU0tVTVXNFNKYjFjc09Ta194LXNfa2RPbVHSAeABQVVfeXFMT3p1YUJhcGpIc2dFcFQyU0VVcGxMVzhFaTV5dDZRamtGWUEycGQ3amoxd1ByRUYyMGs3Rl9LcGd3aHdaZ2M3R2pvaDVRSHdnSnlrOHZKZTRaZnpPTVhCTk53ek10aDBncjJsVWhKQzVuU3I2N1Fxc2ZEWHRZaXRtWXpiNFJRM2ViZVFJZVFzSHlsTEw2R0R2RjZXcUpmaE9Ha0JCdWtCREFPLXp6SEdJcTdpaXdJbGt5bXpUc3cxU01EQ2E5S0RNZ1g4WFBVaHQ0ZTFQVW1DTEVqOXBVTWY5eVM?oc=5",
-        "published_at": "2026-10-14T23:48:04+00:00",
-        "area": "Titoli tech e AI",
+        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - KFBK News Radio",
+        "source": "KFBK News Radio",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOHVvUktJS3JHTnA0dnBLMjY1NjU1eE5LRjc2QUE2ODJMSUJ3STF2X2ZVbUlicjFvUHk5ZEc3akZ5ODYzRmx2SzlBWVJ3Y2tCVHZkQnFzcDBUTEhaRzh5aXpCUUpIWUdNRUZFc3VMZjhncXg3QnlJd1FodTRiVGl3M0pWckdzNS1HNXZBakVVUGZhZzd5OXZpZzBGaEotcVRxX09lMWZB?oc=5",
+        "published_at": "2026-10-14T23:26:00+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - 650 KENI",
-        "source": "650 KENI",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM0F5YzNrOVhqd21IYkJuMUpvbVlXMVZCcTk2VDlKN2U2LUdERXZ2d2NMeTlvTlU5VDdfMnpQZXNkcktsV1BlRVR4TEc5TFdNSnFaaEFaODloVXotVmtRY0tod2dPLUlxc1oxNnV1dVJqOFgzVmc3VjlZaVlxVXQzam0yTnBlUF9UYUJtWjF3Q2M2RmpGT3BSaV9qYUg5SVJIZ2FIdm1sVG1PUQ?oc=5",
-        "published_at": "2026-10-14T23:26:00+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For? - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUzNibHkxcXpGVU1NNE5xVTlpU0NRWFo0R1JZdTRGRUR6MnFfTGx0aXl0ZFY5UGl4T2NPX3cxQWdNWTVvUTFaOGNFaGNLTkdBckoxR2xMUlQ0RHFVT0ttRGZROFlwY3ZCVlJ6aHA1TFpWc0pGNzFpV21SbC14RzlTdDhucWdCRkxBSDZrLWRR?oc=5",
+        "published_at": "2026-10-14T21:57:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -252,15 +237,6 @@
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbWgyZ0ZRYnhzb2g2YnJ5M21ZVjB2eS1wMExHMDRoalhVR0IyY0YzdWVtN1VtcHJzUkU5TF9leDdwaTNWNXptc0FfT0Y1SWtyRVFrV29XTDRJQjhJWktMdW5QdWV6Rkg2SXFTdkRYOHBPb2p3VGZvSXJ1OVItUXBXbWdIVF9UZHRlYTFEb2VWXzdTUFJBSWhOTUhjZ2dXN1J1SnRkUGc5ck5vRkdzb196LUZOakVzbGp6?oc=5",
         "published_at": "2026-10-14T21:17:15+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For? - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUzNibHkxcXpGVU1NNE5xVTlpU0NRWFo0R1JZdTRGRUR6MnFfTGx0aXl0ZFY5UGl4T2NPX3cxQWdNWTVvUTFaOGNFaGNLTkdBckoxR2xMUlQ0RHFVT0ttRGZROFlwY3ZCVlJ6aHA1TFpWc0pGNzFpV21SbC14RzlTdDhucWdCRkxBSDZrLWRR?oc=5",
-        "published_at": "2026-10-14T21:11:59+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -314,6 +290,15 @@
         "source": "NVIDIA Newsroom",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
         "published_at": "2026-10-14T16:19:53+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations - Honeywell",
+        "source": "Honeywell",
+        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeTRyTTZZSXZWSGVQRjVmUEdzb05ta2RzZEhUSWdoU0JIUDVXNnV6Z2YwZ3lITGdUSUcwWTB1Z3l2bFJiX3EzaHp3WVlILXJfTzZkZHJmazE4cHZQTWhPY05HLVJnaFQteFBQempGOHB3Q21LMkR1d1FIM2VCem1JUTNRU09RTnZOalJGOXl3aU81WUJFSXhhQ2wxTFdlUTc3bkpFZWF4LWdMVmZwN2VNek44ODE0bW5KY0JLUDhZQTcteHVoOG1OaGY0eFd5VmhmWGo3YkF6Q0pXMllqVnBlcXJONW15S0JYRUFZaHh4bGhCQ3dOSF9TeGZ0aEF0amZQYlJQQ0RqWTFQa2NJLVlhalhHMDlhN3NwLWF5NVdOc2FtbkJiQ3QyamxpRDUzY3M?oc=5",
+        "published_at": "2026-10-14T13:02:07+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
