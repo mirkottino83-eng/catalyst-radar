@@ -1,55 +1,40 @@
 {
-  "generated_at": "2026-10-15T09:37:11.851286+00:00",
+  "generated_at": "2026-10-15T10:08:40.643334+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.9800033569336,
-    "wti_change_pct": -0.11567250519832761,
-    "brent": 104.0999984741211,
-    "brent_change_pct": -1.8480097393834494,
+    "wti": 93.30999755859375,
+    "wti_change_pct": -1.8719096096837196,
+    "brent": 103.5999984741211,
+    "brent_change_pct": -2.319441015556889,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 17.3799991607666,
-    "vix_change_pct": 3.0231078610685858,
-    "dollar_index": 102.00399780273438,
+    "vix": 17.489999771118164,
+    "vix_change_pct": 3.675156496986509,
+    "dollar_index": 102.00800323486328,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -0.12%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.87%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T09:25:00+00:00",
-      "brent": "2026-10-15T09:25:00+00:00",
+      "wti": "2026-10-15T09:55:00+00:00",
+      "brent": "2026-10-15T09:55:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-15T09:20:00+00:00"
+      "vix": "2026-10-15T09:50:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [
-    {
-      "ticker": "AMD",
-      "company": "Advanced Micro Devices",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": -8.01,
-      "short_term_change_pct": 0.88,
-      "relative_volume": null,
-      "quote_at": "2026-10-15T09:36:05+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMD"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T09:36:58.271705+00:00",
+    "updated_at": "2026-10-15T10:08:28.910286+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -66,21 +51,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
@@ -92,10 +77,28 @@
     ],
     "geopolitics": [
       {
-        "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce - Audacy",
-        "source": "Audacy",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbTdPZV9Ed1dqeDAyMlo2TjVGQ1Z5cXdmazdnMmY0amlmS1BVenk0ajFHVGRzbDhiWjNrb2Y1TVA1VlJERXBsemxrdmZ2MWlDcFJYZm82SWp5SU9hZ2dRanBrbFZRWHJNNEQwbGJ3aFpWMTlrSG9RNE5hbDlaY2pnaV9tSmNkRTgxV3VxMUlnanZCbVRoU3J5NEFLOFdoblVEZ0V5dENvVS1ZQU1XR2NLMmljS2JjdG9sU2s2VFZMQzJFdw?oc=5",
-        "published_at": "2026-10-15T09:14:00+00:00",
+        "title": "Why Trump’s diesel deal with Russia may not actually lower prices - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0MxRGV2Z3JPUWo4Yk05Nks2N2xseFVJa3VaM0ZXTzJzemktcy1ES0lSYnRGX0VHSHoxR2xGRk9kbk43anJib0hQQUJLOGRxUnpnMVBxaUtzUTEwVHl0UTk1ZnRmdXZoOFgzOUVkSW80YU1raTRjT2JFUnQ0WVMya3dEYnVkQ2hqcUF6MEZ1elR2U0JuSVE5QnB2Q0ZWYlE?oc=5",
+        "published_at": "2026-10-15T10:00:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce - KTVN",
+        "source": "KTVN",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMmN6TjhtdmhEajZ3dFh1VW52WGgycXFJSUpQY25Td19xY21kSmxXbkljV3V6YzlHMmpoOEFMa1FPQzd3VnRLQkJZcDFXTUVjZFBubjdiUzBMR3U2M3VaNDJYODVfelZoby1tc2tDZmJnRmlTWDM1UlV5R2ZZanFxS1puV0NRYnUxTjZBb1FYT1kwb1E2NGpyTjJDTHQyQmVjWUVRcEpNa2xYVUpIbkZGWVRIYmc0VVRld2hFWHFzaHdTaGluQkdlTUVmLW5YWFlHeDg0VEFqOGRRTllQZldMQnZueW5Mc0I3bWhtVzE3T3ZHZXdPR3Mw?oc=5",
+        "published_at": "2026-10-15T09:28:02+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger mounts with Trump - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGlmVmZvMDNPb3VjRGN2ckNvY1ZaaHRxQmdENlI4U1hLX2tNZlVHR2lzdEt1cTN1RnZldFQwRlFzMW5jMkNsbXlYYVhmWktsRXBtdU1EN0E2ODFpWWNtenBSSjVIYS1QWHluTzFiT3BiV0pzbl9IVEZHcmNWZGEyUWUtYXFONDhBYURjdHc5WDdzZFlEZ042YVJkMUFiaTNQX0hTd01hZFdqMG9yNXIzQ0ZFUGs3cms?oc=5",
+        "published_at": "2026-10-15T09:17:21+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -119,30 +122,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger mounts with Trump - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGlmVmZvMDNPb3VjRGN2ckNvY1ZaaHRxQmdENlI4U1hLX2tNZlVHR2lzdEt1cTN1RnZldFQwRlFzMW5jMkNsbXlYYVhmWktsRXBtdU1EN0E2ODFpWWNtenBSSjVIYS1QWHluTzFiT3BiV0pzbl9IVEZHcmNWZGEyUWUtYXFONDhBYURjdHc5WDdzZFlEZ042YVJkMUFiaTNQX0hTd01hZFdqMG9yNXIzQ0ZFUGs3cms?oc=5",
-        "published_at": "2026-10-15T09:01:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia builds major new drone attack base in six weeks, satellite images show - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUWp1N3V3WmtFN2xwQWlfa285NVRlVlVvS1VUR19EcHpCSE5aaDFzR0I0YTZHeG5XM0FNOEJDaEtFYUhHaFMyekg3LUJZd0lyeVhfeFVLS1pqbzExTDJoYWdfa2N1NFNfZjIzMXhTM1FGcWlnTHIyQWNxZDY3NmdOWnNmZHNPeEhGZjMyRnV5ek0yOHVxZFJBTDdiNmxHQlg0cjJqbUNQZFUwYkFOSk5udXQ4a19WQkVfdnFSV0RidFRJRWZLOWtjazlkMk5nYjA?oc=5",
         "published_at": "2026-10-15T08:54:50+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia Says Oil Refinery Hit as Zelensky Says Ukraine ‘Done’ With Ceasefire - Newsweek",
-        "source": "Newsweek",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZDFKaXdUdWc3MXA2RnQzZFNKMGVYTGNLaElSNWVyQ05RYWRuem90cTFQejkxWkVOYzNMMGJOaXNMSTFtVGFCQi1zZ2tpeHZBNGJ0cFhlZmY3SlpkWnZWRV9YYXpIanFmc21sY3NqYWpSQlJGVVVmaUk5amRiRHlleXdDam1IZ0JsRVZNU0Jsa0pMcl95MWhYN25PTkFDbVlIS2NHZC1xclh3UHc?oc=5",
-        "published_at": "2026-10-15T08:29:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -164,6 +149,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
+        "published_at": "2026-10-15T07:28:02+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Houthi attack sparks fire in Aramco facility - chinadailyhk",
         "source": "chinadailyhk",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LS0QyMVl5Z2hOVWVsYlhPUTY4Tjk2RW1mSnR3M1dLQTdYYktpNEM5SVZKUGhwVXdraWJBZjV1NVFJUm5JaWJiVEtKS2NFRlhDdTRISVpGUGw?oc=5",
@@ -173,9 +167,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Lithium Prices Plunge as EU-China Trade Deal Sparks Demand Fears - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNHdOa3NvUUJINUZoVHlxa0hUWWRiUjF2ZF9BeXRYSXFKbkt5dlRUU1JubnRQQ1ZTUTFDVk80Y0hZVTVpODhkY2JUbkZTWGNjNW81QU44TklmZW1fc0tpeFNhS3ZhSlBrY1JTNmxVYXhZaDNReVMxU09RblFiU2RIdTlxSUJvLXlXUDJKUm1xUGY2TDJVdFI1c2taWDAyMTYzQ1E?oc=5",
+        "title": "Lithium Prices Plunge as EU-China Trade Deal Sparks Demand Fears - Crude Oil Prices Today | OilPrice.com",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUk4tZFZPdXFBZG55eE5oWS1tSl9lTkNybVlQSEtJaFVoUl9IZWFlY3EwWUVZYThEQndJNjg1OVVVd2pDWWdUcEhON0lLLWtJRW41eXJ2MEphWHNsNFQxWEtuZmJmYWpyUVBLNnlpOXpOd1NqYXNiVWJVSTBuNVpDbGdBQW4yd3l0ZkVzNVV2bmYtZzRPREVUYmhXYVRwS0VHbzhSSldlNXB4b01vMXJsZjhSbGxyTExwWk51LdIBwgFBVV95cUxQRUYybXBRc0I2dHpCWFNDbWJMdWl5MXBDZHJJOF9wb2V6eGRUOW5LUTBUNUdGM2E2SXFod1U3SXdmdVFuc3ZiSWZlS194LWdaXzkzUGlSLWVoTEZHNEdnb0xKSzdBcDlQei11QWxMLVR5cDRtNEpyZjRWbzEtQ1F4clhPZldjMWw1RXlvWW1SQkotVXdYNmh4VGR4UVJKWXVaZUg3bFpkb1VHMjkxVmtWdHR5U2ZTa3k0NUVrbkhnN1M5dw?oc=5",
         "published_at": "2026-10-15T07:00:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
@@ -216,15 +210,6 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "'Mother of all bombs': US potential Iran strike plans include largest non-nuclear weapon - report - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVeVQzcUFKRzBJWUVWT01RMWZfeUxoajdGd2tsVXhMZVRIV2RwbVotQ0tCT3B3NE1mY1ZibUp4Z3dScmhZa0NjYW01TUtGaTY0SlFNczlRdUMzZnN6MHd5VUZ6TXM1RFhTMkE?oc=5",
-        "published_at": "2026-10-15T05:15:38+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -240,8 +225,17 @@
       {
         "title": "Biotech Stocks Facing FDA Decision In November 2026 - RTTNews",
         "source": "RTTNews",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYkFBdDR3UGZrRlg0WEcxQU93czhRV3hpdFVuaVhXOXlYX3E1WjlnQmlwTzYtbXZIQ1hnNl9LT2d2dWxJT04yaDRWNXNtWXlEREZxY2NlWkZLMUpueG9FYUtQQVBWWnVWOFpkcFZHMGxqS0xfWUpFYllKNHlvaTNUTkJ1bXR4NllSTWNFdGhfZzYtdw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPREhnQWZWc3ZHSjV6NmhSeVBNcnIxMDBZcEpyV3JrZ3BjM09CM3F1UE84T0lDdGcwNFowZEp6dW1GQkp0M2d6R0xLVFMyZ3hZRDVzMzZxVVhwcTIxRGxVSnlKdG9zWkNrZzFmZmtxQXdmbmdyWEVPWEdpMHo1eGUwakltUjhwaktrSkJKVEJvOTZwZ1V4ajJJ?oc=5",
         "published_at": "2026-10-15T08:18:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Stocktwits Pharma Pulse: JNJ Earnings, Cancer Updates And Two FDA Target Dates — The Week’s Biotech Watchlist - Stocktwits",
+        "source": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONF9TM3dUVy1jdk5vQ0ZlYVFjek1rWlZRVlNwYnptRFlrMTBiWldnbW5xQm1yZGdiTTZKMlQ4aHZpMC1rcG9fQnRPNDVVT1lSTjFlbGFqQjNqanhYeEJHMVV1RVZ3N3lSVEMxUzR6dG5WamVfTE8xM2VtRFFiZHdiMWZ4Qk4wQkdrUFJRcjc3RlVTVzF0cHpGNGlRUmdSdzFSNmtUb1MtVGFUN0tTNjRWb2F6Q3RBY0ZybmwtQnlucmthSkpDSUhEeHFJSVhrdmpCVGVUaEh2VzBOb2xPUllfMW9yMTJZVFg1NVBF?oc=5",
+        "published_at": "2026-10-15T07:30:08+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -256,19 +250,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - WGY",
-        "source": "WGY",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEF4QXVMeENZT2VhRjIwN2xqS0NYV2RzVEJ5TVhWM0xka1ZlYjlZY3MtYWpkZ05JNm9aczV6MEN1Z0FucHdyd214X25EdnpUcWJKVjh0Q3JJVVBhY2s5WkV5UHJtZ2xPbWE0WHFuRUx3WldvNk8zR3hkZl92VXYzczc4bHZKREJORFk5WVJZejl5UXRTTHQ3WXB0QXl1RmpQR3ppQg?oc=5",
+        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - 1310 WIBA - Madison's News/Talk Station",
+        "source": "1310 WIBA - Madison's News/Talk Station",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOakpHWHdtQXVYR0hTWGdoakxZbjd2OEt2M09HQ0IxVVh6OFg4QXBvVEdvWEREcEM4LXNmdlF4YU0xbkw4djNOUlV3Q0lwbHVKSU45OUdGbFdCNmsxbWh5UmdLYkNuUDd5d1F6WERwazc4ek0zZzBBV1hoWkJNRzhWcE1XWmZ3QV9JS21GVnpBRFVuYmdnOXRCOUNPMzRfOWk2aHVhT0N3?oc=5",
         "published_at": "2026-10-14T23:26:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "health news today fda approval weight loss drug - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLU4tZTRHWGphdzQtWkduUnBPWDhuVHB1LXh6dFRaYWhNRl92RlQ3R3BSOWZBRFlwTHlBWFVhc0xsYmM1ellvdjlab0lzU1FmYTl2VnAzZXN2aG9mNWNRTWI4RG44cVBFRFRWZVdiS3Y2THhlck1kQzZpSWd3eVhZTDJHeGtZVENZZDVZNXJYa1VsVVRkeklybjFrTQ?oc=5",
-        "published_at": "2026-10-14T21:35:32+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -296,15 +281,6 @@
         "source": "NVIDIA Newsroom",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
         "published_at": "2026-10-14T16:19:53+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Not Nvidia. Not Micron. This Under-the-Radar Artificial Intelligence (AI) Chip Stock Could Be the Biggest Winner in 2027. - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM0JkOHdqTS1DWXVSU1RLWlhvQ0t1MkczQ3FYRmdnNlFNRUZlM3haSUljU2dVeW1yOVJla3FLNjJnMjEyb0JWaENCWVBSbkZnV3FubUZ3ZmNyWDhQRmJLa2V1UEUzV2FTbkNYV0EwaWhQODhEdEVuc2tCdUNlTzdDVm1ZUDRYSV9IX3JFejREa0x2UkJHc3c?oc=5",
-        "published_at": "2026-10-14T14:50:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
