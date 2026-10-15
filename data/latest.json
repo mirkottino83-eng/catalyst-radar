@@ -1,40 +1,83 @@
 {
-  "generated_at": "2026-10-15T11:08:59.058261+00:00",
+  "generated_at": "2026-10-15T11:38:32.902834+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.01000213623047,
-    "wti_change_pct": -1.1357600623124742,
-    "brent": 104.72000122070312,
-    "brent_change_pct": -1.263432367279027,
+    "wti": 93.86000061035156,
+    "wti_change_pct": -1.2935069669878008,
+    "brent": 104.5199966430664,
+    "brent_change_pct": -1.45200919383065,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 17.610000610351562,
-    "vix_change_pct": 4.3864833094566125,
-    "dollar_index": 102.05899810791016,
+    "vix": 17.549999237060547,
+    "vix_change_pct": 4.030814250143511,
+    "dollar_index": 102.01499938964844,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.14%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.29%.",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T10:55:00+00:00",
-      "brent": "2026-10-15T10:55:00+00:00",
+      "wti": "2026-10-15T11:25:00+00:00",
+      "brent": "2026-10-15T11:25:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-15T10:50:00+00:00"
+      "vix": "2026-10-15T11:20:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "category": "AI / Cloud",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": -11.67,
+      "short_term_change_pct": 1.51,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T11:35:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "NBIS"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "category": "AI / Cloud",
+      "priority": "high",
+      "satispay_status": "unavailable",
+      "current_change_pct": -17.72,
+      "short_term_change_pct": 3.21,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T11:35:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWV"
+    },
+    {
+      "ticker": "MT",
+      "company": "ArcelorMittal",
+      "category": "Materials / Steel",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -0.14,
+      "short_term_change_pct": 1.2,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T11:35:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MT"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-15T11:08:48.278609+00:00",
+    "updated_at": "2026-10-15T11:38:21.628253+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,21 +87,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
@@ -77,6 +120,24 @@
     ],
     "geopolitics": [
       {
+        "title": "Russia's oil and gas revenue seen up 10% y/y in October to $12 billion - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzByYnVybkRWdGdaSVllS3J1NnRlN1pXOE5lMXFSXzIzX3JLekZReWNyUXRsMElJYzhwUDVkbEtwT2tYXzR1SV9mNzlyLWg0RnRsaGJQSGsyVlBiaDF3ZnN2LTJKbnlGeEw2cW1kVHlsQzJYVWtvS2NtWWRRXzRZQmlKNGJNdzZ2ME5ONWhuZmJmdVc4a19fREtHa1luY2o2WWRDaHlESUQ4eXYt?oc=5",
+        "published_at": "2026-10-15T11:26:09+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Truce Over, Ukraine Again Attacks Russia Oil Refineries - Newser",
+        "source": "Newser",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaHRidk9XQ3BMTXZiOWM1S3ZpeXBiYk5BZ3A0R2RCSF9DeU9uRllQWXZmNGh4QzZEYllSVnF6WUZGMmh4Sks0V00wNC1XMGhJV3A5X1RyTUs4bzNUbkVTdG9Ba2tVMjRwOVpyRG5zMHhXUmRiYUNTVG1ONGpxYXlDVFRmRDNfTHI0UDNCTDRLTWZzUUxscUdpMkppRQ?oc=5",
+        "published_at": "2026-10-15T11:25:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China’s Sanctions on Belize and Paraguay - Lawndale News",
         "source": "Lawndale News",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNY1pSdEtDQzJEV01wZmFiWW5oYk9hV1h6M2M0QlI3S2JhWWxMTEZYalJaM20xeF80czIzRUFKWkczUnJ0NHJlV2hsNnZaMUVUdHQ2a2xKT0xMdlJjYzV5UGRyMkU0Ty02WWh6c2ttV3ZKdWUyUFl0T2J0b2Fnd0lzZjRR?oc=5",
@@ -92,6 +153,15 @@
         "published_at": "2026-10-15T10:55:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine to restart strikes on Russian oil refineries, Zelensky says - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55WlVaQ0dKd18wLTRNdDZ1clMtOGU2eTBYOU5wWnY3bWgtU3lWTmNpd1pHTFZNaW9BVDZWMXh4Si1jd2c0S0pxalhyQ01FU1NXb2s3elViWGY5MlU?oc=5",
+        "published_at": "2026-10-15T10:27:26+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -122,21 +192,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia and Ukraine resume energy strikes despite Trump warnings - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ0UwNl8yVFFyTHZ6SjlHY3g2allSUmZVTFZ3d3R2ZEx0T09SckgwMTdMUjE5dnJpc1hDcnFDOXYxMVlnVFkza29LODQ0djhWeVVTUUtWMXdoSjlCaERQclg0TXZMVGdPSF94ckJpbTNaYjVad0FnMlhiZXhlTS1kZnJ1Z2w0aFlKakJhNmQzYmZDWHdrbGY5SUJqU0F2ODU2WnhzUjJGTQ?oc=5",
-        "published_at": "2026-10-15T10:08:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsRDgyckppOURNTkxTeml5Z2JpTXBUQ0VXRXJlaGowYmJDN0wyMUtzXzF1Q3F2ZkNwYmJ4ejllTEdaT3hTT1VON3FURDBzdGl0T1NCRExVMTRNODIyZ0hkenVLSXBrZjlncjhzanhB?oc=5",
-        "published_at": "2026-10-15T10:05:58+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "China keen to strengthen North Korea trade ties with New Yalu River Bridge opening - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcFYzNFlJSEcyUzloOVpTMUJoMlNxS3FjZjhMVkpCZ2pMeXdRdTBuTnEtUWdLTm9vQnIxRkxNTHNqYkcxYkFjUUZzWmllVm9wMllhZW81SnROaE9NcnJreENUY3RKcDV2TmdGRUlueHFNUTlCYXZZaGxrX0pDV1pDdVl2emZtc1ZYeHNEZC0wWGV3MVlQVW1kSUZ5WUgwTzh5RFc4czNUMWpadHpvZVFmV1l5bjMzM2tUNkJmWm1qUGFPZ1Z5Wnc1c3pEUWzSAcwBQVVfeXFMTVo0M3g2S1c1ZkktNF93WjZkMkYxSW9EQU9JUF9lQ2tfc3JkRGJLcGo3LTdSdXZEdV9nXzkyd3ZoZDlZQzItcWNSVmh2aVdZNWI3bkNzNWJlOXE4aWdZaV9pSWYxb1k2eG1zU3R5SUZlYnJ0U201cWhNeGVsVVh1LWpHci1wYi1fczJNemNFVWVjQXVTMjFQNXdXOTRTYUVQcUFTem9IMkQ3cHR2Q1J0QU1yS29vV1JzVFFGNURoYURBZ0x3M2NVNU5LbGx3?oc=5",
+        "published_at": "2026-10-15T10:00:13+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -146,15 +207,6 @@
         "published_at": "2026-10-15T10:00:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Trump’s diesel deal with Russia may not actually lower prices - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0MxRGV2Z3JPUWo4Yk05Nks2N2xseFVJa3VaM0ZXTzJzemktcy1ES0lSYnRGX0VHSHoxR2xGRk9kbk43anJib0hQQUJLOGRxUnpnMVBxaUtzUTEwVHl0UTk1ZnRmdXZoOFgzOUVkSW80YU1raTRjT2JFUnQ0WVMya3dEYnVkQ2hqcUF6MEZ1elR2U0JuSVE5QnB2Q0ZWYlE?oc=5",
-        "published_at": "2026-10-15T10:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -201,15 +253,6 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s Trade Surplus Goes Vertical - Robin J Brooks | Substack",
-        "source": "Robin J Brooks | Substack",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BUEZvcS0zRU51TVUtOWJVeEFmbEN3WFd2d1R0Y0ZEclAtejQ0MVExc3gwT1h2TFZKd2dpV3dBRFRPalRiWUhYLXExOUF5MW9HZkRiZ0xreDlJS0xsSlRWSDV2dG5hWXM5T2Jab2FBMFlrVVBuZ3ZmY05R?oc=5",
-        "published_at": "2026-10-15T09:02:04+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -218,6 +261,15 @@
         "source": "finance.biggo.com",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ucFg0TmJ0TmZna2Nqd2dDTEFzcndkVFg4WVlIOVlUOVlXYV9ERFlzYVYwLWJDRExxcVhwRm9SZDRsRDhXUFNZNnU2amNoVDhFazNiZnhoMDczd2FNY2h6MnBR?oc=5",
         "published_at": "2026-10-15T09:14:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-15T09:13:54+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -245,15 +297,6 @@
         "source": "The American Journal of Managed Care® (AJMC®)",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFBBX1gtcEZsb201MmlJSkhrTm9pM24tMkhFbXo4UnVSNENkS0JjWkFsNmd2Zjc0b0tVaUM3ckpGdWo3Q0RqSTlIZzNzR0RXZzFYXzBZWG0xT0FTclE1Z05hN2ZINURfUlY5NTZoNk05SlowSzk2MDVFSmVYM1NaTm9rNkcxazBsVmFOOHJ1WEZhMlFa?oc=5",
         "published_at": "2026-10-15T02:40:51+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "New Sunscreen Ingredient Hits U.S. Shelves After FDA Approval - WGY",
-        "source": "WGY",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEF4QXVMeENZT2VhRjIwN2xqS0NYV2RzVEJ5TVhWM0xka1ZlYjlZY3MtYWpkZ05JNm9aczV6MEN1Z0FucHdyd214X25EdnpUcWJKVjh0Q3JJVVBhY2s5WkV5UHJtZ2xPbWE0WHFuRUx3WldvNk8zR3hkZl92VXYzczc4bHZKREJORFk5WVJZejl5UXRTTHQ3WXB0QXl1RmpQR3ppQg?oc=5",
-        "published_at": "2026-10-14T23:26:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
