@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-15T12:46:44.990731+00:00",
+  "generated_at": "2026-10-15T13:26:16.048888+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.091000080108643,
-    "treasury_10y_change_bp": -9.899997711181658,
-    "wti": 93.66999816894531,
-    "wti_change_pct": -1.493320247799279,
-    "brent": 104.16000366210938,
-    "brent_change_pct": -1.7914330946827595,
+    "treasury_10y": 5.065999984741211,
+    "treasury_10y_change_bp": -12.400007247924815,
+    "wti": 94.47000122070312,
+    "wti_change_pct": null,
+    "brent": 104.8499984741211,
+    "brent_change_pct": -1.1408628251232789,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
-    "vix": 17.65999984741211,
-    "vix_change_pct": 4.682862886061412,
-    "dollar_index": 102.18199920654297,
-    "macro_score": 0.8,
+    "vix": 17.479999542236328,
+    "vix_change_pct": 3.615878320434329,
+    "dollar_index": 102.07499694824219,
+    "macro_score": 5.3,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.09, WTI -1.49%.",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.07, WTI +0.00%.",
     "quote_times": {
-      "treasury_10y": "2026-10-15T12:30:00+00:00",
-      "wti": "2026-10-15T12:35:00+00:00",
-      "brent": "2026-10-15T12:35:00+00:00",
+      "treasury_10y": "2026-10-15T13:10:00+00:00",
+      "wti": "2026-10-15T13:15:00+00:00",
+      "brent": "2026-10-15T13:15:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
-      "vix": "2026-10-15T12:30:00+00:00"
+      "vix": "2026-10-15T13:10:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,19 +44,19 @@
       "source": "TipRanks",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdE4zYVluMDlxc1RrUWxfU1BUaUtHNzJsX3R6bUJ3NmJfZ0p5ZFNuT0s0OVpORmpRRHpzekR0NnpIanpfN3ZNMzhldEVodko1b1FMYTZlM2RZbmJNOHpUNF9FOFo4UTNGdjdkZC00MzZBZmlWSlVBSGxFUVhveFhEY2Y4Q3U4UjJmdUgzOUc0eHJ6c3UwOVVMNmZ4UmlVU3J6SG9wX3lxaU9SdTEwZTRV?oc=5",
       "published_at": "2026-10-15T12:06:44+00:00",
-      "age_label": "40 min fa",
+      "age_label": "79 min fa",
       "catalyst_type": "analyst_upgrade",
-      "current_change_pct": 2.97,
-      "short_term_change_pct": 0.33,
+      "current_change_pct": 3.67,
+      "short_term_change_pct": 0.93,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-15T12:45:15+00:00",
+      "quote_at": "2026-10-15T13:25:08+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 1.5,
+      "quote_age_minutes": 1.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 55.0,
+      "confidence_score": 56.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-15T12:06:44+00:00",
@@ -68,16 +68,31 @@
         "catalyst_strength": 60,
         "freshness": 90,
         "volume": 28,
-        "momentum": 54,
-        "macro": 1,
+        "momentum": 61,
+        "macro": 5,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": 3.67,
+      "short_term_change_pct": 0.93,
+      "relative_volume": null,
+      "quote_at": "2026-10-15T13:25:08+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MRNA"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-15T12:46:33.223833+00:00",
+    "updated_at": "2026-10-15T13:26:04.638337+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,7 +102,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
@@ -101,24 +116,51 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       }
     ],
     "geopolitics": [
+      {
+        "title": "Trump on Iran talks: ‘I don’t know who the hell we’re negotiating with’ - NewsNation",
+        "source": "NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40bzB2Q2pCcEdmWXlfTVR2NUR5RFphaEthOTMzSV9EaUdPd0hNZE1ZWGhuNjFwRC0yUE9NXzN3Yl9qeFlJOGFwazZDbjQ2THdkaFZYQURuWEdKdWE3NWczZ2FHaC10UFnSAWxBVV95cUxQZ1N1Y0tCTWd3aFVZSW51Vzh6LWFZY3YzcFFyNnpoQVN1YzBqYWFiSUZNcTdMUm5mVjB1ZW1lN2lLMzlqZ1MxOE1MOGNBdjVpWlloSjNfTzVjNzdiNjViMzhWcG1sYTdJMzV5eGo?oc=5",
+        "published_at": "2026-10-15T13:00:03+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Strengthening America’s AI Chip Export Controls - American Compass",
+        "source": "American Compass",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSm5Ca1M4dUx5SlRQNFZYa2NqaGNMelRrbXA5QTZJc3hWYmh1OWd0SWVEWk1jTVdWdWhxSEFmZG1Hb2ZXNkxsTFdSLVI5Skg5OUVhWC1ZZ0cyRHFvcWhUQXZYUDB5RlViakppNDNPQjZja1c3N2Fxclh2RjFXUU93VA?oc=5",
+        "published_at": "2026-10-15T12:48:35+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Hezbollah says it owned confiscated explosives, meant to attack Israel - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQUNqWTJxemdBVVByYW9Cc0N3NlU2UW9zczJReDZOeWdKMENNbUZjQmF1bE9IQ1VEOXNrcXpQU192ZUhHTVZ0cDN1N3IzS2lxY0ZTOXdGY3RvWlVObFZ2RjAyVF93ZUNCWVJKSlBpNDVINmxBNGRORXRYZUt1blF2RzFLV2VjZWJZMUg4X2tGMjd5VlpOVExvbFIxN1ExS1lMMnJXUXJPOWhfcnVXZEl2aUpDeHNqcnFSeUJ3NQ?oc=5",
+        "published_at": "2026-10-15T12:45:28+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Join The Post on a road trip in eastern Ukraine. Don’t forget your drone detector. - The Washington Post",
         "source": "The Washington Post",
@@ -129,21 +171,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Hezbollah says it owned confiscated explosives, meant to attack Israel - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQUNqWTJxemdBVVByYW9Cc0N3NlU2UW9zczJReDZOeWdKMENNbUZjQmF1bE9IQ1VEOXNrcXpQU192ZUhHTVZ0cDN1N3IzS2lxY0ZTOXdGY3RvWlVObFZ2RjAyVF93ZUNCWVJKSlBpNDVINmxBNGRORXRYZUt1blF2RzFLV2VjZWJZMUg4X2tGMjd5VlpOVExvbFIxN1ExS1lMMnJXUXJPOWhfcnVXZEl2aUpDeHNqcnFSeUJ3NQ?oc=5",
-        "published_at": "2026-10-15T12:37:25+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Canada, Singapore reaffirm China trade ties amid global push for self-reliance - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYXVSV184MmJUZDlSbzN2VF84aU96TlZaZ2FORzB1STFkRGFDNElIWklNai1hRktmVHJSc0JvODlhOGpZY0ltNVRQcEdOR2JkRVRGQVA5UFBPc3JGenhYVkx2SXF3WHgtTGZ4cTZVUmI5dGZsLW1wc3Z1aXpMOHBlMjRzbnl1NER0ZGpfc2ZuWVRjRW12Z0txekZWVnBlbzVLeURsbzVXNnpyREpMLU5uSFBET0hnTmxjU1A3bno5S2c4U0lxSEcybTZjMHlkUXhQcWc?oc=5",
         "published_at": "2026-10-15T12:30:13+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Gulf Oil Is Still Flowing Despite a Surge in Attacks on Ships - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FN08tZVdYdzRGSTkwbFNVTjdlRmd2RmxpVEdTS05JblktRVpZeElnOGFMajhWNDhmSlVBbGlPdmNEU2FPaG5KWjlPbTRxVmFFLWxWSzg0Q3ZVMUFEYlg0aklhYk1VNHFjSDU0YjlubXQxcXZaOFdJcXZPNXFGNjQ?oc=5",
+        "published_at": "2026-10-15T12:24:20+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -165,10 +207,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukrainians fear US intelligence cuts as Russian strikes intensify - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSXlfR1l2Qy1LRGE2TDhGQ2c4a1dVUklBRHZoc20takFqM1NxUzJtcjhaVk5iUVJZaWVyeXdiSUFNT0RucmRONURmN1ZaRUFFWHBCYTFSaFpFaVdQQ2lyZHNxaWNTazlLUHdJR2NWWUF3V3VfRlBCMzI1NUZMWXl5bk45Ti1IQ0NYMkNkOUl6dXpfbFRRcGk0UGpNcXI2ZVRicmlLck40a2FfNzDSAbABQVVfeXFMTUxzaEJob3dvOUIySVBhZWtXdENVOTBRM0JNY09DeU5ybl9aQU8wLWgxcXU4T3lpNXM0TmQzd2o4QUNaUjFEQTVmUjQxakp6T2lqTHpBZHRIU3BUZi1SaENRWVF0V01fUDI1cmRyZjRCT05xTjQ0Zm9Kdk44ZmpFY1Bqd2Q2b1lXaTNDZGdweDZaUEpWeEdmcjZ2eFo3dnZGRkQ0andTcWxtbm0wS3ZMakw?oc=5",
-        "published_at": "2026-10-15T11:52:59+00:00",
+        "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
+        "published_at": "2026-10-15T11:54:08+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -210,15 +252,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "EU-China Trade Deal Doesn’t Solve Ballooning Export Deficit - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1hJMC1IY0hvQTNMY2IxeThfYm4yN1FkVGVGSklSTDdvYjVyWGdXRG1JT1J2VjRMR0txWXlCMjA2QzRXRGxJYmVqcHJUNmtDVnUzbXBOZ2lBVGxGd0luYWtNMkxPVzAybVVXS3hQWk9XdGZBT0FPNG9lM1NFR2ZQTmJCYXFJaTRfcmViNQ?oc=5",
-        "published_at": "2026-10-15T10:55:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "US Weighs Using ‘Mother of All Bombs’ in New Iran Strike Plans: Report - The Media Line",
         "source": "The Media Line",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb1J5ajVkY2tvVGxYb0ZMaG1kRnIyTEhfbzlqZWRSeFp2X1NvT3NiQVhrUTV3TS1DbFVUNTJIal9RZFBFSm9ZaEl0OXppX2VnT0piMDljSDY4cDRhN0FtNXZoZjlBcWxpeVVfUDNkTVZVS3FxTHNteW01Nld0UzZMMmUyNjcxd3JQYVBvWjJOTjJJbWdNXzBqVXJNNlJPcXlxWHZJYXVB?oc=5",
@@ -235,32 +268,59 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Video of Saudi passenger plane exploding after Houthi attack is AI-generated - AFP Fact Check",
-        "source": "AFP Fact Check",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDUVZfQVRxVlY4elNKdWc3b0czbThIa2k3bC01bDVuXy1nUnNmai1OdHdtaDA2dUxienRPODF5TEdJc0ZtTmExeno3eTVOWVBDdlFibGFZMEs?oc=5",
-        "published_at": "2026-10-15T07:52:51+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Attacks On Hormuz Shipping Hit Wartime High - Radio Free Europe/Radio Liberty",
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "published_at": "2026-10-15T06:34:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Edesa Biotech Receives FDA IND Clearance for Phase 2 Vitiligo Study of EB06, Expanding Enrollment to U.S. Sites - Quiver Quantitative",
+        "source": "Quiver Quantitative",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdTIyNnF0TWZWa1p2ZGpYaFFlMTlPcTdzeURjSV9HSXZwR0RPbGRCT0cxWkQ0Qms2YVJBSGRHVlYzeTR6TEtvX0o1NXIxdFg1VnJycHc0Z2E5dTJlTGcxR3BVTWZoYTBydU0xbVd3cmp6LUwzNWtMVTdaS0QwU0sxZWZUanF1Y08yOTN4Z3dkM3ZhTlZ2OHRLZGw5dEVJdzh1bGZ1ZXkwX01KbHpva1VBVFJ1dGNvMzFTVkJVY0YyYVZybk1EV0FSN3JRTVF2Y0dCdVRsSFhGc2oxT21JU3BZ?oc=5",
+        "published_at": "2026-10-15T13:20:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Legend Biotech Receives FDA Clearance for In Vivo CAR-T Therapy Trial - www.marketscreener.com",
+        "source": "www.marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZWx0RXFqT29IbDI4NTgwWUtyU01SZXN2R3d5a3BRb1UyelBBMlVhN3RYVUZLRVlhV1hFa2IyNVhsUnZNSnltNUpyVU9HZWllSUZ2YlVtVUhIdGtCU19ORkhXY1lzVmVGWXlSTVFRdFRnc0UzenJIS1hfR2M0XzM3ZUpmWUVSN0FjTF9udzA1YjZyaDd4NDJLS2JNRDFhTHlrbGpvWjZndkRFZnVZZXFyN0d3UTNqMHRDLTZwc1FXQQ?oc=5",
+        "published_at": "2026-10-15T13:13:05+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What SpaceX’s $40 Billion Nvidia Chip Plan Says About the AI Boom - InvestorPlace",
+        "source": "InvestorPlace",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcGV4SzVfQ1hQWUlNMWdtTm1XUEpCR0JrT2tNeTQtRi1KU2FFRjRWR0FJejkwcF9ZRk1LN2RnR1lXQ3dnRmhFWmloYUxoMi1ZTE9LejI1dkJMZTNqYUtLYXdsTmtFX2J5OGlaeTZJMFpmQTN5aXhjRlY4c1ZkbFRJUVpfbTktaTB3cFhvc0JQR3pvTDBLWlZiUmtqZ2JmSG50SWtBVEJWMndOWU0wR3VuTGxIV0tIeXFhS3M4?oc=5",
+        "published_at": "2026-10-15T12:55:23+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Earnings call transcript: Flerie Q3 2026 NAV slips as biotech write-downs weigh - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOWdIVTRVSm9kdVYycl9YVnJ6S3F6TDNOZzNBUk1CS0gtak9GSVdmTG9zUmFUU3pkRW1DaGFhOGFiY0czODVIblU1ZGxzUDdYZEF6Q2VzTHlhenJRX0lNaXREa2ZUYnRwVmQtQnpBYjBkYnRiLWp5dDlBRkYtV1NxcFUyQzVaVVBKVmdpa0JOSVBKRHVGSlhHdWhJb3dsSVl6b213dGZQenlJeVVwT3NrZUh3eEY0ZVI2VXlHcW1UNk9vZUhWWkpHNWJoRTVFUQ?oc=5",
+        "published_at": "2026-10-15T12:53:52+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Micron, Nvidia and other chip stocks face renewed pressure as AI fears swell - MarketWatch",
         "source": "MarketWatch",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdzFZUlhsa21xa19DOXJyb3plbFQ1ek53ZF81bXdhOWJwcURqN043VktFUjBjYzVoWndQai1Dd05nUVo5N0xvejRJWGtyWi1McmRXTmFqS0tsWDV2LW96bHZISnpPY3FaVXNLQVdXV0ZnZWhRc0RKajN0MmpfamQyM2dHSkdEZ1JycTJLdmI0LU5EZTRMYXdMVENTcVBlRTBBQmJ0cjg0a0E4MjlMRU9aczNtVHRIdnh1NWc?oc=5",
         "published_at": "2026-10-15T12:43:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Micron Stock Falls Again as Memory-Chip Slump Persists. What Can Turn It Around. - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MTHlTbEVIX0doTUhKa2Y1dFNGWlpFRGphMTB2V0UwMnBwMlZlRVFPS2RKaUV2VjRrYTZ3ZWg3T2RMbWduc1Z5dzlKVXh3UHBXbkJhNGN6UmJCNlpVSlFyX2Vpc1NWNkFteTFYUGp1ejFUTFd1SlI1b0oyd3Z2dw?oc=5",
+        "published_at": "2026-10-15T12:27:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -279,42 +339,6 @@
         "source": "GlobeNewswire",
         "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPT0RQRkhBUWhxOWlzR0xWdkgtVDU3YTF2N1NMd1VwRFJUTHRfbmxEY1REaHBfaHBrVHdMWElyQlBkUzlzNkp4WV9EOTRkT0tOYnVtZHRmQ0pSY3puRTRVMFZRNEttRko1elpPWjdjVHVxWDdDYWR2VmN4QVh3MGlzRW9MS2dzamJpOEhaU1NmZ0tQRWZqRTktSGE4cVVnWHN1aXFFempnZG9yR29udmZURnpoZzk3LVBqUjRleC1RY1U0Nk5zRXNYdV9UYTZSOE02SkoyemRqbWZMWGhITm9EdnlSbGJWSmJUcnN1bUozZDlsMWVfRVg4SnRMbVpEdzlOSXVncHhOT2F4RmJVVk9wOHB4cmNwWE1YVWpMcHdJejQ?oc=5",
         "published_at": "2026-10-15T12:00:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron Stock Falls Again as Memory-Chip Slump Persists. What Can Turn It Around. - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MTHlTbEVIX0doTUhKa2Y1dFNGWlpFRGphMTB2V0UwMnBwMlZlRVFPS2RKaUV2VjRrYTZ3ZWg3T2RMbWduc1Z5dzlKVXh3UHBXbkJhNGN6UmJCNlpVSlFyX2Vpc1NWNkFteTFYUGp1ejFUTFd1SlI1b0oyd3Z2dw?oc=5",
-        "published_at": "2026-10-15T11:47:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "H.C. Wainwright reiterates Immunitybio stock rating on FDA approval expansion - Investing.com UK",
-        "source": "Investing.com UK",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZTh5WFVKOGh4NjI0UEdSNmFNMXJJSkRZWEh4VjhTZ2NiUU05dkhQWTBjbGVGS2hCTk5IbkcwaXpsdlFoU1FaaVd4X2xuNlNzcHpjMUZ0dWRfenBSbzVlMGFUaGhoMmxidTJDSjdsWk13WWRXSGVhX0VrOU5vSmtVSUdaY25mNHBtOHYxcWZDRVJRS1hwRUt6LWdnMlFWRktuVlpPeEdHSlhjMU8wY1pOYm9rNGZxLUMtelNsT2N2SnlneTR0NDBRb1hVRWZfRUdqOUE?oc=5",
-        "published_at": "2026-10-15T11:46:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-15T09:13:54+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Biotech Stocks Facing FDA Decision In November 2026 - RTTNews",
-        "source": "RTTNews",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPREhnQWZWc3ZHSjV6NmhSeVBNcnIxMDBZcEpyV3JrZ3BjM09CM3F1UE84T0lDdGcwNFowZEp6dW1GQkp0M2d6R0xLVFMyZ3hZRDVzMzZxVVhwcTIxRGxVSnlKdG9zWkNrZzFmZmtxQXdmbmdyWEVPWEdpMHo1eGUwakltUjhwaktrSkJKVEJvOTZwZ1V4ajJJ?oc=5",
-        "published_at": "2026-10-15T08:18:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
