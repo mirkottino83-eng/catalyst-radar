@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-15T04:13:09.583028+00:00",
+  "generated_at": "2026-10-15T04:43:03.083866+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.190000057220459,
     "treasury_10y_change_bp": -2.6999950408935818,
-    "wti": 94.02999877929688,
-    "wti_change_pct": -1.1147308859148275,
-    "brent": 104.30000305175781,
-    "brent_change_pct": -1.6594329128318264,
+    "wti": 93.94000244140625,
+    "wti_change_pct": -1.2093742147155084,
+    "brent": 104.18000030517578,
+    "brent_change_pct": -1.772579008762798,
     "nasdaq_level": 26692.87,
     "nasdaq_change_pct": -1.8802517948087294,
     "sox_level": 11684.383,
     "sox_change_pct": -4.295323593776612,
     "vix": 16.850000381469727,
     "vix_change_pct": 10.34708497931145,
-    "dollar_index": 101.97200012207031,
+    "dollar_index": 102.03600311279297,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.11%. Geopolitica: US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -1.88%, SOX -4.30%, US10Y 5.19, WTI -1.21%. Geopolitica: US considers easing sanctions on shadow fleet vessels to cut freight rates, official says - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-14T18:55:00+00:00",
-      "wti": "2026-10-15T04:00:00+00:00",
-      "brent": "2026-10-15T04:00:00+00:00",
+      "wti": "2026-10-15T04:30:00+00:00",
+      "brent": "2026-10-15T04:30:00+00:00",
       "nasdaq": "2026-10-14T21:15:00+00:00",
       "sox": "2026-10-14T21:15:00+00:00",
       "vix": "2026-10-14T20:10:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-15T04:12:57.900544+00:00",
+    "updated_at": "2026-10-15T04:42:51.856589+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,38 +50,56 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Ukraine to resume strikes on Russian refineries, Zelenskyy says - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdnNwRlc5RTM4bnJwZW9fRkpkMGJlM0o1RkxuNUZJVlV6dXgxZGZaMkthMFlXMHVoSXI1RUJlTHN4V21hNlJnaWt1REtZUFhIM1hIcFVBMFlqNzZvaDV6Z29BY19fZ09FQkd2NDRybFI3bER3cTAwaDZjVk92VlFLWFBfR3I?oc=5",
+        "published_at": "2026-10-15T04:01:04+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Since the war in Iran began in February, constraining the global supply of oil, energy prices have soared. The average price of a gallon of regular gas was $4.33 on Wednesday, according to AAA. https://nyti.ms/47SPTFz - Facebook",
+        "source": "Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN3hSNWJfNVJiRHp5NlcwMnpHc2EwcW5fZVpPSmNaMDFSVUlEdzlORjF5b0FYZVFtX2tWMktUb3VGVGNYc2JHOU1vZnJWLXpWMTJfbFVGdW9BTk05NHJLTkRHS3p0Skg2dlRrWHFienJkY0ZFazNWYlZLY1VId2RMLWlKWE1rSElPS01kR29uNnoxN2E4R2x6MDlSMXVRTHp4RUNfUkNmLXNBWE9WT2RfX1c1OEFpVkFvTmZkWXhuOGlVcTJLeHFLZGJIVXFqVl9YenFN?oc=5",
+        "published_at": "2026-10-15T03:59:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Iran Fears Imminent US Attack Amid ‘warlike Atmosphere’ In Tehran - i24NEWS",
         "source": "i24NEWS",
@@ -119,19 +137,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia’s oil output falls 38,000 bpd in September to 8.643 million bpd, OPEC data shows - Pipeline and Gas Journal",
-        "source": "Pipeline and Gas Journal",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaDVfRTFMLWt5QUc4OXJXVENsQ0pNQ20xb1FIUEM5ZWxPUTZPS1NKM0F2WVp6XzZqNEE5ZFV5elpjRnFwRXV0ZmVyVmhBbjZlMHE0NWtpaGg3QWd5YUJJM0JHZ1NQOUZHUDl3RnJpeVJxaUpGUlExOFNNYnBxVEswY1NVY0RtMDM5Sl92REF3cjExMDFaQ0hYQjVKWEpHSl9lZUU0QlhZbEhFbTVTLURDb1FJWjBvUTZTazNYdUJMc0c0elk?oc=5",
-        "published_at": "2026-10-15T02:24:04+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ship catches fire in Romania’s waters amid rising attacks in the Black Sea - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemtmZUNFYjRUb2F5T3U0dWtTMHpPNmVEM28wN3I3VWpKT2g2MFExMzdPaXAxaGl5eTV3enVUUnI3U3k0OUlRNVdGYlIzMkFfZnZhZFdISlo2SkYtd0pCSTUtVG1YTWJmdlhiN25USElqc2ZULVZKcTBCTzhBVExlUEdGOHIwbHpnZ3JYSTN1TnNxb08zRFVpRFplZ0M1cVVfTnhTaGhVa3B2ck8zOTBPdmVqOURtQdIBuwFBVV95cUxNZlhwTmJId2Zzd3piSDY0WmdSeU9WcFB0MG9NV3BGUHNLZERFVnVfMkFHaHRWV0ZWV09ZMy1KQmVMajM5XzlyeXNTcDctMHNkdWI2anB6UUtWeW4tbmFBOEVUMzJkcEg5QTc5SzlHUG5DRERHdUFyZzVVS0Y3eEp1QWw5WDRzVFoyMGQxTHJ6Ty02RXFYSU93Q1AwaWFKaWM1Mmo5X21OUHAzNzFIYU1POWduYUF3WnV5dnh3?oc=5",
         "published_at": "2026-10-15T01:28:14+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Elon Musk Blames U.S. Government for Starshield Speed Limits Disrupting Ukraine Drone Missions - NewsCord",
+        "source": "NewsCord",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORC1hckw5S09sR21nVTl0Zk0yZTcxX1VfRmo3b2RFRUtsMGdsNnRON1RXTjJXS3pjM240eUluclhTenpndXFaTFRaWHZxdWxUM0dBcDZLb0xKdTVKOTl0UE55bXY3cVhuZVZ4cXU4emVuRmhCcDNKTU9wTi1yc3BfN3Y1T0FQLUZUOWJpUE5RbFpQU3BCbnJJYjZYMFlzOVY3bG45MWowWkl6MWwxOTRPdTJaSVY4dl9fMXhPZlkyVUVNclByNnRrb0xUMHItWFk5ZDBSZFNoYy02S0pSdjlWa283QUs4LUtrcWc?oc=5",
+        "published_at": "2026-10-15T00:08:41+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -152,15 +170,6 @@
         "published_at": "2026-10-14T23:00:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says ‘leakers should be shot’ for disclosing timing of Iran strike - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOV9sbHdsbTdHc1lKbHVlV0RpLUJ3WG5XclFPV2ZOQWNHVTNndmhiMGNNeERBeVAxVWNLVUdiSzBibC1ScnVKckxJblg2RDBvSFJTMzZ0TDNyTHhPMXpGSzl2bWVHZklZTmtCaWJiLVZpTVJEMk96Mkw3UWlBQ0lWQkc5VzZfd01NMUpacndfN3U4cmhOajdCcndvS2pWQmgwYlFYV0V6Q0V0UTJBSDJzMXp3?oc=5",
-        "published_at": "2026-10-14T22:41:18+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -207,15 +216,6 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Bulgaria expects to join NATO anti-drone initiative this month, says minister - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlIxWW1TMjZYeUY2Y1p6TkZwdWZQREN1MjktX3hEa2ZSbVNRbzRqVDVaUmMyYmpJdUxEQlZocEttbHZSS1NEVWszaXVfOW11eUpzRV9Lem1odnJ3bi1JTjJiYVhFVEUxd2xqSGh0VXhXTjJTN1l4WWdReHp0UzI2SktHWGZHcnphSjZOcEdKcU5xb2JablpwS1BZUktuRURNVE9uMWVieFJZbjZqMTNlcWJoOWx6WE0xblpJT1gzRQ?oc=5",
-        "published_at": "2026-10-14T16:28:07+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -233,24 +233,6 @@
         "source": "KOA 850 AM & 94.1 FM",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOEQ2VnJGNWYxRUFBRGtHZHNsVERxb19MNTdLRWtYaGIyU0tUT0J4U2dZV2o4M003UmRQcjhaMWxOQTZxMjhBcEpRWTI4UVRfN055YTR6Vnp0T19MOEpKcDdvSXV0dUhqUnB1QlhXSGtEM0p6aWpHYmM3ZDZ1Z2ZYRTY2U3lOcHhTZDItZU4wRXVELVBjZ2VqQ1lWWmNpVVM5dkxVOGZjNHc1a2dHOUdr?oc=5",
         "published_at": "2026-10-14T23:26:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For? - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUzNibHkxcXpGVU1NNE5xVTlpU0NRWFo0R1JZdTRGRUR6MnFfTGx0aXl0ZFY5UGl4T2NPX3cxQWdNWTVvUTFaOGNFaGNLTkdBckoxR2xMUlQ0RHFVT0ttRGZROFlwY3ZCVlJ6aHA1TFpWc0pGNzFpV21SbC14RzlTdDhucWdCRkxBSDZrLWRR?oc=5",
-        "published_at": "2026-10-14T21:57:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "health news today fda approval weight loss drug - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLU4tZTRHWGphdzQtWkduUnBPWDhuVHB1LXh6dFRaYWhNRl92RlQ3R3BSOWZBRFlwTHlBWFVhc0xsYmM1ellvdjlab0lzU1FmYTl2VnAzZXN2aG9mNWNRTWI4RG44cVBFRFRWZVdiS3Y2THhlck1kQzZpSWd3eVhZTDJHeGtZVENZZDVZNXJYa1VsVVRkeklybjFrTQ?oc=5",
-        "published_at": "2026-10-14T21:35:32+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -292,6 +274,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Dr. Mantzoros: A GLP-1 Therapy Received FDA Approval for Fatty Liver Disease - The National Herald",
+        "source": "The National Herald",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOTJBaGU0OXV3ZXFldHphenpnbU9ZWFo3X2VYcEw4LUFhMjJKdWpaaFVDVWg2MW1qZkFGYVJPcFZ1NTJOaGUyN3hiNWJadGk4ZWhIZXpBM3NPNERjMUxoZXplbGdCaUFOTDFNdnBJTjVNUkdfeXF3Zl90RGp3QlBhRXlYblhoWkE0NUgydFFaaERsSTdLcVZ5Y2NkVzdhbHBWdWRVUFczbjVRZzhqVXc?oc=5",
+        "published_at": "2026-10-14T18:14:08+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs - NVIDIA Newsroom",
         "source": "NVIDIA Newsroom",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
@@ -301,10 +292,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym - NVIDIA Developer",
-        "source": "NVIDIA Developer",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUUtZWjdMZWpRUFVYTHNFTTRJNUNnclI4R2ttbmhfamJMX1R0Sk1JOEZfR2wxMXg2enlYOWxVMjhudDl3Wk5jaWluNEN1RHVhdWhSN2hoYm53WkRQZm0xVWc2ZzJjT0pUeHlFeHhOTUNIOGh2emhzR0R1SVh6bjRiX1pjRWJtd2JXVmRJdFJZcDZEZkpuLV95V3VVVTBRYnN1QnI2Z0ZIOVFkdlh5YXhRck1hZzNieUFXQXU3T3ZHZVFzVy1zRDlTWQ?oc=5",
-        "published_at": "2026-10-14T16:16:42+00:00",
+        "title": "Not Nvidia. Not Micron. This Under-the-Radar Artificial Intelligence (AI) Chip Stock Could Be the Biggest Winner in 2027. - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM0JkOHdqTS1DWXVSU1RLWlhvQ0t1MkczQ3FYRmdnNlFNRUZlM3haSUljU2dVeW1yOVJla3FLNjJnMjEyb0JWaENCWVBSbkZnV3FubUZ3ZmNyWDhQRmJLa2V1UEUzV2FTbkNYV0EwaWhQODhEdEVuc2tCdUNlTzdDVm1ZUDRYSV9IX3JFejREa0x2UkJHc3c?oc=5",
+        "published_at": "2026-10-14T14:50:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations - Honeywell",
+        "source": "Honeywell",
+        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeTRyTTZZSXZWSGVQRjVmUEdzb05ta2RzZEhUSWdoU0JIUDVXNnV6Z2YwZ3lITGdUSUcwWTB1Z3l2bFJiX3EzaHp3WVlILXJfTzZkZHJmazE4cHZQTWhPY05HLVJnaFQteFBQempGOHB3Q21LMkR1d1FIM2VCem1JUTNRU09RTnZOalJGOXl3aU81WUJFSXhhQ2wxTFdlUTc3bkpFZWF4LWdMVmZwN2VNek44ODE0bW5KY0JLUDhZQTcteHVoOG1OaGY0eFd5VmhmWGo3YkF6Q0pXMllqVnBlcXJONW15S0JYRUFZaHh4bGhCQ3dOSF9TeGZ0aEF0amZQYlJQQ0RqWTFQa2NJLVlhalhHMDlhN3NwLWF5NVdOc2FtbkJiQ3QyamxpRDUzY3M?oc=5",
+        "published_at": "2026-10-14T13:02:07+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
