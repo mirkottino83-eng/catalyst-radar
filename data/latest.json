@@ -1,40 +1,46 @@
 {
-  "generated_at": "2026-10-16T06:02:10.851451+00:00",
+  "generated_at": "2026-10-16T06:36:57.197690+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.76000213623047,
-    "wti_change_pct": -2.255791626963499,
-    "brent": 105.22000122070312,
-    "brent_change_pct": -0.6608732631638414,
+    "wti": 95.79000091552734,
+    "wti_change_pct": -2.225171254478975,
+    "brent": 105.38999938964844,
+    "brent_change_pct": -0.5003764996781013,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
     "vix": 16.459999084472656,
     "vix_change_pct": -2.4303600140151094,
-    "dollar_index": 101.92900085449219,
+    "dollar_index": 101.87200164794922,
     "macro_score": 53.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.26%.",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.23%. Geopolitica: Ship attack reports near Hormuz reach record high as oil exports slow - BBC",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T05:50:00+00:00",
-      "brent": "2026-10-16T05:50:00+00:00",
+      "wti": "2026-10-16T06:25:00+00:00",
+      "brent": "2026-10-16T06:25:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
       "vix": "2026-10-15T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 44,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Ship attack reports near Hormuz reach record high as oil exports slow - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vbTJaWk05Ny1JSFlaa1RLTTV4QkdUX21kdXRkdUhRT1dvZmI1RGdMZ3hQdjlTM2JELXc1aXZ0Y3hVQlhMY3RXYXpIUVYwa08zVVFaUEdzU3AtaVU?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T06:01:58.649447+00:00",
+    "updated_at": "2026-10-16T06:36:46.139077+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,14 +64,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,19 +83,46 @@
     ],
     "geopolitics": [
       {
-        "title": "Drone Strikes in the Black Sea Raise Fears of Russian Escalation to Test NATO's Response - U.S. News & World Report",
-        "source": "U.S. News & World Report",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaF9wejEzTHlkNDFDYlU2ZjV6LUtTZ2JaSHpZNFdacExudnNaaVdlWG13X2dYVGk4ZWVINVk0anVhX21Md3ExQU9UMjBkQ1pPOXVEbk9LcXFNNHdrYTlMY0hXYW9kQlhHWUNnVUExNkd2alZ1ZkVQaWlxY1ZGQXlZTDhMb2pCY0tWSzlRTEt6SzZWV3JCUUVXZnNPeTV4UWVWX184RWxXMC1DSHIzbHV2VXEzYzlUdmdmVXlicUlrbnBsOGtQMlRtOVd2OXFUUTZWeU9HV2dTRC0?oc=5",
-        "published_at": "2026-10-16T04:02:00+00:00",
+        "title": "September 2026 — Monthly analysis of Russian fossil fuel exports and sanctions - Centre for Research on Energy and Clean Air",
+        "source": "Centre for Research on Energy and Clean Air",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTlNQlpfb3NHako1aWxSUDdRd0xrM2JuVWs1YXFCSVR6SlAwakZ1QnJOLUtIc2JweGoyVHBJQmpHbkpZdlVoOThzZXdITzQzWGM2RHJ3ZEFZN1RfUmNNdi1sVGN3LUY2VnBMOVg3RGlRdDhaUTBsLXJUT1pWemEyWUxXempPNHQzWEtJUS1NV0EyOTBGOVl1NVNkcnI5dVpXQ3ljbGxsaHJkYlk?oc=5",
+        "published_at": "2026-10-16T06:18:51+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine's resumption of strikes on Russian refineries is 'disgrace', Trump says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQWZJUEM4emlGRGhaUVlYZFdNclZ3YmVXU0drNUN3Y3pSRUlnMXFHSVpSQjNzdllrZEdsejZ2NldIWHphNERHcFdfaURVVHpqQ2pleVQ5TjBKYnVlNmdpczIya2E3VGlKaDdPXzdEa3dCT3I1VW15WXpUeUl2NjlJZWZpLXpYY2VGM2pqM0ZGT3ZpMGpiWG9oeU5aTldnb3VHWHNlLTI4dTJkQlNrbGNnYVlfaUNNbldKVWZsS21B?oc=5",
-        "published_at": "2026-10-16T04:01:00+00:00",
+        "title": "Trump calls Ukraine’s resumption of strikes on Russian oil refineries a ‘disgrace’ - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT2hmbUgxV3ZHTlhUYk52eFhKVWhfV29MWDFzTzRXX2VxUWhZaF9qSXhtUUp5dlNpVTVlX2ZWY3RWWXNjUWYxT0lFU3JXYWNweWRCNlYxNTVVczZWZ2lNbFlGeGhLWklFMk9rUmNUcHVGMWMtX2JkdWtSODZrcktraDRzVkllclQ2c3hmaDZVWW0xUFhvdW5CM24tcUVPTlI5cTBTVXdPZ1lWSG1hQkpnRnEzcTZILU12cjZMdloxS0E0SFk?oc=5",
+        "published_at": "2026-10-16T06:02:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Hitting China’s trade juggernaut with tariffs is like spitting into the wind - The Telegraph",
+        "source": "The Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWEoxX1RwSVhOMlBGYno2X2Vwa0NzYXVrWEdoanZQNkFOOWRqXy1MdnFYcnA4TjRZenlNSjdxQ2VtbTcyVlBSRlU5c0VUcEFoRDRRNFJnT0I4UFotSjhFNVhNRHRwT3IzQUhnT3gtTnZXTE5iaVUtdW9XRWZKQV9rUTlaN3BNNGhsYjV0Z2xfQWxFWEt3ZnUxcFg5X2Q5R2otMGc?oc=5",
+        "published_at": "2026-10-16T06:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q01TSjZYd3dNbWZ4Rk50ME1UQnUzVkgta3U0RFpFY0VNZGNaeXZfV25jZm9lMjBDdjVONUhlMmJKLTNwT2xwM1I0Mkl5N2N2c25IQWZwbWtORDRYbUJMMC1hZXhWbzllSFZ2bDJzNThDSFRYYmVyYXJnSVc4V0QzVjFMWHBQWVc4NTlRb1E0WEJsYVl1OV9yZEFBQQ?oc=5",
+        "published_at": "2026-10-16T05:49:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Drone Strikes in the Black Sea Raise Fears of Russian Escalation to Test NATO's Response - U.S. News & World Report",
+        "source": "U.S. News & World Report",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaF9wejEzTHlkNDFDYlU2ZjV6LUtTZ2JaSHpZNFdacExudnNaaVdlWG13X2dYVGk4ZWVINVk0anVhX21Md3ExQU9UMjBkQ1pPOXVEbk9LcXFNNHdrYTlMY0hXYW9kQlhHWUNnVUExNkd2alZ1ZkVQaWlxY1ZGQXlZTDhMb2pCY0tWSzlRTEt6SzZWV3JCUUVXZnNPeTV4UWVWX184RWxXMC1DSHIzbHV2VXEzYzlUdmdmVXlicUlrbnBsOGtQMlRtOVd2OXFUUTZWeU9HV2dTRC0?oc=5",
+        "published_at": "2026-10-16T04:02:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -158,15 +191,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Zelenskyy Defies Trump, Orders New Russian Refinery Attacks - Bloomberg",
-        "source": "Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
-        "published_at": "2026-10-16T01:34:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Commentary: The U.S. and China created a new ‘Trade Board’ built on buzz words - Itemlive",
         "source": "Itemlive",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHYtakowakktQkoybFBZOHE4QUFqaHdyVklUcUQtMkkyMzA1cEtCSkkxVElJbmE1UlFCbHlVcjFMNmNpaDVIOU5TaUtldFFLd00zSHNjTk9vRHFmMTF5LXVnak9uZVYwQzBNS0Q3QlhuS05ta0tPdTZybXhGc1IxUGZmY21NUDA4RldQMURMck5YVlBrQmdDNlpPaFVUVzB6Q2ZZdVQ3aWpwd1U?oc=5",
@@ -185,30 +209,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Prices Drop as US President Trump Rules Out Iran Strike - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOC1wZDdHT2hUVWFTdlo5MUViTWFhS1dValIydVg3V3piVnZVZkhieTlDSmZrVHBiN09TZEZNT3N5Q09HVjl3QkNQQUFKajV0ZEljbmpJUDR3LURUSGdHVkNVLVVsWXdILTVMaGRORXZpTXhBSDBBMWRleXVlbGcyRXNwZ0ZNeXNWMzRPZGlJNm5MMnRfQUxyVjFkaEphaXQ1?oc=5",
-        "published_at": "2026-10-15T23:30:14+00:00",
+        "title": "Houthi Missiles Strike Government Headquarters in Yemen - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRWFDdHFfLVg4dEdlTkhlN2NxQ3lnbEZvX3hRQ2FUU2ktTzFfQnFpd001ZzJMU01tcjNpaThxVGI2VFBLLV8xQTFfNFQzZHE4ZWU1OGdRV25rYU5uanhVblVfN2FFZ0JLeXljTC1qRUl5eV9MZ3JYQ3lkbFd4cE9TVEdwODhobzZB?oc=5",
+        "published_at": "2026-10-16T00:14:38+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "UK and EU consider coordination on China tariffs - Semafor",
-        "source": "Semafor",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQlN6WEE2ZVBfWmZ1dTU5ZWRvMzA5WDAyQWZicWgyTXVVMm4xc3pET2xqbTVDTmpzU1g1azdFWTRVVnh2WF9vaWgwUi1abjlMcml3Rks4YkE5N2VuZGxadHEwdzR6T05tbzdyRTlDc3pnZDdOTWNGZG40czhEWUhUTE5hWFJBMlRiRURTajFPbnBvemM5NVluMHcxcw?oc=5",
-        "published_at": "2026-10-15T22:38:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "With China Facing More Trade Barriers, It Can’t Afford to Lose Europe - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYNDNELUppYzROV3VxSjE5Zlg0cHBsSDFacFBTbEY2R011SnRGT3NuMHpDT3RiSGhfOHRnb05WQllxVVk1LVpaUzVoLUpOSlhNa3NRbU1BQmlDb1NGa3o2Tk1hRjRVWkFLeF9NSEdTeG80WC1aUEFPcFV2N2t5NVpISmg3eE01M3pwUlJNMWx3RUoyOFVRMnlGRkxNUTgxWDVuRkdn?oc=5",
-        "published_at": "2026-10-15T21:03:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -232,15 +238,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "NVIDIA B200 Price Doubles as Tencent-Oracle Ink $7B Deal [2026] - https://tech-insider.org/",
-        "source": "https://tech-insider.org/",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLVFueUl3NDllNGs3TTJxakFIdEJzRHd2WEJ3eG83WEdxWjV5RVRxVERYek9pb3RNa1BKNkRUbWZHNHRDSWdGM0dUeU5oMWNiV3Uyckl6R2VuUHg5UGpuZVBucVd1bTluVkM4bTBfS3h3ck1mYTNaNUFuRWNiUkI4OXdB?oc=5",
-        "published_at": "2026-10-16T04:32:27+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "How Investors Are Reacting To NVIDIA (NVDA) AI Partnership Wave - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaHhnc0tIbHYtRE8zcTVtS2laZG5IT29wWG1yaDBkUkVUanpvaWpFWm1pTEpyVjR6aDZ3Zi1Yd2tMclFDLWc0WHgxYzJ1Z0NpcWxyOWRPYWVUMW05OC1xU2Y4Ri11R0JFb0hqWGVlZDZKU25HSllfRUxzNVlJdmkzNVAydVkzYUFhLU1qRU5UamNPRV9Ic2VOZElYMUFlVGs?oc=5",
@@ -250,28 +247,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "glp-1 weight loss drug fda approval august 2025 - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJ4NHdrcWQ5UWtwdEk3ZkpnVjJYenAzZ2lyY3VNZ09uY01NcGs2ekVjNkFPVFk5enYwOG1NV0hYdmpURW83OHlMX0haZEdsYjRRUVVtVkNCUnZuWTJEcXAwZ2ZXVXE3azQwcDJER29VRXI4X2lnXzFuU2FPS0s5U0FNeWc4U0tBVGxMTTFjWnRMWTFUV3NpdVZoMVkzQlJq?oc=5",
-        "published_at": "2026-10-16T00:23:01+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-16T00:17:30+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "MODERNA INC (MRNA-USD.SW) Q1 FY2026 earnings call transcript - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeGtWSVlXNmNxUGZ3aGlScm5uZTAybDREWHRjenVNd09IMW9DeXotVWNwNFlCSHBIRld6YU9pbkFDLWNSc01scEhFcnJqT3h2X3ZMLU1XWk1abWt3UEVMcXhuR2o3ai1fZXJkYVEyREtQc1ppYldrR2hhRnFqTjhoamtsZThERDlwVmotWlBtS1hocDFHY0ktM2pSTnJfbUU?oc=5",
-        "published_at": "2026-10-15T23:38:09+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -286,6 +265,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "ANKTIVA + BCG Gains Expanded FDA Approval for BCG-Unresponsive NMIBC - ImmunityBio - Oncodaily",
+        "source": "Oncodaily",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jeGVmcDVBMlRER1pSRVFEVklLd2Nndm94Z2hHcFB1aE1Ma0h0d2J3NUJBd241aW9YSm4yUDRYU1RpZFRwNS1pRkI5NGdCcXZFYW0tN1RySTBjU193R3l4d0FJdFZJZF8xakMwTUVKdzJqZw?oc=5",
+        "published_at": "2026-10-15T18:29:19+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Nvidia Stock Falls as the Chip Leader Can’t Escape the AI Selloff - Barron's",
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5QUx6M3FGYWk0Sng4U3NGRW1tVGhpYmZic2pXTm03VHZ2ZEp6a215OFdVaXVETDFMVWtYZUtrbXNlVVdvT05CcDVaaE5uUWpUdEhjMFBFWm1TcUZHYWp5UUZubTdSMlR1ZnNuaUxuQVpwQ2c?oc=5",
@@ -295,10 +283,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "FDA approval of Gazyva offers new option for pediatric INS - Contemporary Pediatrics",
+        "source": "Contemporary Pediatrics",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObHJSNXVCMDlOZEVXM0QwNnQ1cEpmNHk1b0E4NTJhbWU1bVM0NjZfdlhlVWZ1Z2RfdzRIUE5Bc2NrbUtfaUFGTnc1NXRBaXBUQTNrZ293OTlLRU5ZSnpPQlVBcjhxT0JLN3ZnZVBHOTlBWlpIWHM1eEloaE9CMFg2VWVoekQya0xxMmg4azBDVi1hdHA2UUVlZE00YXFkeDNtWFlhRg?oc=5",
+        "published_at": "2026-10-15T18:07:06+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "CoreWeave's AI contracts and the lenders financing its build-out - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUGZBX05oMkNwZ1JXbG9rM1NlQ000aTFuTTFJMV9GQ2JuX2xneWxHVFBYV0RqajI2WmdXNVdkLVpETWt6Z0ZSMWRMQ1J3MWloN3BudnV2STBBcWZVMDROeW03T3E3U1NMa2VDYTB4TWU3NVZYWlI2WVVJejVGT2RNamwzZ2FJMmZ3Y3hJVzZlbGtBbnd2RVBPbGlfalhHWExPa1JIbzVkZnFLalBvdnl4Zg?oc=5",
         "published_at": "2026-10-15T17:47:57+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving - NVIDIA Newsroom",
+        "source": "NVIDIA Newsroom",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYURrcF9BTUJoeTZhQ2NQLTFnUEs0M2o5TnQyN0FmdjJHYm5iOUFtUVYxalZCVWMwbkpQSi11djI0SUs0UVR0ODNEcWlyQ09zSUxYbmloZURidVB2clU5VVI4OTg4QVZkYjN6SGM2U0tNNk8yS21TbkFkQ3AzY0lKbTI2OUJLSDJQSUREdmw1ZDdHLWJ2SXpKeVgzT2plcjZfS25VUTNqcFRJSW1pMXc?oc=5",
+        "published_at": "2026-10-15T17:38:50+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
