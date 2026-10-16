@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-16T07:17:43.587649+00:00",
+  "generated_at": "2026-10-16T07:54:30.386651+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.83000183105469,
-    "wti_change_pct": -2.1843414953395035,
-    "brent": 105.27999877929688,
-    "brent_change_pct": -0.6042290414578932,
+    "wti": 95.81999969482422,
+    "wti_change_pct": -2.1945508819944393,
+    "brent": 102.80999755859375,
+    "brent_change_pct": -2.936178874730555,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
-    "vix": 16.459999084472656,
-    "vix_change_pct": -2.4303600140151094,
-    "dollar_index": 101.83399963378906,
+    "vix": 16.030000686645508,
+    "vix_change_pct": -2.612384093221376,
+    "dollar_index": 101.83100128173828,
     "macro_score": 53.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.18%. Geopolitica: Ship attack reports near Hormuz reach record high as oil exports slow - BBC",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.19%. Geopolitica: Ship attack reports near Hormuz reach record high as oil exports slow - BBC",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T07:05:00+00:00",
-      "brent": "2026-10-16T07:05:00+00:00",
+      "wti": "2026-10-16T07:40:00+00:00",
+      "brent": "2026-10-16T07:40:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
-      "vix": "2026-10-15T20:10:00+00:00"
+      "vix": "2026-10-16T07:35:00+00:00"
     },
     "geopolitical_risk_score": 44,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T07:17:31.833017+00:00",
+    "updated_at": "2026-10-16T07:54:18.741072+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -64,14 +64,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
@@ -92,30 +92,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "India Selling More To US Despite Tariffs, But China Trade Gap Keeps Rising - NDTV",
-        "source": "NDTV",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUEstT1J2cm84VFpic0VpdU9KRFJDUlNremYyeE9xYV9qaU9qbUh3Zi1vSHRMMHMxTi1sWE5lUTFUbjJoWkNWbEh1aU9QeHZKSC10cVpJLTFSZjBCdktOU1JsTG5EczJQdTl3V2stdlozMjlLb3pRdjgxVGtVaTgtUW9LYnZIa3dyY01LbGEtcGhvQ01nLUlBUzlGTGRPaUg2T2ROelVPMk5PeDhXVjhuTGJtSXlYNWhFZThVcVl30gHGAUFVX3lxTFBZNDFMdG1QWnVsWjlfWE9KM3lrZHVXekozaGlabFNiLUdPY2ZUWVR1cm4tVUNDTDZxZ0V6QUZaMS10bjEtbktEbmhuRE81ODBOYkN3VVEwSklkY2Q1cVNORDRvUFNkaTZhWnpvVXlleE9MejVsZzNINWhTazFNdmR5SXJNOG0zcEZrMDlmWnNFbktQSjJRV3haRlVDbHZIVUJ0aHBickUzdTg3b3dvMVFEYU80TnVwWE0xOFdoMDMzUkRGaW5uZw?oc=5",
-        "published_at": "2026-10-16T06:46:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Drone strikes in the Black Sea raise fears of Russian escalation to test NATO's response - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV2YtNmVlYWxBQmwxSmVqMnVvN1BndGZhc1U1aEVwb19faXNfNVgtbVVDOFlsZThuSFJDdExPQXpDRHpNemlRWTZQdzYtXzRkTlFOeUFYdWxvek1oT3N6blZjRWNUTU82R2l6RHhsdGJUM3dpaFpFX2Fqb1VkQUM2UE95MVhqdW5WNWhoQS1pVW9sTmxET0dlaWhCbFpKS2laZkFaVk1R0gGrAUFVX3lxTE9FNmpuVXV5Yy13Sjg5NjktUkUxYUJzRi1raWZJcHZKSktBcndIM19IY09UM3cwZzczaGZoOW9xWW1aV1pDMUlubjBxaFg0MXRQX0tkT1VseHhjV2JjNFVnampURk1mQWVlaTZqbU01dFMzWDFYbTBtNDdTc0l0UjlfeW8wR2VRM1hhdXNrUlFqMWV6MEtDYXo2N2N1MTktS0hjc09lMkp0Q2gyOA?oc=5",
-        "published_at": "2026-10-16T06:45:52+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Taiwan Will Make It a Crime to Smuggle AI Chips Into China - Startup Fortune",
         "source": "Startup Fortune",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU2xXaWRCOXptdlRaLUFMYjZyZHBDTjd5YkctVURZNWdpZ2E3QWhXOUVVc2lJd1IxMmlTdl9ydmhXZFdJYUVRSWxZQS1pdGNCYXBIczZWeGpTWFZ5MjlOVEZQSEZTWmhucFlLdXpOTlJzNHlFMEFVa0NMUUY0MVlHSjJOZ0hTVjFCM3FVX2E4cw?oc=5",
         "published_at": "2026-10-16T06:35:16+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump calls Ukraine’s resumption of strikes on Russian oil refineries a ‘disgrace’ - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT2hmbUgxV3ZHTlhUYk52eFhKVWhfV29MWDFzTzRXX2VxUWhZaF9qSXhtUUp5dlNpVTVlX2ZWY3RWWXNjUWYxT0lFU3JXYWNweWRCNlYxNTVVczZWZ2lNbFlGeGhLWklFMk9rUmNUcHVGMWMtX2JkdWtSODZrcktraDRzVkllclQ2c3hmaDZVWW0xUFhvdW5CM24tcUVPTlI5cTBTVXdPZ1lWSG1hQkpnRnEzcTZILU12cjZMdloxS0E0SFk?oc=5",
+        "published_at": "2026-10-16T06:24:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -137,24 +128,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump calls Ukraine’s resumption of strikes on Russian oil refineries a ‘disgrace’ - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT2hmbUgxV3ZHTlhUYk52eFhKVWhfV29MWDFzTzRXX2VxUWhZaF9qSXhtUUp5dlNpVTVlX2ZWY3RWWXNjUWYxT0lFU3JXYWNweWRCNlYxNTVVczZWZ2lNbFlGeGhLWklFMk9rUmNUcHVGMWMtX2JkdWtSODZrcktraDRzVkllclQ2c3hmaDZVWW0xUFhvdW5CM24tcUVPTlI5cTBTVXdPZ1lWSG1hQkpnRnEzcTZILU12cjZMdloxS0E0SFk?oc=5",
-        "published_at": "2026-10-16T06:02:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Hitting China’s trade juggernaut with tariffs is like spitting into the wind - The Telegraph",
-        "source": "The Telegraph",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWEoxX1RwSVhOMlBGYno2X2Vwa0NzYXVrWEdoanZQNkFOOWRqXy1MdnFYcnA4TjRZenlNSjdxQ2VtbTcyVlBSRlU5c0VUcEFoRDRRNFJnT0I4UFotSjhFNVhNRHRwT3IzQUhnT3gtTnZXTE5iaVUtdW9XRWZKQV9rUTlaN3BNNGhsYjV0Z2xfQWxFWEt3ZnUxcFg5X2Q5R2otMGc?oc=5",
-        "published_at": "2026-10-16T06:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal - Bloomberg",
         "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q01TSjZYd3dNbWZ4Rk50ME1UQnUzVkgta3U0RFpFY0VNZGNaeXZfV25jZm9lMjBDdjVONUhlMmJKLTNwT2xwM1I0Mkl5N2N2c25IQWZwbWtORDRYbUJMMC1hZXhWbzllSFZ2bDJzNThDSFRYYmVyYXJnSVc4V0QzVjFMWHBQWVc4NTlRb1E0WEJsYVl1OV9yZEFBQQ?oc=5",
@@ -173,10 +146,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump's tariffs are changing the global trade ecosystem - Al Majalla",
+        "source": "Al Majalla",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU0ZlREFzVk9KZWFNcnpIS3ptbHZTdUtsUmFqejRMODltLUpOSkFER1UwcDJJaHBfWm9MaU5nV2ZTQUV6cnJXLTVVOXNSUVV4aVJXbmtYcXZnXzgzMVZKTmhyYzZGYWtvUXN1M1d4VXhFRk4zVGFJYzhpaFdJdkd1VVFZb3daSmFiNndaQXl0VjVwMjNlYkNBUGJVS2ZvS0gwWDBySQ?oc=5",
+        "published_at": "2026-10-16T03:51:54+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "22 US Lawmakers Press Trump to Enforce Russia Sanctions Ahead of Oct. 18 Deadline - Kyiv Post",
         "source": "Kyiv Post",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9zWEROdXJ6eC1rS0J0QlFYSmNzbGdIZzVFNFlxTjFTaVQ3ZlpFcGN6dUlqZWFJcldFdWZFVGVWNmdaVGRiT2ZNdE5pcw?oc=5",
         "published_at": "2026-10-16T03:01:13+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
+        "published_at": "2026-10-16T02:48:41+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -196,6 +187,15 @@
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaW9Na3RyTUhfTEx2b2VqNTdkVVJDejdDV0t5Qk1xZ193UFFZRjBQVzB6SjdBSFg4NjYwTjF1OU9oNlZGanZ4RGcxTUNJMFJsTzBXakZRNjZuNk1JMF9ZZ3liYWQxekR6NHNJa1l6UFF6VFA0R21tYng2dXozSkhDMGV1RHdVQkpMSVBYR082Yw?oc=5",
         "published_at": "2026-10-16T01:39:35+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Commentary: The U.S. and China created a new ‘Trade Board’ built on buzz words - Itemlive",
+        "source": "Itemlive",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHYtakowakktQkoybFBZOHE4QUFqaHdyVklUcUQtMkkyMzA1cEtCSkkxVElJbmE1UlFCbHlVcjFMNmNpaDVIOU5TaUtldFFLd00zSHNjTk9vRHFmMTF5LXVnak9uZVYwQzBNS0Q3QlhuS05ta0tPdTZybXhGc1IxUGZmY21NUDA4RldQMURMck5YVlBrQmdDNlpPaFVUVzB6Q2ZZdVQ3aWpwd1U?oc=5",
+        "published_at": "2026-10-16T01:31:10+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -238,6 +238,24 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Taiwan reportedly plans $4B Texas complex for Nvidia AI supply chain; tightens China AI chip exports - Seeking Alpha",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmpnOTRvNnp3ekEyRE02Q1pXV3ZhZk1IZ3FNdTZtSDEtajVSYXFCSy05VzVDX1lMeU8wN3F1OGVEWTdjblBoUVpUanBDcHJGWGxEal9SUlhKVFhlTlVLOGhabno4eDh5RV9oMTRHZXZ2ZDdqLWdWOEdwN2xQblA5LVlVU2NZd05Cd0FoTWZTdl8?oc=5",
+        "published_at": "2026-10-16T06:11:51+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q01TSjZYd3dNbWZ4Rk50ME1UQnUzVkgta3U0RFpFY0VNZGNaeXZfV25jZm9lMjBDdjVONUhlMmJKLTNwT2xwM1I0Mkl5N2N2c25IQWZwbWtORDRYbUJMMC1hZXhWbzllSFZ2bDJzNThDSFRYYmVyYXJnSVc4V0QzVjFMWHBQWVc4NTlRb1E0WEJsYVl1OV9yZEFBQQ?oc=5",
+        "published_at": "2026-10-16T05:49:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Roche Receives FDA's Approval For Its Enspryng, A First-In-Class IL-6R Inhibitor - TradingView",
         "source": "TradingView",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPREZvY3Rrd0xScmk4eWlsaWNoOTBFUEs0aWlaNTJEZmZRaHlvYXBpWEdRcUVuWEhkYV9aQVBzWmhIV2lMSmx0M1c1U2NSNGotak9HM0pVWmNYXzNuZjZ5amQ0NjJTdmY2bGg4VFpFa0w4cWJpMmxTMXJJODFQQTVtRDhYa0hQdDktRXBRMzdSdXgwRlJXSGp0Y2M4Z0prbm1IUlJxVWhDWHVlQUpOTWtMcGxhclgtdllBVHBta1RoeURmWk1VWHNBZ0VXVjV5NjFidnF1WThKbzQ4cHdhd19TeEdLOA?oc=5",
@@ -265,10 +283,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "glp-1 weight loss drug fda approval august 2025 - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJ4NHdrcWQ5UWtwdEk3ZkpnVjJYenAzZ2lyY3VNZ09uY01NcGs2ekVjNkFPVFk5enYwOG1NV0hYdmpURW83OHlMX0haZEdsYjRRUVVtVkNCUnZuWTJEcXAwZ2ZXVXE3azQwcDJER29VRXI4X2lnXzFuU2FPS0s5U0FNeWc4U0tBVGxMTTFjWnRMWTFUV3NpdVZoMVkzQlJq?oc=5",
-        "published_at": "2026-10-16T00:23:01+00:00",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-16T00:17:30+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -287,24 +305,6 @@
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5QUx6M3FGYWk0Sng4U3NGRW1tVGhpYmZic2pXTm03VHZ2ZEp6a215OFdVaXVETDFMVWtYZUtrbXNlVVdvT05CcDVaaE5uUWpUdEhjMFBFWm1TcUZHYWp5UUZubTdSMlR1ZnNuaUxuQVpwQ2c?oc=5",
         "published_at": "2026-10-15T18:12:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "CoreWeave's AI contracts and the lenders financing its build-out - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUGZBX05oMkNwZ1JXbG9rM1NlQ000aTFuTTFJMV9GQ2JuX2xneWxHVFBYV0RqajI2WmdXNVdkLVpETWt6Z0ZSMWRMQ1J3MWloN3BudnV2STBBcWZVMDROeW03T3E3U1NMa2VDYTB4TWU3NVZYWlI2WVVJejVGT2RNamwzZ2FJMmZ3Y3hJVzZlbGtBbnd2RVBPbGlfalhHWExPa1JIbzVkZnFLalBvdnl4Zg?oc=5",
-        "published_at": "2026-10-15T17:47:57+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving - NVIDIA Newsroom",
-        "source": "NVIDIA Newsroom",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYURrcF9BTUJoeTZhQ2NQLTFnUEs0M2o5TnQyN0FmdjJHYm5iOUFtUVYxalZCVWMwbkpQSi11djI0SUs0UVR0ODNEcWlyQ09zSUxYbmloZURidVB2clU5VVI4OTg4QVZkYjN6SGM2U0tNNk8yS21TbkFkQ3AzY0lKbTI2OUJLSDJQSUREdmw1ZDdHLWJ2SXpKeVgzT2plcjZfS25VUTNqcFRJSW1pMXc?oc=5",
-        "published_at": "2026-10-15T17:38:50+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
