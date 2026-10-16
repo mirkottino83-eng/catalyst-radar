@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T08:55:13.433401+00:00",
+  "updated_at": "2026-10-16T10:20:53.371564+00:00",
   "events": [
+    {
+      "id": "36e97d529b09",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Mercedes-Benz and NVIDIA expand strategic partnership to advance safe highly automated driving in the next decade - Mercedes-Benz Group",
+      "source": "Mercedes-Benz Group",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeUR6VEtzOVh2aWNQOUJHb1cwR1VjWjI0dXNpVGdyNEJZcmphTnlvbk1COGp2NlhINVJNeUp5Q0VBZ0Qxa1dlT0FyZWRLY3BqV29wQnRjaHVYaTJ4ekVZc3Z3dFpVdlo5ZHJ6QTBJX3IwcmNqYll6cWp0R3BnejhOR3UtX25IYmlpQ0JsS2FzSElnUkYyZGE4?oc=5",
+      "catalyst_type": "partnership",
+      "published_at": "2026-10-16T08:44:32+00:00",
+      "first_seen_at": "2026-10-16T10:20:53.371564+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 62.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 0.45,
+      "price_at_publication": 218.2,
+      "publication_quote_at": "2026-10-16T08:45:00+00:00",
+      "pct_at_detection": -1.58,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "f3cd6ce730ac",
       "ticker": "NVDA",
@@ -21,7 +45,11 @@
       "publication_quote_at": "2026-10-16T08:05:00+00:00",
       "pct_at_detection": -1.4,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.57,
+          "price": 217.26,
+          "quote_at": "2026-10-16T10:05:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -45,7 +73,11 @@
       "publication_quote_at": "2026-10-16T08:05:00+00:00",
       "pct_at_detection": -1.29,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.57,
+          "price": 217.26,
+          "quote_at": "2026-10-16T10:05:00+00:00"
+        },
         "5": null,
         "8": null
       }

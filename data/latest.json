@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-16T09:55:28.451754+00:00",
+  "generated_at": "2026-10-16T10:20:53.378705+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.76000213623047,
-    "wti_change_pct": -2.255791626963499,
-    "brent": 105.55000305175781,
-    "brent_change_pct": -0.3493156378244544,
+    "wti": 95.83000183105469,
+    "wti_change_pct": -2.1843414953395035,
+    "brent": 105.72000122070312,
+    "brent_change_pct": -0.18881887433871425,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
-    "vix": 16.010000228881836,
-    "vix_change_pct": -2.7338935639147244,
-    "dollar_index": 101.72799682617188,
+    "vix": 16.18000030517578,
+    "vix_change_pct": -1.7010862385831382,
+    "dollar_index": 101.62699890136719,
     "macro_score": 53.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.26%.",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.18%.",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T09:45:00+00:00",
-      "brent": "2026-10-16T09:40:00+00:00",
+      "wti": "2026-10-16T10:10:00+00:00",
+      "brent": "2026-10-16T10:10:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
-      "vix": "2026-10-16T09:40:00+00:00"
+      "vix": "2026-10-16T10:05:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,15 +44,15 @@
       "source": "NVIDIA Newsroom",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTXA1UW9vQzZaTV9SWVNMN1hYdUVlTENDeUZCTG9VR3loWWVJS1E0bjZJcFJndFNyZDZYaTh2bF9OU24yeF93d1FwbUNCWnZZbmZXUTNTcklPN25DTGtIeFN2NEdZaElkUTUtV3dHWWtKaU90VmtGWDNCYkNRcGtva21IRFRmcUFDUkhyWXcyLTFUNDZ1aGhDaHotZ1hkYmw3Z0MwM3NZVkdqR3pyZWhEVXF6ZVNoYkZtWXNwS09OQjZLLU9aaUtENVNDT3Y0NXFlcWY0TkxZNWpsY3M5QnBZNVFB?oc=5",
       "published_at": "2026-10-16T08:03:57+00:00",
-      "age_label": "111 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.49,
-      "short_term_change_pct": -0.09,
+      "current_change_pct": -1.58,
+      "short_term_change_pct": -0.16,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T09:50:00+00:00",
+      "quote_at": "2026-10-16T10:20:22+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.4,
+      "quote_age_minutes": 0.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -68,7 +68,49 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 49,
+        "momentum": 48,
+        "macro": 53,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "36e97d529b09",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Mercedes-Benz and NVIDIA expand strategic partnership to advance safe highly automated driving in the next decade - Mercedes-Benz Group",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Mercedes-Benz Group",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeUR6VEtzOVh2aWNQOUJHb1cwR1VjWjI0dXNpVGdyNEJZcmphTnlvbk1COGp2NlhINVJNeUp5Q0VBZ0Qxa1dlT0FyZWRLY3BqV29wQnRjaHVYaTJ4ekVZc3Z3dFpVdlo5ZHJ6QTBJX3IwcmNqYll6cWp0R3BnejhOR3UtX25IYmlpQ0JsS2FzSElnUkYyZGE4?oc=5",
+      "published_at": "2026-10-16T08:44:32+00:00",
+      "age_label": "96 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": -1.58,
+      "short_term_change_pct": -0.16,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-16T10:20:22+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 0.5,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 62.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-16T08:44:32+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 48,
         "macro": 53,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -86,15 +128,15 @@
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZWVTc000bjZxUjhoQlNfUWRmTk9USERjTVVydUdaS1lCX3ZxTGhqX2FHR2Q0SWlLc1NSRXc0MlZLdWxabnJaS1JTNC1ORUNrNTlMb2NTOVN5UEZzMHdua2htX0pDRWp4MGRQaDBMclZSMnludVRBc2tuZC1WcW5Pa2tMb1BuLVNyc211NTV2amRLVF9NdV9tTXdncHVBOXBQMXdwTjl6V2Q2WFFXQ19BSVJ5NVFxMUFtWDJNWWNuRzA2YXlENU9aWHpRcUd5UjhZZWVyTHVmSEVGUUF6d2c?oc=5",
       "published_at": "2026-10-16T08:05:15+00:00",
-      "age_label": "110 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.49,
-      "short_term_change_pct": -0.09,
+      "current_change_pct": -1.58,
+      "short_term_change_pct": -0.16,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T09:50:00+00:00",
+      "quote_at": "2026-10-16T10:20:22+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.5,
+      "quote_age_minutes": 0.5,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -110,31 +152,16 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 49,
+        "momentum": 48,
         "macro": 53,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave",
-      "category": "AI / Cloud",
-      "priority": "high",
-      "satispay_status": "unavailable",
-      "current_change_pct": 1.93,
-      "short_term_change_pct": 1.08,
-      "relative_volume": null,
-      "quote_at": "2026-10-16T09:55:08+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWV"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T09:55:17.410438+00:00",
+    "updated_at": "2026-10-16T10:20:42.670119+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -144,7 +171,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -158,7 +185,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
@@ -177,10 +204,46 @@
     ],
     "geopolitics": [
       {
-        "title": "“Not a Single Minute”: Von der Leyen Slams Russia’s Ceasefire Violations as EU Prepares 22nd Sanctions Package - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSDV4c0thRWp0YjdsUS1TU3VuZGZLTVZNOWtnb2JqdDhFVUp6Vk45MHFtaXNkeUJGck4zQzNOc085Q0ZfZXh0MHZxODkzengxLWR1QmVrQjRvSWN6blpKREY1LTBuazY4ZmtuNkZsbWd2VWFqVEV3MzFnaXNhR0lFbzVGY2R6LWtRQTZTT0lCMllQWHpROXBvMVhDdU9ic1djcjBKQUppZDUtV2RJMXBOVVFsc09UemxxVl9HMlIwU2pEMkZnOG1Jc0pPaTBSQkZIbTVIUmJfUTlaRWZBUEd4Z2lkNkhpTmVZ?oc=5",
-        "published_at": "2026-10-16T09:42:28+00:00",
+        "title": "China Proposes Export Controls on AI Technologies - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwXzlLSi1pLU8wdlIxVEc0TU1Md0hLM1FUdEVvcnhPa3d6bFBHc2VtY1UtRzZITnI1eVlzWGYyelBocjBsRXpBa1NlVjBwMmplX2Zhd0tUSWJDUmFGQVhIVVQ2UzlxN25ZdUFHbTFXejJqM3NWOXduVDhtdmZ4R0FiM2NoaVRtMzFRZjV3?oc=5",
+        "published_at": "2026-10-16T10:15:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU rallies around Zelensky as rift widens with Trump over Russia energy strikes - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaVpRM0Iwd0tUTWxXOUZwV1RUc2VZT0VfR3ZYbGlXbmxINEVNTFVTNlNkdjdTRDdVbFVPUnFDclhJLTdsRHVQcXVuUTNjMURqYVlmeHZ0Z2tWY3BEMzJVdXdsVXRBTTVHRU1MaWJPTkRPV1preEpFZ251enpVamRvb2hMMGVROUkzeVdCTnd4UWszSTFGdkUxaUpTaWJabngwNlNsQndOWmlFM0g1TUlZZzlIVnRRaEhqTjIwMXg0Ymo3NWUxOHV4Q3VlTmtLZW91WVZ5a2pkdHdWd3VJeWEwaUx6ZWdWaUgzeUF2SzI2c0R5eV9GUkFoTXpUMERuRkU?oc=5",
+        "published_at": "2026-10-16T10:14:29+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China leans in to hi-tech systems to counter emerging AI-fuelled terror threats - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckxSd0xqbWRXamlZeG9XcXVfR1J3SHB1YzdXMlFpNDhHMWVhV3JST3l4NGI3WnJvZDlQSVJ3Q2hkYU9aXzdqbm90cWF5eFJxZG5DSy1ZNHBMUG15N2pPX3RNZnZza0RjR28yNXlESGE5YnFZRjYyTmN3NC11dlc4S0NWeXI5d1NESW1RWWNPWUdESnNnbnlRbXhZRFJaQVMyYXFwQ3RhX2pWLUN0dndrdkhxYkRFbW9fZDRYOENGRzZLbm1qX0E?oc=5",
+        "published_at": "2026-10-16T09:56:50+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Europeans ‘far more united’ on tougher China trade stance after German shift, Barkin says - PubAffairs Bruxelles",
+        "source": "PubAffairs Bruxelles",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYUxDVmVmYU1sT0N2Y3pLVVBnSjRmT1VWVUtubXdGZDNadGhaa0o1Y29XNzlKRkVOeGUwTzNFTldBWTRad3QxLUhUclFlSTZHcndQU29yVFVDZi04QXA5NnpuRUF4eG1kbGd3M19XcS1hQnFKTlkyOHY5YmNCaVJUWURiSXc3Nl81cDVyTnNhOEJTSzdBLXNGUzl4b0JnVlF0Z0Npa2p3Mkl2dTI3TWFEME1pR3lEZS03TE40SDR1UEJTTGd2VnJpbnptb0JSS3dWbm1aaA?oc=5",
+        "published_at": "2026-10-16T09:56:36+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says Ukraine resuming strikes on Russian oil sites is a ‘disgrace’ - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSEFfQWYwNDJvOGJDQV9ZeTF3OVdKTnJUUWVNOXJhbkxsd0laMllFRWhOWTQtNkJMOWhjR3pMb1I0dG9jOHp0V0FZUFdza3hIVkljNXNuWmlzdTQzcTgyVEhvNEFaUlc4QjMwWHNfQTRta3paWUF0Ukgxa00xVkdHYVRTNGtnczlpdkRNbjJuWllIUjNOakhwU2lna2xZbVRyZWs1WEd1eXlDQmt1U0Q0?oc=5",
+        "published_at": "2026-10-16T09:37:31+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -231,21 +294,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Flagship Saudi Golf Tournament Postponed After Deadly Riyadh Airport Attack - Haaretz",
+        "source": "Haaretz",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxONnVxckxCQTJPazFkUEg0MWVjeXdFS0ZUSC1kRDI1TE1aZlpWUE5DUkxidi1VQVdkUXkxU0YtbXdRV0l1QjEzVDVldlpZSV9tQ3JhMVVrbk9XelBaTVo3TDZ3VlJVaHhDaUx2SS1paVhodEdYM3E4NUlzWmhVamlKWWxYek12LTBHaVNlSG5selJWNk1aUkV6YXpXeW1tbUNSa0NJRU9lYW5MUDg5Yi1iTjc3VHdaSUpCcVdMdld5cGFkTkZaRzh5SzZHbWN0LXB2VkZ3bGFmcHB5bXdNdEplMFhnSV8yNE1meDZnQ0hfSjRsbHFndWtzdHNVRkt5eS16dGhyOTVR?oc=5",
+        "published_at": "2026-10-16T08:10:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Russia Builds Massive Jet Drone Launch Base Near Ukraine in Just Six Weeks - Kyiv Post",
         "source": "Kyiv Post",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0tYlotRkxOWHhsMlA1ZGw2akpHMFlycUVuZEFZdlEwMnRhT2RVTk5kUTJieXdIeXlraUNBbk9mOWJKZGJneHdydlFNZw?oc=5",
         "published_at": "2026-10-16T07:45:16+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Can China and the EU Resolve Their Growing Trade Imbalances? - Modern Diplomacy",
-        "source": "Modern Diplomacy",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeVpCOXZrYVJTSm51czhFUERKQUpIQ2NRbXpKdlFHTlJLbl9OX0U4dExjQVJCRU9jM1FPYnBmRWdfZGV2OHlPNjlqRHNTTFprcmpyNUMtX1ZPZzBCZldibzRLdVFFTnRXTFVkNEs4QUVDTHZ4MGNSRmVFZWQ1T1ZnQ2F1dktLOGtNbjR2WnloU0tsRGF0WEthSmR1TVJXVnM?oc=5",
-        "published_at": "2026-10-16T07:27:48+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -258,38 +321,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why - Fortune",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTE5mZEVFemt0amd0N1JkRmJtc1c0dHBRdE5uVEJfZC11VmZ5VU9kV2pqZ0NxR2JTR2ZUOUhYX3QzdXVQSEtRRktYZU1Pc1hRUjZxX0ZTUUZtVzMzblZRYXM1OXB4MGRNUmZmQUpvVHFCZ2NQNDVKeDhQOTFOaGR2THJzNS0?oc=5",
-        "published_at": "2026-10-16T07:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan Will Make It a Crime to Smuggle AI Chips Into China - Startup Fortune",
-        "source": "Startup Fortune",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU2xXaWRCOXptdlRaLUFMYjZyZHBDTjd5YkctVURZNWdpZ2E3QWhXOUVVc2lJd1IxMmlTdl9ydmhXZFdJYUVRSWxZQS1pdGNCYXBIczZWeGpTWFZ5MjlOVEZQSEZTWmhucFlLdXpOTlJzNHlFMEFVa0NMUUY0MVlHSjJOZ0hTVjFCM3FVX2E4cw?oc=5",
-        "published_at": "2026-10-16T06:35:16+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Israel killed my father and brother. A year after the 'ceasefire', I cannot reach their graves - Middle East Eye",
         "source": "Middle East Eye",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVXRDM0tQeU03Sy1LeHlCR3B4NjdTakl4eW9kN0tHOTZ6Z0hkMlh0c1BBRENLempmTkRWRDdFRGdwTDBYcUtlU1dFbEY5Y1E0TmU3R2pCb1RGZGhZTzd1aU1XT0MtcDR1VU0zNXZMT3p1c1JwQ1Z3cjQwbUJWS2Z2blpMZTcxaXo2dmRlRVFYV0NleFRiQ0NQWkR4enhxNFh3dUNuV2ZSWThiZjgwN0JLWC1fRHJBY250OFFBSFlRMA?oc=5",
         "published_at": "2026-10-16T06:22:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "September 2026 — Monthly analysis of Russian fossil fuel exports and sanctions - Centre for Research on Energy and Clean Air",
-        "source": "Centre for Research on Energy and Clean Air",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTlNQlpfb3NHako1aWxSUDdRd0xrM2JuVWs1YXFCSVR6SlAwakZ1QnJOLUtIc2JweGoyVHBJQmpHbkpZdlVoOThzZXdITzQzWGM2RHJ3ZEFZN1RfUmNNdi1sVGN3LUY2VnBMOVg3RGlRdDhaUTBsLXJUT1pWemEyWUxXempPNHQzWEtJUS1NV0EyOTBGOVl1NVNkcnI5dVpXQ3ljbGxsaHJkYlk?oc=5",
-        "published_at": "2026-10-16T06:18:51+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -301,18 +337,18 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump Muses on Future Iran Strike With ‘Mother of All Bombs’ - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVFWR2hadElkb2FVMl9yLXBZMnQxT1J1SUtyZzJQT1lyZzdjMlpJTWtJRTd6WXVCRC1xMjNSMFh0ZkNmdG9nLTRqaG5IRDZNYUtSZ2lJaDZGbzV0ZEFEZEZSejVhZFlaWldveTRjcW52aWJrX1RZNnRIM2w0RVlrbmFQVnF6U0hxY2Nmc0oxeWdSX3h2dzNEY29aTWVNcWE3R0d0MF93aFpXUWVoUlE?oc=5",
-        "published_at": "2026-10-16T01:45:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Roche's Enspryng wins FDA approval for thyroid eye disease (RHHBY:OTCMKTS) - Seeking Alpha",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQlc4TlZhZXRROEVXcFNSWjhSMFFhX2cyeWpGZHZ1dGFjRGlhTUFkRi1YRVYtNF9oLWRRQXJ2enNUT3otZUMxeG5STjBleXM5Wmh3SGVSdW1WeC1SOEpPQ3dWQjF5T3ZQemhjMDV4dVhBMXNSR0hIR1d3eWFTU1R6b1BWYmY5T0tDVE05Wk1vOWhvZ09WcVE2aEFFaw?oc=5",
+        "published_at": "2026-10-16T10:01:38+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade - NVIDIA Newsroom",
         "source": "NVIDIA Newsroom",
@@ -377,15 +413,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-16T00:17:30+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "CoreWeave's AI contracts and the lenders financing its build-out - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUGZBX05oMkNwZ1JXbG9rM1NlQ000aTFuTTFJMV9GQ2JuX2xneWxHVFBYV0RqajI2WmdXNVdkLVpETWt6Z0ZSMWRMQ1J3MWloN3BudnV2STBBcWZVMDROeW03T3E3U1NMa2VDYTB4TWU3NVZYWlI2WVVJejVGT2RNamwzZ2FJMmZ3Y3hJVzZlbGtBbnd2RVBPbGlfalhHWExPa1JIbzVkZnFLalBvdnl4Zg?oc=5",
@@ -406,7 +433,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 64,
+  "archive_count": 65,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
