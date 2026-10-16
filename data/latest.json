@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-16T01:38:49.008331+00:00",
+  "generated_at": "2026-10-16T02:07:46.267540+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.9800033569336,
-    "wti_change_pct": 0.9359628281827126,
-    "brent": 105.45999908447266,
-    "brent_change_pct": -0.5657160927140525,
+    "wti": 96.02999877929688,
+    "wti_change_pct": 0.9885397808472529,
+    "brent": 105.6500015258789,
+    "brent_change_pct": -0.3865699058576144,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
     "vix": 16.459999084472656,
     "vix_change_pct": -2.4303600140151094,
-    "dollar_index": 102.05599975585938,
-    "macro_score": 51.4,
+    "dollar_index": 102.05000305175781,
+    "macro_score": 51.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.94%.",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T01:25:00+00:00",
-      "brent": "2026-10-16T01:25:00+00:00",
+      "wti": "2026-10-16T01:55:00+00:00",
+      "brent": "2026-10-16T01:55:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
       "vix": "2026-10-15T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T01:38:35.557037+00:00",
+    "updated_at": "2026-10-16T02:07:34.638261+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,21 +44,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
@@ -77,12 +77,39 @@
     ],
     "geopolitics": [
       {
+        "title": "Trump Muses on Future Iran Strike With ‘Mother of All Bombs’ - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVFWR2hadElkb2FVMl9yLXBZMnQxT1J1SUtyZzJQT1lyZzdjMlpJTWtJRTd6WXVCRC1xMjNSMFh0ZkNmdG9nLTRqaG5IRDZNYUtSZ2lJaDZGbzV0ZEFEZEZSejVhZFlaWldveTRjcW52aWJrX1RZNnRIM2w0RVlrbmFQVnF6U0hxY2Nmc0oxeWdSX3h2dzNEY29aTWVNcWE3R0d0MF93aFpXUWVoUlE?oc=5",
+        "published_at": "2026-10-16T01:45:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelenskyy Orders New Russia Refinery Attacks in Trump Rebuke - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
+        "published_at": "2026-10-16T01:34:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Commentary: The U.S. and China created a new ‘Trade Board’ built on buzz words - Itemlive",
         "source": "Itemlive",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHYtakowakktQkoybFBZOHE4QUFqaHdyVklUcUQtMkkyMzA1cEtCSkkxVElJbmE1UlFCbHlVcjFMNmNpaDVIOU5TaUtldFFLd00zSHNjTk9vRHFmMTF5LXVnak9uZVYwQzBNS0Q3QlhuS05ta0tPdTZybXhGc1IxUGZmY21NUDA4RldQMURMck5YVlBrQmdDNlpPaFVUVzB6Q2ZZdVQ3aWpwd1U?oc=5",
-        "published_at": "2026-10-16T01:32:06+00:00",
+        "published_at": "2026-10-16T01:31:10+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanVvOXBrUl9qVzlNb3ljaFNMclJtU0JkcGMwOHg3WngxQnJhSUc4VzZGV0hvRDBBek9DejBaaTNwWVVSd0thaUt4dXJWZGVEVHdaeXNHQXVpV3pmZVJwN2o2ZDFrTXNGTVdaLTcwY1haLXBlWTRRNnpZSXFFSmllQ0xEdTZHLVRhREJCU3Q3WHlycGhCcEdTSXpjX0VDb1BXYXFiaGp5VjBXQQ?oc=5",
+        "published_at": "2026-10-16T01:29:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -92,6 +119,15 @@
         "published_at": "2026-10-16T00:14:38+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Lavrov Rejects Ceasefire, Says Zelensky Is Challenging Trump - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9KSXRkSXFEZ0lucEozRUEwU1cxWEdDaUJBZEJpd0kzT1FBaHNnenp2TGY1Smd0NVRpZnZlMGNMRUVwekRqdDBOWWlsdw?oc=5",
+        "published_at": "2026-10-15T23:49:55+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -122,30 +158,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ukraine resumes strikes on energy targets, saying Russia never stopped its attacks - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3RoNnRGSkNSUHZrNUJmbWN3cDBSbVNBRkp3WmhFOUx6T213VWtISHNSSTVPSGZ3Tms5M2RyUkswV0F3dl9ZWGJlbWEyb2h6VTFDeE5kcExCRWN3QTloNTVhbnhJZEQ4ZlhhcUpPQ0x1aV9hdUNuYm1HY194cDVMa25iVTJaUmctWWtjM0JMX1hjTnZkcGozMV9RUUJaMUxua2ZqdHBaS3JfS2twTC1tR25Pd1ZxUQ?oc=5",
+        "published_at": "2026-10-15T22:55:24+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "UK and EU consider coordination on China tariffs - Semafor",
         "source": "Semafor",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQlN6WEE2ZVBfWmZ1dTU5ZWRvMzA5WDAyQWZicWgyTXVVMm4xc3pET2xqbTVDTmpzU1g1azdFWTRVVnh2WF9vaWgwUi1abjlMcml3Rks4YkE5N2VuZGxadHEwdzR6T05tbzdyRTlDc3pnZDdOTWNGZG40czhEWUhUTE5hWFJBMlRiRURTajFPbnBvemM5NVluMHcxcw?oc=5",
         "published_at": "2026-10-15T22:38:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump’s “Diesel Deal” With Russia Was Just the Start - Council on Foreign Relations",
-        "source": "Council on Foreign Relations",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVk84QTJqaTBHV3NJc3dYdnBTVU94LVVOOGkwbmExWDVpUXFBR0ZlQ3NPVk55a2xySklZQWpzX3lJZU1JVHFJRVE3a0R6V1R1elhXQzZJVEcxcG5vYmEwQ1FiWGY5MlcxVno1d0dfX2NEeEp1aGtMOEdPMWlYTXBvUmFrM08?oc=5",
-        "published_at": "2026-10-15T22:35:55+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Watch Rep. Amo Says Trump Should Enforce Russia Sanctions - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOHpoM3AzSWxqZlZNU3RfSzgxTXJhSjVpMWVkR1FRVGlMTFBBbkJPbU9JRzFKdHo4QTNiczNSLVBIWkxpVnFMVHV2V0gtckhBRzd0c1ctV0swMGxLZWVUeFRZR1NfcEIxV3JUZTZ5UUs1bGpyM1lRNWV4Z1ZvT0plbTQ1aVdxd1RIdUM3NktCT0YwWmZBMVNxNFptbEpaR0ljY1Q5aVI2QUw?oc=5",
-        "published_at": "2026-10-15T22:31:19+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -167,33 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia says Ukraine resumes attacks on oil refineries - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeFZyYTgwUC1nM3AyZGg2X0ZxLV9aam1pZUNQalpMN2Rxb0h5WGZpMWswdWd6LXRsbks4emJKY05Gcmh1cHhFQVdZM2hGVlJjTUI5NjdHdUdWekFxeU9sRy1JV3F5TG1BVXJJUGQ1RzN6ZFNMeEpTUTR3RjFzN0d2UHliS1k1ZDNOTVpyal9RNy15RjUxd0FXVVRYMNIBoAFBVV95cUxOaGxHX0FFM200OV80YVI1SnYyV2RSem1uWjJWWjdRSFYybXVTdU5RTGt0cUFNUm1wUEo2MVhSTFpjUUxVS2N6Y3E2aVVCbW8zanRUY3libG1VR1UwZ3hBemJuc3pNQ3h3SlZ2U1dJNER1TEh0LWc1VTdmd1hfalRyZUtGZnJHOWdCb1pURERZWE43NXhjcTZwWllwMENpS21s?oc=5",
-        "published_at": "2026-10-15T20:50:13+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Israel reportedly blocks Board of Peace base in Gaza, IDF reports 31 ceasefire violations October 1–15 - The Long War Journal",
-        "source": "The Long War Journal",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZmp0dFdHRnQyRkpuMUdra0RBcHJmU21rYUkwUHFzV0cwM3hnV083UTdpMXY4RTFZQm84X1A5XzZEYlFyaDN5X0I2SHhyd1EyLXhCbjU3UTg5anBlbFM3a2dHbUhPcXJVUU52ZW93QnhIMFJVZkJZRWZ1QmFyMFE5eUwwMFBXZ3J5S2ZUcS1FUXk4TW9jOUk1elNycExCZjhYTnhEd05Pa1EtRFd2emwyeU1oLUgzUENxXy05OUYzaURYZkdTcGI2OG54THFQZWEyR0tOZHRid2FZU3FDWmtTNGQtSUJEMjVk?oc=5",
-        "published_at": "2026-10-15T20:38:20+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
-        "published_at": "2026-10-15T20:35:58+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Consumer Electronics Stocks That Could Benefit From Lower US China Tariffs - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcFB1ZVlNZkJtUWNWOS1YalNBYjYwbTdfWW5GRTd2VmE3TzJfa3puLXU2cmdwRFZFb1FybE1zcDRUR1poc2VxRjI3aWFueklGMkpGTHJxVEkzdDNyZWt1YTdFNXdSN2xQdDVTdjZtTzA4SS02QkdDZThSVGgzTEFwZFo2WmtnaVpRdlNnUmo3WmdSbnk5TEtJMnp1bUFRQkQ3Z1dFRlpkTi1YZw?oc=5",
@@ -203,12 +203,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Is Winning The Trade War And Losing At Home - Forbes",
-        "source": "Forbes",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGNhQjdiUlpRNEoyemhCYXlQVVBLSExzenRHZ3JuVXVXOTBUWm1JU2ZJLVVqZW5CMlVBTlpjaEgzeXJqSnVOZGVyQ3N4c0JEcm5Oc25vejRoU3lJVzh2dXNBTWFMQ0ZxTUFETXNhMGxERmhSZi0wWlVmRHpQLV93QklPcVFZUS1EVEEwOGZENm9VU2F1SVVoakEwZVlITHM1VmFTaG9R?oc=5",
-        "published_at": "2026-10-15T15:57:14+00:00",
+        "title": "EU Beefs Up Trade Arsenal With Powers to Block China Imports - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWs0UnZZYkdMOHhaNlJwQTVIeWQ2clVXakZZZVRPMW9lSXd2bVE2eU5GM1kwQ1dlZkVEWjNrSGI4cUZYaVFaLU5hSGZqSWVsR0RlZUJLUDFkTzk2eWJuOEdZS1JMaUZhVE5HUml0d2liU3YzMGtuYk9GUmdRNGVzX0pZODY3djByX2tPM01tQ3NGSFRmazFiWC01cjV6OFNSMEJ6MEVrYk5aRFRUQzdRV19hdHh1UQ?oc=5",
+        "published_at": "2026-10-15T18:01:22+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -223,10 +223,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Adobe, NVIDIA Expand Their AI Partnership - TVTechnology",
-        "source": "TVTechnology",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNER6cmtrUzU2TWxZMVhNM0pzbEZoVlRmM24tbE8zY0h0UFNGN2c2bk5GTDlEOUdrbkxrRExjc1R2bFlvVVcwaEdkUHl0bTRmV0ZZMko5YUZGbVIyYU9LUm1EZ0hBeWpUZWh1aW9MQ2VQaEdQbVZlLWxVZjhrNWh5QXdrQ2lvWkU?oc=5",
-        "published_at": "2026-10-15T20:34:55+00:00",
+        "title": "Nvidia Expands CUDA-X Tools for AI Semiconductor Manufacturing - Advanced Manufacturing",
+        "source": "Advanced Manufacturing",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNFp4TDF6dTA2RXZzNHc4R3pwbVpocGFVRXYtYzlyNjYybDB0MWtHM1lqOE05eTdfYU9pTUFLSlV0eXA5Y1M2NEpZaUY1aFFvWDZVQUowcDhGQVRuYU9ZVTU5TGo2d2JyV2VJSXAzakM1TkttSlRURTZQSjJxazRmLThha0JoMUZxS3l3a2lsRHlVd3RtYVdVd202TU9qM3RxRHJveDU5N2k5dnVwLWsxZzQ4ZUxfVjlpa25aekRTMEhLLVRnZUE4Z1NPVkNLNVhtUkVqaUxBT1pTekRjMGxCNFNONkVNbnJRMTVjdnBWSnhNdw?oc=5",
+        "published_at": "2026-10-15T19:40:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
