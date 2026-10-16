@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-16T04:05:25.750278+00:00",
+  "generated_at": "2026-10-16T04:34:10.637400+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.69999694824219,
-    "wti_change_pct": 0.6414981952297172,
-    "brent": 105.1500015258789,
-    "brent_change_pct": -0.858001182031054,
+    "wti": 95.75,
+    "wti_change_pct": -2.266001013618435,
+    "brent": 105.23999786376953,
+    "brent_change_pct": -0.6419942569213077,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
     "vix": 16.459999084472656,
     "vix_change_pct": -2.4303600140151094,
-    "dollar_index": 102.0,
-    "macro_score": 52.0,
+    "dollar_index": 101.85099792480469,
+    "macro_score": 53.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.64%.",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.27%.",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T03:55:00+00:00",
-      "brent": "2026-10-16T03:50:00+00:00",
+      "wti": "2026-10-16T04:20:00+00:00",
+      "brent": "2026-10-16T04:20:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
       "vix": "2026-10-15T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T04:05:13.730306+00:00",
+    "updated_at": "2026-10-16T04:33:57.433772+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Drone strikes in the Black Sea raise fears of Russian escalation to test NATO's response - KTVB",
+        "source": "KTVB",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOTHVBaUZPa3JDN2RiWEJDTWh5ZUd2T2ZZODhRMVlKNHMwckpGWFB5WUFVbElqVU1UQ08zbWUwZWtaRzhTSXlYUXlnVzVQVlltQjRzNm9HYVZlNE9JRHZXeXNtQzZud1dVSnZtSUR1Qm5zMnNWTHZkQlRIamxudUs2LUQ4ZjRUbWRlYVRRTkxaRG0xX2EtWlZEdGh4ZlFGazVJSEdBN3pBcHB1djBWN0xZYWo4dndlczhBcnFJLWhwNVFNREt6QnUwX1NzelRBcm4wWUIzQkdDbEszLUNwUDhyMnhpYVZfb2lVa0tFR290TElPaGZDQVVOMXUtRnZHQ1RZdDJiWEFabklnNjhtazMzWTZwNA?oc=5",
+        "published_at": "2026-10-16T04:02:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Sitharaman Says China’s Trade Barriers Biggest Hurdle to Ties - Bloomberg",
         "source": "Bloomberg",
@@ -158,15 +167,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Drone strike on ship in Romanian waters raises fear that war in Ukraine is spreading - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWXhEZk9hTkdnTEhOYzhwdkRpNjJWTHRUVHg0Wnk1czJya0hDOVl3X2tZTlowZEhSc2lfOHNSbGNSZVNSRDhCakQ4cXd2Snd0MUJrLUt2WnBNdmltNzRfX1JadWRYbkluNXVWUzVxRXNOVVpOUDNPTVdsYkE3eF85clc5X19qcWV0VUYtNEpqZmd5aWJPVXJSR29kMDVUZ3BscjdUcU5SZmNlUXQ3SmpyaWJ1MzZrUHBiS3JV0gHAAUFVX3lxTE5qQnRVV3lXX2FVYVRLNk1Gd3RjSWJsSFp0cTd5cXhiaTNlalE5ZHo5Q21nS3hIdUJRdDBrcHY2bDJKc2hRSlM0UWpzWDN5V2tid0JmWTRtdXUtZEJuNDFLejJmblJRMVhaSWRhWVI0VXlXcWJtVnUtVmtRWEhRcXpvc2F4LXBKbzY5T0tZNEszX2dRaEpFNjdoVUZpREx5MWc2NkxPcnY1XzhCclVYeHBYWHJpc2tIV2x6a19XcS1HSg?oc=5",
-        "published_at": "2026-10-15T23:38:56+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil Prices Drop as US President Trump Rules Out Iran Strike - Mexico Business News",
         "source": "Mexico Business News",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOC1wZDdHT2hUVWFTdlo5MUViTWFhS1dValIydVg3V3piVnZVZkhieTlDSmZrVHBiN09TZEZNT3N5Q09HVjl3QkNQQUFKajV0ZEljbmpJUDR3LURUSGdHVkNVLVVsWXdILTVMaGRORXZpTXhBSDBBMWRleXVlbGcyRXNwZ0ZNeXNWMzRPZGlJNm5MMnRfQUxyVjFkaEphaXQ1?oc=5",
@@ -223,6 +223,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "glp-1 weight loss drug fda approval august 2025 - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJ4NHdrcWQ5UWtwdEk3ZkpnVjJYenAzZ2lyY3VNZ09uY01NcGs2ekVjNkFPVFk5enYwOG1NV0hYdmpURW83OHlMX0haZEdsYjRRUVVtVkNCUnZuWTJEcXAwZ2ZXVXE3azQwcDJER29VRXI4X2lnXzFuU2FPS0s5U0FNeWc4U0tBVGxMTTFjWnRMWTFUV3NpdVZoMVkzQlJq?oc=5",
+        "published_at": "2026-10-16T00:23:01+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
@@ -236,6 +245,15 @@
         "source": "MarketWatch",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdzFZUlhsa21xa19DOXJyb3plbFQ1ek53ZF81bXdhOWJwcURqN043VktFUjBjYzVoWndQai1Dd05nUVo5N0xvejRJWGtyWi1McmRXTmFqS0tsWDV2LW96bHZISnpPY3FaVXNLQVdXV0ZnZWhRc0RKajN0MmpfamQyM2dHSkdEZ1JycTJLdmI0LU5EZTRMYXdMVENTcVBlRTBBQmJ0cjg0a0E4MjlMRU9aczNtVHRIdnh1NWc?oc=5",
         "published_at": "2026-10-15T21:23:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Expands CUDA-X Tools for AI Semiconductor Manufacturing - Advanced Manufacturing",
+        "source": "Advanced Manufacturing",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNFp4TDF6dTA2RXZzNHc4R3pwbVpocGFVRXYtYzlyNjYybDB0MWtHM1lqOE05eTdfYU9pTUFLSlV0eXA5Y1M2NEpZaUY1aFFvWDZVQUowcDhGQVRuYU9ZVTU5TGo2d2JyV2VJSXAzakM1TkttSlRURTZQSjJxazRmLThha0JoMUZxS3l3a2lsRHlVd3RtYVdVd202TU9qM3RxRHJveDU5N2k5dnVwLWsxZzQ4ZUxfVjlpa25aekRTMEhLLVRnZUE4Z1NPVkNLNVhtUkVqaUxBT1pTekRjMGxCNFNONkVNbnJRMTVjdnBWSnhNdw?oc=5",
+        "published_at": "2026-10-15T19:40:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -277,28 +295,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving - NVIDIA Newsroom",
-        "source": "NVIDIA Newsroom",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYURrcF9BTUJoeTZhQ2NQLTFnUEs0M2o5TnQyN0FmdjJHYm5iOUFtUVYxalZCVWMwbkpQSi11djI0SUs0UVR0ODNEcWlyQ09zSUxYbmloZURidVB2clU5VVI4OTg4QVZkYjN6SGM2U0tNNk8yS21TbkFkQ3AzY0lKbTI2OUJLSDJQSUREdmw1ZDdHLWJ2SXpKeVgzT2plcjZfS25VUTNqcFRJSW1pMXc?oc=5",
-        "published_at": "2026-10-15T17:38:50+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "New type of sunscreen hit shelves months after FDA approval - WSB-TV",
         "source": "WSB-TV",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZk9lMGRZS0ZZbXFRbHFiYXh0X3l4M3M3MnhVZWw5MVBwTkNnNFdhZl9JN1VQZHpKX3NXWVk4V211T1NQR3dwRlFVU2d1cGxxSThhamlmNTU1bmZGMGVjSkZNY3pCNVBVblNRaDJNS1hIVHByS3piT0Y2MHlESml5RTA3QXlCbWhWaVF1ekZuZ3hDbm5kWDJIWWFCYnQzOF9weGZEalBBQXNJaXpwcXF6aHcyZzRJV0VJazY3btIB0AFBVV95cUxOdjFzSzNLNHZzTk04VGhxbEJQRFB2MEJ6ZDNzY0VOZEpGR3lpbFV6a1F0eDRaaTcxVzl5M25YTGVITjFkdm5GcEVUbHEydTRHUm42cHpLLXZqOUxDTGtvV0NIYXVqR0FlSk1fZEFfMmhPbmxHeXN2SFpXRHhWVms4ZV84NW4wdWhNSzdVYS05Zm5leFBOa0VsSWpfYkNiZDBQQ1hMWk83d3R6MTljUk1jTm9OdDFFTHdVZmMyLXhCRjZMS2xjbFJ3S29LNnRnVnho?oc=5",
         "published_at": "2026-10-15T15:36:24+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Edesa Biotech Receives FDA IND Clearance for Phase 2 Vitiligo Study of EB06, Expanding Enrollment to U.S. Sites - Quiver Quantitative",
-        "source": "Quiver Quantitative",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdTIyNnF0TWZWa1p2ZGpYaFFlMTlPcTdzeURjSV9HSXZwR0RPbGRCT0cxWkQ0Qms2YVJBSGRHVlYzeTR6TEtvX0o1NXIxdFg1VnJycHc0Z2E5dTJlTGcxR3BVTWZoYTBydU0xbVd3cmp6LUwzNWtMVTdaS0QwU0sxZWZUanF1Y08yOTN4Z3dkM3ZhTlZ2OHRLZGw5dEVJdzh1bGZ1ZXkwX01KbHpva1VBVFJ1dGNvMzFTVkJVY0YyYVZybk1EV0FSN3JRTVF2Y0dCdVRsSFhGc2oxT21JU3BZ?oc=5",
-        "published_at": "2026-10-15T13:20:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
