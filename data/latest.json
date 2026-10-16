@@ -1,37 +1,79 @@
 {
-  "generated_at": "2026-10-16T10:20:53.378705+00:00",
+  "generated_at": "2026-10-16T10:54:48.857434+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.83000183105469,
-    "wti_change_pct": -2.1843414953395035,
-    "brent": 105.72000122070312,
-    "brent_change_pct": -0.18881887433871425,
+    "wti": 95.83999633789062,
+    "wti_change_pct": -2.1741398961648506,
+    "brent": 105.91999816894531,
+    "brent_change_pct": 0.0,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
-    "vix": 16.18000030517578,
-    "vix_change_pct": -1.7010862385831382,
-    "dollar_index": 101.62699890136719,
+    "vix": 16.100000381469727,
+    "vix_change_pct": -2.187112533575597,
+    "dollar_index": 101.61000061035156,
     "macro_score": 53.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.18%.",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.17%.",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T10:10:00+00:00",
-      "brent": "2026-10-16T10:10:00+00:00",
+      "wti": "2026-10-16T10:40:00+00:00",
+      "brent": "2026-10-16T10:40:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
-      "vix": "2026-10-16T10:05:00+00:00"
+      "vix": "2026-10-16T10:35:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [
+    {
+      "id": "2483641b3b86",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Volvo expands automated driving partnership with Nvidia, launch expected in 2030 - CBT News",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "CBT News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xSk9iR0pURDRlbTBSanhYbVZfN0ZmSmwxZTVXSW1FU2N3XzY5ZnpMNGRhT1FtczI5aTIzYlp0bjdtckphTUVQR1lTcTljcHRTc2xETXBtcWFsVl84aE91bkphZ0U2NmlNNm1lbGZySlJ3WTRwU2lueQ?oc=5",
+      "published_at": "2026-10-16T10:16:18+00:00",
+      "age_label": "38 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": -1.61,
+      "short_term_change_pct": -0.12,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-16T10:50:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 4.8,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 64.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-16T10:16:18+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 90,
+        "volume": 28,
+        "momentum": 49,
+        "macro": 53,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
     {
       "id": "5e178f597f07",
       "ticker": "NVDA",
@@ -46,13 +88,13 @@
       "published_at": "2026-10-16T08:03:57+00:00",
       "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.58,
-      "short_term_change_pct": -0.16,
+      "current_change_pct": -1.61,
+      "short_term_change_pct": -0.12,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T10:20:22+00:00",
+      "quote_at": "2026-10-16T10:50:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.4,
+      "quote_age_minutes": 4.7,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -68,7 +110,7 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 48,
+        "momentum": 49,
         "macro": 53,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -86,15 +128,15 @@
       "source": "Mercedes-Benz Group",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeUR6VEtzOVh2aWNQOUJHb1cwR1VjWjI0dXNpVGdyNEJZcmphTnlvbk1COGp2NlhINVJNeUp5Q0VBZ0Qxa1dlT0FyZWRLY3BqV29wQnRjaHVYaTJ4ekVZc3Z3dFpVdlo5ZHJ6QTBJX3IwcmNqYll6cWp0R3BnejhOR3UtX25IYmlpQ0JsS2FzSElnUkYyZGE4?oc=5",
       "published_at": "2026-10-16T08:44:32+00:00",
-      "age_label": "96 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.58,
-      "short_term_change_pct": -0.16,
+      "current_change_pct": -1.61,
+      "short_term_change_pct": -0.12,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T10:20:22+00:00",
+      "quote_at": "2026-10-16T10:50:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.5,
+      "quote_age_minutes": 4.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -110,7 +152,7 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 48,
+        "momentum": 49,
         "macro": 53,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -130,13 +172,13 @@
       "published_at": "2026-10-16T08:05:15+00:00",
       "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.58,
-      "short_term_change_pct": -0.16,
+      "current_change_pct": -1.61,
+      "short_term_change_pct": -0.12,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T10:20:22+00:00",
+      "quote_at": "2026-10-16T10:50:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.5,
+      "quote_age_minutes": 4.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -152,16 +194,45 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 48,
+        "momentum": 49,
         "macro": 53,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "SNOW",
+      "company": "Snowflake",
+      "category": "Cloud / Software / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 2.32,
+      "short_term_change_pct": 1.73,
+      "relative_volume": null,
+      "quote_at": "2026-10-16T10:37:35+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "SNOW"
+    },
+    {
+      "ticker": "HIMS",
+      "company": "Hims & Hers Health",
+      "category": "Health / Consumer",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 5.3,
+      "short_term_change_pct": 1.0,
+      "relative_volume": null,
+      "quote_at": "2026-10-16T10:45:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "HIMS"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-16T10:20:42.670119+00:00",
+    "updated_at": "2026-10-16T10:54:38.497085+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -192,7 +263,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -203,6 +274,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Drone strikes in the Black Sea raise fears of Russian escalation to test NATO’s response - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTzFrRE5pMHU0QUV5V2ZHeTBuUHR3cnJDY09QMnEyMndIVVA5TG5aUE5zSkhIdWNhZVVLcEJPSGMweVFtVGFma3RXcWlZa2xaeVpMWjg3UnFsUXQ0SXQ1ZFdwdXY0cG4zc3U3NlJBRm81eEkyanlKcG1ENGJWS21CWHN5M3RmZkcxY1dnWTBDNFNna0o1WDgyNnZvTlJOSDlwN1VyeDY1VHktNnVyU0E?oc=5",
+        "published_at": "2026-10-16T10:24:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "China Proposes Export Controls on AI Technologies - WSJ",
         "source": "WSJ",
@@ -215,7 +295,7 @@
       {
         "title": "EU rallies around Zelensky as rift widens with Trump over Russia energy strikes - South China Morning Post",
         "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaVpRM0Iwd0tUTWxXOUZwV1RUc2VZT0VfR3ZYbGlXbmxINEVNTFVTNlNkdjdTRDdVbFVPUnFDclhJLTdsRHVQcXVuUTNjMURqYVlmeHZ0Z2tWY3BEMzJVdXdsVXRBTTVHRU1MaWJPTkRPV1preEpFZ251enpVamRvb2hMMGVROUkzeVdCTnd4UWszSTFGdkUxaUpTaWJabngwNlNsQndOWmlFM0g1TUlZZzlIVnRRaEhqTjIwMXg0Ymo3NWUxOHV4Q3VlTmtLZW91WVZ5a2pkdHdWd3VJeWEwaUx6ZWdWaUgzeUF2SzI2c0R5eV9GUkFoTXpUMERuRkU?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQ3RrLUVvSXJZOXhVYU15czlwY0NhOU5RVnZNcTBRNGJmbzNqZHJmVklNdjdodThPbG9lb2xlWVpoSWNmeUZXeDQwUzNPVDF4MGdSUjRaMFRjZGdfemtPODBSb1RTTW96OEdKM3NLT2VZRE9OSzNaU3JBZVVpbGJOaThvdEl0VlNhdzAwc0VmaHdFZ3oxb0VBSWRBbldOX1pSdXdkMTNrU2dfdmluaXZWcVRKWEo3UVVSUTlGYi12eThCOXByN215LUVoLUxISGt3SmdrdGNlZ9IB1wFBVV95cUxPUlFBUWVyckJmVzhNaV9wQV9qMjV3Q3puemdpNEkyLUFpY3VwRElab1h5VEVrUnRmc1RsUHQtR1NsVWxmS1pVN2dZM1NhalM1em5fQVF5NXhUdllDLXlZNWlEa2FPajJXWl9paTlfcl93V1VpTmFoQnVrYi1rRHZGM2tjUUJDelA2Rnc2eW84bkdTdFNtLVlUS2pOdkI2MU5DOUVKck0wcXlQSVc5eGpHQW1USWVGbUdlZXJ5RWphRDQtUFludWRuelZidE42VEpUUG02T05xaw?oc=5",
         "published_at": "2026-10-16T10:14:29+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -243,7 +323,7 @@
         "title": "Trump says Ukraine resuming strikes on Russian oil sites is a ‘disgrace’ - NBC News",
         "source": "NBC News",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSEFfQWYwNDJvOGJDQV9ZeTF3OVdKTnJUUWVNOXJhbkxsd0laMllFRWhOWTQtNkJMOWhjR3pMb1I0dG9jOHp0V0FZUFdza3hIVkljNXNuWmlzdTQzcTgyVEhvNEFaUlc4QjMwWHNfQTRta3paWUF0Ukgxa00xVkdHYVRTNGtnczlpdkRNbjJuWllIUjNOakhwU2lna2xZbVRyZWs1WEd1eXlDQmt1U0Q0?oc=5",
-        "published_at": "2026-10-16T09:37:31+00:00",
+        "published_at": "2026-10-16T09:52:29+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -276,19 +356,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi Arabia Accuses Iran of Driving Houthi Strike Escalation - IranWire",
-        "source": "IranWire",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNTltWWdhSXlLTmlmcEdyYlVJY2ZUSElNcUkwb2Y0U3ZpaW5DQldScGxvLWdJS0JoaGNMS1pCdHJjaG9OQVdMbVlma2RnbGZoOGNkUEFrQjlqYVdJMW14SjM0RWh5cmJQYUwxdUVZOHpLTGo3aDByblgyUnhwYUNJVWhJcHV0UFBQY21hUjhFSmE1TkZQN3BDMl9rREhYUEE?oc=5",
-        "published_at": "2026-10-16T08:59:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Proposes Export Controls on AI Models, Chips and Agents - Bloomberg.com",
+        "title": "China Plans AI Tech Export Curbs to Manage Security Risks - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTERMaGFSLU1xOHRlNmoxUlZrbU9rTm5iXzlhaDdMb1F4c29kc1QyYjRKUzNFenh3QUo2REd5SlVRMm1NMUdCZWVTWndhdHdKWGxUZmY3Y1c2Z3dfektYZ1dodDhmOHlYVkc1NWI3TzZXTnFINGxNY0dGSy02cEVyZldCcFJLNllrU2hhazdvR014YjVKeU5PWFlVZWdfWDZVSFpOUUt3NGJfV1BmS09sQQ?oc=5",
-        "published_at": "2026-10-16T08:46:44+00:00",
+        "published_at": "2026-10-16T09:21:20+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -299,15 +370,6 @@
         "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxONnVxckxCQTJPazFkUEg0MWVjeXdFS0ZUSC1kRDI1TE1aZlpWUE5DUkxidi1VQVdkUXkxU0YtbXdRV0l1QjEzVDVldlpZSV9tQ3JhMVVrbk9XelBaTVo3TDZ3VlJVaHhDaUx2SS1paVhodEdYM3E4NUlzWmhVamlKWWxYek12LTBHaVNlSG5selJWNk1aUkV6YXpXeW1tbUNSa0NJRU9lYW5MUDg5Yi1iTjc3VHdaSUpCcVdMdld5cGFkTkZaRzh5SzZHbWN0LXB2VkZ3bGFmcHB5bXdNdEplMFhnSV8yNE1meDZnQ0hfSjRsbHFndWtzdHNVRkt5eS16dGhyOTVR?oc=5",
         "published_at": "2026-10-16T08:10:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia Builds Massive Jet Drone Launch Base Near Ukraine in Just Six Weeks - Kyiv Post",
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0tYlotRkxOWHhsMlA1ZGw2akpHMFlycUVuZEFZdlEwMnRhT2RVTk5kUTJieXdIeXlraUNBbk9mOWJKZGJneHdydlFNZw?oc=5",
-        "published_at": "2026-10-16T07:45:16+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -337,9 +399,27 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump Muses on Future Iran Strike With ‘Mother of All Bombs’ - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVFWR2hadElkb2FVMl9yLXBZMnQxT1J1SUtyZzJQT1lyZzdjMlpJTWtJRTd6WXVCRC1xMjNSMFh0ZkNmdG9nLTRqaG5IRDZNYUtSZ2lJaDZGbzV0ZEFEZEZSejVhZFlaWldveTRjcW52aWJrX1RZNnRIM2w0RVlrbmFQVnF6U0hxY2Nmc0oxeWdSX3h2dzNEY29aTWVNcWE3R0d0MF93aFpXUWVoUlE?oc=5",
+        "published_at": "2026-10-16T01:45:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Jefferies Highlights Top Mid-Cap Biotech Stocks Ahead of Earnings - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTVI5MFlrN2FOVVFYb2tGOTNFTktfVG9La2RqbU01ZjVyendJczRHS0hnRWFqVWN4c0ZLZkxpZnFvRUVuSWtHWUQzMnpndDVPaFdUSDJzQ2Z4cVVPR3BrWWJHcV9Ic0hZYTh4S1I3RXoyVEJmTHpfSzk1bXB5VkdETHlxazZsSXMwdmRaRTRtd2hrQXdGWTlkYjNqbTFSZUpXQWk3QS04T1JjV1FIVjFtTC1QNHc0cnY5YnRtTEVR?oc=5",
+        "published_at": "2026-10-16T10:22:54+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Roche's Enspryng wins FDA approval for thyroid eye disease (RHHBY:OTCMKTS) - Seeking Alpha",
         "source": "Seeking Alpha",
@@ -386,20 +466,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q01TSjZYd3dNbWZ4Rk50ME1UQnUzVkgta3U0RFpFY0VNZGNaeXZfV25jZm9lMjBDdjVONUhlMmJKLTNwT2xwM1I0Mkl5N2N2c25IQWZwbWtORDRYbUJMMC1hZXhWbzllSFZ2bDJzNThDSFRYYmVyYXJnSVc4V0QzVjFMWHBQWVc4NTlRb1E0WEJsYVl1OV9yZEFBQQ?oc=5",
+        "title": "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSTd1c05ibnVsTXBiZFNxalptWTFDUnkwclNvbkNvb2tka2R0VFYzYW5SRk94bUhkR2xoSFlqbHdWalBPX1JwTjVWNnpDS3VtN0lhNDNQQ2NaLWxyREtJeXN6SWFiMU1FQUdsYlZRcExrSGFyaDk5SEtrTE1NRE5lQVZ3?oc=5",
         "published_at": "2026-10-16T05:49:00+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA approves the first at-home injection option for thyroid eye disease - Stock Titan",
-        "source": "Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNFozWXk5Sk8tci1PTVdTc3lkNlV6OF9sVzd4WnZFNzZxWXJYblN0NG5YNjlGNkZEQVQ3ek14ZnJLbnF1S0UxcHBsMnhzN2FCbEwydllWdWdnbDlnRVdNV242RmNqSk02eWJMSDdzRmJDS1U4Y1EtRXY1Z0hHWl9lT1dqZ0xqWVpiTWgyamp4bTlLUThBSkd0QUZaT1NLZmtfRk5oYmRaZUlYdHV1ZnRjOE5hZEFTdkVMVXY0NDNn?oc=5",
-        "published_at": "2026-10-16T05:00:00+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -422,10 +493,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark - NVIDIA Blog",
-        "source": "NVIDIA Blog",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4RTJoRXBqang2M2NNT0RtYXRvX1dGYmtSXy1GMmMzbHJuRnZHVmpXcXkzWGN1U2k5Q0FLUkVKd1E5bWFLeG1xZlBXemxxSjBBQVFKUnRlVE1LWjc2aUVVektyeDVqWGtuUjN0aDFJSHVQX09hdHRUUg?oc=5",
-        "published_at": "2026-10-15T17:03:57+00:00",
+        "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving - NVIDIA Newsroom",
+        "source": "NVIDIA Newsroom",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYURrcF9BTUJoeTZhQ2NQLTFnUEs0M2o5TnQyN0FmdjJHYm5iOUFtUVYxalZCVWMwbkpQSi11djI0SUs0UVR0ODNEcWlyQ09zSUxYbmloZURidVB2clU5VVI4OTg4QVZkYjN6SGM2U0tNNk8yS21TbkFkQ3AzY0lKbTI2OUJLSDJQSUREdmw1ZDdHLWJ2SXpKeVgzT2plcjZfS25VUTNqcFRJSW1pMXc?oc=5",
+        "published_at": "2026-10-15T17:38:50+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -433,7 +504,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 65,
+  "archive_count": 66,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
