@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-16T00:36:22.520015+00:00",
+  "generated_at": "2026-10-16T01:11:05.203932+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.9800033569336,
-    "wti_change_pct": 0.9359628281827126,
-    "brent": 105.5,
-    "brent_change_pct": -0.5280007274037324,
+    "wti": 95.83999633789062,
+    "wti_change_pct": 0.7887265000357857,
+    "brent": 105.2699966430664,
+    "brent_change_pct": -0.7448622795704907,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
     "vix": 16.459999084472656,
     "vix_change_pct": -2.4303600140151094,
-    "dollar_index": 102.07599639892578,
-    "macro_score": 51.4,
+    "dollar_index": 102.06300354003906,
+    "macro_score": 51.7,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.94%.",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.79%.",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T00:25:00+00:00",
-      "brent": "2026-10-16T00:20:00+00:00",
+      "wti": "2026-10-16T01:00:00+00:00",
+      "brent": "2026-10-16T01:00:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
       "vix": "2026-10-15T20:10:00+00:00"
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-15T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 41.2,
+      "quote_age_minutes": 76.0,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -69,7 +69,7 @@
         "freshness": 78,
         "volume": 28,
         "momentum": 46,
-        "macro": 51,
+        "macro": 52,
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T00:36:09.821099+00:00",
+    "updated_at": "2026-10-16T01:10:54.608040+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -119,6 +119,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Houthi Missiles Strike Government Headquarters in Yemen - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRWFDdHFfLVg4dEdlTkhlN2NxQ3lnbEZvX3hRQ2FUU2ktTzFfQnFpd001ZzJMU01tcjNpaThxVGI2VFBLLV8xQTFfNFQzZHE4ZWU1OGdRV25rYU5uanhVblVfN2FFZ0JLeXljTC1qRUl5eV9MZ3JYQ3lkbFd4cE9TVEdwODhobzZB?oc=5",
+        "published_at": "2026-10-16T00:14:38+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Drone strike on ship in Romanian waters raises fear that war in Ukraine is spreading - PBS",
         "source": "PBS",
@@ -165,6 +174,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
+        "published_at": "2026-10-15T22:30:28+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQODZXb0UtbHJiTHdmLTZhUENYcXNNeVptZDFGV1pUUEpuS3A0RzROVlBWSGw2V2tvdjNabmlnX1llVmh1Tno5TW5jUjhLWm5BY3VOREdYTnd5Q2RpdmdyVnVzR0lFTlp4SDV4a3JzNWo0US1xdER1eUkybkRtOHlBT2U4RE43NFI2dGVnb29fSmdPVmVPaDY3NG5fNXRabFR5dkJBU0pwNDFZSkN0NkxaU2lEd2c1Mk9HbUNUYTROV3BJUnh3TEE?oc=5",
@@ -174,11 +192,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi Missiles Strike Government Headquarters in Yemen - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRWFDdHFfLVg4dEdlTkhlN2NxQ3lnbEZvX3hRQ2FUU2ktTzFfQnFpd001ZzJMU01tcjNpaThxVGI2VFBLLV8xQTFfNFQzZHE4ZWU1OGdRV25rYU5uanhVblVfN2FFZ0JLeXljTC1qRUl5eV9MZ3JYQ3lkbFd4cE9TVEdwODhobzZB?oc=5",
-        "published_at": "2026-10-15T21:43:03+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "‘We’re Done’: Zelensky Says Ukraine Will Resume Strikes on Russian Oil Refineries - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Rcm5nTWtvc1Q0aEIxc1VLcHBSWjlkZUhVX0MxQXQ4M3dxdkN5LXhaTzROVzBNbUZLZDBNa0FwdHp1TnllYUFSaExfYw?oc=5",
+        "published_at": "2026-10-15T21:04:03+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -201,11 +219,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Israel reportedly blocks Board of Peace base in Gaza, IDF reports 31 ceasefire violations October 1–15 - The Long War Journal",
-        "source": "The Long War Journal",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZmp0dFdHRnQyRkpuMUdra0RBcHJmU21rYUkwUHFzV0cwM3hnV083UTdpMXY4RTFZQm84X1A5XzZEYlFyaDN5X0I2SHhyd1EyLXhCbjU3UTg5anBlbFM3a2dHbUhPcXJVUU52ZW93QnhIMFJVZkJZRWZ1QmFyMFE5eUwwMFBXZ3J5S2ZUcS1FUXk4TW9jOUk1elNycExCZjhYTnhEd05Pa1EtRFd2emwyeU1oLUgzUENxXy05OUYzaURYZkdTcGI2OG54THFQZWEyR0tOZHRid2FZU3FDWmtTNGQtSUJEMjVk?oc=5",
-        "published_at": "2026-10-15T20:38:20+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
+        "published_at": "2026-10-15T20:35:58+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -219,30 +237,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanVvOXBrUl9qVzlNb3ljaFNMclJtU0JkcGMwOHg3WngxQnJhSUc4VzZGV0hvRDBBek9DejBaaTNwWVVSd0thaUt4dXJWZGVEVHdaeXNHQXVpV3pmZVJwN2o2ZDFrTXNGTVdaLTcwY1haLXBlWTRRNnpZSXFFSmllQ0xEdTZHLVRhREJCU3Q3WHlycGhCcEdTSXpjX0VDb1BXYXFiaGp5VjBXQQ?oc=5",
-        "published_at": "2026-10-15T19:17:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger at Trump mounts - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGlmVmZvMDNPb3VjRGN2ckNvY1ZaaHRxQmdENlI4U1hLX2tNZlVHR2lzdEt1cTN1RnZldFQwRlFzMW5jMkNsbXlYYVhmWktsRXBtdU1EN0E2ODFpWWNtenBSSjVIYS1QWHluTzFiT3BiV0pzbl9IVEZHcmNWZGEyUWUtYXFONDhBYURjdHc5WDdzZFlEZ042YVJkMUFiaTNQX0hTd01hZFdqMG9yNXIzQ0ZFUGs3cms?oc=5",
-        "published_at": "2026-10-15T18:28:25+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU Beefs Up Trade Arsenal With Powers to Block China Imports - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWs0UnZZYkdMOHhaNlJwQTVIeWQ2clVXakZZZVRPMW9lSXd2bVE2eU5GM1kwQ1dlZkVEWjNrSGI4cUZYaVFaLU5hSGZqSWVsR0RlZUJLUDFkTzk2eWJuOEdZS1JMaUZhVE5HUml0d2liU3YzMGtuYk9GUmdRNGVzX0pZODY3djByX2tPM01tQ3NGSFRmazFiWC01cjV6OFNSMEJ6MEVrYk5aRFRUQzdRV19hdHh1UQ?oc=5",
-        "published_at": "2026-10-15T18:01:22+00:00",
+        "title": "China Is Winning The Trade War And Losing At Home - Forbes",
+        "source": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGNhQjdiUlpRNEoyemhCYXlQVVBLSExzenRHZ3JuVXVXOTBUWm1JU2ZJLVVqZW5CMlVBTlpjaEgzeXJqSnVOZGVyQ3N4c0JEcm5Oc25vejRoU3lJVzh2dXNBTWFMQ0ZxTUFETXNhMGxERmhSZi0wWlVmRHpQLV93QklPcVFZUS1EVEEwOGZENm9VU2F1SVVoakEwZVlITHM1VmFTaG9R?oc=5",
+        "published_at": "2026-10-15T15:57:14+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
