@@ -1,46 +1,83 @@
 {
-  "generated_at": "2026-10-16T07:54:30.386651+00:00",
+  "generated_at": "2026-10-16T08:18:12.997438+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.81999969482422,
-    "wti_change_pct": -2.1945508819944393,
-    "brent": 102.80999755859375,
-    "brent_change_pct": -2.936178874730555,
+    "wti": 95.63999938964844,
+    "wti_change_pct": -2.378280904381891,
+    "brent": 102.69000244140625,
+    "brent_change_pct": -3.0494673181424403,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
-    "vix": 16.030000686645508,
-    "vix_change_pct": -2.612384093221376,
-    "dollar_index": 101.83100128173828,
+    "vix": 16.040000915527344,
+    "vix_change_pct": -2.5516293578747073,
+    "dollar_index": 101.81700134277344,
     "macro_score": 53.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.19%. Geopolitica: Ship attack reports near Hormuz reach record high as oil exports slow - BBC",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI -2.38%.",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T07:40:00+00:00",
-      "brent": "2026-10-16T07:40:00+00:00",
+      "wti": "2026-10-16T08:05:00+00:00",
+      "brent": "2026-10-16T08:05:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
-      "vix": "2026-10-16T07:35:00+00:00"
+      "vix": "2026-10-16T08:00:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Ship attack reports near Hormuz reach record high as oil exports slow - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vbTJaWk05Ny1JSFlaa1RLTTV4QkdUX21kdXRkdUhRT1dvZmI1RGdMZ3hQdjlTM2JELXc1aXZ0Y3hVQlhMY3RXYXpIUVYwa08zVVFaUEdzU3AtaVU?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "5e178f597f07",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade - NVIDIA Newsroom",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "NVIDIA Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTXA1UW9vQzZaTV9SWVNMN1hYdUVlTENDeUZCTG9VR3loWWVJS1E0bjZJcFJndFNyZDZYaTh2bF9OU24yeF93d1FwbUNCWnZZbmZXUTNTcklPN25DTGtIeFN2NEdZaElkUTUtV3dHWWtKaU90VmtGWDNCYkNRcGtva21IRFRmcUFDUkhyWXcyLTFUNDZ1aGhDaHotZ1hkYmw3Z0MwM3NZVkdqR3pyZWhEVXF6ZVNoYkZtWXNwS09OQjZLLU9aaUtENVNDT3Y0NXFlcWY0TkxZNWpsY3M5QnBZNVFB?oc=5",
+      "published_at": "2026-10-16T08:03:58+00:00",
+      "age_label": "14 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": -1.29,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-16T08:15:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.2,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 64.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-16T08:03:58+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 53,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T07:54:18.741072+00:00",
+    "updated_at": "2026-10-16T08:18:01.663791+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -71,7 +108,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -82,6 +119,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "U.S. imposes fresh Iran-related sanctions, blacklisting Iraqi bank - upi",
+        "source": "upi",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWnRsSHhYS1NwOXVKY1k3SmJGMWFDM2R0N0w3dWJGZW4xV2N0R3dWRVItWGRTRm1ZSTMtSHpCZHp6UHE3eFM4R2hTbnJabmZreVo3R2VJVkkxcDdNXzZsSXkyc0tuTmV0NFZ5MjR6UWRGRjV4eHpMZFp1MVNnN05hUDRYdjRqWTJVZ0tqWUVCUkhzcU3SAZgBQVVfeXFMT0hnNmZZWmFDU1BkMGhHWDBFTFkxVFg4VHh6UEVJTUdJQ2NRTmxnbzVLaktmUU5DVUU1SWFNbmRTeGtVcTFsaHAxOWU3b18tWFp4ZUhCNEFRQzhtS2ZScjRMT2Z6bEpTZ08xWkFwYkppUl9lMEQtWTJCV3lhNU4zU3Q2SEhldzgyb3E4ZkhvQ2FsXzQ2aWI0ckQ?oc=5",
+        "published_at": "2026-10-16T07:15:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "'I told you so': China's chip sector is making breakthroughs—and U.S. export controls are the reasons why - Fortune",
         "source": "Fortune",
@@ -155,15 +201,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "22 US Lawmakers Press Trump to Enforce Russia Sanctions Ahead of Oct. 18 Deadline - Kyiv Post",
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9zWEROdXJ6eC1rS0J0QlFYSmNzbGdIZzVFNFlxTjFTaVQ3ZlpFcGN6dUlqZWFJcldFdWZFVGVWNmdaVGRiT2ZNdE5pcw?oc=5",
-        "published_at": "2026-10-16T03:01:13+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
@@ -176,7 +213,7 @@
         "title": "Trump Muses on Future Iran Strike With ‘Mother of All Bombs’ - Bloomberg",
         "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVFWR2hadElkb2FVMl9yLXBZMnQxT1J1SUtyZzJQT1lyZzdjMlpJTWtJRTd6WXVCRC1xMjNSMFh0ZkNmdG9nLTRqaG5IRDZNYUtSZ2lJaDZGbzV0ZEFEZEZSejVhZFlaWldveTRjcW52aWJrX1RZNnRIM2w0RVlrbmFQVnF6U0hxY2Nmc0oxeWdSX3h2dzNEY29aTWVNcWE3R0d0MF93aFpXUWVoUlE?oc=5",
-        "published_at": "2026-10-16T01:45:27+00:00",
+        "published_at": "2026-10-16T01:45:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -191,6 +228,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Zelenskyy Defies Trump, Orders New Russian Refinery Attacks - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
+        "published_at": "2026-10-16T01:34:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Commentary: The U.S. and China created a new ‘Trade Board’ built on buzz words - Itemlive",
         "source": "Itemlive",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHYtakowakktQkoybFBZOHE4QUFqaHdyVklUcUQtMkkyMzA1cEtCSkkxVElJbmE1UlFCbHlVcjFMNmNpaDVIOU5TaUtldFFLd00zSHNjTk9vRHFmMTF5LXVnak9uZVYwQzBNS0Q3QlhuS05ta0tPdTZybXhGc1IxUGZmY21NUDA4RldQMURMck5YVlBrQmdDNlpPaFVUVzB6Q2ZZdVQ3aWpwd1U?oc=5",
@@ -200,25 +246,25 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Fresh Iran sanctions target 16 individuals, 10 entities - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNjFJb19TRTI4ZU4wbFhuVGRvNFJBZ19BTnpfUjVadlRyY2VnLUJyc181OXZsdTNfa0d0aXZjM2tlVHI4dC1mSWVibnQ1UlFZdlVmcEN3Wk1Ca0Nrclp4MmlmTE9BNTFhNjZJRmRiMWZ2cmdqRndJTFBhUm53U1h2VWg3MHRsd2R5Mk5QcVRSaVVlYzBpYWUtWUpnd0lHSmt2TE50eHlKZWhsWVZuZElzZQ?oc=5",
-        "published_at": "2026-10-16T00:52:00+00:00",
+        "title": "Oil eases, but set for weekly gain on Mideast supply risks - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
+        "published_at": "2026-10-16T00:57:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi Missiles Strike Government Headquarters in Yemen - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRWFDdHFfLVg4dEdlTkhlN2NxQ3lnbEZvX3hRQ2FUU2ktTzFfQnFpd001ZzJMU01tcjNpaThxVGI2VFBLLV8xQTFfNFQzZHE4ZWU1OGdRV25rYU5uanhVblVfN2FFZ0JLeXljTC1qRUl5eV9MZ3JYQ3lkbFd4cE9TVEdwODhobzZB?oc=5",
-        "published_at": "2026-10-16T00:14:38+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Legend Biotech (LEGN) Following FDA Clearance For LB2501 Has Its Value Story Back In Focus - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQmlIQ0xFZWIwR3dfaE1NLWl2TG9MVUJHekRWZ0F2UjBhdXhRd3FRaklFSkhpYkNSZVk0dGl2RVlkN1ZqZFpmZWZtYm5rVFNSLUVVWlBGR0QzQ2h0UEJZcGdSdnNuYXZFeU9ENFlXQ1I5RjVtOHZRT1VwQWpJUld1MzBYdm8zNFlSZVNvR3NDakR1Q3I3dUsyMG9rVkhxSFZhNnF5UVgzdTlWejFyMzFXcE9DcWZ3SVhGT2hRR05zUVlSSUp2U2dRdUM0WXozNVRVcWJTcU5rRkEyMVVrMEFodlln0gHnAUFVX3lxTE1QVk9hcmk5M3FJZ1lpYmhKZ1ctdnZ6UDdYbkxkV2M1d2Jnc2NXTWtmbERSWTVwcHl2SVZKWUNyaDUzTWpPd1lVWVR3MXZwQVpKVlNpUEVHWl9tR1BfU3kzbmlHdGJhSUU3cE5XdTBJVkFFaVJORUZfWWpmLWEwWmIzRzBBV0phRFFFZnpqOHA3NVUtZmlvTUxDelpoQmdLU1l5SS1tVldqSWJ5TXhTc3VNckhoME1sUjd4Mk9CTlpHUFdqVU9lLWVRZklqejlYQVR5WC1BSzVudGZZa0JvSGNwU0RfMUhrYw?oc=5",
+        "published_at": "2026-10-16T07:56:14+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Edesa Biotech Clears IND for Phase 2 EB06 Study in Vitiligo - The Clinical Trial Vanguard",
         "source": "The Clinical Trial Vanguard",
@@ -242,15 +288,6 @@
         "source": "Seeking Alpha",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmpnOTRvNnp3ekEyRE02Q1pXV3ZhZk1IZ3FNdTZtSDEtajVSYXFCSy05VzVDX1lMeU8wN3F1OGVEWTdjblBoUVpUanBDcHJGWGxEal9SUlhKVFhlTlVLOGhabno4eDh5RV9oMTRHZXZ2ZDdqLWdWOEdwN2xQblA5LVlVU2NZd05Cd0FoTWZTdl8?oc=5",
         "published_at": "2026-10-16T06:11:51+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal - Bloomberg",
-        "source": "Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q01TSjZYd3dNbWZ4Rk50ME1UQnUzVkgta3U0RFpFY0VNZGNaeXZfV25jZm9lMjBDdjVONUhlMmJKLTNwT2xwM1I0Mkl5N2N2c25IQWZwbWtORDRYbUJMMC1hZXhWbzllSFZ2bDJzNThDSFRYYmVyYXJnSVc4V0QzVjFMWHBQWVc4NTlRb1E0WEJsYVl1OV9yZEFBQQ?oc=5",
-        "published_at": "2026-10-16T05:49:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -283,15 +320,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-16T00:17:30+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell - MarketWatch",
         "source": "MarketWatch",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdzFZUlhsa21xa19DOXJyb3plbFQ1ek53ZF81bXdhOWJwcURqN043VktFUjBjYzVoWndQai1Dd05nUVo5N0xvejRJWGtyWi1McmRXTmFqS0tsWDV2LW96bHZISnpPY3FaVXNLQVdXV0ZnZWhRc0RKajN0MmpfamQyM2dHSkdEZ1JycTJLdmI0LU5EZTRMYXdMVENTcVBlRTBBQmJ0cjg0a0E4MjlMRU9aczNtVHRIdnh1NWc?oc=5",
@@ -308,11 +336,20 @@
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "CoreWeave's AI contracts and the lenders financing its build-out - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUGZBX05oMkNwZ1JXbG9rM1NlQ000aTFuTTFJMV9GQ2JuX2xneWxHVFBYV0RqajI2WmdXNVdkLVpETWt6Z0ZSMWRMQ1J3MWloN3BudnV2STBBcWZVMDROeW03T3E3U1NMa2VDYTB4TWU3NVZYWlI2WVVJejVGT2RNamwzZ2FJMmZ3Y3hJVzZlbGtBbnd2RVBPbGlfalhHWExPa1JIbzVkZnFLalBvdnl4Zg?oc=5",
+        "published_at": "2026-10-15T17:47:57+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 62,
+  "archive_count": 63,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
