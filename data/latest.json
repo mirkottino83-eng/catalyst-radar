@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-16T03:04:15.615952+00:00",
+  "generated_at": "2026-10-16T03:32:56.863929+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.91000366210938,
-    "wti_change_pct": 0.8623486757796783,
-    "brent": 105.5,
-    "brent_change_pct": -0.5280007274037324,
+    "wti": 95.87999725341797,
+    "wti_change_pct": 0.8307928761719374,
+    "brent": 105.4000015258789,
+    "brent_change_pct": -0.6222855439443342,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
     "vix": 16.459999084472656,
     "vix_change_pct": -2.4303600140151094,
-    "dollar_index": 102.00299835205078,
-    "macro_score": 51.5,
+    "dollar_index": 101.98999786376953,
+    "macro_score": 51.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.86%.",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.83%.",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T02:50:00+00:00",
-      "brent": "2026-10-16T02:50:00+00:00",
+      "wti": "2026-10-16T03:20:00+00:00",
+      "brent": "2026-10-16T03:15:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
       "vix": "2026-10-15T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T03:04:03.328388+00:00",
+    "updated_at": "2026-10-16T03:32:43.676124+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Sitharaman Says China’s Trade Barriers Biggest Hurdle to Ties - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVUxzNEM2ZTlJRjg1UWxueHZJNHhISnZQd0pxd0NQOXlhbjVUSXd2bkNJNkZwMkx1bW5hSXVtZmYySGdxYzQ5RWdfcDlHQlBhTDBJV1JGNWtlbW5LRTE1LUJGamtxVzJkbXA0OEJ6MnZ3bEVJVFdGeGUwTlUwTTNJWHp1Y1ZZYUdBXzBFVjF6bS1XWW8xZE9fSldnWWNWOTBpZExKaFlJSlNibHFLd010YVh3?oc=5",
+        "published_at": "2026-10-16T03:23:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
         "source": "The New York Times",
@@ -95,8 +104,8 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump Muses on Future Iran Strike With ‘Mother of All Bombs’ - Bloomberg.com",
-        "source": "Bloomberg.com",
+        "title": "Trump Muses on Future Iran Strike With ‘Mother of All Bombs’ - Bloomberg",
+        "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVFWR2hadElkb2FVMl9yLXBZMnQxT1J1SUtyZzJQT1lyZzdjMlpJTWtJRTd6WXVCRC1xMjNSMFh0ZkNmdG9nLTRqaG5IRDZNYUtSZ2lJaDZGbzV0ZEFEZEZSejVhZFlaWldveTRjcW52aWJrX1RZNnRIM2w0RVlrbmFQVnF6U0hxY2Nmc0oxeWdSX3h2dzNEY29aTWVNcWE3R0d0MF93aFpXUWVoUlE?oc=5",
         "published_at": "2026-10-16T01:45:00+00:00",
         "area": "Medio Oriente / energia",
@@ -113,8 +122,8 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Zelenskyy Orders New Russia Refinery Attacks in Trump Rebuke - Bloomberg.com",
-        "source": "Bloomberg.com",
+        "title": "Zelenskyy Orders New Russia Refinery Attacks in Trump Rebuke - Bloomberg",
+        "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOVl6MHVoTzE4azNQVmZ4VUFpSlV3eHhWU2pEMkJvcUhqTEYzNmZ3akI0Zk1WeDFKaUhuVHZkTFZzNVNOZVdhbzhxenhIOVctcXRnbzU1YzQtSmF2ZXNpZGFTNmROZlpfZElQdWhUVzA5MkNMX3hTQlFLR3dQUG1DV3BXS1Jsak5yT2xQYzhvZmNramt3eDQ1VFJ4ZzlGbDN3Qy10VG1sT0E0dWozNmlFeDRZTHZ1aEJmY1RaXw?oc=5",
         "published_at": "2026-10-16T01:34:00+00:00",
         "area": "Russia / Ucraina",
@@ -198,15 +207,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcFB1ZVlNZkJtUWNWOS1YalNBYjYwbTdfWW5GRTd2VmE3TzJfa3puLXU2cmdwRFZFb1FybE1zcDRUR1poc2VxRjI3aWFueklGMkpGTHJxVEkzdDNyZWt1YTdFNXdSN2xQdDVTdjZtTzA4SS02QkdDZThSVGgzTEFwZFo2WmtnaVpRdlNnUmo3WmdSbnk5TEtJMnp1bUFRQkQ3Z1dFRlpkTi1YZw?oc=5",
         "published_at": "2026-10-15T20:19:09+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU Beefs Up Trade Arsenal With Powers to Block China Imports - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWs0UnZZYkdMOHhaNlJwQTVIeWQ2clVXakZZZVRPMW9lSXd2bVE2eU5GM1kwQ1dlZkVEWjNrSGI4cUZYaVFaLU5hSGZqSWVsR0RlZUJLUDFkTzk2eWJuOEdZS1JMaUZhVE5HUml0d2liU3YzMGtuYk9GUmdRNGVzX0pZODY3djByX2tPM01tQ3NGSFRmazFiWC01cjV6OFNSMEJ6MEVrYk5aRFRUQzdRV19hdHh1UQ?oc=5",
-        "published_at": "2026-10-15T18:01:22+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
