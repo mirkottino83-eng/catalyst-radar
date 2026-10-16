@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T10:54:48.850158+00:00",
+  "updated_at": "2026-10-16T12:57:58.139516+00:00",
   "events": [
+    {
+      "id": "4b90cc86ea1a",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Germany may announce an AI partnership with NVIDIA next week, valued at hundreds of millions of euros! - 富途牛牛",
+      "source": "富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOXE1bGEzTVNvRDBQandxVkVYWjVYNlJsZGdFcnlfMGlFWm5IdnFDVU9hbnVtMTRldkczcHlpZHVYeFNjQXFLQTJ2blVhYzJhRF9iclJ5N0t1NkgxR2hqQ20wd09USERndHdzVHdKc2VWRjFjOHB4RWJtXzFjVkM4ZnlJRXBKR1RJcXBHM09ESjdkUG5NWDREcEVpVV8td3lVaW5fVlNR?oc=5",
+      "catalyst_type": "partnership",
+      "published_at": "2026-10-16T12:57:08+00:00",
+      "first_seen_at": "2026-10-16T12:57:58.139516+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 64.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -0.17,
+      "price_at_publication": 216.85,
+      "publication_quote_at": "2026-10-16T12:55:00+00:00",
+      "pct_at_detection": -2.01,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "b22868c78758",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
+      "headline": "Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWnZwZkVzZmhpUmtaM3E4aVRDRVRnX0FkSHcxN0FYY21lTmhfQXQxbzl6eHdqLWlnejBOclN0TVZzc0NmNklaMEtKZDFfLW5iM1BnSnZfQU9YUEl1cXo5V1RvXzduYWNKYkNWV2N4R2JPSF9mZ3EtSnl5b2N6U3ZvQUxTR2s1U3pyTllIUUhlUk1TeW1QNTk4R1ZIUFUtMWlXdXpDM2Rmd2pSWjJaWFdEZnc4RmRPSmJfclRnVks2YnUxSjdmZ1VwMUdGVVk0X0RjYUI0ZGF0cnBCNUI3N3dCM2VsUVoyYnEzaVQ4?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-16T11:17:46+00:00",
+      "first_seen_at": "2026-10-16T12:57:58.139516+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 64.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 3.58,
+      "price_at_publication": 375.4287,
+      "publication_quote_at": "2026-10-16T11:20:00+00:00",
+      "pct_at_detection": 1.81,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "2483641b3b86",
       "ticker": "NVDA",
@@ -21,7 +69,11 @@
       "publication_quote_at": "2026-10-16T10:15:00+00:00",
       "pct_at_detection": -1.61,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.27,
+          "price": 217.1155,
+          "quote_at": "2026-10-16T12:15:00+00:00"
+        },
         "5": null,
         "8": null
       }
