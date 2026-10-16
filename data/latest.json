@@ -1,35 +1,41 @@
 {
-  "generated_at": "2026-10-16T15:12:13.711917+00:00",
+  "generated_at": "2026-10-16T15:42:07.114967+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.0889997482299805,
-    "treasury_10y_change_bp": -4.768371582018016e-05,
-    "wti": 95.81999969482422,
-    "wti_change_pct": -2.1945508819944393,
-    "brent": 105.9000015258789,
-    "brent_change_pct": -0.01887900624253369,
-    "nasdaq_level": 26433.958984375,
-    "nasdaq_change_pct": -1.0446973624689049,
-    "sox_level": 11336.447265625,
-    "sox_change_pct": -2.113446661774243,
-    "vix": 15.90999984741211,
-    "vix_change_pct": -3.3414293296005204,
-    "dollar_index": 101.68399810791016,
-    "macro_score": 24.7,
-    "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.04%, SOX -2.11%, US10Y 5.09, WTI -2.19%.",
+    "treasury_10y": 5.085000038146973,
+    "treasury_10y_change_bp": -0.4000186920166214,
+    "wti": 95.58999633789062,
+    "wti_change_pct": -2.429320050176298,
+    "brent": 105.69999694824219,
+    "brent_change_pct": -0.20770508355959505,
+    "nasdaq_level": 26435.337890625,
+    "nasdaq_change_pct": -1.0395354385452804,
+    "sox_level": 11381.0400390625,
+    "sox_change_pct": -1.7284024946456977,
+    "vix": 16.389999389648438,
+    "vix_change_pct": -0.4252715596457901,
+    "dollar_index": 101.7249984741211,
+    "macro_score": 28.2,
+    "tech_bias": "negative",
+    "summary": "Tech bias negative. Nasdaq -1.04%, SOX -1.73%, US10Y 5.09, WTI -2.43%. Geopolitica: EXCLUSIVE: Iran ships some LPG, jet fuel despite US blockade, data shows - Reuters",
     "quote_times": {
-      "treasury_10y": "2026-10-16T14:55:00+00:00",
-      "wti": "2026-10-16T15:00:00+00:00",
-      "brent": "2026-10-16T15:00:00+00:00",
-      "nasdaq": "2026-10-16T15:10:00+00:00",
-      "sox": "2026-10-16T15:10:00+00:00",
-      "vix": "2026-10-16T14:55:00+00:00"
+      "treasury_10y": "2026-10-16T15:25:00+00:00",
+      "wti": "2026-10-16T15:30:00+00:00",
+      "brent": "2026-10-16T15:30:00+00:00",
+      "nasdaq": "2026-10-16T15:40:00+00:00",
+      "sox": "2026-10-16T15:40:00+00:00",
+      "vix": "2026-10-16T15:25:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 44,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "EXCLUSIVE: Iran ships some LPG, jet fuel despite US blockade, data shows - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUW43alBLT1ZtZE5UZF9VNEY2ZDhBNjNOdk93dG1BZTNBZWZkQ050OVZGQmxUWURPdG16Q1pwTmRtNkFfQTNNWDJEazN2aHBRY1UwLW1MbGRSWXpLdVZRenB6SGY2cFhVcmFlRzRQZkhzV24xeTVtWnJfRTdfUHlIbktueERWSGNCLUw2bzIwdUw1a3FpQ3pMdEk4NE9HaVppTnlvaWNLV19xMy1pOEc0bw?oc=5"
+      }
+    ]
   },
   "catalysts": [
     {
@@ -46,13 +52,13 @@
       "published_at": "2026-10-16T13:10:06+00:00",
       "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -0.38,
-      "short_term_change_pct": -0.03,
-      "relative_volume": 7.04,
+      "current_change_pct": 0.38,
+      "short_term_change_pct": -0.18,
+      "relative_volume": 11.79,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T15:10:00+00:00",
+      "quote_at": "2026-10-16T15:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.1,
+      "quote_age_minutes": 2.0,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": 2.2,
@@ -68,8 +74,8 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 100,
-        "momentum": 50,
-        "macro": 25,
+        "momentum": 48,
+        "macro": 28,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -86,15 +92,15 @@
       "source": "Future Transport-News",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWExPaUZZQnhhR2U2eW5lMWdsVmtvb1VUT2o3Sll3anJoblVXcnRIM2Ywajdha3FlM0lBcl9ENUVRX09xQ3g5cVE1ckViOFdpeXFLanEzUzRyd1l2UDhKWnhTeDNlWjFPRnY4SkNJU1R3a2JQd3RCaTZrLXk0U0w5ZTRneXFFZ2lUd0l4WWtxRXpZNmRSYUpsRndlUk0wVDB4b09jOVhuZEwtTzk5?oc=5",
       "published_at": "2026-10-16T13:12:23+00:00",
-      "age_label": "119 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -0.38,
-      "short_term_change_pct": -0.03,
-      "relative_volume": 7.04,
+      "current_change_pct": 0.38,
+      "short_term_change_pct": -0.18,
+      "relative_volume": 11.79,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T15:10:00+00:00",
+      "quote_at": "2026-10-16T15:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.2,
+      "quote_age_minutes": 2.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": 2.2,
@@ -110,8 +116,8 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 100,
-        "momentum": 50,
-        "macro": 25,
+        "momentum": 48,
+        "macro": 28,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -130,13 +136,13 @@
       "published_at": "2026-10-16T12:57:08+00:00",
       "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -0.38,
-      "short_term_change_pct": -0.03,
-      "relative_volume": 7.04,
+      "current_change_pct": 0.38,
+      "short_term_change_pct": -0.18,
+      "relative_volume": 11.79,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T15:10:00+00:00",
+      "quote_at": "2026-10-16T15:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.2,
+      "quote_age_minutes": 2.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": 2.2,
@@ -152,8 +158,8 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 100,
-        "momentum": 50,
-        "macro": 25,
+        "momentum": 48,
+        "macro": 28,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -170,19 +176,19 @@
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWnZwZkVzZmhpUmtaM3E4aVRDRVRnX0FkSHcxN0FYY21lTmhfQXQxbzl6eHdqLWlnejBOclN0TVZzc0NmNklaMEtKZDFfLW5iM1BnSnZfQU9YUEl1cXo5V1RvXzduYWNKYkNWV2N4R2JPSF9mZ3EtSnl5b2N6U3ZvQUxTR2s1U3pyTllIUUhlUk1TeW1QNTk4R1ZIUFUtMWlXdXpDM2Rmd2pSWjJaWFdEZnc4RmRPSmJfclRnVks2YnUxSjdmZ1VwMUdGVVk0X0RjYUI0ZGF0cnBCNUI3N3dCM2VsUVoyYnEzaVQ4?oc=5",
       "published_at": "2026-10-16T11:17:46+00:00",
-      "age_label": "3 h fa",
+      "age_label": "4 h fa",
       "catalyst_type": "earnings_beat",
-      "current_change_pct": -0.75,
-      "short_term_change_pct": -2.43,
-      "relative_volume": 28.1,
+      "current_change_pct": -0.71,
+      "short_term_change_pct": -1.12,
+      "relative_volume": 14.68,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T15:10:00+00:00",
+      "quote_at": "2026-10-16T15:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.2,
+      "quote_age_minutes": 2.0,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": 2.4,
-      "confidence_score": 70.0,
+      "confidence_score": 69.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-16T11:17:46+00:00",
@@ -192,10 +198,10 @@
       "factors": {
         "source_quality": 75,
         "catalyst_strength": 78,
-        "freshness": 78,
+        "freshness": 62,
         "volume": 100,
-        "momentum": 21,
-        "macro": 25,
+        "momentum": 37,
+        "macro": 28,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -212,18 +218,18 @@
       "source": "CBT News",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xSk9iR0pURDRlbTBSanhYbVZfN0ZmSmwxZTVXSW1FU2N3XzY5ZnpMNGRhT1FtczI5aTIzYlp0bjdtckphTUVQR1lTcTljcHRTc2xETXBtcWFsVl84aE91bkphZ0U2NmlNNm1lbGZySlJ3WTRwU2lueQ?oc=5",
       "published_at": "2026-10-16T10:16:18+00:00",
-      "age_label": "4 h fa",
+      "age_label": "5 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -0.38,
-      "short_term_change_pct": -0.03,
-      "relative_volume": 7.04,
+      "current_change_pct": 0.38,
+      "short_term_change_pct": -0.18,
+      "relative_volume": 11.79,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T15:10:00+00:00",
+      "quote_at": "2026-10-16T15:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.1,
+      "quote_age_minutes": 2.0,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 2.2,
+      "estimated_impact_pct": 2.1,
       "confidence_score": 68.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
@@ -236,8 +242,8 @@
         "catalyst_strength": 74,
         "freshness": 62,
         "volume": 100,
-        "momentum": 50,
-        "macro": 25,
+        "momentum": 48,
+        "macro": 28,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -250,31 +256,17 @@
       "category": "Pharma",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 0.65,
-      "short_term_change_pct": 0.47,
-      "relative_volume": 1.97,
-      "quote_at": "2026-10-16T15:10:00+00:00",
+      "current_change_pct": 0.49,
+      "short_term_change_pct": 0.34,
+      "relative_volume": 3.63,
+      "quote_at": "2026-10-16T15:40:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "PFE"
-    },
-    {
-      "ticker": "MRNA",
-      "company": "Moderna",
-      "category": "Biotech",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": -9.14,
-      "short_term_change_pct": 0.92,
-      "relative_volume": 1.2,
-      "quote_at": "2026-10-16T15:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MRNA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-16T15:12:01.722265+00:00",
+    "updated_at": "2026-10-16T15:41:53.788904+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -284,7 +276,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -298,7 +290,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
@@ -316,6 +308,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "China targets AI technology exports with new controls as US trade truce frays - www.thenationalnews.com",
+        "source": "www.thenationalnews.com",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZXhXODFvTFFaWHlxeU12eEdra21OdFZ3UXdHc09PV1V2YTJQNVpCWGhnMUllZjYwdkw5d2R0MkhQV01rcTJDdEt1U09Lb1ZaMnVHamJ6UmFGOU4wZXd6dGVlRHdvdG9DeEJTZlNfamxDYXRYaVJGS2Fadmp6RnRkcmNJd2tWS2YtWHU2MElxdkV1YnlOdGxjTTBNbHp5R0RTUi1hX082VTBhRmJIdVRvSmE0dVVZVWhnNEZPNmxUaUNld2RHV1J4SUpRaGV0d2N6MWI0SmJn?oc=5",
+        "published_at": "2026-10-16T15:29:27+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Houthi Attacks on Saudi Arabia Put In Doubt Kingdom’s Sports and Business Events - The New York Times",
         "source": "The New York Times",
@@ -362,15 +363,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump - Spectrum News",
-        "source": "Spectrum News",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWkdvbURGdEhjenNSRnhUTjFQVFd3dFZDZFNVU1Fjc0FpbHdxZmNzRjlIR0hlZXVTbXZCelhPQmpyVkpzLVNwd3FXSjlqZU9qeDMtY1F1b1dwUGlPY1d3N0x5M2N3X3dUV3NxNi1lend1WUltVW1XREs1cGVRMUFWeEdxZ2JCOV9uMFhrSkRtbHU2MGpwSE5WSWMyUVh5MTd2NzBTUTJJUk53eVBrS3Boc0ZCMWRXU1A5bVVBZUY0NDdzdUxWenVNaFVuR1JPTWM?oc=5",
-        "published_at": "2026-10-16T13:51:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China proposes export controls on its advanced AI models and chip designs - The Next Web",
         "source": "The Next Web",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNFNYNldKX0VpQ1I4bW8yd0FMcWFQQ3RFZlBhMTQ5dElCUXVCajctTl95VzJBWkhGQlNwTnZaYTZHM3A5NE9kSmlyVEdUUEM3cWpNaVZjcUJPbXlpRVlpTWlsYjA2Z2Rvc2c?oc=5",
@@ -407,29 +399,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China unveils draft export controls on AI technologies and chips - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZFJrS1d0QjRNNDFCeDlGc2x2cHJhTWN6SEJtWjFucjRFWnc2LWlUMFFMbjFuX3BOWGpJcVhLdnVRRnFjaUVpRXh0UHNQcWl6UkF3clZ3VExPc1dVX1hvc2o4Tnl3Mm15VE03Y1h6NHJzU3hnUmlFWlpha0hkeElUaUg1SFY?oc=5",
-        "published_at": "2026-10-16T12:51:49+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil prices stable as world supply remains under pressure - Transport Topics",
-        "source": "Transport Topics",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbm9CYncwY3o1V3FQaU9Bd3lVZTZMTll5TlB4TXREbDNoTmN3cDk3bm5tNVRNOWhJSElWbWlGZmlVaXlBdFdwN0dGWU1zVjE2dWNSMVh6REZ6Zkp5ZV9oNVRlLVhubDFMVHo2S1ZlWkcxTlhPeFRqdzl2ZEd2SlA5dVEyb29XSHRvd3ZIcFdR?oc=5",
-        "published_at": "2026-10-16T12:22:55+00:00",
+        "title": "EXCLUSIVE: Iran ships some LPG, jet fuel despite US blockade, data shows - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUW43alBLT1ZtZE5UZF9VNEY2ZDhBNjNOdk93dG1BZTNBZWZkQ050OVZGQmxUWURPdG16Q1pwTmRtNkFfQTNNWDJEazN2aHBRY1UwLW1MbGRSWXpLdVZRenB6SGY2cFhVcmFlRzRQZkhzV24xeTVtWnJfRTdfUHlIbktueERWSGNCLUw2bzIwdUw1a3FpQ3pMdEk4NE9HaVppTnlvaWNLV19xMy1pOEc0bw?oc=5",
+        "published_at": "2026-10-16T12:03:27+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says Ukraine resuming strikes on Russian oil sites is a ‘disgrace’ - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSEFfQWYwNDJvOGJDQV9ZeTF3OVdKTnJUUWVNOXJhbkxsd0laMllFRWhOWTQtNkJMOWhjR3pMb1I0dG9jOHp0V0FZUFdza3hIVkljNXNuWmlzdTQzcTgyVEhvNEFaUlc4QjMwWHNfQTRta3paWUF0Ukgxa00xVkdHYVRTNGtnczlpdkRNbjJuWllIUjNOakhwU2lna2xZbVRyZWs1WEd1eXlDQmt1U0Q0?oc=5",
-        "published_at": "2026-10-16T12:17:37+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -450,9 +424,36 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Drone strikes in the Black Sea raise fears of Russian escalation to test NATO’s response - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTzFrRE5pMHU0QUV5V2ZHeTBuUHR3cnJDY09QMnEyMndIVVA5TG5aUE5zSkhIdWNhZVVLcEJPSGMweVFtVGFma3RXcWlZa2xaeVpMWjg3UnFsUXQ0SXQ1ZFdwdXY0cG4zc3U3NlJBRm81eEkyanlKcG1ENGJWS21CWHN5M3RmZkcxY1dnWTBDNFNna0o1WDgyNnZvTlJOSDlwN1VyeDY1VHktNnVyU0E?oc=5",
+        "published_at": "2026-10-16T10:24:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU rallies around Zelensky as rift widens with Trump over Russia energy strikes - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQ3RrLUVvSXJZOXhVYU15czlwY0NhOU5RVnZNcTBRNGJmbzNqZHJmVklNdjdodThPbG9lb2xlWVpoSWNmeUZXeDQwUzNPVDF4MGdSUjRaMFRjZGdfemtPODBSb1RTTW96OEdKM3NLT2VZRE9OSzNaU3JBZVVpbGJOaThvdEl0VlNhdzAwc0VmaHdFZ3oxb0VBSWRBbldOX1pSdXdkMTNrU2dfdmluaXZWcVRKWEo3UVVSUTlGYi12eThCOXByN215LUVoLUxISGt3SmdrdGNlZ9IB1wFBVV95cUxPUlFBUWVyckJmVzhNaV9wQV9qMjV3Q3puemdpNEkyLUFpY3VwRElab1h5VEVrUnRmc1RsUHQtR1NsVWxmS1pVN2dZM1NhalM1em5fQVF5NXhUdllDLXlZNWlEa2FPajJXWl9paTlfcl93V1VpTmFoQnVrYi1rRHZGM2tjUUJDelA2Rnc2eW84bkdTdFNtLVlUS2pOdkI2MU5DOUVKck0wcXlQSVc5eGpHQW1USWVGbUdlZXJ5RWphRDQtUFludWRuelZidE42VEpUUG02T05xaw?oc=5",
+        "published_at": "2026-10-16T10:14:29+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Edesa Biotech wins FDA clearance to run US Phase 2 trial of EB06 for vitiligo - Dealroom",
+        "source": "Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSWNMZzh5dGJWOTFoRmt0ZjE2WkN0UlpQV1lzTkNpYzhoQWh3MTExTmpiT3hLUzc1T1BKNHVHTS01R1hjZnJyRW9nQnVsVEl1NEl5cElEcDFObnRaRDdkdm53eEFja19RWUNZVjVxNkMxWjEtblhLdXpEXzBkZTgySEtMQXg1MENDeEFuQV8xaTdlUmhIZnU3QzB4N2xkTHFZOUtnT1BVZDhPOTdteTRSTg?oc=5",
+        "published_at": "2026-10-16T15:20:17+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady - 24/7 Wall St.",
         "source": "24/7 Wall St.",
@@ -467,6 +468,15 @@
         "source": "Zacks Investment Research",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVS1DMVVDZDJNZEZPTDBDYjVJMXA3N3J3ZVFHN2l6Ni1YX1FkYVVhdE0xXy1tbzlkZ0tVSERQTl83T3hTdFRVX2pTRDlmZFdLOE1aZWg4cUVkUWtoWkRzdXcxdmIySU13aDhPNTRVUmxEbDVtdk05LWJITWJjSXItelMtZ2EzNkd2dVNOUGwzSm1lYkMwZjhUbUJLaldTQTB2NGc?oc=5",
         "published_at": "2026-10-16T14:32:01+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Roche Secures FDA Approval for First At-Home Thyroid Eye Disease Therapy - Benzinga",
+        "source": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUTdLMnkwcE5rRGdLVWtoeENBWkJ0RFMzRVEyXy1ab3I5QjRUMm9WWFh5Y3BoTVdDMW1fbGFHVWFwNm9FYmVmaWRScE53eUxrcjZWSWdpX0piWWJIUVNBRXNaN0JCWkRMV1RSZzRKNzN6dnpkbFRmMVMxdGZJNlBYRjZWQ2pmZlFLRkpSVEoya1FtVkUxLXBpYndUUWcyZFVVYlFvQlRLT2NXOE96b0dUTEJhdHYzZTJHWWNtcS1B?oc=5",
+        "published_at": "2026-10-16T14:13:08+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -495,24 +505,6 @@
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WQjN5YWJKaE5STTdqM1lGck1Yb1pDNTdkdmlZZkFhUFFhdU1wZWNHXzlSZXFpbHlTclZaZmxtLTZnNUdpWmpiaF9wTU13c2JrUkpFVXFYMXd2SnNGbGpLdHhZWUxCRTNuVGMyNlFGenZFN1RFWkE?oc=5",
         "published_at": "2026-10-16T13:10:06+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA approves Roche’s Enspryng for TED - The Pharma Letter",
-        "source": "The Pharma Letter",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWk5aTU3NEpiTUUzZTVtRWk4X1JuMTVDcWx3bDFaRVI4dEFKZ2d3Q3czQ2ktald6bXg4V2liQVIyYXc0Y0hWdjNKQUlyV2tsWnZWQzVlVUhyZVVqNUtGSDVIVUhCN3lKbEhQaTJkZzYwZTNzc0wxcE9rTXJ2NTh4OTZNNEhlUjFrY3c?oc=5",
-        "published_at": "2026-10-16T12:45:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA issues early alert for Edwards Lifesciences’ mitral valve delivery system after reported death, injury - Fierce Biotech",
-        "source": "Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ19YeXhXel9Yek54UGoxMmY5YkdaMHBNT004M1BkLVRSQV9ZbjZlM2l3WjlGQ0ZRS2ZBT3N1ZnNKM2l5cEJOUDhqRWlNeDBSemtaVDh4N041NUJ1TkRieGpUV0REWEpIbVNHTDBCUnMyU3hzQ1RLODh1VlJHLVhSNlVsMnAtWU1kczA2djNVZ2V3Wkd3Y2c3MHlPVHI4VEdtYnpBMmZMS05LOXcyQmhBeHhVa0ZXTkFvR2lVNDlwZWhVUQ?oc=5",
-        "published_at": "2026-10-16T12:27:28+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
