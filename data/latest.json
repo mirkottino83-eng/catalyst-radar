@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-16T02:35:53.620061+00:00",
+  "generated_at": "2026-10-16T03:04:15.615952+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0889997482299805,
     "treasury_10y_change_bp": -10.100030899047832,
-    "wti": 95.76000213623047,
-    "wti_change_pct": 0.7046017711043628,
-    "brent": 105.27999877929688,
-    "brent_change_pct": -0.7354316398753058,
+    "wti": 95.91000366210938,
+    "wti_change_pct": 0.8623486757796783,
+    "brent": 105.5,
+    "brent_change_pct": -0.5280007274037324,
     "nasdaq_level": 26713.025,
     "nasdaq_change_pct": 0.07551027680394728,
     "sox_level": 11581.215,
     "sox_change_pct": -0.8829298931324003,
     "vix": 16.459999084472656,
     "vix_change_pct": -2.4303600140151094,
-    "dollar_index": 102.01000213623047,
-    "macro_score": 51.9,
+    "dollar_index": 102.00299835205078,
+    "macro_score": 51.5,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.70%.",
+    "summary": "Tech bias neutral. Nasdaq +0.08%, SOX -0.88%, US10Y 5.09, WTI +0.86%.",
     "quote_times": {
       "treasury_10y": "2026-10-15T18:55:00+00:00",
-      "wti": "2026-10-16T02:25:00+00:00",
-      "brent": "2026-10-16T02:25:00+00:00",
+      "wti": "2026-10-16T02:50:00+00:00",
+      "brent": "2026-10-16T02:50:00+00:00",
       "nasdaq": "2026-10-15T21:15:00+00:00",
       "sox": "2026-10-15T21:15:00+00:00",
       "vix": "2026-10-15T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-16T02:35:41.553841+00:00",
+    "updated_at": "2026-10-16T03:04:03.328388+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,10 +77,37 @@
     ],
     "geopolitics": [
       {
+        "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnpqdTJtbWd1dE9kNnViSDNkSi1TYUYzMXFRZEc5RGMzZHdjcjJLVFZ2dkJUajhoUHNlTE5yTGhrQ19HaXdmdnFVRERlR1V2d21ldmZFZHY2Ui01bjVOenVMM3VZek1GODQ0Vl9rcGdVLURSNU5DVmMxWWdmSUpzTDFhN0ZxZlh6M016aFJ5OGV1TXlEZXIxTk1meGNnT1ZQWFRzbDVyTQ?oc=5",
+        "published_at": "2026-10-16T02:48:41+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Iran's Navy: 'Violating' oil tanker caught fire east of Hormuz - chinadailyhk",
         "source": "chinadailyhk",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hZmJSWnlrSmxoVVUxN25HNi1UMlRwRDdMRVNYbGpPZ2c1MmtLbzF6MU5obVo5TEJFSkxBbU9EZGc1cDBfMk5yeTlMeWY4RUtWZ0M1cnZZYTQ?oc=5",
         "published_at": "2026-10-16T02:29:55+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump Muses on Future Iran Strike With ‘Mother of All Bombs’ - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVFWR2hadElkb2FVMl9yLXBZMnQxT1J1SUtyZzJQT1lyZzdjMlpJTWtJRTd6WXVCRC1xMjNSMFh0ZkNmdG9nLTRqaG5IRDZNYUtSZ2lJaDZGbzV0ZEFEZEZSejVhZFlaWldveTRjcW52aWJrX1RZNnRIM2w0RVlrbmFQVnF6U0hxY2Nmc0oxeWdSX3h2dzNEY29aTWVNcWE3R0d0MF93aFpXUWVoUlE?oc=5",
+        "published_at": "2026-10-16T01:45:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran Shipping Update - October 15, 2026 - United Against Nuclear Iran | UANI",
+        "source": "United Against Nuclear Iran | UANI",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaW9Na3RyTUhfTEx2b2VqNTdkVVJDejdDV0t5Qk1xZ193UFFZRjBQVzB6SjdBSFg4NjYwTjF1OU9oNlZGanZ4RGcxTUNJMFJsTzBXakZRNjZuNk1JMF9ZZ3liYWQxekR6NHNJa1l6UFF6VFA0R21tYng2dXozSkhDMGV1RHdVQkpMSVBYR082Yw?oc=5",
+        "published_at": "2026-10-16T01:39:35+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -149,47 +176,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi diplomat says Iran is encouraging Houthi escalation of attacks on the kingdom - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSHdCYjB6dzdtU1BtZlhtakJSSGlELWlVWURncXN0ZnQzRHRuX1N5YmlnRnBoN3lzQWhoWFRFYU9sN0RqTlZVdlJEUFBEQlYtS2Fpam82a0tyVm0wa3ZZZ04teUE0MVU2eEpvNXBCdXBfLThVT3lVZ190TGFicFJ3M3hzejE5UXdoUy0zM21lMVFVWEIydTBNRklpNlZwRlJ4X2FEcHdCcTJYTFdzdDdhUF9CajlKa2NVSnfSAb8BQVVfeXFMT0tBQ1NRMVBfdlh0UzNpd3VHcGZCVXJENWJaRW11dnphV0ZQVVotNmFkMktYUl80azdSemFWNXdneUxJRUFyYjVzVGYxTGFZTDJDdjZrVUFwNzI4QVhHalo2RGhFUUFGLVE0QXJ0dVBhXzR1NHExQXFqVmpPRVpjNUdUUDdYclA2dVlnLXB0UUlpMjJ0V1lXd2drUGVLbU9SeXZqM3RUNHNkWEtaYzBGUWt4SWtVMWItcE5PVEpLNGs?oc=5",
-        "published_at": "2026-10-15T23:16:23+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Fund Managers Quit to Trade Their Own Money in Taiwan Stock Boom - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdWFmejVLSEZTNmRhNFZDRUthLXVGWEIyUzhQcmhyMFVZTmNpTmhGSVJ2X3p1dkZGY283RlNiQUpxSDZXMkFPLXQ2YUVCcFlNMDBXUnJPUTVIU3A0ZFZOX3Fmd0xMZWc3WTdPbXh3NEtrdEFtcVp0d1FCdi1lSmpzTG9kNDNQMFppUGd2RDlKV3hERjM5aDBwaEhORFdCcDA0eXo3WndQYllzV3plMGxkZms1YW5SbzRfcHRHZQ?oc=5",
-        "published_at": "2026-10-15T23:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine resumes strikes on energy targets, saying Russia never stopped its attacks - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT3RoNnRGSkNSUHZrNUJmbWN3cDBSbVNBRkp3WmhFOUx6T213VWtISHNSSTVPSGZ3Tms5M2RyUkswV0F3dl9ZWGJlbWEyb2h6VTFDeE5kcExCRWN3QTloNTVhbnhJZEQ4ZlhhcUpPQ0x1aV9hdUNuYm1HY194cDVMa25iVTJaUmctWWtjM0JMX1hjTnZkcGozMV9RUUJaMUxua2ZqdHBaS3JfS2twTC1tR25Pd1ZxUQ?oc=5",
-        "published_at": "2026-10-15T22:55:24+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "UK and EU consider coordination on China tariffs - Semafor",
         "source": "Semafor",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQlN6WEE2ZVBfWmZ1dTU5ZWRvMzA5WDAyQWZicWgyTXVVMm4xc3pET2xqbTVDTmpzU1g1azdFWTRVVnh2WF9vaWgwUi1abjlMcml3Rks4YkE5N2VuZGxadHEwdzR6T05tbzdyRTlDc3pnZDdOTWNGZG40czhEWUhUTE5hWFJBMlRiRURTajFPbnBvemM5NVluMHcxcw?oc=5",
         "published_at": "2026-10-15T22:38:00+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
-        "published_at": "2026-10-15T22:30:28+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -210,9 +201,27 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU Beefs Up Trade Arsenal With Powers to Block China Imports - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWs0UnZZYkdMOHhaNlJwQTVIeWQ2clVXakZZZVRPMW9lSXd2bVE2eU5GM1kwQ1dlZkVEWjNrSGI4cUZYaVFaLU5hSGZqSWVsR0RlZUJLUDFkTzk2eWJuOEdZS1JMaUZhVE5HUml0d2liU3YzMGtuYk9GUmdRNGVzX0pZODY3djByX2tPM01tQ3NGSFRmazFiWC01cjV6OFNSMEJ6MEVrYk5aRFRUQzdRV19hdHh1UQ?oc=5",
+        "published_at": "2026-10-15T18:01:22+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "How Investors Are Reacting To NVIDIA (NVDA) AI Partnership Wave - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaHhnc0tIbHYtRE8zcTVtS2laZG5IT29wWG1yaDBkUkVUanpvaWpFWm1pTEpyVjR6aDZ3Zi1Yd2tMclFDLWc0WHgxYzJ1Z0NpcWxyOWRPYWVUMW05OC1xU2Y4Ri11R0JFb0hqWGVlZDZKU25HSllfRUxzNVlJdmkzNVAydVkzYUFhLU1qRU5UamNPRV9Ic2VOZElYMUFlVGs?oc=5",
+        "published_at": "2026-10-16T02:17:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
@@ -272,15 +281,6 @@
         "source": "NVIDIA Newsroom",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYURrcF9BTUJoeTZhQ2NQLTFnUEs0M2o5TnQyN0FmdjJHYm5iOUFtUVYxalZCVWMwbkpQSi11djI0SUs0UVR0ODNEcWlyQ09zSUxYbmloZURidVB2clU5VVI4OTg4QVZkYjN6SGM2U0tNNk8yS21TbkFkQ3AzY0lKbTI2OUJLSDJQSUREdmw1ZDdHLWJ2SXpKeVgzT2plcjZfS25VUTNqcFRJSW1pMXc?oc=5",
         "published_at": "2026-10-15T17:38:50+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Germany plans AI cooperation deal with Nvidia, Handelsblatt says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMENmUllvcDNtemJGTUdXYlh1UWRmNUVLTzNreFJOSWtKZVowMHk1WHMzNmwweHY2NVJZU2hxR0NOa3BVOG80YXN2SWN0U3J0R1RjYzc5blkzdVBsaTZhVDFCc3dyNUl0QVhpY0Q4OUdsZi05UU5xTEdCQXBVdGJWRVl3R0ZnTUhIeE5PdVItY0RvVHBWYXNsVlV5OGFQNGtCSkVYWFdXa0ttSWVf?oc=5",
-        "published_at": "2026-10-15T16:29:44+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
