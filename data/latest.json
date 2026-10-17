@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T19:17:08.075966+00:00",
+  "generated_at": "2026-10-17T19:41:16.768181+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 99.0199966430664,
-    "wti_change_pct": 1.0717519743598691,
+    "wti": 99.04000091552734,
+    "wti_change_pct": 1.0921707476697629,
     "brent": 109.86000061035156,
-    "brent_change_pct": null,
+    "brent_change_pct": 3.7197908888950693,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
@@ -18,7 +18,7 @@
     "dollar_index": 101.83999633789062,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.07%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.09%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
       "wti": "2026-10-16T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-17T19:16:56.292371+00:00",
+    "updated_at": "2026-10-17T19:41:04.829197+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,6 +77,33 @@
     ],
     "geopolitics": [
       {
+        "title": "Trump signs order putting Russia sanctions on hold, drawing bipartisan anger - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3k5eWRlOVpmZUFuR1pVdXllbU5veXJ0UTJHMUdwWUQxY0t2OTZNWDR4dktfc3NFZlQ4aHRjd3BhVC1ZdF9yLUhIeE9ZSElGdjBoeVFJX1MxNFJadHFlaG1QTHJTcVl1MEZOWllvTjduYUpuRURxRjNpRFU5M3ZhY3ItbnZoWHljeE9EdjV4bzBhMFUtZkYxb09TX2hWNElWTjZlZW1vbDF6LUF2Ul9lY0p3?oc=5",
+        "published_at": "2026-10-17T19:28:55+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US, Israel face threats of war if oil prices keep rising - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsY1JDdGkySENGaDFUSGF4MTdTTlNMeXFSYXhnZWZKdWxjeV9BREF3X0FVY2hCWmlQNl9DRE1ZdktlZWdqMGxQRE15dHZJdEc0c2NJdE1tLTQ5MzJwcEpjUGxkRmNPUE40NkE?oc=5",
+        "published_at": "2026-10-17T19:27:05+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israeli settlers attack European diplomats during West Bank olive harvest - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZVlrUDBYQ1lXY0JvbHNXZURHR2NDTGtDRWZVM3huYXRNcTBoRUNSQTcteTRpenJ5VjMxb19TUkl6QVlLODlLRURDbEZmV0JpQTFDbUUzVXFYRTNpUmRvNHpLSjB3QlRPMmdSRFZWRDlzTnZnSm4wOTFoRWFTRmgyQU1hajNxTGZtWTdDVFdUeGRkV1laR1l3ZmJpMGZXaDZCak1vbzBzWmhPV0nSAbABQVVfeXFMTXkyS29qczlWX1hQc0NNd0wtdkpoZE5vSTdGX3VaejRKdUZldzRaamhRYzZaTnp6MXV6QVhVcjRJbDQ5UzJhM0xOVFp1U05aSkpDM3lEUW1rczExT3o0VjYzSWFpYkxVa0l5MlVLX3E1eG1QeGlRbDMxNElGdXJuNGoxSHZZRVpOVFhhQXYtOEIxTFJhWUhRYkk1a2s4dmFCN0NlaGZoVlVWV0dtY0RMMm4?oc=5",
+        "published_at": "2026-10-17T18:53:28+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGNSbDZNbm5wY2VNaTRTRDZiMHFqMW9rbnpvNk1tU0JBdjlTQng0YXhGQTN4bWtRaUNPUUdxY0dHVEhOajRFem5jUFdSVm5QYnkyU1QtcGZuM3BBQnBqTnFYdlBrTHYyampsUEtDMDB5RUdIYVpJZVY5eHBlank0T1BhLW1OSWo5bnNNVUdCR0FJQjRRLVEtNVFqeHlZQjc2Mm1n?oc=5",
@@ -86,19 +113,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump signs order waiving Graham Act sanctions on Russia, drawing backlash from some lawmakers and Zelenskyy - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaExZUlBtbDZ3YXN2cGZ0Z0RMRVcxT3hlaG8xMnRiSm16d0pSdnBHUzJzSHB1YVVFUXNSMUFGTXZHRE4yb3JyTHczam54WFAxQjRLSjcwTlBuY0pKUGVTbGtjdE5PWVlSdXVFZ1FtUlBLXy1DZUhYRVhEOEZnTHJZTWZQb2J0ejZ3bG9DU0g0cnYyVU9XUllQenJTVkdJc2xucG5r0gGoAUFVX3lxTE00QU9Jbml5eUQxemhUMzRMLVhWLVNGM05PNEp6eGtVaF94RmFmaTJ0WGVxdGVNR2dySDR6QXJtaVpIUFN6N3dnSDB3bkp1T3IteU5HZ1VYbFpPU0tYNVJxd25mQ0xqcVVXOF9NTmFvem14R3NLTkhsTy1pay1XZzRVUEk5eldiY3NFcU03RXVicTQxZ0l5MkFuRmtwbE54TzAxMVltaXNJRA?oc=5",
-        "published_at": "2026-10-17T17:37:30+00:00",
+        "title": "Trump faces bipartisan backlash over Russia sanctions waiver - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVHR3SlkxeDNvT0xQbzhMNVJiekNEekNpWUN5RXo2T29maGFUVUR4NlJBT29seHlCQ2JBbGxPbEdHQkg3R2JodG5Ob2k2QU9wbXhRRVZSZHhPeVdhU0tydmNwRENSQzQzZDJsRkxIWFhHbF8yV184dnVCNUVUOTV2TUVnUFpEQm1HUnM3WWVHNUdTM0ItN0JLVjh2N3Z1VFYyZGR2ddIBqgFBVV95cUxNTXhoMnV2c2JEMGZtdEJfNXdTbUtzMDFwQzVyNlphZmRWak14RUQtSjFBVkZZZEktaDk3UndPTWVVQmRCX1p3YXlMcUdzeUdOSFJIakxrSWxlS0ZnQzREYkFCcXY2Y1hJckQySUxSVEpDelZUcldub0JZaXpQNWhCT0Y0T0VEUHpDYmVVUTVZLVBMTmpRQVlTM0hNSWxoSmlDQzNHUFBBQ1VPdw?oc=5",
+        "published_at": "2026-10-17T17:37:34+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump faces bipartisan backlash over Russia sanctions waiver - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVHR3SlkxeDNvT0xQbzhMNVJiekNEekNpWUN5RXo2T29maGFUVUR4NlJBT29seHlCQ2JBbGxPbEdHQkg3R2JodG5Ob2k2QU9wbXhRRVZSZHhPeVdhU0tydmNwRENSQzQzZDJsRkxIWFhHbF8yV184dnVCNUVUOTV2TUVnUFpEQm1HUnM3WWVHNUdTM0ItN0JLVjh2N3Z1VFYyZGR2ddIBqgFBVV95cUxNTXhoMnV2c2JEMGZtdEJfNXdTbUtzMDFwQzVyNlphZmRWak14RUQtSjFBVkZZZEktaDk3UndPTWVVQmRCX1p3YXlMcUdzeUdOSFJIakxrSWxlS0ZnQzREYkFCcXY2Y1hJckQySUxSVEpDelZUcldub0JZaXpQNWhCT0Y0T0VEUHpDYmVVUTVZLVBMTmpRQVlTM0hNSWxoSmlDQzNHUFBBQ1VPdw?oc=5",
-        "published_at": "2026-10-17T17:28:16+00:00",
+        "title": "Trump signs order waiving Graham Act sanctions on Russia, drawing backlash from some lawmakers and Zelenskyy - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaExZUlBtbDZ3YXN2cGZ0Z0RMRVcxT3hlaG8xMnRiSm16d0pSdnBHUzJzSHB1YVVFUXNSMUFGTXZHRE4yb3JyTHczam54WFAxQjRLSjcwTlBuY0pKUGVTbGtjdE5PWVlSdXVFZ1FtUlBLXy1DZUhYRVhEOEZnTHJZTWZQb2J0ejZ3bG9DU0g0cnYyVU9XUllQenJTVkdJc2xucG5r0gGoAUFVX3lxTE00QU9Jbml5eUQxemhUMzRMLVhWLVNGM05PNEp6eGtVaF94RmFmaTJ0WGVxdGVNR2dySDR6QXJtaVpIUFN6N3dnSDB3bkp1T3IteU5HZ1VYbFpPU0tYNVJxd25mQ0xqcVVXOF9NTmFvem14R3NLTkhsTy1pay1XZzRVUEk5eldiY3NFcU03RXVicTQxZ0l5MkFuRmtwbE54TzAxMVltaXNJRA?oc=5",
+        "published_at": "2026-10-17T17:37:30+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -122,6 +149,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump waives new Russia sanctions in the \"national interests\" - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VUzFHTi03ajF4UU41MUNRZ2lBU2VubkVFOFVCUE9WeU1QZGx6U094RXEwZDVXY1FsaWZieE1wbWdaa0k1TDZtY0l4XzdJWWh3cTkwNFQ4UFJBX1Bmb3BOQTlwVW14dw?oc=5",
+        "published_at": "2026-10-17T17:18:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China proposes export controls on 23 AI technologies - TNGlobal",
         "source": "TNGlobal",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcHh4V0lQMXFqSkJzYnNWYTJrZWU1UXNLZ29XZjBLLUJBcGxpX3lVSmVJSGxYWHlDQmRuSDM5NFNjWHdiaHZYQWV5SDdPWldfVmRvMXNpVkg1OGpUUElFalczZUpWZjhVWWIzRU9RaVlETW9aT2VzUWNQYXRUUXlSa2d3?oc=5",
@@ -140,24 +176,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump signs executive order waiving sanctions against Russia - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3k5eWRlOVpmZUFuR1pVdXllbU5veXJ0UTJHMUdwWUQxY0t2OTZNWDR4dktfc3NFZlQ4aHRjd3BhVC1ZdF9yLUhIeE9ZSElGdjBoeVFJX1MxNFJadHFlaG1QTHJTcVl1MEZOWllvTjduYUpuRURxRjNpRFU5M3ZhY3ItbnZoWHljeE9EdjV4bzBhMFUtZkYxb09TX2hWNElWTjZlZW1vbDF6LUF2Ul9lY0p3?oc=5",
-        "published_at": "2026-10-17T15:56:18+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Meeks Statement on Trump Waiving Russia Sanctions - House.gov",
-        "source": "House.gov",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWk54eDcyRjh1QUkyU0ZoR3gtY2hUclFKU3FpS3hfNlRpQm1GVS0zcmhKcnhVZFU2LXJVU1ZLcE80ZW9XU3JHR0E3MzcwRmZaSXJQX2VCdWFUeV82bjhHNjRWM2xtX3pWeWNjQy1oWUptbWZsYXZVaElaa01sWm02aVQtZ0tCanNJWkdvRm9oWV9MWTk4U1JvYUNYaDZQVXcza3c?oc=5",
-        "published_at": "2026-10-17T15:44:24+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China proposes export controls on 23 AI technologies - Digital Watch Observatory",
         "source": "Digital Watch Observatory",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yb0w5ZmRIUzhiWkszYUd6S3g1MkhSbV91TEc0RTBVb3hPSFlETDhSb0x4TGNCOV90T3RmR1gzZzRneUVwcUU5cDEtd3JXeWtyTmJseDU5V00zRUkzdlk3X3ViMzluQWZYUDdta1QzcXI?oc=5",
@@ -167,30 +185,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran War Day 232: Attacks on Hormuz Shipping Surge as Iran Says Strait ‘Closed’ - The American Conservative",
-        "source": "The American Conservative",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdHg5RG1uVk40eF9vODN4VC1qZUxScHFUeWlXX2lOZXNrZXJWNjJyVDhwcFo0M1BYY1dhQVVVcU42eVluOGZHWEQ3UlpuLUh3WUlXUmhlNXZVeE5IbUdHYkZnMFRZN2NWNXV6OHVXdC0xdGNfSFh3VURUa193RTNpTVQyY2hCZ0tWUnJ5ZXVyVWlZaGV6WHQ1dFl0S3MtSWlLdHNUcnpTak9GRmFBcERieG1JMm9XWi1a?oc=5",
-        "published_at": "2026-10-17T14:30:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran says oil tankers struck by mines in Strait of Hormuz - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adE5zbzdMRzNRWUNLdTgxWHAzVGcxS3B4NTl4aVcxZ1l2Z0NoeXYxR1FSY25KOWppbEV6V014eDZXcnlkQkhLN2NqUFNGWlJacG9ZSU01U283SG9O?oc=5",
         "published_at": "2026-10-17T14:15:24+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran says renewed talks with US require ‘credible guarantees’ against new attacks - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNamgxSmdLem8zb3NHTzh3cDJBVjBBa0ZPbGU0NkF0X0xqUGVsZXg3ajRQdUxyaE5zYnFMb3pOTWtwWmNVMXFxYnZwS1JKYl93S054ZlYwOXFEQW42UGRPQ0kxMjdhd1htRDRtR0d3QlZYWEVCalV6WWxCTXNqZ1hYMy1ETHlpYm5WS293VHowVktPVWNiQjByWENhWTE2WmNzRjN1TzBFVE1RQ1pGRS1YSzNnRThFOGZkTXR4ZTBOLUpEQQ?oc=5",
-        "published_at": "2026-10-17T13:42:37+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -259,15 +259,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "new weight loss drug pending fda approval - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPM3V0UjZjaU9zcmVCOWxQa0FYY3NkR3o3NjhDNDl2OTlvNHJadlotUlhRTmxWTGRESzRXbVJOV0lQXzgyMkRMTXdIeU91VXFnbllDNXM5Tms1VkN1cUNHZXEyQWM3UC16b05VWUNxamd4eU9qNzhzbDI5dDBqS0xNMEY0YUVmelRCSEM5NDFRcVY4WjBz?oc=5",
-        "published_at": "2026-10-17T13:41:25+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Alphabet’s Ruth Porat responds to Jefferies warning that AI boom will bring U.S. capital destruction - Fortune",
         "source": "Fortune",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeWVDWnYyN0VqNTUtbk9xSlUtVDRVekM1cThBcUxKRUtSREdQZm9VZWV5S0pHNzZLWjR4RUdjQXdQdDNlcVpyNzc1clFaa0dRZnpCWVhtZ0ltaGFMNnlpVDZEdWRmeVliRnYzOW8xTkZCdDJhaUpoa3ZVd2V1ZW9qdDNpZmhDTUFxdDc0TnVtR2tLaVRUdy15akpMQXlWMlFWcjNpdXV2YmlGNzE4QXFyTWVFUEZBc2xydk9hSUxYTHgwd01ibXJmLXBlNDNlclkwSmlMTg?oc=5",
@@ -286,11 +277,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia CEO on AI Market Turmoil: ‘All of This Is Going to Pass’ - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnVUc280UUFsc3NKaDM5VU5Bbng3WXA4bGhETWY4RE1NVTY5Yk5qVmhsN2VFdHE2M1pIUTRrTTk3QjZsYUMxWTQ3QmRacGhiUzdMM1VwQnh3c0c0Tk5zandkMjhhdnUxb0tMZzZDc3dIOUZhT2ZGSlRnVG5qdGp2RUplaWFxU1NiSXZGZHhBZTZjekdLSU1WZUhvZXMzUzd4YXRmMS0yYnNkTkp1cndfNQ?oc=5",
-        "published_at": "2026-10-16T20:33:15+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Viatris wins US FDA approval for RYZUMVI eye drops to treat presbyopia - Dealroom",
+        "source": "Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWd2aW9jaEVsaE9MVzdLY3BlS1F6N3F2MTFkbURoOTlSUFBBTHFnSkxwRGxWMVY4elF0X1lOTWdORjZxWGFGQkVxM3cxR0xESGJPQU9pREpuU3RPdGFIVkVEUzVyVlRDTVAzdUhCMG5GLTg0MWliMGpaSElUU2s5bzBqMEoxc1lsZHpYWVJ1ZzJRMHplTUZIZE5ZYzZOTW4yUmg5aGZuOA?oc=5",
+        "published_at": "2026-10-17T07:10:02+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -299,6 +290,15 @@
         "source": "Forbes",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd2FzM29rXzRDWVIwTTRKdUN5Y0o5c1hqbTFpeVBQcjBqWkZsTjBNOFVleVVVZzczTlk5WE15dE84RGY4Nno5TjB0dGszbkMzY1RPSzUwaFhJNlNOV2R6NGNpaTQ0dEhfM0VNWjBRNjl4aU9oX2xaTFpwd05PT1BrTktVcmpiUXNHM1dWTV9YTUphY1NVbFRYYW5YZGJ4Wk43NVhIYjYtQUNRbkJMYmQ4RWZKZlA?oc=5",
         "published_at": "2026-10-16T17:42:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany to unveil Nvidia AI agreement next week, government sources say - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOFhxVEl6YXFpRm9YZDJ5akl5YjBZQ0lnSzNrZ2xvRXVpQ1JvR2NybkMzRk4zdnRjQzNHNGFpZk0yZzBPM25wbDdYdWZuVGRSanNfdzM2STZxQ2hNbndENWtBd1lQemVEcVljSUJCbVU0ZEhBZVdKN2hQRkg4WUpVSjFIdlg2TlkwLXdDUzR1ZG04Z1VzVkloSHpvb2p4Z0JUeDg1MUZYd2NuQzlvWk43emh3Y184RDQ?oc=5",
+        "published_at": "2026-10-16T11:06:50+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
