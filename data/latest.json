@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T14:18:46.862489+00:00",
+  "generated_at": "2026-10-17T14:45:31.988514+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 99.04000091552734,
-    "wti_change_pct": 1.0921707476697629,
+    "wti": 99.0199966430664,
+    "wti_change_pct": 1.0717519743598691,
     "brent": 109.86000061035156,
     "brent_change_pct": 3.7197908888950693,
     "nasdaq_level": 26140.033,
@@ -18,7 +18,7 @@
     "dollar_index": 101.83999633789062,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.09%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.07%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
       "wti": "2026-10-16T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-17T14:18:35.595093+00:00",
+    "updated_at": "2026-10-17T14:45:19.620203+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -77,10 +77,28 @@
     ],
     "geopolitics": [
       {
-        "title": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
-        "published_at": "2026-10-17T13:30:00+00:00",
+        "title": "China proposes export controls on 23 AI technologies - Digital Watch Observatory",
+        "source": "Digital Watch Observatory",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yb0w5ZmRIUzhiWkszYUd6S3g1MkhSbV91TEc0RTBVb3hPSFlETDhSb0x4TGNCOV90T3RmR1gzZzRneUVwcUU5cDEtd3JXeWtyTmJseDU5V00zRUkzdlk3X3ViMzluQWZYUDdta1QzcXI?oc=5",
+        "published_at": "2026-10-17T14:38:07+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran says oil tankers struck by mines in Strait of Hormuz - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adE5zbzdMRzNRWUNLdTgxWHAzVGcxS3B4NTl4aVcxZ1l2Z0NoeXYxR1FSY25KOWppbEV6V014eDZXcnlkQkhLN2NqUFNGWlJacG9ZSU01U283SG9O?oc=5",
+        "published_at": "2026-10-17T14:15:24+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump’s pause on Russia sanctions will intensify war in Ukraine, Zelenskyy warns - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVJVYkJ2aENjcjBpOGo4YUNUS01pOGowSWxpc0hzUXlUWUN0ZnFISmpiQXlXNXgwb1N5VzhsX19aN3RIRXptOVlBSktwZW1DR0N3eVhSUUt3QlRQQnFTSUhNcnpIcWIxVnNweHRFMFc5ZTUzZWktVGwwMTkzRGRTZGo2Qm0zY3o5aHFNTHJfY2lheGp0TXpOOWtlZm5WRGZZZ0JHTFktaHNBYjNrdkNZTVd4T1B4bXNkaVNNbkh5RQ?oc=5",
+        "published_at": "2026-10-17T13:40:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -95,19 +113,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia-Ukraine war news: Donald Trump waives Russia sanctions; Volodymyr Zelenskyy urges support for new ones - ABC7 Chicago",
-        "source": "ABC7 Chicago",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVUJyWVJQQ0tOWmtJY2YyS0ZUUktsWEkyVmo4QkVpQ0gxcGJBUWtwT29UTW11VjUxTlZCeDVCMEd1Q0xDNThienNvaHRaM1pBSjhTYUJVSXRiQ1dvaE14OHBwMXduRFpNa0NJa0xzckJkbUNJN0xla1ZfVGpfRnVLdFBIV05uZnNxWmk4UmI1VFV3ZnN5WmJJRjNUOU4tVllsVkVCVzAxQkxlclIyRzF2Y2pBZUZQbUJobU9kTUZGdVh4YTFoNGluYzIyaUNqNllud2N4N2hn0gHWAUFVX3lxTE9VQnJZUlBDS05aa0ljZjJLRlRSS2xYSTJWajhCRWlDSDFwYkFRa3BPb1RNbXVWNTFOVkJ4NUIwR3VDTEM1OGJ6c29odFozWkFKOFNhQlVJdGJDV29oTXg4cHAxd25EWk1rQ0lrTHNyQmRtQ0k3TGVrVl9Ual9GdUt0UEhXTm5mc3FaaThSYjVUVXdmc3laYklGM1Q5Ti1WWWxWRUJXMDFCTGVyUjJHMXZjakFlRlBtQmhtT2RNRkZ1WHhhMWg0aW5jMjJpQ2o2WW53Y3g3aGc?oc=5",
-        "published_at": "2026-10-17T13:07:44+00:00",
+        "title": "Trump says he won't impose sanctions on Russia, thwarting Congress - USA Today",
+        "source": "USA Today",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRF9fbXVkcmF6WG1jT3VzZ3JUcjFERUZENms1VG40bHZwWGxfZ21sa3BGMmpnVU1VZzI5NkxVQjJVMGlvclFnTnM4U3hyUXFGQ2tlckJZNUlNMlZtclp3eExUTU5aZUNoLTRyRFVPOGU2b29JUWd6NHlZVGtlRU5MN0JpVXYxMENoc2hfSjM4NGljVGFyZTd3a0hGbzdnak43MHVMckN3?oc=5",
+        "published_at": "2026-10-17T13:12:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says he won't impose sanctions on Russia, thwarting Congress - USA Today",
-        "source": "USA Today",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRF9fbXVkcmF6WG1jT3VzZ3JUcjFERUZENms1VG40bHZwWGxfZ21sa3BGMmpnVU1VZzI5NkxVQjJVMGlvclFnTnM4U3hyUXFGQ2tlckJZNUlNMlZtclp3eExUTU5aZUNoLTRyRFVPOGU2b29JUWd6NHlZVGtlRU5MN0JpVXYxMENoc2hfSjM4NGljVGFyZTd3a0hGbzdnak43MHVMckN3?oc=5",
-        "published_at": "2026-10-17T12:44:00+00:00",
+        "title": "Russia-Ukraine war news: Donald Trump waives Russia sanctions; Volodymyr Zelenskyy urges support for new ones - ABC7 Bay Area",
+        "source": "ABC7 Bay Area",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPLWpKeVd6djQ4Z05Vbm1UODVBZ2F1TFk1Si12dHJJTUpoaENBRWlHNzdEb3VFT3FRSlBDU3VaaENwd1RsYUR3ZmpXTG9ad0pCWGl3X0dJRk0xUTc3NmxwRi1sUWhyQmhBc3Bqc21xMWVUVVRQYV9mLXlFdXhtRkxwOXk1dzFzYkpkRl9idG00VTZqQk1HWHVlSzVwZlJCOVJDcFRIbEpLZjZ0RXBuUGlpeVRlQ0xVZTk4ajdUa0VBb0Mzblo4dHNRMlpfZlVpLTdUanfSAdIBQVVfeXFMTy1qSnlXenY0OGdOVW5tVDg1QWdhdUxZNUotdnRySU1KaGhDQUVpRzc3RG91RU9xUUpQQ1N1WmhDcHdUbGFEd2ZqV0xvWndKQlhpd19HSUZNMVE3NzZscEYtbFFockJoQXNwanNtcTFlVFVUUGFfZi15RXV4bUZMcDl5NXcxc2JKZEZfYnRtNFU2akJNR1h1ZUs1cGZSQjlSQ3BUSGxKS2Y2dEVwblBpaXlUZUNMVWU5OGo3VGtFQW9DM25aOHRzUTJaX2ZVaS03VGp3?oc=5",
+        "published_at": "2026-10-17T13:07:30+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -131,21 +149,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump Waives Most Russia Sanctions Passed by Congress - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
-        "published_at": "2026-10-17T12:10:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil tanker explodes in Strait of Hormuz as Iran vows waterway remains closed - NewsNation",
         "source": "NewsNation",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zVHd1Ym90WEswQl9KOWJnWi00QkRzWU9xRG9aYjNBWHhITHdoaGJvV2JsdHhvNEFhalBhYTVUd3RoUDY3VFNtZ3NXQlBNT2VkRUdKMzVTeUI4NVh3S1lUTkU3aUZKdlJKdUtPSnhLdkZ0ZDNBRkNNQ3NYMXJOd9IBgwFBVV95cUxOMldlNmxMb0xOS3Qxc19seDczdWM5V19qY1lyaTRNejlJeUpBLUp6UlAwdXZIMTlwOWxEWFVjRGhnRUlobU5JanF2clNfM2EwZEFGbXhSNHJXSDRQUHA1TDN1R004NDU4UUQ4SzVmNkRmM2YxQWhVZXpuWnJNWWEtcEpKVQ?oc=5",
         "published_at": "2026-10-17T12:00:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSUF6amxpY2lMcWdiQ09tRkNjZjZGWjFyemRBN2kyQmx3RUl2ZlN6cDJLN3ZOeFBYZEJucUpHNWpNRHpsZFh4UmkxMFZ6ak1OQ1pVemhGaEtSOGJENXljeVItbGlZUUxMNG5LSmNacXZHSjVoOTRyLTZrcTJmZ2prSWctNkE2eEYwcG15bWJnQVlWUkNKdUZKODVZSHhYellTLWNFZnkzMEFiT1FKak1adHVqV25DLUFWWC1uMDIyc0dYX0lSVFRmdDRnUVlEd094?oc=5",
+        "published_at": "2026-10-17T11:59:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -167,28 +185,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Hormuz ship attacks hit record high as Iran escalates strikes with little U.S. response - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRkpjbHhhcjBfM1pXOUVuTE5rZ0lrMWJTUFBrZXYxY2FhcEtKWEJyR0lGSjBIb05pNTRfMW92elFEUlVHc3JjdzAwMmdWQTlLdmdZY0R4NGJOd3dUbEF1M3FCUVZRa1RfVjY0NnVxR013emZQTHMwSUFpNG5XU2RZendpNzd0LWZ4ZE5LakMycUEwMG9MQlZKQW82QTB4c0w0SV9QNTkwVlJIYnM?oc=5",
-        "published_at": "2026-10-17T09:00:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan Moves to Criminalize AI Chip Smuggling to China Under Foreign Trade Act - forkast.news",
-        "source": "forkast.news",
+        "title": "Taiwan Moves to Criminalize AI Chip Smuggling to China Under Foreign Trade Act - Forkast News",
+        "source": "Forkast News",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU0RqQWo3VHptUEZhb0Nnb1NSSFJYWDRrQXlIRVhjcUVfMkpDdC1QZHlWV0U4MnJYU0VIWC1EOUU0OWZNb2I3QlBHQnRyM0syd2F6NXJJNnNoeWxGeVE5OV9VcWkxTXZMOGVtYldzbzdLMG1wVU5OSHRzZE5pMlFUOFpKX2tMRHJYbDFPalBEc3F0TUFqNDNnekVGZ2taOWtjbVE?oc=5",
         "published_at": "2026-10-17T08:32:27+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's export controls on PV: Precision, balance, and rules-based - CGTN",
-        "source": "CGTN",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONmVDZG50MWlPenB4Slpxdjh5d05LUmk2V1NmLXlTVE1mRExDNWNBb3hjd1g2ajkwYjFBdmcxNTEwUlNOMy10WG1yaUZGNmhRN3RBcHNjR0ZIc083T2ZJY05TTmVwZmw5V0w1bFVYUzFEMmRoWEtIdzdpRzRQUWpVSkxMa2ptVG9jQ2ZpcjNzaVo0QUlRTlBTdS1ZWFgxZUItRDJCcTZVa09DX28wdGl1VVNHRkFIRElsVWI4dw?oc=5",
-        "published_at": "2026-10-17T06:59:24+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -228,15 +228,6 @@
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeWVDWnYyN0VqNTUtbk9xSlUtVDRVekM1cThBcUxKRUtSREdQZm9VZWV5S0pHNzZLWjR4RUdjQXdQdDNlcVpyNzc1clFaa0dRZnpCWVhtZ0ltaGFMNnlpVDZEdWRmeVliRnYzOW8xTkZCdDJhaUpoa3ZVd2V1ZW9qdDNpZmhDTUFxdDc0TnVtR2tLaVRUdy15akpMQXlWMlFWcjNpdXV2YmlGNzE4QXFyTWVFUEZBc2xydk9hSUxYTHgwd01ibXJmLXBlNDNlclkwSmlMTg?oc=5",
         "published_at": "2026-10-17T12:00:00+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUnFYa2JBLTNqYlV2MFJjajZaZUkyU0JLQmxEV2YyUzFpd0Y2WDlYb3A2TFJtNjZ2N2J3RGx2WDd3cDdlTHBqMUJKa3l2NGFsbG5VaWpVcEVhY1BhRTljRlBQWEVaWnZYdmktWk11UGlmWl94QWQwa0ZUWU15QjEyNzllTUdTNlBwXzJGNnFFMUplQ3NENHR4blRqRG9Kcm1wUFdmOFBUR0c4TEhpZXJkUg?oc=5",
-        "published_at": "2026-10-17T11:31:35+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -282,6 +273,15 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnVUc280UUFsc3NKaDM5VU5Bbng3WXA4bGhETWY4RE1NVTY5Yk5qVmhsN2VFdHE2M1pIUTRrTTk3QjZsYUMxWTQ3QmRacGhiUzdMM1VwQnh3c0c0Tk5zandkMjhhdnUxb0tMZzZDc3dIOUZhT2ZGSlRnVG5qdGp2RUplaWFxU1NiSXZGZHhBZTZjekdLSU1WZUhvZXMzUzd4YXRmMS0yYnNkTkp1cndfNQ?oc=5",
         "published_at": "2026-10-16T20:33:15+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Viatris Gets FDA Approval for Ryzumvi in the Treatment of Presbyopia - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV0JwLWxfbHZ2THdKZHVmZ0RfQlZ5ay1XTDRDZjRwQW9VN3ZGYk9DZHZjUlBrWDQtU014STlGcTVUM0FCel9YbDY4X2VYdDZVbkZpZWtRdkpQdUhBN1hsc2F0S1NfQTZuR21QT2pmckNQQ0xtWlVtTExIY0hXelpfdVNHRzJDd2htODdlSjZ5a2dQMGU4ZDdhWkNR?oc=5",
+        "published_at": "2026-10-16T20:31:45+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
