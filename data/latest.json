@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T18:03:37.447011+00:00",
+  "generated_at": "2026-10-17T18:29:51.324359+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 99.04000091552734,
-    "wti_change_pct": 1.0921707476697629,
+    "wti": 99.0199966430664,
+    "wti_change_pct": 1.0717519743598691,
     "brent": 109.86000061035156,
     "brent_change_pct": 3.7197908888950693,
     "nasdaq_level": 26140.033,
@@ -18,7 +18,7 @@
     "dollar_index": 101.83999633789062,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.09%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.07%. Geopolitica: Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
       "wti": "2026-10-16T20:55:00+00:00",
@@ -27,14 +27,20 @@
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 35,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-17T18:03:26.302589+00:00",
+    "updated_at": "2026-10-17T18:29:40.259622+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +50,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -58,7 +64,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
@@ -72,7 +78,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
@@ -80,7 +86,16 @@
         "title": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGNSbDZNbm5wY2VNaTRTRDZiMHFqMW9rbnpvNk1tU0JBdjlTQng0YXhGQTN4bWtRaUNPUUdxY0dHVEhOajRFem5jUFdSVm5QYnkyU1QtcGZuM3BBQnBqTnFYdlBrTHYyampsUEtDMDB5RUdIYVpJZVY5eHBlank0T1BhLW1OSWo5bnNNVUdCR0FJQjRRLVEtNVFqeHlZQjc2Mm1n?oc=5",
-        "published_at": "2026-10-17T17:33:00+00:00",
+        "published_at": "2026-10-17T18:17:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump waives new Russia sanctions in the \"national interests\" - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VUzFHTi03ajF4UU41MUNRZ2lBU2VubkVFOFVCUE9WeU1QZGx6U094RXEwZDVXY1FsaWZieE1wbWdaa0k1TDZtY0l4XzdJWWh3cTkwNFQ4UFJBX1Bmb3BOQTlwVW14dw?oc=5",
+        "published_at": "2026-10-17T17:47:35+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -113,6 +128,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump’s sanctions waiver ‘rewards’ Putin: Zelenskiy - Taipei Times",
+        "source": "Taipei Times",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wc01MTXZld1NqZ3JqUmVBZ3pvRkEwck42MHFON0cyNS1UbjRlR2tXOWJoZFpMNHNqYjBUZzFFWFpucU1qVHF3b2FfUm5mSHd6bnlRWTJyWTJFUnU5YlJDTVRwendRZ0VNaE9wTEJBMWFyT2tUTVREQg?oc=5",
+        "published_at": "2026-10-17T16:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Meeks Statement on Trump Waiving Russia Sanctions - House.gov",
         "source": "House.gov",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWk54eDcyRjh1QUkyU0ZoR3gtY2hUclFKU3FpS3hfNlRpQm1GVS0zcmhKcnhVZFU2LXJVU1ZLcE80ZW9XU3JHR0E3MzcwRmZaSXJQX2VCdWFUeV82bjhHNjRWM2xtX3pWeWNjQy1oWUptbWZsYXZVaElaa01sWm02aVQtZ0tCanNJWkdvRm9oWV9MWTk4U1JvYUNYaDZQVXcza3c?oc=5",
@@ -134,7 +158,7 @@
         "title": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzV3OUN4YUtURHoxVG1sTV9uMjVTdFU0Tmlqc2hod0trU1hzQnMzUTc5UE12TGJsMVJmOVU1VEFxWXVSOEJxOU5sR3FwUFc2OFY0b2NKczZOR3pjX0xTWlJacDZSdWk1SmgxVjJvVTRWQVZyckd3MW14dFRiM0RJb3F6bG15MGNyTFJtOU1IVDVLeTNHSjZsMzl2aFB1azZZRG5TajhNTUVGUQ?oc=5",
-        "published_at": "2026-10-17T15:09:00+00:00",
+        "published_at": "2026-10-17T15:13:34+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -149,30 +173,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran War Day 232: Attacks on Hormuz Shipping Surge as Iran Says Strait ‘Closed’ - The American Conservative",
-        "source": "The American Conservative",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdHg5RG1uVk40eF9vODN4VC1qZUxScHFUeWlXX2lOZXNrZXJWNjJyVDhwcFo0M1BYY1dhQVVVcU42eVluOGZHWEQ3UlpuLUh3WUlXUmhlNXZVeE5IbUdHYkZnMFRZN2NWNXV6OHVXdC0xdGNfSFh3VURUa193RTNpTVQyY2hCZ0tWUnJ5ZXVyVWlZaGV6WHQ1dFl0S3MtSWlLdHNUcnpTak9GRmFBcERieG1JMm9XWi1a?oc=5",
-        "published_at": "2026-10-17T14:30:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE50MGlLYl9jeVFRcDdiaWJaSWtUdkpoUHJaczN0bldDUDY3ZW52TEh2QmZZOHU1X1JmVVNNMm9YbjdlaDNGUDFxYjAxdGlsYWxuRllHanZGMXhUWmtCUy1oZjcybFNhRnlJdnRJT0dVaXJ2UQ?oc=5",
-        "published_at": "2026-10-17T14:25:10+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran says oil tankers struck by mines in Strait of Hormuz - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adE5zbzdMRzNRWUNLdTgxWHAzVGcxS3B4NTl4aVcxZ1l2Z0NoeXYxR1FSY25KOWppbEV6V014eDZXcnlkQkhLN2NqUFNGWlJacG9ZSU01U283SG9O?oc=5",
         "published_at": "2026-10-17T14:15:24+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelenskyy urges support for new U.S. sanctions on Russia after Trump puts them on hold - Spectrum News",
+        "source": "Spectrum News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1dHTXpQakNuN2hZVDZDaXFmS3otZ2wzWXpYamFBeVp2VWlJdy1uV1UwVGgyRndTWmlwdDJGY0FRTjZhY0xJN01zRXl2eVRGbHkwdlpydmpkWXFvVWlfd0FMWXhTeEg0R2FfX052OUFLWncwTXhvcEo5aWVFamlUcEttZnp6aElPNUlTOFNyc2xWdERuY1ZUOHFfTlIxSWU2Z29zaUtHbw?oc=5",
+        "published_at": "2026-10-17T14:12:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -201,18 +216,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan Moves to Criminalize AI Chip Smuggling to China Under Foreign Trade Act - Forkast News",
-        "source": "Forkast News",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU0RqQWo3VHptUEZhb0Nnb1NSSFJYWDRrQXlIRVhjcUVfMkpDdC1QZHlWV0U4MnJYU0VIWC1EOUU0OWZNb2I3QlBHQnRyM0syd2F6NXJJNnNoeWxGeVE5OV9VcWkxTXZMOGVtYldzbzdLMG1wVU5OSHRzZE5pMlFUOFpKX2tMRHJYbDFPalBEc3F0TUFqNDNnekVGZ2taOWtjbVE?oc=5",
-        "published_at": "2026-10-17T08:32:27+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Nvidia (NVDA) Trades Far Below Its Usual Multiple, Is Customer Debt the Real Risk? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0RqY1JjcXVtOWFoM2F2ZmRINWluWTJqV2UyQU5UaldWN1ozeDhrMHV0X280WWIzYlU5dTVRUTFwbDB1OXJZc3ZHeU9zRWhMOV90dlZYQkFyR0ViSXRRbTQxbjFDQ1MwNXlrTTh6Vld2clBiS256VlR4UkNKUTRWbUZjcjBSTWZBZ1pWZ3ZRa1MydEQ3cHowaA?oc=5",
+        "published_at": "2026-10-17T17:35:13+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Viatris (VTRS) Wins FDA Approval For RYZUMVI, Is The Upside Already Priced In? - Simply Wall Street",
         "source": "Simply Wall Street",
@@ -250,15 +265,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Smuggling Nvidia Chips Into China Is About to Become a Crime in Taiwan - 24/7 Wall St.",
-        "source": "24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb1pHcU9SeHNnbmpjQlpzVXVDNmNEUTJlTllEdkoySjBFWmJYMEs3ZENORlBpMVpISFBJRFpvZnUzRlhUWUVtLWNJc1gxOWJKRXFsVGExR0xZdjM1X0lHOFdUQTN5T0tuNEZmOHlNWk1TNkk4c3BkRjJZMEFXV1ltNW5lZ2lCX3B2Q0ctWEo2aVd5RVdzYXFZdVV3TXNKQ0J4QU0zc1FrRXd5dktfYVJIR0J5SVk?oc=5",
-        "published_at": "2026-10-17T12:20:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Alphabet’s Ruth Porat responds to Jefferies warning that AI boom will bring U.S. capital destruction - Fortune",
         "source": "Fortune",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeWVDWnYyN0VqNTUtbk9xSlUtVDRVekM1cThBcUxKRUtSREdQZm9VZWV5S0pHNzZLWjR4RUdjQXdQdDNlcVpyNzc1clFaa0dRZnpCWVhtZ0ltaGFMNnlpVDZEdWRmeVliRnYzOW8xTkZCdDJhaUpoa3ZVd2V1ZW9qdDNpZmhDTUFxdDc0TnVtR2tLaVRUdy15akpMQXlWMlFWcjNpdXV2YmlGNzE4QXFyTWVFUEZBc2xydk9hSUxYTHgwd01ibXJmLXBlNDNlclkwSmlMTg?oc=5",
@@ -277,10 +283,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "how long has zepbound been fda approved - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcG4zRUR4STZYR1VHU3BlNFBKeHBBa2w2OENFeEd2RW9iOXJMYjVKS0pzcGJKNmJ4bWVvbFRYTkVhUExxQWU5cjRnM0k5Nm9pZVN1bC1MXy1IckQ0NF9IUXlVeEVrcThoem15ZmF0dURmRFJ2ZDRzYkFRQ2VyNU4tUlBQUmhNQl81QW13?oc=5",
-        "published_at": "2026-10-17T05:01:36+00:00",
+        "title": "BioPharm Brief: Gene Therapy Progress, FDA Approval, and $103M Funding - BioPharm International",
+        "source": "BioPharm International",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV29tNzB3OXZfOGpvSGU4TkxuZGQxb01ZaWtrVTlvOTRjQjJla0xnUm9iSzB6dWRlU3hETmZ5TG5vV1QwaW5pYzdUQnZpdy1sVVpRMjE4aV9ITHJsYzVVRVNjQ1gxOHdReU45b2hlSi04NENnNnNyOUk3QWZLdzBqOWFtUl9heDBYWHZNenEySl9MM2hyVEZISlVuMGNWV1ZwQmExNExlYlhXMng4bHc?oc=5",
+        "published_at": "2026-10-16T23:17:34+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
