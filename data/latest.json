@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T09:49:34.863905+00:00",
+  "generated_at": "2026-10-17T10:09:20.213568+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 99.04000091552734,
-    "wti_change_pct": 1.0921707476697629,
+    "wti": 99.0199966430664,
+    "wti_change_pct": 1.0717519743598691,
     "brent": 109.86000061035156,
     "brent_change_pct": 3.7197908888950693,
     "nasdaq_level": 26140.033,
@@ -18,7 +18,7 @@
     "dollar_index": 101.83999633789062,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.09%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.07%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
       "wti": "2026-10-16T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-17T09:49:23.048574+00:00",
+    "updated_at": "2026-10-17T10:09:09.369773+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -77,11 +77,47 @@
     ],
     "geopolitics": [
       {
+        "title": "Trump waives new Russia sanctions in the \"national interests\" - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VUzFHTi03ajF4UU41MUNRZ2lBU2VubkVFOFVCUE9WeU1QZGx6U094RXEwZDVXY1FsaWZieE1wbWdaa0k1TDZtY0l4XzdJWWh3cTkwNFQ4UFJBX1Bmb3BOQTlwVW14dw?oc=5",
+        "published_at": "2026-10-17T09:59:46+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Donald Trump exempts Russia from further sanctions mandated by new law - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaXNIdDdhLWJTcFJ3TmN4YUNHRGZSWmxRcWZ1NUVDVmYyLVBWNE04NWdCUExyTG1Jd3VDYW5BWVlFQWtlaFZEQV9BcjFyY2tkUmpxYWxMZjAtbGtfbGtCeUxJVmRJcDMtMk42N0hMSUFHRDdlbC1oYXVUTW13NC1Za2h2LWo?oc=5",
+        "published_at": "2026-10-17T09:56:15+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran-backed Houthis strike Yemen’s Aden: What that means - Yahoo",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUpiNEhjNG53X3lxZG5TMW9sRTlJZ0VBMlVzR0FNX2dSdWpOSFZkSHVTU1F5NUZEaERVX0FIQ2phUGVVcENlTkdWQWR0N2x5Z1pualF5LVE3SWg0Zkk0Qzg5a3hqbWxjUmJyQlo0NmVDVkh2bkxmS0twSldWSzI2aTRaazR5Z3hMb3hQWXhGcTQyZzA?oc=5",
+        "published_at": "2026-10-17T09:16:48+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Ukraine War, Day 1,696: Trump Refuses To Implement New Russia Sanctions - EA WorldView",
         "source": "EA WorldView",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT1R1ZVEzUW9oaXY3ZlMySHZxWVhfVnpIbmdldV9CVGt2MnBjYll3MGlFOVNfZzVLNWdTUWswamwxeDJJelJvckp3VEFfRFhaQURVbGI5SHJPWE04VjlRdGdkR181TTNHekxXXzBHb1dfRXlQZDBvRVlsMWNpZ2FqYU1RejgtWG1hVzJLOUFmeTdtOGQ4MTkw?oc=5",
         "published_at": "2026-10-17T09:11:15+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Hormuz ship attacks hit record high as Iran escalates strikes with little U.S. response - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRkpjbHhhcjBfM1pXOUVuTE5rZ0lrMWJTUFBrZXYxY2FhcEtKWEJyR0lGSjBIb05pNTRfMW92elFEUlVHc3JjdzAwMmdWQTlLdmdZY0R4NGJOd3dUbEF1M3FCUVZRa1RfVjY0NnVxR013emZQTHMwSUFpNG5XU2RZendpNzd0LWZ4ZE5LakMycUEwMG9MQlZKQW82QTB4c0w0SV9QNTkwVlJIYnM?oc=5",
+        "published_at": "2026-10-17T09:00:39+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -113,27 +149,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
-        "published_at": "2026-10-17T07:57:36+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump puts on hold new Russia sanctions he signed into law - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWVpka1pmcXg5LXlRbU5GRlltTjdrRDdDakctVG9mNzlMSVhwOVZ5VE5NX2JpdjJKUThPRmhIUTlWTUs3YzRUUU84eU1ya2lOZ1VzZTFCNUxzQW9EeGtNMmJQb1UxdG9sdUt2WnMyUWttUnVuTmkyY1lGWUt5VWozVjhMcXR5UnBFMm5IR2ZUX0FTMVlTZE9qalJMTmt0TF91eVHSAacBQVVfeXFMTUpHcU1XVHhvdkluMERZRE4zZW5rbERiRFJnQXNCMDFUWXdXRUF2cmlvd1lJUHVpQXYxeFlnSjVPdndNNHFJaXRSWVRmaEVvc21oWUhFYXhIZ094NHpZLVFhbTM5dS1ldGJzTkhWaTNGTF9TakNEQW5BRkFIYkJWbVRoZnBsYjltQnJxLXRCREhEYTNQeG9DRmk5ekNGRTB1Y0lOS0FGT1E?oc=5",
-        "published_at": "2026-10-17T07:38:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Sanctions, War, Isolation: Why Hasn’t Iran's Hard-Line Government Collapsed? - Radio Free Europe/Radio Liberty",
         "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQTJsd1IyYjdwOVpxWDZfTktVV0JSMzBQX0NGVWI5VW9raHJfcFA0Mk8wdzZyWmxFbzNRLVpGM0xHRHEwVkZfOW5nMmc4QVhDZkM4R2gwOWwxMUZ5aTNUMGNHb0tLSnU3NU1uQU42Y29pQ3RGT2RuV3FRd1djZDhTMThNM2JRd9IBiAFBVV95cUxPeUVnbzNzMEctQkpCdmNyNmYySjhQejRwajBxcUxuckJ0Um5IekswNE9lUHYyUG5VaXNYTGNSY0RLck9kX0tzRHdMVGlpUnpaLTVYakNWNy1TaWVTMmFwVUY0RjJVSzAyRDV4dXRJd2ZMMDlRVnM3Q1hUbE5wVm1mYXBkZGNsVHM0?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeUVnbzNzMEctQkpCdmNyNmYySjhQejRwajBxcUxuckJ0Um5IekswNE9lUHYyUG5VaXNYTGNSY0RLck9kX0tzRHdMVGlpUnpaLTVYakNWNy1TaWVTMmFwVUY0RjJVSzAyRDV4dXRJd2ZMMDlRVnM3Q1hUbE5wVm1mYXBkZGNsVHM00gGIAUFVX3lxTE95RWdvM3MwRy1CSkJ2Y3I2ZjJKOFB6NHBqMHFxTG5yQnRSbkh6SzA0T2VQdjJQblVpc1hMY1JjREtyT2RfS3NEd0xUaWlSelotNVhqQ1Y3LVNpZVMyYXBVRjRGMlVLMDJENXh1dEl3ZkwwOVFWczdDWFRsTnBWbWZhcGRkY2xUczQ?oc=5",
         "published_at": "2026-10-17T07:36:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -180,24 +198,6 @@
         "source": "CNN",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWkhLc0FrR3BPSms3TDdwX1QxN2tFaUpMM2t5eHQyWWFyYUxqN3JNUkdfU2hERzltNkZJY09kc0RMVGF5cWNURjlkNndGUmpkMmFINk5za1AxOWZzSklYcHR6d09OYWR3TzM5LXd1bDItb0oxaGYzNmNwUUwwLW5xa18tRW5qYm0tVWQ3aFNteVZMa2pVX0pISEY3OUV4Vi1ZZUxCOA?oc=5",
         "published_at": "2026-10-17T05:00:45+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi Attacks on Saudi Arabia: What the Group Wants - الحرة",
-        "source": "الحرة",
-        "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE05Vk1XeHpLb1ZhajFkTU0zLXZXOEhMUHRXQUUtSURyTWt5azdPaDg4dG1wd3JvczdQVjk0Q2pJVWxLdw?oc=5",
-        "published_at": "2026-10-17T04:45:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Mother of Queens soldier killed in Iran attack speaks out for first time - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fNEtiNmNWQ3ZWZTVQNzZEZ21ocW1qNk90ZDZYODk4Q2NqcGY5MDVSZmFjc2ZRYnNCZ1pxRmphdjI5cWhKcXJWUXJIUzJ0RGRTam4xalpQenpyUXBBUDh6Y2xQcmNHSHYyQ09RaWtSMk8ycHc0QlozX0VqMGxNN0U?oc=5",
-        "published_at": "2026-10-17T03:28:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
