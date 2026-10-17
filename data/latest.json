@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T15:29:42.874911+00:00",
+  "generated_at": "2026-10-17T15:54:43.018818+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 99.0199966430664,
-    "wti_change_pct": 1.0717519743598691,
+    "wti": 99.04000091552734,
+    "wti_change_pct": 1.0921707476697629,
     "brent": 109.86000061035156,
     "brent_change_pct": 3.7197908888950693,
     "nasdaq_level": 26140.033,
@@ -18,7 +18,7 @@
     "dollar_index": 101.83999633789062,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.07%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.09%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
       "wti": "2026-10-16T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-17T15:29:31.544223+00:00",
+    "updated_at": "2026-10-17T15:54:31.608200+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Meeks Statement on Trump Waiving Russia Sanctions - House.gov",
+        "source": "House.gov",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWk54eDcyRjh1QUkyU0ZoR3gtY2hUclFKU3FpS3hfNlRpQm1GVS0zcmhKcnhVZFU2LXJVU1ZLcE80ZW9XU3JHR0E3MzcwRmZaSXJQX2VCdWFUeV82bjhHNjRWM2xtX3pWeWNjQy1oWUptbWZsYXZVaElaa01sWm02aVQtZ0tCanNJWkdvRm9oWV9MWTk4U1JvYUNYaDZQVXcza3c?oc=5",
+        "published_at": "2026-10-17T15:44:24+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump suspends Russia sanctions as deadly attacks plunge Ukraine into darkness - Vatican News",
+        "source": "Vatican News",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUWM0U1pSZlpoaXBTT1dYNnhMTXZqSHFBZ2tBSFk5ai1wNTEzNXBnbzJnX2pvRTFib0lxSjFPSE5mWnd1NDItelJMYlNuOFBBMU4tcUdDYUFUQ1IyNEZubTJQZ1FrREhNaVBFRER5V1ZLRGwzOVA3Vkl2RWNjVjJSbVRyRXZ0X19OWVZZcGV3?oc=5",
+        "published_at": "2026-10-17T15:31:52+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength - Chattanooga Times Free Press",
         "source": "Chattanooga Times Free Press",
@@ -92,6 +110,15 @@
         "published_at": "2026-10-17T14:38:07+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE50MGlLYl9jeVFRcDdiaWJaSWtUdkpoUHJaczN0bldDUDY3ZW52TEh2QmZZOHU1X1JmVVNNMm9YbjdlaDNGUDFxYjAxdGlsYWxuRllHanZGMXhUWmtCUy1oZjcybFNhRnlJdnRJT0dVaXJ2UQ?oc=5",
+        "published_at": "2026-10-17T14:25:10+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -122,37 +149,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
-        "published_at": "2026-10-17T13:30:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump’s pause on Russia sanctions is ‘reward’ for Putin, Zelenskyy says - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVJVYkJ2aENjcjBpOGo4YUNUS01pOGowSWxpc0hzUXlUWUN0ZnFISmpiQXlXNXgwb1N5VzhsX19aN3RIRXptOVlBSktwZW1DR0N3eVhSUUt3QlRQQnFTSUhNcnpIcWIxVnNweHRFMFc5ZTUzZWktVGwwMTkzRGRTZGo2Qm0zY3o5aHFNTHJfY2lheGp0TXpOOWtlZm5WRGZZZ0JHTFktaHNBYjNrdkNZTVd4T1B4bXNkaVNNbkh5RQ?oc=5",
         "published_at": "2026-10-17T13:28:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "GOP lawmakers bash Trump’s decision to waive Russia sanctions: ‘Beyond irresponsible’ - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRFQ4NUNMUUJtY25sTWVRQ2F0aTkzNHptZ0xQWlEyU3oxaFE2VThpb0dFZmtZVTFzNEk0QmFVYXZVV2MtdS1SeV92ei1KMks2YVdqaHBxQkFXd1pXNjlqRGdwc1V1MXZ6NmtWWEViLTFtZTNtV1Myczg4WngzVE1sa1hlVGZhRXQtWVHSAY8BQVVfeXFMTzJ2d1QxZ094SkJ4TVZ4dDhqdzJxVW1IX3I4dk1kcWpLcHAyLUhEb292V2NaMldpSVJHVjg5MXQ1NS1pQmd3NVRlM0hNeFlNNFhGa0VzVG8yeml2UzVJV2dTa3Y2RUIyV2xoTnNDWVJ4T3gxLUJ2djQ2RzJrdldTSWpySVN0Z0dndGY5YnpYR3M?oc=5",
-        "published_at": "2026-10-17T13:23:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says he won't impose sanctions on Russia, thwarting Congress - USA Today",
-        "source": "USA Today",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRF9fbXVkcmF6WG1jT3VzZ3JUcjFERUZENms1VG40bHZwWGxfZ21sa3BGMmpnVU1VZzI5NkxVQjJVMGlvclFnTnM4U3hyUXFGQ2tlckJZNUlNMlZtclp3eExUTU5aZUNoLTRyRFVPOGU2b29JUWd6NHlZVGtlRU5MN0JpVXYxMENoc2hfSjM4NGljVGFyZTd3a0hGbzdnak43MHVMckN3?oc=5",
-        "published_at": "2026-10-17T13:12:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -241,6 +241,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUnFYa2JBLTNqYlV2MFJjajZaZUkyU0JLQmxEV2YyUzFpd0Y2WDlYb3A2TFJtNjZ2N2J3RGx2WDd3cDdlTHBqMUJKa3l2NGFsbG5VaWpVcEVhY1BhRTljRlBQWEVaWnZYdmktWk11UGlmWl94QWQwa0ZUWU15QjEyNzllTUdTNlBwXzJGNnFFMUplQ3NENHR4blRqRG9Kcm1wUFdmOFBUR0c4TEhpZXJkUg?oc=5",
+        "published_at": "2026-10-17T11:31:35+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "How AI Is Helping Match Patients to Clinical Trials Faster - Pfizer",
         "source": "Pfizer",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZWsyTUVWalN4NEFMUjBMUjREZzBTWHpXc0VuOWF5UXRaWEJaNTJHdWU1OWtwSURyUllSQ1N1WVVqNzEwNlVuLTZwWnd0VTNvMDNmZVY4d3E1MVpQZWh5ZzZxcENhTGdVQV9BSlJwQUFvcXVCOW1KVTYwWkljOVJpTEU1OHhpbnplMzVqamx0Yjc2RzVlQUV5ODJ3WQ?oc=5",
@@ -250,11 +259,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "TSMC Says AI Chip Demand Is Still Far Above What It Can Supply. That's Why I'd Buy Nvidia Stock. - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUo1TjQxakNiT2tFaUFidFJPM3JpTG44QV9XZS1kR1NoRmgwb3N1UFJzLXdPVUlFSzd0T2dvdlFKX1M5SEh2bk5wb3N4YThYM2t3RElBUUVYRDVWbHo0QlR2NDZXQjZtc1NpZGhVWFpBdzB1RkZlTnNTaUJfd0lqNTc5WkpKb1BTZ2cxVTA4Y2poUDl4a29HR2U5V0NLSFp4cHppc3JQaHJiU2RhcG8zU2ZPVE1GcW45Tkx6LTNjQXJzOEVIZTVJaTd3TEU3RkVoMEhN?oc=5",
-        "published_at": "2026-10-17T03:57:00+00:00",
-        "area": "Titoli tech e AI",
+        "title": "how long has zepbound been fda approved - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcG4zRUR4STZYR1VHU3BlNFBKeHBBa2w2OENFeEd2RW9iOXJMYjVKS0pzcGJKNmJ4bWVvbFRYTkVhUExxQWU5cjRnM0k5Nm9pZVN1bC1MXy1IckQ0NF9IUXlVeEVrcThoem15ZmF0dURmRFJ2ZDRzYkFRQ2VyNU4tUlBQUmhNQl81QW13?oc=5",
+        "published_at": "2026-10-17T05:01:36+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -277,15 +286,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA approves Moderna's mRNA seasonal flu vaccine - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
-        "published_at": "2026-10-16T22:43:37+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Nvidia CEO on AI Market Turmoil: ‘All of This Is Going to Pass’ - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnVUc280UUFsc3NKaDM5VU5Bbng3WXA4bGhETWY4RE1NVTY5Yk5qVmhsN2VFdHE2M1pIUTRrTTk3QjZsYUMxWTQ3QmRacGhiUzdMM1VwQnh3c0c0Tk5zandkMjhhdnUxb0tMZzZDc3dIOUZhT2ZGSlRnVG5qdGp2RUplaWFxU1NiSXZGZHhBZTZjekdLSU1WZUhvZXMzUzd4YXRmMS0yYnNkTkp1cndfNQ?oc=5",
@@ -295,11 +295,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Viatris Gets FDA Approval for Ryzumvi in the Treatment of Presbyopia - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV0JwLWxfbHZ2THdKZHVmZ0RfQlZ5ay1XTDRDZjRwQW9VN3ZGYk9DZHZjUlBrWDQtU014STlGcTVUM0FCel9YbDY4X2VYdDZVbkZpZWtRdkpQdUhBN1hsc2F0S1NfQTZuR21QT2pmckNQQ0xtWlVtTExIY0hXelpfdVNHRzJDd2htODdlSjZ5a2dQMGU4ZDdhWkNR?oc=5",
-        "published_at": "2026-10-16T20:31:45+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "AI Chip Earnings Soared—Why Micron, TSMC And ASML Shares May Fall - Forbes",
+        "source": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd2FzM29rXzRDWVIwTTRKdUN5Y0o5c1hqbTFpeVBQcjBqWkZsTjBNOFVleVVVZzczTlk5WE15dE84RGY4Nno5TjB0dGszbkMzY1RPSzUwaFhJNlNOV2R6NGNpaTQ0dEhfM0VNWjBRNjl4aU9oX2xaTFpwd05PT1BrTktVcmpiUXNHM1dWTV9YTUphY1NVbFRYYW5YZGJ4Wk43NVhIYjYtQUNRbkJMYmQ4RWZKZlA?oc=5",
+        "published_at": "2026-10-16T17:42:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
