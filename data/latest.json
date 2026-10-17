@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T15:05:33.655823+00:00",
+  "generated_at": "2026-10-17T15:29:42.874911+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 99.04000091552734,
-    "wti_change_pct": 1.0921707476697629,
+    "wti": 99.0199966430664,
+    "wti_change_pct": 1.0717519743598691,
     "brent": 109.86000061035156,
     "brent_change_pct": 3.7197908888950693,
     "nasdaq_level": 26140.033,
@@ -18,7 +18,7 @@
     "dollar_index": 101.83999633789062,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.09%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.07%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
       "wti": "2026-10-16T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-17T15:05:22.056841+00:00",
+    "updated_at": "2026-10-17T15:29:31.544223+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength - Chattanooga Times Free Press",
+        "source": "Chattanooga Times Free Press",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa21VTFlnSzNZbjdDNTlXUmNNcXh5bU9CbWYtNTAzRXkybnJnZVZ6d2E2LUplMVN3TUl2MjRaTmw3MlRXbnBUa1d2MGtWT1RxMVJZaWVaVVRtczNvWXh3Q2laR1FJMFdnNWVQSlZJTDBmcjFWejFDN0ZGNjJXWFFVNW5iUm9mR0ZhbjNIUXRSYlNnOWtmeHRjMEdIdk11aWJIMDFkdkc0Vi03OEdtbVc1VUtNb0RhRTgtZmxN?oc=5",
+        "published_at": "2026-10-17T15:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "China proposes export controls on 23 AI technologies - Digital Watch Observatory",
         "source": "Digital Watch Observatory",
@@ -99,6 +108,24 @@
         "source": "The Hill",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTGZMYm5YTzJVQzVnXzE2S1l6M1ZwTTVrMG5iejd6RmFKQzN5R0tIMFJPSk9ZT0ozYlBsaUQyNXhaTkZoRHBROHlfUThqeVlOTUMzOEFaUHhYSXpDc25Ib0VxMWdPSFA3enhwaDFPSzFtMXlzbFc2QW9rNGlSZHpRRGZlYUIzMXEwZUxibkd4M28zVnc1SmQyR3NmZGVhQQ?oc=5",
         "published_at": "2026-10-17T14:08:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran says renewed talks with US require ‘credible guarantees’ against new attacks - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNamgxSmdLem8zb3NHTzh3cDJBVjBBa0ZPbGU0NkF0X0xqUGVsZXg3ajRQdUxyaE5zYnFMb3pOTWtwWmNVMXFxYnZwS1JKYl93S054ZlYwOXFEQW42UGRPQ0kxMjdhd1htRDRtR0d3QlZYWEVCalV6WWxCTXNqZ1hYMy1ETHlpYm5WS293VHowVktPVWNiQjByWENhWTE2WmNzRjN1TzBFVE1RQ1pGRS1YSzNnRThFOGZkTXR4ZTBOLUpEQQ?oc=5",
+        "published_at": "2026-10-17T13:42:37+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
+        "published_at": "2026-10-17T13:30:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -131,11 +158,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia-Ukraine war news: Donald Trump waives Russia sanctions; Volodymyr Zelenskyy urges support for new ones - ABC7 Bay Area",
-        "source": "ABC7 Bay Area",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPLWpKeVd6djQ4Z05Vbm1UODVBZ2F1TFk1Si12dHJJTUpoaENBRWlHNzdEb3VFT3FRSlBDU3VaaENwd1RsYUR3ZmpXTG9ad0pCWGl3X0dJRk0xUTc3NmxwRi1sUWhyQmhBc3Bqc21xMWVUVVRQYV9mLXlFdXhtRkxwOXk1dzFzYkpkRl9idG00VTZqQk1HWHVlSzVwZlJCOVJDcFRIbEpLZjZ0RXBuUGlpeVRlQ0xVZTk4ajdUa0VBb0Mzblo4dHNRMlpfZlVpLTdUanfSAdIBQVVfeXFMTy1qSnlXenY0OGdOVW5tVDg1QWdhdUxZNUotdnRySU1KaGhDQUVpRzc3RG91RU9xUUpQQ1N1WmhDcHdUbGFEd2ZqV0xvWndKQlhpd19HSUZNMVE3NzZscEYtbFFockJoQXNwanNtcTFlVFVUUGFfZi15RXV4bUZMcDl5NXcxc2JKZEZfYnRtNFU2akJNR1h1ZUs1cGZSQjlSQ3BUSGxKS2Y2dEVwblBpaXlUZUNMVWU5OGo3VGtFQW9DM25aOHRzUTJaX2ZVaS03VGp3?oc=5",
-        "published_at": "2026-10-17T13:07:30+00:00",
-        "area": "Russia / Ucraina",
+        "title": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUxxNHdOQmgxVGhJOTE3NDVyR3J0RUVSQkVDVjNSZFNnbnN0eU02ZHNOcUtvSVBuVmgtS0t0aGxWd05DNllrSjFRYnNMOWtJRmJJNG1hRmh6eXJkamNEek1sYUJKU2d4bVhuVEcyMXF4Y2hVUkNiSWtnOFFNZTNpTkN1MFU0Skxnb3BlTVgwODVoUzVZQVhudnJXRk9NZWpLd1ZuT3NIZmg0VE5iOHFKdE1Nek9CMWvSAbwBQVVfeXFMUFozLVllVm1zdlA2QWo0aTFOck9ZNEozcHM4RzRmeXFSTGJodmlBWkJMVlpBUHpuN2ZVVlVVLUZ4UFFYMExVeWdpVFdVV2tKUG40VV9UVVgyOWppeFU2cWxWOHdBV1ZVVko1Y2N6eW1jdERsZlV4QnpEaHVhRVFpWTVFM004dFdQbzFVVG1QM0wyRVhhcTJ6NkY4aFZxYnlmZGFMaW5ib0hKdG1KSDNEaGRTQ1VHZ2s4Xy1Oekg?oc=5",
+        "published_at": "2026-10-17T12:23:53+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -145,15 +172,6 @@
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQVQxb2FJcVJmY2FSbW4ySEdmVnM1eXQ5MW1zMjktZ1QwYXFJMU5ITFNBcXBFdy1xNFFOVjRrcFVwN294YU0wdzZqa3RodnZtT21LR1R6RFdQZWRQaG1wcHNaamRnd0JCamxOZFYtcnotWldpTlI5cWcwZ3U4TDdfN0pZYzVuT3V5ZWpCeUhUNHZrbExNYVJUVE5FREdVdzRJQmJUTEk0VzJrMGlyRDdvZC1UaWRzZ2dYcF9zalo4WlNuQ2haYmhnQmMxSk9UMmVsaXEw0gHYAUFVX3lxTE96YnZlam1abExhTVBERHlsMHR6d2pZQWxrTll1TXc5SUVwSmc5a1ZBQ2lTM2Y5SkkwZFBhUVdWUlhoUWc1bXN6cEpUZzRjUk1RTWcxc25BTXg5X2pnTTJseHptZ3U0Szlzeko3YkZxZ3BFQU9BdUZ2bXhBR0poUWlJbVBBUnlLNHpzQmpUTFJPcnR6d0JoYjIyOUdCRk5uNnZKNTBTY0FMME1UU2Q0Q3dRaGQ5Q2otbUJRdXA3Vk90QWFtRjVpZ1VZQXZLXy0xM0hkb2liWUZmWQ?oc=5",
         "published_at": "2026-10-17T12:23:00+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUxxNHdOQmgxVGhJOTE3NDVyR3J0RUVSQkVDVjNSZFNnbnN0eU02ZHNOcUtvSVBuVmgtS0t0aGxWd05DNllrSjFRYnNMOWtJRmJJNG1hRmh6eXJkamNEek1sYUJKU2d4bVhuVEcyMXF4Y2hVUkNiSWtnOFFNZTNpTkN1MFU0Skxnb3BlTVgwODVoUzVZQVhudnJXRk9NZWpLd1ZuT3NIZmg0VE5iOHFKdE1Nek9CMWvSAbwBQVVfeXFMUFozLVllVm1zdlA2QWo0aTFOck9ZNEozcHM4RzRmeXFSTGJodmlBWkJMVlpBUHpuN2ZVVlVVLUZ4UFFYMExVeWdpVFdVV2tKUG40VV9UVVgyOWppeFU2cWxWOHdBV1ZVVko1Y2N6eW1jdERsZlV4QnpEaHVhRVFpWTVFM004dFdQbzFVVG1QM0wyRVhhcTJ6NkY4aFZxYnlmZGFMaW5ib0hKdG1KSDNEaGRTQ1VHZ2s4Xy1Oekg?oc=5",
-        "published_at": "2026-10-17T12:22:30+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -176,24 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthis strike Yemen’s Aden: What that means - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNTlmbG9pRzMxeFVBSVZ4U1RWZHRtS0lzWTduNTVJZWtuc1FDWUM1ZXZwTXFRMl9SSU1NenVEdEI5bVUwTUFVRFE2NEZRNnMydGRDdG50MDRraWQydHpnMS1WUHVNWjhPNmhnOC1GNXEwU0xKQzNjZ25YZ3ZJTmFPRHhsN0ZOUUhxUlotczRnSWdoN0dLZjBIYzQ2Z2nSAaIBQVVfeXFMTk5hTXhPcU82VG9McHB6MmEzRWZYbG9HR19iUmxrYW5ONnY5Q20wRWNzLTk2MlJuWkxDU0lfclNHYkpGMUdOaFN5T01RQ3c0dTkwanpHTlJPZjlVcDU1ajNUU0dJT0dHQ0FPeGswMmRidklOYW5yNjFaZFozM2ZBdXp2eTRUdl80WUtlMTBDX1JGc2xtXzV4alAyUjFIWFdzYmlR?oc=5",
-        "published_at": "2026-10-17T09:19:38+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Hormuz ship attacks hit record high as Iran escalates strikes with little U.S. response - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRkpjbHhhcjBfM1pXOUVuTE5rZ0lrMWJTUFBrZXYxY2FhcEtKWEJyR0lGSjBIb05pNTRfMW92elFEUlVHc3JjdzAwMmdWQTlLdmdZY0R4NGJOd3dUbEF1M3FCUVZRa1RfVjY0NnVxR013emZQTHMwSUFpNG5XU2RZendpNzd0LWZ4ZE5LakMycUEwMG9MQlZKQW82QTB4c0w0SV9QNTkwVlJIYnM?oc=5",
-        "published_at": "2026-10-17T09:00:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Taiwan Moves to Criminalize AI Chip Smuggling to China Under Foreign Trade Act - Forkast News",
         "source": "Forkast News",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU0RqQWo3VHptUEZhb0Nnb1NSSFJYWDRrQXlIRVhjcUVfMkpDdC1QZHlWV0U4MnJYU0VIWC1EOUU0OWZNb2I3QlBHQnRyM0syd2F6NXJJNnNoeWxGeVE5OV9VcWkxTXZMOGVtYldzbzdLMG1wVU5OSHRzZE5pMlFUOFpKX2tMRHJYbDFPalBEc3F0TUFqNDNnekVGZ2taOWtjbVE?oc=5",
@@ -213,6 +213,15 @@
       }
     ],
     "corporate": [
+      {
+        "title": "Martin Shkreli Says New Photonic Chips Could Run Circles Around Nvidia - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUWFJdU1PQlMzeTA1WGZYdkFsSWItV3hWNU5IZlJHYWpTbGQ5dVhVZW5UdE9RVlZLQ2lvZzJZYUVaazRpMU9IZmlrVTlUUFpLeTVteGhZV0xzYlplUFlHOVRPM3AzdWIxS2tEWjJHWEVQYzMwbzN3QzJyMVMzSzJ3MlB4N1FtcW9PdUtXT2ROVHdfM3hVNWRKYXNkMlhaZGN0QTdUVzN3YWpvSm9ZT1J3TkZWQ3U?oc=5",
+        "published_at": "2026-10-17T15:00:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Smuggling Nvidia Chips Into China Is About to Become a Crime in Taiwan - 24/7 Wall St.",
         "source": "24/7 Wall St.",
@@ -291,15 +300,6 @@
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV0JwLWxfbHZ2THdKZHVmZ0RfQlZ5ay1XTDRDZjRwQW9VN3ZGYk9DZHZjUlBrWDQtU014STlGcTVUM0FCel9YbDY4X2VYdDZVbkZpZWtRdkpQdUhBN1hsc2F0S1NfQTZuR21QT2pmckNQQ0xtWlVtTExIY0hXelpfdVNHRzJDd2htODdlSjZ5a2dQMGU4ZDdhWkNR?oc=5",
         "published_at": "2026-10-16T20:31:45+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AI Chip Earnings Soared—Why Micron, TSMC And ASML Shares May Fall - Forbes",
-        "source": "Forbes",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd2FzM29rXzRDWVIwTTRKdUN5Y0o5c1hqbTFpeVBQcjBqWkZsTjBNOFVleVVVZzczTlk5WE15dE84RGY4Nno5TjB0dGszbkMzY1RPSzUwaFhJNlNOV2R6NGNpaTQ0dEhfM0VNWjBRNjl4aU9oX2xaTFpwd05PT1BrTktVcmpiUXNHM1dWTV9YTUphY1NVbFRYYW5YZGJ4Wk43NVhIYjYtQUNRbkJMYmQ4RWZKZlA?oc=5",
-        "published_at": "2026-10-16T17:42:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
