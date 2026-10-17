@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T12:32:56.948109+00:00",
+  "generated_at": "2026-10-17T13:06:30.412732+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 99.0199966430664,
-    "wti_change_pct": 1.0717519743598691,
+    "wti": 99.04000091552734,
+    "wti_change_pct": 1.0921707476697629,
     "brent": 109.86000061035156,
     "brent_change_pct": 3.7197908888950693,
     "nasdaq_level": 26140.033,
@@ -18,7 +18,7 @@
     "dollar_index": 101.83999633789062,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.07%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.09%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
       "wti": "2026-10-16T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-17T12:32:46.202904+00:00",
+    "updated_at": "2026-10-17T13:06:18.978841+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "US blockade targets Iran’s trade and oil revenue, CENTCOM - Muslim Network TV",
+        "source": "Muslim Network TV",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeFpPX2ZUSG1XREprN0xJOTNpRnY1RXhRclppTXpLYTFqY19UZ2dnX0FYeldYeUQyVExyZnh3bjd0bkRFS2stUjhSeTAyREhPY2hhdWk2UDJRVGtpWHhlcV9IMHRIYVJaSGFrSjBsWUR0d0pFMG5GUExjN3NqTTVydjNYa0VSM0NXejZUQ1BB?oc=5",
+        "published_at": "2026-10-17T12:45:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says he won't impose sanctions on Russia, thwarting Congress - USA Today",
+        "source": "USA Today",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRF9fbXVkcmF6WG1jT3VzZ3JUcjFERUZENms1VG40bHZwWGxfZ21sa3BGMmpnVU1VZzI5NkxVQjJVMGlvclFnTnM4U3hyUXFGQ2tlckJZNUlNMlZtclp3eExUTU5aZUNoLTRyRFVPOGU2b29JUWd6NHlZVGtlRU5MN0JpVXYxMENoc2hfSjM4NGljVGFyZTd3a0hGbzdnak43MHVMckN3?oc=5",
+        "published_at": "2026-10-17T12:44:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Smuggling Nvidia Chips Into China Is About to Become a Crime in Taiwan - 24/7 Wall St.",
         "source": "24/7 Wall St.",
@@ -95,6 +113,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them - Scripps News",
+        "source": "Scripps News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjZnQm1nQlhYbXFUS0NwZER5Wmp6T3RtMGRuLVVxc1ppczJpeTBkSEM0ZVN1YmNOU21WZVJNTFBfbXl0NFhkMXZDNkxrSFlTajVTcG40MS1jc2c1OGdRTW1IZFA1MEdmZnFCUFdtY0JZSWlNeVphN2h4cXhoNXpKaklhRnRjWkxibExPQ2dXQ3lOcnRHcWZfWkRQMGI3S3Ixc3hfdDFOM2RMVmVlbWk1Q2FGTnE?oc=5",
+        "published_at": "2026-10-17T12:00:57+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Trump waives new Russia sanctions in the \"national interests\" - Axios",
         "source": "Axios",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VUzFHTi03ajF4UU41MUNRZ2lBU2VubkVFOFVCUE9WeU1QZGx6U094RXEwZDVXY1FsaWZieE1wbWdaa0k1TDZtY0l4XzdJWWh3cTkwNFQ4UFJBX1Bmb3BOQTlwVW14dw?oc=5",
@@ -104,11 +131,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine War, Day 1,696: Trump Refuses To Implement New Russia Sanctions - EA WorldView",
-        "source": "EA WorldView",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT1R1ZVEzUW9oaXY3ZlMySHZxWVhfVnpIbmdldV9CVGt2MnBjYll3MGlFOVNfZzVLNWdTUWswamwxeDJJelJvckp3VEFfRFhaQURVbGI5SHJPWE04VjlRdGdkR181TTNHekxXXzBHb1dfRXlQZDBvRVlsMWNpZ2FqYU1RejgtWG1hVzJLOUFmeTdtOGQ4MTkw?oc=5",
-        "published_at": "2026-10-17T09:11:15+00:00",
-        "area": "Russia / Ucraina",
+        "title": "Houthis strike Yemen’s Aden: What that means - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNTlmbG9pRzMxeFVBSVZ4U1RWZHRtS0lzWTduNTVJZWtuc1FDWUM1ZXZwTXFRMl9SSU1NenVEdEI5bVUwTUFVRFE2NEZRNnMydGRDdG50MDRraWQydHpnMS1WUHVNWjhPNmhnOC1GNXEwU0xKQzNjZ25YZ3ZJTmFPRHhsN0ZOUUhxUlotczRnSWdoN0dLZjBIYzQ2Z2nSAaIBQVVfeXFMTk5hTXhPcU82VG9McHB6MmEzRWZYbG9HR19iUmxrYW5ONnY5Q20wRWNzLTk2MlJuWkxDU0lfclNHYkpGMUdOaFN5T01RQ3c0dTkwanpHTlJPZjlVcDU1ajNUU0dJT0dHQ0FPeGswMmRidklOYW5yNjFaZFozM2ZBdXp2eTRUdl80WUtlMTBDX1JGc2xtXzV4alAyUjFIWFdzYmlR?oc=5",
+        "published_at": "2026-10-17T09:19:38+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -149,15 +176,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump Blocks Lindsey Graham’s Russia Sanctions Just Weeks After Signing Them Into Law - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTFY5SUN3R1hMdVBtN04ta280bEpRNkgyM1p6VW15azFNa216ZWx2WGR5NHFWc1ItZFlielM0WVJqWnZ3UC1nMDU3Mm9oUUJacTFyZ01fcE1kQXJ0YVpVWXh0Tnp6NHV0OHZHSGh6VjNpS0paam1COTlIdUJvY1hMTV9TMHU4QmI4MmlHVVN0VjZSTUZiOGJvNVNpblc1a2dlVVUxcy1iYzExdEl2cGcySXBJeGNUbmhORW1GQUZnQmIyY0oyeExld3lrWQ?oc=5",
-        "published_at": "2026-10-17T08:27:19+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Sanctions, War, Isolation: Why Hasn't Iran's Hard-Line Government Collapsed? - Radio Free Europe/Radio Liberty",
         "source": "Radio Free Europe/Radio Liberty",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQTJsd1IyYjdwOVpxWDZfTktVV0JSMzBQX0NGVWI5VW9raHJfcFA0Mk8wdzZyWmxFbzNRLVpGM0xHRHEwVkZfOW5nMmc4QVhDZkM4R2gwOWwxMUZ5aTNUMGNHb0tLSnU3NU1uQU42Y29pQ3RGT2RuV3FRd1djZDhTMThNM2JRd9IBiAFBVV95cUxPeUVnbzNzMEctQkpCdmNyNmYySjhQejRwajBxcUxuckJ0Um5IekswNE9lUHYyUG5VaXNYTGNSY0RLck9kX0tzRHdMVGlpUnpaLTVYakNWNy1TaWVTMmFwVUY0RjJVSzAyRDV4dXRJd2ZMMDlRVnM3Q1hUbE5wVm1mYXBkZGNsVHM0?oc=5",
@@ -192,24 +210,6 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "What to know about 'black rain' that fell in Iran after strikes on oil reserves - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUERWLUNDUmpCUjdsMVFHWm44UGRJLXZEdkRvMG9lRmp3NnpGUEFDUXkteFFkaUFLX2lhOENuX2pWNnE2bllqdnVpVGFLWjJDV1BpWUFOODJKMTJYVUJYSm14bk1vTkV5dGx2WENqbE83Q211eVNNNE9SYjBPZXZ5LVQ5OUpQblJYNThfLWVHN1VINkZhWUIwTWMyVHYzOVl5aEHSAacBQVVfeXFMTzh0SjVrcUdMX19zXzhRVTFkYkZIcWp4OUR5SVN5bm42TnQwQ1M0dGVxMWdydFBkMExsQ2RTaUtHYkk4VUlxVzNnWldueXRpTlhJeGJMdl9tQnkyM3RTYUlaUVFYWkRaNlIzd3RnSUI4NWd6b0g2S05hdk83MFlSa01SVV84OHpVcDBfU1FqOTYwM09yU2RJSGEzeXk2U2JDcUI0Tjd6Y00?oc=5",
-        "published_at": "2026-10-17T05:28:12+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How the US-Iran war upended two critical global trade routes - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWkhLc0FrR3BPSms3TDdwX1QxN2tFaUpMM2t5eHQyWWFyYUxqN3JNUkdfU2hERzltNkZJY09kc0RMVGF5cWNURjlkNndGUmpkMmFINk5za1AxOWZzSklYcHR6d09OYWR3TzM5LXd1bDItb0oxaGYzNmNwUUwwLW5xa18tRW5qYm0tVWQ3aFNteVZMa2pVX0pISEY3OUV4Vi1ZZUxCOA?oc=5",
-        "published_at": "2026-10-17T05:00:45+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -237,6 +237,15 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZWsyTUVWalN4NEFMUjBMUjREZzBTWHpXc0VuOWF5UXRaWEJaNTJHdWU1OWtwSURyUllSQ1N1WVVqNzEwNlVuLTZwWnd0VTNvMDNmZVY4d3E1MVpQZWh5ZzZxcENhTGdVQV9BSlJwQUFvcXVCOW1KVTYwWkljOVJpTEU1OHhpbnplMzVqamx0Yjc2RzVlQUV5ODJ3WQ?oc=5",
         "published_at": "2026-10-17T09:36:59+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "TSMC Says AI Chip Demand Is Still Far Above What It Can Supply. That's Why I'd Buy Nvidia Stock. - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUo1TjQxakNiT2tFaUFidFJPM3JpTG44QV9XZS1kR1NoRmgwb3N1UFJzLXdPVUlFSzd0T2dvdlFKX1M5SEh2bk5wb3N4YThYM2t3RElBUUVYRDVWbHo0QlR2NDZXQjZtc1NpZGhVWFpBdzB1RkZlTnNTaUJfd0lqNTc5WkpKb1BTZ2cxVTA4Y2poUDl4a29HR2U5V0NLSFp4cHppc3JQaHJiU2RhcG8zU2ZPVE1GcW45Tkx6LTNjQXJzOEVIZTVJaTd3TEU3RkVoMEhN?oc=5",
+        "published_at": "2026-10-17T03:57:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -291,15 +300,6 @@
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV0JwLWxfbHZ2THdKZHVmZ0RfQlZ5ay1XTDRDZjRwQW9VN3ZGYk9DZHZjUlBrWDQtU014STlGcTVUM0FCel9YbDY4X2VYdDZVbkZpZWtRdkpQdUhBN1hsc2F0S1NfQTZuR21QT2pmckNQQ0xtWlVtTExIY0hXelpfdVNHRzJDd2htODdlSjZ5a2dQMGU4ZDdhWkNR?oc=5",
         "published_at": "2026-10-16T20:31:45+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan is planning U.S. industrial parks for Nvidia's AI suppliers, starting in Texas - Quartz",
-        "source": "Quartz",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Oay16SE9GR3dQbktjZElxVVowYlIyQnkxU1FZTnFmeTd3RGpHTnBTNnVuUVJSc3dzbHN0cDlQNGJBRms3aVE2d3k5bWVDdW1NU3FMZTktT3pOTGJyVWpScXJXR2Q5TWpyczJ3ZEQxem5ldVp5cWRPTERSaw?oc=5",
-        "published_at": "2026-10-16T18:20:23+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
