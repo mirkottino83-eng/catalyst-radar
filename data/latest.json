@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-18T22:13:43.557895+00:00",
+  "generated_at": "2026-10-18T22:39:22.724529+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 99.0199966430664,
-    "wti_change_pct": -2.3567763856969126,
-    "brent": 109.86000061035156,
-    "brent_change_pct": 0.0,
+    "wti": 98.41000366210938,
+    "wti_change_pct": -2.958288030435119,
+    "brent": 109.01000213623047,
+    "brent_change_pct": -0.773710603858313,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.91000366210938,
+    "dollar_index": 101.81400299072266,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -2.36%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -2.96%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-18T22:00:00+00:00",
-      "brent": "2026-10-18T22:00:00+00:00",
+      "wti": "2026-10-18T22:25:00+00:00",
+      "brent": "2026-10-18T22:25:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-18T22:13:30.710316+00:00",
+    "updated_at": "2026-10-18T22:39:11.706179+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -58,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
@@ -77,6 +77,24 @@
     ],
     "geopolitics": [
       {
+        "title": "China considers export controls on AI, chips - Semafor",
+        "source": "Semafor",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVNjVEeGFwdmtNQzc2aDljc0tuY1JVR3Jhc3JPby1ReGRWaXhJMVF5M1dJTERzVXdIZmN2ZTZwOE1LX0RCaElEcm1GNTU1Vk5SY1p5dmJRSmVoSnU5ZUdQV2Y3UkRLYmNNcmJlVTM5NmR4R0hueHctRXl3?oc=5",
+        "published_at": "2026-10-18T22:34:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump defends easing sanctions on Russia amid rising anger in Congress - USA Today",
+        "source": "USA Today",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONFk3ZDRLdU5TX19PbmN3NUc0aDdGUkRSZ2dXYUNNRXJxdWNpdzdmNzBTWGt3djkyelcyVlFsMTNjMmZzMjdEXy1RVVlyWldQd2N3QU9ZNUFjQTZUS0UzU1E0Z1hDSmhpOGhMNmdabzBkeVlBanlDazF1b1JFdVZKdUh2ay1zeDJHM3drUnZleXJzVWE1c19VZDMtT3RpaDhoOFFhMkNSTm5LbHR2WFZwbw?oc=5",
+        "published_at": "2026-10-18T21:48:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Trump waives Russia sanctions. Where does that leave Congress? - NPR",
         "source": "NPR",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYzZnOXo0MGJHMmxPOXl1RE1NMFB1OXA1RFFrenNzUTQyZkJSb0dwSlEwRmQwdDdJOUQ4M252MzBkUGxkdFpRVjFRNDIwYkV0aV9TVFF1TGNwcjhtZVlraGprUTc0eWpBWWNFbUhiczZzc0VfOEVSMmVPaUtTS18xdHBQUWcxNHVhQjdqNS1IVXF6OV9HVXVkc1hHdEd2WDhvTFhrUDdrZEI?oc=5",
@@ -91,6 +109,15 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5",
         "published_at": "2026-10-18T21:15:00+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Like it or Not, the EU and China are Already Engaged In a Trade War - The Wire China",
+        "source": "The Wire China",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQckN2dnhGUlYyOURwdEZEdWNwSmw5TUF1d1kwZEk5aUVZSU0wNUt6SkFuU1M2cWVCTnRUazRNWXdFMHNIbi1EZ2NKQVFDeWtHN0syY0xrdVByanlEWGNGSEhDR3dGUGk2QWVDQWZ4TzdaUWxoRzlzclFCcjVncm5WWnV3dFNwZWpvbGdHMjQxalZQY01IMWZqN3RRbXVJTmZnX1VUUERyVktZSDg?oc=5",
+        "published_at": "2026-10-18T21:03:52+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -149,7 +176,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Bessent says dropping oil prices before 2026 ends ‘will depend’ on Iran conflict - The Hill",
+        "title": "Bessent: Dropping oil prices before 2026 ends ‘will depend’ on Iran conflict - The Hill",
         "source": "The Hill",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZXhScDl0djgxWExLSzlHQ1pCR3JWVHEtZDNTNlltU3BwYTVua045RTFSaW1hUnpEbE1yWlpzY191N0pGZU5LMHE0YjM2bHNMRTFiV3lfMFNUN1lINFF3dllxSWFQckpvMkt3T1JvdUVDdDEzN0VmUmw2OGJsSXc2azFfRFdLaThhNmxMeDdiSm3SAZYBQVVfeXFMUEhINElWNEUyODNpTWU2dE5jY1RPYzJTTUNzVy1fbWl6Y2Q1cUI3SEszOTBLWnNLRVhGeTIwS29DYkpZVHRQZUU5cFpkQ2FJLV8tSmw1TUdYLXNWc0xxS1RGdV96X0otNmdGb1hiTXZVbGZQc0xzZy1fbjkwU0VFQm4wdndhYllNSlNHaWNOLUpkcGl1QWdB?oc=5",
         "published_at": "2026-10-18T18:58:00+00:00",
@@ -176,15 +203,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says he's \"negotiating Peace\" as Ukraine launches 1,000 drones at Russia amid continued back-and-forth strikes - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmpzT0JqMHd6elRCQmR4Z1JKWWpycEc4UXI0dXJfQkN0NGlvOENSdjl3REZ6SndFSVRaNUo0cV9hX2hKNEN1bXFwbkdmUTlsUlQzUDgwLTFQUVdJWnRHTm5IMjZPSGw5M0xRTGtvZDA5VFhLeHRLWnVZSGZ0d2dxVklrTU8?oc=5",
-        "published_at": "2026-10-18T18:29:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "US says Europe refused to join push for tariffs on India, China over Russian oil - The Times of India",
         "source": "The Times of India",
         "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdHFoWFlBWFVXUnpnX2FzbTdnZkQ2T0RaeFRicVJQX19nSjVmUllUalItTU4zZ3dWX3ZXRnJQekd3cGozcy03YmN0QVBzLTR5N1hpelFUa1ZMNkUwU1FTcmRMN0R5ZUVOMTJsSVF5Z3B4MnI2bzlsYzlDNGVKekc0dXVnemJwWEgxNU53cDVMZThIODhDcW5tNk1JYzRLOVNjNGZ0XzU5WlZfZzl6SEwwR2FURHhTZVFPeExZX0ZQd0dPSElEVFJLRVBWWFR6WEYtVFhEbnFZUkEtM2FVdGRBemVIZm9Wby1GSVFzY1lLcU5SZTFYYVBpZ9IB_gFBVV95cUxPd3locUp5OXZkeERtS0k2U3ZiR3d1WHFSNkxSNEZZNkI0NS1lUGVycHdDZTIwSG5ORURhUWwxUXJEM09SN3RrQlZ6WW56ODJ1SlB6YjVvSHpUQm1XclhhUFV5dnVjMEVzaUs4V2xSYzdrRmZEN1ozX3VfY0dZYi1FdXRNMWlGc2NRSTNoWlloOHYzTDV1TEFTZ3ZEdndzWDNEU2p1SEFwOXRWZm9pOU1KYnlsYW0tUGtTS2dlZ001T2dSZ1lPelllQllNdFNlSjNpekNhV0xReWZTaE55ZVVNTWh5Uk1NRnNQZHJqUm9VTXhvZzB1T1RCbHBZTnc2dw?oc=5",
@@ -192,42 +210,24 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump to take up to 60 days to weigh sanctions - Taipei Times",
-        "source": "Taipei Times",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uT0JoS2tlai1KamlxU3M4R3Z0TmZTTDloQjlHeVFPT3lZQ2tKRHZPbWx5YnB6ejZXUmtNcEhIaDJDRkhJYXVkWHdZUW50ZjA4VFJ4OWNVc3NkaG15UnlTbEZCWDJtYjNTQ3c0QVYwZzZmZW02SzZ0WQ?oc=5",
-        "published_at": "2026-10-18T16:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AI trade reversal pierces star stocks across Asia - Taipei Times",
-        "source": "Taipei Times",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhQ3M3SG9uWmxnbFM2Ymw4UVlkcGVEaG1KT1QxbEdtSUEwOXd5aUZyWE5TRkxWZng5YTlmdjYwODRfTmxnZVZCVGQ1OUNhMlBRMDdlenN6Q3pfcktybkhrMDhTS0dmeHg0WHkzX0hNWWZCTWUyRnc?oc=5",
-        "published_at": "2026-10-18T16:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Nvidia Denies RTX 5090 Death, $1,999 Supply Tight [2026] - shattered.io",
+        "source": "shattered.io",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaM0VSVkljNFc1S2JQV1Z4dDZyRnZXLXM2SGd6bUJLSlZkME5KUjR2aVhzUUUwUFBPdkQ2SnNPM2F0RFhDeWdTc1JXV3ZybFN4MFZEQlhsRGR0SjRYV3dQc1kxYjN3YmZhYVo5cWN6cTZuMFNsMlJneg?oc=5",
+        "published_at": "2026-10-18T21:25:26+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
         "published_at": "2026-10-18T20:26:25+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "‘Put every prompt in its place’: Intel launches 480GB GPU D-series for AI inference - TechRadar",
-        "source": "TechRadar",
-        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNZXlwXzQydS1Tc3MwNEp4N3hWbmFLVzhIa0twTEI3Yl9kLURNWDN5dnJ6dzYxdlp5d1p1Ti1lQzJXYW1GSEpuMHNnal9Wc3dOaGxhVmpJTGxRUHRVWk1RVTFYNzNILUpsWXJxZnhTRDYxVEY1R0tsZ3JKZ1FpellIUmR0WFV6ZkFQd1lWRmotNnBqd1N1VEhEc2NxRm03QWMyczZ0b0o0Nk85d2FyaVNPSWhPRHkzZ2djSFd5WG1IanR5dS00MTRQcUI2S21DNVpXbFhvZGpIb2NqX0s3U0VvMHhyT0luaHNMZlZnVlZ0a1F5dkZqTlgtd1VwMXBsUnhkeEt6MmNCRzZsaVJjb1J3d3pFaXRhSnN6MlJhMFV1YXhfUm0zRVNRSG9IckI?oc=5",
-        "published_at": "2026-10-18T20:05:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -250,37 +250,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "fda concerns with unapproved glp-1 drugs used for weight loss - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMF9IQWhxcXVnTFRBTzZyVTJuejRRSDM4MGVCQWRBeXdTaHZFN0c2NUpZSVRTQkhYTXdaT0JjVHlkak5HeExJZUJxZWhBMVA3bmdlQm1qbllsRVYwc3NrSlF0MVM2eWNZVy0zX1JuUWpJMUREUVBiOFFPRlZQU3FfdXJMOEhJa3p4Mmc2cTh2eHN1Q1Z5aGJ3cGE3bTB2VDdOVGl6R3JvTTZZZjdCdV9qRDhybFo?oc=5",
-        "published_at": "2026-10-18T18:20:36+00:00",
+        "title": "Did FDA Filings Just Shift Cogent Biosciences Stock Investment Narrative? - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSHZvNW0zZVA0TTlqaDZQR1MyQzVUYXU3WlRSQTJQNE44RS0xMFkycmFZQnhOYTZqenV1Z3ZVMTJPdlZRM2hGemZUYmhuQjg0cXBmSGRCbmpCYzVlZkpIWkJpekk3cW9HTC1ycnRzT3dPVGFPUXpHMGpkeXh6NlB4c2tabUE2MkZ1WmtBY2hJUmVnUzkwOW12TTEyczNndVpxTVJKTHROSXkxVFRwRTFOcWljUExlWU5PMFFLcXFDRUdmOWVNY0JiQmRpcVlxSHc1dkR6dmVHR2VYUHVBR0lGSmlWdEhqcmJoYmppQdIB7AFBVV95cUxPSHZvNW0zZVA0TTlqaDZQR1MyQzVUYXU3WlRSQTJQNE44RS0xMFkycmFZQnhOYTZqenV1Z3ZVMTJPdlZRM2hGemZUYmhuQjg0cXBmSGRCbmpCYzVlZkpIWkJpekk3cW9HTC1ycnRzT3dPVGFPUXpHMGpkeXh6NlB4c2tabUE2MkZ1WmtBY2hJUmVnUzkwOW12TTEyczNndVpxTVJKTHROSXkxVFRwRTFOcWljUExlWU5PMFFLcXFDRUdmOWVNY0JiQmRpcVlxSHc1dkR6dmVHR2VYUHVBR0lGSmlWdEhqcmJoYmppQQ?oc=5",
+        "published_at": "2026-10-18T17:36:29+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "health news today fda approval weight loss drug - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd19CbmszaExCU2VTNC1CRjdUc0hlNWwwcVpVcGdQYWROazE3aDZ6NG9RYXk2NVdJUHBGMzdoTVdtUkdPYU5OMTJwYnNuUEpTWnlUU25jNlk3TlRRUzFXQjg5VXJEa3o3cHlwaV92T2pWRXZLaHp3VFVIOS1SOXRvOVRfeE1QM0EycE1JNUF2U2Jhbm9jcGtxYXhUdDNxOWlBTXc?oc=5",
-        "published_at": "2026-10-18T17:49:11+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "1 Analyst Thinks Alphabet Stock Could Jump 20% on AI Chip Demand. Is He Right? - The Globe and Mail",
-        "source": "The Globe and Mail",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQRmYtVnNza0Q0WG53ekhDVTh1SHlNSUtIRXU0UE9rN21HT2VfXzBqbFQ3c041UnBOWWdSalBrU191SFhMNzBob1NPeFpNbXZzX1JzZ0hNMWw5UGdqZnFKclNHd043Sm9SX2ZJcDh1eC1iUlhKczN1eTVYcDl1RzlodnJSdklxMG5iMnFOR3NNZ1k1aTVxQkNLWFdGdEt0VGkzejh2RXZ4Zm53ZUpSZzFKYU8tX1ZERnFneTBIVDQ4UXZXMnBYWlEyVXoxbVAySTBET0JOdmpDTENTRHFGV01CVktFZDZnbjc1SGFxMUhKUkRUaGF2?oc=5",
-        "published_at": "2026-10-18T17:13:30+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - The Motley Fool",
+        "title": "1 Analyst Thinks Alphabet Stock Could Jump 20% on AI Chip Demand. Is He Right? - The Motley Fool",
         "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc2NIYzJUcUZjMlBjb2oxUnFCNW81QS1GSnpZQWw3N2ZwUHB2NVNmZVdQT1l1LTB4SHRVcEptT2kxNEJiOWpBM2tCekF5STdSd3d0OE1lWEJjcUV2emJOUUdXckdHNTQzT19RX21PUFlTVXRGU2gxc3ZEaHBqNVJ1ZzBWeXNWYTZnQUpUNV9YZWl3WTJpdWNiTw?oc=5",
-        "published_at": "2026-10-18T16:44:00+00:00",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQkV4T1lPcUk1NWhHUk1iVk50QlRYUEdQMUt2bDhTNWg5anRFZjF5YWFIM3EzLUxHOHRYWjRkZFpuZkRWSzJyWmdlSjR4bW9qRWVsVUVRcTAzODNiOF9femRiSVlLV09KSWN4Z3hMMUhsS3RmaTV5b2k1M0VPeDZaOUlCWi0xQzBMSFFQUFpnOHNrbjdVb2xmSg?oc=5",
+        "published_at": "2026-10-18T17:15:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -300,6 +282,24 @@
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YNmM5S1Q3Wk5HRTJ2Yi1SeXUzcUZZOHBBcVhpNlFOTmhjTE0tTGp3cFBGVEZJVDI2OFctLXZmWTc5a3lzb0hHc2hTSm1xa2tUS2R6WG44ajlhT1otMkRNMmhlVzl6empNem8zbA?oc=5",
         "published_at": "2026-10-18T16:20:21+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWdNdGZSeFJpNll0RnpoS0VKUzFBaHRUYWFmcE1JUE5EVGEwWVlaa2ZoNkNsN1BiRExXMHQxR01pY3ZRV0NvcDdNNm9tN1BvdjBSZ2JuelRfT252ODVDY29sR0JMTXZhVy14NDFnVXJ4ZHhnUVBwbjZXTUkzUm5nWEpZeUlvWWY2dVVscS1Xb2Vwdw?oc=5",
+        "published_at": "2026-10-18T16:04:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "new fda drug approved for weight loss - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcnZQM3FtOTI5NDEyZkNZVFhaZ3doRnJVX05rSGJPaGlvV3F3bDZ6d0Zsa0U2RFRnSmwzdlVnekZzSEEtc2kxbHE2TFlRSXp0UUhiYWljS25LSEo2czNNOUF6MVdrT1RrVDAxVUdIX1ZqcHFiYnZkVFpUU1NPZk0yVzZaWEQ?oc=5",
+        "published_at": "2026-10-18T15:51:37+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
