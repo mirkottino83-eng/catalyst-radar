@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-18T21:56:29.847485+00:00",
+  "generated_at": "2026-10-18T22:13:43.557895+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
     "wti": 99.0199966430664,
-    "wti_change_pct": 1.0717519743598691,
+    "wti_change_pct": -2.3567763856969126,
     "brent": 109.86000061035156,
-    "brent_change_pct": 3.7197908888950693,
+    "brent_change_pct": 0.0,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.83999633789062,
+    "dollar_index": 101.91000366210938,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI +1.07%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -2.36%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-16T20:55:00+00:00",
-      "brent": "2026-10-16T20:55:00+00:00",
+      "wti": "2026-10-18T22:00:00+00:00",
+      "brent": "2026-10-18T22:00:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-18T21:56:18.592308+00:00",
+    "updated_at": "2026-10-18T22:13:30.710316+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
@@ -95,21 +95,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says he's \"negotiating Peace\" as Ukraine launches 1,000 drones at Russia amid continued back-and-forth strikes - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmpzT0JqMHd6elRCQmR4Z1JKWWpycEc4UXI0dXJfQkN0NGlvOENSdjl3REZ6SndFSVRaNUo0cV9hX2hKNEN1bXFwbkdmUTlsUlQzUDgwLTFQUVdJWnRHTm5IMjZPSGw5M0xRTGtvZDA5VFhLeHRLWnVZSGZ0d2dxVklrTU8?oc=5",
-        "published_at": "2026-10-18T21:14:54+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran is running out of money and can't even pay its troops as U.S. blockade chokes the economy - Fortune",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT3N2LU9kN0V2VjVuckZHNkgzU2Z1QVN0TFY3OERhay1lWGx4SmtlYzFRNU5GSFpuVUl4YWptSS1ncGtjSVRQcllZU1FudmVqdkYzOTJ1c0wxVzFJa0tZeER4c0ctQ0F1MVRJWlc3aXh3VFlUZHM1MGR2YXo1bWR4ZzE4R0dPYWphbXZwNnhsZks4Nm1lckhaamRIc3JYd3FaUlNJMFlraFRTdVZid2VDZWVONlBBYWtYN2ZYYWQ2TFY?oc=5",
-        "published_at": "2026-10-18T20:46:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Key technologies: New export controls planned - Table.Briefings",
+        "source": "Table.Briefings",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ29mVFp3bkRYWmtIRnRyVlFSazBWamJMbDZXX0ZYTDF6TFRyVFZVdnc4Z1RmdlFRMkJqRWNYQk40Wk05MzNXNXRIcEppMmFrYU1aenY2OGNNLUZJazNoQmZlQU9MUEdLMzFMVmVRU28zZk5qNUhiMHhXYXRBdVdFeFVYYmg?oc=5",
+        "published_at": "2026-10-18T20:30:44+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -140,12 +131,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
+        "published_at": "2026-10-18T20:01:26+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Egypt's top security body agrees to help Saudi Arabia defend itself against Houthi attacks - PBS",
         "source": "PBS",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSExWUWxPbDZ3eVc3aWhxcTkzM2pMMGh3WmtudnlJaGtCMTVFZ09hVUJ4NnU1TVYyVUMzQ25uRG1VcURqb1o1akJRdG5fd0I5Mnd0Yl9YeGZwV1RXejgzUGtDQnJXaTlOUnRYcXZlMTh3NkRRWjBROFU3OWRFREE3WWRtNmpLbTdLZ2ZlSEFOMkp4ZHhnRGRWTnV1c3p3UzNuQnd3cTNvVFcwaWNvdlNBSUM0SUdiTHhldG5xaXlWVEx5QdIBxwFBVV95cUxNdkx4dC1JQTBBTlVIaHVsUGZkeWQzdE1uRWpMWEcycFQ5R0JjRkx5Z25GQ1duTzF2VVYwT2dPMDR5RzhVNThvZ1FBbmh3SURFNDlaR0pjVHk2SmRtanBNUlZnbXViSDJqZmEzSmlxVE1QX3ZEQjNRaUdGSzZ4Z1AzSUMyY3ZIbmYtYk50XzFIUmR0UHFoUVE2ZXRMOU9xMDlWSE1aOVJyak52RzZXZDQ1V3NkQUhpbndRRkVET29VZVZmNExkdXlv?oc=5",
         "published_at": "2026-10-18T19:22:43+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bessent says dropping oil prices before 2026 ends ‘will depend’ on Iran conflict - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZXhScDl0djgxWExLSzlHQ1pCR3JWVHEtZDNTNlltU3BwYTVua045RTFSaW1hUnpEbE1yWlpzY191N0pGZU5LMHE0YjM2bHNMRTFiV3lfMFNUN1lINFF3dllxSWFQckpvMkt3T1JvdUVDdDEzN0VmUmw2OGJsSXc2azFfRFdLaThhNmxMeDdiSm3SAZYBQVVfeXFMUEhINElWNEUyODNpTWU2dE5jY1RPYzJTTUNzVy1fbWl6Y2Q1cUI3SEszOTBLWnNLRVhGeTIwS29DYkpZVHRQZUU5cFpkQ2FJLV8tSmw1TUdYLXNWc0xxS1RGdV96X0otNmdGb1hiTXZVbGZQc0xzZy1fbjkwU0VFQm4wdndhYllNSlNHaWNOLUpkcGl1QWdB?oc=5",
+        "published_at": "2026-10-18T18:58:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -158,37 +167,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Retirees Return to the Streets in Iran as Regime Warns of Falling Trust and Presses Nightly Mobilization - National Council of Resistance of Iran - NCRI",
+        "source": "National Council of Resistance of Iran - NCRI",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQU0ZxcXBtOVNnQU5ianpjZTc2Vko4VjdURGgzZlliQ3FydUdYZGlCQkNZclZ3S2FMSFpMS2owQ3gtVWYzV0VCMHZTVXByRFRZdGdTNFRSa09aLWxGWlNpTlZUQkVXQXVUSUZlZWhGWXNmVFhIeXU5bmg0Wmk3bkMyaHNNQU8tZ21OQWZzQ2NMNlIwVEJnQXd5Z1hELWRrTnhBRFBsLVU4OERCem9uZEdobmRqdG04dHo4RmcyOTM3bkpUVm5zcENKWF84OHVsSm9oX0t1N1ZnaU9NaFo5cFQ4?oc=5",
+        "published_at": "2026-10-18T18:41:22+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says he's \"negotiating Peace\" as Ukraine launches 1,000 drones at Russia amid continued back-and-forth strikes - CBS News",
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmpzT0JqMHd6elRCQmR4Z1JKWWpycEc4UXI0dXJfQkN0NGlvOENSdjl3REZ6SndFSVRaNUo0cV9hX2hKNEN1bXFwbkdmUTlsUlQzUDgwLTFQUVdJWnRHTm5IMjZPSGw5M0xRTGtvZDA5VFhLeHRLWnVZSGZ0d2dxVklrTU8?oc=5",
+        "published_at": "2026-10-18T18:29:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "US says Europe refused to join push for tariffs on India, China over Russian oil - The Times of India",
         "source": "The Times of India",
         "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdHFoWFlBWFVXUnpnX2FzbTdnZkQ2T0RaeFRicVJQX19nSjVmUllUalItTU4zZ3dWX3ZXRnJQekd3cGozcy03YmN0QVBzLTR5N1hpelFUa1ZMNkUwU1FTcmRMN0R5ZUVOMTJsSVF5Z3B4MnI2bzlsYzlDNGVKekc0dXVnemJwWEgxNU53cDVMZThIODhDcW5tNk1JYzRLOVNjNGZ0XzU5WlZfZzl6SEwwR2FURHhTZVFPeExZX0ZQd0dPSElEVFJLRVBWWFR6WEYtVFhEbnFZUkEtM2FVdGRBemVIZm9Wby1GSVFzY1lLcU5SZTFYYVBpZ9IB_gFBVV95cUxPd3locUp5OXZkeERtS0k2U3ZiR3d1WHFSNkxSNEZZNkI0NS1lUGVycHdDZTIwSG5ORURhUWwxUXJEM09SN3RrQlZ6WW56ODJ1SlB6YjVvSHpUQm1XclhhUFV5dnVjMEVzaUs4V2xSYzdrRmZEN1ozX3VfY0dZYi1FdXRNMWlGc2NRSTNoWlloOHYzTDV1TEFTZ3ZEdndzWDNEU2p1SEFwOXRWZm9pOU1KYnlsYW0tUGtTS2dlZ001T2dSZ1lPelllQllNdFNlSjNpekNhV0xReWZTaE55ZVVNTWh5Uk1NRnNQZHJqUm9VTXhvZzB1T1RCbHBZTnc2dw?oc=5",
         "published_at": "2026-10-18T17:51:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi Arabia sends skyscraper employees home amid Houthi threats - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmNWR1JhdHgzVXRndW9RX0JYbEh5RV9PeThsVmJrM3AyXzR5WEtmOXN1YkIxWmF0OV8zWlk3X1FMalNwM3BJQTJLWU4yTW13dG1yM1NMcmdnRHRkZnFDUWg0VGZjYXFIdXZBenZVX2lLMUtOSjRvMkZJckVobWhPQU4zX2JkcmgwVVRfOWx6dzJFQTg5ODZEUHJBNWZEZ9IBngFBVV95cUxPZjRmSElfelpyenNzMm1SYUxmel9kQ1JUNkxmMGRLZ3EtTFlrMHQ3aEs4UXdZeGRsajVpUEhIbVNtX1JFbjAzY2xFWTdOSDR6VXdJbGhzUmRUYUk2c0RQVGlSSWJ4YmpGTTdpZkZYZlRBcVBHOHRGV2xUTFlwTjFvd2xIRlZnMHA4UjhJb0JPLXpmNXpjXzQ3d2xFSmdKUQ?oc=5",
-        "published_at": "2026-10-18T16:36:02+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi strike injures six in southern Saudi Arabia - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQjR3OWw3cTRPTnozRENVeFBaSEI4cGwxNzZ6N0JqOGxadmpIVllDbDk0dmk5cy1QOUEtR3dtSmdUTUhyQlZSMUJEcTJkVV95WjVDbzlaaGZEa3RMSm9iN3FKLVUzRks2UVQyNmpXX09lWGJqaFVYM0szVGhFZU93cUFQeFF0aXJBczVMT0xXQjRQUzRUTTFOeTNoQWpQdU00RVhkcHFQUQ?oc=5",
-        "published_at": "2026-10-18T16:35:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China solar export controls proposal reaches factory technology as registration begins - finchannel",
-        "source": "finchannel",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMXVIY1ZJZjhTUUJWcUpEb1YzR2llaXVScGc5SVR2dlpmMVNkTjFWbXdjUER5akRRTkxsZTVDTGZuSHdWVFRZNmZKNDdSZWVJekNkZzRlWUVIWEt0N0hiQUZURVB6OFZoV2tyWVppdHhyb0hpWkluQnVqd0hoYVBGV19YR0FHZ3pBNy1YOUM1QzZ1dlVsQnZFaU90NkNtbXFwdWJsT1d3MjNucGk4NllxUDVZVTFaalM3dFFmMGktai15WEQ5NkVTZ1dvMjFKU1NRRl9lWUlTRlpMR2l6V3h0OVlJZW4?oc=5",
-        "published_at": "2026-10-18T16:21:49+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -214,6 +214,24 @@
     ],
     "corporate": [
       {
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-18T20:26:25+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "‘Put every prompt in its place’: Intel launches 480GB GPU D-series for AI inference - TechRadar",
+        "source": "TechRadar",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNZXlwXzQydS1Tc3MwNEp4N3hWbmFLVzhIa0twTEI3Yl9kLURNWDN5dnJ6dzYxdlp5d1p1Ti1lQzJXYW1GSEpuMHNnal9Wc3dOaGxhVmpJTGxRUHRVWk1RVTFYNzNILUpsWXJxZnhTRDYxVEY1R0tsZ3JKZ1FpellIUmR0WFV6ZkFQd1lWRmotNnBqd1N1VEhEc2NxRm03QWMyczZ0b0o0Nk85d2FyaVNPSWhPRHkzZ2djSFd5WG1IanR5dS00MTRQcUI2S21DNVpXbFhvZGpIb2NqX0s3U0VvMHhyT0luaHNMZlZnVlZ0a1F5dkZqTlgtd1VwMXBsUnhkeEt6MmNCRzZsaVJjb1J3d3pFaXRhSnN6MlJhMFV1YXhfUm0zRVNRSG9IckI?oc=5",
+        "published_at": "2026-10-18T20:05:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pfizer (PFE) Stock Looks Richly Priced On Current Earnings - Simply Wall Street",
         "source": "Simply Wall Street",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNc255NEFUU3h1R0ZTT0t1NzNHQU50WXgyT1lsQldYWnJ0WHdiODlackpqaW5sQ1RjbVR5X25LWUQyVUlha3RDb1hGaWtEVlZPWUFmX3VsY25FbkJVcHNrX0tZYUpjeWZXdzhrNmpBQU95U3BGUWtJNE02VnpVSEtfYlhzclRySHVjUTJRZkxQc0lJaU8xcnJwRzlDRllYdjBUWVpPd0d2d0ZvR3dRZWstMV9fWDJMSGlRRHZ0X2NiY2NRZEpZNVZ0QVhPb1lDUWRpbjZJ0gHTAUFVX3lxTE1zbnk0QVRTeHVHRlNPS3U3M0dBTnRZeDJPWWxCV1hacnRYd2I4OVpySmppbmxDVGNtVHlfbktZRDJVSWFrdENvWEZpa0RWVk9ZQWZfdWxjbkVuQlVwc2tfS1lhSmN5Zld3OGs2akFBT3lTcEZRa0k0TTZWelVIS19iWHNyVHJIdWNRMlFmTFBzSUlpTzFycnBHOUNGWVh2MFRZWk93R3Z3Rm9Hd1Flay0xX19YMkxIaVFEdnRfY2JjY1FkSlk1VnRBWE9vWUNRZGluNkk?oc=5",
@@ -232,11 +250,29 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Did FDA Filings Just Shift Cogent Biosciences Stock Investment Narrative? - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSHZvNW0zZVA0TTlqaDZQR1MyQzVUYXU3WlRSQTJQNE44RS0xMFkycmFZQnhOYTZqenV1Z3ZVMTJPdlZRM2hGemZUYmhuQjg0cXBmSGRCbmpCYzVlZkpIWkJpekk3cW9HTC1ycnRzT3dPVGFPUXpHMGpkeXh6NlB4c2tabUE2MkZ1WmtBY2hJUmVnUzkwOW12TTEyczNndVpxTVJKTHROSXkxVFRwRTFOcWljUExlWU5PMFFLcXFDRUdmOWVNY0JiQmRpcVlxSHc1dkR6dmVHR2VYUHVBR0lGSmlWdEhqcmJoYmppQdIB7AFBVV95cUxPSHZvNW0zZVA0TTlqaDZQR1MyQzVUYXU3WlRSQTJQNE44RS0xMFkycmFZQnhOYTZqenV1Z3ZVMTJPdlZRM2hGemZUYmhuQjg0cXBmSGRCbmpCYzVlZkpIWkJpekk3cW9HTC1ycnRzT3dPVGFPUXpHMGpkeXh6NlB4c2tabUE2MkZ1WmtBY2hJUmVnUzkwOW12TTEyczNndVpxTVJKTHROSXkxVFRwRTFOcWljUExlWU5PMFFLcXFDRUdmOWVNY0JiQmRpcVlxSHc1dkR6dmVHR2VYUHVBR0lGSmlWdEhqcmJoYmppQQ?oc=5",
-        "published_at": "2026-10-18T17:36:29+00:00",
+        "title": "fda concerns with unapproved glp-1 drugs used for weight loss - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMF9IQWhxcXVnTFRBTzZyVTJuejRRSDM4MGVCQWRBeXdTaHZFN0c2NUpZSVRTQkhYTXdaT0JjVHlkak5HeExJZUJxZWhBMVA3bmdlQm1qbllsRVYwc3NrSlF0MVM2eWNZVy0zX1JuUWpJMUREUVBiOFFPRlZQU3FfdXJMOEhJa3p4Mmc2cTh2eHN1Q1Z5aGJ3cGE3bTB2VDdOVGl6R3JvTTZZZjdCdV9qRDhybFo?oc=5",
+        "published_at": "2026-10-18T18:20:36+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "health news today fda approval weight loss drug - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd19CbmszaExCU2VTNC1CRjdUc0hlNWwwcVpVcGdQYWROazE3aDZ6NG9RYXk2NVdJUHBGMzdoTVdtUkdPYU5OMTJwYnNuUEpTWnlUU25jNlk3TlRRUzFXQjg5VXJEa3o3cHlwaV92T2pWRXZLaHp3VFVIOS1SOXRvOVRfeE1QM0EycE1JNUF2U2Jhbm9jcGtxYXhUdDNxOWlBTXc?oc=5",
+        "published_at": "2026-10-18T17:49:11+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "1 Analyst Thinks Alphabet Stock Could Jump 20% on AI Chip Demand. Is He Right? - The Globe and Mail",
+        "source": "The Globe and Mail",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQRmYtVnNza0Q0WG53ekhDVTh1SHlNSUtIRXU0UE9rN21HT2VfXzBqbFQ3c041UnBOWWdSalBrU191SFhMNzBob1NPeFpNbXZzX1JzZ0hNMWw5UGdqZnFKclNHd043Sm9SX2ZJcDh1eC1iUlhKczN1eTVYcDl1RzlodnJSdklxMG5iMnFOR3NNZ1k1aTVxQkNLWFdGdEt0VGkzejh2RXZ4Zm53ZUpSZzFKYU8tX1ZERnFneTBIVDQ4UXZXMnBYWlEyVXoxbVAySTBET0JOdmpDTENTRHFGV01CVktFZDZnbjc1SGFxMUhKUkRUaGF2?oc=5",
+        "published_at": "2026-10-18T17:13:30+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -263,33 +299,6 @@
         "source": "shattered.io",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YNmM5S1Q3Wk5HRTJ2Yi1SeXUzcUZZOHBBcVhpNlFOTmhjTE0tTGp3cFBGVEZJVDI2OFctLXZmWTc5a3lzb0hHc2hTSm1xa2tUS2R6WG44ajlhT1otMkRNMmhlVzl6empNem8zbA?oc=5",
         "published_at": "2026-10-18T16:20:21+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-18T15:08:02+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTTBpci10TFZVck1xaHJfckRjLTBPNnBKQXRCTzFUVTJwTmlrc0JOQVYzUVJ2MHM2ZGJIaTlHdkpwbXk3WFN0V1RsbHpCeEt1d05TSzMwa184a1hYaFVNTFVmbEcycE1yRU1aZXZwYURQbUtMdTZSM0RaVmJZcDdic0M4cm11dXE3SElIYjMxSkNiQWFYUWFaczdWR2NiN3FGNUh0ckxXYU9lQzFDVHhSQQ?oc=5",
-        "published_at": "2026-10-18T14:52:35+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet’s Ruth Porat responds to Jefferies warning that AI boom will bring U.S. capital destruction - Fortune",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeWVDWnYyN0VqNTUtbk9xSlUtVDRVekM1cThBcUxKRUtSREdQZm9VZWV5S0pHNzZLWjR4RUdjQXdQdDNlcVpyNzc1clFaa0dRZnpCWVhtZ0ltaGFMNnlpVDZEdWRmeVliRnYzOW8xTkZCdDJhaUpoa3ZVd2V1ZW9qdDNpZmhDTUFxdDc0TnVtR2tLaVRUdy15akpMQXlWMlFWcjNpdXV2YmlGNzE4QXFyTWVFUEZBc2xydk9hSUxYTHgwd01ibXJmLXBlNDNlclkwSmlMTg?oc=5",
-        "published_at": "2026-10-17T12:00:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
