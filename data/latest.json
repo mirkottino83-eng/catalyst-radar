@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T23:06:35.339136+00:00",
+  "generated_at": "2026-10-19T23:34:46.187690+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.23999786376953,
-    "wti_change_pct": -3.125930069879568,
+    "wti": 98.2699966430664,
+    "wti_change_pct": -3.0963483933056923,
     "brent": 109.27999877929688,
     "brent_change_pct": -0.5279463206192991,
     "nasdaq_level": 26430.887,
@@ -18,10 +18,10 @@
     "dollar_index": 101.9729995727539,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.13%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.10%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-19T22:55:00+00:00",
+      "wti": "2026-10-19T23:20:00+00:00",
       "brent": "2026-10-19T22:50:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
@@ -46,17 +46,17 @@
       "published_at": "2026-10-19T19:03:39+00:00",
       "age_label": "4 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.69,
-      "short_term_change_pct": 0.18,
+      "current_change_pct": 1.51,
+      "short_term_change_pct": -0.06,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T23:05:00+00:00",
+      "quote_at": "2026-10-19T23:30:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 1.6,
+      "quote_age_minutes": 4.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 63.0,
+      "confidence_score": 62.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-19T19:03:39+00:00",
@@ -68,7 +68,7 @@
         "catalyst_strength": 74,
         "freshness": 62,
         "volume": 28,
-        "momentum": 52,
+        "momentum": 49,
         "macro": 68,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T23:06:23.549997+00:00",
+    "updated_at": "2026-10-19T23:34:34.010859+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -94,7 +94,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -120,6 +120,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Houthi attack on Yemeni government forces kills 58: officials - CBC",
+        "source": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNT0VwLUpiTVVJT2lhamx4VnhDN3FfZFV3LUNUVUZDY1duaHZUWnlXdzFXM1RsVl83Q01YR3k3Y1B5b1ZKMWYxajR5UTkwMGVaVmRIXzJpdERkQ3pDZTBXYWFVV2tSU1dQNC1oM1FndEJHVThkWmIxUTQ1WnY2MXRpekVpS0tQcUtTRkE?oc=5",
+        "published_at": "2026-10-19T22:50:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Three Russia Export Cases Put End-User Diligence in the Spotlight - Global Trade & Sanctions Law",
         "source": "Global Trade & Sanctions Law",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ1NDR0p4UmhkaklYbFJlQ1luWkhSaDBhRExBM21mOHA3aFhHNEVrWVZNT0ZJbXRLSTNjRXRld01udFozOXVha0hYZTBhRVF6eTk3Sl9GaUEzYkRtM0ZuZTlGb2xMVEhEQV9rajVlUzJaYlItbGhoY2Nhalk0M2E1d2dkNFBXbnhXcjEyZ2ltVkxWUQ?oc=5",
@@ -143,6 +152,15 @@
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUlXRzA1YVNhSkh4U0dNMjVIZko0VHFqZHFaTlptUUdPTlFzU25TeFl3dXVnLVBMSGFXWExCMkpQRFpncV9VSjNncEVTTnl2SHB5R0ZmVGJnWUhBQUJXM1hibzdNVk1QVFdrOW1LVjBXQmVzNkN6bi01NFNPeHMtb1R3RkpLbl9XMkVWc2xrOTRKd3ZNUnBVUGdYeTdrNFZ5NEtiVDJ2Mm5tLWQwLTJkeDRuMkRaTU94anFQODZma0VlX0JIa1hzbmlQLXNIVWlYa1VJ0gHTAUFVX3lxTFB3SGxmMDdDZUNibnhKc1RHTGhSNzJZZFptRUh5NmlqRnlmUUE0bTAwMmMyNk15dUN1cTRFUmNqeDB3Nnh6VjdqSThnM3Q5ZmNxdDFRX0ptSjhDUnJLX1AtTEpBWWQwRFA2VzBJX2V6TWJna0IxWVdjVlVjMFpmZ3pVcWtzRV9aazdPeXpMSjcwMUN6NU9IRzZBcFdBeXZBWjlGQUJ6aHUwZEpHRFBmX19lOXg4Z3U3X1E3a3poX2ZGYVRvQ1VGMnhBZ29XZkJMWktuMG8?oc=5",
         "published_at": "2026-10-19T22:36:07+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnRKRWVRSmwzaFFkcFBLbG1wS1BORl9qR0xSaTkzY0VhX0dKNzc1V2JGbEFtTm1wZkx0VjY2dkRzbGYxWlljZG5zVUY2eGU1RnZiTVRBSmNDYnJNSXo3RWFpT2JhM1ZQcklHVzhXcW5zSXRHemNaMS1PMGJJOHowOVpMQWRqNE54cU11Z2ZNUUFnZFBqQkFsVUNhbl9rLU13eDhyMGQ0cDVGdk5nLWxFOEZVQ0E?oc=5",
+        "published_at": "2026-10-19T22:35:58+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -192,15 +210,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Futures Pull Back as U.S. Waives Some Russia Sanctions - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjUxeXdZWDd5c3MxTHBocWZqajJlQ2UwRTF6dW9KMXh6Q1ROdllKRGZiMV9kWUhvRW9CQzNQMU1LYk80U04zc0dLU2ppcFkySWRjenZFSm8wQjA5QmRPVXhPN3dhMTZPdnFiWjh1QjZ6VDR1ZDg5dFFlZ0t0STJzZlBrUzBMQ0N1R1RTQ2FkekRVaTlPN3lPYU94ZjZRdktUTlJEeTVqSEVFamNkc1FWelQ2MnRNb25OemZ5aUx3dl8?oc=5",
-        "published_at": "2026-10-19T19:43:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "US Exports to China 2026 - The US-China Business Council",
         "source": "The US-China Business Council",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYWUtwNkdSdTh1TUNxWVVvOENDVGJEd2hic012SFpHTEJuTzZLdWNhVzNSMWxlbDVkVGdJMml5VV85ZnNic2hxYnRvc2NMYUszMFBXMGVFdlZhYnJSdWNjZnc5Tkl6X21fM3c?oc=5",
@@ -214,15 +223,6 @@
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
         "published_at": "2026-10-19T17:44:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil edges higher as investors weigh renewed Houthi attacks on Saudi infrastructure - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYTNFNmRXMmo4Zi1Md1o4NFJzb3d6X1JpcUgtVEo4N3F2QW9Nd25UTkhKYzljbExueGZ5Qkp2aWtUVUV1bGF4dWR5MGZDZHdWN3pyd250SnFtLUpjbHdBSXIyVGNlMFE2TzFlOVlWMkxiMnE2eHJ2eC1HbjV5cjRLdV9tQmcyMHVTVjJaY1ZkTXBNRWM?oc=5",
-        "published_at": "2026-10-19T17:43:08+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -270,6 +270,15 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQmt2MXZ3aVRLRm5lbG1yQmhuTDZMaThKTDNVZkFwY0NrZkZXX29hYklOTnY2d1hvUGRvdFlqd3Y0MGFfYUJGWmx0LU40c1BMX2ZoSF80MV81TXFXT2JiTF96bEdyWTQ4elBHQndJclA1VDhsTjVEb2RLakwzU2FLRzQtQXFnY1Y3RUlYMlZsNDVsSmNkQWc?oc=5",
         "published_at": "2026-10-19T22:15:39+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck - Investor's Business Daily",
+        "source": "Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2gtZmlxbk85a0hhLTVERkNDU2xKTnI2bDd1aGthazZObV9mLTdYMXBUaUxxaDFZRzNNZEt5QXdzVDNNVnNDMWtObkNycTNLc2tmWGZFTWhNU2RpN3JTMTBmUlFlZ2xzb3NiSGFMVTZ3d21lRjVHbVdUYkMyOHViVGlYcFNlUlM0eTZIQ0M0OUhvSlNHTTRHbWgtdFpRVDBLbVE5VG9DV01md0pjdERyUVp1dw?oc=5",
+        "published_at": "2026-10-19T21:30:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -333,15 +342,6 @@
         "source": "NVIDIA Blog",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaHh0dS1IVTRGYkoyUVNoWmlMUEZncElQVFVYMU9MeV9iMF9IRzJ3NFV1Wk5oRDlsdVNlUzQ1U3p0MEVmZFBBSkx5VnBKQ0tDZGdVTkUtaFZoc3JLamV6Qms0MXEzbW5yM1J0cjdDRnI5SWhKejFMcmhMNlNXaUg1MVZVQTlZXzQyUXJaS2Q4TkJMR29XbnI1bjNVZHBfOWMyUUE?oc=5",
         "published_at": "2026-10-19T19:33:59+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Amazon Just Made Its AI Chips Easier to Use. Should Nvidia Investors Be Worried? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORllCcFRXQVU5RUNTS0x2SjZUd1lVTVZSN2paX2J4YndOVm1ZMEpGMmwxdnJSMGd1ZktsQUtNTWFtSE92Wnh6T0JzY2dTU292UlgwV1cwdmZBZFd1dGlueTg5bDhGeVJTUTdpYTNINUZWblJKb3BXdlRESWg5OS1nU05CTjhvQlJ0azJvU0dHak52LWM?oc=5",
-        "published_at": "2026-10-19T19:19:02+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
