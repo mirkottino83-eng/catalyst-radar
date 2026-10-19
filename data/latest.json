@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-19T01:09:03.248986+00:00",
+  "generated_at": "2026-10-19T01:39:58.559561+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.55999755859375,
-    "wti_change_pct": -3.796475657710807,
-    "brent": 107.95999908447266,
-    "brent_change_pct": -1.7294752551638704,
+    "wti": 97.86000061035156,
+    "wti_change_pct": -3.5006438453411004,
+    "brent": 108.41999816894531,
+    "brent_change_pct": -1.3107613630129245,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.83200073242188,
+    "dollar_index": 101.84600067138672,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.80%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.50%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T00:55:00+00:00",
-      "brent": "2026-10-19T00:55:00+00:00",
+      "wti": "2026-10-19T01:25:00+00:00",
+      "brent": "2026-10-19T01:25:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T01:08:52.191808+00:00",
+    "updated_at": "2026-10-19T01:39:46.900956+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,38 +44,56 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Iran’s Revolutionary Guard says oil tanker struck mine and caught fire in Strait of Hormuz - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM1R4b2tCRlpUdlprUnd1UEJWcFFvVzdqV3g0RXdCM3NxRElsM0NrWVI2ZnY4aDBqM2pIUDQtQS1YZHJKYnN3MUdHX0EySTNFaFp2UkxfZEF0ZC12c3V0WEVvR0E2ZlJiaVJTX200UTF2TmZwR3RnT1RXdmdmc1hpRzFKZ3pJWG9GR3E2dXZ3M1lkYnJ1NDh1eWlPTkh1T2VXb2RoWlBwWDBoaTVDN1k1REtVWDg5WEdqbnVlejdRcGNXckltdm5OTzB3WQ?oc=5",
+        "published_at": "2026-10-19T01:15:04+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "New Zealand’s Trade Deficit With China Widens on EV Imports - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUDRtTTRpN0QwMGstbG05Y3RObW44UFFRY2ZiclhKOUctbmlPcDhMNUVKbUNjSURoQjY5alpsNHJDWEd2ajZiX1M4MG8wYTdyYjRsSUZBSWtSMnZOaFBWeWZZMFYxVjlRc1lPZ24yejZIV2VfVThSdUczcEZaZHRqbmVWWlV2OTNzUDFBc1BReFk5NnR2MFEwd2l6NnVncnZmOTE0T1lTYkpGWXFhZW9r?oc=5",
+        "published_at": "2026-10-19T01:14:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Trump says he's \"negotiating Peace\" as Ukraine launches 1,000 drones at Russia amid continued back-and-forth strikes - CBS News",
         "source": "CBS News",
@@ -86,12 +104,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "China Q3 2026 Economy: Consumption, Trade, Investment Data - News and Statistics - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSWhZTWNBcGgybkNQRkVNMk1NX0J6eC13OHpVMTA4a0p3UGYtSzJVLV9zV0NpWV9tOVNEZUNBdDFaeTREZGU4c2RwVjJoZlhUemFQQ1RrQkx1MkhHdk9kVm9IeDlpU2FuQ0ZiVVBTZ2VXeDhGME0tQ3BSQ1FpdzZ2XzMzeG5hMVZTQ2RTb2QwWUhacmZJT0FKZzF3MVo5azJVSHd2bS13YXg1RFZVMGNEc1VvZFM?oc=5",
+        "published_at": "2026-10-19T00:20:23+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China Trade Surplus Nears $1 Trillion: Exports Surge 21.3% - News and Statistics - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUTY1bUh1Q2ZxZE8taFprbEJjY2EwOUVjakk4ZHp3SzVUQko3aFhmSUpGYy1vbHkzVjlMM2N6ZHBqTlM5bXVVSkZRTTlfRlFJdm5tZjhocDg3UmdZcXpoX0RLbTktTmpoWThKUFlBQlhLTmgwTGx1Qm50VXBOTGRQZWtWSmxtRmxua1o2dg?oc=5",
         "published_at": "2026-10-19T00:11:24+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaWsySUdqRXczLV83Nmpna2E0aGNFVUo2YnlQV2pkdTFSeUI5ZmRSTHhZWjh1WnpBeG95WmFhNkl0bW92MkEzcHRhZ04wdUVOTDd3OXhkOFpzT19YdnJocmlOSkZzMHlNRlFRemlOci1OTEVUZG85OTJrZHZQS0cxUXA4T1lZZTlxUmhFMjlqNGtEZTNOTVY5NHozOA?oc=5",
+        "published_at": "2026-10-19T00:05:08+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -131,28 +167,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China considers export controls on AI, chips - Semafor",
-        "source": "Semafor",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVNjVEeGFwdmtNQzc2aDljc0tuY1JVR3Jhc3JPby1ReGRWaXhJMVF5M1dJTERzVXdIZmN2ZTZwOE1LX0RCaElEcm1GNTU1Vk5SY1p5dmJRSmVoSnU5ZUdQV2Y3UkRLYmNNcmJlVTM5NmR4R0hueHctRXl3?oc=5",
-        "published_at": "2026-10-18T22:34:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump waives new Russia sanctions - Semafor",
         "source": "Semafor",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVGxTOU9sWV9xNWc4TDVrdUpoTGNUUWpKTXpYMDNaR1VRY3EweXFXcUZ6TEZZanNrOWVFOE53NDBZUVBtUGdUblJDY3ZRdm81LWJ6dXpKNEZyWVc2cHNpbGtRd19UTTR3MlNwSDhqcUFKblNXbVhYTE8wR3JrYW9LYnB3?oc=5",
         "published_at": "2026-10-18T22:30:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUdqTmNWUUFKcWcydVFMaU5uUkthdnpkZ3Z1Y0FaTU54UjdfZDlfYnNJcTU0WTNGU1hRa0Etc3pFNjNPQjBXcjB5S3pFbGMyRUlLTjVoTzdNQjNWVTJsZTNVUER4NDdDQWZMdWdhWnBGR1NkWDJQYnlVT3lJUGsyZmlMY1BKQXliNUZMVHZXWdIBlAFBVV95cUxQMnMyZDFwdWNxYnZScnhQRUlrUnJzcGZPcHQtRTFNWXNURXFBZC1CMThXXzlCLWt4NFpIRDFvREpUSDlVU1h4RDF5UU51Z1VOaVU1WHBWWFN1V1NhSjFMM0hTS3pqOVZXTi1jbnIzYUlNMGo1eGh1RjA0eHRvSWRQT05WNVpUOGl0SkhlU01MdzlsYnhu?oc=5",
-        "published_at": "2026-10-18T22:15:39+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -163,24 +181,6 @@
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrcnBqMUFFX1cyREwxckpUbVNRS0FRcUhUS2dlMU1xWnZmWXFKR01HbFZqaHBhYTlJRk9Rb2kzN1FrbmNVbTRFVmViNFFtOVBRWkdXQWVXZkpyWEFfcGc?oc=5",
         "published_at": "2026-10-18T21:38:58+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran's IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0s0UXNzVGVGdHpZMVpnWnNYeFBxcXAzLTRCTHZYUzhjVnZXdDJ0VDVrcVA2M3lXQmhndUhXS3VIZ3IxeVFvQnZfYkdEdldSVUcwdWhpZjNWYVBWMURKUDgydlJBM0ZYUWZ0WmRGWFg0Wkt5VUhQQ2drMjQ1TktjakRGa3g1VE5OMzUwSmRDM1RsM3AyVkRWOGUtamhSSkVIMUlPR2R5eFhEUnl5RUNVczRwdGtub3ZCSy1GSmdqc0lLYVE?oc=5",
-        "published_at": "2026-10-18T21:30:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Like it or Not, the EU and China are Already Engaged In a Trade War - The Wire China",
-        "source": "The Wire China",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQckN2dnhGUlYyOURwdEZEdWNwSmw5TUF1d1kwZEk5aUVZSU0wNUt6SkFuU1M2cWVCTnRUazRNWXdFMHNIbi1EZ2NKQVFDeWtHN0syY0xrdVByanlEWGNGSEhDR3dGUGk2QWVDQWZ4TzdaUWxoRzlzclFCcjVncm5WWnV3dFNwZWpvbGdHMjQxalZQY01IMWZqN3RRbXVJTmZnX1VUUERyVktZSDg?oc=5",
-        "published_at": "2026-10-18T21:03:52+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -213,6 +213,24 @@
       }
     ],
     "corporate": [
+      {
+        "title": "Here’s What a $10,000 Investment in Nvidia Stock Will Be Worth by 2030 - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVFVLRG1RZzM3T05RR3kzc0lXamo1bHRVampXaDdpRHAxX21qN0c3QnhwMFMyR2pWZFRTUEJYTUM0cmluaS1QRm5hN0tkbHl5VFVuNUxLT0Nhalh4MGRMVF9iNFpUOGNkb2h3NHB2N0h4RVR3MHZqSTZNdFgyaFlzdTFQdkg2QTMxNkpsSFdReU5HcnR4RWZzbE9TNmdJWkQwSHppcUNRcDNRdFZqb0djU2hCdk5RZw?oc=5",
+        "published_at": "2026-10-19T01:22:21+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Here’s What a $10,000 Investment in Nvidia Stock Will Be Worth by 2030 - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZFhBeFNLSGRFT0wzZTBUVmtJbUhhQUZGOWNNZWszTXVDNjVSeWlMNVlGVU5hdVFzZUhfYXBQRmx2RnhRQVNoRVZwS2M0RE1hX0J2UkJzczVIcTluSldnSkt5QkNsNTMyN0xadklsYWNWRjRQRVp5UHlZUGg2WHJLY1RDOXZyQWNMLUxIcFNrNmZMN2k0YVdpVkI2WQ?oc=5",
+        "published_at": "2026-10-19T01:06:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "How Clinical Trial Updates At Kelun Biotech Share Price Story Has Changed Its Investment Story - Simply Wall Street",
         "source": "Simply Wall Street",
@@ -268,37 +286,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "1 Analyst Thinks Alphabet Stock Could Jump 20% on AI Chip Demand. Is He Right? - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQkV4T1lPcUk1NWhHUk1iVk50QlRYUEdQMUt2bDhTNWg5anRFZjF5YWFIM3EzLUxHOHRYWjRkZFpuZkRWSzJyWmdlSjR4bW9qRWVsVUVRcTAzODNiOF9femRiSVlLV09KSWN4Z3hMMUhsS3RmaTV5b2k1M0VPeDZaOUlCWi0xQzBMSFFQUFpnOHNrbjdVb2xmSg?oc=5",
-        "published_at": "2026-10-18T17:15:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia's AI Financing Model Is Spreading to Rivals, but Who Ultimately Pays? - Dr. Robert Castellano's Semiconductor Deep Dive Newsletter",
-        "source": "Dr. Robert Castellano's Semiconductor Deep Dive Newsletter",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU1R0Wk41Mk9BbGJTaWZSblRvcVJmVW0xbTZIWU5rMjlZaXoweVhmWWtzc2Z1dHQxRmFHLWpNUjB1SFhlN1JFR01uU01DLVNzOVpob0NuODhtLTJEUlVIQVZsaXV3eUttbTNIRFV5RjByQ3AwT2gzOXZSY0JFaUNscnBTNHZuRTho?oc=5",
-        "published_at": "2026-10-18T16:37:17+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWdNdGZSeFJpNll0RnpoS0VKUzFBaHRUYWFmcE1JUE5EVGEwWVlaa2ZoNkNsN1BiRExXMHQxR01pY3ZRV0NvcDdNNm9tN1BvdjBSZ2JuelRfT252ODVDY29sR0JMTXZhVy14NDFnVXJ4ZHhnUVBwbjZXTUkzUm5nWEpZeUlvWWY2dVVscS1Xb2Vwdw?oc=5",
         "published_at": "2026-10-18T16:04:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet’s Ruth Porat responds to Jefferies warning that AI boom will bring U.S. capital destruction - Fortune",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeWVDWnYyN0VqNTUtbk9xSlUtVDRVekM1cThBcUxKRUtSREdQZm9VZWV5S0pHNzZLWjR4RUdjQXdQdDNlcVpyNzc1clFaa0dRZnpCWVhtZ0ltaGFMNnlpVDZEdWRmeVliRnYzOW8xTkZCdDJhaUpoa3ZVd2V1ZW9qdDNpZmhDTUFxdDc0TnVtR2tLaVRUdy15akpMQXlWMlFWcjNpdXV2YmlGNzE4QXFyTWVFUEZBc2xydk9hSUxYTHgwd01ibXJmLXBlNDNlclkwSmlMTg?oc=5",
-        "published_at": "2026-10-17T12:00:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
