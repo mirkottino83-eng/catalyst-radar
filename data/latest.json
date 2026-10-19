@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-19T06:18:07.483073+00:00",
+  "generated_at": "2026-10-19T07:13:25.354568+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.06999969482422,
-    "wti_change_pct": -4.2796605961535334,
-    "brent": 107.41000366210938,
-    "brent_change_pct": -2.2301082601772104,
+    "wti": 96.8499984741211,
+    "wti_change_pct": -4.496602922115933,
+    "brent": 107.16000366210938,
+    "brent_change_pct": -2.457670610997409,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.8550033569336,
+    "dollar_index": 101.81099700927734,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -4.28%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -4.50%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T06:05:00+00:00",
-      "brent": "2026-10-19T06:05:00+00:00",
+      "wti": "2026-10-19T07:00:00+00:00",
+      "brent": "2026-10-19T07:00:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -31,53 +31,10 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "c17e8c86b2b7",
-      "ticker": "MSTR",
-      "company": "Strategy",
-      "category": "Bitcoin / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "SoftBank reportedly considering Allied Universal acquisition as AI and robotics strategy expands into security - Asia Pacific Security Magazine",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Asia Pacific Security Magazine",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMlhsTHJWRGViQ0VNNXE3eHoyM2lmTDhuR19UMU9nbUFSd3dJa0JwelVqUVFrQklqaTVDYktneWl4clZhaFFOdFpLeGlBSTVyVDhMQXBHTFUzQ3ZBSmQ0dHdQbk5QY0x3aEp1YUpDOFA1UmNVQkJ2V3o5ZE1XVkpNLXdrb0I0aUZMQk1yMTBzSnpvbnc4Rzc3STAxUXBlVG5JSk1lbHNtWXRGRUQ4azFObk1UVVN6YTFhM3BhU2lSbFY0dkFoZ2VKeTRKWXA1RVdHWkFIeTNWamZQUEphWXhUeDhNUEVDTE5vb3Ew?oc=5",
-      "published_at": "2026-10-19T02:28:28+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -10.44,
-      "short_term_change_pct": -0.35,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-16T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 3263.1,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 49.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-19T02:28:28+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "MSTR",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 100,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 46,
-        "macro": 0,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T06:17:56.271724+00:00",
+    "updated_at": "2026-10-19T07:13:13.420143+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,28 +44,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -120,12 +77,12 @@
     ],
     "geopolitics": [
       {
-        "title": "Trump accuses Zelenskyy of not wanting to end the war, defends Russian sanctions waiver - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmpzT0JqMHd6elRCQmR4Z1JKWWpycEc4UXI0dXJfQkN0NGlvOENSdjl3REZ6SndFSVRaNUo0cV9hX2hKNEN1bXFwbkdmUTlsUlQzUDgwLTFQUVdJWnRHTm5IMjZPSGw5M0xRTGtvZDA5VFhLeHRLWnVZSGZ0d2dxVklrTU8?oc=5",
-        "published_at": "2026-10-19T05:47:26+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "North Korea-China trade soared to $300M last month ahead of bridge opening: Data - NK News",
+        "source": "NK News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZWpBT1p2Ny1RTzFFVGpwdEFmVmNVdDRQYm9oeUg5bm0zMXM3RUVsUDFfd01TRmEwZ3ptUHBjQ183OEFiOFlqbDh5RlNKWW03a3JfbmxXU3NVenF3dEVTbzJpS0ludTRWamVoSjFwOEJIZnBmeXVZMnhNeWgyRGpreGw1SWJlOUs5aGM1U1Y5eXpxNE9KeDJqbk1YMk90c2lyODBGRGFqN2x3WEZKMGE4?oc=5",
+        "published_at": "2026-10-19T06:17:26+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -133,6 +90,15 @@
         "source": "Fortune",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBV2Vqam8wSnlkWWgzSlVfc21XZmJndFFZZzRyVmhUcjlPc1FhNjRWME1kajFSV1hCZzM1OHUtTEFKVXY2WlBiVGJ1bmZ5V2FHb2hnRThPX0JIODY1U2dsZTNucnZuTFdnSjJodg?oc=5",
         "published_at": "2026-10-19T05:08:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s economy grows 4.5% in third quarter on export surge - Euronews.com",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOFVvME1UdU5aVjEyYWQ2cnpsUjFNR3Y1UjJNTkV0N2w4RUktcWNqNHJSOHJOYnNCUEw0Mmk2ZlFuaThvMGVfRWlLNFhKcThqaGFiQXpXMUhYd18wcnVMVHo1YXpORzVCbTkyYzV1WDRRRXhoaFRGRmxQbnpCZVVVdnE4SjduOFJPMHVqUDBZZkswRVlsdEJuSjN6WW1FcUl1NEhhcWhrOXktbjA?oc=5",
+        "published_at": "2026-10-19T04:11:21+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -174,24 +140,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
-        "published_at": "2026-10-19T02:09:45+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelenskyy: Russia continues to attack Ukraine’s oil, gas and energy sectors - NewsNation",
-        "source": "NewsNation",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHB1R0Rad1hFV1VuUFE1dlB0a05OclkzZHRsU190UDVSTXIzMTRmU0NQdmZhRjNuRHZHOWJ0Y2tQS3pYSEtyQUtlN0xzVmc4NTR3NVc3WkNwa0puSFIxQ3Q1VjRiUWY4Q2dodExyZWR1VmdJMjhlcWdTaVN2MF81b21lTXBRc3FqRVJTUGJFbG11d9IBlwFBVV95cUxNbUJRUUQ0eUowX05CbWZKc0pRVGh2NW9RSE10aURteV9COE1yakhMUEZxY1Z5MnYzWFRXS3hjNEdrZWhBMDAtdUI3WjJqbC1NYlU3RzE3bmRqMFh6TVBnSlNHdXZrenNJOWRDbU13S1ZLaV9jWkRWRk5zc0dGMWpXQ1Bzd19fdTFOeEQ4TWpmcmlsM05PWmU4?oc=5",
-        "published_at": "2026-10-19T02:04:10+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi Arabia’s Military Limitations Are Being Exposed by Houthi Attacks - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM19uejBXQV9UYlQ0ZlFpMFFxYkM3WFY1aWlac3NVWUxFMUxqMzlCTE9DSl9JMlJXRHBPcnN6LVI4Xzl0OHBHYjVKME5jOFcwcFo4VnctUlpRUk1WRkhPczhHWDh2Tl9JeTVaLXU2X2dXVDNKd2dKdU5pcHhOWjRTYktfbV8tRjd3RFpNdXdfZnlxM19QYlRSanZVX0hRUlJBa0V0aFpTNGFUZExoSWs4S0Y0dmZMcUUt?oc=5",
@@ -219,15 +167,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Zealand’s Trade Deficit With China Widens on EV Imports - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUDRtTTRpN0QwMGstbG05Y3RObW44UFFRY2ZiclhKOUctbmlPcDhMNUVKbUNjSURoQjY5alpsNHJDWEd2ajZiX1M4MG8wYTdyYjRsSUZBSWtSMnZOaFBWeWZZMFYxVjlRc1lPZ24yejZIV2VfVThSdUczcEZaZHRqbmVWWlV2OTNzUDFBc1BReFk5NnR2MFEwd2l6NnVncnZmOTE0T1lTYkpGWXFhZW9r?oc=5",
-        "published_at": "2026-10-19T01:14:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi Arabia on edge: Iconic Kingdom Centre sends workers home amid Houthi attacks - Fox News",
         "source": "Fox News",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ2FBdlVvdkdPcnFjODk1dGVid0RPQl9SM2VYMHpMQ194QURrVUp3aXFsWWxJZ1hqbmppNXoxcWZRYzVRWFdKWTNtWm1Lcng4NTF1V0xnbGlkWXc5QU9NcXhIbENSVWJRYVVuRWdCaVJ4aER6ME5WUmlyenQ0RkhsMTFnTF93RnotaFZ6dEJTaEx0VU5pNlJ6dmhSUFVrRTd0YUoyenVtbmp4Q01P0gGyAUFVX3lxTE9RMERTQzE0b3J6WGl5MlJ3ZEtTVkdDY1o4eWJja2U2NWhVaFE4RUlPSWl1ckhwYnJtYnVyZmxuRjFFUXVzQTZyWU1EWEFEUDdHeVlaN3RjdzNxWjhEdXRhTVc0YWlYMDJTckVuNWMxN09WTkRMb3hFa3RkbWJPeHdQbEo5c1R0eXNYQ0huS3NHeEc4enFBa3JtMjNmMm5uZ0FWT1RaZ2tTT0NhbU95b3FLUFE?oc=5",
@@ -237,20 +176,38 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Trade Surplus Nears $1 Trillion: Exports Surge 21.3% - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUTY1bUh1Q2ZxZE8taFprbEJjY2EwOUVjakk4ZHp3SzVUQko3aFhmSUpGYy1vbHkzVjlMM2N6ZHBqTlM5bXVVSkZRTTlfRlFJdm5tZjhocDg3UmdZcXpoX0RLbTktTmpoWThKUFlBQlhLTmgwTGx1Qm50VXBOTGRQZWtWSmxtRmxua1o2dg?oc=5",
-        "published_at": "2026-10-19T00:11:24+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "DW News. . Two Russian oil refineries were hit by Ukrainian drones, after Kyiv launched one of its largest aerial attacks of the war. Russia says it shot down over 1000 drones in the overnight attack, which also hit logistics and data centres. Ukraine had paus",
         "source": "Facebook",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMTVTSjdkNWlKUUxLQTJ5VVBIR3JoTUhhSTRraUE0QzZ0QThnVFRDaDF0OEk2TGhjd3ZHa1Y2M21CM20xTEx0MFE4bEN3V0tkRUNOdExQUzNTeWZyMkp2VFdIbzR6VDdHWXpIR3RlNzJmYkRoSjY3b3lza3BydWJBby1mUjNicUp3MFBHRTUxZnhmZEx4M0xHZzF5Q0NPSGFOWG9XNzZEWW9laEtGajRodm9zUWJGX3VYX1BFRzFhSmR2YXZXTW9xanNEQktuanUxZ1FXUFJJaFFuTjd5Z3ZhY21n?oc=5",
         "published_at": "2026-10-19T00:10:04+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaWsySUdqRXczLV83Nmpna2E0aGNFVUo2YnlQV2pkdTFSeUI5ZmRSTHhZWjh1WnpBeG95WmFhNkl0bW92MkEzcHRhZ04wdUVOTDd3OXhkOFpzT19YdnJocmlOSkZzMHlNRlFRemlOci1OTEVUZG85OTJrZHZQS0cxUXA4T1lZZTlxUmhFMjlqNGtEZTNOTVY5NHozOA?oc=5",
+        "published_at": "2026-10-19T00:05:08+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump defends waiving Russia sanctions, says it keeps Moscow at negotiating table - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb1lydjdUUEZncFpMZlkyQ3JoQnFZdWVYS09PVXhLYTBYcktaY0ZMc0ZsZG5GWlRwazN5cnpwLTdIM0RxbWZkbGNpRmh2MFljSzBicmdReDhjWmlMZ24yVGR0RVlkcDJWR29KT2JHeTIxcGwwMnZ2T21rdXFCaFRmV0Y1UlYwVktVcENLd3dZb2tYellqQjBCcDlZWjlNQdIBowFBVV95cUxOazNPcGJpbEhtOUh6d0RWMEhWMHNoeURoeFJzMWxhM3ZTTUpUcmxhb2p6UUEtbUJnMi01dHVJNkRMOWdlWDZ1Y1h6VTl4d0h1WEpDRDZIbHRJMDZpa0I1UVlxM0NtemdhZjhJU2tsaTNQVlUxU3MxWG4tN0dYVGY2cnliYThxSXFLQWxpME5tU0p1cnRLaEhfXzVVa0Zkb3lPbE9V?oc=5",
+        "published_at": "2026-10-19T00:00:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia sends skyscraper employees home amid Houthi threats - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmNWR1JhdHgzVXRndW9RX0JYbEh5RV9PeThsVmJrM3AyXzR5WEtmOXN1YkIxWmF0OV8zWlk3X1FMalNwM3BJQTJLWU4yTW13dG1yM1NMcmdnRHRkZnFDUWg0VGZjYXFIdXZBenZVX2lLMUtOSjRvMkZJckVobWhPQU4zX2JkcmgwVVRfOWx6dzJFQTg5ODZEUHJBNWZEZ9IBngFBVV95cUxPZjRmSElfelpyenNzMm1SYUxmel9kQ1JUNkxmMGRLZ3EtTFlrMHQ3aEs4UXdZeGRsajVpUEhIbVNtX1JFbjAzY2xFWTdOSDR6VXdJbGhzUmRUYUk2c0RQVGlSSWJ4YmpGTTdpZkZYZlRBcVBHOHRGV2xUTFlwTjFvd2xIRlZnMHA4UjhJb0JPLXpmNXpjXzQ3d2xFSmdKUQ?oc=5",
+        "published_at": "2026-10-18T22:25:49+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
@@ -266,11 +223,29 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "How Investors May Respond To Danaher (DHR) NVIDIA Lab AI Partnership - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa2pTR2ItLWpTZnhMNXZ5RlpPNlo1Z3FXQjJPZDFfMEN1RkhjZFQ2VXpabnF6S011cjMxRGtMTGM4T0JtbmxROTRhblZQLTNNdWlMVmdUS05wS3R5WnhZTE5jMHE4MENiT3IxbnIzem04bU10V012LXpIV2phekRIMWxQZ3htdGJDY21YSldTYjhERjJseGxYdWVaaEpPMHJ5MXVRS3pIRi1nN1U3Qk1rQ2NvT19rMXFuUEJZNWM2OUI0eENHcFpjb3VOd21lYzNYUGRWcdIB2gFBVV95cUxPanM5bFpGTG0wTWRydnNpTFJsVWdQdkRtMzZDSjhNbHFEak9Jd2dNSkpGdmlOQXg3ZHJybVJZZFNIZTNmR0lnQ3hmTHVvX1o0RTFQVkZvSVdzRGVIMXZtMDF4cDZXNFBZMXJUTThNSVppWU15S051QXYtZ1hKdVpTeE5saDRJR2RCdlU3d3pWc3N2R0YtR3p3YXdTdkUyTDhzQ3VTV2xJdFpYdHY5RmxRM2tFQXhFejBzcGRaZFpjSzdLN29DYUw0bXdLN1dGQ19pNEJyWEhHeWJGUQ?oc=5",
+        "published_at": "2026-10-19T05:09:56+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Incredibly powerful RTX 5090 gaming laptop with Intel Core Ultra 9 275HX CPU and 64GB of DDR5 RAM gets $909 discount in Newegg deal - PC Guide",
         "source": "PC Guide",
         "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNV1RNYmFOY0otdzRsWldiSnAtV3NuVm5IRndsX2s3UllKTUZrV1JJc3ZJWVp5Z1pjRWwybGwtaDRvbXFINEduSlNwVDB0UW1mbVZhNUJBZFhXNTR3OEFtMDVwNzBSYzQ1eDBFVUJ4UHIyX2hSMC01WFZFOFkwSmI4alZoYkl6TERndm1qZjZyYjlQWG9XZFFrYllPRVZDY1RWWGxpWVlQcnI2bVRjX0hrWllDV2NFUE81ejE1Z3ZFRXVYcW9HWks3cG9XNVV3SEJhT2VFaVNPR0g2Sl9wVU9tWnhQbGRQTHVTOUtNRGxXbUJaWTA?oc=5",
         "published_at": "2026-10-19T02:11:05+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "health news today fda approval weight loss drug - Meteo.gr",
+        "source": "Meteo.gr",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQem5vVkV1aFhUcnF1N2dMSDRQalpZWDdNa25SNWNfMF9uQWdfMFFGSnF4VVJIUXVSb0ZBbEdvUFFLaTkyOUp5a0I0Vk1xaE9nZU5wMTFrbjdvWWVlc01JMmFqNTRQTkFHR2czYzZrUkZaWjZRYW5vVmgzcTZQMjhmZ3RkaC1YblBHS3dQLQ?oc=5",
+        "published_at": "2026-10-19T01:53:42+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -302,28 +277,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-18T20:26:25+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "‘Put every prompt in its place’: Intel launches 480GB GPU D-series for AI inference - TechRadar",
-        "source": "TechRadar",
-        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNZXlwXzQydS1Tc3MwNEp4N3hWbmFLVzhIa0twTEI3Yl9kLURNWDN5dnJ6dzYxdlp5d1p1Ti1lQzJXYW1GSEpuMHNnal9Wc3dOaGxhVmpJTGxRUHRVWk1RVTFYNzNILUpsWXJxZnhTRDYxVEY1R0tsZ3JKZ1FpellIUmR0WFV6ZkFQd1lWRmotNnBqd1N1VEhEc2NxRm03QWMyczZ0b0o0Nk85d2FyaVNPSWhPRHkzZ2djSFd5WG1IanR5dS00MTRQcUI2S21DNVpXbFhvZGpIb2NqX0s3U0VvMHhyT0luaHNMZlZnVlZ0a1F5dkZqTlgtd1VwMXBsUnhkeEt6MmNCRzZsaVJjb1J3d3pFaXRhSnN6MlJhMFV1YXhfUm0zRVNRSG9IckI?oc=5",
-        "published_at": "2026-10-18T20:05:00+00:00",
+        "title": "Here Is What a $5,000 Investment in Micron Could Be Worth by 2028 - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVzRPZWpsM3RsWG9oWWlJcng2TEIyWG1oYWo4VVlSYmJfbkU5RWVOSlVuWllXajFqRzRsTXVpQm9BNjJ1V1dxMThCYUxrams0blliZTR0X25qeXpqMHNhTGZYM3d1SEdYamd0V01pcTFBZkgybUpnbnRud1l3cGNqMmRPblZOMUJsYXUweElTT3EzN3l3aktpTVBR?oc=5",
+        "published_at": "2026-10-18T23:53:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "CELC Stock Clocks Best Day In About 2 Months On First FDA Approval For Cancer Drug - Stocktwits",
-        "source": "Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWjhCdlhSQWVlRExjTzJLRlBUc0VtWTVJYk9zMnFCSjNWSU9HSW5iTExaTndBWG5oQU55b3lRNm16Um9KUnZMcy1fd0FNaS1VZFl3NmJxTmRrQnlHNHdPeEdHT1lWLUs1VHJTdF9ONFRtRDNGck0td21MbE5kRG16M2hDRlNWTlVIQm15OEQ1djZDTzBndEZDOUhDTmlIVlM2a29UZmpCbFgyQnpVU2ZoWHcycDhRVU1VZHdxVHVkTjViUzBhUTA1eHNySXlpc25hOUFzSk90RUxUWmpQU2Rr?oc=5",
-        "published_at": "2026-10-18T19:14:45+00:00",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-18T20:26:25+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
