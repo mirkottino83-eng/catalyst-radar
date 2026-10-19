@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-19T04:13:41.858151+00:00",
+  "generated_at": "2026-10-19T04:46:49.280565+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.43000030517578,
-    "wti_change_pct": -3.9246654306360873,
-    "brent": 107.8499984741211,
-    "brent_change_pct": -1.8296032450969002,
+    "wti": 97.5,
+    "wti_change_pct": -3.855639010858547,
+    "brent": 107.81999969482422,
+    "brent_change_pct": -1.856909616051039,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.81600189208984,
+    "dollar_index": 101.81199645996094,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.92%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.86%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T04:00:00+00:00",
-      "brent": "2026-10-19T04:00:00+00:00",
+      "wti": "2026-10-19T04:35:00+00:00",
+      "brent": "2026-10-19T04:35:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -31,10 +31,53 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "c17e8c86b2b7",
+      "ticker": "MSTR",
+      "company": "Strategy",
+      "category": "Bitcoin / Software",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "SoftBank reportedly considering Allied Universal acquisition as AI and robotics strategy expands into security - Asia Pacific Security Magazine",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Asia Pacific Security Magazine",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMlhsTHJWRGViQ0VNNXE3eHoyM2lmTDhuR19UMU9nbUFSd3dJa0JwelVqUVFrQklqaTVDYktneWl4clZhaFFOdFpLeGlBSTVyVDhMQXBHTFUzQ3ZBSmQ0dHdQbk5QY0x3aEp1YUpDOFA1UmNVQkJ2V3o5ZE1XVkpNLXdrb0I0aUZMQk1yMTBzSnpvbnc4Rzc3STAxUXBlVG5JSk1lbHNtWXRGRUQ4azFObk1UVVN6YTFhM3BhU2lSbFY0dkFoZ2VKeTRKWXA1RVdHWkFIeTNWamZQUEphWXhUeDhNUEVDTE5vb3Ew?oc=5",
+      "published_at": "2026-10-19T02:28:28+00:00",
+      "age_label": "2 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -10.44,
+      "short_term_change_pct": -0.35,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-16T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 3171.8,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 49.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-19T02:28:28+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "MSTR",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 100,
+        "catalyst_strength": 90,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 46,
+        "macro": 0,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T04:13:30.714591+00:00",
+    "updated_at": "2026-10-19T04:46:36.450281+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -77,12 +120,21 @@
     ],
     "geopolitics": [
       {
-        "title": "China's economy accelerates on robust exports as domestic weakness persists - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTENEdTFqcEVDV0MxeHJOT3pDOUJHU0ZfbTJ2ODJyV0UyRnhXNmdKZk9FZ1RBOGFpMldEMl9hcjllZW1ZYlJhY1U0anRrdkhKMjEwOV8zcEZjM1d2NDRMakVlajgwRVZFclk1T2k1eThpUjFOWEV5RTlHR1FTdHNCTi0wdUlKWnZaY1F1NjdfS28yMEFiRmhGSFJyOEZ1c2VRSm1DZVNrRWdnTk5VRV91ZE5aenZsNkd60gG-AUFVX3lxTE9Cd0gteUVkR0k4MVByQnBkdi1Zc2NUXzJ2eWQ0aVFtY0NpRm1QMWE5OGpaOHlQeEZEdGxFeG9GN2pkMEZMQUdVV0xWYUMwcll0SXV2elQxM0hQUTVKVlZqSG1wcklsYjZmbWMtOU5XMG00c25FZnp1QlpVaVQ3TWhPVWNGN2lMMV93QWFlWEJPS21XSTIxcWF1S3hIM1JKbTFCRGRyU2JHVUlERTFmSGV6Z091T3ZsTFljOXJnQVE?oc=5",
-        "published_at": "2026-10-19T03:43:55+00:00",
+        "title": "China’s economy accelerates on robust exports as domestic weakness persists - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSzRiam5xaTFKZFp1LU15cy1jVGlLOWZMN2Y1QURmOC1KbVZhdmN1Y3hiajNZRFdtQzRUaU14ZnFNQVFDSllrM0NYLTl3VEktUy0xTUwxZjNURGRKeDdhZU9XT3puYU5qODkyZndkY1hMcGtJTU4xVVpUVms1R1VRekF2eDhmX3FnNnRmUkVwbnNZZGFWWVZoZ04tZjZ5UllH?oc=5",
+        "published_at": "2026-10-19T04:07:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war' - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFJnZjhpc0RSeEJycTlra3BHZkZGQ3ZKSEhoRDN5R19wQldCSTQ1TUp5OHlMYXd2WFBKOTZSVldpV2h6Sm5xOWZpRWt1M3h3WHVaT1o5dThXWkQ2cm05WkdOZk91a3NETjNRbUtVdjFSOVVpMldfVVN4dnpLTDBTSjhSb2hlbHhFaE8yN1psZ2wycTI3eFczRjhraHJGQjVMUVR4UjVOUnV6TWPSAasBQVVfeXFMTUlrMGRUcmpXVVlUYzZKZ1NkdEZZSFYxQkZVYUt5WHQ4WGZkdm4ycUk1MzE3Q2E1WUJiTF80MTEydklJMXNOdk5RWmpVc290QXJyVmduOHN2NUVuOUVUeENPLXEtQklrWFBjbkxFYWsxU2Q5UFlsQnV0RlBlUHF3U2xHRUJvcGxWd3pRQnB4TGlfZ2JobXdUc0VVWFQyNzJDTUFwNjZzeUU1Mmww?oc=5",
+        "published_at": "2026-10-19T04:04:25+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -194,15 +246,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jTzFvVzZoMldNWlJEVTc2bUg5OEh5dmxlWEJvLVA2LWQxVks4c0pNVzBQVTFmZGhKYTFDZHZ5MGZIT1laODhMMHhNWV9qd3VXajRiU1Z0U2MzaDQ?oc=5",
-        "published_at": "2026-10-18T23:20:15+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi Arabia sends skyscraper employees home amid Houthi threats - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmNWR1JhdHgzVXRndW9RX0JYbEh5RV9PeThsVmJrM3AyXzR5WEtmOXN1YkIxWmF0OV8zWlk3X1FMalNwM3BJQTJLWU4yTW13dG1yM1NMcmdnRHRkZnFDUWg0VGZjYXFIdXZBenZVX2lLMUtOSjRvMkZJckVobWhPQU4zX2JkcmgwVVRfOWx6dzJFQTg5ODZEUHJBNWZEZ9IBngFBVV95cUxPZjRmSElfelpyenNzMm1SYUxmel9kQ1JUNkxmMGRLZ3EtTFlrMHQ3aEs4UXdZeGRsajVpUEhIbVNtX1JFbjAzY2xFWTdOSDR6VXdJbGhzUmRUYUk2c0RQVGlSSWJ4YmpGTTdpZkZYZlRBcVBHOHRGV2xUTFlwTjFvd2xIRlZnMHA4UjhJb0JPLXpmNXpjXzQ3d2xFSmdKUQ?oc=5",
@@ -259,6 +302,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "fda approved peptides for weight loss - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1hHUi1wODhVcENLOVVadkpUWEVHeG1wWE9peTF0RmZ6eWEwY0hGMEgyR1g3UThZRi1td1k4UXJ5MzZadDd4TkZlN005UjhoOGhXSnRvZFA3WldUS3d1S2Jkem1CVU1PVlpxWEtKaFVyUmxXa3lkTTVRWDlIMnd3TElVMjRGQU12Y0RVQjQ4cHlXbDFDZ2poSkdmRnBBa1ZqRUtRV1FpQ1g?oc=5",
+        "published_at": "2026-10-19T00:30:36+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
@@ -277,15 +329,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "CELC Stock Clocks Best Day In About 2 Months On First FDA Approval For Cancer Drug - Stocktwits",
-        "source": "Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWjhCdlhSQWVlRExjTzJLRlBUc0VtWTVJYk9zMnFCSjNWSU9HSW5iTExaTndBWG5oQU55b3lRNm16Um9KUnZMcy1fd0FNaS1VZFl3NmJxTmRrQnlHNHdPeEdHT1lWLUs1VHJTdF9ONFRtRDNGck0td21MbE5kRG16M2hDRlNWTlVIQm15OEQ1djZDTzBndEZDOUhDTmlIVlM2a29UZmpCbFgyQnpVU2ZoWHcycDhRVU1VZHdxVHVkTjViUzBhUTA1eHNySXlpc25hOUFzSk90RUxUWmpQU2Rr?oc=5",
-        "published_at": "2026-10-18T19:14:45+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWdNdGZSeFJpNll0RnpoS0VKUzFBaHRUYWFmcE1JUE5EVGEwWVlaa2ZoNkNsN1BiRExXMHQxR01pY3ZRV0NvcDdNNm9tN1BvdjBSZ2JuelRfT252ODVDY29sR0JMTXZhVy14NDFnVXJ4ZHhnUVBwbjZXTUkzUm5nWEpZeUlvWWY2dVVscS1Xb2Vwdw?oc=5",
@@ -297,7 +340,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 77,
+  "archive_count": 78,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
