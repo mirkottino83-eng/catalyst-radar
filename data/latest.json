@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-19T19:53:44.265120+00:00",
+  "generated_at": "2026-10-19T20:18:42.148158+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.44000244140625,
-    "wti_change_pct": -2.9287063538612546,
-    "brent": 109.43000030517578,
-    "brent_change_pct": -0.3914075211968182,
-    "nasdaq_level": 26435.005859375,
-    "nasdaq_change_pct": 1.1284477119360536,
-    "sox_level": 11350.009765625,
-    "sox_change_pct": 1.9099774345142873,
-    "vix": 18.1299991607666,
-    "vix_change_pct": -9.304655485984137,
-    "dollar_index": 101.99500274658203,
-    "macro_score": 70.6,
+    "wti": 98.4000015258789,
+    "wti_change_pct": -2.9681510970649194,
+    "brent": 109.38999938964844,
+    "brent_change_pct": -0.4278183306862582,
+    "nasdaq_level": 26430.887,
+    "nasdaq_change_pct": 1.1126908077328412,
+    "sox_level": 11316.343,
+    "sox_change_pct": 1.6076887672808793,
+    "vix": 18.5,
+    "vix_change_pct": -7.4537258037938425,
+    "dollar_index": 101.98400115966797,
+    "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.13%, SOX +1.91%, US10Y 5.14, WTI -2.93%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.97%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-19T19:40:00+00:00",
-      "brent": "2026-10-19T19:40:00+00:00",
-      "nasdaq": "2026-10-19T19:50:00+00:00",
-      "sox": "2026-10-19T19:50:00+00:00",
-      "vix": "2026-10-19T19:35:00+00:00"
+      "wti": "2026-10-19T20:05:00+00:00",
+      "brent": "2026-10-19T20:05:00+00:00",
+      "nasdaq": "2026-10-19T20:15:00+00:00",
+      "sox": "2026-10-19T20:15:00+00:00",
+      "vix": "2026-10-19T20:00:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,32 +34,18 @@
   "catalysts": [],
   "movers": [
     {
-      "ticker": "NBIS",
-      "company": "Nebius Group",
-      "category": "AI / Cloud",
-      "priority": "critical",
+      "ticker": "BABA",
+      "company": "Alibaba Group",
+      "category": "China Tech",
+      "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 3.81,
-      "short_term_change_pct": 1.71,
-      "relative_volume": 0.53,
-      "quote_at": "2026-10-19T19:50:00+00:00",
-      "early_move": false,
+      "current_change_pct": -0.47,
+      "short_term_change_pct": 0.03,
+      "relative_volume": 4.09,
+      "quote_at": "2026-10-19T20:16:28+00:00",
+      "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NBIS"
-    },
-    {
-      "ticker": "DELL",
-      "company": "Dell Technologies",
-      "category": "AI Infrastructure",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 0.35,
-      "short_term_change_pct": 0.93,
-      "relative_volume": 0.83,
-      "quote_at": "2026-10-19T19:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "DELL"
+      "tradingview_symbol": "BABA"
     },
     {
       "ticker": "LULU",
@@ -67,31 +53,17 @@
       "category": "Consumer",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 0.2,
-      "short_term_change_pct": 0.89,
-      "relative_volume": 0.81,
-      "quote_at": "2026-10-19T19:50:00+00:00",
-      "early_move": false,
+      "current_change_pct": 0.67,
+      "short_term_change_pct": 1.19,
+      "relative_volume": 1.42,
+      "quote_at": "2026-10-19T20:13:02+00:00",
+      "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "LULU"
-    },
-    {
-      "ticker": "ENPH",
-      "company": "Enphase Energy",
-      "category": "Clean Energy",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 0.49,
-      "short_term_change_pct": 1.07,
-      "relative_volume": 0.79,
-      "quote_at": "2026-10-19T19:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ENPH"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-19T19:53:32.954348+00:00",
+    "updated_at": "2026-10-19T20:18:30.274280+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -101,7 +73,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -122,14 +94,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       }
     ],
     "geopolitics": [
@@ -138,6 +110,15 @@
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjUxeXdZWDd5c3MxTHBocWZqajJlQ2UwRTF6dW9KMXh6Q1ROdllKRGZiMV9kWUhvRW9CQzNQMU1LYk80U04zc0dLU2ppcFkySWRjenZFSm8wQjA5QmRPVXhPN3dhMTZPdnFiWjh1QjZ6VDR1ZDg5dFFlZ0t0STJzZlBrUzBMQ0N1R1RTQ2FkekRVaTlPN3lPYU94ZjZRdktUTlJEeTVqSEVFamNkc1FWelQ2MnRNb25OemZ5aUx3dl8?oc=5",
         "published_at": "2026-10-19T19:43:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them - Scripps News",
+        "source": "Scripps News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjZnQm1nQlhYbXFUS0NwZER5Wmp6T3RtMGRuLVVxc1ppczJpeTBkSEM0ZVN1YmNOU21WZVJNTFBfbXl0NFhkMXZDNkxrSFlTajVTcG40MS1jc2c1OGdRTW1IZFA1MEdmZnFCUFdtY0JZSWlNeVphN2h4cXhoNXpKaklhRnRjWkxibExPQ2dXQ3lOcnRHcWZfWkRQMGI3S3Ixc3hfdDFOM2RMVmVlbWk1Q2FGTnE?oc=5",
+        "published_at": "2026-10-19T19:42:39+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -161,12 +142,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Houthi rebels strike Yemen’s government forces, killing at least 53 - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON01aUDFyR0hVZ3ZyLTRLNFpxbGJ4SlBTM0ZyMEpfRFRsZU9UOFZlR0l5TnY2WVBwVmd2TTNVT21pc3FBdVlrd04zRndnNmZoWDFKRUJjWFB0RG5qcllhY2U4bEhVakg5ZHNTQWxRVnE2RjlydXFCb3hmMk5VamV1cmpOYXI5elB4el9NV2ZES1FHdw?oc=5",
+        "published_at": "2026-10-19T19:10:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "US waives Russia sanctions as Gulf oil shipments face renewed disruption - Oil & Gas Journal",
         "source": "Oil & Gas Journal",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQY2x2RDB2SV8zZEpHNHcxNzBGMXlaRnBIUmhNajlWc1hwWjVsSnEtXzBJREYtZEE4TVRUUkxVX1VWYmQ1Tk9Za2plZ1BUMmtqZmJ3VTh6MlF5NEJuUS1STXl5NTRydkUwSHFLamtadkxPNHdaYk1UR3l0b0xrV1lPVldCRWcyUWxidVI3X3JrWEhPSUotUkRwSTlkQ09qUDFQTTJTZ3FZNmswNGRNV25vMm40TXNPcHZLeGRPaUZkTmhidGRsekZHazdyakJDVldvYjVXUzhyM1E?oc=5",
         "published_at": "2026-10-19T17:49:56+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Rubio’s visit to Central Asia boosts trade ties - Eurasianet",
+        "source": "Eurasianet",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yY0k4eS15SVV1LVRhUGlCWEQtMndzZHM1S0V6ZkZHMTNGWjc1WllzVzBWVlRCSGdlcjM1LUJPTE9BX05udjRQTjQ1WG9QZ0N3V2hiU3hsNUo1OGNxczdXem9CZWJMQW9oQ21xWmlrOThXTndBZEtyOA?oc=5",
+        "published_at": "2026-10-19T17:44:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -197,15 +196,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine conducts ‘historic’ drone evacuation of wounded soldier - Stars and Stripes",
-        "source": "Stars and Stripes",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVkxFc3gtUmRBbzRMQnVVRmNLbXYyV0ZnSFlnTHFmTEpENGw2eVhEWkhkTldHdVUyUzlGZDVlaVdUQ21lZlhUdUxhYUtrTWZnQnJzNzVHSDY0TTJvelFPOXpvaXhOenpSUEx5UjduQkM1dHpTVk9jRDE4OGpCYUtpSHZiSF9EaGtPT012OUVMZnZQUFQzblZXT2JhbnFHN1g1N3dMVTYzX0ZJUFRQTUdLdlRZbzJITDVndTIwVE9yNkhncTk2em8wOWtJWUJiZnhyMjhFYTdSWnZLY3paNXZMbGZPUFp5WVVaM2FjMXNhZjU?oc=5",
-        "published_at": "2026-10-19T16:22:53+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump signs executive order waiving Russia sanctions - WBUR",
         "source": "WBUR",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53QzBwWmRMY0dQaFpPMV95c1NENDVhZ3Atd0xtTUQ5ekg5T2JwYVBJMmJaXzRDY3EzazlscnVGb3FzT1ZBNUVGYVNzdjNqRXNGS3NsbEhWNG4tVndOcXZXLXdiZlh1dklUOWxxZ2RGdW9NY2s?oc=5",
@@ -221,15 +211,6 @@
         "published_at": "2026-10-19T16:04:30+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
-        "published_at": "2026-10-19T16:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -258,18 +239,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "The Determinants of Good and Bad Trade With China - World Politics Review",
-        "source": "World Politics Review",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdDBkZHJuS3M2X2dkWklTbzhLSmdsZVgwQ1hFZ3M0ZWpXb3pVdTdHTDgwT3h5b21Oa3lhajRJYU5WZGtrV3VoYjBmSFd2cVBBRTRORld2UkpxTHRrVU95S2h3bVhHTDY2TnZVMTRCd3VDY1BGV1RtQ0FZbVlTV1JXOFBUeUdBUS13VUlQZk9SWnp0T0VWTE14bk9xNVpfMkQ4WE5UMmNB?oc=5",
-        "published_at": "2026-10-19T13:14:39+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Haemonetics Announces FDA Approval of PerQseal® Elite Vascular Closure System - PR Newswire",
+        "source": "PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLTk5RTUwRlhjNGUzV2l3VEVGUWFFblgxSHN3MHdGLW9KSW5yLXZyM3VmQnJ4ajFnNEZadFd1LXItd011VzV6d3RucHppMVBUVnNvNnh3eGQzQUEwb0RwV05qMDV5dVZwNE90U3pqb2xySGNiX3psTlpfbzdLQ1I3SkRHM2tIT1drMnhZTzRGYm9UbUcwVkkwU2NKRGtYZ2dJZUxTZUxrSGFFdzBMb0drZHFSV1k2dTVpcllvUGQ0X0p4TkhVLUtieVQwUnI?oc=5",
+        "published_at": "2026-10-19T20:15:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "FDA Grants Accelerated Approval to Dostarlimab for dMMR Rectal Cancer - The American Journal of Managed Care",
         "source": "The American Journal of Managed Care",
@@ -283,7 +264,7 @@
         "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help - NVIDIA Blog",
         "source": "NVIDIA Blog",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaHh0dS1IVTRGYkoyUVNoWmlMUEZncElQVFVYMU9MeV9iMF9IRzJ3NFV1Wk5oRDlsdVNlUzQ1U3p0MEVmZFBBSkx5VnBKQ0tDZGdVTkUtaFZoc3JLamV6Qms0MXEzbW5yM1J0cjdDRnI5SWhKejFMcmhMNlNXaUg1MVZVQTlZXzQyUXJaS2Q4TkJMR29XbnI1bjNVZHBfOWMyUUE?oc=5",
-        "published_at": "2026-10-19T19:33:59+00:00",
+        "published_at": "2026-10-19T19:29:08+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -293,6 +274,15 @@
         "source": "Euronext Markets: Real-time Stock Market Data | live",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUFY0SXNTQXBFUmFVTjA2TFQxbmMwTFg4ZHNhMzZadGZtbEVVOWh1WDEwV2psdlJQaERwZ3lMQS1VSzZGQjRFQ1ZtaTVIamZNb0FFTDJZbDNxYUNqNDdQeWdCdmFPREhBTjA4VzU2RW5IZE5QRE1nUHNxX3hyRTdHNFZ5eUQtTEZPeTFqOVRid25EOXdUTEYwUml4UQ?oc=5",
         "published_at": "2026-10-19T19:26:36+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Amazon Just Made Its AI Chips Easier to Use. Should Nvidia Investors Be Worried? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORllCcFRXQVU5RUNTS0x2SjZUd1lVTVZSN2paX2J4YndOVm1ZMEpGMmwxdnJSMGd1ZktsQUtNTWFtSE92Wnh6T0JzY2dTU292UlgwV1cwdmZBZFd1dGlueTg5bDhGeVJTUTdpYTNINUZWblJKb3BXdlRESWg5OS1nU05CTjhvQlJ0azJvU0dHak52LWM?oc=5",
+        "published_at": "2026-10-19T19:19:02+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -325,15 +315,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Grants Accelerated Approval to Dostarlimab in dMMR Rectal Cancer - Oncology Nursing News",
-        "source": "Oncology Nursing News",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORVVza0tIMFlMT2FsSnZhUWRqVENKWjM4NUx0ZTNwRmJVd1NOLUVvV1ZjWjhfdml1NVVZME9oUlFpTmpnSDM5cW1nVFI1MHdzc3VsRzB1elZHVi10Uy15NnlWQXc4aU8zWDhyVDhjUWNiV3FzQjJHaWNGOHZ3dHJIXzhqVWkzWEpSck9FX0NlNVJ0bzJEUW92Z3JiS2t2MXZDbEtMcWdzRQ?oc=5",
-        "published_at": "2026-10-19T17:07:42+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia - The Information",
         "source": "The Information",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2RQSmZ0elVhQmxYNy1qajBvNDl5NlVmRlFfWlg1WHBtUGVicUNEZEFEbmR5eTVyOGY4cnpRc0tMVGxFTFIyV2pQTEtSLXpTT09KeUFndkV5bktmSERxQmcxX1FUNnhRMlZHdHQ4MnRMRzhuQ1JfajZ3Q1RncXRlVFcwNVBQdV93a0xvUVFEb2VfQlNvbG41dmVNSktQRk0?oc=5",
@@ -347,15 +328,6 @@
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGVNVWtyU1BHU0pGZFJTZk9RV3NHOXBoSHVqaHVEeXN1TEJveTNIVzQ4eGkxZ2RWbER1clItSk16ODNaVnBFbWhKamR1RURGdG90X3F0ZEF2bko3SW5mUGxjZzBKVm50UFI5eUp2ampsV08ySWlMUEZyQmRUd1M1NF91UGJoZWxiVmR5NGRCMmNNM0V2R3pLMVhBT05EbmRjY0dxMXlSNklIVE9xeG5DQWNPcjVXY1ZBRTBrVU9RMTNPaVJOUHpjS2RrZ3huLXlZa2c?oc=5",
         "published_at": "2026-10-19T15:36:43+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron (MU) Looks Cheap at 5 Times Forward Earnings. Can Its Profit Boom Last? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY2J6amZINXBXY3JoZ3dnZWRpS3VkSkFSU3p5TzQzSWJPUzZkWVFpZ2Rwbll6WDlOVTRtRWp3Sl9UYmcwcnZtQ0FvSXE1RGdiazZKby1RZXItbnkwUldIYkpuaUZ3UTZqWEtWQjRpRDF2UThxa1hmR0liUTFGUjE2OURTRVVyX3RGQTdQVGZOTWM3UQ?oc=5",
-        "published_at": "2026-10-19T15:36:26+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
