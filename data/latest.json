@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-19T18:08:50.729378+00:00",
+  "generated_at": "2026-10-19T18:45:09.879855+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.140000343322754,
-    "treasury_10y_change_bp": 4.2000293731689196,
-    "wti": 99.41000366210938,
-    "wti_change_pct": -1.9721920202900756,
-    "brent": 110.27999877929688,
-    "brent_change_pct": 0.3823030826614948,
-    "nasdaq_level": 26448.244140625,
-    "nasdaq_change_pct": 1.1790914243039685,
-    "sox_level": 11328.1259765625,
-    "sox_change_pct": 1.7134862864365497,
-    "vix": 18.520000457763672,
-    "vix_change_pct": -7.353673487672408,
-    "dollar_index": 101.94599914550781,
-    "macro_score": 69.0,
+    "treasury_10y": 5.136000156402588,
+    "treasury_10y_change_bp": 3.8000106811523757,
+    "wti": 98.43000030517578,
+    "wti_change_pct": -2.938569420491044,
+    "brent": 109.36000061035156,
+    "brent_change_pct": -0.455124701640397,
+    "nasdaq_level": 26452.08984375,
+    "nasdaq_change_pct": 1.1938033555008554,
+    "sox_level": 11345.6396484375,
+    "sox_change_pct": 1.870738830040719,
+    "vix": 18.420000076293945,
+    "vix_change_pct": -7.853925526765526,
+    "dollar_index": 101.98200225830078,
+    "macro_score": 70.8,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.18%, SOX +1.71%, US10Y 5.14, WTI -1.97%.",
+    "summary": "Tech bias positive. Nasdaq +1.19%, SOX +1.87%, US10Y 5.14, WTI -2.94%.",
     "quote_times": {
-      "treasury_10y": "2026-10-19T17:50:00+00:00",
-      "wti": "2026-10-19T17:55:00+00:00",
-      "brent": "2026-10-19T17:55:00+00:00",
-      "nasdaq": "2026-10-19T18:05:00+00:00",
-      "sox": "2026-10-19T18:05:00+00:00",
-      "vix": "2026-10-19T17:50:00+00:00"
+      "treasury_10y": "2026-10-19T18:25:00+00:00",
+      "wti": "2026-10-19T18:30:00+00:00",
+      "brent": "2026-10-19T18:30:00+00:00",
+      "nasdaq": "2026-10-19T18:40:00+00:00",
+      "sox": "2026-10-19T18:40:00+00:00",
+      "vix": "2026-10-19T18:25:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -39,87 +39,31 @@
       "category": "LatAm E-commerce / Fintech",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -0.13,
-      "short_term_change_pct": 0.02,
-      "relative_volume": 5.36,
-      "quote_at": "2026-10-19T18:05:00+00:00",
+      "current_change_pct": -0.02,
+      "short_term_change_pct": 0.04,
+      "relative_volume": 6.57,
+      "quote_at": "2026-10-19T18:40:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "MELI"
     },
     {
-      "ticker": "CRWD",
-      "company": "CrowdStrike",
-      "category": "Cybersecurity",
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "category": "Energy",
       "priority": "normal",
-      "satispay_status": "unavailable",
-      "current_change_pct": 0.68,
-      "short_term_change_pct": 0.26,
-      "relative_volume": 4.32,
-      "quote_at": "2026-10-19T18:05:00+00:00",
+      "satispay_status": "check",
+      "current_change_pct": 0.75,
+      "short_term_change_pct": 0.09,
+      "relative_volume": 4.34,
+      "quote_at": "2026-10-19T18:40:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWD"
-    },
-    {
-      "ticker": "PDD",
-      "company": "PDD Holdings",
-      "category": "China E-commerce",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 0.32,
-      "short_term_change_pct": 0.26,
-      "relative_volume": 1.78,
-      "quote_at": "2026-10-19T18:05:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "PDD"
-    },
-    {
-      "ticker": "MRNA",
-      "company": "Moderna",
-      "category": "Biotech",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 4.45,
-      "short_term_change_pct": 2.25,
-      "relative_volume": 0.83,
-      "quote_at": "2026-10-19T18:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MRNA"
-    },
-    {
-      "ticker": "AMZN",
-      "company": "Amazon",
-      "category": "Megacap Tech / Cloud",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 4.91,
-      "short_term_change_pct": 0.13,
-      "relative_volume": 6.71,
-      "quote_at": "2026-10-19T18:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMZN"
-    },
-    {
-      "ticker": "CELH",
-      "company": "Celsius Holdings",
-      "category": "Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 6.23,
-      "short_term_change_pct": 0.79,
-      "relative_volume": 1.95,
-      "quote_at": "2026-10-19T18:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CELH"
+      "tradingview_symbol": "OXY"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-19T18:08:38.295615+00:00",
+    "updated_at": "2026-10-19T18:44:57.273912+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -150,14 +94,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 10
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 15
       }
     ],
     "geopolitics": [
@@ -171,6 +115,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Rubio’s visit to Central Asia boosts trade ties - Eurasianet",
+        "source": "Eurasianet",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yY0k4eS15SVV1LVRhUGlCWEQtMndzZHM1S0V6ZkZHMTNGWjc1WllzVzBWVlRCSGdlcjM1LUJPTE9BX05udjRQTjQ1WG9QZ0N3V2hiU3hsNUo1OGNxczdXem9CZWJMQW9oQ21xWmlrOThXTndBZEtyOA?oc=5",
+        "published_at": "2026-10-19T17:44:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
@@ -180,29 +133,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump waives Russia-related sanctions before they kick in, prompting backlash from Ukraine and US lawmakers - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcUxZX3dkalpVUk9XMTJ3T2tmVUgzSEZkZ2RadHZPRHZtYnFWenlXeXMwTFd2TUU5bjFha25ZWGJ1SkVKU24zbERMb0llSDVYaU9HSGZKMUlSLU8xa3BQSnNpMm9QS19RTC1ZaGdUYkRabEh6ZFZlek1ZQm9VX0ZUbjdIVGFmbVVDeVVzTzV2VkhDNXZOMDdNbG4xbzlySmJJNFZ2eGJCUTdGbl81a2F3dmlJVmVvalYtVWd1bTNkQUV2REZPaWh2VXFQMkY2d2FSTy1yamlnd01lQQ?oc=5",
-        "published_at": "2026-10-19T17:19:12+00:00",
+        "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa1Zud0l3Tmd1WENUNlFUTXM3QjVudnRWdnVrTHk2enF0eTZsWmtyR1RsMFRmUHhHTzYyN2NRdVlNamlMUFhlNkNsUmI5TkQ3V1hhMV9ISVlPaUtxYkYybkJfYzljcFZsUWtjT2oxOTdPelJ4UmZMeVNDX0U2QVRLZ2tIdXo1NjBFMTFSVGZDOHN5Z1RMVGdUc3BzSi1oRE5FMTdSaGNBdjJyMUYwYjFKdWh30gG3AUFVX3lxTE9vR1ZvNVZoeWNMbnYtRWhPalliR3NjZ2NsbGNWckR6bURQN0JLYkxqQUtRZ2lJOGVtMnZ4T29yeEFBczlFQWVQR2xwb0lnTFdZelVOaUxKTVBEbTYwUzN0ZnJoekZQZUVmOXJYdFE0VEMwdVQ2MWxJZ1FQbDEyUy16ZTlhSXhfMGhKSnVoZS16bW5rcjJvb2RJTFRHcHdxUHltUkZSMHkzQ2tReklsNE1UT1N2NHNBOA?oc=5",
+        "published_at": "2026-10-19T17:19:53+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine conducts ‘historic’ drone evacuation of wounded soldier - Stars and Stripes",
+        "source": "Stars and Stripes",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVkxFc3gtUmRBbzRMQnVVRmNLbXYyV0ZnSFlnTHFmTEpENGw2eVhEWkhkTldHdVUyUzlGZDVlaVdUQ21lZlhUdUxhYUtrTWZnQnJzNzVHSDY0TTJvelFPOXpvaXhOenpSUEx5UjduQkM1dHpTVk9jRDE4OGpCYUtpSHZiSF9EaGtPT012OUVMZnZQUFQzblZXT2JhbnFHN1g1N3dMVTYzX0ZJUFRQTUdLdlRZbzJITDVndTIwVE9yNkhncTk2em8wOWtJWUJiZnhyMjhFYTdSWnZLY3paNXZMbGZPUFp5WVVaM2FjMXNhZjU?oc=5",
+        "published_at": "2026-10-19T16:22:53+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi Strikes Kill Dozens in Yemeni Desert Military Camp, Officials Say - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVWkyRTdNT1dhank1THc2cElOelBLdnR5MHZBajFsVTFKOEY1T0U5UllMVWlxOXlkOGNjaVZCLTFKM1lERUlpaTljdWtQcC13bzZHRTQ5dzc2UVhRRmNLWV9EcEM0dDhGVG9yWnZBdEpHbUIzSnVTVGM2ZGJBaHJMOHNJeTQyRlRockNjd2lMT2NGOEZPUWc?oc=5",
-        "published_at": "2026-10-19T17:03:13+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbkJSbjJvNXlfZno4WTB1WThtaVBPamI4NU1aanB4TVdGUUtVUzNIX2xObWVuQ1FxZkY0TDVkUlpqRE1sZDRvVFpZMVdidWRRcWpFYXFaZUxrV2JFbklqczBzYk0xRkRoR0t0MEh3LVduQ0lQX3RKQV90bzF1bGhRZEE2aDZHQV9vS1JmNjVMWTF4VS1fZWN4NGxlVmJaeTNqWUREMUs5S3h2bTRMTkgzYWRET2NSTGM?oc=5",
-        "published_at": "2026-10-19T16:35:00+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -231,6 +175,15 @@
         "published_at": "2026-10-19T16:04:30+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
+        "published_at": "2026-10-19T16:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -286,18 +239,45 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China is tightening export controls on drones and tunnel boring machines - Quartz",
-        "source": "Quartz",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05M3o2clVoSk5xTzE4WWJJOUYxWkRRcVd0bk96ODhtcVRENnBYRTh4Rk5JRlRQR2VKTXI4dDM1eURXWkdLbTdQWml3cWxNOWRNT1NNb2dKOHJLb2V6UU5DY21LVnJMX1diMnhWbGozWmpVVXhETXRnMHVzcnpCZw?oc=5",
-        "published_at": "2026-10-19T12:41:06+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Dostarlimab Receives FDA Approval for MSI-H/dMMR Locally Advanced Rectal Cancer - Targeted Oncology",
+        "source": "Targeted Oncology",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN1lSOVpsSkNQUHV5dlNxSlZaYmEyXzNhdmowb3ItWk9iU0NRRWVFZW1Gb3l4NzRJU3lrUGY2U05UaVFmeVQtN0FyTEU2bkRVRVJKb0RJOWdSZUJpbkZkXzd4eXM1N0tyOElVTkNQcWt3c24zb3A0RU1TdjcwaGNGc252S1VvalFfVklock8tc1Fxdw?oc=5",
+        "published_at": "2026-10-19T18:14:53+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Is Nvidia Stock Really Trading for Just 8 Times 2030 Earnings? - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTmNna0dmYkFSSUl2XzNQNHpzak9hU0xxdVdVUXFtRmh6WnB1UnZTa2pyZnFoUnZPYVhXZWNtTDlkR2k5WlFkN1lTM3ZPRk54a0Q2ZXkyV0hid2NQVFhHQ1RxSVdIRGdqQ2JiczgtNUd5dmFJZXYtOWt1TEpSZjltVk80UFlwR0lseTh0ZDh4WkNkZDJ4SDlLYQ?oc=5",
+        "published_at": "2026-10-19T18:13:03+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "GSK’s Jemperli FDA Approved for First-Line MSI-High, dMMR Rectal Cancer - GenomeWeb",
+        "source": "GenomeWeb",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWNBYzZqWTNDYVU1czZ1ZG45NXJUR2M2eXZuM3B6Z1ZyS1J5TTVSd0txRDAwM0NHamctQmU2WW00eDZqYTNtT3FtTEVsTGU0RVFUdVFJYnA2X0Y1VlhvUHdaelROMWFGcVNIN1Jqd0hOUjUxaGNBaHh2TFN5QXk5OXROdy1ndENiT3d1eG52T05VZGtFcjZfaE5KX2VqcHVaaFpSaFczRnpGZk83cGp1SU1PWQ?oc=5",
+        "published_at": "2026-10-19T18:13:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Third Wheel: Microsoft’s AI Chips Are “Nowhere Close” to NVIDIA or Google per Analyst - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaWxscjdzeUEyVFZ2b0lPdUtwOEVfN0F1ZWh5dlgtNlZSNVQtOFpEZlVWYWxtaVBWUnNWaU81UjBJQmh3UTRfYTNTYjNjOFJmNlJERk1kSVdBZ1FYd2VLNUlLcm5LZF96WWFmZk12R2kxV0NIWEp6eF9BN190NTJOSGNFNk40bWVONmxXTU9kd243NmYwVmkzc0pn?oc=5",
+        "published_at": "2026-10-19T17:40:07+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "GSK’s Jemperli scores FDA approval in rectal cancer, backed by high complete response rate - Fierce Pharma",
         "source": "Fierce Pharma",
@@ -326,15 +306,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-19T16:14:03+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia - The Information",
         "source": "The Information",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2RQSmZ0elVhQmxYNy1qajBvNDl5NlVmRlFfWlg1WHBtUGVicUNEZEFEbmR5eTVyOGY4cnpRc0tMVGxFTFIyV2pQTEtSLXpTT09KeUFndkV5bktmSERxQmcxX1FUNnhRMlZHdHQ4MnRMRzhuQ1JfajZ3Q1RncXRlVFcwNVBQdV93a0xvUVFEb2VfQlNvbG41dmVNSktQRk0?oc=5",
@@ -357,33 +328,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY2J6amZINXBXY3JoZ3dnZWRpS3VkSkFSU3p5TzQzSWJPUzZkWVFpZ2Rwbll6WDlOVTRtRWp3Sl9UYmcwcnZtQ0FvSXE1RGdiazZKby1RZXItbnkwUldIYkpuaUZ3UTZqWEtWQjRpRDF2UThxa1hmR0liUTFGUjE2OURTRVVyX3RGQTdQVGZOTWM3UQ?oc=5",
         "published_at": "2026-10-19T15:36:26+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Disc Medicine Stock Has Its Best Day Since 2022 as Drug Trial Revives FDA Approval Hopes - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOTQ1T0ZMRTVoVElSRmNHN3FjY1JPbC1MQmxweVhLQ0RUcU1wQzl5emFXcThmUXFnbmxKMkpodXhoYW9WTjlGeFJTUkpPWkRicXBqV2M1OHAtYTZYbVotaDV4X2tGTWZDZ0ZUREo3NVdYcWVpOXI2dDNnSVd2bmxHY2VIMzBobkY5ZVE?oc=5",
-        "published_at": "2026-10-19T15:28:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings. - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOUdZbkIzLXZ5YW0wMkVnUjFGR09FSERGOTRJUXI4Ql9aR1lWRmZwMXZYYzVqamNsSmR2VDdnMV9faFJrTXhKd3dYT20wemE3d0FUNWlvSENUVTdrSS1SazRFdnh3WU5vWkxVQU0xcDk5ajlrcjc5YmlpWk5FMWY1MWdBbEx2VVMxLWZfaA?oc=5",
-        "published_at": "2026-10-19T15:04:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron, Intel lead chip recovery, adding nearly $250B as most of Wall Street falls: Chart of the Day - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNT0Z3eDRfMlBlWFBxNzA0U2V4Tzc3OURubzBkWGNVb3prRFp1MVlZNjhZZUExWHhTbFJoRV9FUnprSEVsYTdsZ0w4YU5uSy1qMnp3cDZNckJrSWZwMTVZN0tLUVFSTjc2T3Z0bFR0THdRbkxidElYX0drR0tKVFVhSUdYX1NGQTJXV1FHX3ZDZ2NvaXludE9BVUxwa2J3N2tsRGE0WXlhYTRDb0oxNkFPZHpLeUozNkQ1cTViR1daNUtJWW13cThLbUJRRjlOSEtwanl2TmdLMVFrellyMGplVEFnUV9hd1lw?oc=5",
-        "published_at": "2026-10-19T14:43:02+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
