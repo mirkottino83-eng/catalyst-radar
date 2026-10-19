@@ -1,83 +1,98 @@
 {
-  "generated_at": "2026-10-19T20:53:16.105683+00:00",
+  "generated_at": "2026-10-19T21:15:04.529321+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.44999694824219,
-    "wti_change_pct": -2.918850810546969,
-    "brent": 109.43000030517578,
-    "brent_change_pct": -0.3914075211968182,
+    "wti": 98.23999786376953,
+    "wti_change_pct": -3.125930069879568,
+    "brent": 109.20999908447266,
+    "brent_change_pct": -0.5916635010628779,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
     "vix": 18.43000030517578,
     "vix_change_pct": -7.803899368704803,
-    "dollar_index": 102.0009994506836,
+    "dollar_index": 101.98100280761719,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.92%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.13%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-19T20:40:00+00:00",
-      "brent": "2026-10-19T20:40:00+00:00",
-      "nasdaq": "2026-10-19T20:50:00+00:00",
-      "sox": "2026-10-19T20:50:00+00:00",
+      "wti": "2026-10-19T20:55:00+00:00",
+      "brent": "2026-10-19T20:55:00+00:00",
+      "nasdaq": "2026-10-19T21:10:00+00:00",
+      "sox": "2026-10-19T21:10:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "a3388c9fd731",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Merz unveils partnership with Nvidia to boost AI in German industry - Yahoo Finance",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSHUxNDBVUl9zRVF2WDlVcGdLZ1ZUSjJLc1RCMW9kdUhWQnZ5NEE2NmVNaENyWjVzbVlCUEpjZC16ZHVVNDBkZktkczYxZDBJQnpxQXNxSFJaalFxMVVrRjlVSmR2NmNsbTl0Qk9rRFluSWttdWNTOVpnVmZncE9ORU81cGs3M0N3cU1vT2U4RmZaZ3BHZkdYb3FjeVl3TUE4RThj?oc=5",
+      "published_at": "2026-10-19T19:03:39+00:00",
+      "age_label": "2 h fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": 1.48,
+      "short_term_change_pct": 0.1,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-19T21:10:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 5.1,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 65.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-19T19:03:39+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 75,
+        "catalyst_strength": 74,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 51,
+        "macro": 68,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    }
+  ],
   "movers": [
     {
-      "ticker": "DELL",
-      "company": "Dell Technologies",
-      "category": "AI Infrastructure",
-      "priority": "high",
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "category": "AI / Cloud",
+      "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": 1.02,
-      "short_term_change_pct": 0.54,
-      "relative_volume": 5.85,
-      "quote_at": "2026-10-19T20:51:50+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "DELL"
-    },
-    {
-      "ticker": "LULU",
-      "company": "Lululemon Athletica",
-      "category": "Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 0.57,
-      "short_term_change_pct": 0.5,
-      "relative_volume": 1.66,
-      "quote_at": "2026-10-19T20:40:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "LULU"
-    },
-    {
-      "ticker": "TSLA",
-      "company": "Tesla",
-      "category": "EV / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 3.69,
-      "short_term_change_pct": 0.15,
-      "relative_volume": 11.05,
-      "quote_at": "2026-10-19T20:50:00+00:00",
+      "current_change_pct": 4.01,
+      "short_term_change_pct": 0.93,
+      "relative_volume": null,
+      "quote_at": "2026-10-19T21:10:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "TSLA"
+      "tradingview_symbol": "NBIS"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-19T20:53:04.633358+00:00",
+    "updated_at": "2026-10-19T21:14:52.007547+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,7 +102,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
@@ -101,7 +116,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
@@ -115,10 +130,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       }
     ],
     "geopolitics": [
+      {
+        "title": "Trump faces bipartisan backlash over waiving Russia sanctions - CBS News",
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVW5KeFN2cWxTOGpmS3RNdkl4WVhBTTJnbDYzNjJCWUpxSXAzYUdxSG9VYTVyc0s5YjZvdGgySF96X0tuY1lqeGRPb2lHMXNVYWdXTW1Da0FrNGFIWGFMUFhkV1ktejdSXzV6OU1CQjdkM3hGOG5STDhGZ0N1eERiZGtMUTBwYUpIMEJBZ1FsMTVpdzZWblE?oc=5",
+        "published_at": "2026-10-19T21:00:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "South Africa’s president eyes trade with China and India as US ties sour - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzZveUpibnJ4d3NZX3M3LUcxdmtNTGdGdzJtUU5rclJqNEk2QWNPc2p6T1VmMUpQTUZsV0VnOGc4UWdQNHp4SnF3bVl1YS1IUEhhNlhENl9GbTk3OUIzUDVYQTNIcUpHN0FMejhSTkx5QjUwdVZMX3RVVHNfNmI3WTN6cEU?oc=5",
+        "published_at": "2026-10-19T20:39:47+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Iran Shipping Update – October 19, 2026 - United Against Nuclear Iran | UANI",
         "source": "United Against Nuclear Iran | UANI",
@@ -183,15 +216,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Mitt Romney issues rare statement as Republicans challenge Trump’s Russia deal - Deseret News",
-        "source": "Deseret News",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWVvZVBhd2JfOVprYVg5RVozMWN4MV9icXFfLWJ4RDJiUjRjLTB0LXBpZ2p6eElWWnZCUGpFYjJKQXBkNTRxaUJpYmdZTDBnMDVPMFdlY0hyaDV5Umpnd1ZhY002M0ZkNlJ3ay1sbHgtSFZEcmI0YmNBRDlQODZURTRGUjYwNnRHbTBBR2o1eHdTZw?oc=5",
-        "published_at": "2026-10-19T18:47:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "US waives Russia sanctions as Gulf oil shipments face renewed disruption - Oil & Gas Journal",
         "source": "Oil & Gas Journal",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQY2x2RDB2SV8zZEpHNHcxNzBGMXlaRnBIUmhNajlWc1hwWjVsSnEtXzBJREYtZEE4TVRUUkxVX1VWYmQ1Tk9Za2plZ1BUMmtqZmJ3VTh6MlF5NEJuUS1STXl5NTRydkUwSHFLamtadkxPNHdaYk1UR3l0b0xrV1lPVldCRWcyUWxidVI3X3JrWEhPSUotUkRwSTlkQ09qUDFQTTJTZ3FZNmswNGRNV25vMm40TXNPcHZLeGRPaUZkTmhidGRsekZHazdyakJDVldvYjVXUzhyM1E?oc=5",
@@ -244,18 +268,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "The Determinants of Good and Bad Trade With China - World Politics Review",
-        "source": "World Politics Review",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdDBkZHJuS3M2X2dkWklTbzhLSmdsZVgwQ1hFZ3M0ZWpXb3pVdTdHTDgwT3h5b21Oa3lhajRJYU5WZGtrV3VoYjBmSFd2cVBBRTRORld2UkpxTHRrVU95S2h3bVhHTDY2TnZVMTRCd3VDY1BGV1RtQ0FZbVlTV1JXOFBUeUdBUS13VUlQZk9SWnp0T0VWTE14bk9xNVpfMkQ4WE5UMmNB?oc=5",
-        "published_at": "2026-10-19T13:14:39+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Haemonetics receives FDA approval for vascular closure device - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMGl6TDF4UGpXTGxIMUhYNWs3ZWQ2WURPclNEaWY5cnJpdEJoOWFWRlBLaXlwMFhJZE40TXU1LVRIM3NuZlhkTUd6NGtTZGEzc2VtaERwc2FiM25hV3ZOdFdOYy00aHUtQVhKQ2FfaGZ5dlNyakQ1eGJEOHBzZS1yb2FtMnFaWEJka3NfbmRrSVRXanZ2OFozRFpobDlQVkFoYzhkdTYydnhBMmxzVnk1aUZURXV0QkJRQUE?oc=5",
+        "published_at": "2026-10-19T20:46:04+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Haemonetics Announces FDA Approval of PerQseal® Elite Vascular Closure System - PR Newswire",
         "source": "PR Newswire",
@@ -269,6 +293,15 @@
         "title": "A study found an artery-sealing device stopped bleeding in under a minute on average. FDA approved it. - Stock Titan",
         "source": "Stock Titan",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1I5UjdyYU5UQVhzRG5EUndMWTljRVhERzlBcDBnSDlkRnNsTjdvUlAtMVc1cEFUUHJEQ3RlWG9oZ21UandPYXZDcVNDR0ZMZ3NvNXB2a0tsN1BOSG1mSUJ3cjFzR2dTU3dJWDlWQzlIVGNzZk5fVlRGQ1FLdlZ1YzhtYkRJcWVtMU03VVJQc1B3MGdLdlNrX1Y3TkF0dGlMN1ZxenFrb2pId0RUay1CMWEwbl83T0U?oc=5",
+        "published_at": "2026-10-19T20:15:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Haemonetics Corporation (HAE) Wins FDA Approval for PerQseal Elite - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0hrSms5dEdBd3RhdVFWa1d5WVh1VXNRWGxHdndnOFItOWlNOEJuWXhpelRKbG1Yd3lZbUxrRERIejRfcTVBYWNTRGkxMkdYY3Y3RWt4eXpHUS12OXV6WVVqSHlYYTVuZEw4cXlZOWt4bjdOT3JJLWY0MjN1ZmVPS2tOcEhTNUE1MWtJZFNfWk5xbHBROUtrZHcyOWpnTkUxd1ZvVE80ajVkb1h2Q0FmQ3JueWNNTTVCZmtDbmtwSm1JQk1E?oc=5",
         "published_at": "2026-10-19T20:15:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
@@ -320,24 +353,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Dostarlimab Receives FDA Approval for MSI-H/dMMR Locally Advanced Rectal Cancer - Targeted Oncology",
-        "source": "Targeted Oncology",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN1lSOVpsSkNQUHV5dlNxSlZaYmEyXzNhdmowb3ItWk9iU0NRRWVFZW1Gb3l4NzRJU3lrUGY2U05UaVFmeVQtN0FyTEU2bkRVRVJKb0RJOWdSZUJpbkZkXzd4eXM1N0tyOElVTkNQcWt3c24zb3A0RU1TdjcwaGNGc252S1VvalFfVklock8tc1Fxdw?oc=5",
-        "published_at": "2026-10-19T18:14:53+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA Approves GSK’s Jemperli for First-Line MSI-High, dMMR Rectal Cancer - GenomeWeb",
-        "source": "GenomeWeb",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWNBYzZqWTNDYVU1czZ1ZG45NXJUR2M2eXZuM3B6Z1ZyS1J5TTVSd0txRDAwM0NHamctQmU2WW00eDZqYTNtT3FtTEVsTGU0RVFUdVFJYnA2X0Y1VlhvUHdaelROMWFGcVNIN1Jqd0hOUjUxaGNBaHh2TFN5QXk5OXROdy1ndENiT3d1eG52T05VZGtFcjZfaE5KX2VqcHVaaFpSaFczRnpGZk83cGp1SU1PWQ?oc=5",
-        "published_at": "2026-10-19T18:13:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Amazon says its AI chips will work with popular coding language, challenging Nvidia - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGVNVWtyU1BHU0pGZFJTZk9RV3NHOXBoSHVqaHVEeXN1TEJveTNIVzQ4eGkxZ2RWbER1clItSk16ODNaVnBFbWhKamR1RURGdG90X3F0ZEF2bko3SW5mUGxjZzBKVm50UFI5eUp2ampsV08ySWlMUEZyQmRUd1M1NF91UGJoZWxiVmR5NGRCMmNNM0V2R3pLMVhBT05EbmRjY0dxMXlSNklIVE9xeG5DQWNPcjVXY1ZBRTBrVU9RMTNPaVJOUHpjS2RrZ3huLXlZa2c?oc=5",
@@ -349,7 +364,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 85,
+  "archive_count": 86,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
