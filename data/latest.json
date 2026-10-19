@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T22:40:53.079030+00:00",
+  "generated_at": "2026-10-19T23:06:35.339136+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.18000030517578,
-    "wti_change_pct": -3.1850934230273076,
-    "brent": 109.16000366210938,
-    "brent_change_pct": null,
+    "wti": 98.23999786376953,
+    "wti_change_pct": -3.125930069879568,
+    "brent": 109.27999877929688,
+    "brent_change_pct": -0.5279463206192991,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
@@ -18,11 +18,11 @@
     "dollar_index": 101.9729995727539,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.19%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.13%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-19T22:25:00+00:00",
-      "brent": "2026-10-19T22:25:00+00:00",
+      "wti": "2026-10-19T22:55:00+00:00",
+      "brent": "2026-10-19T22:50:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
@@ -44,19 +44,19 @@
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSHUxNDBVUl9zRVF2WDlVcGdLZ1ZUSjJLc1RCMW9kdUhWQnZ5NEE2NmVNaENyWjVzbVlCUEpjZC16ZHVVNDBkZktkczYxZDBJQnpxQXNxSFJaalFxMVVrRjlVSmR2NmNsbTl0Qk9rRFluSWttdWNTOVpnVmZncE9ORU81cGs3M0N3cU1vT2U4RmZaZ3BHZkdYb3FjeVl3TUE4RThj?oc=5",
       "published_at": "2026-10-19T19:03:39+00:00",
-      "age_label": "3 h fa",
+      "age_label": "4 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.57,
-      "short_term_change_pct": -0.01,
+      "current_change_pct": 1.69,
+      "short_term_change_pct": 0.18,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T22:40:11+00:00",
+      "quote_at": "2026-10-19T23:05:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.7,
+      "quote_age_minutes": 1.6,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 65.0,
+      "confidence_score": 63.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-19T19:03:39+00:00",
@@ -66,9 +66,9 @@
       "factors": {
         "source_quality": 75,
         "catalyst_strength": 74,
-        "freshness": 78,
+        "freshness": 62,
         "volume": 28,
-        "momentum": 50,
+        "momentum": 52,
         "macro": 68,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T22:40:41.708399+00:00",
+    "updated_at": "2026-10-19T23:06:23.549997+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,7 +87,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
@@ -101,7 +101,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
@@ -115,14 +115,41 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       }
     ],
     "geopolitics": [
       {
-        "title": "Pres. Trump defends decision to pause sanctions - FOX 8 Local First",
-        "source": "FOX 8 Local First",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZUFnN3FaaTJEX2YyUW5ldWpPczI1NUlaQW9YUFVoY3dIUzVTZUlDZk42aHlaSk15Z1FHd2w4QTZXenZiZ1NlMk93OUREVlF2a1VtMXNUTlMyam0xajBuSFhpNkNadEM0MFdtNFNDYktkN1pSS3lCU2ZKU2ttRFRHWFBEdnk2WDTSAZsBQVVfeXFMTnhXWlF2MURIbEEtWEhkZ3haZmxESXhrQzJRbl9TSTRjNEVuX0pMaU9fRWlISkVsMldpaGdOc3lyVEdNN0hfV0NGSEN2SzhRUnhmV1VWdnZWY0h3RXpxYzNZRXU2Z1E1RjBzVjdxeEtUa21CWFFqamlGc05xdFpzdnd6bjNaRlA4eW9nbTFVaUFmZzc1amNnakZ0UnM?oc=5",
+        "title": "Three Russia Export Cases Put End-User Diligence in the Spotlight - Global Trade & Sanctions Law",
+        "source": "Global Trade & Sanctions Law",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ1NDR0p4UmhkaklYbFJlQ1luWkhSaDBhRExBM21mOHA3aFhHNEVrWVZNT0ZJbXRLSTNjRXRld01udFozOXVha0hYZTBhRVF6eTk3Sl9GaUEzYkRtM0ZuZTlGb2xMVEhEQV9rajVlUzJaYlItbGhoY2Nhalk0M2E1d2dkNFBXbnhXcjEyZ2ltVkxWUQ?oc=5",
+        "published_at": "2026-10-19T22:39:16+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU looks to strengthen position in trade talks with China - Semafor",
+        "source": "Semafor",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMkJuN0NyTEoxVnJjQl9mb2tpckttZ2ZlNUFkbTJneURrUTZfdW81c1BJWXhWUllZamJ3dzRwV2toZDBnOXVOZGNMcENaWGd1bnM4REhUczAwUkJzcjlQZHA4RkJreFhKOU1YQmRnSVg1NWI1eWY2OW54UmJNZGdBbGtpSERscDdJb1puZGtRU3dNaTFXY3lUTUE5cXFaWTlvd0E?oc=5",
+        "published_at": "2026-10-19T22:37:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US sanctions 5 Chinese entities over ex-Google engineer’s AI trade secrets theft - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUlXRzA1YVNhSkh4U0dNMjVIZko0VHFqZHFaTlptUUdPTlFzU25TeFl3dXVnLVBMSGFXWExCMkpQRFpncV9VSjNncEVTTnl2SHB5R0ZmVGJnWUhBQUJXM1hibzdNVk1QVFdrOW1LVjBXQmVzNkN6bi01NFNPeHMtb1R3RkpLbl9XMkVWc2xrOTRKd3ZNUnBVUGdYeTdrNFZ5NEtiVDJ2Mm5tLWQwLTJkeDRuMkRaTU94anFQODZma0VlX0JIa1hzbmlQLXNIVWlYa1VJ0gHTAUFVX3lxTFB3SGxmMDdDZUNibnhKc1RHTGhSNzJZZFptRUh5NmlqRnlmUUE0bTAwMmMyNk15dUN1cTRFUmNqeDB3Nnh6VjdqSThnM3Q5ZmNxdDFRX0ptSjhDUnJLX1AtTEpBWWQwRFA2VzBJX2V6TWJna0IxWVdjVlVjMFpmZ3pVcWtzRV9aazdPeXpMSjcwMUN6NU9IRzZBcFdBeXZBWjlGQUJ6aHUwZEpHRFBmX19lOXg4Z3U3X1E3a3poX2ZGYVRvQ1VGMnhBZ29XZkJMWktuMG8?oc=5",
+        "published_at": "2026-10-19T22:36:07+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pres. Trump defends decision to pause sanctions - Gray TV",
+        "source": "Gray TV",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObFRqNEY5MnQyMjJ0VGt5UWF6dkZyd2NJMnM0QlA1TnJDUUJHM0hOWVhuV3Q0dHMzYVFua3RycmFnNmlKZ0FiWWlaMGxaNnFuamh5a2xScmxvWTl6UnhTUlZsekUwdWdZODhQVGhBaXQyMG5ONWpSWnAxZHVNa0k4Uk9xYVBxVUlDNjBzaUR3?oc=5",
         "published_at": "2026-10-19T22:14:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -174,15 +201,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjZnQm1nQlhYbXFUS0NwZER5Wmp6T3RtMGRuLVVxc1ppczJpeTBkSEM0ZVN1YmNOU21WZVJNTFBfbXl0NFhkMXZDNkxrSFlTajVTcG40MS1jc2c1OGdRTW1IZFA1MEdmZnFCUFdtY0JZSWlNeVphN2h4cXhoNXpKaklhRnRjWkxibExPQ2dXQ3lOcnRHcWZfWkRQMGI3S3Ixc3hfdDFOM2RMVmVlbWk1Q2FGTnE?oc=5",
-        "published_at": "2026-10-19T19:42:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "US Exports to China 2026 - The US-China Business Council",
         "source": "The US-China Business Council",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYWUtwNkdSdTh1TUNxWVVvOENDVGJEd2hic012SFpHTEJuTzZLdWNhVzNSMWxlbDVkVGdJMml5VV85ZnNic2hxYnRvc2NMYUszMFBXMGVFdlZhYnJSdWNjZnc5Tkl6X21fM3c?oc=5",
@@ -219,10 +237,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi Attack Kills 53 at Yemen Government Training Camp - Algemeiner.com",
-        "source": "Algemeiner.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQTA1MjFNWGZoOFpZNWZJMkxfU3IxSjRDQkg3b1BFVzFfOXV5VnFLMV8tUDVxQm1VMHR0azBuTnNFWUx2aEwtUkhvRFBLbGlPQkNQU2NJeVpMR1JMWkZFRjQzU3YxNlpKNDRTVC1VQUJ1WnJucEdEcVoyaUJTazhqcjBkZHFIWk1TTXdkT004R2MzNl9FclN3?oc=5",
-        "published_at": "2026-10-19T16:38:00+00:00",
+        "title": "Houthi attack on Yemen army camp in Shabwa kills at least 53: reports - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURxelJpODVFeDRIVWZNaEk5cFZlYXpMdUxxa2owdTRGbmV4SHI2a2JHaDluMzRTNFdobDdNeUN3ZHFuR1hfQ1lmSU1aWXFJc0hVaklCaWw1cEJjUno5Uk1Dc3FCcktyZV9rX3J4Rkd0UDZtMXV5NGhacDRHTTdoZGRkRGJNcG1QajFvYXk0Mkt3MS1UeDN5eW03U05COXVzOWFPbncyZFV2UkZVb1RMadIBtgFBVV95cUxQb1pVOUxXRU1SdmVLRmRkVE5qRDJ1dzdoM3JfZFlZSmxKa2d3a28yTXVReGFyWEtqNVN3ZmRIX1ZseWpsNzRscDVLZWFiellubjJsOW9iM1ZyT0FkUF9MUWljckF4WFdrSmhwd3pBWG15dGl4cXJyV2ZBY2RveFdkS01xT1hkc3JHMXFzNXFfVy1MUk9vNk1ocEVKTGFnMjROcVlMVmF1X3NYcVU4Rkd3TDNsTG1Ldw?oc=5",
+        "published_at": "2026-10-19T16:04:30+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -235,50 +253,32 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Is China building a fleet of drone motherships to extend its naval reach? - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOODNoMEFjZ05NbE5KN2lZNTA4eVdqY09JaUo5RGRDNnNka09mZlQzei1nemU0cHprcVU0cHpqbXRhU2ZrZ2hwYThTVkY4Mm5QaU9tOHdhTzF4WmxFcjBGQUVjaHZQUVByUXFGdHFUWjRCLU9pOGJWUloyUm1CM2R3X0F1Um9FSmNfeHZsbHNQeHhRQ093al9rbTBPaGZEQzVJR1JRTThwcm9CVFh1cE81TXdadHI2RkR1MUHSAboBQVVfeXFMUG14U1V0THNyWDNRTWNST1htU3NYMEU3WkkzNU8xT0hMTG1WTEw3ZC1xem5rMGVlVmZoaUpGcXROTFBVN1FLdW1zazN4TlZfVFJzUm1YWWVtRlJ5TFFKQVhkUVFVNlZ3eUZpTWZxbGdwcm5CaGxzVF9ReVJUWlJ1bWF3aDNNM2hFeFgyN29oUjJ0UkctaE16TExPcEVnbkl6Q2lseWdtUG5nVmY0Wm96TUNsSmhwTEpwQkJ3?oc=5",
-        "published_at": "2026-10-19T14:00:06+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "The Determinants of Good and Bad Trade With China - World Politics Review",
-        "source": "World Politics Review",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdDBkZHJuS3M2X2dkWklTbzhLSmdsZVgwQ1hFZ3M0ZWpXb3pVdTdHTDgwT3h5b21Oa3lhajRJYU5WZGtrV3VoYjBmSFd2cVBBRTRORld2UkpxTHRrVU95S2h3bVhHTDY2TnZVMTRCd3VDY1BGV1RtQ0FZbVlTV1JXOFBUeUdBUS13VUlQZk9SWnp0T0VWTE14bk9xNVpfMkQ4WE5UMmNB?oc=5",
-        "published_at": "2026-10-19T13:14:39+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT09KR2R3TjktZGltSk9PMGtKcGVMeFBuSmR5eTVkMERSbkVuc0d5bGhnanJ2WloyWUtULU1PTkFVQlNhaklmWmJESHF2cEV0Q01YQ3NBb3RxWklLQlNLelBEMzVBSF9nZ09Uc0FjLUhHUmhOeUF1Z0pObndUclVjT0s2Q3Fka2Z6dWltWC1MQ0g5cmo0V1dUeFY0M3hEOE5aSzV3RjdZZ2JFUTU4TEE?oc=5",
-        "published_at": "2026-10-19T21:11:49+00:00",
+        "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3. - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
+        "published_at": "2026-10-19T22:40:17+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Haemonetics receives FDA approval for vascular closure device - Investing.com",
-        "source": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMGl6TDF4UGpXTGxIMUhYNWs3ZWQ2WURPclNEaWY5cnJpdEJoOWFWRlBLaXlwMFhJZE40TXU1LVRIM3NuZlhkTUd6NGtTZGEzc2VtaERwc2FiM25hV3ZOdFdOYy00aHUtQVhKQ2FfaGZ5dlNyakQ1eGJEOHBzZS1yb2FtMnFaWEJka3NfbmRrSVRXanZ2OFozRFpobDlQVkFoYzhkdTYydnhBMmxzVnk1aUZURXV0QkJRQUE?oc=5",
-        "published_at": "2026-10-19T20:46:04+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Did Foundry Win Just Shift Intel (INTC) Investment Narrative? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQmt2MXZ3aVRLRm5lbG1yQmhuTDZMaThKTDNVZkFwY0NrZkZXX29hYklOTnY2d1hvUGRvdFlqd3Y0MGFfYUJGWmx0LU40c1BMX2ZoSF80MV81TXFXT2JiTF96bEdyWTQ4elBHQndJclA1VDhsTjVEb2RLakwzU2FLRzQtQXFnY1Y3RUlYMlZsNDVsSmNkQWc?oc=5",
+        "published_at": "2026-10-19T22:15:39+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Anthropic, Nscale in talks for new $45 billion AI cloud computing deal, Bloomberg News reports - Reuters",
+        "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGMyclR5X0JrXzBKem90Uk1sZnBQNkcyRnlyc3ZnWTM4Q0ZoUWtKUzRrd1Y3aHlqaDRjT1pfaFdmV0pHYUFROFI3TFhTWVhtczJsM01PSF8tSEtXejB4emlhVjZGMmQzeWh0RXJoaS0tNDQ1SDhlZDRJZU5hZG5ibE85N3dxU21DS2ZKYm1NV2pVUUF4ZjF3XzQ1ZncwaHVMdXlWZ2FsWjRtQ1d0eFN2YUVQc2x4cTd6YjNwSTVuVUFQZw?oc=5",
-        "published_at": "2026-10-19T20:45:10+00:00",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT09KR2R3TjktZGltSk9PMGtKcGVMeFBuSmR5eTVkMERSbkVuc0d5bGhnanJ2WloyWUtULU1PTkFVQlNhaklmWmJESHF2cEV0Q01YQ3NBb3RxWklLQlNLelBEMzVBSF9nZ09Uc0FjLUhHUmhOeUF1Z0pObndUclVjT0s2Q3Fka2Z6dWltWC1MQ0g5cmo0V1dUeFY0M3hEOE5aSzV3RjdZZ2JFUTU4TEE?oc=5",
+        "published_at": "2026-10-19T21:11:49+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -320,6 +320,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "FDA Grants Accelerated Approval to Dostarlimab for dMMR Rectal Cancer - The American Journal of Managed Care",
+        "source": "The American Journal of Managed Care",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcncyaHpmWGZxa1NoQjVOTk9pWmFkUUE0UExUbzFRcGFyM2xCaV90NkNGSEtxWnZhdDBYWnA1eHpIN3EzRVc3a2hTNmplMFhsYkh1d1JiQUJBN0tFc0xkVFdiVHFVX1drQjlHRWV6UzFlaEFWdTFYQ2ZHUGFaTm9UQm81aEo0Qk1tV3lMYzZGeHBHbWtuazRfTlFHNA?oc=5",
+        "published_at": "2026-10-19T19:47:59+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help - NVIDIA Blog",
         "source": "NVIDIA Blog",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaHh0dS1IVTRGYkoyUVNoWmlMUEZncElQVFVYMU9MeV9iMF9IRzJ3NFV1Wk5oRDlsdVNlUzQ1U3p0MEVmZFBBSkx5VnBKQ0tDZGdVTkUtaFZoc3JLamV6Qms0MXEzbW5yM1J0cjdDRnI5SWhKejFMcmhMNlNXaUg1MVZVQTlZXzQyUXJaS2Q4TkJMR29XbnI1bjNVZHBfOWMyUUE?oc=5",
@@ -333,15 +342,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORllCcFRXQVU5RUNTS0x2SjZUd1lVTVZSN2paX2J4YndOVm1ZMEpGMmwxdnJSMGd1ZktsQUtNTWFtSE92Wnh6T0JzY2dTU292UlgwV1cwdmZBZFd1dGlueTg5bDhGeVJTUTdpYTNINUZWblJKb3BXdlRESWg5OS1nU05CTjhvQlJ0azJvU0dHak52LWM?oc=5",
         "published_at": "2026-10-19T19:19:02+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia - The Information",
-        "source": "The Information",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2RQSmZ0elVhQmxYNy1qajBvNDl5NlVmRlFfWlg1WHBtUGVicUNEZEFEbmR5eTVyOGY4cnpRc0tMVGxFTFIyV2pQTEtSLXpTT09KeUFndkV5bktmSERxQmcxX1FUNnhRMlZHdHQ4MnRMRzhuQ1JfajZ3Q1RncXRlVFcwNVBQdV93a0xvUVFEb2VfQlNvbG41dmVNSktQRk0?oc=5",
-        "published_at": "2026-10-19T16:00:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
