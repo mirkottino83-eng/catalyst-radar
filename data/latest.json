@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-19T04:46:49.280565+00:00",
+  "generated_at": "2026-10-19T05:19:08.964195+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.5,
-    "wti_change_pct": -3.855639010858547,
-    "brent": 107.81999969482422,
-    "brent_change_pct": -1.856909616051039,
+    "wti": 97.36000061035156,
+    "wti_change_pct": -3.9936918504136165,
+    "brent": 107.87999725341797,
+    "brent_change_pct": -1.8022968741427725,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.81199645996094,
+    "dollar_index": 101.83000183105469,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.86%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T04:35:00+00:00",
-      "brent": "2026-10-19T04:35:00+00:00",
+      "wti": "2026-10-19T05:05:00+00:00",
+      "brent": "2026-10-19T05:05:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-16T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 3171.8,
+      "quote_age_minutes": 3204.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T04:46:36.450281+00:00",
+    "updated_at": "2026-10-19T05:18:58.020985+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,7 +87,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -101,7 +101,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
@@ -119,6 +119,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Iran says two Hormuz tankers hit mines as Brent touched $110 and China’s September fuel exports jump 39.4% - Oil & Gas Middle East",
+        "source": "Oil & Gas Middle East",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8tc0xFRzZmNWF0N3lKb2tvXy1kWHdJNGRhZThYV09oV3lEVTgzb2JGaF9Ob1Q2QTEzNVFsOHhGalV4Vk5yaWxDWk1IVnRLd3ROVFktb3BVb0t5SFc5cFZMaVIteTQyM2hmaGxhbnI0RTJneS1RbE95RlFqUQ?oc=5",
+        "published_at": "2026-10-19T04:46:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Watch PIIE’s Lovely on China-US Trade - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNG04MU1nSlhIeUxZalZJUkNDWUlDSW5zVV90X2tWcXotTFlPU3RTWkJLRlVXcHJ4cU9OSWFKdTZuWHpsSDkxZ0o4M2ZPWDNKNndsd09odnhjak9QcHdfOXhJbmpPLThqRzFrYzhMYkh0Qk5sQ0g2dlNqQ0FENVZzZmlwU1M5aS1yb2ZWTmtZQQ?oc=5",
+        "published_at": "2026-10-19T04:20:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "China’s economy accelerates on robust exports as domestic weakness persists - NBC News",
         "source": "NBC News",
@@ -138,12 +156,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump defends Russian sanctions relief, lashes out at Zelenskyy - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORXVUc3p5OTNTUjNYTVkyMzd1bHMwMGhyRkw5Y2xMRmZMQS1qMGxuMUFnYWpJdzVLU2JUeFgyNkZzb2dIVU9QOXppTDFTcnNmbHBvWjlGVnVobnlhMnFFME12ZERqR0JUVUxuQ09sUGFuV1lnZlBHQ1p5V296RWdrcGs2bmlTTUIzS1NZQ21ILTR1eVdBcEN5V0xINmhoRXFYLVh5YldINNIBrAFBVV95cUxQazNtdU5PdWJ0Yko0YVFxaFJ0d1E0NUktYnVYSVJDc2J4TVNpWWZFTFA4aWg4MVB5SERmekpnQlFBbkFmSnlsVktsN01sNmlyTTFrNENkaHRPSEU4WEtDZ0RtTlpPV2ZGMElQeUFOMzRzTHRkQ2h0dndsSjl6U1NfX3RWSjZxZFlCMEhjM0paS1R2Zzg1U3dQOW9QWVVhQ2JRWGVsQXF3VVZDMUZO?oc=5",
+        "published_at": "2026-10-19T03:15:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "New Zealand's Trade Gap With China Widens as EV and Phone Imports Surge - Briefs Finance",
         "source": "Briefs Finance",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOekkwR292eTRFY1dIVEV6VXNwMVdfc05zbzc3NnQzMFpId0dVQ2E5RkFnOFdlTndvUnNYdnhzeFUxblptTHk3SkViVjlUVWduQzBNcjkwUk56U2NGQWE5TFhwcHIzaGY4ekI5TDBaOThHOGl6QjNfMERsVHhQcXBIbVUtemQxdGhoMHBZX0lWSXk4dw?oc=5",
         "published_at": "2026-10-19T03:11:54+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcEJCSHJCeWRoX05HaTVfaElIWE11RVVPQkE2bzk1dUVjVm1ZT3JMRFV3Wm9GdjVXOGZSMEc5T2MzVlkzdk9hXzVQaGRmUVdTSXV4a1RxemFyUXVhS0c1cWE0eEZ4c2RvRG5hMUVVZ1JabldKcXVnRnlXUWFDZlQ4c0NtZG1CNEpVLTl5aHdtSGZHZ19YdlpZOXp0QW11Q3p4eEx2R2xsMlh5dk1OenRqS1lTSE5xUdIBuwFBVV95cUxQUG1DbHYyV01VRGEwR1BKOWtXWnJ4dFZqZDBCbnZMb19vV3E1Y0NabzJqZGt5Y3NSS05JT3QyR2xnOXprX2NnR3FxbWc3dk5EYXRfRzdwLTRBX21YUXFHdlZnc2F5Wm1zbkI4REk4ejk2VmFIVm94X01TMWp0SUJ1dVNvWEZjSzVlVndwTlpSUEJ0OTFXcXE2Qnk1LVlEVXRPSjNVQUhSc0hfbVpJY2w4dm1Zalg4QkIwNHpZ?oc=5",
+        "published_at": "2026-10-19T03:01:52+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -201,20 +237,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "New Zealand’s Trade Deficit With China Widens on EV Imports - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUDRtTTRpN0QwMGstbG05Y3RObW44UFFRY2ZiclhKOUctbmlPcDhMNUVKbUNjSURoQjY5alpsNHJDWEd2ajZiX1M4MG8wYTdyYjRsSUZBSWtSMnZOaFBWeWZZMFYxVjlRc1lPZ24yejZIV2VfVThSdUczcEZaZHRqbmVWWlV2OTNzUDFBc1BReFk5NnR2MFEwd2l6NnVncnZmOTE0T1lTYkpGWXFhZW9r?oc=5",
-        "published_at": "2026-10-19T01:14:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS0hLWEJLMnJtamZLbEhtMUZleWYyMUN6dFRCMjhuZGd0Vy1ucmMwUm01OHZPY2RCWE00QVAzNEtrNXZtajVTUTlJRGFHOWk4VzNxNnc0YzJlOGVpakF6VW5EZzFubGxYdjNsNmVUR0k5azk3amZ0TWJGeURrTDNtNkFocUFNd3NnckxxQy1oanlyclQ5aEM2NXdWM0dma0ZGeFlqNldOdDdoakh4Q2pQcUtmSDBQd9IBuwFBVV95cUxOTjlHLThmNE45Z3gteWs3S2VvU1hRTGsxdml5eTF3d0paWS1rNFhMVENZbHlKTFctcTRhcENxNzlqRXJVMEhQeVpnMzFaRzhUZ2l5ZGZrTjdOdlI5SEdPNjdxTFJ3MHpiaXBMeF83ZjBKeDVrenh6QVlyVlFUa2h5Tm5wc1hYbEtOYk8zak9GeW1TSHlZWDRPaFZiNFBxVUxnWEI3Sm5GYWJmU1JhVXRVR1pnaU0yTV81Sk5J?oc=5",
-        "published_at": "2026-10-19T00:55:06+00:00",
-        "area": "Russia / Ucraina",
+        "title": "Saudi Arabia on edge: Iconic Kingdom Centre sends workers home amid Houthi attacks - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ2FBdlVvdkdPcnFjODk1dGVid0RPQl9SM2VYMHpMQ194QURrVUp3aXFsWWxJZ1hqbmppNXoxcWZRYzVRWFdKWTNtWm1Lcng4NTF1V0xnbGlkWXc5QU9NcXhIbENSVWJRYVVuRWdCaVJ4aER6ME5WUmlyenQ0RkhsMTFnTF93RnotaFZ6dEJTaEx0VU5pNlJ6dmhSUFVrRTd0YUoyenVtbmp4Q01P0gGyAUFVX3lxTE9RMERTQzE0b3J6WGl5MlJ3ZEtTVkdDY1o4eWJja2U2NWhVaFE4RUlPSWl1ckhwYnJtYnVyZmxuRjFFUXVzQTZyWU1EWEFEUDdHeVlaN3RjdzNxWjhEdXRhTVc0YWlYMDJTckVuNWMxN09WTkRMb3hFa3RkbWJPeHdQbEo5c1R0eXNYQ0huS3NHeEc4enFBa3JtMjNmMm5uZ0FWT1RaZ2tTT0NhbU95b3FLUFE?oc=5",
+        "published_at": "2026-10-19T00:45:15+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -226,36 +253,18 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaWsySUdqRXczLV83Nmpna2E0aGNFVUo2YnlQV2pkdTFSeUI5ZmRSTHhZWjh1WnpBeG95WmFhNkl0bW92MkEzcHRhZ04wdUVOTDd3OXhkOFpzT19YdnJocmlOSkZzMHlNRlFRemlOci1OTEVUZG85OTJrZHZQS0cxUXA4T1lZZTlxUmhFMjlqNGtEZTNOTVY5NHozOA?oc=5",
-        "published_at": "2026-10-19T00:05:08+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "60 Minutes Transcript: Helium in short supply as Iran war continues, with spot prices tripling - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZDJUVTF1aUgxX3A1NFRZaFpfYURPazBpRldGNERsdUcteWZ1amdxcnRjTVVpMTFxaFhuWHVHUU5jcFU4ekdqN1JyV3hvdFJvM3BnR2RqU2w4NUUzSmhaalBTWldqeHZoM2dhRVcwb1hjX2lpMEJEMEwtNVFEOF9Nalc2dklfVzZJRzZXLXd4a1dSaGJIMFFNWTBWSnk?oc=5",
-        "published_at": "2026-10-18T23:39:01+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi Arabia sends skyscraper employees home amid Houthi threats - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmNWR1JhdHgzVXRndW9RX0JYbEh5RV9PeThsVmJrM3AyXzR5WEtmOXN1YkIxWmF0OV8zWlk3X1FMalNwM3BJQTJLWU4yTW13dG1yM1NMcmdnRHRkZnFDUWg0VGZjYXFIdXZBenZVX2lLMUtOSjRvMkZJckVobWhPQU4zX2JkcmgwVVRfOWx6dzJFQTg5ODZEUHJBNWZEZ9IBngFBVV95cUxPZjRmSElfelpyenNzMm1SYUxmel9kQ1JUNkxmMGRLZ3EtTFlrMHQ3aEs4UXdZeGRsajVpUEhIbVNtX1JFbjAzY2xFWTdOSDR6VXdJbGhzUmRUYUk2c0RQVGlSSWJ4YmpGTTdpZkZYZlRBcVBHOHRGV2xUTFlwTjFvd2xIRlZnMHA4UjhJb0JPLXpmNXpjXzQ3d2xFSmdKUQ?oc=5",
-        "published_at": "2026-10-18T20:12:41+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "fda approves eli lilly weight loss drug - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTzlwa3VSLXRORHRpNlhsRUNycHMtdnVEaTNRd0xiQy0tMkxUMmlyV3piN0NCWExrc3Y5MU9LVDV1MlVkNE9hQ2pObGVJYWNwdVBiXzZLbGtkVkd1Nmx5U0Q1MmpkdG0wTDBsd01KcXNTNHNsV2hmeVRNNXM4alRSZS1wQ2xNa2tVQnA2b0Z4QUR3Zw?oc=5",
+        "published_at": "2026-10-19T03:13:37+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Incredibly powerful RTX 5090 gaming laptop with Intel Core Ultra 9 275HX CPU and 64GB of DDR5 RAM gets $909 discount in Newegg deal - PC Guide",
         "source": "PC Guide",
@@ -297,15 +306,6 @@
         "source": "Simply Wall Street",
         "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNVTdkTS00ZGtSMXp1Sm5nS0szYWF0NENMSEF4TW11ejhTWUlCMlF6czl3aE12WW1HNHh1NXBySlBVSHg5LXphVU1RMUZ6bTZKQUxpaWNOWTBNT2tfT0FjMHJoSVVWT1JDaklRTHJvMWRRdW9pakt4VktFWnFqWTFiMEVGZVIwRzNjdTF3M3prWlRDem45eE5XbENhelo3dTh3dGF3dXplSEF1dm1NcnZhNktTZndOYlB1ZXRDTjEzdzl4dVhTZDJEbmJVUS03WmM1TTNjaTVpYTJvUk5haTkyVTFCZmNNcDZFWFB4ckhPbWpKUlhvWXE0WmJtSGtBRnVNZHMyUFA2S2PSAY4CQVVfeXFMTUh1LTlmVXBDbU1kTjZTUUF2ZlI0Rm0yWWJwSzVFMHZNeFpTemdaNmszWDhxNmIyVW43blhKaFhzWW52aDJpU3Z5MVFaLWZrbUFEZllGT3dXd2c1X1ptQnQ4dVUxcTc5NlFwLUJSMW8zcno4bkpTdTBzd0RrdnZqR0tmZmVUS0RVMC1RUXRJdjNESFZnU3VHc25WbFFnZDF5NVZwQUVxdkVyT2pTWXRVdHI5SlEwN2tkUC1seVJSc3pjSFlMaU5NNmsxUWVtdDlJTmpnT21LemxDa2FzZUd2WG4tSGU3U1NPX2Z4NlRWOVljOEJXVm9oQVUxXzh2MVd6V3ZvaDJDTDZnSFYwT0xn?oc=5",
         "published_at": "2026-10-19T00:38:08+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "fda approved peptides for weight loss - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1hHUi1wODhVcENLOVVadkpUWEVHeG1wWE9peTF0RmZ6eWEwY0hGMEgyR1g3UThZRi1td1k4UXJ5MzZadDd4TkZlN005UjhoOGhXSnRvZFA3WldUS3d1S2Jkem1CVU1PVlpxWEtKaFVyUmxXa3lkTTVRWDlIMnd3TElVMjRGQU12Y0RVQjQ4cHlXbDFDZ2poSkdmRnBBa1ZqRUtRV1FpQ1g?oc=5",
-        "published_at": "2026-10-19T00:30:36+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
