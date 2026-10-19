@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-19T20:18:42.148158+00:00",
+  "generated_at": "2026-10-19T20:53:16.105683+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.4000015258789,
-    "wti_change_pct": -2.9681510970649194,
-    "brent": 109.38999938964844,
-    "brent_change_pct": -0.4278183306862582,
+    "wti": 98.44999694824219,
+    "wti_change_pct": -2.918850810546969,
+    "brent": 109.43000030517578,
+    "brent_change_pct": -0.3914075211968182,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
-    "vix": 18.5,
-    "vix_change_pct": -7.4537258037938425,
-    "dollar_index": 101.98400115966797,
+    "vix": 18.43000030517578,
+    "vix_change_pct": -7.803899368704803,
+    "dollar_index": 102.0009994506836,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.97%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.92%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-19T20:05:00+00:00",
-      "brent": "2026-10-19T20:05:00+00:00",
-      "nasdaq": "2026-10-19T20:15:00+00:00",
-      "sox": "2026-10-19T20:15:00+00:00",
-      "vix": "2026-10-19T20:00:00+00:00"
+      "wti": "2026-10-19T20:40:00+00:00",
+      "brent": "2026-10-19T20:40:00+00:00",
+      "nasdaq": "2026-10-19T20:50:00+00:00",
+      "sox": "2026-10-19T20:50:00+00:00",
+      "vix": "2026-10-19T20:10:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,18 +34,18 @@
   "catalysts": [],
   "movers": [
     {
-      "ticker": "BABA",
-      "company": "Alibaba Group",
-      "category": "China Tech",
-      "priority": "normal",
+      "ticker": "DELL",
+      "company": "Dell Technologies",
+      "category": "AI Infrastructure",
+      "priority": "high",
       "satispay_status": "check",
-      "current_change_pct": -0.47,
-      "short_term_change_pct": 0.03,
-      "relative_volume": 4.09,
-      "quote_at": "2026-10-19T20:16:28+00:00",
+      "current_change_pct": 1.02,
+      "short_term_change_pct": 0.54,
+      "relative_volume": 5.85,
+      "quote_at": "2026-10-19T20:51:50+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "BABA"
+      "tradingview_symbol": "DELL"
     },
     {
       "ticker": "LULU",
@@ -53,17 +53,31 @@
       "category": "Consumer",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 0.67,
-      "short_term_change_pct": 1.19,
-      "relative_volume": 1.42,
-      "quote_at": "2026-10-19T20:13:02+00:00",
+      "current_change_pct": 0.57,
+      "short_term_change_pct": 0.5,
+      "relative_volume": 1.66,
+      "quote_at": "2026-10-19T20:40:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "LULU"
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 3.69,
+      "short_term_change_pct": 0.15,
+      "relative_volume": 11.05,
+      "quote_at": "2026-10-19T20:50:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "TSLA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-19T20:18:30.274280+00:00",
+    "updated_at": "2026-10-19T20:53:04.633358+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -73,14 +87,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -106,6 +120,24 @@
     ],
     "geopolitics": [
       {
+        "title": "Iran Shipping Update – October 19, 2026 - United Against Nuclear Iran | UANI",
+        "source": "United Against Nuclear Iran | UANI",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQmhYcnE4Q2xPMWoxT2lJU1hXSVRDSW5Ka0x3MGg4RUp1dnJOam40Q0hhOG5xWDRCTlJMQnVtX1VUaDBjUGRRRHJpUS1Xa3VhM19SYkhFVUtNVVRVYl9keEdiU1F1QkJEMGVMaTlEVWppT3NWQnFqUUFrQjh1NVRmNGxFcmNUaEVaWFlWUEVCaw?oc=5",
+        "published_at": "2026-10-19T20:20:05+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "91 percent in Texas poll say Iran war raising oil and gas prices - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oQTBvS2VuNk5zeVpsM2lVQlpmNnVHVlExdFhsRWVLa01DUWpFWkJNN3ozZHN0X2s5ajBOOE8za1pQSGVIOURNR0dxYXBvcHdWYlVpbDF4UXRhUXctbmZTRnloX0l2OTRTc2hoRjU0ZktFMGU2TEY2TXNlOTnSAYIBQVVfeXFMUHcwYWtwcUVXTVk5QXBsT0dzNjEwa08zNFc3ck5kREVxd3F3S2xvZURYZ1VBN3l5Vk5XNnB1Y1VpQTkwWU1yLTByTnNsOTB6ZlNxNUpURHRKV045NzN0djV0WmlXbVVpWUYzRkRyYURiVmppRXpZWUNoYkxiQ1FKMVJtQQ?oc=5",
+        "published_at": "2026-10-19T20:11:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Oil Futures Pull Back as U.S. Waives Some Russia Sanctions - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjUxeXdZWDd5c3MxTHBocWZqajJlQ2UwRTF6dW9KMXh6Q1ROdllKRGZiMV9kWUhvRW9CQzNQMU1LYk80U04zc0dLU2ppcFkySWRjenZFSm8wQjA5QmRPVXhPN3dhMTZPdnFiWjh1QjZ6VDR1ZDg5dFFlZ0t0STJzZlBrUzBMQ0N1R1RTQ2FkekRVaTlPN3lPYU94ZjZRdktUTlJEeTVqSEVFamNkc1FWelQ2MnRNb25OemZ5aUx3dl8?oc=5",
@@ -124,10 +156,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Connecticut lawmakers challenge Trump’s decision to waive Russia sanctions - New Haven Register",
-        "source": "New Haven Register",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUW9QVzlJT0VFaWVNNXpIUVZ1VU1tVUVLRERHblctQUl5LUpwODczaGpzVkhyVmp1bF9xRmg1cXZCUjgza1lQOHROUFRJbEgtS3BfMFpvY0tTUWdDaFF4NUc1LUlrT0FrZXNpTlZiSUZodlR3Q19IMEk3d2NScU5QU3gwU2VZcmR5bThpTThhcFh1b2VuOGNNdG1GS2JLR0UyVEswYw?oc=5",
-        "published_at": "2026-10-19T19:35:17+00:00",
+        "title": "Connecticut lawmakers challenge Trump’s decision to waive Russia sanctions - CT Insider",
+        "source": "CT Insider",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdzVRa1NjOVQ3X01WWU5aV0wwWVR6el9MQmZCT0gzVlU5SkNwR0VwZDNhRVFIMUdJc2FJeHd0UFIwdkt1QXJaQUlrSl93RU5OQ2RlM3hSWlJHVF9rM2ZXc2MxdDI4TFY2VDlOeDRibEVGTVowb3VYNkh5dnQwdDVBUVBvYTVreGRjSHlQdnJ6em14eUJhSy1HSGx4UGdLZVRtRE5F?oc=5",
+        "published_at": "2026-10-19T19:37:25+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -151,29 +183,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Mitt Romney issues rare statement as Republicans challenge Trump’s Russia deal - Deseret News",
+        "source": "Deseret News",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWVvZVBhd2JfOVprYVg5RVozMWN4MV9icXFfLWJ4RDJiUjRjLTB0LXBpZ2p6eElWWnZCUGpFYjJKQXBkNTRxaUJpYmdZTDBnMDVPMFdlY0hyaDV5Umpnd1ZhY002M0ZkNlJ3ay1sbHgtSFZEcmI0YmNBRDlQODZURTRGUjYwNnRHbTBBR2o1eHdTZw?oc=5",
+        "published_at": "2026-10-19T18:47:27+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "US waives Russia sanctions as Gulf oil shipments face renewed disruption - Oil & Gas Journal",
         "source": "Oil & Gas Journal",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQY2x2RDB2SV8zZEpHNHcxNzBGMXlaRnBIUmhNajlWc1hwWjVsSnEtXzBJREYtZEE4TVRUUkxVX1VWYmQ1Tk9Za2plZ1BUMmtqZmJ3VTh6MlF5NEJuUS1STXl5NTRydkUwSHFLamtadkxPNHdaYk1UR3l0b0xrV1lPVldCRWcyUWxidVI3X3JrWEhPSUotUkRwSTlkQ09qUDFQTTJTZ3FZNmswNGRNV25vMm40TXNPcHZLeGRPaUZkTmhidGRsekZHazdyakJDVldvYjVXUzhyM1E?oc=5",
         "published_at": "2026-10-19T17:49:56+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Rubio’s visit to Central Asia boosts trade ties - Eurasianet",
-        "source": "Eurasianet",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yY0k4eS15SVV1LVRhUGlCWEQtMndzZHM1S0V6ZkZHMTNGWjc1WllzVzBWVlRCSGdlcjM1LUJPTE9BX05udjRQTjQ1WG9QZ0N3V2hiU3hsNUo1OGNxczdXem9CZWJMQW9oQ21xWmlrOThXTndBZEtyOA?oc=5",
-        "published_at": "2026-10-19T17:44:05+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
-        "published_at": "2026-10-19T17:44:00+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -196,28 +219,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump signs executive order waiving Russia sanctions - WBUR",
-        "source": "WBUR",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53QzBwWmRMY0dQaFpPMV95c1NENDVhZ3Atd0xtTUQ5ekg5T2JwYVBJMmJaXzRDY3EzazlscnVGb3FzT1ZBNUVGYVNzdjNqRXNGS3NsbEhWNG4tVndOcXZXLXdiZlh1dklUOWxxZ2RGdW9NY2s?oc=5",
-        "published_at": "2026-10-19T16:14:32+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi attack on Yemen army camp in Shabwa kills at least 53: reports - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURxelJpODVFeDRIVWZNaEk5cFZlYXpMdUxxa2owdTRGbmV4SHI2a2JHaDluMzRTNFdobDdNeUN3ZHFuR1hfQ1lmSU1aWXFJc0hVaklCaWw1cEJjUno5Uk1Dc3FCcktyZV9rX3J4Rkd0UDZtMXV5NGhacDRHTTdoZGRkRGJNcG1QajFvYXk0Mkt3MS1UeDN5eW03U05COXVzOWFPbncyZFV2UkZVb1RMadIBtgFBVV95cUxQb1pVOUxXRU1SdmVLRmRkVE5qRDJ1dzdoM3JfZFlZSmxKa2d3a28yTXVReGFyWEtqNVN3ZmRIX1ZseWpsNzRscDVLZWFiellubjJsOW9iM1ZyT0FkUF9MUWljckF4WFdrSmhwd3pBWG15dGl4cXJyV2ZBY2RveFdkS01xT1hkc3JHMXFzNXFfVy1MUk9vNk1ocEVKTGFnMjROcVlMVmF1X3NYcVU4Rkd3TDNsTG1Ldw?oc=5",
-        "published_at": "2026-10-19T16:04:30+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China Revises Drone Export Controls: What It Means for Global Drone Markets - Dronelife",
         "source": "Dronelife",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YeDJmSGIwVHl4eEZ2NkdvODE4c0lBbVBvUkRDU3RhSV94ZDFYcENCOWlWT1dsNDg2MUpQSktiVlJVaTB0UFozRmpwdUF5SUtLS0wzTVdhanhIUDVBWTFJeUhYUk9BYzBxVnVOU05zNlZIdlhO?oc=5",
-        "published_at": "2026-10-19T14:37:30+00:00",
+        "published_at": "2026-10-19T14:39:45+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -239,6 +244,15 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "The Determinants of Good and Bad Trade With China - World Politics Review",
+        "source": "World Politics Review",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdDBkZHJuS3M2X2dkWklTbzhLSmdsZVgwQ1hFZ3M0ZWpXb3pVdTdHTDgwT3h5b21Oa3lhajRJYU5WZGtrV3VoYjBmSFd2cVBBRTRORld2UkpxTHRrVU95S2h3bVhHTDY2TnZVMTRCd3VDY1BGV1RtQ0FZbVlTV1JXOFBUeUdBUS13VUlQZk9SWnp0T0VWTE14bk9xNVpfMkQ4WE5UMmNB?oc=5",
+        "published_at": "2026-10-19T13:14:39+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -248,6 +262,24 @@
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLTk5RTUwRlhjNGUzV2l3VEVGUWFFblgxSHN3MHdGLW9KSW5yLXZyM3VmQnJ4ajFnNEZadFd1LXItd011VzV6d3RucHppMVBUVnNvNnh3eGQzQUEwb0RwV05qMDV5dVZwNE90U3pqb2xySGNiX3psTlpfbzdLQ1I3SkRHM2tIT1drMnhZTzRGYm9UbUcwVkkwU2NKRGtYZ2dJZUxTZUxrSGFFdzBMb0drZHFSV1k2dTVpcllvUGQ0X0p4TkhVLUtieVQwUnI?oc=5",
         "published_at": "2026-10-19T20:15:00+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "A study found an artery-sealing device stopped bleeding in under a minute on average. FDA approved it. - Stock Titan",
+        "source": "Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1I5UjdyYU5UQVhzRG5EUndMWTljRVhERzlBcDBnSDlkRnNsTjdvUlAtMVc1cEFUUHJEQ3RlWG9oZ21UandPYXZDcVNDR0ZMZ3NvNXB2a0tsN1BOSG1mSUJ3cjFzR2dTU3dJWDlWQzlIVGNzZk5fVlRGQ1FLdlZ1YzhtYkRJcWVtMU03VVJQc1B3MGdLdlNrX1Y3TkF0dGlMN1ZxenFrb2pId0RUay1CMWEwbl83T0U?oc=5",
+        "published_at": "2026-10-19T20:15:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT09KR2R3TjktZGltSk9PMGtKcGVMeFBuSmR5eTVkMERSbkVuc0d5bGhnanJ2WloyWUtULU1PTkFVQlNhaklmWmJESHF2cEV0Q01YQ3NBb3RxWklLQlNLelBEMzVBSF9nZ09Uc0FjLUhHUmhOeUF1Z0pObndUclVjT0s2Q3Fka2Z6dWltWC1MQ0g5cmo0V1dUeFY0M3hEOE5aSzV3RjdZZ2JFUTU4TEE?oc=5",
+        "published_at": "2026-10-19T20:07:55+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -264,7 +296,7 @@
         "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help - NVIDIA Blog",
         "source": "NVIDIA Blog",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaHh0dS1IVTRGYkoyUVNoWmlMUEZncElQVFVYMU9MeV9iMF9IRzJ3NFV1Wk5oRDlsdVNlUzQ1U3p0MEVmZFBBSkx5VnBKQ0tDZGdVTkUtaFZoc3JLamV6Qms0MXEzbW5yM1J0cjdDRnI5SWhKejFMcmhMNlNXaUg1MVZVQTlZXzQyUXJaS2Q4TkJMR29XbnI1bjNVZHBfOWMyUUE?oc=5",
-        "published_at": "2026-10-19T19:29:08+00:00",
+        "published_at": "2026-10-19T19:33:59+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -302,24 +334,6 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWNBYzZqWTNDYVU1czZ1ZG45NXJUR2M2eXZuM3B6Z1ZyS1J5TTVSd0txRDAwM0NHamctQmU2WW00eDZqYTNtT3FtTEVsTGU0RVFUdVFJYnA2X0Y1VlhvUHdaelROMWFGcVNIN1Jqd0hOUjUxaGNBaHh2TFN5QXk5OXROdy1ndENiT3d1eG52T05VZGtFcjZfaE5KX2VqcHVaaFpSaFczRnpGZk83cGp1SU1PWQ?oc=5",
         "published_at": "2026-10-19T18:13:00+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "GSK’s Jemperli scores FDA approval in rectal cancer, backed by high complete response rate - Fierce Pharma",
-        "source": "Fierce Pharma",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQemktSi15XzNDRmNKcmVyOTU2VVhCSHZPOWR1TllkUkRFV2VvU0pmYXFUU1M2aktPMTRNMFcyY0dBU0hvRGNnOEFKN3Q3X3JQT19BMlk4dHNuR25SN2xhTWRWMXBEcHhPLU5WYXUxbFF2M1VXTnZzYnhfX2JOendwRXhSRlpsMGFyZkE5SUZqNGRJRUhocnpDdjd0Ykc5SDg5NXZ0SHFxWnV6Z0JvTTJLZVBzb2ZxTXkx?oc=5",
-        "published_at": "2026-10-19T17:24:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia - The Information",
-        "source": "The Information",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2RQSmZ0elVhQmxYNy1qajBvNDl5NlVmRlFfWlg1WHBtUGVicUNEZEFEbmR5eTVyOGY4cnpRc0tMVGxFTFIyV2pQTEtSLXpTT09KeUFndkV5bktmSERxQmcxX1FUNnhRMlZHdHQ4MnRMRzhuQ1JfajZ3Q1RncXRlVFcwNVBQdV93a0xvUVFEb2VfQlNvbG41dmVNSktQRk0?oc=5",
-        "published_at": "2026-10-19T16:00:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
