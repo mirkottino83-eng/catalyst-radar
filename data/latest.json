@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-19T18:45:09.879855+00:00",
+  "generated_at": "2026-10-19T19:19:47.099775+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.136000156402588,
-    "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.43000030517578,
-    "wti_change_pct": -2.938569420491044,
-    "brent": 109.36000061035156,
-    "brent_change_pct": -0.455124701640397,
-    "nasdaq_level": 26452.08984375,
-    "nasdaq_change_pct": 1.1938033555008554,
-    "sox_level": 11345.6396484375,
-    "sox_change_pct": 1.870738830040719,
-    "vix": 18.420000076293945,
-    "vix_change_pct": -7.853925526765526,
-    "dollar_index": 101.98200225830078,
-    "macro_score": 70.8,
-    "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.19%, SOX +1.87%, US10Y 5.14, WTI -2.94%.",
+    "treasury_10y": 5.133000373840332,
+    "treasury_10y_change_bp": 3.5000324249268058,
+    "wti": 98.3499984741211,
+    "wti_change_pct": -3.0174589068983737,
+    "brent": 109.18000030517578,
+    "brent_change_pct": -0.6189698720170167,
+    "nasdaq_level": 26490.33984375,
+    "nasdaq_change_pct": 1.340130658984684,
+    "sox_level": 11365.5693359375,
+    "sox_change_pct": 2.049684403246599,
+    "vix": 18.18000030517578,
+    "vix_change_pct": -9.054524695680566,
+    "dollar_index": 101.99500274658203,
+    "macro_score": 73.7,
+    "tech_bias": "strong_positive",
+    "summary": "Tech bias strong positive. Nasdaq +1.34%, SOX +2.05%, US10Y 5.13, WTI -3.02%.",
     "quote_times": {
-      "treasury_10y": "2026-10-19T18:25:00+00:00",
-      "wti": "2026-10-19T18:30:00+00:00",
-      "brent": "2026-10-19T18:30:00+00:00",
-      "nasdaq": "2026-10-19T18:40:00+00:00",
-      "sox": "2026-10-19T18:40:00+00:00",
-      "vix": "2026-10-19T18:25:00+00:00"
+      "treasury_10y": "2026-10-19T18:55:00+00:00",
+      "wti": "2026-10-19T19:05:00+00:00",
+      "brent": "2026-10-19T19:05:00+00:00",
+      "nasdaq": "2026-10-19T19:15:00+00:00",
+      "sox": "2026-10-19T19:15:00+00:00",
+      "vix": "2026-10-19T19:00:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,36 +34,120 @@
   "catalysts": [],
   "movers": [
     {
-      "ticker": "MELI",
-      "company": "MercadoLibre",
-      "category": "LatAm E-commerce / Fintech",
+      "ticker": "RDDT",
+      "company": "Reddit",
+      "category": "Internet / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -0.02,
-      "short_term_change_pct": 0.04,
-      "relative_volume": 6.57,
-      "quote_at": "2026-10-19T18:40:00+00:00",
+      "current_change_pct": 0.36,
+      "short_term_change_pct": 1.24,
+      "relative_volume": 1.38,
+      "quote_at": "2026-10-19T19:15:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MELI"
+      "tradingview_symbol": "RDDT"
     },
     {
-      "ticker": "OXY",
-      "company": "Occidental Petroleum",
-      "category": "Energy",
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "category": "AI / Cloud",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": 2.84,
+      "short_term_change_pct": 1.26,
+      "relative_volume": 0.35,
+      "quote_at": "2026-10-19T19:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "NBIS"
+    },
+    {
+      "ticker": "SE",
+      "company": "Sea Limited",
+      "category": "Asia Tech",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 0.75,
-      "short_term_change_pct": 0.09,
-      "relative_volume": 4.34,
-      "quote_at": "2026-10-19T18:40:00+00:00",
-      "early_move": true,
+      "current_change_pct": -5.16,
+      "short_term_change_pct": 0.61,
+      "relative_volume": 8.71,
+      "quote_at": "2026-10-19T19:15:00+00:00",
+      "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "OXY"
+      "tradingview_symbol": "SE"
+    },
+    {
+      "ticker": "TSM",
+      "company": "Taiwan Semiconductor",
+      "category": "Semiconductors",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 2.34,
+      "short_term_change_pct": 0.22,
+      "relative_volume": 4.02,
+      "quote_at": "2026-10-19T19:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "TSM"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "category": "AI / Cloud",
+      "priority": "high",
+      "satispay_status": "unavailable",
+      "current_change_pct": -0.68,
+      "short_term_change_pct": 1.63,
+      "relative_volume": 0.97,
+      "quote_at": "2026-10-19T19:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWV"
+    },
+    {
+      "ticker": "APP",
+      "company": "AppLovin",
+      "category": "Software / Adtech",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 1.34,
+      "short_term_change_pct": 0.88,
+      "relative_volume": 0.69,
+      "quote_at": "2026-10-19T19:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "APP"
+    },
+    {
+      "ticker": "ENPH",
+      "company": "Enphase Energy",
+      "category": "Clean Energy",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 0.49,
+      "short_term_change_pct": 1.32,
+      "relative_volume": 0.6,
+      "quote_at": "2026-10-19T19:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "ENPH"
+    },
+    {
+      "ticker": "HIMS",
+      "company": "Hims & Hers Health",
+      "category": "Health / Consumer",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 1.42,
+      "short_term_change_pct": 1.02,
+      "relative_volume": 0.59,
+      "quote_at": "2026-10-19T19:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "HIMS"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-19T18:44:57.273912+00:00",
+    "updated_at": "2026-10-19T19:19:36.096536+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -73,7 +157,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -94,7 +178,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -115,19 +199,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Rubio’s visit to Central Asia boosts trade ties - Eurasianet",
-        "source": "Eurasianet",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yY0k4eS15SVV1LVRhUGlCWEQtMndzZHM1S0V6ZkZHMTNGWjc1WllzVzBWVlRCSGdlcjM1LUJPTE9BX05udjRQTjQ1WG9QZ0N3V2hiU3hsNUo1OGNxczdXem9CZWJMQW9oQ21xWmlrOThXTndBZEtyOA?oc=5",
-        "published_at": "2026-10-19T17:44:05+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
         "published_at": "2026-10-19T17:44:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil edges higher as investors weigh renewed Houthi attacks on Saudi infrastructure - Central Oregon Daily",
+        "source": "Central Oregon Daily",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOMzdHemdPX3JVdkhnUkNoTW50U1FpQ0FKSUxwbVA4RzFyMWc5NWVYTkhUT0h2TDNOclp1ZmRtR0g4ZzU5U01wTlNmMXpuYlNBY0pwSUVNQWgtaDVELTlSZFRkR2hJMXlHbG80ZmRWM0V2Nm1VNDlaQWUwc3dHb0tmeDdZQ2Z1VFdCa1pUT3NhRVRSdXlsWmd4SDhGZjU2dGZKdE9peVNjNEtpa3FENFRDVi1JN2oxOVdzSFpQNE9yeTAydHh4NHFlc1NrMG9BNWtpOTc3NWpka2hlOHVvU04zMG1lY0V1QXNwWW5kUktkTTVYR19JNFpvOG1tbHZJaWlyaS1QT296VUw3aW5nMHc?oc=5",
+        "published_at": "2026-10-19T17:43:08+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -178,19 +262,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
-        "published_at": "2026-10-19T16:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump defends waiving Russia sanctions, says it keeps Moscow at negotiating table - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb1lydjdUUEZncFpMZlkyQ3JoQnFZdWVYS09PVXhLYTBYcktaY0ZMc0ZsZG5GWlRwazN5cnpwLTdIM0RxbWZkbGNpRmh2MFljSzBicmdReDhjWmlMZ24yVGR0RVlkcDJWR29KT2JHeTIxcGwwMnZ2T21rdXFCaFRmV0Y1UlYwVktVcENLd3dZb2tYellqQjBCcDlZWjlNQdIBowFBVV95cUxOazNPcGJpbEhtOUh6d0RWMEhWMHNoeURoeFJzMWxhM3ZTTUpUcmxhb2p6UUEtbUJnMi01dHVJNkRMOWdlWDZ1Y1h6VTl4d0h1WEpDRDZIbHRJMDZpa0I1UVlxM0NtemdhZjhJU2tsaTNQVlUxU3MxWG4tN0dYVGY2cnliYThxSXFLQWxpME5tU0p1cnRLaEhfXzVVa0Zkb3lPbE9V?oc=5",
-        "published_at": "2026-10-19T14:57:00+00:00",
+        "title": "Ukraine deploys drone to airlift wounded soldier in 'world-first' operation - France 24",
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa0N1R1EzQmtfOFRtSXBKR204bnRZZm5CcnF3X1JscTY2MjNnd0p4Nk5sNUpiWGxfNEFvbnZleUFXQVgyZmM4UzlXNDdlQ01kY0pCcXJjelZuaUZTUUpuUmhkSTRpb09za29mWFlZNGN2ZXhiQzFETzVoTW4xbENBTWI3NDZVbkhLTGNVaFExbHBHTl9pU3BZeDl2M1FMdEs0RElOSUpjdXVtdVZHa09Wag?oc=5",
+        "published_at": "2026-10-19T15:44:42+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -239,6 +314,15 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China expands export controls to drones and tunnel boring machines - Quartz",
+        "source": "Quartz",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05M3o2clVoSk5xTzE4WWJJOUYxWkRRcVd0bk96ODhtcVRENnBYRTh4Rk5JRlRQR2VKTXI4dDM1eURXWkdLbTdQWml3cWxNOWRNT1NNb2dKOHJLb2V6UU5DY21LVnJMX1diMnhWbGozWmpVVXhETXRnMHVzcnpCZw?oc=5",
+        "published_at": "2026-10-19T12:41:06+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -261,7 +345,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "GSK’s Jemperli FDA Approved for First-Line MSI-High, dMMR Rectal Cancer - GenomeWeb",
+        "title": "FDA Approves GSK’s Jemperli for First-Line MSI-High, dMMR Rectal Cancer - GenomeWeb",
         "source": "GenomeWeb",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWNBYzZqWTNDYVU1czZ1ZG45NXJUR2M2eXZuM3B6Z1ZyS1J5TTVSd0txRDAwM0NHamctQmU2WW00eDZqYTNtT3FtTEVsTGU0RVFUdVFJYnA2X0Y1VlhvUHdaelROMWFGcVNIN1Jqd0hOUjUxaGNBaHh2TFN5QXk5OXROdy1ndENiT3d1eG52T05VZGtFcjZfaE5KX2VqcHVaaFpSaFczRnpGZk83cGp1SU1PWQ?oc=5",
         "published_at": "2026-10-19T18:13:00+00:00",
