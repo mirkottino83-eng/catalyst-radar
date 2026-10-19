@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:15:04.529321+00:00",
+  "generated_at": "2026-10-19T21:45:51.161770+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -15,7 +15,7 @@
     "sox_change_pct": 1.6076887672808793,
     "vix": 18.43000030517578,
     "vix_change_pct": -7.803899368704803,
-    "dollar_index": 101.98100280761719,
+    "dollar_index": 101.98600006103516,
     "macro_score": 68.0,
     "tech_bias": "positive",
     "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.13%.",
@@ -23,8 +23,8 @@
       "treasury_10y": "2026-10-19T18:55:00+00:00",
       "wti": "2026-10-19T20:55:00+00:00",
       "brent": "2026-10-19T20:55:00+00:00",
-      "nasdaq": "2026-10-19T21:10:00+00:00",
-      "sox": "2026-10-19T21:10:00+00:00",
+      "nasdaq": "2026-10-19T21:15:00+00:00",
+      "sox": "2026-10-19T21:15:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
     },
     "geopolitical_risk_score": null,
@@ -46,13 +46,13 @@
       "published_at": "2026-10-19T19:03:39+00:00",
       "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.48,
-      "short_term_change_pct": 0.1,
+      "current_change_pct": 1.59,
+      "short_term_change_pct": 0.16,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T21:10:00+00:00",
+      "quote_at": "2026-10-19T21:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.1,
+      "quote_age_minutes": 5.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -68,31 +68,16 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 51,
+        "momentum": 52,
         "macro": 68,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [
-    {
-      "ticker": "NBIS",
-      "company": "Nebius Group",
-      "category": "AI / Cloud",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 4.01,
-      "short_term_change_pct": 0.93,
-      "relative_volume": null,
-      "quote_at": "2026-10-19T21:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NBIS"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T21:14:52.007547+00:00",
+    "updated_at": "2026-10-19T21:45:38.983147+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -149,15 +134,6 @@
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzZveUpibnJ4d3NZX3M3LUcxdmtNTGdGdzJtUU5rclJqNEk2QWNPc2p6T1VmMUpQTUZsV0VnOGc4UWdQNHp4SnF3bVl1YS1IUEhhNlhENl9GbTk3OUIzUDVYQTNIcUpHN0FMejhSTkx5QjUwdVZMX3RVVHNfNmI3WTN6cEU?oc=5",
         "published_at": "2026-10-19T20:39:47+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran Shipping Update – October 19, 2026 - United Against Nuclear Iran | UANI",
-        "source": "United Against Nuclear Iran | UANI",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQmhYcnE4Q2xPMWoxT2lJU1hXSVRDSW5Ka0x3MGg4RUp1dnJOam40Q0hhOG5xWDRCTlJMQnVtX1VUaDBjUGRRRHJpUS1Xa3VhM19SYkhFVUtNVVRVYl9keEdiU1F1QkJEMGVMaTlEVWppT3NWQnFqUUFrQjh1NVRmNGxFcmNUaEVaWFlWUEVCaw?oc=5",
-        "published_at": "2026-10-19T20:20:05+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -225,21 +201,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil edges higher as investors weigh renewed Houthi attacks on Saudi infrastructure - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYTNFNmRXMmo4Zi1Md1o4NFJzb3d6X1JpcUgtVEo4N3F2QW9Nd25UTkhKYzljbExueGZ5Qkp2aWtUVUV1bGF4dWR5MGZDZHdWN3pyd250SnFtLUpjbHdBSXIyVGNlMFE2TzFlOVlWMkxiMnE2eHJ2eC1HbjV5cjRLdV9tQmcyMHVTVjJaY1ZkTXBNRWM?oc=5",
-        "published_at": "2026-10-19T17:43:08+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel? - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa1Zud0l3Tmd1WENUNlFUTXM3QjVudnRWdnVrTHk2enF0eTZsWmtyR1RsMFRmUHhHTzYyN2NRdVlNamlMUFhlNkNsUmI5TkQ3V1hhMV9ISVlPaUtxYkYybkJfYzljcFZsUWtjT2oxOTdPelJ4UmZMeVNDX0U2QVRLZ2tIdXo1NjBFMTFSVGZDOHN5Z1RMVGdUc3BzSi1oRE5FMTdSaGNBdjJyMUYwYjFKdWh30gG3AUFVX3lxTE9vR1ZvNVZoeWNMbnYtRWhPalliR3NjZ2NsbGNWckR6bURQN0JLYkxqQUtRZ2lJOGVtMnZ4T29yeEFBczlFQWVQR2xwb0lnTFdZelVOaUxKTVBEbTYwUzN0ZnJoekZQZUVmOXJYdFE0VEMwdVQ2MWxJZ1FQbDEyUy16ZTlhSXhfMGhKSnVoZS16bW5rcjJvb2RJTFRHcHdxUHltUkZSMHkzQ2tReklsNE1UT1N2NHNBOA?oc=5",
         "published_at": "2026-10-19T17:19:53+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthi attack on Yemen army camp in Shabwa kills at least 53: reports - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURxelJpODVFeDRIVWZNaEk5cFZlYXpMdUxxa2owdTRGbmV4SHI2a2JHaDluMzRTNFdobDdNeUN3ZHFuR1hfQ1lmSU1aWXFJc0hVaklCaWw1cEJjUno5Uk1Dc3FCcktyZV9rX3J4Rkd0UDZtMXV5NGhacDRHTTdoZGRkRGJNcG1QajFvYXk0Mkt3MS1UeDN5eW03U05COXVzOWFPbncyZFV2UkZVb1RMadIBtgFBVV95cUxQb1pVOUxXRU1SdmVLRmRkVE5qRDJ1dzdoM3JfZFlZSmxKa2d3a28yTXVReGFyWEtqNVN3ZmRIX1ZseWpsNzRscDVLZWFiellubjJsOW9iM1ZyT0FkUF9MUWljckF4WFdrSmhwd3pBWG15dGl4cXJyV2ZBY2RveFdkS01xT1hkc3JHMXFzNXFfVy1MUk9vNk1ocEVKTGFnMjROcVlMVmF1X3NYcVU4Rkd3TDNsTG1Ldw?oc=5",
+        "published_at": "2026-10-19T16:04:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
+        "published_at": "2026-10-19T16:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -299,20 +284,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Haemonetics Corporation (HAE) Wins FDA Approval for PerQseal Elite - TradingView",
-        "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0hrSms5dEdBd3RhdVFWa1d5WVh1VXNRWGxHdndnOFItOWlNOEJuWXhpelRKbG1Yd3lZbUxrRERIejRfcTVBYWNTRGkxMkdYY3Y3RWt4eXpHUS12OXV6WVVqSHlYYTVuZEw4cXlZOWt4bjdOT3JJLWY0MjN1ZmVPS2tOcEhTNUE1MWtJZFNfWk5xbHBROUtrZHcyOWpnTkUxd1ZvVE80ajVkb1h2Q0FmQ3JueWNNTTVCZmtDbmtwSm1JQk1E?oc=5",
-        "published_at": "2026-10-19T20:15:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT09KR2R3TjktZGltSk9PMGtKcGVMeFBuSmR5eTVkMERSbkVuc0d5bGhnanJ2WloyWUtULU1PTkFVQlNhaklmWmJESHF2cEV0Q01YQ3NBb3RxWklLQlNLelBEMzVBSF9nZ09Uc0FjLUhHUmhOeUF1Z0pObndUclVjT0s2Q3Fka2Z6dWltWC1MQ0g5cmo0V1dUeFY0M3hEOE5aSzV3RjdZZ2JFUTU4TEE?oc=5",
         "published_at": "2026-10-19T20:07:55+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "A dog longevity pill is nearing FDA approval. A vet explains what it can and can't do - Yahoo Creators",
+        "source": "Yahoo Creators",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkViTkZCLTVieG9oNjZGNXJjTm82X0pEdEVjal9vWV9xQ1NObUlud1J6N29WWmFlT1prU3VqSmFVbTk3cmk5Z1lyWUc1R1lJbUczRkJWdVIyUnhZNmFOQ3RjMzVFMEc5SEFKUmVDZ2llTkpXT3Z1VWNmVDA1UXVMY01lTWc3VzkwbXlsS1ZCY2FyMy1KOUxXc3IxZGVmMDJPSHhyejVWT29pMHNrZTItbW9taTFreUdZVlNDeXhxOVJQYUpuR0w1LU51LVk4Vmd5SHktZ2NyaE4?oc=5",
+        "published_at": "2026-10-19T20:07:44+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
