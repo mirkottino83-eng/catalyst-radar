@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-19T16:10:08.356063+00:00",
+  "generated_at": "2026-10-19T16:42:37.023153+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.138000011444092,
-    "treasury_10y_change_bp": 3.9999961853027557,
-    "wti": 98.19999694824219,
-    "wti_change_pct": -3.1653748130832216,
-    "brent": 109.01000213623047,
-    "brent_change_pct": -0.773710603858313,
-    "nasdaq_level": 26536.025390625,
-    "nasdaq_change_pct": 1.5149030219233195,
-    "sox_level": 11491.08984375,
-    "sox_change_pct": 3.17671357616256,
-    "vix": 17.520000457763672,
-    "vix_change_pct": -12.356174795575448,
-    "dollar_index": 101.98899841308594,
-    "macro_score": 83.6,
+    "treasury_10y": 5.144000053405762,
+    "treasury_10y_change_bp": 4.6000003814696795,
+    "wti": 98.66999816894531,
+    "wti_change_pct": -2.701908484584581,
+    "brent": 109.43000030517578,
+    "brent_change_pct": -0.3914075211968182,
+    "nasdaq_level": 26520.158203125,
+    "nasdaq_change_pct": 1.4542022961521406,
+    "sox_level": 11456.205078125,
+    "sox_change_pct": 2.863488675826442,
+    "vix": 17.989999771118164,
+    "vix_change_pct": -10.005002615806069,
+    "dollar_index": 101.97799682617188,
+    "macro_score": 80.0,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.51%, SOX +3.18%, US10Y 5.14, WTI -3.17%.",
+    "summary": "Tech bias strong positive. Nasdaq +1.45%, SOX +2.86%, US10Y 5.14, WTI -2.70%.",
     "quote_times": {
-      "treasury_10y": "2026-10-19T15:50:00+00:00",
-      "wti": "2026-10-19T15:55:00+00:00",
-      "brent": "2026-10-19T15:55:00+00:00",
-      "nasdaq": "2026-10-19T16:05:00+00:00",
-      "sox": "2026-10-19T16:05:00+00:00",
-      "vix": "2026-10-19T15:50:00+00:00"
+      "treasury_10y": "2026-10-19T16:25:00+00:00",
+      "wti": "2026-10-19T16:30:00+00:00",
+      "brent": "2026-10-19T16:30:00+00:00",
+      "nasdaq": "2026-10-19T16:40:00+00:00",
+      "sox": "2026-10-19T16:40:00+00:00",
+      "vix": "2026-10-19T16:25:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -46,17 +46,17 @@
       "published_at": "2026-10-19T12:00:00+00:00",
       "age_label": "4 h fa",
       "catalyst_type": "buyback",
-      "current_change_pct": 1.27,
-      "short_term_change_pct": 0.05,
-      "relative_volume": 0.54,
+      "current_change_pct": 1.21,
+      "short_term_change_pct": -0.73,
+      "relative_volume": 4.26,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T16:05:00+00:00",
+      "quote_at": "2026-10-19T16:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.1,
+      "quote_age_minutes": 2.6,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 1.5,
-      "confidence_score": 62.0,
+      "estimated_impact_pct": 1.8,
+      "confidence_score": 71.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-19T12:00:00+00:00",
@@ -67,9 +67,9 @@
         "source_quality": 75,
         "catalyst_strength": 68,
         "freshness": 62,
-        "volume": 23,
-        "momentum": 51,
-        "macro": 84,
+        "volume": 97,
+        "momentum": 41,
+        "macro": 80,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -77,18 +77,32 @@
   ],
   "movers": [
     {
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
+      "ticker": "SHEL",
+      "company": "Shell",
+      "category": "Energy",
+      "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 5.03,
-      "short_term_change_pct": 0.26,
-      "relative_volume": 2.83,
-      "quote_at": "2026-10-19T16:05:00+00:00",
-      "early_move": false,
+      "current_change_pct": -1.33,
+      "short_term_change_pct": 0.1,
+      "relative_volume": 4.22,
+      "quote_at": "2026-10-19T16:40:00+00:00",
+      "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "INTC"
+      "tradingview_symbol": "SHEL"
+    },
+    {
+      "ticker": "NKE",
+      "company": "Nike",
+      "category": "Consumer",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -0.26,
+      "short_term_change_pct": 0.65,
+      "relative_volume": 1.59,
+      "quote_at": "2026-10-19T16:40:00+00:00",
+      "early_move": true,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "NKE"
     },
     {
       "ticker": "TSLA",
@@ -96,27 +110,13 @@
       "category": "EV / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 3.68,
-      "short_term_change_pct": 0.3,
-      "relative_volume": 10.4,
-      "quote_at": "2026-10-19T16:05:00+00:00",
+      "current_change_pct": 4.07,
+      "short_term_change_pct": 0.28,
+      "relative_volume": 4.43,
+      "quote_at": "2026-10-19T16:40:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "TSLA"
-    },
-    {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 6.18,
-      "short_term_change_pct": 1.79,
-      "relative_volume": 2.71,
-      "quote_at": "2026-10-19T16:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
     },
     {
       "ticker": "CELH",
@@ -124,31 +124,17 @@
       "category": "Consumer",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 4.9,
-      "short_term_change_pct": 1.51,
-      "relative_volume": 1.81,
-      "quote_at": "2026-10-19T16:05:00+00:00",
+      "current_change_pct": 5.25,
+      "short_term_change_pct": 0.1,
+      "relative_volume": 1.67,
+      "quote_at": "2026-10-19T16:42:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "CELH"
-    },
-    {
-      "ticker": "NET",
-      "company": "Cloudflare",
-      "category": "Cloud / Cybersecurity",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 2.07,
-      "short_term_change_pct": 0.82,
-      "relative_volume": 0.71,
-      "quote_at": "2026-10-19T16:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NET"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-19T16:09:55.860656+00:00",
+    "updated_at": "2026-10-19T16:42:24.288709+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -158,7 +144,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
@@ -172,7 +158,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
@@ -191,12 +177,39 @@
     ],
     "geopolitics": [
       {
+        "title": "Trump signs executive order waiving Russia sanctions - WBUR",
+        "source": "WBUR",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53QzBwWmRMY0dQaFpPMV95c1NENDVhZ3Atd0xtTUQ5ekg5T2JwYVBJMmJaXzRDY3EzazlscnVGb3FzT1ZBNUVGYVNzdjNqRXNGS3NsbEhWNG4tVndOcXZXLXdiZlh1dklUOWxxZ2RGdW9NY2s?oc=5",
+        "published_at": "2026-10-19T16:14:32+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthi attack on Yemen army camp in Shabwa kills at least 53: reports - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURxelJpODVFeDRIVWZNaEk5cFZlYXpMdUxxa2owdTRGbmV4SHI2a2JHaDluMzRTNFdobDdNeUN3ZHFuR1hfQ1lmSU1aWXFJc0hVaklCaWw1cEJjUno5Uk1Dc3FCcktyZV9rX3J4Rkd0UDZtMXV5NGhacDRHTTdoZGRkRGJNcG1QajFvYXk0Mkt3MS1UeDN5eW03U05COXVzOWFPbncyZFV2UkZVb1RMadIBtgFBVV95cUxQb1pVOUxXRU1SdmVLRmRkVE5qRDJ1dzdoM3JfZFlZSmxKa2d3a28yTXVReGFyWEtqNVN3ZmRIX1ZseWpsNzRscDVLZWFiellubjJsOW9iM1ZyT0FkUF9MUWljckF4WFdrSmhwd3pBWG15dGl4cXJyV2ZBY2RveFdkS01xT1hkc3JHMXFzNXFfVy1MUk9vNk1ocEVKTGFnMjROcVlMVmF1X3NYcVU4Rkd3TDNsTG1Ldw?oc=5",
+        "published_at": "2026-10-19T16:04:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
-        "published_at": "2026-10-19T15:35:38+00:00",
+        "published_at": "2026-10-19T16:00:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
+        "published_at": "2026-10-19T15:40:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -227,24 +240,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Strait of Hormuz scoured for spilt cargo after Iran attacks container ships - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
-        "published_at": "2026-10-19T14:51:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Yemeni recruits killed in missiles strikes by Houthis on government military base - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNWhhMnBhTE5lblZhTF82ODlTclpLTEZjamVIS25feFBQbDVSMHRyMHhWbkVZMmRQNVJXRGJDZUhHOGczbkxKTHAzS1NaZVdKVFNRYTBjOHZvUmp0czd4dTJsN19wdVBTZ1U4MUxGdGxEb0lsNVVaRW4tVERnX04xUDJ0LXdfeU5peXZ1TndXcXhUSUpIWjdIVnI4VWhFV0XSAZ8BQVVfeXFMTzVoYTJwYUxOZW5WYUxfNjg5U3JaS0xGY2plSEtuX3hQUGw1UjB0cjB4Vm5FWTJkUDVSV0RiQ2VIRzhnM25MSkxwM0tTWmVXSlRTUWEwYzh2b1JqdHM3eHUybDdfcHVQU2dVODFMRnRsRG9JbDVVWkVuLVREZ19OMVAydC13X3lOaXl2dU53V3F4VElKSFo3SFZyOFVoRVdF?oc=5",
-        "published_at": "2026-10-19T14:41:52+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China Revises Drone Export Controls: What It Means for Global Drone Markets - Dronelife",
         "source": "Dronelife",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YeDJmSGIwVHl4eEZ2NkdvODE4c0lBbVBvUkRDU3RhSV94ZDFYcENCOWlWT1dsNDg2MUpQSktiVlJVaTB0UFozRmpwdUF5SUtLS0wzTVdhanhIUDVBWTFJeUhYUk9BYzBxVnVOU05zNlZIdlhO?oc=5",
@@ -263,10 +258,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia Sanctions Waiver Cuts Crude Prices as Low US Reserves Limit Downside - Crux Investor",
-        "source": "Crux Investor",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWm1aYTVTMGpzdVVkMFo0ZzduaUNUMDVpb2hsUXFOQUNHcjF5VlFjeEpYbTdJMUxlYVIyVFFyeWI4WGZ3UjhzcTBkbjJmdUwtWlB3eUFlbDQ5VnpJZVhiQ1lmRWNJVjJ3Vjh6OExnY2tfSjAzRlpFem5zUnR4MTdyS0RxWTVKTDFOSW5yc2EtUENDLXZEaExuZld6UEl1Ni1QR2M5WWNOb1NwRndWaGtr?oc=5",
-        "published_at": "2026-10-19T14:04:05+00:00",
+        "title": "Is China building a fleet of drone motherships to extend its naval reach? - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXhTVXRMc3JYM1FNY1JPWG1Tc1gwRTdaSTM1TzFPSExMbVZMTDdkLXF6bmswZWVWZmhpSkZxdE5MUFU3UUt1bXNrM3hOVl9UUnNSbVhZZW1GUnlMUUpBWGRRUVU2Vnd5RmlNZnFsZ3BybkJobHNUX1F5UlRaUnVtYXdoM00zaEV4WDI3b2hSMnRSRy1oTXpMTE9wRWduSXpDaWx5Z21QbmdWZjRab3pNQ2xKaHBMSnBCQnfSAboBQVVfeXFMUG14U1V0THNyWDNRTWNST1htU3NYMEU3WkkzNU8xT0hMTG1WTEw3ZC1xem5rMGVlVmZoaUpGcXROTFBVN1FLdW1zazN4TlZfVFJzUm1YWWVtRlJ5TFFKQVhkUVFVNlZ3eUZpTWZxbGdwcm5CaGxzVF9ReVJUWlJ1bWF3aDNNM2hFeFgyN29oUjJ0UkctaE16TExPcEVnbkl6Q2lseWdtUG5nVmY0Wm96TUNsSmhwTEpwQkJ3?oc=5",
+        "published_at": "2026-10-19T14:00:06+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them - Scripps News",
+        "source": "Scripps News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjZnQm1nQlhYbXFUS0NwZER5Wmp6T3RtMGRuLVVxc1ppczJpeTBkSEM0ZVN1YmNOU21WZVJNTFBfbXl0NFhkMXZDNkxrSFlTajVTcG40MS1jc2c1OGdRTW1IZFA1MEdmZnFCUFdtY0JZSWlNeVphN2h4cXhoNXpKaklhRnRjWkxibExPQ2dXQ3lOcnRHcWZfWkRQMGI3S3Ixc3hfdDFOM2RMVmVlbWk1Q2FGTnE?oc=5",
+        "published_at": "2026-10-19T13:42:39+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -306,27 +310,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's Solar Exports Keep Falling as Beijing Mulls Export Controls - Crude Oil Prices Today | OilPrice.com",
-        "source": "Crude Oil Prices Today | OilPrice.com",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYzA0RFk0OG84NG9RNXRwcmNGcjlLTG9WenFYSWgyRHhodmpFRkhBYVNVU0FmY1ZqM3E3eVd4Q3Fib2dNSGtTNHhGaERubGdHbER3RFZQcjV2XzlPeFllMlE4YkVsNV9YM05YWFdQMzJ2ZmhmTWNxd3dNNGhMbm9EM3pZYXpvRUJIMl9TNU8tWDdPNU1LbDhGQTZrQXdteG9Db3Babnl1em16VzFjcjBsNGJsQ0NYZTZVLVFUcE9pMNIBxAFBVV95cUxObTJLSUlJOVY1QURBamMzV1F1X21JWk1McDBRQkkzanh5djFsaGxjZ0h6YUhjS0NyN3ExOEhZbVVwbU5XcUk2a25INXB1dEpOSmEtdXJPQXI0YllOa0l2SUxUanhNOHRJb1l6YW93UVRmMFFaS2thQnBYdGR1dy1EVndjdHViYzRhNTAxemt4NmpoQmpvNXpwUHRSY2ZTTzFSYW1BaHlOcm1LaW1yVllnaEFFakxneWlfRmFoeWZzU2dpVGdm?oc=5",
-        "published_at": "2026-10-19T12:30:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVV4ZVlKTEJkQ0RBNkFiRUNadFRBR0hRMkZWekJUcHpVXzlaSTRUSXdHVG9kN0JGVnVTV1UxQlU5U0VnTHpjb1dTV0lwRTR3NXBqeENuZ1hIY3pBQWRKLWhBdWI4MjBOWXZZNVdabzdOVnN2dWhYVUQ1ZVhScW5VdXF5Z29DeDdrNjFKUEw4MTVwN3lpLVM5UDE5ajRxeEVYUVUwaWI2R1RXRjdvSVI2cTFXUE9xTTRnVlcyTzI5YVhfQVNMU1dF0gHMAUFVX3lxTE1iSEdQTG93d3hLTHVMQUFfVTVYZWgxaGJmUzFPZ0t0UmlVcjRvVWMza0xpUnl1RURFODdtc2JJZm5haWstNDVzeEFQb3F5MGdNaWY2NUVoc01HRHF0cmNSTGlCRUpRekNyeDBkSHBRbFFHMnVXaV84UEZkUC1NMWt3OEotS3EtcDJaVTFBY3FiUHNoT1hvNGVjeUlFdzJlbW40cHp5OXkzOGoyU3J5MG1ySmkybmdJMG5mcVJBR2RvZVlRTFF1UzhmdGZxLQ?oc=5",
-        "published_at": "2026-10-19T12:25:53+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Amazon says its AI chips will work with popular coding language, challenging Nvidia - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGVNVWtyU1BHU0pGZFJTZk9RV3NHOXBoSHVqaHVEeXN1TEJveTNIVzQ4eGkxZ2RWbER1clItSk16ODNaVnBFbWhKamR1RURGdG90X3F0ZEF2bko3SW5mUGxjZzBKVm50UFI5eUp2ampsV08ySWlMUEZyQmRUd1M1NF91UGJoZWxiVmR5NGRCMmNNM0V2R3pLMVhBT05EbmRjY0dxMXlSNklIVE9xeG5DQWNPcjVXY1ZBRTBrVU9RMTNPaVJOUHpjS2RrZ3huLXlZa2c?oc=5",
+        "published_at": "2026-10-19T15:36:43+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Micron (MU) Looks Cheap at 5 Times Forward Earnings. Can Its Profit Boom Last? - Yahoo Finance",
         "source": "Yahoo Finance",
@@ -387,15 +382,6 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTZ4MmI2emtJNW5YVkdWTy1QUlBVX21wN0tZSy1YMUs2T0IzVE5ucWZvdHR1ZWVoNWRSb1FMYXU2WE82VnpwSFA3cnBiWWpkdTFaM1hJYXY3a0FGekQyRENQRWtleUplOW1TNWRoRUxUS25Zckx0UGN6Q3UzcEdzNXJrblJDY0JiSHdCcjBSZWVYM1dfeVZfNU1WZjR3S3lmTXgtSF83M0I4T2V3U3FPeA?oc=5",
         "published_at": "2026-10-19T13:51:50+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Amazon challenges Nvidia’s software advantage with new tool for its AI chips - GeekWire",
-        "source": "GeekWire",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNWNHd3FrZmRTMWhxbWh6WnZoMy1RVlJFenU4SFNudF9uTUc5RU9VS25jMjVZckxoQ0NLRXQ2dW9OVHdmUjY0RE5uRG0xdjYtXzJvbmdsamM5UE1vRG8tYi1PanVDd1pRWjYzX3dlSGFaS2Q2S2I0d1ZGdGp2U2lpbnVJWWhwQkRQRXFPbXc5UGI1V1hOYV9Sb3RmQTVGUXgxVGdtR01XLWFMdw?oc=5",
-        "published_at": "2026-10-19T13:25:33+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
