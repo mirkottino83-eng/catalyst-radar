@@ -1,40 +1,167 @@
 {
-  "generated_at": "2026-10-19T07:58:16.051752+00:00",
+  "generated_at": "2026-10-19T08:33:55.276869+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 96.87999725341797,
-    "wti_change_pct": -4.467021245542058,
-    "brent": 107.08000183105469,
-    "brent_change_pct": -2.530492229976311,
+    "wti": 96.94000244140625,
+    "wti_change_pct": -4.407850369078814,
+    "brent": 107.13999938964844,
+    "brent_change_pct": -2.4758794880680446,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
-    "vix": 18.360000610351562,
-    "vix_change_pct": -8.154072933615774,
-    "dollar_index": 101.92500305175781,
+    "vix": 18.649999618530273,
+    "vix_change_pct": -6.703352515911187,
+    "dollar_index": 101.97599792480469,
     "macro_score": 1.3,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -4.47%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -4.41%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T07:48:00+00:00",
-      "brent": "2026-10-19T07:45:00+00:00",
+      "wti": "2026-10-19T08:20:00+00:00",
+      "brent": "2026-10-19T08:20:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
-      "vix": "2026-10-19T07:40:00+00:00"
+      "vix": "2026-10-19T08:15:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "cc12e2aca993",
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "category": "Space / Technology",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Rocket Lab's $8 Billion Iridium Acquisition Faces Regulatory Scrutiny - Intellectia AI",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Intellectia AI",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSF9WMlVKaHUwaDBWSGtnM2lvWlJOMm50dHFhd1pHRU1oT0xqVHo2NXhFczc3ZUVTVVZFVm1sMXZTZVFSNEp0ZnctUWxQb1F1Q1ZvZjl6aUU0VFFGZUxtVnpKUGMydlZ5ZXhXeExyNFlEd2NYMWVEcU9aVS11VGRKU0hILUZETzBiZTVPaDRab3BLYXFUYTRERFhXb2lnZU5RWnFV?oc=5",
+      "published_at": "2026-10-19T06:39:02+00:00",
+      "age_label": "114 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -6.37,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-19T08:30:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.9,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 60.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-19T06:39:02+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "RKLB",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 1,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "1305209ebf8e",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Volvo expands automated driving partnership with Nvidia - Sowetan",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Sowetan",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVUFUOHlxcnhrampHdElRQV9HNXM5b25xdzUwc2hRdy02VWVhNE5zSHpKbnNmTGU0SHprRUpaOUN4MXpyY1dRMGF2eEh4bXNMejlETHplb01RNVQ2WjktMExqQ2tNVU83ZGJSdE45V3dzdm81aTNQN2YyTmNKSlZ6RlRCUXgtNHJidXJfN0dRWUozOEx3aVZLenpSVXlNX1lGSE1Gbg?oc=5",
+      "published_at": "2026-10-19T05:40:20+00:00",
+      "age_label": "2 h fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": 0.03,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-19T08:30:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.9,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 55.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-19T05:40:20+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 1,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "c09b2eb951c7",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Weekly Recap: MBG-Nvidia Level 4 AI partnership and 910K-share repurchase - TradingView",
+      "reason": "Possibile evento buyback indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRkNScEl5ZmtYWGFhWk55d0lRNmRUZlQ1T1RwaDBSVnVzQ1M3LVVxQjFsM1FUNjI0TTZLdVl2a21KaUh1SVN1MU4xVjkyVU5MTDBiUTlpdjZLdkk0V0VtUFhDakdUT0tTZkk0NlVqVDZrY1BXcUhSR3huV2VUVG9EdnlhMWJiRDhEbWVndHBlV0NZbjBxZGJQcHB5T2swUkg0OGVheTAtOEhCREF0clBlT1ZkUFpocTlTbDdCT3pqdXcwajc1ODQzQTlkdUZIbzA?oc=5",
+      "published_at": "2026-10-19T05:00:00+00:00",
+      "age_label": "3 h fa",
+      "catalyst_type": "buyback",
+      "current_change_pct": 0.03,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-19T08:30:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.9,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 54.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-19T05:00:00+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 68,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 1,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T07:58:05.023644+00:00",
+    "updated_at": "2026-10-19T08:33:44.998161+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +171,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -58,14 +185,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +203,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Could the oil shock bring back inflation? EBC director on trading peace vs disruption - World Finance",
+        "source": "World Finance",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNjdoNDVNN1ZVZmFTMmYybE1sRGVWT3R3R0R4NUNtSHUtVWNyaXZmb1BxMHRGUkRYZzJjVXR4SXFvT2tEYmFGeFljSXFmaF9PaEJJRm92bVR6bEhCVTZINTNmc3BSOGFBN2ZhX0VhdTVsdTBRdW9DVHJhWnFQejZjdWpEU3JtaGtJRHcwdFIzUVk5Y29WaTZuYVd4VEFBeDk5cFZkTERHTGxkM1pGbWFqQ2FrcVNQUWxxa1h2NzY3N0RkbHpHQkFfbXhVQUd0NVRUZ3N1YQ?oc=5",
+        "published_at": "2026-10-19T08:04:51+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran, oil, and the world economy: are we seeing history repeat itself? - World Finance",
+        "source": "World Finance",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYnhOMDFLQ0V2cElmN19RU0NXUTRBcGhsYVUzOUxCUE5weWpJVjV5Wm5zV19laHpkZ2VNS3ZDekhfcUtKa3Niby1ZUmFFRlZqT001ZXlLNFUzRDJtNmtsbmw5RW5VN0tlMzZPVmdGZkFwRW9qY1ZhbE9YSF9VSDVIQ2E5bFJXMl9HNnY4aHVjZWdXWnlTZXlOQmZhdklibWgzSXpPSHhsbi1HYWFGOW9qNVNxelQ4QzNQZjNvXw?oc=5",
+        "published_at": "2026-10-19T08:02:46+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Oil Prices Fall as Traders Weigh Russia Sanctions Waiver, Middle East Risks - WSJ",
         "source": "WSJ",
@@ -122,6 +267,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "China's economy grew 4.5% last quarter, yet its export boom risks being 'a drag on world growth' - Fortune",
+        "source": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBV2Vqam8wSnlkWWgzSlVfc21XZmJndFFZZzRyVmhUcjlPc1FhNjRWME1kajFSV1hCZzM1OHUtTEFKVXY2WlBiVGJ1bmZ5V2FHb2hnRThPX0JIODY1U2dsZTNucnZuTFdnSjJodg?oc=5",
+        "published_at": "2026-10-19T05:08:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Watch PIIE’s Lovely on China-US Trade - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNG04MU1nSlhIeUxZalZJUkNDWUlDSW5zVV90X2tWcXotTFlPU3RTWkJLRlVXcHJ4cU9OSWFKdTZuWHpsSDkxZ0o4M2ZPWDNKNndsd09odnhjak9QcHdfOXhJbmpPLThqRzFrYzhMYkh0Qk5sQ0g2dlNqQ0FENVZzZmlwU1M5aS1yb2ZWTmtZQQ?oc=5",
@@ -135,15 +289,6 @@
         "source": "Euronews.com",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOFVvME1UdU5aVjEyYWQ2cnpsUjFNR3Y1UjJNTkV0N2w4RUktcWNqNHJSOHJOYnNCUEw0Mmk2ZlFuaThvMGVfRWlLNFhKcThqaGFiQXpXMUhYd18wcnVMVHo1YXpORzVCbTkyYzV1WDRRRXhoaFRGRmxQbnpCZVVVdnE4SjduOFJPMHVqUDBZZkswRVlsdEJuSjN6WW1FcUl1NEhhcWhrOXktbjA?oc=5",
         "published_at": "2026-10-19T04:11:21+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's economy accelerates on robust exports as domestic weakness persists - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTENEdTFqcEVDV0MxeHJOT3pDOUJHU0ZfbTJ2ODJyV0UyRnhXNmdKZk9FZ1RBOGFpMldEMl9hcjllZW1ZYlJhY1U0anRrdkhKMjEwOV8zcEZjM1d2NDRMakVlajgwRVZFclk1T2k1eThpUjFOWEV5RTlHR1FTdHNCTi0wdUlKWnZaY1F1NjdfS28yMEFiRmhGSFJyOEZ1c2VRSm1DZVNrRWdnTk5VRV91ZE5aenZsNkd60gG-AUFVX3lxTE9Cd0gteUVkR0k4MVByQnBkdi1Zc2NUXzJ2eWQ0aVFtY0NpRm1QMWE5OGpaOHlQeEZEdGxFeG9GN2pkMEZMQUdVV0xWYUMwcll0SXV2elQxM0hQUTVKVlZqSG1wcklsYjZmbWMtOU5XMG00c25FZnp1QlpVaVQ3TWhPVWNGN2lMMV93QWFlWEJPS21XSTIxcWF1S3hIM1JKbTFCRGRyU2JHVUlERTFmSGV6Z091T3ZsTFljOXJnQVE?oc=5",
-        "published_at": "2026-10-19T03:44:18+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -164,24 +309,6 @@
         "published_at": "2026-10-19T02:09:45+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi Arabia’s Military Limitations Are Being Exposed by Houthi Attacks - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM19uejBXQV9UYlQ0ZlFpMFFxYkM3WFY1aWlac3NVWUxFMUxqMzlCTE9DSl9JMlJXRHBPcnN6LVI4Xzl0OHBHYjVKME5jOFcwcFo4VnctUlpRUk1WRkhPczhHWDh2Tl9JeTVaLXU2X2dXVDNKd2dKdU5pcHhOWjRTYktfbV8tRjd3RFpNdXdfZnlxM19QYlRSanZVX0hRUlJBa0V0aFpTNGFUZExoSWs4S0Y0dmZMcUUt?oc=5",
-        "published_at": "2026-10-19T02:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump, Netanyahu threaten renewed Iran strikes, Tehran warns of response - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?oc=5",
-        "published_at": "2026-10-19T01:31:23+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -250,15 +377,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "health news today fda approval weight loss drug - Meteo.gr",
-        "source": "Meteo.gr",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQem5vVkV1aFhUcnF1N2dMSDRQalpZWDdNa25SNWNfMF9uQWdfMFFGSnF4VVJIUXVSb0ZBbEdvUFFLaTkyOUp5a0I0Vk1xaE9nZU5wMTFrbjdvWWVlc01JMmFqNTRQTkFHR2czYzZrUkZaWjZRYW5vVmgzcTZQMjhmZ3RkaC1YblBHS3dQLQ?oc=5",
-        "published_at": "2026-10-19T01:53:42+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Here’s What a $10,000 Investment in Nvidia Stock Will Be Worth by 2030 - The Motley Fool",
         "source": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVFVLRG1RZzM3T05RR3kzc0lXamo1bHRVampXaDdpRHAxX21qN0c3QnhwMFMyR2pWZFRTUEJYTUM0cmluaS1QRm5hN0tkbHl5VFVuNUxLT0Nhalh4MGRMVF9iNFpUOGNkb2h3NHB2N0h4RVR3MHZqSTZNdFgyaFlzdTFQdkg2QTMxNkpsSFdReU5HcnR4RWZzbE9TNmdJWkQwSHppcUNRcDNRdFZqb0djU2hCdk5RZw?oc=5",
@@ -295,10 +413,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘Put every prompt in its place’: Intel launches 480GB GPU D-series for AI inference - TechRadar",
-        "source": "TechRadar",
-        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNZXlwXzQydS1Tc3MwNEp4N3hWbmFLVzhIa0twTEI3Yl9kLURNWDN5dnJ6dzYxdlp5d1p1Ti1lQzJXYW1GSEpuMHNnal9Wc3dOaGxhVmpJTGxRUHRVWk1RVTFYNzNILUpsWXJxZnhTRDYxVEY1R0tsZ3JKZ1FpellIUmR0WFV6ZkFQd1lWRmotNnBqd1N1VEhEc2NxRm03QWMyczZ0b0o0Nk85d2FyaVNPSWhPRHkzZ2djSFd5WG1IanR5dS00MTRQcUI2S21DNVpXbFhvZGpIb2NqX0s3U0VvMHhyT0luaHNMZlZnVlZ0a1F5dkZqTlgtd1VwMXBsUnhkeEt6MmNCRzZsaVJjb1J3d3pFaXRhSnN6MlJhMFV1YXhfUm0zRVNRSG9IckI?oc=5",
-        "published_at": "2026-10-18T20:05:00+00:00",
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-18T20:26:25+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y?oc=5",
+        "published_at": "2026-10-18T12:09:43+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -306,7 +433,7 @@
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 78,
+  "archive_count": 81,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
