@@ -1,91 +1,76 @@
 {
-  "generated_at": "2026-10-19T17:41:49.708794+00:00",
+  "generated_at": "2026-10-19T18:08:50.729378+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.144000053405762,
-    "treasury_10y_change_bp": 4.6000003814696795,
-    "wti": 99.12000274658203,
-    "wti_change_pct": -2.258160766030004,
-    "brent": 110.06999969482422,
-    "brent_change_pct": 0.1911515413307585,
-    "nasdaq_level": 26450.1796875,
-    "nasdaq_change_pct": 1.1864959564604538,
-    "sox_level": 11341.970703125,
-    "sox_change_pct": 1.837795939089415,
-    "vix": 18.420000076293945,
-    "vix_change_pct": -7.853925526765526,
-    "dollar_index": 101.97100067138672,
-    "macro_score": 69.7,
+    "treasury_10y": 5.140000343322754,
+    "treasury_10y_change_bp": 4.2000293731689196,
+    "wti": 99.41000366210938,
+    "wti_change_pct": -1.9721920202900756,
+    "brent": 110.27999877929688,
+    "brent_change_pct": 0.3823030826614948,
+    "nasdaq_level": 26448.244140625,
+    "nasdaq_change_pct": 1.1790914243039685,
+    "sox_level": 11328.1259765625,
+    "sox_change_pct": 1.7134862864365497,
+    "vix": 18.520000457763672,
+    "vix_change_pct": -7.353673487672408,
+    "dollar_index": 101.94599914550781,
+    "macro_score": 69.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.19%, SOX +1.84%, US10Y 5.14, WTI -2.26%.",
+    "summary": "Tech bias positive. Nasdaq +1.18%, SOX +1.71%, US10Y 5.14, WTI -1.97%.",
     "quote_times": {
-      "treasury_10y": "2026-10-19T17:25:00+00:00",
-      "wti": "2026-10-19T17:30:00+00:00",
-      "brent": "2026-10-19T17:30:00+00:00",
-      "nasdaq": "2026-10-19T17:40:00+00:00",
-      "sox": "2026-10-19T17:40:00+00:00",
-      "vix": "2026-10-19T17:25:00+00:00"
+      "treasury_10y": "2026-10-19T17:50:00+00:00",
+      "wti": "2026-10-19T17:55:00+00:00",
+      "brent": "2026-10-19T17:55:00+00:00",
+      "nasdaq": "2026-10-19T18:05:00+00:00",
+      "sox": "2026-10-19T18:05:00+00:00",
+      "vix": "2026-10-19T17:50:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
+  "catalysts": [],
+  "movers": [
     {
-      "id": "52cb4e14d295",
-      "ticker": "STM",
-      "company": "STMicroelectronics",
-      "category": "Europe Semiconductors",
+      "ticker": "MELI",
+      "company": "MercadoLibre",
+      "category": "LatAm E-commerce / Fintech",
       "priority": "normal",
       "satispay_status": "check",
-      "headline": "STMicroelectronics announces status of common share repurchase program - Yahoo Finance",
-      "reason": "Possibile evento buyback indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMUxreEEtckhLaFdjcVpGUUZKdlYzZ0VUeDBVYWU2SXlnc1Z3TGNfOUV6a003LUZEdUVPMVZGZnpPME1nQVRpOHctNndPVWJjZFQtTGdQbmEweGxjc0ZIYTBtV2FoT05wanhTSkZfNFNXelh0eXk1ZUJUc0hlWVdMZHc2eGppcmdRLTBpVUVCMmtPZF8xdHUxN3BicXBBVXdzakQyQW9aelNQYUZGdktLZkRPZw?oc=5",
-      "published_at": "2026-10-19T12:00:00+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "buyback",
-      "current_change_pct": 0.39,
-      "short_term_change_pct": -0.81,
-      "relative_volume": 0.54,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T17:40:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 1.8,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 1.6,
-      "confidence_score": 59.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-19T12:00:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "STM",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 75,
-        "catalyst_strength": 68,
-        "freshness": 62,
-        "volume": 23,
-        "momentum": 40,
-        "macro": 70,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
-  "movers": [
+      "current_change_pct": -0.13,
+      "short_term_change_pct": 0.02,
+      "relative_volume": 5.36,
+      "quote_at": "2026-10-19T18:05:00+00:00",
+      "early_move": true,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MELI"
+    },
+    {
+      "ticker": "CRWD",
+      "company": "CrowdStrike",
+      "category": "Cybersecurity",
+      "priority": "normal",
+      "satispay_status": "unavailable",
+      "current_change_pct": 0.68,
+      "short_term_change_pct": 0.26,
+      "relative_volume": 4.32,
+      "quote_at": "2026-10-19T18:05:00+00:00",
+      "early_move": true,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWD"
+    },
     {
       "ticker": "PDD",
       "company": "PDD Holdings",
       "category": "China E-commerce",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 0.26,
-      "short_term_change_pct": 0.1,
-      "relative_volume": 1.67,
-      "quote_at": "2026-10-19T17:40:00+00:00",
+      "current_change_pct": 0.32,
+      "short_term_change_pct": 0.26,
+      "relative_volume": 1.78,
+      "quote_at": "2026-10-19T18:05:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "PDD"
@@ -96,13 +81,27 @@
       "category": "Biotech",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": 3.23,
-      "short_term_change_pct": 0.02,
-      "relative_volume": 1.54,
-      "quote_at": "2026-10-19T17:40:00+00:00",
+      "current_change_pct": 4.45,
+      "short_term_change_pct": 2.25,
+      "relative_volume": 0.83,
+      "quote_at": "2026-10-19T18:05:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "MRNA"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "category": "Megacap Tech / Cloud",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 4.91,
+      "short_term_change_pct": 0.13,
+      "relative_volume": 6.71,
+      "quote_at": "2026-10-19T18:05:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "AMZN"
     },
     {
       "ticker": "CELH",
@@ -110,17 +109,17 @@
       "category": "Consumer",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 6.1,
-      "short_term_change_pct": 1.01,
-      "relative_volume": 1.72,
-      "quote_at": "2026-10-19T17:40:00+00:00",
+      "current_change_pct": 6.23,
+      "short_term_change_pct": 0.79,
+      "relative_volume": 1.95,
+      "quote_at": "2026-10-19T18:05:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "CELH"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-19T17:41:37.474357+00:00",
+    "updated_at": "2026-10-19T18:08:38.295615+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -158,10 +157,37 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "US waives Russia sanctions as Gulf oil shipments face renewed disruption - Oil & Gas Journal",
+        "source": "Oil & Gas Journal",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQY2x2RDB2SV8zZEpHNHcxNzBGMXlaRnBIUmhNajlWc1hwWjVsSnEtXzBJREYtZEE4TVRUUkxVX1VWYmQ1Tk9Za2plZ1BUMmtqZmJ3VTh6MlF5NEJuUS1STXl5NTRydkUwSHFLamtadkxPNHdaYk1UR3l0b0xrV1lPVldCRWcyUWxidVI3X3JrWEhPSUotUkRwSTlkQ09qUDFQTTJTZ3FZNmswNGRNV25vMm40TXNPcHZLeGRPaUZkTmhidGRsekZHazdyakJDVldvYjVXUzhyM1E?oc=5",
+        "published_at": "2026-10-19T17:49:56+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
+        "published_at": "2026-10-19T17:44:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump waives Russia-related sanctions before they kick in, prompting backlash from Ukraine and US lawmakers - Scripps News",
+        "source": "Scripps News",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcUxZX3dkalpVUk9XMTJ3T2tmVUgzSEZkZ2RadHZPRHZtYnFWenlXeXMwTFd2TUU5bjFha25ZWGJ1SkVKU24zbERMb0llSDVYaU9HSGZKMUlSLU8xa3BQSnNpMm9QS19RTC1ZaGdUYkRabEh6ZFZlek1ZQm9VX0ZUbjdIVGFmbVVDeVVzTzV2VkhDNXZOMDdNbG4xbzlySmJJNFZ2eGJCUTdGbl81a2F3dmlJVmVvalYtVWd1bTNkQUV2REZPaWh2VXFQMkY2d2FSTy1yamlnd01lQQ?oc=5",
+        "published_at": "2026-10-19T17:19:12+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Houthi Strikes Kill Dozens in Yemeni Desert Military Camp, Officials Say - The New York Times",
         "source": "The New York Times",
@@ -208,15 +234,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
-        "published_at": "2026-10-19T16:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump defends waiving Russia sanctions, says it keeps Moscow at negotiating table - The Hill",
         "source": "The Hill",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb1lydjdUUEZncFpMZlkyQ3JoQnFZdWVYS09PVXhLYTBYcktaY0ZMc0ZsZG5GWlRwazN5cnpwLTdIM0RxbWZkbGNpRmh2MFljSzBicmdReDhjWmlMZ24yVGR0RVlkcDJWR29KT2JHeTIxcGwwMnZ2T21rdXFCaFRmV0Y1UlYwVktVcENLd3dZb2tYellqQjBCcDlZWjlNQdIBowFBVV95cUxOazNPcGJpbEhtOUh6d0RWMEhWMHNoeURoeFJzMWxhM3ZTTUpUcmxhb2p6UUEtbUJnMi01dHVJNkRMOWdlWDZ1Y1h6VTl4d0h1WEpDRDZIbHRJMDZpa0I1UVlxM0NtemdhZjhJU2tsaTNQVlUxU3MxWG4tN0dYVGY2cnliYThxSXFLQWxpME5tU0p1cnRLaEhfXzVVa0Zkb3lPbE9V?oc=5",
@@ -253,29 +270,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjZnQm1nQlhYbXFUS0NwZER5Wmp6T3RtMGRuLVVxc1ppczJpeTBkSEM0ZVN1YmNOU21WZVJNTFBfbXl0NFhkMXZDNkxrSFlTajVTcG40MS1jc2c1OGdRTW1IZFA1MEdmZnFCUFdtY0JZSWlNeVphN2h4cXhoNXpKaklhRnRjWkxibExPQ2dXQ3lOcnRHcWZfWkRQMGI3S3Ixc3hfdDFOM2RMVmVlbWk1Q2FGTnE?oc=5",
-        "published_at": "2026-10-19T13:42:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "📈 Monday data: Who won the trade war? - Exponential View | Azeem Azhar",
         "source": "Exponential View | Azeem Azhar",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10NDA4X0JwZTNUYmgyNm9uLUFFeGp5ZUUtM2dtTnFiOVZWWWw1Ykt5MUxCdkNkbEZnbkJpSDhnUm1yVFB5NUtzcVgyaUZtck5DTE5vVFJBbzJ2amd5eFpxWG5JVmJUX0dwV3NkZXNqY1JuSUNj?oc=5",
         "published_at": "2026-10-19T13:31:29+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine claims world’s first drone evacuation of wounded soldier - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDBQQTdRSW55VU9wYjREUGhkV0EwcW5RbFYzQXQwSXh6aWZGM0tFNkJHUEdpWjVZTE0yM3FwbkN3VHI1QllfMnVxcjNZQU5xSlZuUDgtOVduQ1lLbzJpTW96ZjliZVBHOUROTkl3VEdvbUpGRDJzUkdzV1I1RkI2TU04cVdLYlBTV0Z4bUpwV0pZeTBrd0N2RTNySE9JU1FrTWNfS3ltcGJGT1E3UUk5TjZoT1Vsa3FK?oc=5",
-        "published_at": "2026-10-19T13:21:02+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -318,6 +317,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "FDA Approves Dostarlimab in Previously Untreated Locally Advanced Rectal Cancer - CancerNetwork",
+        "source": "CancerNetwork",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZFFsV2ZNWWhOdzZWQm1senZuZ2tqVURweGlTdlNqb19mMnNIX2REdUUtcHVqRlIwOEN4VkQ5MkxWbVJJbWFRVnFJYkVqYmRuWFVmeWZsSFBWck5GclFob25XNHVxeDUwMnl6Z0JyaFhsNnNWZXphVUlEZl9yZGtJQkhrMEVlV3N5R1NOMlJuRkxXd3pMOXFuYXpQUUllSFBZMmxyd0p3NXhHZnN6dWYxeDd6UFk?oc=5",
+        "published_at": "2026-10-19T16:56:25+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
@@ -332,15 +340,6 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2RQSmZ0elVhQmxYNy1qajBvNDl5NlVmRlFfWlg1WHBtUGVicUNEZEFEbmR5eTVyOGY4cnpRc0tMVGxFTFIyV2pQTEtSLXpTT09KeUFndkV5bktmSERxQmcxX1FUNnhRMlZHdHQ4MnRMRzhuQ1JfajZ3Q1RncXRlVFcwNVBQdV93a0xvUVFEb2VfQlNvbG41dmVNSktQRk0?oc=5",
         "published_at": "2026-10-19T16:00:00+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Disc’s rebuffed rare disease drug sets up FDA redo after ‘clean’ Phase 3 sweep - BioSpace",
-        "source": "BioSpace",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV2Y0bVBkQzhaMkc2clZZM0dUQ2VDMGFST01HOFhFX1lnNFA4WDd4cEMzREUzVEpjUmhEcE94YUlEWFZDbU9id1Nua3o0RmpPdFVvbzZQeVY0LWZieWZ3YWJBT3RMbHA0bFV2X285X1lyWjZJeUNDVzJqeEVjRHJBVlMycmx4blozT2pRaU5DLURFQzRrN3E0LUV5ZUFpamxvTWhVWFAwQVJKZGl1a1owZlV1dWVYeG52YlVuX0N0Yk8xWlZ5d0Rmd2hRSzhmTTJKNEhaaUxzOFk4QQ?oc=5",
-        "published_at": "2026-10-19T15:46:48+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -372,19 +371,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off? - Benzinga",
-        "source": "Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNenRYb0ZkS0VsT0RPOU1XaHpxRE15Mk5kbVIwVXFTN2lQVFY2Z3p4c2pfdnJNd21xZlVTRmV0aFp3dUJhaF83c0tadHI5VVZuSGRrclpNcm44NDFUTms5ZkEwMFZIaGhmZkNxSWZUVk9Vc0xfODFKdGh6MWtSb2RaSm5kNFB0bE1u?oc=5",
-        "published_at": "2026-10-19T15:13:07+00:00",
+        "title": "Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings. - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOUdZbkIzLXZ5YW0wMkVnUjFGR09FSERGOTRJUXI4Ql9aR1lWRmZwMXZYYzVqamNsSmR2VDdnMV9faFJrTXhKd3dYT20wemE3d0FUNWlvSENUVTdrSS1SazRFdnh3WU5vWkxVQU0xcDk5ajlrcjc5YmlpWk5FMWY1MWdBbEx2VVMxLWZfaA?oc=5",
+        "published_at": "2026-10-19T15:04:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings. - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOUdZbkIzLXZ5YW0wMkVnUjFGR09FSERGOTRJUXI4Ql9aR1lWRmZwMXZYYzVqamNsSmR2VDdnMV9faFJrTXhKd3dYT20wemE3d0FUNWlvSENUVTdrSS1SazRFdnh3WU5vWkxVQU0xcDk5ajlrcjc5YmlpWk5FMWY1MWdBbEx2VVMxLWZfaA?oc=5",
-        "published_at": "2026-10-19T15:04:00+00:00",
+        "title": "Micron, Intel lead chip recovery, adding nearly $250B as most of Wall Street falls: Chart of the Day - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNT0Z3eDRfMlBlWFBxNzA0U2V4Tzc3OURubzBkWGNVb3prRFp1MVlZNjhZZUExWHhTbFJoRV9FUnprSEVsYTdsZ0w4YU5uSy1qMnp3cDZNckJrSWZwMTVZN0tLUVFSTjc2T3Z0bFR0THdRbkxidElYX0drR0tKVFVhSUdYX1NGQTJXV1FHX3ZDZ2NvaXludE9BVUxwa2J3N2tsRGE0WXlhYTRDb0oxNkFPZHpLeUozNkQ1cTViR1daNUtJWW13cThLbUJRRjlOSEtwanl2TmdLMVFrellyMGplVEFnUV9hd1lw?oc=5",
+        "published_at": "2026-10-19T14:43:02+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
