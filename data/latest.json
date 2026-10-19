@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-19T17:12:36.201272+00:00",
+  "generated_at": "2026-10-19T17:41:49.708794+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.144000053405762,
     "treasury_10y_change_bp": 4.6000003814696795,
-    "wti": 99.19000244140625,
-    "wti_change_pct": -2.189134346252475,
-    "brent": 110.0199966430664,
-    "brent_change_pct": 0.14563629330597294,
-    "nasdaq_level": 26467.75390625,
-    "nasdaq_change_pct": 1.2537270163433867,
-    "sox_level": 11400.1953125,
-    "sox_change_pct": 2.360585676725635,
-    "vix": 18.1299991607666,
-    "vix_change_pct": -9.304655485984137,
-    "dollar_index": 101.98699951171875,
-    "macro_score": 74.4,
-    "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.25%, SOX +2.36%, US10Y 5.14, WTI -2.19%.",
+    "wti": 99.12000274658203,
+    "wti_change_pct": -2.258160766030004,
+    "brent": 110.06999969482422,
+    "brent_change_pct": 0.1911515413307585,
+    "nasdaq_level": 26450.1796875,
+    "nasdaq_change_pct": 1.1864959564604538,
+    "sox_level": 11341.970703125,
+    "sox_change_pct": 1.837795939089415,
+    "vix": 18.420000076293945,
+    "vix_change_pct": -7.853925526765526,
+    "dollar_index": 101.97100067138672,
+    "macro_score": 69.7,
+    "tech_bias": "positive",
+    "summary": "Tech bias positive. Nasdaq +1.19%, SOX +1.84%, US10Y 5.14, WTI -2.26%.",
     "quote_times": {
-      "treasury_10y": "2026-10-19T16:55:00+00:00",
-      "wti": "2026-10-19T17:00:00+00:00",
-      "brent": "2026-10-19T17:00:00+00:00",
-      "nasdaq": "2026-10-19T17:10:00+00:00",
-      "sox": "2026-10-19T17:10:00+00:00",
-      "vix": "2026-10-19T16:55:00+00:00"
+      "treasury_10y": "2026-10-19T17:25:00+00:00",
+      "wti": "2026-10-19T17:30:00+00:00",
+      "brent": "2026-10-19T17:30:00+00:00",
+      "nasdaq": "2026-10-19T17:40:00+00:00",
+      "sox": "2026-10-19T17:40:00+00:00",
+      "vix": "2026-10-19T17:25:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -46,17 +46,17 @@
       "published_at": "2026-10-19T12:00:00+00:00",
       "age_label": "5 h fa",
       "catalyst_type": "buyback",
-      "current_change_pct": 0.93,
-      "short_term_change_pct": -0.35,
-      "relative_volume": 0.59,
+      "current_change_pct": 0.39,
+      "short_term_change_pct": -0.81,
+      "relative_volume": 0.54,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T17:10:00+00:00",
+      "quote_at": "2026-10-19T17:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.6,
+      "quote_age_minutes": 1.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 1.5,
-      "confidence_score": 61.0,
+      "estimated_impact_pct": 1.6,
+      "confidence_score": 59.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-19T12:00:00+00:00",
@@ -67,9 +67,9 @@
         "source_quality": 75,
         "catalyst_strength": 68,
         "freshness": 62,
-        "volume": 26,
-        "momentum": 46,
-        "macro": 74,
+        "volume": 23,
+        "momentum": 40,
+        "macro": 70,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -77,18 +77,32 @@
   ],
   "movers": [
     {
-      "ticker": "UBER",
-      "company": "Uber Technologies",
-      "category": "Mobility / Technology",
+      "ticker": "PDD",
+      "company": "PDD Holdings",
+      "category": "China E-commerce",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -0.04,
-      "short_term_change_pct": 0.01,
-      "relative_volume": 6.25,
-      "quote_at": "2026-10-19T17:10:00+00:00",
+      "current_change_pct": 0.26,
+      "short_term_change_pct": 0.1,
+      "relative_volume": 1.67,
+      "quote_at": "2026-10-19T17:40:00+00:00",
       "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "UBER"
+      "tradingview_symbol": "PDD"
+    },
+    {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": 3.23,
+      "short_term_change_pct": 0.02,
+      "relative_volume": 1.54,
+      "quote_at": "2026-10-19T17:40:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MRNA"
     },
     {
       "ticker": "CELH",
@@ -96,17 +110,17 @@
       "category": "Consumer",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 5.41,
-      "short_term_change_pct": 0.1,
-      "relative_volume": 1.57,
-      "quote_at": "2026-10-19T17:10:00+00:00",
+      "current_change_pct": 6.1,
+      "short_term_change_pct": 1.01,
+      "relative_volume": 1.72,
+      "quote_at": "2026-10-19T17:40:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "CELH"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-19T17:12:25.463695+00:00",
+    "updated_at": "2026-10-19T17:41:37.474357+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -130,24 +144,33 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "Houthi Strikes Kill Dozens in Yemeni Desert Military Camp, Officials Say - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVWkyRTdNT1dhank1THc2cElOelBLdnR5MHZBajFsVTFKOEY1T0U5UllMVWlxOXlkOGNjaVZCLTFKM1lERUlpaTljdWtQcC13bzZHRTQ5dzc2UVhRRmNLWV9EcEM0dDhGVG9yWnZBdEpHbUIzSnVTVGM2ZGJBaHJMOHNJeTQyRlRockNjd2lMT2NGOEZPUWc?oc=5",
+        "published_at": "2026-10-19T17:03:13+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited - The Guardian",
         "source": "The Guardian",
@@ -191,15 +214,6 @@
         "published_at": "2026-10-19T16:00:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
-        "published_at": "2026-10-19T15:40:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -286,10 +300,28 @@
     ],
     "corporate": [
       {
+        "title": "GSK’s Jemperli scores FDA approval in rectal cancer, backed by high complete response rate - Fierce Pharma",
+        "source": "Fierce Pharma",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQemktSi15XzNDRmNKcmVyOTU2VVhCSHZPOWR1TllkUkRFV2VvU0pmYXFUU1M2aktPMTRNMFcyY0dBU0hvRGNnOEFKN3Q3X3JQT19BMlk4dHNuR25SN2xhTWRWMXBEcHhPLU5WYXUxbFF2M1VXTnZzYnhfX2JOendwRXhSRlpsMGFyZkE5SUZqNGRJRUhocnpDdjd0Ykc5SDg5NXZ0SHFxWnV6Z0JvTTJLZVBzb2ZxTXkx?oc=5",
+        "published_at": "2026-10-19T17:24:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "FDA Grants Accelerated Approval to Dostarlimab in dMMR Rectal Cancer - Oncology Nursing News",
         "source": "Oncology Nursing News",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORVVza0tIMFlMT2FsSnZhUWRqVENKWjM4NUx0ZTNwRmJVd1NOLUVvV1ZjWjhfdml1NVVZME9oUlFpTmpnSDM5cW1nVFI1MHdzc3VsRzB1elZHVi10Uy15NnlWQXc4aU8zWDhyVDhjUWNiV3FzQjJHaWNGOHZ3dHJIXzhqVWkzWEpSck9FX0NlNVJ0bzJEUW92Z3JiS2t2MXZDbEtMcWdzRQ?oc=5",
         "published_at": "2026-10-19T17:07:42+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-19T16:14:03+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -300,6 +332,15 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2RQSmZ0elVhQmxYNy1qajBvNDl5NlVmRlFfWlg1WHBtUGVicUNEZEFEbmR5eTVyOGY4cnpRc0tMVGxFTFIyV2pQTEtSLXpTT09KeUFndkV5bktmSERxQmcxX1FUNnhRMlZHdHQ4MnRMRzhuQ1JfajZ3Q1RncXRlVFcwNVBQdV93a0xvUVFEb2VfQlNvbG41dmVNSktQRk0?oc=5",
         "published_at": "2026-10-19T16:00:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Disc’s rebuffed rare disease drug sets up FDA redo after ‘clean’ Phase 3 sweep - BioSpace",
+        "source": "BioSpace",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV2Y0bVBkQzhaMkc2clZZM0dUQ2VDMGFST01HOFhFX1lnNFA4WDd4cEMzREUzVEpjUmhEcE94YUlEWFZDbU9id1Nua3o0RmpPdFVvbzZQeVY0LWZieWZ3YWJBT3RMbHA0bFV2X285X1lyWjZJeUNDVzJqeEVjRHJBVlMycmx4blozT2pRaU5DLURFQzRrN3E0LUV5ZUFpamxvTWhVWFAwQVJKZGl1a1owZlV1dWVYeG52YlVuX0N0Yk8xWlZ5d0Rmd2hRSzhmTTJKNEhaaUxzOFk4QQ?oc=5",
+        "published_at": "2026-10-19T15:46:48+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -345,33 +386,6 @@
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOUdZbkIzLXZ5YW0wMkVnUjFGR09FSERGOTRJUXI4Ql9aR1lWRmZwMXZYYzVqamNsSmR2VDdnMV9faFJrTXhKd3dYT20wemE3d0FUNWlvSENUVTdrSS1SazRFdnh3WU5vWkxVQU0xcDk5ajlrcjc5YmlpWk5FMWY1MWdBbEx2VVMxLWZfaA?oc=5",
         "published_at": "2026-10-19T15:04:00+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna shares rise ahead of cancer vaccine trial results - StreetInsider",
-        "source": "StreetInsider",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTZ4MmI2emtJNW5YVkdWTy1QUlBVX21wN0tZSy1YMUs2T0IzVE5ucWZvdHR1ZWVoNWRSb1FMYXU2WE82VnpwSFA3cnBiWWpkdTFaM1hJYXY3a0FGekQyRENQRWtleUplOW1TNWRoRUxUS25Zckx0UGN6Q3UzcEdzNXJrblJDY0JiSHdCcjBSZWVYM1dfeVZfNU1WZjR3S3lmTXgtSF83M0I4T2V3U3FPeA?oc=5",
-        "published_at": "2026-10-19T14:33:25+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Which biotech stocks are well-positioned to rally on upcoming FDA news? - Investing.com",
-        "source": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWVl1RlRkbkV2dEo5Y2NGT0NmZ0docGpuZWFGOGI4VnVLaXlYZEZBX2F4MUJIampDZlNPR2dMa3Y1N1lVSTlEajMybjhvUHJyZWVJNGcwM1lxN2xrWGNHRllaVHJ6cGpLdHpObTVzNWFMR3Q3cV9pUEd4NDNXRW8tU2cxdTZFWWpJaXdoaWxIcllXeTF4QjFCbWR5Yy05SFFPWnc4bjl1bWpIa1ZjeHNTWXRIUFFLR3VDRC0wWXNfWmc4ZmhpeXlSWGFaNDF0UQ?oc=5",
-        "published_at": "2026-10-19T13:58:55+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alpha Tau Medical Gets FDA Approval to Expand Brain Cancer Trial - marketscreener.com",
-        "source": "marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPelF6cTNESnVKRkFrcm81Y0wyT1pNOXFLblJ3NWM5WGI0aXRwM1RmUjJhcXhWclY3TnUzS1Y5SUF0Q3BIRHowUFhDb3dzbVU2aG4xUEZybUY3WXQ3VTZDN1p4SWtWdHVzel85enQ0a3g0NFc3RlNsX2tiMVZIZ0lFODlQLVRTQTVYa2hkUTBNWm5kdnp5TWpXSzRjQWdpUVJ3VnFwWTUyV1M1NWJSZkJRYlhIQ2VGNjRF?oc=5",
-        "published_at": "2026-10-19T13:11:49+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
