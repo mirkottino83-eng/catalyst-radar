@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-19T02:10:07.272436+00:00",
+  "generated_at": "2026-10-19T02:38:00.789364+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.55999755859375,
-    "wti_change_pct": -3.796475657710807,
-    "brent": 107.91000366210938,
-    "brent_change_pct": -1.7749835585368134,
+    "wti": 97.48999786376953,
+    "wti_change_pct": -3.8655020774883475,
+    "brent": 107.94000244140625,
+    "brent_change_pct": -1.7476771875826858,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.81900024414062,
+    "dollar_index": 101.82099914550781,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.80%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.87%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T01:55:00+00:00",
-      "brent": "2026-10-19T01:55:00+00:00",
+      "wti": "2026-10-19T02:25:00+00:00",
+      "brent": "2026-10-19T02:25:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T02:09:56.128849+00:00",
+    "updated_at": "2026-10-19T02:37:48.770796+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,33 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Iran warns US against renewed attack, says it has ‘unfinished jobs’ too - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdGluVGVkdUtBaXAySFdfWXJPRFZxdmxWMHpCV2tMRVhoZTdCcFVlcXowLVZhVjkxc3h1bjl0T1daRURDZlBOUGdfSkRvUm5MUWlzV0U5SE51UzRRczNqTlc1Q0FKX0pQUXhjRG4wc1ZZUnZqc0dlSlYzb3oxamdNa1pvdHVKQlnSAYwBQVVfeXFMTm80aG1IU3pnNlhuellYbExmTmdwbFNEVnAwRnZ5d0h4Z09GY3FyVHNCZDRRZWg4VEh4SFhGSkFRMUYzU3ZzNlJJVzBXNFBHbmFaWklHM2ZoRmx1V0RDNERkenBJX2dJVmxEcFJ2OVJhV0RZVVBoWHdkeEExTnVsdjZENERzUV81TUlYc3U?oc=5",
+        "published_at": "2026-10-19T02:07:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China's economic growth picks up as AI boom boosts exports - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKZDdHVkpOendSakJEYTM3TW1fY1JQS3BpYnZkSmtiRDJEdDlyNWZzcmFTclR6WEp5S1VtUS1ZZ0g5aE15YS14c0dsZnc4Z052M1hPZjJha0hWclk?oc=5",
+        "published_at": "2026-10-19T02:03:04+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump, Netanyahu threaten renewed Iran strikes, Tehran warns of response - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?oc=5",
+        "published_at": "2026-10-19T01:31:23+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Iran’s Revolutionary Guard says oil tanker struck mine and caught fire in Strait of Hormuz - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
@@ -95,12 +122,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Q3 2026 Economy: Consumption, Trade, Investment Data - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSWhZTWNBcGgybkNQRkVNMk1NX0J6eC13OHpVMTA4a0p3UGYtSzJVLV9zV0NpWV9tOVNEZUNBdDFaeTREZGU4c2RwVjJoZlhUemFQQ1RrQkx1MkhHdk9kVm9IeDlpU2FuQ0ZiVVBTZ2VXeDhGME0tQ3BSQ1FpdzZ2XzMzeG5hMVZTQ2RTb2QwWUhacmZJT0FKZzF3MVo5azJVSHd2bS13YXg1RFZVMGNEc1VvZFM?oc=5",
-        "published_at": "2026-10-19T00:20:23+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS0hLWEJLMnJtamZLbEhtMUZleWYyMUN6dFRCMjhuZGd0Vy1ucmMwUm01OHZPY2RCWE00QVAzNEtrNXZtajVTUTlJRGFHOWk4VzNxNnc0YzJlOGVpakF6VW5EZzFubGxYdjNsNmVUR0k5azk3amZ0TWJGeURrTDNtNkFocUFNd3NnckxxQy1oanlyclQ5aEM2NXdWM0dma0ZGeFlqNldOdDdoakh4Q2pQcUtmSDBQd9IBuwFBVV95cUxOTjlHLThmNE45Z3gteWs3S2VvU1hRTGsxdml5eTF3d0paWS1rNFhMVENZbHlKTFctcTRhcENxNzlqRXJVMEhQeVpnMzFaRzhUZ2l5ZGZrTjdOdlI5SEdPNjdxTFJ3MHpiaXBMeF83ZjBKeDVrenh6QVlyVlFUa2h5Tm5wc1hYbEtOYk8zak9GeW1TSHlZWDRPaFZiNFBxVUxnWEI3Sm5GYWJmU1JhVXRVR1pnaU0yTV81Sk5J?oc=5",
+        "published_at": "2026-10-19T00:55:06+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -167,24 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUdqTmNWUUFKcWcydVFMaU5uUkthdnpkZ3Z1Y0FaTU54UjdfZDlfYnNJcTU0WTNGU1hRa0Etc3pFNjNPQjBXcjB5S3pFbGMyRUlLTjVoTzdNQjNWVTJsZTNVUER4NDdDQWZMdWdhWnBGR1NkWDJQYnlVT3lJUGsyZmlMY1BKQXliNUZMVHZXWdIBlAFBVV95cUxQMnMyZDFwdWNxYnZScnhQRUlrUnJzcGZPcHQtRTFNWXNURXFBZC1CMThXXzlCLWt4NFpIRDFvREpUSDlVU1h4RDF5UU51Z1VOaVU1WHBWWFN1V1NhSjFMM0hTS3pqOVZXTi1jbnIzYUlNMGo1eGh1RjA0eHRvSWRQT05WNVpUOGl0SkhlU01MdzlsYnhu?oc=5",
-        "published_at": "2026-10-18T22:15:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran's IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0s0UXNzVGVGdHpZMVpnWnNYeFBxcXAzLTRCTHZYUzhjVnZXdDJ0VDVrcVA2M3lXQmhndUhXS3VIZ3IxeVFvQnZfYkdEdldSVUcwdWhpZjNWYVBWMURKUDgydlJBM0ZYUWZ0WmRGWFg0Wkt5VUhQQ2drMjQ1TktjakRGa3g1VE5OMzUwSmRDM1RsM3AyVkRWOGUtamhSSkVIMUlPR2R5eFhEUnl5RUNVczRwdGtub3ZCSy1GSmdqc0lLYVE?oc=5",
-        "published_at": "2026-10-18T21:30:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Nine said killed in Saudi strike on Houthis as sides continue trading fire - The Times of Israel",
         "source": "The Times of Israel",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbnEwS1N1SlJjY0FFZkptQ0FXSVhyS0FXbV84elA5SzlmZWU2SUZ1SGlXMFRHZGFGMi1jRWVrTmd4d0l1QVk0bVY5c2lfWk1BNi1KY1RPUk9ja0RBUkpHRUlmc1V6eTVEbThzNk9WRldXZjJoR0NtcnBTRW1QNjlGX1Y3MU1LVktFdGN2OUFQM0lPeGI5Uk8yVG9ueFpzYlNXTTFibWVrYmjSAa4BQVVfeXFMT3dJWVBpR0tJd3FNbDVZZTJSR2tkaDUwd2JxTFlDQnpOZzZQMFB6ZHRieFNGOG5VN0ozSXg5MUV1Q3RwcHNUWV9DSG9hblcwNVA4Tm9VWW1PZzhacDJ4X2ZIaVdlRE93Wno1R2tHWkN1Z1NHYXRxWXFzdkYxQjFNeHJSX1dSeTlKYkFIdU5wTkZVV0d2a21IOUlUQUQ0U19udjNpekpiOHBZU2N6ZXdB?oc=5",
@@ -201,18 +210,18 @@
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Egypt's top security body agrees to help Saudi Arabia defend itself against Houthi attacks - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSExWUWxPbDZ3eVc3aWhxcTkzM2pMMGh3WmtudnlJaGtCMTVFZ09hVUJ4NnU1TVYyVUMzQ25uRG1VcURqb1o1akJRdG5fd0I5Mnd0Yl9YeGZwV1RXejgzUGtDQnJXaTlOUnRYcXZlMTh3NkRRWjBROFU3OWRFREE3WWRtNmpLbTdLZ2ZlSEFOMkp4ZHhnRGRWTnV1c3p3UzNuQnd3cTNvVFcwaWNvdlNBSUM0SUdiTHhldG5xaXlWVEx5QdIBxwFBVV95cUxNdkx4dC1JQTBBTlVIaHVsUGZkeWQzdE1uRWpMWEcycFQ5R0JjRkx5Z25GQ1duTzF2VVYwT2dPMDR5RzhVNThvZ1FBbmh3SURFNDlaR0pjVHk2SmRtanBNUlZnbXViSDJqZmEzSmlxVE1QX3ZEQjNRaUdGSzZ4Z1AzSUMyY3ZIbmYtYk50XzFIUmR0UHFoUVE2ZXRMOU9xMDlWSE1aOVJyak52RzZXZDQ1V3NkQUhpbndRRkVET29VZVZmNExkdXlv?oc=5",
-        "published_at": "2026-10-18T19:22:43+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Incredibly powerful RTX 5090 gaming laptop with Intel Core Ultra 9 275HX CPU and 64GB of DDR5 RAM gets $909 discount in Newegg deal - PC Guide",
+        "source": "PC Guide",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNV1RNYmFOY0otdzRsWldiSnAtV3NuVm5IRndsX2s3UllKTUZrV1JJc3ZJWVp5Z1pjRWwybGwtaDRvbXFINEduSlNwVDB0UW1mbVZhNUJBZFhXNTR3OEFtMDVwNzBSYzQ1eDBFVUJ4UHIyX2hSMC01WFZFOFkwSmI4alZoYkl6TERndm1qZjZyYjlQWG9XZFFrYllPRVZDY1RWWGxpWVlQcnI2bVRjX0hrWllDV2NFUE81ejE1Z3ZFRXVYcW9HWks3cG9XNVV3SEJhT2VFaVNPR0g2Sl9wVU9tWnhQbGRQTHVTOUtNRGxXbUJaWTA?oc=5",
+        "published_at": "2026-10-19T02:11:05+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Here’s What a $10,000 Investment in Nvidia Stock Will Be Worth by 2030 - The Motley Fool",
         "source": "The Motley Fool",
