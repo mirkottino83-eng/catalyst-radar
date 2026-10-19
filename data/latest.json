@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-19T03:07:59.744699+00:00",
+  "generated_at": "2026-10-19T03:38:19.489537+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.52999877929688,
-    "wti_change_pct": -3.8260573342846826,
-    "brent": 107.95999908447266,
-    "brent_change_pct": -1.7294752551638704,
+    "wti": 97.4800033569336,
+    "wti_change_pct": -3.875357620802633,
+    "brent": 107.8499984741211,
+    "brent_change_pct": -1.8296032450969002,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.84300231933594,
+    "dollar_index": 101.83599853515625,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.83%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.88%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T02:55:00+00:00",
-      "brent": "2026-10-19T02:55:00+00:00",
+      "wti": "2026-10-19T03:25:00+00:00",
+      "brent": "2026-10-19T03:25:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T03:07:48.389273+00:00",
+    "updated_at": "2026-10-19T03:38:08.414971+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
@@ -77,11 +77,29 @@
     ],
     "geopolitics": [
       {
+        "title": "New Zealand's Trade Gap With China Widens as EV and Phone Imports Surge - Briefs Finance",
+        "source": "Briefs Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOekkwR292eTRFY1dIVEV6VXNwMVdfc05zbzc3NnQzMFpId0dVQ2E5RkFnOFdlTndvUnNYdnhzeFUxblptTHk3SkViVjlUVWduQzBNcjkwUk56U2NGQWE5TFhwcHIzaGY4ekI5TDBaOThHOGl6QjNfMERsVHhQcXBIbVUtemQxdGhoMHBZX0lWSXk4dw?oc=5",
+        "published_at": "2026-10-19T03:11:54+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Iran warns US against renewed attack, says it has ‘unfinished jobs’ too - The Hill",
         "source": "The Hill",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdGluVGVkdUtBaXAySFdfWXJPRFZxdmxWMHpCV2tMRVhoZTdCcFVlcXowLVZhVjkxc3h1bjl0T1daRURDZlBOUGdfSkRvUm5MUWlzV0U5SE51UzRRczNqTlc1Q0FKX0pQUXhjRG4wc1ZZUnZqc0dlSlYzb3oxamdNa1pvdHVKQlnSAYwBQVVfeXFMTm80aG1IU3pnNlhuellYbExmTmdwbFNEVnAwRnZ5d0h4Z09GY3FyVHNCZDRRZWg4VEh4SFhGSkFRMUYzU3ZzNlJJVzBXNFBHbmFaWklHM2ZoRmx1V0RDNERkenBJX2dJVmxEcFJ2OVJhV0RZVVBoWHdkeEExTnVsdjZENERzUV81TUlYc3U?oc=5",
         "published_at": "2026-10-19T02:07:00+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelenskyy: Russia continues to attack Ukraine’s oil, gas and energy sectors - NewsNation",
+        "source": "NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHB1R0Rad1hFV1VuUFE1dlB0a05OclkzZHRsU190UDVSTXIzMTRmU0NQdmZhRjNuRHZHOWJ0Y2tQS3pYSEtyQUtlN0xzVmc4NTR3NVc3WkNwa0puSFIxQ3Q1VjRiUWY4Q2dodExyZWR1VmdJMjhlcWdTaVN2MF81b21lTXBRc3FqRVJTUGJFbG11d9IBlwFBVV95cUxNbUJRUUQ0eUowX05CbWZKc0pRVGh2NW9RSE10aURteV9COE1yakhMUEZxY1Z5MnYzWFRXS3hjNEdrZWhBMDAtdUI3WjJqbC1NYlU3RzE3bmRqMFh6TVBnSlNHdXZrenNJOWRDbU13S1ZLaV9jWkRWRk5zc0dGMWpXQ1Bzd19fdTFOeEQ4TWpmcmlsM05PWmU4?oc=5",
+        "published_at": "2026-10-19T02:04:10+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -176,24 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China's Q3 GDP growth set to pick up as exports power ahead - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcGVkYXFpU09qRXZIdVQyMDVVaHpJTUo4dE15M2hUSnM4Zm5VR09CLWNRelhzZUd3VDRSbWdCQkljSnJtTWoxNkJ0WXg4cFNLdExWSUlpV3ZEdEhUdTB4WG43RmIxQ0FqMlZrNUpnQ3liTlVraFdfbW1mTnBueVdNMGdaaFAzMVdFdW5nMGFaTEFTMmdqdVNERTA1RzlGanVEZVE?oc=5",
-        "published_at": "2026-10-18T23:03:43+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump Defends Russia Sanctions Waivers, Zelenskyy Warns Of Consequences - Radio Free Europe/Radio Liberty",
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWDh0ZlY1WlBmbER2Rnk3UDFNOVV5NmhHMlg0SXQ3V0ktVnBnMzZZZmMzZnMwNnRHSzV1cHdRbVkzVGxmV05LSkt4MmdsRjRGM0NQcEwtMzFfVHdlV2FRY2xtLUQtSmpJUlljRlpYLS1PaUxkQjUwZEV6Tms2M1l6c0VvSW3SAYcBQVVfeXFMT0NFTkkwZVdHRE1LY3JISHBha3hROXlZOEdrX19RVE1hWXZPVzlYTEJ4TmQyQ2lsejJNQ29sWWZEd0pWd1hkZm9GTllueXJRR0Q5WmxFTUhob2J3OW12MEdab3luTXJieTNWd3JOTWthV0FreER5R2owc3AtTktDaVM3U1FabXdv?oc=5",
-        "published_at": "2026-10-18T22:52:20+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran's IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz - Middle East Eye",
         "source": "Middle East Eye",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0s0UXNzVGVGdHpZMVpnWnNYeFBxcXAzLTRCTHZYUzhjVnZXdDJ0VDVrcVA2M3lXQmhndUhXS3VIZ3IxeVFvQnZfYkdEdldSVUcwdWhpZjNWYVBWMURKUDgydlJBM0ZYUWZ0WmRGWFg0Wkt5VUhQQ2drMjQ1TktjakRGa3g1VE5OMzUwSmRDM1RsM3AyVkRWOGUtamhSSkVIMUlPR2R5eFhEUnl5RUNVczRwdGtub3ZCSy1GSmdqc0lLYVE?oc=5",
@@ -203,12 +203,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
-        "published_at": "2026-10-18T20:01:26+00:00",
+        "title": "Saudi Arabia sends skyscraper employees home amid Houthi threats - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmNWR1JhdHgzVXRndW9RX0JYbEh5RV9PeThsVmJrM3AyXzR5WEtmOXN1YkIxWmF0OV8zWlk3X1FMalNwM3BJQTJLWU4yTW13dG1yM1NMcmdnRHRkZnFDUWg0VGZjYXFIdXZBenZVX2lLMUtOSjRvMkZJckVobWhPQU4zX2JkcmgwVVRfOWx6dzJFQTg5ODZEUHJBNWZEZ9IBngFBVV95cUxPZjRmSElfelpyenNzMm1SYUxmel9kQ1JUNkxmMGRLZ3EtTFlrMHQ3aEs4UXdZeGRsajVpUEhIbVNtX1JFbjAzY2xFWTdOSDR6VXdJbGhzUmRUYUk2c0RQVGlSSWJ4YmpGTTdpZkZYZlRBcVBHOHRGV2xUTFlwTjFvd2xIRlZnMHA4UjhJb0JPLXpmNXpjXzQ3d2xFSmdKUQ?oc=5",
+        "published_at": "2026-10-18T20:12:41+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -250,15 +250,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "fda approved peptides for weight loss - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1hHUi1wODhVcENLOVVadkpUWEVHeG1wWE9peTF0RmZ6eWEwY0hGMEgyR1g3UThZRi1td1k4UXJ5MzZadDd4TkZlN005UjhoOGhXSnRvZFA3WldUS3d1S2Jkem1CVU1PVlpxWEtKaFVyUmxXa3lkTTVRWDlIMnd3TElVMjRGQU12Y0RVQjQ4cHlXbDFDZ2poSkdmRnBBa1ZqRUtRV1FpQ1g?oc=5",
-        "published_at": "2026-10-19T00:30:36+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
         "source": "Medical Economics",
         "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
@@ -273,6 +264,15 @@
         "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNZXlwXzQydS1Tc3MwNEp4N3hWbmFLVzhIa0twTEI3Yl9kLURNWDN5dnJ6dzYxdlp5d1p1Ti1lQzJXYW1GSEpuMHNnal9Wc3dOaGxhVmpJTGxRUHRVWk1RVTFYNzNILUpsWXJxZnhTRDYxVEY1R0tsZ3JKZ1FpellIUmR0WFV6ZkFQd1lWRmotNnBqd1N1VEhEc2NxRm03QWMyczZ0b0o0Nk85d2FyaVNPSWhPRHkzZ2djSFd5WG1IanR5dS00MTRQcUI2S21DNVpXbFhvZGpIb2NqX0s3U0VvMHhyT0luaHNMZlZnVlZ0a1F5dkZqTlgtd1VwMXBsUnhkeEt6MmNCRzZsaVJjb1J3d3pFaXRhSnN6MlJhMFV1YXhfUm0zRVNRSG9IckI?oc=5",
         "published_at": "2026-10-18T20:05:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "CELC Stock Clocks Best Day In About 2 Months On First FDA Approval For Cancer Drug - Stocktwits",
+        "source": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWjhCdlhSQWVlRExjTzJLRlBUc0VtWTVJYk9zMnFCSjNWSU9HSW5iTExaTndBWG5oQU55b3lRNm16Um9KUnZMcy1fd0FNaS1VZFl3NmJxTmRrQnlHNHdPeEdHT1lWLUs1VHJTdF9ONFRtRDNGck0td21MbE5kRG16M2hDRlNWTlVIQm15OEQ1djZDTzBndEZDOUhDTmlIVlM2a29UZmpCbFgyQnpVU2ZoWHcycDhRVU1VZHdxVHVkTjViUzBhUTA1eHNySXlpc25hOUFzSk90RUxUWmpQU2Rr?oc=5",
+        "published_at": "2026-10-18T19:14:45+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
