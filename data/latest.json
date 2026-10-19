@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T03:38:19.489537+00:00",
+  "generated_at": "2026-10-19T04:13:41.858151+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.4800033569336,
-    "wti_change_pct": -3.875357620802633,
+    "wti": 97.43000030517578,
+    "wti_change_pct": -3.9246654306360873,
     "brent": 107.8499984741211,
     "brent_change_pct": -1.8296032450969002,
     "nasdaq_level": 26140.033,
@@ -15,14 +15,14 @@
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.83599853515625,
+    "dollar_index": 101.81600189208984,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.88%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.92%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T03:25:00+00:00",
-      "brent": "2026-10-19T03:25:00+00:00",
+      "wti": "2026-10-19T04:00:00+00:00",
+      "brent": "2026-10-19T04:00:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T03:38:08.414971+00:00",
+    "updated_at": "2026-10-19T04:13:30.714591+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,24 +58,33 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 11
       }
     ],
     "geopolitics": [
+      {
+        "title": "China's economy accelerates on robust exports as domestic weakness persists - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTENEdTFqcEVDV0MxeHJOT3pDOUJHU0ZfbTJ2ODJyV0UyRnhXNmdKZk9FZ1RBOGFpMldEMl9hcjllZW1ZYlJhY1U0anRrdkhKMjEwOV8zcEZjM1d2NDRMakVlajgwRVZFclk1T2k1eThpUjFOWEV5RTlHR1FTdHNCTi0wdUlKWnZaY1F1NjdfS28yMEFiRmhGSFJyOEZ1c2VRSm1DZVNrRWdnTk5VRV91ZE5aenZsNkd60gG-AUFVX3lxTE9Cd0gteUVkR0k4MVByQnBkdi1Zc2NUXzJ2eWQ0aVFtY0NpRm1QMWE5OGpaOHlQeEZEdGxFeG9GN2pkMEZMQUdVV0xWYUMwcll0SXV2elQxM0hQUTVKVlZqSG1wcklsYjZmbWMtOU5XMG00c25FZnp1QlpVaVQ3TWhPVWNGN2lMMV93QWFlWEJPS21XSTIxcWF1S3hIM1JKbTFCRGRyU2JHVUlERTFmSGV6Z091T3ZsTFljOXJnQVE?oc=5",
+        "published_at": "2026-10-19T03:43:55+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "New Zealand's Trade Gap With China Widens as EV and Phone Imports Surge - Briefs Finance",
         "source": "Briefs Finance",
@@ -86,12 +95,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran warns US against renewed attack, says it has ‘unfinished jobs’ too - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdGluVGVkdUtBaXAySFdfWXJPRFZxdmxWMHpCV2tMRVhoZTdCcFVlcXowLVZhVjkxc3h1bjl0T1daRURDZlBOUGdfSkRvUm5MUWlzV0U5SE51UzRRczNqTlc1Q0FKX0pQUXhjRG4wc1ZZUnZqc0dlSlYzb3oxamdNa1pvdHVKQlnSAYwBQVVfeXFMTm80aG1IU3pnNlhuellYbExmTmdwbFNEVnAwRnZ5d0h4Z09GY3FyVHNCZDRRZWg4VEh4SFhGSkFRMUYzU3ZzNlJJVzBXNFBHbmFaWklHM2ZoRmx1V0RDNERkenBJX2dJVmxEcFJ2OVJhV0RZVVBoWHdkeEExTnVsdjZENERzUV81TUlYc3U?oc=5",
-        "published_at": "2026-10-19T02:07:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "China's economy picks up pace in Q3 as exports power uneven recovery - Hilton Head Island Packet",
+        "source": "Hilton Head Island Packet",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfY1NQcTJ0bjM2bEJLcnBYcTRvMWotQTdlQ1NhNXp5bTdYUGktSUZYZHFOSTZLTU9pVVlTR1lKYzlaMGJfYWU0SEdrS0pWSmVnWURQSTZacUk0ZkRYakxNelFPZ0JWNW9vekFoSHktUEtaQQ?oc=5",
+        "published_at": "2026-10-19T02:26:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -110,6 +119,15 @@
         "published_at": "2026-10-19T02:03:04+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia’s Military Limitations Are Being Exposed by Houthi Attacks - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM19uejBXQV9UYlQ0ZlFpMFFxYkM3WFY1aWlac3NVWUxFMUxqMzlCTE9DSl9JMlJXRHBPcnN6LVI4Xzl0OHBHYjVKME5jOFcwcFo4VnctUlpRUk1WRkhPczhHWDh2Tl9JeTVaLXU2X2dXVDNKd2dKdU5pcHhOWjRTYktfbV8tRjd3RFpNdXdfZnlxM19QYlRSanZVX0hRUlJBa0V0aFpTNGFUZExoSWs4S0Y0dmZMcUUt?oc=5",
+        "published_at": "2026-10-19T02:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -149,24 +167,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war' - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFJnZjhpc0RSeEJycTlra3BHZkZGQ3ZKSEhoRDN5R19wQldCSTQ1TUp5OHlMYXd2WFBKOTZSVldpV2h6Sm5xOWZpRWt1M3h3WHVaT1o5dThXWkQ2cm05WkdOZk91a3NETjNRbUtVdjFSOVVpMldfVVN4dnpLTDBTSjhSb2hlbHhFaE8yN1psZ2wycTI3eFczRjhraHJGQjVMUVR4UjVOUnV6TWPSAasBQVVfeXFMTUlrMGRUcmpXVVlUYzZKZ1NkdEZZSFYxQkZVYUt5WHQ4WGZkdm4ycUk1MzE3Q2E1WUJiTF80MTEydklJMXNOdk5RWmpVc290QXJyVmduOHN2NUVuOUVUeENPLXEtQklrWFBjbkxFYWsxU2Q5UFlsQnV0RlBlUHF3U2xHRUJvcGxWd3pRQnB4TGlfZ2JobXdUc0VVWFQyNzJDTUFwNjZzeUU1Mmww?oc=5",
-        "published_at": "2026-10-19T00:32:38+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Trade Surplus Nears $1 Trillion: Exports Surge 21.3% - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUTY1bUh1Q2ZxZE8taFprbEJjY2EwOUVjakk4ZHp3SzVUQko3aFhmSUpGYy1vbHkzVjlMM2N6ZHBqTlM5bXVVSkZRTTlfRlFJdm5tZjhocDg3UmdZcXpoX0RLbTktTmpoWThKUFlBQlhLTmgwTGx1Qm50VXBOTGRQZWtWSmxtRmxua1o2dg?oc=5",
-        "published_at": "2026-10-19T00:11:24+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "DW News. . Two Russian oil refineries were hit by Ukrainian drones, after Kyiv launched one of its largest aerial attacks of the war. Russia says it shot down over 1000 drones in the overnight attack, which also hit logistics and data centres. Ukraine had paus",
         "source": "Facebook",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMTVTSjdkNWlKUUxLQTJ5VVBIR3JoTUhhSTRraUE0QzZ0QThnVFRDaDF0OEk2TGhjd3ZHa1Y2M21CM20xTEx0MFE4bEN3V0tkRUNOdExQUzNTeWZyMkp2VFdIbzR6VDdHWXpIR3RlNzJmYkRoSjY3b3lza3BydWJBby1mUjNicUp3MFBHRTUxZnhmZEx4M0xHZzF5Q0NPSGFOWG9XNzZEWW9laEtGajRodm9zUWJGX3VYX1BFRzFhSmR2YXZXTW9xanNEQktuanUxZ1FXUFJJaFFuTjd5Z3ZhY21n?oc=5",
@@ -185,21 +185,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "North Korea-China trade ties gain momentum as new bridge opens - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOXI3eGMtcmF2Y3hBSHBtRjBKMVBiTms0S25kcGg0U2RfUmpWRWxFOTFOTW0xS3lmNTZTZ1ZjNzZ1MzNXMlcwOHBpZ2t0dGxYVXNfTHRNdmF0ZndQamVOWDQ3aXRyVDJsOHBiWXVSNGJQQnJXVnFhQXhtWmN0RFF3ZUE2YXg4bjBheDlJRnp3dEJZUUxMNl9hedIBngFBVV95cUxNbzMxVHZSMTZxclBpdEFNM2ZsR2xHMklqbE5pRXdaenFhN2tZeFZpbEZSQ0N4ejgzc2U2TjNRMU05Skx2TzlESDJkTkNvemJwOERrZ0IzOHREeGswSHdaMlUzbFdSR2dOamQ0SUJUZ1lGNU9mc1doeXFYdC1oUGpLSTlyZ3ZPUkpkSmxISExJNUxpb0VmVDJfQno2cG1IZw?oc=5",
-        "published_at": "2026-10-18T23:06:20+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "60 Minutes Transcript: Helium in short supply as Iran war continues, with spot prices tripling - CBS News",
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZDJUVTF1aUgxX3A1NFRZaFpfYURPazBpRldGNERsdUcteWZ1amdxcnRjTVVpMTFxaFhuWHVHUU5jcFU4ekdqN1JyV3hvdFJvM3BnR2RqU2w4NUUzSmhaalBTWldqeHZoM2dhRVcwb1hjX2lpMEJEMEwtNVFEOF9Nalc2dklfVzZJRzZXLXd4a1dSaGJIMFFNWTBWSnk?oc=5",
+        "published_at": "2026-10-18T23:39:01+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran's IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0s0UXNzVGVGdHpZMVpnWnNYeFBxcXAzLTRCTHZYUzhjVnZXdDJ0VDVrcVA2M3lXQmhndUhXS3VIZ3IxeVFvQnZfYkdEdldSVUcwdWhpZjNWYVBWMURKUDgydlJBM0ZYUWZ0WmRGWFg0Wkt5VUhQQ2drMjQ1TktjakRGa3g1VE5OMzUwSmRDM1RsM3AyVkRWOGUtamhSSkVIMUlPR2R5eFhEUnl5RUNVczRwdGtub3ZCSy1GSmdqc0lLYVE?oc=5",
-        "published_at": "2026-10-18T21:30:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jTzFvVzZoMldNWlJEVTc2bUg5OEh5dmxlWEJvLVA2LWQxVks4c0pNVzBQVTFmZGhKYTFDZHZ5MGZIT1laODhMMHhNWV9qd3VXajRiU1Z0U2MzaDQ?oc=5",
+        "published_at": "2026-10-18T23:20:15+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -228,6 +228,15 @@
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQem5vVkV1aFhUcnF1N2dMSDRQalpZWDdNa25SNWNfMF9uQWdfMFFGSnF4VVJIUXVSb0ZBbEdvUFFLaTkyOUp5a0I0Vk1xaE9nZU5wMTFrbjdvWWVlc01JMmFqNTRQTkFHR2czYzZrUkZaWjZRYW5vVmgzcTZQMjhmZ3RkaC1YblBHS3dQLQ?oc=5",
         "published_at": "2026-10-19T01:53:42+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Here’s What a $10,000 Investment in Nvidia Stock Will Be Worth by 2030 - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVFVLRG1RZzM3T05RR3kzc0lXamo1bHRVampXaDdpRHAxX21qN0c3QnhwMFMyR2pWZFRTUEJYTUM0cmluaS1QRm5hN0tkbHl5VFVuNUxLT0Nhalh4MGRMVF9iNFpUOGNkb2h3NHB2N0h4RVR3MHZqSTZNdFgyaFlzdTFQdkg2QTMxNkpsSFdReU5HcnR4RWZzbE9TNmdJWkQwSHppcUNRcDNRdFZqb0djU2hCdk5RZw?oc=5",
+        "published_at": "2026-10-19T01:46:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
