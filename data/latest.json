@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-18T23:58:15.542471+00:00",
+  "generated_at": "2026-10-19T00:25:40.462988+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.77999877929688,
-    "wti_change_pct": -3.579533331748419,
-    "brent": 108.19999694824219,
-    "brent_change_pct": -1.5110173428789841,
+    "wti": 97.5999984741211,
+    "wti_change_pct": -3.7570309145071534,
+    "brent": 108.05000305175781,
+    "brent_change_pct": -1.647549197649656,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.84600067138672,
+    "dollar_index": 101.79299926757812,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.58%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.76%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-18T23:48:00+00:00",
-      "brent": "2026-10-18T23:45:00+00:00",
+      "wti": "2026-10-19T00:15:00+00:00",
+      "brent": "2026-10-19T00:10:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-18T23:58:04.255037+00:00",
+    "updated_at": "2026-10-19T00:25:28.653695+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -72,28 +72,10 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       }
     ],
     "geopolitics": [
-      {
-        "title": "China’s Q3 GDP growth set to pick up as exports power ahead - The Mighty 790 KFGO",
-        "source": "The Mighty 790 KFGO",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUTd0WGN2LVAwMngxZnpsRkpVT0tkcTJnQXExR1poRW5tZFpNbGZuTWlORjJpWTNTVm0yclFkaHp2Ti1kblhyT21nSnd5TFh5SlA4aXdWVlI4MldXQjJMNWl0UTZzUUZsM0xja29mU2cyakpIanBtN1p1ckJqWHgzSHpzRXhUYjBVaXBOWWhISjM?oc=5",
-        "published_at": "2026-10-18T23:30:03+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU tariffs aimed at China hitting Ukraine, steel boss says - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XQzF4ZTF3VnlESkwycFRRRkJjYjRDb2p6bXZPRzRFWTgyQnhiLXZIT01SMl9SN0FubWlOblF2cV9QMFBkaGlCY25YUUoxM0l1OS1ZM1dGZ1dsbDQ?oc=5",
-        "published_at": "2026-10-18T23:28:45+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
       {
         "title": "North Korea-China trade ties gain momentum as new bridge opens - upi",
         "source": "upi",
@@ -101,6 +83,24 @@
         "published_at": "2026-10-18T23:06:20+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China's Q3 GDP growth set to pick up as exports power ahead - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcGVkYXFpU09qRXZIdVQyMDVVaHpJTUo4dE15M2hUSnM4Zm5VR09CLWNRelhzZUd3VDRSbWdCQkljSnJtTWoxNkJ0WXg4cFNLdExWSUlpV3ZEdEhUdTB4WG43RmIxQ0FqMlZrNUpnQ3liTlVraFdfbW1mTnBueVdNMGdaaFAzMVdFdW5nMGFaTEFTMmdqdVNERTA1RzlGanVEZVE?oc=5",
+        "published_at": "2026-10-18T23:03:43+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump Defends Russia Sanctions Waivers, Zelenskyy Warns Of Consequences - Radio Free Europe/Radio Liberty",
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWDh0ZlY1WlBmbER2Rnk3UDFNOVV5NmhHMlg0SXQ3V0ktVnBnMzZZZmMzZnMwNnRHSzV1cHdRbVkzVGxmV05LSkt4MmdsRjRGM0NQcEwtMzFfVHdlV2FRY2xtLUQtSmpJUlljRlpYLS1PaUxkQjUwZEV6Tms2M1l6c0VvSW3SAYcBQVVfeXFMT0NFTkkwZVdHRE1LY3JISHBha3hROXlZOEdrX19RVE1hWXZPVzlYTEJ4TmQyQ2lsejJNQ29sWWZEd0pWd1hkZm9GTllueXJRR0Q5WmxFTUhob2J3OW12MEdab3luTXJieTNWd3JOTWthV0FreER5R2owc3AtTktDaVM3U1FabXdv?oc=5",
+        "published_at": "2026-10-18T22:52:20+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -149,28 +149,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump waives Russia sanctions. Where does that leave Congress? - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYzZnOXo0MGJHMmxPOXl1RE1NMFB1OXA1RFFrenNzUTQyZkJSb0dwSlEwRmQwdDdJOUQ4M252MzBkUGxkdFpRVjFRNDIwYkV0aV9TVFF1TGNwcjhtZVlraGprUTc0eWpBWWNFbUhiczZzc0VfOEVSMmVPaUtTS18xdHBQUWcxNHVhQjdqNS1IVXF6OV9HVXVkc1hHdEd2WDhvTFhrUDdrZEI?oc=5",
-        "published_at": "2026-10-18T21:39:09+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran's IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz - Middle East Eye",
         "source": "Middle East Eye",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0s0UXNzVGVGdHpZMVpnWnNYeFBxcXAzLTRCTHZYUzhjVnZXdDJ0VDVrcVA2M3lXQmhndUhXS3VIZ3IxeVFvQnZfYkdEdldSVUcwdWhpZjNWYVBWMURKUDgydlJBM0ZYUWZ0WmRGWFg0Wkt5VUhQQ2drMjQ1TktjakRGa3g1VE5OMzUwSmRDM1RsM3AyVkRWOGUtamhSSkVIMUlPR2R5eFhEUnl5RUNVczRwdGtub3ZCSy1GSmdqc0lLYVE?oc=5",
         "published_at": "2026-10-18T21:30:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran urges United States to accept 7-day deal - NewsNation",
-        "source": "NewsNation",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VVGVBUTNFOGF5Y0xYMzYyOUlybFJlOFdUbmZuZ0szT1JQRVl2RVhPMmFmZTd6SXRhaENYTTBiVGx0Y3ExRjhYQXp5ZVoxc196bWwzZUtzc2xpZ05TeWxaZU4tRDB1eXFYUGhBd2xvOWw3Ml840gF6QVVfeXFMT1YxNTFoSlNzX2xxaERlekhzTXdFZThTcGFXOUNTWTA3NHQ5dDZsVHdzRExBdDNIRkpjSHZ6bWExcklKS0VWYjd5dDJsdnNCQmU1QkYyT3NGeTg2MmlYS2JQODZaeTJqQ2VBTWZlSFRiVDVsaXA1c1hvdWc?oc=5",
-        "published_at": "2026-10-18T21:06:22+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -182,6 +164,15 @@
         "published_at": "2026-10-18T21:03:52+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Key technologies: New export controls planned - Table.Briefings",
+        "source": "Table.Briefings",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ29mVFp3bkRYWmtIRnRyVlFSazBWamJMbDZXX0ZYTDF6TFRyVFZVdnc4Z1RmdlFRMkJqRWNYQk40Wk05MzNXNXRIcEppMmFrYU1aenY2OGNNLUZJazNoQmZlQU9MUEdLMzFMVmVRU28zZk5qNUhiMHhXYXRBdVdFeFVYYmg?oc=5",
+        "published_at": "2026-10-18T20:30:44+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -210,6 +201,15 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "6 injured after Houthi strike hits southern Saudi Arabia, civil defense says - The Times of Israel",
+        "source": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcHQ3QlZWSTRFZ0h6aFhfRUV3b2wxVEw5cUxEMEpENUdRcTdNOGpLZS1VNkZJMGEzWWN2VUkwU3ZCOEpCNGx3bVM4akVZQmFMdXJZaUJTRTlWMFhpQjN6QTRzQnlKbFJVV3ZvTVVZd0I3Qk4tb01xOV9iZWhjQTNfRTh6TjhxS1BERzk2X3h3d2U3ZW05dk9fb0k5MFpBU2JtM2NMXzFGT3RWdlJFMDNBRm9Cb1pmNUNjcjM2bGl3?oc=5",
+        "published_at": "2026-10-18T16:59:47+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -219,6 +219,15 @@
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaM0VSVkljNFc1S2JQV1Z4dDZyRnZXLXM2SGd6bUJLSlZkME5KUjR2aVhzUUUwUFBPdkQ2SnNPM2F0RFhDeWdTc1JXV3ZybFN4MFZEQlhsRGR0SjRYV3dQc1kxYjN3YmZhYVo5cWN6cTZuMFNsMlJneg?oc=5",
         "published_at": "2026-10-18T21:25:26+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "fda approved prescription weight loss drugs 2026 - www.polskieradio.pl",
+        "source": "www.polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZWxFNnBBaU5WRnBPREZfMGU0Zm4ySUxMNWhaMHhjcGQySGMtZzRoYXlwOGloel9FVndBc3RPdGdseVdwcWQ0Wng5bkRGTGZjMTJGUzFiaWM1MnZfZUhNdEc0Q2cta0hSREQtdkRCbHRvVzBHajRUaEhtenRzSEJZOFJtU1N1WU5yNG5sempXTlFxTy1yZkh0OU1maEM?oc=5",
+        "published_at": "2026-10-18T21:04:33+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -250,19 +259,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "fda approves eli lilly weight loss drug - BusinessWorld Online",
-        "source": "BusinessWorld Online",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMnFwR3VSODdNaURsUG5hWVFtQk5tVFhkQV9seS1Wc1JKN0Z0ZFBmMHFsQmQwLWdZc0tjSzlpT28zV0lmdlBOQThyQmd1ZThxSGJpVmVFcl84ekFqM2xQX0ZiVlpJZ05EM1Q2WFB1MEttdEtUYjh2dVVIa0hzTDNuczhQeV9EeWc?oc=5",
-        "published_at": "2026-10-18T18:18:14+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "fda approved prescription weight loss drugs 2026 - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdUZoV25JNUdKRVpsSlJzSE9kWDhxazN2TklCd0hYcXVkc1VXeXF5M2JyWjh4ZmhheDRyTnVuU1F0dXhueUNMZlBvcUxVUHNLeVlFVDVhY3puc1YyczFDeXEyOFBTRXB5anhXai1ENFJxdUZRUG9RaUg2WGR4NXhkRUZ2MlQ1VGVXRWtXZ05kenZVbG9Eem1FX2k1ak5Ndw?oc=5",
-        "published_at": "2026-10-18T18:17:40+00:00",
+        "title": "Did FDA Filings Just Shift Cogent Biosciences Stock Investment Narrative? - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSHZvNW0zZVA0TTlqaDZQR1MyQzVUYXU3WlRSQTJQNE44RS0xMFkycmFZQnhOYTZqenV1Z3ZVMTJPdlZRM2hGemZUYmhuQjg0cXBmSGRCbmpCYzVlZkpIWkJpekk3cW9HTC1ycnRzT3dPVGFPUXpHMGpkeXh6NlB4c2tabUE2MkZ1WmtBY2hJUmVnUzkwOW12TTEyczNndVpxTVJKTHROSXkxVFRwRTFOcWljUExlWU5PMFFLcXFDRUdmOWVNY0JiQmRpcVlxSHc1dkR6dmVHR2VYUHVBR0lGSmlWdEhqcmJoYmppQdIB7AFBVV95cUxPSHZvNW0zZVA0TTlqaDZQR1MyQzVUYXU3WlRSQTJQNE44RS0xMFkycmFZQnhOYTZqenV1Z3ZVMTJPdlZRM2hGemZUYmhuQjg0cXBmSGRCbmpCYzVlZkpIWkJpekk3cW9HTC1ycnRzT3dPVGFPUXpHMGpkeXh6NlB4c2tabUE2MkZ1WmtBY2hJUmVnUzkwOW12TTEyczNndVpxTVJKTHROSXkxVFRwRTFOcWljUExlWU5PMFFLcXFDRUdmOWVNY0JiQmRpcVlxSHc1dkR6dmVHR2VYUHVBR0lGSmlWdEhqcmJoYmppQQ?oc=5",
+        "published_at": "2026-10-18T17:36:29+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
