@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-19T01:39:58.559561+00:00",
+  "generated_at": "2026-10-19T02:10:07.272436+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.0980000495910645,
     "treasury_10y_change_bp": 0.8999824523925664,
-    "wti": 97.86000061035156,
-    "wti_change_pct": -3.5006438453411004,
-    "brent": 108.41999816894531,
-    "brent_change_pct": -1.3107613630129245,
+    "wti": 97.55999755859375,
+    "wti_change_pct": -3.796475657710807,
+    "brent": 107.91000366210938,
+    "brent_change_pct": -1.7749835585368134,
     "nasdaq_level": 26140.033,
     "nasdaq_change_pct": -2.145006807378569,
     "sox_level": 11137.287,
     "sox_change_pct": -3.8331311014550007,
     "vix": 19.979999542236328,
     "vix_change_pct": 21.38518015522992,
-    "dollar_index": 101.84600067138672,
+    "dollar_index": 101.81900024414062,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.50%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.15%, SOX -3.83%, US10Y 5.10, WTI -3.80%.",
     "quote_times": {
       "treasury_10y": "2026-10-16T18:55:00+00:00",
-      "wti": "2026-10-19T01:25:00+00:00",
-      "brent": "2026-10-19T01:25:00+00:00",
+      "wti": "2026-10-19T01:55:00+00:00",
+      "brent": "2026-10-19T01:55:00+00:00",
       "nasdaq": "2026-10-16T21:15:00+00:00",
       "sox": "2026-10-16T21:15:00+00:00",
       "vix": "2026-10-16T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T01:39:46.900956+00:00",
+    "updated_at": "2026-10-19T02:09:56.128849+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 3
       },
       {
         "area": "Farmaceutica e settori",
@@ -92,15 +92,6 @@
         "published_at": "2026-10-19T01:14:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says he's \"negotiating Peace\" as Ukraine launches 1,000 drones at Russia amid continued back-and-forth strikes - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmpzT0JqMHd6elRCQmR4Z1JKWWpycEc4UXI0dXJfQkN0NGlvOENSdjl3REZ6SndFSVRaNUo0cV9hX2hKNEN1bXFwbkdmUTlsUlQzUDgwLTFQUVdJWnRHTm5IMjZPSGw5M0xRTGtvZDA5VFhLeHRLWnVZSGZ0d2dxVklrTU8?oc=5",
-        "published_at": "2026-10-19T00:45:08+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -176,12 +167,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Live - Trump threatens to finish job against Iran, Araghchi warns Tehran has unfinished jobs too - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrcnBqMUFFX1cyREwxckpUbVNRS0FRcUhUS2dlMU1xWnZmWXFKR01HbFZqaHBhYTlJRk9Rb2kzN1FrbmNVbTRFVmViNFFtOVBRWkdXQWVXZkpyWEFfcGc?oc=5",
-        "published_at": "2026-10-18T21:38:58+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUdqTmNWUUFKcWcydVFMaU5uUkthdnpkZ3Z1Y0FaTU54UjdfZDlfYnNJcTU0WTNGU1hRa0Etc3pFNjNPQjBXcjB5S3pFbGMyRUlLTjVoTzdNQjNWVTJsZTNVUER4NDdDQWZMdWdhWnBGR1NkWDJQYnlVT3lJUGsyZmlMY1BKQXliNUZMVHZXWdIBlAFBVV95cUxQMnMyZDFwdWNxYnZScnhQRUlrUnJzcGZPcHQtRTFNWXNURXFBZC1CMThXXzlCLWt4NFpIRDFvREpUSDlVU1h4RDF5UU51Z1VOaVU1WHBWWFN1V1NhSjFMM0hTS3pqOVZXTi1jbnIzYUlNMGo1eGh1RjA0eHRvSWRQT05WNVpUOGl0SkhlU01MdzlsYnhu?oc=5",
+        "published_at": "2026-10-18T22:15:39+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran's IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz - Middle East Eye",
+        "source": "Middle East Eye",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0s0UXNzVGVGdHpZMVpnWnNYeFBxcXAzLTRCTHZYUzhjVnZXdDJ0VDVrcVA2M3lXQmhndUhXS3VIZ3IxeVFvQnZfYkdEdldSVUcwdWhpZjNWYVBWMURKUDgydlJBM0ZYUWZ0WmRGWFg0Wkt5VUhQQ2drMjQ1TktjakRGa3g1VE5OMzUwSmRDM1RsM3AyVkRWOGUtamhSSkVIMUlPR2R5eFhEUnl5RUNVczRwdGtub3ZCSy1GSmdqc0lLYVE?oc=5",
+        "published_at": "2026-10-18T21:30:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -223,11 +223,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Here’s What a $10,000 Investment in Nvidia Stock Will Be Worth by 2030 - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZFhBeFNLSGRFT0wzZTBUVmtJbUhhQUZGOWNNZWszTXVDNjVSeWlMNVlGVU5hdVFzZUhfYXBQRmx2RnhRQVNoRVZwS2M0RE1hX0J2UkJzczVIcTluSldnSkt5QkNsNTMyN0xadklsYWNWRjRQRVp5UHlZUGg2WHJLY1RDOXZyQWNMLUxIcFNrNmZMN2k0YVdpVkI2WQ?oc=5",
-        "published_at": "2026-10-19T01:06:00+00:00",
-        "area": "Titoli tech e AI",
+        "title": "fda approved weight loss drugs 2015 - BusinessWorld Online",
+        "source": "BusinessWorld Online",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mZDRrWEJicjBCYWJpMzh1bm5vazVkT01IZkw2SU5UaWhOb0dDaFlNTWRZSW1zdHBOVnNrNjA0bzB5QklMTmtXeTk0anZzV0FyNTZBUlI2Z29TNFZFSFRjWm5rZEU1LUxycnI1c0M1Sllya3QtNlFqbUpYY0dfTmM?oc=5",
+        "published_at": "2026-10-19T00:45:56+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -272,15 +272,6 @@
         "source": "Yahoo Creators",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkViTkZCLTVieG9oNjZGNXJjTm82X0pEdEVjal9vWV9xQ1NObUlud1J6N29WWmFlT1prU3VqSmFVbTk3cmk5Z1lyWUc1R1lJbUczRkJWdVIyUnhZNmFOQ3RjMzVFMEc5SEFKUmVDZ2llTkpXT3Z1VWNmVDA1UXVMY01lTWc3VzkwbXlsS1ZCY2FyMy1KOUxXc3IxZGVmMDJPSHhyejVWT29pMHNrZTItbW9taTFreUdZVlNDeXhxOVJQYUpuR0w1LU51LVk4Vmd5SHktZ2NyaE4?oc=5",
         "published_at": "2026-10-18T18:36:48+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "fda approved prescription weight loss drugs 2026 - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdUZoV25JNUdKRVpsSlJzSE9kWDhxazN2TklCd0hYcXVkc1VXeXF5M2JyWjh4ZmhheDRyTnVuU1F0dXhueUNMZlBvcUxVUHNLeVlFVDVhY3puc1YyczFDeXEyOFBTRXB5anhXai1ENFJxdUZRUG9RaUg2WGR4NXhkRUZ2MlQ1VGVXRWtXZ05kenZVbG9Eem1FX2k1ak5Ndw?oc=5",
-        "published_at": "2026-10-18T18:17:40+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
