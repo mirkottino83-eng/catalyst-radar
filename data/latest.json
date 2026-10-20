@@ -1,41 +1,35 @@
 {
-  "generated_at": "2026-10-20T08:39:19.417159+00:00",
+  "generated_at": "2026-10-20T09:13:02.902356+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 99.61000061035156,
-    "wti_change_pct": -3.9070064718106923,
-    "brent": 110.7699966430664,
-    "brent_change_pct": 1.1136408556120303,
+    "wti": 100.55000305175781,
+    "wti_change_pct": -3.0001934212629755,
+    "brent": 111.41999816894531,
+    "brent_change_pct": 1.7069786080279759,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
-    "vix": 18.549999237060547,
-    "vix_change_pct": 0.596522233281771,
-    "dollar_index": 101.76799774169922,
-    "macro_score": 66.8,
+    "vix": 18.649999618530273,
+    "vix_change_pct": 1.1388236355243109,
+    "dollar_index": 101.83000183105469,
+    "macro_score": 65.8,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.91%. Geopolitica: Oil Wavers as Iran Threats Vie With Robust Gulf Crude Flows - Bloomberg.com",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.00%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T08:25:00+00:00",
-      "brent": "2026-10-20T08:25:00+00:00",
+      "wti": "2026-10-20T09:00:00+00:00",
+      "brent": "2026-10-20T09:00:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
-      "vix": "2026-10-20T08:20:00+00:00"
+      "vix": "2026-10-20T08:55:00+00:00"
     },
-    "geopolitical_risk_score": 35,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Oil Wavers as Iran Threats Vie With Robust Gulf Crude Flows - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdTg3VzlWcDBwMEpkaGtLOW0wN2VROGM3RDdVZ1JpY0toSUNqS0JVNHlmQkNTa0d3SEg1bkFjektMYUd0ZFVrM0JKcnY3bWo4QlViYlpUdXNRWTZEVTRfR20wZ0VLUjVKT1dVWUtVTjhSaTlqcFZsS1gyRC1kcXdfVHhGUUctV1FJVzNDUUUzRkp5dENkUTRsQmpuXzFRQQ?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [
     {
@@ -50,19 +44,19 @@
       "source": "The Next Web",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbUNtMzdxU1lfV0ttdXh3dTQtdnNmcFE0bHhUQWFjdlplcFF3S1JrZ0J0UTVvUEhod3V1aUlQa3FIUnJsSnlPcGdtY19YRHEycEJoQkE5S1ZJWTZia3dJRVRoekE4LUlPdkFrWno4QzBLdWFOQTZvWThBdw?oc=5",
       "published_at": "2026-10-20T07:14:39+00:00",
-      "age_label": "84 min fa",
+      "age_label": "118 min fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.25,
-      "short_term_change_pct": null,
+      "current_change_pct": 0.8,
+      "short_term_change_pct": -0.14,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T08:35:00+00:00",
+      "quote_at": "2026-10-20T09:10:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 4.2,
+      "quote_age_minutes": 2.9,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 64.0,
+      "confidence_score": 63.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-20T07:14:39+00:00",
@@ -72,52 +66,10 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 74,
-        "freshness": 90,
+        "freshness": 78,
         "volume": 28,
-        "momentum": 35,
-        "macro": 67,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "909ad6d8f074",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Volvo Expands Partnership with NVIDIA to Develop Next-Generation Driver Assistance Systems - Gasgoo",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Gasgoo",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPY1RZTmZrY18tU0dfZFp4RG1fTUp0MS1LOWo5bzZNMjhwa21vUWxvZnBwODFDMmJUTXFVXzdOLU10S1RPTnFJcXpRODhjN0JEV0twY3FkUmk3MmdkZ0JzZDNBSkRVckNYLVFFX2s5amk1d2U3WjRJTFVHZVI3UkhHQUFFclhLUXM3Y25LbEZqa3F0YVFoemhkT0xxaExqUzEzZUlSZ2phR1daQU9VTjJ4Ty1RLVhoc01KMTJlSS1hSy1FWlEtcEgtcDhhejBZdFVtam1zcFV2aUhDaWNfc2l4U2dNX2o4bFk?oc=5",
-      "published_at": "2026-10-20T03:04:59+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": 1.25,
-      "short_term_change_pct": null,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T08:35:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 4.3,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 59.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-20T03:04:59+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 74,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 35,
-        "macro": 67,
+        "momentum": 48,
+        "macro": 66,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -125,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-20T08:39:07.974933+00:00",
+    "updated_at": "2026-10-20T09:12:52.007930+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -135,7 +87,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -149,14 +101,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
@@ -167,6 +119,33 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "China, EU can resolve trade differences through dialogue - chinadailyhk",
+        "source": "chinadailyhk",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52RHlRUWVDVVFOU2I4ck0yMk40S1VJb0diTzdqa1pSaTY1dFljUGM1TUJPNTBZV19mSDNqVzAtbHlBLTJiM0xMR2NWRXVUZUFianA0ZUxoQW0?oc=5",
+        "published_at": "2026-10-20T09:00:36+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet. - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
+        "published_at": "2026-10-20T08:45:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China opposes politicizing tech and trade issues - China Daily",
+        "source": "China Daily",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CdEdFbEJkNUZSU2FiaWY4cUtBNU5DNmdaWlhMang4TzNSVWs1aGdoZ3pnNUQxaU5udzZ1UTkyeGN1X3I5NWJidmZzSGdsdV9hMktyX2FWQ2dpUmNBb1VkaFNJMW9rRV9BOXJyZ0c4TEM3OW1qRE4wWVlxU3hkQQ?oc=5",
+        "published_at": "2026-10-20T08:40:06+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Ukraine Drone Evacuation of a Wounded Soldier - MiGFlug",
         "source": "MiGFlug",
@@ -186,10 +165,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil majors face spending test from Iran war windfall cash - Centre Daily Times",
-        "source": "Centre Daily Times",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fdnBqdlJ3ZjFXTWM2RkdqTHlrcGpFMkRvMjh3dlR4MEIzTWdseExJRUZWbjlYWFZza0R5aXRrZFdYOUZ1MzhENVoycUlhODFnY0paTkZaOUwtWGgzMkhHZWJJcGUyZ0dMZXBPWnFGQXc?oc=5",
-        "published_at": "2026-10-20T06:24:08+00:00",
+        "title": "US Sanctions China’s Y Combinator in Google AI Secrets Case - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWpoclBQZGh5ZzFZX25ESkYzTy1JV1dTQXhFUkhsODdZZ1VUOUlFaDFjaDBkYlRIeUZEQzJoOXZyTmFkeFNxNkxKQ1l3QmFRRlhkQWM0WnlLOXdySUlwX0t5UHNXZjFzUHhfOWZoam1CWmNjdXNnQ1pMUnZFYUxCenVfd3l4SjNsM1lfTG1jdXkzRkFfdnpSdjVpSk51UnFsQmZMM0xCZmJIcWlPMjMw?oc=5",
+        "published_at": "2026-10-20T07:11:11+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Yemen’s war escalates with deadly Houthi strike on military recruits - Middle East Online",
+        "source": "Middle East Online",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUW4xWU9ENmdhMmNMaWZwVWJqeURMTUdhY2IxZmhZSFg5SGR6T0gxQ3RkRzVYNGVYYnNPcjVsTU04RDdjcU1VNlFZbFpPbC0yb1l4bTFVMkVuUlNnUWxpMGh4YVNodHl4eExHcnl1ZTU2OEZBN1FpcThadlQwZE91b2NlVWVjZGdaTjNEaWpzZVRyeGVtclhwajBJdXlROGx5TkFqYw?oc=5",
+        "published_at": "2026-10-20T07:07:15+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil majors face spending test from Iran war windfall cash - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQemV5ZWpZWkdhUzlRTmJsLXMyNVFMa0EzLTYxSGJubDVlSkVWMGVuckZDRVZOOS05eGc1aHlSOGJva3A5d2R2SENNNVBNeTM5eXNEeWJWTDlDbzBUdlZTTDdFZDRlT3dkVWtSWmJJekhvc3BSQk5KbnlTcjR2Q1otUEFlS0JYSUVZclR1d0NGRzJJaHBXbFdBS1RPZWZqOVNXemZtVmlRQQ?oc=5",
+        "published_at": "2026-10-20T06:04:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -249,55 +246,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "2026 Belt and Road Trade and Investment Forum Held in Beijing_Belt & Road - 北京市人民政府外事办公室",
-        "source": "北京市人民政府外事办公室",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeENtX2dnTDJ6aDVvdF9Xc1BaV3FaYzlFc2JRMHNlYkRxd3hlZE00cmp1Snp3U2lETEEtQVhOZUFYdktQNEJWd1FRMjFiQXJ2R21wNncySWJzc2JKb1MwTEJNaUtnU3FXZ2ZXa2xxX085eks2NXppeWpuVlJwUlhNZnNMeXVjOG9CZFVv?oc=5",
-        "published_at": "2026-10-20T02:41:56+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How Taiwan's New AI Chip Export Controls Could Affect China｜Industry｜2026-10-20｜web only - 天下雜誌",
-        "source": "天下雜誌",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwS3ZCUC1KWlplNWZSNkFCdE5hc0h1X29EbmdLTTRydGlfRXIwaDhVaDgzYndud1FHVldVSHllZEIyWkpSRjNLZGxSa1pGV1RZN0NCV0N1aUpwQk11NWFHdjFqaENLRjg?oc=5",
-        "published_at": "2026-10-20T02:37:35+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi attack on Yemen government camp kills over 50, officials say - The Japan Times",
-        "source": "The Japan Times",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOWFoYTdmOHlBN1kwV0RYOFBJaXVhc2M0aXpsUnBCdnhHS082M1ZVVHhES1VDTC05bXc1cHNjcGVwV1VNM25feTRzeVFVaURvT0U2Q0huWUNyVk1BTDdJMFR0dFlMdmNMaFZ2Wjk1RTB2TkE3cm1QS0lOY3FUWUdSZzJ3?oc=5",
-        "published_at": "2026-10-20T00:58:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU looks to strengthen position in trade talks with China - Semafor",
-        "source": "Semafor",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMkJuN0NyTEoxVnJjQl9mb2tpckttZ2ZlNUFkbTJneURrUTZfdW81c1BJWXhWUllZamJ3dzRwV2toZDBnOXVOZGNMcENaWGd1bnM4REhUczAwUkJzcjlQZHA4RkJreFhKOU1YQmRnSVg1NWI1eWY2OW54UmJNZGdBbGtpSERscDdJb1puZGtRU3dNaTFXY3lUTUE5cXFaWTlvd0E?oc=5",
-        "published_at": "2026-10-19T22:37:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US sanctions 5 Chinese entities over ex-Google engineer’s AI trade secrets theft - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUlXRzA1YVNhSkh4U0dNMjVIZko0VHFqZHFaTlptUUdPTlFzU25TeFl3dXVnLVBMSGFXWExCMkpQRFpncV9VSjNncEVTTnl2SHB5R0ZmVGJnWUhBQUJXM1hibzdNVk1QVFdrOW1LVjBXQmVzNkN6bi01NFNPeHMtb1R3RkpLbl9XMkVWc2xrOTRKd3ZNUnBVUGdYeTdrNFZ5NEtiVDJ2Mm5tLWQwLTJkeDRuMkRaTU94anFQODZma0VlX0JIa1hzbmlQLXNIVWlYa1VJ0gHTAUFVX3lxTFB3SGxmMDdDZUNibnhKc1RHTGhSNzJZZFptRUh5NmlqRnlmUUE0bTAwMmMyNk15dUN1cTRFUmNqeDB3Nnh6VjdqSThnM3Q5ZmNxdDFRX0ptSjhDUnJLX1AtTEpBWWQwRFA2VzBJX2V6TWJna0IxWVdjVlVjMFpmZ3pVcWtzRV9aazdPeXpMSjcwMUN6NU9IRzZBcFdBeXZBWjlGQUJ6aHUwZEpHRFBmX19lOXg4Z3U3X1E3a3poX2ZGYVRvQ1VGMnhBZ29XZkJMWktuMG8?oc=5",
-        "published_at": "2026-10-19T22:36:07+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Injured Ukrainian soldier rescued in first-ever drone evacuation mission - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcndmUlBrQVFkMG1JZjNfd0RXdHI3bmJyY0d3QTlrM0NQZG02RmoyOUdsM0ZjbXkzTy1tbHZHaDRDeVhoQlVFSzNkM1d3OHpKdGRFZUIyeDdZallvemhFbWR5ZkowTFAzWGRNVWpLVHlmR2ZrLUt3a05QdFhnN01fUTNiUkt3dFh4OFdVai1SUHNwRktOQlFYQVhKT0Yyb25hSWJHME4xUU1HQ0JFWVpUUlh2QlNsQdIBuwFBVV95cUxPMVEwaTJYODd0NUxMb3ViQndhdUltdmNoaGtKYUZMMU51UUV3VUxPNWRzb0RSZDNzOXJYbk1DcTJYQjVqdEczWTFmVU83bjF1ei1TSFcteDFmYndaM0RXRTcwTEtCblZYLUhuS3ZtUGUtSTAwczdHRjBlNE5EWk9VYjI5Zmp5TzJSeFNDd2NHcEtHQ255TnhINVlydml1YVppV2NIR29XeFRTaXBESFBsbXFvSFdfdUdlSDRJ?oc=5",
-        "published_at": "2026-10-19T21:05:42+00:00",
+        "title": "List of Republicans Breaking With Trump on Russia Sanctions Waiver - Newsweek",
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVExBbEh5MmZzXzM1cDN4UVROODF4eGdYcFhuWENuMUZ4TlRuZVYwVThBRmE2WEtmWGsxaUVaMmxUaDFSdEN6OC1WOW5RNTBNUURubEhWVUVFWG4wandIRV9iZ0VSU0JLaVlLTGc4RWdoUUlCOXB2WlE4TGt0Z1JHNXFqVkw2Y2haMG0tR2VIRlg1NW8?oc=5",
+        "published_at": "2026-10-19T22:52:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -305,10 +257,55 @@
     ],
     "corporate": [
       {
+        "title": "Texas Instruments (TXN) To Report Earnings Tomorrow: Here Is What To Expect - StockStory",
+        "source": "StockStory",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUU5WaGk3bXJHelc0Nmg2UXk5V202WTZtek9YVG1FUDJrUkphSmZtcGQ4QUJYUXFjUXp1QUE2dEE4YWhBbktVVDQ1ZF80c1l4Q0puWEk1UlFtYXBYVE1HX0lYeUlnSmpXS05BRDM3UUM3YldtcXg2THd4TmhFV29QNTJoZmUtZzM1RDJPcEN1UFlPTkU1R2JBM0ppTXJYbldmUXBrVG1ueXpPUnlKaTBxTlJVclEzZ2RNVGdBNTlMT1U0ZS1ELXRscTN5MnY?oc=5",
+        "published_at": "2026-10-20T09:08:55+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet. - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
+        "published_at": "2026-10-20T08:45:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Evaxion reports durable responses; Novartis halts kidney trial; AstraZeneca signs AI deal - European Biotechnology Magazine",
+        "source": "European Biotechnology Magazine",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWGpPTTFiWjZtNTNGbFdoLXhtY3hBUnFTTndhc2F1ekl5NE1WUTJmX3NDUnRDbmVNVWpNVWFpWXlVVUI4MVdDNjNyVkxWTzRxYlJKdHM1eXVYV01iWFB3TUNMendxeGJXR0E0aENqdl82bGxjY0phNHl2WjZSYTNtaWZkX3d6VktjN3dGLTI3VVpraXdnTGFOdDBlRWVKOWtiemJ1QjZ5V1lweTdqWmpDM3lMdnQtYUVEUFotTVNiclR4WHBmdjFodTFkNDRpSFBO?oc=5",
+        "published_at": "2026-10-20T08:39:14+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alvotech Gets FDA Approval For Simlandi - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObTFSQk9LN254N0RrQ2dMaHZVN1E4YkFOd2dhM2M3TXl0NG10cWZNY3h6T1JUSG9UMGxHNzNHMjNVQjNaLVpkckw0UC1YeXhHVHZMSGY2UWpYbEZTWkNBdFJUczViSkRLNDM5eHBLdDRmUzVzMWw0ZGIzYURLZU1sV1doSy1VdVVLT3NBYjRhTkUySWtkU0JINmFkSzI3T1BycVJHTkpWWXc5Y2MwU0E?oc=5",
+        "published_at": "2026-10-20T08:36:41+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "FDA approval lets Alvotech make the same amount of medicine in fewer batches, freeing capacity for other products. - Stock Titan",
         "source": "Stock Titan",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0FLQlFNLUxwcFhxc1owLXlIU0w5RFd0NHIwcEV2bHhGeVZkYklUZWoxN3lLLVRyVjZwS0hhbXRjX2lYUS0yektudHUzYTQ1S1c3Ri1qZnoxMHhiVzJMNGk0aHViWkZiRTlpTTlQRExwUHBmU3RYRGgzeDZZbUU3ZmtlT1RCbi14YkJ1QzlNREYwWGppLWs3T2pvSWlhTjVzYVd1S2cwU2hjSGxpR2d2YTdlRjZ2S2M?oc=5",
         "published_at": "2026-10-20T08:30:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pfizer makes ‘business decision’ to end phase 2 trial of autoimmune drug as program’s future uncertain - Fierce Biotech",
+        "source": "Fierce Biotech",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUnFwa0dodDhXYzNPWmpQOURyS2VVY0FETlFVV3BYMjd5MG90MExvcENJZ0psVXRjMDJGZGxVMDEzcFFoWGpHSGRfdktQZ1d4SmNZMEE5eU51cl9JX2RuRDJFM1dsZkJ2VHpicjEyVW8zcUxKLVlPSWpiT0k2YWJDWGVuUVhoWnNiTWdPT05ITm1nTTk3cE0zUFc3TmVWSTVQVXlISEtEWkZiMU9QemJTY012UXVEd01XMC1iQlV0VXA0QQ?oc=5",
+        "published_at": "2026-10-20T07:59:26+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -332,37 +329,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Merck and Moderna Prepare FDA Filing for Personalized mRNA Melanoma Vaccine Paired with Keytruda After Phase 3 Results - Medical Daily",
-        "source": "Medical Daily",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUkEtZWtXTExweGJCeGc3aFljREVoaHk0OWk5eWxYSHNwSTlmcmRSTW5QYl9PZUJwSmpzdVliNUc2Nk1SZVdwYnRPUVh4dDdQTXBsWlk0RlAwQi1YWWN6Vl9PdWFDQjVPaDVpOXpueHVOa09oLWJpWVBHa0RsQkI1WnNWRWhUcVRzUlE?oc=5",
-        "published_at": "2026-10-20T06:23:22+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "how long has zepbound been fda approved - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTdkbUlMWGk4V211QV8xNThKSHpJRjhscjNtWVhRR1dONmxYMXpFbnB2U2szTUVVVnZEMnhBOXZjcDdKMHVLaldQVXVPNjBLT2ZzWFdKYnJiVks3RnV6TzIzcTZzM3Z1RmZjVGlIZVQ2Mk9QbG1xSzgyNkxBMFJiZXBDRnB2eVpDZS1Tc3dPUFc?oc=5",
-        "published_at": "2026-10-20T05:07:58+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUWY2TFFHY3ZtRy1oc2w2YkZyQ0FxSnhSRzZCTmxBVVJNNFdtUXZEQ29UZ1FXYm5yMXFXZ1NZSHVKMjBuWm9ydVc1bVp4cXBwZnFqcmFZOFl5MnZvM2psWlM5aTNuNlUwbDhjejBBMTZQT1JBSkk4bDFYWkV0SEQ2WGp4SUVkaUFnY3lZa19R0gGTAUFVX3lxTE5RaEk5ZVNWazYwOHFKT1ZxaGpBUVY3em5JX1hxS3Y3Q0NTZE96QnhKWVd1dHVpb25YS09Ielc1RjNCN0ktUERHMllFSV9fMllzNDZRbTQyTGEwZ2YyTHRmSlFjMXlBcjBtcHpjNGhOZTQ3MEpGTURzZzR4bEctbldqRkgzNC1sd21CY24zTk1MYllyOA?oc=5",
         "published_at": "2026-10-20T02:16:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ericsson CEO champions his silicon over Nvidia chips in RAN - Light Reading",
-        "source": "Light Reading",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdVZudGtqR1docnhyZ0VXVjBjR1ZkbU9zLTNuXzNzZ2tQYWxZc1VZSmlCRDdZRlJzV1lDMVFWM2VSVlhSOFBDcUwxcWlhWkc1Y25Ndk53MTlYcFFKbHlBRnNRckRJclJVdGJvbEhwVnZjQ1M3NHlqcHhmZTJQUFVxWEZyY2REOEhfRVJzLVhPbHlYRXNnTVE?oc=5",
-        "published_at": "2026-10-20T02:01:26+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -373,24 +343,6 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2gtZmlxbk85a0hhLTVERkNDU2xKTnI2bDd1aGthazZObV9mLTdYMXBUaUxxaDFZRzNNZEt5QXdzVDNNVnNDMWtObkNycTNLc2tmWGZFTWhNU2RpN3JTMTBmUlFlZ2xzb3NiSGFMVTZ3d21lRjVHbVdUYkMyOHViVGlYcFNlUlM0eTZIQ0M0OUhvSlNHTTRHbWgtdFpRVDBLbVE5VG9DV01md0pjdERyUVp1dw?oc=5",
         "published_at": "2026-10-20T01:48:00+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3. - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
-        "published_at": "2026-10-19T23:23:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Haemonetics Announces FDA Approval of PerQseal® Elite Vascular Closure System - PR Newswire",
-        "source": "PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLTk5RTUwRlhjNGUzV2l3VEVGUWFFblgxSHN3MHdGLW9KSW5yLXZyM3VmQnJ4ajFnNEZadFd1LXItd011VzV6d3RucHppMVBUVnNvNnh3eGQzQUEwb0RwV05qMDV5dVZwNE90U3pqb2xySGNiX3psTlpfbzdLQ1I3SkRHM2tIT1drMnhZTzRGYm9UbUcwVkkwU2NKRGtYZ2dJZUxTZUxrSGFFdzBMb0drZHFSV1k2dTVpcllvUGQ0X0p4TkhVLUtieVQwUnI?oc=5",
-        "published_at": "2026-10-19T20:15:00+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
