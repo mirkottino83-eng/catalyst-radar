@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T18:56:59.775114+00:00",
+  "updated_at": "2026-10-20T19:57:34.006375+00:00",
   "events": [
     {
       "id": "3629fee6edea",
@@ -20,6 +20,34 @@
       "price_at_publication": 341.3638,
       "publication_quote_at": "2026-10-20T16:35:00+00:00",
       "pct_at_detection": -0.95,
+      "checkpoints": {
+        "2": {
+          "return_pct": -0.45,
+          "price": 339.82001,
+          "quote_at": "2026-10-20T18:35:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "5ee68bed97f2",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "category": "Megacap Tech / AI",
+      "headline": "Alphabet set for earnings beat as Cloud and AI chips take centre stage - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUVFscXpRS3IxZUxpU1BvQ3JRbmdmRVJKd0w2d0J5TE0wWDBPQjFEc2lSeXVRR2VkOFl1ZHpUMVM1WXZMNUZvNUpkanBVeV9mNUVFczJiQ3AtT19Ebl9vSFJKd2RQSW03bHhjdm5fVEhSeUpQNTdnNHh3N2stYklmdkh2dk5zVVJoUEJ1MXhsdEt1R1ZuWEUzMTdxdWY?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-20T16:34:00+00:00",
+      "first_seen_at": "2026-10-20T19:57:34.006375+00:00",
+      "estimated_impact_pct": 2.4,
+      "confidence_score": 68.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -0.82,
+      "price_at_publication": 341.3638,
+      "publication_quote_at": "2026-10-20T16:35:00+00:00",
+      "pct_at_detection": -1.32,
       "checkpoints": {
         "2": {
           "return_pct": -0.45,
@@ -82,7 +110,11 @@
           "price": 216.96001,
           "quote_at": "2026-10-20T16:45:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.55,
+          "price": 216.56,
+          "quote_at": "2026-10-20T19:45:00+00:00"
+        },
         "8": null
       }
     },
@@ -110,7 +142,11 @@
           "price": 690.95001,
           "quote_at": "2026-10-20T16:45:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.43,
+          "price": 689.28998,
+          "quote_at": "2026-10-20T19:45:00+00:00"
+        },
         "8": null
       }
     },
