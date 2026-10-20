@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-20T22:15:51.597317+00:00",
+  "generated_at": "2026-10-20T22:46:44.053990+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 98.12000274658203,
-    "wti_change_pct": -5.34439583234586,
-    "brent": 109.08999633789062,
-    "brent_change_pct": -0.4199057061183731,
+    "wti": 98.12999725341797,
+    "wti_change_pct": -5.334754209267678,
+    "brent": 109.0999984741211,
+    "brent_change_pct": -0.4107755044279737,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
@@ -18,11 +18,11 @@
     "dollar_index": 101.7300033569336,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.34%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.33%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-20T22:05:00+00:00",
-      "brent": "2026-10-20T22:00:00+00:00",
+      "wti": "2026-10-20T22:35:00+00:00",
+      "brent": "2026-10-20T22:35:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
@@ -31,110 +31,39 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "5ee68bed97f2",
-      "ticker": "GOOGL",
-      "company": "Alphabet",
-      "category": "Megacap Tech / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Alphabet set for earnings beat as Cloud and AI chips take centre stage - Yahoo Finance",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUVFscXpRS3IxZUxpU1BvQ3JRbmdmRVJKd0w2d0J5TE0wWDBPQjFEc2lSeXVRR2VkOFl1ZHpUMVM1WXZMNUZvNUpkanBVeV9mNUVFczJiQ3AtT19Ebl9vSFJKd2RQSW03bHhjdm5fVEhSeUpQNTdnNHh3N2stYklmdkh2dk5zVVJoUEJ1MXhsdEt1R1ZuWEUzMTdxdWY?oc=5",
-      "published_at": "2026-10-20T16:34:00+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": -0.91,
-      "short_term_change_pct": 0.22,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T22:15:20+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.5,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 62.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-20T16:34:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "GOOGL",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 75,
-        "catalyst_strength": 78,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 53,
-        "macro": 49,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [
-    {
-      "ticker": "NBIS",
-      "company": "Nebius Group",
-      "category": "AI / Cloud",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 6.49,
-      "short_term_change_pct": 1.14,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T22:15:30+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NBIS"
-    },
-    {
-      "ticker": "AMD",
-      "company": "Advanced Micro Devices",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 1.96,
-      "short_term_change_pct": 0.81,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T22:15:26+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMD"
-    },
     {
       "ticker": "CRDO",
       "company": "Credo Technology",
       "category": "Semiconductors / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 8.21,
-      "short_term_change_pct": 3.89,
+      "current_change_pct": 7.75,
+      "short_term_change_pct": 3.54,
       "relative_volume": null,
-      "quote_at": "2026-10-20T22:15:36+00:00",
+      "quote_at": "2026-10-20T22:45:31+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "CRDO"
     },
     {
-      "ticker": "TSLA",
-      "company": "Tesla",
-      "category": "EV / AI",
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "category": "Europe Semiconductors",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 3.22,
-      "short_term_change_pct": 1.38,
+      "current_change_pct": 3.49,
+      "short_term_change_pct": 0.86,
       "relative_volume": null,
-      "quote_at": "2026-10-20T22:15:33+00:00",
+      "quote_at": "2026-10-20T22:36:27+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "TSLA"
+      "tradingview_symbol": "STM"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-20T22:15:40.274921+00:00",
+    "updated_at": "2026-10-20T22:46:33.218478+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -144,14 +73,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -172,10 +101,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "Musk reportedly ordered Starlink slowdown that hurt Ukraine’s drone missions - Honolulu Star-Advertiser",
+        "source": "Honolulu Star-Advertiser",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeWlwNXdZTFlfRmUweXZaREZvajExXy1Wd2xXRUZMNjFYNVpEUktFeG44S1dZcTlQZktTQkZzQnhkdlR3eHBaTklwcHUtcGdlbnFuRkZoV3FjX3pYa0s5RTEycmhoZHJNRXUzZHBnVm9fUkVFeUZtZUhHUVplWkFLbTdHZDVmdy1TVC1vVlp6Sm9qZ0d5OGtsX0lxZE5TZWpZOHp1WGsxOGpHby1teE1zRVB2bG5rRDB4cnFjNzRJZjZ3Q2piSTQwUWZnZG4?oc=5",
+        "published_at": "2026-10-20T22:30:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1BXVEVrSUZFeXd0V1NuRDd6dXh3cGdXVndLZWJUYTU2N3VDWFZWTlRjLUhNM3p5TDBFdEFpWDZLYzFCNTQzODN4ZGV1Vk91S0U3MmM5SUZOVmFuM2o1dFNULWc0LTFWY1V6VnpUOUozUHg2SG9yQ0lEVnFIbDJyX1hsYjl1VHB4bVVSN1lTOXV5VFBZSzVCRUREa2tlaFZHTjAtMlRmc3E3a21INVN6cDh3TGlib1M0YklzQmpCWU5VczlvTnZxM0xkaw?oc=5",
+        "published_at": "2026-10-20T21:58:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - Bozeman Daily Chronicle",
         "source": "Bozeman Daily Chronicle",
@@ -188,9 +135,18 @@
       {
         "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - Audacy",
         "source": "Audacy",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSmIxbjE3dFB5ZXFlZXpjRmtTY2hYaklWZVlCbE52TFdiQzdxalV5bUl1bkZMeFBKWDhtSDFTTDctdExUV1hBalhBXzBfSGkwd1hKUm5IVUYtNU1KbGpoU1YxSlRPZ2VTMWRNVWdaemhsM1RmMXF5bE9WM3F5MnVYMDFtbWs4TG8wSzBMQlBVV3g1Qm1DLVR6cEplSlI5V3RFWjFKYzBtbElVVmtHcmQwdjhJOS05ZnBYNDBrQlZjc1YtbDBDSGgtSQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmhfaWpZeTdDcEQtUGxHUzdYN0ZRTmc4blFMTTdzOHVnMkdONlVVaUlydHlrTkU3UzctV3Etbk5lVldIZVhGY21ld1d6amxnVEl4QkxPT1BKYU5haFhQcThTMXJGMFJwLXFoc3FCT2tIb0pBN3NaeER3V29iNkJHSkZzSmZmeXk3RGRiMmZnRHd4ODFZakFKMlpzclRvekF5aVJ6Si05ZTJhaDRPRG1ydUFlaU9rUXZMYS1qREppWEtOUTFZY3c?oc=5",
         "published_at": "2026-10-20T21:52:00+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Death toll from Houthi strike on Yemen government camp rises to 73 - Middle East Eye",
+        "source": "Middle East Eye",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSDVrUEhGSzJmY2tWZGV3anQ5WUt4OXRPSXV6U2Z5MHhDQUM4Wm02eEp0M3VYbkQ2aVVIT0pBR09LY3hFcUsxYl80b2RXeEZGR0NzNm5VX3lBLWtHSmxMdk83ZzN1dlB3UjBsNTI2dF92eUphbVJTeWt4cHNDb1pPVlNvYXRpdE1tZU9ILTh4VFViS3BUZnY0Tng3S1E1T1NubGtOWTdqcG12UXVEcG5laU5B?oc=5",
+        "published_at": "2026-10-20T21:44:00+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -219,24 +175,6 @@
         "published_at": "2026-10-20T21:07:53+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
-        "published_at": "2026-10-20T20:21:48+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1BXVEVrSUZFeXd0V1NuRDd6dXh3cGdXVndLZWJUYTU2N3VDWFZWTlRjLUhNM3p5TDBFdEFpWDZLYzFCNTQzODN4ZGV1Vk91S0U3MmM5SUZOVmFuM2o1dFNULWc0LTFWY1V6VnpUOUozUHg2SG9yQ0lEVnFIbDJyX1hsYjl1VHB4bVVSN1lTOXV5VFBZSzVCRUREa2tlaFZHTjAtMlRmc3E3a21INVN6cDh3TGlib1M0YklzQmpCWU5VczlvTnZxM0xkaw?oc=5",
-        "published_at": "2026-10-20T19:56:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -276,15 +214,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Sea mine crisis re-emerges in Strait of Hormuz as Tehran urges Washington to accept deal - Fox News",
-        "source": "Fox News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzg1ajJ2a0FBSjZYTTRqN0k4SnY5eHNxN2w5dmV5SEhTZDdkTFBQMHdiU0NjanRnZ1R2R3V1ZkFmNWZWZTNkZWhKX2xSaFNaQkRpTGJsNWlhWjBJXzJHVXBwcWw5Xzh4M1p5VDRTNGNvcmp4MFlTZWt5U0FVSGJRTUZ5TzNaTjVkMVI4QlBjTE5BN19faWZMUmVxZDV3T2ljWTVrTUF3bENuUdIBrwFBVV95cUxQUmtnOTFCdU1zZDlVZHduYWFMVGFzRWNRZWFiRDQyd3dFN2lFbUlCdmFQNnNxblBtZV9ZRjJnWkZyRHd4YmZISlRHUDZYUDg3LTdTTTk3WXpubWQxQzNTTTlxaUcwSGZlMzJsR2J5UmYzbzJOZS0tczRGUWJsdFdGRFZTblE5VHh4dlcwNFZwM1FZXzJZM0pCZk9jeUhWeXVKMUtGX2gtWmZUalQwUDJr?oc=5",
-        "published_at": "2026-10-20T18:26:18+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice - Ars Technica",
         "source": "Ars Technica",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRHNLbndNa3FpQURPTDZsNDdYVUR1WWVGUWdQbGxqLWZOTGdZOWlFNnBfaWxMT3ZNb2k0MXlvR0NpUnZmbEp4OGVsRlNraGNybG1mM0ZYVC1NUk1OZUFMemlpQ0VYSVQzLTJLbjl5cjRnbUVvQm9FYm81QWZrbElwaWk3MDJBOXM0R2hHWjRzck5FZWhEdGEteEphZVVnc1ZMZW1wQ2JLcTNHbVVma3BON3ZBeWt4ODBn?oc=5",
@@ -314,10 +243,10 @@
     ],
     "corporate": [
       {
-        "title": "C. K. Wang on FDA Approval of Dostarlimab (Jemperli) for Stage II/III dMMR/MSI-H Locally Advanced Rectal Cancer - Oncodaily",
-        "source": "Oncodaily",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1SVVieTQ2cWV0b2dQZF9MQm8zS1NwWUJILTFDWlpwRXV1eDlHMVZqcHhlZV9OdnU1Ul9DQzRXNGRwT0M0cXRiRmlUeXg0QTdLb25PTkdZZE4?oc=5",
-        "published_at": "2026-10-20T19:41:39+00:00",
+        "title": "FDA Greenlights GSK’s Chronic HBV Antisense Oligo With Roche CDx Test - GenomeWeb",
+        "source": "GenomeWeb",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZjV2NGc5TUEzVFk0UGpKMzVwbjgwREdZVFU0UjRhUjdhRVBQTDJmNUlqYWVmaktaX2wzSEpZSHl6UmhUWTc2eXZjbEVMYXhmTmNXSHFLQ2gxT1V3dWZZV0llaTFwWDlUbG05Q2NtT0tOS2tISk1Vc3dLTDNtb0o0eGtMcXB6aWdnMjItMFBiSnV0RjZoMkxBTTYxeXpKN2N1RUhnM3VR?oc=5",
+        "published_at": "2026-10-20T22:34:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -345,15 +274,6 @@
         "source": "KRDO",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjExNUFYb2M2SlRmWnZYbjZmbGw4TlBNYmpZekN5dXd1ZkVHRFg0ZHd3U093dU1VVFhJTmNhUGhjZm9IZzd6aWEtSUk5Y2UxT0dJSDNzRloxQUNMQldTdXE2VUlUU2wwNG9LUWZfQkJIakItVFFpNy1kQ3dtV1E2N0cwMnZXU05QRm0ybXZGRHhvaEdHLWk2RXdPc2N2UDhieFUzXzBkTQ?oc=5",
         "published_at": "2026-10-20T19:31:27+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "GSK Immunotherapy Gets Accelerated FDA Approval for Treating Rectal Cancer - MedCity News",
-        "source": "MedCity News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbkVBLWwtS3pHTlpqRmRaMGRyRmpiN0xWTE9VNVZfUWkwWU16Yk95UTNFLVNTYzJvMUItbXNZdlZOYkNiMzB1Z3ZEZUNVSTcwODI1MTNnYlRzSXd3aFRMamVzUzdGR0xnTFpEbV9rdngwQjNQOE90TnlEaXBDZE9ITjRkblk5Yl96SDlnbXdGNzVIYWJpd2d6c21DSEl3c2lKRkJN?oc=5",
-        "published_at": "2026-10-20T19:24:47+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -399,6 +319,15 @@
         "source": "Yahoo Creators",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkViTkZCLTVieG9oNjZGNXJjTm82X0pEdEVjal9vWV9xQ1NObUlud1J6N29WWmFlT1prU3VqSmFVbTk3cmk5Z1lyWUc1R1lJbUczRkJWdVIyUnhZNmFOQ3RjMzVFMEc5SEFKUmVDZ2llTkpXT3Z1VWNmVDA1UXVMY01lTWc3VzkwbXlsS1ZCY2FyMy1KOUxXc3IxZGVmMDJPSHhyejVWT29pMHNrZTItbW9taTFreUdZVlNDeXhxOVJQYUpuR0w1LU51LVk4Vmd5SHktZ2NyaE4?oc=5",
         "published_at": "2026-10-20T16:49:03+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Haemonetics wins FDA approval of PerQseal Elite vascular closure system - MassDevice",
+        "source": "MassDevice",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3dkMHFycEZ1VDdnbXkweGVfWFJib0F5VFlSLTNaRUl3YS1EV3FmQVExV2szc3ppeDhja3ZNSjNROV9nT21VR19hanVfdVpHcllMX0lNdGpxZ2JHVjlfTTFXYThzNlZLbnloMzltU1M2WHZ0cjBvT1NPb0htclVTd2g2QjNyOE5yWDVITDZHbXBZM0p3cGhoRUxRbzRlLVFO?oc=5",
+        "published_at": "2026-10-20T16:09:48+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
