@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-20T22:46:44.053990+00:00",
+  "generated_at": "2026-10-20T23:10:29.959477+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 98.12999725341797,
-    "wti_change_pct": -5.334754209267678,
-    "brent": 109.0999984741211,
-    "brent_change_pct": -0.4107755044279737,
+    "wti": 98.20999908447266,
+    "wti_change_pct": -5.257577064536456,
+    "brent": 109.12000274658203,
+    "brent_change_pct": -0.3925151010471639,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
@@ -18,11 +18,11 @@
     "dollar_index": 101.7300033569336,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.33%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.26%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-20T22:35:00+00:00",
-      "brent": "2026-10-20T22:35:00+00:00",
+      "wti": "2026-10-20T23:00:00+00:00",
+      "brent": "2026-10-20T22:50:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
@@ -34,36 +34,22 @@
   "catalysts": [],
   "movers": [
     {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
+      "ticker": "MARA",
+      "company": "MARA Holdings",
+      "category": "Bitcoin Mining",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 7.75,
-      "short_term_change_pct": 3.54,
+      "current_change_pct": 4.34,
+      "short_term_change_pct": 1.09,
       "relative_volume": null,
-      "quote_at": "2026-10-20T22:45:31+00:00",
+      "quote_at": "2026-10-20T23:05:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
-    },
-    {
-      "ticker": "STM",
-      "company": "STMicroelectronics",
-      "category": "Europe Semiconductors",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 3.49,
-      "short_term_change_pct": 0.86,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T22:36:27+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "STM"
+      "tradingview_symbol": "MARA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-20T22:46:33.218478+00:00",
+    "updated_at": "2026-10-20T23:10:18.651837+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -106,10 +92,28 @@
     ],
     "geopolitics": [
       {
+        "title": "Tightening sanctions on Russia is 'the way to end this war,' says David Kramer - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2liNEw4VTdIQmFzUU5VWkpoRzZoMFpPTlFGRU5jRGVTVi1mNm5MdlFudjlpaV9pRUJGNkM3eXJKV0RiNjY5amxraHZ5UVhJQ3VjdkEtWHBaTHlsQi1TeERyWlNyREF3cnFRVWZGdTlmTDBCT1Fpa0xKVjVsNTUxRldTSGZPWWxjVG5ublpnbTdzdkt6NDhKc2hGWUkwTm1BQk8ydF8xSU1NVUhqWVE?oc=5",
+        "published_at": "2026-10-20T22:50:24+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Musk reportedly ordered Starlink slowdown that hurt Ukraine’s drone missions - Honolulu Star-Advertiser",
         "source": "Honolulu Star-Advertiser",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeWlwNXdZTFlfRmUweXZaREZvajExXy1Wd2xXRUZMNjFYNVpEUktFeG44S1dZcTlQZktTQkZzQnhkdlR3eHBaTklwcHUtcGdlbnFuRkZoV3FjX3pYa0s5RTEycmhoZHJNRXUzZHBnVm9fUkVFeUZtZUhHUVplWkFLbTdHZDVmdy1TVC1vVlp6Sm9qZ0d5OGtsX0lxZE5TZWpZOHp1WGsxOGpHby1teE1zRVB2bG5rRDB4cnFjNzRJZjZ3Q2piSTQwUWZnZG4?oc=5",
         "published_at": "2026-10-20T22:30:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine’s $500 drones slaughtered America’s $25M tanks in recent war game - New York Post",
+        "source": "New York Post",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUW5ZZkVJS0pRY1UwaXRXVWFPd29JVm9YSXpIQTJQYXBXU0UxS2FMeHZZMHZid2FPbkpnZkxSYlZUOUJOYUUxU0hkaDhlMzg5ck4wT2JJUjlndGhUU1l0VHZFMEZFTzZQaFpMYnFRbzZ4em5CdEQ3dmlNemlQUjQxcGI3aHd4TnQ1b29CUXVlZ3hpVk9ZVjRwWWFiVUc1UnROSm05M0wzNFZFT0NYdHVWUElfZmtqbG15S1lYSHF6bEpDbTJxV1pJ?oc=5",
+        "published_at": "2026-10-20T22:28:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -135,7 +139,7 @@
       {
         "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - Audacy",
         "source": "Audacy",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmhfaWpZeTdDcEQtUGxHUzdYN0ZRTmc4blFMTTdzOHVnMkdONlVVaUlydHlrTkU3UzctV3Etbk5lVldIZVhGY21ld1d6amxnVEl4QkxPT1BKYU5haFhQcThTMXJGMFJwLXFoc3FCT2tIb0pBN3NaeER3V29iNkJHSkZzSmZmeXk3RGRiMmZnRHd4ODFZakFKMlpzclRvekF5aVJ6Si05ZTJhaDRPRG1ydUFlaU9rUXZMYS1qREppWEtOUTFZY3c?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSmIxbjE3dFB5ZXFlZXpjRmtTY2hYaklWZVlCbE52TFdiQzdxalV5bUl1bkZMeFBKWDhtSDFTTDctdExUV1hBalhBXzBfSGkwd1hKUm5IVUYtNU1KbGpoU1YxSlRPZ2VTMWRNVWdaemhsM1RmMXF5bE9WM3F5MnVYMDFtbWs4TG8wSzBMQlBVV3g1Qm1DLVR6cEplSlI5V3RFWjFKYzBtbElVVmtHcmQwdjhJOS05ZnBYNDBrQlZjc1YtbDBDSGgtSQ?oc=5",
         "published_at": "2026-10-20T21:52:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -178,6 +182,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Houthis attack besieged city in Yemen that UN says is at ‘grave risk’ - WTOP News",
+        "source": "WTOP News",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONkFybFJzbEtfOUVFWHloVndKbzlWVGlwY0Jza3N5M21SZkM5UDBmMy12czIxa1NqVFlCRDVIcE51Y1hubldyUmRzRnpDMjI5d1psamR4V1N3dXE0Q1Qta0s5RFlIakhRcEVPb3dkR3YxWUtiak1fQVFENFR3aE5fVElJTUh5OFlIQkplcDFYWDc4dE1HUHlMb1NsQm4ycWJUekdQM3ZwOTZHaG50Y0RSTi1zSEpSRmJndUdSYzVGQmVTQQ?oc=5",
+        "published_at": "2026-10-20T20:44:49+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Oil prices ease from five-month high amid Houthi attack claims - The Journal Record",
         "source": "The Journal Record",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUVlRTXE0d3JrVjdSQURXdmxMNnNnSHpURklmaGdBbkd5ajBpMnBwRkZmWEYtUGhsZ1l6M3A0TVJaOE0zbXRyN1dMaldZck1ac0FxQUk3QW1rd1ZSUm9fWXZ6NjFTUU02NDlLS3ZYZkJweVZ1Wi1DYWFwTVFaZ0VNMkdqd2Z6WnBlS2U0?oc=5",
@@ -205,15 +218,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran Shipping Update – October 20, 2026 - United Against Nuclear Iran | UANI",
-        "source": "United Against Nuclear Iran | UANI",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQk9sd1JvaDVRUi1kU2toc2d4dWVFa1djTVhjeFo5OUxnZzNTcV9qOEtxQ3lXaU9aTmtLVE5EYnZhNTZTbWpwdTBRYi04SlAxSk5HX196ay1kN0NfdUEzZlllMlMwM01jZERJcGpHS1RMeEYxcU81X3lIOHB1TFgtUU5vcDVydHlmdGMwS2FxQQ?oc=5",
-        "published_at": "2026-10-20T19:20:15+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice - Ars Technica",
         "source": "Ars Technica",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRHNLbndNa3FpQURPTDZsNDdYVUR1WWVGUWdQbGxqLWZOTGdZOWlFNnBfaWxMT3ZNb2k0MXlvR0NpUnZmbEp4OGVsRlNraGNybG1mM0ZYVC1NUk1OZUFMemlpQ0VYSVQzLTJLbjl5cjRnbUVvQm9FYm81QWZrbElwaWk3MDJBOXM0R2hHWjRzck5FZWhEdGEteEphZVVnc1ZMZW1wQ2JLcTNHbVVma3BON3ZBeWt4ODBn?oc=5",
@@ -221,27 +225,18 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
-        "published_at": "2026-10-20T17:56:57+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "More Republicans break with Trump on Russia sanctions - Semafor",
-        "source": "Semafor",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOUlaWnR2RUh4YjlGYml0Z3hZaEFSQzJlZnl0MkdOY19aZ0c2Mmd0aElTVDI4c3MwX21NajFic0dSWTFXeHhJX2ZvQWh5azNSblU1VmkxcHMwR2lTb21RX2NuWTV4dU4yWGtJeU1hcnExdVpOUmJmeTFmVllNYkI1NFdtMk1Sd3MtQWRqejhEUFRUaXpELVZmTHY1Ung?oc=5",
-        "published_at": "2026-10-20T17:54:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Chinese tech firms purchase more than $35 billion of Nvidia chips: Reuters - Semafor",
+        "source": "Semafor",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObkVSTm9IU1ZCbVg4MzFEdFc4Qi1QQTFWWVkyMUNpbld5WHVoRVh0MHBWU05RZnF6MS1JNkdyc2ZvdFEwZC1IX2N1algwSmhZQnRFYWFiR2lqX0hZZmJpdnNOUmNrUnpyQmk1N0hnZFgyX0c5ZEllTjk0T0VJUEVjdV9CY2lOd0R1b2FBUC1QcmktXzc2aVZzM0lqeUZOalJWSVhlNnVXY25heHRCVG9hWldxdWpwZw?oc=5",
+        "published_at": "2026-10-20T22:44:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "FDA Greenlights GSK’s Chronic HBV Antisense Oligo With Roche CDx Test - GenomeWeb",
         "source": "GenomeWeb",
@@ -255,16 +250,7 @@
         "title": "Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner. - The Motley Fool",
         "source": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkNpRXdTcWYtVERSV1hsMU5HWEhOV1NFdEZMSFlscXhoMVJzamNpUHY4aFBwQlRXRHNtSWJBdHZPT2xNSDRkRldZcm1Jd01xOEZ0c2NWQU5IWkNVQzZBY1VoNUpNRVB1NENaWWU0VU9hTzFjQ09hUXVXZlVwU2FNQkg1WjZGTTdqRTFoWVlhVG1Tc2tVYndmY1JsZXkwdVE4WHlYVktXVVRPc29SYmRNS09GWVVwSE81OXpXUkpWTkRvQQ?oc=5",
-        "published_at": "2026-10-20T19:33:01+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030 - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbWFOVVI0Z3JvbU13bGF1QS13YWZVSUc3M0l3QXdVQ1RUT01uZFNqU0VMMDlIWXdQSzVhNmZQbDFmbGE0NFNBbUgxOGoyY2dVdHcwcVg5R1NWMTZQVVVtdndRSmVQc0FLR3ZaOXlEM3ZXZjU2X25XbFFEaXZITlJVWF96TGVIT0p0R0FYX19LXzVMb0wzeVZFSDFxdw?oc=5",
-        "published_at": "2026-10-20T19:33:00+00:00",
+        "published_at": "2026-10-20T20:24:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -297,15 +283,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "ByteDance, Alibaba, Tencent Order Over $35 Bln Of Nvidia Chips: Reports - RTTNews",
-        "source": "RTTNews",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdG53NTNyYnlFOHBVcFI4Sk11TDQwendmUFAwcF9MYnNwcDdtN0tuRmRfNHAxeGloNXZCXzNaRDA2RnZMTlNjRTl0M09iYzV5UkhtVzMtWVRGd0t5aGwyZ1hOOGxnNWI0ZXprVzdZMlhZU2dKMUk4dGVHRlVYMnVKMzh3UUgtREVWSjc1S1RiS25SUkxiS2lxbDV1R2lmY1JXWGU3bTloUk9SbkRR?oc=5",
-        "published_at": "2026-10-20T18:19:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "ByteDance, Alibaba and Tencent ordered over $35 billion of Nvidia chips at list price - Quartz",
         "source": "Quartz",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tbEFyVG5DU1FlMGlta2xxNGoyYkVfalJtcHJfUVdYVkNnMjluNVVGLXNmUzBnczVFWGtiUmNKNEhBYjc0NHM4UlVIRXV6cDZ0MW5oUmFXTHltZFRMam9CX3J4YmdYNERKb3VjNlEteVNTSzBD?oc=5",
@@ -320,6 +297,15 @@
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkViTkZCLTVieG9oNjZGNXJjTm82X0pEdEVjal9vWV9xQ1NObUlud1J6N29WWmFlT1prU3VqSmFVbTk3cmk5Z1lyWUc1R1lJbUczRkJWdVIyUnhZNmFOQ3RjMzVFMEc5SEFKUmVDZ2llTkpXT3Z1VWNmVDA1UXVMY01lTWc3VzkwbXlsS1ZCY2FyMy1KOUxXc3IxZGVmMDJPSHhyejVWT29pMHNrZTItbW9taTFreUdZVlNDeXhxOVJQYUpuR0w1LU51LVk4Vmd5SHktZ2NyaE4?oc=5",
         "published_at": "2026-10-20T16:49:03+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alphabet set for earnings beat as Cloud and AI chips take centre stage - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUVFscXpRS3IxZUxpU1BvQ3JRbmdmRVJKd0w2d0J5TE0wWDBPQjFEc2lSeXVRR2VkOFl1ZHpUMVM1WXZMNUZvNUpkanBVeV9mNUVFczJiQ3AtT19Ebl9vSFJKd2RQSW03bHhjdm5fVEhSeUpQNTdnNHh3N2stYklmdkh2dk5zVVJoUEJ1MXhsdEt1R1ZuWEUzMTdxdWY?oc=5",
+        "published_at": "2026-10-20T16:34:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
