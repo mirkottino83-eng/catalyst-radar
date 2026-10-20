@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-20T04:46:50.106842+00:00",
+  "generated_at": "2026-10-20T05:14:31.796228+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.70999908447266,
-    "wti_change_pct": -4.775230949992803,
-    "brent": 109.80000305175781,
-    "brent_change_pct": 0.22820629213664567,
+    "wti": 98.77999877929688,
+    "wti_change_pct": -4.707702788357393,
+    "brent": 109.91999816894531,
+    "brent_change_pct": 0.3377408552081018,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
     "vix": 18.43000030517578,
     "vix_change_pct": -7.803899368704803,
-    "dollar_index": 101.7959976196289,
+    "dollar_index": 101.7770004272461,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -4.78%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -4.71%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T04:35:00+00:00",
-      "brent": "2026-10-20T04:35:00+00:00",
+      "wti": "2026-10-20T05:00:00+00:00",
+      "brent": "2026-10-20T05:00:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-20T04:46:37.940012+00:00",
+    "updated_at": "2026-10-20T05:14:20.214309+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -80,8 +80,17 @@
         "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnRKRWVRSmwzaFFkcFBLbG1wS1BORl9qR0xSaTkzY0VhX0dKNzc1V2JGbEFtTm1wZkx0VjY2dkRzbGYxWlljZG5zVUY2eGU1RnZiTVRBSmNDYnJNSXo3RWFpT2JhM1ZQcklHVzhXcW5zSXRHemNaMS1PMGJJOHowOVpMQWRqNE54cU11Z2ZNUUFnZFBqQkFsVUNhbl9rLU13eDhyMGQ0cDVGdk5nLWxFOEZVQ0E?oc=5",
-        "published_at": "2026-10-20T04:35:58+00:00",
+        "published_at": "2026-10-20T05:10:32+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthi Missiles Kill 58 Recruits at Shabwa Base in Deadliest Strike Since September - The SOFX Report",
+        "source": "The SOFX Report",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSFVCcHQ2UUJJX1kwT3RGa21jd1hDc2dkZkhrTjEyUVY2SFpOUkFMTjc4VUdLakRoLVp6bnFnVXhKQndQekJTbWp3ZHhoYTIzbnY4RmF3Y0Y5QjM3TTFyNUd5UVZVSy14bnl5eEhLV0gwX3FRMzllblNMRUYxdllnQlliZnVKaTVDUUROa1VkQVJ6MzRBU2x2X1dBc09OOVlnWElLWmJWd0g?oc=5",
+        "published_at": "2026-10-20T04:31:34+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -91,6 +100,24 @@
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcC1WUldmLXZleGpod29MTXNuME9vc2tYVkhmbjc5NkNFRGY0eV9OdUtac3R6UG9lTndqTjFpQi1kQkJnNHZZNDQzMkRYd09LM3A0MkFRcnpNaV9aaF9iT2NKX0xteHVscFRVQXotRHBoSVlzclIxWW90V2U0VDRBOGpDS24?oc=5",
         "published_at": "2026-10-20T04:00:19+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "2026 Belt and Road Trade and Investment Forum Held in Beijing_Belt & Road - 北京市人民政府外事办公室",
+        "source": "北京市人民政府外事办公室",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeENtX2dnTDJ6aDVvdF9Xc1BaV3FaYzlFc2JRMHNlYkRxd3hlZE00cmp1Snp3U2lETEEtQVhOZUFYdktQNEJWd1FRMjFiQXJ2R21wNncySWJzc2JKb1MwTEJNaUtnU3FXZ2ZXa2xxX085eks2NXppeWpuVlJwUlhNZnNMeXVjOG9CZFVv?oc=5",
+        "published_at": "2026-10-20T02:41:56+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "President Trump pauses new sanctions on Russia - FOX 7 Austin",
+        "source": "FOX 7 Austin",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wZHUwMVB2UzVGdXJCZFgtZzI1Qy1TdklZTFJOTEJwcjlfYkQ2SkhWSUMwUHFUdFpBcnNXanVDLTZRMzEtSmUzRFFaNU9QbUthSkR0aU02bXlBRTBaUTAtTHA0RdIBaEFVX3lxTFBBSkNoczE4aUctZjBmUDR0bUJXM0sxTmYwb3FZaWRSSkZJSWJVeW52UVc4TzJRdzFNM3JVV29wV3drQXkyNXBGTFlOOXoxZEEzbU1LZDJzX0c2cWlLQUR5eWZuSGlOdWNF?oc=5",
+        "published_at": "2026-10-20T02:34:55+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -113,11 +140,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSERidkZWOW05bnl5OC1CNnBmVV9mY09BbXUwLVp1V1pJLWY2eHpQZXZ1WUZzd0Q2VDZoeUVZR2FCa2ZPWldqV0tiVGltbzY0QzdPcjVWYUpKeHVxQTFBMXJVYTdyb1hKTjd1eEwzU3I4am5ZUXd5UjhRcGg2VmN3VEVCR21ybHd3TzEwRWZkWGpHYzZmT2luUE5SYm5VOFJrMnlTT2NTMWFLVzDSAbABQVVfeXFMTkJvX3pndGMtWDZMZEJJdDRJNm45RzJleTljcE9aX1RjZDV5UlpSSzdVN1p0Z2VBTFJKY1dTal9hdXN3RW55RmxmTGFoTEQ3UEZUb2c0SjZBZENIMWhOczU4WkxMeW81OGNnNzNERktWNUpaTEpLcGk5cnVucjNjTGtvTnlwRlQwQ25NVEVvd0xNc1paNjZURFZTZjNnU2RET3M3emZ6a0VxaTBfclJKTm8?oc=5",
-        "published_at": "2026-10-20T01:08:15+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM2RmejR4dzYzZVU3WUU5WGw5V19hanBUNUwyUFVUX1JNckFtOWpwTlFBcnVrbVBNVi1GRGRnTzEtbEtNZkRyOU51a2lIanNURFp0ZjY3UlVPS0ZLZVdTVi00cHdpVnlsRWVUa1o5M2NwaWtlaGptVnRkZVdoXzhva0pTc2MwNFliWE8wLXoyVUdRM3R0TzVJY3p4Z05YblJkcVBLOXI0QmNzUURTd0VBMFJGSE14Y2NWY18xSWJjVG5GeU9UeXBlcWI5VWlGLUttV05nbWpmRlVNM1RwTktOdA?oc=5",
+        "published_at": "2026-10-20T01:51:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -176,33 +203,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump signs executive order waiving Russia sanctions - WBUR",
-        "source": "WBUR",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53QzBwWmRMY0dQaFpPMV95c1NENDVhZ3Atd0xtTUQ5ekg5T2JwYVBJMmJaXzRDY3EzazlscnVGb3FzT1ZBNUVGYVNzdjNqRXNGS3NsbEhWNG4tVndOcXZXLXdiZlh1dklUOWxxZ2RGdW9NY2s?oc=5",
-        "published_at": "2026-10-19T20:56:23+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "South Africa’s president eyes trade with China and India as US ties sour - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzZveUpibnJ4d3NZX3M3LUcxdmtNTGdGdzJtUU5rclJqNEk2QWNPc2p6T1VmMUpQTUZsV0VnOGc4UWdQNHp4SnF3bVl1YS1IUEhhNlhENl9GbTk3OUIzUDVYQTNIcUpHN0FMejhSTkx5QjUwdVZMX3RVVHNfNmI3WTN6cEU?oc=5",
-        "published_at": "2026-10-19T20:39:47+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Futures Pull Back as U.S. Waives Some Russia Sanctions - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjUxeXdZWDd5c3MxTHBocWZqajJlQ2UwRTF6dW9KMXh6Q1ROdllKRGZiMV9kWUhvRW9CQzNQMU1LYk80U04zc0dLU2ppcFkySWRjenZFSm8wQjA5QmRPVXhPN3dhMTZPdnFiWjh1QjZ6VDR1ZDg5dFFlZ0t0STJzZlBrUzBMQ0N1R1RTQ2FkekRVaTlPN3lPYU94ZjZRdktUTlJEeTVqSEVFamNkc1FWelQ2MnRNb25OemZ5aUx3dl8?oc=5",
-        "published_at": "2026-10-19T19:43:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel? - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa1Zud0l3Tmd1WENUNlFUTXM3QjVudnRWdnVrTHk2enF0eTZsWmtyR1RsMFRmUHhHTzYyN2NRdVlNamlMUFhlNkNsUmI5TkQ3V1hhMV9ISVlPaUtxYkYybkJfYzljcFZsUWtjT2oxOTdPelJ4UmZMeVNDX0U2QVRLZ2tIdXo1NjBFMTFSVGZDOHN5Z1RMVGdUc3BzSi1oRE5FMTdSaGNBdjJyMUYwYjFKdWh30gG3AUFVX3lxTE9vR1ZvNVZoeWNMbnYtRWhPalliR3NjZ2NsbGNWckR6bURQN0JLYkxqQUtRZ2lJOGVtMnZ4T29yeEFBczlFQWVQR2xwb0lnTFdZelVOaUxKTVBEbTYwUzN0ZnJoekZQZUVmOXJYdFE0VEMwdVQ2MWxJZ1FQbDEyUy16ZTlhSXhfMGhKSnVoZS16bW5rcjJvb2RJTFRHcHdxUHltUkZSMHkzQ2tReklsNE1UT1N2NHNBOA?oc=5",
@@ -235,7 +235,7 @@
         "title": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck - Investor's Business Daily",
         "source": "Investor's Business Daily",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2gtZmlxbk85a0hhLTVERkNDU2xKTnI2bDd1aGthazZObV9mLTdYMXBUaUxxaDFZRzNNZEt5QXdzVDNNVnNDMWtObkNycTNLc2tmWGZFTWhNU2RpN3JTMTBmUlFlZ2xzb3NiSGFMVTZ3d21lRjVHbVdUYkMyOHViVGlYcFNlUlM0eTZIQ0M0OUhvSlNHTTRHbWgtdFpRVDBLbVE5VG9DV01md0pjdERyUVp1dw?oc=5",
-        "published_at": "2026-10-20T00:51:00+00:00",
+        "published_at": "2026-10-20T01:48:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -259,10 +259,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Did Foundry Win Just Shift Intel (INTC) Investment Narrative? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQmt2MXZ3aVRLRm5lbG1yQmhuTDZMaThKTDNVZkFwY0NrZkZXX29hYklOTnY2d1hvUGRvdFlqd3Y0MGFfYUJGWmx0LU40c1BMX2ZoSF80MV81TXFXT2JiTF96bEdyWTQ4elBHQndJclA1VDhsTjVEb2RLakwzU2FLRzQtQXFnY1Y3RUlYMlZsNDVsSmNkQWc?oc=5",
-        "published_at": "2026-10-19T22:15:39+00:00",
+        "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT09KR2R3TjktZGltSk9PMGtKcGVMeFBuSmR5eTVkMERSbkVuc0d5bGhnanJ2WloyWUtULU1PTkFVQlNhaklmWmJESHF2cEV0Q01YQ3NBb3RxWklLQlNLelBEMzVBSF9nZ09Uc0FjLUhHUmhOeUF1Z0pObndUclVjT0s2Q3Fka2Z6dWltWC1MQ0g5cmo0V1dUeFY0M3hEOE5aSzV3RjdZZ2JFUTU4TEE?oc=5",
+        "published_at": "2026-10-19T21:11:49+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
