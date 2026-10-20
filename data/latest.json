@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-20T23:10:29.959477+00:00",
+  "generated_at": "2026-10-20T23:35:49.144190+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 98.20999908447266,
-    "wti_change_pct": -5.257577064536456,
-    "brent": 109.12000274658203,
-    "brent_change_pct": -0.3925151010471639,
+    "wti": 98.30000305175781,
+    "wti_change_pct": -5.170750936709445,
+    "brent": 109.26000213623047,
+    "brent_change_pct": -0.26472013459490906,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
@@ -18,11 +18,11 @@
     "dollar_index": 101.7300033569336,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.26%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.17%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-20T23:00:00+00:00",
-      "brent": "2026-10-20T22:50:00+00:00",
+      "wti": "2026-10-20T23:25:00+00:00",
+      "brent": "2026-10-20T23:20:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
@@ -34,22 +34,22 @@
   "catalysts": [],
   "movers": [
     {
-      "ticker": "MARA",
-      "company": "MARA Holdings",
-      "category": "Bitcoin Mining",
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "category": "Europe Semiconductors",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 4.34,
-      "short_term_change_pct": 1.09,
+      "current_change_pct": 4.14,
+      "short_term_change_pct": 0.98,
       "relative_volume": null,
-      "quote_at": "2026-10-20T23:05:00+00:00",
+      "quote_at": "2026-10-20T23:27:29+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MARA"
+      "tradingview_symbol": "STM"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-20T23:10:18.651837+00:00",
+    "updated_at": "2026-10-20T23:35:37.869324+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -59,14 +59,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -104,7 +104,7 @@
         "title": "Musk reportedly ordered Starlink slowdown that hurt Ukraine’s drone missions - Honolulu Star-Advertiser",
         "source": "Honolulu Star-Advertiser",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeWlwNXdZTFlfRmUweXZaREZvajExXy1Wd2xXRUZMNjFYNVpEUktFeG44S1dZcTlQZktTQkZzQnhkdlR3eHBaTklwcHUtcGdlbnFuRkZoV3FjX3pYa0s5RTEycmhoZHJNRXUzZHBnVm9fUkVFeUZtZUhHUVplWkFLbTdHZDVmdy1TVC1vVlp6Sm9qZ0d5OGtsX0lxZE5TZWpZOHp1WGsxOGpHby1teE1zRVB2bG5rRDB4cnFjNzRJZjZ3Q2piSTQwUWZnZG4?oc=5",
-        "published_at": "2026-10-20T22:30:00+00:00",
+        "published_at": "2026-10-20T22:32:25+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -116,6 +116,15 @@
         "published_at": "2026-10-20T22:28:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5",
+        "published_at": "2026-10-20T22:04:52+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -182,15 +191,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthis attack besieged city in Yemen that UN says is at ‘grave risk’ - WTOP News",
-        "source": "WTOP News",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONkFybFJzbEtfOUVFWHloVndKbzlWVGlwY0Jza3N5M21SZkM5UDBmMy12czIxa1NqVFlCRDVIcE51Y1hubldyUmRzRnpDMjI5d1psamR4V1N3dXE0Q1Qta0s5RFlIakhRcEVPb3dkR3YxWUtiak1fQVFENFR3aE5fVElJTUh5OFlIQkplcDFYWDc4dE1HUHlMb1NsQm4ycWJUekdQM3ZwOTZHaG50Y0RSTi1zSEpSRmJndUdSYzVGQmVTQQ?oc=5",
-        "published_at": "2026-10-20T20:44:49+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil prices ease from five-month high amid Houthi attack claims - The Journal Record",
         "source": "The Journal Record",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUVlRTXE0d3JrVjdSQURXdmxMNnNnSHpURklmaGdBbkd5ajBpMnBwRkZmWEYtUGhsZ1l6M3A0TVJaOE0zbXRyN1dMaldZck1ac0FxQUk3QW1rd1ZSUm9fWXZ6NjFTUU02NDlLS3ZYZkJweVZ1Wi1DYWFwTVFaZ0VNMkdqd2Z6WnBlS2U0?oc=5",
@@ -218,10 +218,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice - Ars Technica",
-        "source": "Ars Technica",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRHNLbndNa3FpQURPTDZsNDdYVUR1WWVGUWdQbGxqLWZOTGdZOWlFNnBfaWxMT3ZNb2k0MXlvR0NpUnZmbEp4OGVsRlNraGNybG1mM0ZYVC1NUk1OZUFMemlpQ0VYSVQzLTJLbjl5cjRnbUVvQm9FYm81QWZrbElwaWk3MDJBOXM0R2hHWjRzck5FZWhEdGEteEphZVVnc1ZMZW1wQ2JLcTNHbVVma3BON3ZBeWt4ODBn?oc=5",
-        "published_at": "2026-10-20T18:22:54+00:00",
+        "title": "Vučić Rejects Russia Sanctions, Blames Foreign Powers for Protests - Organized Crime and Corruption Reporting Project | OCCRP",
+        "source": "Organized Crime and Corruption Reporting Project | OCCRP",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS0dRT1FRTzd4dnRWX2RxTmtld0xzdDhxdlA1TkEzRDVPWHZ0dVRwelFkVkNQWEl3YlhFTG8xNFo3ckdNUXRmNERmaDg5QzZYMnd6NXRjd210LTd2MnVFd3RuUTI3TDk2a0syWHdNWWpMXy1HRUhfam1VRmYwdnBxLVNINVNhQ2lNRDQxWWR5bDVGTUtUaVY4N3ZhUQ?oc=5",
+        "published_at": "2026-10-20T19:15:43+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
