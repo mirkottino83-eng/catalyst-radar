@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-20T00:36:22.400854+00:00",
+  "generated_at": "2026-10-20T01:15:59.506022+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.52999877929688,
-    "wti_change_pct": -2.8399613241396393,
-    "brent": 109.44999694824219,
-    "brent_change_pct": -0.3732055887780028,
+    "wti": 98.94000244140625,
+    "wti_change_pct": -2.4356583487887273,
+    "brent": 110.01000213623047,
+    "brent_change_pct": 0.13653879942248093,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
     "vix": 18.43000030517578,
     "vix_change_pct": -7.803899368704803,
-    "dollar_index": 101.93900299072266,
+    "dollar_index": 101.95500183105469,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.84%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.44%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T00:25:00+00:00",
-      "brent": "2026-10-20T00:25:00+00:00",
+      "wti": "2026-10-20T01:05:00+00:00",
+      "brent": "2026-10-20T01:05:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-20T00:36:10.034216+00:00",
+    "updated_at": "2026-10-20T01:15:47.381761+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
-        "status": "NO_RSS_ITEMS",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM2RmejR4dzYzZVU3WUU5WGw5V19hanBUNUwyUFVUX1JNckFtOWpwTlFBcnVrbVBNVi1GRGRnTzEtbEtNZkRyOU51a2lIanNURFp0ZjY3UlVPS0ZLZVdTVi00cHdpVnlsRWVUa1o5M2NwaWtlaGptVnRkZVdoXzhva0pTc2MwNFliWE8wLXoyVUdRM3R0TzVJY3p4Z05YblJkcVBLOXI0QmNzUURTd0VBMFJGSE14Y2NWY18xSWJjVG5GeU9UeXBlcWI5VWlGLUttV05nbWpmRlVNM1RwTktOdA?oc=5",
+        "published_at": "2026-10-20T00:44:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
         "source": "The Washington Post",
@@ -95,19 +104,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi attack on Yemeni government forces kills 58: officials - CBC",
-        "source": "CBC",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNT0VwLUpiTVVJT2lhamx4VnhDN3FfZFV3LUNUVUZDY1duaHZUWnlXdzFXM1RsVl83Q01YR3k3Y1B5b1ZKMWYxajR5UTkwMGVaVmRIXzJpdERkQ3pDZTBXYWFVV2tSU1dQNC1oM1FndEJHVThkWmIxUTQ1WnY2MXRpekVpS0tQcUtTRkE?oc=5",
-        "published_at": "2026-10-19T22:50:30+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Three Russia Export Cases Put End-User Diligence in the Spotlight - Global Trade & Sanctions Law",
-        "source": "Global Trade & Sanctions Law",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ1NDR0p4UmhkaklYbFJlQ1luWkhSaDBhRExBM21mOHA3aFhHNEVrWVZNT0ZJbXRLSTNjRXRld01udFozOXVha0hYZTBhRVF6eTk3Sl9GaUEzYkRtM0ZuZTlGb2xMVEhEQV9rajVlUzJaYlItbGhoY2Nhalk0M2E1d2dkNFBXbnhXcjEyZ2ltVkxWUQ?oc=5",
-        "published_at": "2026-10-19T22:39:16+00:00",
+        "title": "Trump administration has not approved interceptor missile transfer to Ukraine, Washington Post reports - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbHdkdnRqZldKMC1xSzg1cnQ2enRBOXpVQ1V6Yi0xUW02R3diUFAwYTRQR3Vqb2Q1U29RU0FGOWp6Z1V6TTl5RjZ5Qmk0QWR6bXJQdmZxbjJEODR2MGRISENvMjVtcTMyTGplZm5oLTRIRV9xZ1dJOUp6SnVYTFpSMFpKakZvc1JBZVJ5UHZ2QWMzVXNKSUZoeWhkZ0FTTGdKQXlEdkZ2RTduM0EyY2VVclloZXI5VmM4T2JzdFAteTM?oc=5",
+        "published_at": "2026-10-19T22:46:53+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -131,21 +131,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Houthi attack kills 58 at Yemen government training camp, governor says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSXFqMTJmVlRrSjR1NmNocW1VRWFpV1pSMjlNZDh1YXBsS2gyRkE0c19uRXJCQXN4Nklqajh6Tk4yeHhlRWRpWG81WXJMRVJmWXREaXZ2UkJfT3FNOFJndW9PNHBTZFRvVGJnbmFkeU10ZDlWdWY2N0kzVkFDVTh5NG0zZlZiM0N3bWthZmF2LUJjUXlEd29WOVRLZFdodFA0YlcwRl9fX0ptQ2dyN2I5RjVfRWJxRW1vYmF6VURGWQ?oc=5",
+        "published_at": "2026-10-19T22:26:26+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pres. Trump defends decision to pause sanctions - Gray TV",
         "source": "Gray TV",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObFRqNEY5MnQyMjJ0VGt5UWF6dkZyd2NJMnM0QlA1TnJDUUJHM0hOWVhuV3Q0dHMzYVFua3RycmFnNmlKZ0FiWWlaMGxaNnFuamh5a2xScmxvWTl6UnhTUlZsekUwdWdZODhQVGhBaXQyMG5ONWpSWnAxZHVNa0k4Uk9xYVBxVUlDNjBzaUR3?oc=5",
         "published_at": "2026-10-19T22:14:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Exclusive | US-China negotiators race to nail down concrete deals as Shenzhen Apec looms - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQREYtOUkwbmhVR3hyQ1I3cHliaTV5WGRrTmJadWdoQzBEYWx4LW5BMG1BRS0tbmVzMWZMaDlmZC1KXzVEbnVvWENoLXFlZ3lqb1dobl9ZbExOdlVKSnhXMDFTMkswWlhKVHFPcXExZUgzOHRjZEdXUFROanBzQ0J5REJyZmtSUHdCX3p1dzhhR0pNMC10X3NEQXh2UVBHOGk5WFB5NjJzRTdxdFdIenNZaTR3S09rQ0txREFiM2NIakJ4Q1RCeHpz?oc=5",
-        "published_at": "2026-10-19T22:00:06+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -158,20 +158,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump signs executive order waiving Russia sanctions - WBUR",
-        "source": "WBUR",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53QzBwWmRMY0dQaFpPMV95c1NENDVhZ3Atd0xtTUQ5ekg5T2JwYVBJMmJaXzRDY3EzazlscnVGb3FzT1ZBNUVGYVNzdjNqRXNGS3NsbEhWNG4tVndOcXZXLXdiZlh1dklUOWxxZ2RGdW9NY2s?oc=5",
-        "published_at": "2026-10-19T20:56:23+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "South Africa’s president eyes trade with China and India as US ties sour - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzZveUpibnJ4d3NZX3M3LUcxdmtNTGdGdzJtUU5rclJqNEk2QWNPc2p6T1VmMUpQTUZsV0VnOGc4UWdQNHp4SnF3bVl1YS1IUEhhNlhENl9GbTk3OUIzUDVYQTNIcUpHN0FMejhSTkx5QjUwdVZMX3RVVHNfNmI3WTN6cEU?oc=5",
         "published_at": "2026-10-19T20:39:47+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran Shipping Update – October 19, 2026 - United Against Nuclear Iran | UANI",
+        "source": "United Against Nuclear Iran | UANI",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQmhYcnE4Q2xPMWoxT2lJU1hXSVRDSW5Ka0x3MGg4RUp1dnJOam40Q0hhOG5xWDRCTlJMQnVtX1VUaDBjUGRRRHJpUS1Xa3VhM19SYkhFVUtNVVRVYl9keEdiU1F1QkJEMGVMaTlEVWppT3NWQnFqUUFrQjh1NVRmNGxFcmNUaEVaWFlWUEVCaw?oc=5",
+        "published_at": "2026-10-19T20:20:05+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -203,16 +203,52 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi attack on Yemen army camp in Shabwa kills at least 53: reports - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURxelJpODVFeDRIVWZNaEk5cFZlYXpMdUxxa2owdTRGbmV4SHI2a2JHaDluMzRTNFdobDdNeUN3ZHFuR1hfQ1lmSU1aWXFJc0hVaklCaWw1cEJjUno5Uk1Dc3FCcktyZV9rX3J4Rkd0UDZtMXV5NGhacDRHTTdoZGRkRGJNcG1QajFvYXk0Mkt3MS1UeDN5eW03U05COXVzOWFPbncyZFV2UkZVb1RMadIBtgFBVV95cUxQb1pVOUxXRU1SdmVLRmRkVE5qRDJ1dzdoM3JfZFlZSmxKa2d3a28yTXVReGFyWEtqNVN3ZmRIX1ZseWpsNzRscDVLZWFiellubjJsOW9iM1ZyT0FkUF9MUWljckF4WFdrSmhwd3pBWG15dGl4cXJyV2ZBY2RveFdkS01xT1hkc3JHMXFzNXFfVy1MUk9vNk1ocEVKTGFnMjROcVlMVmF1X3NYcVU4Rkd3TDNsTG1Ldw?oc=5",
-        "published_at": "2026-10-19T16:04:30+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Imposing Sanctions to Protect Americans from Intellectual Property Theft Fact Sheet - U.S. Department of State (.gov)",
+        "source": "U.S. Department of State (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa2NDN2hlQjJxX0dTTkdLQmpzNDhWSTRUTXh2bWJsSTNXLVF6RkNpbnhCM1VMdVlnRTByNDlqOUdzaUVxQVlRZ3VfNDk0c0ZyQ3JnaHRKdE5WblFPWTFiSlFpcTBuLXpxYTN1MWtxSERsbjFsYU1IQ3dsSDR3TW5ObUpqMVF4eXJSNU45ODdDQUFacFVDMUlSMnRrU0ROZlJmVFRCQV9yYzZmRkJFaGZCalVUOFBnaFdJRTJJaWdMYkg0ZVZmbG56TUpaSXVVQTJKcEZycV80eFBUREt4MWRNeA?oc=5",
+        "published_at": "2026-10-19T14:54:23+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Dr Cercek on the FDA Approval of Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer - OncLive",
+        "source": "OncLive",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcHBWalRVcmU0Sk81dDRHNVpJRmZOTHoyekRENVBfSlJ3bHJuQ3d0cnVZMWtheGducHJrOXVXZjdNTVVVUzFjYWZCM0hqYldpT1ZfSHVNZS13bERGd3UwdkdSS1U0cFNwQ2ViRkRaWFlud0xDbmZHdGR4WUNxc0RudmFIc3pTZHROUXVZb0M2eHFKdWU5ZUprY3Q3cWVuN1JsZ1BJTHNWY1NkbmxqRU5ZUHlrQnh3VlpiQ1M4?oc=5",
+        "published_at": "2026-10-19T23:00:05+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3. - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
+        "published_at": "2026-10-19T22:40:17+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck - Investor's Business Daily",
+        "source": "Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2gtZmlxbk85a0hhLTVERkNDU2xKTnI2bDd1aGthazZObV9mLTdYMXBUaUxxaDFZRzNNZEt5QXdzVDNNVnNDMWtObkNycTNLc2tmWGZFTWhNU2RpN3JTMTBmUlFlZ2xzb3NiSGFMVTZ3d21lRjVHbVdUYkMyOHViVGlYcFNlUlM0eTZIQ0M0OUhvSlNHTTRHbWgtdFpRVDBLbVE5VG9DV01md0pjdERyUVp1dw?oc=5",
+        "published_at": "2026-10-19T21:30:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT09KR2R3TjktZGltSk9PMGtKcGVMeFBuSmR5eTVkMERSbkVuc0d5bGhnanJ2WloyWUtULU1PTkFVQlNhaklmWmJESHF2cEV0Q01YQ3NBb3RxWklLQlNLelBEMzVBSF9nZ09Uc0FjLUhHUmhOeUF1Z0pObndUclVjT0s2Q3Fka2Z6dWltWC1MQ0g5cmo0V1dUeFY0M3hEOE5aSzV3RjdZZ2JFUTU4TEE?oc=5",
+        "published_at": "2026-10-19T21:11:49+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Haemonetics Announces FDA Approval of PerQseal® Elite Vascular Closure System - PR Newswire",
         "source": "PR Newswire",
@@ -250,11 +286,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Grants Accelerated Approval to Dostarlimab for dMMR Rectal Cancer - The American Journal of Managed Care",
-        "source": "The American Journal of Managed Care",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcncyaHpmWGZxa1NoQjVOTk9pWmFkUUE0UExUbzFRcGFyM2xCaV90NkNGSEtxWnZhdDBYWnA1eHpIN3EzRVc3a2hTNmplMFhsYkh1d1JiQUJBN0tFc0xkVFdiVHFVX1drQjlHRWV6UzFlaEFWdTFYQ2ZHUGFaTm9UQm81aEo0Qk1tV3lMYzZGeHBHbWtuazRfTlFHNA?oc=5",
-        "published_at": "2026-10-19T19:47:59+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Amazon Just Made Its AI Chips Easier to Use. Should Nvidia Investors Be Worried? - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWTQwUzZqaTktNHVZVGJhOTRaRTRfVjQ3MElKRWx1WUJCVHZSR01ERzZCSFluSWUtenJkZ2djV1htUFRvMXdPdnAyTnVIZk1NMXBVQUpkd0FfZHhLWkFweGZDcXZYdEdaa21hVVdpb2c4WDJqMk9wdHY1SkhPaFBvOFVtekQ?oc=5",
+        "published_at": "2026-10-19T19:59:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help - NVIDIA Blog",
+        "source": "NVIDIA Blog",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaHh0dS1IVTRGYkoyUVNoWmlMUEZncElQVFVYMU9MeV9iMF9IRzJ3NFV1Wk5oRDlsdVNlUzQ1U3p0MEVmZFBBSkx5VnBKQ0tDZGdVTkUtaFZoc3JLamV6Qms0MXEzbW5yM1J0cjdDRnI5SWhKejFMcmhMNlNXaUg1MVZVQTlZXzQyUXJaS2Q4TkJMR29XbnI1bjNVZHBfOWMyUUE?oc=5",
+        "published_at": "2026-10-19T19:33:59+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
