@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-20T21:53:08.509280+00:00",
+  "generated_at": "2026-10-20T22:15:51.597317+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 98.18000030517578,
-    "wti_change_pct": -5.286516653806261,
-    "brent": 109.12000274658203,
-    "brent_change_pct": -0.3925151010471639,
+    "wti": 98.12000274658203,
+    "wti_change_pct": -5.34439583234586,
+    "brent": 109.08999633789062,
+    "brent_change_pct": -0.4199057061183731,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
     "sox_change_pct": -0.2874413829836109,
     "vix": 17.309999465942383,
     "vix_change_pct": -6.127988261324546,
-    "dollar_index": 101.70700073242188,
+    "dollar_index": 101.7300033569336,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.29%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.34%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-20T20:55:00+00:00",
-      "brent": "2026-10-20T20:55:00+00:00",
+      "wti": "2026-10-20T22:05:00+00:00",
+      "brent": "2026-10-20T22:00:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
@@ -46,13 +46,13 @@
       "published_at": "2026-10-20T16:34:00+00:00",
       "age_label": "5 h fa",
       "catalyst_type": "earnings_beat",
-      "current_change_pct": -0.93,
+      "current_change_pct": -0.91,
       "short_term_change_pct": 0.22,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T21:50:00+00:00",
+      "quote_at": "2026-10-20T22:15:20+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 3.1,
+      "quote_age_minutes": 0.5,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -73,48 +73,6 @@
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
-    },
-    {
-      "id": "673222448ea7",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Banco Santander expands partnership with Nvidia on AI lab - Financial Regulation News",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Financial Regulation News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSTd4VkxaeXRVLTdXd3FSY1kzaVRlTkt5V0Jub2ZzSmRIblBJbEF2bjBsZ0I4S2NxQ2dnQ3VybEU0dDFyN0NDV2FfN25fZllRZmZBNUR4Vl8tbXlBY184N1JQbVVEWHo1RWNXS1l4azFaUURTclpqelo4UnRwTzdENkgtdHhSWkdKY0xUdWtBM0I?oc=5",
-      "published_at": "2026-10-20T16:13:22+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": 1.98,
-      "short_term_change_pct": 0.74,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T21:50:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 3.1,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 60.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-20T16:13:22+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 74,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 59,
-        "macro": 49,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
     }
   ],
   "movers": [
@@ -124,27 +82,13 @@
       "category": "AI / Cloud",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": 5.56,
-      "short_term_change_pct": 2.04,
+      "current_change_pct": 6.49,
+      "short_term_change_pct": 1.14,
       "relative_volume": null,
-      "quote_at": "2026-10-20T21:50:00+00:00",
+      "quote_at": "2026-10-20T22:15:30+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "NBIS"
-    },
-    {
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 3.13,
-      "short_term_change_pct": 1.4,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T21:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "INTC"
     },
     {
       "ticker": "AMD",
@@ -152,69 +96,13 @@
       "category": "Semiconductors / AI",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": 1.55,
-      "short_term_change_pct": 1.0,
+      "current_change_pct": 1.96,
+      "short_term_change_pct": 0.81,
       "relative_volume": null,
-      "quote_at": "2026-10-20T21:50:00+00:00",
+      "quote_at": "2026-10-20T22:15:26+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "AMD"
-    },
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave",
-      "category": "AI / Cloud",
-      "priority": "high",
-      "satispay_status": "unavailable",
-      "current_change_pct": 6.18,
-      "short_term_change_pct": 1.88,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T21:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWV"
-    },
-    {
-      "ticker": "ASML",
-      "company": "ASML Holding",
-      "category": "Semiconductor Equipment",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 1.33,
-      "short_term_change_pct": 1.46,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T21:52:25+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ASML"
-    },
-    {
-      "ticker": "TSLA",
-      "company": "Tesla",
-      "category": "EV / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 2.78,
-      "short_term_change_pct": 1.14,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T21:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "TSLA"
-    },
-    {
-      "ticker": "STM",
-      "company": "STMicroelectronics",
-      "category": "Europe Semiconductors",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 3.05,
-      "short_term_change_pct": 1.14,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T21:45:30+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "STM"
     },
     {
       "ticker": "CRDO",
@@ -222,59 +110,31 @@
       "category": "Semiconductors / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 4.74,
-      "short_term_change_pct": 1.12,
+      "current_change_pct": 8.21,
+      "short_term_change_pct": 3.89,
       "relative_volume": null,
-      "quote_at": "2026-10-20T21:50:00+00:00",
+      "quote_at": "2026-10-20T22:15:36+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "CRDO"
     },
     {
-      "ticker": "ARM",
-      "company": "Arm Holdings",
-      "category": "Semiconductors",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -0.77,
-      "short_term_change_pct": 0.98,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T21:50:59+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ARM"
-    },
-    {
-      "ticker": "ENPH",
-      "company": "Enphase Energy",
-      "category": "Clean Energy",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 5.42,
-      "short_term_change_pct": 0.91,
+      "current_change_pct": 3.22,
+      "short_term_change_pct": 1.38,
       "relative_volume": null,
-      "quote_at": "2026-10-20T21:48:47+00:00",
+      "quote_at": "2026-10-20T22:15:33+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ENPH"
-    },
-    {
-      "ticker": "RDDT",
-      "company": "Reddit",
-      "category": "Internet / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 0.81,
-      "short_term_change_pct": 0.9,
-      "relative_volume": null,
-      "quote_at": "2026-10-20T21:50:15+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "RDDT"
+      "tradingview_symbol": "TSLA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-20T21:52:56.338451+00:00",
+    "updated_at": "2026-10-20T22:15:40.274921+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -284,7 +144,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 10
       },
       {
         "area": "Russia / Ucraina",
@@ -298,39 +158,57 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       }
     ],
     "geopolitics": [
       {
-        "title": "Oil Slips as Iran Talks Fuel Volatility - Rigzone",
-        "source": "Rigzone",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOERWa2FDSndHTlBKQjIydXJJTEZuNDAyUHFLNEVwSm9GYm9VN3ZYUktDMmtLZWlPR1pzQW5CSmFseTJ6Nk1tTkNoSnNWTU5PcE1mWmh6VUJwcFlweWhhWHNMeG9HT1hlS3lQMXhmOV9yVi1ZXzJrNDl6NDFuVWVHa0xibjdQZ0V2emN1WEVXZk1ycDI4aVJtWUVXZjFCU0JOeUFR?oc=5",
-        "published_at": "2026-10-20T21:30:11+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - Bozeman Daily Chronicle",
+        "source": "Bozeman Daily Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNbEdNdDZJMkFGTm9RLUlxOFJFZXhtei1NaHVHaEk1M0VYR1Z5YkZVbW8tU1o4NklQaWxtRjJ5MFBQUVc3d3lRNzJ5XzZYQ3lHVHVZSldoR05IUUoxdS1iejhBNEtvNll4a19uc2tMWE9NLXVwc3BOeE91dlRfZmFjYndtd2JucTFhY1BQNVJob1ZnUGwzX1N3RWNHMnE1N1E1dEU2Q1lGWTQzWndCNE9BRV9VcVRhckFEMTB5MWdfcWU2MFk3UmYxc1MtMHlmeno4QzA3alNnYVZTWjVMc2J4S3pJbmFxOTR2bUF3dEVUWHp2U2k2NnBkMU9fUFdqTDJnWUlXR0RB?oc=5",
+        "published_at": "2026-10-20T21:52:26+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - Audacy",
+        "source": "Audacy",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSmIxbjE3dFB5ZXFlZXpjRmtTY2hYaklWZVlCbE52TFdiQzdxalV5bUl1bkZMeFBKWDhtSDFTTDctdExUV1hBalhBXzBfSGkwd1hKUm5IVUYtNU1KbGpoU1YxSlRPZ2VTMWRNVWdaemhsM1RmMXF5bE9WM3F5MnVYMDFtbWs4TG8wSzBMQlBVV3g1Qm1DLVR6cEplSlI5V3RFWjFKYzBtbElVVmtHcmQwdjhJOS05ZnBYNDBrQlZjc1YtbDBDSGgtSQ?oc=5",
+        "published_at": "2026-10-20T21:52:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
         "title": "Trump’s 50% Canada tariffs challenged in court - Supply Chain Dive",
         "source": "Supply Chain Dive",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaUQ5LUl2dDRtYldkMjZyc2xJS0swUEJpS29kZ3RvUVBZQWNxWkhKeGYzYm9NemxiRzdycklfUExFelZZb1VrZnVEaXhvMGo3YWZOcThNUVcyUlpzeV9WeGREdTdRd0swNFJfcUFQTWJobmpHbm54VURSSzJpTXl1NF9nRzg3QzZwVXN1WG9kWTdWM0k?oc=5",
-        "published_at": "2026-10-20T21:28:20+00:00",
+        "published_at": "2026-10-20T21:37:19+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Slips as Iran Talks Fuel Volatility - Rigzone",
+        "source": "Rigzone",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOERWa2FDSndHTlBKQjIydXJJTEZuNDAyUHFLNEVwSm9GYm9VN3ZYUktDMmtLZWlPR1pzQW5CSmFseTJ6Nk1tTkNoSnNWTU5PcE1mWmh6VUJwcFlweWhhWHNMeG9HT1hlS3lQMXhmOV9yVi1ZXzJrNDl6NDFuVWVHa0xibjdQZ0V2emN1WEVXZk1ycDI4aVJtWUVXZjFCU0JOeUFR?oc=5",
+        "published_at": "2026-10-20T21:30:11+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -362,11 +240,29 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Oil prices ease from five-month high amid Houthi attack claims - The Journal Record",
+        "source": "The Journal Record",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUVlRTXE0d3JrVjdSQURXdmxMNnNnSHpURklmaGdBbkd5ajBpMnBwRkZmWEYtUGhsZ1l6M3A0TVJaOE0zbXRyN1dMaldZck1ac0FxQUk3QW1rd1ZSUm9fWXZ6NjFTUU02NDlLS3ZYZkJweVZ1Wi1DYWFwTVFaZ0VNMkdqd2Z6WnBlS2U0?oc=5",
+        "published_at": "2026-10-20T19:52:43+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "U.S. ramps up warnings to Americans in Middle East after deadly Houthi strikes - CBS News",
         "source": "CBS News",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54Mk5WM2t0aV92YWxPeUduZzNtLTlvRV95WEhCY09RenRiWG1Qa2R3SzJoREViMjhtRU5hTzBwNnBVV0hqLWRqN3JMbXZCd3hIZ09BSFpsSEFKdUN2QmMyNmtoOXF3RHUyZ21TRUFmcWFZNTFEVndfWGlGUQ?oc=5",
         "published_at": "2026-10-20T19:41:20+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US Sanctions China’s Y Combinator in Google AI Secrets Case - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWpoclBQZGh5ZzFZX25ESkYzTy1JV1dTQXhFUkhsODdZZ1VUOUlFaDFjaDBkYlRIeUZEQzJoOXZyTmFkeFNxNkxKQ1l3QmFRRlhkQWM0WnlLOXdySUlwX0t5UHNXZjFzUHhfOWZoam1CWmNjdXNnQ1pMUnZFYUxCenVfd3l4SjNsM1lfTG1jdXkzRkFfdnpSdjVpSk51UnFsQmZMM0xCZmJIcWlPMjMw?oc=5",
+        "published_at": "2026-10-20T19:35:17+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -380,21 +276,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - Boston Herald",
-        "source": "Boston Herald",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTE1pd3c1amdJRUZHWnY5eFpmdnFCNnhudVVKdWczQUdiTDFZeWxMb1hwWXZZRS01MTRsYUlqUmstbEhoQW11WGJBOGVGS3pJc0szVDFrZkZKX2pBVm5Dd1BYTmhFMnBxUUZPaDJTMHdvYTdIVzU0R3NHSUxwVnR5TjB2WFZITVBQWGl3?oc=5",
-        "published_at": "2026-10-20T18:47:59+00:00",
+        "title": "Sea mine crisis re-emerges in Strait of Hormuz as Tehran urges Washington to accept deal - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzg1ajJ2a0FBSjZYTTRqN0k4SnY5eHNxN2w5dmV5SEhTZDdkTFBQMHdiU0NjanRnZ1R2R3V1ZkFmNWZWZTNkZWhKX2xSaFNaQkRpTGJsNWlhWjBJXzJHVXBwcWw5Xzh4M1p5VDRTNGNvcmp4MFlTZWt5U0FVSGJRTUZ5TzNaTjVkMVI4QlBjTE5BN19faWZMUmVxZDV3T2ljWTVrTUF3bENuUdIBrwFBVV95cUxQUmtnOTFCdU1zZDlVZHduYWFMVGFzRWNRZWFiRDQyd3dFN2lFbUlCdmFQNnNxblBtZV9ZRjJnWkZyRHd4YmZISlRHUDZYUDg3LTdTTTk3WXpubWQxQzNTTTlxaUcwSGZlMzJsR2J5UmYzbzJOZS0tczRGUWJsdFdGRFZTblE5VHh4dlcwNFZwM1FZXzJZM0pCZk9jeUhWeXVKMUtGX2gtWmZUalQwUDJr?oc=5",
+        "published_at": "2026-10-20T18:26:18+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China threatens retaliation if UK follows the EU on tariffs - POLITICO.eu",
-        "source": "POLITICO.eu",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcm9la09fRUJpQnlGcUdPNDdUTkwxaU5tWDZ1NVlLVkhTY2tMRjJZS2RGN1lKVUExQy1kQWtocS1iaEtYQlQ4U2lnT3o2bHF2aFhtQlpmN291SDQyS1ZoMkJKSGNybEUyS21kVWE1X2ktY2hwVGdLWXZOVms2b09kOXJRdDhLcVZTWjJobVc4Vks3WkZRVDBFdw?oc=5",
-        "published_at": "2026-10-20T18:26:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -423,41 +310,14 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "UN says besieged Yemen city at 'grave risk' as Houthis attack - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZk5yS2hIUkYxS05GQmZSM29Ra0NTaHgxUlU0TWhKak5fR3huak1GRkRYTVFEbUE5TF9Wd0l3SzFYeU4yT0dHbWZtQVRrdjBfU1hSTkczZDAwQ1hQRE1IUDkyWEE0aWdXbTJlOExkeGZZUkpJdGRlTFBidWR1aWl2eHAza0Y3anBlYXVLOF9CdzJObjBrVEJXM1o5dFdQMEXSAZ8BQVVfeXFMT2ZOcktoSFJGMUtORkJmUjNvUWtDU2h4MVJVNE1oSmpOX0d4bmpNRkZEWE1RRG1BOUxfVndJd0sxWHlOMk9HR21mbUFUa3YwX1NYUk5HM2QwMENYUERNSFA5MlhBNGlnV20yZThMZHhmWVJKSXRkZUxQYnVkdWlpdnhwM2tGN2pwZWF1SzhfQncyTm4wa1RCVzNaOXRXUDBF?oc=5",
-        "published_at": "2026-10-20T17:40:36+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US Sanctions China’s Y Combinator in Google AI Secrets Case - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWpoclBQZGh5ZzFZX25ESkYzTy1JV1dTQXhFUkhsODdZZ1VUOUlFaDFjaDBkYlRIeUZEQzJoOXZyTmFkeFNxNkxKQ1l3QmFRRlhkQWM0WnlLOXdySUlwX0t5UHNXZjFzUHhfOWZoam1CWmNjdXNnQ1pMUnZFYUxCenVfd3l4SjNsM1lfTG1jdXkzRkFfdnpSdjVpSk51UnFsQmZMM0xCZmJIcWlPMjMw?oc=5",
-        "published_at": "2026-10-20T16:17:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China close to matching US spending on ‘new way of war’, senator warns - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcjV5djdvaGt5dm14RnEzM1lGZWRSUG1yb3JYTzNubjdEb0NDQkI0dkxpajVHbjFUWC13YkNoM3dmSncwOVliWWZFdE9pbDNISGtUc281eXZwNGNNZlYzajAxZ2RZRVBoSlN6YUNiZzlsSm92T3lIU3VZdnZ4ZTgwZ3FyRWp1c3psMjVvY1hmX0Mtai1YWk4tZkJmX09Fa0xhbWwwTkljV3FEZi1Sa0VCTlBNbHY4blBSdVByMGJLSzd4dEtWT1HSAcYBQVVfeXFMTTQ0QTFoeldCbTByeUQwbTF4Z2FRdGlNZWktUlFFX1RZazN2a1M2U3h0cHhpSGNXaXJhT2xDM2d0Qm43YWRVLXBlMV9wSlNSdW5BYmhpNm9VUkoxaWhRMlJsbVVkVnRCSW92aWVPQ2hMWkNvVXJtVjAzN3hrUWNrUEppcEdqMUhQMmdjNnFnUW5rWWpZVHN3cUhDTkdxU28yaDQ5QzhwdjlIcGlDeTJzQXFVeUJ6emRETkRLektVZWNLckJNcGVB?oc=5",
-        "published_at": "2026-10-20T16:12:30+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Zoetis Receives FDA Approval for Convenia® RTU for Dogs (cefovecin injectable suspension), Helping More Medium and Large Dogs Access Single-Injection Treatment - Business Wire",
-        "source": "Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQWTJLRk1CbHpOZGZ6ZTNXLVJueFB1ZE9FN1FCNjd5WE1PLUVtNXhIVjRQdU9vd3JsYTVMaHBEMEVwNVRHZl9NMVpWSGFEVXduRGdteFdqRVhmajJlTnJ5MjBsaGNuWGZONHN2ZU5JMms0X0FUa053M3A1Wng1WG4xeWVOXzFzVEtmY09PSzBJWFFMeVVzc0J2UVBsLTdRalRTMXN4MGdEdl9FSG5UdmhtQ19NR09KWjdvRFcydkZkTGoxeEEwYU40QkM0NzdZOWhkOTRhMjZONjBfMkNHQ3ozVlJVcGl4Vm9rX3dzcEJQS1puSU9FNXFOMkNQc2hWUmpsSDZlcFhESS1kc2djR1pDc0dVam9pRTNUVjZmM2dvRlhKSEl2Si1KMUJOcWxqQ1BGVFU5MUpIMA?oc=5",
-        "published_at": "2026-10-20T20:42:00+00:00",
+        "title": "C. K. Wang on FDA Approval of Dostarlimab (Jemperli) for Stage II/III dMMR/MSI-H Locally Advanced Rectal Cancer - Oncodaily",
+        "source": "Oncodaily",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1SVVieTQ2cWV0b2dQZF9MQm8zS1NwWUJILTFDWlpwRXV1eDlHMVZqcHhlZV9OdnU1Ul9DQzRXNGRwT0M0cXRiRmlUeXg0QTdLb25PTkdZZE4?oc=5",
+        "published_at": "2026-10-20T19:41:39+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -467,6 +327,15 @@
         "source": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkNpRXdTcWYtVERSV1hsMU5HWEhOV1NFdEZMSFlscXhoMVJzamNpUHY4aFBwQlRXRHNtSWJBdHZPT2xNSDRkRldZcm1Jd01xOEZ0c2NWQU5IWkNVQzZBY1VoNUpNRVB1NENaWWU0VU9hTzFjQ09hUXVXZlVwU2FNQkg1WjZGTTdqRTFoWVlhVG1Tc2tVYndmY1JsZXkwdVE4WHlYVktXVVRPc29SYmRNS09GWVVwSE81OXpXUkpWTkRvQQ?oc=5",
         "published_at": "2026-10-20T19:33:01+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030 - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbWFOVVI0Z3JvbU13bGF1QS13YWZVSUc3M0l3QXdVQ1RUT01uZFNqU0VMMDlIWXdQSzVhNmZQbDFmbGE0NFNBbUgxOGoyY2dVdHcwcVg5R1NWMTZQVVVtdndRSmVQc0FLR3ZaOXlEM3ZXZjU2X25XbFFEaXZITlJVWF96TGVIT0p0R0FYX19LXzVMb0wzeVZFSDFxdw?oc=5",
+        "published_at": "2026-10-20T19:33:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -531,15 +400,6 @@
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkViTkZCLTVieG9oNjZGNXJjTm82X0pEdEVjal9vWV9xQ1NObUlud1J6N29WWmFlT1prU3VqSmFVbTk3cmk5Z1lyWUc1R1lJbUczRkJWdVIyUnhZNmFOQ3RjMzVFMEc5SEFKUmVDZ2llTkpXT3Z1VWNmVDA1UXVMY01lTWc3VzkwbXlsS1ZCY2FyMy1KOUxXc3IxZGVmMDJPSHhyejVWT29pMHNrZTItbW9taTFreUdZVlNDeXhxOVJQYUpuR0w1LU51LVk4Vmd5SHktZ2NyaE4?oc=5",
         "published_at": "2026-10-20T16:49:03+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet set for earnings beat as Cloud and AI chips take centre stage - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUVFscXpRS3IxZUxpU1BvQ3JRbmdmRVJKd0w2d0J5TE0wWDBPQjFEc2lSeXVRR2VkOFl1ZHpUMVM1WXZMNUZvNUpkanBVeV9mNUVFczJiQ3AtT19Ebl9vSFJKd2RQSW03bHhjdm5fVEhSeUpQNTdnNHh3N2stYklmdkh2dk5zVVJoUEJ1MXhsdEt1R1ZuWEUzMTdxdWY?oc=5",
-        "published_at": "2026-10-20T16:34:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
