@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-20T10:41:31.672189+00:00",
+  "generated_at": "2026-10-20T11:11:46.940590+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 100.83000183105469,
-    "wti_change_pct": -2.730080774721344,
-    "brent": 111.51000213623047,
-    "brent_change_pct": 1.789136494634902,
+    "wti": 100.44000244140625,
+    "wti_change_pct": -3.1063101552639916,
+    "brent": 111.16999816894531,
+    "brent_change_pct": 1.4787723158913302,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
-    "vix": 18.639999389648438,
-    "vix_change_pct": 1.0845924609461655,
-    "dollar_index": 101.87300109863281,
-    "macro_score": 65.9,
+    "vix": 18.68000030517578,
+    "vix_change_pct": 1.3015171592587471,
+    "dollar_index": 101.8949966430664,
+    "macro_score": 65.4,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.73%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.11%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T10:30:00+00:00",
-      "brent": "2026-10-20T10:30:00+00:00",
+      "wti": "2026-10-20T11:00:00+00:00",
+      "brent": "2026-10-20T11:00:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
-      "vix": "2026-10-20T10:25:00+00:00"
+      "vix": "2026-10-20T10:55:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -46,13 +46,13 @@
       "published_at": "2026-10-20T07:14:39+00:00",
       "age_label": "3 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.09,
-      "short_term_change_pct": 0.04,
+      "current_change_pct": 0.85,
+      "short_term_change_pct": -0.37,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T10:35:00+00:00",
+      "quote_at": "2026-10-20T11:10:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 6.4,
+      "quote_age_minutes": 1.7,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -68,16 +68,31 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 50,
-        "macro": 66,
+        "momentum": 46,
+        "macro": 65,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "category": "Cloud / Software / AI",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 0.52,
+      "short_term_change_pct": 0.89,
+      "relative_volume": null,
+      "quote_at": "2026-10-20T11:10:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "ORCL"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-20T10:41:19.423512+00:00",
+    "updated_at": "2026-10-20T11:11:35.721317+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,7 +102,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -120,11 +135,29 @@
     ],
     "geopolitics": [
       {
-        "title": "Taiwan's President Lauds Country's Hardware Resilience Amid Tariffs, Supply Chain Shifts - Manufacturing.net",
-        "source": "Manufacturing.net",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSGpVckZZNG1BRHdpWE9pUWEwZ0lwVExlODZUdks3UmZBQkFRTW55c2xOM0gxSnNhdXMxMWRKQ0ExUHRHZ3RLYVFDaXpoOVVpdTlnSGlfUXdMMnBqb21nRFN3a05oMThTZjA0eHVteVF0b2VHZXdWRnNyT0VJX0Zic2xqbW9yS2hOSnRUOFZsa2FxMnNTbHpmNlNPZGNveWNjSFlrVnFUckxmUG9KTU4zbEtlOWIxWmkyU1NUYmpKTGZ2M3VfRGtTRTRqdEtKeVoxb1ZmZVdnMA?oc=5",
-        "published_at": "2026-10-20T10:09:13+00:00",
+        "title": "China’s outbound AI strategy starts with models and governance and ends with chips - Bruegel",
+        "source": "Bruegel",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMk5XYzAwcW56UDBCRG9PZzlBTWJubkJCQ1k3TEE4c2otQmpQdXNkcUk5cVpEZDFZUnlYNFJuTjRIMDJZUC1wc01ybHRGOHZEN0hwLWhjbHVrdFVpT2xuNG81TDdJV0pscXo5VjhnQ0pKaWkzSEtXVmhXWGF0OWV0YlZNXzdQanctS3Job1F0WF81c196dmJmSTctQ21xX0x2MEZXR2l3UQ?oc=5",
+        "published_at": "2026-10-20T10:56:25+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US leaving oil-for-security approach, not Middle East: Envoy Tom Barrack - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeFczaWFtb0JFb3NVYWg5NE5fQU1CcEZwZGtkRzBmRXdRS3NKNWNUMXEtSUV4UVljMFoya2FvUTdNSVlUWTk2eWRPX0gtLTc2SE9EMGg1YzJ2MFhjeWZxRXp2Z3VYeUNrcDF6VDdPZE1sUUxGQmpuUFNvcnBqdUNoa1FVRGpTc0JnS2MzaERnNTlJdWxKNWpzeTRVbDRad0tPdGNPalQ3Rm02SlpPTEE5R0Jn0gG3AUFVX3lxTFBycmVoX3JzTEJOSVQ3QU56OE9Wa3l1S3JsUUZzU21WSzZ5aTIyOEhtYWxKaDlxVHNTd0FZV1haSlNXdDFPSFNCZ1lQNkNUR09oRXZ5cXdtRElwSDNsY0JRelhjSHhQbkV5UkNUYVpJNnVKTGROb2EtR1BfZXc4V0llNjVHZmFBMVJab1lXci02TkJPUlljd1U0OFBqVkRtV3c0cE01V20weFNyX21HR2d6aUY4VkdJNA?oc=5",
+        "published_at": "2026-10-20T10:45:43+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Death toll rises to 60 in Houthi strike on Yemen training camp in deadliest attack in months - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd28wNVEwS0FZdThJYmJaQ09SZENwQmVZeTFJM1M3X0p5X1NGRFg5dnRUMWJBc3FZd2cyeUhJT2JYNzFYRGVNXzFUY3NGV0c1TlpMYURmd2hRakY1MDFEclFWbEptemJZcUZJRVZHOENHZ2phTFVrNkdGRkhXeVduSzNRNkprSm1pckctNms0VFp2OFNPMU81V0Zid2ZLZzVCa0h6a2VRbjJNTEF3a1dVSEh1S2hLSVd3LTRJeFA0WF9YUQ?oc=5",
+        "published_at": "2026-10-20T10:27:59+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -133,6 +166,15 @@
         "source": "Bozeman Daily Chronicle",
         "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxONXVsc3N2WmZheUdOM2NyeWJvUWF1NFJpRThBLTFaaGtmVDBWd3ZhNi04QmhFTldod3NQNXlxTVllSlZ0c2U1RHVQZ2s5eHlQWVU1VUJIbXdaTElIN0lvbFkwTUFHUFBLVUR5Y2MwOEpaMllWRXJzQVgxc0tCUHkzUjByRmFUY1BJYXBfb0ItM08xYnlSVC01X1RQWXc5bWFXVUZ2ckFVUXRvWEFrcURqWTYtTUdqN0tqSkVhWUgwbFFoZGhWR3VKck5QWnN6SkJsOVpMLV9neGlSZEtpblcwTVRZQUNHMkl1amptLXVRSGJvTS04bDcxcWE2QmRqOU14S3dNVWxDRWk?oc=5",
         "published_at": "2026-10-20T09:51:49+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Brent Crude Reaches Five-Month High of $111.05 as Houthi Attack Claims Raise Supply Risks - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTdqcnVjUmRjVjF4UUVqMnZYa2xaMEU5OFNCcHc3OUhMRXlZR3ZHRUFad0ZiaWhTS3puRk5Hd3FZaU1Kc0FqQ3BKSUplWE53QlhfMHNDalJKYk5GS01TMnczVkk3MjNZMHBFVXJjNDNOcFZLaUdzZUdhcHhtNFBRMTZvcVl2dw?oc=5",
+        "published_at": "2026-10-20T09:51:21+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -156,37 +198,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Deadly Houthi strike exposes risks facing Yemen’s government forces - The Arab Weekly",
-        "source": "The Arab Weekly",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZmRaMTB5ZEtYUE1VUldYdzBZVHh2YlpveWNDZk9WS1hxUmVMMnd4RWZ2U3FxZG1OWFJrYXEzZVA2TnhXVkJmVDRhVjlOZjcyWVJwd2xUOXdpWW1nOWVENjdIdTRvVlRfMHJxWm9weHJPWXdJcWNMOWtuYjV1MTJKMzdWdkh2ZE1YeU9kLUFQdFh6LVRmUlpB?oc=5",
-        "published_at": "2026-10-20T09:31:36+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Death toll rises to 60 in Houthi strike on Yemen training camp in deadliest attack in months - WSOC TV",
-        "source": "WSOC TV",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM2tBMUVQUDFmTXZhbEpKaTZ6N2hRX3dROGRtdG8zMUk5M1VwNlFJUnlaZmJfNHJFc0UyLVhSYW5NZXpWcUpGTEZBRU1BYXlaZXpheUQza3dSN01vancwSHAxZlBxcF93Sk1mS2JOc1ZPQ1B2M0hneVU2MEo3ZGF1RklHcjVRQS1m0gGcAUFVX3lxTE5qdllfV0ZPMkpWaUZ4cFRzdUlNcGk5azdfdHNtQnJ3MTlsVHZnUHcxU3ZteHhvUWlrRjg0TkVkeUt5RE1zaE45UVBUQjl2UklyeGc3QzZ6RVNrOThEVkJmVTB1dURlSWtyV09hcDk5NVB3NFNWRG1xZVp1ek1hM0E4MmR1dGQyaU1vT2ltd2ZQQWRfWV9FU21JSnpidQ?oc=5",
-        "published_at": "2026-10-20T09:26:27+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5",
         "published_at": "2026-10-20T09:19:15+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "A first step, but no real rebalancing in the European Union’s trade deal with China - Bruegel",
-        "source": "Bruegel",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenpTWDYzYjQxQWk0V3dpMTZGSy1UTncxOVF1Q1hkby13QVU3YnN5eVdsc3drc3BuWENZX1NSbHpCcTFJLWxOWXR6NmVLNmVrNmV0VlRJRC1YNURYWlRVVnpDa28wUlJjMk1HYTV1WldVZ05XeC1oZXlPWXhDRWlLblZzbGNvTEZOeFg5bDJNYllPUVU4NkRKbXhlT0JVN1JpX1E?oc=5",
-        "published_at": "2026-10-20T08:48:20+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -206,15 +221,6 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0N1clN6a19yUzBRWHI0MV9KSk5ObXJ1aUNuUHk3ZlBieDNOaW5rbHBlOHFIWFdienBFay1zS2gwX2JIa2xMYmRzc05iU2hJTTdNMXBjdTE1aGktbGxVU09NQU5FdGJ4RmxNTGV2VFpLSFI4OE95RTZNZ0hzY0VKbXhLUmYxRi1CSVdKblBJU1BOYVlpN3l3YTY0cDJlV1Uy?oc=5",
         "published_at": "2026-10-20T07:51:05+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi Missile Strike Kills At Least 53 at Yemeni Military Camp - https://globalpost.com/",
-        "source": "https://globalpost.com/",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTM5OUNEY1NCem4wSDRDNEtZc0J0VmxfWTU2dGYyaklIMUxRbXpWR0R2cV9lU1M4MVYwdXZYbngxTVJXQjk2QnZPUkZQTkw4anNGWnR2cDk3Unh3aEU4dmRzZFJ1Q0VBSU5BY0lYRG42cm13R29ObW92Z0dLMXRPVVRGbl9lcVlUVlRBNWdXQWRGSWNaZGo2UVY5SQ?oc=5",
-        "published_at": "2026-10-20T07:39:36+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -253,9 +259,27 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Japan ‘months’ from running out of critical rare earth as China squeezes supply - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdGJDTEN3Z09DeWNoSlBtNGNOWnBCNDNHbHJjbVpBeHNRX3FpVjA2SnRuNFVvMXVYeGU3eVdqT0s3RjFkeHV5bmY0ZjQ5TUVweWFRNk1xTTNJbjBkTzNNTllPdVpHVzZZUDAwSjZ2WmN1b1E3M2wtTUVHQVM5c20tNk5teFY?oc=5",
+        "published_at": "2026-10-20T04:03:44+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Nvidia Reportedly Sees Alibaba, ByteDance, Tencent Order $35B In RTX PRO 5500 Chips Amid US Export Curbs - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc2RVUTh6TU1FUnhqeTlFQi10b3RublpRWmUwSnNBNlA0SXlyTGxGd2lfNmxFSFpMQlh2WEdKZlVHMExtbjV5azVUbE1fV3RLMmtvRG1vQnFNS2o2V0p4SzJRSGlWNC1rTkFGOU1IaEFDUHMzSjhjNV9tbTBVNW5USGtQOXQ2cEpzelVKZUhkMnhGZmJMNE5obW5XOHphYzFkYXdQRWFTUQ?oc=5",
+        "published_at": "2026-10-20T10:48:26+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Micron Stock Falls Amid Three Warning Signals - Barron's",
         "source": "Barron's",
@@ -288,15 +312,6 @@
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5",
         "published_at": "2026-10-20T09:19:15+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Texas Instruments (TXN) To Report Earnings Tomorrow: Here Is What To Expect - StockStory",
-        "source": "StockStory",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUU5WaGk3bXJHelc0Nmg2UXk5V202WTZtek9YVG1FUDJrUkphSmZtcGQ4QUJYUXFjUXp1QUE2dEE4YWhBbktVVDQ1ZF80c1l4Q0puWEk1UlFtYXBYVE1HX0lYeUlnSmpXS05BRDM3UUM3YldtcXg2THd4TmhFV29QNTJoZmUtZzM1RDJPcEN1UFlPTkU1R2JBM0ppTXJYbldmUXBrVG1ueXpPUnlKaTBxTlJVclEzZ2RNVGdBNTlMT1U0ZS1ELXRscTN5MnY?oc=5",
-        "published_at": "2026-10-20T09:08:55+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
