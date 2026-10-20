@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-20T11:11:46.940590+00:00",
+  "generated_at": "2026-10-20T11:42:10.663408+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 100.44000244140625,
-    "wti_change_pct": -3.1063101552639916,
-    "brent": 111.16999816894531,
-    "brent_change_pct": 1.4787723158913302,
+    "wti": 101.0,
+    "wti_change_pct": -2.5660848621807286,
+    "brent": 111.56999969482422,
+    "brent_change_pct": 1.84390377617063,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
-    "vix": 18.68000030517578,
-    "vix_change_pct": 1.3015171592587471,
-    "dollar_index": 101.8949966430664,
-    "macro_score": 65.4,
+    "vix": 18.649999618530273,
+    "vix_change_pct": 1.1388236355243109,
+    "dollar_index": 101.89299774169922,
+    "macro_score": 65.8,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.11%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.57%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T11:00:00+00:00",
-      "brent": "2026-10-20T11:00:00+00:00",
+      "wti": "2026-10-20T11:30:00+00:00",
+      "brent": "2026-10-20T11:30:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
-      "vix": "2026-10-20T10:55:00+00:00"
+      "vix": "2026-10-20T11:25:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,19 +44,19 @@
       "source": "The Next Web",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbUNtMzdxU1lfV0ttdXh3dTQtdnNmcFE0bHhUQWFjdlplcFF3S1JrZ0J0UTVvUEhod3V1aUlQa3FIUnJsSnlPcGdtY19YRHEycEJoQkE5S1ZJWTZia3dJRVRoekE4LUlPdkFrWno4QzBLdWFOQTZvWThBdw?oc=5",
       "published_at": "2026-10-20T07:14:39+00:00",
-      "age_label": "3 h fa",
+      "age_label": "4 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 0.85,
-      "short_term_change_pct": -0.37,
+      "current_change_pct": 0.71,
+      "short_term_change_pct": -0.35,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T11:10:00+00:00",
+      "quote_at": "2026-10-20T11:40:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 1.7,
+      "quote_age_minutes": 2.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 63.0,
+      "confidence_score": 60.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-20T07:14:39+00:00",
@@ -66,10 +66,10 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 74,
-        "freshness": 78,
+        "freshness": 62,
         "volume": 28,
         "momentum": 46,
-        "macro": 65,
+        "macro": 66,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -82,17 +82,31 @@
       "category": "Cloud / Software / AI",
       "priority": "high",
       "satispay_status": "check",
-      "current_change_pct": 0.52,
-      "short_term_change_pct": 0.89,
+      "current_change_pct": 1.51,
+      "short_term_change_pct": 1.88,
       "relative_volume": null,
-      "quote_at": "2026-10-20T11:10:00+00:00",
+      "quote_at": "2026-10-20T11:40:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "ORCL"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "category": "AI / Cloud",
+      "priority": "high",
+      "satispay_status": "unavailable",
+      "current_change_pct": -4.2,
+      "short_term_change_pct": 1.12,
+      "relative_volume": null,
+      "quote_at": "2026-10-20T11:40:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWV"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-20T11:11:35.721317+00:00",
+    "updated_at": "2026-10-20T11:41:59.305256+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -102,7 +116,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
@@ -116,14 +130,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
@@ -134,6 +148,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "US Must Weigh Ukraine Missile Needs Against Others, Rubio Says - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd2FjSDhWNm1lSmN0UjRaX25HQ1loRmJOYV9kX0drWWM1a05UemJLd0hxVnFQWFI5Qi04WV9VeGVuTUVkUkY4NEtzQ0x3SE5KbGl1WFRPZVdoWjFBOFE5MGVGZ1p6d24yblFpVVhNdTR5Sjg4ZWJqZkdsTW0zcFFENGdaS3Z4MHVPeXdETlZrWFpxb3RzV2hmMGNPeWxqYlF3VTIyb0czaU5ZdXBLR3JRU2Fn?oc=5",
+        "published_at": "2026-10-20T11:14:48+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Death toll rises to 73 in Houthi strike on Yemen training camp in deadliest attack in months - Inquirer.com",
+        "source": "Inquirer.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1doSUNlQ2k1QW1rQ3lsTm1jZmF1Tjd4RkR2YjllLVp6MmJGR2VCR0R3OVYzNmU1V3F4cUFzQ0tBQmlEZlpXX2FGYW9ZMFVnV2pNcGx2UWVsZEdOWTBLTUNfQk10c0praXJWdFdybUxJRnkxalhFaXJKRzBWU2tTZGhWcFMzOXExSDBGNENHcDlRX2NQ?oc=5",
+        "published_at": "2026-10-20T11:08:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "China’s outbound AI strategy starts with models and governance and ends with chips - Bruegel",
         "source": "Bruegel",
@@ -153,28 +185,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Death toll rises to 60 in Houthi strike on Yemen training camp in deadliest attack in months - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd28wNVEwS0FZdThJYmJaQ09SZENwQmVZeTFJM1M3X0p5X1NGRFg5dnRUMWJBc3FZd2cyeUhJT2JYNzFYRGVNXzFUY3NGV0c1TlpMYURmd2hRakY1MDFEclFWbEptemJZcUZJRVZHOENHZ2phTFVrNkdGRkhXeVduSzNRNkprSm1pckctNms0VFp2OFNPMU81V0Zid2ZLZzVCa0h6a2VRbjJNTEF3a1dVSEh1S2hLSVd3LTRJeFA0WF9YUQ?oc=5",
-        "published_at": "2026-10-20T10:27:59+00:00",
+        "title": "Gas prices top $4 a gallon as Iran war escalates - ABC11 News",
+        "source": "ABC11 News",
+        "url": "https://news.google.com/rss/articles/CBMizgpBVV95cUxQMHdMR1BGa3huZGFFWVpLb09sMGZqM3p6ZVNCR1hSWXZNNWt0SmVqMDVQd0R3R0ROQjBqNlEzd0l5NEpPUFBURmxVeHR2dDF6bnZWem5pYUp2U1NrX0R2eElBdUlxTUJRSVZUZEJNcmZOMFJxeTdWWE9vZklsQjRIcW5qWlpZeXl4eTlYeVFYTnFJN1ltZ0p0RVRRZWlneWpBaUxTbmdGOG1TdDV4YUJLQUpsTEViRjFyWS1nakU3cW9RbFhLOGp1VjhMX2xQTzBNNzRxV3I1el81LUY4amdnakhPUVdnMDZ4UmphYm5fdFZXYWxTYmE1ajNZeGVUN1VDOUttWGNiMFc0WTQzcW9yTXBQMF9WTW13bUlxZEV3cTQ2NEx5ZzdGYnU2UkhVNmxVcFlsUnZ4MHhLSUk2V1pIeklHdEJuVkFJSkdYWXlqcTdGTm84RVpRMFZwVkNHdWVrUzllaDE4clVyV2F2Rm5CZnBzaFpuM3hrSWNHQXk4TXhscVlQZzkxd2lQTlhSN3J1UWpwOEdHM0QxZEVzQTdlR2hjaUtsYXpYd2pWVDhNMUQxR3JBS1BWcW85ckE5YzNETFRMc3cySE01MUdhajl0Rk43QXZ6OHB0SjVlVWw0MWRuaHBxZjJtZWxZWGhBZUpUMHpjU0c1X1hadlRCZ0s4ekRXOW1BRkhweEd6WTNxTm9RZTNheGM4ZklZV0hjOS1GZnpkcUY3ZUxjSmNsRVduSVNDMllMemJaX2JVcUZwTFJLaEZzZGR3MHJ1Nk8xWTB3cktOYmo4ZzRvMkhxbV90c0NqdWpIem1aNVZHN3dpcGZrYW00VjdUb2tiamthWmhTcEstOEhQbEhfVXlvbENpYUxzV1Z5ZnVPWHJiU1VpWnVwZzJka1NYRW53SURxUFNITHJDcE1sQ0M3anlDVEhKSHpndE92bmVVS3dUSDdWRFlWbl95RGhTTFB3Y0VKY3lPX0ZyX3Zjc3laaTgzNUhkRmdoZ0hjNEQxU0hGWTYzQTBqUVBlS1pTS2lWMnNMWlRoZU44YUxGWHp6QTFlRDQ3ZUpDMkhfRmc0ak1JOU1YcEpzRTZrZXAwLWlEMllUT2p3OXBQYXg3VExtQk4xdmdsNm5FakE5S3RVR3ktbThFNWRENzU5VWNuYm5XSmhKdXR3NlM1N1k5ZDhwRVpuT3ZveDh4WjljSmQwd2NpU3c4NzkwajZvT19oY2RsTHMzUmhpTGpCRE1KUXlvZHNDRmwxODlBZnh0OXZXS21vc3lxM21UeWFSRGplWXEtbjNsV2tyNmhiTkR1SFFzRkhKb0VPT2gwQU1LbkQyOUVVUlBjMkIwajFHRUpxRWFtRGtuTnlKRGtNcEVtTHN3M0d1bTVaU1BxUjdRMGhWS05iOHBJNE96RFNkUEY1XzZvSnI2a2k5V3VyQXhzVlhtWFgydG02U3B0Q1ZXcnUtRUVzSkM2RktWZUJGWjBsOTQzTnVVczZnZ0k1NEROb21WV3oxNS02MlZha242eWpQUXViMXlHUzItT2hfT2YyWkxvNmdHdm1LTlg3Z3h6WDM4bVVyMVVsVWtnYmFXSEFoWG56V3cyUWxfT2FVbnJaNi05RzMtRm1tS0FlamhudHRQR3lCcUV0NnlxYTJKemhIa2tJVUhrOThnMDQzQ1cyMm4ta0V2WTJMTktCS0tHQTJ2YmNsX245T3dwVEdSanB0cmZkdE1CZ1NySE12UllORkt1MldFYmxTSFZ0TkZWX2d6cHRTdmdSTlJ1U21WeUVSY0tKSW94RDF0bFkwUHlKVHpIa0dpdw?oc=5",
+        "published_at": "2026-10-20T10:38:07+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "An Israeli pre-dawn strike on a Gaza apartment kills 2 people, and other Mideast news - Bozeman Daily Chronicle",
-        "source": "Bozeman Daily Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxONXVsc3N2WmZheUdOM2NyeWJvUWF1NFJpRThBLTFaaGtmVDBWd3ZhNi04QmhFTldod3NQNXlxTVllSlZ0c2U1RHVQZ2s5eHlQWVU1VUJIbXdaTElIN0lvbFkwTUFHUFBLVUR5Y2MwOEpaMllWRXJzQVgxc0tCUHkzUjByRmFUY1BJYXBfb0ItM08xYnlSVC01X1RQWXc5bWFXVUZ2ckFVUXRvWEFrcURqWTYtTUdqN0tqSkVhWUgwbFFoZGhWR3VKck5QWnN6SkJsOVpMLV9neGlSZEtpblcwTVRZQUNHMkl1amptLXVRSGJvTS04bDcxcWE2QmRqOU14S3dNVWxDRWk?oc=5",
-        "published_at": "2026-10-20T09:51:49+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Brent Crude Reaches Five-Month High of $111.05 as Houthi Attack Claims Raise Supply Risks - Yahoo Finance UK",
-        "source": "Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTdqcnVjUmRjVjF4UUVqMnZYa2xaMEU5OFNCcHc3OUhMRXlZR3ZHRUFad0ZiaWhTS3puRk5Hd3FZaU1Kc0FqQ3BKSUplWE53QlhfMHNDalJKYk5GS01TMnczVkk3MjNZMHBFVXJjNDNOcFZLaUdzZUdhcHhtNFBRMTZvcVl2dw?oc=5",
-        "published_at": "2026-10-20T09:51:21+00:00",
+        "title": "An Israeli pre-dawn strike on a Gaza apartment kills 2 people, and other Mideast news - WTOP News",
+        "source": "WTOP News",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR25VNVNRa3VSSGdscGxReV9DbXhNd2VyZmhfN09aa1RDd3NxN0k1XzZnMTV1NW1LM3dYQ0xITkdnTjdOdW94WFp5UEtQakVlMFZGcFVya0xjRkxxYkR3eHlYbzFwWDZtd2duN0o2N3JIMF9hZDdaeG1oOXVDWVM3VHhaRkwwUUxkdFp3aVdTRm9kSlQ3SFJfaVRqa25JX1pva3kwNHpVS2hRMGpGQTFiQ2otazY5QXJpZWdv?oc=5",
+        "published_at": "2026-10-20T09:55:02+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -204,6 +227,15 @@
         "published_at": "2026-10-20T09:19:15+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russian drone strike kills three near Kyiv, Ukrainian prosecutors say - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNnRwLVNhZFlLSTdaYjVkcV9HZWpxaS11MzEwQXhQMUVWR0g2bTdvazYzVWJKcWxEbHVNT1ZTREpNN1pqWjhtQmVGMEQzTGFmMjZaeE9KSnNETzJUSHpfdk8yd3NXNFJiem9VbjE2cFBTSUFBQWpOcE5hRXpGVGJNQjdCUDRVX2ppTUlfLVhHLU5tdWlQWVBjQnhxUXFZeVhnVEZ5RmJUSzdseWxuQnBadW9yVFctYVlk?oc=5",
+        "published_at": "2026-10-20T09:06:50+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -243,28 +275,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnRKRWVRSmwzaFFkcFBLbG1wS1BORl9qR0xSaTkzY0VhX0dKNzc1V2JGbEFtTm1wZkx0VjY2dkRzbGYxWlljZG5zVUY2eGU1RnZiTVRBSmNDYnJNSXo3RWFpT2JhM1ZQcklHVzhXcW5zSXRHemNaMS1PMGJJOHowOVpMQWRqNE54cU11Z2ZNUUFnZFBqQkFsVUNhbl9rLU13eDhyMGQ0cDVGdk5nLWxFOEZVQ0E?oc=5",
-        "published_at": "2026-10-20T05:33:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Connecticut lawmakers challenge Trump’s decision to waive Russia sanctions - Norwalk Hour",
-        "source": "Norwalk Hour",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHdmczQ3Q1k2TDFFczU2SWpxSHVqZW5KN1ZkVkFibS1ZME13ZXNSNUxiODQ1NUNrUWdIdENBTjRGbVlDOXFRTUxGNjNKNW4tX2lDWUJ2MWhLMUN5YUFQZi1VZEFGS0JYTHpIVmloZ1pmeHpxUXpZbzVJclpJV0FMdFB5R2QyMUs2T1pUWHBuYm1MZHZQSGszWHRVWlM2RmRX?oc=5",
-        "published_at": "2026-10-20T05:30:33+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Japan ‘months’ from running out of critical rare earth as China squeezes supply - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdGJDTEN3Z09DeWNoSlBtNGNOWnBCNDNHbHJjbVpBeHNRX3FpVjA2SnRuNFVvMXVYeGU3eVdqT0s3RjFkeHV5bmY0ZjQ5TUVweWFRNk1xTTNJbjBkTzNNTllPdVpHVzZZUDAwSjZ2WmN1b1E3M2wtTUVHQVM5c20tNk5teFY?oc=5",
-        "published_at": "2026-10-20T04:03:44+00:00",
+        "published_at": "2026-10-20T04:03:25+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -272,28 +286,10 @@
     ],
     "corporate": [
       {
-        "title": "Nvidia Reportedly Sees Alibaba, ByteDance, Tencent Order $35B In RTX PRO 5500 Chips Amid US Export Curbs - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc2RVUTh6TU1FUnhqeTlFQi10b3RublpRWmUwSnNBNlA0SXlyTGxGd2lfNmxFSFpMQlh2WEdKZlVHMExtbjV5azVUbE1fV3RLMmtvRG1vQnFNS2o2V0p4SzJRSGlWNC1rTkFGOU1IaEFDUHMzSjhjNV9tbTBVNW5USGtQOXQ2cEpzelVKZUhkMnhGZmJMNE5obW5XOHphYzFkYXdQRWFTUQ?oc=5",
-        "published_at": "2026-10-20T10:48:26+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Micron Stock Falls Amid Three Warning Signals - Barron's",
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DUmpKOXFqbkZuS3g3SktHREFzTWZlUVpabFlJUEkwRFlod1pBMXZDQ1prZWFUdVByQVRzNWJXZXJfdko1ajV2T0hMb2dDQlNldVZlVmZNaXA5bTBWaTFUaUZIcFFsSkdJVmRkZUlhRHdpVXU5LW5kbUxZSU1jdw?oc=5",
         "published_at": "2026-10-20T10:14:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "ByteDance, Alibaba and Tencent order $35 billion of Nvidia chips: Reuters - Yahoo Finance Australia",
-        "source": "Yahoo Finance Australia",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9pX212YVotZklXbTlETi1hNzloMjRUQXBMRXl4dXdQRDRxdkF4OVZBcE9LVjIxUmtFQU9WTTlSMHhMSWlkRXBpc2JpR2Q1ZkhBQS14RVd6ZlpTQTZtVzRnR3VFVVhPelJYdi1QVHZVb0FfdkJDYzcxYlZhWWdaaXl5dFdTaE03Wk5z?oc=5",
-        "published_at": "2026-10-20T09:54:13+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -322,6 +318,15 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaTBQUktjcGJ5cGIxNDZyU3pYNzFzbTUxdENVQ292RklJaF90ODdMMTU2b1hNLUxIanVRdDhaeDVJUkZpUm84TnJ1N0I5QXR6ekxVS0hISXRHcmNWQTRjMlg0X0dRQ193UURUSUxqckliRDBTSEFsZlVRTkN4RDVZU1lJaEZDNzY3bEJCbUkyWVkxTXFzVkMwc2FWQQ?oc=5",
         "published_at": "2026-10-20T09:00:36+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet. - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
+        "published_at": "2026-10-20T08:45:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -358,6 +363,15 @@
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUnFwa0dodDhXYzNPWmpQOURyS2VVY0FETlFVV3BYMjd5MG90MExvcENJZ0psVXRjMDJGZGxVMDEzcFFoWGpHSGRfdktQZ1d4SmNZMEE5eU51cl9JX2RuRDJFM1dsZkJ2VHpicjEyVW8zcUxKLVlPSWpiT0k2YWJDWGVuUVhoWnNiTWdPT05ITm1nTTk3cE0zUFc3TmVWSTVQVXlISEtEWkZiMU9QemJTY012UXVEd01XMC1iQlV0VXA0QQ?oc=5",
         "published_at": "2026-10-20T07:59:26+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany signs AI partnership with Nvidia at Berlin investment summit - The Next Web",
+        "source": "The Next Web",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbUNtMzdxU1lfV0ttdXh3dTQtdnNmcFE0bHhUQWFjdlplcFF3S1JrZ0J0UTVvUEhod3V1aUlQa3FIUnJsSnlPcGdtY19YRHEycEJoQkE5S1ZJWTZia3dJRVRoekE4LUlPdkFrWno4QzBLdWFOQTZvWThBdw?oc=5",
+        "published_at": "2026-10-20T07:14:39+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
