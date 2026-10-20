@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-20T05:45:31.569577+00:00",
+  "generated_at": "2026-10-20T06:13:00.514887+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.7699966430664,
-    "wti_change_pct": -4.717351771453204,
-    "brent": 109.88999938964844,
-    "brent_change_pct": 0.3103572144402378,
+    "wti": 99.5199966430664,
+    "wti_change_pct": -3.9938325996377144,
+    "brent": 110.75,
+    "brent_change_pct": 1.0953874165345656,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
     "vix": 18.43000030517578,
     "vix_change_pct": -7.803899368704803,
-    "dollar_index": 101.76899719238281,
+    "dollar_index": 101.7969970703125,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -4.72%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T05:35:00+00:00",
-      "brent": "2026-10-20T05:35:00+00:00",
+      "wti": "2026-10-20T06:00:00+00:00",
+      "brent": "2026-10-20T06:00:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-20T05:45:20.741968+00:00",
+    "updated_at": "2026-10-20T06:12:47.632497+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Oil majors face spending test from Iran war windfall cash - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQemV5ZWpZWkdhUzlRTmJsLXMyNVFMa0EzLTYxSGJubDVlSkVWMGVuckZDRVZOOS05eGc1aHlSOGJva3A5d2R2SENNNVBNeTM5eXNEeWJWTDlDbzBUdlZTTDdFZDRlT3dkVWtSWmJJekhvc3BSQk5KbnlTcjR2Q1otUEFlS0JYSUVZclR1d0NGRzJJaHBXbFdBS1RPZWZqOVNXemZtVmlRQQ?oc=5",
+        "published_at": "2026-10-20T06:04:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
         "source": "The Washington Post",
@@ -92,6 +101,15 @@
         "published_at": "2026-10-20T05:25:24+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Gas prices top $4 a gallon as Iran war triggers global oil shock - 6abc Philadelphia",
+        "source": "6abc Philadelphia",
+        "url": "https://news.google.com/rss/articles/CBMi6wpBVV95cUxNVFVTZmRDRHVNendkc1dXVGZjbEJnOTEwdmdZYWR0dWlTZVJKZ2tzZlotU3lEUHhPR0N6dDB5NktrWWdYckFqd3NaQ1VMU3BvZTZFcW9JUmxfOVVtckZCYUc4RTI4NElXNFVXR28xSGctUWxZWHpmU25TTDdWMHlZTzI4R2stQ2NCbGRtT3B0Q3hHS3lzQlhhaEUycjFpWHppYW9kSjBmTmNnMjBMWWVoQTJhVkxDX2Q5aERTNXB2TmtWQ29uTkttQk91MlZUMjhjOVhmdUppYWlXQzMtb292OV9MZEUyd0tUcWNhS1VMZGxCM3JPaG5CX3JEZkptelhuRHQ1T0NjQmlYeXN3N3NuVWN2UmJwSjZoV0s1bzZxb3dFbk5UQVJ6bTctOXR5MnFVb1VfNlloM3A4eTRfaUx2bjE3SnM2N2pfTENVTHJnM2pxcjk4QlMxTzFWZ2M0eXVYVFYyUzhSa3J2Qzg3ZEhZVEJCeGM2dDl3eno3ZG16d015SmZlODNnakZwby1fNWxKcWFQMzZJbDBiOWxKQm9OTUZUTFRUR3ZtRlNIYzFPd1NrQjZsYVY2YXRicjUwWVpYTi1ETEQ5Y2N2M05IYzZ6Z0ZZVUZjMEtRMWQ3bUFnMllQU09LYmFNTFlvQ09vOEFhbnBWNjZVWUpnMHlLcGp0UTY1YURLc3B3QWptdkg3eFJrVGRaamJEQ2pLWmpVVGFVV1J0WS1tM0hQUkdROEgwd18tRk9XRVN6ODl3akRjSXdSdWdVUnEyckVnQTJobnJxWnVQUUt6NExfaVVzRkhMRDl4eGIzbVMwM0NpOG4tdEh0enhYUW1tc3NVQ2s1eFJvV18xZWEyVG52TzVob0JROUtTTGpzaGQ3cGtFZDVJS2d4ZlY1am0zTGt4OHNvS0x2Y2FIaUl1NnNRV2ZRZ1RBd09oRE8zQWdpYVVPeUVZMklqOGkxanFBNmRvSFVlMG5NWDF3d19JOTRfUVFUN3FYSU9kTDFBYzdRU09tc0tDOEpac3l6bzhPY2lNckxEOWNyM2xmZnJETUZJUlZweEVqS0w2NnZJV2RoU21PM0tnb2s3a01tNEtKV2FnTlZ2VFFNY2p4UV9EbUV5bTZrc3VWMXpza2NEclJnQ0JSbGZzQW4xZ0VPRzVzcDZoYkplQl9jdk5Ub2lSdG40U04ya0g1akJZaDhDQXpsMTdfeUMtWm1Ielg2bGJ3OExDMmNDRGFYQlowVGN3U25HSHZpcTdYWW52elBJZE5UX1F4YWZ6eWZ6NXBuQmJNV1B0a2R5dFBqaC14ekpqQTJfSzE2R2s1ZklialhYNmRSVzdZZ2p1UTJDQ3ROQkVhVk0xUXhqZ3BXeDN0SHRnbVlITXNzOS1CYTEtUjlLTHI1d29NdzdfUHp4c3A2YzVXa1o4ZmE3VUJqLWZXRnVXWTh0MzBxMmUxeVJWOWxhX0I4bnBPTV9qYUpVdjN0V3AtRG44MXdlR3FKR21XNU5yWG5CXzN1V0drUkcxMEVuMmVocGtKeFZHcVlOTGxBS1JGbXJWTk5QUE9na2JDZ18tZEVDeWV6OVVQT2UzblRybDI2ZTJPZFNpM3J2Nk1tRTVtb1l1bU1jMFJ3ellVUnFmWjRiSi1FOTZiS1lzQVJ4NWpOVGxzcFpJWjZkNVRqZTM4dkZnUjdPV0JIRnlSdDJvWHBLU1dEcXZJWnhNNHc5dVluLTRLODVlWk9LZ1NLVDBnSFdTSl8waEZ6ejFWVzV4cFNkZGc5OGx4STVUb0dsVUpMTjVBX0pydERGdkxocG1BaXhQNF9IXzJkY1dpandRemxZMmJERnV2VWU1aHZtQXZzMHJn?oc=5",
+        "published_at": "2026-10-20T04:35:03+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -185,29 +203,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi attack kills 58 at Yemen government training camp, governor says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSXFqMTJmVlRrSjR1NmNocW1VRWFpV1pSMjlNZDh1YXBsS2gyRkE0c19uRXJCQXN4Nklqajh6Tk4yeHhlRWRpWG81WXJMRVJmWXREaXZ2UkJfT3FNOFJndW9PNHBTZFRvVGJnbmFkeU10ZDlWdWY2N0kzVkFDVTh5NG0zZlZiM0N3bWthZmF2LUJjUXlEd29WOVRLZFdodFA0YlcwRl9fX0ptQ2dyN2I5RjVfRWJxRW1vYmF6VURGWQ?oc=5",
-        "published_at": "2026-10-19T22:26:26+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump faces bipartisan backlash over waiving Russia sanctions - CBS News",
         "source": "CBS News",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVW5KeFN2cWxTOGpmS3RNdkl4WVhBTTJnbDYzNjJCWUpxSXAzYUdxSG9VYTVyc0s5YjZvdGgySF96X0tuY1lqeGRPb2lHMXNVYWdXTW1Da0FrNGFIWGFMUFhkV1ktejdSXzV6OU1CQjdkM3hGOG5STDhGZ0N1eERiZGtMUTBwYUpIMEJBZ1FsMTVpdzZWblE?oc=5",
         "published_at": "2026-10-19T21:00:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel? - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa1Zud0l3Tmd1WENUNlFUTXM3QjVudnRWdnVrTHk2enF0eTZsWmtyR1RsMFRmUHhHTzYyN2NRdVlNamlMUFhlNkNsUmI5TkQ3V1hhMV9ISVlPaUtxYkYybkJfYzljcFZsUWtjT2oxOTdPelJ4UmZMeVNDX0U2QVRLZ2tIdXo1NjBFMTFSVGZDOHN5Z1RMVGdUc3BzSi1oRE5FMTdSaGNBdjJyMUYwYjFKdWh30gG3AUFVX3lxTE9vR1ZvNVZoeWNMbnYtRWhPalliR3NjZ2NsbGNWckR6bURQN0JLYkxqQUtRZ2lJOGVtMnZ4T29yeEFBczlFQWVQR2xwb0lnTFdZelVOaUxKTVBEbTYwUzN0ZnJoekZQZUVmOXJYdFE0VEMwdVQ2MWxJZ1FQbDEyUy16ZTlhSXhfMGhKSnVoZS16bW5rcjJvb2RJTFRHcHdxUHltUkZSMHkzQ2tReklsNE1UT1N2NHNBOA?oc=5",
-        "published_at": "2026-10-19T17:19:53+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
