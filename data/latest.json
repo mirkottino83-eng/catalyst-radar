@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-20T00:00:25.604368+00:00",
+  "generated_at": "2026-10-20T00:36:22.400854+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.22000122070312,
-    "wti_change_pct": -3.1456486798236427,
-    "brent": 109.22000122070312,
-    "brent_change_pct": -0.5825590625275656,
+    "wti": 98.52999877929688,
+    "wti_change_pct": -2.8399613241396393,
+    "brent": 109.44999694824219,
+    "brent_change_pct": -0.3732055887780028,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
     "vix": 18.43000030517578,
     "vix_change_pct": -7.803899368704803,
-    "dollar_index": 101.98100280761719,
+    "dollar_index": 101.93900299072266,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.15%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.84%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-19T23:50:00+00:00",
-      "brent": "2026-10-19T23:45:00+00:00",
+      "wti": "2026-10-20T00:25:00+00:00",
+      "brent": "2026-10-20T00:25:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
@@ -31,53 +31,10 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "a3388c9fd731",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Merz unveils partnership with Nvidia to boost AI in German industry - Yahoo Finance",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSHUxNDBVUl9zRVF2WDlVcGdLZ1ZUSjJLc1RCMW9kdUhWQnZ5NEE2NmVNaENyWjVzbVlCUEpjZC16ZHVVNDBkZktkczYxZDBJQnpxQXNxSFJaalFxMVVrRjlVSmR2NmNsbTl0Qk9rRFluSWttdWNTOVpnVmZncE9ORU81cGs3M0N3cU1vT2U4RmZaZ3BHZkdYb3FjeVl3TUE4RThj?oc=5",
-      "published_at": "2026-10-19T19:03:39+00:00",
-      "age_label": "4 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": 1.42,
-      "short_term_change_pct": -0.14,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T23:55:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 5.4,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 62.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-19T19:03:39+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 75,
-        "catalyst_strength": 74,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 48,
-        "macro": 68,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-20T00:00:12.228042+00:00",
+    "updated_at": "2026-10-20T00:36:10.034216+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -105,20 +62,38 @@
       },
       {
         "area": "Titoli tech e AI",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 8
+        "status": "NO_RSS_ITEMS",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       }
     ],
     "geopolitics": [
+      {
+        "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnRKRWVRSmwzaFFkcFBLbG1wS1BORl9qR0xSaTkzY0VhX0dKNzc1V2JGbEFtTm1wZkx0VjY2dkRzbGYxWlljZG5zVUY2eGU1RnZiTVRBSmNDYnJNSXo3RWFpT2JhM1ZQcklHVzhXcW5zSXRHemNaMS1PMGJJOHowOVpMQWRqNE54cU11Z2ZNUUFnZFBqQkFsVUNhbl9rLU13eDhyMGQ0cDVGdk5nLWxFOEZVQ0E?oc=5",
+        "published_at": "2026-10-20T00:05:58+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran oil exports through Hormuz dry up under US blockade - Arabian Gulf Business Insight | AGBI",
+        "source": "Arabian Gulf Business Insight | AGBI",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORGF3TWtZV2QwTVFfWEw4UWMxOGxqTTI3dkstVXV1VFdlRnF6UGQ2TjN3RlgyVERnMXdQSkxSeDlHQUpsOHFsMmZVNExhSE9BZ0p1cDRiWkxSYUJHYm5aRFR6NGVRSmE2M09tblF5Vkg2UF9ucV9NUDQ5S2d5M3d3Y1dpN3ptX3dBREtMN3VHcWY2eTdoTnBxeHhtWWxuZzQ?oc=5",
+        "published_at": "2026-10-20T00:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Houthi attack on Yemeni government forces kills 58: officials - CBC",
         "source": "CBC",
@@ -152,15 +127,6 @@
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUlXRzA1YVNhSkh4U0dNMjVIZko0VHFqZHFaTlptUUdPTlFzU25TeFl3dXVnLVBMSGFXWExCMkpQRFpncV9VSjNncEVTTnl2SHB5R0ZmVGJnWUhBQUJXM1hibzdNVk1QVFdrOW1LVjBXQmVzNkN6bi01NFNPeHMtb1R3RkpLbl9XMkVWc2xrOTRKd3ZNUnBVUGdYeTdrNFZ5NEtiVDJ2Mm5tLWQwLTJkeDRuMkRaTU94anFQODZma0VlX0JIa1hzbmlQLXNIVWlYa1VJ0gHTAUFVX3lxTFB3SGxmMDdDZUNibnhKc1RHTGhSNzJZZFptRUh5NmlqRnlmUUE0bTAwMmMyNk15dUN1cTRFUmNqeDB3Nnh6VjdqSThnM3Q5ZmNxdDFRX0ptSjhDUnJLX1AtTEpBWWQwRFA2VzBJX2V6TWJna0IxWVdjVlVjMFpmZ3pVcWtzRV9aazdPeXpMSjcwMUN6NU9IRzZBcFdBeXZBWjlGQUJ6aHUwZEpHRFBmX19lOXg4Z3U3X1E3a3poX2ZGYVRvQ1VGMnhBZ29XZkJMWktuMG8?oc=5",
         "published_at": "2026-10-19T22:36:07+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnRKRWVRSmwzaFFkcFBLbG1wS1BORl9qR0xSaTkzY0VhX0dKNzc1V2JGbEFtTm1wZkx0VjY2dkRzbGYxWlljZG5zVUY2eGU1RnZiTVRBSmNDYnJNSXo3RWFpT2JhM1ZQcklHVzhXcW5zSXRHemNaMS1PMGJJOHowOVpMQWRqNE54cU11Z2ZNUUFnZFBqQkFsVUNhbl9rLU13eDhyMGQ0cDVGdk5nLWxFOEZVQ0E?oc=5",
-        "published_at": "2026-10-19T22:35:58+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -244,54 +210,9 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
-        "published_at": "2026-10-19T16:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
-      {
-        "title": "Amazon says its AI chips will work with popular coding language, challenging Nvidia - 1470 & 100.3 WMBD",
-        "source": "1470 & 100.3 WMBD",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYVBnUC1COFBaVHBLazVqeEc4OGw0OWxMcHhhYTE3dHhjS0ZiVzlvU003QVJBU2w2S1B6UDBwQV9CZFVqUmJ4OFBfSzZQYzhkeHJyRVRVbjBLVjlxR0JJb0tUSXk3QlZiZlJBcEU0UDE0YmFzeGVKYXF4SVA2dzlkNUE3VVVlT0NVX3pFbmJsbXkzODkxZ0Zibi1qVzN1bXN0b2Mzd2lWUzJ3TEQyNFRYX3ZGTWszVkk?oc=5",
-        "published_at": "2026-10-19T23:01:24+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3. - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
-        "published_at": "2026-10-19T22:40:17+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck - Investor's Business Daily",
-        "source": "Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2gtZmlxbk85a0hhLTVERkNDU2xKTnI2bDd1aGthazZObV9mLTdYMXBUaUxxaDFZRzNNZEt5QXdzVDNNVnNDMWtObkNycTNLc2tmWGZFTWhNU2RpN3JTMTBmUlFlZ2xzb3NiSGFMVTZ3d21lRjVHbVdUYkMyOHViVGlYcFNlUlM0eTZIQ0M0OUhvSlNHTTRHbWgtdFpRVDBLbVE5VG9DV01md0pjdERyUVp1dw?oc=5",
-        "published_at": "2026-10-19T21:30:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT09KR2R3TjktZGltSk9PMGtKcGVMeFBuSmR5eTVkMERSbkVuc0d5bGhnanJ2WloyWUtULU1PTkFVQlNhaklmWmJESHF2cEV0Q01YQ3NBb3RxWklLQlNLelBEMzVBSF9nZ09Uc0FjLUhHUmhOeUF1Z0pObndUclVjT0s2Q3Fka2Z6dWltWC1MQ0g5cmo0V1dUeFY0M3hEOE5aSzV3RjdZZ2JFUTU4TEE?oc=5",
-        "published_at": "2026-10-19T21:11:49+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
       {
         "title": "Haemonetics Announces FDA Approval of PerQseal® Elite Vascular Closure System - PR Newswire",
         "source": "PR Newswire",
@@ -334,15 +255,6 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcncyaHpmWGZxa1NoQjVOTk9pWmFkUUE0UExUbzFRcGFyM2xCaV90NkNGSEtxWnZhdDBYWnA1eHpIN3EzRVc3a2hTNmplMFhsYkh1d1JiQUJBN0tFc0xkVFdiVHFVX1drQjlHRWV6UzFlaEFWdTFYQ2ZHUGFaTm9UQm81aEo0Qk1tV3lMYzZGeHBHbWtuazRfTlFHNA?oc=5",
         "published_at": "2026-10-19T19:47:59+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help - NVIDIA Blog",
-        "source": "NVIDIA Blog",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaHh0dS1IVTRGYkoyUVNoWmlMUEZncElQVFVYMU9MeV9iMF9IRzJ3NFV1Wk5oRDlsdVNlUzQ1U3p0MEVmZFBBSkx5VnBKQ0tDZGdVTkUtaFZoc3JLamV6Qms0MXEzbW5yM1J0cjdDRnI5SWhKejFMcmhMNlNXaUg1MVZVQTlZXzQyUXJaS2Q4TkJMR29XbnI1bjNVZHBfOWMyUUE?oc=5",
-        "published_at": "2026-10-19T19:33:59+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
