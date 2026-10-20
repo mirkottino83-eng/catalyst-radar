@@ -1,37 +1,79 @@
 {
-  "generated_at": "2026-10-20T12:11:03.147007+00:00",
+  "generated_at": "2026-10-20T12:50:56.852158+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 5.136000156402588,
-    "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 100.58000183105469,
-    "wti_change_pct": -2.9712538319931703,
-    "brent": 111.16999816894531,
-    "brent_change_pct": 1.4787723158913302,
+    "treasury_10y": 5.090000152587891,
+    "treasury_10y_change_bp": -4.600000381469726,
+    "wti": 99.76000213623047,
+    "wti_change_pct": -3.762301165444071,
+    "brent": 110.55000305175781,
+    "brent_change_pct": 0.9128251685465827,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
-    "vix": 18.84000015258789,
-    "vix_change_pct": 2.169195265431245,
-    "dollar_index": 101.86000061035156,
-    "macro_score": 63.7,
+    "vix": 19.1299991607666,
+    "vix_change_pct": 3.741857954041805,
+    "dollar_index": 101.73600006103516,
+    "macro_score": 68.8,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.97%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.09, WTI -3.76%.",
     "quote_times": {
-      "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T12:00:00+00:00",
-      "brent": "2026-10-20T12:00:00+00:00",
+      "treasury_10y": "2026-10-20T12:35:00+00:00",
+      "wti": "2026-10-20T12:40:00+00:00",
+      "brent": "2026-10-20T12:40:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
-      "vix": "2026-10-20T11:55:00+00:00"
+      "vix": "2026-10-20T12:35:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [
+    {
+      "id": "a61c77a84a6d",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Germany and NVIDIA Expand AI Partnership With a $10 Billion Commitment - BeInCrypto",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTTGRXYzFzMXJzOUFBM3dBOWJFSC1iNVJfNjFtOFo3VDd2VEM4djRtZVBGX29nUWduTlpnd0pKblJodFU3U3BtTVItSDRpMDBnT0dWSjdKTHhZLU1MU3dOYjBScXNxbUcwMGh4bkpyZTBMZw?oc=5",
+      "published_at": "2026-10-20T12:24:00+00:00",
+      "age_label": "26 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": 0.77,
+      "short_term_change_pct": 0.16,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-20T12:50:29+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 0.3,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 67.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-20T12:24:00+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 52,
+        "macro": 69,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
     {
       "id": "a497badc28af",
       "ticker": "NVDA",
@@ -44,19 +86,19 @@
       "source": "The Next Web",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbUNtMzdxU1lfV0ttdXh3dTQtdnNmcFE0bHhUQWFjdlplcFF3S1JrZ0J0UTVvUEhod3V1aUlQa3FIUnJsSnlPcGdtY19YRHEycEJoQkE5S1ZJWTZia3dJRVRoekE4LUlPdkFrWno4QzBLdWFOQTZvWThBdw?oc=5",
       "published_at": "2026-10-20T07:14:39+00:00",
-      "age_label": "4 h fa",
+      "age_label": "5 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 0.51,
-      "short_term_change_pct": -0.41,
+      "current_change_pct": 0.77,
+      "short_term_change_pct": 0.16,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T12:10:19+00:00",
+      "quote_at": "2026-10-20T12:50:29+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.6,
+      "quote_age_minutes": 0.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 60.0,
+      "confidence_score": 61.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-20T07:14:39+00:00",
@@ -68,16 +110,45 @@
         "catalyst_strength": 74,
         "freshness": 62,
         "volume": 28,
-        "momentum": 45,
-        "macro": 64,
+        "momentum": 52,
+        "macro": 69,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "CRDO",
+      "company": "Credo Technology",
+      "category": "Semiconductors / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -0.71,
+      "short_term_change_pct": 0.94,
+      "relative_volume": null,
+      "quote_at": "2026-10-20T12:50:27+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRDO"
+    },
+    {
+      "ticker": "MARA",
+      "company": "MARA Holdings",
+      "category": "Bitcoin Mining",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -4.38,
+      "short_term_change_pct": 0.84,
+      "relative_volume": null,
+      "quote_at": "2026-10-20T12:50:18+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MARA"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-20T12:10:52.049727+00:00",
+    "updated_at": "2026-10-20T12:50:39.217770+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -94,31 +165,49 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 13
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       }
     ],
     "geopolitics": [
+      {
+        "title": "Trump faces bipartisan backlash over waiving Russia sanctions - CBS News",
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVW5KeFN2cWxTOGpmS3RNdkl4WVhBTTJnbDYzNjJCWUpxSXAzYUdxSG9VYTVyc0s5YjZvdGgySF96X0tuY1lqeGRPb2lHMXNVYWdXTW1Da0FrNGFIWGFMUFhkV1ktejdSXzV6OU1CQjdkM3hGOG5STDhGZ0N1eERiZGtMUTBwYUpIMEJBZ1FsMTVpdzZWblE?oc=5",
+        "published_at": "2026-10-20T12:29:58+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Death toll rises to 73 in Houthi strike on Yemen training camp in deadliest attack in months - WJTV",
+        "source": "WJTV",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSzRoQ2ktdVhVUG1tTkRuUDdLR2pvQy1NV3Y1QWpHdWMxZVBjYWtHOWlwSzhpOWotQllLbWpjMUhCZUZtemJEYVpPQTdsOG5PbzlsdFg3T29nM2lTSmtsUkozaWlnOHI0UWZzOTZ4SXlHQVRHQ1ZGSlJZdnJNS0xjcml5d1hMeXlBN000cjRNU3lINjNPYkJqU1dIYzE4cm9JanFJWkplaDlOX2k4OXRnRHphNkNUd3g2eG9KZjM5VEtvaEZJRVZQb0NLZ2prS1JKNUHSAdcBQVVfeXFMT0ExeW51MzktaDNzQ2h3emRQRnhjSU5RdndlWXc1NWNGaUoxcWMxVTVDbk9wSk5UM3hJbnIyTnc0OHFCczBXeXJBb1hnLVYwVEU5SmV5WVh2aUJkZkU2czBkWlgwWUoyUHgxVm5qVDhCaEJOcVVTT3hDTy1JeGltTG1iV1dZbUNXVlo0eU1RWG9hYVBRZ1NwZWs3bHFfdlZBaF94bDc1UUx0Ulg1UUwwTkhWcHZ1elhkbGdmbmg4aGJ0TzJKUU5WeDN5T0pJWm9sd0xVVlBVTnM?oc=5",
+        "published_at": "2026-10-20T11:50:56+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Brazil-China Trade Record $143B: Oil, EVs Drive Bilateral Growth - News and Statistics - IndexBox",
         "source": "IndexBox",
@@ -138,10 +227,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Death toll rises to 73 in Houthi strike on Yemen training camp in deadliest attack in months - Inquirer.com",
-        "source": "Inquirer.com",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1doSUNlQ2k1QW1rQ3lsTm1jZmF1Tjd4RkR2YjllLVp6MmJGR2VCR0R3OVYzNmU1V3F4cUFzQ0tBQmlEZlpXX2FGYW9ZMFVnV2pNcGx2UWVsZEdOWTBLTUNfQk10c0praXJWdFdybUxJRnkxalhFaXJKRzBWU2tTZGhWcFMzOXExSDBGNENHcDlRX2NQ?oc=5",
-        "published_at": "2026-10-20T11:08:45+00:00",
+        "title": "FBI warns Iran aspired to attack California with drones in retaliation for war: Alert - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2hlRlY5RFh4YWgtOFBHaFNnc1dKRXh6Q243VXU0bUFUWk5TeThyVFM2Yk1jWUpnYWRUQkV6eGhZM3YzNzBzY296NXNwRlRXbWl1eFFVb0dvckZ4aUhsVHctOERRMkJJRTNZbVo1ZjVqejViYWxuaDRIY2Q0STZ2al9EVHlXVlgtbE9lSVhQbjZCSzZwTmtpM01uUWdxS2tPLWRj0gGoAUFVX3lxTE1wUUM0QkFNelExVzUzcVBxdnM2c1l4bklTdndFT3pzcEZVQXZkOVA0VHFRYXREZjAtcVhXcktBVi12VEZ6dVFRcEpVSEJZb0thLUs3NGY1d2pBV3BJOXdBS2NkWnJ1T0RrTWpzNm8yS2R5Q3ZnaDYyYmRMejdKYm5kd2RNZmhZOE9BdHRrU1NfdmlicXJUR3hZMDVTQldmN3lCWUFFYWIxdw?oc=5",
+        "published_at": "2026-10-20T10:57:18+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -165,18 +254,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Gas prices top $4 a gallon as Iran war escalates - ABC11 News",
-        "source": "ABC11 News",
-        "url": "https://news.google.com/rss/articles/CBMizgpBVV95cUxQMHdMR1BGa3huZGFFWVpLb09sMGZqM3p6ZVNCR1hSWXZNNWt0SmVqMDVQd0R3R0ROQjBqNlEzd0l5NEpPUFBURmxVeHR2dDF6bnZWem5pYUp2U1NrX0R2eElBdUlxTUJRSVZUZEJNcmZOMFJxeTdWWE9vZklsQjRIcW5qWlpZeXl4eTlYeVFYTnFJN1ltZ0p0RVRRZWlneWpBaUxTbmdGOG1TdDV4YUJLQUpsTEViRjFyWS1nakU3cW9RbFhLOGp1VjhMX2xQTzBNNzRxV3I1el81LUY4amdnakhPUVdnMDZ4UmphYm5fdFZXYWxTYmE1ajNZeGVUN1VDOUttWGNiMFc0WTQzcW9yTXBQMF9WTW13bUlxZEV3cTQ2NEx5ZzdGYnU2UkhVNmxVcFlsUnZ4MHhLSUk2V1pIeklHdEJuVkFJSkdYWXlqcTdGTm84RVpRMFZwVkNHdWVrUzllaDE4clVyV2F2Rm5CZnBzaFpuM3hrSWNHQXk4TXhscVlQZzkxd2lQTlhSN3J1UWpwOEdHM0QxZEVzQTdlR2hjaUtsYXpYd2pWVDhNMUQxR3JBS1BWcW85ckE5YzNETFRMc3cySE01MUdhajl0Rk43QXZ6OHB0SjVlVWw0MWRuaHBxZjJtZWxZWGhBZUpUMHpjU0c1X1hadlRCZ0s4ekRXOW1BRkhweEd6WTNxTm9RZTNheGM4ZklZV0hjOS1GZnpkcUY3ZUxjSmNsRVduSVNDMllMemJaX2JVcUZwTFJLaEZzZGR3MHJ1Nk8xWTB3cktOYmo4ZzRvMkhxbV90c0NqdWpIem1aNVZHN3dpcGZrYW00VjdUb2tiamthWmhTcEstOEhQbEhfVXlvbENpYUxzV1Z5ZnVPWHJiU1VpWnVwZzJka1NYRW53SURxUFNITHJDcE1sQ0M3anlDVEhKSHpndE92bmVVS3dUSDdWRFlWbl95RGhTTFB3Y0VKY3lPX0ZyX3Zjc3laaTgzNUhkRmdoZ0hjNEQxU0hGWTYzQTBqUVBlS1pTS2lWMnNMWlRoZU44YUxGWHp6QTFlRDQ3ZUpDMkhfRmc0ak1JOU1YcEpzRTZrZXAwLWlEMllUT2p3OXBQYXg3VExtQk4xdmdsNm5FakE5S3RVR3ktbThFNWRENzU5VWNuYm5XSmhKdXR3NlM1N1k5ZDhwRVpuT3ZveDh4WjljSmQwd2NpU3c4NzkwajZvT19oY2RsTHMzUmhpTGpCRE1KUXlvZHNDRmwxODlBZnh0OXZXS21vc3lxM21UeWFSRGplWXEtbjNsV2tyNmhiTkR1SFFzRkhKb0VPT2gwQU1LbkQyOUVVUlBjMkIwajFHRUpxRWFtRGtuTnlKRGtNcEVtTHN3M0d1bTVaU1BxUjdRMGhWS05iOHBJNE96RFNkUEY1XzZvSnI2a2k5V3VyQXhzVlhtWFgydG02U3B0Q1ZXcnUtRUVzSkM2RktWZUJGWjBsOTQzTnVVczZnZ0k1NEROb21WV3oxNS02MlZha242eWpQUXViMXlHUzItT2hfT2YyWkxvNmdHdm1LTlg3Z3h6WDM4bVVyMVVsVWtnYmFXSEFoWG56V3cyUWxfT2FVbnJaNi05RzMtRm1tS0FlamhudHRQR3lCcUV0NnlxYTJKemhIa2tJVUhrOThnMDQzQ1cyMm4ta0V2WTJMTktCS0tHQTJ2YmNsX245T3dwVEdSanB0cmZkdE1CZ1NySE12UllORkt1MldFYmxTSFZ0TkZWX2d6cHRTdmdSTlJ1U21WeUVSY0tKSW94RDF0bFkwUHlKVHpIa0dpdw?oc=5",
-        "published_at": "2026-10-20T10:38:07+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran vows retaliation to any US attack, rejects no-response deal claims | Daily Sabah - Daily Sabah",
         "source": "Daily Sabah",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmFVckk0NlFyTFlnNHhoQ2FTbktUWFN2bXJvS1htTHM5SXhkUVRyNEtEYnM5OGxNVVAtM3QxcXBIUWpGVldQeFk2Q01KcDRibG16S3hUREVOcm5aYS11VzNPVzFfQ2JEdnNYMDBtNGdqQlBDVmhDc1hFeG80MDdZMkV4VGRoU0NzZ2xMRVRKYTVoWTVUQmYwXzgyV3luSWh1WEd1UnMzaThIajN0eU1rY3F30gG3AUFVX3lxTE9aWGtsWld5bVU3c0ZNYTFfQzF1QzgxUWlYdm5hT3JDTUJFeVFydHhoTVU1THN0YUdibVc5MkNwRkJfZ2kxS1RaR2tjemthYzZDWUtSeVpudTBjVGUyTF9aSlpKd3FOel9mMGpFUU1xZjd3UjdKSXM1RElzcWw2Y3BiOVdQQ3BRV0VuMng2b1VQR19yeWxkZE9nT09yQkdNRzlDeTN4T1AzRVdWNTRIbGRBR2U5Y093OA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWlhrbFpXeW1VN3NGTWExX0MxdUM4MVFpWHZuYU9yQ01CRXlRcnR4aE1VNUxzdGFHYm1XOTJDcEZCX2dpMUtUWkdrY3prYWM2Q1lLUnlabnUwY1RlMkxfWkpaSndxTnpfZjBqRVFNcWY3d1I3SklzNURJc3FsNmNwYjlXUENwUVdFbjJ4Nm9VUEdfcnlsZGRPZ09PckJHTUc5Q3kzeE9QM0VXVjU0SGxkQUdlOWNPdzjSAbcBQVVfeXFMT1pYa2xaV3ltVTdzRk1hMV9DMXVDODFRaVh2bmFPckNNQkV5UXJ0eGhNVTVMc3RhR2JtVzkyQ3BGQl9naTFLVFpHa2N6a2FjNkNZS1J5Wm51MGNUZTJMX1pKWkp3cU56X2YwakVRTXFmN3dSN0pJczVESXNxbDZjcGI5V1BDcFFXRW4yeDZvVVBHX3J5bGRkT2dPT3JCR01HOUN5M3hPUDNFV1Y1NEhsZEFHZTljT3c4?oc=5",
         "published_at": "2026-10-20T10:03:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -210,15 +290,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russian Drone Strikes Beside Kyiv-Odesa Highway—3 Killed as Cars Erupt in Flames - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdlZxMlA5VXZQVFBuVF95STNlT1lkb0dlNXZVME9aNEdNTWd5UmV1N0ZyUll2cWJrRlFaMUVfNVcxLTBkZjV4MVJIVmJ3NzRMNW9UcXBWVk92ZnV3OTB1emN0LUZaZVJ6NU9vUEFUeldvZGNRTHJrRDZfZl90RTMwcDI5ZTRndHBRMVN1NjNjTmwyOWEzRXUyaXlIVy1kcTV6akVrclRRaFU2MXo4Tk9Xd0V6YnFLODNZRDltMlAxVlVnbVdQS1E?oc=5",
-        "published_at": "2026-10-20T09:12:29+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russian drone strike kills three near Kyiv, Ukrainian prosecutors say - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNnRwLVNhZFlLSTdaYjVkcV9HZWpxaS11MzEwQXhQMUVWR0g2bTdvazYzVWJKcWxEbHVNT1ZTREpNN1pqWjhtQmVGMEQzTGFmMjZaeE9KSnNETzJUSHpfdk8yd3NXNFJiem9VbjE2cFBTSUFBQWpOcE5hRXpGVGJNQjdCUDRVX2ppTUlfLVhHLU5tdWlQWVBjQnhxUXFZeVhnVEZ5RmJUSzdseWxuQnBadW9yVFctYVlk?oc=5",
@@ -228,7 +299,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet. - Politico",
+        "title": "As lame duck battle over chips heats up, OpenAI pulls back - Politico",
         "source": "Politico",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
         "published_at": "2026-10-20T08:45:00+00:00",
@@ -257,6 +328,33 @@
     ],
     "corporate": [
       {
+        "title": "Nvidia Stock Is Falling Even After the Chip Maker Got a China Boost - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oeXdGdlJLZWg4QWFrdDdoTFI5WWs1b1A4R1R0U2NCNmR2RkNSMnJZb2RBZVprejQwSmV3OHRVOFhmTGxTa3R0b1A2bE5Yb1VTbVB2QmJYajNZQWNPZWlsdVdhSXVQRW1abl82WEtBMGpJaFI3LTR1S1dSTlY?oc=5",
+        "published_at": "2026-10-20T12:23:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Apple Now Trades at Twice Nvidia’s Forward P/E - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWEN2eTRyWDB3alBFTkdLUzNRZm9lTHgzMlAwdGJTbkhCY18zMWJjbTlyZnN4UE80dFdsX3Izc1NPYU1yNnY0MGZveXhYcndCVGNyNXphd0Z0QS1pdzJ4aU0wcGVfdXYxcF9mc2gtRmVUUWxxd2R2RzFqWFcwSy1VdmZsSEt3bWRWV09wRElyOHZkcEE?oc=5",
+        "published_at": "2026-10-20T12:07:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alcon's Brytly Redness Reliever Drops receive FDA approval - Glance by Eyes On Eyecare",
+        "source": "Glance by Eyes On Eyecare",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbWtYSXoybVUwVkpYaDRBVU5EZUtKYkpVR0M5bzAxVldpdzFPd016NFZrNVJQTW5NWHJ6SzJVMVJyTkdmOXl1TXc4eHhzY1JETlNPNm1HU096OXNXM2V5Q2dZRllSOVhlV2o2eTRsbkJ0M3BYazV4SWpvajR6ZHlkQkpSZDBpS0hRR2F5REJwLTdFSFZnWW5QUlFWYkZiV0ZkRnpTSmw0Um9uR1Roa3dFVQ?oc=5",
+        "published_at": "2026-10-20T10:59:29+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Micron Stock Falls Amid Three Warning Signals - Barron's",
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DUmpKOXFqbkZuS3g3SktHREFzTWZlUVpabFlJUEkwRFlod1pBMXZDQ1prZWFUdVByQVRzNWJXZXJfdko1ajV2T0hMb2dDQlNldVZlVmZNaXA5bTBWaTFUaUZIcFFsSkdJVmRkZUlhRHdpVXU5LW5kbUxZSU1jdw?oc=5",
@@ -284,29 +382,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5",
-        "published_at": "2026-10-20T09:19:15+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Rossari Biotech Ltd (BOM:543213) (Q2 2027) Earnings Call Highlights: Record Revenue and EBITDA ... - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaTBQUktjcGJ5cGIxNDZyU3pYNzFzbTUxdENVQ292RklJaF90ODdMMTU2b1hNLUxIanVRdDhaeDVJUkZpUm84TnJ1N0I5QXR6ekxVS0hISXRHcmNWQTRjMlg0X0dRQ193UURUSUxqckliRDBTSEFsZlVRTkN4RDVZU1lJaEZDNzY3bEJCbUkyWVkxTXFzVkMwc2FWQQ?oc=5",
         "published_at": "2026-10-20T09:00:36+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet. - Politico",
-        "source": "Politico",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2l6b18wMXJ2UFo0Z202dUVWcmpVODAyTnhfbkN4enp2VWVxQklLSzJoVDdDNXQtTXJlbUhYUWNvSmFiM2d3YndvYXhfaC1NWVdaQ2hwaUdxSGxlTmJsbjRQZzljd2RhbkZmRVhMc1FpLUJOM3czWXRRbzVOQnZxM3pGZnM?oc=5",
-        "published_at": "2026-10-20T08:45:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -336,20 +416,11 @@
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer makes ‘business decision’ to end phase 2 trial of autoimmune drug as program’s future uncertain - Fierce Biotech",
-        "source": "Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUnFwa0dodDhXYzNPWmpQOURyS2VVY0FETlFVV3BYMjd5MG90MExvcENJZ0psVXRjMDJGZGxVMDEzcFFoWGpHSGRfdktQZ1d4SmNZMEE5eU51cl9JX2RuRDJFM1dsZkJ2VHpicjEyVW8zcUxKLVlPSWpiT0k2YWJDWGVuUVhoWnNiTWdPT05ITm1nTTk3cE0zUFc3TmVWSTVQVXlISEtEWkZiMU9QemJTY012UXVEd01XMC1iQlV0VXA0QQ?oc=5",
-        "published_at": "2026-10-20T07:59:26+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 88,
+  "archive_count": 89,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
