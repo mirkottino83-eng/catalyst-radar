@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-20T01:15:59.506022+00:00",
+  "generated_at": "2026-10-20T01:48:42.970288+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.94000244140625,
-    "wti_change_pct": -2.4356583487887273,
-    "brent": 110.01000213623047,
-    "brent_change_pct": 0.13653879942248093,
+    "wti": 98.91999816894531,
+    "wti_change_pct": -2.4553844820483173,
+    "brent": 110.04000091552734,
+    "brent_change_pct": 0.16384517037661972,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
     "vix": 18.43000030517578,
     "vix_change_pct": -7.803899368704803,
-    "dollar_index": 101.95500183105469,
+    "dollar_index": 101.9520034790039,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.44%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -2.46%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T01:05:00+00:00",
-      "brent": "2026-10-20T01:05:00+00:00",
+      "wti": "2026-10-20T01:35:00+00:00",
+      "brent": "2026-10-20T01:35:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-20T01:15:47.381761+00:00",
+    "updated_at": "2026-10-20T01:48:32.192533+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,19 +77,19 @@
     ],
     "geopolitics": [
       {
-        "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM2RmejR4dzYzZVU3WUU5WGw5V19hanBUNUwyUFVUX1JNckFtOWpwTlFBcnVrbVBNVi1GRGRnTzEtbEtNZkRyOU51a2lIanNURFp0ZjY3UlVPS0ZLZVdTVi00cHdpVnlsRWVUa1o5M2NwaWtlaGptVnRkZVdoXzhva0pTc2MwNFliWE8wLXoyVUdRM3R0TzVJY3p4Z05YblJkcVBLOXI0QmNzUURTd0VBMFJGSE14Y2NWY18xSWJjVG5GeU9UeXBlcWI5VWlGLUttV05nbWpmRlVNM1RwTktOdA?oc=5",
-        "published_at": "2026-10-20T00:44:00+00:00",
+        "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnRKRWVRSmwzaFFkcFBLbG1wS1BORl9qR0xSaTkzY0VhX0dKNzc1V2JGbEFtTm1wZkx0VjY2dkRzbGYxWlljZG5zVUY2eGU1RnZiTVRBSmNDYnJNSXo3RWFpT2JhM1ZQcklHVzhXcW5zSXRHemNaMS1PMGJJOHowOVpMQWRqNE54cU11Z2ZNUUFnZFBqQkFsVUNhbl9rLU13eDhyMGQ0cDVGdk5nLWxFOEZVQ0E?oc=5",
+        "published_at": "2026-10-20T01:35:58+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump administration holds up Patriot missiles for Ukraine - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnRKRWVRSmwzaFFkcFBLbG1wS1BORl9qR0xSaTkzY0VhX0dKNzc1V2JGbEFtTm1wZkx0VjY2dkRzbGYxWlljZG5zVUY2eGU1RnZiTVRBSmNDYnJNSXo3RWFpT2JhM1ZQcklHVzhXcW5zSXRHemNaMS1PMGJJOHowOVpMQWRqNE54cU11Z2ZNUUFnZFBqQkFsVUNhbl9rLU13eDhyMGQ0cDVGdk5nLWxFOEZVQ0E?oc=5",
-        "published_at": "2026-10-20T00:05:58+00:00",
+        "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM2RmejR4dzYzZVU3WUU5WGw5V19hanBUNUwyUFVUX1JNckFtOWpwTlFBcnVrbVBNVi1GRGRnTzEtbEtNZkRyOU51a2lIanNURFp0ZjY3UlVPS0ZLZVdTVi00cHdpVnlsRWVUa1o5M2NwaWtlaGptVnRkZVdoXzhva0pTc2MwNFliWE8wLXoyVUdRM3R0TzVJY3p4Z05YblJkcVBLOXI0QmNzUURTd0VBMFJGSE14Y2NWY18xSWJjVG5GeU9UeXBlcWI5VWlGLUttV05nbWpmRlVNM1RwTktOdA?oc=5",
+        "published_at": "2026-10-20T00:44:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -100,15 +100,6 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORGF3TWtZV2QwTVFfWEw4UWMxOGxqTTI3dkstVXV1VFdlRnF6UGQ2TjN3RlgyVERnMXdQSkxSeDlHQUpsOHFsMmZVNExhSE9BZ0p1cDRiWkxSYUJHYm5aRFR6NGVRSmE2M09tblF5Vkg2UF9ucV9NUDQ5S2d5M3d3Y1dpN3ptX3dBREtMN3VHcWY2eTdoTnBxeHhtWWxuZzQ?oc=5",
         "published_at": "2026-10-20T00:00:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump administration has not approved interceptor missile transfer to Ukraine, Washington Post reports - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbHdkdnRqZldKMC1xSzg1cnQ2enRBOXpVQ1V6Yi0xUW02R3diUFAwYTRQR3Vqb2Q1U29RU0FGOWp6Z1V6TTl5RjZ5Qmk0QWR6bXJQdmZxbjJEODR2MGRISENvMjVtcTMyTGplZm5oLTRIRV9xZ1dJOUp6SnVYTFpSMFpKakZvc1JBZVJ5UHZ2QWMzVXNKSUZoeWhkZ0FTTGdKQXlEdkZ2RTduM0EyY2VVclloZXI5VmM4T2JzdFAteTM?oc=5",
-        "published_at": "2026-10-19T22:46:53+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -158,6 +149,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump signs executive order waiving Russia sanctions - WBUR",
+        "source": "WBUR",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53QzBwWmRMY0dQaFpPMV95c1NENDVhZ3Atd0xtTUQ5ekg5T2JwYVBJMmJaXzRDY3EzazlscnVGb3FzT1ZBNUVGYVNzdjNqRXNGS3NsbEhWNG4tVndOcXZXLXdiZlh1dklUOWxxZ2RGdW9NY2s?oc=5",
+        "published_at": "2026-10-19T20:56:23+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "South Africa’s president eyes trade with China and India as US ties sour - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzZveUpibnJ4d3NZX3M3LUcxdmtNTGdGdzJtUU5rclJqNEk2QWNPc2p6T1VmMUpQTUZsV0VnOGc4UWdQNHp4SnF3bVl1YS1IUEhhNlhENl9GbTk3OUIzUDVYQTNIcUpHN0FMejhSTkx5QjUwdVZMX3RVVHNfNmI3WTN6cEU?oc=5",
@@ -179,7 +179,7 @@
         "title": "US Exports to China 2026 - The US-China Business Council",
         "source": "The US-China Business Council",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYWUtwNkdSdTh1TUNxWVVvOENDVGJEd2hic012SFpHTEJuTzZLdWNhVzNSMWxlbDVkVGdJMml5VV85ZnNic2hxYnRvc2NMYUszMFBXMGVFdlZhYnJSdWNjZnc5Tkl6X21fM3c?oc=5",
-        "published_at": "2026-10-19T19:19:38+00:00",
+        "published_at": "2026-10-19T19:37:24+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -214,20 +214,20 @@
     ],
     "corporate": [
       {
+        "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3. - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
+        "published_at": "2026-10-19T23:23:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Dr Cercek on the FDA Approval of Dostarlimab for dMMR/MSI-H Locally Advanced Rectal Cancer - OncLive",
         "source": "OncLive",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcHBWalRVcmU0Sk81dDRHNVpJRmZOTHoyekRENVBfSlJ3bHJuQ3d0cnVZMWtheGducHJrOXVXZjdNTVVVUzFjYWZCM0hqYldpT1ZfSHVNZS13bERGd3UwdkdSS1U0cFNwQ2ViRkRaWFlud0xDbmZHdGR4WUNxc0RudmFIc3pTZHROUXVZb0M2eHFKdWU5ZUprY3Q3cWVuN1JsZ1BJTHNWY1NkbmxqRU5ZUHlrQnh3VlpiQ1M4?oc=5",
         "published_at": "2026-10-19T23:00:05+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3. - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
-        "published_at": "2026-10-19T22:40:17+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
