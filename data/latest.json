@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-19T23:34:46.187690+00:00",
+  "generated_at": "2026-10-20T00:00:25.604368+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 98.2699966430664,
-    "wti_change_pct": -3.0963483933056923,
-    "brent": 109.27999877929688,
-    "brent_change_pct": -0.5279463206192991,
+    "wti": 98.22000122070312,
+    "wti_change_pct": -3.1456486798236427,
+    "brent": 109.22000122070312,
+    "brent_change_pct": -0.5825590625275656,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
     "vix": 18.43000030517578,
     "vix_change_pct": -7.803899368704803,
-    "dollar_index": 101.9729995727539,
+    "dollar_index": 101.98100280761719,
     "macro_score": 68.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.10%.",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.15%.",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-19T23:20:00+00:00",
-      "brent": "2026-10-19T22:50:00+00:00",
+      "wti": "2026-10-19T23:50:00+00:00",
+      "brent": "2026-10-19T23:45:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
       "vix": "2026-10-19T20:10:00+00:00"
@@ -46,13 +46,13 @@
       "published_at": "2026-10-19T19:03:39+00:00",
       "age_label": "4 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.51,
-      "short_term_change_pct": -0.06,
+      "current_change_pct": 1.42,
+      "short_term_change_pct": -0.14,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T23:30:00+00:00",
+      "quote_at": "2026-10-19T23:55:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 4.8,
+      "quote_age_minutes": 5.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -68,7 +68,7 @@
         "catalyst_strength": 74,
         "freshness": 62,
         "volume": 28,
-        "momentum": 49,
+        "momentum": 48,
         "macro": 68,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-19T23:34:34.010859+00:00",
+    "updated_at": "2026-10-20T00:00:12.228042+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -94,7 +94,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -108,7 +108,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -174,6 +174,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Exclusive | US-China negotiators race to nail down concrete deals as Shenzhen Apec looms - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQREYtOUkwbmhVR3hyQ1I3cHliaTV5WGRrTmJadWdoQzBEYWx4LW5BMG1BRS0tbmVzMWZMaDlmZC1KXzVEbnVvWENoLXFlZ3lqb1dobl9ZbExOdlVKSnhXMDFTMkswWlhKVHFPcXExZUgzOHRjZEdXUFROanBzQ0J5REJyZmtSUHdCX3p1dzhhR0pNMC10X3NEQXh2UVBHOGk5WFB5NjJzRTdxdFdIenNZaTR3S09rQ0txREFiM2NIakJ4Q1RCeHpz?oc=5",
+        "published_at": "2026-10-19T22:00:06+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Trump faces bipartisan backlash over waiving Russia sanctions - CBS News",
         "source": "CBS News",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVW5KeFN2cWxTOGpmS3RNdkl4WVhBTTJnbDYzNjJCWUpxSXAzYUdxSG9VYTVyc0s5YjZvdGgySF96X0tuY1lqeGRPb2lHMXNVYWdXTW1Da0FrNGFIWGFMUFhkV1ktejdSXzV6OU1CQjdkM3hGOG5STDhGZ0N1eERiZGtMUTBwYUpIMEJBZ1FsMTVpdzZWblE?oc=5",
@@ -198,15 +207,6 @@
         "published_at": "2026-10-19T20:39:47+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "91 percent in Texas poll say Iran war raising oil and gas prices - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oQTBvS2VuNk5zeVpsM2lVQlpmNnVHVlExdFhsRWVLa01DUWpFWkJNN3ozZHN0X2s5ajBOOE8za1pQSGVIOURNR0dxYXBvcHdWYlVpbDF4UXRhUXctbmZTRnloX0l2OTRTc2hoRjU0ZktFMGU2TEY2TXNlOTnSAYIBQVVfeXFMUHcwYWtwcUVXTVk5QXBsT0dzNjEwa08zNFc3ck5kREVxd3F3S2xvZURYZ1VBN3l5Vk5XNnB1Y1VpQTkwWU1yLTByTnNsOTB6ZlNxNUpURHRKV045NzN0djV0WmlXbVVpWUYzRkRyYURiVmppRXpZWUNoYkxiQ1FKMVJtQQ?oc=5",
-        "published_at": "2026-10-19T20:11:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -246,30 +246,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Revises Drone Export Controls: What It Means for Global Drone Markets - Dronelife",
-        "source": "Dronelife",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YeDJmSGIwVHl4eEZ2NkdvODE4c0lBbVBvUkRDU3RhSV94ZDFYcENCOWlWT1dsNDg2MUpQSktiVlJVaTB0UFozRmpwdUF5SUtLS0wzTVdhanhIUDVBWTFJeUhYUk9BYzBxVnVOU05zNlZIdlhO?oc=5",
-        "published_at": "2026-10-19T14:39:45+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
+        "published_at": "2026-10-19T16:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3. - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
-        "published_at": "2026-10-19T22:40:17+00:00",
+        "title": "Amazon says its AI chips will work with popular coding language, challenging Nvidia - 1470 & 100.3 WMBD",
+        "source": "1470 & 100.3 WMBD",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYVBnUC1COFBaVHBLazVqeEc4OGw0OWxMcHhhYTE3dHhjS0ZiVzlvU003QVJBU2w2S1B6UDBwQV9CZFVqUmJ4OFBfSzZQYzhkeHJyRVRVbjBLVjlxR0JJb0tUSXk3QlZiZlJBcEU0UDE0YmFzeGVKYXF4SVA2dzlkNUE3VVVlT0NVX3pFbmJsbXkzODkxZ0Zibi1qVzN1bXN0b2Mzd2lWUzJ3TEQyNFRYX3ZGTWszVkk?oc=5",
+        "published_at": "2026-10-19T23:01:24+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Did Foundry Win Just Shift Intel (INTC) Investment Narrative? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQmt2MXZ3aVRLRm5lbG1yQmhuTDZMaThKTDNVZkFwY0NrZkZXX29hYklOTnY2d1hvUGRvdFlqd3Y0MGFfYUJGWmx0LU40c1BMX2ZoSF80MV81TXFXT2JiTF96bEdyWTQ4elBHQndJclA1VDhsTjVEb2RLakwzU2FLRzQtQXFnY1Y3RUlYMlZsNDVsSmNkQWc?oc=5",
-        "published_at": "2026-10-19T22:15:39+00:00",
+        "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3. - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
+        "published_at": "2026-10-19T22:40:17+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
