@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-20T07:29:18.079838+00:00",
+  "generated_at": "2026-10-20T08:06:55.619346+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.136000156402588,
     "treasury_10y_change_bp": 3.8000106811523757,
-    "wti": 99.16000366210938,
-    "wti_change_pct": -4.341115030892939,
-    "brent": 110.30000305175781,
-    "brent_change_pct": 0.684618876409937,
+    "wti": 99.54000091552734,
+    "wti_change_pct": -3.974534633446103,
+    "brent": 110.77999877929688,
+    "brent_change_pct": 1.1227710573024297,
     "nasdaq_level": 26430.887,
     "nasdaq_change_pct": 1.1126908077328412,
     "sox_level": 11316.343,
     "sox_change_pct": 1.6076887672808793,
-    "vix": 18.43000030517578,
-    "vix_change_pct": -7.803899368704803,
+    "vix": 18.610000610351562,
+    "vix_change_pct": 0.9219092807506435,
     "dollar_index": 101.76899719238281,
-    "macro_score": 68.0,
+    "macro_score": 66.2,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -4.34%. Geopolitica: Oil Wavers as Iran Threats Vie With Robust Gulf Crude Flows - Bloomberg.com",
+    "summary": "Tech bias positive. Nasdaq +1.11%, SOX +1.61%, US10Y 5.14, WTI -3.97%. Geopolitica: Oil Wavers as Iran Threats Vie With Robust Gulf Crude Flows - Bloomberg.com",
     "quote_times": {
       "treasury_10y": "2026-10-19T18:55:00+00:00",
-      "wti": "2026-10-20T07:15:00+00:00",
-      "brent": "2026-10-20T07:15:00+00:00",
+      "wti": "2026-10-20T07:55:00+00:00",
+      "brent": "2026-10-20T07:55:00+00:00",
       "nasdaq": "2026-10-19T21:15:00+00:00",
       "sox": "2026-10-19T21:15:00+00:00",
-      "vix": "2026-10-19T20:10:00+00:00"
+      "vix": "2026-10-20T07:50:00+00:00"
     },
     "geopolitical_risk_score": 35,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
@@ -49,41 +49,83 @@
       "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
       "source": "The Next Web",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbUNtMzdxU1lfV0ttdXh3dTQtdnNmcFE0bHhUQWFjdlplcFF3S1JrZ0J0UTVvUEhod3V1aUlQa3FIUnJsSnlPcGdtY19YRHEycEJoQkE5S1ZJWTZia3dJRVRoekE4LUlPdkFrWno4QzBLdWFOQTZvWThBdw?oc=5",
-      "published_at": "2026-10-20T07:15:03+00:00",
-      "age_label": "14 min fa",
+      "published_at": "2026-10-20T07:14:39+00:00",
+      "age_label": "52 min fa",
       "catalyst_type": "partnership",
-      "current_change_pct": 1.42,
-      "short_term_change_pct": -0.14,
+      "current_change_pct": 0.94,
+      "short_term_change_pct": null,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-19T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 454.3,
+      "quote_at": "2026-10-20T08:05:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 1.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 49.0,
+      "confidence_score": 64.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-20T07:15:03+00:00",
+      "headline_published_at": "2026-10-20T07:14:39+00:00",
       "event_occurred_at": null,
       "tradingview_symbol": "NVDA",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 74,
-        "freshness": 100,
+        "freshness": 90,
         "volume": 28,
-        "momentum": 48,
-        "macro": 68,
+        "momentum": 35,
+        "macro": 66,
         "extension_penalty": 0,
-        "stale_quote_penalty": 18
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "909ad6d8f074",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Volvo Expands Partnership with NVIDIA to Develop Next-Generation Driver Assistance Systems - Gasgoo",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Gasgoo",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPY1RZTmZrY18tU0dfZFp4RG1fTUp0MS1LOWo5bzZNMjhwa21vUWxvZnBwODFDMmJUTXFVXzdOLU10S1RPTnFJcXpRODhjN0JEV0twY3FkUmk3MmdkZ0JzZDNBSkRVckNYLVFFX2s5amk1d2U3WjRJTFVHZVI3UkhHQUFFclhLUXM3Y25LbEZqa3F0YVFoemhkT0xxaExqUzEzZUlSZ2phR1daQU9VTjJ4Ty1RLVhoc01KMTJlSS1hSy1FWlEtcEgtcDhhejBZdFVtam1zcFV2aUhDaWNfc2l4U2dNX2o4bFk?oc=5",
+      "published_at": "2026-10-20T03:04:59+00:00",
+      "age_label": "5 h fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": 0.94,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-20T08:05:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 1.9,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 59.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-20T03:04:59+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 62,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 66,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
       }
     }
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-20T07:29:06.238095+00:00",
+    "updated_at": "2026-10-20T08:06:44.466607+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -107,14 +149,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -125,6 +167,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Ukraine Drone Evacuation of a Wounded Soldier - MiGFlug",
+        "source": "MiGFlug",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0N1clN6a19yUzBRWHI0MV9KSk5ObXJ1aUNuUHk3ZlBieDNOaW5rbHBlOHFIWFdienBFay1zS2gwX2JIa2xMYmRzc05iU2hJTTdNMXBjdTE1aGktbGxVU09NQU5FdGJ4RmxNTGV2VFpLSFI4OE95RTZNZ0hzY0VKbXhLUmYxRi1CSVdKblBJU1BOYVlpN3l3YTY0cDJlV1Uy?oc=5",
+        "published_at": "2026-10-20T07:51:05+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Oil majors face spending test from Iran war windfall cash - Reuters",
         "source": "Reuters",
@@ -148,6 +199,15 @@
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnRKRWVRSmwzaFFkcFBLbG1wS1BORl9qR0xSaTkzY0VhX0dKNzc1V2JGbEFtTm1wZkx0VjY2dkRzbGYxWlljZG5zVUY2eGU1RnZiTVRBSmNDYnJNSXo3RWFpT2JhM1ZQcklHVzhXcW5zSXRHemNaMS1PMGJJOHowOVpMQWRqNE54cU11Z2ZNUUFnZFBqQkFsVUNhbl9rLU13eDhyMGQ0cDVGdk5nLWxFOEZVQ0E?oc=5",
         "published_at": "2026-10-20T05:33:27+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Connecticut lawmakers challenge Trump’s decision to waive Russia sanctions - Norwalk Hour",
+        "source": "Norwalk Hour",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHdmczQ3Q1k2TDFFczU2SWpxSHVqZW5KN1ZkVkFibS1ZME13ZXNSNUxiODQ1NUNrUWdIdENBTjRGbVlDOXFRTUxGNjNKNW4tX2lDWUJ2MWhLMUN5YUFQZi1VZEFGS0JYTHpIVmloZ1pmeHpxUXpZbzVJclpJV0FMdFB5R2QyMUs2T1pUWHBuYm1MZHZQSGszWHRVWlM2RmRX?oc=5",
+        "published_at": "2026-10-20T05:30:33+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -207,12 +267,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China warns UK against EU-style tariffs on Chinese electric vehicles - chinadailyhk",
-        "source": "chinadailyhk",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqRTd6TDFHMnFVSzFkZVdwWEJmNWRYWGVsZDVSQzFWWi1rZGhDM0JtQVNkSmYtRFB3bFhpbVpFczhhVGg2WWZhc2ozWElRd1JOZlhnVnd2Q3M?oc=5",
-        "published_at": "2026-10-20T02:11:15+00:00",
+        "title": "Analysis: China's proposed AI export controls target top-ranked foundation models, advanced agents - digitimes",
+        "source": "digitimes",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNekxRN19HWllYdTFrdk1DUGs3dU5YTzE4YkFoNV9ENFRqV0Jkb1NCTG53c1BVMHdQeDBvTUtKdFE1cHFGaGVYSkFKWldDUHU4SDlDQUJwbFZTeU1haGhuLXdraFpWM2lHZ3RzNDBPb2tPZVpxOVpFWjF6bDBMNVhVdE1ObjVrMkctS19vdm1ES1A?oc=5",
+        "published_at": "2026-10-20T01:26:20+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -225,30 +285,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "List of Republicans Breaking With Trump on Russia Sanctions Waiver - Newsweek",
-        "source": "Newsweek",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVExBbEh5MmZzXzM1cDN4UVROODF4eGdYcFhuWENuMUZ4TlRuZVYwVThBRmE2WEtmWGsxaUVaMmxUaDFSdEN6OC1WOW5RNTBNUURubEhWVUVFWG4wandIRV9iZ0VSU0JLaVlLTGc4RWdoUUlCOXB2WlE4TGt0Z1JHNXFqVkw2Y2haMG0tR2VIRlg1NW8?oc=5",
-        "published_at": "2026-10-19T22:52:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "EU looks to strengthen position in trade talks with China - Semafor",
         "source": "Semafor",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMkJuN0NyTEoxVnJjQl9mb2tpckttZ2ZlNUFkbTJneURrUTZfdW81c1BJWXhWUllZamJ3dzRwV2toZDBnOXVOZGNMcENaWGd1bnM4REhUczAwUkJzcjlQZHA4RkJreFhKOU1YQmRnSVg1NWI1eWY2OW54UmJNZGdBbGtpSERscDdJb1puZGtRU3dNaTFXY3lUTUE5cXFaWTlvd0E?oc=5",
         "published_at": "2026-10-19T22:37:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Injured Ukrainian soldier rescued in first-ever drone evacuation mission - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcndmUlBrQVFkMG1JZjNfd0RXdHI3bmJyY0d3QTlrM0NQZG02RmoyOUdsM0ZjbXkzTy1tbHZHaDRDeVhoQlVFSzNkM1d3OHpKdGRFZUIyeDdZallvemhFbWR5ZkowTFAzWGRNVWpLVHlmR2ZrLUt3a05QdFhnN01fUTNiUkt3dFh4OFdVai1SUHNwRktOQlFYQVhKT0Yyb25hSWJHME4xUU1HQ0JFWVpUUlh2QlNsQdIBuwFBVV95cUxPMVEwaTJYODd0NUxMb3ViQndhdUltdmNoaGtKYUZMMU51UUV3VUxPNWRzb0RSZDNzOXJYbk1DcTJYQjVqdEczWTFmVU83bjF1ei1TSFcteDFmYndaM0RXRTcwTEtCblZYLUhuS3ZtUGUtSTAwczdHRjBlNE5EWk9VYjI5Zmp5TzJSeFNDd2NHcEtHQ255TnhINVlydml1YVppV2NIR29XeFRTaXBESFBsbXFvSFdfdUdlSDRJ?oc=5",
-        "published_at": "2026-10-19T21:05:42+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -266,7 +308,7 @@
         "title": "Germany signs AI partnership with Nvidia at Berlin investment summit - The Next Web",
         "source": "The Next Web",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbUNtMzdxU1lfV0ttdXh3dTQtdnNmcFE0bHhUQWFjdlplcFF3S1JrZ0J0UTVvUEhod3V1aUlQa3FIUnJsSnlPcGdtY19YRHEycEJoQkE5S1ZJWTZia3dJRVRoekE4LUlPdkFrWno4QzBLdWFOQTZvWThBdw?oc=5",
-        "published_at": "2026-10-20T07:15:03+00:00",
+        "published_at": "2026-10-20T07:14:39+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -281,19 +323,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "how long has zepbound been fda approved - www.polskieradio.pl",
-        "source": "www.polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTdkbUlMWGk4V211QV8xNThKSHpJRjhscjNtWVhRR1dONmxYMXpFbnB2U2szTUVVVnZEMnhBOXZjcDdKMHVLaldQVXVPNjBLT2ZzWFdKYnJiVks3RnV6TzIzcTZzM3Z1RmZjVGlIZVQ2Mk9QbG1xSzgyNkxBMFJiZXBDRnB2eVpDZS1Tc3dPUFc?oc=5",
-        "published_at": "2026-10-20T05:07:58+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUWY2TFFHY3ZtRy1oc2w2YkZyQ0FxSnhSRzZCTmxBVVJNNFdtUXZEQ29UZ1FXYm5yMXFXZ1NZSHVKMjBuWm9ydVc1bVp4cXBwZnFqcmFZOFl5MnZvM2psWlM5aTNuNlUwbDhjejBBMTZQT1JBSkk4bDFYWkV0SEQ2WGp4SUVkaUFnY3lZa19R0gGTAUFVX3lxTE5RaEk5ZVNWazYwOHFKT1ZxaGpBUVY3em5JX1hxS3Y3Q0NTZE96QnhKWVd1dHVpb25YS09Ielc1RjNCN0ktUERHMllFSV9fMllzNDZRbTQyTGEwZ2YyTHRmSlFjMXlBcjBtcHpjNGhOZTQ3MEpGTURzZzR4bEctbldqRkgzNC1sd21CY24zTk1MYllyOA?oc=5",
         "published_at": "2026-10-20T02:16:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ericsson CEO champions his silicon over Nvidia chips in RAN - Light Reading",
+        "source": "Light Reading",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdVZudGtqR1docnhyZ0VXVjBjR1ZkbU9zLTNuXzNzZ2tQYWxZc1VZSmlCRDdZRlJzV1lDMVFWM2VSVlhSOFBDcUwxcWlhWkc1Y25Ndk53MTlYcFFKbHlBRnNRckRJclJVdGJvbEhwVnZjQ1M3NHlqcHhmZTJQUFVxWEZyY2REOEhfRVJzLVhPbHlYRXNnTVE?oc=5",
+        "published_at": "2026-10-20T02:01:26+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -312,15 +354,6 @@
         "source": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc3AyLXI0OXAycVprUGs5TkU5eHVBaVR5Z3NtdUhFbDVvWEdpU19iOFY2M2pXTUxzWTFsNVYxd2xiVXh6NTgwSEN2a3hhRzlxa1dwZ0M2UlVwTGc2ZUl0X2pYa0M4d0ZSeERCbzFBLXBJUmZhdURKRmVYSlpqaFRBbU53?oc=5",
         "published_at": "2026-10-19T23:23:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT09KR2R3TjktZGltSk9PMGtKcGVMeFBuSmR5eTVkMERSbkVuc0d5bGhnanJ2WloyWUtULU1PTkFVQlNhaklmWmJESHF2cEV0Q01YQ3NBb3RxWklLQlNLelBEMzVBSF9nZ09Uc0FjLUhHUmhOeUF1Z0pObndUclVjT0s2Q3Fka2Z6dWltWC1MQ0g5cmo0V1dUeFY0M3hEOE5aSzV3RjdZZ2JFUTU4TEE?oc=5",
-        "published_at": "2026-10-19T21:11:49+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -348,6 +381,15 @@
         "source": "TradingView",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0hrSms5dEdBd3RhdVFWa1d5WVh1VXNRWGxHdndnOFItOWlNOEJuWXhpelRKbG1Yd3lZbUxrRERIejRfcTVBYWNTRGkxMkdYY3Y3RWt4eXpHUS12OXV6WVVqSHlYYTVuZEw4cXlZOWt4bjdOT3JJLWY0MjN1ZmVPS2tOcEhTNUE1MWtJZFNfWk5xbHBROUtrZHcyOWpnTkUxd1ZvVE80ajVkb1h2Q0FmQ3JueWNNTTVCZmtDbmtwSm1JQk1E?oc=5",
         "published_at": "2026-10-19T20:15:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "FDA Grants Accelerated Approval to Dostarlimab for dMMR Rectal Cancer - The American Journal of Managed Care",
+        "source": "The American Journal of Managed Care",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcncyaHpmWGZxa1NoQjVOTk9pWmFkUUE0UExUbzFRcGFyM2xCaV90NkNGSEtxWnZhdDBYWnA1eHpIN3EzRVc3a2hTNmplMFhsYkh1d1JiQUJBN0tFc0xkVFdiVHFVX1drQjlHRWV6UzFlaEFWdTFYQ2ZHUGFaTm9UQm81aEo0Qk1tV3lMYzZGeHBHbWtuazRfTlFHNA?oc=5",
+        "published_at": "2026-10-19T20:10:21+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
