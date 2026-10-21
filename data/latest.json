@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-20T23:58:50.813542+00:00",
+  "generated_at": "2026-10-21T00:29:02.138943+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 98.36000061035156,
-    "wti_change_pct": -5.112871758169845,
-    "brent": 109.31999969482422,
-    "brent_change_pct": -0.2099528530591921,
+    "wti": 98.4800033569336,
+    "wti_change_pct": -4.997106041073018,
+    "brent": 109.5,
+    "brent_change_pct": -0.045644044148673846,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
     "sox_change_pct": -0.2874413829836109,
     "vix": 17.309999465942383,
     "vix_change_pct": -6.127988261324546,
-    "dollar_index": 101.78700256347656,
+    "dollar_index": 101.8030014038086,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.11%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.00%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-20T23:45:00+00:00",
-      "brent": "2026-10-20T23:45:00+00:00",
+      "wti": "2026-10-21T00:15:00+00:00",
+      "brent": "2026-10-21T00:15:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-20T23:58:39.371997+00:00",
+    "updated_at": "2026-10-21T00:28:50.027133+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,24 +58,42 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ25MSXRodmt6X1ZwZFZ1b01nR01ZTE1PWDU0SGVaWTRKMXJLdl9FbXVHSnZTMGxiV1pMbGtOZTVUMjZER01kVHQ1TmtIczlGZ3Z3X2djQng0b0RrOEQtZkk4REEtYTE2U1JxVlpLMzAtUnNycVhiQXVqV3BET09SZDZLbWtfZGp3NFl6eDZPakRzeDk4N3VydmJucDB6SlgwNmNNWVlrVTVRdGQ2RTVVOUpqTXBJa3RWaXc?oc=5",
+        "published_at": "2026-10-21T00:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1BXVEVrSUZFeXd0V1NuRDd6dXh3cGdXVndLZWJUYTU2N3VDWFZWTlRjLUhNM3p5TDBFdEFpWDZLYzFCNTQzODN4ZGV1Vk91S0U3MmM5SUZOVmFuM2o1dFNULWc0LTFWY1V6VnpUOUozUHg2SG9yQ0lEVnFIbDJyX1hsYjl1VHB4bVVSN1lTOXV5VFBZSzVCRUREa2tlaFZHTjAtMlRmc3E3a21INVN6cDh3TGlib1M0YklzQmpCWU5VczlvTnZxM0xkaw?oc=5",
+        "published_at": "2026-10-20T23:38:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
         "source": "Bloomberg.com",
@@ -104,21 +122,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine’s $500 drones slaughtered America’s $25M tanks in recent war game - New York Post",
-        "source": "New York Post",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUW5ZZkVJS0pRY1UwaXRXVWFPd29JVm9YSXpIQTJQYXBXU0UxS2FMeHZZMHZid2FPbkpnZkxSYlZUOUJOYUUxU0hkaDhlMzg5ck4wT2JJUjlndGhUU1l0VHZFMEZFTzZQaFpMYnFRbzZ4em5CdEQ3dmlNemlQUjQxcGI3aHd4TnQ1b29CUXVlZ3hpVk9ZVjRwWWFiVUc1UnROSm05M0wzNFZFT0NYdHVWUElfZmtqbG15S1lYSHF6bEpDbTJxV1pJ?oc=5",
-        "published_at": "2026-10-20T22:28:00+00:00",
-        "area": "Russia / Ucraina",
+        "title": "United States China Sanctions - GazetteXtra",
+        "source": "GazetteXtra",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdVhTSGI3bE5aVkZ1a0xkRjRaVGFfdGRReGY2QzIwR1NoMjJ0Z1h3N3NTN3BtQmNNaVJIb3p2M3JTdXhzVWdGanIyUzdUOGNBNktNOThxcm40LVJqcVhJVG1qa0o0TjR0SDVydENENElkYXR1cEcxOV8wU3lRdm4zOXlTZlhMbXc3Y0tycXFMbnhCaTlXNE5fa0d4YnE0M0J5cXRCUjJCMmplZ2ZCWkU4em1nd3RkNEswZmQ4aEE4UXg?oc=5",
+        "published_at": "2026-10-20T22:25:35+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1BXVEVrSUZFeXd0V1NuRDd6dXh3cGdXVndLZWJUYTU2N3VDWFZWTlRjLUhNM3p5TDBFdEFpWDZLYzFCNTQzODN4ZGV1Vk91S0U3MmM5SUZOVmFuM2o1dFNULWc0LTFWY1V6VnpUOUozUHg2SG9yQ0lEVnFIbDJyX1hsYjl1VHB4bVVSN1lTOXV5VFBZSzVCRUREa2tlaFZHTjAtMlRmc3E3a21INVN6cDh3TGlib1M0YklzQmpCWU5VczlvTnZxM0xkaw?oc=5",
-        "published_at": "2026-10-20T21:58:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
+        "published_at": "2026-10-20T22:18:34+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -133,7 +151,7 @@
       {
         "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - Audacy",
         "source": "Audacy",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmhfaWpZeTdDcEQtUGxHUzdYN0ZRTmc4blFMTTdzOHVnMkdONlVVaUlydHlrTkU3UzctV3Etbk5lVldIZVhGY21ld1d6amxnVEl4QkxPT1BKYU5haFhQcThTMXJGMFJwLXFoc3FCT2tIb0pBN3NaeER3V29iNkJHSkZzSmZmeXk3RGRiMmZnRHd4ODFZakFKMlpzclRvekF5aVJ6Si05ZTJhaDRPRG1ydUFlaU9rUXZMYS1qREppWEtOUTFZY3c?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSmIxbjE3dFB5ZXFlZXpjRmtTY2hYaklWZVlCbE52TFdiQzdxalV5bUl1bkZMeFBKWDhtSDFTTDctdExUV1hBalhBXzBfSGkwd1hKUm5IVUYtNU1KbGpoU1YxSlRPZ2VTMWRNVWdaemhsM1RmMXF5bE9WM3F5MnVYMDFtbWs4TG8wSzBMQlBVV3g1Qm1DLVR6cEplSlI5V3RFWjFKYzBtbElVVmtHcmQwdjhJOS05ZnBYNDBrQlZjc1YtbDBDSGgtSQ?oc=5",
         "published_at": "2026-10-20T21:52:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -158,6 +176,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "More Republicans break with Trump on Russia sanctions - Semafor",
+        "source": "Semafor",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOUlaWnR2RUh4YjlGYml0Z3hZaEFSQzJlZnl0MkdOY19aZ0c2Mmd0aElTVDI4c3MwX21NajFic0dSWTFXeHhJX2ZvQWh5azNSblU1VmkxcHMwR2lTb21RX2NuWTV4dU4yWGtJeU1hcnExdVpOUmJmeTFmVllNYkI1NFdtMk1Sd3MtQWRqejhEUFRUaXpELVZmTHY1Ung?oc=5",
+        "published_at": "2026-10-20T21:35:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Oil Slips as Iran Talks Fuel Volatility - Rigzone",
         "source": "Rigzone",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOERWa2FDSndHTlBKQjIydXJJTEZuNDAyUHFLNEVwSm9GYm9VN3ZYUktDMmtLZWlPR1pzQW5CSmFseTJ6Nk1tTkNoSnNWTU5PcE1mWmh6VUJwcFlweWhhWHNMeG9HT1hlS3lQMXhmOV9yVi1ZXzJrNDl6NDFuVWVHa0xibjdQZ0V2emN1WEVXZk1ycDI4aVJtWUVXZjFCU0JOeUFR?oc=5",
@@ -176,37 +203,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil prices ease from five-month high amid Houthi attack claims - The Journal Record",
-        "source": "The Journal Record",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUVlRTXE0d3JrVjdSQURXdmxMNnNnSHpURklmaGdBbkd5ajBpMnBwRkZmWEYtUGhsZ1l6M3A0TVJaOE0zbXRyN1dMaldZck1ac0FxQUk3QW1rd1ZSUm9fWXZ6NjFTUU02NDlLS3ZYZkJweVZ1Wi1DYWFwTVFaZ0VNMkdqd2Z6WnBlS2U0?oc=5",
-        "published_at": "2026-10-20T19:52:43+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "U.S. ramps up warnings to Americans in Middle East after deadly Houthi strikes - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54Mk5WM2t0aV92YWxPeUduZzNtLTlvRV95WEhCY09RenRiWG1Qa2R3SzJoREViMjhtRU5hTzBwNnBVV0hqLWRqN3JMbXZCd3hIZ09BSFpsSEFKdUN2QmMyNmtoOXF3RHUyZ21TRUFmcWFZNTFEVndfWGlGUQ?oc=5",
-        "published_at": "2026-10-20T19:41:20+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China threatens retaliation if UK follows the EU on tariffs - POLITICO.eu",
-        "source": "POLITICO.eu",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcm9la09fRUJpQnlGcUdPNDdUTkwxaU5tWDZ1NVlLVkhTY2tMRjJZS2RGN1lKVUExQy1kQWtocS1iaEtYQlQ4U2lnT3o2bHF2aFhtQlpmN291SDQyS1ZoMkJKSGNybEUyS21kVWE1X2ktY2hwVGdLWXZOVms2b09kOXJRdDhLcVZTWjJobVc4Vks3WkZRVDBFdw?oc=5",
-        "published_at": "2026-10-20T18:26:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice - Ars Technica",
-        "source": "Ars Technica",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRHNLbndNa3FpQURPTDZsNDdYVUR1WWVGUWdQbGxqLWZOTGdZOWlFNnBfaWxMT3ZNb2k0MXlvR0NpUnZmbEp4OGVsRlNraGNybG1mM0ZYVC1NUk1OZUFMemlpQ0VYSVQzLTJLbjl5cjRnbUVvQm9FYm81QWZrbElwaWk3MDJBOXM0R2hHWjRzck5FZWhEdGEteEphZVVnc1ZMZW1wQ2JLcTNHbVVma3BON3ZBeWt4ODBn?oc=5",
-        "published_at": "2026-10-20T18:22:54+00:00",
+        "title": "Vučić Rejects Russia Sanctions, Blames Foreign Powers for Protests - Organized Crime and Corruption Reporting Project | OCCRP",
+        "source": "Organized Crime and Corruption Reporting Project | OCCRP",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS0dRT1FRTzd4dnRWX2RxTmtld0xzdDhxdlA1TkEzRDVPWHZ0dVRwelFkVkNQWEl3YlhFTG8xNFo3ckdNUXRmNERmaDg5QzZYMnd6NXRjd210LTd2MnVFd3RuUTI3TDk2a0syWHdNWWpMXy1HRUhfam1VRmYwdnBxLVNINVNhQ2lNRDQxWWR5bDVGTUtUaVY4N3ZhUQ?oc=5",
+        "published_at": "2026-10-20T19:15:43+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -232,19 +232,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner. - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkNpRXdTcWYtVERSV1hsMU5HWEhOV1NFdEZMSFlscXhoMVJzamNpUHY4aFBwQlRXRHNtSWJBdHZPT2xNSDRkRldZcm1Jd01xOEZ0c2NWQU5IWkNVQzZBY1VoNUpNRVB1NENaWWU0VU9hTzFjQ09hUXVXZlVwU2FNQkg1WjZGTTdqRTFoWVlhVG1Tc2tVYndmY1JsZXkwdVE4WHlYVktXVVRPc29SYmRNS09GWVVwSE81OXpXUkpWTkRvQQ?oc=5",
-        "published_at": "2026-10-20T20:24:00+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Zoetis Receives FDA Approval for Convenia® RTU for Dogs (cefovecin injectable suspension), Helping More Medium and Large Dogs Access Single-Injection Treatment - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzlWVVZpTGlOVk5aMkloREFBWldWQV9pS1V6Y1RIUjRYMGJyS1JENFFQWFBudGNFanNwUjYtTHVtM2YtSGRjcDJ3WVNmdUV3VFpIblFaTVZnaUpUNld0RjJGTHhGSGh5YTZydHh0VTVrSjIzdEpqUHh5NHlSTzV3SjFsanFSLTN1U1hLQnZhbzhUMnBNdzhIaWM0UlA2blk?oc=5",
+        "published_at": "2026-10-20T20:42:00+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030 - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbWFOVVI0Z3JvbU13bGF1QS13YWZVSUc3M0l3QXdVQ1RUT01uZFNqU0VMMDlIWXdQSzVhNmZQbDFmbGE0NFNBbUgxOGoyY2dVdHcwcVg5R1NWMTZQVVVtdndRSmVQc0FLR3ZaOXlEM3ZXZjU2X25XbFFEaXZITlJVWF96TGVIT0p0R0FYX19LXzVMb0wzeVZFSDFxdw?oc=5",
-        "published_at": "2026-10-20T19:33:00+00:00",
+        "title": "Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner. - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkNpRXdTcWYtVERSV1hsMU5HWEhOV1NFdEZMSFlscXhoMVJzamNpUHY4aFBwQlRXRHNtSWJBdHZPT2xNSDRkRldZcm1Jd01xOEZ0c2NWQU5IWkNVQzZBY1VoNUpNRVB1NENaWWU0VU9hTzFjQ09hUXVXZlVwU2FNQkg1WjZGTTdqRTFoWVlhVG1Tc2tVYndmY1JsZXkwdVE4WHlYVktXVVRPc29SYmRNS09GWVVwSE81OXpXUkpWTkRvQQ?oc=5",
+        "published_at": "2026-10-20T20:24:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -295,11 +295,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "A dog longevity pill is nearing FDA approval. A vet explains what it can and can't do - Yahoo Creators",
-        "source": "Yahoo Creators",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkViTkZCLTVieG9oNjZGNXJjTm82X0pEdEVjal9vWV9xQ1NObUlud1J6N29WWmFlT1prU3VqSmFVbTk3cmk5Z1lyWUc1R1lJbUczRkJWdVIyUnhZNmFOQ3RjMzVFMEc5SEFKUmVDZ2llTkpXT3Z1VWNmVDA1UXVMY01lTWc3VzkwbXlsS1ZCY2FyMy1KOUxXc3IxZGVmMDJPSHhyejVWT29pMHNrZTItbW9taTFreUdZVlNDeXhxOVJQYUpuR0w1LU51LVk4Vmd5SHktZ2NyaE4?oc=5",
-        "published_at": "2026-10-20T16:49:03+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Alphabet set for earnings beat as Cloud and AI chips take centre stage - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUVFscXpRS3IxZUxpU1BvQ3JRbmdmRVJKd0w2d0J5TE0wWDBPQjFEc2lSeXVRR2VkOFl1ZHpUMVM1WXZMNUZvNUpkanBVeV9mNUVFczJiQ3AtT19Ebl9vSFJKd2RQSW03bHhjdm5fVEhSeUpQNTdnNHh3N2stYklmdkh2dk5zVVJoUEJ1MXhsdEt1R1ZuWEUzMTdxdWY?oc=5",
+        "published_at": "2026-10-20T16:34:00+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
