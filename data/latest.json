@@ -1,46 +1,40 @@
 {
-  "generated_at": "2026-10-21T03:48:55.140973+00:00",
+  "generated_at": "2026-10-21T04:18:09.933093+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 99.25,
-    "wti_change_pct": -4.254296263083535,
-    "brent": 110.47000122070312,
-    "brent_change_pct": 0.8397974836300559,
+    "wti": 99.23999786376953,
+    "wti_change_pct": -2.505160653131333,
+    "brent": 110.43000030517578,
+    "brent_change_pct": 1.5074909236574507,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
     "sox_change_pct": -0.2874413829836109,
     "vix": 17.309999465942383,
     "vix_change_pct": -6.127988261324546,
-    "dollar_index": 101.76799774169922,
+    "dollar_index": 101.75299835205078,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -4.25%. Geopolitica: Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -2.51%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-21T03:35:00+00:00",
-      "brent": "2026-10-21T03:35:00+00:00",
+      "wti": "2026-10-21T04:05:00+00:00",
+      "brent": "2026-10-21T04:05:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 28,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-21T03:48:43.865554+00:00",
+    "updated_at": "2026-10-21T04:17:58.178539+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -83,21 +77,21 @@
     ],
     "geopolitics": [
       {
-        "title": "Oil rises on Middle East supply worries - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWVZZazNTUGJfZFZ6akNGeHN3dnRVMFRadHA0WnBoTUEtdlA2N0VpOXpPYjFsSjhUeHZTSXllcHdBN2tzbGxsajF1Q2tTbWVhQWRGMWdZaExzUXNCX1YyVkNLT0hiZDZnWWI3OEt0RUMzVDlwdTl5ZzJlWFpsV0dmN2phQjFfMknSAYcBQVVfeXFMT1lWWWszU1BiX2RWempDRnhzd3Z0VTBUWnRwNFpwaE1BLXZQNjdFaTl6T2IxbEo4VHh2U0l5ZXB3QTdrc2xsbGoxdUNrU21lYUFkRjFnWWhMc1FzQl9WMlZDS09IYmQ2Z1liNzhLdEVDM1Q5cHU5eWcyZVhabFdHZjdqYUIxXzJJ?oc=5",
-        "published_at": "2026-10-21T01:43:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX09hOG01THVnWTBtMmVfekx4eUpYdnRtdDJZUVpRZFNuQTh5NlE0RlVaYlhHbVJzRTNXaXd4RURST1ZPTFF5TnJ1ODJCdkRCOENXTVVZd09NZHJjeXktRzZCdlJrbVNFdmYwdXUwOEtycjA1OVBlS3ZTZ25KR0NCNUZWWdIBgwFBVV95cUxNY1lEUHVHNzlwOUNJcW5YeE15RllpRmdVZThBdjlvMjdKY2JqUkxfQmV0QkVXbVNVeGgzalVacXhLMURVclhxVjhIT2JkLTZMVVNrUlkzd1hic3RuV25iWXdtSERockhvcXI3RzJ2eHMwYUpHZ0EzZnUxcVFJYW9XTC1Edw?oc=5",
         "published_at": "2026-10-21T01:25:16+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil rises on Middle East supply worries - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTdIRmp3MTB3c3JZNGxXMUl1Wk5haXFwcjdJNXgtQnJkOEM4aWVVWG5tai03TmhHSWZidkliV1VlRkRvOVJCX3Q3QXhCWVdZeXlYQmViOUdOaU85anVWMXpSWFNCOHAtVU5id3Fad1BhX1BzVEt6S1A4N2s1YjJocFh6QXFTVXhHdDJJVzZBX21WUQ?oc=5",
+        "published_at": "2026-10-21T00:50:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -173,21 +167,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - reflector.com",
-        "source": "reflector.com",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSXdyZDUwMWxQaURaenB1S0RLdlEzUmp1RGE0WTBaSTdyRTFjMkM3S1REMU44Q2N2ak16NlJydDR2TWkyTHhhZUtHc0tKd3pQb0xNNkJCd2VEX1hYSmpMZERqckhmSElhSnRtLURRdE9IVHFiOHJSQ1hCWU82dzBMdHFmRXFqMWNpS2h0dk1uV19kaE5vQ0dSM01NLWw0ekxtOWM0WE9QMGZGQVlyZVhNbFNYVmNaa0pBb0ZDb0tWWHp3N1h2cGRjelU4OVlaXzROdjAtWHFuOXZ5cmdzdmtTaG9mYkdsV1RQai1pbS1YbDh2T3JBbFE?oc=5",
-        "published_at": "2026-10-20T21:52:26+00:00",
+        "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - Audacy",
+        "source": "Audacy",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1lFUW9abHdzV2IwVnRpblRia3c1dUFwQkJDdDRQbkpFMXV3TlNCQnhiQUtZZ3F4cGg2SXlwZmZWVGU1U0xQWG45YkxTT05CbE9wRl9GNHFXWDJGOUM3b1pVclBpajJ4eWphZWtvd2J6ZnBGMDJOSzhkWkNCaTdlV2JDZXpuU3JuVGE4anBsZWRiU2RtdnBFcS01TEE3YnpkUHppeFNiRkZzN21ydEJGeVRWc1V6NnFWb3hwU2tUZ3BVSmxCS0dyMVF5Ukw?oc=5",
+        "published_at": "2026-10-20T21:52:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Death toll from Houthi strike on Yemen government camp rises to 73 - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSDVrUEhGSzJmY2tWZGV3anQ5WUt4OXRPSXV6U2Z5MHhDQUM4Wm02eEp0M3VYbkQ2aVVIT0pBR09LY3hFcUsxYl80b2RXeEZGR0NzNm5VX3lBLWtHSmxMdk83ZzN1dlB3UjBsNTI2dF92eUphbVJTeWt4cHNDb1pPVlNvYXRpdE1tZU9ILTh4VFViS3BUZnY0Tng3S1E1T1NubGtOWTdqcG12UXVEcG5laU5B?oc=5",
-        "published_at": "2026-10-20T21:44:00+00:00",
+        "title": "Oil Slips as Iran Talks Fuel Volatility - Rigzone",
+        "source": "Rigzone",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOERWa2FDSndHTlBKQjIydXJJTEZuNDAyUHFLNEVwSm9GYm9VN3ZYUktDMmtLZWlPR1pzQW5CSmFseTJ6Nk1tTkNoSnNWTU5PcE1mWmh6VUJwcFlweWhhWHNMeG9HT1hlS3lQMXhmOV9yVi1ZXzJrNDl6NDFuVWVHa0xibjdQZ0V2emN1WEVXZk1ycDI4aVJtWUVXZjFCU0JOeUFR?oc=5",
+        "published_at": "2026-10-20T21:47:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
