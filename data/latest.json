@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-21T00:29:02.138943+00:00",
+  "generated_at": "2026-10-21T01:13:27.928168+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 98.4800033569336,
-    "wti_change_pct": -4.997106041073018,
-    "brent": 109.5,
-    "brent_change_pct": -0.045644044148673846,
+    "wti": 98.93000030517578,
+    "wti_change_pct": -4.562997481990772,
+    "brent": 110.0,
+    "brent_change_pct": 0.4107685401246286,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
     "sox_change_pct": -0.2874413829836109,
     "vix": 17.309999465942383,
     "vix_change_pct": -6.127988261324546,
-    "dollar_index": 101.8030014038086,
+    "dollar_index": 101.79199981689453,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -5.00%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -4.56%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-21T00:15:00+00:00",
-      "brent": "2026-10-21T00:15:00+00:00",
+      "wti": "2026-10-21T01:00:00+00:00",
+      "brent": "2026-10-21T01:00:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-21T00:28:50.027133+00:00",
+    "updated_at": "2026-10-21T01:13:16.540447+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -72,16 +72,25 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 15
       }
     ],
     "geopolitics": [
       {
-        "title": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ25MSXRodmt6X1ZwZFZ1b01nR01ZTE1PWDU0SGVaWTRKMXJLdl9FbXVHSnZTMGxiV1pMbGtOZTVUMjZER01kVHQ1TmtIczlGZ3Z3X2djQng0b0RrOEQtZkk4REEtYTE2U1JxVlpLMzAtUnNycVhiQXVqV3BET09SZDZLbWtfZGp3NFl6eDZPakRzeDk4N3VydmJucDB6SlgwNmNNWVlrVTVRdGQ2RTVVOUpqTXBJa3RWaXc?oc=5",
-        "published_at": "2026-10-21T00:00:00+00:00",
+        "title": "Oil rises on Middle East supply worries - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTdIRmp3MTB3c3JZNGxXMUl1Wk5haXFwcjdJNXgtQnJkOEM4aWVVWG5tai03TmhHSWZidkliV1VlRkRvOVJCX3Q3QXhCWVdZeXlYQmViOUdOaU85anVWMXpSWFNCOHAtVU5id3Fad1BhX1BzVEt6S1A4N2s1YjJocFh6QXFTVXhHdDJJVzZBX21WUQ?oc=5",
+        "published_at": "2026-10-21T00:50:00+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Elon Musk Ordered Starlink Slowdown That Hampered Ukraine Drone Missions, WSJ Report Says - NewsCord",
+        "source": "NewsCord",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMW9qYWhFOENwN3NYajlNWGYzLVVrWndWMGdBMGFhNEsySzQ4VnI5VXIyamJYbjgtZnpETVEzZ2JwaGJ4Tld2eXpERVJrbjhXX0Vfbzl5dWJTZUF2emJWUDQ5U3hSeWVqMlQ5dGNNSkZQV3FvNThJTXltRW9oVllIdGhnbjYxUDlpUnVEakM2amdrZU56bXZXTHJCdExzalJqbXNfeDJWVkVFZnNtNzJIeFZwSV90TWcyVkhQT3lILXVZWW8xaEpneFVxdHdEcDkweXlESVJfUVJZcUZOeDJaNUN6Yl9yRV8zS0E?oc=5",
+        "published_at": "2026-10-21T00:00:41+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -95,11 +104,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5",
-        "published_at": "2026-10-20T23:00:57+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "U.S. Army’s New Guidance Calls for Full Force Against China in First Island Chain - 조선일보",
+        "source": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSzgzNGh6OEQ2SjJqUlVfN3hyNF9ENUhXRGRtbFA1YzBtUmtmemwyNmxJRHhNRFR2Mmh0M2Q4V213SXRmLVEyMXR6RTRmRlVJeGJqNmVQOFp4TUhtazVKT0RGY3E4UHdTSUszZFA3WnkzTHM3VlNPQjJWbWp1eElybHRjSFU?oc=5",
+        "published_at": "2026-10-20T23:18:53+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -122,19 +131,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "United States China Sanctions - GazetteXtra",
-        "source": "GazetteXtra",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdVhTSGI3bE5aVkZ1a0xkRjRaVGFfdGRReGY2QzIwR1NoMjJ0Z1h3N3NTN3BtQmNNaVJIb3p2M3JTdXhzVWdGanIyUzdUOGNBNktNOThxcm40LVJqcVhJVG1qa0o0TjR0SDVydENENElkYXR1cEcxOV8wU3lRdm4zOXlTZlhMbXc3Y0tycXFMbnhCaTlXNE5fa0d4YnE0M0J5cXRCUjJCMmplZ2ZCWkU4em1nd3RkNEswZmQ4aEE4UXg?oc=5",
-        "published_at": "2026-10-20T22:25:35+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
         "source": "EnergyNow.com",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
         "published_at": "2026-10-20T22:18:34+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5",
+        "published_at": "2026-10-20T22:04:52+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -151,7 +160,7 @@
       {
         "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - Audacy",
         "source": "Audacy",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSmIxbjE3dFB5ZXFlZXpjRmtTY2hYaklWZVlCbE52TFdiQzdxalV5bUl1bkZMeFBKWDhtSDFTTDctdExUV1hBalhBXzBfSGkwd1hKUm5IVUYtNU1KbGpoU1YxSlRPZ2VTMWRNVWdaemhsM1RmMXF5bE9WM3F5MnVYMDFtbWs4TG8wSzBMQlBVV3g1Qm1DLVR6cEplSlI5V3RFWjFKYzBtbElVVmtHcmQwdjhJOS05ZnBYNDBrQlZjc1YtbDBDSGgtSQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmhfaWpZeTdDcEQtUGxHUzdYN0ZRTmc4blFMTTdzOHVnMkdONlVVaUlydHlrTkU3UzctV3Etbk5lVldIZVhGY21ld1d6amxnVEl4QkxPT1BKYU5haFhQcThTMXJGMFJwLXFoc3FCT2tIb0pBN3NaeER3V29iNkJHSkZzSmZmeXk3RGRiMmZnRHd4ODFZakFKMlpzclRvekF5aVJ6Si05ZTJhaDRPRG1ydUFlaU9rUXZMYS1qREppWEtOUTFZY3c?oc=5",
         "published_at": "2026-10-20T21:52:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -201,18 +210,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Vučić Rejects Russia Sanctions, Blames Foreign Powers for Protests - Organized Crime and Corruption Reporting Project | OCCRP",
-        "source": "Organized Crime and Corruption Reporting Project | OCCRP",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS0dRT1FRTzd4dnRWX2RxTmtld0xzdDhxdlA1TkEzRDVPWHZ0dVRwelFkVkNQWEl3YlhFTG8xNFo3ckdNUXRmNERmaDg5QzZYMnd6NXRjd210LTd2MnVFd3RuUTI3TDk2a0syWHdNWWpMXy1HRUhfam1VRmYwdnBxLVNINVNhQ2lNRDQxWWR5bDVGTUtUaVY4N3ZhUQ?oc=5",
-        "published_at": "2026-10-20T19:15:43+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Amazon Launches TorchNeuron to Challenge Nvidia’s AI Chip Dominance: 5 outlets compared - NewsCord",
+        "source": "NewsCord",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT3ZNSUJXcnVZR0kxT0t0LTBOYkxSVHBjazVRb1lVUDlHdVl0Y0pyRFpRYS1KeFBjaWdveWJ0bEV6NTBmMEtfazFjOV9KZjN6djc0VlQtUDU0TllUYUw2cllTUjVIQzF0T2lpckVTNWttTzJMRVg2ZlRqRnlWdDlTV25jU3JuY3pxOG9MYkd3aE02MnlRU3ZrNVJMc0UxeUVNeGcyVWxKRFJDVnZfcXBGZDBFcWp4SzNGbks5aTY4NC0xUlJpa0lsX0JqTV9QMlB4c3doYXA3UQ?oc=5",
+        "published_at": "2026-10-21T00:11:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Chinese tech firms purchase more than $35 billion of Nvidia chips: Reuters - Semafor",
         "source": "Semafor",
@@ -290,15 +299,6 @@
         "source": "Quartz",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tbEFyVG5DU1FlMGlta2xxNGoyYkVfalJtcHJfUVdYVkNnMjluNVVGLXNmUzBnczVFWGtiUmNKNEhBYjc0NHM4UlVIRXV6cDZ0MW5oUmFXTHltZFRMam9CX3J4YmdYNERKb3VjNlEteVNTSzBD?oc=5",
         "published_at": "2026-10-20T17:30:50+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet set for earnings beat as Cloud and AI chips take centre stage - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUVFscXpRS3IxZUxpU1BvQ3JRbmdmRVJKd0w2d0J5TE0wWDBPQjFEc2lSeXVRR2VkOFl1ZHpUMVM1WXZMNUZvNUpkanBVeV9mNUVFczJiQ3AtT19Ebl9vSFJKd2RQSW03bHhjdm5fVEhSeUpQNTdnNHh3N2stYklmdkh2dk5zVVJoUEJ1MXhsdEt1R1ZuWEUzMTdxdWY?oc=5",
-        "published_at": "2026-10-20T16:34:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
