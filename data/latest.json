@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-21T01:13:27.928168+00:00",
+  "generated_at": "2026-10-21T01:46:17.184040+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 98.93000030517578,
-    "wti_change_pct": -4.562997481990772,
-    "brent": 110.0,
-    "brent_change_pct": 0.4107685401246286,
+    "wti": 98.80000305175781,
+    "wti_change_pct": -4.688404822165781,
+    "brent": 109.91999816894531,
+    "brent_change_pct": 0.3377408552081018,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
     "sox_change_pct": -0.2874413829836109,
     "vix": 17.309999465942383,
     "vix_change_pct": -6.127988261324546,
-    "dollar_index": 101.79199981689453,
+    "dollar_index": 101.77999877929688,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -4.56%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -4.69%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-21T01:00:00+00:00",
-      "brent": "2026-10-21T01:00:00+00:00",
+      "wti": "2026-10-21T01:35:00+00:00",
+      "brent": "2026-10-21T01:35:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-21T01:13:16.540447+00:00",
+    "updated_at": "2026-10-21T01:46:06.422031+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,17 +65,26 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       }
     ],
     "geopolitics": [
+      {
+        "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX09hOG01THVnWTBtMmVfekx4eUpYdnRtdDJZUVpRZFNuQTh5NlE0RlVaYlhHbVJzRTNXaXd4RURST1ZPTFF5TnJ1ODJCdkRCOENXTVVZd09NZHJjeXktRzZCdlJrbVNFdmYwdXUwOEtycjA1OVBlS3ZTZ25KR0NCNUZWWdIBgwFBVV95cUxNY1lEUHVHNzlwOUNJcW5YeE15RllpRmdVZThBdjlvMjdKY2JqUkxfQmV0QkVXbVNVeGgzalVacXhLMURVclhxVjhIT2JkLTZMVVNrUlkzd1hic3RuV25iWXdtSERockhvcXI3RzJ2eHMwYUpHZ0EzZnUxcVFJYW9XTC1Edw?oc=5",
+        "published_at": "2026-10-21T01:25:16+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Oil rises on Middle East supply worries - Reuters",
         "source": "Reuters",
@@ -135,15 +144,6 @@
         "source": "EnergyNow.com",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
         "published_at": "2026-10-20T22:18:34+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5",
-        "published_at": "2026-10-20T22:04:52+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -214,6 +214,15 @@
     ],
     "corporate": [
       {
+        "title": "A hepatitis B drug is U.S.-approved. In trials, 19% controlled the infection without medication. - Stock Titan",
+        "source": "Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMWthZlFCT25nbHY1TG5YUlgxd0VyQmVqN3pzZldWN05GWlhIaGRaRG42NEo3MXF2LXpPMTdZcXBtcUFDcDJPSlBrZlRROWgwVXNfTmVqWU1KODluYWNFQ3hydmhHd2dEa2VPeE04YXhEWTJQQkhNNnRUR3ktSFFnb0pFa3VSdkF6MmxDSHptOFlMamhIOEV5TnpHQVZPMVI0UHFhbElwMEZWYU5jeWZPREVxR2ktODdsODFGMWpjblI?oc=5",
+        "published_at": "2026-10-21T01:20:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Amazon Launches TorchNeuron to Challenge Nvidia’s AI Chip Dominance: 5 outlets compared - NewsCord",
         "source": "NewsCord",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT3ZNSUJXcnVZR0kxT0t0LTBOYkxSVHBjazVRb1lVUDlHdVl0Y0pyRFpRYS1KeFBjaWdveWJ0bEV6NTBmMEtfazFjOV9KZjN6djc0VlQtUDU0TllUYUw2cllTUjVIQzF0T2lpckVTNWttTzJMRVg2ZlRqRnlWdDlTV25jU3JuY3pxOG9MYkd3aE02MnlRU3ZrNVJMc0UxeUVNeGcyVWxKRFJDVnZfcXBGZDBFcWp4SzNGbks5aTY4NC0xUlJpa0lsX0JqTV9QMlB4c3doYXA3UQ?oc=5",
@@ -271,16 +280,7 @@
         "title": "GSK Immunotherapy Gets Accelerated FDA Approval for Treating Rectal Cancer - MedCity News",
         "source": "MedCity News",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbkVBLWwtS3pHTlpqRmRaMGRyRmpiN0xWTE9VNVZfUWkwWU16Yk95UTNFLVNTYzJvMUItbXNZdlZOYkNiMzB1Z3ZEZUNVSTcwODI1MTNnYlRzSXd3aFRMamVzUzdGR0xnTFpEbV9rdngwQjNQOE90TnlEaXBDZE9ITjRkblk5Yl96SDlnbXdGNzVIYWJpd2d6c21DSEl3c2lKRkJN?oc=5",
-        "published_at": "2026-10-20T19:24:47+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nicholas Hornstein on FDA Approval for Dostarlimab in Locally Advanced dMMR/MSI-H Rectal Cancer - Oncodaily",
-        "source": "Oncodaily",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hZklXRTVtaktTbG5FWmRSVTUzVzBTa1Z5bGdoNFdwbjV0YzBWNm9IcUs2cFVEVXhZbnh5aWprZEdrOXZKRjRKcXRRNWN6eGxZWFRSUW5nZXdybG55c3N1WkxjRUdwUQ?oc=5",
-        "published_at": "2026-10-20T19:24:13+00:00",
+        "published_at": "2026-10-20T19:26:26+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
