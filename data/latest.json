@@ -1,40 +1,46 @@
 {
-  "generated_at": "2026-10-21T01:46:17.184040+00:00",
+  "generated_at": "2026-10-21T02:14:28.225462+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 98.80000305175781,
-    "wti_change_pct": -4.688404822165781,
-    "brent": 109.91999816894531,
-    "brent_change_pct": 0.3377408552081018,
+    "wti": 99.05999755859375,
+    "wti_change_pct": -4.437590141815761,
+    "brent": 110.19999694824219,
+    "brent_change_pct": 0.5933307881126115,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
     "sox_change_pct": -0.2874413829836109,
     "vix": 17.309999465942383,
     "vix_change_pct": -6.127988261324546,
-    "dollar_index": 101.77999877929688,
+    "dollar_index": 101.79499816894531,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -4.69%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -4.44%. Geopolitica: Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-21T01:35:00+00:00",
-      "brent": "2026-10-21T01:35:00+00:00",
+      "wti": "2026-10-21T01:55:00+00:00",
+      "brent": "2026-10-21T01:55:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 28,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-21T01:46:06.422031+00:00",
+    "updated_at": "2026-10-21T02:14:15.724039+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +57,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +71,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -104,20 +110,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1BXVEVrSUZFeXd0V1NuRDd6dXh3cGdXVndLZWJUYTU2N3VDWFZWTlRjLUhNM3p5TDBFdEFpWDZLYzFCNTQzODN4ZGV1Vk91S0U3MmM5SUZOVmFuM2o1dFNULWc0LTFWY1V6VnpUOUozUHg2SG9yQ0lEVnFIbDJyX1hsYjl1VHB4bVVSN1lTOXV5VFBZSzVCRUREa2tlaFZHTjAtMlRmc3E3a21INVN6cDh3TGlib1M0YklzQmpCWU5VczlvTnZxM0xkaw?oc=5",
-        "published_at": "2026-10-20T23:38:00+00:00",
+        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
+        "source": "Scripps News",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
+        "published_at": "2026-10-20T23:56:57+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "U.S. Army’s New Guidance Calls for Full Force Against China in First Island Chain - 조선일보",
-        "source": "조선일보",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSzgzNGh6OEQ2SjJqUlVfN3hyNF9ENUhXRGRtbFA1YzBtUmtmemwyNmxJRHhNRFR2Mmh0M2Q4V213SXRmLVEyMXR6RTRmRlVJeGJqNmVQOFp4TUhtazVKT0RGY3E4UHdTSUszZFA3WnkzTHM3VlNPQjJWbWp1eElybHRjSFU?oc=5",
-        "published_at": "2026-10-20T23:18:53+00:00",
-        "area": "USA / Cina / Taiwan",
+        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5",
+        "published_at": "2026-10-20T23:00:57+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -136,6 +142,24 @@
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeWlwNXdZTFlfRmUweXZaREZvajExXy1Wd2xXRUZMNjFYNVpEUktFeG44S1dZcTlQZktTQkZzQnhkdlR3eHBaTklwcHUtcGdlbnFuRkZoV3FjX3pYa0s5RTEycmhoZHJNRXUzZHBnVm9fUkVFeUZtZUhHUVplWkFLbTdHZDVmdy1TVC1vVlp6Sm9qZ0d5OGtsX0lxZE5TZWpZOHp1WGsxOGpHby1teE1zRVB2bG5rRDB4cnFjNzRJZjZ3Q2piSTQwUWZnZG4?oc=5",
         "published_at": "2026-10-20T22:32:25+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer - News-Press NOW",
+        "source": "News-Press NOW",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxObWNXd2llMVAzUTRteGdPSUFSY3NIMWpVcXJLdXlCZ0NObUFRTFhYOHVBZmhIU1lQQlAxaXFqZ3BQaTZybzRNZ0U4QV9ieWs3dVAwUDVqYURMU09zZDhTeFh3X0ctMFl6TjV3XzlRX0hHTGNMa2FrZHpHZEFfbGNGNWFsZVJ0T0VVaHRoUzlaVUNzSmU2Qko0UV9rTWhza3F6dWJVRXNqdmNfaktSNERXNkFwZ0liQWxXenV4VFdXRU56eUFLd080d2lJTE1ZWTRmei1pZlRCekpjRFoycUxMbWdEOXR4SGlnQkxMWl9hZm9nN0c1cnNtVjRWaW1Zd0poSm5tLWd4SXpkTzhl?oc=5",
+        "published_at": "2026-10-20T22:28:11+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "United States China Sanctions - GazetteXtra",
+        "source": "GazetteXtra",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdVhTSGI3bE5aVkZ1a0xkRjRaVGFfdGRReGY2QzIwR1NoMjJ0Z1h3N3NTN3BtQmNNaVJIb3p2M3JTdXhzVWdGanIyUzdUOGNBNktNOThxcm40LVJqcVhJVG1qa0o0TjR0SDVydENENElkYXR1cEcxOV8wU3lRdm4zOXlTZlhMbXc3Y0tycXFMbnhCaTlXNE5fa0d4YnE0M0J5cXRCUjJCMmplZ2ZCWkU4em1nd3RkNEswZmQ4aEE4UXg?oc=5",
+        "published_at": "2026-10-20T22:25:35+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -167,6 +191,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Bipartisan backlash from Long Island lawmakers over Trump lifting Russia sanctions - Newsday",
+        "source": "Newsday",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmw2TEJKcXdLdXd6MTY4UXZvN2hLN2lEZVJhTURhbzNkbk1aRnp1amNMTXNlVDd2Zlo1UE5lQ1I0cFRrdEJBdWZaanYwa3VtSmtiQjl0RmxiSnZZaTdXRXQ4SG8yQlBvNm9SendUU2E3dHg5Z3FlT2F2RnR2YnFPUGlnYTdkZw?oc=5",
+        "published_at": "2026-10-20T21:49:08+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Death toll from Houthi strike on Yemen government camp rises to 73 - Middle East Eye",
         "source": "Middle East Eye",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSDVrUEhGSzJmY2tWZGV3anQ5WUt4OXRPSXV6U2Z5MHhDQUM4Wm02eEp0M3VYbkQ2aVVIT0pBR09LY3hFcUsxYl80b2RXeEZGR0NzNm5VX3lBLWtHSmxMdk83ZzN1dlB3UjBsNTI2dF92eUphbVJTeWt4cHNDb1pPVlNvYXRpdE1tZU9ILTh4VFViS3BUZnY0Tng3S1E1T1NubGtOWTdqcG12UXVEcG5laU5B?oc=5",
@@ -183,36 +216,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "More Republicans break with Trump on Russia sanctions - Semafor",
-        "source": "Semafor",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOUlaWnR2RUh4YjlGYml0Z3hZaEFSQzJlZnl0MkdOY19aZ0c2Mmd0aElTVDI4c3MwX21NajFic0dSWTFXeHhJX2ZvQWh5azNSblU1VmkxcHMwR2lTb21RX2NuWTV4dU4yWGtJeU1hcnExdVpOUmJmeTFmVllNYkI1NFdtMk1Sd3MtQWRqejhEUFRUaXpELVZmTHY1Ung?oc=5",
-        "published_at": "2026-10-20T21:35:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Slips as Iran Talks Fuel Volatility - Rigzone",
-        "source": "Rigzone",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOERWa2FDSndHTlBKQjIydXJJTEZuNDAyUHFLNEVwSm9GYm9VN3ZYUktDMmtLZWlPR1pzQW5CSmFseTJ6Nk1tTkNoSnNWTU5PcE1mWmh6VUJwcFlweWhhWHNMeG9HT1hlS3lQMXhmOV9yVi1ZXzJrNDl6NDFuVWVHa0xibjdQZ0V2emN1WEVXZk1ycDI4aVJtWUVXZjFCU0JOeUFR?oc=5",
-        "published_at": "2026-10-20T21:30:11+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "European Antitrust Agenda: EU Commission Advances Nvidia Probe; Ministers Take on China Trade Strategy - The Capitol Forum",
-        "source": "The Capitol Forum",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2hoNHZkdjZJUC1zdE9QVlEwekMxV3gtWEt1NHVnUjJNMjRWdVpmdHZ0NWYtb2lFaDE5LWVFU0FEZHowOFpkWHZQUXVYd1AtLTBfdE5lUHFoWl9WM25NckZHdkE1WmRpZHNrRDk2cXo0aGhhWERjQzhhaklaMzgzU1JOTmJEQm5OYzFFUTZXUHJOMDNPRGlId0FTVm1Dd0otVE1TVmVxblZZR2dvTkdCUTM2TGNuQm5qOHVsdC1LZ001TUQtSkJtUA?oc=5",
-        "published_at": "2026-10-20T21:07:53+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Nvidia Stock Jumps After Hours on Elon Musk’s SpaceX Chip Plan - NVIDIA (NASDAQ:NVDA) - Benzinga",
+        "source": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaFJQcVY3VVNKZUY4bzNsY3JoNGFtN0xTUVNqTGs2cEtwemUwYU5MQVMyeXlzYWJXR0ZfWHF5VXZmTnBFcldmVnoyN19kb3FoZnRYWWF3RUZQSjllczBkNlVNbXA2ZktqRFR0dkx3azNSTTR2YzhLak9Yd1l6X2ZZQ1VDa3VVNllWZ0lNamZVRVl5TEV4SzJGRklPZmFDUDA1SHdrdDBnZ1ZneS1VNXc?oc=5",
+        "published_at": "2026-10-21T01:34:06+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "A hepatitis B drug is U.S.-approved. In trials, 19% controlled the infection without medication. - Stock Titan",
         "source": "Stock Titan",
@@ -290,15 +305,6 @@
         "source": "TechCrunch",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSkRFYm5NWUd5M3dQUzVGWDlhWkxOd3BpRFZCazZfNlVhWktoSTVFVTNoOHJKZDNRLUMtRmdJQ2ZVY3Y5S0plNzl6Q0toR2RtNWZHRlNUOHd6c044YmpmVWE3LWdDMnJHRmU3WkZSdnFSLUExY2diNW5BTUkyQlVlcTFwM0pKUk9WMEVKWC02Nl9jRlFXandQQkprYlAtaG1jYTZNT1RTaHpBRlBQSnFWVVg3V0w?oc=5",
         "published_at": "2026-10-20T18:38:24+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "ByteDance, Alibaba and Tencent ordered over $35 billion of Nvidia chips at list price - Quartz",
-        "source": "Quartz",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tbEFyVG5DU1FlMGlta2xxNGoyYkVfalJtcHJfUVdYVkNnMjluNVVGLXNmUzBnczVFWGtiUmNKNEhBYjc0NHM4UlVIRXV6cDZ0MW5oUmFXTHltZFRMam9CX3J4YmdYNERKb3VjNlEteVNTSzBD?oc=5",
-        "published_at": "2026-10-20T17:30:50+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
