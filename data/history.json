@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T21:18:18.776376+00:00",
+  "updated_at": "2026-10-21T21:54:19.594062+00:00",
   "events": [
     {
       "id": "cfe691ae523e",
@@ -99,6 +99,34 @@
       }
     },
     {
+      "id": "742c2bc49cbf",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "category": "Megacap Tech / AI",
+      "headline": "Alphabet Slides 2.5% on UK Cloud Outage as Super Micro Surges 11% on Raised Guidance - BigGo Finance",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvMnFJOG1GZXZ2RVNZWkZEQkZaZ2JpOTNQWkFnaVluV2FFS1dEaEwzM1lOQUtzWGxZV1Q5VnVSMl93ZlF3TmpBendJOUZyMkxpTGUwWHNfaVp3STY4TkE3MjdTc3lTRGlBOFVITnVETmFaLTBYU2c?oc=5",
+      "catalyst_type": "guidance_raise",
+      "published_at": "2026-10-21T18:21:00+00:00",
+      "first_seen_at": "2026-10-21T21:54:19.594062+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 67.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -1.53,
+      "price_at_publication": 335.09,
+      "publication_quote_at": "2026-10-21T18:20:00+00:00",
+      "pct_at_detection": -1.56,
+      "checkpoints": {
+        "2": {
+          "return_pct": 0.05,
+          "price": 335.2655,
+          "quote_at": "2026-10-21T20:20:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
       "id": "db060853c716",
       "ticker": "NVDA",
       "company": "NVIDIA",
@@ -155,7 +183,11 @@
           "price": 387.5,
           "quote_at": "2026-10-21T18:40:00+00:00"
         },
-        "8": null
+        "8": {
+          "return_pct": -1.57,
+          "price": 379.2462,
+          "quote_at": "2026-10-21T21:40:00+00:00"
+        }
       }
     },
     {
