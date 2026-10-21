@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-21T06:16:51.241322+00:00",
+  "generated_at": "2026-10-21T07:05:43.670827+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 99.22000122070312,
-    "wti_change_pct": -2.524805650563844,
-    "brent": 110.37999725341797,
-    "brent_change_pct": 1.4615280122345142,
+    "wti": 99.25,
+    "wti_change_pct": -2.4953344068001537,
+    "brent": 110.45999908447266,
+    "brent_change_pct": 1.535065865328944,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
     "sox_change_pct": -0.2874413829836109,
     "vix": 17.309999465942383,
     "vix_change_pct": -6.127988261324546,
-    "dollar_index": 101.80500030517578,
+    "dollar_index": 101.79499816894531,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -2.52%.",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -2.50%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-21T06:05:00+00:00",
-      "brent": "2026-10-21T06:05:00+00:00",
+      "wti": "2026-10-21T06:55:00+00:00",
+      "brent": "2026-10-21T06:55:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
@@ -31,53 +31,10 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "0cfadb90e9b3",
-      "ticker": "TSLA",
-      "company": "Tesla",
-      "category": "EV / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Watch SpaceX 3Q Earnings Beat, SpaceX and Tesla Discuss Potential Merger - Bloomberg.com",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUVVyNUxTTnI1OF9SRnJJNGs5Q3ZQMk5xTUU3V2Nib1BKbGUycGV2OEFSb3cyUzluVW1kcEpHSjlZZlNTc1ZSYlJDNUV5aGZncTA3a0s3a2dLNjdxeWNwQk4tUDIxZ2ZyS1dzMTNfMmExbFVUMEUzWnJxWWFfc1F1NTdaY0R5RWM?oc=5",
-      "published_at": "2026-10-21T05:29:14+00:00",
-      "age_label": "47 min fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": 3.37,
-      "short_term_change_pct": 0.25,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-20T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 381.8,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 52.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-21T05:29:14+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "TSLA",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 93,
-        "catalyst_strength": 78,
-        "freshness": 90,
-        "volume": 28,
-        "momentum": 53,
-        "macro": 49,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-21T06:16:39.866207+00:00",
+    "updated_at": "2026-10-21T07:05:31.292432+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
@@ -108,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
@@ -120,6 +77,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Samsung, SK Hynix upgrade China plants to make advanced memory chips - Reuters - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORVhBV0lFaklHVHgtLW9sMWduNURmeVV1WVViRFlZYThiUzBBTDkxWTVKOEM2dUtzWjI5NVV1MldZb2xIZkphNnFIc2dBakEwaTlZdURTZW9xeDRRX3VrUzZmSGtvOFpWWWpwRUdqVjVMN3k1RU1iWkUwLXhYTXExV1YwT25pRWtrYzNNUWd4MjlxZXdmZFhyNlFiMlBldjE1blpIdzFZc2tpRkhmalpvQWVNcV85RkpBQVJ2Vy03Tm43aURZMF9mTkZJUFVuQQ?oc=5",
+        "published_at": "2026-10-21T06:00:59+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China, Europe should resolve trade differences through dialogue: spokesperson - Ecns.cn",
         "source": "Ecns.cn",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54bGg1LXhlUlQtMFo1WVVvZEpobzY3VmpfcV85Qk9lbUc3UXZIazU1RmIybDJCS2tGZVhuYmc3RUh2ZzlsR19YYzlUM2hyVkliOEVmMlVNS3laaS1EX3JtRE12TDJheWN2QUE0UF9tLWhyaEVaOHNXYlAzSlRkY1E?oc=5",
@@ -129,29 +95,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Persian Gulf oil exports top prewar levels under US-protected shipping lanes; Iran escalates attacks - report - i24NEWS",
-        "source": "i24NEWS",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVVptMU5vSTB4RE1jWlNtdExFcVk5U0NsTjRrdHdMU21HeHBiUmhWN3JZWmxKSjFhYVp4d0RzZFJZUDl5YnQ3MU9pXzJfcVh6Q3VhajBUNXhBaE04U0NaMF9UNkdlUzI5dnphcWRNSno0eS1xR0p0MUtETzNwZDlMX1RDT3ptczctUUhvS3doNElXTXFkdk9EaGo3Y2xPTzNMUU1laVE1LTlCUUMzaDVHSW0tY3FicTJWNFhmRjBzeXJiaGc2S1R0TE1fZG9JUF9OM1VQemQ5Y1NvWVVfNG01S0hmMWFwbDZ6VlFicA?oc=5",
-        "published_at": "2026-10-21T05:33:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil prices climb as traders assess Middle East developments - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMGJ5Y1pPUDFBa2J6dUEwc0RnYmVRWnNFQmhTNjhsa1ItUVBFZG14cGVzTU1kZ205RDN4Mmcyd1pzQjRJNGl6N2F1Nng2WlBGSWVZd2JBSXVYWmFNTnpZRWxBZTVqUmdaVFNRRUEwczJtcC1PcnhDSkN3RXU2eWllNlZGcFQyQzVzaXA3V09PTXYwVVAx0gGaAUFVX3lxTE95am5EZGd5cEZod2RCX0FMZTdIOE1paDJvTUQ2OERsckxsYVZON19rZ0JWbTZYWDhVZXlqU0dNRm0ydlp6dUVxQkcwU1VtbWFRWE9kRk5PLUNubG9MSWF5anBIQThhQ0FKS0UzaHVRdXRRN0V2Nkl2SFVHV05JaThJZFlMT2tsY1ZxdUxDUUJZRFBpN1hHSjJ2TkE?oc=5",
         "published_at": "2026-10-21T05:27:19+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan expands local US cooperation in trade, defense education - Taipei Times",
-        "source": "Taipei Times",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mWlFVMVlaYTMwNVBLRHZKaXA1WG0xT1k5bUxfcmEtSkUtUkFQVXNuQjViUDZLTkttM2ZIdU12aEhjMXZybTVyWmNfeXUzX0VKSi1vYlZWRmhEaXUwSVktMVFmNWV3cFpwUm5OSlRub0NFMDkxV2xJeEx3?oc=5",
-        "published_at": "2026-10-21T05:04:52+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -201,6 +149,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables - Radio Free Europe/Radio Liberty",
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "published_at": "2026-10-21T04:28:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pope Leo XIV speaks with Zelenskyy about ceasefire in Ukraine - The Catholic Thing",
         "source": "The Catholic Thing",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUUNXZ3h0ZFZ6cDcwU1BKNTlGMzkwZFc0NndSVEdMSERzLVIwN1VYMjhEQlBWQ0VJdFJUMjFnR01VQ3ktSGNtVGhrZWU4RlhyRlhGYlVfZVNqcFdPdjhNSHN2LXAzQTNxbEVPUmQ0MTBnNzB0MGQtc3FBZjVaU2JJSjVtcDJzV3lFcFlYOGlkTWJHbHVaaWhBUE1KQnZwbnNKaEVZZ0ZmRjdOQQ?oc=5",
@@ -213,18 +170,18 @@
         "title": "Benjamin Netanyahu pushes to resume strikes against Iran - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uZG1oS2R0eDRSRUV4Yy1nOHNraHA2anRiRkhoVFNqb1hBdHV5cE55dWlxc1hlVzBIS1FjWHNyRnNiTnVsQUYtNjV3YXFRVDNxMHZsb1FVQ1RMTWRyYkRMbzB4OVZKWUEzVnMyczRZNzY?oc=5",
-        "published_at": "2026-10-21T04:00:40+00:00",
+        "published_at": "2026-10-21T04:00:13+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX09hOG01THVnWTBtMmVfekx4eUpYdnRtdDJZUVpRZFNuQTh5NlE0RlVaYlhHbVJzRTNXaXd4RURST1ZPTFF5TnJ1ODJCdkRCOENXTVVZd09NZHJjeXktRzZCdlJrbVNFdmYwdXUwOEtycjA1OVBlS3ZTZ25KR0NCNUZWWdIBgwFBVV95cUxNY1lEUHVHNzlwOUNJcW5YeE15RllpRmdVZThBdjlvMjdKY2JqUkxfQmV0QkVXbVNVeGgzalVacXhLMURVclhxVjhIT2JkLTZMVVNrUlkzd1hic3RuV25iWXdtSERockhvcXI3RzJ2eHMwYUpHZ0EzZnUxcVFJYW9XTC1Edw?oc=5",
-        "published_at": "2026-10-21T01:25:16+00:00",
+        "title": "Oil rises on Middle East supply fears, US inventory drawdowns - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTdIRmp3MTB3c3JZNGxXMUl1Wk5haXFwcjdJNXgtQnJkOEM4aWVVWG5tai03TmhHSWZidkliV1VlRkRvOVJCX3Q3QXhCWVdZeXlYQmViOUdOaU85anVWMXpSWFNCOHAtVU5id3Fad1BhX1BzVEt6S1A4N2s1YjJocFh6QXFTVXhHdDJJVzZBX21WUQ?oc=5",
+        "published_at": "2026-10-21T00:50:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -257,29 +214,20 @@
     ],
     "corporate": [
       {
+        "title": "GSK Wins FDA Approval For Hepatitis B Treatment Hibsago - DirectorsTalk Interviews",
+        "source": "DirectorsTalk Interviews",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMU5SUzlvTnVqWmc0NU5ZdTFzY1JtcmN1emRFZXN0U2pyZDVOaWxxZVlOUXlDQlQwdkstNGtMWXlUZlY1REdZYVFjU3ZydVFWNVB4azRTM1k0QjFHNkpqNkhPYU1qTUowNEp2MV9raWZhWWdoOEdfbmF5VzVMR1p5OXI4M1UzSkV3NlBrTWNTdE1SOVVPdlRhZXowQml1amhKUkliOVE2SzNUdw?oc=5",
+        "published_at": "2026-10-21T06:04:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Jemperli FDA Approval Could Expand AnaptysBio Stock Royalty Potential - Simply Wall Street",
         "source": "Simply Wall Street",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVVoyekYwNnctS0RKQUFLUm84dWFoTHVaY01XU1BxT1BNbWZiX21CdVRrbmV2MTRoZEEwa3RIZHFwM01xb05vMWoxUENkTDI5NlFlV3g5VllDbURTSmh4ZS1PX2l6Q0hjb0hYcWlTNzhsOVNRYVZBWUJrU0hHNEZka0NVMktfWjI4SXpzbERCNDZaWkZvMzJrVGhxSzVBWnN5UEFHZWtib1RMZnFiWTZGVm5Fc1lLRmRCb1lhUm16eTM0YmJ3Ukw2dWxXNnZ1MU91SjFQVWc0VWJlaG_SAeABQVVfeXFMTVFqSm9rYnNGQlZENGVxRkNrRkZmRG5sdWx5bGVlV2hoVDRTT2NFWlBNcVFjTWYwMmhKNzF3R2c5VzhTUmRURGduUk44bHU2UkNrem9jdThEY19hczBpOTlXdWItX2pDR2FpbWNFTGhZU0JEemQ5cDBVOTNIblpKdU9GZ0VVWjJvT0Q0MzcxeEM0Zk5xTDJqdkZCNVp6N2hTWEZyZ0xxRkdCYV9aWUFNSEhqWG8tQ0JSX1JSOUxmcE9KR1NkZ1lpR1FoLWNVbmN6cmdHOWg5NlBsN3ZXalNFeUE?oc=5",
         "published_at": "2026-10-21T05:42:25+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "A hepatitis B drug is U.S.-approved. In trials, 19% controlled the infection without medication. - Stock Titan",
-        "source": "Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMWthZlFCT25nbHY1TG5YUlgxd0VyQmVqN3pzZldWN05GWlhIaGRaRG42NEo3MXF2LXpPMTdZcXBtcUFDcDJPSlBrZlRROWgwVXNfTmVqWU1KODluYWNFQ3hydmhHd2dEa2VPeE04YXhEWTJQQkhNNnRUR3ktSFFnb0pFa3VSdkF6MmxDSHptOFlMamhIOEV5TnpHQVZPMVI0UHFhbElwMEZWYU5jeWZPREVxR2ktODdsODFGMWpjblI?oc=5",
-        "published_at": "2026-10-21T01:20:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Amazon Launches TorchNeuron to Challenge Nvidia’s AI Chip Dominance: 5 outlets compared - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT3ZNSUJXcnVZR0kxT0t0LTBOYkxSVHBjazVRb1lVUDlHdVl0Y0pyRFpRYS1KeFBjaWdveWJ0bEV6NTBmMEtfazFjOV9KZjN6djc0VlQtUDU0TllUYUw2cllTUjVIQzF0T2lpckVTNWttTzJMRVg2ZlRqRnlWdDlTV25jU3JuY3pxOG9MYkd3aE02MnlRU3ZrNVJMc0UxeUVNeGcyVWxKRFJDVnZfcXBGZDBFcWp4SzNGbks5aTY4NC0xUlJpa0lsX0JqTV9QMlB4c3doYXA3UQ?oc=5",
-        "published_at": "2026-10-21T00:11:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -342,6 +290,15 @@
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5",
         "published_at": "2026-10-20T15:51:20+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Reportedly Sees Alibaba, ByteDance, Tencent Order $35B In RTX PRO 5500 Chips Amid US Export Curbs - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc2RVUTh6TU1FUnhqeTlFQi10b3RublpRWmUwSnNBNlA0SXlyTGxGd2lfNmxFSFpMQlh2WEdKZlVHMExtbjV5azVUbE1fV3RLMmtvRG1vQnFNS2o2V0p4SzJRSGlWNC1rTkFGOU1IaEFDUHMzSjhjNV9tbTBVNW5USGtQOXQ2cEpzelVKZUhkMnhGZmJMNE5obW5XOHphYzFkYXdQRWFTUQ?oc=5",
+        "published_at": "2026-10-20T10:48:26+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
