@@ -1,46 +1,40 @@
 {
-  "generated_at": "2026-10-21T02:14:28.225462+00:00",
+  "generated_at": "2026-10-21T02:45:37.361815+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.116999626159668,
     "treasury_10y_change_bp": -1.9000530242919784,
-    "wti": 99.05999755859375,
-    "wti_change_pct": -4.437590141815761,
-    "brent": 110.19999694824219,
-    "brent_change_pct": 0.5933307881126115,
+    "wti": 99.19000244140625,
+    "wti_change_pct": -4.312175441623134,
+    "brent": 110.4000015258789,
+    "brent_change_pct": 0.7759000004039285,
     "nasdaq_level": 26424.816,
     "nasdaq_change_pct": -0.022983050727221066,
     "sox_level": 11283.812,
     "sox_change_pct": -0.2874413829836109,
     "vix": 17.309999465942383,
     "vix_change_pct": -6.127988261324546,
-    "dollar_index": 101.79499816894531,
+    "dollar_index": 101.77999877929688,
     "macro_score": 49.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -4.44%. Geopolitica: Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
+    "summary": "Tech bias neutral. Nasdaq -0.02%, SOX -0.29%, US10Y 5.12, WTI -4.31%.",
     "quote_times": {
       "treasury_10y": "2026-10-20T18:55:00+00:00",
-      "wti": "2026-10-21T01:55:00+00:00",
-      "brent": "2026-10-21T01:55:00+00:00",
+      "wti": "2026-10-21T02:35:00+00:00",
+      "brent": "2026-10-21T02:35:00+00:00",
       "nasdaq": "2026-10-20T21:15:00+00:00",
       "sox": "2026-10-20T21:15:00+00:00",
       "vix": "2026-10-20T20:10:00+00:00"
     },
-    "geopolitical_risk_score": 28,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-21T02:14:15.724039+00:00",
+    "updated_at": "2026-10-21T02:45:26.756136+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 11
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -71,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -83,6 +77,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Oil rises on Middle East supply worries - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWVZZazNTUGJfZFZ6akNGeHN3dnRVMFRadHA0WnBoTUEtdlA2N0VpOXpPYjFsSjhUeHZTSXllcHdBN2tzbGxsajF1Q2tTbWVhQWRGMWdZaExzUXNCX1YyVkNLT0hiZDZnWWI3OEt0RUMzVDlwdTl5ZzJlWFpsV0dmN2phQjFfMknSAYcBQVVfeXFMT1lWWWszU1BiX2RWempDRnhzd3Z0VTBUWnRwNFpwaE1BLXZQNjdFaTl6T2IxbEo4VHh2U0l5ZXB3QTdrc2xsbGoxdUNrU21lYUFkRjFnWWhMc1FzQl9WMlZDS09IYmQ2Z1liNzhLdEVDM1Q5cHU5eWcyZVhabFdHZjdqYUIxXzJJ?oc=5",
+        "published_at": "2026-10-21T01:43:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX09hOG01THVnWTBtMmVfekx4eUpYdnRtdDJZUVpRZFNuQTh5NlE0RlVaYlhHbVJzRTNXaXd4RURST1ZPTFF5TnJ1ODJCdkRCOENXTVVZd09NZHJjeXktRzZCdlJrbVNFdmYwdXUwOEtycjA1OVBlS3ZTZ25KR0NCNUZWWdIBgwFBVV95cUxNY1lEUHVHNzlwOUNJcW5YeE15RllpRmdVZThBdjlvMjdKY2JqUkxfQmV0QkVXbVNVeGgzalVacXhLMURVclhxVjhIT2JkLTZMVVNrUlkzd1hic3RuV25iWXdtSERockhvcXI3RzJ2eHMwYUpHZ0EzZnUxcVFJYW9XTC1Edw?oc=5",
@@ -92,12 +95,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil rises on Middle East supply worries - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTdIRmp3MTB3c3JZNGxXMUl1Wk5haXFwcjdJNXgtQnJkOEM4aWVVWG5tai03TmhHSWZidkliV1VlRkRvOVJCX3Q3QXhCWVdZeXlYQmViOUdOaU85anVWMXpSWFNCOHAtVU5id3Fad1BhX1BzVEt6S1A4N2s1YjJocFh6QXFTVXhHdDJJVzZBX21WUQ?oc=5",
-        "published_at": "2026-10-21T00:50:00+00:00",
+        "title": "Oil Rises Amid Attacks on Vessels in Strait of Hormuz - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS2x1amxZRkdMSDU2d1dKN3hBTGd0cEhSYlBEeXpVRzZZZ05LQjUycGxSdG9zaEVzMVhFbzV5YUNEbHdha0ZzMlVRR251clR0UzFJTENpY2RGdmhublNRWHc3WFRxNUYxdXhhaXhUQS1HZkpfWlg0cUkzUnEzV21TcWlta2RPTlMtVDl4STJBVU1ZbzB1VlBMUk50aXo1djRNLUVOdWFoVGd1S3l5dndB?oc=5",
+        "published_at": "2026-10-21T01:21:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -107,24 +110,6 @@
         "published_at": "2026-10-21T00:00:41+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
-        "published_at": "2026-10-20T23:56:57+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblJWeWlxaDBENVkyZVNvTWhzNVFvNldZd01GVE9venlBdk5IRkw1RHpJQ2UtaWFrQmtnR1NNbVpsb0hzcTR2X0VBaWdhckRVd3BwYkphakFYcWJtZk1IZWZlcDAwMmxGbkpOaTk0M1hiaTFpMmZPVFRMUXhEZFpoazZtSnoyczE5akRHNVpBYnBPcHl6dDFoSHV6MjJ4UQ?oc=5",
-        "published_at": "2026-10-20T23:00:57+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -191,15 +176,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Bipartisan backlash from Long Island lawmakers over Trump lifting Russia sanctions - Newsday",
-        "source": "Newsday",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmw2TEJKcXdLdXd6MTY4UXZvN2hLN2lEZVJhTURhbzNkbk1aRnp1amNMTXNlVDd2Zlo1UE5lQ1I0cFRrdEJBdWZaanYwa3VtSmtiQjl0RmxiSnZZaTdXRXQ4SG8yQlBvNm9SendUU2E3dHg5Z3FlT2F2RnR2YnFPUGlnYTdkZw?oc=5",
-        "published_at": "2026-10-20T21:49:08+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Death toll from Houthi strike on Yemen government camp rises to 73 - Middle East Eye",
         "source": "Middle East Eye",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSDVrUEhGSzJmY2tWZGV3anQ5WUt4OXRPSXV6U2Z5MHhDQUM4Wm02eEp0M3VYbkQ2aVVIT0pBR09LY3hFcUsxYl80b2RXeEZGR0NzNm5VX3lBLWtHSmxMdk83ZzN1dlB3UjBsNTI2dF92eUphbVJTeWt4cHNDb1pPVlNvYXRpdE1tZU9ILTh4VFViS3BUZnY0Tng3S1E1T1NubGtOWTdqcG12UXVEcG5laU5B?oc=5",
@@ -215,6 +191,24 @@
         "published_at": "2026-10-20T21:37:19+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "More Republicans break with Trump on Russia sanctions - Semafor",
+        "source": "Semafor",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOUlaWnR2RUh4YjlGYml0Z3hZaEFSQzJlZnl0MkdOY19aZ0c2Mmd0aElTVDI4c3MwX21NajFic0dSWTFXeHhJX2ZvQWh5azNSblU1VmkxcHMwR2lTb21RX2NuWTV4dU4yWGtJeU1hcnExdVpOUmJmeTFmVllNYkI1NFdtMk1Sd3MtQWRqejhEUFRUaXpELVZmTHY1Ung?oc=5",
+        "published_at": "2026-10-20T21:35:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice - Ars Technica",
+        "source": "Ars Technica",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRHNLbndNa3FpQURPTDZsNDdYVUR1WWVGUWdQbGxqLWZOTGdZOWlFNnBfaWxMT3ZNb2k0MXlvR0NpUnZmbEp4OGVsRlNraGNybG1mM0ZYVC1NUk1OZUFMemlpQ0VYSVQzLTJLbjl5cjRnbUVvQm9FYm81QWZrbElwaWk3MDJBOXM0R2hHWjRzck5FZWhEdGEteEphZVVnc1ZMZW1wQ2JLcTNHbVVma3BON3ZBeWt4ODBn?oc=5",
+        "published_at": "2026-10-20T18:22:54+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -274,15 +268,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner. - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkNpRXdTcWYtVERSV1hsMU5HWEhOV1NFdEZMSFlscXhoMVJzamNpUHY4aFBwQlRXRHNtSWJBdHZPT2xNSDRkRldZcm1Jd01xOEZ0c2NWQU5IWkNVQzZBY1VoNUpNRVB1NENaWWU0VU9hTzFjQ09hUXVXZlVwU2FNQkg1WjZGTTdqRTFoWVlhVG1Tc2tVYndmY1JsZXkwdVE4WHlYVktXVVRPc29SYmRNS09GWVVwSE81OXpXUkpWTkRvQQ?oc=5",
-        "published_at": "2026-10-20T20:24:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Beyond the peptide hype: Which treatments have FDA approval? - KRDO",
         "source": "KRDO",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjExNUFYb2M2SlRmWnZYbjZmbGw4TlBNYmpZekN5dXd1ZkVHRFg0ZHd3U093dU1VVFhJTmNhUGhjZm9IZzd6aWEtSUk5Y2UxT0dJSDNzRloxQUNMQldTdXE2VUlUU2wwNG9LUWZfQkJIakItVFFpNy1kQ3dtV1E2N0cwMnZXU05QRm0ybXZGRHhvaEdHLWk2RXdPc2N2UDhieFUzXzBkTQ?oc=5",
@@ -305,6 +290,15 @@
         "source": "TechCrunch",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSkRFYm5NWUd5M3dQUzVGWDlhWkxOd3BpRFZCazZfNlVhWktoSTVFVTNoOHJKZDNRLUMtRmdJQ2ZVY3Y5S0plNzl6Q0toR2RtNWZHRlNUOHd6c044YmpmVWE3LWdDMnJHRmU3WkZSdnFSLUExY2diNW5BTUkyQlVlcTFwM0pKUk9WMEVKWC02Nl9jRlFXandQQkprYlAtaG1jYTZNT1RTaHpBRlBQSnFWVVg3V0w?oc=5",
         "published_at": "2026-10-20T18:38:24+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "ByteDance, Alibaba and Tencent ordered over $35 billion of Nvidia chips at list price - Quartz",
+        "source": "Quartz",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tbEFyVG5DU1FlMGlta2xxNGoyYkVfalJtcHJfUVdYVkNnMjluNVVGLXNmUzBnczVFWGtiUmNKNEhBYjc0NHM4UlVIRXV6cDZ0MW5oUmFXTHltZFRMam9CX3J4YmdYNERKb3VjNlEteVNTSzBD?oc=5",
+        "published_at": "2026-10-20T17:30:50+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
