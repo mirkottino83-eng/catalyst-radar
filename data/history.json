@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T22:49:34.909157+00:00",
+  "updated_at": "2026-10-21T23:11:52.651560+00:00",
   "events": [
+    {
+      "id": "d4edf1a2423b",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
+      "headline": "Tesla Earnings Beat, FSD Revenue Strong, But TSLA Falls After Call - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTnZraWtJM1kyeXlrZjBuVS0zUmpIb1BiSDFKNXZpQzEwUkhRVUZuQWlCc2tlWnpIMnY0RUptNlM4NUVHeGxUVWtWY2VVM3l1cmRPS1RremUtN2tNcEVUVVlCMnRnbjZEdERDZ2Y0cFNudWJ4Q19wUUVIRmdiWFo0Z1h5S2E3YzJHTjVHTjF1a29IWEcyRGJHalY2NVc?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-21T22:57:00+00:00",
+      "first_seen_at": "2026-10-21T23:11:52.651560+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 67.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -3.06,
+      "price_at_publication": 374.6582,
+      "publication_quote_at": "2026-10-21T22:55:00+00:00",
+      "pct_at_detection": -0.12,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "ff6eba29c0db",
       "ticker": "META",
@@ -21,7 +45,11 @@
       "publication_quote_at": "2026-10-21T20:55:00+00:00",
       "pct_at_detection": 2.34,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -2.91,
+          "price": 712.2413,
+          "quote_at": "2026-10-21T22:55:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -45,7 +73,11 @@
       "publication_quote_at": "2026-10-21T20:55:00+00:00",
       "pct_at_detection": 0.72,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -3.46,
+          "price": 374.6582,
+          "quote_at": "2026-10-21T22:55:00+00:00"
+        },
         "5": null,
         "8": null
       }
