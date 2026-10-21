@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T22:17:02.825739+00:00",
+  "updated_at": "2026-10-21T22:49:34.909157+00:00",
   "events": [
+    {
+      "id": "ff6eba29c0db",
+      "ticker": "META",
+      "company": "Meta Platforms",
+      "category": "Megacap Tech / AI",
+      "headline": "Q3 Earnings Beats for Meta, Tesla, IBM and T.I. - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0c1dkwyNGZwZnE2bmJQbTdQdk1MM19lcnFIRWNUWWdXeDVrR2VXdDRQSnJoaDRDdHNrNDZrMkRxQzBKcHhtQXl2MGFBYkRHUEk2NWVza0NOTHhlbU5YS0FOYVFrbEdMazZZT0dpdlZpMkRrS2p4WWhhcXByR0k4SS1ndUhPREw5RDFEc0M3bWNCOFZhR3V3TQ?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-21T20:56:00+00:00",
+      "first_seen_at": "2026-10-21T22:49:34.909157+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 65.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 5.17,
+      "price_at_publication": 733.59,
+      "publication_quote_at": "2026-10-21T20:55:00+00:00",
+      "pct_at_detection": 2.34,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "e19a0359e04a",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
+      "headline": "Q3 Earnings Beats for Meta, Tesla, IBM and T.I. - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0c1dkwyNGZwZnE2bmJQbTdQdk1MM19lcnFIRWNUWWdXeDVrR2VXdDRQSnJoaDRDdHNrNDZrMkRxQzBKcHhtQXl2MGFBYkRHUEk2NWVza0NOTHhlbU5YS0FOYVFrbEdMazZZT0dpdlZpMkRrS2p4WWhhcXByR0k4SS1ndUhPREw5RDFEc0M3bWNCOFZhR3V3TQ?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-21T20:56:00+00:00",
+      "first_seen_at": "2026-10-21T22:49:34.909157+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 65.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 0.42,
+      "price_at_publication": 388.1,
+      "publication_quote_at": "2026-10-21T20:55:00+00:00",
+      "pct_at_detection": 0.72,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "cfe691ae523e",
       "ticker": "SAP",
@@ -21,7 +69,11 @@
       "publication_quote_at": "2026-10-21T20:35:00+00:00",
       "pct_at_detection": 7.86,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -1.66,
+          "price": 237.0,
+          "quote_at": "2026-10-21T22:25:00+00:00"
+        },
         "5": null,
         "8": null
       }
