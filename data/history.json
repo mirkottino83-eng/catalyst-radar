@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T13:27:03.881606+00:00",
+  "updated_at": "2026-10-21T14:05:13.796197+00:00",
   "events": [
+    {
+      "id": "97b87a5377ae",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
+      "headline": "SpaceX Jumps 8% on Q3 Revenue Beat as Musk Backs Tesla Merger Idea; Rocket Lab and AST SpaceMobile Edge Higher - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVHp1T1d0c2VXY2J2OGREVkJpUFBSQWMxLUdDNjhLV2RoRWZUOV9qZ3pseVJSOVNfZGVWbkRXdHA4bTBFS3NOYlhIMkhlNXhERk1ld2NNX0VDdlVrT2JUNnFMWDlQRC1NejFUZnlmalZMMkdFa3NieDZvTnZicDl5aURMWHR0c0JmdXZBUnNYN1NSbEdr?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-21T13:01:34+00:00",
+      "first_seen_at": "2026-10-21T14:05:13.796197+00:00",
+      "estimated_impact_pct": 2.0,
+      "confidence_score": 75.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 1.79,
+      "price_at_publication": 380.4,
+      "publication_quote_at": "2026-10-21T13:00:00+00:00",
+      "pct_at_detection": 3.13,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "5abdf012da77",
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "category": "Space / Technology",
+      "headline": "SpaceX Jumps 8% on Q3 Revenue Beat as Musk Backs Tesla Merger Idea; Rocket Lab and AST SpaceMobile Edge Higher - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVHp1T1d0c2VXY2J2OGREVkJpUFBSQWMxLUdDNjhLV2RoRWZUOV9qZ3pseVJSOVNfZGVWbkRXdHA4bTBFS3NOYlhIMkhlNXhERk1ld2NNX0VDdlVrT2JUNnFMWDlQRC1NejFUZnlmalZMMkdFa3NieDZvTnZicDl5aURMWHR0c0JmdXZBUnNYN1NSbEdr?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-21T13:01:34+00:00",
+      "first_seen_at": "2026-10-21T14:05:13.796197+00:00",
+      "estimated_impact_pct": 1.6,
+      "confidence_score": 73.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 2.36,
+      "price_at_publication": 52.1,
+      "publication_quote_at": "2026-10-21T13:00:00+00:00",
+      "pct_at_detection": 4.79,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "90faa7e4fd83",
       "ticker": "RKLB",
@@ -237,7 +285,11 @@
       "publication_quote_at": "2026-10-21T11:30:00+00:00",
       "pct_at_detection": 1.84,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.08,
+          "price": 221.00999,
+          "quote_at": "2026-10-21T13:30:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -261,7 +313,11 @@
       "publication_quote_at": "2026-10-21T11:30:00+00:00",
       "pct_at_detection": 1.84,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.08,
+          "price": 221.00999,
+          "quote_at": "2026-10-21T13:30:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -285,7 +341,11 @@
       "publication_quote_at": "2026-10-21T11:30:00+00:00",
       "pct_at_detection": 1.7,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.08,
+          "price": 221.00999,
+          "quote_at": "2026-10-21T13:30:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -309,7 +369,11 @@
       "publication_quote_at": "2026-10-21T11:30:00+00:00",
       "pct_at_detection": 1.37,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.08,
+          "price": 221.00999,
+          "quote_at": "2026-10-21T13:30:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -396,6 +460,38 @@
       "price_at_publication": 381.4305,
       "publication_quote_at": "2026-10-21T08:05:00+00:00",
       "pct_at_detection": 3.02,
+      "checkpoints": {
+        "2": {
+          "return_pct": -0.72,
+          "price": 378.7,
+          "quote_at": "2026-10-21T10:05:00+00:00"
+        },
+        "5": {
+          "return_pct": -0.37,
+          "price": 380.02,
+          "quote_at": "2026-10-21T13:05:00+00:00"
+        },
+        "8": null
+      }
+    },
+    {
+      "id": "a5dcc24422d4",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
+      "headline": "SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up - CNBC",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PUXotbEFpamZqOGNVR1V3QjBZa1JlMk9BYlEtSXlRVVdZaUx5enhFczJmYzd6RzluMld3T1IxWFpKdUdFd3RLU0hxWTRuV28xVXRhUGt3QUlRWXVnZjcwNld0Y0Uzc3ZySXc1Ykx0dlA5SGtVbVFTZkN1QknSAYIBQVVfeXFMTjR2c3F2OV81OXNqTUxINlRMODJwbzhSNjgxNFlDOURjY0dxSDczVEZKWUdZaWRCc0RGMERLaEY3Y0NJMkIzdHFLMktLTEpkbHY3NTRyUllEYmJ3TWFFSXk5LUZRYUg0NVdpODRzaWJ0Slg3U293UkpETms3aUlDeWlmdw?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-21T08:05:56+00:00",
+      "first_seen_at": "2026-10-21T14:05:13.796197+00:00",
+      "estimated_impact_pct": 1.9,
+      "confidence_score": 72.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 2.07,
+      "price_at_publication": 381.4305,
+      "publication_quote_at": "2026-10-21T08:05:00+00:00",
+      "pct_at_detection": 3.13,
       "checkpoints": {
         "2": {
           "return_pct": -0.72,
