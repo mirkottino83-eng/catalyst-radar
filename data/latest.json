@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:15:25.573592+00:00",
+  "generated_at": "2026-10-22T21:46:49.609855+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -15,7 +15,7 @@
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.63200378417969,
+    "dollar_index": 101.6240005493164,
     "macro_score": 0,
     "tech_bias": "strong_negative",
     "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.01%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
@@ -37,68 +37,25 @@
       }
     ]
   },
-  "catalysts": [
-    {
-      "id": "56e267af586c",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Amadeus explores next-generation flight searches in partnership with NVIDIA - Travel2Latam",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Travel2Latam",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN3FHcGFfX29HcGZEbDgzSzhfVEgzSlgtZG1sakJldFNvVi1nN21fZWU5clVOeXAzWnBvcExzdDBzU3YycVFaM3ZKRUJrQVNRV1NJZE9UZEVxNGJYOE9scldkeWcxSkI5UG1UNTFjRnI0VDZNaVpYbEl6Y29XbWFpTHBLNnMxbWVXM0x2cnZkM0dfYndocWpoYzZQeVg3aHBSejJLWng5OVF4WmRmOEpXUGFOemg3VnFtS0Y3cA?oc=5",
-      "published_at": "2026-10-22T15:16:10+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": -4.13,
-      "short_term_change_pct": 0.06,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T21:15:06+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.3,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 54.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-22T15:16:10+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 74,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 51,
-        "macro": 0,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [
     {
-      "ticker": "CELH",
-      "company": "Celsius Holdings",
-      "category": "Consumer",
-      "priority": "normal",
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "category": "AI / Cloud",
+      "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": 0.21,
-      "short_term_change_pct": 1.32,
+      "current_change_pct": -8.51,
+      "short_term_change_pct": 0.82,
       "relative_volume": null,
-      "quote_at": "2026-10-22T21:12:01+00:00",
+      "quote_at": "2026-10-22T21:46:07+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CELH"
+      "tradingview_symbol": "NBIS"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-22T21:15:14.639051+00:00",
+    "updated_at": "2026-10-22T21:46:36.288895+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -108,35 +65,35 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       }
     ],
     "geopolitics": [
@@ -164,6 +121,15 @@
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd19fS1N5MG9ScWZka1NXVEM3S1NoUlBSTURnR09nR3Y5SGIxRFFpRktHNHZXeElmbzFPcTBkMUdNNXE5MG01aWhRVmhKSTVGZVcwZVBNRWxHTGxQc1JpQWZBRnBLNTVPWkoyRnFIZkxSTnI0SktYRGQ5dlh2aWxhSWhOVVlMVjktd1hHak1PV19HbXpyNS0waGRfVXXSAaIBQVVfeXFMUGJ0OE81VjRRZ1dhN1gtLVd2d2szU19XZzRNREJQdWV6OG1mRUhtQ0JTWXZYc3Jqa0FOdkFoWTF3b19JMEx3YW9XYkJRbXRlVHkxcWpPbWx3bVVydFBySV9yMW9tVFZRVWljYUNXeEEwNXMzSWJmeEdwdTZwaHh6VG52alZDQ3dmcU5NTXE4MWk1V0w4ZHMzX2FkNXUydndhTktR?oc=5",
         "published_at": "2026-10-22T20:58:09+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Darline Graham didn’t talk to Trump about Russia sanctions waiver during SC visit - The State",
+        "source": "The State",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IdC1lVGNvLWE4R1YzcXpBM0RMX0N3UWR2VVdDRlFGUEpNVnVwaXY3MkM2MlRmTFdkX1gtaXczaTBQajhvUHNfQ0RxcmMtTFdfWnVrU3hpWmhGdm0yY2pjZHlpZmoyaGlhN1hEYVRmOTY2RXZmcnBwWWdoVdIBe0FVX3lxTE8tNnhZaW1lNkg2dGszX2lOek9OX1RxOWpMVEhQN0ZsekVQTHh4Wk90X3RZRm92Rk5USFd4cjdzcUZ4Q0lXSjRzeXZWT3ZUQjczTUs2bEdYay1QaXJZbHJTMlhlbmtScHNUa0NBUUppUC1mam1FWHJXd2tTZw?oc=5",
+        "published_at": "2026-10-22T20:53:20+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -204,20 +170,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil soars above $113, Nasdaq plummets in worst day since June on Iran strike news, AI spending concerns - New York Post",
-        "source": "New York Post",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbkpEdHl6Z0tyUTJvUmt0aHc1b2s4Y0VSTU43akFRMllIRU1za2FoUzJfcjhiS0d1b1lrOEJ3WDZwU0FHeEgxS2hvaEZKUmVVUXYtTmlZYm1RZlhBTWU4WWV6ZWFaNEpRTG01RHVWNGRoOXJxZXlmR3RxMm1weVlrenVTcFZQTXA4eW9PN2dfeHZScFNtOFp0Zy02cWRIYW9ZTWt6azJHb0dFWWw0OGlCWW5MLXJqZEF1a2c?oc=5",
-        "published_at": "2026-10-22T20:22:22+00:00",
+        "title": "Oil prices top $113 on worries of Iran-US escalations after midterms - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ1lrWWZEZzJjT3ZLejlfMHVYXzhoWkMtMWlJMzZEelp6aWNsNk5wZU9mOFBwZDFhUi04SnpjTU1WQ3NndjZXeUJUNl9sTXBWakw2TTRRN2NWSGVmME9sWnpLcVZreVFfS25heWdwRk16RDZSRzhxbkFxckNxR3NQV244SEF1Yk5HaWJ0c2dVV0xFZnhzRGlzU0l0cm5Bb1dSTlk0NnIwZWhrbEJHdmdLangtUnAwcHJqTmhVTFFVUlFYTFpBb0pOYjlB?oc=5",
+        "published_at": "2026-10-22T20:04:36+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Yttrium: Beijing rejects calls to ease export controls - Table.Briefings",
-        "source": "Table.Briefings",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUMyY0liV0RrT3lOSVRnMnNkdlNDSUxuS2VValQ1NURqT2dZR2pwRWxIVk9FTkZVdGpLU21oMmliZjVubW5Bdm1fR1ctZHpWWHVvYkZFbHRxY2QyMzJ0REk2ZEIyWVRyX1lMX1RlZkRyOVVlMFBYNk84SVN0TG1VazYyTXo2dmVzTXEwNUdGN2M?oc=5",
-        "published_at": "2026-10-22T20:07:43+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -240,21 +197,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pro Tem Paxton and Sen. Pederson Celebrate Opening of Taiwan Regional Trade Office - Oklahoma State Senate (.gov)",
-        "source": "Oklahoma State Senate (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR0lmRTYxMmNRVm5GZFRmT2g2U0Y1TXktYzI4OXRrWk9ZWnExbWhDR3AycWtqUW56NzZ2dnBvQ3J1bmZURTFteVh0bnVXc1JTRlpObXlhQzJPMVdNcVhmQkJIcC1qeV9XZEZaNEtYOGw0XzVfak1YOUNfWFJvNUNZX0w5Ul90Qk1qaW1WTHNKYkxKaUZwd3NPaWEtN0gyY1JZMG5TNWF4N2RWdlItQzNUZUpLeWJEOUFaVS1vYk5vOEZpZjFBRmR5THdvanNuWE9V?oc=5",
-        "published_at": "2026-10-22T16:26:24+00:00",
+        "title": "China Buys Far Less Middle Eastern Oil, as Exports Hold Steady - الحرة",
+        "source": "الحرة",
+        "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE51a3hmcV9NTjZQUm1hS1BNaThhN1hXX3JvT2ZWM2R4WFJwdk1UWGtjMFk3Wl94Y3hBZDUzSjBLRnVvUQ?oc=5",
+        "published_at": "2026-10-22T18:07:45+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU responds to Trump diesel deal with new Russia energy sanctions - The Kyiv Independent",
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMTVMcHRqTVUwLURCMFNkNlJaS2tzVHpHdTNZemhvSEhnU01xemdYRzdaWGZsekxHMy10UTJXMFh5N3c3ektDalkxUmJNVnhfOFZSTmhHdlVRd2FxSWdpLUhxUjRjU1k5aEQzRWo4TDZpdm9jQzR2Ukl5MXQyU2U0MmE2NFJtRFEzTWNtT0ExRmMwRVY4YW1iaV9R?oc=5",
-        "published_at": "2026-10-22T16:13:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -274,9 +222,27 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China remains strong driver of trade and air cargo - Air Cargo News",
+        "source": "Air Cargo News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX3Zma2pSYlV6N1VvSTFIUDVKVTlueS13bm5hdjhaYW5NckJDREtRRWRaSUlSOEg1LWx3STlhY2ZhTXVVUV8yNWI0Wm55N01NQ3FwVXgxVWswVy1QRTBMR25xcEtZb2xiQzRsVzJKTnVHalVGVGN5VlgweVZ1d29uZTlIQ0tiaWl1YWlZd2hCc1ZhdGVETkVxckdmRm1WNWFRZ0VyZQ?oc=5",
+        "published_at": "2026-10-22T13:23:11+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "3 big reasons Micron and other chip stocks fell hard on Thursday - MarketWatch",
+        "source": "MarketWatch",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGZPNEpMdnlfTHU5OFFIbXZBM0VtWlJyWWhJTDNHWWRoUlBWLTdSR28zOXFrOU9GNG1Db2VhQ1VNVEZweFFJYlEtZTVnUTduQkR2bkRRdWJVQnhEZ3FzS3B5cTJ2c05tRTNLOExzY3BuVHV0MW9aRUlqMVhUTHExcDJHUkppaXloLVZta0hNMjhrSy1vOURaM3E3WUZaVENCRFRYamY5a1dYNHdNUTFYQw?oc=5",
+        "published_at": "2026-10-22T21:19:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Alphabet (GOOGL) vs. MSFT and AMZN: Can AI Investments and Google Cloud Growth Unlock a 26% Upside? - Yahoo Finance",
         "source": "Yahoo Finance",
@@ -292,15 +258,6 @@
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTBqTGdTQ2hVWU5tcE9fZGp4YzBBSTlKbHVqbWc2VkpjWW1pdEdPLWRqamd0aTZCNHduRmlhY1puMTd1RmVjMktlLS01VlVSdlpPdXd0VlRxbUhlRnlLVGx3MEpTNWVmVmNfeWdvbUcyWTlCcnJEYkliQUxTaGloTmoxZEgwd3ROUjdtRXRCcWpfM0pQSm92cWJneUljUTdZLVhTUzVQY2o3QQ?oc=5",
         "published_at": "2026-10-22T20:17:43+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron Says Its Next AI Chips Need Even More Wafers. Here’s What That Means for the Stock - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU0pvVy1Fa2JVUDB5bTNnb1lTWlVfYnlLMjNheVB1M05HaDU4Z3JIMExJVFRDLTluT1ZWT2VMd0VJWDJMVlVrVUxWZExMLUJaZUlRUU53Q0JJQlZITlJNazVoaThjbDIxWVBkTVNiWDVCeWlqSnJfcWlvQXVFekJEOUo3TG9ROElEWHFhcnNpWnM3MFkz?oc=5",
-        "published_at": "2026-10-22T19:51:31+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -341,10 +298,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Siemens Healthineers, Nvidia launch radiotherapy AI collaboration - MassDevice",
-        "source": "MassDevice",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeW56bjNCNW5WdXBWSG5NZjhlMHV0YW80a2tBbWN1QjlEQmRHcmstSTViV1RoOEI1WjB3eWNzV2xEVWtWWHBFT2xWRDg3blNkXzlscjBTRzlFaXhHVHlGZnRTWGRrcFA0WVZWTjJJLXRTMDFXT0Y5SHlfa1c0SjFoeEgwT29fTG03VElIbzRETnJxVmZ1LXZR?oc=5",
-        "published_at": "2026-10-22T16:34:19+00:00",
+        "title": "Chip Stocks Fall as Supply Warning Deepens AI Selloff: Marvell and AMD Sink 8%, Intel Drops 7% - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjE3M1E5SV9QdGI0djdaX000RGV5MTRzLWlJZ1BLeEZ4X2dwWXlwVWVmblhIVEhiMXU0U2JHOHMzV2pHM3JnZ0RfWDRsS2dzVHQ0SG5KczFUVFd4ZUZFQmRjZUpPRS01RWVRdnFwTGFYcG51NkVyN0JFTFZBaGhwLTVrTXVMUVd5SmxSajRacF9vMzhuZWRn?oc=5",
+        "published_at": "2026-10-22T15:45:08+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -353,7 +310,7 @@
         "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns - UC San Diego Today",
         "source": "UC San Diego Today",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnJ1QUIyV1RUdGlOVkZkbU9UWnNvT1B5QnA4eTVVZ082U1FYTTdCS0dpTkFOOW5qQlktT2lHWERobVZqUGdHbUhBOUpMdXU5ZTRBYVlyZURiQ3hhdlVDU2U3aG5QMFpYRG1VVXBzSkZQdU56MjFLUktsY2YwN2NIaGZXQkNOYkdFOHVkU0VtaFVQeHBfaEo5aG5NdkF6cno3NHc?oc=5",
-        "published_at": "2026-10-22T15:31:40+00:00",
+        "published_at": "2026-10-22T15:40:09+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
