@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-22T05:24:58.158091+00:00",
+  "generated_at": "2026-10-22T05:54:33.098480+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.145999908447266,
     "treasury_10y_change_bp": 2.8999805450439284,
-    "wti": 98.94000244140625,
-    "wti_change_pct": 1.8425124934769332,
-    "brent": 111.08000183105469,
-    "brent_change_pct": 2.076826082125005,
+    "wti": 99.05000305175781,
+    "wti_change_pct": 1.9557400885606535,
+    "brent": 111.12999725341797,
+    "brent_change_pct": 2.122769311773509,
     "nasdaq_level": 26702.857421875,
     "nasdaq_change_pct": 1.0521816462209843,
     "sox_level": 11505.5556640625,
     "sox_change_pct": 1.9651704716234342,
     "vix": 16.68000030517578,
     "vix_change_pct": -3.639509995399659,
-    "dollar_index": 101.59200286865234,
-    "macro_score": 67.6,
+    "dollar_index": 101.56900024414062,
+    "macro_score": 67.4,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +1.84%.",
+    "summary": "Tech bias positive. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +1.96%.",
     "quote_times": {
       "treasury_10y": "2026-10-21T18:55:00+00:00",
-      "wti": "2026-10-22T05:10:00+00:00",
-      "brent": "2026-10-22T05:10:00+00:00",
+      "wti": "2026-10-22T05:40:00+00:00",
+      "brent": "2026-10-22T05:40:00+00:00",
       "nasdaq": "2026-10-21T20:00:00+00:00",
       "sox": "2026-10-21T20:00:00+00:00",
       "vix": "2026-10-21T20:15:00+00:00"
@@ -34,54 +34,276 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-22T05:22:18.929079+00:00",
+    "updated_at": "2026-10-22T05:54:21.188037+00:00",
     "open_market_required": false,
     "window_hours": 48,
-    "status": "SOURCE_ERRORS",
+    "status": "OK",
     "sources": [
       {
         "area": "Medio Oriente / energia",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 14
       }
     ],
-    "geopolitics": [],
-    "corporate": [],
+    "geopolitics": [
+      {
+        "title": "Canada’s Trade Diversification Push Not About Replacing US, Sidhu Says - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVXdIOC1RNXVRSHJ5MWtBR1R3b2E3N3RwY2p1bnRoRXdTR3NHQmtSbUNkLXhWajVIUHJBMzBtWi04Sll6emZsbnB4azR2VFRWYUFnSnpnS3JPYllzeHpUaUxLX21HQkM4RHZJVG5vZk1mQlJ5a0xMN0VRM0V1NEtzbTZocXVpamJCUW81V1EtTC1jRUp5aFRZRjVUV3owVGFzOHlxOFAyU1k2VVM2Q25rQjc3NWtUZFJ3U2pPdUxNNXV6TFk2VnBGOQ?oc=5",
+        "published_at": "2026-10-22T05:35:16+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil climbs over $1 on more Houthi attacks in Saudi Arabia - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaUJCYWJFR1VUQ2JfYVlWWVBxSzYwMnEzcVQxUU9faWFiYm9qNGxZd2NrX3c1MDZULThNTHRmdG9LOHoxbDdGaHlHcms5aGo0QWxWVGJrSzZSREl6QjJ6eWNGclhyVWpSa0VtMHBIVnBJc2J5YWNMUzdCSVhneWtkTFpqT19Bdw?oc=5",
+        "published_at": "2026-10-22T05:20:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia and Ukraine trade major attacks as Trump touts progress - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDlrSkoxT2Z5czM5X0lOTmpPRURLQlQyMjE2RGh1cFNzZDdvYzFuQXV0T3N0aGtuME53akIzMl9zYU44QWJ1QzdSLS1ZZzlRbEVfWEVIekZ6QWktaENfcnYzTmI4X0tOOEk2Z0luWC1aVHUxN096MWNXUEJFTGZWbzk2NVRidFY5Z01QOW9BX05TVkdST0lFcHhZUFI1Z1V3SFhwRDRxNHhnVWsybXJaMUdXWTY?oc=5",
+        "published_at": "2026-10-22T05:04:43+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkp5bjg3WHRYdlFYTFc2b1VRRmVpd09Oa0Y1SkxUR2xnUTFyTXAyMG9zcUFnN2pIbU1WQVJBdmVqNG0xZDk1UWM0N1M3djhNaWVwbXVBamhRS3dMMWtPRlhQbGFXWk9BTXVXcnppTVB6ZWl3eTRzM3BqclJ0MlE3MEJVSXhWTUlnYm1aVGVGa01kcmljSXFBX1NTWC1Hd1k5X3hwcGtyRjdtblFhVG9RdmlmVQ?oc=5",
+        "published_at": "2026-10-22T04:37:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0a0dDNHVBZ3htWXJxMWhXS19sRkdkMUNBcXF0MzZWejJBMEpLU2p2WEx3Xy1XaHNuamhaUVBmbHU3OG12Y1ZBaVdHRjJ5ck9jV0U2ZGtyRE5KVEdIUTlOa0NjZlJqeU1YRXfSAW9BVV95cUxQbERlN19LekgzYkNqdXFjd3FJb0lYM2JOaGdhWU1oSFdaSVFFTExkeGM5Y19peUFfR1RxZkczR2VwY2tGTGF4ek11SGcyUVZJeURTLVNyVmw0ZEtUdU5WeGVHT0Y0NV9fSkhDd0hRQzg?oc=5",
+        "published_at": "2026-10-22T04:26:42+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "One killed, eight injured after latest Houthi attack on Saudi Arabia's King Fahd airport | LIVE BLOG - i24NEWS",
+        "source": "i24NEWS",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVZVV0JudnVrNkptd0VSVEkxWEV3UFF1QkJZR2F6X05OaU1OQVp2YnRNeXpBRVFRaEU2WVNlUGVDVndodkVFb282WEltdGY3eGplRWZqcXlyTmxpdmx0T3d5S21TVGEtRzR6NmctWS1SRU4yZnNOcXJxdUIyS21Ydmx3U0hWeGMwS2JMcy1CTUdZOXc1Zzl0QjFxOGZIYjVIcTVQblBFYlN2WmhZWHBhZkNlTmVnZG1tWUlwU1NyeWNVMEdmNExHU3kyRXZTVEtzZmMteXlmTmRXd3dsQlE?oc=5",
+        "published_at": "2026-10-22T03:20:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "North Korea-China trade grows as new border bridge opens - upi",
+        "source": "upi",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa251RFpsaTdtb2tBcTB1emJ5dmd4ejExNXZXdFdKUThnTnhOVXNreWdmYTctLUhkc25DbVFwVlRRRTVlNU9mT01qbThucl9QQWtGYjg2cEJsejh3RUEwd285ZkViMlBSRmJNSXJLS0RqcDhmRGdyYXNHamZQbWNaSkNhY3NtN1F0T0UzTW5VQmRPWEYtYTB0dWpMY2FOTHVtZHQw0gGoAUFVX3lxTFBqcFRGNGd5aFpHWks3Z3hTQmRfRnFGTzRpRXFQaGlQSV8zY2FDV2JDVktWR1BJNXdQaE1wM1FQOW5YeGIzWjhRbGZJSFpaaHhwekpvSFNZT0pXdEVnRnlsTE1tcEc2eW1oWVUtSFdCZkw3Y2J5LVlYT3RDak1fckZOeXhETW5JNFdvQXh0YzdaNGpETVdFQ2daS21pLXdTY2luRUV5TDRBQQ?oc=5",
+        "published_at": "2026-10-22T01:56:14+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmeWNaNkZfMWgyVENuck5jTjBjUTZKNWE4V29DcW8xMURzclJjUFJsQk5Jb1pwTFNtcnJsU3R3RXI1YW8wVUxtejV2bFVkXzZrUF94M2tpbm5nQVU?oc=5",
+        "published_at": "2026-10-22T01:07:34+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran’s Fleet of Shadow Tankers Has Run Out of Oil After Monthslong U.S. Blockade - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa0NkenN2WUo2NHU0WXRYU0dmdldBVmhIVmphdk9HZFpMckZOZ2paMVFiQ3BaMHFCZ0lydjdyVHVWWUFwNUwzblVZVWVacU8tRXBCVXI0V1pibHdaT1BtelN4Qks5eVA0VDJkOGdWS1BpNWhZZVdtRXgtMmJ2bXFkYkZUMlRSNjF0WTBVZEZKdkVkakgtd0R2SnZHUk9MSHNJYXppMUpWNXhDMXFJQjg1QTBoemZBUG9GWVNwRlZyZW9xYlE?oc=5",
+        "published_at": "2026-10-22T01:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says Russia sanctions could have kept US citizen jailed amid questions over his release - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeW9LWmdfTFpVTXd3amp0N0ZYSnowcVlIVDdUeTNwdDJkdlNXX3o4bWEwQWZqWnN3Vk5Vc3BfRTktRVBSajhBOTkwNDlKMGFjdlB1Qld6dWN3YWFhaW9wV2VWc01OYVN1SUVDcUw2cWxsb1oxS1hqYWhjZGZRaXZ6aFVFTjZJdjlaQ19TWGdVZlBoVEEtTUloVXc3cU9weVBKUXVCc2VjRktRWkJyd1cyOUhoUGtveFB3RWlSdWdMdThGTm5WcFVjekdJYklCQWducDNkT0JXVGxmbnlyc2c?oc=5",
+        "published_at": "2026-10-22T00:26:29+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump lashes out at reporters pressing him on Russia sanctions waiver - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSEVqOVZjRDRpREp4em9RdWgxZ1ZnaGNSYUtlWWM0NVhvbTJpelJKNmFnVlRIbHFyaHAzQjR5b21JRF9kQmdHSlBjampfYTVaRlcwVXZRU0t3WGQtcC1rSVRhUjVFZi15UkJ3UXRIN2pXNDhkVG5ueVVydFlNUjd6UmpOdDFCRmw0Qkl1VTZ2TUpqaXJOdW9wNGZSMGtkWFl2czMySld4cUlLSzkxdFZiTEllV0pnWllXeHpySW1zSlRtXzNNcUE?oc=5",
+        "published_at": "2026-10-21T23:19:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uR3lheURKOHZfRVVGclF1YVpoVE9QcXpBTTlkc2JjUXV2RTQ2bHY0SFZCa1hmTXVTWU1XTnRaVk8yWk1XX2lUbWl4LVNjQ0Ficm5UdEdMMDh0S1E?oc=5",
+        "published_at": "2026-10-21T21:27:41+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "The Paradox at the Heart of China’s Export Boom - Foreign Policy",
+        "source": "Foreign Policy",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEhUTjVuRjI5UzdGU1dfRWMwZy1LYXlwcnU3V2JTNWQ2Vl9seXpiOW5YVVNWQlJTeV9KY1YtOXR2aXVwV1plc05Gc01WX2pqdHAyQ3VxTjJYMERxekllV2dIZnBRRm9qd3AwWloxQ0xLb0NMdk1HOEdmQnZBcU5vd3R3R2VCT0x6RXcxN0t4NDE4MEQ0T0JEeGhR?oc=5",
+        "published_at": "2026-10-21T21:13:04+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU Adopts Record Russia Sanctions Designations as UK Targets Oil, Crypto and Supply Networks - JD Supra",
+        "source": "JD Supra",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzRQazIxZllhUXdpbDRMSV92Zmp5aXk1cTRLZ2N1eXlEYVViUHQ1Y25yNExNX3E5QnpUVlItZjJzSnYzdEhadWlGUVlkS1V2YUhKbDlnUkcyUDhvakI2Y21wWTVQMnNvbUZ0dUg0Uk1GNDFveHVFMGF0M0tDV3Y4WGV3?oc=5",
+        "published_at": "2026-10-21T20:42:56+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump links Russia sanctions waiver to release of jailed American - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSVd2UWJ4RVp0ZkFhcnIwMnQ2dWZpekpxei04cTllSC1rOUtrQnV6WjBrM01UNXlGNTVNNktUOHFWb2Fua0hWYjE3bENxOUY5cVB1b2lvcHQ5OE9vRmxsSkwwQXdxZDlveE9NdGVHSDRTX1kxeFd2eGd1eUtidEphTlV30gGHAUFVX3lxTE1RWjk3ZTQtajdpdV9SZVMzeVRHT0xyd3VSV3dyRlduZEVwM3NUUFhPRTRmZkRUbVFDOFUtVHNyNUZSdFhHTTJsTEI0M2RWQ1pJWGxMd25PSkhFLWZZdFktSEZ3cDdBb1p6Q1I0YUlhSWJFbENNNERoNW5waTFHZnpCaGNoMTdvbw?oc=5",
+        "published_at": "2026-10-21T20:15:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
+    "corporate": [
+      {
+        "title": "Do Vytrus Biotech's (BME:VYT) Earnings Warrant Your Attention? - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeUIwUzNFV2FxeTNnV0xkblFIVUlsRjI3cVR0YmJRZkFmRWZmcVFETkhLVURWakJJU3dtazlRaXhkMFZFN295bVFpTmY2NUtuS0xRaU4yMUc5SnYtOUltc0RLaWNPcVFseXFNcXB3bFZ2OHAzbjZ3VDVXOXNMNHdWWlNiRlU0M1h1S0VBd2xmWm9TZXRiN3F3UUJSNFJCWVU3bzdLWTBnTU1HVmx3eDk5SmZPUXlWdlRPRHZtT1hScE0xTHlWb1JvbFZHMGVpcFHSAdQBQVVfeXFMUHFjZDRZV0dNNko4ZjhVZThVMzlPdU1Na0VzTlU4dWxKMVdzWEpFLTNNNGJBU0ZWN0R5bTAwVTdTTHFpUnZOY2lmdENBU0FDQ3ZrV2YxaFYzSWt4VjlGTlVvd3JfVTM2aF9Mc0F2NXFsZzA4V3F0bExsNmtCcHpOMkt5ZjE5SDRSRTZQc2JGTlRrWHI4d0o4VV9iMmlMOS12Z2NNTDhLbUx5VTNiNEhJQXRLSXFfZHhQOU1nQUgzMlJWZlR5b3VuSUloT3N3ZDlUZGJVQkI?oc=5",
+        "published_at": "2026-10-22T04:52:30+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "UK Energy Stocks To Watch As Oil Prices And Inflation Stay In Focus - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZXd6OHp3YWhYd096dDlnWXdONlg0WW9ydWRlSVVuNjFPejAwS2Z1ZmdkTFpFZTJ3NTN5bnBreHhKSVVoNFVGcV9Yd1ZZMTQ2dWc4NlY0VVJYOGxrX2dudFhZeGxaajRhbmVlTUdXd3E5d00wdXhia0tCc0dsQWVSYlY5Q1NkeE9KQ1Y0?oc=5",
+        "published_at": "2026-10-22T04:25:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Micron (MU) Stock Looks Fully Valued After A Critical Minerals Deal - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUEdGRmdiWk0xMkVvSG9zT1ZZWVBMR0JQNUt6Vkk2OXpIVjRFeWVrTXdCSm9DT0lWQXluSnhtaXhYR0ZVbXR4NUNLclluWnRGTVVodkJnWGUyQnNiTFRMZVZOaTN0TXhGU1AzQ0Z4dWZ1Y1o4dTFIWVRHcVVQZVZZWmVsZkZsOW9rSVRxS20zckxIekI1VmtJ?oc=5",
+        "published_at": "2026-10-22T01:23:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What Does Intel (INTC) Joining The Terafab AI Chip Project Mean? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR0lUSjVmbzVPTmdTVWxETE96em1ndU45NWlLdUY0UnNOSjRQU25RSmlORkFvZ2ZtZ1g2WUVhOVo2MHBDNkFiTlVVdHBKUVYyUXVUZGJfSjRzZVh3eEQyNEVUY1BEb0ZDajhZeVJLbTE1b050OXJMQjFybUVOWWJKQ2RMZVRuakdDc2pCRHM3SnJMRkdNTEZ3aWxlQQ?oc=5",
+        "published_at": "2026-10-22T01:22:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Predicting How Today's FDA Approval of Zanidatamab Will Affect Gastric Cancer Care - OncLive",
+        "source": "OncLive",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSG54emladEVoSDNuWkFZSkRfc0xnV0ZwU0ZUX2s2akZWQTE4ZGExVHhyWnhHaVA5YW5jbE5sYUNoTFpkQzJDWC00d0tic3NmbS1Vd0xnR2RGQWgxYmI5TnpQSlVVUGFpbDA3UjYzWEEyZzU4Vkl5RUhGdVpsMWJFb002U01BVEJ2YVBFV1huRXZ0cUl5VnY0U3djT3JSRk8yaFJJOF93dVY3QUNVOTlzOUpNUQ?oc=5",
+        "published_at": "2026-10-21T19:33:52+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Patronus Biotech Secures Australian Approval for First-in-Human Trial of Next-Generation Malaria Vaccines - BioPharma APAC",
+        "source": "BioPharma APAC",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaTBjNmMyclBhN3ViTndBOWJ5VEF6Slk5NGxPdVVLNnVnTXNrakc3ZzJ6dkVCWmh5X2s3Q2tzVGRHbndzNjllOFlWNHZPQnJtN1ZrbnR5RUEtUGFIODFZMzczRExlR1JCcU1CV25PX3ZsRUV5bFJrWUktNks3bXJmYmZRMDFBLWhOYllxY3pnd213RWNOQTVrNnhBQXJxZ3ZDb016MW81ZHZXWGVoQk1CcHNhOWJzLUotQm84c1FGSFhjZFdZWHEtVnl0RFBUblVpb3ZRZzN4TjBVXzVxTGNDZEtKSQ?oc=5",
+        "published_at": "2026-10-21T18:39:32+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Edwards wins FDA approval for Pascal Precision in tricuspid valve repair - MassDevice",
+        "source": "MassDevice",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMzJlS3lfMVpDTHJNTjlFRVEwTFdRY0RrMkEzZUgxRFN0Mi1GWGZWTlhUck5SMDdHQ000RWxpbWhhMW1uRXhqNkxpTzBjZ3cwSUJGWW9pZ1pIVUVXZXlXS1JLOTVjYVh3TVM3cWZSQVEzVGh2RzJZUU15cnY3VHgzZ2RyU1p0MWEzWmFlVEF3b0RXRWhwbzJlYkpyMWpLZFpQLVE?oc=5",
+        "published_at": "2026-10-21T16:53:09+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia reveals plans for 'an AI factory in a shipping container' to build data centers in weeks, not months - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTGZiNW1ZS2NSU2tlWUI3dWVIa3BGa29BemtncHFaY2lCUWpxbW51Y1RsMEItelRSNEJMdS1tLTM1dy1GTmt4a0xva3pvRnJLSUs3alU4Zl9iZzg1ZDVJOGtqblh1dHZWYjhaN3pZbXJlYkNJWXpMTmNRWEpUeDl5bng5SXNNNUMzcHI3Z2YyRGRWM3RPOFVUSy02RTBBaWg5ZUdJOGRjellvZ3Y3SmI5cHNFOXpjZXFVWng4V3pFUVdxWnpZcVhWMWF3UFpwRTVIVzFMRWFJUjR5aVo2SEdWMVZWOUlubkhxeUpFVUQ2aFJvQjhxcEx3?oc=5",
+        "published_at": "2026-10-21T11:30:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout - NVIDIA Newsroom",
+        "source": "NVIDIA Newsroom",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFl2YjlqcF9vQ0s2QkdFMDBxNzdVT29ibDFOOUhxRlZhSDJmY0M4VENxOUNyLVNRdEFEcG54RkdUSHk0X2c4V0xOb1d0UmI3aHdSR0d2V0hRd2lQV0hWcXJfcU5vc0JzcUdOVzFTMl9XQjNaamF6ZTZSdWZuOU15RWVRNnBIMUh4c0ZfVy1JcDhUR0hGczl3UXBmcjc2ekxrVW9YMXdHU3lBYWZBMmxhbE5ScnFYTUhRZ0g1QjBpRmxCQQ?oc=5",
+        "published_at": "2026-10-21T10:43:59+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "NVIDIA Launches OpenShell Reference Architecture for Safe AI Agents - NVIDIA Newsroom",
+        "source": "NVIDIA Newsroom",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xVjJaWWVnN3FsV2ZrdlVrSTRuVEE2V0JWZHJRQ2loQ1czLVdiWXpvQkYxLTU2R0U4VVhkMGNZblBRZ0hyY1pnbXVZMXAzdmN0LXdRTDNSSXpwNmhSaHRzR09wN1kxendGLVRWQm9CTkJmZ2stRUE?oc=5",
+        "published_at": "2026-10-21T09:55:45+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
   "archive_count": 131,
