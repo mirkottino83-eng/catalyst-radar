@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-22T10:15:11.171382+00:00",
+  "generated_at": "2026-10-22T10:48:23.656915+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.145999908447266,
     "treasury_10y_change_bp": 2.8999805450439284,
-    "wti": 99.4000015258789,
-    "wti_change_pct": 2.316006139640292,
-    "brent": 111.81999969482422,
-    "brent_change_pct": 2.756846175715144,
+    "wti": 99.19999694824219,
+    "wti_change_pct": 2.1101342153012848,
+    "brent": 111.69000244140625,
+    "brent_change_pct": 2.6373853654022117,
     "nasdaq_level": 26702.857421875,
     "nasdaq_change_pct": 1.0521816462209843,
     "sox_level": 11505.5556640625,
     "sox_change_pct": 1.9651704716234342,
-    "vix": 18.489999771118164,
-    "vix_change_pct": 10.851315544525164,
-    "dollar_index": 101.64299774169922,
-    "macro_score": 45.0,
+    "vix": 18.15999984741211,
+    "vix_change_pct": 8.872898771932803,
+    "dollar_index": 101.63999938964844,
+    "macro_score": 49.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.32%. Geopolitica: Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
+    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.11%. Geopolitica: Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
     "quote_times": {
       "treasury_10y": "2026-10-21T18:55:00+00:00",
-      "wti": "2026-10-22T10:00:00+00:00",
-      "brent": "2026-10-22T10:00:00+00:00",
+      "wti": "2026-10-22T10:35:00+00:00",
+      "brent": "2026-10-22T10:35:00+00:00",
       "nasdaq": "2026-10-21T20:00:00+00:00",
       "sox": "2026-10-21T20:00:00+00:00",
-      "vix": "2026-10-22T09:55:00+00:00"
+      "vix": "2026-10-22T10:30:00+00:00"
     },
     "geopolitical_risk_score": 44,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
@@ -38,6 +38,48 @@
     ]
   },
   "catalysts": [
+    {
+      "id": "513607785b11",
+      "ticker": "SAP",
+      "company": "SAP",
+      "category": "Europe Software / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "SAP lifts cloud revenue outlook after Q3 earnings beat - Investing.com",
+      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOFpzT253U2ZOZGlpX2ozZklKd2FWRVBmSEhyRVZpeGRqbUJSSV9weEdKSDJTblpwZVFIZDBaUmV6b1BFUFRheDViTEpQRjdzblNENU8wUWRSX2RTdF9PRXVXZ21IVjh0Z2VMZlRsM1BCSDBFWkJMdFdZaG4yd3d6Zl93YWtHbW9hS2JhMG9WQmVmcGtpSi1MRkg2cEswRVlsV21OVzVad0cyTUs2R3hvR0VwSEpEZkZib3d6Mw?oc=5",
+      "published_at": "2026-10-22T08:26:57+00:00",
+      "age_label": "2 h fa",
+      "catalyst_type": "earnings_beat",
+      "current_change_pct": 1.69,
+      "short_term_change_pct": 0.44,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-22T10:45:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.4,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 63.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-22T08:26:57+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "SAP",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 78,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 55,
+        "macro": 49,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
     {
       "id": "aabe85d6c83a",
       "ticker": "NKE",
@@ -52,13 +94,13 @@
       "published_at": "2026-10-22T06:53:00+00:00",
       "age_label": "3 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.5,
-      "short_term_change_pct": 0.05,
+      "current_change_pct": -1.9,
+      "short_term_change_pct": -0.11,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T10:05:00+00:00",
+      "quote_at": "2026-10-22T10:45:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 10.1,
+      "quote_age_minutes": 3.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -74,7 +116,7 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 51,
+        "momentum": 49,
         "macro": 50,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -94,13 +136,13 @@
       "published_at": "2026-10-22T07:13:35+00:00",
       "age_label": "3 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.5,
-      "short_term_change_pct": 0.05,
+      "current_change_pct": -1.9,
+      "short_term_change_pct": -0.11,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T10:05:00+00:00",
+      "quote_at": "2026-10-22T10:45:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 10.1,
+      "quote_age_minutes": 3.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -116,7 +158,7 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 51,
+        "momentum": 49,
         "macro": 50,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -125,22 +167,106 @@
   ],
   "movers": [
     {
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "category": "AI / Cloud",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": -3.59,
+      "short_term_change_pct": 1.42,
+      "relative_volume": null,
+      "quote_at": "2026-10-22T10:45:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "NBIS"
+    },
+    {
+      "ticker": "CRDO",
+      "company": "Credo Technology",
+      "category": "Semiconductors / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 1.39,
+      "short_term_change_pct": 1.69,
+      "relative_volume": null,
+      "quote_at": "2026-10-22T10:45:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRDO"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "category": "AI / Cloud",
+      "priority": "high",
+      "satispay_status": "unavailable",
+      "current_change_pct": -4.39,
+      "short_term_change_pct": 1.64,
+      "relative_volume": null,
+      "quote_at": "2026-10-22T10:45:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWV"
+    },
+    {
       "ticker": "TSLA",
       "company": "Tesla",
       "category": "EV / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -1.04,
-      "short_term_change_pct": 0.96,
+      "current_change_pct": -0.43,
+      "short_term_change_pct": 1.29,
       "relative_volume": null,
-      "quote_at": "2026-10-22T10:10:00+00:00",
+      "quote_at": "2026-10-22T10:45:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "TSLA"
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro Computer",
+      "category": "AI Infrastructure",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 6.01,
+      "short_term_change_pct": 1.0,
+      "relative_volume": null,
+      "quote_at": "2026-10-22T10:45:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "SMCI"
+    },
+    {
+      "ticker": "MSTR",
+      "company": "Strategy",
+      "category": "Bitcoin / Software",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 2.0,
+      "short_term_change_pct": 0.89,
+      "relative_volume": null,
+      "quote_at": "2026-10-22T10:40:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MSTR"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta Platforms",
+      "category": "Megacap Tech / AI",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": -0.21,
+      "short_term_change_pct": 0.85,
+      "relative_volume": null,
+      "quote_at": "2026-10-22T10:45:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "META"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-22T10:15:00.025955+00:00",
+    "updated_at": "2026-10-22T10:48:12.958604+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -150,7 +276,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -178,10 +304,46 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       }
     ],
     "geopolitics": [
+      {
+        "title": "Russia bombards Kyiv with missiles – hours after agreeing to resume talks with Ukraine - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcUl1dGl4Qnd1VWl4dXBSZV81OUIzejg4VkdDTzVIaXJ4UXFKbkczMUdrQW16QVBZRVJxRDdEME5FaGV3RXFXUVBaQlk1V3M2Y3Fsdi1LbzZxT2RHTUpBdXp6Nmxlby04MUtpTWlXVnQyYU5MRmw0eThqSV9CZ043eXpsSTJlOThCX1lpYTJ5cHFQZGVxSEkxUDBSVjE5bWh1dEtVX0U3OGVnV0xIYXJj?oc=5",
+        "published_at": "2026-10-22T10:27:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump’s Russian Diesel Decision Weakened Pressure for Ukraine Ceasefire, Czech President Warns - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNm1YMDFIaFEyY2pGb2todkswcDZMRjBOZGRwNEwwM2E2dEF2cG91WEY2dkpRT29iUm85ODNvRFM5d29WVlhwRFg0eDNnQUQwWTladThqUFRPV185Qk8zUkQ2TFVkZG5nREQwZFVaaDVTNHAxRjhTVEFQUmFEYk4tZDFsUHNlYk1IRkZWZ3hOUEZWa0hSUGRkMDFOLUo5LWVJYWowWk93ekMyVVdpQjh1Z2Joc1lFZWcyTDJ1MjBxa2JJd2ozWmV3QWpn?oc=5",
+        "published_at": "2026-10-22T10:13:22+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. and Israel are planning for a possible post-midterms attack on Iran - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?oc=5",
+        "published_at": "2026-10-22T10:12:32+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Democratic Surrogates Campaign, US & Israel Plan Iran Strikes, Tesla SpaceX Merger - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSU92Qlk5Z1AwUlBNSWF4YlhVVjR6MVV3enVKUnlqSGNGWUlPbE83X1R1NXdyV0ZlSkgxb1NUQWlXQ2RPMmIzM2dqMElBaDladHVzN3d2WVdvVnJiSlJOTUhsYjZ1REM5dDhnSk9kcUN1QUVWTk1jWUlBQUw5UkdwbEpMelBYaGs0WTlkRHpwUXRkNEdaYkhCWUlXYW9aMGF4S05ib0lRck1neEJEczhWaXpMTXdJVmFzV1Q5aTRXQ3c?oc=5",
+        "published_at": "2026-10-22T10:08:23+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Beijing threatens retaliation if UK follows EU in restricting Chinese EVs - Automotive News",
         "source": "Automotive News",
@@ -192,12 +354,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China and Djibouti stress need to protect Red Sea shipping lanes - The Arab Weekly",
-        "source": "The Arab Weekly",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSzJLY3RxelVCVENwd1BMOWdRTDV1SVAydTh1TUItMHZ0N1VUWFVMeVlWNGJEbVhyM294NGk5d29lLVgtclJ6NW5fZzNiTGRCNEhRQWtXbC00UEZ2b1pFWDlGeFphOGJoZ3p5S1lGMjUxYndRV1NDUnpkcFdJRnhxLUNuMm55NWFIU0RUbTk0UjY?oc=5",
-        "published_at": "2026-10-22T09:47:45+00:00",
+        "title": "U.S. Reportedly Considering Major Strikes on Iran After Midterms - Time Magazine",
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hN2RlY0Vwc2hiQ1NHYkJibHctZm9WMWNlQ2x5VFY0NVhSdTdJQUdaQmZOZGxULVFXRC11aEVMMmNjQXlYV3J3SW9LME1YNVpCZmE0d1FFNjJjN1lER2lnM2FaOWR0dkRZa3hrVnZaYVU4U2Vvb2RXdUVBbzU?oc=5",
+        "published_at": "2026-10-22T10:00:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -214,15 +376,6 @@
         "source": "Hungarian Conservative",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQnprOC1xblVxTmlUUTVCZVFxRHZydlZiVml3Wlo4QkNmR0RDY0xwNVY2T3ZPQUx1ODBUOXhXLXB5VTJHcVQ3OU9LOGVUUS1BcWlYOFRsNFBQMjFvaW0xamltZEJMc0R1bEM5SGVXazhUNzlUemNSN0gtbGdwRWdQSjNRZUZ4ZkQzVlQ0a1VEZTBHYUxXQ3lZa0ZTLWpRVzVCQUpPVG5hOG9NajUxNVprRGZVRGdfZTZrU2xF?oc=5",
         "published_at": "2026-10-22T09:33:45+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia Hits Historic Kyiv With Cluster Missile Designed to Maximize Damage Across Wide Area - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTl9yNndoT3hPMlJxcUxpNzNFUlM4d01ucENvTFUtdmlhNGdMS01PZ0FDMDJEZTRBZ00wWkJYLXpWcFRaMVJOd09ZREo4LW56anBQUy1SdGZXakNVaUQ4ekpVOTJqUmZwTjhzb3VjZWpidE9JWVpMYk9QNzZpZGJJT3NtMWlIdXFyeHY5alZSZUJ3NEVaWEF6THpuelhDZUNtSks4RklBTUp0SHBwV1ZQZXRMeHVfOU5GQ2FfN190WTZPYTQ3eVE2bGRIdnFJNmNRWVNnSA?oc=5",
-        "published_at": "2026-10-22T09:31:36+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -264,24 +417,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Greece says it is implementing sanctions linked to Iran - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMFJaZ0t6eFMxSzJVenJlSEdyVkFjWXVuYmsxUy14ajVPdWZEMEUybm1ySE5zbzE1N05TNlVaeW1rZmNHOWVkLWxMQ193QzlRMTdYMGFYZmk2TzROdWptVDB5LXAtV3BiSW9nVERSSTF0bkpLWGVSREdja21vcFpGcnZmb1UtbUtFdE9QSUtVZENOMzJURl9Rd1lEbGZTVW1ISk5PamhUaUhGZw?oc=5",
-        "published_at": "2026-10-22T09:14:18+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "One killed, eight injured after latest Houthi attack on Saudi Arabia's King Fahd airport | LIVE BLOG - i24NEWS",
-        "source": "i24NEWS",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVZVV0JudnVrNkptd0VSVEkxWEV3UFF1QkJZR2F6X05OaU1OQVp2YnRNeXpBRVFRaEU2WVNlUGVDVndodkVFb282WEltdGY3eGplRWZqcXlyTmxpdmx0T3d5S21TVGEtRzR6NmctWS1SRU4yZnNOcXJxdUIyS21Ydmx3U0hWeGMwS2JMcy1CTUdZOXc1Zzl0QjFxOGZIYjVIcTVQblBFYlN2WmhZWHBhZkNlTmVnZG1tWUlwU1NyeWNVMEdmNExHU3kyRXZTVEtzZmMteXlmTmRXd3dsQlE?oc=5",
-        "published_at": "2026-10-22T09:03:29+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "'Trump' reverses course on Russia sanctions policy | Opinion - Savannah Morning News",
         "source": "Savannah Morning News",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSm9tNTZFRllRT1dobnMwcHBJM3QxM2h0T0w5c3RrS211V0RZOXludE52emxISEQ5ZHR4ZFk3WnREWTRKa1gzVndXT3dXVVJvbDFSZktZTDlWa18zSVQ0ejAyR3l5UEp3NkZ1R0lCWnZiODNXejN5anBZUWFfYTF2NWpRUFRwMEVzMEo1NU95LUx6NnJhcjdBMUdSQ1JzZXZNV3dtTU5LemkzYlNzdXJHQ3lpZFd0c19BZUE?oc=5",
@@ -307,33 +442,24 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine's strikes on Russian data centers disrupt key services and derail AI research - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZURRbFg2X2x4V1ZXRFlHblBCUGxqSXRPUHFia3lNUjBiZlRHR3IwQ0JFYTFQV3RxRnIwaDBhSWJOM1VSczF2blotVHNOaVNVbktwbndGQ29DOGl6R0NxMFduX3pHVFZvcmdVQ2R6aFB3cXZ4LUxmd0J4MVd2RDAzQkNwQ3VvY0hEcm03VGVMVk1KQjlPVGtwMkNRdEJnQkJNY0RPSHRkVWdBVUJYbEFPSDNR0gG3AUFVX3lxTE5tVUVCYzlENHpzcHR4eEZ2aVRJMU1oeUdROHhVeUVBMC02UzFxLWRvQXkzbzF5Nzk4SHZ1dmpGWExNZld2cUs2cHk5UXZOclYySmtfSDVpY1EzRXRzWlpqT3NTRWtSNllwdFctMWpsYWJnbVBYV2tmVVBfV0xqbHpHRGN3c3hpZnl1ZnRsLWVDRTJPcmQwamh0ZV8zMWdLenhTNWxvQVpQS3VOa1JFUEtha01jcWlrQQ?oc=5",
-        "published_at": "2026-10-22T06:39:16+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Alphabet Stock Is Up 6% This Year. Is It a Buy Ahead of Earnings? - Morningstar",
-        "source": "Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMTYwWERtdmxnSmFqWDI2NjZpcS1LNmRhRzVRUjhNV29FMW5TeG1HdXFLQXlmZ0xQRThXcW1mZ0xUSHJhVHpLVklXU0RNSVF3TUFmcWlzTWlDaXpHaUZHWGVNekNRZ3plRXdzUTMtUk5OYVRvNHZRTXhqVS13ZEVUam8wbDBPOG1tWEhjWE9yS0tjQTEyUjdV?oc=5",
-        "published_at": "2026-10-22T10:10:45+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Swim Across America-Funded Cancer Research Leads to Landmark FDA Approval of Immunotherapy for Rectal Cancer - EIN News",
+        "source": "EIN News",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNLXZ5QUc1QnVfa2UtUnV2alpmZ0VGeFJrT1M0MU83OWhrRWp0OVNIM01zSjducWdTM0dCbGc4VkFfQ2NpbGlCUWd3MEtLME41UmswYWUyRFFnN3EteUdXWk5GZnNlOXVyM2hPQVVGbHZsT19ZYTlyZDJBelFmcTZKZUFfbk90SzI2S3pfX0QzZEZybzBtNnV1b1lYYjMxNlA1Q2NaVlA5cGdLRTM4YTFKYWNRWG42X054bmtrcFhSUi1FR204VEV2OGpxRUQwU1lFSW9jQmJEWndOMHFVb21sOE1DcDY?oc=5",
+        "published_at": "2026-10-22T10:30:00+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Edwards secures FDA approval for tricuspid valve repair system - Medical Device Network",
-        "source": "Medical Device Network",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNWJxcWlYc0dNMmxkM3FYQ0JaY1JaMEdBWk5sX1Iwdmszek9TRE1uTDNiT1BRTTVwMEFKSlNTMkJucDNXTXJqRExWbGk4VGtlYW41VU15bVpjOWl6UTFhZnFqNnFacnVPek5kTm5FS085SW1YQmw0WVg5NTB2LU1NdlRqMjlGcGFHMVVWVzZTRllmVjUzRC1oR2hR?oc=5",
-        "published_at": "2026-10-22T10:07:30+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Alphabet Stock Is Up 6% This Year. Is It a Buy Ahead of Earnings? - Morningstar",
+        "source": "Morningstar",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMTYwWERtdmxnSmFqWDI2NjZpcS1LNmRhRzVRUjhNV29FMW5TeG1HdXFLQXlmZ0xQRThXcW1mZ0xUSHJhVHpLVklXU0RNSVF3TUFmcWlzTWlDaXpHaUZHWGVNekNRZ3plRXdzUTMtUk5OYVRvNHZRTXhqVS13ZEVUam8wbDBPOG1tWEhjWE9yS0tjQTEyUjdV?oc=5",
+        "published_at": "2026-10-22T10:11:44+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -347,10 +473,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Sartorius Stedim Biotech S.A. Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026 - www.marketscreener.com",
-        "source": "www.marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYnJxdnJuZVlLdTA5TFR0eGNRbVQySlVGaGJQcFBmZHF6OXFKYUpxbVJ4cHNCZ3RDM1hhNUR3LThZZ1d3WHByb2kxSk9ES3dWM0p1d3ZYakFaU1Q1ZWMtOHNmRTJNaHhINllvV3FoNThjcmZTamRSOHh2MHI5dU1aZXg4YWlQRFdFRU1fb2xUR1ZVdUhScTBqVjJ5cWNqX1c1X05faTJETmluSmZIeDYxR3BDQS1UY3BrWmwwSG4xcnpzbU9GYnZ2UDBib1JXbFV3M0JOdHJpaXNNUFBPOGh6UGFsZDVoaVE?oc=5",
-        "published_at": "2026-10-22T09:22:20+00:00",
+        "title": "Edwards secures FDA approval for tricuspid valve repair system - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaHBicWRlcXdvZENfQU9VNGxUWHAwY19FcFd5ZGJ3bUtDNDRFT2VEUEF0UV9OYWx4elRhdlU3X0FqOVVFOUhjbUtsdmo4cEV6SWdLUkFocjlwaDRRdE1RbVhoUHZRU1loWUhLeGR6SmlTZUdDdnJmMERfUnpGclZxelM0SUZTUVI3LUlPQw?oc=5",
+        "published_at": "2026-10-22T09:15:20+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "KACH collaboration garners FDA approval of TBI diagnosis device; device recognized by TIME - Army.mil",
+        "source": "Army.mil",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY1A2UC14bVhpNFRUM1RhUDZEMk1pZ01PVHJWMkRFb25zZWZfNnFHdTFfLUw5SzZhN0tueDRSUUdrWVVHUGJCWVFzdU9xVmE2SEdUV1hjQTRZRWxWckJDT0ZIOHk4LWFLYm9SRloxWHhvOTZoTVhrVW1ZR0JzYzFwbTlPczVLSlhMV3kxcUlfallPajViMXk3QmJEbERrOFJGb1kzM213cmZKclZYN2NiUm1JWEd0YUN6YVBzdHBmbF85QjVpVGNEX9IByAFBVV95cUxNY1A2UC14bVhpNFRUM1RhUDZEMk1pZ01PVHJWMkRFb25zZWZfNnFHdTFfLUw5SzZhN0tueDRSUUdrWVVHUGJCWVFzdU9xVmE2SEdUV1hjQTRZRWxWckJDT0ZIOHk4LWFLYm9SRloxWHhvOTZoTVhrVW1ZR0JzYzFwbTlPczVLSlhMV3kxcUlfallPajViMXk3QmJEbERrOFJGb1kzM213cmZKclZYN2NiUm1JWEd0YUN6YVBzdHBmbF85QjVpVGNEXw?oc=5",
+        "published_at": "2026-10-22T08:49:33+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -369,15 +504,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZXd6OHp3YWhYd096dDlnWXdONlg0WW9ydWRlSVVuNjFPejAwS2Z1ZmdkTFpFZTJ3NTN5bnBreHhKSVVoNFVGcV9Yd1ZZMTQ2dWc4NlY0VVJYOGxrX2dudFhZeGxaajRhbmVlTUdXd3E5d00wdXhia0tCc0dsQWVSYlY5Q1NkeE9KQ1Y0?oc=5",
         "published_at": "2026-10-22T04:25:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Predicting How Today's FDA Approval of Zanidatamab Will Affect Gastric Cancer Care - OncLive",
-        "source": "OncLive",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSG54emladEVoSDNuWkFZSkRfc0xnV0ZwU0ZUX2s2akZWQTE4ZGExVHhyWnhHaVA5YW5jbE5sYUNoTFpkQzJDWC00d0tic3NmbS1Vd0xnR2RGQWgxYmI5TnpQSlVVUGFpbDA3UjYzWEEyZzU4Vkl5RUhGdVpsMWJFb002U01BVEJ2YVBFV1huRXZ0cUl5VnY0U3djT3JSRk8yaFJJOF93dVY3QUNVOTlzOUpNUQ?oc=5",
-        "published_at": "2026-10-21T19:33:52+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
