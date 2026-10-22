@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-22T07:14:08.245213+00:00",
+  "generated_at": "2026-10-22T07:55:10.024442+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.145999908447266,
     "treasury_10y_change_bp": 2.8999805450439284,
-    "wti": 99.5,
-    "wti_change_pct": 2.418938175204355,
-    "brent": 111.51000213623047,
-    "brent_change_pct": 2.4719743144184125,
+    "wti": 99.69999694824219,
+    "wti_change_pct": 2.6248022463324583,
+    "brent": 111.93000030517578,
+    "brent_change_pct": 2.8579310963731563,
     "nasdaq_level": 26702.857421875,
     "nasdaq_change_pct": 1.0521816462209843,
     "sox_level": 11505.5556640625,
     "sox_change_pct": 1.9651704716234342,
-    "vix": 16.68000030517578,
-    "vix_change_pct": -3.639509995399659,
-    "dollar_index": 101.49700164794922,
-    "macro_score": 66.5,
-    "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.42%. Geopolitica: Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
+    "vix": 18.200000762939453,
+    "vix_change_pct": 9.112712409795453,
+    "dollar_index": 101.58599853515625,
+    "macro_score": 47.8,
+    "tech_bias": "neutral",
+    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.62%. Geopolitica: Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
     "quote_times": {
       "treasury_10y": "2026-10-21T18:55:00+00:00",
-      "wti": "2026-10-22T07:00:00+00:00",
-      "brent": "2026-10-22T07:00:00+00:00",
+      "wti": "2026-10-22T07:40:00+00:00",
+      "brent": "2026-10-22T07:40:00+00:00",
       "nasdaq": "2026-10-21T20:00:00+00:00",
       "sox": "2026-10-21T20:00:00+00:00",
-      "vix": "2026-10-21T20:15:00+00:00"
+      "vix": "2026-10-22T07:35:00+00:00"
     },
     "geopolitical_risk_score": 44,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-22T07:13:56.172169+00:00",
+    "updated_at": "2026-10-22T07:54:59.025572+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -64,14 +64,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
@@ -82,6 +82,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Canada’s Trade Diversification Push Not About Replacing US, Sidhu Says - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVXdIOC1RNXVRSHJ5MWtBR1R3b2E3N3RwY2p1bnRoRXdTR3NHQmtSbUNkLXhWajVIUHJBMzBtWi04Sll6emZsbnB4azR2VFRWYUFnSnpnS3JPYllzeHpUaUxLX21HQkM4RHZJVG5vZk1mQlJ5a0xMN0VRM0V1NEtzbTZocXVpamJCUW81V1EtTC1jRUp5aFRZRjVUV3owVGFzOHlxOFAyU1k2VVM2Q25rQjc3NWtUZFJ3U2pPdUxNNXV6TFk2VnBGOQ?oc=5",
+        "published_at": "2026-10-22T07:42:44+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia pounds Ukraine's capital Kyiv with missiles and drones, hours after agreeing to peace talks - SFGATE",
+        "source": "SFGATE",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTNGX0VOVkFpMzV5UVpPT2N0UlVWc2tWTXBPNUxVbV9jcWxFYmJqNzRtdzEyOWVXenFCMVJFcmJISV9sczc3RjNuMzl0Z0ctT0NPd19jVzMwbVJ6VXlwQ01ILWtuMlJhOGg1V01yOHlFdEFuNENnNUJJQktGZlN3WHdWMlBmSkVxc3FjTmtBSWJ5NHJMSEhKbHpWbmQ?oc=5",
+        "published_at": "2026-10-22T07:19:56+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Iran's Oil Reserves Run Dry as U.S. Naval Blockade Tightens - Crude Oil Prices Today | OilPrice.com",
         "source": "Crude Oil Prices Today | OilPrice.com",
@@ -110,15 +128,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Canada’s Trade Diversification Push Not About Replacing US, Sidhu Says - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVXdIOC1RNXVRSHJ5MWtBR1R3b2E3N3RwY2p1bnRoRXdTR3NHQmtSbUNkLXhWajVIUHJBMzBtWi04Sll6emZsbnB4azR2VFRWYUFnSnpnS3JPYllzeHpUaUxLX21HQkM4RHZJVG5vZk1mQlJ5a0xMN0VRM0V1NEtzbTZocXVpamJCUW81V1EtTC1jRUp5aFRZRjVUV3owVGFzOHlxOFAyU1k2VVM2Q25rQjc3NWtUZFJ3U2pPdUxNNXV6TFk2VnBGOQ?oc=5",
-        "published_at": "2026-10-22T06:12:44+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia and Ukraine trade major attacks as Trump touts progress - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDlrSkoxT2Z5czM5X0lOTmpPRURLQlQyMjE2RGh1cFNzZDdvYzFuQXV0T3N0aGtuME53akIzMl9zYU44QWJ1QzdSLS1ZZzlRbEVfWEVIekZ6QWktaENfcnYzTmI4X0tOOEk2Z0luWC1aVHUxN096MWNXUEJFTGZWbzk2NVRidFY5Z01QOW9BX05TVkdST0lFcHhZUFI1Z1V3SFhwRDRxNHhnVWsybXJaMUdXWTbSAbQBQVVfeXFMUDFrRWI0Y3BLeGxqOGllQUY4RVk5a0RXRUt0M1NBZWtZdU9xLVhhQmJ3Z1pKN3dnVzJpNlZMdU93UTh5el9GQkhKY3VXQVI1OUJzWGE2OGpLZ20yNXNCMTJEZGEtRENrQVpKM0FPWFFDNmFwN3ZldUJHQW96VkJDcUNMa2g0U2RtQ0M2UVQwRXVRYnhpeENQM09FVmN6Ti1rM1BoR0E0bW5xWjgzbWZlWkIwOXZt?oc=5",
@@ -133,15 +142,6 @@
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVzF0NmhDRTFRT3BZUmhlUlJVcllGWkZBc1VVbGEwc0xDREQ4QTI0UEp4c0laQ3A5VGMtdVVkblNwSlJFQTN0WDE1bzhPMVN4YmVUVktXbXZDbXYydktvd0xGMngxdm1TOHdaTWlUSVByWjlTblZRTEkzOFZCbWQwbWlleVVmekxrRDZBS0pDa0VNY1hRMnYyRGRoOUloU05Xb3Vob0RMMnZyd2VxVWhTeWF6ajZqdmxa?oc=5",
         "published_at": "2026-10-22T05:00:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran's IRGC Navy says seven vessels hit, warns US of wider response - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcjlJZ1lSN1BZWFJWdDlKUWh3LWRselVrNHpobGthcDVzdnZ6bjJfM1dZcTJONUtTdURHc0ZaQkk0cUhzTlp0NVZocWlTNEhIWTB4TkN6VVZPMHdfN2ZsYXVmY2NISEN6dnRERW01T2dXbXNsb2dMNHl1UFdiTW1LVzJsZU1KYThwVDZ5OHdvYzZQMEZ6djduOERMNEI4YVVVTDFqVHBNZlpOcmJiNnppOVNJVjVzbUU?oc=5",
-        "published_at": "2026-10-22T04:40:00+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -164,19 +164,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "One killed, eight injured after latest Houthi attack on Saudi Arabia's King Fahd airport | LIVE BLOG - i24NEWS",
-        "source": "i24NEWS",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVZVV0JudnVrNkptd0VSVEkxWEV3UFF1QkJZR2F6X05OaU1OQVp2YnRNeXpBRVFRaEU2WVNlUGVDVndodkVFb282WEltdGY3eGplRWZqcXlyTmxpdmx0T3d5S21TVGEtRzR6NmctWS1SRU4yZnNOcXJxdUIyS21Ydmx3U0hWeGMwS2JMcy1CTUdZOXc1Zzl0QjFxOGZIYjVIcTVQblBFYlN2WmhZWHBhZkNlTmVnZG1tWUlwU1NyeWNVMEdmNExHU3kyRXZTVEtzZmMteXlmTmRXd3dsQlE?oc=5",
-        "published_at": "2026-10-22T03:20:00+00:00",
+        "title": "US, Israel plan renewed Iran strikes after US midterms, focusing on short, intense attacks - report - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5",
+        "published_at": "2026-10-22T04:26:20+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "North Korea-China trade grows as new border bridge opens - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa251RFpsaTdtb2tBcTB1emJ5dmd4ejExNXZXdFdKUThnTnhOVXNreWdmYTctLUhkc25DbVFwVlRRRTVlNU9mT01qbThucl9QQWtGYjg2cEJsejh3RUEwd285ZkViMlBSRmJNSXJLS0RqcDhmRGdyYXNHamZQbWNaSkNhY3NtN1F0T0UzTW5VQmRPWEYtYTB0dWpMY2FOTHVtZHQw0gGoAUFVX3lxTFBqcFRGNGd5aFpHWks3Z3hTQmRfRnFGTzRpRXFQaGlQSV8zY2FDV2JDVktWR1BJNXdQaE1wM1FQOW5YeGIzWjhRbGZJSFpaaHhwekpvSFNZT0pXdEVnRnlsTE1tcEc2eW1oWVUtSFdCZkw3Y2J5LVlYT3RDak1fckZOeXhETW5JNFdvQXh0YzdaNGpETVdFQ2daS21pLXdTY2luRUV5TDRBQQ?oc=5",
-        "published_at": "2026-10-22T01:56:14+00:00",
+        "title": "One killed, eight injured after latest Houthi attack on Saudi Arabia's King Fahd airport | LIVE BLOG - i24NEWS",
+        "source": "i24NEWS",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVZVV0JudnVrNkptd0VSVEkxWEV3UFF1QkJZR2F6X05OaU1OQVp2YnRNeXpBRVFRaEU2WVNlUGVDVndodkVFb282WEltdGY3eGplRWZqcXlyTmxpdmx0T3d5S21TVGEtRzR6NmctWS1SRU4yZnNOcXJxdUIyS21Ydmx3U0hWeGMwS2JMcy1CTUdZOXc1Zzl0QjFxOGZIYjVIcTVQblBFYlN2WmhZWHBhZkNlTmVnZG1tWUlwU1NyeWNVMEdmNExHU3kyRXZTVEtzZmMteXlmTmRXd3dsQlE?oc=5",
+        "published_at": "2026-10-22T03:47:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EXCLUSIVE: China snaps up Australian canola as improved ties, lower tariffs fuel demand - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSFkyb3c2MngteVdVR1Q2S2RGMmE2a0d5NEMwazZvUEFySDlIY01nbU5waHVUSXYzMURzS0xucm1VUkc0NVNZNDA5QjFFdmtxSDFRenBGWS1jZnV0M1l2VUhXTjRqTnBRZXJ5aDRrbWJ1WUNCck15cEZKMzQwalkwblVoSzBzNmdJMVdKVjg3WVh5aGNiUGExQU41dGQ2VHFjNGIwT0xqNlJJYlpTY3ktNlZwcGhrTVRZRUdEOU8xbmhyQkhVeW1rN0hVQXlPUGZ3YkFN?oc=5",
+        "published_at": "2026-10-22T02:48:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -204,15 +213,6 @@
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSEVqOVZjRDRpREp4em9RdWgxZ1ZnaGNSYUtlWWM0NVhvbTJpelJKNmFnVlRIbHFyaHAzQjR5b21JRF9kQmdHSlBjampfYTVaRlcwVXZRU0t3WGQtcC1rSVRhUjVFZi15UkJ3UXRIN2pXNDhkVG5ueVVydFlNUjd6UmpOdDFCRmw0Qkl1VTZ2TUpqaXJOdW9wNGZSMGtkWFl2czMySld4cUlLSzkxdFZiTEllV0pnWllXeHpySW1zSlRtXzNNcUE?oc=5",
         "published_at": "2026-10-21T23:19:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU Adopts Record Russia Sanctions Designations as UK Targets Oil, Crypto and Supply Networks - JD Supra",
-        "source": "JD Supra",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzRQazIxZllhUXdpbDRMSV92Zmp5aXk1cTRLZ2N1eXlEYVViUHQ1Y25yNExNX3E5QnpUVlItZjJzSnYzdEhadWlGUVlkS1V2YUhKbDlnUkcyUDhvakI2Y21wWTVQMnNvbUZ0dUg0Uk1GNDFveHVFMGF0M0tDV3Y4WGV3?oc=5",
-        "published_at": "2026-10-21T20:42:56+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -278,15 +278,6 @@
         "source": "NVIDIA Newsroom",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFl2YjlqcF9vQ0s2QkdFMDBxNzdVT29ibDFOOUhxRlZhSDJmY0M4VENxOUNyLVNRdEFEcG54RkdUSHk0X2c4V0xOb1d0UmI3aHdSR0d2V0hRd2lQV0hWcXJfcU5vc0JzcUdOVzFTMl9XQjNaamF6ZTZSdWZuOU15RWVRNnBIMUh4c0ZfVy1JcDhUR0hGczl3UXBmcjc2ekxrVW9YMXdHU3lBYWZBMmxhbE5ScnFYTUhRZ0g1QjBpRmxCQQ?oc=5",
         "published_at": "2026-10-21T10:43:59+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NVIDIA Launches OpenShell Reference Architecture for Safe AI Agents - NVIDIA Newsroom",
-        "source": "NVIDIA Newsroom",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xVjJaWWVnN3FsV2ZrdlVrSTRuVEE2V0JWZHJRQ2loQ1czLVdiWXpvQkYxLTU2R0U4VVhkMGNZblBRZ0hyY1pnbXVZMXAzdmN0LXdRTDNSSXpwNmhSaHRzR09wN1kxendGLVRWQm9CTkJmZ2stRUE?oc=5",
-        "published_at": "2026-10-21T09:55:45+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
