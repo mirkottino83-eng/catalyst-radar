@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-22T20:46:13.563225+00:00",
+  "generated_at": "2026-10-22T21:15:25.573592+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 99.04000091552734,
-    "wti_change_pct": 1.9454445290409739,
-    "brent": 112.77999877929688,
-    "brent_change_pct": 3.6390361106213076,
+    "wti": 99.0999984741211,
+    "wti_change_pct": 2.007202179737222,
+    "brent": 112.87000274658203,
+    "brent_change_pct": 3.7217451416243996,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.6520004272461,
+    "dollar_index": 101.63200378417969,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.95%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.01%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-22T20:35:00+00:00",
-      "brent": "2026-10-22T20:35:00+00:00",
+      "wti": "2026-10-22T20:55:00+00:00",
+      "brent": "2026-10-22T20:55:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -52,17 +52,17 @@
       "published_at": "2026-10-22T15:16:10+00:00",
       "age_label": "5 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -4.36,
-      "short_term_change_pct": 0.21,
-      "relative_volume": 4.56,
+      "current_change_pct": -4.13,
+      "short_term_change_pct": 0.06,
+      "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T20:45:50+00:00",
+      "quote_at": "2026-10-22T21:15:06+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.4,
+      "quote_age_minutes": 0.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 2.1,
-      "confidence_score": 65.0,
+      "estimated_impact_pct": null,
+      "confidence_score": 54.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-22T15:16:10+00:00",
@@ -73,8 +73,8 @@
         "source_quality": 68,
         "catalyst_strength": 74,
         "freshness": 62,
-        "volume": 100,
-        "momentum": 53,
+        "volume": 28,
+        "momentum": 51,
         "macro": 0,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -83,288 +83,22 @@
   ],
   "movers": [
     {
-      "ticker": "HIMS",
-      "company": "Hims & Hers Health",
-      "category": "Health / Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.06,
-      "short_term_change_pct": 0.94,
-      "relative_volume": 2.45,
-      "quote_at": "2026-10-22T20:44:03+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "HIMS"
-    },
-    {
-      "ticker": "AMD",
-      "company": "Advanced Micro Devices",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": -8.26,
-      "short_term_change_pct": 0.43,
-      "relative_volume": 4.9,
-      "quote_at": "2026-10-22T20:45:40+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMD"
-    },
-    {
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": -4.36,
-      "short_term_change_pct": 0.21,
-      "relative_volume": 4.56,
-      "quote_at": "2026-10-22T20:45:50+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NVDA"
-    },
-    {
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": -8.67,
-      "short_term_change_pct": 0.05,
-      "relative_volume": 2.92,
-      "quote_at": "2026-10-22T20:45:55+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "INTC"
-    },
-    {
-      "ticker": "ASML",
-      "company": "ASML Holding",
-      "category": "Semiconductor Equipment",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -7.02,
-      "short_term_change_pct": 0.04,
-      "relative_volume": 19.32,
-      "quote_at": "2026-10-22T20:45:31+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ASML"
-    },
-    {
-      "ticker": "DELL",
-      "company": "Dell Technologies",
-      "category": "AI Infrastructure",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -7.36,
-      "short_term_change_pct": 0.27,
-      "relative_volume": 15.96,
-      "quote_at": "2026-10-22T20:45:38+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "DELL"
-    },
-    {
-      "ticker": "BABA",
-      "company": "Alibaba Group",
-      "category": "China Tech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -2.64,
-      "short_term_change_pct": 0.04,
-      "relative_volume": 12.03,
-      "quote_at": "2026-10-22T20:42:58+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "BABA"
-    },
-    {
-      "ticker": "ORCL",
-      "company": "Oracle",
-      "category": "Cloud / Software / AI",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -3.35,
-      "short_term_change_pct": 0.78,
-      "relative_volume": 8.31,
-      "quote_at": "2026-10-22T20:40:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ORCL"
-    },
-    {
-      "ticker": "AVGO",
-      "company": "Broadcom",
-      "category": "Semiconductors / AI",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -4.38,
-      "short_term_change_pct": 0.48,
-      "relative_volume": 7.06,
-      "quote_at": "2026-10-22T20:45:48+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AVGO"
-    },
-    {
-      "ticker": "AMZN",
-      "company": "Amazon",
-      "category": "Megacap Tech / Cloud",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -4.45,
-      "short_term_change_pct": 0.56,
-      "relative_volume": 5.16,
-      "quote_at": "2026-10-22T20:45:44+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AMZN"
-    },
-    {
-      "ticker": "STM",
-      "company": "STMicroelectronics",
-      "category": "Europe Semiconductors",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -7.04,
-      "short_term_change_pct": 0.72,
-      "relative_volume": 3.94,
-      "quote_at": "2026-10-22T20:35:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "STM"
-    },
-    {
-      "ticker": "TSM",
-      "company": "Taiwan Semiconductor",
-      "category": "Semiconductors",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -4.72,
-      "short_term_change_pct": 0.13,
-      "relative_volume": 3.06,
-      "quote_at": "2026-10-22T20:45:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "TSM"
-    },
-    {
-      "ticker": "LULU",
-      "company": "Lululemon Athletica",
+      "ticker": "CELH",
+      "company": "Celsius Holdings",
       "category": "Consumer",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 6.6,
-      "short_term_change_pct": 0.34,
-      "relative_volume": 2.89,
-      "quote_at": "2026-10-22T20:40:00+00:00",
+      "current_change_pct": 0.21,
+      "short_term_change_pct": 1.32,
+      "relative_volume": null,
+      "quote_at": "2026-10-22T21:12:01+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "LULU"
-    },
-    {
-      "ticker": "UBER",
-      "company": "Uber Technologies",
-      "category": "Mobility / Technology",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 1.75,
-      "short_term_change_pct": 0.47,
-      "relative_volume": 2.73,
-      "quote_at": "2026-10-22T20:40:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "UBER"
-    },
-    {
-      "ticker": "COIN",
-      "company": "Coinbase",
-      "category": "Crypto / Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -4.85,
-      "short_term_change_pct": 0.28,
-      "relative_volume": 2.69,
-      "quote_at": "2026-10-22T20:40:25+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "COIN"
-    },
-    {
-      "ticker": "MARA",
-      "company": "MARA Holdings",
-      "category": "Bitcoin Mining",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -6.93,
-      "short_term_change_pct": 1.33,
-      "relative_volume": 2.55,
-      "quote_at": "2026-10-22T20:40:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MARA"
-    },
-    {
-      "ticker": "QCOM",
-      "company": "Qualcomm",
-      "category": "Semiconductors",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -2.84,
-      "short_term_change_pct": 0.18,
-      "relative_volume": 2.23,
-      "quote_at": "2026-10-22T20:41:23+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "QCOM"
-    },
-    {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -10.95,
-      "short_term_change_pct": 0.22,
-      "relative_volume": 2.1,
-      "quote_at": "2026-10-22T20:44:10+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
-    },
-    {
-      "ticker": "SHOP",
-      "company": "Shopify",
-      "category": "E-commerce / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -3.06,
-      "short_term_change_pct": 0.58,
-      "relative_volume": 1.77,
-      "quote_at": "2026-10-22T20:35:55+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SHOP"
-    },
-    {
-      "ticker": "MSFT",
-      "company": "Microsoft",
-      "category": "Megacap Tech / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -2.17,
-      "short_term_change_pct": 0.1,
-      "relative_volume": 1.74,
-      "quote_at": "2026-10-22T20:45:52+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MSFT"
+      "tradingview_symbol": "CELH"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-22T20:46:01.486659+00:00",
+    "updated_at": "2026-10-22T21:15:14.639051+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -374,45 +108,99 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       }
     ],
     "geopolitics": [
       {
+        "title": "Biotech investment is the new front in the U.S.-China trade fight - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGctSS03QXZwRTdFZEpoZUNGczljZ1pwUnZTMjg5MGlILURUWmZqcHJPUWZuaHJVTkRaYWxxV29VRVl3clV5NTItV1dJWXFPeUlmQkJRTjE5VUVyQ1lpZmpOWm1WdWM3N01MdEpUSnNrcTZUd3dOV2tzUEdhQjNWelJ6elp1Vk5WZjZoMjd4YUFNc2tEWnI0S3ZjUkJpckpsZ3E3VGxPVi1ycmpUMVcxSEtQeEk?oc=5",
+        "published_at": "2026-10-22T21:09:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Opinion | Oil’s great escape from the Middle East - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnBBQkJLYmlzMGtrT3g5bVNHdGtCd2Z0YzA4QzNpQlBOYWpsck1iTDRuTUQwdVdJdEUwdVIzZ1hOV0xpaEl3N3V2eFNNRmF4VU52MTRRa2k4U2FHVGdxbDd6ZFNhTnJXeWtrVVhqRmZEdmJydzJQT251a2xYNUZpTjNwZkVFYmdvU1ZiSlRSU0JRZ3lzdTJJ?oc=5",
-        "published_at": "2026-10-22T20:35:24+00:00",
+        "published_at": "2026-10-22T21:02:56+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd19fS1N5MG9ScWZka1NXVEM3S1NoUlBSTURnR09nR3Y5SGIxRFFpRktHNHZXeElmbzFPcTBkMUdNNXE5MG01aWhRVmhKSTVGZVcwZVBNRWxHTGxQc1JpQWZBRnBLNTVPWkoyRnFIZkxSTnI0SktYRGQ5dlh2aWxhSWhOVVlMVjktd1hHak1PV19HbXpyNS0waGRfVXXSAaIBQVVfeXFMUGJ0OE81VjRRZ1dhN1gtLVd2d2szU19XZzRNREJQdWV6OG1mRUhtQ0JTWXZYc3Jqa0FOdkFoWTF3b19JMEx3YW9XYkJRbXRlVHkxcWpPbWx3bVVydFBySV9yMW9tVFZRVWljYUNXeEEwNXMzSWJmeEdwdTZwaHh6VG52alZDQ3dmcU5NTXE4MWk1V0w4ZHMzX2FkNXUydndhTktR?oc=5",
+        "published_at": "2026-10-22T20:58:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Debrief: The Dark Side Of Russia’s Drone Production Machine - Aviation Week",
+        "source": "Aviation Week",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV1ZsNHQtWTltdTJYOEQ5OEw3bFAtcU5fTzA0amJiYnc2c2c1ZHl5ejNfcUF0bmFvdzhXNi1ZR3NvVTNJN3VzRW41Q2JobTlBSlJzcGdfRFp1aHJxdGN1STlHUm5weTBTelJyTEYtQ3pkeXRPM2hjd3BWN1BaV25KMWxhTXJ5T1JfVkkyUDJELTU3Q3duQjRXLXVKd2FiRk93UmsxNHB3?oc=5",
+        "published_at": "2026-10-22T20:45:52+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Exclusive | EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOW1pTTFyVVZJd1ZMV2plOWdLUkFmOW1EZWhoN3NsRHByc0JRV0RtX24yVWNxc0dNcEtyTWdkb0xyMmR3Ym81OXBOSkJRR0psRk95a20zM3huQTlsbHN1bFV0d1ZYV3JSNkQ0YUZNRmhGWGpnRXFrZGxMQlk3ZXcwVGpFT1N3QWZYSVo3Z05XaHkwY1dCdEI3M01zNlpzY2Z2emZPM2ZOb19vVVd1SkNwSXZqUEN2NXJFdlHSAboBQVVfeXFMTzdNcTBnNnlSSFByMUNJclg0cEppMUlHMVE5cjR1X1B1QUVzX2FEc0ttNnRrUlRDdXI4dHBNSTc5c0s3RUZOcTIwQVhobi0tdURocEJUTjZpVHo2ejlHQ2s3bk9uc2tVME5zamlDU2tDMXphVkFnSkZBNmduTGF3WE5wVXJ3Y1RuLWFJOG9wYUlrb3FWUklxVUF5ZVhkQ1RWQmpLRWtLWE1VTERqRU40TGZMbnM4VHBIWl9B?oc=5",
+        "published_at": "2026-10-22T20:32:36+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump sidelines Russia sanctions as GOP allies push for more pressure on Putin - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQLXMwMk9vbjh2eXJreDhzMENqMHZnTDd3Tk51NEs0emVQd2lZT3hqZlZ1OURoNjZidWJJdU9KTWl4eEdNQ29wcXR5M2NNVHRNSXAtM1ln?oc=5",
+        "published_at": "2026-10-22T20:24:05+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran says 7 vessels hit near Strait of Hormuz, warns US of wider response - NewsNation",
+        "source": "NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdzd2aFlGYzdlVW02UnBBaDJJck94ZVJXaVlmV0JRTGpIdjNIWUdXOG9rcGhjNW5jS0xpazROVG9OUXozOGoza3VFVWlzTV9WR3VFZktyWGxKZUJpZXd2VjNGTVl0OWE5QVUzRFNFLTNQd1pSc0dUMWJ2RXVUUnY2YUdEMNIBiAFBVV95cUxNZjh5RWEwNkYxbmRHNmNPWUE4NmM2OVdZWFA3QWNOS3hGQXJRbXB2eEh5SzB5WWJyTEtLTElCS1JjbXFkV1lGWUdIZnRUYU5OTnNJa0hnWWphcWU0Rk1lOGhZRFNyWHZlZzVIeTh4ZjVaR2JvejVYNE1uTlBRTnFTOVJ4ZnEwN20x?oc=5",
+        "published_at": "2026-10-22T20:22:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -425,6 +213,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Yttrium: Beijing rejects calls to ease export controls - Table.Briefings",
+        "source": "Table.Briefings",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUMyY0liV0RrT3lOSVRnMnNkdlNDSUxuS2VValQ1NURqT2dZR2pwRWxIVk9FTkZVdGpLU21oMmliZjVubW5Bdm1fR1ctZHpWWHVvYkZFbHRxY2QyMzJ0REk2ZEIyWVRyX1lMX1RlZkRyOVVlMFBYNk84SVN0TG1VazYyTXo2dmVzTXEwNUdGN2M?oc=5",
+        "published_at": "2026-10-22T20:07:43+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "US, Israel have drawn up detailed plans for renewed strikes on Iran - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5",
@@ -434,39 +231,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran Shipping Update – October 22, 2026 - United Against Nuclear Iran",
-        "source": "United Against Nuclear Iran",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd2JJT3lCWXZjd0dvczFwandBZXJyeUdLOHVyV0p0eWFrRVVGQmN1TUN1bzllcHVmaHV1MlJtakk5bHJTZWZXcTQ0aWNiSVdHTHhqem1HNlFFTDVmV3lKQ0dXMFFzMXZGVkF2MWx5V0ZNUW1ScXdmN3loOWZQdWVqSDdfcmJUS2J6Ul9SZWxYNA?oc=5",
-        "published_at": "2026-10-22T19:50:20+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Darline Graham did not discuss split over Russia sanctions waiver during Trump visit - Washington Examiner",
         "source": "Washington Examiner",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU0o4RTJ3SlRYQjdDVTBHaWJySFhNeFNNWVBzcEhndTUwckEweWZnak1vWFljTFhDeks3V0NIeTR3QUFOTVM0WlBWc0xWaHRRV0RvSFlfeXV4bkowX05RQjJiWF9GTEh1VUpIVURGLWRzQXBqbDJMVG9qR1M4dkhKSlIzUVlDTVl2a1BVaEVsWUlXNXpyN2lBSDI4TTE0bXJHTlAzTU15dnpiWXUzaTU1Z2ZmLXhrYXhSLVYzdUx4bDg0dw?oc=5",
         "published_at": "2026-10-22T19:37:17+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?oc=5",
-        "published_at": "2026-10-22T18:55:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Buys Far Less Middle Eastern Oil, as Exports Hold Steady - الحرة",
-        "source": "الحرة",
-        "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE51a3hmcV9NTjZQUm1hS1BNaThhN1hXX3JvT2ZWM2R4WFJwdk1UWGtjMFk3Wl94Y3hBZDUzSjBLRnVvUQ?oc=5",
-        "published_at": "2026-10-22T18:07:45+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -488,15 +258,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Takes Cleantech Tariff Fight to COP31 Climate Summit - Impakter",
-        "source": "Impakter",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTDZ2WkdUSGpJZ2dlSU9zVzY3N2JHdlJmZmVfMHJSS29hOW92bUtRcFpOVkUwNFJ4RkpReDNiU3pEcnByMkJTb2NvbXJHQTk1WXhtaE9JbXpJMmNpUTMxVzRkU3BBcG83cTNwRXlCVTdLVUdZdVlPc2laaTFZNEROajJQOWFyLUU?oc=5",
-        "published_at": "2026-10-22T16:02:20+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Danish military orders long-range missiles, drawing Russian ire - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeWVxWUtvMXB3QkMxUHZEdExVX1hoNzhHcjFJZS1hcDhCWDM5WjhBQzAxTDZ3UldZWXN5Wk5xSGcwS1JQeXZvdjl2STlibXdHWF9KS1liYi1talJ2Vk5xUEFpVmNRM3NQcmZKLU1KUW5iU1V3bmktRVhNdGpoM2dja0tPN1VVNmQwaDNLM2s4NWFORjZKUDIzX2JqanFoVDVBTEo0R1F1RXg3eEJMWUlqTW5lWEFKblU?oc=5",
@@ -510,33 +271,6 @@
         "source": "Insurance Journal",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TVlhsamc0NklWOUI0blI3dk1CeWcxV0p2SnV0aWFkakNVUlZmc210SkxNb3pYZUdTeTdUZDdaV3NZek5oYXMzamQyWkVUb2ZTX3lNZmtBOEVWS3FIX0hCcVNKNDZYZmRLNFd1dmdQeGU2REh0T1RMZkVnR2VQUQ?oc=5",
         "published_at": "2026-10-22T13:46:55+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why a Russia Gas Deal Can’t Buy Peace in Ukraine - The National Interest",
-        "source": "The National Interest",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMkY3T2dMb3p2bkNMNFlJSW9YUnZYTld3bTJlZXNrb1hUNW5HNzBMcU43dXBEcnBvcHFfYTZzZEJ6Mkg0TGFNOHE2aWZNVGN4R2VfaVFpUUdfQzk4aXFkOEVZcVRQRG80N1k4RmRmcG1haUU1T0ptVkw3LWI0V0J6bWJFSDlkbmhmYTAzVw?oc=5",
-        "published_at": "2026-10-22T13:40:22+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Putin’s War On Ukraine Puts Oil Giant Rosneft Under Mounting Pressure - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVzF0NmhDRTFRT3BZUmhlUlJVcllGWkZBc1VVbGEwc0xDREQ4QTI0UEp4c0laQ3A5VGMtdVVkblNwSlJFQTN0WDE1bzhPMVN4YmVUVktXbXZDbXYydktvd0xGMngxdm1TOHdaTWlUSVByWjlTblZRTEkzOFZCbWQwbWlleVVmekxrRDZBS0pDa0VNY1hRMnYyRGRoOUloU05Xb3Vob0RMMnZyd2VxVWhTeWF6ajZqdmxa?oc=5",
-        "published_at": "2026-10-22T13:35:51+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China remains strong driver of trade and air cargo - Air Cargo News",
-        "source": "Air Cargo News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX3Zma2pSYlV6N1VvSTFIUDVKVTlueS13bm5hdjhaYW5NckJDREtRRWRaSUlSOEg1LWx3STlhY2ZhTXVVUV8yNWI0Wm55N01NQ3FwVXgxVWswVy1QRTBMR25xcEtZb2xiQzRsVzJKTnVHalVGVGN5VlgweVZ1d29uZTlIQ0tiaWl1YWlZd2hCc1ZhdGVETkVxckdmRm1WNWFRZ0VyZQ?oc=5",
-        "published_at": "2026-10-22T13:23:11+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -562,6 +296,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Micron Says Its Next AI Chips Need Even More Wafers. Here’s What That Means for the Stock - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU0pvVy1Fa2JVUDB5bTNnb1lTWlVfYnlLMjNheVB1M05HaDU4Z3JIMExJVFRDLTluT1ZWT2VMd0VJWDJMVlVrVUxWZExMLUJaZUlRUU53Q0JJQlZITlJNazVoaThjbDIxWVBkTVNiWDVCeWlqSnJfcWlvQXVFekJEOUo3TG9ROElEWHFhcnNpWnM3MFkz?oc=5",
+        "published_at": "2026-10-22T19:51:31+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "New Berotralstat Oral Pellet Formulation Receives FDA Approval for Adults, Adolescents With HAE - Pharmacy Times",
         "source": "Pharmacy Times",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWxkY1ZwN29JLU02TmRZVzFVbnpzLUFLOVJzLXRlSklhTWRCWXUzT2VUVTVCaXFvU1pJRnNQY3lwNVlhZmlFMEJ0X3dmaEVOc3pkMVZHOWRlQXc0UC1oVVFiWHhTQ2o0Y3VvYnFud0RieUVTYmVKSjFJakFGY1VIWTJmbTl1Y3FZd1h6ZUpzdEVzeHFhODFDcDlNNU03STIyU2U1eFNPSmpIVW56UGwzTWdSTU5wS08wSFpYRWhVNGNzRDE3SVdMeg?oc=5",
@@ -575,15 +318,6 @@
         "source": "STAT",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUmR1SkF0aDk0cTdscjJVbTQ1bEppUlJOUmZpcDVRZmFYVzNfamstMER4SFlKa0RWbWFsbG9KdE1URGtHbG5aSXBrbUtyNndmSE1tRDFKdXRhNWZURWVmRkhUQVNZdkxNRHBndUhOUjZmV0V4eHRDZ2ZTUWNZRndsVGZTUVJlWWM0MzBnRXVaczZKYW9fZVBKZmh4VQ?oc=5",
         "published_at": "2026-10-22T19:04:34+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AbbVie skin disorder drug succeeds in late-stage trial, but results miss market expectations - STAT",
-        "source": "STAT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2ZaUHhBVVNlSWI3eEVPTml5TklJcWhxRlhrR1NnbDM3VTQwbG1zZEo2M0pCNWFSVkRJNVhuLS1UVUdCelVaWldKcDBtYnVHQjFuV285VU5qNGtSeHV6bGVfb21mejJySWlzVjhRS0JQc1oyZDVOMlJKaWhibHNibE40X0FrdHd2RDJtMzlNS29UellhcWhYa1A2WE9iSjlQQUIw?oc=5",
-        "published_at": "2026-10-22T18:24:37+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -616,19 +350,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Chip Stocks Fall as Supply Warning Deepens AI Selloff: Marvell and AMD Sink 8%, Intel Drops 7% - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjE3M1E5SV9QdGI0djdaX000RGV5MTRzLWlJZ1BLeEZ4X2dwWXlwVWVmblhIVEhiMXU0U2JHOHMzV2pHM3JnZ0RfWDRsS2dzVHQ0SG5KczFUVFd4ZUZFQmRjZUpPRS01RWVRdnFwTGFYcG51NkVyN0JFTFZBaGhwLTVrTXVMUVd5SmxSajRacF9vMzhuZWRn?oc=5",
-        "published_at": "2026-10-22T15:45:08+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns - UC San Diego Today",
         "source": "UC San Diego Today",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnJ1QUIyV1RUdGlOVkZkbU9UWnNvT1B5QnA4eTVVZ082U1FYTTdCS0dpTkFOOW5qQlktT2lHWERobVZqUGdHbUhBOUpMdXU5ZTRBYVlyZURiQ3hhdlVDU2U3aG5QMFpYRG1VVXBzSkZQdU56MjFLUktsY2YwN2NIaGZXQkNOYkdFOHVkU0VtaFVQeHBfaEo5aG5NdkF6cno3NHc?oc=5",
         "published_at": "2026-10-22T15:31:40+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Swim Across America-Funded Cancer Research Leads to Landmark FDA Approval - SwimSwam",
+        "source": "SwimSwam",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZE9hOXpmdTRRbDdfeDE2M2ZrNTkxc0ZQOXVfNW9lRThQVFFMTGJ6bHUwaHNsSVdjQzROVmVxbi05ZWR6MmFJVUNnc0tUU2w5T3dRZVd4N0xvYllGdGhDSHBNc2J0R0Rpa2ZNaFFjSVVmMzYxeHhHVHhVejFycEFuTDVoOEpoSTAxcl9NZmpGaGFTUTRSdDA3RGx3dw?oc=5",
+        "published_at": "2026-10-22T13:48:13+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
