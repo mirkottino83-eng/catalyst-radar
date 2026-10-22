@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-22T22:13:54.270137+00:00",
+  "generated_at": "2026-10-22T22:42:39.083753+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 99.16000366210938,
-    "wti_change_pct": 2.068967683644396,
-    "brent": 112.76000213623047,
-    "brent_change_pct": 3.6206602209663874,
+    "wti": 99.02999877929688,
+    "wti_change_pct": 1.9351489695212942,
+    "brent": 112.9800033569336,
+    "brent_change_pct": 3.822830062282412,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.61799621582031,
+    "dollar_index": 101.61699676513672,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.07%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.94%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-22T22:00:00+00:00",
-      "brent": "2026-10-22T22:00:00+00:00",
+      "wti": "2026-10-22T22:30:00+00:00",
+      "brent": "2026-10-22T22:25:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -38,24 +38,9 @@
     ]
   },
   "catalysts": [],
-  "movers": [
-    {
-      "ticker": "ARM",
-      "company": "Arm Holdings",
-      "category": "Semiconductors",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -6.97,
-      "short_term_change_pct": 0.86,
-      "relative_volume": null,
-      "quote_at": "2026-10-22T22:04:43+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ARM"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-22T22:13:43.093397+00:00",
+    "updated_at": "2026-10-22T22:42:26.775193+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -72,21 +57,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -98,11 +83,29 @@
     ],
     "geopolitics": [
       {
+        "title": "Saudi Aramco seeks overseas oil stockpile expansion after Iran war - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aa3F5blJydUJjazh2ajRfNjVnZUtYZFdXbS15TDB5bXVRN0tJMkJ6cGVJa3lQMDdncExSci1QU0pxYlhfNHBqQklHTjNEZkFhM3c?oc=5",
+        "published_at": "2026-10-22T22:15:31+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Opinion | Oil’s great escape from the Middle East - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnBBQkJLYmlzMGtrT3g5bVNHdGtCd2Z0YzA4QzNpQlBOYWpsck1iTDRuTUQwdVdJdEUwdVIzZ1hOV0xpaEl3N3V2eFNNRmF4VU52MTRRa2k4U2FHVGdxbDd6ZFNhTnJXeWtrVVhqRmZEdmJydzJQT251a2xYNUZpTjNwZkVFYmdvU1ZiSlRSU0JRZ3lzdTJJ?oc=5",
         "published_at": "2026-10-22T22:05:25+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EPP Group calls for EU action to tackle China’s unfair trade practices - European Interest",
+        "source": "European Interest",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbmtKUklNa1NaZW4yWlZLM3c4c3d3Y3JjWlJoM0FIVm1fSVlETzhRWFF4N3Y3NnhqZUVjWGxrOGNDX3dCV01iZlFzc3RUYUdkb0ZyYV9LazdIdF9HTXZFQnVGNWp0Yk9Qa0dLYzNtd1NRYXljdnQ0eDZNMFZfNDl5ekQ0T3RiTWhPc0ZpWUpjcmJwdFJqUVlMWHBTeFh2V2ZtMnJmcA?oc=5",
+        "published_at": "2026-10-22T21:53:15+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -170,6 +173,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Yttrium: Beijing rejects calls to ease export controls - Table.Briefings",
+        "source": "Table.Briefings",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUMyY0liV0RrT3lOSVRnMnNkdlNDSUxuS2VValQ1NURqT2dZR2pwRWxIVk9FTkZVdGpLU21oMmliZjVubW5Bdm1fR1ctZHpWWHVvYkZFbHRxY2QyMzJ0REk2ZEIyWVRyX1lMX1RlZkRyOVVlMFBYNk84SVN0TG1VazYyTXo2dmVzTXEwNUdGN2M?oc=5",
+        "published_at": "2026-10-22T20:07:43+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Oil prices top $113 on worries of Iran-US escalations after midterms - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ1lrWWZEZzJjT3ZLejlfMHVYXzhoWkMtMWlJMzZEelp6aWNsNk5wZU9mOFBwZDFhUi04SnpjTU1WQ3NndjZXeUJUNl9sTXBWakw2TTRRN2NWSGVmME9sWnpLcVZreVFfS25heWdwRk16RDZSRzhxbkFxckNxR3NQV244SEF1Yk5HaWJ0c2dVV0xFZnhzRGlzU0l0cm5Bb1dSTlk0NnIwZWhrbEJHdmdLangtUnAwcHJqTmhVTFFVUlFYTFpBb0pOYjlB?oc=5",
@@ -188,15 +200,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil prices hit five-month high as Houthi attacks raise supply fears - The Journal Record",
-        "source": "The Journal Record",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVklUXy1lMzQ3cUx6Uy03MnIxTmUzRmtwamdfc2o0bVJzRDRuc1BvckJEdU00OGpBalJnZnMwVkdiaTladG5DV29qY0R2SWliWU1LZFFhT3FwcnNhVVdGb2lpRkRFelFpVUVmeUhIOFJtT1pJbjUxQUNpaEFGcEdZX1pxaU5rTEdWVDdOZVpxdi1JeHFnYnp3?oc=5",
-        "published_at": "2026-10-22T19:53:53+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Darline Graham did not discuss split over Russia sanctions waiver during Trump visit - Washington Examiner",
         "source": "Washington Examiner",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU0o4RTJ3SlRYQjdDVTBHaWJySFhNeFNNWVBzcEhndTUwckEweWZnak1vWFljTFhDeks3V0NIeTR3QUFOTVM0WlBWc0xWaHRRV0RvSFlfeXV4bkowX05RQjJiWF9GTEh1VUpIVURGLWRzQXBqbDJMVG9qR1M4dkhKSlIzUVlDTVl2a1BVaEVsWUlXNXpyN2lBSDI4TTE0bXJHTlAzTU15dnpiWXUzaTU1Z2ZmLXhrYXhSLVYzdUx4bDg0dw?oc=5",
@@ -210,24 +213,6 @@
         "source": "Oklahoma State Senate (.gov)",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR0lmRTYxMmNRVm5GZFRmT2g2U0Y1TXktYzI4OXRrWk9ZWnExbWhDR3AycWtqUW56NzZ2dnBvQ3J1bmZURTFteVh0bnVXc1JTRlpObXlhQzJPMVdNcVhmQkJIcC1qeV9XZEZaNEtYOGw0XzVfak1YOUNfWFJvNUNZX0w5Ul90Qk1qaW1WTHNKYkxKaUZwd3NPaWEtN0gyY1JZMG5TNWF4N2RWdlItQzNUZUpLeWJEOUFaVS1vYk5vOEZpZjFBRmR5THdvanNuWE9V?oc=5",
         "published_at": "2026-10-22T16:26:24+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan Halts Stock Trade, Shuts Schools as Typhoon Champi Nears - Insurance Journal",
-        "source": "Insurance Journal",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TVlhsamc0NklWOUI0blI3dk1CeWcxV0p2SnV0aWFkakNVUlZmc210SkxNb3pYZUdTeTdUZDdaV3NZek5oYXMzamQyWkVUb2ZTX3lNZmtBOEVWS3FIX0hCcVNKNDZYZmRLNFd1dmdQeGU2REh0T1RMZkVnR2VQUQ?oc=5",
-        "published_at": "2026-10-22T13:46:55+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Buchanan Wins Trade Case on Diamond Sawblades from China - Buchanan Ingersoll & Rooney PC",
-        "source": "Buchanan Ingersoll & Rooney PC",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV3IySFpWVVFzTjdSOWtRLW5zUmwxSjMtZGoySFF6S1lTOW9EV1JrMTdmd1h4N3pPejdpX0V4ek50T0drQnZrTW9qSTdjNV9CVmRHT2ZXWVhsZzNOX0ZSYW1KdjRQTEd2S0g0bWhDTzIyRlNFenVLNFhQVEtJcmFzTzBYVQ?oc=5",
-        "published_at": "2026-10-22T13:12:02+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -271,11 +256,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia boss criticizes 'cheap' AI doomsday warnings - Tech Xplore",
-        "source": "Tech Xplore",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SZDQtSDR0bjVzSVR2eUEyYUNlZElncklfanhzbjBVb0VYMDVPcklEcU5oS3JxX0J3dGcxRmJPM2FMenY1RmNmTmdoYUJlRzBJWTdpOUNlam9PM1l1TnJCT1RtSlM4TzVxbVh5SXJ6UUcxbVFJN0lFa1JWYnU?oc=5",
-        "published_at": "2026-10-22T19:20:11+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial - STAT",
+        "source": "STAT",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUmR1SkF0aDk0cTdscjJVbTQ1bEppUlJOUmZpcDVRZmFYVzNfamstMER4SFlKa0RWbWFsbG9KdE1URGtHbG5aSXBrbUtyNndmSE1tRDFKdXRhNWZURWVmRkhUQVNZdkxNRHBndUhOUjZmV0V4eHRDZ2ZTUWNZRndsVGZTUVJlWWM0MzBnRXVaczZKYW9fZVBKZmh4VQ?oc=5",
+        "published_at": "2026-10-22T19:18:55+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -289,19 +274,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial - STAT",
-        "source": "STAT",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUmR1SkF0aDk0cTdscjJVbTQ1bEppUlJOUmZpcDVRZmFYVzNfamstMER4SFlKa0RWbWFsbG9KdE1URGtHbG5aSXBrbUtyNndmSE1tRDFKdXRhNWZURWVmRkhUQVNZdkxNRHBndUhOUjZmV0V4eHRDZ2ZTUWNZRndsVGZTUVJlWWM0MzBnRXVaczZKYW9fZVBKZmh4VQ?oc=5",
-        "published_at": "2026-10-22T19:04:34+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres - The Next Web",
         "source": "The Next Web",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yVTFZbXFBSW5aX3I4RnVzSi1fYnJIVzlYQjVXWktlNDlOQ2dQaGh0NnFVVjdoMlgydTdjQlZqdHNnQVBMeE9UTWdfaTJ5cUtyX0NSZ3FCYW9leXduMEE2UktjQTIzR0F4Vm5oVTg4UkkzZ1V4cEN0YTBR?oc=5",
         "published_at": "2026-10-22T17:25:56+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Chip Stocks Fall as Supply Warning Deepens AI Selloff: Marvell and AMD Sink 8%, Intel Drops 7% - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjE3M1E5SV9QdGI0djdaX000RGV5MTRzLWlJZ1BLeEZ4X2dwWXlwVWVmblhIVEhiMXU0U2JHOHMzV2pHM3JnZ0RfWDRsS2dzVHQ0SG5KczFUVFd4ZUZFQmRjZUpPRS01RWVRdnFwTGFYcG51NkVyN0JFTFZBaGhwLTVrTXVMUVd5SmxSajRacF9vMzhuZWRn?oc=5",
+        "published_at": "2026-10-22T15:45:08+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
