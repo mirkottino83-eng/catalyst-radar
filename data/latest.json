@@ -1,41 +1,35 @@
 {
-  "generated_at": "2026-10-22T09:07:31.469660+00:00",
+  "generated_at": "2026-10-22T09:39:34.190530+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.145999908447266,
     "treasury_10y_change_bp": 2.8999805450439284,
-    "wti": 99.83999633789062,
-    "wti_change_pct": 2.7689086667643137,
-    "brent": 112.48999786376953,
-    "brent_change_pct": 3.3725401389794962,
+    "wti": 99.5199966430664,
+    "wti_change_pct": 2.439521441032788,
+    "brent": 112.2300033569336,
+    "brent_change_pct": 3.1336185183536314,
     "nasdaq_level": 26702.857421875,
     "nasdaq_change_pct": 1.0521816462209843,
     "sox_level": 11505.5556640625,
     "sox_change_pct": 1.9651704716234342,
-    "vix": 18.3799991607666,
-    "vix_change_pct": 10.191839475346498,
-    "dollar_index": 101.54000091552734,
-    "macro_score": 45.4,
+    "vix": 18.440000534057617,
+    "vix_change_pct": 10.551559932140474,
+    "dollar_index": 101.55500030517578,
+    "macro_score": 45.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.77%. Geopolitica: Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
+    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.44%.",
     "quote_times": {
       "treasury_10y": "2026-10-21T18:55:00+00:00",
-      "wti": "2026-10-22T08:55:00+00:00",
-      "brent": "2026-10-22T08:55:00+00:00",
+      "wti": "2026-10-22T09:25:00+00:00",
+      "brent": "2026-10-22T09:25:00+00:00",
       "nasdaq": "2026-10-21T20:00:00+00:00",
       "sox": "2026-10-21T20:00:00+00:00",
-      "vix": "2026-10-22T08:50:00+00:00"
+      "vix": "2026-10-22T09:20:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUjhnTDQ4QTM5cWtlRjN1MXFlOU5yQVlVd3F0M0pDNExkV29mV1duQUpSUjFiaXFuajRkNHRSc1EtaTBzemJOUElXbDhYUTRnSWlrdm1TRUxtQXEwdjM3blp5QnlVOFZJWnAyYjY1dTRwX3UycVZoMHJIWFZaUEZJNnRn0gGHAUFVX3lxTFBBRTI0YmhMaFkybjlPdGczT3I3cVlXX2xLcktrcjJEUVNueUY3QmNldksyRjFaWGtvUm1KUjVua2VibWMxcU5FWHpBakZCSWt2MXhUM0ZYd1FJeE1sLUtwREJ2Y1lldkxOdXZ6UGFqS2pwUksxZS1YLU1XUFNsTzBBMUJwRXAydw?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [
     {
@@ -49,23 +43,23 @@
       "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
       "source": "Investing.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOFpzT253U2ZOZGlpX2ozZklKd2FWRVBmSEhyRVZpeGRqbUJSSV9weEdKSDJTblpwZVFIZDBaUmV6b1BFUFRheDViTEpQRjdzblNENU8wUWRSX2RTdF9PRXVXZ21IVjh0Z2VMZlRsM1BCSDBFWkJMdFdZaG4yd3d6Zl93YWtHbW9hS2JhMG9WQmVmcGtpSi1MRkg2cEswRVlsV21OVzVad0cyTUs2R3hvR0VwSEpEZkZib3d6Mw?oc=5",
-      "published_at": "2026-10-22T08:26:15+00:00",
-      "age_label": "41 min fa",
+      "published_at": "2026-10-22T08:26:57+00:00",
+      "age_label": "72 min fa",
       "catalyst_type": "earnings_beat",
-      "current_change_pct": 1.57,
-      "short_term_change_pct": 0.81,
+      "current_change_pct": 1.93,
+      "short_term_change_pct": 0.3,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T08:55:00+00:00",
+      "quote_at": "2026-10-22T09:35:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 12.5,
+      "quote_age_minutes": 4.5,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
       "confidence_score": 65.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-22T08:26:15+00:00",
+      "headline_published_at": "2026-10-22T08:26:57+00:00",
       "event_occurred_at": null,
       "tradingview_symbol": "SAP",
       "risk_flags": "Notizia RSS da verificare alla fonte originale.",
@@ -74,7 +68,7 @@
         "catalyst_strength": 78,
         "freshness": 90,
         "volume": 28,
-        "momentum": 60,
+        "momentum": 54,
         "macro": 45,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -94,13 +88,13 @@
       "published_at": "2026-10-22T06:53:00+00:00",
       "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.5,
-      "short_term_change_pct": -0.05,
+      "current_change_pct": -1.58,
+      "short_term_change_pct": -0.13,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T09:03:31+00:00",
+      "quote_at": "2026-10-22T09:30:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 3.9,
+      "quote_age_minutes": 9.5,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -116,7 +110,7 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 49,
+        "momentum": 48,
         "macro": 50,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -134,15 +128,15 @@
       "source": "The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPU0FLU2Y3Mk1CWnpDenpmU05rODROUE1LOVJ3Yy1WZnFrMnVpTm5GN0VpLUxvSVV0WHZzbjU3OXRUNEpLb1lmekVmLV9lYzc4aE9IQjF1cEc3Q3pwdlZVYXNJRVhDWFNwRUpXOGRNWTBHM0JXNkgxSzZUREZNdVZHWWlfbzZTVm9TYk01eG5nNEtFLXRqYWRseGx3SlNoZW9uT1libjRjZWFYbC1PbGp0Q0NvdjlfWmlZZXJtcnhfdzg5VnhfNDdnejE0UUhXTC1qcnc3THRsSi1sOXhFNDFCZXNHWkVpcUNrUDlwaXZwY9IB9AFBVV95cUxPYzRtaGpsZFZfWk5lTnZQZ3hIOEh2VG9QX0ZQVFNLU3U5bHBfTUdNNlFyTkdOYTAxLTJRR0I0YV9aTENBS1h3LVYtelZ2RHdTV0VRcWczMEhyc3FLLWlTRnNXYUdGNjVKbFBaY2EzU1hLZHk3YUJXT2hMaEt1UlM3UkxYbHk0V3pKREpWNTJvZTFXaXE3TnFaRVBTcVBWU2thNk5TN3Ryc0F5QTZ4U28wbzI0ZUNpTzJQZFVBUXZudUlkR3pvZ2R3MmJDRUs2eEhUUnUzZEVUTk54TTBUaFhmekRZV3VNZlVRaGVfY0tlT1hrMk1P?oc=5",
       "published_at": "2026-10-22T07:13:35+00:00",
-      "age_label": "113 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.5,
-      "short_term_change_pct": -0.05,
+      "current_change_pct": -1.58,
+      "short_term_change_pct": -0.13,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T09:03:31+00:00",
+      "quote_at": "2026-10-22T09:30:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 3.9,
+      "quote_age_minutes": 9.5,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -158,50 +152,8 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 49,
+        "momentum": 48,
         "macro": 50,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "e0f9d1e5986a",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Mercedes-Benz and NVIDIA Deepen Strategic Partnership, Jointly Develop Next-Generation Driver-Assistance System - Gasgoo",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Gasgoo",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaWhIdEplcGRPQk9RcTlyY0o0LUlrYXpnanNGZTFqVGJTNlRLM2dxRk1EMmk3SG02VmllN2x5dm8tSFRCcUMyaDktNHhjNDZpX3JXeDFCQ2xsMUlxTWZ4OElmUlNNU0QtV283SDloVFI3aEZQSVoyZ0h2ck1qVzk5V1kzSVBJWTBIZ3JBWVIwWW9WR0ZCUF9MQzZZakFpM21wR2FDTTdfOEdhU09aQV9NbnZKd2dlUUl5QnNYa1M2UTdQX0xNZ3JtbVJsZjk0ZHRBa3NGQ3prbUViS2dVUmVUdmRVVXh5LWlFQUQxVkxxM1NsVE03cFNDcWpRWTlQUHhDWm9NM1ppZ3hzQnJhS2JKZA?oc=5",
-      "published_at": "2026-10-22T03:09:14+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": 0.05,
-      "short_term_change_pct": -0.07,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T09:05:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.5,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 59.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-22T03:09:14+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 74,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 49,
-        "macro": 45,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -209,22 +161,22 @@
   ],
   "movers": [
     {
-      "ticker": "SAP",
-      "company": "SAP",
-      "category": "Europe Software / AI",
+      "ticker": "ENPH",
+      "company": "Enphase Energy",
+      "category": "Clean Energy",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 1.57,
-      "short_term_change_pct": 0.81,
+      "current_change_pct": -2.89,
+      "short_term_change_pct": 0.82,
       "relative_volume": null,
-      "quote_at": "2026-10-22T08:55:00+00:00",
+      "quote_at": "2026-10-22T09:30:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SAP"
+      "tradingview_symbol": "ENPH"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-22T09:07:17.637067+00:00",
+    "updated_at": "2026-10-22T09:39:23.411475+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -234,14 +186,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -255,7 +207,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 1
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
@@ -267,6 +219,69 @@
     ],
     "geopolitics": [
       {
+        "title": "Von Der Leyen Says EU Sanctions on Russia Will Remain until War Ends - Hungarian Conservative",
+        "source": "Hungarian Conservative",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQnprOC1xblVxTmlUUTVCZVFxRHZydlZiVml3Wlo4QkNmR0RDY0xwNVY2T3ZPQUx1ODBUOXhXLXB5VTJHcVQ3OU9LOGVUUS1BcWlYOFRsNFBQMjFvaW0xamltZEJMc0R1bEM5SGVXazhUNzlUemNSN0gtbGdwRWdQSjNRZUZ4ZkQzVlQ0a1VEZTBHYUxXQ3lZa0ZTLWpRVzVCQUpPVG5hOG9NajUxNVprRGZVRGdfZTZrU2xF?oc=5",
+        "published_at": "2026-10-22T09:33:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia Hits Historic Kyiv With Cluster Missile Designed to Maximize Damage Across Wide Area - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTl9yNndoT3hPMlJxcUxpNzNFUlM4d01ucENvTFUtdmlhNGdMS01PZ0FDMDJEZTRBZ00wWkJYLXpWcFRaMVJOd09ZREo4LW56anBQUy1SdGZXakNVaUQ4ekpVOTJqUmZwTjhzb3VjZWpidE9JWVpMYk9QNzZpZGJJT3NtMWlIdXFyeHY5alZSZUJ3NEVaWEF6THpuelhDZUNtSks4RklBTUp0SHBwV1ZQZXRMeHVfOU5GQ2FfN190WTZPYTQ3eVE2bGRIdnFJNmNRWVNnSA?oc=5",
+        "published_at": "2026-10-22T09:31:36+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Analysts say Iran's floating oil tanker reserves fully exhausted - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14a2gzeExlazA1ektFSGR4c2pGN0k2alozc0VHM3VEX2x3RWkyTXFzY0UybDFMZld6UEJQZ3ItM3lmMVBnTGN5UW5zcXVBOFYzVjZmUWZVUEc1UFowcHpzWHV4eE1iRGVNQWc?oc=5",
+        "published_at": "2026-10-22T09:30:31+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia Launches Deadly Mass Missile Barrage on Ukraine Hours After Putin-US Talks - Newsweek",
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbjRUZFRFd2Z2NWE5STlGVlMwZ0tQQVhPLXpoTmRYMkZFaVA4RXlONlgxSHRCTF9PeXFZS1oyZlhlcnE0MTNkbFc3dzN5ZVpfOGJqV1JuMXpoMVpReHNNeU10eFBhY1B3bjlQV0N4MXdGNUYzSkdDQXdDcFJvcUVtdnM1OERGTnU4ZjJoTTZ6aXpqVjE4WnV6dG00dndVQVhkOE1STFVsZlZONGZTRjNVZlJwdHV4YWZjOHc1TA?oc=5",
+        "published_at": "2026-10-22T09:28:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran: Oil tankers are on fire, damaged in key strait as fears grow over return to war - WMTW",
+        "source": "WMTW",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX1FJZ2Z2MWtvM1djcGx6U0Qteno4VjI5ek9Kd0ZOU0ZyZXhHODU3aGtZam92Z3RTS0NQSFdzSnRJMThpNldCS3VOUXZjbjUxdmhxSmQ4UXBkc2JEbnIxYW9CanJmN0VGc1JNT2FjMng2WUN3cHJUeDRfNFV1dERmbW00VW1JNVY0TGZTWg?oc=5",
+        "published_at": "2026-10-22T09:27:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "TSMC Seeks Alternatives to China-Controlled Rare Earths to Safeguard Chip Production - Modern Diplomacy",
+        "source": "Modern Diplomacy",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVXBacUZkZmdRaHd1XzlnVFZRNW5hNWI1aWZqLWtFRjFsb3czb2FhMldkOU1zR3pHb2ZrcHVVNDlVdWVSOUtrU1F0VGV6MjhMTkw5OUFJREYxU0JxbXUyVG5qRm1VNTRKQmNfNEpVVVI5d3pPZks2eVhERl9NaHpnd2lpbDdib2Y5MzExek9yTnVZbjFjWmo1dVZBdjVQLTl5dng0YVB1a0ZPUGJiZThIZ3RYS0g1d3lSaHVabF9Fdzc?oc=5",
+        "published_at": "2026-10-22T09:25:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "One killed, eight injured after latest Houthi attack on Saudi Arabia's King Fahd airport | LIVE BLOG - i24NEWS",
+        "source": "i24NEWS",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVZVV0JudnVrNkptd0VSVEkxWEV3UFF1QkJZR2F6X05OaU1OQVp2YnRNeXpBRVFRaEU2WVNlUGVDVndodkVFb282WEltdGY3eGplRWZqcXlyTmxpdmx0T3d5S21TVGEtRzR6NmctWS1SRU4yZnNOcXJxdUIyS21Ydmx3U0hWeGMwS2JMcy1CTUdZOXc1Zzl0QjFxOGZIYjVIcTVQblBFYlN2WmhZWHBhZkNlTmVnZG1tWUlwU1NyeWNVMEdmNExHU3kyRXZTVEtzZmMteXlmTmRXd3dsQlE?oc=5",
+        "published_at": "2026-10-22T09:03:29+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Persian Gulf oil pollution doubles during Iran war, research finds - CNN",
         "source": "CNN",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOalJEcGFnU1FuVkZYX0FieTVGSmtvUFVJOTN0ZE9nRDd0RVZhQjhkaVBUc21LRy0xa3BmVVlXLTBObmZDcEVxVVRfQ3dkVDRrYnBreFFNcENBQ0dfOWVTb0o1bXJROFVINXFIX0xwY185cGpVajBGRnZWcG5nbk9yZzdqLVpBakJ5RGx4Z3hjWjRmMTNoYm1NSEJyWQ?oc=5",
@@ -276,28 +291,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran says 7 oil tankers are on fire or damaged in a key strait as fears grow of a return to war - WTOP News",
-        "source": "WTOP News",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWWhuR1VfM243MERkS3hBYzNDZTVSNDJuUE5kdnRvbkRGZ25YMWlwN1dhZGVsTXhscElWWFNTZGdrQnEzbzNqbWtXa1pkY2l6SWRuUW1ZaktaR3djNkxrUmJ2bW9WUWp3bm5VVjluaklTWUtKdHhQalJGZElOVmlkNVl4QkQ3b1dIMVpxR2FGY3gxMVljc3RZbjQ2b0hkb054ZjllYVVCREF2TVIya1p2aldORWhraFJPcGllWHRYMS11WEVUcE4xWmdR?oc=5",
-        "published_at": "2026-10-22T08:52:04+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "'Trump' reverses course on Russia sanctions policy | Opinion - Savannah Morning News",
+        "source": "Savannah Morning News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSm9tNTZFRllRT1dobnMwcHBJM3QxM2h0T0w5c3RrS211V0RZOXludE52emxISEQ5ZHR4ZFk3WnREWTRKa1gzVndXT3dXVVJvbDFSZktZTDlWa18zSVQ0ejAyR3l5UEp3NkZ1R0lCWnZiODNXejN5anBZUWFfYTF2NWpRUFRwMEVzMEo1NU95LUx6NnJhcjdBMUdSQ1JzZXZNV3dtTU5LemkzYlNzdXJHQ3lpZFd0c19BZUE?oc=5",
+        "published_at": "2026-10-22T09:03:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil jumps on escalating Middle East conflict - Yahoo Finance",
+        "title": "China v Australia Trade Tensions Start To Boil Over - Yahoo Finance",
         "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaUJCYWJFR1VUQ2JfYVlWWVBxSzYwMnEzcVQxUU9faWFiYm9qNGxZd2NrX3c1MDZULThNTHRmdG9LOHoxbDdGaHlHcms5aGo0QWxWVGJrSzZSREl6QjJ6eWNGclhyVWpSa0VtMHBIVnBJc2J5YWNMUzdCSVhneWtkTFpqT19Bdw?oc=5",
-        "published_at": "2026-10-22T08:48:57+00:00",
-        "area": "Medio Oriente / energia",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeF85RWJuOXNsWExFSVBBTktYajlDQllkeGhHZDY5YWhwandqZWYwV0ROdjdFcnFXNjJIR0hOVVRKaXJxS281aC1XeF9YUW9DUk9fNEdSSzU1NjZkRGRXYTV3OEdmdURMeExaY0c5T3BaWjBnLTQxY000bEhxUEhlQWQyc08ybGpEZmJNVGtkdmplOGFIODV3dFBfdnd5Zw?oc=5",
+        "published_at": "2026-10-22T08:48:53+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Canada’s Trade Diversification Push Not About Replacing US, Sidhu Says - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVXdIOC1RNXVRSHJ5MWtBR1R3b2E3N3RwY2p1bnRoRXdTR3NHQmtSbUNkLXhWajVIUHJBMzBtWi04Sll6emZsbnB4azR2VFRWYUFnSnpnS3JPYllzeHpUaUxLX21HQkM4RHZJVG5vZk1mQlJ5a0xMN0VRM0V1NEtzbTZocXVpamJCUW81V1EtTC1jRUp5aFRZRjVUV3owVGFzOHlxOFAyU1k2VVM2Q25rQjc3NWtUZFJ3U2pPdUxNNXV6TFk2VnBGOQ?oc=5",
-        "published_at": "2026-10-22T07:42:44+00:00",
+        "title": "China's MOFCOM says they are to improve trade friction response mechanism - Newsquawk",
+        "source": "Newsquawk",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZVZPU3lKUU5xdVBDaG9ESTA4NHZuc19FSF85c283MlRhWmZRSDlENHZBSEoyS3d5QjdVMWRJOGhDSUl0MkpJNmtCSENINTVCUGtMNFFPSU1YME95ZllvVmZpV3R5X2RhcVRVRE1iLUVGNXRLQ0RrYXpWRjZBd0lDbnMwcFFvV05oaVlTZy1WQ3loMUowLUh6aW9ZdmRjUlNER0dqSXFzaTNDZ2hf?oc=5",
+        "published_at": "2026-10-22T07:39:01+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -321,24 +336,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia pounds Ukraine's capital Kyiv with missiles and drones, hours after agreeing to peace talks - SFGATE",
-        "source": "SFGATE",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTNGX0VOVkFpMzV5UVpPT2N0UlVWc2tWTXBPNUxVbV9jcWxFYmJqNzRtdzEyOWVXenFCMVJFcmJISV9sczc3RjNuMzl0Z0ctT0NPd19jVzMwbVJ6VXlwQ01ILWtuMlJhOGg1V01yOHlFdEFuNENnNUJJQktGZlN3WHdWMlBmSkVxc3FjTmtBSWJ5NHJMSEhKbHpWbmQ?oc=5",
-        "published_at": "2026-10-22T07:19:56+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran's Oil Reserves Run Dry as U.S. Naval Blockade Tightens - Crude Oil Prices Today | OilPrice.com",
-        "source": "Crude Oil Prices Today | OilPrice.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdmxMVV9JeVp3T3JjUTA3V1drVUJ2QmVTN19zM3Z1TjIzX0V5M2pJcnZRNGZqd3d4czBoLVBBU3hxUzJkR3E4SUdCYUpfYnFhRVUtVW9KbzJjaXFZWDhTamNfUUZvM21VeDd1NEM1RUJ1TFRvN214UlZ5cmhCUHhDOGg2THNmMFd4RzZTYWJRekowbUdKRmFFQW1qbUxST1ZmV0Y4bDJUck9NQTBweXE4Z3ln0gG3AUFVX3lxTE9OTzk5VFlja0JsR0NoOWV1OTdUMTQ2VFFMZmFPSExzUG5JM0pVQk1FbVc1MmZVRmdSb053aFAySFZjVUhsUmpfWS1nSUpGTlBkT3BFRkU5dEhXSm0zX21UdkJta2lVSVFuT3d0UVA5Q29IVjlLcDF3eWdicmJMWElPbVlpNmZ3cVF4R2cxSUNHQkgtMDFmWExpNnFERWVTczhTWTVoVEJpRzRsRnlVbHdacThTcFA1Yw?oc=5",
-        "published_at": "2026-10-22T07:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "EPP Position Paper on EU-China Trade Relations - EPP Group in the European Parliament",
         "source": "EPP Group in the European Parliament",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbVIxUTJtME5MZDZsRlBzb2xNeS1fblh4dVdfRHNZUlFmb3B4M2pBUE4wTTNsSmRjV0dacjV6TzRQR3Eyb1d6WElPcHA4d0J5d3h2WW44RHZMczBuV3pFOGN5eDBVWk41S3hfQUM3SDY2bHVDajU2VTJnTXExbE1neWgtTmNIeVljUWRBQjZ3MmY?oc=5",
@@ -355,54 +352,18 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Donald Trump Calls CNN’s Kaitlan Collins a ‘Dummy’ Over Russia Sanctions - Yahoo",
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRTFIc0NJQldQVXVZbnJtRkVKLVBrVDMzZDBoaS1aSzRocmdEcUZqQk1sV185MU1UaFd1SWU0S25xNTFPUDg0THU0ci1UbGJnVEU2ZW1XYUZKcXl3YVQ3U3JWSzZtOWdGWGpjbTFyZV9SWFBhOENnVXhxNnYtRHZibUdQWk5YUldZd0Z5QjdGTktya1dj?oc=5",
-        "published_at": "2026-10-22T06:34:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Update | Russia and Ukraine trade major attacks as Trump touts progress - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDlrSkoxT2Z5czM5X0lOTmpPRURLQlQyMjE2RGh1cFNzZDdvYzFuQXV0T3N0aGtuME53akIzMl9zYU44QWJ1QzdSLS1ZZzlRbEVfWEVIekZ6QWktaENfcnYzTmI4X0tOOEk2Z0luWC1aVHUxN096MWNXUEJFTGZWbzk2NVRidFY5Z01QOW9BX05TVkdST0lFcHhZUFI1Z1V3SFhwRDRxNHhnVWsybXJaMUdXWTbSAbQBQVVfeXFMUDFrRWI0Y3BLeGxqOGllQUY4RVk5a0RXRUt0M1NBZWtZdU9xLVhhQmJ3Z1pKN3dnVzJpNlZMdU93UTh5el9GQkhKY3VXQVI1OUJzWGE2OGpLZ20yNXNCMTJEZGEtRENrQVpKM0FPWFFDNmFwN3ZldUJHQW96VkJDcUNMa2g0U2RtQ0M2UVQwRXVRYnhpeENQM09FVmN6Ti1rM1BoR0E0bW5xWjgzbWZlWkIwOXZt?oc=5",
-        "published_at": "2026-10-22T05:04:43+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Putin’s War On Ukraine Puts Oil Giant Rosneft Under Mounting Pressure - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVzF0NmhDRTFRT3BZUmhlUlJVcllGWkZBc1VVbGEwc0xDREQ4QTI0UEp4c0laQ3A5VGMtdVVkblNwSlJFQTN0WDE1bzhPMVN4YmVUVktXbXZDbXYydktvd0xGMngxdm1TOHdaTWlUSVByWjlTblZRTEkzOFZCbWQwbWlleVVmekxrRDZBS0pDa0VNY1hRMnYyRGRoOUloU05Xb3Vob0RMMnZyd2VxVWhTeWF6ajZqdmxa?oc=5",
-        "published_at": "2026-10-22T05:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EXCLUSIVE: China snaps up Australian canola as improved ties, lower tariffs fuel demand - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSFkyb3c2MngteVdVR1Q2S2RGMmE2a0d5NEMwazZvUEFySDlIY01nbU5waHVUSXYzMURzS0xucm1VUkc0NVNZNDA5QjFFdmtxSDFRenBGWS1jZnV0M1l2VUhXTjRqTnBRZXJ5aDRrbWJ1WUNCck15cEZKMzQwalkwblVoSzBzNmdJMVdKVjg3WVh5aGNiUGExQU41dGQ2VHFjNGIwT0xqNlJJYlpTY3ktNlZwcGhrTVRZRUdEOU8xbmhyQkhVeW1rN0hVQXlPUGZ3YkFN?oc=5",
-        "published_at": "2026-10-22T02:48:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says Russia sanctions could have kept US citizen jailed amid questions over his release - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeW9LWmdfTFpVTXd3amp0N0ZYSnowcVlIVDdUeTNwdDJkdlNXX3o4bWEwQWZqWnN3Vk5Vc3BfRTktRVBSajhBOTkwNDlKMGFjdlB1Qld6dWN3YWFhaW9wV2VWc01OYVN1SUVDcUw2cWxsb1oxS1hqYWhjZGZRaXZ6aFVFTjZJdjlaQ19TWGdVZlBoVEEtTUloVXc3cU9weVBKUXVCc2VjRktRWkJyd1cyOUhoUGtveFB3RWlSdWdMdThGTm5WcFVjekdJYklCQWducDNkT0JXVGxmbnlyc2c?oc=5",
-        "published_at": "2026-10-22T00:26:29+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Nvidia Stock Falls in a Case of Bad Timing Over Another Potential AI Investment - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VeEdHR2lCQXB5TGVFS2dwc0JnRTVDR3loNTVlRlRmTHNWcmpHbUdHdzV6bVJQQWgzQkJZTmZWbXJrQjFHWGhMVEVUZEJyOXh4UWZFa1kybFZWcGVDVGF3RXcwOXhZZkVxWVVKc0pwa1lhak1lRXBB?oc=5",
+        "published_at": "2026-10-22T09:30:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns | Newswise - Newswise",
         "source": "Newswise",
@@ -413,20 +374,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Do Vytrus Biotech's (BME:VYT) Earnings Warrant Your Attention? - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeUIwUzNFV2FxeTNnV0xkblFIVUlsRjI3cVR0YmJRZkFmRWZmcVFETkhLVURWakJJU3dtazlRaXhkMFZFN295bVFpTmY2NUtuS0xRaU4yMUc5SnYtOUltc0RLaWNPcVFseXFNcXB3bFZ2OHAzbjZ3VDVXOXNMNHdWWlNiRlU0M1h1S0VBd2xmWm9TZXRiN3F3UUJSNFJCWVU3bzdLWTBnTU1HVmx3eDk5SmZPUXlWdlRPRHZtT1hScE0xTHlWb1JvbFZHMGVpcFHSAdQBQVVfeXFMUHFjZDRZV0dNNko4ZjhVZThVMzlPdU1Na0VzTlU4dWxKMVdzWEpFLTNNNGJBU0ZWN0R5bTAwVTdTTHFpUnZOY2lmdENBU0FDQ3ZrV2YxaFYzSWt4VjlGTlVvd3JfVTM2aF9Mc0F2NXFsZzA4V3F0bExsNmtCcHpOMkt5ZjE5SDRSRTZQc2JGTlRrWHI4d0o4VV9iMmlMOS12Z2NNTDhLbUx5VTNiNEhJQXRLSXFfZHhQOU1nQUgzMlJWZlR5b3VuSUloT3N3ZDlUZGJVQkI?oc=5",
-        "published_at": "2026-10-22T04:52:30+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "UK Energy Stocks To Watch As Oil Prices And Inflation Stay In Focus - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZXd6OHp3YWhYd096dDlnWXdONlg0WW9ydWRlSVVuNjFPejAwS2Z1ZmdkTFpFZTJ3NTN5bnBreHhKSVVoNFVGcV9Yd1ZZMTQ2dWc4NlY0VVJYOGxrX2dudFhZeGxaajRhbmVlTUdXd3E5d00wdXhia0tCc0dsQWVSYlY5Q1NkeE9KQ1Y0?oc=5",
         "published_at": "2026-10-22T04:25:00+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia taps Korean component makers for AI chips, robots - The Korea Herald",
+        "source": "The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10ekUycklJT3lCakNuZEUzX2c2TEQzOWgxaTFVeDA0XzdZM0FhdWxEYzNyS2tZOXYzU29ERjRTUTZFOU1DMmU1X2tTWm1FeG1ycjVibzg3QQ?oc=5",
+        "published_at": "2026-10-22T04:22:51+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -449,11 +410,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout - NVIDIA Newsroom",
-        "source": "NVIDIA Newsroom",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFl2YjlqcF9vQ0s2QkdFMDBxNzdVT29ibDFOOUhxRlZhSDJmY0M4VENxOUNyLVNRdEFEcG54RkdUSHk0X2c4V0xOb1d0UmI3aHdSR0d2V0hRd2lQV0hWcXJfcU5vc0JzcUdOVzFTMl9XQjNaamF6ZTZSdWZuOU15RWVRNnBIMUh4c0ZfVy1JcDhUR0hGczl3UXBmcjc2ekxrVW9YMXdHU3lBYWZBMmxhbE5ScnFYTUhRZ0g1QjBpRmxCQQ?oc=5",
-        "published_at": "2026-10-21T10:43:59+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Edwards wins FDA approval for Pascal Precision in tricuspid valve repair - MassDevice",
+        "source": "MassDevice",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMzJlS3lfMVpDTHJNTjlFRVEwTFdRY0RrMkEzZUgxRFN0Mi1GWGZWTlhUck5SMDdHQ000RWxpbWhhMW1uRXhqNkxpTzBjZ3cwSUJGWW9pZ1pIVUVXZXlXS1JLOTVjYVh3TVM3cWZSQVEzVGh2RzJZUU15cnY3VHgzZ2RyU1p0MWEzWmFlVEF3b0RXRWhwbzJlYkpyMWpLZFpQLVE?oc=5",
+        "published_at": "2026-10-21T16:53:09+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
