@@ -1,40 +1,46 @@
 {
-  "generated_at": "2026-10-22T05:54:33.098480+00:00",
+  "generated_at": "2026-10-22T06:21:58.844415+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.145999908447266,
     "treasury_10y_change_bp": 2.8999805450439284,
-    "wti": 99.05000305175781,
-    "wti_change_pct": 1.9557400885606535,
-    "brent": 111.12999725341797,
-    "brent_change_pct": 2.122769311773509,
+    "wti": 99.2699966430664,
+    "wti_change_pct": 2.1821874255172125,
+    "brent": 111.5,
+    "brent_change_pct": 2.462782864079771,
     "nasdaq_level": 26702.857421875,
     "nasdaq_change_pct": 1.0521816462209843,
     "sox_level": 11505.5556640625,
     "sox_change_pct": 1.9651704716234342,
     "vix": 16.68000030517578,
     "vix_change_pct": -3.639509995399659,
-    "dollar_index": 101.56900024414062,
-    "macro_score": 67.4,
+    "dollar_index": 101.52899932861328,
+    "macro_score": 66.9,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +1.96%.",
+    "summary": "Tech bias positive. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.18%. Geopolitica: Oil Rises as Deadly Saudi Attack Fans Middle East Supply Fears - Bloomberg.com",
     "quote_times": {
       "treasury_10y": "2026-10-21T18:55:00+00:00",
-      "wti": "2026-10-22T05:40:00+00:00",
-      "brent": "2026-10-22T05:40:00+00:00",
+      "wti": "2026-10-22T06:10:00+00:00",
+      "brent": "2026-10-22T06:10:00+00:00",
       "nasdaq": "2026-10-21T20:00:00+00:00",
       "sox": "2026-10-21T20:00:00+00:00",
       "vix": "2026-10-21T20:15:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 44,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Oil Rises as Deadly Saudi Attack Fans Middle East Supply Fears - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcGpORlFHazhXTnJBNnc2TndhSzgzUGRSLXd1Zm9fb0xKRzJZTUs1NGRPdE9McUpmZFlFenhNaGYwOGNIREM5NXRMMTZ4VXg5clJDaWFqcGRKRDRBSUh1bUpLenQ4ZTdyQi1qT1p3RjhRT0V6UVdUdGFuLWJxakVvMHRRanRvUGduVXA1bkZmaWlNRHFlOEdhVFhxTHAzUQ?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-22T05:54:21.188037+00:00",
+    "updated_at": "2026-10-22T06:21:47.147003+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,21 +57,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
@@ -80,7 +86,7 @@
         "title": "Canada’s Trade Diversification Push Not About Replacing US, Sidhu Says - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVXdIOC1RNXVRSHJ5MWtBR1R3b2E3N3RwY2p1bnRoRXdTR3NHQmtSbUNkLXhWajVIUHJBMzBtWi04Sll6emZsbnB4azR2VFRWYUFnSnpnS3JPYllzeHpUaUxLX21HQkM4RHZJVG5vZk1mQlJ5a0xMN0VRM0V1NEtzbTZocXVpamJCUW81V1EtTC1jRUp5aFRZRjVUV3owVGFzOHlxOFAyU1k2VVM2Q25rQjc3NWtUZFJ3U2pPdUxNNXV6TFk2VnBGOQ?oc=5",
-        "published_at": "2026-10-22T05:35:16+00:00",
+        "published_at": "2026-10-22T06:12:44+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -118,6 +124,15 @@
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0a0dDNHVBZ3htWXJxMWhXS19sRkdkMUNBcXF0MzZWejJBMEpLU2p2WEx3Xy1XaHNuamhaUVBmbHU3OG12Y1ZBaVdHRjJ5ck9jV0U2ZGtyRE5KVEdIUTlOa0NjZlJqeU1YRXfSAW9BVV95cUxQbERlN19LekgzYkNqdXFjd3FJb0lYM2JOaGdhWU1oSFdaSVFFTExkeGM5Y19peUFfR1RxZkczR2VwY2tGTGF4ek11SGcyUVZJeURTLVNyVmw0ZEtUdU5WeGVHT0Y0NV9fSkhDd0hRQzg?oc=5",
         "published_at": "2026-10-22T04:26:42+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine's strikes on Russian data centers disrupt key services and derail AI research - Jacksonville Journal-Courier",
+        "source": "Jacksonville Journal-Courier",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWjFaTGxnSzgyY3dSTlRYb3ZvNFVpQkJlNFdtVmtDVlcwZmd3OTh4ckVvbU14LXNVQmhvUk1tTkV4TThyVmpYMm16QnRwdG92VjhFZldqOHY5OTdZSzV4amk5a0pJQWZ1cnllOGtYc25SbkZ5NzA4Y3VFaHlLVVhFMkozRXZxbW5RbXI2bHIyUmdJRl9NNWlJeXN1OGZ2NVZzdkxkd3g0X0x1MEZKT1lHbVJ3?oc=5",
+        "published_at": "2026-10-22T04:11:33+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -176,15 +191,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uR3lheURKOHZfRVVGclF1YVpoVE9QcXpBTTlkc2JjUXV2RTQ2bHY0SFZCa1hmTXVTWU1XTnRaVk8yWk1XX2lUbWl4LVNjQ0Ficm5UdEdMMDh0S1E?oc=5",
-        "published_at": "2026-10-21T21:27:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "The Paradox at the Heart of China’s Export Boom - Foreign Policy",
         "source": "Foreign Policy",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEhUTjVuRjI5UzdGU1dfRWMwZy1LYXlwcnU3V2JTNWQ2Vl9seXpiOW5YVVNWQlJTeV9KY1YtOXR2aXVwV1plc05Gc01WX2pqdHAyQ3VxTjJYMERxekllV2dIZnBRRm9qd3AwWloxQ0xLb0NMdk1HOEdmQnZBcU5vd3R3R2VCT0x6RXcxN0t4NDE4MEQ0T0JEeGhR?oc=5",
@@ -232,19 +238,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Micron (MU) Stock Looks Fully Valued After A Critical Minerals Deal - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUEdGRmdiWk0xMkVvSG9zT1ZZWVBMR0JQNUt6Vkk2OXpIVjRFeWVrTXdCSm9DT0lWQXluSnhtaXhYR0ZVbXR4NUNLclluWnRGTVVodkJnWGUyQnNiTFRMZVZOaTN0TXhGU1AzQ0Z4dWZ1Y1o4dTFIWVRHcVVQZVZZWmVsZkZsOW9rSVRxS20zckxIekI1VmtJ?oc=5",
-        "published_at": "2026-10-22T01:23:00+00:00",
+        "title": "Nvidia taps Korean component makers for AI chips, robots - The Korea Herald",
+        "source": "The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10ekUycklJT3lCakNuZEUzX2c2TEQzOWgxaTFVeDA0XzdZM0FhdWxEYzNyS2tZOXYzU29ERjRTUTZFOU1DMmU1X2tTWm1FeG1ycjVibzg3QQ?oc=5",
+        "published_at": "2026-10-22T04:22:51+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "What Does Intel (INTC) Joining The Terafab AI Chip Project Mean? - Yahoo Finance",
+        "title": "Micron (MU) Stock Looks Fully Valued After A Critical Minerals Deal - Yahoo Finance",
         "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR0lUSjVmbzVPTmdTVWxETE96em1ndU45NWlLdUY0UnNOSjRQU25RSmlORkFvZ2ZtZ1g2WUVhOVo2MHBDNkFiTlVVdHBKUVYyUXVUZGJfSjRzZVh3eEQyNEVUY1BEb0ZDajhZeVJLbTE1b050OXJMQjFybUVOWWJKQ2RMZVRuakdDc2pCRHM3SnJMRkdNTEZ3aWxlQQ?oc=5",
-        "published_at": "2026-10-22T01:22:00+00:00",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUEdGRmdiWk0xMkVvSG9zT1ZZWVBMR0JQNUt6Vkk2OXpIVjRFeWVrTXdCSm9DT0lWQXluSnhtaXhYR0ZVbXR4NUNLclluWnRGTVVodkJnWGUyQnNiTFRMZVZOaTN0TXhGU1AzQ0Z4dWZ1Y1o4dTFIWVRHcVVQZVZZWmVsZkZsOW9rSVRxS20zckxIekI1VmtJ?oc=5",
+        "published_at": "2026-10-22T01:23:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -259,15 +265,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Patronus Biotech Secures Australian Approval for First-in-Human Trial of Next-Generation Malaria Vaccines - BioPharma APAC",
-        "source": "BioPharma APAC",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaTBjNmMyclBhN3ViTndBOWJ5VEF6Slk5NGxPdVVLNnVnTXNrakc3ZzJ6dkVCWmh5X2s3Q2tzVGRHbndzNjllOFlWNHZPQnJtN1ZrbnR5RUEtUGFIODFZMzczRExlR1JCcU1CV25PX3ZsRUV5bFJrWUktNks3bXJmYmZRMDFBLWhOYllxY3pnd213RWNOQTVrNnhBQXJxZ3ZDb016MW81ZHZXWGVoQk1CcHNhOWJzLUotQm84c1FGSFhjZFdZWHEtVnl0RFBUblVpb3ZRZzN4TjBVXzVxTGNDZEtKSQ?oc=5",
-        "published_at": "2026-10-21T18:39:32+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Edwards wins FDA approval for Pascal Precision in tricuspid valve repair - MassDevice",
         "source": "MassDevice",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMzJlS3lfMVpDTHJNTjlFRVEwTFdRY0RrMkEzZUgxRFN0Mi1GWGZWTlhUck5SMDdHQ000RWxpbWhhMW1uRXhqNkxpTzBjZ3cwSUJGWW9pZ1pIVUVXZXlXS1JLOTVjYVh3TVM3cWZSQVEzVGh2RzJZUU15cnY3VHgzZ2RyU1p0MWEzWmFlVEF3b0RXRWhwbzJlYkpyMWpLZFpQLVE?oc=5",
@@ -277,29 +274,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia reveals plans for 'an AI factory in a shipping container' to build data centers in weeks, not months - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTGZiNW1ZS2NSU2tlWUI3dWVIa3BGa29BemtncHFaY2lCUWpxbW51Y1RsMEItelRSNEJMdS1tLTM1dy1GTmt4a0xva3pvRnJLSUs3alU4Zl9iZzg1ZDVJOGtqblh1dHZWYjhaN3pZbXJlYkNJWXpMTmNRWEpUeDl5bng5SXNNNUMzcHI3Z2YyRGRWM3RPOFVUSy02RTBBaWg5ZUdJOGRjellvZ3Y3SmI5cHNFOXpjZXFVWng4V3pFUVdxWnpZcVhWMWF3UFpwRTVIVzFMRWFJUjR5aVo2SEdWMVZWOUlubkhxeUpFVUQ2aFJvQjhxcEx3?oc=5",
-        "published_at": "2026-10-21T11:30:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout - NVIDIA Newsroom",
-        "source": "NVIDIA Newsroom",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFl2YjlqcF9vQ0s2QkdFMDBxNzdVT29ibDFOOUhxRlZhSDJmY0M4VENxOUNyLVNRdEFEcG54RkdUSHk0X2c4V0xOb1d0UmI3aHdSR0d2V0hRd2lQV0hWcXJfcU5vc0JzcUdOVzFTMl9XQjNaamF6ZTZSdWZuOU15RWVRNnBIMUh4c0ZfVy1JcDhUR0hGczl3UXBmcjc2ekxrVW9YMXdHU3lBYWZBMmxhbE5ScnFYTUhRZ0g1QjBpRmxCQQ?oc=5",
-        "published_at": "2026-10-21T10:43:59+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NVIDIA Launches OpenShell Reference Architecture for Safe AI Agents - NVIDIA Newsroom",
-        "source": "NVIDIA Newsroom",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xVjJaWWVnN3FsV2ZrdlVrSTRuVEE2V0JWZHJRQ2loQ1czLVdiWXpvQkYxLTU2R0U4VVhkMGNZblBRZ0hyY1pnbXVZMXAzdmN0LXdRTDNSSXpwNmhSaHRzR09wN1kxendGLVRWQm9CTkJmZ2stRUE?oc=5",
-        "published_at": "2026-10-21T09:55:45+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Bepirovirsen Approval Offers New Option for Chronic HBV Treatment - AJMC",
+        "source": "AJMC",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRFRFS3VGbkRvLU5nODBiVGRxM2VyMFdaSXktaXphdTloMW1nQ3dlODFnbzE0N2dJdjVXYWJ5VXJHaVhqRTVwQUFjUzU1VHBxWFNvaVdoYUhXUTNVMXRVTm9haFFVQjR5Q1N0NU9jeHdOMmNZSnVoZWNMRnJvd0tCcnNFVmdzOTdjNFpuR1hHalYzYUw0NkE?oc=5",
+        "published_at": "2026-10-21T16:43:30+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
