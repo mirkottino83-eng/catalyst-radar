@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-22T22:42:39.083753+00:00",
+  "generated_at": "2026-10-22T23:09:23.313213+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 99.02999877929688,
-    "wti_change_pct": 1.9351489695212942,
-    "brent": 112.9800033569336,
-    "brent_change_pct": 3.822830062282412,
+    "wti": 98.98999786376953,
+    "wti_change_pct": 1.8939745846535017,
+    "brent": 112.80000305175781,
+    "brent_change_pct": 3.6574190112986127,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
@@ -18,11 +18,11 @@
     "dollar_index": 101.61699676513672,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.94%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.89%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-22T22:30:00+00:00",
-      "brent": "2026-10-22T22:25:00+00:00",
+      "wti": "2026-10-22T22:55:00+00:00",
+      "brent": "2026-10-22T22:40:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-22T22:42:26.775193+00:00",
+    "updated_at": "2026-10-22T23:09:11.321053+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -64,33 +64,24 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       }
     ],
     "geopolitics": [
-      {
-        "title": "Saudi Aramco seeks overseas oil stockpile expansion after Iran war - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aa3F5blJydUJjazh2ajRfNjVnZUtYZFdXbS15TDB5bXVRN0tJMkJ6cGVJa3lQMDdncExSci1QU0pxYlhfNHBqQklHTjNEZkFhM3c?oc=5",
-        "published_at": "2026-10-22T22:15:31+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
       {
         "title": "Opinion | Oil’s great escape from the Middle East - The Washington Post",
         "source": "The Washington Post",
@@ -101,12 +92,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "EPP Group calls for EU action to tackle China’s unfair trade practices - European Interest",
-        "source": "European Interest",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbmtKUklNa1NaZW4yWlZLM3c4c3d3Y3JjWlJoM0FIVm1fSVlETzhRWFF4N3Y3NnhqZUVjWGxrOGNDX3dCV01iZlFzc3RUYUdkb0ZyYV9LazdIdF9HTXZFQnVGNWp0Yk9Qa0dLYzNtd1NRYXljdnQ0eDZNMFZfNDl5ekQ0T3RiTWhPc0ZpWUpjcmJwdFJqUVlMWHBTeFh2V2ZtMnJmcA?oc=5",
-        "published_at": "2026-10-22T21:53:15+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Oil Prices Jump After Houthi Strikes and Iranian Shipping Attacks - The Maritime Executive",
+        "source": "The Maritime Executive",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWW1DNFFSdW93ckIyNGNFNkJ4ekpscEZiMGtUQjJVSm9rZFdrVGg4VkozMmNHQVd4ZzFvd1hvZDVqV2dVOVJtbFhtUkFoX3d6b0NQYTQ0d3VzdER0dUVvY3R5OEUwS1FoZkNYdE1UNnRMY1dha1AxcWRPMDRmanh1TDZ4NmNXVGQ3TF92M2NYZk9ZcE5hdjlzcWRjMllaTGRBTHk2OVA3RQ?oc=5",
+        "published_at": "2026-10-22T21:12:08+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -191,7 +182,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US, Israel have drawn up detailed plans for renewed strikes on Iran - The Jerusalem Post",
+        "title": "US, Israel plan renewed Iran strikes after midterms, focusing on short, intense attacks - report - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5",
         "published_at": "2026-10-22T19:59:47+00:00",
@@ -216,6 +207,15 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Taiwan Halts Stock Trade, Shuts Schools as Typhoon Champi Nears - Insurance Journal",
+        "source": "Insurance Journal",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TVlhsamc0NklWOUI0blI3dk1CeWcxV0p2SnV0aWFkakNVUlZmc210SkxNb3pYZUdTeTdUZDdaV3NZek5oYXMzamQyWkVUb2ZTX3lNZmtBOEVWS3FIX0hCcVNKNDZYZmRLNFd1dmdQeGU2REh0T1RMZkVnR2VQUQ?oc=5",
+        "published_at": "2026-10-22T13:46:55+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -233,6 +233,15 @@
         "source": "MarketWatch",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGZPNEpMdnlfTHU5OFFIbXZBM0VtWlJyWWhJTDNHWWRoUlBWLTdSR28zOXFrOU9GNG1Db2VhQ1VNVEZweFFJYlEtZTVnUTduQkR2bkRRdWJVQnhEZ3FzS3B5cTJ2c05tRTNLOExzY3BuVHV0MW9aRUlqMVhUTHExcDJHUkppaXloLVZta0hNMjhrSy1vOURaM3E3WUZaVENCRFRYamY5a1dYNHdNUTFYQw?oc=5",
         "published_at": "2026-10-22T21:19:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Intel Lobbying Rises as Senate Advances Chip Export Controls - Legis1",
+        "source": "Legis1",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RbVplTFFDckJtNGtGTnFYbnJBZkp1SzFkUjVIYUJwaVpabjJDTEd1OGNtdy1UTVAybFZpMXZxZ0FWOWVsQi0zUVdBb3NBQTFNT0hfS3hZVG1HdkNWd0JnUjloNGZiZ2xDLTR3S1c2YjMxR3RGempPN3BR?oc=5",
+        "published_at": "2026-10-22T21:02:07+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -274,6 +283,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Merck and Moderna Will Present Results From Landmark Phase 3 INTerpath-001 Trial for Intismeran Autogene Plus KEYTRUDA® (pembrolizumab) at ESMO 2026 Presidential Symposium - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbTU1UkwtM2pDRWwzSTdzcFpDTzYwdWVFaFhOZjZQNDI3clNkX3FmcnlrYkNlb1lJQzI2bzkwT1JjQlB3ZmYwekYtdllZdzZuYnFmNGo0S2tNMEFtT1NmV3QySm1rVXh2emhFbEdPMWpJa1BBQ3BVZFhnbkxfYndodVpZQ1ZZOVRuVV91eDRoLWFwQ2JocHFUMlF5UmxZVElH?oc=5",
+        "published_at": "2026-10-22T18:59:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres - The Next Web",
         "source": "The Next Web",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yVTFZbXFBSW5aX3I4RnVzSi1fYnJIVzlYQjVXWktlNDlOQ2dQaGh0NnFVVjdoMlgydTdjQlZqdHNnQVBMeE9UTWdfaTJ5cUtyX0NSZ3FCYW9leXduMEE2UktjQTIzR0F4Vm5oVTg4UkkzZ1V4cEN0YTBR?oc=5",
@@ -283,28 +301,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Chip Stocks Fall as Supply Warning Deepens AI Selloff: Marvell and AMD Sink 8%, Intel Drops 7% - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjE3M1E5SV9QdGI0djdaX000RGV5MTRzLWlJZ1BLeEZ4X2dwWXlwVWVmblhIVEhiMXU0U2JHOHMzV2pHM3JnZ0RfWDRsS2dzVHQ0SG5KczFUVFd4ZUZFQmRjZUpPRS01RWVRdnFwTGFYcG51NkVyN0JFTFZBaGhwLTVrTXVMUVd5SmxSajRacF9vMzhuZWRn?oc=5",
-        "published_at": "2026-10-22T15:45:08+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns - UC San Diego Today",
         "source": "UC San Diego Today",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnJ1QUIyV1RUdGlOVkZkbU9UWnNvT1B5QnA4eTVVZ082U1FYTTdCS0dpTkFOOW5qQlktT2lHWERobVZqUGdHbUhBOUpMdXU5ZTRBYVlyZURiQ3hhdlVDU2U3aG5QMFpYRG1VVXBzSkZQdU56MjFLUktsY2YwN2NIaGZXQkNOYkdFOHVkU0VtaFVQeHBfaEo5aG5NdkF6cno3NHc?oc=5",
         "published_at": "2026-10-22T15:40:09+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Swim Across America-Funded Cancer Research Leads to Landmark FDA Approval - SwimSwam",
-        "source": "SwimSwam",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZE9hOXpmdTRRbDdfeDE2M2ZrNTkxc0ZQOXVfNW9lRThQVFFMTGJ6bHUwaHNsSVdjQzROVmVxbi05ZWR6MmFJVUNnc0tUU2w5T3dRZVd4N0xvYllGdGhDSHBNc2J0R0Rpa2ZNaFFjSVVmMzYxeHhHVHhVejFycEFuTDVoOEpoSTAxcl9NZmpGaGFTUTRSdDA3RGx3dw?oc=5",
-        "published_at": "2026-10-22T13:48:13+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
