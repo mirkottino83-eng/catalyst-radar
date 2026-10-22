@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-22T23:09:23.313213+00:00",
+  "generated_at": "2026-10-22T23:36:14.978342+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 98.98999786376953,
-    "wti_change_pct": 1.8939745846535017,
-    "brent": 112.80000305175781,
-    "brent_change_pct": 3.6574190112986127,
+    "wti": 99.3499984741211,
+    "wti_change_pct": 2.26453619525282,
+    "brent": 113.26000213623047,
+    "brent_change_pct": 4.080134583585582,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
@@ -18,11 +18,11 @@
     "dollar_index": 101.61699676513672,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.89%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.26%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-22T22:55:00+00:00",
-      "brent": "2026-10-22T22:40:00+00:00",
+      "wti": "2026-10-22T23:25:00+00:00",
+      "brent": "2026-10-22T23:25:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-22T23:09:11.321053+00:00",
+    "updated_at": "2026-10-22T23:36:03.939416+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,7 +57,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 10
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -71,14 +71,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       }
     ],
     "geopolitics": [
@@ -182,7 +182,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US, Israel plan renewed Iran strikes after midterms, focusing on short, intense attacks - report - The Jerusalem Post",
+        "title": "US, Israel have drawn up detailed plans for renewed strikes on Iran - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5",
         "published_at": "2026-10-22T19:59:47+00:00",
@@ -220,11 +220,29 @@
     ],
     "corporate": [
       {
+        "title": "South Korea's Samsung Electro-Mechanics, Nvidia expand AI partnership - upi",
+        "source": "upi",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQODJiVmRCRGh0RDdqcVBfR2xULWIyMVMxc3BoVnRCc182aGpmMzRoa3E4ZWZQeHBPWHdoazBHUW9BZmZKaFNYRk9XQXJDdTM1RHBfc3luRFVrRXppNnpsZUhMZGNIOGszMndMWlVnZWxoZFpFMGVKQXRrdHFPRlJRVld0bkNfNi1kR0gxU3FfQ0dMMjNEYVMyQnl5NVI4LTTSAaQBQVVfeXFMTTQwOWh1NmhMazVjTWhBNHJhdGx4bW1WbUFLVFhhQ05yOFoxVkhsZ0w3a2llVTlmYmxUTjFvTGRaaUZKTUUxYVVkM2Zzek5MX2t4Q1FkMGhQRlJqb2pYRXdfYWJLT0RSVWt3SEVyUUVNT2dJRFpwYkZBSWZ5eEdLX19HSFZtZmRsTThvQWZzZ0gzVkpOOVZZYnZoUVUyLTVoeUhVQ08?oc=5",
+        "published_at": "2026-10-22T22:58:17+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Micron Stock Valuation: Why Cheap Earnings Can Be Misleading - The Acquirer's Multiple",
         "source": "The Acquirer's Multiple",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOE5YWUFXekx4WEI3UW51VGR0alhFZjNYVWFhRWZObld1aTQ0bDE1MTNvdVlleHo3UjhlZlRuVUFwN0QyUlZYUGk0cUJvQm1CbEZBS1JwNjJheTJ1U25nMDNaNk5fYXkzVU8xdDBTaDMtY01qNFdMZ1dkcWd2T1owT3NuRXlVLVMzUk1nWmNjTy1lT1FJR3htbFE1OE9jd0k?oc=5",
         "published_at": "2026-10-22T21:59:39+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Moderna stock plummets even after data confirm cancer vaccine with Merck met key endpoints in melanoma trial - The Boston Globe",
+        "source": "The Boston Globe",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT242QVZpcnZVQTByOFY4THF5eFlwZzNkRzNhX2toR0VtZ1BReFQ2ZEJJYnJESk1PNUlLOGh5dkFVYzlQc0VENkRZWDFDZGF1MlEtbGpxRGs0X3gtYW5BQy1DdXA3YmJ6eFBLOG1uYWFPb2JKOHVyUkM3dHhhRm1jMTlBbGNFb1Q0ajRVVFpXMmxZY1hUZmdTZDB6dlB2TmpxWEtpTTcwVjdhdw?oc=5",
+        "published_at": "2026-10-22T21:45:00+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -243,6 +261,15 @@
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RbVplTFFDckJtNGtGTnFYbnJBZkp1SzFkUjVIYUJwaVpabjJDTEd1OGNtdy1UTVAybFZpMXZxZ0FWOWVsQi0zUVdBb3NBQTFNT0hfS3hZVG1HdkNWd0JnUjloNGZiZ2xDLTR3S1c2YjMxR3RGempPN3BR?oc=5",
         "published_at": "2026-10-22T21:02:07+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "International study helps support FDA approval of HIV drug for newborns - Medical Xpress",
+        "source": "Medical Xpress",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWXFQcXNyNnFTU1VDYzZKVWptbUh0c2QwX3g3eGYzYmYzV3JsZVZfeHFzdHpid2ZwUVRYN0ZEN1VCenlPQVdUUE5KM2N2aXlVRXJYUjNRdzVCclphOUZYTFZtMS01UmJwa0JXRzcydG9INEFNZWJ6d01SbUd6Tl9LTjJ5UGR6dw?oc=5",
+        "published_at": "2026-10-22T20:40:16+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -278,33 +305,6 @@
         "source": "Pharmacy Times",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWxkY1ZwN29JLU02TmRZVzFVbnpzLUFLOVJzLXRlSklhTWRCWXUzT2VUVTVCaXFvU1pJRnNQY3lwNVlhZmlFMEJ0X3dmaEVOc3pkMVZHOWRlQXc0UC1oVVFiWHhTQ2o0Y3VvYnFud0RieUVTYmVKSjFJakFGY1VIWTJmbTl1Y3FZd1h6ZUpzdEVzeHFhODFDcDlNNU03STIyU2U1eFNPSmpIVW56UGwzTWdSTU5wS08wSFpYRWhVNGNzRDE3SVdMeg?oc=5",
         "published_at": "2026-10-22T19:07:43+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Merck and Moderna Will Present Results From Landmark Phase 3 INTerpath-001 Trial for Intismeran Autogene Plus KEYTRUDA® (pembrolizumab) at ESMO 2026 Presidential Symposium - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbTU1UkwtM2pDRWwzSTdzcFpDTzYwdWVFaFhOZjZQNDI3clNkX3FmcnlrYkNlb1lJQzI2bzkwT1JjQlB3ZmYwekYtdllZdzZuYnFmNGo0S2tNMEFtT1NmV3QySm1rVXh2emhFbEdPMWpJa1BBQ3BVZFhnbkxfYndodVpZQ1ZZOVRuVV91eDRoLWFwQ2JocHFUMlF5UmxZVElH?oc=5",
-        "published_at": "2026-10-22T18:59:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres - The Next Web",
-        "source": "The Next Web",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yVTFZbXFBSW5aX3I4RnVzSi1fYnJIVzlYQjVXWktlNDlOQ2dQaGh0NnFVVjdoMlgydTdjQlZqdHNnQVBMeE9UTWdfaTJ5cUtyX0NSZ3FCYW9leXduMEE2UktjQTIzR0F4Vm5oVTg4UkkzZ1V4cEN0YTBR?oc=5",
-        "published_at": "2026-10-22T17:25:56+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns - UC San Diego Today",
-        "source": "UC San Diego Today",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnJ1QUIyV1RUdGlOVkZkbU9UWnNvT1B5QnA4eTVVZ082U1FYTTdCS0dpTkFOOW5qQlktT2lHWERobVZqUGdHbUhBOUpMdXU5ZTRBYVlyZURiQ3hhdlVDU2U3aG5QMFpYRG1VVXBzSkZQdU56MjFLUktsY2YwN2NIaGZXQkNOYkdFOHVkU0VtaFVQeHBfaEo5aG5NdkF6cno3NHc?oc=5",
-        "published_at": "2026-10-22T15:40:09+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
