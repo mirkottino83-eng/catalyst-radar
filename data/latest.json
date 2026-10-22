@@ -1,79 +1,43 @@
 {
-  "generated_at": "2026-10-22T09:39:34.190530+00:00",
+  "generated_at": "2026-10-22T10:15:11.171382+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.145999908447266,
     "treasury_10y_change_bp": 2.8999805450439284,
-    "wti": 99.5199966430664,
-    "wti_change_pct": 2.439521441032788,
-    "brent": 112.2300033569336,
-    "brent_change_pct": 3.1336185183536314,
+    "wti": 99.4000015258789,
+    "wti_change_pct": 2.316006139640292,
+    "brent": 111.81999969482422,
+    "brent_change_pct": 2.756846175715144,
     "nasdaq_level": 26702.857421875,
     "nasdaq_change_pct": 1.0521816462209843,
     "sox_level": 11505.5556640625,
     "sox_change_pct": 1.9651704716234342,
-    "vix": 18.440000534057617,
-    "vix_change_pct": 10.551559932140474,
-    "dollar_index": 101.55500030517578,
-    "macro_score": 45.3,
+    "vix": 18.489999771118164,
+    "vix_change_pct": 10.851315544525164,
+    "dollar_index": 101.64299774169922,
+    "macro_score": 45.0,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.44%.",
+    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.32%. Geopolitica: Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
     "quote_times": {
       "treasury_10y": "2026-10-21T18:55:00+00:00",
-      "wti": "2026-10-22T09:25:00+00:00",
-      "brent": "2026-10-22T09:25:00+00:00",
+      "wti": "2026-10-22T10:00:00+00:00",
+      "brent": "2026-10-22T10:00:00+00:00",
       "nasdaq": "2026-10-21T20:00:00+00:00",
       "sox": "2026-10-21T20:00:00+00:00",
-      "vix": "2026-10-22T09:20:00+00:00"
+      "vix": "2026-10-22T09:55:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 44,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUjhnTDQ4QTM5cWtlRjN1MXFlOU5yQVlVd3F0M0pDNExkV29mV1duQUpSUjFiaXFuajRkNHRSc1EtaTBzemJOUElXbDhYUTRnSWlrdm1TRUxtQXEwdjM3blp5QnlVOFZJWnAyYjY1dTRwX3UycVZoMHJIWFZaUEZJNnRn0gGHAUFVX3lxTFBBRTI0YmhMaFkybjlPdGczT3I3cVlXX2xLcktrcjJEUVNueUY3QmNldksyRjFaWGtvUm1KUjVua2VibWMxcU5FWHpBakZCSWt2MXhUM0ZYd1FJeE1sLUtwREJ2Y1lldkxOdXZ6UGFqS2pwUksxZS1YLU1XUFNsTzBBMUJwRXAydw?oc=5"
+      }
+    ]
   },
   "catalysts": [
-    {
-      "id": "513607785b11",
-      "ticker": "SAP",
-      "company": "SAP",
-      "category": "Europe Software / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "SAP lifts cloud revenue outlook after Q3 earnings beat - Investing.com",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOFpzT253U2ZOZGlpX2ozZklKd2FWRVBmSEhyRVZpeGRqbUJSSV9weEdKSDJTblpwZVFIZDBaUmV6b1BFUFRheDViTEpQRjdzblNENU8wUWRSX2RTdF9PRXVXZ21IVjh0Z2VMZlRsM1BCSDBFWkJMdFdZaG4yd3d6Zl93YWtHbW9hS2JhMG9WQmVmcGtpSi1MRkg2cEswRVlsV21OVzVad0cyTUs2R3hvR0VwSEpEZkZib3d6Mw?oc=5",
-      "published_at": "2026-10-22T08:26:57+00:00",
-      "age_label": "72 min fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": 1.93,
-      "short_term_change_pct": 0.3,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T09:35:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 4.5,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 65.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-22T08:26:57+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "SAP",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 78,
-        "freshness": 90,
-        "volume": 28,
-        "momentum": 54,
-        "macro": 45,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    },
     {
       "id": "aabe85d6c83a",
       "ticker": "NKE",
@@ -86,15 +50,15 @@
       "source": "Adgully",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU1owSXYxaGtJYUlDZmhVTXZQNlJsNkVUWmNGQ3VkYW9LOXBaelpyQTBJRHh1YnA0b0dONVBaY0taOVVvUldaQ3lkbklyekF4cE5MdHpNVWl6UHFvM25SQXZxU2s2Q2hBMG00RkYwdnBobkM4akY4cVUydllNZnhDWFdMV0pNVHVzMmU3eHlpRTBPcGZJNk9fXy1jVlk4bEpPV3hMVFltS28?oc=5",
       "published_at": "2026-10-22T06:53:00+00:00",
-      "age_label": "2 h fa",
+      "age_label": "3 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.58,
-      "short_term_change_pct": -0.13,
+      "current_change_pct": -1.5,
+      "short_term_change_pct": 0.05,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T09:30:00+00:00",
+      "quote_at": "2026-10-22T10:05:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 9.5,
+      "quote_age_minutes": 10.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -110,7 +74,7 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 48,
+        "momentum": 51,
         "macro": 50,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -128,15 +92,15 @@
       "source": "The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPU0FLU2Y3Mk1CWnpDenpmU05rODROUE1LOVJ3Yy1WZnFrMnVpTm5GN0VpLUxvSVV0WHZzbjU3OXRUNEpLb1lmekVmLV9lYzc4aE9IQjF1cEc3Q3pwdlZVYXNJRVhDWFNwRUpXOGRNWTBHM0JXNkgxSzZUREZNdVZHWWlfbzZTVm9TYk01eG5nNEtFLXRqYWRseGx3SlNoZW9uT1libjRjZWFYbC1PbGp0Q0NvdjlfWmlZZXJtcnhfdzg5VnhfNDdnejE0UUhXTC1qcnc3THRsSi1sOXhFNDFCZXNHWkVpcUNrUDlwaXZwY9IB9AFBVV95cUxPYzRtaGpsZFZfWk5lTnZQZ3hIOEh2VG9QX0ZQVFNLU3U5bHBfTUdNNlFyTkdOYTAxLTJRR0I0YV9aTENBS1h3LVYtelZ2RHdTV0VRcWczMEhyc3FLLWlTRnNXYUdGNjVKbFBaY2EzU1hLZHk3YUJXT2hMaEt1UlM3UkxYbHk0V3pKREpWNTJvZTFXaXE3TnFaRVBTcVBWU2thNk5TN3Ryc0F5QTZ4U28wbzI0ZUNpTzJQZFVBUXZudUlkR3pvZ2R3MmJDRUs2eEhUUnUzZEVUTk54TTBUaFhmekRZV3VNZlVRaGVfY0tlT1hrMk1P?oc=5",
       "published_at": "2026-10-22T07:13:35+00:00",
-      "age_label": "2 h fa",
+      "age_label": "3 h fa",
       "catalyst_type": "partnership",
-      "current_change_pct": -1.58,
-      "short_term_change_pct": -0.13,
+      "current_change_pct": -1.5,
+      "short_term_change_pct": 0.05,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-22T09:30:00+00:00",
+      "quote_at": "2026-10-22T10:05:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 9.5,
+      "quote_age_minutes": 10.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -152,7 +116,7 @@
         "catalyst_strength": 74,
         "freshness": 78,
         "volume": 28,
-        "momentum": 48,
+        "momentum": 51,
         "macro": 50,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -161,22 +125,22 @@
   ],
   "movers": [
     {
-      "ticker": "ENPH",
-      "company": "Enphase Energy",
-      "category": "Clean Energy",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -2.89,
-      "short_term_change_pct": 0.82,
+      "current_change_pct": -1.04,
+      "short_term_change_pct": 0.96,
       "relative_volume": null,
-      "quote_at": "2026-10-22T09:30:00+00:00",
+      "quote_at": "2026-10-22T10:10:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ENPH"
+      "tradingview_symbol": "TSLA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-22T09:39:23.411475+00:00",
+    "updated_at": "2026-10-22T10:15:00.025955+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -193,7 +157,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -219,6 +183,33 @@
     ],
     "geopolitics": [
       {
+        "title": "Beijing threatens retaliation if UK follows EU in restricting Chinese EVs - Automotive News",
+        "source": "Automotive News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWHNLYXliS0ZKXzAyRW1FTjJtSm8yMzlzM2lTVzdrcUF2N2ZPV0dPSmc2c1dlMVlRcDY1dEx2QUNqb3d1V2twWDBsQTlGaWVzaUNlQ1ktREp3LWd1cnRzLTRtY25CcGl2Y0JQTXRIeW1FbDhZNUJHc2JlWFU0M0NWMGg2T2hjbWVkMHhzRG13QVg2M1hIVk04?oc=5",
+        "published_at": "2026-10-22T10:04:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China and Djibouti stress need to protect Red Sea shipping lanes - The Arab Weekly",
+        "source": "The Arab Weekly",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSzJLY3RxelVCVENwd1BMOWdRTDV1SVAydTh1TUItMHZ0N1VUWFVMeVlWNGJEbVhyM294NGk5d29lLVgtclJ6NW5fZzNiTGRCNEhRQWtXbC00UEZ2b1pFWDlGeFphOGJoZ3p5S1lGMjUxYndRV1NDUnpkcFdJRnhxLUNuMm55NWFIU0RUbTk0UjY?oc=5",
+        "published_at": "2026-10-22T09:47:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkp5bjg3WHRYdlFYTFc2b1VRRmVpd09Oa0Y1SkxUR2xnUTFyTXAyMG9zcUFnN2pIbU1WQVJBdmVqNG0xZDk1UWM0N1M3djhNaWVwbXVBamhRS3dMMWtPRlhQbGFXWk9BTXVXcnppTVB6ZWl3eTRzM3BqclJ0MlE3MEJVSXhWTUlnYm1aVGVGa01kcmljSXFBX1NTWC1Hd1k5X3hwcGtyRjdtblFhVG9RdmlmVQ?oc=5",
+        "published_at": "2026-10-22T09:37:13+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Von Der Leyen Says EU Sanctions on Russia Will Remain until War Ends - Hungarian Conservative",
         "source": "Hungarian Conservative",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQnprOC1xblVxTmlUUTVCZVFxRHZydlZiVml3Wlo4QkNmR0RDY0xwNVY2T3ZPQUx1ODBUOXhXLXB5VTJHcVQ3OU9LOGVUUS1BcWlYOFRsNFBQMjFvaW0xamltZEJMc0R1bEM5SGVXazhUNzlUemNSN0gtbGdwRWdQSjNRZUZ4ZkQzVlQ0a1VEZTBHYUxXQ3lZa0ZTLWpRVzVCQUpPVG5hOG9NajUxNVprRGZVRGdfZTZrU2xF?oc=5",
@@ -237,7 +228,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Analysts say Iran's floating oil tanker reserves fully exhausted - The Jerusalem Post",
+        "title": "Iran's floating oil reserves, used for China sales, completely depleted, analysts say - report - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14a2gzeExlazA1ektFSGR4c2pGN0k2alozc0VHM3VEX2x3RWkyTXFzY0UybDFMZld6UEJQZ3ItM3lmMVBnTGN5UW5zcXVBOFYzVjZmUWZVUEc1UFowcHpzWHV4eE1iRGVNQWc?oc=5",
         "published_at": "2026-10-22T09:30:31+00:00",
@@ -246,7 +237,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia Launches Deadly Mass Missile Barrage on Ukraine Hours After Putin-US Talks - Newsweek",
+        "title": "Russia Launches Deadly Missile Barrage on Ukraine Hours After Putin-US Talks - Newsweek",
         "source": "Newsweek",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbjRUZFRFd2Z2NWE5STlGVlMwZ0tQQVhPLXpoTmRYMkZFaVA4RXlONlgxSHRCTF9PeXFZS1oyZlhlcnE0MTNkbFc3dzN5ZVpfOGJqV1JuMXpoMVpReHNNeU10eFBhY1B3bjlQV0N4MXdGNUYzSkdDQXdDcFJvcUVtdnM1OERGTnU4ZjJoTTZ6aXpqVjE4WnV6dG00dndVQVhkOE1STFVsZlZONGZTRjNVZlJwdHV4YWZjOHc1TA?oc=5",
         "published_at": "2026-10-22T09:28:00+00:00",
@@ -255,9 +246,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran: Oil tankers are on fire, damaged in key strait as fears grow over return to war - WMTW",
-        "source": "WMTW",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX1FJZ2Z2MWtvM1djcGx6U0Qteno4VjI5ek9Kd0ZOU0ZyZXhHODU3aGtZam92Z3RTS0NQSFdzSnRJMThpNldCS3VOUXZjbjUxdmhxSmQ4UXBkc2JEbnIxYW9CanJmN0VGc1JNT2FjMng2WUN3cHJUeDRfNFV1dERmbW00VW1JNVY0TGZTWg?oc=5",
+        "title": "Iran: Oil tankers are on fire, damaged in key strait as fears grow over return to war - WLWT",
+        "source": "WLWT",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMDdXdFlqenE3ODBPcUdkRTRjMlZ4d25VcGlOVlMtRUZmZ2JzczVhc05ocm4zNlZJNUxJU2xqUGtIU1NJVWZ1blhiNWh2UV9DWF8zN0JMTkhCWFJTcXA1NFNlYVBnbUZXUl83T2NheFRhelhlR2o3eEpCODNhSGlDQWNZTGw4aFRmSG9EVA?oc=5",
         "published_at": "2026-10-22T09:27:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -273,19 +264,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "One killed, eight injured after latest Houthi attack on Saudi Arabia's King Fahd airport | LIVE BLOG - i24NEWS",
-        "source": "i24NEWS",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVZVV0JudnVrNkptd0VSVEkxWEV3UFF1QkJZR2F6X05OaU1OQVp2YnRNeXpBRVFRaEU2WVNlUGVDVndodkVFb282WEltdGY3eGplRWZqcXlyTmxpdmx0T3d5S21TVGEtRzR6NmctWS1SRU4yZnNOcXJxdUIyS21Ydmx3U0hWeGMwS2JMcy1CTUdZOXc1Zzl0QjFxOGZIYjVIcTVQblBFYlN2WmhZWHBhZkNlTmVnZG1tWUlwU1NyeWNVMEdmNExHU3kyRXZTVEtzZmMteXlmTmRXd3dsQlE?oc=5",
-        "published_at": "2026-10-22T09:03:29+00:00",
+        "title": "Greece says it is implementing sanctions linked to Iran - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMFJaZ0t6eFMxSzJVenJlSEdyVkFjWXVuYmsxUy14ajVPdWZEMEUybm1ySE5zbzE1N05TNlVaeW1rZmNHOWVkLWxMQ193QzlRMTdYMGFYZmk2TzROdWptVDB5LXAtV3BiSW9nVERSSTF0bkpLWGVSREdja21vcFpGcnZmb1UtbUtFdE9QSUtVZENOMzJURl9Rd1lEbGZTVW1ISk5PamhUaUhGZw?oc=5",
+        "published_at": "2026-10-22T09:14:18+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Persian Gulf oil pollution doubles during Iran war, research finds - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOalJEcGFnU1FuVkZYX0FieTVGSmtvUFVJOTN0ZE9nRDd0RVZhQjhkaVBUc21LRy0xa3BmVVlXLTBObmZDcEVxVVRfQ3dkVDRrYnBreFFNcENBQ0dfOWVTb0o1bXJROFVINXFIX0xwY185cGpVajBGRnZWcG5nbk9yZzdqLVpBakJ5RGx4Z3hjWjRmMTNoYm1NSEJyWQ?oc=5",
-        "published_at": "2026-10-22T09:03:00+00:00",
+        "title": "One killed, eight injured after latest Houthi attack on Saudi Arabia's King Fahd airport | LIVE BLOG - i24NEWS",
+        "source": "i24NEWS",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVZVV0JudnVrNkptd0VSVEkxWEV3UFF1QkJZR2F6X05OaU1OQVp2YnRNeXpBRVFRaEU2WVNlUGVDVndodkVFb282WEltdGY3eGplRWZqcXlyTmxpdmx0T3d5S21TVGEtRzR6NmctWS1SRU4yZnNOcXJxdUIyS21Ydmx3U0hWeGMwS2JMcy1CTUdZOXc1Zzl0QjFxOGZIYjVIcTVQblBFYlN2WmhZWHBhZkNlTmVnZG1tWUlwU1NyeWNVMEdmNExHU3kyRXZTVEtzZmMteXlmTmRXd3dsQlE?oc=5",
+        "published_at": "2026-10-22T09:03:29+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -318,33 +309,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "At least 2 killed in Houthi attack on Saudi Arabia’s Dammam airport | Daily Sabah - Daily Sabah",
-        "source": "Daily Sabah",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdnlRLWJwYUVHNzBRWWV3Wm5QU1dHOHhCWHJQZUN4SE9MQk9GM21jQWdpVi1lN0N5SnhtYjFPcEZsVk1MakY5R29FYTJ2Y2t1bmgxc1lCdGhzdVpaTXFqY1hLbTczNkxEc01hWWwtTXdMdFFRNUZNU3hnZVY2UlZhZWJWWUlpeWVsRW1NR2M0VlhUNE5UWXZJRVNOMXBITDJkZ1Q2c0YxYnIxbURD0gGyAUFVX3lxTE00NTByRk5zaEcyam0wVXdoemowMXprclRyUTJmcHpmNVNlZXVLY2FJOWNUZ1F2akFQRV9QWWU5ei02OF9RSnVTUnZoWHg3Y2JYWmZIVWt2am4wQjQyS2pIaHljMHN0S09NczNtZm1wVmVLMW14cHltYW8tMUdZNnpYY3lxaWR0S1dzUVdLSW0tNVhFV0gwWklxbTEzVHBTelVHb2JUa09VSW54dnpmeU05SGc?oc=5",
-        "published_at": "2026-10-22T07:32:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkp5bjg3WHRYdlFYTFc2b1VRRmVpd09Oa0Y1SkxUR2xnUTFyTXAyMG9zcUFnN2pIbU1WQVJBdmVqNG0xZDk1UWM0N1M3djhNaWVwbXVBamhRS3dMMWtPRlhQbGFXWk9BTXVXcnppTVB6ZWl3eTRzM3BqclJ0MlE3MEJVSXhWTUlnYm1aVGVGa01kcmljSXFBX1NTWC1Hd1k5X3hwcGtyRjdtblFhVG9RdmlmVQ?oc=5",
-        "published_at": "2026-10-22T07:22:44+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EPP Position Paper on EU-China Trade Relations - EPP Group in the European Parliament",
-        "source": "EPP Group in the European Parliament",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbVIxUTJtME5MZDZsRlBzb2xNeS1fblh4dVdfRHNZUlFmb3B4M2pBUE4wTTNsSmRjV0dacjV6TzRQR3Eyb1d6WElPcHA4d0J5d3h2WW44RHZMczBuV3pFOGN5eDBVWk41S3hfQUM3SDY2bHVDajU2VTJnTXExbE1neWgtTmNIeVljUWRBQjZ3MmY?oc=5",
-        "published_at": "2026-10-22T06:56:08+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine's strikes on Russian data centers disrupt key services and derail AI research - ABC News - Breaking News, Latest News and Videos",
         "source": "ABC News - Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZURRbFg2X2x4V1ZXRFlHblBCUGxqSXRPUHFia3lNUjBiZlRHR3IwQ0JFYTFQV3RxRnIwaDBhSWJOM1VSczF2blotVHNOaVNVbktwbndGQ29DOGl6R0NxMFduX3pHVFZvcmdVQ2R6aFB3cXZ4LUxmd0J4MVd2RDAzQkNwQ3VvY0hEcm03VGVMVk1KQjlPVGtwMkNRdEJnQkJNY0RPSHRkVWdBVUJYbEFPSDNR0gG3AUFVX3lxTE5tVUVCYzlENHpzcHR4eEZ2aVRJMU1oeUdROHhVeUVBMC02UzFxLWRvQXkzbzF5Nzk4SHZ1dmpGWExNZld2cUs2cHk5UXZOclYySmtfSDVpY1EzRXRzWlpqT3NTRWtSNllwdFctMWpsYWJnbVBYV2tmVVBfV0xqbHpHRGN3c3hpZnl1ZnRsLWVDRTJPcmQwamh0ZV8zMWdLenhTNWxvQVpQS3VOa1JFUEtha01jcWlrQQ?oc=5",
@@ -356,11 +320,38 @@
     ],
     "corporate": [
       {
+        "title": "Alphabet Stock Is Up 6% This Year. Is It a Buy Ahead of Earnings? - Morningstar",
+        "source": "Morningstar",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMTYwWERtdmxnSmFqWDI2NjZpcS1LNmRhRzVRUjhNV29FMW5TeG1HdXFLQXlmZ0xQRThXcW1mZ0xUSHJhVHpLVklXU0RNSVF3TUFmcWlzTWlDaXpHaUZHWGVNekNRZ3plRXdzUTMtUk5OYVRvNHZRTXhqVS13ZEVUam8wbDBPOG1tWEhjWE9yS0tjQTEyUjdV?oc=5",
+        "published_at": "2026-10-22T10:10:45+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Edwards secures FDA approval for tricuspid valve repair system - Medical Device Network",
+        "source": "Medical Device Network",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNWJxcWlYc0dNMmxkM3FYQ0JaY1JaMEdBWk5sX1Iwdmszek9TRE1uTDNiT1BRTTVwMEFKSlNTMkJucDNXTXJqRExWbGk4VGtlYW41VU15bVpjOWl6UTFhZnFqNnFacnVPek5kTm5FS085SW1YQmw0WVg5NTB2LU1NdlRqMjlGcGFHMVVWVzZTRllmVjUzRC1oR2hR?oc=5",
+        "published_at": "2026-10-22T10:07:30+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Nvidia Stock Falls in a Case of Bad Timing Over Another Potential AI Investment - Barron's",
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VeEdHR2lCQXB5TGVFS2dwc0JnRTVDR3loNTVlRlRmTHNWcmpHbUdHdzV6bVJQQWgzQkJZTmZWbXJrQjFHWGhMVEVUZEJyOXh4UWZFa1kybFZWcGVDVGF3RXcwOXhZZkVxWVVKc0pwa1lhak1lRXBB?oc=5",
         "published_at": "2026-10-22T09:30:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Sartorius Stedim Biotech S.A. Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026 - www.marketscreener.com",
+        "source": "www.marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYnJxdnJuZVlLdTA5TFR0eGNRbVQySlVGaGJQcFBmZHF6OXFKYUpxbVJ4cHNCZ3RDM1hhNUR3LThZZ1d3WHByb2kxSk9ES3dWM0p1d3ZYakFaU1Q1ZWMtOHNmRTJNaHhINllvV3FoNThjcmZTamRSOHh2MHI5dU1aZXg4YWlQRFdFRU1fb2xUR1ZVdUhScTBqVjJ5cWNqX1c1X05faTJETmluSmZIeDYxR3BDQS1UY3BrWmwwSG4xcnpzbU9GYnZ2UDBib1JXbFV3M0JOdHJpaXNNUFBPOGh6UGFsZDVoaVE?oc=5",
+        "published_at": "2026-10-22T09:22:20+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -383,37 +374,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia taps Korean component makers for AI chips, robots - The Korea Herald",
-        "source": "The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10ekUycklJT3lCakNuZEUzX2c2TEQzOWgxaTFVeDA0XzdZM0FhdWxEYzNyS2tZOXYzU29ERjRTUTZFOU1DMmU1X2tTWm1FeG1ycjVibzg3QQ?oc=5",
-        "published_at": "2026-10-22T04:22:51+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Predicting How Today's FDA Approval of Zanidatamab Will Affect Gastric Cancer Care - OncLive",
         "source": "OncLive",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSG54emladEVoSDNuWkFZSkRfc0xnV0ZwU0ZUX2s2akZWQTE4ZGExVHhyWnhHaVA5YW5jbE5sYUNoTFpkQzJDWC00d0tic3NmbS1Vd0xnR2RGQWgxYmI5TnpQSlVVUGFpbDA3UjYzWEEyZzU4Vkl5RUhGdVpsMWJFb002U01BVEJ2YVBFV1huRXZ0cUl5VnY0U3djT3JSRk8yaFJJOF93dVY3QUNVOTlzOUpNUQ?oc=5",
         "published_at": "2026-10-21T19:33:52+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Patronus Biotech Secures Australian Approval for First-in-Human Trial of Next-Generation Malaria Vaccines - BioPharma APAC",
-        "source": "BioPharma APAC",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaTBjNmMyclBhN3ViTndBOWJ5VEF6Slk5NGxPdVVLNnVnTXNrakc3ZzJ6dkVCWmh5X2s3Q2tzVGRHbndzNjllOFlWNHZPQnJtN1ZrbnR5RUEtUGFIODFZMzczRExlR1JCcU1CV25PX3ZsRUV5bFJrWUktNks3bXJmYmZRMDFBLWhOYllxY3pnd213RWNOQTVrNnhBQXJxZ3ZDb016MW81ZHZXWGVoQk1CcHNhOWJzLUotQm84c1FGSFhjZFdZWHEtVnl0RFBUblVpb3ZRZzN4TjBVXzVxTGNDZEtKSQ?oc=5",
-        "published_at": "2026-10-21T18:39:32+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Edwards wins FDA approval for Pascal Precision in tricuspid valve repair - MassDevice",
-        "source": "MassDevice",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMzJlS3lfMVpDTHJNTjlFRVEwTFdRY0RrMkEzZUgxRFN0Mi1GWGZWTlhUck5SMDdHQ000RWxpbWhhMW1uRXhqNkxpTzBjZ3cwSUJGWW9pZ1pIVUVXZXlXS1JLOTVjYVh3TVM3cWZSQVEzVGh2RzJZUU15cnY3VHgzZ2RyU1p0MWEzWmFlVEF3b0RXRWhwbzJlYkpyMWpLZFpQLVE?oc=5",
-        "published_at": "2026-10-21T16:53:09+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
