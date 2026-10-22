@@ -1,46 +1,209 @@
 {
-  "generated_at": "2026-10-22T07:55:10.024442+00:00",
+  "generated_at": "2026-10-22T08:27:25.716198+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.145999908447266,
     "treasury_10y_change_bp": 2.8999805450439284,
-    "wti": 99.69999694824219,
-    "wti_change_pct": 2.6248022463324583,
-    "brent": 111.93000030517578,
-    "brent_change_pct": 2.8579310963731563,
+    "wti": 99.81999969482422,
+    "wti_change_pct": 2.748325400935858,
+    "brent": 112.16999816894531,
+    "brent_change_pct": 3.078476827344101,
     "nasdaq_level": 26702.857421875,
     "nasdaq_change_pct": 1.0521816462209843,
     "sox_level": 11505.5556640625,
     "sox_change_pct": 1.9651704716234342,
-    "vix": 18.200000762939453,
-    "vix_change_pct": 9.112712409795453,
-    "dollar_index": 101.58599853515625,
-    "macro_score": 47.8,
+    "vix": 18.469999313354492,
+    "vix_change_pct": 10.731408725593838,
+    "dollar_index": 101.59200286865234,
+    "macro_score": 44.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.62%. Geopolitica: Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
+    "summary": "Tech bias neutral. Nasdaq +1.05%, SOX +1.97%, US10Y 5.15, WTI +2.75%.",
     "quote_times": {
       "treasury_10y": "2026-10-21T18:55:00+00:00",
-      "wti": "2026-10-22T07:40:00+00:00",
-      "brent": "2026-10-22T07:40:00+00:00",
+      "wti": "2026-10-22T08:15:00+00:00",
+      "brent": "2026-10-22T08:15:00+00:00",
       "nasdaq": "2026-10-21T20:00:00+00:00",
       "sox": "2026-10-21T20:00:00+00:00",
-      "vix": "2026-10-22T07:35:00+00:00"
+      "vix": "2026-10-22T08:10:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUjhnTDQ4QTM5cWtlRjN1MXFlOU5yQVlVd3F0M0pDNExkV29mV1duQUpSUjFiaXFuajRkNHRSc1EtaTBzemJOUElXbDhYUTRnSWlrdm1TRUxtQXEwdjM3blp5QnlVOFZJWnAyYjY1dTRwX3UycVZoMHJIWFZaUEZJNnRn0gGHAUFVX3lxTFBBRTI0YmhMaFkybjlPdGczT3I3cVlXX2xLcktrcjJEUVNueUY3QmNldksyRjFaWGtvUm1KUjVua2VibWMxcU5FWHpBakZCSWt2MXhUM0ZYd1FJeE1sLUtwREJ2Y1lldkxOdXZ6UGFqS2pwUksxZS1YLU1XUFNsTzBBMUJwRXAydw?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "0caf53a0dc49",
+      "ticker": "NKE",
+      "company": "Nike",
+      "category": "Consumer",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Nike signs multi-year kit partnership with Mumbai Indians from 2027 season - The Economic Times",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPU0FLU2Y3Mk1CWnpDenpmU05rODROUE1LOVJ3Yy1WZnFrMnVpTm5GN0VpLUxvSVV0WHZzbjU3OXRUNEpLb1lmekVmLV9lYzc4aE9IQjF1cEc3Q3pwdlZVYXNJRVhDWFNwRUpXOGRNWTBHM0JXNkgxSzZUREZNdVZHWWlfbzZTVm9TYk01eG5nNEtFLXRqYWRseGx3SlNoZW9uT1libjRjZWFYbC1PbGp0Q0NvdjlfWmlZZXJtcnhfdzg5VnhfNDdnejE0UUhXTC1qcnc3THRsSi1sOXhFNDFCZXNHWkVpcUNrUDlwaXZwY9IB9AFBVV95cUxPYzRtaGpsZFZfWk5lTnZQZ3hIOEh2VG9QX0ZQVFNLU3U5bHBfTUdNNlFyTkdOYTAxLTJRR0I0YV9aTENBS1h3LVYtelZ2RHdTV0VRcWczMEhyc3FLLWlTRnNXYUdGNjVKbFBaY2EzU1hLZHk3YUJXT2hMaEt1UlM3UkxYbHk0V3pKREpWNTJvZTFXaXE3TnFaRVBTcVBWU2thNk5TN3Ryc0F5QTZ4U28wbzI0ZUNpTzJQZFVBUXZudUlkR3pvZ2R3MmJDRUs2eEhUUnUzZEVUTk54TTBUaFhmekRZV3VNZlVRaGVfY0tlT1hrMk1P?oc=5",
+      "published_at": "2026-10-22T07:13:35+00:00",
+      "age_label": "73 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": -1.47,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-22T08:26:20+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 1.0,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 62.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-22T07:13:35+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NKE",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 90,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "aabe85d6c83a",
+      "ticker": "NKE",
+      "company": "Nike",
+      "category": "Consumer",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Nike announces multi-year official kit partnership with Mumbai Indians - Adgully",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Adgully",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU1owSXYxaGtJYUlDZmhVTXZQNlJsNkVUWmNGQ3VkYW9LOXBaelpyQTBJRHh1YnA0b0dONVBaY0taOVVvUldaQ3lkbklyekF4cE5MdHpNVWl6UHFvM25SQXZxU2s2Q2hBMG00RkYwdnBobkM4akY4cVUydllNZnhDWFdMV0pNVHVzMmU3eHlpRTBPcGZJNk9fXy1jVlk4bEpPV3hMVFltS28?oc=5",
+      "published_at": "2026-10-22T06:53:00+00:00",
+      "age_label": "94 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": -1.47,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-22T08:26:20+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 1.0,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 60.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-22T06:53:00+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NKE",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "c29aef1226a1",
+      "ticker": "NKE",
+      "company": "Nike",
+      "category": "Consumer",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Mumbai Indians announce multi-year kit partnership with Nike ahead of IPL 2027 - Cricket Addictor",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Cricket Addictor",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWjZnQlBzcFJmQ1MyaXh2S3U5bURXcGE1THdlanIwM2F6NWVyNEhhRWp4b3h2ai1XOC16YUl2RWxyOVFhbVdHME5sekJvUmp5cWpheWd3NmxQaUxrOVZVX3hHaGlraWxnNE5RUGEtSzRESmFlVjgta2ZvZXVxN0VpRlRKSTNvalVlM0hHYklJWVQ1LVlsN053TFBMOXR6Q3NpX3ZvbDJTdzdLR0NXT2Q3OFFkYm1wb21DbjliMzB1UUNNc2I0V3c?oc=5",
+      "published_at": "2026-10-22T06:38:48+00:00",
+      "age_label": "108 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": -1.47,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-22T08:26:20+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 1.0,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 60.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-22T06:38:48+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NKE",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "e0f9d1e5986a",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Mercedes-Benz and NVIDIA Deepen Strategic Partnership, Jointly Develop Next-Generation Driver-Assistance System - Gasgoo",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Gasgoo",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaWhIdEplcGRPQk9RcTlyY0o0LUlrYXpnanNGZTFqVGJTNlRLM2dxRk1EMmk3SG02VmllN2x5dm8tSFRCcUMyaDktNHhjNDZpX3JXeDFCQ2xsMUlxTWZ4OElmUlNNU0QtV283SDloVFI3aEZQSVoyZ0h2ck1qVzk5V1kzSVBJWTBIZ3JBWVIwWW9WR0ZCUF9MQzZZakFpM21wR2FDTTdfOEdhU09aQV9NbnZKd2dlUUl5QnNYa1M2UTdQX0xNZ3JtbVJsZjk0ZHRBa3NGQ3prbUViS2dVUmVUdmRVVXh5LWlFQUQxVkxxM1NsVE03cFNDcWpRWTlQUHhDWm9NM1ppZ3hzQnJhS2JKZA?oc=5",
+      "published_at": "2026-10-22T03:09:14+00:00",
+      "age_label": "5 h fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": 0.24,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-22T08:25:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 2.4,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 57.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-22T03:09:14+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 62,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 44,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-22T07:54:59.025572+00:00",
+    "updated_at": "2026-10-22T08:27:15.123539+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,28 +213,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 2
+        "accepted": 1
       },
       {
         "area": "Farmaceutica e settori",
@@ -92,12 +255,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia pounds Ukraine's capital Kyiv with missiles and drones, hours after agreeing to peace talks - SFGATE",
-        "source": "SFGATE",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTNGX0VOVkFpMzV5UVpPT2N0UlVWc2tWTXBPNUxVbV9jcWxFYmJqNzRtdzEyOWVXenFCMVJFcmJISV9sczc3RjNuMzl0Z0ctT0NPd19jVzMwbVJ6VXlwQ01ILWtuMlJhOGg1V01yOHlFdEFuNENnNUJJQktGZlN3WHdWMlBmSkVxc3FjTmtBSWJ5NHJMSEhKbHpWbmQ?oc=5",
-        "published_at": "2026-10-22T07:19:56+00:00",
-        "area": "Russia / Ucraina",
+        "title": "At least 2 killed in Houthi attack on Saudi Arabia’s Dammam airport | Daily Sabah - Daily Sabah",
+        "source": "Daily Sabah",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdnlRLWJwYUVHNzBRWWV3Wm5QU1dHOHhCWHJQZUN4SE9MQk9GM21jQWdpVi1lN0N5SnhtYjFPcEZsVk1MakY5R29FYTJ2Y2t1bmgxc1lCdGhzdVpaTXFqY1hLbTczNkxEc01hWWwtTXdMdFFRNUZNU3hnZVY2UlZhZWJWWUlpeWVsRW1NR2M0VlhUNE5UWXZJRVNOMXBITDJkZ1Q2c0YxYnIxbURD0gGyAUFVX3lxTE00NTByRk5zaEcyam0wVXdoemowMXprclRyUTJmcHpmNVNlZXVLY2FJOWNUZ1F2akFQRV9QWWU5ei02OF9RSnVTUnZoWHg3Y2JYWmZIVWt2am4wQjQyS2pIaHljMHN0S09NczNtZm1wVmVLMW14cHltYW8tMUdZNnpYY3lxaWR0S1dzUVdLSW0tNVhFV0gwWklxbTEzVHBTelVHb2JUa09VSW54dnpmeU05SGc?oc=5",
+        "published_at": "2026-10-22T07:32:00+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkp5bjg3WHRYdlFYTFc2b1VRRmVpd09Oa0Y1SkxUR2xnUTFyTXAyMG9zcUFnN2pIbU1WQVJBdmVqNG0xZDk1UWM0N1M3djhNaWVwbXVBamhRS3dMMWtPRlhQbGFXWk9BTXVXcnppTVB6ZWl3eTRzM3BqclJ0MlE3MEJVSXhWTUlnYm1aVGVGa01kcmljSXFBX1NTWC1Hd1k5X3hwcGtyRjdtblFhVG9RdmlmVQ?oc=5",
+        "published_at": "2026-10-22T07:22:44+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -128,6 +300,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Donald Trump Calls CNN’s Kaitlan Collins a ‘Dummy’ Over Russia Sanctions - Yahoo",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRTFIc0NJQldQVXVZbnJtRkVKLVBrVDMzZDBoaS1aSzRocmdEcUZqQk1sV185MU1UaFd1SWU0S25xNTFPUDg0THU0ci1UbGJnVEU2ZW1XYUZKcXl3YVQ3U3JWSzZtOWdGWGpjbTFyZV9SWFBhOENnVXhxNnYtRHZibUdQWk5YUldZd0Z5QjdGTktya1dj?oc=5",
+        "published_at": "2026-10-22T06:34:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Russia and Ukraine trade major attacks as Trump touts progress - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDlrSkoxT2Z5czM5X0lOTmpPRURLQlQyMjE2RGh1cFNzZDdvYzFuQXV0T3N0aGtuME53akIzMl9zYU44QWJ1QzdSLS1ZZzlRbEVfWEVIekZ6QWktaENfcnYzTmI4X0tOOEk2Z0luWC1aVHUxN096MWNXUEJFTGZWbzk2NVRidFY5Z01QOW9BX05TVkdST0lFcHhZUFI1Z1V3SFhwRDRxNHhnVWsybXJaMUdXWTbSAbQBQVVfeXFMUDFrRWI0Y3BLeGxqOGllQUY4RVk5a0RXRUt0M1NBZWtZdU9xLVhhQmJ3Z1pKN3dnVzJpNlZMdU93UTh5el9GQkhKY3VXQVI1OUJzWGE2OGpLZ20yNXNCMTJEZGEtRENrQVpKM0FPWFFDNmFwN3ZldUJHQW96VkJDcUNMa2g0U2RtQ0M2UVQwRXVRYnhpeENQM09FVmN6Ti1rM1BoR0E0bW5xWjgzbWZlWkIwOXZt?oc=5",
@@ -143,15 +324,6 @@
         "published_at": "2026-10-22T05:00:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkp5bjg3WHRYdlFYTFc2b1VRRmVpd09Oa0Y1SkxUR2xnUTFyTXAyMG9zcUFnN2pIbU1WQVJBdmVqNG0xZDk1UWM0N1M3djhNaWVwbXVBamhRS3dMMWtPRlhQbGFXWk9BTXVXcnppTVB6ZWl3eTRzM3BqclJ0MlE3MEJVSXhWTUlnYm1aVGVGa01kcmljSXFBX1NTWC1Hd1k5X3hwcGtyRjdtblFhVG9RdmlmVQ?oc=5",
-        "published_at": "2026-10-22T04:37:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -191,15 +363,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmeWNaNkZfMWgyVENuck5jTjBjUTZKNWE4V29DcW8xMURzclJjUFJsQk5Jb1pwTFNtcnJsU3R3RXI1YW8wVUxtejV2bFVkXzZrUF94M2tpbm5nQVU?oc=5",
-        "published_at": "2026-10-22T01:07:34+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump says Russia sanctions could have kept US citizen jailed amid questions over his release - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeW9LWmdfTFpVTXd3amp0N0ZYSnowcVlIVDdUeTNwdDJkdlNXX3o4bWEwQWZqWnN3Vk5Vc3BfRTktRVBSajhBOTkwNDlKMGFjdlB1Qld6dWN3YWFhaW9wV2VWc01OYVN1SUVDcUw2cWxsb1oxS1hqYWhjZGZRaXZ6aFVFTjZJdjlaQ19TWGdVZlBoVEEtTUloVXc3cU9weVBKUXVCc2VjRktRWkJyd1cyOUhoUGtveFB3RWlSdWdMdThGTm5WcFVjekdJYklCQWducDNkT0JXVGxmbnlyc2c?oc=5",
@@ -220,10 +383,10 @@
     ],
     "corporate": [
       {
-        "title": "Do Vytrus Biotech's (BME:VYT) Earnings Warrant Your Attention? - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeUIwUzNFV2FxeTNnV0xkblFIVUlsRjI3cVR0YmJRZkFmRWZmcVFETkhLVURWakJJU3dtazlRaXhkMFZFN295bVFpTmY2NUtuS0xRaU4yMUc5SnYtOUltc0RLaWNPcVFseXFNcXB3bFZ2OHAzbjZ3VDVXOXNMNHdWWlNiRlU0M1h1S0VBd2xmWm9TZXRiN3F3UUJSNFJCWVU3bzdLWTBnTU1HVmx3eDk5SmZPUXlWdlRPRHZtT1hScE0xTHlWb1JvbFZHMGVpcFHSAdQBQVVfeXFMUHFjZDRZV0dNNko4ZjhVZThVMzlPdU1Na0VzTlU4dWxKMVdzWEpFLTNNNGJBU0ZWN0R5bTAwVTdTTHFpUnZOY2lmdENBU0FDQ3ZrV2YxaFYzSWt4VjlGTlVvd3JfVTM2aF9Mc0F2NXFsZzA4V3F0bExsNmtCcHpOMkt5ZjE5SDRSRTZQc2JGTlRrWHI4d0o4VV9iMmlMOS12Z2NNTDhLbUx5VTNiNEhJQXRLSXFfZHhQOU1nQUgzMlJWZlR5b3VuSUloT3N3ZDlUZGJVQkI?oc=5",
-        "published_at": "2026-10-22T04:52:30+00:00",
+        "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns | Newswise - Newswise",
+        "source": "Newswise",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSFRhYVUzOXhRcHI3NV8tQkxCLW5PYUhHeXdLN29TeTJHWEwwQjJMYkU4SzM5UllmV0ZmOG41VC1VdjdDeWt3VkVHVUYtdm5reDlrUE9sd1dWRjF4YmlxaEl4TU8wMXdaMmJzRTc4WkZHQW1tbkRCZHVaZnZVQUd0bkJZVzJRR0VpalcxNWJLWVo5RFdaLXhjSUVsT1dRb290STR1cm1RdE_SAagBQVVfeXFMTUhUYWFVMzl4UXByNzVfLUJMQi1uT2FIR3l3SzdvU3kyR1hMMEIyTGJFOEszOVJZZldGZjhuNVQtVXY3Q3lrd1ZFR1VGLXZua3g5a1BPbHdXVkYxeGJpcWhJeE1PMDF3WjJic0U3OFpGR0FtbW5EQmR1WmZ2VUFHdG5CWVcyUUdFaWpXMTViS1laOURXWi14Y0lFbE9XUW9vdEk0dXJtUXRP?oc=5",
+        "published_at": "2026-10-22T07:35:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -238,10 +401,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Micron (MU) Stock Looks Fully Valued After A Critical Minerals Deal - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUEdGRmdiWk0xMkVvSG9zT1ZZWVBMR0JQNUt6Vkk2OXpIVjRFeWVrTXdCSm9DT0lWQXluSnhtaXhYR0ZVbXR4NUNLclluWnRGTVVodkJnWGUyQnNiTFRMZVZOaTN0TXhGU1AzQ0Z4dWZ1Y1o4dTFIWVRHcVVQZVZZWmVsZkZsOW9rSVRxS20zckxIekI1VmtJ?oc=5",
-        "published_at": "2026-10-22T01:23:00+00:00",
+        "title": "Nvidia taps Korean component makers for AI chips, robots - The Korea Herald",
+        "source": "The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10ekUycklJT3lCakNuZEUzX2c2TEQzOWgxaTFVeDA0XzdZM0FhdWxEYzNyS2tZOXYzU29ERjRTUTZFOU1DMmU1X2tTWm1FeG1ycjVibzg3QQ?oc=5",
+        "published_at": "2026-10-22T04:22:51+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -272,20 +435,11 @@
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout - NVIDIA Newsroom",
-        "source": "NVIDIA Newsroom",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFl2YjlqcF9vQ0s2QkdFMDBxNzdVT29ibDFOOUhxRlZhSDJmY0M4VENxOUNyLVNRdEFEcG54RkdUSHk0X2c4V0xOb1d0UmI3aHdSR0d2V0hRd2lQV0hWcXJfcU5vc0JzcUdOVzFTMl9XQjNaamF6ZTZSdWZuOU15RWVRNnBIMUh4c0ZfVy1JcDhUR0hGczl3UXBmcjc2ekxrVW9YMXdHU3lBYWZBMmxhbE5ScnFYTUhRZ0g1QjBpRmxCQQ?oc=5",
-        "published_at": "2026-10-21T10:43:59+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 131,
+  "archive_count": 134,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
