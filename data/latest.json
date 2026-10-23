@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-23T12:37:46.013684+00:00",
+  "generated_at": "2026-10-23T13:19:33.347295+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 4.986000061035156,
-    "treasury_10y_change_bp": 3.2999992370605495,
-    "wti": 101.2699966430664,
-    "wti_change_pct": 1.8095862071716207,
-    "brent": 110.2699966430664,
-    "brent_change_pct": -2.5625179577626667,
+    "treasury_10y": 4.965000152587891,
+    "treasury_10y_change_bp": 1.2000083923340095,
+    "wti": 101.30999755859375,
+    "wti_change_pct": 1.8498002566704086,
+    "brent": 110.37999725341797,
+    "brent_change_pct": -2.4653185125639965,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
-    "vix": 19.670000076293945,
-    "vix_change_pct": 3.3631075489007456,
-    "dollar_index": 101.74800109863281,
+    "vix": 20.110000610351562,
+    "vix_change_pct": 5.675249000195537,
+    "dollar_index": 101.68499755859375,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.99, WTI +1.81%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.97, WTI +1.85%.",
     "quote_times": {
-      "treasury_10y": "2026-10-23T12:20:00+00:00",
-      "wti": "2026-10-23T12:25:00+00:00",
-      "brent": "2026-10-23T12:25:00+00:00",
+      "treasury_10y": "2026-10-23T13:00:00+00:00",
+      "wti": "2026-10-23T13:05:00+00:00",
+      "brent": "2026-10-23T13:05:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
-      "vix": "2026-10-23T12:20:00+00:00"
+      "vix": "2026-10-23T13:00:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T12:37:34.037908+00:00",
+    "updated_at": "2026-10-23T13:19:21.167302+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -65,31 +65,40 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 8
       }
     ],
     "geopolitics": [
       {
-        "title": "Israel orders full West Bank lockdown after deadly shooting attack - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYUF6Z19mYk41ZUZMbTQ2dVJuVGxfeHduT21oTEFEYkZpcGI4a1ptUnc5Mm83Y01saTFzekRsS2k2dUJfUU9VTlIyX0E3QUJpR0JXT1U1bGxYMi1XTGtfV0sxeXpoSWR0LWpNSFhiUTlhaHRZVENGR3A4RUZtRTZYSHJKZlNtN1Y2N0RQU3plN3RQM2RLYnlCd0otZVBHV2Y1MXBpSHJhZmRIM0FGOFJfYzdUMA?oc=5",
-        "published_at": "2026-10-23T12:11:34+00:00",
+        "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HM1k3QTBMRmFxNk5TcXAtU0RnMUVyTWhINUg3QnpOMlZWd3hBUEd6QmU2WVpJdzFqeG4wTE9meHI5cjJtZ0lMMDFxaFJ2M1djc1lmcG1vXzBNWU0?oc=5",
+        "published_at": "2026-10-23T12:48:52+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russia Camouflaged a Tank With Branches—Ukrainian Drones Found and Hit It, Video - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMWhJcVZqZ09LV255N0FXbWdOaV9EQXduR0hPWDRNV2c2ZWNjMTNuNGlwTzVJNVhQZVRFNkoxaURXXzJwNU5ITjFzb0tLRDA4WmpOdWxRenJtRFRKNVpXUDgxVTJ2aEpleC1nakY0TVk4Nk5weGNBeTJWOUE5MDNCNnBIVEZIdmtiZEI5akR0SWd0TVVfcWtrMW92V2tPX2RfbE9sR0pPRVh1MTJxS0w0czVzM1Z4V0lZTFBNejNYM01TRGZ4?oc=5",
-        "published_at": "2026-10-23T11:43:14+00:00",
+        "title": "EU accuses Russia of new drone attack as ship capsizes in Black Sea - Euronews.com",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRXJfQ3NxeEZ2TzEyVWpBZHV2Tm91S2JPOE1ZM3RFajltaElaa1hEMk9HZHM1OTZQS3o3b1BxOGlkUVpsaTZURkhpeU1scHRNbVN0YTlKeF95cl9JVVByV1l2LWc4Qk1vUGdHdXVOV3l3eV82UFVqbWVTc0E1eFU1eUJCc1M1NGFCNnNJSThKVFVOQVVwNllPT290dGFPQ0twQjcyRUVTWUlJLVgxU2c?oc=5",
+        "published_at": "2026-10-23T12:48:16+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bulgaria will vote for president as Ukraine and Black Sea drone attacks dominate campaign - McAlester News-Capital",
+        "source": "McAlester News-Capital",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNbXI0THA4QWZqMktIUFgyOURNTmpnb09GSkFnaC1aZ2dBOGFjUFJlOEE5bllwNUQtemFqek5XaV9xaWNJeE53YTV1ekx6c1pOM2VVdjZOLXRIWVU4cUJSYVQwZXZrdGlmR2FKU19OeXVPWHdldGtKMWtPN1pzVVB0OHFGUHlGV29CNmlPRmRsamdpRElkeGtfb3BaLWtnVktrbjYzbkxNTlEzek9FeFM4a2FsODVVMEZldFpLVksxWWE0X1Jkakw3VGRtM2lrVURsUzFtOExpcUs4dk5PUEdJMHBpODd5MzQ3RThNOWN0M1NEUHRHSFZpdG9pLTRtOXpvTFFrSm1oaw?oc=5",
+        "published_at": "2026-10-23T12:18:37+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -104,10 +113,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Drone hits another ship in Black Sea near Romania, killing at least 1 sailor - POLITICO.eu",
-        "source": "POLITICO.eu",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVktiaHZEYnJBTzNET1N4NjlMcU9zdWtDUENTcEJpRXRMME5NTXAwM2N2TEF6RmtER1B1SmlKQVZ0eVhFbnZPTC1TbF9CNFh5dHJRLVBLai0zWHpHX3hsWXcwalV6SVlteTdrMnlhcGZYSGplWl9CTzlLNU1yZjBJZnFIM0dwTURjaUk2Y3d5Sm5yYVhrX1dadGhWTVIyal9GYkZycjhhYlltN3VoY1Bn?oc=5",
-        "published_at": "2026-10-23T11:38:48+00:00",
+        "title": "A Western drone company says it set up shop in Ukraine to build better weapons for NATO - Business Insider",
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUZIcmhERWh3MDAyUm5JcFdYb0t0di1xWTl4RnFENGNYcEV1Q2tfVXVSVGthN29teHU4Qm11M0hwRWtJWjVYMTQ1bFhIZmlWR0dEdTAxcjA5Ukp3OFNEOFFZMnlHdlE3TUlHdWZKRmVwejFWQnhjT0lLSWRMY1FJa1ByOUxwMm5RY1dWVFJLMzZQZkFiU3BoMjhCNGF3bGZ5YVZaQ2RQRzZjOTFVbXc?oc=5",
+        "published_at": "2026-10-23T11:31:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -119,15 +128,6 @@
         "published_at": "2026-10-23T11:27:36+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US proposes restrictions on investment in sensitive technologies, like AI, in China - Plataforma Media",
-        "source": "Plataforma Media",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbW5iS1ZSYWlXaUpxQnNqWEt2dTlXR3JfNzhNTzYtZ1l6Q2xxSlRyM1o2X1cwYU5Ib18wbEo3MHJFUlVWclhmYWNhWWtBdmJBbXVFNmloTlUxb3NHQWZnYnZuRlNxeS1yNXhtZDh3VkRXN0xwSnctRTdhOFRjVEQxR2hoQXB3aTQyWFVWYjR6V1MtMzduVnVpUmM1bndfMHdMUEpLNDlPM2dRaDQ0R3IyMkYxRkZvQ1pOeDJ6cnVPMGE?oc=5",
-        "published_at": "2026-10-23T11:16:57+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -158,6 +158,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump accuses Iran of making up attacks and mines to raise oil prices - NewsNation",
+        "source": "NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNXNSb2JEd1RMaG9rV1hsVzFfNXloVDFQVXIxaHYtV3haWWY0azRESmJ0aGhBOEgwMUgyLXp5SDVRbGJPLVV3SzNHalN1MDd3Q1BobW5DQ1VwLXIzLUdWUDVWbW11aVdHcFF6bnVBYW50S29uRk84bU1mdmEtZ3djemZpMnI0UdIBiwFBVV95cUxOREVDZDNSbFRqVzk0OGNiSlllWGNCTmowU1V5czBKak1WaGpFbVNiSTQ5ODZ5TFhSdFNOU2huZzk4UGZ6SGgtNnhQRi0wZEJwOE94UUJFdU4yRUE3OEFhd1k0Yjk3SlJGSVV0Qm9ZaER1Tl9Gd3UyRWNuMmFhQkdkaW9EOUE0NTZvYkFN?oc=5",
+        "published_at": "2026-10-23T10:37:56+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
@@ -176,28 +185,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Israel orders ‘full lockdown’ of occupied West Bank after military kills 2 accused of attack - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3dwb0R4Z1VVa2VJenltT3B4WWEzS0xsc2Q5SmY0eEEwNy1FN2J6RlZDZE1DaUhzOTdKeHNuckEtMkJvYk0yS2VfRmtBQmhuT3VpcU5CMDFPWlBIYWRDU25XaU51SHJ5cVF2NHkxNGdLb3AtVkpuaHhOR2ZpQjk3aWd2Ni1NY04zM1dLNUxYVlctdWZnUE1RR1N5Q1dsUzF3em1pWjlqUUxpQS1p?oc=5",
-        "published_at": "2026-10-23T10:21:34+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump sidelines sweeping Russia sanctions as GOP allies warn pressure on Putin is slipping - Fox News",
         "source": "Fox News",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOGRxdWFFZW9uMUhxNUZtdTNVeWpLQXlMUW52cmxBLWMxRGVTdzd3VGxzRUpDb1ZUcGp6dFhhc3pGX0V4U09QTXpaR3NJdG9uNE5JUU9ZMXhBaUtnYkdqaDJMTV9jdUoyZzliTkNRZlZlaS1tQ1ktQTZhc2hpWUZteDZhcGpjSE03S1Q1amNFOUVsQW92WGNWbXBwdVAxS1YzSUhVczVhTlNGUUQ4REFEc3dkQzfSAboBQVVfeXFMUGRoTHhSak9wUy0zb0xCTUZqczI2Z01fTENTQXFmMkU1WGpXOE1yWURYWm15VWNtREJ0Mm50YnlkVXh5bWRVMXVqYS1qRUVoV05kaV9fLV9XTjhDVmNwOXo4RzZEcXB4M25PdTJZdGRmNXpVYUdIdW9jWWh0VVd6MWQwQkJZbldpYkl5bmo5bFJ3R3hCR3ZhcWxweTUxSGJfY1JCa1gxVUdsLWZrUTg5U3NVR3pPeWdkRUF3?oc=5",
         "published_at": "2026-10-23T10:00:17+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Fact Check: Marshall claims Ukraine war is to blame for high gas prices in the U.S. - Kansas City Star",
-        "source": "Kansas City Star",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40WS1qY0N2QThmOEFwbTJERkN3VTUtRHhlcWtoWURiTnRtUWo3azZGYnlxZVVJTHJMSmwtenZDXzRRNmpQZkdoNHVwcjRRdS1rTzRuUjRPdVRMdEJHUXJVSURTQjItWjYzNGV0Z0JzWmxDT2hsTU1xRktmR21xZ9IBfkFVX3lxTFBROUx0U0JLaWdUNmtIVDFSQlBnUVp4WTF0QjNXcDhmR1FaTllEanc1STMxNkoxY1ZxeVlJMVVzSVFtcG1ZM2pVV0lWdHF5MzBnQlh3b1pycFBzM201cVpLV2JWNlYxREczMkVESnpFRC1vdlFzX3dFNEFISGt2dw?oc=5",
-        "published_at": "2026-10-23T10:00:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -210,15 +201,42 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "It is just the start: Europe wants bigger deal with China. And leverage to get it - EU Perspectives",
+        "source": "EU Perspectives",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSlg0VThQQWgzdXBnYzAyVDViUkVDN05wOWVrOVFpQnZFbVhtdHRuNENSS0lpeDYwcEEzSGRqRFVqTE4tVmhLTHdwMXNZX3Z0OHpTSFdMemJBVjd6ZUtzQXBxNTZyTWU3M29WY3ZrWU1jdlQxQW04UnVsYU9vTVlXZWxiVDVSb0ZlSzdveFFaa3ptblJHaWFIcFlCUUliTWM?oc=5",
+        "published_at": "2026-10-23T09:08:32+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
+        "title": "ESMO26: MSD and Moderna drop cancer vaccine trial data early - Clinical Trials Arena",
+        "source": "Clinical Trials Arena",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVmdpcEpRQVFkMlcwTnpzTWhBdTRWQnhGRVcwaW40aXBITk12V2tOTDZPbFZ0cUdWb1dUZkM4cHBJeGJGeG9VN3JyWE1vTTk2dkh5ZXRTSlczcW42dl8yNDJlQzlLQVE0bzVZOWdoRGZTVWxwNndZWU9DNkE4eGVHSWtESml1cE5vSUJqd3VfZDBNTjFjNW1oZU5qV2JHN3d6UlFr?oc=5",
+        "published_at": "2026-10-23T13:08:29+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Micron Stock Leads Chip Rebound. Dip Buyers Must Buckle Up as AI Chaos Swirls. - Barron's",
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZWx0RHQwYjBxYWVxYkpnVmNTQ1NpYXJadnR2TzRMREozN3dBWmpUSVdyOUFYRDIwOFRiM056SVF0Xy1yaXZVUjJSTERxLW8xcG04R3VGRGxNQjh3a2JiM0p6RWR0TXAwUXI5MDZIZ1d6dy1ocWZkSEdEcE9pLUV4OXdXbXI5MEU1VXFhNQ?oc=5",
-        "published_at": "2026-10-23T11:10:00+00:00",
+        "published_at": "2026-10-23T12:13:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Sartorius Stedim Biotech (ENXTPA:DIM) Q3 Earnings Confront A Premium Valuation - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN0g0dk5iS0pWd0JaemllSkFGM0ZCekJ5UDJCbmw4QWlaY24wcnNsN0hTdFBrWnlKbTJfMGcyVDI4dkZ3OHJyd05JaDVwS0JCTUpaWGdHUk5haGJURUtCd0JUbTM2YTlJeXJ2bE4xUklnTXNSVTJRV3dMVVM1SGQ2cWZxRkxpaDZqR3RxR1NMelZOOWl3ZFJKb0dsMU1MVlZfaWc?oc=5",
+        "published_at": "2026-10-23T11:16:02+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -232,20 +250,29 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "TrendAI targets open weight model gains with Nvidia Nemotron deal - IT Pro",
-        "source": "IT Pro",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMnI5aFh1UnAtT0NKbkhYaDlUSkhRUERzNmxfMDV0b0pTN05QcEZ2WVROYnNIZExKMUZYNFpNOHlaQmJPWmtRTzB2WUdmcXptcmZJRkROX2h6Y1VYcUVzM2twNGlmQmRxcDV2ZnVEN05JM3Rzb21hSlRzNzZQa25sUmE2ejZqVF9nZVdpdUVfbEU1ZUQ2RGhRYjRBc2daSVd6enhWUWtQcGJUOTFSWlEtNlpsdkxSSHpoUzJPSDRzaw?oc=5",
-        "published_at": "2026-10-23T11:00:02+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "NBA opening week intel: New trend in contract talks; OKC's pricey future - ESPN",
         "source": "ESPN",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa004dTRNSE5jNW1xN1FIbXE5UTdnTVlkdjFkcGVRbzY1UWxDaTJ3ZjUycjM3blNlTnRfcGc3T0VPQUlYUWVtQjN1OWZfUHQ1MU1lc3RmT2d4VXFQZGhoZklRUzB4QkVON0p6ZzNGZUFpSG92SU84QUltVmJ4MGZ5NkhzYUVzUk5SWGMyQmI0cVdQQQ?oc=5",
         "published_at": "2026-10-23T11:00:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alphabet Earnings Preview: Projected 90%+ Cloud Growth vs Cash Flow Headwinds — Which Narrative Will Prevail? - Moomoo",
+        "source": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxPaUxTeXk3d1ZwMkJ2MGMtVy1naHpGUTZvbGx6cGdzWl9LcXpnbjJFbzg0UER3YmMxMnVDS09RY2EzZTN1TVlIYi01VkV5ZDZKM2NsVENyaEN2eGgzTEtqX3VRbjZuQTNDVm5QT21vck5iRDBSRGtnMno5NHAzTXhlYVY4WmdGeXRTMnJ1Z1FDb1Q0eUpnYXkwMk9lbmh0eFcwaWVwODNuSHZDUHlSczlRZGRSLVhuRDlXaENXeTJLUGdGYjBJV1B4ek1Yd1BvVWFfMkVNRnM5OEJSd3huSXg2MWhWT1A5N0NPdWpGMkZNaEprcm5YV2xkanJYaWVfVTJXZXZYaHdVaDFQUFRWWlZFWGQzVHFBVlh1MGZUc1p5bVNHT0pMeFdJRVV3LWVHNVRVZjRod1V2RHp3dTJkTlJ2ZXhRZ3RNWHBJR25UbWZMVkZHNFUtNDE3bXduVU5zNW4xMEdySmtrc2lNM1JNLUVZTF9qaVNmZ09xQW5GZnRRQ1EzRnNTOU5lY0F0SGhxcEZBc204RXRtUmo5Y25XWmY2T0FmOUN4Zw?oc=5",
+        "published_at": "2026-10-23T10:47:51+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Tango reports 82% tumor response rate in trial of combo therapy for advanced pancreatic cancer - STAT",
+        "source": "STAT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa0wzR2ZBQ2tGamotM0EwakVKVTMyWFFNVDU2bU56b3lFUm8yalp0UVRTRGtEYm4ta3hwYnNoajNXc015NmViajliN2dWbkw4cHRYbzZnaDVETGVNc3MxblNpUTV2eDFxN3RmZ0wyaVpiUDdIekJyUnR2Z2s3eTJUVWJqNHk2Qlk1d2lwSjJ3dVlIdDdCdjJseDZuN3JCVng4YWt2aVkxZHVTTmFSWXBFZHZDYVpWVHR1cHJEN3RRUQ?oc=5",
+        "published_at": "2026-10-23T10:34:13+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -272,33 +299,6 @@
         "source": "Medical Xpress",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWXFQcXNyNnFTU1VDYzZKVWptbUh0c2QwX3g3eGYzYmYzV3JsZVZfeHFzdHpid2ZwUVRYN0ZEN1VCenlPQVdUUE5KM2N2aXlVRXJYUjNRdzVCclphOUZYTFZtMS01UmJwa0JXRzcydG9INEFNZWJ6d01SbUd6Tl9LTjJ5UGR6dw?oc=5",
         "published_at": "2026-10-22T20:40:16+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA Grants Traditional Approval to Pembrolizumab in TMB-H Solid Tumors - Oncology Nursing News",
-        "source": "Oncology Nursing News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTBqTGdTQ2hVWU5tcE9fZGp4YzBBSTlKbHVqbWc2VkpjWW1pdEdPLWRqamd0aTZCNHduRmlhY1puMTd1RmVjMktlLS01VlVSdlpPdXd0VlRxbUhlRnlLVGx3MEpTNWVmVmNfeWdvbUcyWTlCcnJEYkliQUxTaGloTmoxZEgwd3ROUjdtRXRCcWpfM0pQSm92cWJneUljUTdZLVhTUzVQY2o3QQ?oc=5",
-        "published_at": "2026-10-22T20:17:43+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "New Berotralstat Oral Pellet Formulation Receives FDA Approval for Adults, Adolescents With HAE - Pharmacy Times",
-        "source": "Pharmacy Times",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWxkY1ZwN29JLU02TmRZVzFVbnpzLUFLOVJzLXRlSklhTWRCWXUzT2VUVTVCaXFvU1pJRnNQY3lwNVlhZmlFMEJ0X3dmaEVOc3pkMVZHOWRlQXc0UC1oVVFiWHhTQ2o0Y3VvYnFud0RieUVTYmVKSjFJakFGY1VIWTJmbTl1Y3FZd1h6ZUpzdEVzeHFhODFDcDlNNU03STIyU2U1eFNPSmpIVW56UGwzTWdSTU5wS08wSFpYRWhVNGNzRDE3SVdMeg?oc=5",
-        "published_at": "2026-10-22T19:31:58+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns - UC San Diego Today",
-        "source": "UC San Diego Today",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnJ1QUIyV1RUdGlOVkZkbU9UWnNvT1B5QnA4eTVVZ082U1FYTTdCS0dpTkFOOW5qQlktT2lHWERobVZqUGdHbUhBOUpMdXU5ZTRBYVlyZURiQ3hhdlVDU2U3aG5QMFpYRG1VVXBzSkZQdU56MjFLUktsY2YwN2NIaGZXQkNOYkdFOHVkU0VtaFVQeHBfaEo5aG5NdkF6cno3NHc?oc=5",
-        "published_at": "2026-10-22T15:40:09+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
