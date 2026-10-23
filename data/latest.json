@@ -1,40 +1,55 @@
 {
-  "generated_at": "2026-10-23T10:01:46.854561+00:00",
+  "generated_at": "2026-10-23T10:31:35.985521+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 101.1500015258789,
-    "wti_change_pct": 1.6889517287209221,
-    "brent": 109.79000091552734,
-    "brent_change_pct": -2.9866548626890976,
+    "wti": 101.08000183105469,
+    "wti_change_pct": 1.6185790596094485,
+    "brent": 109.83000183105469,
+    "brent_change_pct": -2.9513089970228057,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
-    "vix": 19.610000610351562,
-    "vix_change_pct": 3.047818721904072,
-    "dollar_index": 101.72899627685547,
+    "vix": 19.549999237060547,
+    "vix_change_pct": 2.7325198720562938,
+    "dollar_index": 101.73200225830078,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.69%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.62%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T09:50:00+00:00",
-      "brent": "2026-10-23T09:50:00+00:00",
+      "wti": "2026-10-23T10:20:00+00:00",
+      "brent": "2026-10-23T10:20:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
-      "vix": "2026-10-23T09:45:00+00:00"
+      "vix": "2026-10-23T10:15:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "E",
+      "company": "Eni",
+      "category": "Energy",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 3.95,
+      "short_term_change_pct": 0.92,
+      "relative_volume": null,
+      "quote_at": "2026-10-23T10:27:41+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "E"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-23T10:01:35.924889+00:00",
+    "updated_at": "2026-10-23T10:31:24.488956+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,21 +66,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,11 +92,47 @@
     ],
     "geopolitics": [
       {
+        "title": "Fact Check: Marshall claims Ukraine war is to blame for high gas prices in the U.S. - Kansas City Star",
+        "source": "Kansas City Star",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40WS1qY0N2QThmOEFwbTJERkN3VTUtRHhlcWtoWURiTnRtUWo3azZGYnlxZVVJTHJMSmwtenZDXzRRNmpQZkdoNHVwcjRRdS1rTzRuUjRPdVRMdEJHUXJVSURTQjItWjYzNGV0Z0JzWmxDT2hsTU1xRktmR21xZ9IBfkFVX3lxTFBROUx0U0JLaWdUNmtIVDFSQlBnUVp4WTF0QjNXcDhmR1FaTllEanc1STMxNkoxY1ZxeVlJMVVzSVFtcG1ZM2pVV0lWdHF5MzBnQlh3b1pycFBzM201cVpLV2JWNlYxREczMkVESnpFRC1vdlFzX3dFNEFISGt2dw?oc=5",
+        "published_at": "2026-10-23T10:00:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
         "published_at": "2026-10-23T09:59:20+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia to Unveil ‘Anti-Drone Dome’ Air Defense System at Africa Summit - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4yOUpZMDFYb3FxVnAyWmFaSzczNHd5S1F5bEZ4UzVrTkJwNGlpZmU4SWlycnZWSmNzMXdwSnpUckZaRGxHSnI5Z09kbw?oc=5",
+        "published_at": "2026-10-23T09:53:44+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bulgaria will vote for president as Ukraine and Black Sea drone attacks dominate campaign - Ottumwa Courier",
+        "source": "Ottumwa Courier",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTXVJM0xhcV83emVBSXFJeXdQc3diUnNuQU16Mi1xamtNLVY0NDZKWmRoc0tyTXZpS0wtYUhUWkxiaHNyekJsRklndnpzTEItbDZkc2pUNC1hX1VpS3FBZkJoTFg3Mms0dUgxSFZvSTNLSzZFNDFmdmdqNkpWVko5b04wQ3l1Q29aUXlvaVB2ekVqS3puTVhaemJOaXhKblZJbF81bnFvejRJSFRyTHdteE1VaXFER0RTSXZxS1FNWk9NOThVQUFUT2NXbDE1bWppaThHSGJnRThZaDlnckxRTk5rQ2lPQm5LS3JrZnQ2SzMwNVpnM2hOYmtiSGdrWmNsWlh4a0s5MUlGNlphUzRpaDlIczc3bUh2?oc=5",
+        "published_at": "2026-10-23T09:42:03+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bulgaria will vote for president as Ukraine and Black Sea drone attacks dominate campaign - Temple Daily Telegram",
+        "source": "Temple Daily Telegram",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX05XaGhpTkZqdUhyZl9mcEpXbWdtXzdPRnRFT21EVmthMDZ3anpxeS01SERnQ1VFVDhrV2JwdFE1NExjdU51OWgyTUhCejV4WmlwQXBxd2NBZFpqYXU3bUpMMk0tRjF1Mm5LYTZBS3ZwT0p4ZlpvS0hSbFZPWElVSl9TbHFzNXVSM09JUTZncFQ5V3dwQlE?oc=5",
+        "published_at": "2026-10-23T09:42:03+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -104,11 +155,38 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HM1k3QTBMRmFxNk5TcXAtU0RnMUVyTWhINUg3QnpOMlZWd3hBUEd6QmU2WVpJdzFqeG4wTE9meHI5cjJtZ0lMMDFxaFJ2M1djc1lmcG1vXzBNWU0?oc=5",
+        "published_at": "2026-10-23T09:25:36+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israel orders ‘full lockdown' of West Bank after military kills 2 accused of attack - NBC Connecticut",
+        "source": "NBC Connecticut",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYWtuZkkyU1FoZVhpUnRza0d4aDhzUnBKUUZwUDBLSUk2anhnSTNzQjVsMHFkSGU4WHFUX0lkU1RPU1pZcVhIejhYTFZ4cE1QQTAzeFJxTHZXMEFpYVBQNVozRmU3aGdzQmZqWGQ2S2JHR21kR2V5bVBOQU5yRDRHT1lrSGRZYVpXZjhSRHVZRWxkdkZ5VHRBZDQ2OXBrdzhFRTdDZ0NSSnNJekkwUHJuYUZGY3VJWjQtYWMtWjFRNEw3UnpubFJ1MWJfZVhTQ2VOZDNnZGZR0gHeAUFVX3lxTFBjWXdNcW9zU1pJTjRvaXZBN0xldlB5aGVUV1U4TFZGSGQwRi1YbjZLTWI0Qkx1MVJCNGhhazV4YmlBUVpOTnE5NmdXTEVWX0N2MEZmNm5uRmNmLWtleUI2TmRjNWYzU2ZpQmlvYXFUei1jbDFMSXBBUDVxLTE3bmhBeUhNSlhPUzhCNVQteHdtNzV1aWtjRE9FSHB4aEZjR05jMEVjMDNYWDlsWHZvVGgwX05WVE91ODJGZHVMM0xTMkQxbDlzaUlIY0dwR2UyTndGWkdaOExqdmNUZEIwZw?oc=5",
+        "published_at": "2026-10-23T09:19:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Putin Says Russia Ready for Ukraine Talks, Rejects Short Ceasefire - Kurdistan24",
         "source": "Kurdistan24",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFotaWwyTXd2Mk1JRW5Md01IdkRlQzFLXzFJZ1M4eUVkWUxZVXJSeUNmWFJVaFAxa1RpVGFrUnVVLXRFemExdE85NkpwVUVNSTIwRnJwNEo0UE92YVU3Q1JZaVdtdU5LUGR6Y1JoeFVlNmtyWVBjc0R1djJpcDFxdjFrdWU1TzRDUF8zR1UtNXFSU1A3RHJyZ2FXdDFEcTJ5NGlTenM2U0plV1pRcWc?oc=5",
         "published_at": "2026-10-23T09:13:46+00:00",
         "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "It is just the start: Europe wants bigger deal with China. And leverage to get it - EU Perspectives",
+        "source": "EU Perspectives",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSlg0VThQQWgzdXBnYzAyVDViUkVDN05wOWVrOVFpQnZFbVhtdHRuNENSS0lpeDYwcEEzSGRqRFVqTE4tVmhLTHdwMXNZX3Z0OHpTSFdMemJBVjd6ZUtzQXBxNTZyTWU3M29WY3ZrWU1jdlQxQW04UnVsYU9vTVlXZWxiVDVSb0ZlSzdveFFaa3ptblJHaWFIcFlCUUliTWM?oc=5",
+        "published_at": "2026-10-23T09:08:32+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -122,21 +200,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump’s Iran sanctions run into limits - Yahoo",
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTXd0YW5jX3AyeG1IcXBDdkFUYmJPMDQwOGVDQ1BnaUxzTVJMRlFuTWNucUtmMG5yWUFweEhjY3U4a3VHcFpfQVNHcFh1QUVIYmZCNEt0TXhkOTFybzFXSEo1TV9xZzRZZTZzSTJFOUYydjRQeURNTld6c0x3eGlYSV80bmY2RkNpSlNfV0xYOWFhQzdFTWc?oc=5",
-        "published_at": "2026-10-23T08:55:32+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Israel orders ‘full lockdown’ of West Bank after military kills 2 accused of attack - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3dwb0R4Z1VVa2VJenltT3B4WWEzS0xsc2Q5SmY0eEEwNy1FN2J6RlZDZE1DaUhzOTdKeHNuckEtMkJvYk0yS2VfRmtBQmhuT3VpcU5CMDFPWlBIYWRDU25XaU51SHJ5cVF2NHkxNGdLb3AtVkpuaHhOR2ZpQjk3aWd2Ni1NY04zM1dLNUxYVlctdWZnUE1RR1N5Q1dsUzF3em1pWjlqUUxpQS1p?oc=5",
-        "published_at": "2026-10-23T08:47:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Months after US trade fallout, South Africa taps alternative markets as exports to the world’s second-largest economy climb 25% - Business Insider Africa",
+        "source": "Business Insider Africa",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUWlFVkxUdkdsbTJuV3VDNXhlSEJoYWF5cy00dzUyRlNTdmVLVXpQVFdyM1dQU2V1LWtKSXk2OS0yU0ljdU1WX0Nob0l1SGJNeHpFcjFNVUZlZDJRYnVwMzdISWdMa1FzRC1CMktwS2c2c1JDX1gyWDdnSWpqWU1sQngwb3U3VEt1UHZxcEsyMEFKM1lES3hycy1kUjl2dGtvMW5BM2tMdjlIcDFJWGVFM0hPaW0xZ0I5RXhnLXBtSGZDOEFuWWhTcEVKRmplSUpYamRjMXgwVjVvZw?oc=5",
+        "published_at": "2026-10-23T08:47:56+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -149,15 +218,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
-        "published_at": "2026-10-23T07:47:19+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "EXPLAINER - How China is reshaping its export map beyond the US - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdEJ5TVRnUlA5Z3MzNnBHc2lKQThlRXRZeWx0OUY1Z2l5SmJPcHBXRVZXTEdUeUxSOXUxY0pkVnNtaTMxY3gwZk9hOEViNGc4dEFPX0JRZ0tQWnBaUU9UWEQxVFFIUVdpU0lWSF95QU9wYjBvTHMyLXNRdEV3MVZhZERtYnN4emlmWTNQMFZ1NDBuajlqZXJfOWN3OXI0dUFRQkZkbA?oc=5",
@@ -165,54 +225,27 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Club of Seattle, created to promote trade opportunities, is established on September 9, 1916. - HistoryLink",
-        "source": "HistoryLink",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByaXp6bFdLM0hMamtvczZQSTFES3pqNEVTWlNwTk14aGNybUd6Q0tCbUJxY2E0MXE0ZDRWTjRFbExURERjVU83TmZZMGg5M1k?oc=5",
-        "published_at": "2026-10-23T06:02:27+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine's Strikes on Russian Data Centers Disrupt Key Services and Derail AI Research - Broadband Breakfast",
-        "source": "Broadband Breakfast",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVGVaeUs2TUd5a1ZMNUJhak5JU3dWVElLTkxHdUUzQmYxYWpqOURYRV9Wd3hObjdQVjlyTmh3c0FtSzZEc1oxaUIyUktna1Q4eF9HSVA0NGUxZFlXTFlZREItdER2ME5pTkFWU2FpbFRUQjM1dkpxcDBPMmxvMEZwM2M2ZG44VTRvcjdyQTdjaWQ3Uzl1cmNNNi1oUS1QQ3NLTnhYQjBielNlWHNTTlcxTTNzT05PaVE?oc=5",
-        "published_at": "2026-10-23T05:26:15+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia's new type of 3D printed missile will make jet Shaheds look like a 'small problem,' Ukraine's drone gurus warn - Business Insider",
-        "source": "Business Insider",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb0tKVWJFS2sxZXdYY1FWSmdZemg3WDA2SnVzRTlJVEV0anVSUThyWUlDLWxKN0FsX3ZsZk9LTDIzbjNFUmduX1hKcDg0VFFBaGphcDVsM25JTzJTYWRYRm9vTDg3UlhmZEI2R1lhRFBrY2lXbXR6U3VLck03OXpIS2dSSFZ6QXFpOHdNUU5udUhmdkJHTHpTVTBVbWlscjhHNEY0VTJ6ZWxaMTUxbkE?oc=5",
-        "published_at": "2026-10-23T04:27:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine seeks to move customs checks inside EU to avoid Russian drones - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOHlVZENCd2FZNEQ4MUVfMWJ0VTNLX0xMc3NteUtXUUxXSXlON19WTEpXM0I3V2JxVGhfS09xWlBBSEp6WDF1VEdLMXE5SkRoQ1d1TUxRMmdHY3ljMzE0WXFRNHNGTTBQeVhDaTY5YmZpajVKdlhDNjBPN2pOYWxGU1dGQzQ?oc=5",
-        "published_at": "2026-10-23T04:00:37+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Biotech investment is the new front in the U.S.-China trade fight - Politico",
-        "source": "Politico",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGctSS03QXZwRTdFZEpoZUNGczljZ1pwUnZTMjg5MGlILURUWmZqcHJPUWZuaHJVTkRaYWxxV29VRVl3clV5NTItV1dJWXFPeUlmQkJRTjE5VUVyQ1lpZmpOWm1WdWM3N01MdEpUSnNrcTZUd3dOV2tzUEdhQjNWelJ6elp1Vk5WZjZoMjd4YUFNc2tEWnI0S3ZjUkJpckpsZ3E3VGxPVi1ycmpUMVcxSEtQeEk?oc=5",
-        "published_at": "2026-10-22T21:09:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
+        "source": "Medical Economics",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
+        "published_at": "2026-10-23T08:39:23+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia launches Minerva AIOps platform for AI factory observability - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLXptR0tLU2xnLVBhUjgwcl9zUzBpQmh4bHhwMFc0dERjeXI3NUVkTi1MZHZhc2x6MFNhaUhnbVV5cXFwSUpOemRlcXk5cEgxZmhpQi1LdjF1QTZjVERYTmlwSlVHNExnc1VpSUdXVy10VTU4Q2puWWFOLWYwcWduaW9fX09oUkFiZmFraQ?oc=5",
+        "published_at": "2026-10-23T07:17:51+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Nvidia’s Huang Reveals Investment in AI Video Unicorn Higgsfield - Bloomberg.com",
         "source": "Bloomberg.com",
@@ -228,15 +261,6 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbGM2Ylh6ZllUXzVvS1ozTEYxUmpGMDZXTHRmTDdVei1TRnB5NTUtSlhJVXNmenY0a2hNdTBpQVpiWk04QXI3c2xMOHpxMXVLOTQ5aDNQNHc0TVRjdnZ6cUVFMV94Sy1uZ0hCTUdQMDJDLWE1QXU5ajU3UWlLa3RGbTZaUmZmMUo2U2hhOHpBc0NKb0hXM01LVUJoUUlFYzFU?oc=5",
         "published_at": "2026-10-23T06:04:00+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ultomiris Wins Accelerated FDA Approval for IgA Nephropathy After Trial Showed 43% Greater Drop in Urine Protein - Medical Daily",
-        "source": "Medical Daily",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFBCN3ctQXZCTElhSmdCWjFweVZ0Zjdod3hjeTBXaUFweU5uQllUSFBNdHZvdE9Mc0hwemExUUdQUm44LTNobkxSQ1pHS1plczFXZ0F4ZlhGREd2SnFRVDBJbDhsb0VuSUw0MkN5NGlpU2ViNkFHNW9GV3ExSnpYMVkzQkctSXNJUFVxSldSbExUeHlVb2Y4NkVRcU5UODA?oc=5",
-        "published_at": "2026-10-23T05:52:14+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -264,15 +288,6 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUmR1SkF0aDk0cTdscjJVbTQ1bEppUlJOUmZpcDVRZmFYVzNfamstMER4SFlKa0RWbWFsbG9KdE1URGtHbG5aSXBrbUtyNndmSE1tRDFKdXRhNWZURWVmRkhUQVNZdkxNRHBndUhOUjZmV0V4eHRDZ2ZTUWNZRndsVGZTUVJlWWM0MzBnRXVaczZKYW9fZVBKZmh4VQ?oc=5",
         "published_at": "2026-10-22T22:15:55+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron Stock Valuation: Why Cheap Earnings Can Be Misleading - The Acquirer's Multiple",
-        "source": "The Acquirer's Multiple",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOE5YWUFXekx4WEI3UW51VGR0alhFZjNYVWFhRWZObld1aTQ0bDE1MTNvdVlleHo3UjhlZlRuVUFwN0QyUlZYUGk0cUJvQm1CbEZBS1JwNjJheTJ1U25nMDNaNk5fYXkzVU8xdDBTaDMtY01qNFdMZ1dkcWd2T1owT3NuRXlVLVMzUk1nWmNjTy1lT1FJR3htbFE1OE9jd0k?oc=5",
-        "published_at": "2026-10-22T21:59:39+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
