@@ -1,97 +1,40 @@
 {
-  "generated_at": "2026-10-23T08:58:11.380040+00:00",
+  "generated_at": "2026-10-23T09:27:17.409538+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 100.02999877929688,
-    "wti_change_pct": 0.5629813528917449,
-    "brent": 108.87000274658203,
-    "brent_change_pct": -3.7995895484102205,
+    "wti": 100.55999755859375,
+    "wti_change_pct": 1.0958040861708263,
+    "brent": 109.41000366210938,
+    "brent_change_pct": -3.322430474217064,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
-    "vix": 19.020000457763672,
-    "vix_change_pct": -0.05254980830796674,
-    "dollar_index": 101.80000305175781,
+    "vix": 19.18000030517578,
+    "vix_change_pct": 0.7882270789172141,
+    "dollar_index": 101.7760009765625,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +0.56%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.10%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T08:45:00+00:00",
-      "brent": "2026-10-23T08:45:00+00:00",
+      "wti": "2026-10-23T09:15:00+00:00",
+      "brent": "2026-10-23T09:15:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
-      "vix": "2026-10-23T08:40:00+00:00"
+      "vix": "2026-10-23T09:10:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [
-    {
-      "ticker": "CRWV",
-      "company": "CoreWeave",
-      "category": "AI / Cloud",
-      "priority": "high",
-      "satispay_status": "unavailable",
-      "current_change_pct": -6.58,
-      "short_term_change_pct": 1.14,
-      "relative_volume": null,
-      "quote_at": "2026-10-23T08:55:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWV"
-    },
-    {
-      "ticker": "BABA",
-      "company": "Alibaba Group",
-      "category": "China Tech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -3.64,
-      "short_term_change_pct": 1.12,
-      "relative_volume": null,
-      "quote_at": "2026-10-23T08:55:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "BABA"
-    },
-    {
-      "ticker": "SMCI",
-      "company": "Super Micro Computer",
-      "category": "AI Infrastructure",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -2.59,
-      "short_term_change_pct": 1.02,
-      "relative_volume": null,
-      "quote_at": "2026-10-23T08:55:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SMCI"
-    },
-    {
-      "ticker": "TSLA",
-      "company": "Tesla",
-      "category": "EV / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.67,
-      "short_term_change_pct": 0.9,
-      "relative_volume": null,
-      "quote_at": "2026-10-23T08:55:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "TSLA"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T08:58:00.299772+00:00",
+    "updated_at": "2026-10-23T09:27:06.073844+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -101,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -122,17 +65,53 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       }
     ],
     "geopolitics": [
+      {
+        "title": "U.S. oil holds above $100, Brent at five-month high as Iran says it’s prepared for warfare - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSVBHUDhjeG5sQkpOblUzQm9hSTdWRkduWHJwNXdibUgyM1FHNEtJeFpnWEVQclk1czRKV2hLbHNGS2FYem5sRzJ0N0sxakctZld4QmN4UnozQ2h3ZGFBcE1NZDdESDVRTkVQSTRVMUdxbUtHTnk2anV6Z3h4cmtmOU5COXTSAYoBQVVfeXFMT1RHRzc0UlM1VlFlakxiSU51Mk9FTXNoYndtX2tpb3RNQVNRQ1J5dGs2YnFYQUFxa0I3UUV4OHNkZFBRTVhGcjJ2SWpuQldna1VuM2VqQngyMHJXTW1YWXlPbUY4UE9CZklMbFdwQzdiMGlhS0xteVoydTEwNGlKdzhDSFRKQnZiNXJR?oc=5",
+        "published_at": "2026-10-23T09:02:44+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump’s Iran sanctions run into limits - Yahoo",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTXd0YW5jX3AyeG1IcXBDdkFUYmJPMDQwOGVDQ1BnaUxzTVJMRlFuTWNucUtmMG5yWUFweEhjY3U4a3VHcFpfQVNHcFh1QUVIYmZCNEt0TXhkOTFybzFXSEo1TV9xZzRZZTZzSTJFOUYydjRQeURNTld6c0x3eGlYSV80bmY2RkNpSlNfV0xYOWFhQzdFTWc?oc=5",
+        "published_at": "2026-10-23T08:55:32+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israel orders ‘full lockdown’ of West Bank after military kills 2 accused of attack - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3dwb0R4Z1VVa2VJenltT3B4WWEzS0xsc2Q5SmY0eEEwNy1FN2J6RlZDZE1DaUhzOTdKeHNuckEtMkJvYk0yS2VfRmtBQmhuT3VpcU5CMDFPWlBIYWRDU25XaU51SHJ5cVF2NHkxNGdLb3AtVkpuaHhOR2ZpQjk3aWd2Ni1NY04zM1dLNUxYVlctdWZnUE1RR1N5Q1dsUzF3em1pWjlqUUxpQS1p?oc=5",
+        "published_at": "2026-10-23T08:47:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israel closes West Bank city after at least five Israelis wounded in shooting attack - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU1F5dV95eTN1dnN3bDJQWWs1X1VWRFNfWXVvSUpjUm9wZmxFSHl5T0pEOVlRYkJJdHA2akw1MG8zNjBVdlNxU2hPQ0lNejQ5Mmd0RmMwUW1MU1lDT21wUHk5WUIwUXY0ZEJid1lXUlZyZnhENFdKS1F0b0dPNnpLNA?oc=5",
+        "published_at": "2026-10-23T08:34:38+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "MEPs visit China next week to discuss trade challenges and opportunities - The European Sting",
         "source": "The European Sting",
@@ -140,6 +119,15 @@
         "published_at": "2026-10-23T07:50:34+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
+        "source": "Scripps News",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
+        "published_at": "2026-10-23T07:47:19+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -179,15 +167,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "UPDATES: US War on Iran, Day 239 - Attacks on Shipping in Strait Of Hormuz Highest Since March - EA WorldView",
-        "source": "EA WorldView",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGFPalEwcG1TVkVNMGx6N18wbzN2WUxScnNOQkFLRE5yakViZFU5NzFJRzNqU0pTakp4bUlVY1d5bzRDYnBPQ1FSbUtSdjJ0RWZQRm82YVE1MmhNbW5FdVNHUWtHUG04dFNkQnhnLUZyanJrWXNuMVQwRHFFTUVrTko0NDZKNGtk?oc=5",
-        "published_at": "2026-10-23T05:06:41+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia's new type of 3D printed missile will make jet Shaheds look like a 'small problem,' Ukraine's drone gurus warn - Business Insider",
         "source": "Business Insider",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb0tKVWJFS2sxZXdYY1FWSmdZemg3WDA2SnVzRTlJVEV0anVSUThyWUlDLWxKN0FsX3ZsZk9LTDIzbjNFUmduX1hKcDg0VFFBaGphcDVsM25JTzJTYWRYRm9vTDg3UlhmZEI2R1lhRFBrY2lXbXR6U3VLck03OXpIS2dSSFZ6QXFpOHdNUU5udUhmdkJHTHpTVTBVbWlscjhHNEY0VTJ6ZWxaMTUxbkE?oc=5",
@@ -206,24 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZHcXQtZDkyLVVrN3lPTWFDdEVROFZZbndSMWVyTmRRVFlqTXJDVmtZUGNoYUlZb3hlUGg1ZlRqcWw4UHBTdGtoazBtMVdVTEs0Q3JxZW9Gd18ycENaYjFyV1E3cFdETkRYNVNKSmtwOVc5eWYwaUREel80Y0x1RVZGWWFKbWRWR2lELUxKUnhnMV95WElaVnhZVE9za0RCbENxYzBNQVltZlJYWDgwdUQ4OFg3WFhP0gG-AUFVX3lxTE1lc1VKUHBYWDlVY1hWZl95RWFoc0JrYm8wdzhsS2pKOGltMmFocDZ1MnpFWUxZS3RWR0pYaHNwZ1RFU3Q4Q0YxcXdXTGMteHVObXhCUkdKLU4yR1RQQ0dPVTI5S0J1NVVsbjB3YUNQVzQtaVMwSlQzaU1hRC1GcFN2TEcyaFFRb0RCNHlPdW8yOGthcUZVWTlZWlZoVkxtS3VLQ0E4Q05EN1k5QkpHYVQ5Y1RUTDhlYWhwTnV0R0E?oc=5",
-        "published_at": "2026-10-23T03:46:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Opinion | Oil’s great escape from the Middle East - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnBBQkJLYmlzMGtrT3g5bVNHdGtCd2Z0YzA4QzNpQlBOYWpsck1iTDRuTUQwdVdJdEUwdVIzZ1hOV0xpaEl3N3V2eFNNRmF4VU52MTRRa2k4U2FHVGdxbDd6ZFNhTnJXeWtrVVhqRmZEdmJydzJQT251a2xYNUZpTjNwZkVFYmdvU1ZiSlRSU0JRZ3lzdTJJ?oc=5",
-        "published_at": "2026-10-23T00:32:09+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
@@ -233,30 +194,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran says 7 oil tankers damaged in Strait of Hormuz, and other Middle East news - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHI0VlZ2NlpRSGlRNXdGUFFQZ3J4bFdEdVpBYTY4Vjl6UDZnQS13anNtci1yRGhtdkJHWklnaFc1dGZ0RWt3VGpxczlyT1FUSTBBRWFJUDhUeXdYT29jWjVRYU13NTRZeHR6b2hTOUlLek5PRS03Rl91Rm80eE55MV94TWNZSFNxTkRlQWtrdWI3ZjhfNTJrUElXMWNlREZVdnZTT01aTWJIajdla1BZczBTNXdSb2t40gG4AUFVX3lxTE9YcjRWVnY2WlFIaVE1d0ZQUVBncnhsV0R1WkFhNjhWOXpQNmdBLXdqc21yLXJEaG12QkdaSWdoVzV0ZnRFa3dUanFzOXJPUVRJMEFFYUlQOFR5d1hPb2NaNVFhTXc1NFl4dHpvaFM5SUt6Tk9FLTdGX3VGbzR4TnkxX3hNY1lIU3FORGVBa2t1YjdmOF81MmtQSVcxY2VERlV2dlNPTVpNYkhqN2VrUFlzMFM1d1Jva3g?oc=5",
-        "published_at": "2026-10-22T22:48:30+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Biotech investment is the new front in the U.S.-China trade fight - Politico",
         "source": "Politico",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGctSS03QXZwRTdFZEpoZUNGczljZ1pwUnZTMjg5MGlILURUWmZqcHJPUWZuaHJVTkRaYWxxV29VRVl3clV5NTItV1dJWXFPeUlmQkJRTjE5VUVyQ1lpZmpOWm1WdWM3N01MdEpUSnNrcTZUd3dOV2tzUEdhQjNWelJ6elp1Vk5WZjZoMjd4YUFNc2tEWnI0S3ZjUkJpckpsZ3E3VGxPVi1ycmpUMVcxSEtQeEk?oc=5",
         "published_at": "2026-10-22T21:09:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Darline Graham didn’t talk to Trump about Russia sanctions waiver during SC visit - The State",
-        "source": "The State",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IdC1lVGNvLWE4R1YzcXpBM0RMX0N3UWR2VVdDRlFGUEpNVnVwaXY3MkM2MlRmTFdkX1gtaXczaTBQajhvUHNfQ0RxcmMtTFdfWnVrU3hpWmhGdm0yY2pjZHlpZmoyaGlhN1hEYVRmOTY2RXZmcnBwWWdoVdIBe0FVX3lxTE8tNnhZaW1lNkg2dGszX2lOek9OX1RxOWpMVEhQN0ZsekVQTHh4Wk90X3RZRm92Rk5USFd4cjdzcUZ4Q0lXSjRzeXZWT3ZUQjczTUs2bEdYay1QaXJZbHJTMlhlbmtScHNUa0NBUUppUC1mam1FWHJXd2tTZw?oc=5",
-        "published_at": "2026-10-22T20:53:20+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -270,6 +213,15 @@
       }
     ],
     "corporate": [
+      {
+        "title": "GTC Berlin: NVIDIA Expands AI Partnerships Across Healthcare - Healthcare Digital",
+        "source": "Healthcare Digital",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSGdfeWZaWkkzOW1sajdrWGtucUVJWjRmQURLbzBTUHJMVnY1TjZjcW5ReWpkZk15ZDhfd1JCTnp3cHo4cWhDTFRPLVNBMDVxNC0tZk1kT2hsck5EdkJ3VW5XRVlvRDFSaU16ZnBvUGNydnVsVWVYMlJjZUs0QTF6VS1iWFo1bS1FazBkWU05dmpmcHp3NE9Cclgxaw?oc=5",
+        "published_at": "2026-10-23T08:02:20+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "AI Video Startup Higgsfield Draws Investment From Nvidia - Bloomberg.com",
         "source": "Bloomberg.com",
@@ -321,15 +273,6 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUmR1SkF0aDk0cTdscjJVbTQ1bEppUlJOUmZpcDVRZmFYVzNfamstMER4SFlKa0RWbWFsbG9KdE1URGtHbG5aSXBrbUtyNndmSE1tRDFKdXRhNWZURWVmRkhUQVNZdkxNRHBndUhOUjZmV0V4eHRDZ2ZTUWNZRndsVGZTUVJlWWM0MzBnRXVaczZKYW9fZVBKZmh4VQ?oc=5",
         "published_at": "2026-10-22T22:15:55+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Micron Stock Valuation: Why Cheap Earnings Can Be Misleading - The Acquirer's Multiple",
-        "source": "The Acquirer's Multiple",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOE5YWUFXekx4WEI3UW51VGR0alhFZjNYVWFhRWZObld1aTQ0bDE1MTNvdVlleHo3UjhlZlRuVUFwN0QyUlZYUGk0cUJvQm1CbEZBS1JwNjJheTJ1U25nMDNaNk5fYXkzVU8xdDBTaDMtY01qNFdMZ1dkcWd2T1owT3NuRXlVLVMzUk1nWmNjTy1lT1FJR3htbFE1OE9jd0k?oc=5",
-        "published_at": "2026-10-22T21:59:39+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
