@@ -1,37 +1,80 @@
 {
-  "generated_at": "2026-10-23T15:46:32.402136+00:00",
+  "generated_at": "2026-10-23T16:21:23.820272+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 4.991999626159668,
-    "treasury_10y_change_bp": 3.8999557495117116,
-    "wti": 102.69999694824219,
-    "wti_change_pct": 3.247205879059334,
-    "brent": 111.83999633789062,
-    "brent_change_pct": -1.1752247526497284,
-    "nasdaq_level": 26038.673828125,
-    "nasdaq_change_pct": 0.11463191328435762,
-    "sox_level": 10829.365234375,
-    "sox_change_pct": 0.9074258559132797,
-    "vix": 18.969999313354492,
-    "vix_change_pct": -0.3152988498477671,
-    "dollar_index": 101.76799774169922,
-    "macro_score": 47.7,
+    "treasury_10y": 4.990000247955322,
+    "treasury_10y_change_bp": 3.7000179290771853,
+    "wti": 102.87000274658203,
+    "wti_change_pct": 3.418117506940632,
+    "brent": 111.94000244140625,
+    "brent_change_pct": -1.086856717716711,
+    "nasdaq_level": 26044.974609375,
+    "nasdaq_change_pct": 0.13885743259358652,
+    "sox_level": 10845.8427734375,
+    "sox_change_pct": 1.0609626528770733,
+    "vix": 19.239999771118164,
+    "vix_change_pct": 1.1035159059138877,
+    "dollar_index": 101.77100372314453,
+    "macro_score": 46.8,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.11%, SOX +0.91%, US10Y 4.99, WTI +3.25%.",
+    "summary": "Tech bias neutral. Nasdaq +0.14%, SOX +1.06%, US10Y 4.99, WTI +3.42%.",
     "quote_times": {
-      "treasury_10y": "2026-10-23T15:30:00+00:00",
-      "wti": "2026-10-23T15:35:00+00:00",
-      "brent": "2026-10-23T15:35:00+00:00",
-      "nasdaq": "2026-10-23T15:45:00+00:00",
-      "sox": "2026-10-23T15:45:00+00:00",
-      "vix": "2026-10-23T15:30:00+00:00"
+      "treasury_10y": "2026-10-23T16:05:00+00:00",
+      "wti": "2026-10-23T16:10:00+00:00",
+      "brent": "2026-10-23T16:10:00+00:00",
+      "nasdaq": "2026-10-23T16:20:00+00:00",
+      "sox": "2026-10-23T16:20:00+00:00",
+      "vix": "2026-10-23T16:05:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "5238f6e12de9",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Tokayev thanks NVIDIA CEO for his contribution to strengthening partnership with Kazakhstan - Qazinform",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Qazinform",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWjlKQ1NrUFNjWDg4bm1wX0tXYUxKS09pV3lwcVJtSnR0Q3JwYUdpcEJpRFE5amtlYUlnNVJmSF9LcExBV3c1dGdSOUJkZGF1VW1jLWJmNTFnbXlSSWpud1RDclp6UFhlckt0alM0bjNGTkhBVXZFMkZRNVNicTVfYWN6bVcwcER2bS1WX1ZISFFvSm5FeUZQZ19jZkNMR2QwU29RMjlLNDBuc3Yta3JCd0g3TzY4dms0RTEyMUE2RURKSmfSAcMBQVVfeXFMUFU3RzZvSFBKN3BGRjNlT1Y2NkpnZjJQYTBhS3UyQkd4cXdUNDdQTG1hY0ZXamQ2ZGlUQlAxcEpFUHgwdktqbF8tbF9NWFM4eDBFMjlIMW92dFl0UWkzWlQ1dlhVTlU1Y1hzQm5WRm1UWi1CZEV3UGZlSUExTFFTaloxRGdSOEJsdmZpdDJIaXdoOU5HSjRFclRiRmxlWEhrcnFxak40RUgwQ3Q2MHFTMFFIYk11Ty0zWENpUG1NUnRlckd3?oc=5",
+      "published_at": "2026-10-23T14:43:57+00:00",
+      "age_label": "97 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": -0.07,
+      "short_term_change_pct": -0.09,
+      "relative_volume": 10.9,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-23T16:20:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 1.4,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": 2.3,
+      "confidence_score": 72.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-23T14:43:57+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 78,
+        "volume": 100,
+        "momentum": 49,
+        "macro": 47,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    }
+  ],
   "movers": [
     {
       "ticker": "MRNA",
@@ -39,115 +82,31 @@
       "category": "Biotech",
       "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": 0.17,
-      "short_term_change_pct": 1.38,
-      "relative_volume": 6.0,
-      "quote_at": "2026-10-23T15:45:00+00:00",
-      "early_move": true,
+      "current_change_pct": 1.64,
+      "short_term_change_pct": 1.37,
+      "relative_volume": 5.38,
+      "quote_at": "2026-10-23T16:20:00+00:00",
+      "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "MRNA"
     },
     {
-      "ticker": "TSLA",
-      "company": "Tesla",
-      "category": "EV / AI",
-      "priority": "normal",
+      "ticker": "DELL",
+      "company": "Dell Technologies",
+      "category": "AI Infrastructure",
+      "priority": "high",
       "satispay_status": "check",
-      "current_change_pct": -0.33,
-      "short_term_change_pct": 0.03,
-      "relative_volume": 11.53,
-      "quote_at": "2026-10-23T15:45:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "TSLA"
-    },
-    {
-      "ticker": "NKE",
-      "company": "Nike",
-      "category": "Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.71,
-      "short_term_change_pct": 0.29,
-      "relative_volume": 3.11,
-      "quote_at": "2026-10-23T15:45:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NKE"
-    },
-    {
-      "ticker": "MT",
-      "company": "ArcelorMittal",
-      "category": "Materials / Steel",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -0.95,
-      "short_term_change_pct": 0.12,
-      "relative_volume": 1.97,
-      "quote_at": "2026-10-23T15:45:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MT"
-    },
-    {
-      "ticker": "PFE",
-      "company": "Pfizer",
-      "category": "Pharma",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.02,
-      "short_term_change_pct": 0.82,
-      "relative_volume": 1.33,
-      "quote_at": "2026-10-23T15:45:00+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "PFE"
-    },
-    {
-      "ticker": "OXY",
-      "company": "Occidental Petroleum",
-      "category": "Energy",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 3.68,
-      "short_term_change_pct": 1.14,
-      "relative_volume": 1.84,
-      "quote_at": "2026-10-23T15:45:00+00:00",
+      "current_change_pct": 2.02,
+      "short_term_change_pct": 0.04,
+      "relative_volume": 3.66,
+      "quote_at": "2026-10-23T16:20:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "OXY"
-    },
-    {
-      "ticker": "CRWD",
-      "company": "CrowdStrike",
-      "category": "Cybersecurity",
-      "priority": "normal",
-      "satispay_status": "unavailable",
-      "current_change_pct": 5.75,
-      "short_term_change_pct": 0.51,
-      "relative_volume": 1.77,
-      "quote_at": "2026-10-23T15:45:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWD"
-    },
-    {
-      "ticker": "DDOG",
-      "company": "Datadog",
-      "category": "Cloud / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 5.13,
-      "short_term_change_pct": 1.38,
-      "relative_volume": 0.73,
-      "quote_at": "2026-10-23T15:46:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "DDOG"
+      "tradingview_symbol": "DELL"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-23T15:46:20.246154+00:00",
+    "updated_at": "2026-10-23T16:21:11.998671+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -157,7 +116,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
@@ -178,7 +137,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
@@ -190,20 +149,29 @@
     ],
     "geopolitics": [
       {
+        "title": "EU Car Woes Deepen as Trade Ministers Meet - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVVN5RmgwempzVlRHVXByMy1HbFBVakhTQUNEVTVkSC01U2VhcHQwZ01WVElBck1TS3h4Nlp0X0VaeG9KLUtzNllDbjB0UUNmREN5X0tiZkhOcVFQRWJnel93cGdnWFNhRVUta2VJS2J1X0Vsa0VkRmltMWNVWHBuZzk4MGIyeHpzRGd2SXVEeWNDTzhwQVA3ZUZpMzFYd092c1dCUFNiTHFYdE13V3dLWFhWUEF6U3VLRUlFMEZsT1BQRThCbXVCZi1PZw?oc=5",
+        "published_at": "2026-10-23T16:01:19+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
+        "published_at": "2026-10-23T15:59:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "How Ukraine is targeting Russia's aviation and travel sectors with drone strikes on Moscow-area airports - DW.com",
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdlE3TWQtWHpqNkRfZUVKUW5RVzdESHVoQ0dMaFNuTms5UU42X3hic1cwQ3d4S3hpcDBmaWNmZTF3LURROEhxZWJHa3ZackJlUmwyZjBiYjFnSDdjYVdWQWozUU9JeTdHVmpsaFFvSVVyTGpYUGFHbkZDV01JNzNFY3R2M1k2MVcxLVpyZXlWSkprdDZEX21mM2xkZWpHTHR4Y1HSAaIBQVVfeXFMUEdFdmx4WC1VYzJzUjJEWjlVN2tyU3dMR1VpX0JhTW9KTmhJbUZqWFl5Wkt5ZHJoM3k2UktnMGdYc3VWcC1nMVQtNkJkVmoweVpjQjdVWWpLMGdPai1CT1lFcEowb0hNVzZ4T0lsYW9QWjBjcHRVTUdpSE9oaEdKWnBjYVV2Y0pvNUotdG04YWx4VXpfT1lvQmtLeW15NVVtM0R3?oc=5",
         "published_at": "2026-10-23T14:59:47+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "After Hamas West Bank shooting attack wounds five, Benjamin Netanyahu blocks off travel - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvTk5UQWcwVDFUQTJDMF9PY0tMQnh2SGN1a0ZMYVlpNldFVmM0Yy1NLXB2VWZ0UHhWY3JGV1I3SXFNRDZ5aFNQV2RUbjVqQUNSQXh4Z21BQTkxS0RCdWRKQkpsTm1BVHhKUlhNUjBB?oc=5",
-        "published_at": "2026-10-23T14:57:30+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -217,19 +185,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HM1k3QTBMRmFxNk5TcXAtU0RnMUVyTWhINUg3QnpOMlZWd3hBUEd6QmU2WVpJdzFqeG4wTE9meHI5cjJtZ0lMMDFxaFJ2M1djc1lmcG1vXzBNWU0?oc=5",
-        "published_at": "2026-10-23T14:45:43+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia, Ukraine agree to ceasefire for one city brokered by Melania Trump, White House says - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbHpkSFNHT1ItNVJvZmFnSjlaZ2gzTWNNUnhTZDhiSk9IWm5lX2lJcnZYWlRfdm5oWHJhbzBsS3VyQ0FrakZVUi1CR0lpcC12RjZKN0dpLW41bldkNEtyZGNTdVk5SGNDd0s5V0NCWGd0UXJYQlJ1SURPcFB6QktfYUhlX3BQZkdyVUFfY3ltcVFLUENsZDlBY09CVV9sMnU2QjFNaW9pMzl0VGM?oc=5",
-        "published_at": "2026-10-23T14:42:38+00:00",
+        "title": "Melania Trump says she secured ‘localized’ ceasefire in one Ukrainian city - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbFFQUWUtb29LT3I3Nkl2UWU5a2tFMmZaM1VmZVFCZl9TRmFZUkRPMlBUUVAyY0xhd1BiWG1UbUhTalZhSFZwenRhVVdPR1FuOGhNVTV2eEhISURGX2RUZ1R3dk1UenhCdHNVcWs5bnVuSUJRYklJcm5VeUdsN0FrbEhYNjhYUQ?oc=5",
+        "published_at": "2026-10-23T14:53:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -241,15 +200,6 @@
         "published_at": "2026-10-23T14:32:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU Car Woes Deepen as Trade Ministers Meet - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVVN5RmgwempzVlRHVXByMy1HbFBVakhTQUNEVTVkSC01U2VhcHQwZ01WVElBck1TS3h4Nlp0X0VaeG9KLUtzNllDbjB0UUNmREN5X0tiZkhOcVFQRWJnel93cGdnWFNhRVUta2VJS2J1X0Vsa0VkRmltMWNVWHBuZzk4MGIyeHpzRGd2SXVEeWNDTzhwQVA3ZUZpMzFYd092c1dCUFNiTHFYdE13V3dLWFhWUEF6U3VLRUlFMEZsT1BQRThCbXVCZi1PZw?oc=5",
-        "published_at": "2026-10-23T14:31:19+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -316,6 +266,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Oil Tanker Rates Hit Record Highs Following Iran, US Shipping Attacks - EnergyNow.com",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT201NUtENmNmeVh1X1lYa01nWDR5TjZzd2t1ZGQwRVRlZ0RPamdVdDBydlp6U2pVX0FBOVRfQUd2aXdtUFB3eVVFUVFyMjhXTy02blNRVDdkRERoTk96RVNEZWNhZTBnNHFSTkhLWjZoZlhKOTlZWERLXzVyNFpoVG5tZ3pTT3BwY2V2c2tKNnlSeVpGdy1SRE9VQkI2Nmlm?oc=5",
+        "published_at": "2026-10-23T12:28:03+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Could Europe’s cost-of-living protests sharpen EU-China trade tensions? - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObVY1WE96WWoyZjVFajF2MnRFWWZLZ2hETF9PMXloc1BYLTZrUHdSa1d1NkFZSmlSU1poWlJ1azM3bzBCZ25vbHY2M0NlV0N3RG9pamktM1ExLVVLZnBmVjVMaktoc0RmRHZ3VkRxOE9FUVRWLTZDOGRLTU5PeTBEcl9IeU9rU0lYVHg2MG43SzVhbjREak5RclpqZUc3OGtrTFN5LVVQUklRZUx4UkhqS2g5ZlVpdW8wUWJ1UWpoY1RpMHNo0gHEAUFVX3lxTFBvM2FQcWxQTXFNNXNDTnRUZENPeFhjZ0FNTVoyNkRURzVHczd4TjJKNUgxT0lvc240T3hrOGg0LWx5TzNla3VNU1VFMEhTZW9RNG1UZVBycENNSWpXMWxYUnhiZ284SUxiSDd2U3d6dkNTUUJBT0lvZlp4U0l5SGdTR0M2bFRVcW4zY1Q1TFZhMUNmeU9oYVIyWW5xVHQwQVl3NHNWSmprQV9vaFhvWFc3Q1g4VENJX0pEWUdaYnpxZzR2Q3A?oc=5",
@@ -330,7 +289,7 @@
         "title": "Truist names top clean energy stocks to watch ahead of Q3 earnings season - Investing.com",
         "source": "Investing.com",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSnRJem5DMzFUUDZFblhkZmM4V2ctYmg4bmVQSEIwaFptS2Z1X3FnUHJaSnlScHhuRGd0V3NTSElYeHE1T1FhTUNELXBHRnpGemJqbWc1bDFsYXROOGJlR2lkRmo3Nk5xbDRON21nMnF0dmJRRHNaVUMyV3J4Y3lsTlFqbC1pUkl2YWJ6S290ZjZMeDZHUHpjb0pWTE56RHdmbnRoa2Y3RW9jazF3bDAyME14WDE5UTlFTmtMR1VSMVZuWGQ0djkzc0R3?oc=5",
-        "published_at": "2026-10-23T15:40:18+00:00",
+        "published_at": "2026-10-23T15:42:26+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -341,6 +300,15 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQUxmNTB5OE1vTkx1VGVTRERJQ0c5UDlIbXRvQnRRTFZxWklhNkNvaDBub2x0WVItQnlLZEdjWGVlSzdWNTNjc3ZpandZcjhITkxTU2lqeWt1THZkQjg5ejBSSGdfajR1WDZPR1ZZWkpIMHRJaGo5U3NHWXBSQ3dINGN1UUU5OVoxakcwWXAteDRZVWNKNzA2WVRfdmRWZEIzNmJvSVhWWUxLR01t?oc=5",
         "published_at": "2026-10-23T15:04:01+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "AMD or Broadcom: If I Could Only Own 1 AI Chip Stock Through 2030, Here's My Pick - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd0VTd2R1Q3ZwWlJZdFpRaXNmOTlFaGk0OXNMaWk0cWJhSXZqS3JESXNoLWVpaU1FWk1ZSFBWR1dsU3AtX2piazhnbnJNdGxMUHd6UVBwaVZoajd2b1l3T1RVcUFIRFBnX3UxYkJRamhjbXQzZWFaVzJZbjNJeENvSWNubDNFQWR5TGhoczg5a0dUZnVJRFkwYw?oc=5",
+        "published_at": "2026-10-23T15:02:24+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -406,20 +374,11 @@
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet Earnings Preview: Projected 90%+ Cloud Growth vs Cash Flow Headwinds — Which Narrative Will Prevail? - Moomoo",
-        "source": "Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ0ZjRVpaakxCQTFNU3FvWHgtUkZ4LWlpWUFNdkdTQnJRU2FlYXlmYmZjYTRqdDJjR0lIZExmdy1oeTlwMGMyeUlodmhJQjhGRV9pZWl1eWdfWEpsT0otZkZGRVBGRFdKSjNRbmVLQnJhYTlvdVdiYlgyVzc3R19ITVBpdnMwcmVUVzdfTlUwOXpYR0dNdmtRQWxzdWRxSGFUNkVuT0M2ZC11MTYxNS1Ka2xWaWZ5VFE3Vnc?oc=5",
-        "published_at": "2026-10-23T10:47:51+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 145,
+  "archive_count": 146,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
