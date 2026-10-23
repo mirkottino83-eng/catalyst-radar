@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-23T02:55:26.587356+00:00",
+  "generated_at": "2026-10-23T03:21:19.815232+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 100.02999877929688,
-    "wti_change_pct": 2.9644850315836413,
-    "brent": 113.69999694824219,
-    "brent_change_pct": 4.484467255195246,
+    "wti": 100.05000305175781,
+    "wti_change_pct": 2.985076150623023,
+    "brent": 113.66999816894531,
+    "brent_change_pct": 4.456899915201684,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.66999816894531,
+    "dollar_index": 101.6510009765625,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.96%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T02:45:00+00:00",
-      "brent": "2026-10-23T02:40:00+00:00",
+      "wti": "2026-10-23T03:10:00+00:00",
+      "brent": "2026-10-23T03:10:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T02:55:15.111926+00:00",
+    "updated_at": "2026-10-23T03:21:08.837974+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -95,15 +95,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "STOXX China P Chips Total Mkt.I (0N74.Z) Forum & Discussion - Yahoo Finance - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UUHpkRG91SlFRVVpzZzZVTGxFVVFlVFdjTEM2Xy01a0dwczFheGt0TXFfT01Na2F1X1Z3c2hEc2xzYk5UdHpqRzZCVTdTYlRta2xQTlB2TGtTMko1X2l3WEhn?oc=5",
-        "published_at": "2026-10-22T23:57:22+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "‘More Money Means More Dead Ukrainians’ – Kasparov Warns Against Deals With Moscow - Kyiv Post",
         "source": "Kyiv Post",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9UalY1TkZBb0RFTlhLclczNzY2MnR3YVBzY3dxcFJMZnhMTXBRZ0Y4ZElIelVZQ0R4NjA3emZlaDY1T2FxNUlob0hWYw?oc=5",
@@ -119,6 +110,15 @@
         "published_at": "2026-10-22T23:15:46+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran says 7 oil tankers damaged in Strait of Hormuz, and other Middle East news - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHI0VlZ2NlpRSGlRNXdGUFFQZ3J4bFdEdVpBYTY4Vjl6UDZnQS13anNtci1yRGhtdkJHWklnaFc1dGZ0RWt3VGpxczlyT1FUSTBBRWFJUDhUeXdYT29jWjVRYU13NTRZeHR6b2hTOUlLek5PRS03Rl91Rm80eE55MV94TWNZSFNxTkRlQWtrdWI3ZjhfNTJrUElXMWNlREZVdnZTT01aTWJIajdla1BZczBTNXdSb2t40gG4AUFVX3lxTE9YcjRWVnY2WlFIaVE1d0ZQUVBncnhsV0R1WkFhNjhWOXpQNmdBLXdqc21yLXJEaG12QkdaSWdoVzV0ZnRFa3dUanFzOXJPUVRJMEFFYUlQOFR5d1hPb2NaNVFhTXc1NFl4dHpvaFM5SUt6Tk9FLTdGX3VGbzR4TnkxX3hNY1lIU3FORGVBa2t1YjdmOF81MmtQSVcxY2VERlV2dlNPTVpNYkhqN2VrUFlzMFM1d1Jva3g?oc=5",
+        "published_at": "2026-10-22T22:48:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -158,15 +158,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Report: IDF chief says no operational need for strike on Iran before Israeli election - The Times of Israel",
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNGk4Y3lyVnlzNnlHdHgyYkI2ZENwOXk0TWk2bTA1YVlpU0lJQ1V4VXk3OE8wck9LSFJTZGlEcXhQYWpWZFhLZEVoOU1DUE5qeFJoVHEyRmdUQmJQU3htdHUxaU1aamdjUTN4NGY2Q3o3di1KMEl4d2xCeHhFaEZZWHJaYmlHS3phQlhXaHVmclNkZ2F2NTAzVUM2X09Sc1RDRThxVXFn0gGrAUFVX3lxTE5xSVVyaDMtaG9hVDdMd2FFWUdtN0t2ZGpoNXZMRHVSU01neVRCMmFWZ005anliS1RiVjZ1Z1pNMXVqczAtVVRsUmZmUXNJa0RIejh0aExQbzNUdDBHaW05Z3NJRnRPMUNFek9meVJNa0c3TnhhYm9QM0hrUi0zNlZXdjdYR1czM242WTJyLU1wdkdLZE1GT2wwYjc5Nzc5SFVqZFd5Z3I4VHY1MA?oc=5",
-        "published_at": "2026-10-22T20:52:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Debrief: The Dark Side Of Russia’s Drone Production Machine - Aviation Week",
         "source": "Aviation Week",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV1ZsNHQtWTltdTJYOEQ5OEw3bFAtcU5fTzA0amJiYnc2c2c1ZHl5ejNfcUF0bmFvdzhXNi1ZR3NvVTNJN3VzRW41Q2JobTlBSlJzcGdfRFp1aHJxdGN1STlHUm5weTBTelJyTEYtQ3pkeXRPM2hjd3BWN1BaV25KMWxhTXJ5T1JfVkkyUDJELTU3Q3duQjRXLXVKd2FiRk93UmsxNHB3?oc=5",
@@ -182,6 +173,15 @@
         "published_at": "2026-10-22T20:32:36+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Yttrium: Beijing rejects calls to ease export controls - Table.Briefings",
+        "source": "Table.Briefings",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUMyY0liV0RrT3lOSVRnMnNkdlNDSUxuS2VValQ1NURqT2dZR2pwRWxIVk9FTkZVdGpLU21oMmliZjVubW5Bdm1fR1ctZHpWWHVvYkZFbHRxY2QyMzJ0REk2ZEIyWVRyX1lMX1RlZkRyOVVlMFBYNk84SVN0TG1VazYyTXo2dmVzTXEwNUdGN2M?oc=5",
+        "published_at": "2026-10-22T20:07:43+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
