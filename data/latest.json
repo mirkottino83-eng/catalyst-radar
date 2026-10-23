@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-23T07:12:59.509054+00:00",
+  "generated_at": "2026-10-23T07:52:16.531237+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 100.87000274658203,
-    "wti_change_pct": 1.4074610522750497,
-    "brent": 114.45999908447266,
-    "brent_change_pct": 1.1398788869834364,
+    "wti": 100.45999908447266,
+    "wti_change_pct": 0.9952727974466669,
+    "brent": 109.33999633789062,
+    "brent_change_pct": -3.384290795283995,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
-    "vix": 19.030000686645508,
-    "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.71399688720703,
+    "vix": 19.219999313354492,
+    "vix_change_pct": 0.9984162892979764,
+    "dollar_index": 101.78900146484375,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.41%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.00%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T07:00:00+00:00",
-      "brent": "2026-10-23T07:00:00+00:00",
+      "wti": "2026-10-23T07:42:00+00:00",
+      "brent": "2026-10-23T07:40:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
-      "vix": "2026-10-22T20:15:00+00:00"
+      "vix": "2026-10-23T07:35:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T07:12:48.165423+00:00",
+    "updated_at": "2026-10-23T07:52:04.845974+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,21 +51,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 11
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,19 +77,28 @@
     ],
     "geopolitics": [
       {
-        "title": "Once US blockaded Iran, China’s ‘Malaysian’ oil imports dried up - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5OWNlU3Z4QjBEVlJUOS1LOUVQTGh1VGxFMXZIM0s5TU1zSEtSSTFaSXVDMDB3OE5hM3p1Wm9DVE56bXZhRmliWkRWclRpYTFJbGc?oc=5",
-        "published_at": "2026-10-23T06:58:57+00:00",
+        "title": "EXPLAINER - How China is reshaping its export map beyond the US - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdEJ5TVRnUlA5Z3MzNnBHc2lKQThlRXRZeWx0OUY1Z2l5SmJPcHBXRVZXTEdUeUxSOXUxY0pkVnNtaTMxY3gwZk9hOEViNGc4dEFPX0JRZ0tQWnBaUU9UWEQxVFFIUVdpU0lWSF95QU9wYjBvTHMyLXNRdEV3MVZhZERtYnN4emlmWTNQMFZ1NDBuajlqZXJfOWN3OXI0dUFRQkZkbA?oc=5",
+        "published_at": "2026-10-23T07:42:04+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
+        "published_at": "2026-10-23T07:33:10+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil prices rise as supply concerns linger amid Houthi attacks on Saudi Arabia - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5",
-        "published_at": "2026-10-23T05:27:30+00:00",
+        "title": "Once US blockaded Iran, China’s ‘Malaysian’ oil imports dried up - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5OWNlU3Z4QjBEVlJUOS1LOUVQTGh1VGxFMXZIM0s5TU1zSEtSSTFaSXVDMDB3OE5hM3p1Wm9DVE56bXZhRmliWkRWclRpYTFJbGc?oc=5",
+        "published_at": "2026-10-23T06:58:57+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -176,15 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "McGuireWoods Lawyers Author Chapter for Seventh Edition of GIR’s “The Guide to Sanctions” - McGuireWoods",
-        "source": "McGuireWoods",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVVBwUmNKWHNYdTdEVm5xLXYzQTNXQnZydnlXenFHREk3S09ETFNIQi1Camsya1hhQTF0YkRFOEtEX1hkc3p6YTgxY2FtSjJ3WERFaXV0M0xHS1JVUkp1RDdHZXU5RzRzMnllSnlLV1ViaHUycnRWSEY4ZTlCNFlQMzFtbmxqUGRIbEtvTEl0NjJHX2hKelhtRGYwanRjWGlpWlZESmRYWHJtYWdUQVFxRUQ3c2RnTnlNTk5DQ3F6MnlDZ0pFcWdwUVhQeWZ5VlBSRlhMT0NHOG4?oc=5",
-        "published_at": "2026-10-22T17:50:38+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Pro Tem Paxton and Sen. Pederson Celebrate Opening of Taiwan Regional Trade Office - Oklahoma State Senate (.gov)",
         "source": "Oklahoma State Senate (.gov)",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR0lmRTYxMmNRVm5GZFRmT2g2U0Y1TXktYzI4OXRrWk9ZWnExbWhDR3AycWtqUW56NzZ2dnBvQ3J1bmZURTFteVh0bnVXc1JTRlpObXlhQzJPMVdNcVhmQkJIcC1qeV9XZEZaNEtYOGw0XzVfak1YOUNfWFJvNUNZX0w5Ul90Qk1qaW1WTHNKYkxKaUZwd3NPaWEtN0gyY1JZMG5TNWF4N2RWdlItQzNUZUpLeWJEOUFaVS1vYk5vOEZpZjFBRmR5THdvanNuWE9V?oc=5",
@@ -213,6 +213,15 @@
       }
     ],
     "corporate": [
+      {
+        "title": "Micron is part of Zacks Earnings Preview - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbGM2Ylh6ZllUXzVvS1ozTEYxUmpGMDZXTHRmTDdVei1TRnB5NTUtSlhJVXNmenY0a2hNdTBpQVpiWk04QXI3c2xMOHpxMXVLOTQ5aDNQNHc0TVRjdnZ6cUVFMV94Sy1uZ0hCTUdQMDJDLWE1QXU5ajU3UWlLa3RGbTZaUmZmMUo2U2hhOHpBc0NKb0hXM01LVUJoUUlFYzFU?oc=5",
+        "published_at": "2026-10-23T06:04:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Ultomiris Wins Accelerated FDA Approval for IgA Nephropathy After Trial Showed 43% Greater Drop in Urine Protein - Medical Daily",
         "source": "Medical Daily",
@@ -273,15 +282,6 @@
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWXFQcXNyNnFTU1VDYzZKVWptbUh0c2QwX3g3eGYzYmYzV3JsZVZfeHFzdHpid2ZwUVRYN0ZEN1VCenlPQVdUUE5KM2N2aXlVRXJYUjNRdzVCclphOUZYTFZtMS01UmJwa0JXRzcydG9INEFNZWJ6d01SbUd6Tl9LTjJ5UGR6dw?oc=5",
         "published_at": "2026-10-22T20:40:16+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet (GOOGL) vs. MSFT and AMZN: Can AI Investments and Google Cloud Growth Unlock a 26% Upside? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT0FrNG5mMVh6NDc3T1gzZlQ4SUtBcWFkNVFBYUd1ZmllY3RJZGxFaHdaNUZGbW5yc3lkcWZKSTFaeENaemxDSzFmMXBsRkZqeU9NbWZLZTZ5STFsbEtfamo5OUtzWHVycUtVMGZmZVBVWjBRLWxtclpsWHEzcVdXZUdjOU0wd3hoV1NiUzNwTUFYZzNRV2dZ?oc=5",
-        "published_at": "2026-10-22T20:26:24+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
