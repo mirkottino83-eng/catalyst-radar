@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-23T04:24:28.647693+00:00",
+  "generated_at": "2026-10-23T04:57:26.600789+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 100.02999877929688,
-    "wti_change_pct": 0.5629813528917449,
-    "brent": 113.58999633789062,
-    "brent_change_pct": 0.37112147719426947,
+    "wti": 100.31999969482422,
+    "wti_change_pct": 0.8545274592237417,
+    "brent": 113.95999908447266,
+    "brent_change_pct": 0.6980656784565831,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.66500091552734,
+    "dollar_index": 101.68900299072266,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +0.56%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +0.85%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T04:10:00+00:00",
-      "brent": "2026-10-23T04:10:00+00:00",
+      "wti": "2026-10-23T04:45:00+00:00",
+      "brent": "2026-10-23T04:45:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T04:24:17.625620+00:00",
+    "updated_at": "2026-10-23T04:57:15.349034+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,24 +58,33 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       }
     ],
     "geopolitics": [
+      {
+        "title": "Russia's new type of 3D printed missile will make jet Shaheds look like a 'small problem,' Ukraine's drone gurus warn - Business Insider",
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb0tKVWJFS2sxZXdYY1FWSmdZemg3WDA2SnVzRTlJVEV0anVSUThyWUlDLWxKN0FsX3ZsZk9LTDIzbjNFUmduX1hKcDg0VFFBaGphcDVsM25JTzJTYWRYRm9vTDg3UlhmZEI2R1lhRFBrY2lXbXR6U3VLck03OXpIS2dSSFZ6QXFpOHdNUU5udUhmdkJHTHpTVTBVbWlscjhHNEY0VTJ6ZWxaMTUxbkE?oc=5",
+        "published_at": "2026-10-23T04:27:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Russia Launches Massive Drone Attack on Sumy as Moscow Continues Strikes Despite Peace Talks - Kyiv Post",
         "source": "Kyiv Post",
@@ -104,6 +113,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "STOXX China P Chips Total Mkt.I (0N74.Z) Forum & Discussion - Yahoo Finance - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UUHpkRG91SlFRVVpzZzZVTGxFVVFlVFdjTEM2Xy01a0dwczFheGt0TXFfT01Na2F1X1Z3c2hEc2xzYk5UdHpqRzZCVTdTYlRta2xQTlB2TGtTMko1X2l3WEhn?oc=5",
+        "published_at": "2026-10-22T23:57:22+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
@@ -122,12 +140,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "EPP Group calls for EU action to tackle China’s unfair trade practices - European Interest",
-        "source": "European Interest",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbmtKUklNa1NaZW4yWlZLM3c4c3d3Y3JjWlJoM0FIVm1fSVlETzhRWFF4N3Y3NnhqZUVjWGxrOGNDX3dCV01iZlFzc3RUYUdkb0ZyYV9LazdIdF9HTXZFQnVGNWp0Yk9Qa0dLYzNtd1NRYXljdnQ0eDZNMFZfNDl5ekQ0T3RiTWhPc0ZpWUpjcmJwdFJqUVlMWHBTeFh2V2ZtMnJmcA?oc=5",
-        "published_at": "2026-10-22T21:53:15+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears of a return to war grow - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZHgyWE1ZbFdVQXhyZ0JRTV82cm5HOW1WYUU0b1o3OVlHbTFmSXBpU3dZMkdTTjJLQWZVN1NRdXYwbXNhY3lwR0xLNndCQmtLRTI2aGlnMkdHd1NIdlJjTlRHYWFoNXN4eTB2SzVtQlF3ZHpQMXZmMDd2S1ZsU3R6elpRT1dZRHNEcms2N3pmekFRZmNmSDNLaS1WREpDcTFZdUVYV0VkUEFFQm5YWl9QaVZPc3E?oc=5",
+        "published_at": "2026-10-22T21:33:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -149,15 +167,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd19fS1N5MG9ScWZka1NXVEM3S1NoUlBSTURnR09nR3Y5SGIxRFFpRktHNHZXeElmbzFPcTBkMUdNNXE5MG01aWhRVmhKSTVGZVcwZVBNRWxHTGxQc1JpQWZBRnBLNTVPWkoyRnFIZkxSTnI0SktYRGQ5dlh2aWxhSWhOVVlMVjktd1hHak1PV19HbXpyNS0waGRfVXXSAaIBQVVfeXFMUGJ0OE81VjRRZ1dhN1gtLVd2d2szU19XZzRNREJQdWV6OG1mRUhtQ0JTWXZYc3Jqa0FOdkFoWTF3b19JMEx3YW9XYkJRbXRlVHkxcWpPbWx3bVVydFBySV9yMW9tVFZRVWljYUNXeEEwNXMzSWJmeEdwdTZwaHh6VG52alZDQ3dmcU5NTXE4MWk1V0w4ZHMzX2FkNXUydndhTktR?oc=5",
-        "published_at": "2026-10-22T20:58:09+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Darline Graham didn’t talk to Trump about Russia sanctions waiver during SC visit - The State",
         "source": "The State",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IdC1lVGNvLWE4R1YzcXpBM0RMX0N3UWR2VVdDRlFGUEpNVnVwaXY3MkM2MlRmTFdkX1gtaXczaTBQajhvUHNfQ0RxcmMtTFdfWnVrU3hpWmhGdm0yY2pjZHlpZmoyaGlhN1hEYVRmOTY2RXZmcnBwWWdoVdIBe0FVX3lxTE8tNnhZaW1lNkg2dGszX2lOek9OX1RxOWpMVEhQN0ZsekVQTHh4Wk90X3RZRm92Rk5USFd4cjdzcUZ4Q0lXSjRzeXZWT3ZUQjczTUs2bEdYay1QaXJZbHJTMlhlbmtScHNUa0NBUUppUC1mam1FWHJXd2tTZw?oc=5",
@@ -171,15 +180,6 @@
         "source": "Aviation Week",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV1ZsNHQtWTltdTJYOEQ5OEw3bFAtcU5fTzA0amJiYnc2c2c1ZHl5ejNfcUF0bmFvdzhXNi1ZR3NvVTNJN3VzRW41Q2JobTlBSlJzcGdfRFp1aHJxdGN1STlHUm5weTBTelJyTEYtQ3pkeXRPM2hjd3BWN1BaV25KMWxhTXJ5T1JfVkkyUDJELTU3Q3duQjRXLXVKd2FiRk93UmsxNHB3?oc=5",
         "published_at": "2026-10-22T20:45:52+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Darline Graham did not discuss split over Russia sanctions waiver during Trump visit - Washington Examiner",
-        "source": "Washington Examiner",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU0o4RTJ3SlRYQjdDVTBHaWJySFhNeFNNWVBzcEhndTUwckEweWZnak1vWFljTFhDeks3V0NIeTR3QUFOTVM0WlBWc0xWaHRRV0RvSFlfeXV4bkowX05RQjJiWF9GTEh1VUpIVURGLWRzQXBqbDJMVG9qR1M4dkhKSlIzUVlDTVl2a1BVaEVsWUlXNXpyN2lBSDI4TTE0bXJHTlAzTU15dnpiWXUzaTU1Z2ZmLXhrYXhSLVYzdUx4bDg0dw?oc=5",
-        "published_at": "2026-10-22T19:37:17+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
