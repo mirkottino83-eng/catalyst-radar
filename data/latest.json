@@ -1,46 +1,40 @@
 {
-  "generated_at": "2026-10-23T00:36:28.162425+00:00",
+  "generated_at": "2026-10-23T01:19:17.522816+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 99.20999908447266,
-    "wti_change_pct": 2.1204297748209644,
-    "brent": 112.9800033569336,
-    "brent_change_pct": 3.822830062282412,
+    "wti": 100.12000274658203,
+    "wti_change_pct": 3.0571293608389505,
+    "brent": 113.83999633789062,
+    "brent_change_pct": 4.613119515846842,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.51499938964844,
+    "dollar_index": 101.54499816894531,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.12%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +3.06%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T00:25:00+00:00",
-      "brent": "2026-10-23T00:20:00+00:00",
+      "wti": "2026-10-23T01:05:00+00:00",
+      "brent": "2026-10-23T01:05:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
     },
-    "geopolitical_risk_score": 53,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T00:36:16.151585+00:00",
+    "updated_at": "2026-10-23T01:19:06.589895+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -71,22 +65,31 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       }
     ],
     "geopolitics": [
       {
+        "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5",
+        "published_at": "2026-10-23T01:04:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Opinion | Oil’s great escape from the Middle East - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnBBQkJLYmlzMGtrT3g5bVNHdGtCd2Z0YzA4QzNpQlBOYWpsck1iTDRuTUQwdVdJdEUwdVIzZ1hOV0xpaEl3N3V2eFNNRmF4VU52MTRRa2k4U2FHVGdxbDd6ZFNhTnJXeWtrVVhqRmZEdmJydzJQT251a2xYNUZpTjNwZkVFYmdvU1ZiSlRSU0JRZ3lzdTJJ?oc=5",
-        "published_at": "2026-10-23T00:03:29+00:00",
+        "published_at": "2026-10-23T00:32:09+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -107,15 +110,6 @@
         "published_at": "2026-10-22T23:15:46+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran says 7 oil tankers damaged in Strait of Hormuz, and other Middle East news - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHI0VlZ2NlpRSGlRNXdGUFFQZ3J4bFdEdVpBYTY4Vjl6UDZnQS13anNtci1yRGhtdkJHWklnaFc1dGZ0RWt3VGpxczlyT1FUSTBBRWFJUDhUeXdYT29jWjVRYU13NTRZeHR6b2hTOUlLek5PRS03Rl91Rm80eE55MV94TWNZSFNxTkRlQWtrdWI3ZjhfNTJrUElXMWNlREZVdnZTT01aTWJIajdla1BZczBTNXdSb2t40gG4AUFVX3lxTE9YcjRWVnY2WlFIaVE1d0ZQUVBncnhsV0R1WkFhNjhWOXpQNmdBLXdqc21yLXJEaG12QkdaSWdoVzV0ZnRFa3dUanFzOXJPUVRJMEFFYUlQOFR5d1hPb2NaNVFhTXc1NFl4dHpvaFM5SUt6Tk9FLTdGX3VGbzR4TnkxX3hNY1lIU3FORGVBa2t1YjdmOF81MmtQSVcxY2VERlV2dlNPTVpNYkhqN2VrUFlzMFM1d1Jva3g?oc=5",
-        "published_at": "2026-10-22T22:48:30+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -164,15 +158,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Gas prices unlikely to fall below $4 a gallon before midterms, some experts say - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ3Z1R3J5SWEtcnJqMGdDUDRNa1pFMG5rajNmMmo1a2hYNEtSWGc3ejlzc2FWaF9JYlI1ZC1QMURXY3g5aUxyd1VhdVJSZ2RiTzQ4aFFQekthN1pZTDdjdWE5MGtzNENpa3pNWUFvTDN0ZmxnemVsTTlyZUljeW1UZk9fZjZyRVlvdHpjRnZuaTlMWC1RbC1fRXJxa9IBoAFBVV95cUxPRjBNS2w5blRaN0NMdTJTLUF4WVQtdmZRanl5cHFIcXpiS3lsUnprWUpHZFhVSDh4QWoxclhIcW92NjJCSjYyZ016R2JJMEo0NzQ1NElGSThZSmplWXZGR1lLYnlGUkhTb2hmUGh4cFM4ME5XLWpQTHdVOVZRb29Ha0xGWXRtaTd2dEdVaFN4bzd3ZnQ0ZE1VRXJGakdvaU94?oc=5",
-        "published_at": "2026-10-22T20:32:56+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Exclusive | EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOW1pTTFyVVZJd1ZMV2plOWdLUkFmOW1EZWhoN3NsRHByc0JRV0RtX24yVWNxc0dNcEtyTWdkb0xyMmR3Ym81OXBOSkJRR0psRk95a20zM3huQTlsbHN1bFV0d1ZYV3JSNkQ0YUZNRmhGWGpnRXFrZGxMQlk3ZXcwVGpFT1N3QWZYSVo3Z05XaHkwY1dCdEI3M01zNlpzY2Z2emZPM2ZOb19vVVd1SkNwSXZqUEN2NXJFdlHSAboBQVVfeXFMTzdNcTBnNnlSSFByMUNJclg0cEppMUlHMVE5cjR1X1B1QUVzX2FEc0ttNnRrUlRDdXI4dHBNSTc5c0s3RUZOcTIwQVhobi0tdURocEJUTjZpVHo2ejlHQ2s3bk9uc2tVME5zamlDU2tDMXphVkFnSkZBNmduTGF3WE5wVXJ3Y1RuLWFJOG9wYUlrb3FWUklxVUF5ZVhkQ1RWQmpLRWtLWE1VTERqRU40TGZMbnM4VHBIWl9B?oc=5",
@@ -200,6 +185,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Darline Graham did not discuss split over Russia sanctions waiver during Trump visit - Washington Examiner",
+        "source": "Washington Examiner",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU0o4RTJ3SlRYQjdDVTBHaWJySFhNeFNNWVBzcEhndTUwckEweWZnak1vWFljTFhDeks3V0NIeTR3QUFOTVM0WlBWc0xWaHRRV0RvSFlfeXV4bkowX05RQjJiWF9GTEh1VUpIVURGLWRzQXBqbDJMVG9qR1M4dkhKSlIzUVlDTVl2a1BVaEVsWUlXNXpyN2lBSDI4TTE0bXJHTlAzTU15dnpiWXUzaTU1Z2ZmLXhrYXhSLVYzdUx4bDg0dw?oc=5",
+        "published_at": "2026-10-22T19:37:17+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Pro Tem Paxton and Sen. Pederson Celebrate Opening of Taiwan Regional Trade Office - Oklahoma State Senate (.gov)",
         "source": "Oklahoma State Senate (.gov)",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR0lmRTYxMmNRVm5GZFRmT2g2U0Y1TXktYzI4OXRrWk9ZWnExbWhDR3AycWtqUW56NzZ2dnBvQ3J1bmZURTFteVh0bnVXc1JTRlpObXlhQzJPMVdNcVhmQkJIcC1qeV9XZEZaNEtYOGw0XzVfak1YOUNfWFJvNUNZX0w5Ul90Qk1qaW1WTHNKYkxKaUZwd3NPaWEtN0gyY1JZMG5TNWF4N2RWdlItQzNUZUpLeWJEOUFaVS1vYk5vOEZpZjFBRmR5THdvanNuWE9V?oc=5",
@@ -220,11 +214,11 @@
     ],
     "corporate": [
       {
-        "title": "South Korea's Samsung Electro-Mechanics, Nvidia expand AI partnership - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQODJiVmRCRGh0RDdqcVBfR2xULWIyMVMxc3BoVnRCc182aGpmMzRoa3E4ZWZQeHBPWHdoazBHUW9BZmZKaFNYRk9XQXJDdTM1RHBfc3luRFVrRXppNnpsZUhMZGNIOGszMndMWlVnZWxoZFpFMGVKQXRrdHFPRlJRVld0bkNfNi1kR0gxU3FfQ0dMMjNEYVMyQnl5NVI4LTTSAaQBQVVfeXFMTTQwOWh1NmhMazVjTWhBNHJhdGx4bW1WbUFLVFhhQ05yOFoxVkhsZ0w3a2llVTlmYmxUTjFvTGRaaUZKTUUxYVVkM2Zzek5MX2t4Q1FkMGhQRlJqb2pYRXdfYWJLT0RSVWt3SEVyUUVNT2dJRFpwYkZBSWZ5eEdLX19HSFZtZmRsTThvQWZzZ0gzVkpOOVZZYnZoUVUyLTVoeUhVQ08?oc=5",
-        "published_at": "2026-10-22T22:58:17+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial - STAT",
+        "source": "STAT",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUmR1SkF0aDk0cTdscjJVbTQ1bEppUlJOUmZpcDVRZmFYVzNfamstMER4SFlKa0RWbWFsbG9KdE1URGtHbG5aSXBrbUtyNndmSE1tRDFKdXRhNWZURWVmRkhUQVNZdkxNRHBndUhOUjZmV0V4eHRDZ2ZTUWNZRndsVGZTUVJlWWM0MzBnRXVaczZKYW9fZVBKZmh4VQ?oc=5",
+        "published_at": "2026-10-22T22:15:55+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -265,38 +259,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial - STAT",
-        "source": "STAT",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUmR1SkF0aDk0cTdscjJVbTQ1bEppUlJOUmZpcDVRZmFYVzNfamstMER4SFlKa0RWbWFsbG9KdE1URGtHbG5aSXBrbUtyNndmSE1tRDFKdXRhNWZURWVmRkhUQVNZdkxNRHBndUhOUjZmV0V4eHRDZ2ZTUWNZRndsVGZTUVJlWWM0MzBnRXVaczZKYW9fZVBKZmh4VQ?oc=5",
-        "published_at": "2026-10-22T19:18:55+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "New Berotralstat Oral Pellet Formulation Receives FDA Approval for Adults, Adolescents With HAE - Pharmacy Times",
         "source": "Pharmacy Times",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWxkY1ZwN29JLU02TmRZVzFVbnpzLUFLOVJzLXRlSklhTWRCWXUzT2VUVTVCaXFvU1pJRnNQY3lwNVlhZmlFMEJ0X3dmaEVOc3pkMVZHOWRlQXc0UC1oVVFiWHhTQ2o0Y3VvYnFud0RieUVTYmVKSjFJakFGY1VIWTJmbTl1Y3FZd1h6ZUpzdEVzeHFhODFDcDlNNU03STIyU2U1eFNPSmpIVW56UGwzTWdSTU5wS08wSFpYRWhVNGNzRDE3SVdMeg?oc=5",
-        "published_at": "2026-10-22T19:07:43+00:00",
+        "published_at": "2026-10-22T19:31:58+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Merck and Moderna Will Present Results From Landmark Phase 3 INTerpath-001 Trial for Intismeran Autogene Plus KEYTRUDA® (pembrolizumab) at ESMO 2026 Presidential Symposium - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbTU1UkwtM2pDRWwzSTdzcFpDTzYwdWVFaFhOZjZQNDI3clNkX3FmcnlrYkNlb1lJQzI2bzkwT1JjQlB3ZmYwekYtdllZdzZuYnFmNGo0S2tNMEFtT1NmV3QySm1rVXh2emhFbEdPMWpJa1BBQ3BVZFhnbkxfYndodVpZQ1ZZOVRuVV91eDRoLWFwQ2JocHFUMlF5UmxZVElH?oc=5",
-        "published_at": "2026-10-22T18:59:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres - The Next Web",
-        "source": "The Next Web",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yVTFZbXFBSW5aX3I4RnVzSi1fYnJIVzlYQjVXWktlNDlOQ2dQaGh0NnFVVjdoMlgydTdjQlZqdHNnQVBMeE9UTWdfaTJ5cUtyX0NSZ3FCYW9leXduMEE2UktjQTIzR0F4Vm5oVTg4UkkzZ1V4cEN0YTBR?oc=5",
-        "published_at": "2026-10-22T17:25:56+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -305,6 +272,33 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjE3M1E5SV9QdGI0djdaX000RGV5MTRzLWlJZ1BLeEZ4X2dwWXlwVWVmblhIVEhiMXU0U2JHOHMzV2pHM3JnZ0RfWDRsS2dzVHQ0SG5KczFUVFd4ZUZFQmRjZUpPRS01RWVRdnFwTGFYcG51NkVyN0JFTFZBaGhwLTVrTXVMUVd5SmxSajRacF9vMzhuZWRn?oc=5",
         "published_at": "2026-10-22T15:45:08+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Chip Stocks Fall as Supply Warning Deepens AI Selloff: Marvell and AMD Sink 8%, Intel Drops 7% - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSHYtVnBnaXBZc3V3cXUySWxseXJNcVUxV0Vhb2R5SlFkMVF4aTRyemE3VDladG5fVVB4blJNb0YwR3BwTG85TUt4MG0xT2R4Q1dOMUFXcUNtSkFVejktNjVWVXlWRThLUVBoX1hHZGNQWnZPdjZCaXFqYzRFWm1IWXdoQzl0WjlpZ0hxclhpUWFZa01ERVFCMHRtTFdVUEtDRURXYW1lWnJxSlRVYmpiaEREaGphdmo3Rld6OUg4R1BaOUhXNGtadEZvOENFWlE?oc=5",
+        "published_at": "2026-10-22T15:45:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns - UC San Diego Today",
+        "source": "UC San Diego Today",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnJ1QUIyV1RUdGlOVkZkbU9UWnNvT1B5QnA4eTVVZ082U1FYTTdCS0dpTkFOOW5qQlktT2lHWERobVZqUGdHbUhBOUpMdXU5ZTRBYVlyZURiQ3hhdlVDU2U3aG5QMFpYRG1VVXBzSkZQdU56MjFLUktsY2YwN2NIaGZXQkNOYkdFOHVkU0VtaFVQeHBfaEo5aG5NdkF6cno3NHc?oc=5",
+        "published_at": "2026-10-22T15:40:09+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "SEEQC Combines Chip-Based Processing With NVIDIA AI to Improve Quantum Error Correction - The Quantum Insider",
+        "source": "The Quantum Insider",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamlqSnIzQWc5ckgwWFRubXhyX2JXbkJleXMtSWNPekdGSGd1Sk9JT3c4b1BzRVNpWEZ5QVFLR1V2QjVhb0tLS3FpRGJnMTV2QzVFR241V3ZCeno2b2V2LVpaTjZ3Wk1pVFQxVkxwbmw0eGh6aG1Ca0RfeU1DWXltVk1ZX2VGOVlhVzJxUXRHX3liYWRPVWNqYUdWdG94V0pwV3JUZW5DMUswV29jQkdaXzVOYW1EZGpkZm0yYkR6WU02bjFKZk9RaQ?oc=5",
+        "published_at": "2026-10-22T12:23:46+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
