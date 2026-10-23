@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-23T07:52:16.531237+00:00",
+  "generated_at": "2026-10-23T08:21:59.113684+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 100.45999908447266,
-    "wti_change_pct": 0.9952727974466669,
-    "brent": 109.33999633789062,
-    "brent_change_pct": -3.384290795283995,
+    "wti": 100.55000305175781,
+    "wti_change_pct": 1.0857563263303671,
+    "brent": 109.31999969482422,
+    "brent_change_pct": -3.401960357349876,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
-    "vix": 19.219999313354492,
-    "vix_change_pct": 0.9984162892979764,
-    "dollar_index": 101.78900146484375,
+    "vix": 19.200000762939453,
+    "vix_change_pct": 0.8933266955331476,
+    "dollar_index": 101.74700164794922,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.00%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.09%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T07:42:00+00:00",
-      "brent": "2026-10-23T07:40:00+00:00",
+      "wti": "2026-10-23T08:10:00+00:00",
+      "brent": "2026-10-23T08:10:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
-      "vix": "2026-10-23T07:35:00+00:00"
+      "vix": "2026-10-23T08:05:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T07:52:04.845974+00:00",
+    "updated_at": "2026-10-23T08:21:47.984557+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "MEPs visit China next week to discuss trade challenges and opportunities - The European Sting",
+        "source": "The European Sting",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZUtuLWZuQ2gxSEQ4cXN2alpmV2UyUTdXOU00WFl1UjlDM3lSdmYxdkJSNjg5V0ZnYm14X1ZKeGhuSFJuWmZJTk93VzRCWmdicFJ2VGNZYnBGVkZMWFZSRXJwNzk0NVpVNTdGVGJTelFJNW16NGliZ0ZXeURSNnlqdGozU2pIYzZqbmJPb3JRNlNJODduLVFiUE51MnZrNUV0dXBVbFBmRk9PQUxXcG9n?oc=5",
+        "published_at": "2026-10-23T07:50:34+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "EXPLAINER - How China is reshaping its export map beyond the US - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
@@ -95,12 +104,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Once US blockaded Iran, China’s ‘Malaysian’ oil imports dried up - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5OWNlU3Z4QjBEVlJUOS1LOUVQTGh1VGxFMXZIM0s5TU1zSEtSSTFaSXVDMDB3OE5hM3p1Wm9DVE56bXZhRmliWkRWclRpYTFJbGc?oc=5",
-        "published_at": "2026-10-23T06:58:57+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "China Club of Seattle, created to promote trade opportunities, is established on September 9, 1916. - HistoryLink",
+        "source": "HistoryLink",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByaXp6bFdLM0hMamtvczZQSTFES3pqNEVTWlNwTk14aGNybUd6Q0tCbUJxY2E0MXE0ZDRWTjRFbExURERjVU83TmZZMGg5M1k?oc=5",
+        "published_at": "2026-10-23T06:02:27+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -158,6 +167,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Iran says 7 oil tankers damaged in Strait of Hormuz, and other Middle East news - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHI0VlZ2NlpRSGlRNXdGUFFQZ3J4bFdEdVpBYTY4Vjl6UDZnQS13anNtci1yRGhtdkJHWklnaFc1dGZ0RWt3VGpxczlyT1FUSTBBRWFJUDhUeXdYT29jWjVRYU13NTRZeHR6b2hTOUlLek5PRS03Rl91Rm80eE55MV94TWNZSFNxTkRlQWtrdWI3ZjhfNTJrUElXMWNlREZVdnZTT01aTWJIajdla1BZczBTNXdSb2t40gG4AUFVX3lxTE9YcjRWVnY2WlFIaVE1d0ZQUVBncnhsV0R1WkFhNjhWOXpQNmdBLXdqc21yLXJEaG12QkdaSWdoVzV0ZnRFa3dUanFzOXJPUVRJMEFFYUlQOFR5d1hPb2NaNVFhTXc1NFl4dHpvaFM5SUt6Tk9FLTdGX3VGbzR4TnkxX3hNY1lIU3FORGVBa2t1YjdmOF81MmtQSVcxY2VERlV2dlNPTVpNYkhqN2VrUFlzMFM1d1Jva3g?oc=5",
+        "published_at": "2026-10-22T22:48:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Biotech investment is the new front in the U.S.-China trade fight - Politico",
         "source": "Politico",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGctSS03QXZwRTdFZEpoZUNGczljZ1pwUnZTMjg5MGlILURUWmZqcHJPUWZuaHJVTkRaYWxxV29VRVl3clV5NTItV1dJWXFPeUlmQkJRTjE5VUVyQ1lpZmpOWm1WdWM3N01MdEpUSnNrcTZUd3dOV2tzUEdhQjNWelJ6elp1Vk5WZjZoMjd4YUFNc2tEWnI0S3ZjUkJpckpsZ3E3VGxPVi1ycmpUMVcxSEtQeEk?oc=5",
@@ -192,27 +210,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan Halts Stock Trade, Shuts Schools as Typhoon Champi Nears - Insurance Journal",
-        "source": "Insurance Journal",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TVlhsamc0NklWOUI0blI3dk1CeWcxV0p2SnV0aWFkakNVUlZmc210SkxNb3pYZUdTeTdUZDdaV3NZek5oYXMzamQyWkVUb2ZTX3lNZmtBOEVWS3FIX0hCcVNKNDZYZmRLNFd1dmdQeGU2REh0T1RMZkVnR2VQUQ?oc=5",
-        "published_at": "2026-10-22T13:46:55+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Buchanan Wins Trade Case on Diamond Sawblades from China - Buchanan Ingersoll & Rooney PC",
-        "source": "Buchanan Ingersoll & Rooney PC",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV3IySFpWVVFzTjdSOWtRLW5zUmwxSjMtZGoySFF6S1lTOW9EV1JrMTdmd1h4N3pPejdpX0V4ek50T0drQnZrTW9qSTdjNV9CVmRHT2ZXWVhsZzNOX0ZSYW1KdjRQTEd2S0g0bWhDTzIyRlNFenVLNFhQVEtJcmFzTzBYVQ?oc=5",
-        "published_at": "2026-10-22T13:12:02+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "AI Video Startup Higgsfield Draws Investment From Nvidia - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMHhEb3JuUm1ma05hdTNPb0hBc2lQbTFnNTF0ZThWZFBzUXpxSTM3Nmw2d05LRDVSRllZd1FJUHd3ekFPZmhCdjlQWWVvbnI1UklWeThscm9nTXZLSkVPTUxtS1VEYi1YSlJMZHlYdXJnbE9CRXdmYlNSc3dZdkhWZnl5QmhtMkZiMHFtdW14Yjh5bGRvaTBwRHN6bUt6MzNFTkVKMi1SbUZrVlBUbUpYUHo4SVA4YmVqT2RpZU5n?oc=5",
+        "published_at": "2026-10-23T07:17:16+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Micron is part of Zacks Earnings Preview - Yahoo Finance",
         "source": "Yahoo Finance",
@@ -236,15 +245,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGJGeC1PanpDaEVqX2dmVlYxU01jcHF5RGlORmpOT1lBMkZIRDlscy1PTWp2RlU4RzJYS19WR3VlSVhTdDJYejdnSTVEV1lPU3hlaFZhLUpSc1VQMTY5UU96QWM3TTBZUzFySFFfcUNRWnl0dWU2NTFqTTRSVHlybHJzdTNySTZOVWhYU0M3X3pFQTE3VTFQTE5xcw?oc=5",
         "published_at": "2026-10-23T05:05:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AI Video Startup Higgsfield Draws Investment From Nvidia - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMHhEb3JuUm1ma05hdTNPb0hBc2lQbTFnNTF0ZThWZFBzUXpxSTM3Nmw2d05LRDVSRllZd1FJUHd3ekFPZmhCdjlQWWVvbnI1UklWeThscm9nTXZLSkVPTUxtS1VEYi1YSlJMZHlYdXJnbE9CRXdmYlNSc3dZdkhWZnl5QmhtMkZiMHFtdW14Yjh5bGRvaTBwRHN6bUt6MzNFTkVKMi1SbUZrVlBUbUpYUHo4SVA4YmVqT2RpZU5n?oc=5",
-        "published_at": "2026-10-23T05:00:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
