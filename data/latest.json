@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-23T05:55:46.128028+00:00",
+  "generated_at": "2026-10-23T06:23:30.621574+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 100.48999786376953,
-    "wti_change_pct": 1.0254314170593526,
-    "brent": 114.12999725341797,
-    "brent_change_pct": 0.8482805513874148,
+    "wti": 100.7699966430664,
+    "wti_change_pct": 1.306922093505225,
+    "brent": 114.4000015258789,
+    "brent_change_pct": 1.0868634592512638,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.69400024414062,
+    "dollar_index": 101.6989974975586,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.03%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.31%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T05:45:00+00:00",
-      "brent": "2026-10-23T05:45:00+00:00",
+      "wti": "2026-10-23T06:10:00+00:00",
+      "brent": "2026-10-23T06:10:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T05:55:34.739401+00:00",
+    "updated_at": "2026-10-23T06:23:19.989355+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,21 +58,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       }
     ],
     "geopolitics": [
@@ -86,11 +86,29 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Innovation key driver of growth in APEC trade - chinadailyhk",
+        "source": "chinadailyhk",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKc1Q4Z29CakZkYW42Q3lJYlRlQjNhdjFVZWdRUkVPZnQxLTBTXzRmMmVMNVQycFlvX0lBX0E5b2hPNjNpWnFXZDl2YzRvRmRLd2FJV1JrZjg?oc=5",
+        "published_at": "2026-10-23T04:32:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Russia's new type of 3D printed missile will make jet Shaheds look like a 'small problem,' Ukraine's drone gurus warn - Business Insider",
         "source": "Business Insider",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb0tKVWJFS2sxZXdYY1FWSmdZemg3WDA2SnVzRTlJVEV0anVSUThyWUlDLWxKN0FsX3ZsZk9LTDIzbjNFUmduX1hKcDg0VFFBaGphcDVsM25JTzJTYWRYRm9vTDg3UlhmZEI2R1lhRFBrY2lXbXR6U3VLck03OXpIS2dSSFZ6QXFpOHdNUU5udUhmdkJHTHpTVTBVbWlscjhHNEY0VTJ6ZWxaMTUxbkE?oc=5",
         "published_at": "2026-10-23T04:27:00+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZHcXQtZDkyLVVrN3lPTWFDdEVROFZZbndSMWVyTmRRVFlqTXJDVmtZUGNoYUlZb3hlUGg1ZlRqcWw4UHBTdGtoazBtMVdVTEs0Q3JxZW9Gd18ycENaYjFyV1E3cFdETkRYNVNKSmtwOVc5eWYwaUREel80Y0x1RVZGWWFKbWRWR2lELUxKUnhnMV95WElaVnhZVE9za0RCbENxYzBNQVltZlJYWDgwdUQ4OFg3WFhP0gG-AUFVX3lxTE1lc1VKUHBYWDlVY1hWZl95RWFoc0JrYm8wdzhsS2pKOGltMmFocDZ1MnpFWUxZS3RWR0pYaHNwZ1RFU3Q4Q0YxcXdXTGMteHVObXhCUkdKLU4yR1RQQ0dPVTI5S0J1NVVsbjB3YUNQVzQtaVMwSlQzaU1hRC1GcFN2TEcyaFFRb0RCNHlPdW8yOGthcUZVWTlZWlZoVkxtS3VLQ0E4Q05EN1k5QkpHYVQ5Y1RUTDhlYWhwTnV0R0E?oc=5",
+        "published_at": "2026-10-23T03:46:00+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -137,15 +155,6 @@
         "published_at": "2026-10-22T21:33:09+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US regulator is probing suspicious Iran oil trading, official says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPem1fOEZ2aU10cDBTVHhDUXFuN3ZTU1l3ZXR4dkpMUUNCazJDMEk4V0UxT01nZ2tNckxuTllmYXhNeUlhSTQzbzg5dHN2aVNjMUpnNnU0T2FJWmNtTGZ4ZTg0UXNjRFhReHlDbThZalczOHdVZFBKLU9pVEp3YTBTS096QUdKVm4tbTdlQzJSYWQ5eGhDZ05FSjJJWFhNYkt2dHZERzg1Zmltc2xKUkd1UjBXUEpTdjNC?oc=5",
-        "published_at": "2026-10-22T21:31:43+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -201,18 +210,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Buchanan Wins Trade Case on Diamond Sawblades from China - Buchanan Ingersoll & Rooney PC",
-        "source": "Buchanan Ingersoll & Rooney PC",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV3IySFpWVVFzTjdSOWtRLW5zUmwxSjMtZGoySFF6S1lTOW9EV1JrMTdmd1h4N3pPejdpX0V4ek50T0drQnZrTW9qSTdjNV9CVmRHT2ZXWVhsZzNOX0ZSYW1KdjRQTEd2S0g0bWhDTzIyRlNFenVLNFhQVEtJcmFzTzBYVQ?oc=5",
-        "published_at": "2026-10-22T13:12:02+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Ultomiris Wins Accelerated FDA Approval for IgA Nephropathy After Trial Showed 43% Greater Drop in Urine Protein - Medical Daily",
+        "source": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFBCN3ctQXZCTElhSmdCWjFweVZ0Zjdod3hjeTBXaUFweU5uQllUSFBNdHZvdE9Mc0hwemExUUdQUm44LTNobkxSQ1pHS1plczFXZ0F4ZlhGREd2SnFRVDBJbDhsb0VuSUw0MkN5NGlpU2ViNkFHNW9GV3ExSnpYMVkzQkctSXNJUFVxSldSbExUeHlVb2Y4NkVRcU5UODA?oc=5",
+        "published_at": "2026-10-23T05:52:14+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Pony.ai partners with inDrive, Nvidia to launch robotaxis in Kazakhstan - Yahoo Finance",
         "source": "Yahoo Finance",
@@ -290,15 +299,6 @@
         "source": "Pharmacy Times",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWxkY1ZwN29JLU02TmRZVzFVbnpzLUFLOVJzLXRlSklhTWRCWXUzT2VUVTVCaXFvU1pJRnNQY3lwNVlhZmlFMEJ0X3dmaEVOc3pkMVZHOWRlQXc0UC1oVVFiWHhTQ2o0Y3VvYnFud0RieUVTYmVKSjFJakFGY1VIWTJmbTl1Y3FZd1h6ZUpzdEVzeHFhODFDcDlNNU03STIyU2U1eFNPSmpIVW56UGwzTWdSTU5wS08wSFpYRWhVNGNzRDE3SVdMeg?oc=5",
         "published_at": "2026-10-22T19:31:58+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "International Study Helps Support FDA Approval of HIV Drug for Newborns - UC San Diego Today",
-        "source": "UC San Diego Today",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTnJ1QUIyV1RUdGlOVkZkbU9UWnNvT1B5QnA4eTVVZ082U1FYTTdCS0dpTkFOOW5qQlktT2lHWERobVZqUGdHbUhBOUpMdXU5ZTRBYVlyZURiQ3hhdlVDU2U3aG5QMFpYRG1VVXBzSkZQdU56MjFLUktsY2YwN2NIaGZXQkNOYkdFOHVkU0VtaFVQeHBfaEo5aG5NdkF6cno3NHc?oc=5",
-        "published_at": "2026-10-22T15:40:09+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
