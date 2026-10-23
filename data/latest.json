@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-23T10:31:35.985521+00:00",
+  "generated_at": "2026-10-23T11:03:28.175483+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 101.08000183105469,
-    "wti_change_pct": 1.6185790596094485,
-    "brent": 109.83000183105469,
-    "brent_change_pct": -2.9513089970228057,
+    "wti": 101.06999969482422,
+    "wti_change_pct": 1.608523629723324,
+    "brent": 110.16999816894531,
+    "brent_change_pct": -2.650879251161131,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
-    "vix": 19.549999237060547,
-    "vix_change_pct": 2.7325198720562938,
-    "dollar_index": 101.73200225830078,
+    "vix": 19.719999313354492,
+    "vix_change_pct": 3.6258465675894413,
+    "dollar_index": 101.77200317382812,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.62%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.61%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T10:20:00+00:00",
-      "brent": "2026-10-23T10:20:00+00:00",
+      "wti": "2026-10-23T10:50:00+00:00",
+      "brent": "2026-10-23T10:50:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
-      "vix": "2026-10-23T10:15:00+00:00"
+      "vix": "2026-10-23T10:45:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,22 +34,22 @@
   "catalysts": [],
   "movers": [
     {
-      "ticker": "E",
-      "company": "Eni",
-      "category": "Energy",
-      "priority": "normal",
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": 3.95,
-      "short_term_change_pct": 0.92,
+      "current_change_pct": -20.49,
+      "short_term_change_pct": 1.09,
       "relative_volume": null,
-      "quote_at": "2026-10-23T10:27:41+00:00",
+      "quote_at": "2026-10-23T11:00:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "E"
+      "tradingview_symbol": "MRNA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-23T10:31:24.488956+00:00",
+    "updated_at": "2026-10-23T11:03:17.049695+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -59,7 +59,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -92,20 +92,38 @@
     ],
     "geopolitics": [
       {
-        "title": "Fact Check: Marshall claims Ukraine war is to blame for high gas prices in the U.S. - Kansas City Star",
-        "source": "Kansas City Star",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40WS1qY0N2QThmOEFwbTJERkN3VTUtRHhlcWtoWURiTnRtUWo3azZGYnlxZVVJTHJMSmwtenZDXzRRNmpQZkdoNHVwcjRRdS1rTzRuUjRPdVRMdEJHUXJVSURTQjItWjYzNGV0Z0JzWmxDT2hsTU1xRktmR21xZ9IBfkFVX3lxTFBROUx0U0JLaWdUNmtIVDFSQlBnUVp4WTF0QjNXcDhmR1FaTllEanc1STMxNkoxY1ZxeVlJMVVzSVFtcG1ZM2pVV0lWdHF5MzBnQlh3b1pycFBzM201cVpLV2JWNlYxREczMkVESnpFRC1vdlFzX3dFNEFISGt2dw?oc=5",
-        "published_at": "2026-10-23T10:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Trump campaigns in Florida as midterms near, targets Iran over oil price claims - cbs19.tv",
+        "source": "cbs19.tv",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNW1uUWxjS0htWjZQcTAxejVfanFwSWRtNUQyUUxrZ3dobkppa3pNamUxbUVtdHM0bFktQkVtM2U5NW8yaV9XT3dibFIzWXRzbGZuOFdxMGZlaVZTM2VzYUd6UjFxWFRkX1FZQ2Z3ODBWMTdCbEhici00X0VOMWlIWEZYTnBNODk4cmpaTEc5NmxzUjJVVFY4MFVsQjdsb3paZXIxaUF3VHd4dzkybnRPVklydHl2NzNfWUdScFFQSkZRckNlZnMyOHd5QTQ2Vy15M0huV0xlVnJLSjdBMHVTMjg1dXhvcm1RZ2xVMVVR?oc=5",
+        "published_at": "2026-10-23T10:35:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
         "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
-        "published_at": "2026-10-23T09:59:20+00:00",
+        "published_at": "2026-10-23T10:32:51+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "After Hamas West Bank shooting attack wounds five, Benjamin Netanyahu blocks off travel - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvTk5UQWcwVDFUQTJDMF9PY0tMQnh2SGN1a0ZMYVlpNldFVmM0Yy1NLXB2VWZ0UHhWY3JGV1I3SXFNRDZ5aFNQV2RUbjVqQUNSQXh4Z21BQTkxS0RCdWRKQkpsTm1BVHhKUlhNUjBB?oc=5",
+        "published_at": "2026-10-23T10:29:28+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Fact Check: Marshall claims Ukraine war is to blame for high gas prices in the U.S. - Kansas City Star",
+        "source": "Kansas City Star",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40WS1qY0N2QThmOEFwbTJERkN3VTUtRHhlcWtoWURiTnRtUWo3azZGYnlxZVVJTHJMSmwtenZDXzRRNmpQZkdoNHVwcjRRdS1rTzRuUjRPdVRMdEJHUXJVSURTQjItWjYzNGV0Z0JzWmxDT2hsTU1xRktmR21xZ9IBfkFVX3lxTFBROUx0U0JLaWdUNmtIVDFSQlBnUVp4WTF0QjNXcDhmR1FaTllEanc1STMxNkoxY1ZxeVlJMVVzSVFtcG1ZM2pVV0lWdHF5MzBnQlh3b1pycFBzM201cVpLV2JWNlYxREczMkVESnpFRC1vdlFzX3dFNEFISGt2dw?oc=5",
+        "published_at": "2026-10-23T10:00:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -119,18 +137,18 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Bulgaria will vote for president as Ukraine and Black Sea drone attacks dominate campaign - Ottumwa Courier",
-        "source": "Ottumwa Courier",
-        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTXVJM0xhcV83emVBSXFJeXdQc3diUnNuQU16Mi1xamtNLVY0NDZKWmRoc0tyTXZpS0wtYUhUWkxiaHNyekJsRklndnpzTEItbDZkc2pUNC1hX1VpS3FBZkJoTFg3Mms0dUgxSFZvSTNLSzZFNDFmdmdqNkpWVko5b04wQ3l1Q29aUXlvaVB2ekVqS3puTVhaemJOaXhKblZJbF81bnFvejRJSFRyTHdteE1VaXFER0RTSXZxS1FNWk9NOThVQUFUT2NXbDE1bWppaThHSGJnRThZaDlnckxRTk5rQ2lPQm5LS3JrZnQ2SzMwNVpnM2hOYmtiSGdrWmNsWlh4a0s5MUlGNlphUzRpaDlIczc3bUh2?oc=5",
+        "title": "Bulgaria will vote for president as Ukraine and Black Sea drone attacks dominate campaign - Temple Daily Telegram",
+        "source": "Temple Daily Telegram",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX05XaGhpTkZqdUhyZl9mcEpXbWdtXzdPRnRFT21EVmthMDZ3anpxeS01SERnQ1VFVDhrV2JwdFE1NExjdU51OWgyTUhCejV4WmlwQXBxd2NBZFpqYXU3bUpMMk0tRjF1Mm5LYTZBS3ZwT0p4ZlpvS0hSbFZPWElVSl9TbHFzNXVSM09JUTZncFQ5V3dwQlE?oc=5",
         "published_at": "2026-10-23T09:42:03+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Bulgaria will vote for president as Ukraine and Black Sea drone attacks dominate campaign - Temple Daily Telegram",
-        "source": "Temple Daily Telegram",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX05XaGhpTkZqdUhyZl9mcEpXbWdtXzdPRnRFT21EVmthMDZ3anpxeS01SERnQ1VFVDhrV2JwdFE1NExjdU51OWgyTUhCejV4WmlwQXBxd2NBZFpqYXU3bUpMMk0tRjF1Mm5LYTZBS3ZwT0p4ZlpvS0hSbFZPWElVSl9TbHFzNXVSM09JUTZncFQ5V3dwQlE?oc=5",
+        "title": "Bulgaria will vote for president as Ukraine and Black Sea drone attacks dominate campaign - Traverse City Record-Eagle",
+        "source": "Traverse City Record-Eagle",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOLVNfTXN5NWlWMEJoMEVTemFzQVlybDZCQ1JPNVJSZzVKeUNhSmhfUVR2SWVRa3RqOFFzWTM1a2RhX2RmbkVuUFlWQ0JFbndkRHYxcTNYLTE0NnpTZEEwbDBGc1h3RDFmd0JVVk95T3JVNHdvcGM1QmhneDZRRElhNXRhX2dFVnNKeE9kME5kSC1HZ1BJcl9DOU51V0tPemtGWGNZczBIRS1VYlFHT2tWRTJKS2QzRkc3UDJRWU05NFNWMTVDV1VnemM0WjNmSTNGbjBxQnlZR1lHRW1OcHplcjFzdE9USkFjWHZIRml2Tm5YaWc4d0lBc3h6NHdpZHZOQm5Gal9GWE9Sa09DMUN2ekxPUQ?oc=5",
         "published_at": "2026-10-23T09:42:03+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -164,15 +182,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Israel orders ‘full lockdown' of West Bank after military kills 2 accused of attack - NBC Connecticut",
-        "source": "NBC Connecticut",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYWtuZkkyU1FoZVhpUnRza0d4aDhzUnBKUUZwUDBLSUk2anhnSTNzQjVsMHFkSGU4WHFUX0lkU1RPU1pZcVhIejhYTFZ4cE1QQTAzeFJxTHZXMEFpYVBQNVozRmU3aGdzQmZqWGQ2S2JHR21kR2V5bVBOQU5yRDRHT1lrSGRZYVpXZjhSRHVZRWxkdkZ5VHRBZDQ2OXBrdzhFRTdDZ0NSSnNJekkwUHJuYUZGY3VJWjQtYWMtWjFRNEw3UnpubFJ1MWJfZVhTQ2VOZDNnZGZR0gHeAUFVX3lxTFBjWXdNcW9zU1pJTjRvaXZBN0xldlB5aGVUV1U4TFZGSGQwRi1YbjZLTWI0Qkx1MVJCNGhhazV4YmlBUVpOTnE5NmdXTEVWX0N2MEZmNm5uRmNmLWtleUI2TmRjNWYzU2ZpQmlvYXFUei1jbDFMSXBBUDVxLTE3bmhBeUhNSlhPUzhCNVQteHdtNzV1aWtjRE9FSHB4aEZjR05jMEVjMDNYWDlsWHZvVGgwX05WVE91ODJGZHVMM0xTMkQxbDlzaUlIY0dwR2UyTndGWkdaOExqdmNUZEIwZw?oc=5",
-        "published_at": "2026-10-23T09:19:06+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Putin Says Russia Ready for Ukraine Talks, Rejects Short Ceasefire - Kurdistan24",
         "source": "Kurdistan24",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFotaWwyTXd2Mk1JRW5Md01IdkRlQzFLXzFJZ1M4eUVkWUxZVXJSeUNmWFJVaFAxa1RpVGFrUnVVLXRFemExdE85NkpwVUVNSTIwRnJwNEo0UE92YVU3Q1JZaVdtdU5LUGR6Y1JoeFVlNmtyWVBjc0R1djJpcDFxdjFrdWU1TzRDUF8zR1UtNXFSU1A3RHJyZ2FXdDFEcTJ5NGlTenM2U0plV1pRcWc?oc=5",
@@ -188,15 +197,6 @@
         "published_at": "2026-10-23T09:08:32+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "U.S. oil holds above $100, Brent at five-month high as Iran says it’s prepared for warfare - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSVBHUDhjeG5sQkpOblUzQm9hSTdWRkduWHJwNXdibUgyM1FHNEtJeFpnWEVQclk1czRKV2hLbHNGS2FYem5sRzJ0N0sxakctZld4QmN4UnozQ2h3ZGFBcE1NZDdESDVRTkVQSTRVMUdxbUtHTnk2anV6Z3h4cmtmOU5COXTSAYoBQVVfeXFMT1RHRzc0UlM1VlFlakxiSU51Mk9FTXNoYndtX2tpb3RNQVNRQ1J5dGs2YnFYQUFxa0I3UUV4OHNkZFBRTVhGcjJ2SWpuQldna1VuM2VqQngyMHJXTW1YWXlPbUY4UE9CZklMbFdwQzdiMGlhS0xteVoydTEwNGlKdzhDSFRKQnZiNXJR?oc=5",
-        "published_at": "2026-10-23T09:02:44+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -229,15 +229,6 @@
     ],
     "corporate": [
       {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-23T08:39:23+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Nvidia launches Minerva AIOps platform for AI factory observability - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLXptR0tLU2xnLVBhUjgwcl9zUzBpQmh4bHhwMFc0dERjeXI3NUVkTi1MZHZhc2x6MFNhaUhnbVV5cXFwSUpOemRlcXk5cEgxZmhpQi1LdjF1QTZjVERYTmlwSlVHNExnc1VpSUdXVy10VTU4Q2puWWFOLWYwcWduaW9fX09oUkFiZmFraQ?oc=5",
@@ -261,6 +252,15 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbGM2Ylh6ZllUXzVvS1ozTEYxUmpGMDZXTHRmTDdVei1TRnB5NTUtSlhJVXNmenY0a2hNdTBpQVpiWk04QXI3c2xMOHpxMXVLOTQ5aDNQNHc0TVRjdnZ6cUVFMV94Sy1uZ0hCTUdQMDJDLWE1QXU5ajU3UWlLa3RGbTZaUmZmMUo2U2hhOHpBc0NKb0hXM01LVUJoUUlFYzFU?oc=5",
         "published_at": "2026-10-23T06:04:00+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ultomiris Wins Accelerated FDA Approval for IgA Nephropathy After Trial Showed 43% Greater Drop in Urine Protein - Medical Daily",
+        "source": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFBCN3ctQXZCTElhSmdCWjFweVZ0Zjdod3hjeTBXaUFweU5uQllUSFBNdHZvdE9Mc0hwemExUUdQUm44LTNobkxSQ1pHS1plczFXZ0F4ZlhGREd2SnFRVDBJbDhsb0VuSUw0MkN5NGlpU2ViNkFHNW9GV3ExSnpYMVkzQkctSXNJUFVxSldSbExUeHlVb2Y4NkVRcU5UODA?oc=5",
+        "published_at": "2026-10-23T05:52:14+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
