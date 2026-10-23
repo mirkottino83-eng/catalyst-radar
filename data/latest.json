@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-22T23:36:14.978342+00:00",
+  "generated_at": "2026-10-23T00:00:25.957399+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 99.3499984741211,
-    "wti_change_pct": 2.26453619525282,
-    "brent": 113.26000213623047,
-    "brent_change_pct": 4.080134583585582,
+    "wti": 99.43000030517578,
+    "wti_change_pct": 2.346884964988427,
+    "brent": 113.23999786376953,
+    "brent_change_pct": 4.061751682908277,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.61699676513672,
+    "dollar_index": 101.57599639892578,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.26%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.35%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-22T23:25:00+00:00",
-      "brent": "2026-10-22T23:25:00+00:00",
+      "wti": "2026-10-22T23:50:00+00:00",
+      "brent": "2026-10-22T23:45:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-22T23:36:03.939416+00:00",
+    "updated_at": "2026-10-23T00:00:13.997310+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,7 +57,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -71,22 +71,31 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       }
     ],
     "geopolitics": [
       {
+        "title": "‘More Money Means More Dead Ukrainians’ – Kasparov Warns Against Deals With Moscow - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9UalY1TkZBb0RFTlhLclczNzY2MnR3YVBzY3dxcFJMZnhMTXBRZ0Y4ZElIelVZQ0R4NjA3emZlaDY1T2FxNUlob0hWYw?oc=5",
+        "published_at": "2026-10-22T23:41:09+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Opinion | Oil’s great escape from the Middle East - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnBBQkJLYmlzMGtrT3g5bVNHdGtCd2Z0YzA4QzNpQlBOYWpsck1iTDRuTUQwdVdJdEUwdVIzZ1hOV0xpaEl3N3V2eFNNRmF4VU52MTRRa2k4U2FHVGdxbDd6ZFNhTnJXeWtrVVhqRmZEdmJydzJQT251a2xYNUZpTjNwZkVFYmdvU1ZiSlRSU0JRZ3lzdTJJ?oc=5",
-        "published_at": "2026-10-22T22:05:25+00:00",
+        "published_at": "2026-10-22T23:35:25+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -151,15 +160,6 @@
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOW1pTTFyVVZJd1ZMV2plOWdLUkFmOW1EZWhoN3NsRHByc0JRV0RtX24yVWNxc0dNcEtyTWdkb0xyMmR3Ym81OXBOSkJRR0psRk95a20zM3huQTlsbHN1bFV0d1ZYV3JSNkQ0YUZNRmhGWGpnRXFrZGxMQlk3ZXcwVGpFT1N3QWZYSVo3Z05XaHkwY1dCdEI3M01zNlpzY2Z2emZPM2ZOb19vVVd1SkNwSXZqUEN2NXJFdlHSAboBQVVfeXFMTzdNcTBnNnlSSFByMUNJclg0cEppMUlHMVE5cjR1X1B1QUVzX2FEc0ttNnRrUlRDdXI4dHBNSTc5c0s3RUZOcTIwQVhobi0tdURocEJUTjZpVHo2ejlHQ2s3bk9uc2tVME5zamlDU2tDMXphVkFnSkZBNmduTGF3WE5wVXJ3Y1RuLWFJOG9wYUlrb3FWUklxVUF5ZVhkQ1RWQmpLRWtLWE1VTERqRU40TGZMbnM4VHBIWl9B?oc=5",
         "published_at": "2026-10-22T20:32:36+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump sidelines Russia sanctions as GOP allies push for more pressure on Putin - Fox News",
-        "source": "Fox News",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQLXMwMk9vbjh2eXJreDhzMENqMHZnTDd3Tk51NEs0emVQd2lZT3hqZlZ1OURoNjZidWJJdU9KTWl4eEdNQ29wcXR5M2NNVHRNSXAtM1ln?oc=5",
-        "published_at": "2026-10-22T20:24:05+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -274,15 +274,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Alphabet (GOOGL) vs. MSFT and AMZN: Can AI Investments and Google Cloud Growth Unlock a 26% Upside? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT0FrNG5mMVh6NDc3T1gzZlQ4SUtBcWFkNVFBYUd1ZmllY3RJZGxFaHdaNUZGbW5yc3lkcWZKSTFaeENaemxDSzFmMXBsRkZqeU9NbWZLZTZ5STFsbEtfamo5OUtzWHVycUtVMGZmZVBVWjBRLWxtclpsWHEzcVdXZUdjOU0wd3hoV1NiUzNwTUFYZzNRV2dZ?oc=5",
-        "published_at": "2026-10-22T20:26:24+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "FDA Grants Traditional Approval to Pembrolizumab in TMB-H Solid Tumors - Oncology Nursing News",
         "source": "Oncology Nursing News",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTBqTGdTQ2hVWU5tcE9fZGp4YzBBSTlKbHVqbWc2VkpjWW1pdEdPLWRqamd0aTZCNHduRmlhY1puMTd1RmVjMktlLS01VlVSdlpPdXd0VlRxbUhlRnlLVGx3MEpTNWVmVmNfeWdvbUcyWTlCcnJEYkliQUxTaGloTmoxZEgwd3ROUjdtRXRCcWpfM0pQSm92cWJneUljUTdZLVhTUzVQY2o3QQ?oc=5",
@@ -306,6 +297,15 @@
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWxkY1ZwN29JLU02TmRZVzFVbnpzLUFLOVJzLXRlSklhTWRCWXUzT2VUVTVCaXFvU1pJRnNQY3lwNVlhZmlFMEJ0X3dmaEVOc3pkMVZHOWRlQXc0UC1oVVFiWHhTQ2o0Y3VvYnFud0RieUVTYmVKSjFJakFGY1VIWTJmbTl1Y3FZd1h6ZUpzdEVzeHFhODFDcDlNNU03STIyU2U1eFNPSmpIVW56UGwzTWdSTU5wS08wSFpYRWhVNGNzRDE3SVdMeg?oc=5",
         "published_at": "2026-10-22T19:07:43+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres - The Next Web",
+        "source": "The Next Web",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yVTFZbXFBSW5aX3I4RnVzSi1fYnJIVzlYQjVXWktlNDlOQ2dQaGh0NnFVVjdoMlgydTdjQlZqdHNnQVBMeE9UTWdfaTJ5cUtyX0NSZ3FCYW9leXduMEE2UktjQTIzR0F4Vm5oVTg4UkkzZ1V4cEN0YTBR?oc=5",
+        "published_at": "2026-10-22T17:25:56+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
