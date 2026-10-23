@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-23T04:57:26.600789+00:00",
+  "generated_at": "2026-10-23T05:23:11.840823+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 100.31999969482422,
-    "wti_change_pct": 0.8545274592237417,
-    "brent": 113.95999908447266,
-    "brent_change_pct": 0.6980656784565831,
+    "wti": 100.25,
+    "wti_change_pct": 0.7841547901122681,
+    "brent": 113.88999938964844,
+    "brent_change_pct": 0.6362120989241937,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.68900299072266,
+    "dollar_index": 101.6989974975586,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +0.85%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +0.78%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T04:45:00+00:00",
-      "brent": "2026-10-23T04:45:00+00:00",
+      "wti": "2026-10-23T05:10:00+00:00",
+      "brent": "2026-10-23T05:10:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T04:57:15.349034+00:00",
+    "updated_at": "2026-10-23T05:22:58.969505+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,21 +51,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "UPDATES: US War on Iran, Day 239 - Attacks on Shipping in Strait Of Hormuz Highest Since March - EA WorldView",
+        "source": "EA WorldView",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGFPalEwcG1TVkVNMGx6N18wbzN2WUxScnNOQkFLRE5yakViZFU5NzFJRzNqU0pTakp4bUlVY1d5bzRDYnBPQ1FSbUtSdjJ0RWZQRm82YVE1MmhNbW5FdVNHUWtHUG04dFNkQnhnLUZyanJrWXNuMVQwRHFFTUVrTko0NDZKNGtk?oc=5",
+        "published_at": "2026-10-23T05:06:41+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Russia's new type of 3D printed missile will make jet Shaheds look like a 'small problem,' Ukraine's drone gurus warn - Business Insider",
         "source": "Business Insider",
@@ -113,15 +122,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "STOXX China P Chips Total Mkt.I (0N74.Z) Forum & Discussion - Yahoo Finance - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UUHpkRG91SlFRVVpzZzZVTGxFVVFlVFdjTEM2Xy01a0dwczFheGt0TXFfT01Na2F1X1Z3c2hEc2xzYk5UdHpqRzZCVTdTYlRta2xQTlB2TGtTMko1X2l3WEhn?oc=5",
-        "published_at": "2026-10-22T23:57:22+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
@@ -131,11 +131,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran says 7 oil tankers damaged in Strait of Hormuz, and other Middle East news - PBS",
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHI0VlZ2NlpRSGlRNXdGUFFQZ3J4bFdEdVpBYTY4Vjl6UDZnQS13anNtci1yRGhtdkJHWklnaFc1dGZ0RWt3VGpxczlyT1FUSTBBRWFJUDhUeXdYT29jWjVRYU13NTRZeHR6b2hTOUlLek5PRS03Rl91Rm80eE55MV94TWNZSFNxTkRlQWtrdWI3ZjhfNTJrUElXMWNlREZVdnZTT01aTWJIajdla1BZczBTNXdSb2t40gG4AUFVX3lxTE9YcjRWVnY2WlFIaVE1d0ZQUVBncnhsV0R1WkFhNjhWOXpQNmdBLXdqc21yLXJEaG12QkdaSWdoVzV0ZnRFa3dUanFzOXJPUVRJMEFFYUlQOFR5d1hPb2NaNVFhTXc1NFl4dHpvaFM5SUt6Tk9FLTdGX3VGbzR4TnkxX3hNY1lIU3FORGVBa2t1YjdmOF81MmtQSVcxY2VERlV2dlNPTVpNYkhqN2VrUFlzMFM1d1Jva3g?oc=5",
-        "published_at": "2026-10-22T22:48:30+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "EPP Group calls for EU action to tackle China’s unfair trade practices - European Interest",
+        "source": "European Interest",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbmtKUklNa1NaZW4yWlZLM3c4c3d3Y3JjWlJoM0FIVm1fSVlETzhRWFF4N3Y3NnhqZUVjWGxrOGNDX3dCV01iZlFzc3RUYUdkb0ZyYV9LazdIdF9HTXZFQnVGNWp0Yk9Qa0dLYzNtd1NRYXljdnQ0eDZNMFZfNDl5ekQ0T3RiTWhPc0ZpWUpjcmJwdFJqUVlMWHBTeFh2V2ZtMnJmcA?oc=5",
+        "published_at": "2026-10-22T21:53:15+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -185,15 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pro Tem Paxton and Sen. Pederson Celebrate Opening of Taiwan Regional Trade Office - Oklahoma State Senate (.gov)",
-        "source": "Oklahoma State Senate (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR0lmRTYxMmNRVm5GZFRmT2g2U0Y1TXktYzI4OXRrWk9ZWnExbWhDR3AycWtqUW56NzZ2dnBvQ3J1bmZURTFteVh0bnVXc1JTRlpObXlhQzJPMVdNcVhmQkJIcC1qeV9XZEZaNEtYOGw0XzVfak1YOUNfWFJvNUNZX0w5Ul90Qk1qaW1WTHNKYkxKaUZwd3NPaWEtN0gyY1JZMG5TNWF4N2RWdlItQzNUZUpLeWJEOUFaVS1vYk5vOEZpZjFBRmR5THdvanNuWE9V?oc=5",
-        "published_at": "2026-10-22T16:26:24+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Taiwan Halts Stock Trade, Shuts Schools as Typhoon Champi Nears - Insurance Journal",
         "source": "Insurance Journal",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TVlhsamc0NklWOUI0blI3dk1CeWcxV0p2SnV0aWFkakNVUlZmc210SkxNb3pYZUdTeTdUZDdaV3NZek5oYXMzamQyWkVUb2ZTX3lNZmtBOEVWS3FIX0hCcVNKNDZYZmRLNFd1dmdQeGU2REh0T1RMZkVnR2VQUQ?oc=5",
@@ -209,6 +200,15 @@
         "published_at": "2026-10-22T13:12:02+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Who blinked first? Fragile EU-China trade peace sparks new war of words - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcTZFencyRmU4TEFvb3hrZXFlQXBsTmxJUHhZLWdtX096eE9fUFNNbnNVeExpMTJxNVRienloTEF0bEx1RGFRaUQ3SWpfb1laQU9lTk80ZUtvUHVNWWxPSTMxSGpENVp6clcyX3hRLUhBcDlUV2VUQkxCNDNWNEN5UTVsdGd1UENPd3JYeWZhZVRXbG1UeGVsWWhNWDhoQndOd29mbkpDbGIzNHFzZ1BMaS1QTEM1NlVZTzg5QUFqeVlPT1XSAcMBQVVfeXFMUGhRbmhrb0hmOXRLOGwwaTduU2xadVdHSFpRWm53UnE0X3VNTUk3LXFUWUx1QlkzMnYwejdZZnE1aXA1N3lhWVhCQlZVU0Q5UTEyMm93LXoxRTNOU3ZmYUJIcmIzODdHZEJDWWtNNTJVOUVIRGxwNTd6YnhsNnhhem9Sc0dJcExYVUhORHdJQ2pQdVp0SWNMNjhzUkdET2RYOVJnc3FGdEtpOXhRalBzOXRidWw3a0ZtZmhGWkxHVm42N3dj?oc=5",
+        "published_at": "2026-10-22T12:00:18+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
