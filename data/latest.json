@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-23T00:00:25.957399+00:00",
+  "generated_at": "2026-10-23T00:36:28.162425+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 99.43000030517578,
-    "wti_change_pct": 2.346884964988427,
-    "brent": 113.23999786376953,
-    "brent_change_pct": 4.061751682908277,
+    "wti": 99.20999908447266,
+    "wti_change_pct": 2.1204297748209644,
+    "brent": 112.9800033569336,
+    "brent_change_pct": 3.822830062282412,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
     "vix": 19.030000686645508,
     "vix_change_pct": 14.088731046009183,
-    "dollar_index": 101.57599639892578,
+    "dollar_index": 101.51499938964844,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.35%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +2.12%. Geopolitica: Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-22T23:50:00+00:00",
-      "brent": "2026-10-22T23:45:00+00:00",
+      "wti": "2026-10-23T00:25:00+00:00",
+      "brent": "2026-10-23T00:20:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
       "vix": "2026-10-22T20:15:00+00:00"
@@ -40,7 +40,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T00:00:13.997310+00:00",
+    "updated_at": "2026-10-23T00:36:16.151585+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,7 +57,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -71,7 +71,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -83,6 +83,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Opinion | Oil’s great escape from the Middle East - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnBBQkJLYmlzMGtrT3g5bVNHdGtCd2Z0YzA4QzNpQlBOYWpsck1iTDRuTUQwdVdJdEUwdVIzZ1hOV0xpaEl3N3V2eFNNRmF4VU52MTRRa2k4U2FHVGdxbDd6ZFNhTnJXeWtrVVhqRmZEdmJydzJQT251a2xYNUZpTjNwZkVFYmdvU1ZiSlRSU0JRZ3lzdTJJ?oc=5",
+        "published_at": "2026-10-23T00:03:29+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "‘More Money Means More Dead Ukrainians’ – Kasparov Warns Against Deals With Moscow - Kyiv Post",
         "source": "Kyiv Post",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9UalY1TkZBb0RFTlhLclczNzY2MnR3YVBzY3dxcFJMZnhMTXBRZ0Y4ZElIelVZQ0R4NjA3emZlaDY1T2FxNUlob0hWYw?oc=5",
@@ -92,21 +101,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Opinion | Oil’s great escape from the Middle East - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMnBBQkJLYmlzMGtrT3g5bVNHdGtCd2Z0YzA4QzNpQlBOYWpsck1iTDRuTUQwdVdJdEUwdVIzZ1hOV0xpaEl3N3V2eFNNRmF4VU52MTRRa2k4U2FHVGdxbDd6ZFNhTnJXeWtrVVhqRmZEdmJydzJQT251a2xYNUZpTjNwZkVFYmdvU1ZiSlRSU0JRZ3lzdTJJ?oc=5",
-        "published_at": "2026-10-22T23:35:25+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
+        "published_at": "2026-10-22T23:15:46+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Prices Jump After Houthi Strikes and Iranian Shipping Attacks - The Maritime Executive",
-        "source": "The Maritime Executive",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWW1DNFFSdW93ckIyNGNFNkJ4ekpscEZiMGtUQjJVSm9rZFdrVGg4VkozMmNHQVd4ZzFvd1hvZDVqV2dVOVJtbFhtUkFoX3d6b0NQYTQ0d3VzdER0dUVvY3R5OEUwS1FoZkNYdE1UNnRMY1dha1AxcWRPMDRmanh1TDZ4NmNXVGQ3TF92M2NYZk9ZcE5hdjlzcWRjMllaTGRBTHk2OVA3RQ?oc=5",
-        "published_at": "2026-10-22T21:12:08+00:00",
+        "title": "Iran says 7 oil tankers damaged in Strait of Hormuz, and other Middle East news - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHI0VlZ2NlpRSGlRNXdGUFFQZ3J4bFdEdVpBYTY4Vjl6UDZnQS13anNtci1yRGhtdkJHWklnaFc1dGZ0RWt3VGpxczlyT1FUSTBBRWFJUDhUeXdYT29jWjVRYU13NTRZeHR6b2hTOUlLek5PRS03Rl91Rm80eE55MV94TWNZSFNxTkRlQWtrdWI3ZjhfNTJrUElXMWNlREZVdnZTT01aTWJIajdla1BZczBTNXdSb2t40gG4AUFVX3lxTE9YcjRWVnY2WlFIaVE1d0ZQUVBncnhsV0R1WkFhNjhWOXpQNmdBLXdqc21yLXJEaG12QkdaSWdoVzV0ZnRFa3dUanFzOXJPUVRJMEFFYUlQOFR5d1hPb2NaNVFhTXc1NFl4dHpvaFM5SUt6Tk9FLTdGX3VGbzR4TnkxX3hNY1lIU3FORGVBa2t1YjdmOF81MmtQSVcxY2VERlV2dlNPTVpNYkhqN2VrUFlzMFM1d1Jva3g?oc=5",
+        "published_at": "2026-10-22T22:48:30+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -133,6 +142,15 @@
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IdC1lVGNvLWE4R1YzcXpBM0RMX0N3UWR2VVdDRlFGUEpNVnVwaXY3MkM2MlRmTFdkX1gtaXczaTBQajhvUHNfQ0RxcmMtTFdfWnVrU3hpWmhGdm0yY2pjZHlpZmoyaGlhN1hEYVRmOTY2RXZmcnBwWWdoVdIBe0FVX3lxTE8tNnhZaW1lNkg2dGszX2lOek9OX1RxOWpMVEhQN0ZsekVQTHh4Wk90X3RZRm92Rk5USFd4cjdzcUZ4Q0lXSjRzeXZWT3ZUQjczTUs2bEdYay1QaXJZbHJTMlhlbmtScHNUa0NBUUppUC1mam1FWHJXd2tTZw?oc=5",
         "published_at": "2026-10-22T20:53:20+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Report: IDF chief says no operational need for strike on Iran before Israeli election - The Times of Israel",
+        "source": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNGk4Y3lyVnlzNnlHdHgyYkI2ZENwOXk0TWk2bTA1YVlpU0lJQ1V4VXk3OE8wck9LSFJTZGlEcXhQYWpWZFhLZEVoOU1DUE5qeFJoVHEyRmdUQmJQU3htdHUxaU1aamdjUTN4NGY2Q3o3di1KMEl4d2xCeHhFaEZZWHJaYmlHS3phQlhXaHVmclNkZ2F2NTAzVUM2X09Sc1RDRThxVXFn0gGrAUFVX3lxTE5xSVVyaDMtaG9hVDdMd2FFWUdtN0t2ZGpoNXZMRHVSU01neVRCMmFWZ005anliS1RiVjZ1Z1pNMXVqczAtVVRsUmZmUXNJa0RIejh0aExQbzNUdDBHaW05Z3NJRnRPMUNFek9meVJNa0c3TnhhYm9QM0hrUi0zNlZXdjdYR1czM242WTJyLU1wdkdLZE1GT2wwYjc5Nzc5SFVqZFd5Z3I4VHY1MA?oc=5",
+        "published_at": "2026-10-22T20:52:00+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -182,24 +200,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US, Israel have drawn up detailed plans for renewed strikes on Iran - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5",
-        "published_at": "2026-10-22T19:59:47+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Darline Graham did not discuss split over Russia sanctions waiver during Trump visit - Washington Examiner",
-        "source": "Washington Examiner",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU0o4RTJ3SlRYQjdDVTBHaWJySFhNeFNNWVBzcEhndTUwckEweWZnak1vWFljTFhDeks3V0NIeTR3QUFOTVM0WlBWc0xWaHRRV0RvSFlfeXV4bkowX05RQjJiWF9GTEh1VUpIVURGLWRzQXBqbDJMVG9qR1M4dkhKSlIzUVlDTVl2a1BVaEVsWUlXNXpyN2lBSDI4TTE0bXJHTlAzTU15dnpiWXUzaTU1Z2ZmLXhrYXhSLVYzdUx4bDg0dw?oc=5",
-        "published_at": "2026-10-22T19:37:17+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Pro Tem Paxton and Sen. Pederson Celebrate Opening of Taiwan Regional Trade Office - Oklahoma State Senate (.gov)",
         "source": "Oklahoma State Senate (.gov)",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR0lmRTYxMmNRVm5GZFRmT2g2U0Y1TXktYzI4OXRrWk9ZWnExbWhDR3AycWtqUW56NzZ2dnBvQ3J1bmZURTFteVh0bnVXc1JTRlpObXlhQzJPMVdNcVhmQkJIcC1qeV9XZEZaNEtYOGw0XzVfak1YOUNfWFJvNUNZX0w5Ul90Qk1qaW1WTHNKYkxKaUZwd3NPaWEtN0gyY1JZMG5TNWF4N2RWdlItQzNUZUpLeWJEOUFaVS1vYk5vOEZpZjFBRmR5THdvanNuWE9V?oc=5",
@@ -238,28 +238,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Moderna stock plummets even after data confirm cancer vaccine with Merck met key endpoints in melanoma trial - The Boston Globe",
-        "source": "The Boston Globe",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT242QVZpcnZVQTByOFY4THF5eFlwZzNkRzNhX2toR0VtZ1BReFQ2ZEJJYnJESk1PNUlLOGh5dkFVYzlQc0VENkRZWDFDZGF1MlEtbGpxRGs0X3gtYW5BQy1DdXA3YmJ6eFBLOG1uYWFPb2JKOHVyUkM3dHhhRm1jMTlBbGNFb1Q0ajRVVFpXMmxZY1hUZmdTZDB6dlB2TmpxWEtpTTcwVjdhdw?oc=5",
-        "published_at": "2026-10-22T21:45:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "3 big reasons Micron and other chip stocks fell hard on Thursday - MarketWatch",
         "source": "MarketWatch",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGZPNEpMdnlfTHU5OFFIbXZBM0VtWlJyWWhJTDNHWWRoUlBWLTdSR28zOXFrOU9GNG1Db2VhQ1VNVEZweFFJYlEtZTVnUTduQkR2bkRRdWJVQnhEZ3FzS3B5cTJ2c05tRTNLOExzY3BuVHV0MW9aRUlqMVhUTHExcDJHUkppaXloLVZta0hNMjhrSy1vOURaM3E3WUZaVENCRFRYamY5a1dYNHdNUTFYQw?oc=5",
         "published_at": "2026-10-22T21:19:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Intel Lobbying Rises as Senate Advances Chip Export Controls - Legis1",
-        "source": "Legis1",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RbVplTFFDckJtNGtGTnFYbnJBZkp1SzFkUjVIYUJwaVpabjJDTEd1OGNtdy1UTVAybFZpMXZxZ0FWOWVsQi0zUVdBb3NBQTFNT0hfS3hZVG1HdkNWd0JnUjloNGZiZ2xDLTR3S1c2YjMxR3RGempPN3BR?oc=5",
-        "published_at": "2026-10-22T21:02:07+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -301,10 +283,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Merck and Moderna Will Present Results From Landmark Phase 3 INTerpath-001 Trial for Intismeran Autogene Plus KEYTRUDA® (pembrolizumab) at ESMO 2026 Presidential Symposium - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbTU1UkwtM2pDRWwzSTdzcFpDTzYwdWVFaFhOZjZQNDI3clNkX3FmcnlrYkNlb1lJQzI2bzkwT1JjQlB3ZmYwekYtdllZdzZuYnFmNGo0S2tNMEFtT1NmV3QySm1rVXh2emhFbEdPMWpJa1BBQ3BVZFhnbkxfYndodVpZQ1ZZOVRuVV91eDRoLWFwQ2JocHFUMlF5UmxZVElH?oc=5",
+        "published_at": "2026-10-22T18:59:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Nvidia launches Minerva to catch failing parts in giant AI data centres - The Next Web",
         "source": "The Next Web",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yVTFZbXFBSW5aX3I4RnVzSi1fYnJIVzlYQjVXWktlNDlOQ2dQaGh0NnFVVjdoMlgydTdjQlZqdHNnQVBMeE9UTWdfaTJ5cUtyX0NSZ3FCYW9leXduMEE2UktjQTIzR0F4Vm5oVTg4UkkzZ1V4cEN0YTBR?oc=5",
         "published_at": "2026-10-22T17:25:56+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Chip Stocks Fall as Supply Warning Deepens AI Selloff: Marvell and AMD Sink 8%, Intel Drops 7% - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjE3M1E5SV9QdGI0djdaX000RGV5MTRzLWlJZ1BLeEZ4X2dwWXlwVWVmblhIVEhiMXU0U2JHOHMzV2pHM3JnZ0RfWDRsS2dzVHQ0SG5KczFUVFd4ZUZFQmRjZUpPRS01RWVRdnFwTGFYcG51NkVyN0JFTFZBaGhwLTVrTXVMUVd5SmxSajRacF9vMzhuZWRn?oc=5",
+        "published_at": "2026-10-22T15:45:08+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
