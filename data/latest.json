@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:05:00.606693+00:00",
+  "generated_at": "2026-10-23T23:30:43.526842+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -18,7 +18,7 @@
     "dollar_index": 101.75199890136719,
     "macro_score": 36.0,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%. Geopolitica: Oil Holds Biggest Gain in Week as Saudi Attacks Fan Supply Risks - Bloomberg",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -27,20 +27,14 @@
       "sox": "2026-10-23T20:00:00+00:00",
       "vix": "2026-10-23T20:15:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Oil Holds Biggest Gain in Week as Saudi Attacks Fan Supply Risks - Bloomberg",
-        "source": "Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjR5Ukt1bFQ2cG5CR2xEckxfejgwaHhOLWwyTGFRM0xFOUowbGEyUEphdVZFQ2hjaEFLZ3g0ZndDWUxLNzNUN0ZzQUx6a3NtMjZtTG05WDI5cjh1NzlkLVdBQzNqR05ZQURMeE9GWlRuUXA0MDR5alI0N1JrNmtsenhPcGtZcnJwRk1xWlpTQVpuamwwaHdBenB0cTJTZw?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-23T23:04:46.438378+00:00",
+    "updated_at": "2026-10-23T23:30:31.406817+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -83,21 +77,21 @@
     ],
     "geopolitics": [
       {
+        "title": "Oil rallies on dual-front war - Oil & Gas Journal",
+        "source": "Oil & Gas Journal",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZUV2X3ota3FtSC1qbWVYWmZOdXhMaDhYTjd3QkNqSTg0MjBMVGRGNDI2X3R0UEE5a01LMldNdENEa2dwSlZ3SkhaSXFiT3FJa2c0b0RtSE1iZ2RUY0tHZFFEVmU3aU9HWTE0NUhpMGRkUGtmTGJxaTJHYUJ4aDhXejFfZTJ6ODZpbFBiRWRqakZEb1ptQkZ4RGFfVE9oLXJOMFk0?oc=5",
+        "published_at": "2026-10-23T23:26:54+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkNRM3hJTVJkUGxjNjB3QmhSd2FSb2JHZkZtTjVNdzNWeHJ4QkpwdEd0cWttQjg0ZmVSQUtCV0JHTFRCeTd3NGJITy1ybDRTQzB4ZkhEdDEtRkRhcUZrWHdONWJZZFlBbGV5YmhkbDh5LTlaZm9jelQ3Y2FWOEcxUlhLZE5yX2c4dVhSZlYyVDUtVllza2ZLLTVXQ2RCN093aGJlRmc4RU9jcHZROVRv?oc=5",
         "published_at": "2026-10-23T22:29:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_DISTENSIONE_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Is Melania stealing the Pope’s thunder for a Russia-Ukraine ceasefire? - Daily Kos",
-        "source": "Daily Kos",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeFFrVFBvakFsUUw4N2FNc21OMWw0SzlHb1VwTDlIaUtPVUN0emxsc3hhT1RPT0lyNTl6Ym1hamFzUmxzSVJsZUtGZVg4U0ZZTDJoVFFvM21rY0E5RlUxcm12d0V0QzhoUDBNeEhkUGFDM0hyWGpHZWVoR0RWcl9IRXUtS0pHTUw1ZmdjMEE1M2o2Vnl2N24tLUw2LS14aUtwS21kUGhjVjd6dXRSQmx3MTFvTjN4S0lKT3BTWVdRZFBNb3R5UFZKWVdsWEV3dDA?oc=5",
-        "published_at": "2026-10-23T22:15:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -114,6 +108,15 @@
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY3g1ZWdGb1FvTHBDdVRKR093bHZmd2RPQjgxdWd2ZnIwblRXRWR3VDVPd1RBVVN4QzdMbDUyX29vZVpFLS1Ha0hvRWtPdHNYZ0ZkcWhZUTJVYkR3c3VQZnoxakJlMy16eHpuZ2FvRHFaTEdwd2lSay1wWTFqemhNR2JaTXVudVlVa19GTkpjNDRJb0xtS0lIN3BtaTBmOGJfb2tCcFMtNGFsaERNcXBMZ0xJRmFfa3hmdGdneEhR?oc=5",
         "published_at": "2026-10-23T21:27:14+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "First lady Melania Trump says she brokered 'temporary' ceasefire in Ukrainian town - ABC11 News",
+        "source": "ABC11 News",
+        "url": "https://news.google.com/rss/articles/CBMisAtBVV95cUxObXNUaFhqQUdqTU1UTGhranFqeFZGX09PX01RQlhYX3hlSFRGdGU1OEY3N2UtbXBkYlZVczUtM0NGR0dOQy12bEhvS3FmRDNRc3JPWXVIaC1DZ0oyWWpQcndyMTBTaEdHUlFuQ0VCS05FSkNFSkN3YnZzcEhGWmtTSDFRYmptWTRoWlVEVDNUb0ljeGEtVzZZU29sVlNMeW5QVDVlTVpuRzJ5Zlkyd1ZIcEdiU3RCVlp3V052QkRUSXZtMnZwSHJtaWkxZjNOalY1Z1BZaFRaWXhaY2FfWHNBcllNdW1xZy1zZUhRcm9FYWpLdUQ5ZzhsTkFVdG5WTTZMQ3dVZXBqWDVlU1N5Wjc0Z0lKbnJvajQ2ZFZHeUFOTldmZkRwbjIyR3pNQkYtWWtubjBJdVBOaTJtRHFZUVhKN3FwRWFRVkVGd3ZwVlE4d3prRTlBN0RmUlhRUDhKYzFEdjV6SnZzMHpsX3lSdTVWU0hlVmtZTW1uNVY1NVVucDdvdmdIS0YtQy15aUhQNEp2aHUtU2ZCdkxnb0ZyOGp0aEY3OG5qWS1kMWhydGNRR0dzN1NTMFpFZ2RtNTBScE9yUEg3Z2cxUkx5NURJdVVQQWJYOXR2U2pOZzB2UTViNmE2bElnSFJFelRHMExLbHJ3b1ZvWW9oTHdUZXZ4aDJ4U2VlSWdWOW56aUZRWE90ZTBPcm1kS1BQM1ljWERhM2ZFU05xQ0VSeVh4MnhRVll2ZnJvVUJpemNrT1VNY3plZ0RzZXNldGFaS1lEMTlOUjRubURkTlBrcXNGZURfVTROQWU1bjlLNTNCSjJBUV9wRVVLWnJEbm5lbTlRV21fa0t6SnJubjQwMzhsbkpiWlVKTWdkNGYzMEo3Z3Nja3VjcW9EX1dfSHJ3YzZ0ckpKcm5DcXdTM2pfYUxYbFNSR3R2d1RpYWFaS1BpUDNIU193Y3QzWl9yTGh4MGNQb09CeFpjR3gzSDQ3VUszbmM2ZEFqNDQzMl80SHUyek80RDdSNDRCTXRoVjU0dUdMUkxuSVptMHVtU0JYekJIVGxyLWt2anB6LXdvczhCal9UbzZ4RWk0ZG5qZFFCQW5HcEs5VVE4NVZHMU9jZ0g1ZXN4SHR0U0JlYWZlV1d4SGFLM1A1dVgzNU9iVDZ4MzNyRVhWMFR3QVJrSjByY3FybDRCZUFIVjZXSWR6d1RkNkZycW5XdXYyQ2ZhODNpVEFoTWUwb3p5dG1meExOWU9QVFhVSklCamxXUjF3dU00cVp2ZDdtWkhHMEk3LXdNQi1nVUYxRVJQM195b1JWYWFfWlVHa1RsZHN4WGJhZTRNS0ZsRk5hb1dEQUIzTXJEZDdRaUM1Nm9zVHFnTk5wNEdSUUNiTlI5UDgyTmxyV1BtbmtXbVhLT1hObjYxd0ZNcmJWRzMtNDJ2b21yNlFnMzBBWUxWUFhkYVgtN3ZfTGF1d2lsdmlTVmlUanByLVVfLVVnV19SQ0pjdHo5ZzhETFJvS1RnYzdQX0h1VXZyMVdMdklVMllXQlBzYlgyMld6SDl4VHFLR2pMVXN2VHA0WVpaQnVTaGF4MUsydzR5OVRVU3o2Ylg2WjNJRmFFeHUtSU5HaDdCbjdJZC1fZHBjZXJUSW5HaXJ1OFdVR0RFcEhWLUtIRWl0Q1dNMFhFZXFxQWN2OE51eUd2YWkybVhOQzlDOFA2TlJydmJlQUVEX2xlT0YxZlNkY25Bb2NvWm1VbzVTVXZWSVRVeVhOckpPVEduc1kyRTJZOW14WUhPVmtLOFRvcWJBRnk1YXpaVmhiYUJyN1lsU2t3VnUwaUl0R253cmNVbGlsRWdneTFodllPelFZZzVrTzM5ekRkWUdzNG5FMHZta3FuT0trWTg0bFljakxPVHJJY212Smd2TGtQRlBzVnhKYUN1YXVqZTFlSENOQm1YTllE?oc=5",
+        "published_at": "2026-10-23T20:31:28+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -155,21 +158,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US Ambassador to Turkey: Could there be an Iran strike this weekend? Absolutely - Israel National News",
-        "source": "Israel National News",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSQk5pcnJTY2h6ODdoZ3h3Zk1RY1lfS2V6SHFGNUVobGVUc0dUYjdycjk3Y0N1ZFVvZmhISXJCd3RDazdtOEVyVzFtSkI5dW5rM3pzaGZqRUlTdw?oc=5",
-        "published_at": "2026-10-23T19:43:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia, Ukraine agree to ceasefire in Ukrainian city hit by food crisis, brokered by Melania Trump - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZkVOVkZPUnl6Z2d6SWt4cWJDOUNrSW5Fdmt6WXVUTXJMRXFCMXVVSWRZUWNHUXc3Nk1MZHlLNGVhVzNRMWdsSzByUmtHWFh4YzNRVjVlT2dCbjh5Um13c0kxT2pENE1zS3hmbi15T1FEcHl1SWgwNFVIZTdYaW1LdktVZjVVeUIxOTEzUlZZZnQzVmpSdGd6d0lyTXNjWGUtZERkVXM5N0VZeFhTamI3VGRSeXFqUlJNbU81c2VlcGlrQ01MU1VR?oc=5",
-        "published_at": "2026-10-23T18:19:51+00:00",
+        "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
+        "published_at": "2026-10-23T18:39:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -220,19 +214,19 @@
     ],
     "corporate": [
       {
-        "title": "Merck and Moderna release promising data on cancer vaccine trial - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTU5YaVQwV1dnZ0pNckkwWFhfd2trQlhWTUluQVA0R0p4YkNVVnRjZHAwZlp3ZldDcWNIZGRhRnlUQ1FnQ3ZqRmpNWllxUkRHRF9JRFVHbFA1NDN6alhnMFJkN25jVkp0dnYxdU9JNzRPa1UwOTFHenNodElHa3ZNN19kcmxYWlFWNlZoZmJkSW5NQ2ttZmo4ODJJTm9BNjdxcnFuZS04TjFwaWVwckE?oc=5",
-        "published_at": "2026-10-23T22:56:12+00:00",
+        "title": "Patient dies in Bristol Myers Squibb autoimmune CAR-T trial - STAT",
+        "source": "STAT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlQ0M1N1dzlaclE5RFJsRHhYYWJURFR3Y2JWVGZLMS1vSTY0TVhmcm51ampiZ1VGUk9zWGNCNHFJNWYtN21SdFdHYnFXMkF0WmtxOU52LXc0R1JIQzhiT3dmYU9oUEY3d3FEbi1IQW9qcV94MXI4UjNQbWNYb0FqakdQUW4xS0MtSkxGN3dPWkdQcmRCSTBBUG9n?oc=5",
+        "published_at": "2026-10-23T22:24:46+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Patient dies in Bristol Myers Squibb autoimmune CAR-T trial - STAT",
-        "source": "STAT",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlQ0M1N1dzlaclE5RFJsRHhYYWJURFR3Y2JWVGZLMS1vSTY0TVhmcm51ampiZ1VGUk9zWGNCNHFJNWYtN21SdFdHYnFXMkF0WmtxOU52LXc0R1JIQzhiT3dmYU9oUEY3d3FEbi1IQW9qcV94MXI4UjNQbWNYb0FqakdQUW4xS0MtSkxGN3dPWkdQcmRCSTBBUG9n?oc=5",
-        "published_at": "2026-10-23T22:24:46+00:00",
+        "title": "Burlington biotech company cuts 45% of its workforce to pursue a single FDA approval - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUndlV3hYdFVzMERtc3pIRl9FNXhBVGNQYk83U0xRMmlwajVlSVg5a0t2Qmo0aGpMS0h4VmxUMVY3RUJ2YUJrNGNKaGVTMDZiTDJTaTRJOC1NM2E2WmZvMzltRlhXeERRaHpDaXBEVlRMYmx1cVc5Q0NMblFva1lpbVFuTUhNSl9fVW1xbmpnRmFGVXNJWW9oWUhHQQ?oc=5",
+        "published_at": "2026-10-23T20:21:47+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
