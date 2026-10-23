@@ -1,40 +1,97 @@
 {
-  "generated_at": "2026-10-23T08:21:59.113684+00:00",
+  "generated_at": "2026-10-23T08:58:11.380040+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.953000068664551,
     "treasury_10y_change_bp": -19.2999839782715,
-    "wti": 100.55000305175781,
-    "wti_change_pct": 1.0857563263303671,
-    "brent": 109.31999969482422,
-    "brent_change_pct": -3.401960357349876,
+    "wti": 100.02999877929688,
+    "wti_change_pct": 0.5629813528917449,
+    "brent": 108.87000274658203,
+    "brent_change_pct": -3.7995895484102205,
     "nasdaq_level": 26008.859375,
     "nasdaq_change_pct": -2.598972605344818,
     "sox_level": 10731.9775390625,
     "sox_change_pct": -6.723549832778697,
-    "vix": 19.200000762939453,
-    "vix_change_pct": 0.8933266955331476,
-    "dollar_index": 101.74700164794922,
+    "vix": 19.020000457763672,
+    "vix_change_pct": -0.05254980830796674,
+    "dollar_index": 101.80000305175781,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +1.09%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.60%, SOX -6.72%, US10Y 4.95, WTI +0.56%.",
     "quote_times": {
       "treasury_10y": "2026-10-22T18:55:00+00:00",
-      "wti": "2026-10-23T08:10:00+00:00",
-      "brent": "2026-10-23T08:10:00+00:00",
+      "wti": "2026-10-23T08:45:00+00:00",
+      "brent": "2026-10-23T08:45:00+00:00",
       "nasdaq": "2026-10-22T20:00:00+00:00",
       "sox": "2026-10-22T20:00:00+00:00",
-      "vix": "2026-10-23T08:05:00+00:00"
+      "vix": "2026-10-23T08:40:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "category": "AI / Cloud",
+      "priority": "high",
+      "satispay_status": "unavailable",
+      "current_change_pct": -6.58,
+      "short_term_change_pct": 1.14,
+      "relative_volume": null,
+      "quote_at": "2026-10-23T08:55:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWV"
+    },
+    {
+      "ticker": "BABA",
+      "company": "Alibaba Group",
+      "category": "China Tech",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -3.64,
+      "short_term_change_pct": 1.12,
+      "relative_volume": null,
+      "quote_at": "2026-10-23T08:55:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "BABA"
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro Computer",
+      "category": "AI Infrastructure",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": -2.59,
+      "short_term_change_pct": 1.02,
+      "relative_volume": null,
+      "quote_at": "2026-10-23T08:55:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "SMCI"
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -1.67,
+      "short_term_change_pct": 0.9,
+      "relative_volume": null,
+      "quote_at": "2026-10-23T08:55:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "TSLA"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-23T08:21:47.984557+00:00",
+    "updated_at": "2026-10-23T08:58:00.299772+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +101,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,14 +122,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       }
     ],
     "geopolitics": [
@@ -104,6 +161,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "‘Starshield Still Limited’ – Zelensky Says Restrictions Continue to Hamper Ukraine’s Drone Defenses - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ZNVJWZDB6TDItVlpnejctTjFxUHY2TGpxLWhneHBnZVJWb2dxMUhKeGoyZEVvWDVhS0JIT2RKTk1rcFozN2RRd1FfNA?oc=5",
+        "published_at": "2026-10-23T06:40:47+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China Club of Seattle, created to promote trade opportunities, is established on September 9, 1916. - HistoryLink",
         "source": "HistoryLink",
         "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByaXp6bFdLM0hMamtvczZQSTFES3pqNEVTWlNwTk14aGNybUd6Q0tCbUJxY2E0MXE0ZDRWTjRFbExURERjVU83TmZZMGg5M1k?oc=5",
@@ -131,20 +197,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ukraine seeks to move customs checks inside EU to avoid Russian drones - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOHlVZENCd2FZNEQ4MUVfMWJ0VTNLX0xMc3NteUtXUUxXSXlON19WTEpXM0I3V2JxVGhfS09xWlBBSEp6WDF1VEdLMXE5SkRoQ1d1TUxRMmdHY3ljMzE0WXFRNHNGTTBQeVhDaTY5YmZpajVKdlhDNjBPN2pOYWxGU1dGQzQ?oc=5",
+        "published_at": "2026-10-23T04:00:37+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZHcXQtZDkyLVVrN3lPTWFDdEVROFZZbndSMWVyTmRRVFlqTXJDVmtZUGNoYUlZb3hlUGg1ZlRqcWw4UHBTdGtoazBtMVdVTEs0Q3JxZW9Gd18ycENaYjFyV1E3cFdETkRYNVNKSmtwOVc5eWYwaUREel80Y0x1RVZGWWFKbWRWR2lELUxKUnhnMV95WElaVnhZVE9za0RCbENxYzBNQVltZlJYWDgwdUQ4OFg3WFhP0gG-AUFVX3lxTE1lc1VKUHBYWDlVY1hWZl95RWFoc0JrYm8wdzhsS2pKOGltMmFocDZ1MnpFWUxZS3RWR0pYaHNwZ1RFU3Q4Q0YxcXdXTGMteHVObXhCUkdKLU4yR1RQQ0dPVTI5S0J1NVVsbjB3YUNQVzQtaVMwSlQzaU1hRC1GcFN2TEcyaFFRb0RCNHlPdW8yOGthcUZVWTlZWlZoVkxtS3VLQ0E4Q05EN1k5QkpHYVQ5Y1RUTDhlYWhwTnV0R0E?oc=5",
         "published_at": "2026-10-23T03:46:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia Launches Massive Drone Attack on Sumy as Moscow Continues Strikes Despite Peace Talks - Kyiv Post",
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA1YnBUR2dwazRxdDhZbERVb28zM2hCZ3FpVE9GbnozTlV4SVlzUU5HX0pPS19TOVBmTk1OUWxyQU1LSGFuNTg3eEV1WQ?oc=5",
-        "published_at": "2026-10-23T03:45:10+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -189,15 +255,6 @@
         "source": "The State",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IdC1lVGNvLWE4R1YzcXpBM0RMX0N3UWR2VVdDRlFGUEpNVnVwaXY3MkM2MlRmTFdkX1gtaXczaTBQajhvUHNfQ0RxcmMtTFdfWnVrU3hpWmhGdm0yY2pjZHlpZmoyaGlhN1hEYVRmOTY2RXZmcnBwWWdoVdIBe0FVX3lxTE8tNnhZaW1lNkg2dGszX2lOek9OX1RxOWpMVEhQN0ZsekVQTHh4Wk90X3RZRm92Rk5USFd4cjdzcUZ4Q0lXSjRzeXZWT3ZUQjczTUs2bEdYay1QaXJZbHJTMlhlbmtScHNUa0NBUUppUC1mam1FWHJXd2tTZw?oc=5",
         "published_at": "2026-10-22T20:53:20+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Debrief: The Dark Side Of Russia’s Drone Production Machine - Aviation Week",
-        "source": "Aviation Week",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV1ZsNHQtWTltdTJYOEQ5OEw3bFAtcU5fTzA0amJiYnc2c2c1ZHl5ejNfcUF0bmFvdzhXNi1ZR3NvVTNJN3VzRW41Q2JobTlBSlJzcGdfRFp1aHJxdGN1STlHUm5weTBTelJyTEYtQ3pkeXRPM2hjd3BWN1BaV25KMWxhTXJ5T1JfVkkyUDJELTU3Q3duQjRXLXVKd2FiRk93UmsxNHB3?oc=5",
-        "published_at": "2026-10-22T20:45:52+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
