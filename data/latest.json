@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T19:14:35.148921+00:00",
+  "generated_at": "2026-10-24T19:39:11.486170+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.2699966430664,
-    "wti_change_pct": 3.820242661837203,
-    "brent": 111.69999694824219,
-    "brent_change_pct": -1.2989319117144849,
+    "wti": 103.44000244140625,
+    "wti_change_pct": 3.9911542897184793,
+    "brent": 111.66000366210938,
+    "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.3,
+    "macro_score": 36.0,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T19:14:24.362706+00:00",
+    "updated_at": "2026-10-24T19:39:00.174767+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -77,6 +77,24 @@
     ],
     "geopolitics": [
       {
+        "title": "Bank of Israel against Netanyahu: Crypto cannot be used to circumvent sanctions - Haaretz",
+        "source": "Haaretz",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPNnpGUmFZZUpkZHhDRGJOMkhaQjhaQ3VETFI0V0Z0U25OelhvUVhWU3lPMUo3a2tFTzVMNXpyby1tUW1RRmNtWEhSUHhzQ3Y4aWNWVTZmOUdQWmdRRkpvaXlNMUpxQ0VqNGhtUWRKZWt6LU5xc19LTDdkZzRmM3FzTnZxcE9XMVZMQ2FaQkxYN1RuNUxZcEIxTlBHYm50Y1hzMkU2STk0WHlWcXhfazM5ck53UThvdG9ReE9LOXN5SEdOa0htbDByejhyM2dlQVV4Ry1FdmE3RmtrZW9HVEtQVDdRcFctQng1NElld0FXUFB3VDNpWjJiVHhad2pJRnJlUUhLQkpiRkdsZko5b3pIYzRYODZKa0MyM29sdVZPdElPT2hWcUNzVm9GejFvNko2?oc=5",
+        "published_at": "2026-10-24T19:24:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bank of Israel Rejects Netanyahu Cryptocurrency Plan To Bypass Sanctions - The Media Line",
+        "source": "The Media Line",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZjJDZlRscE9oc3hUdEVRTjA0dzhzakxQV25vMVhCUTFUYkRfeW5BOUdJeGx6MDRrYUVHbXFFRmUtUHVvNk15OU9uVzFsSWkzbUdUVnR5VnJZU3djZllVRjh5YnVGeUgtUGJhQzJ5ZWhxa3A4QldwdzhUUWx5VS05WHdPck00NF83cGFwdXR2NWJEaTBmdk01cWVYT2tUQzZRSm5QSFJ4dWdHT0oz?oc=5",
+        "published_at": "2026-10-24T19:16:19+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "​HE GCCSG: Houthi Terrorist Attack on the Kingdom is Blatant Criminal Escalation, & Exposing Makkah to the Dangers of These Attacks Represents Highly Dangerous Violation & Provocation to the Sentiments of Muslims Worldwide - الأمانة العامة لمجلس التعاون لدول ا",
         "source": "الأمانة العامة لمجلس التعاون لدول الخليج العربية",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45bXN3RDlRNXF2Uzk5MV9naWtXZnNwX3VqTzh3U0FEMF9lNVpjdldBVFFKQ3VhTFg2NjBSM0tsaU5ULWE3NzhBYWdqc0p0NEp2dGpXMzZ6b3B4X3lTWWFBU2pLVk0tODVEMnFwa0JtdHZyU0lSSWVfT193?oc=5",
@@ -104,10 +122,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Live - US warships ready for potential strikes on Iran, WSJ reports - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
-        "published_at": "2026-10-24T17:13:11+00:00",
+        "title": "Saudi Says Shrapnel Fell In Mecca, Medina After Houthi Attack - NDTV",
+        "source": "NDTV",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUG9vRGJuZWloaURSUzdBV3ZsTnI1LWJ6a3pkX3UzZlE4QWR0c1N1S1NPd0poT0tGbmRPY2JFRWhiVGZOS3FycFJyeFJwSTVBSXNySVdRWExPckIwd0pKUHVuMzc4Sjctc0ZqODFUQk9KTFRZY091TUxfQ09sSDg2ZGxFb3JQRDVucDJKbHRNa21GbmdvemNZYlBROG04ektwcS1z0gGrAUFVX3lxTE5iZU9rYWpUY2ZnZzM3WEpoZE90YWVXZ2Q1ZDhEZ05GOHNlLV9VbGF0MThZMWx5ZlVZYVpGYlZPa1VTNzFKOEU5dTg4c3YxS0ZWcl9XeDJzRU9oTl80bk5oLTRPM2Y1dld6WWFOM3haRDhDV1NQbXJKeWJVV3Zaa29vZ0YxbFN0aGZpcjlFeC1oN1pEMkJLeEZjOW9weHNfcEVkLUhIbHpJRHVtYw?oc=5",
+        "published_at": "2026-10-24T17:30:38+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -131,20 +149,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Benjamin Netanyahu warns of banking sanctions, plans alternatives - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdGpHOHlpeHMzV0pMc3JOOVJvN3AtVFNjNGZWOUNzM1JlbkdLWmk2MVlHV3FBYkZqLUFJaEZBRW42OHhRZzRtWUw5RFV2cUwzZGR6d2FQeE0xWldISl90TGhqa1E2eVFGUXZDb0RKYXJZN1pEeFNyOU1OcW9MaElpeF93azluUQ?oc=5",
-        "published_at": "2026-10-24T16:14:43+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
-        "published_at": "2026-10-24T16:03:43+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Ukraine regains critical Starlink service after restrictions disrupt drone operations - Fox Business",
+        "source": "Fox Business",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSnpPdXJvR0kzLUpzdmpBSXY0MkdGUHlOMlhEdXlqUFJYcUFPcHp3THJ0UGU2R1NaTXR5dy1Ed2M3NmNnWVlQOVhnb3RzVFdQWG55Qi1mbEFZZTRRODBsanR3aHV4MUl4ZWVsZ2tuOGFQazBWbGJ5RTV2TUc5SnJRZmZJV1dmTGt0VlpweGl5RnIwLXhRX1dZSmk1dDB0dTRQbEVSblJNc095QVU0SWVjN0o3N0dheDliWF9INl8za9IBxAFBVV95cUxQcDdjSUY2eVlWRVVBbXltNmNld0R1Q0dWX2NuZThaOFpyaDFqMGt2cHhzaUJwN09OTS03M0xXSnlLWGxpNXM2ZmUtY0ZjMTB4X29TaFNueDUtR1ZnNWZTcTk2VDNyaWJCUnVCTWstRzVONUs5RzRSS3ZnblBNRTFSdG9mQWp3RG5HZXRjZjRKc1pSUS0xS096U1AzTDA1ZERZcUtFYWdZaE4tSkl6YVdMelY2aC1semQzNTRzZWRvalpFTC1w?oc=5",
+        "published_at": "2026-10-24T15:37:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -176,15 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOWNkcVZKWlJMQ0Zxd0RrS0w0bWdFY1E0QzlrZnRKWWpBOG84MFNVRVFlRE9wYmJpd1IzOFZTVGJ3ek5EYVFwMDdxYmU0TWtFckZ6LXBDMHc3ZUxDeC1ubm95YlZBR1N2UmRmT0FWUXJ0NXlialV3Q1VjcENyaXJ0QXFhenk4NnpwYnlrZjkydUw5THdKdVp5blNSOFRxV2w5eDdFeUpUM2RRdnBUdkdEeWQtX3PSAboBQVVfeXFMT0NEdmVTblBycGotZklrLUF6LXhEZ1pmSnU1ZFhSai1uOUFtdnNMMUVHU0dBbFhjY1ZjZWNLOVpYa0RuNkRjcG9zRUl4VURxWWlHM3J6N1NsLUNRU1pGN3NaTV9kZ25EQnlIY2lGcnNFU0NTY3h2UHF3VXRBNHNETi1BNHNwcTJYVUQxTU9Ya3QtenNPRTRoTE1MZ0hZb2ZlMTJIcnJkYlhzY2RqNkQwZEtiQlhXbUlzRGNR?oc=5",
-        "published_at": "2026-10-24T14:46:56+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Opinion | The US has South Korea over a trade barrel – and the world should take notes - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdCMFZITTNtTGgySnppY3lMbG5zMGFVNEFTVnRaemJDN0VQUmJhejRvX2pTZFdfbC1MbmlmN3lZOHZTUVk4eWhadHlKa0ZFRjJzbUR2Q1VMOGViS05iQXVfUFlXc01xR2pVSjRnWUhyZm5fT0t5b08zZW1vNHM4UFlnbUU2ZU5HR0szaUVCTnN3QmpSOG1PUHpJQ2dxMmVuQ1hZTE9yZ0x1bDgxTENxV3pn0gGyAUFVX3lxTFBnYkNqQ3pndXdzTE5OaF9xeFRXMU9aRjlpQUNzUnRSSWZ6cFRyRzlOSF9JUVJEb1JhWlQxN2dyM1d0bnp5ZGN2cXhJQ3Y4SmNmLTBnQU41QURYa2xIOU5GUlFZMnRVV29PRlBKcmVDTkNWZ1Q3dkUyeWtBWlY0OVNZal9HczBKbjhiUmpzeGpacm9BZllWbjN4b3F0akQwWVFtWGpXVDVfLXZPczdPalRvSUE?oc=5",
@@ -196,7 +196,7 @@
       {
         "title": "EU trade deficit with China threatens to break records this year - Belga English",
         "source": "Belga English",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMktzcHduRDFvU18xZTNSeE5ZVUhrMnZuT01GNjlGNF9PUllUWVJXMldZYW9xRFZmaG9sWmJfWkNSMU03VGxFclZYNTNBby1QSXgxZUdJYTFIMENhN0pSOS1abUV5aVBkU0I2Y3h3WG1USy1JNDd1SlNkbWJuYmFLaWJLWnowN1J0eWFKYlRUTU0zeWwxUUZTM3VVbEV2ejJkUm5ndTZ1RUtHd0dKbUNsYW1CYjU1V3h5N2t4N2JXTW1wRWdGWVhiMlNn?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcVNQMnRUTkhNMUtOVnNjVG4zRDhmcDVmU2NueGEzTDdRbEEwUTg1ZWtMVHdwSDZaY2RfLVN2ZEJsRkc5TTYtUlpGVk53U2ZOcTZCR0p0OWtyUXV3S0RuTzJEUWV3ZWJqTjFWb1VTNThzY0ZIT3JnV0xLQUFHdUltZXg0R3laWHdmTDRSbVZuQ3dpTHlUOEkwRmFWeFZObkh2ejFDd3pzRzJudDVBU2RDdXdSTkFYUm83?oc=5",
         "published_at": "2026-10-24T05:38:35+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -244,7 +244,7 @@
         "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - The Motley Fool",
         "source": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOEI4Q3BYOTQxY3YxX2k5MEpWWEo1eXpyQ1Q4TTRKRm5XVHVsWHZwUl95X1EzbHZVdUVtaXFublpuajhKUFVhdTNCbFh2Z3hSMHk4T1RwbURlWmdWRm9FNnJEWUFfUE96TElZa0sxdW5KYjdKX1RYbWxxbTlyclh6SDFGQnpfNDh2cjRzZkxpZlRGc2dDLThaeA?oc=5",
-        "published_at": "2026-10-24T15:21:50+00:00",
+        "published_at": "2026-10-24T16:15:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -254,6 +254,15 @@
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2JZN2FCT3F0UlZGUGF3czZWOEgyMXNRWkFybmpyNGJRb0phR0tsbW5Mbzg3VFcwZmZudEhvZUJMUDU0Mk5uOXRhSWlkc3ZqSWoyX0Fjbjlha0JkbDRPZnpJSTUxXzJqM05aLXNkdmtITmlXSndTbGVwcG9jN0dBMjZyT2JHODJoOHpTczBBUUNtWHZobHZxNHlGMVY3RWVyOVFBSWw1RG9WRlVIQUEtVkNn?oc=5",
         "published_at": "2026-10-24T14:35:12+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
+        "published_at": "2026-10-24T03:58:24+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -272,15 +281,6 @@
         "source": "STAT",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlQ0M1N1dzlaclE5RFJsRHhYYWJURFR3Y2JWVGZLMS1vSTY0TVhmcm51ampiZ1VGUk9zWGNCNHFJNWYtN21SdFdHYnFXMkF0WmtxOU52LXc0R1JIQzhiT3dmYU9oUEY3d3FEbi1IQW9qcV94MXI4UjNQbWNYb0FqakdQUW4xS0MtSkxGN3dPWkdQcmRCSTBBUG9n?oc=5",
         "published_at": "2026-10-23T23:49:48+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Merck and Moderna release promising data on cancer vaccine trial - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTU5YaVQwV1dnZ0pNckkwWFhfd2trQlhWTUluQVA0R0p4YkNVVnRjZHAwZlp3ZldDcWNIZGRhRnlUQ1FnQ3ZqRmpNWllxUkRHRF9JRFVHbFA1NDN6alhnMFJkN25jVkp0dnYxdU9JNzRPa1UwOTFHenNodElHa3ZNN19kcmxYWlFWNlZoZmJkSW5NQ2ttZmo4ODJJTm9BNjdxcnFuZS04TjFwaWVwckE?oc=5",
-        "published_at": "2026-10-23T22:56:12+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
