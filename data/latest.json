@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T09:36:11.691388+00:00",
+  "generated_at": "2026-10-24T10:03:33.558004+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.2699966430664,
-    "wti_change_pct": 3.820242661837203,
-    "brent": 111.69999694824219,
-    "brent_change_pct": -1.2989319117144849,
+    "wti": 103.44000244140625,
+    "wti_change_pct": 3.9911542897184793,
+    "brent": 111.66000366210938,
+    "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.3,
+    "macro_score": 36.0,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T09:36:00.348273+00:00",
+    "updated_at": "2026-10-24T10:03:23.739396+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +44,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,11 +77,38 @@
     ],
     "geopolitics": [
       {
-        "title": "EU Car Woes Deepen as Trade Ministers Meet - Bloomberg.com",
-        "source": "Bloomberg.com",
+        "title": "EU Car Woes Deepen as Trade Ministers Meet - Bloomberg",
+        "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVVN5RmgwempzVlRHVXByMy1HbFBVakhTQUNEVTVkSC01U2VhcHQwZ01WVElBck1TS3h4Nlp0X0VaeG9KLUtzNllDbjB0UUNmREN5X0tiZkhOcVFQRWJnel93cGdnWFNhRVUta2VJS2J1X0Vsa0VkRmltMWNVWHBuZzk4MGIyeHpzRGd2SXVEeWNDTzhwQVA3ZUZpMzFYd092c1dCUFNiTHFYdE13V3dLWFhWUEF6U3VLRUlFMEZsT1BQRThCbXVCZi1PZw?oc=5",
-        "published_at": "2026-10-24T08:31:22+00:00",
+        "published_at": "2026-10-24T10:01:28+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "The Subterranean Battle Playing Out Deep in Ukraine’s Soviet-Era Pipelines - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZi00MzBXZUJBMm9VVXVVTldsV3VwTG05c21McmdreGk2VlBNWVVjay04LTl1bDAyeXp5cmtWQ0tUTzVLYks4OElFNENWalFEOVNnaEdBc3BVd25UdkJDUllVQzhKVlVnWFdDcWVkXzluR0NOSU5kX0Vic2xfVXV3dGJsWnFnbkZjVzllVXV4ZXNHRk5EYlo3eDdDczJuWkl2dkwxdlk3c1FObHFZS0FlNktRTTl5dw?oc=5",
+        "published_at": "2026-10-24T10:00:27+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Why Ukraine is increasingly instructing U.S. military forces on how to incorporate drone strategies - Milwaukee Independent",
+        "source": "Milwaukee Independent",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVU9nMkFmVTdVMlAzbGFibWJhUHZNZUt0RGt5UHNIMGZWeDljLWppSDYtcGdvVHpwYThyMGhEeF9WemI1QTlaY2pKQXhkYjRGa2tsX0tDcFRBNEJleEtFZmstQmNyMWF4enFNQkRSSHJkb0ZJQ2dXNjdPV3FhQUZRS3k5RjFHSGRGbDdwN1QtbkJJZ3hxaWVjWFY5WDRKeERTNVNNZmY2QnZ1Y1lSbDBBZUJkMElWQXZOd0NxaHB3QWQ5aERjS0E?oc=5",
+        "published_at": "2026-10-24T10:00:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine and Russia eye new peace talks — and Melania Trump's mission — but steep obstacles remain - New Haven Register",
+        "source": "New Haven Register",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVVRVai1SQlpOMjR2WGFBOGRNSVViSzFBMGFNRTlTdTYxTncxcHN2OGdyajJrZ1l0WVgxcTF6WElUUlJoeHRQZ1JUeGExNjl5TFhwbGlOV1ItYVNUV2paelpjU196TFFTc0M4VTV3WEoweVAwOV9rQjV1WmdzeUItOHVBVFBwa0habmFxUllJRDZyT0dHYlU2LUl1MFBtSW9vMElz?oc=5",
+        "published_at": "2026-10-24T09:42:42+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -91,6 +118,15 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdCMFZITTNtTGgySnppY3lMbG5zMGFVNEFTVnRaemJDN0VQUmJhejRvX2pTZFdfbC1MbmlmN3lZOHZTUVk4eWhadHlKa0ZFRjJzbUR2Q1VMOGViS05iQXVfUFlXc01xR2pVSjRnWUhyZm5fT0t5b08zZW1vNHM4UFlnbUU2ZU5HR0szaUVCTnN3QmpSOG1PUHpJQ2dxMmVuQ1hZTE9yZ0x1bDgxTENxV3pn0gGyAUFVX3lxTFBnYkNqQ3pndXdzTE5OaF9xeFRXMU9aRjlpQUNzUnRSSWZ6cFRyRzlOSF9JUVJEb1JhWlQxN2dyM1d0bnp5ZGN2cXhJQ3Y4SmNmLTBnQU41QURYa2xIOU5GUlFZMnRVV29PRlBKcmVDTkNWZ1Q3dkUyeWtBWlY0OVNZal9HczBKbjhiUmpzeGpacm9BZllWbjN4b3F0akQwWVFtWGpXVDVfLXZPczdPalRvSUE?oc=5",
         "published_at": "2026-10-24T08:30:09+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran trying harder to target US personnel in Middle East, intelligence chief warns - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OWDNRWTNxMkEyVlFfSEZmUVlPVlNncENwMDBNck1XNDRWZzEzVDV0VVdzQUx5UW1wZVpwSnN5ZUxlUERKb20ycjUtNExTX1pOeDZva1BiTVFxZUk?oc=5",
+        "published_at": "2026-10-24T07:36:02+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -140,15 +176,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran escalates Strait of Hormuz shipping attacks with new tactics aimed at keeping global oil prices high before US midterm elections - Energies Media",
-        "source": "Energies Media",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pTUNyR29CaHRnTUh6djcwb2R4dXlKdHJuRW9YZ0dZVU5MQjBBOHBBRnM1N3RBOWZtbWFuMTQ4MVQwWjk5TEkyQ2VvZVA1R0xra1RPVE1CbF9OYnhmSE42WEJTV1M5YWdmRll5TGI0OA?oc=5",
-        "published_at": "2026-10-24T03:20:35+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran has \"increased efforts to target U.S. personnel,\" intel chief warns - CBS News",
         "source": "CBS News",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53aDBya04yRmR1S25UT21vekZkQW01TkI3LWc1S3JkblN0NTBMWmdaLWJBaTFPSmpBUzJPWmVXZEJGMVVBSEFoZTlPeGk0cGZRV2tNWDJFelU5NnVFLXNaa3hrUmlydw?oc=5",
@@ -158,12 +185,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pakistan talks peace with Iran, defends Saudis against Tehran’s proxies - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ad3U5YjU3d0llSm14S1ZUTW1kb2pfY193clpTNWtuNnB2TFdrZHJYQWRhTzY5LVBwbURaSFkwdHR5cXJnREpnVTFnclBiNXRxSHc?oc=5",
-        "published_at": "2026-10-24T03:03:30+00:00",
+        "title": "Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVjk1RXRCNHBkeXhWRXgwMTdlX3RERmtfNFBpMVlYY3BjTlVaUnpfMmdXdEFZdDdzQjVTMVlIYzhVQnpHZmQxTWdYeFNqOERVc0ZPQVhKcmFKRXVINThvdVJyS2tud2p1ZThUdDF6UTNSempUcFczUnFoWV8tbGZBZ2UxOGM2RXZlUXBiYktTS1h0UQ?oc=5",
+        "published_at": "2026-10-24T02:29:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -181,33 +208,6 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZl9scE9GTE5xLXFiT29rTlRCUFA5YWJHUS1JR2hoU2RvUnE0UlZwZk9mTDJnUXdlRGdHcHlaMFYxQ004T04wcXBfTzdxcThlN2xkZW10d2dpNlpSZmpoXzk0Sl9FRUJwSUFQN1FQZjFEOUQ1VFZLa0xNSXluZ1lNYUV2dGpwMzMzZUNzWUpydmtzWXlteWppQjk5NzJQdnRvWmpuNFlWU25OQzF2bGVLYXRsMy1iMy12MjcwZEFrNXo3S2JfN1Ew0gHHAUFVX3lxTE5JTGpieDNTZldrd0REWk1vS2d3N2xZV2E3cDVQTWNMTU1fbHR6SXQ1WGRwQVVfWV9vSUNVd04yOGlsOTE0NlM2QTduUFd4dVRSejNmOUllSWg1bDl3Y29PVE1XRWk2bWNzRVVXeFpuMm5UUHpaNV8ydDRVRmVGR0JPV0tXMEV5eE9nRlpRZHcyc2h1Y3h6SmZoUkpUUk8zbUpLeGtZZmRkaHFiMjhocHI0YkdOTy11QzkyYTdfcUdIc19yTWpmbGM?oc=5",
         "published_at": "2026-10-24T01:00:11+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
-        "published_at": "2026-10-23T23:59:31+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjZnQm1nQlhYbXFUS0NwZER5Wmp6T3RtMGRuLVVxc1ppczJpeTBkSEM0ZVN1YmNOU21WZVJNTFBfbXl0NFhkMXZDNkxrSFlTajVTcG40MS1jc2c1OGdRTW1IZFA1MEdmZnFCUFdtY0JZSWlNeVphN2h4cXhoNXpKaklhRnRjWkxibExPQ2dXQ3lOcnRHcWZfWkRQMGI3S3Ixc3hfdDFOM2RMVmVlbWk1Q2FGTnE?oc=5",
-        "published_at": "2026-10-23T23:45:23+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia, Ukraine agree on ceasefire in city of Oleshky - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbTZrakpPa01VWmdGbWFnaGVUT0lUT0VRenJlM1Nnd1JxTFctNUtzNXlzMGJyeEhiMk50SHpKblZLWS1jckxGbk10clF1RnpjMVAyWUxiQU1hNTJfbm04R25RY2o2M1g4NnZLak91dWR3WHhXNndqWDBXaHVQTkQ2UWdVQnVocWxsNGE4REljOXZpM2hCZGfSAZsBQVVfeXFMTWNMLU5UMFZJQ1MweEI4Rm4zYlM0RW50bGJpTkVCbkhXUG5uaG9nbk9UbGdxcThHWGtlQlNpTnpBd3Rrc0hYYS14anpycVZIYzFxblVKMkdHc1NYd204WExUMHUwRjFwc2w1UDY5b1JtdE41TDJ6Zm9DV18yLV8yNnlMWXdESHYxdUVKa2FJaVNNWlhob3ktOW8yT0k?oc=5",
-        "published_at": "2026-10-23T23:27:05+00:00",
-        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
@@ -237,15 +237,6 @@
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXlYSVVNbGVjeGRfdWhLQ1pkdUxPMFFodFd2bVhuR0FfYjRrQ0VJNmlvSjQtVVpyRWRBVXJGbW1RTzBEQkMtbFl1UFU1TUl6TVI1ZVkxdkFSanVvMDA5ckRwdzF3ak14OW5GaWhSTy1TZjhvb2NfWUdiai1PdXFKUlZCWjQ5ekxPRDFjT2tReHFQcWt6OC1pbWNEVWJueEFVU2FaUjcwbFdsSTVsdk5Eb0RMbjZxZVRtQXpHMVhMbDI2QWc?oc=5",
         "published_at": "2026-10-24T01:42:51+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia Investors Ink Class Deal After Brief High Court Run - Law360",
-        "source": "Law360",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JSVJ0SDY4RXp0LVNobmx5YjRuZkttNVlWTVZMVU5VMVJfSU84YWhqMFJsem9IOFNmSXk2LUJrZi1RNGkzeTVLdW5vaDV3ZFRDaE5PNkJ30gFWQVVfeXFMTUlJUnRINjhFenQtU2hubHliNG5mS201WVZNVkxVTlUxUl9JTzhhaGowUmx6b0g4U2ZJeTYtQmtmLVE0aTN5NUt1bm9oNXdkVENoTk82Qnc?oc=5",
-        "published_at": "2026-10-24T01:27:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -282,15 +273,6 @@
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVRxMF9yWHBWQklqc1Frdzk0ZlFBbi1hUW1IVmNxUGMtQWV5dGJGX1ZGNzJKejh4WndjVC1jOW9fNXd1LVVrZzQ1Vk1SS01RMmptZ0dTdGR3YlY2b2cyODZGWDgxVGs1WFcwSzIwU2dpVzFCR1N0cEpBSmo3UEtWcEtPeWlKQ0Y1NjNEYXdWZVRMQlNSV08xREVNc0ZGWmYzSVE?oc=5",
         "published_at": "2026-10-23T19:11:11+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFByaFdDRmtwUndpQXR1UjI4aFB5Z0FtTDRJZFV5ZlhDOFhZTk5lbktlVFFqdDlGLU5wX2p6WGhlM1g2YXdmNmIzS0Ffb09UWWJQVkJKQnNSbGhFVkdqNFBYM0o5aWNSU3dDNkhoUXZsdzFzU19QeWlnNw?oc=5",
-        "published_at": "2026-10-23T19:07:32+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
