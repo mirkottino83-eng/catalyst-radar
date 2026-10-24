@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T03:14:02.341165+00:00",
+  "generated_at": "2026-10-24T03:45:31.846413+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
     "wti": 103.44000244140625,
-    "wti_change_pct": null,
+    "wti_change_pct": 3.9911542897184793,
     "brent": 111.66000366210938,
     "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
@@ -15,10 +15,10 @@
     "sox_change_pct": 0.44244767846683963,
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.80999755859375,
-    "macro_score": 43.9,
-    "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +0.00%.",
+    "dollar_index": 101.75199890136719,
+    "macro_score": 36.0,
+    "tech_bias": "negative",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T03:13:51.390347+00:00",
+    "updated_at": "2026-10-24T03:45:20.158566+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 3
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,6 +77,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Trump floats new Iran strikes, says US could take ‘whole country’ - chinadailyhk",
+        "source": "chinadailyhk",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VcXFZVTlZS3RTVzdWN0NBbUhqNE10ZUxac1hDNkZxSWtpdVRJVXd1emxpYXptd3Z6TnN6bThTbHRKbWFhbGc3VmQ5YWpwWlVuYUtRVFlQWWM?oc=5",
+        "published_at": "2026-10-24T02:47:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "EU Car Woes Deepen as Trade Ministers Meet - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVVN5RmgwempzVlRHVXByMy1HbFBVakhTQUNEVTVkSC01U2VhcHQwZ01WVElBck1TS3h4Nlp0X0VaeG9KLUtzNllDbjB0UUNmREN5X0tiZkhOcVFQRWJnel93cGdnWFNhRVUta2VJS2J1X0Vsa0VkRmltMWNVWHBuZzk4MGIyeHpzRGd2SXVEeWNDTzhwQVA3ZUZpMzFYd092c1dCUFNiTHFYdE13V3dLWFhWUEF6U3VLRUlFMEZsT1BQRThCbXVCZi1PZw?oc=5",
@@ -86,12 +95,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Melania Trump helps secure \"temporary ceasefire\" between Russia and Ukraine in city of Oleshky - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMU1MYWlNMUJCOW1BdTVsSVlsSTJDUUlHUzVweXF4eHhUdEsyQVZ3RWRLYmpQUzZQMkZsNWl0aDMwOGcwdWdKTV93VnQ1STZteV9IY09seDlDQ2lrNEQ1WkIwTU9CZW9GMmFMRVZwckZLdHpLRG1IOEtKOW5zSkQzUlhuTjZGSDd6cnpVVGkxRVlZUWotbHlnaDdTU0xSdw?oc=5",
-        "published_at": "2026-10-24T02:12:09+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVjk1RXRCNHBkeXhWRXgwMTdlX3RERmtfNFBpMVlYY3BjTlVaUnpfMmdXdEFZdDdzQjVTMVlIYzhVQnpHZmQxTWdYeFNqOERVc0ZPQVhKcmFKRXVINThvdVJyS2tud2p1ZThUdDF6UTNSempUcFczUnFoWV8tbGZBZ2UxOGM2RXZlUXBiYktTS1h0UQ?oc=5",
+        "published_at": "2026-10-24T02:29:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -122,6 +131,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "First lady Melania Trump says she brokered 'temporary' ceasefire in Ukrainian town - ABC30 Fresno",
+        "source": "ABC30 Fresno",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObzI2ZjJSUDlXWnQxdzl3Ty1lald1cFZHQS02VDdKNlVZVl9HMVh4QzZlcUwtTm1nTFNRVTFQUFNfVV9LUDVzNHhtS09mMmlCN1RZR0dVWFJDUUU1eFlJZVBXeUVTUUpsOXhzSjRxdlJFQjBXWXliVlY0WnJzTUxkdjVIWkxnejFmMndoeVVUNm9rWVNMNmR2UG9xWEpDUmJsVENXcWViNTZyUW5YOW1WUg?oc=5",
+        "published_at": "2026-10-24T01:05:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China’s AI compute power set to double, but heavily reliant on US chips: report - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZl9scE9GTE5xLXFiT29rTlRCUFA5YWJHUS1JR2hoU2RvUnE0UlZwZk9mTDJnUXdlRGdHcHlaMFYxQ004T04wcXBfTzdxcThlN2xkZW10d2dpNlpSZmpoXzk0Sl9FRUJwSUFQN1FQZjFEOUQ1VFZLa0xNSXluZ1lNYUV2dGpwMzMzZUNzWUpydmtzWXlteWppQjk5NzJQdnRvWmpuNFlWU25OQzF2bGVLYXRsMy1iMy12MjcwZEFrNXo3S2JfN1Ew0gHHAUFVX3lxTE5JTGpieDNTZldrd0REWk1vS2d3N2xZV2E3cDVQTWNMTU1fbHR6SXQ1WGRwQVVfWV9vSUNVd04yOGlsOTE0NlM2QTduUFd4dVRSejNmOUllSWg1bDl3Y29PVE1XRWk2bWNzRVVXeFpuMm5UUHpaNV8ydDRVRmVGR0JPV0tXMEV5eE9nRlpRZHcyc2h1Y3h6SmZoUkpUUk8zbUpLeGtZZmRkaHFiMjhocHI0YkdOTy11QzkyYTdfcUdIc19yTWpmbGM?oc=5",
@@ -137,15 +155,6 @@
         "published_at": "2026-10-24T00:48:15+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVjk1RXRCNHBkeXhWRXgwMTdlX3RERmtfNFBpMVlYY3BjTlVaUnpfMmdXdEFZdDdzQjVTMVlIYzhVQnpHZmQxTWdYeFNqOERVc0ZPQVhKcmFKRXVINThvdVJyS2tud2p1ZThUdDF6UTNSempUcFczUnFoWV8tbGZBZ2UxOGM2RXZlUXBiYktTS1h0UQ?oc=5",
-        "published_at": "2026-10-23T23:43:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -185,12 +194,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran oil isn't doing well as the US put a blockade on the Strait of Hormuz - Fox Business",
-        "source": "Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PQUVrSml5bDVCVXRCQ21BSnF3Vk4wUkFVTEdkelM4MFdNSWJITDBUbWtTMi1kcERJb2lrRk1TdVYtR3R4Nk5FUFpqOHFjRmhPeHJCc0RzNVRWcUU?oc=5",
-        "published_at": "2026-10-23T20:17:13+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "‘27 shades of grey’: Different ties to China complicate EU trade response - EU Perspectives",
+        "source": "EU Perspectives",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBocDBDV3RRZTFzSFo1cGRVMzM4Y3E4OWxlRF9HODRxNnFuN1ZvMnUyTFZiQmxyR2EtUmlteEZrSlZWc0swMC1Sakh4Tzh1TG51VHJiRnFXTlRna3U5MENOdVQ0ZGNOZzktWmlNNHhudUw5WWFhQURKOVlB?oc=5",
+        "published_at": "2026-10-23T17:04:20+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -198,15 +207,6 @@
         "source": "Euronews.com",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlhMVXNwN25jTTcxS21ZY0w3SUNycVZ4R3NzMThJWE1fX2J3N3dsV3BLdDQxRTZqbXV5a0NIQ0UtYjdkR0NwRHlwT3Z1OWoyYi1wMkxOT3cySzJZRUlHNW1DS3lCTXRiaUUxbkkwZWlLMk1LWGVTY1M1NWRkMVhnY0ZPYm14djZuYlo1WndPUDYyUDhpVGZlYUJpUEtZOEE5YU9oNWVsNkdTSjQxb1BUZzE2VFFUZURvc3dkcg?oc=5",
         "published_at": "2026-10-23T16:11:57+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU Looks Beyond Cars for Next Round of China Trade Talks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMnVTWDNmNUtCbEZ5aW05UDVwN0Y0UDRjZk9LMWlUYjZWMDFmS2d3YTlXZFpqdkk5RTJXYnREU1V5R282d1NvcV9uaVNlTVRLaVh2dkNyRHZFYU1uZG51Z3hrMzhlUWhqZjVlSVpuUHJYZkxEVGw0T3p6R3pBM1JEWThzb1RkSXVmY2JvZjNRc0Qtbk94LUxZaVV6dkMyZHVIWXYtT01EUmlYTUE?oc=5",
-        "published_at": "2026-10-23T16:03:49+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -219,15 +219,6 @@
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXlYSVVNbGVjeGRfdWhLQ1pkdUxPMFFodFd2bVhuR0FfYjRrQ0VJNmlvSjQtVVpyRWRBVXJGbW1RTzBEQkMtbFl1UFU1TUl6TVI1ZVkxdkFSanVvMDA5ckRwdzF3ak14OW5GaWhSTy1TZjhvb2NfWUdiai1PdXFKUlZCWjQ5ekxPRDFjT2tReHFQcWt6OC1pbWNEVWJueEFVU2FaUjcwbFdsSTVsdk5Eb0RMbjZxZVRtQXpHMVhMbDI2QWc?oc=5",
         "published_at": "2026-10-24T01:42:51+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s AI compute power set to double, but heavily reliant on US chips: report - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZl9scE9GTE5xLXFiT29rTlRCUFA5YWJHUS1JR2hoU2RvUnE0UlZwZk9mTDJnUXdlRGdHcHlaMFYxQ004T04wcXBfTzdxcThlN2xkZW10d2dpNlpSZmpoXzk0Sl9FRUJwSUFQN1FQZjFEOUQ1VFZLa0xNSXluZ1lNYUV2dGpwMzMzZUNzWUpydmtzWXlteWppQjk5NzJQdnRvWmpuNFlWU25OQzF2bGVLYXRsMy1iMy12MjcwZEFrNXo3S2JfN1Ew0gHHAUFVX3lxTE5JTGpieDNTZldrd0REWk1vS2d3N2xZV2E3cDVQTWNMTU1fbHR6SXQ1WGRwQVVfWV9vSUNVd04yOGlsOTE0NlM2QTduUFd4dVRSejNmOUllSWg1bDl3Y29PVE1XRWk2bWNzRVVXeFpuMm5UUHpaNV8ydDRVRmVGR0JPV0tXMEV5eE9nRlpRZHcyc2h1Y3h6SmZoUkpUUk8zbUpLeGtZZmRkaHFiMjhocHI0YkdOTy11QzkyYTdfcUdIc19yTWpmbGM?oc=5",
-        "published_at": "2026-10-24T01:00:11+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -246,6 +237,15 @@
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTU5YaVQwV1dnZ0pNckkwWFhfd2trQlhWTUluQVA0R0p4YkNVVnRjZHAwZlp3ZldDcWNIZGRhRnlUQ1FnQ3ZqRmpNWllxUkRHRF9JRFVHbFA1NDN6alhnMFJkN25jVkp0dnYxdU9JNzRPa1UwOTFHenNodElHa3ZNN19kcmxYWlFWNlZoZmJkSW5NQ2ttZmo4ODJJTm9BNjdxcnFuZS04TjFwaWVwckE?oc=5",
         "published_at": "2026-10-23T22:56:12+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What Could Micron Technology (MU) Strike Risk And Supply Moves Mean For Investors? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc1NSLUxySzlsNnBqd2dQNjhQeHliel8wRHFXNmR2WFpIbFhRbnVobnFaQXBtOXAwTGh1R2hLajFKcHVJcXU2cEx5d19UWXhFNDQ1aVlHYWxBT25DSGVrSzQ1UTN5R2pIVXFOZlBsSnJzSHZqTnhqUXVDUUZucWpoUnJSWXBvWjhOcXBxcEVQbWRuX2JGMHZyV2ZUS216dGM?oc=5",
+        "published_at": "2026-10-23T21:14:06+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -281,15 +281,6 @@
         "source": "ESPN",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa004dTRNSE5jNW1xN1FIbXE5UTdnTVlkdjFkcGVRbzY1UWxDaTJ3ZjUycjM3blNlTnRfcGc3T0VPQUlYUWVtQjN1OWZfUHQ1MU1lc3RmT2d4VXFQZGhoZklRUzB4QkVON0p6ZzNGZUFpSG92SU84QUltVmJ4MGZ5NkhzYUVzUk5SWGMyQmI0cVdQQQ?oc=5",
         "published_at": "2026-10-23T11:00:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia’s Huang Reveals Investment in AI Video Unicorn Higgsfield - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMHhEb3JuUm1ma05hdTNPb0hBc2lQbTFnNTF0ZThWZFBzUXpxSTM3Nmw2d05LRDVSRllZd1FJUHd3ekFPZmhCdjlQWWVvbnI1UklWeThscm9nTXZLSkVPTUxtS1VEYi1YSlJMZHlYdXJnbE9CRXdmYlNSc3dZdkhWZnl5QmhtMkZiMHFtdW14Yjh5bGRvaTBwRHN6bUt6MzNFTkVKMi1SbUZrVlBUbUpYUHo4SVA4YmVqT2RpZU5n?oc=5",
-        "published_at": "2026-10-23T07:17:16+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
