@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T08:12:02.600576+00:00",
+  "generated_at": "2026-10-24T08:42:16.295777+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.44000244140625,
-    "wti_change_pct": 3.9911542897184793,
-    "brent": 111.66000366210938,
-    "brent_change_pct": -1.334271035846224,
+    "wti": 103.2699966430664,
+    "wti_change_pct": 3.820242661837203,
+    "brent": 111.69999694824219,
+    "brent_change_pct": -1.2989319117144849,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.0,
+    "macro_score": 36.3,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T08:11:51.061654+00:00",
+    "updated_at": "2026-10-24T08:42:06.018159+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
@@ -72,15 +72,24 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 11
       }
     ],
     "geopolitics": [
       {
+        "title": "EU Car Woes Deepen as Trade Ministers Meet - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVVN5RmgwempzVlRHVXByMy1HbFBVakhTQUNEVTVkSC01U2VhcHQwZ01WVElBck1TS3h4Nlp0X0VaeG9KLUtzNllDbjB0UUNmREN5X0tiZkhOcVFQRWJnel93cGdnWFNhRVUta2VJS2J1X0Vsa0VkRmltMWNVWHBuZzk4MGIyeHpzRGd2SXVEeWNDTzhwQVA3ZUZpMzFYd092c1dCUFNiTHFYdE13V3dLWFhWUEF6U3VLRUlFMEZsT1BQRThCbXVCZi1PZw?oc=5",
+        "published_at": "2026-10-24T08:31:22+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "US War on Iran, Day 240: Oil Hits Highest Price Since April - EA WorldView",
         "source": "EA WorldView",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYzM5dkhDcTJzLXJMWWtRcHJjcDlLM2V6TW1ub2JSeXJPNTBWYWlrLWZrTk9OR1ZrTkU5N3hMUmp2MmplVTZjYkpSXzBYMFNoUUFvZFMzSU43cUV0MkZtbUFPb1h5Z0dFOUxBOXBoVWs5QWR5TnJzcWJ3X2pPRXM?oc=5",
-        "published_at": "2026-10-24T06:42:28+00:00",
+        "published_at": "2026-10-24T06:42:22+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -140,10 +149,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in - WTOP News",
-        "source": "WTOP News",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTWhhckFYT0ZxaGFZS0dvRTFyUlJFVGpDN2ZteWdlaDZEVTM1WTlIV01GSkFzZEJVR1JqVjg1WmxCQTNvQWR4eVRRcVZ3TzljZ2pXX1F1dUVvQ2JpSExCVnRXMDhMSTJMUnR5RnN6S09DNlB0SEJRbTItU2w1dU9yYjFCc2plUmlLbjE3X08xQUN2cFBPdGZsY0JJSmxaRWxEeGtnQ3dZMFg5QnJ6T0k1TjZvNjZoUHlWOHNBSUdlZjBYdTdnRXhmbUpSMk5XZ2V0eVFYNTIzX1Z2ZXpGdzdGU0lpa1BDUVI1aUE?oc=5",
-        "published_at": "2026-10-24T01:17:41+00:00",
+        "title": "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkNRM3hJTVJkUGxjNjB3QmhSd2FSb2JHZkZtTjVNdzNWeHJ4QkpwdEd0cWttQjg0ZmVSQUtCV0JHTFRCeTd3NGJITy1ybDRTQzB4ZkhEdDEtRkRhcUZrWHdONWJZZFlBbGV5YmhkbDh5LTlaZm9jelQ3Y2FWOEcxUlhLZE5yX2c4dVhSZlYyVDUtVllza2ZLLTVXQ2RCN093aGJlRmc4RU9jcHZROVRv?oc=5",
+        "published_at": "2026-10-24T01:17:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_DISTENSIONE_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -164,15 +173,6 @@
         "published_at": "2026-10-24T01:00:11+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump pauses Russia sanctions as Zelenskyy urges allies to fight for them - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbjZnQm1nQlhYbXFUS0NwZER5Wmp6T3RtMGRuLVVxc1ppczJpeTBkSEM0ZVN1YmNOU21WZVJNTFBfbXl0NFhkMXZDNkxrSFlTajVTcG40MS1jc2c1OGdRTW1IZFA1MEdmZnFCUFdtY0JZSWlNeVphN2h4cXhoNXpKaklhRnRjWkxibExPQ2dXQ3lOcnRHcWZfWkRQMGI3S3Ixc3hfdDFOM2RMVmVlbWk1Q2FGTnE?oc=5",
-        "published_at": "2026-10-23T23:45:23+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -203,21 +203,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘27 shades of grey’: Different ties to China complicate EU trade response - EU Perspectives",
-        "source": "EU Perspectives",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBocDBDV3RRZTFzSFo1cGRVMzM4Y3E4OWxlRF9HODRxNnFuN1ZvMnUyTFZiQmxyR2EtUmlteEZrSlZWc0swMC1Sakh4Tzh1TG51VHJiRnFXTlRna3U5MENOdVQ0ZGNOZzktWmlNNHhudUw5WWFhQURKOVlB?oc=5",
-        "published_at": "2026-10-23T17:04:20+00:00",
-        "area": "USA / Cina / Taiwan",
+        "title": "Melania Trump says she secured a one-city ceasefire between Russia and Ukraine - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcWpQTWswaXFqeFRIX0RnZEl2OU1VcjktSl83VjZLUnNMdGF6dmhwY2tKTndhUGdLZF81aW11Q1V5WEhid2QxWFBHZU9Sd1R2S0M0V2dXRGZGVW1JanZNSXRnYmVoUGZIdkZyWnpLX1dpaTFuWDI5XzIzYV9qQlYyRng2ZVlCbU1OUXJLWEtQRnIteld6RGJmbDJma0Y1X2MxU1Z0QS01VlppWE1sLUtaMEZLQ1VSZHJSX0NMNnBB?oc=5",
+        "published_at": "2026-10-23T21:31:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Moderna's melanoma vaccine succeeds in major trial. So why did its stock plunge? - Ynetnews",
-        "source": "Ynetnews",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UOU16UXNmLWdXaHlPTjVZeW4ybDFHS0s2M3Z2d0RMV0xkWmpFTHBhZGZfSy00Umg3d2NXc0xvUjlTeG5VUDJlUXlodUpFdmVweVkxRzNZazhfNklQWDl5dVZCdmNDYjlZVjhB?oc=5",
-        "published_at": "2026-10-24T03:18:27+00:00",
+        "title": "FDA Approval for PAVBLU issued to AMGEN INC - Quantisnow",
+        "source": "Quantisnow",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSUM1bjItUlVuR3E0SGtKOW5yNGtPN2Rfd2l1R1E4a0xBXzlfVFZ2OExKVHVwazNkSERhbGpfUkg2c0Q4UVlhbXlsNndVcWVTMFJtYzdoTkY3QlY1bjBULU5PVjJaZERvMmNaNGNDWFhzdjU2SC15QlVINnFKSWkzY0ZwaUw4bE50TXZvcE9PSQ?oc=5",
+        "published_at": "2026-10-24T08:28:21+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -259,10 +259,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Burlington biotech company cuts 45% of its workforce to pursue a single FDA approval - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUndlV3hYdFVzMERtc3pIRl9FNXhBVGNQYk83U0xRMmlwajVlSVg5a0t2Qmo0aGpMS0h4VmxUMVY3RUJ2YUJrNGNKaGVTMDZiTDJTaTRJOC1NM2E2WmZvMzltRlhXeERRaHpDaXBEVlRMYmx1cVc5Q0NMblFva1lpbVFuTUhNSl9fVW1xbmpnRmFGVXNJWW9oWUhHQQ?oc=5",
-        "published_at": "2026-10-23T20:21:47+00:00",
+        "title": "Edwards wins FDA approval for tricuspid valve repair device - MedTech Dive",
+        "source": "MedTech Dive",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVRxMF9yWHBWQklqc1Frdzk0ZlFBbi1hUW1IVmNxUGMtQWV5dGJGX1ZGNzJKejh4WndjVC1jOW9fNXd1LVVrZzQ1Vk1SS01RMmptZ0dTdGR3YlY2b2cyODZGWDgxVGs1WFcwSzIwU2dpVzFCR1N0cEpBSmo3UEtWcEtPeWlKQ0Y1NjNEYXdWZVRMQlNSV08xREVNc0ZGWmYzSVE?oc=5",
+        "published_at": "2026-10-23T19:11:11+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
