@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T18:53:17.611453+00:00",
+  "generated_at": "2026-10-24T19:14:35.148921+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.44000244140625,
-    "wti_change_pct": 3.9911542897184793,
-    "brent": 111.66000366210938,
-    "brent_change_pct": -1.334271035846224,
+    "wti": 103.2699966430664,
+    "wti_change_pct": 3.820242661837203,
+    "brent": 111.69999694824219,
+    "brent_change_pct": -1.2989319117144849,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.0,
+    "macro_score": 36.3,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T18:53:05.981802+00:00",
+    "updated_at": "2026-10-24T19:14:24.362706+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,21 +44,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
@@ -76,6 +76,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "​HE GCCSG: Houthi Terrorist Attack on the Kingdom is Blatant Criminal Escalation, & Exposing Makkah to the Dangers of These Attacks Represents Highly Dangerous Violation & Provocation to the Sentiments of Muslims Worldwide - الأمانة العامة لمجلس التعاون لدول ا",
+        "source": "الأمانة العامة لمجلس التعاون لدول الخليج العربية",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45bXN3RDlRNXF2Uzk5MV9naWtXZnNwX3VqTzh3U0FEMF9lNVpjdldBVFFKQ3VhTFg2NjBSM0tsaU5ULWE3NzhBYWdqc0p0NEp2dGpXMzZ6b3B4X3lTWWFBU2pLVk0tODVEMnFwa0JtdHZyU0lSSWVfT193?oc=5",
+        "published_at": "2026-10-24T18:56:15+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
+        "published_at": "2026-10-24T18:24:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia - France 24",
         "source": "France 24",
@@ -131,15 +149,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran remains open to talks with US under Pakistan-brokered deal, envoy says - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTR5VVdXaDAyV2lIUndHYkFVb3BPQ3lTWjFMZGxrcmRmR3dPODQzUXdEczBya1ZuQzBvVzJhOWp6a2ZrdkhYZHltOVJld05uNlVZalZEQjBvOWNUSXREeHY4MVg2YVFVaVpTOTl2Qm9vWGVJU0NSdFRvd3J3aVBXcWhKRzRMbnNqZEoxWVdoRExHSzQ?oc=5",
-        "published_at": "2026-10-24T15:50:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "What to know about the Melania Trump-brokered ceasefire in Russian-occupied Oleshky - WLWT",
         "source": "WLWT",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNd2xPNTZadWhaYUNpV1NabTZvMzNKT3VWTGdHZk4xaDBfbG5iWVU0QlpHT0x1azFETWkzbjhmMlNOWVhOcUdhZTlMY3lrV3RQNmV3TjVYR3E4LWtDWGNGeENZRXVzaEY3c2xqaXhpZlFDZ2RLNVJhRmJVTy13RmRHTFNDLWdBTDVHRHRPaGRobkxGNm1oa0J2dTljVURkSHMtb3VSampoM2J5V3lGQ2VmelJxbkZBQnlCRVZzbTRiWFFsMmU3SGpKMXZGRGNhODQwVlVyUGVRczBFU0F6NXIxMA?oc=5",
@@ -176,15 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Melania accused of hogging all the credit and ignoring Pope Leo’s role in securing Ukraine ceasefire - The Independent",
-        "source": "The Independent",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMi0xTEtWX1YtdEh3RUdIeDRZYTJIXzNlLXRhVmZZdmpqOTBBb2h0akcxQXFCTGhaS3BIRTJpbnhmX256SUdrelpBM1cxNzA0bXd5RnlKaVNDMDZyQkhnNVZiTjNQdkdCekdLOVlLcnI3N3lNTmdDbl91LWV4YnNiYkItWl9NTnkyYUpJOEtNRkV4YXFJUzdyc1RxVEc5eWJHNTVfcUNSRENnOWUwcFNUQXRiRUJSMFk?oc=5",
-        "published_at": "2026-10-24T13:55:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Opinion | The US has South Korea over a trade barrel – and the world should take notes - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdCMFZITTNtTGgySnppY3lMbG5zMGFVNEFTVnRaemJDN0VQUmJhejRvX2pTZFdfbC1MbmlmN3lZOHZTUVk4eWhadHlKa0ZFRjJzbUR2Q1VMOGViS05iQXVfUFlXc01xR2pVSjRnWUhyZm5fT0t5b08zZW1vNHM4UFlnbUU2ZU5HR0szaUVCTnN3QmpSOG1PUHpJQ2dxMmVuQ1hZTE9yZ0x1bDgxTENxV3pn0gGyAUFVX3lxTFBnYkNqQ3pndXdzTE5OaF9xeFRXMU9aRjlpQUNzUnRSSWZ6cFRyRzlOSF9JUVJEb1JhWlQxN2dyM1d0bnp5ZGN2cXhJQ3Y4SmNmLTBnQU41QURYa2xIOU5GUlFZMnRVV29PRlBKcmVDTkNWZ1Q3dkUyeWtBWlY0OVNZal9HczBKbjhiUmpzeGpacm9BZllWbjN4b3F0akQwWVFtWGpXVDVfLXZPczdPalRvSUE?oc=5",
@@ -196,7 +196,7 @@
       {
         "title": "EU trade deficit with China threatens to break records this year - Belga English",
         "source": "Belga English",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcVNQMnRUTkhNMUtOVnNjVG4zRDhmcDVmU2NueGEzTDdRbEEwUTg1ZWtMVHdwSDZaY2RfLVN2ZEJsRkc5TTYtUlpGVk53U2ZOcTZCR0p0OWtyUXV3S0RuTzJEUWV3ZWJqTjFWb1VTNThzY0ZIT3JnV0xLQUFHdUltZXg0R3laWHdmTDRSbVZuQ3dpTHlUOEkwRmFWeFZObkh2ejFDd3pzRzJudDVBU2RDdXdSTkFYUm83?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMktzcHduRDFvU18xZTNSeE5ZVUhrMnZuT01GNjlGNF9PUllUWVJXMldZYW9xRFZmaG9sWmJfWkNSMU03VGxFclZYNTNBby1QSXgxZUdJYTFIMENhN0pSOS1abUV5aVBkU0I2Y3h3WG1USy1JNDd1SlNkbWJuYmFLaWJLWnowN1J0eWFKYlRUTU0zeWwxUUZTM3VVbEV2ejJkUm5ndTZ1RUtHd0dKbUNsYW1CYjU1V3h5N2t4N2JXTW1wRWdGWVhiMlNn?oc=5",
         "published_at": "2026-10-24T05:38:35+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
