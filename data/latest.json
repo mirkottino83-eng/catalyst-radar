@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T02:47:40.766623+00:00",
+  "generated_at": "2026-10-24T03:14:02.341165+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
     "wti": 103.44000244140625,
-    "wti_change_pct": 3.9911542897184793,
+    "wti_change_pct": null,
     "brent": 111.66000366210938,
     "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
@@ -15,10 +15,10 @@
     "sox_change_pct": 0.44244767846683963,
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.75199890136719,
-    "macro_score": 36.0,
-    "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
+    "dollar_index": 101.80999755859375,
+    "macro_score": 43.9,
+    "tech_bias": "neutral",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +0.00%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T02:47:29.395381+00:00",
+    "updated_at": "2026-10-24T03:13:51.390347+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,21 +44,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
@@ -95,6 +95,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
+        "published_at": "2026-10-24T01:39:28+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkNRM3hJTVJkUGxjNjB3QmhSd2FSb2JHZkZtTjVNdzNWeHJ4QkpwdEd0cWttQjg0ZmVSQUtCV0JHTFRCeTd3NGJITy1ybDRTQzB4ZkhEdDEtRkRhcUZrWHdONWJZZFlBbGV5YmhkbDh5LTlaZm9jelQ3Y2FWOEcxUlhLZE5yX2c4dVhSZlYyVDUtVllza2ZLLTVXQ2RCN093aGJlRmc4RU9jcHZROVRv?oc=5",
@@ -104,12 +113,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
-        "published_at": "2026-10-24T01:15:19+00:00",
+        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
+        "source": "Scripps News",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
+        "published_at": "2026-10-24T01:06:27+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -167,15 +176,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
-        "published_at": "2026-10-23T21:55:45+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "UAE Confirms Approaching Oil Spill as Iran Claims Continued Attacks - The Maritime Executive",
         "source": "The Maritime Executive",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd09MeDN3Rzg5VV90RDhkMURJcU1YNFFzWkhHUTRtZkZaMkVmZVFEcTRvS25uWGx2TXRHNFBVZ0VxcFRKSkNWRnd6RUx2WmZ1ek5aYVBaMDYtUUJvUk1KNkVLek5ZV1lhWFJ3YnFCNGhfOUhlTkZSOTVWcmo0MTB3eDBVUDVja0ZKN2hSMnhZVUMtZ2R6cWgtaGpicWFXaFhZNUFQeEYtV25lZw?oc=5",
@@ -194,15 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘27 shades of grey’: Different ties to China complicate EU trade response - EU Perspectives",
-        "source": "EU Perspectives",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBocDBDV3RRZTFzSFo1cGRVMzM4Y3E4OWxlRF9HODRxNnFuN1ZvMnUyTFZiQmxyR2EtUmlteEZrSlZWc0swMC1Sakh4Tzh1TG51VHJiRnFXTlRna3U5MENOdVQ0ZGNOZzktWmlNNHhudUw5WWFhQURKOVlB?oc=5",
-        "published_at": "2026-10-23T17:04:20+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Commission weighs best strategy for new trade talks with China - Euronews.com",
         "source": "Euronews.com",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlhMVXNwN25jTTcxS21ZY0w3SUNycVZ4R3NzMThJWE1fX2J3N3dsV3BLdDQxRTZqbXV5a0NIQ0UtYjdkR0NwRHlwT3Z1OWoyYi1wMkxOT3cySzJZRUlHNW1DS3lCTXRiaUUxbkkwZWlLMk1LWGVTY1M1NWRkMVhnY0ZPYm14djZuYlo1WndPUDYyUDhpVGZlYUJpUEtZOEE5YU9oNWVsNkdTSjQxb1BUZzE2VFFUZURvc3dkcg?oc=5",
@@ -210,14 +201,23 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU Looks Beyond Cars for Next Round of China Trade Talks - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMnVTWDNmNUtCbEZ5aW05UDVwN0Y0UDRjZk9LMWlUYjZWMDFmS2d3YTlXZFpqdkk5RTJXYnREU1V5R282d1NvcV9uaVNlTVRLaVh2dkNyRHZFYU1uZG51Z3hrMzhlUWhqZjVlSVpuUHJYZkxEVGw0T3p6R3pBM1JEWThzb1RkSXVmY2JvZjNRc0Qtbk94LUxZaVV6dkMyZHVIWXYtT01EUmlYTUE?oc=5",
+        "published_at": "2026-10-23T16:03:49+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Moderna-Merck personalized mRNA melanoma vaccine cuts relapse risk in late-stage trial - WSET",
-        "source": "WSET",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVElyNnBhd1pGYTFPelJZb1dXNndfTXhfdXJVQXh1VHBlLWhVbkZNWXFPY3hfcGtIc2tiZWtvcmJ1Z1ZYNXpDbWtyRTFqZkhTMXJ4cFlHR1NRV2IxdWh0VnVNWlNKNTlZUzBwZ3RjZ2t0Q0JHSGVsbC1KNzFJZGJwbGJPeGpPUVE3cVlyTjJnMVVSam95bkR5cHVUaTZ2a25kaDExdjc5akR5TGpENXRDeDV4V3pzWW5aWURKN1ln?oc=5",
-        "published_at": "2026-10-24T01:43:13+00:00",
+        "title": "Moderna-Merck personalized mRNA melanoma vaccine cuts relapse risk in late-stage trial - WCIV",
+        "source": "WCIV",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXlYSVVNbGVjeGRfdWhLQ1pkdUxPMFFodFd2bVhuR0FfYjRrQ0VJNmlvSjQtVVpyRWRBVXJGbW1RTzBEQkMtbFl1UFU1TUl6TVI1ZVkxdkFSanVvMDA5ckRwdzF3ak14OW5GaWhSTy1TZjhvb2NfWUdiai1PdXFKUlZCWjQ5ekxPRDFjT2tReHFQcWt6OC1pbWNEVWJueEFVU2FaUjcwbFdsSTVsdk5Eb0RMbjZxZVRtQXpHMVhMbDI2QWc?oc=5",
+        "published_at": "2026-10-24T01:42:51+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
