@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T15:53:48.003363+00:00",
+  "generated_at": "2026-10-24T16:13:35.112167+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.2699966430664,
-    "wti_change_pct": 3.820242661837203,
-    "brent": 111.69999694824219,
-    "brent_change_pct": -1.2989319117144849,
+    "wti": 103.44000244140625,
+    "wti_change_pct": 3.9911542897184793,
+    "brent": 111.66000366210938,
+    "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.3,
+    "macro_score": 36.0,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T15:53:37.039412+00:00",
+    "updated_at": "2026-10-24T16:13:23.903686+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,21 +44,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
@@ -72,10 +72,19 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       }
     ],
     "geopolitics": [
+      {
+        "title": "Why is Israel launching a new military operation in the occupied West Bank? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcTVxUHFqOWZDUGMzSDYycTBIbFhHRDYtc1p4ODE3Nk9iQlhNcUhlZFBxQy1sS01VQkRpd2prT20yNVFjd0VOT3ZOYWVKczF2Vm53aGpGamxlN0VhVFlqejdVUHFjYk1HQTRaV3hUVHcySDhPSmFCU2c2MVUwSVktaUxNY2JUNHVSa1hDMWdMcXhVMDBtQndDNVp3bVhLeWw5bElIeWkxWjQ1aXRDUG56YVhudEJ3dWvSAbwBQVVfeXFMTmpUMnhhb2ctYmVHbFRfX01CVXNjblh2dEdrd2t1cEtSdmo4WU1PRFBjSjJxdlV5anE0aTVISHpTX1VqS2FfY255eXY5aUR6SWxIczRPY3RGMi1WdFNsSUpBN1NnWW5UN3AxRkdGYVMwbll4WTN6c1JOSGJvbFdWZmVOTFdCc2lESXZVYTBDT0sxeTVid3NtYmZaTVA1N2p1bmhSd0tjS1dJWTczdE1WMlZXRUhWdjBROTdtTHo?oc=5",
+        "published_at": "2026-10-24T15:29:19+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Zelenskyy says Ukraine will honor Oleshky ceasefire, counts on US mediation to work - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
@@ -113,12 +122,39 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Melania accused of taking credit for Pope Leo’s Ukraine ceasefire efforts - The Independent",
+        "source": "The Independent",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMi0xTEtWX1YtdEh3RUdIeDRZYTJIXzNlLXRhVmZZdmpqOTBBb2h0akcxQXFCTGhaS3BIRTJpbnhmX256SUdrelpBM1cxNzA0bXd5RnlKaVNDMDZyQkhnNVZiTjNQdkdCekdLOVlLcnI3N3lNTmdDbl91LWV4YnNiYkItWl9NTnkyYUpJOEtNRkV4YXFJUzdyc1RxVEc5eWJHNTVfcUNSRENnOWUwcFNUQXRiRUJSMFk?oc=5",
+        "published_at": "2026-10-24T13:55:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
         "published_at": "2026-10-24T13:20:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU and China consider expanding trade controls - Latest news from Azerbaijan",
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Celd2dVNhbnN4YVdLTHZncmI3bkkyc251SnllZXdHa3pSZFl4VUlVYndYWl80MVQ4b2RFTFNIV1F2a0M5T21aZ1M4TXkzV09RWFhJZ2RDWHRWN3pBM3ltcmk1MlBLQVR5Rkdndk1VLUJqclNtaHc?oc=5",
+        "published_at": "2026-10-24T13:12:32+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Is Iran planning attacks on Americans; why is the US on alert? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLW1VRmdINS01R1dERWVkVzVMbEotdHBvbHZVSGhYV3EwSm1fdjIybjhWQjVwUTh5dmRwS19yRFRwSEpOMnpvQlZmNWtHX2FKd3JVdC01SU9GV0FJVnJSUFpfUndUSk9XampPNV9iZ1Qwc3hUcnlGb2JiSi1QU185YVdGNl9oV0JibXVwd2JObFlBbjRYZGJjVXNBRnQycS1POGt0eNIBqgFBVV95cUxNdmdPeEQzVDhtUDJVRVRLTUYzQ0xCZjFWZGU2ZlNjWDNlVlhTRzJqSm1mZmphWEdZTjlWRTVVUUFRWFVOdm5TRUt2eDRDWUNRdHpVVjlEV2dWTl9oVC1ULW1Sdk1QMUNDcS1aeklWNGZWcVJBX01YUjBKYmNXWnJrYUNUX1ljRXZKM3ZTaWxtcDhlcERILW82bjdZWHJtRUthVWwyN0ZFakRzdw?oc=5",
+        "published_at": "2026-10-24T12:56:24+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -149,33 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iranian plots to kill U.S. officials in Middle East have reached ‘advanced stages,’ intel memo warns - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN25tNE9Tdk1Fd1ZBaDFpZjBsWXVwMV9uZVJjdnEwY3AwS2JScVlNNmU3eDIyVVFUeFZORDFVTGV4UUFldTFwOVFzWVpoUFl1LUhseGZZTVdHeVJvOVVpMGNvRmxwSXE5OEV6cTJ6dnZiMTJnVkd4QXBYN3JRbm5FbllvR0plWFNPSnNGdWRDNjhERTZtYnloRDg1YTVXcUFZRm5aeXFGdm1WUk1FR3NoQ1V3d3JGU2V0dC1tQ1RscW0?oc=5",
-        "published_at": "2026-10-24T11:49:18+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US War on Iran, Day 240: Oil Hits Highest Price Since April - EA WorldView",
-        "source": "EA WorldView",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYzM5dkhDcTJzLXJMWWtRcHJjcDlLM2V6TW1ub2JSeXJPNTBWYWlrLWZrTk9OR1ZrTkU5N3hMUmp2MmplVTZjYkpSXzBYMFNoUUFvZFMzSU43cUV0MkZtbUFPb1h5Z0dFOUxBOXBoVWs5QWR5TnJzcWJ3X2pPRXM?oc=5",
-        "published_at": "2026-10-24T11:37:06+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Ukraine is increasingly instructing U.S. military forces on how to incorporate drone strategies - Milwaukee Independent",
-        "source": "Milwaukee Independent",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVU9nMkFmVTdVMlAzbGFibWJhUHZNZUt0RGt5UHNIMGZWeDljLWppSDYtcGdvVHpwYThyMGhEeF9WemI1QTlaY2pKQXhkYjRGa2tsX0tDcFRBNEJleEtFZmstQmNyMWF4enFNQkRSSHJkb0ZJQ2dXNjdPV3FhQUZRS3k5RjFHSGRGbDdwN1QtbkJJZ3hxaWVjWFY5WDRKeERTNVNNZmY2QnZ1Y1lSbDBBZUJkMElWQXZOd0NxaHB3QWQ5aERjS0E?oc=5",
-        "published_at": "2026-10-24T10:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Opinion | The US has South Korea over a trade barrel – and the world should take notes - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdCMFZITTNtTGgySnppY3lMbG5zMGFVNEFTVnRaemJDN0VQUmJhejRvX2pTZFdfbC1MbmlmN3lZOHZTUVk4eWhadHlKa0ZFRjJzbUR2Q1VMOGViS05iQXVfUFlXc01xR2pVSjRnWUhyZm5fT0t5b08zZW1vNHM4UFlnbUU2ZU5HR0szaUVCTnN3QmpSOG1PUHpJQ2dxMmVuQ1hZTE9yZ0x1bDgxTENxV3pn0gGyAUFVX3lxTFBnYkNqQ3pndXdzTE5OaF9xeFRXMU9aRjlpQUNzUnRSSWZ6cFRyRzlOSF9JUVJEb1JhWlQxN2dyM1d0bnp5ZGN2cXhJQ3Y4SmNmLTBnQU41QURYa2xIOU5GUlFZMnRVV29PRlBKcmVDTkNWZ1Q3dkUyeWtBWlY0OVNZal9HczBKbjhiUmpzeGpacm9BZllWbjN4b3F0akQwWVFtWGpXVDVfLXZPczdPalRvSUE?oc=5",
@@ -194,15 +203,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "EU trade deficit with China threatens to break records this year - Belga English",
-        "source": "Belga English",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMktzcHduRDFvU18xZTNSeE5ZVUhrMnZuT01GNjlGNF9PUllUWVJXMldZYW9xRFZmaG9sWmJfWkNSMU03VGxFclZYNTNBby1QSXgxZUdJYTFIMENhN0pSOS1abUV5aVBkU0I2Y3h3WG1USy1JNDd1SlNkbWJuYmFLaWJLWnowN1J0eWFKYlRUTU0zeWwxUUZTM3VVbEV2ejJkUm5ndTZ1RUtHd0dKbUNsYW1CYjU1V3h5N2t4N2JXTW1wRWdGWVhiMlNn?oc=5",
-        "published_at": "2026-10-24T05:38:35+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan’s Joint Command & Control. - Futura Doctrina | Mick Ryan",
         "source": "Futura Doctrina | Mick Ryan",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hMGplNmJKdWRsci11Z0l0ZHBOVGJ5THhzQ1B6RUNXbEpKeHZnQkNNbnR6ZU4xaGtoOW9LVjczY1RMVlRTRnA2NHFNdWEzQzJWZTVyODY5QWRlakVzS2pDbFdqSzQwMFdKSG1VNHFvR2d3YkFuajZyNUxB?oc=5",
@@ -213,6 +213,15 @@
       }
     ],
     "corporate": [
+      {
+        "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - AOL.com",
+        "source": "AOL.com",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zT2RqQmdqVklPdHFaT0FwRkV1MmlVc1haeVc0Z2NWWWh1UFVNNlR1blFjNHA0VVNDYzJGRG5BVVBGTVJCNU0wZkxXaUstaEx4TzlhQ3JpSzJHRVVxbnpRblA3TUpMRjJOb0cyZW5NdDNjS0x3NFc3VzdjN3Y1UQ?oc=5",
+        "published_at": "2026-10-24T15:35:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - The Motley Fool",
         "source": "The Motley Fool",
@@ -232,10 +241,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Moderna-Merck personalized mRNA melanoma vaccine cuts relapse risk in late-stage trial - WCIV",
-        "source": "WCIV",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXlYSVVNbGVjeGRfdWhLQ1pkdUxPMFFodFd2bVhuR0FfYjRrQ0VJNmlvSjQtVVpyRWRBVXJGbW1RTzBEQkMtbFl1UFU1TUl6TVI1ZVkxdkFSanVvMDA5ckRwdzF3ak14OW5GaWhSTy1TZjhvb2NfWUdiai1PdXFKUlZCWjQ5ekxPRDFjT2tReHFQcWt6OC1pbWNEVWJueEFVU2FaUjcwbFdsSTVsdk5Eb0RMbjZxZVRtQXpHMVhMbDI2QWc?oc=5",
-        "published_at": "2026-10-24T01:42:51+00:00",
+        "title": "Moderna-Merck personalized mRNA melanoma vaccine cuts relapse risk in late-stage trial - WBFF",
+        "source": "WBFF",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOc2hNSkFUalllNURuTzUxNFozTExXLTJnNEZvazhTUDBwTEloVnRlVHRiSGhndzktbFhCMnBuNTdQSkliU1RHU2VJYjI3MTkwUjRiZFlCVHVpREZHVzQ3cXl2dURVS0stMERyM1hTc0U3NGtMeGpsTUZodWxMZlV0UUJGQnBoVGR5alo5S3Fqb1Z2RFJiQzhxTTlwUnFBOHNtRnVHdTM2bzR6UnZ0TDhjX0FxZ19XSDhaVWJ3RlZwUXlfTU5NcUIzdg?oc=5",
+        "published_at": "2026-10-24T02:41:44+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -273,15 +282,6 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYUNqZC0xS2dxZEtKOWdFek9HLVBCTktGYWpPdmJTQWEyT0RXMHcycFVFdnA5LWVpZW1UcGlUdk0yUWZORGY5aTZzTVJxX01ZT0lDUXJCb1VyZHkzSEtPTy0wcXljWWJXZHYzV2UwV3lmV3BhZ3ZkckE4blRxVndLNW5GWS0xalB6ZnBjYUh3?oc=5",
         "published_at": "2026-10-23T19:08:21+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFByaFdDRmtwUndpQXR1UjI4aFB5Z0FtTDRJZFV5ZlhDOFhZTk5lbktlVFFqdDlGLU5wX2p6WGhlM1g2YXdmNmIzS0Ffb09UWWJQVkJKQnNSbGhFVkdqNFBYM0o5aWNSU3dDNkhoUXZsdzFzU19QeWlnNw?oc=5",
-        "published_at": "2026-10-23T19:07:32+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
