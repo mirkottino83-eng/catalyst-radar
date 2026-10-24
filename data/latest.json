@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T21:31:45.350146+00:00",
+  "generated_at": "2026-10-24T21:58:02.473934+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.2699966430664,
-    "wti_change_pct": 3.820242661837203,
-    "brent": 111.69999694824219,
-    "brent_change_pct": -1.2989319117144849,
+    "wti": 103.44000244140625,
+    "wti_change_pct": 3.9911542897184793,
+    "brent": 111.66000366210938,
+    "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.3,
+    "macro_score": 36.0,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T21:31:33.588489+00:00",
+    "updated_at": "2026-10-24T21:57:51.168503+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,28 +44,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 2
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "What to know about the Melania Trump-brokered ceasefire in Russian-occupied Oleshky - Newsday",
+        "source": "Newsday",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQajJ1Nmswa2ZmYnluT1NyVUQyZXlfaGVDWlU4cFgyWWp6aHhXX21Va1dyTk1NejBNT0xYaXFKOGRtcllBWkVKT1d6aTBQOU9BVVd0S1NHV3YtaEdaM1Q1Tjl3R2NMRWlkZmtXTGNBLUozZVFEVnJCalhhazFNN2x4ekhjZmlvdDVCQXo0SnQ3VFdsUHc?oc=5",
+        "published_at": "2026-10-24T21:05:57+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Trump says US could strike Iran ‘tomorrow’ or reach ‘big, beautiful’ deal - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
@@ -131,15 +140,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
-        "published_at": "2026-10-24T18:24:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
         "source": "Scripps News",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
@@ -185,6 +185,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "China condemns US proposed rules expanding American investment curbs - Global Times",
+        "source": "Global Times",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zaFpPNl9obXU5ZTBMN1FySmxJT0kzWG5YcEk5ZWVUVzBNMWI5RFZNZ0FjeERCS2hXZ0JGM3hSR2hldi1BWmpMZ3dGX0VQV0lkMXNvcXBOb1MzR3ZGeExXV1pR?oc=5",
+        "published_at": "2026-10-24T12:24:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Opinion | The US has South Korea over a trade barrel – and the world should take notes - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdCMFZITTNtTGgySnppY3lMbG5zMGFVNEFTVnRaemJDN0VQUmJhejRvX2pTZFdfbC1MbmlmN3lZOHZTUVk4eWhadHlKa0ZFRjJzbUR2Q1VMOGViS05iQXVfUFlXc01xR2pVSjRnWUhyZm5fT0t5b08zZW1vNHM4UFlnbUU2ZU5HR0szaUVCTnN3QmpSOG1PUHpJQ2dxMmVuQ1hZTE9yZ0x1bDgxTENxV3pn0gGyAUFVX3lxTFBnYkNqQ3pndXdzTE5OaF9xeFRXMU9aRjlpQUNzUnRSSWZ6cFRyRzlOSF9JUVJEb1JhWlQxN2dyM1d0bnp5ZGN2cXhJQ3Y4SmNmLTBnQU41QURYa2xIOU5GUlFZMnRVV29PRlBKcmVDTkNWZ1Q3dkUyeWtBWlY0OVNZal9HczBKbjhiUmpzeGpacm9BZllWbjN4b3F0akQwWVFtWGpXVDVfLXZPczdPalRvSUE?oc=5",
@@ -196,17 +205,8 @@
       {
         "title": "EU trade deficit with China threatens to break records this year - Belga English",
         "source": "Belga English",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMktzcHduRDFvU18xZTNSeE5ZVUhrMnZuT01GNjlGNF9PUllUWVJXMldZYW9xRFZmaG9sWmJfWkNSMU03VGxFclZYNTNBby1QSXgxZUdJYTFIMENhN0pSOS1abUV5aVBkU0I2Y3h3WG1USy1JNDd1SlNkbWJuYmFLaWJLWnowN1J0eWFKYlRUTU0zeWwxUUZTM3VVbEV2ejJkUm5ndTZ1RUtHd0dKbUNsYW1CYjU1V3h5N2t4N2JXTW1wRWdGWVhiMlNn?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcVNQMnRUTkhNMUtOVnNjVG4zRDhmcDVmU2NueGEzTDdRbEEwUTg1ZWtMVHdwSDZaY2RfLVN2ZEJsRkc5TTYtUlpGVk53U2ZOcTZCR0p0OWtyUXV3S0RuTzJEUWV3ZWJqTjFWb1VTNThzY0ZIT3JnV0xLQUFHdUltZXg0R3laWHdmTDRSbVZuQ3dpTHlUOEkwRmFWeFZObkh2ejFDd3pzRzJudDVBU2RDdXdSTkFYUm83?oc=5",
         "published_at": "2026-10-24T05:38:35+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan’s Joint Command & Control. - Futura Doctrina | Mick Ryan",
-        "source": "Futura Doctrina | Mick Ryan",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hMGplNmJKdWRsci11Z0l0ZHBOVGJ5THhzQ1B6RUNXbEpKeHZnQkNNbnR6ZU4xaGtoOW9LVjczY1RMVlRTRnA2NHFNdWEzQzJWZTVyODY5QWRlakVzS2pDbFdqSzQwMFdKSG1VNHFvR2d3YkFuajZyNUxB?oc=5",
-        "published_at": "2026-10-24T04:41:04+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -259,29 +259,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Micron AI Demand: Why Memory Supply Is Getting Tighter - www.equiti.com",
-        "source": "www.equiti.com",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUllMdEpxZEZsZ01CRUpTMEQ1cmdHTE43RENZNWRWVm9mOGs5YzhQZl93NmZzQXpqR1VZZUxWQnpHMkZMTU9aVDF0V0pUWXFULU1ob3F0elJSX1J0SF84bGdVNk40Z0VuejQ1Uk5hQWNXN3JOT1BDR3VvRkxyQ3RodG9QeXMyMjgtRmc?oc=5",
-        "published_at": "2026-10-24T13:16:06+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News - Breaking News, Latest News and Videos",
         "source": "ABC News - Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
         "published_at": "2026-10-24T03:58:24+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia revenue soars 106%, beats expectations as AI chips stay in high demand - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdlSVdfanZLZVB3elBDNkpjOXRrVEtqODlaaVJEakxvWUhTLU9zNEpkUkUzbUpGWVhDNEQtc2JNSEpwRFlTQUpnNkw4eU5xakpQd09OaXAzQUw2ZEJaVHRlb1N5cU1rcFZ3XzYxMl9RNWx0dGwzMGtvb1dORHNqbUVmdmd1RDZXdEFIcXc4Vmp2MEFmc1hmYXpzONIBoAFBVV95cUxQbExCZEYxVi1YOTlRaVdpZVlpb1NSZVZUWExBazBJSVBhUlZtOUM3YzhpUG1EZGE0WGZ5VkNoNDM4LTBqTG82bXktaGdzb2tmcFY5dVV3VEpseDZhNXc5SGVjOTZIWFNscmRFNDJkd0IzdHJCYkZHSUFHZG1KcVdldGdOYkd4b3NnYVFMRnB0NW9lRkxIdVhRRjFHZ0lsVm92?oc=5",
-        "published_at": "2026-10-24T01:44:50+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
