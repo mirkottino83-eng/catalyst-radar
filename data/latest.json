@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:38:28.493310+00:00",
+  "generated_at": "2026-10-24T15:01:44.197062+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -34,54 +34,240 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T14:35:43.124814+00:00",
+    "updated_at": "2026-10-24T15:01:32.705657+00:00",
     "open_market_required": false,
     "window_hours": 48,
-    "status": "SOURCE_ERRORS",
+    "status": "OK",
     "sources": [
       {
         "area": "Medio Oriente / energia",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 1
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "ERROR",
-        "fetched": 0,
-        "recent": 0,
-        "accepted": 0,
-        "error_type": "HTTPError"
+        "status": "OK",
+        "fetched": 16,
+        "recent": 16,
+        "accepted": 10
       }
     ],
-    "geopolitics": [],
-    "corporate": [],
+    "geopolitics": [
+      {
+        "title": "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbUZ0WDhnTldnc09sSThTdmtfd2dWdG80MXJCdmd2R1I4aU9NN3VrTEw2OXE5Rno0czVraUtlb3d5QXkzczlOVkVJWHluU3lkcnFtc21jZlBManN3NmI1dlg1dWd0aEFiRWFUYXJ2VkdmYklLZFI5bU93MnVISkhWT09rT0s3VEFpVVRyRlBmUC00dHFTejF6N1ZTb1JydkstNE5wTmxFcEtDT3RVdElEMkVVNW44cW11d0J6SjN3R0tiOENFMU9Ld3l3?oc=5",
+        "published_at": "2026-10-24T14:58:37+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Live - US warships ready for potential strikes on Iran, WSJ reports - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
+        "published_at": "2026-10-24T14:18:35+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Turkey to tell Yemen FM Houthi attacks on civilians ‘unacceptable’ - Turkish Minute",
+        "source": "Turkish Minute",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUnFrWTRjYXI0bWtmZzMxRHViRU10WkFtaTl2V0hqeUhIUmwyN2pOdlhLY09Cd0JYeTgtZ2NreWR1UWI4LXlfV29KdkJxUGNHcUY0RWxRNWVvM2F3ZWo1RUxHdUR2dFZvUldraTdnYTFsei1xYktoMWpJZXNKMkFkYzVVUFdyVjdNekdNcnlWNV9jYVFmeWV2QWg0MkpITlFwa2ZPY3ZUcDZRd9IBrwFBVV95cUxNQ25Td2NOLUx4RWd4MHlxY0JMaC1tQmdHcVh2SEwzaXBvakFnV1IzNnoxcEh2Snl1VEhnM3p3c3FOcFE4Y19zWklUWDNMQ01lSk1uNXBGSGxEbjJDWm9tYmdtSWhnOVdudVNDbEwzeWdidHM0dnpsVTJZckVuV0w2a1JPZFJBV0poX3luUmw0TTl3WV9iMEFfdjgzWlVSY3lwS0pMX2Z4MjM5cE4td0Vz?oc=5",
+        "published_at": "2026-10-24T12:42:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What to know about the Melania Trump-brokered ceasefire in Russian-occupied Oleshky - Bozeman Daily Chronicle",
+        "source": "Bozeman Daily Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOOUZGSXp6S1dTTnZ6b0FLU1JyVlJvMUFXRGxZN0dDR3BfVjZqdnJxWXZ2dGlFemRLQ2hYaEdNLTE5bHlPcF9nRHBzYl9fOXlienZkTDJ1TzYwbXlfT1ZNb2YyamFnNHl6UHA2ZXVaT3gwYlNsdXBUeGQzNmhQcnRnb2xaOWxDeHk4bnFVNjdPUWN1RlNqRE0tRXdBdkROclp0WDQ0Q1RpT19oNkdOR0JiR0Zwel9JVDRPbjgwWW1GNHlZcDhZT1k1QXNCVFpVVG51emZNOTMwU1hNWkV4VS1EZWVoOV80RFJIOUFKWDJodHU2ZHZMb2FUZVptUmNPVnFpS3pTWHpRdmxNZ2U1Mmc?oc=5",
+        "published_at": "2026-10-24T12:31:27+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China and EU Reach Hybrid Vehicle Understanding, Averting Full Trade War - Vocal",
+        "source": "Vocal",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZGlJckdULWtiOWgxRDhSYVEyY3V2cEw2UTFjREs2MzNPYk11RzRpRVZHTGstYU5nQ3N3VTloQTNxc2V3b2VQZ1BpVzZpMG1wejQ2d1JWTFZKcFZkWXdHM1JnLUU3ZUtrR2RnUWhiQU9LaFMzN1hUYVFYTUtfeHFZbEhhWXMzYjRoZktSQ0lLRkhkY1JTMDNaVW8zMDZGUQ?oc=5",
+        "published_at": "2026-10-24T12:17:53+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine sanctions Russian arms suppliers as Moscow ramps up attacks - The Kyiv Independent",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUGlTSkYxdVl5WEFhUG5zX0xxU2lFcTZmOVYzbzN3b2QydXZvNTFlVTlGTlJlSXhnVzlJV3FvMGd6OUZady1ZZFE2TzFXck9OTGhPYVpfS3cwYVpBcHlIOVg3Zm55RmxFbU9kVFl3RXRxYUdzWE5XX2Y1Zi1aZU9mMlhBZlJJNW5IbFk2RVJ6MnBpd0gwSlo0TTFhOHA?oc=5",
+        "published_at": "2026-10-24T12:12:05+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israel Launches Crackdown in West Bank City After Deadly Attack - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd3FFQzgwaFBiZkJqY0FKOXBGdEtucVVjMjhtQ1dHVW1kZTFEa1RYdXNyS1d3Y2lTazJSMVRHa0IwZGI1WkcwUS1DT1VRODMxZ3A5OG9OdmE4N1BQbWNRWVRlaUdTQU9uMUlFTURDbV94alNNbktJS3BGWWVfcDEwS3h5LUR2YVBIaVlaanlvOUwxa3c?oc=5",
+        "published_at": "2026-10-24T11:54:15+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US War on Iran, Day 240: Oil Hits Highest Price Since April - EA WorldView",
+        "source": "EA WorldView",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYzM5dkhDcTJzLXJMWWtRcHJjcDlLM2V6TW1ub2JSeXJPNTBWYWlrLWZrTk9OR1ZrTkU5N3hMUmp2MmplVTZjYkpSXzBYMFNoUUFvZFMzSU43cUV0MkZtbUFPb1h5Z0dFOUxBOXBoVWs5QWR5TnJzcWJ3X2pPRXM?oc=5",
+        "published_at": "2026-10-24T11:37:06+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran readies plans to target Gulf undersea cables if US, Israel strike again - Türkiye Today",
+        "source": "Türkiye Today",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQVNlT1haTm1KNTV6Z3lTem5JZnpzQnNpeGpjbXdSY3RCem8yNUdHWFF0RHd2N1pGWldLc0NwZGlWcGE0Nk5tM2k5Y3laR3JGdVBTZE1Wbzhncmp5eEhUMXR1LXA1UlREa2J4RHBySVdxcmdCNG9SQmI1XzcyaVFQdndIQ0tUbjBnWGlCeFF2di1LMS1HOHhLVkphMHhRejllSzJmcDhrOGlhcExtakJZeHlCYUVZYjZZZnFn?oc=5",
+        "published_at": "2026-10-24T10:27:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Opinion | The US has South Korea over a trade barrel – and the world should take notes - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdCMFZITTNtTGgySnppY3lMbG5zMGFVNEFTVnRaemJDN0VQUmJhejRvX2pTZFdfbC1MbmlmN3lZOHZTUVk4eWhadHlKa0ZFRjJzbUR2Q1VMOGViS05iQXVfUFlXc01xR2pVSjRnWUhyZm5fT0t5b08zZW1vNHM4UFlnbUU2ZU5HR0szaUVCTnN3QmpSOG1PUHpJQ2dxMmVuQ1hZTE9yZ0x1bDgxTENxV3pn0gGyAUFVX3lxTFBnYkNqQ3pndXdzTE5OaF9xeFRXMU9aRjlpQUNzUnRSSWZ6cFRyRzlOSF9JUVJEb1JhWlQxN2dyM1d0bnp5ZGN2cXhJQ3Y4SmNmLTBnQU41QURYa2xIOU5GUlFZMnRVV29PRlBKcmVDTkNWZ1Q3dkUyeWtBWlY0OVNZal9HczBKbjhiUmpzeGpacm9BZllWbjN4b3F0akQwWVFtWGpXVDVfLXZPczdPalRvSUE?oc=5",
+        "published_at": "2026-10-24T10:23:01+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Why Ukraine is increasingly instructing U.S. military forces on how to incorporate drone strategies - Milwaukee Independent",
+        "source": "Milwaukee Independent",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVU9nMkFmVTdVMlAzbGFibWJhUHZNZUt0RGt5UHNIMGZWeDljLWppSDYtcGdvVHpwYThyMGhEeF9WemI1QTlaY2pKQXhkYjRGa2tsX0tDcFRBNEJleEtFZmstQmNyMWF4enFNQkRSSHJkb0ZJQ2dXNjdPV3FhQUZRS3k5RjFHSGRGbDdwN1QtbkJJZ3hxaWVjWFY5WDRKeERTNVNNZmY2QnZ1Y1lSbDBBZUJkMElWQXZOd0NxaHB3QWQ5aERjS0E?oc=5",
+        "published_at": "2026-10-24T10:00:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "North Korea's Kim crosses new bridge into China as trade ties warm - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOTlLSVZQYy0tZFRieEJTYXU0WnM4NElhS29hMlJ4R3g1Mzl3Wmo4TzFRRlE1QXhsQ09SQWV0Uzg5LUdSdWpfdjI4LU1YSXRqY3pOSTEzbTA0cjdHM2MzVUpqbUdOSm13ZGZZdHN3VWlfbm1laGVQSmEtRklGaHhDejhUT2F4MUktamhqTS13ZHpNaERZekprMkp0TWdyX0t4bXhsOGJ1bUwzZw?oc=5",
+        "published_at": "2026-10-24T06:17:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia, Ukraine Agree on Ceasefire in Embattled Oleshky, Plan New Peace Talks Next Month - The Moscow Times",
+        "source": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVzdpV2pWc3JDY1FHNWVPR1I0YktzS09qRWNKaXZ5OU5oVGdmaUxDLWVFUk1hOXJtenZFSDlTYmZPMXZVWWMzeVpTTUlvaEM1TVE2LVI3Tl9yOVZSeVZYRnhFNXhiREM1b090VDk2WW4xUlZGdVJGbGFQRXpWQkdsSWstRnhsVk9wMFYzOWs4LTl6X3dtUDJOTS03ZU82aERyb1pjYllySUMxdkZ3X0lHbjV4VzNTV2tJTnZuU1lhekY5MER2MExOLV9qbVRYZWVB?oc=5",
+        "published_at": "2026-10-24T06:13:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EU trade deficit with China threatens to break records this year - Belga English",
+        "source": "Belga English",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcVNQMnRUTkhNMUtOVnNjVG4zRDhmcDVmU2NueGEzTDdRbEEwUTg1ZWtMVHdwSDZaY2RfLVN2ZEJsRkc5TTYtUlpGVk53U2ZOcTZCR0p0OWtyUXV3S0RuTzJEUWV3ZWJqTjFWb1VTNThzY0ZIT3JnV0xLQUFHdUltZXg0R3laWHdmTDRSbVZuQ3dpTHlUOEkwRmFWeFZObkh2ejFDd3pzRzJudDVBU2RDdXdSTkFYUm83?oc=5",
+        "published_at": "2026-10-24T05:38:35+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan’s Joint Command & Control. - Futura Doctrina | Mick Ryan",
+        "source": "Futura Doctrina | Mick Ryan",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hMGplNmJKdWRsci11Z0l0ZHBOVGJ5THhzQ1B6RUNXbEpKeHZnQkNNbnR6ZU4xaGtoOW9LVjczY1RMVlRTRnA2NHFNdWEzQzJWZTVyODY5QWRlakVzS2pDbFdqSzQwMFdKSG1VNHFvR2d3YkFuajZyNUxB?oc=5",
+        "published_at": "2026-10-24T04:41:04+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
+    "corporate": [
+      {
+        "title": "Alphabet, Microsoft and Amazon lead 10 major earnings reports next week - Opening Bell Daily",
+        "source": "Opening Bell Daily",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNVFUb1Y2UUttRllqcnRmVzJFOTYyN3lNYkkyWWNaNnktaE9WT043cFBxT3U1QmFocXJ1ejRzdUkza3F4MGJDWTVOVk45b3gyYnJwTjZ6NWZiTjVyM2dEb1JveFlqTWd1d1dSRFM0djkwSl9aZUxEU1VpRm43dHc?oc=5",
+        "published_at": "2026-10-24T11:57:47+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Moderna-Merck personalized mRNA melanoma vaccine cuts relapse risk in late-stage trial - WCIV",
+        "source": "WCIV",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXlYSVVNbGVjeGRfdWhLQ1pkdUxPMFFodFd2bVhuR0FfYjRrQ0VJNmlvSjQtVVpyRWRBVXJGbW1RTzBEQkMtbFl1UFU1TUl6TVI1ZVkxdkFSanVvMDA5ckRwdzF3ak14OW5GaWhSTy1TZjhvb2NfWUdiai1PdXFKUlZCWjQ5ekxPRDFjT2tReHFQcWt6OC1pbWNEVWJueEFVU2FaUjcwbFdsSTVsdk5Eb0RMbjZxZVRtQXpHMVhMbDI2QWc?oc=5",
+        "published_at": "2026-10-24T01:42:51+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Patient dies in Bristol Myers Squibb autoimmune CAR-T trial - STAT",
+        "source": "STAT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlQ0M1N1dzlaclE5RFJsRHhYYWJURFR3Y2JWVGZLMS1vSTY0TVhmcm51ampiZ1VGUk9zWGNCNHFJNWYtN21SdFdHYnFXMkF0WmtxOU52LXc0R1JIQzhiT3dmYU9oUEY3d3FEbi1IQW9qcV94MXI4UjNQbWNYb0FqakdQUW4xS0MtSkxGN3dPWkdQcmRCSTBBUG9n?oc=5",
+        "published_at": "2026-10-23T23:49:48+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Merck and Moderna release promising data on cancer vaccine trial - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTU5YaVQwV1dnZ0pNckkwWFhfd2trQlhWTUluQVA0R0p4YkNVVnRjZHAwZlp3ZldDcWNIZGRhRnlUQ1FnQ3ZqRmpNWllxUkRHRF9JRFVHbFA1NDN6alhnMFJkN25jVkp0dnYxdU9JNzRPa1UwOTFHenNodElHa3ZNN19kcmxYWlFWNlZoZmJkSW5NQ2ttZmo4ODJJTm9BNjdxcnFuZS04TjFwaWVwckE?oc=5",
+        "published_at": "2026-10-23T22:56:12+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Edwards wins FDA approval for tricuspid valve repair device - MedTech Dive",
+        "source": "MedTech Dive",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVRxMF9yWHBWQklqc1Frdzk0ZlFBbi1hUW1IVmNxUGMtQWV5dGJGX1ZGNzJKejh4WndjVC1jOW9fNXd1LVVrZzQ1Vk1SS01RMmptZ0dTdGR3YlY2b2cyODZGWDgxVGs1WFcwSzIwU2dpVzFCR1N0cEpBSmo3UEtWcEtPeWlKQ0Y1NjNEYXdWZVRMQlNSV08xREVNc0ZGWmYzSVE?oc=5",
+        "published_at": "2026-10-23T19:11:11+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "3 Clean Energy Stocks With Strong Earnings Growth Potential - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYUNqZC0xS2dxZEtKOWdFek9HLVBCTktGYWpPdmJTQWEyT0RXMHcycFVFdnA5LWVpZW1UcGlUdk0yUWZORGY5aTZzTVJxX01ZT0lDUXJCb1VyZHkzSEtPTy0wcXljWWJXZHYzV2UwV3lmV3BhZ3ZkckE4blRxVndLNW5GWS0xalB6ZnBjYUh3?oc=5",
+        "published_at": "2026-10-23T19:08:21+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      }
+    ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
   "archive_count": 147,
