@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T23:06:53.338850+00:00",
+  "generated_at": "2026-10-24T23:28:19.995479+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.2699966430664,
-    "wti_change_pct": 3.820242661837203,
-    "brent": 111.69999694824219,
-    "brent_change_pct": -1.2989319117144849,
+    "wti": 103.44000244140625,
+    "wti_change_pct": 3.9911542897184793,
+    "brent": 111.66000366210938,
+    "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.3,
+    "macro_score": 36.0,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T23:06:42.037310+00:00",
+    "updated_at": "2026-10-24T23:28:09.252903+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -58,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       },
       {
         "area": "Titoli tech e AI",
@@ -77,6 +77,15 @@
     ],
     "geopolitics": [
       {
+        "title": "MEPs to visit China to discuss trade challenges and opportunities - European Interest",
+        "source": "European Interest",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcTZHWDN3M3RRRHRHcWUwUkRxbGNXR01kbzhMNVlPZVA0eU12b1huZWZONk1KV09pTDNybXQ4eXBYOE16c3JWVUlMbUFWa1hrVEYxVmNOQ3hmVGVCUEtaZGk2VmQ5bFNMRDMxSnFIM2pfeEY1ZzBBMmZmMEt4YktZVTZDUGhGZVRkT01OQWgzVjItbjViRlJ0eHIzV2tRNkE?oc=5",
+        "published_at": "2026-10-24T23:24:42+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
@@ -92,15 +101,6 @@
         "published_at": "2026-10-24T21:05:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Live - US warships ready for potential strikes on Iran, WSJ reports - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
-        "published_at": "2026-10-24T20:14:36+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -126,6 +126,15 @@
         "source": "Haaretz",
         "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPNnpGUmFZZUpkZHhDRGJOMkhaQjhaQ3VETFI0V0Z0U25OelhvUVhWU3lPMUo3a2tFTzVMNXpyby1tUW1RRmNtWEhSUHhzQ3Y4aWNWVTZmOUdQWmdRRkpvaXlNMUpxQ0VqNGhtUWRKZWt6LU5xc19LTDdkZzRmM3FzTnZxcE9XMVZMQ2FaQkxYN1RuNUxZcEIxTlBHYm50Y1hzMkU2STk0WHlWcXhfazM5ck53UThvdG9ReE9LOXN5SEdOa0htbDByejhyM2dlQVV4Ry1FdmE3RmtrZW9HVEtQVDdRcFctQng1NElld0FXUFB3VDNpWjJiVHhad2pJRnJlUUhLQkpiRkdsZko5b3pIYzRYODZKa0MyM29sdVZPdElPT2hWcUNzVm9GejFvNko2?oc=5",
         "published_at": "2026-10-24T19:24:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bank of Israel Rejects Netanyahu Cryptocurrency Plan To Bypass Sanctions - The Media Line",
+        "source": "The Media Line",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZjJDZlRscE9oc3hUdEVRTjA0dzhzakxQV25vMVhCUTFUYkRfeW5BOUdJeGx6MDRrYUVHbXFFRmUtUHVvNk15OU9uVzFsSWkzbUdUVnR5VnJZU3djZllVRjh5YnVGeUgtUGJhQzJ5ZWhxa3A4QldwdzhUUWx5VS05WHdPck00NF83cGFwdXR2NWJEaTBmdk01cWVYT2tUQzZRSm5QSFJ4dWdHT0oz?oc=5",
+        "published_at": "2026-10-24T19:16:19+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -167,10 +176,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine regains critical Starlink service after restrictions disrupt drone operations - Fox Business",
-        "source": "Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSnpPdXJvR0kzLUpzdmpBSXY0MkdGUHlOMlhEdXlqUFJYcUFPcHp3THJ0UGU2R1NaTXR5dy1Ed2M3NmNnWVlQOVhnb3RzVFdQWG55Qi1mbEFZZTRRODBsanR3aHV4MUl4ZWVsZ2tuOGFQazBWbGJ5RTV2TUc5SnJRZmZJV1dmTGt0VlpweGl5RnIwLXhRX1dZSmk1dDB0dTRQbEVSblJNc095QVU0SWVjN0o3N0dheDliWF9INl8za9IBxAFBVV95cUxQcDdjSUY2eVlWRVVBbXltNmNld0R1Q0dWX2NuZThaOFpyaDFqMGt2cHhzaUJwN09OTS03M0xXSnlLWGxpNXM2ZmUtY0ZjMTB4X29TaFNueDUtR1ZnNWZTcTk2VDNyaWJCUnVCTWstRzVONUs5RzRSS3ZnblBNRTFSdG9mQWp3RG5HZXRjZjRKc1pSUS0xS096U1AzTDA1ZERZcUtFYWdZaE4tSkl6YVdMelY2aC1semQzNTRzZWRvalpFTC1w?oc=5",
-        "published_at": "2026-10-24T15:37:00+00:00",
+        "title": "Romania Blames Russia After Drone Strike Sinks Khoryv Cargo Ship Off Constanta: how 9 outlets framed it - NewsCord",
+        "source": "NewsCord",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNekFkNjN0RG1udTdpQWxwdHdjbmlXSnRRcDF0OXpNZTR5eEc0X00yR2lvZjd4S2xjME1JTmdUemVRQlFmQm45cGJ4VFdzMWxlWS1UOTJJMGp2OU5kcG1oV2ttSXlaX25TN1VWYllmNHVjZVQ1d3pZY29WTzI3YUlkeWVLdmp0NDBlM1RxVEl0Ty1XUnp0eVNkSl95ajg1TmIzSnNDLXdkVkctdjV4SklIdUk0cVhWay1Pby1NVzVXUGhZWm9fNzc1UFFuOTdNVC16VmgySTBid0Z2WmNOTWZlOEJXVkJuSlU?oc=5",
+        "published_at": "2026-10-24T17:22:41+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -198,15 +207,6 @@
         "source": "Belga English",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMktzcHduRDFvU18xZTNSeE5ZVUhrMnZuT01GNjlGNF9PUllUWVJXMldZYW9xRFZmaG9sWmJfWkNSMU03VGxFclZYNTNBby1QSXgxZUdJYTFIMENhN0pSOS1abUV5aVBkU0I2Y3h3WG1USy1JNDd1SlNkbWJuYmFLaWJLWnowN1J0eWFKYlRUTU0zeWwxUUZTM3VVbEV2ejJkUm5ndTZ1RUtHd0dKbUNsYW1CYjU1V3h5N2t4N2JXTW1wRWdGWVhiMlNn?oc=5",
         "published_at": "2026-10-24T05:38:35+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan’s Joint Command & Control. - Futura Doctrina | Mick Ryan",
-        "source": "Futura Doctrina | Mick Ryan",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hMGplNmJKdWRsci11Z0l0ZHBOVGJ5THhzQ1B6RUNXbEpKeHZnQkNNbnR6ZU4xaGtoOW9LVjczY1RMVlRTRnA2NHFNdWEzQzJWZTVyODY5QWRlakVzS2pDbFdqSzQwMFdKSG1VNHFvR2d3YkFuajZyNUxB?oc=5",
-        "published_at": "2026-10-24T04:41:04+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
