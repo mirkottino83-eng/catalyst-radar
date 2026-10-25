@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-25T02:11:51.713580+00:00",
+  "generated_at": "2026-10-25T02:40:58.361047+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.2699966430664,
-    "wti_change_pct": 3.820242661837203,
-    "brent": 111.69999694824219,
-    "brent_change_pct": -1.2989319117144849,
+    "wti": 103.44000244140625,
+    "wti_change_pct": 3.9911542897184793,
+    "brent": 111.66000366210938,
+    "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.3,
+    "macro_score": 36.0,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T02:11:40.674216+00:00",
+    "updated_at": "2026-10-25T02:40:48.532455+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,21 +44,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
@@ -77,6 +77,24 @@
     ],
     "geopolitics": [
       {
+        "title": "Old Saudi fire photo miscaptioned as recent Houthi attack - Yahoo",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVERjMVQxWWxyX0NVYzN6ZHJNTTU5Zm50eGFmdmVOZTVaQjNadHphN0RLZ3JkYXFCU0lBcTNSbU1aMl9zVjF5dHhYWXd5S2JoYWZsLXc4cGh6anRDcS10U0lCUlEwR1Vqc29ZSzQ1S0ZFVVBReUh1YnQzOHBsRVF1YWJqOTAyYkE?oc=5",
+        "published_at": "2026-10-25T02:26:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Live - Trump says Iran strike possible tomorrow, report points to post-election plans - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
+        "published_at": "2026-10-25T01:36:57+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Iran sends conflicting signals on US deal as Trump raises prospect of strikes - Iran International",
         "source": "Iran International",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9reFd6eFdFdzZFLUg1dS1pd3BGYmtJMjBzZktXY1NSaXc5QkJwZE5xQ0FMMDVwQzl0OG1kcWtReEtlZjE0dFdzUUJ2LXgxTU1Pc1E?oc=5",
@@ -91,15 +109,6 @@
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOenJjWWFLN0xjSXdjOHdmUFJ5ekx1M0FLLWR0dGxDc1p6X2xJbDAzM2Zia0lIZFhwdTBJOExfNnVseXd4M1RzUjRDV2MySDBTTTFuQTFKYmVrd2JEWTdOUG9BM3kzU24waU9zQlJMV0d3cFR1VXJrdVZzd1FITEV4Y3lMbHVOM1hZWlFnQlZKd3FvVDA?oc=5",
         "published_at": "2026-10-25T00:56:51+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDhaTnZBOUF0LWEyaWtpc0ZfOXZ6bXlKTmxDTE44TENjVnQwaW9EOUI0SDFIenBFeEVXcFBOVmw0NThCSThhQkt4VGZMMmJmYTQ3eC11bjMwOHJQUHFEQkR0VVhEcTAtOE5JR1JJUXdXekNMcHdsTDlKSWFMMUZlYl9qNFZNdGl4c0xGXy1rUkFfOVVKMFlTVmlpSThXU2g5YmNXQTZxelJuSE9Bbzd0ZUh2WdIBuAFBVV95cUxPclRDQVdQV1JBNENBdDhhTmR5b2lRRFc1X1JlcGFIZ2FmdXRmX0NjMjQwN0N3SmFjMDh3Rnh0eUh3UnlTZTk4WGFoWGM0TFd2cG84WUtEc2M0V2ZaOXU1elJMX1RmVzZNZTNEVndQTFJsREFRQ3ZzQmg1ZXRtTDZhRjFWaHZxRFRiRlZkdzZSWHBycEZOOEdMOXlPX29RZzZkT2Nhdl9fbkNlWlpBbnpXdUFQTnVHemc3?oc=5",
-        "published_at": "2026-10-25T00:40:44+00:00",
-        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -149,28 +158,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Live - Trump says US may strike Iran tomorrow or make a deal: ‘it's up to them’ - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
-        "published_at": "2026-10-24T23:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
         "published_at": "2026-10-24T22:06:52+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pentagon drafts Iran attack plans as Tehran threatens aggressive retaliation - The Hill",
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM2k3eTl5VVh2RUxsbWREby1mUFRZblNhdGhfTkhNSHhuZlJkWHR5TkpZdG1LeEJLTUttSlNIcnZkdDRhRHFGY0lHWWJvWjJEXzBFelFYakdTUzRpNW54R0czY3pZeVIwV2xDcmNCZ2xFUl9RZldxcDQ2WWNQVldkUUZBTHBDZjFlbkJj0gGQAUFVX3lxTE1vN0R0YlVPa0dCSVRPNG5BYTUtYnhlMlZ1TEJJTU1vM1ZqMmVlLW93dmpjRG14X1pERG1mUF9hbnU1TkZDTlZaVFZPSFo4dXRyVEo5d0Vqakt6WVR1U0NBOFV4NmViS3BlZk51NW11WnRpNHBLNmttdHhUT3hESEc5Yy13ZHRRaWVUMk50b2ZLTg?oc=5",
-        "published_at": "2026-10-24T21:00:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -181,6 +172,15 @@
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTBfVm8yY05zbFF6OWI1M09ZeWgtVlBWd2x6XzJ2X0k0Y0lwLXhJNXF1QU9LVkNFM3lNdUk0ZU01cmpqVGNaNU8zZVZwS3U4WF9hN1NLSUhhRDlyQ2VFTlQzU090X3g2Mmlkb2ZzX0o4Q05ETmREbzBFdkFpOFhfalljSk1VWjc5ZmxmbC15bWxqcVliV3Iyb3hOczA?oc=5",
         "published_at": "2026-10-24T20:08:20+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
+        "published_at": "2026-10-24T18:24:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -214,6 +214,15 @@
     ],
     "corporate": [
       {
+        "title": "First Generic Weekly Estrogen-Progestin Patch Wins FDA Approval as Women Still Struggle to Fill Menopause Prescriptions - Medical Daily",
+        "source": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbHVYU09iZU9TLTM0RGpWUzRISFRPWDV3a0tuckNLYlE4OFdqNXV3Tllrd29FQ0NWcGJQTFdxMEtVcVVRU0Z0SHlqRWpYaDdpaDloX0hXYWdCU0tUOFozdUJNZ2Vud2lUV3dmcFNwYjN3Szk0U3N6d0E1bDF3bGxMNk9pN1hobU1fc2E1SWVmQVhYNGI5YUZndUo0eG1mN0pp?oc=5",
+        "published_at": "2026-10-25T02:37:53+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "🧭 Nebius’s $3.5B Loan, Microsoft’s 1.1GW NiSource Deal, Aolani’s ~500MW LOIs - Global Data Center Hub",
         "source": "Global Data Center Hub",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ybVVHaDFGVGo0T0xpTDAwNXhVUkJ1aWMwd21CY051d2JhMkQ0NFVrTU01TVlaTThka1NFTzhidE1tUnE1RFhVa1ZTUl9hR01EM2szUzVXVDFacWN1N0pVd1RTRFo2YU1QTHdzaTViaFVEUzlvVEZPa25R?oc=5",
@@ -236,15 +245,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5",
         "published_at": "2026-10-24T22:02:03+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Edwards PASCAL Precision Wins FDA Approval as the Second Catheter Repair Option for Severely Leaking Tricuspid Valves - Medical Daily",
-        "source": "Medical Daily",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZW44RTNja1BTUEFiN2pRVnNER1l1bmhoX2VnZ3RoWm5xcnpiUDVtUHVFSXNFQUtoWnNGeGQtb1VFVC1yUUVVeTNUSmVYc2RRRU4xazlUMThYM284NjZlTWU5aFQ4akJVTFAzSFltSG5tdGsteFlfV0hqN2pKVF9ad2RzdURROC1WZzZNN01PazhyQQ?oc=5",
-        "published_at": "2026-10-24T16:48:31+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
