@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T06:06:48.152406+00:00",
+  "generated_at": "2026-10-25T06:40:29.618749+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -44,7 +44,7 @@
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUQ3WjBXTkx5aGZBVVIzRS1pUkYyQWhFYk9GN0VRWXdJQ2RoOXU1NUI4WjBXNmw0amVFQWNhdWMwUExFS0tSX1RKLVhwMWxPT0hXRFV0WnNVODZpMWRFNzhOZVQ3aVNUYUxTNUhraFpGMEhRcVZhZUljdExhaGhxUWJfeWNqbV96Ny1vRzFySjlCQQ?oc=5",
       "published_at": "2026-10-25T02:14:00+00:00",
-      "age_label": "3 h fa",
+      "age_label": "4 h fa",
       "catalyst_type": "earnings_beat",
       "current_change_pct": 4.28,
       "short_term_change_pct": 0.1,
@@ -52,11 +52,11 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-23T20:00:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 2046.7,
+      "quote_age_minutes": 2080.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 54.0,
+      "confidence_score": 52.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-25T02:14:00+00:00",
@@ -66,7 +66,7 @@
       "factors": {
         "source_quality": 75,
         "catalyst_strength": 78,
-        "freshness": 78,
+        "freshness": 62,
         "volume": 81,
         "momentum": 51,
         "macro": 50,
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T06:06:37.519415+00:00",
+    "updated_at": "2026-10-25T06:40:18.596853+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -101,14 +101,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 4
       },
       {
         "area": "Farmaceutica e settori",
@@ -125,6 +125,15 @@
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWl2Mmota2RQZEZha3NhRGU3UVRxUnVJaUlpT0FjNG1ZeS01dXFsUDZWUk5FMFNnRHdBR01rbGpvQnJXQXBIZzYzMnQ2bTA4TDE4dHdYZkRwUWRJVy1mdnFxRWszR05RQnpfSkJHTDNkM2FZTFE0YjVYRUxrX0xOMllHRElDN1hkNGE2UkRZYnBfMmtDTGFmenJsS1V3VGVuNUFabFljS2wwcjlFYmJYd2RLNmR3ODRHU0hVZnY1TdIBxwFBVV95cUxQcDBmd0prQVZuNnpyczIwcDZFdlcyM20yS2s5VHdsMGpVelYyeW81VE1yS3Z0djZ1ajBZVmtfYVFSUWphRGp5VFc1TC0zQVhJMThqaHBvTWhNdVJGZU5LRThyYjdMY0E0Y2YzTDlWNVpPamJnOGxJUVVnek1QVVppNk5vRjhnOGROVzlkNDlkYWVjY1FkVExpWWNwa1FralY3dTRya1FIUXV2TzhFTjIwVDRjSnNaUFpQZy1NWlVwem05bmVqOWhZ?oc=5",
         "published_at": "2026-10-25T05:07:31+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Teodoro: China sanctions won't change PH rights in West Philippine Sea - ABS-CBN",
+        "source": "ABS-CBN",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaUhlOTc0ZUJYTVJPUVBvbDNaQXRoREZvdlJldktWQjBHX2lldDRlRXBWZUVmQm5kT1doVVd1LTN4OFpwQU8tVnRHVzRfRGVUWG5iRmxTdWh1Q1JFNTZxY3Q2aXpyZV9QVDQ0VjBpVkRzNmxyT29sMXpsbVBaekRzV0UweXFlbEtBWXNEdDJpQlhURUNDYzBoZTl6M3pyaWs1SUZBM09UdmZoNGVuaHVmQkVydkViblJ3NVJrSFNOTQ?oc=5",
+        "published_at": "2026-10-25T04:50:00+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -201,6 +210,24 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDhaTnZBOUF0LWEyaWtpc0ZfOXZ6bXlKTmxDTE44TENjVnQwaW9EOUI0SDFIenBFeEVXcFBOVmw0NThCSThhQkt4VGZMMmJmYTQ3eC11bjMwOHJQUHFEQkR0VVhEcTAtOE5JR1JJUXdXekNMcHdsTDlKSWFMMUZlYl9qNFZNdGl4c0xGXy1rUkFfOVVKMFlTVmlpSThXU2g5YmNXQTZxelJuSE9Bbzd0ZUh2WdIBuAFBVV95cUxPclRDQVdQV1JBNENBdDhhTmR5b2lRRFc1X1JlcGFIZ2FmdXRmX0NjMjQwN0N3SmFjMDh3Rnh0eUh3UnlTZTk4WGFoWGM0TFd2cG84WUtEc2M0V2ZaOXU1elJMX1RmVzZNZTNEVndQTFJsREFRQ3ZzQmg1ZXRtTDZhRjFWaHZxRFRiRlZkdzZSWHBycEZOOEdMOXlPX29RZzZkT2Nhdl9fbkNlWlpBbnpXdUFQTnVHemc3?oc=5",
+        "published_at": "2026-10-25T00:40:44+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bulgaria votes for president in wake of deadly Black Sea drone strikes - San Luis Obispo Tribune",
+        "source": "San Luis Obispo Tribune",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbHRnbjAyTmdnZ0dqV29aUDlWWnYxVmtQdGwwQ0tLM2R0cHE2d25LWDdHNUNhR1JPbHBvV0MxQ1JwdXB4ZmtrWHRzRXVNbkJacXdRQktkN3NnMmdHajI4STVwbjVQcjRXUjJGZXRYVFU3d1lxa1V4bVNXdWExakNESQ?oc=5",
+        "published_at": "2026-10-25T00:22:07+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Live - Trump says Iran strike possible tomorrow, report points to post-election plans - Iran International",
         "source": "Iran International",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
@@ -226,45 +253,9 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine Says Starlink Speeds Restored After SpaceX Throttling Over Drone Strikes: 20 outlets compared - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbl9qSFFDaDQ1TGJqNG9DclVrb1hmdi15MGVOY1NhWnkwVmJ3cTVyUklFY0tyV2U0NV9KbThqZFdJb3NWMTlwVWN0Tzl4UEdjNFozV2pTRTBLSnhCbGp4RmtUdG5QQzd2Z19xV2RQOWNiYU5EdUxiRUdsb0dTLWNQLWFjTXhCOFBZVXZScEJfUjItQUhkd0tjeXF6bWVKU0FYM0ZGLTRnYUh2ZW4xcHJLZVNhSTVDSUFzTTAwNkQtRTBwdGFjSXBLV09ObHlQb3ZlVkI1TE9jeXJqelFUQUEycHFEUTF0OXZvZlE?oc=5",
-        "published_at": "2026-10-24T23:23:10+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "What to know about the Melania Trump-brokered ceasefire in Russian-occupied Oleshky - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONllIN0YycVhheUhkdFhFSTdabU5DMmJGMFNIQS15NWYwQV9BTS0tV3lPeHJkUGVsWmNNX3FZMkI5bEdzUF9sNXAtUklUb2JsRDZ1UkNScEFJMHRjRWZITGJxMS1hTWdyM0hhdjk3eUM2dkNiTG1IVjQta28takE4YUUwaWYtQ0MyNGE1aFkzUS1VQXQyNkEweDl4TWZYRGx4NlpZU2szYi1tdw?oc=5",
-        "published_at": "2026-10-24T21:05:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trade Expansion between North Korea and China - GV Wire",
-        "source": "GV Wire",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTBfVm8yY05zbFF6OWI1M09ZeWgtVlBWd2x6XzJ2X0k0Y0lwLXhJNXF1QU9LVkNFM3lNdUk0ZU01cmpqVGNaNU8zZVZwS3U4WF9hN1NLSUhhRDlyQ2VFTlQzU090X3g2Mmlkb2ZzX0o4Q05ETmREbzBFdkFpOFhfalljSk1VWjc5ZmxmbC15bWxqcVliV3Iyb3hOczA?oc=5",
-        "published_at": "2026-10-24T20:08:20+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
-      {
-        "title": "Gaming PC deal with 16GB VRAM variant of NVIDIA’s RTX 5060 Ti graphics card is an excellent way to pick up an affordable 1440p gaming rig - PC Guide",
-        "source": "PC Guide",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWEUzYkQxS0FqX2lKV3RUUDg2REtpOUZURlFCZ21HajlkLVNoNUNjY3ZXMzBzUmdGYlVyQU92ck5zTWlkbjBrV090b1R2RmF6Z3N2MXNOVDQySnB4UVIzanBVTDZZNm1PTUFqenNBbkdROUhKb2Nwc2xtMzVWendFR1AzZTlZNWpURmthazRFNHdxZ1cyS0pmSWJyLTVRWFFneGp0b0QxWFJPUU1TOWxsb2lVTXpKTlhIa2dCcXJmSm5wOHhDX3Mzb3lFV1hKemFKcGx2N1FRNjVnUENYWW9OZjdHT3pKdnVNZXBjdjBFYmt4ZFduZFpFT3dzOA?oc=5",
-        "published_at": "2026-10-25T03:50:26+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
       {
         "title": "First Generic Weekly Estrogen-Progestin Patch Wins FDA Approval as Women Still Struggle to Fill Menopause Prescriptions - Medical Daily",
         "source": "Medical Daily",
@@ -302,15 +293,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Moderna Melanoma Therapy Cuts Recurrence Risk 42% in Phase 3 Trial - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5",
-        "published_at": "2026-10-24T22:02:03+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - The Motley Fool",
         "source": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOEI4Q3BYOTQxY3YxX2k5MEpWWEo1eXpyQ1Q4TTRKRm5XVHVsWHZwUl95X1EzbHZVdUVtaXFublpuajhKUFVhdTNCbFh2Z3hSMHk4T1RwbURlWmdWRm9FNnJEWUFfUE96TElZa0sxdW5KYjdKX1RYbWxxbTlyclh6SDFGQnpfNDh2cjRzZkxpZlRGc2dDLThaeA?oc=5",
@@ -342,6 +324,15 @@
         "source": "ABC News - Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
         "published_at": "2026-10-24T06:01:49+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
+        "published_at": "2026-10-24T03:58:24+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
