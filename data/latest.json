@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:20:36.258749+00:00",
+  "generated_at": "2026-10-25T07:56:24.473049+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -31,313 +31,57 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "211a71551f6d",
-      "ticker": "E",
-      "company": "Eni",
-      "category": "Energy",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Earnings Beat Could Change The Case For Eni Stock - Yahoo Finance",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUQ3WjBXTkx5aGZBVVIzRS1pUkYyQWhFYk9GN0VRWXdJQ2RoOXU1NUI4WjBXNmw0amVFQWNhdWMwUExFS0tSX1RKLVhwMWxPT0hXRFV0WnNVODZpMWRFNzhOZVQ3aVNUYUxTNUhraFpGMEhRcVZhZUljdExhaGhxUWJfeWNqbV96Ny1vRzFySjlCQQ?oc=5",
-      "published_at": "2026-10-25T02:14:00+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": 4.28,
-      "short_term_change_pct": 0.1,
-      "relative_volume": 2.72,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-23T20:00:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 2120.5,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 52.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-25T02:14:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "E",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 75,
-        "catalyst_strength": 78,
-        "freshness": 62,
-        "volume": 81,
-        "momentum": 51,
-        "macro": 50,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T07:20:25.860292+00:00",
+    "updated_at": "2026-10-25T07:53:35.195226+00:00",
     "open_market_required": false,
     "window_hours": 48,
-    "status": "OK",
+    "status": "SOURCE_ERRORS",
     "sources": [
       {
         "area": "Medio Oriente / energia",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 14
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Russia / Ucraina",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 13
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "USA / Cina / Taiwan",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 11
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Titoli tech e AI",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 4
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       },
       {
         "area": "Farmaceutica e settori",
-        "status": "OK",
-        "fetched": 16,
-        "recent": 16,
-        "accepted": 12
+        "status": "ERROR",
+        "fetched": 0,
+        "recent": 0,
+        "accepted": 0,
+        "error_type": "HTTPError"
       }
     ],
-    "geopolitics": [
-      {
-        "title": "\"E di i-sanction nila.\" Defense Secretary Gilberto “Gibo” Teodoro Jr. hits back at China over its alleged sanctions against Filipino politicians, dismissing the move as a possible distraction from Beijing’s real objectives. | via Darylle Sarmiento, ABS-CBN New",
-        "source": "Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSDBLNVVWQXNmM3dTRkdaVVdTMm0wY0oyOUhLQ0toX2pHMGx4alVzYWtSVzY5OVJ2U1VqV2JhQnRzNlRiTllnT2ZlZndKOGVtclY2WWd3dU80TUdkaGt6d0ZPc1hwcDNGejhsZDRxZXk4Y2dRSmxZZHY4TUJSOEpxZjh0RzJDQTE4aDdqMW5XLTZ3OUFnUUtUZ1Btb09LVDB1RGpLRDNxcG44ald5RGN1ZjkxNzZEdVdtdE5laXIwY1Q1cEdzMTlHNkc1dGZqc0NJOURnTl8zaw?oc=5",
-        "published_at": "2026-10-25T07:12:49+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump keeps Iran strike option open while floating deal - Türkiye Today",
-        "source": "Türkiye Today",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNGZfSkJWVE9Ycm1LaVBsVnNYWTc5WDBGNzBsRW9qTy16YU5MVlpaMXNWSWhGby1OeElYdkJtdHFlUW5jNW8tY0dYZTk1NUpaTHpSRVI5RjdHaEVLNUJWSmxYNV9XdkRDc3ZfMUtPSmFzdXF1N3YxTENtdERfT0dsa3pmY3hwWm91UG5hWno4Ujg0emlTc1lYU3ZUTzE3M1dx?oc=5",
-        "published_at": "2026-10-25T06:40:06+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejJVeno4cmRWUWhlWHZNR2NoWF8xZ19jNnVXTS12b01LRFhpbFdpMUZCTXdJSVk3WFFhSy11dHZlekhOaUxxZTNOR1VObXdtZkQtRVpRZGhQbElmV2dJbzNWSzJpTHlrV0drQ0EtZ2hXVXJmTUZZUklOQlV4NmdoMHV4OUp5MGtXVzdTb19WZzVWTVFaNzNma1J1cWTSAaIBQVVfeXFMTTVxZm9xZlhCcDJhb0p2cV9GeHl2eWFHM28xak5sT2J3cFBiNW5hdk1WamVxdXBiQzd2UmIxcnd0VTNNU3U2MUNZVW1xTmIwMGRsTndWZnZENlR4WlpvZXJUQ2N2LU9LMWRpSURFX091Wkxfd2xFMFM0Yl9uV0xNQTg1cEpZUjE3TG13c1lKU2NIVlFmT2J6b2I4QzNLTDBMVEtR?oc=5",
-        "published_at": "2026-10-25T06:33:45+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US To Strike Iran Today? Trump Keeps World On Edge With \"Maybe\" Response - NDTV",
-        "source": "NDTV",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWl2Mmota2RQZEZha3NhRGU3UVRxUnVJaUlpT0FjNG1ZeS01dXFsUDZWUk5FMFNnRHdBR01rbGpvQnJXQXBIZzYzMnQ2bTA4TDE4dHdYZkRwUWRJVy1mdnFxRWszR05RQnpfSkJHTDNkM2FZTFE0YjVYRUxrX0xOMllHRElDN1hkNGE2UkRZYnBfMmtDTGFmenJsS1V3VGVuNUFabFljS2wwcjlFYmJYd2RLNmR3ODRHU0hVZnY1TdIBxwFBVV95cUxQcDBmd0prQVZuNnpyczIwcDZFdlcyM20yS2s5VHdsMGpVelYyeW81VE1yS3Z0djZ1ajBZVmtfYVFSUWphRGp5VFc1TC0zQVhJMThqaHBvTWhNdVJGZU5LRThyYjdMY0E0Y2YzTDlWNVpPamJnOGxJUVVnek1QVVppNk5vRjhnOGROVzlkNDlkYWVjY1FkVExpWWNwa1FralY3dTRya1FIUXV2TzhFTjIwVDRjSnNaUFpQZy1NWlVwem05bmVqOWhZ?oc=5",
-        "published_at": "2026-10-25T05:07:31+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "The Black Sea is now the world’s deadliest shipping route - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY0FtVEhrS2dCX2ZRcFExOTlMeUdZSXVjVjRUU2lUNHZiaWJMQTRQUVo0cV9DSVd4V1NINGVuZ1czaDJLMGxKRnJtX1psZWRlQUlBOU9oRGhwWnNIRi1PWTRlNjJoeEhCMHpVTkh2REtvYVhmbFk2X3VuaklFZDE5ZVQyZFc?oc=5",
-        "published_at": "2026-10-25T05:00:02+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump votes in West Palm Beach, FLOTUS weighs in on Ukraine ceasefire after casting ballot - WTVC",
-        "source": "WTVC",
-        "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxOVFp5amU2T05ZNlZqV01oa0R4YWlrdWdXSmhjYWRKcG1iLVVLT2lNTTE4ZzZ2UTlqUmJVbE5Fb2lnbUJKTDNTMk0wM21JVEtpZXF1Nkp0cmRpQWJUVktMaHZKVFJWMWRwdHpSU25LMWNNeVlBWmpVZXllTTdhSUpudVhZTUdWYkNLWHZON0pXSGt2WVNaVFJ1YkNjM252SjhPVnh6MDhpMW1GRGZPamZRYVhkZEc4YVZLWXBTRko0S3dOMXhTNVVLS3pnbHBDTkJsb0JVM3YwN0hqMGhTWXIxR0xrd1l2R3gxdW5XYTIybU1sa1djWkViZ0Q1bGtXTXYwSEhCVllNUllTcER6X2R3YmdYMzVPazcyeUhxZ05KY0pvOGZlZTRibjA3bnMyWC1VdzdDanpHekNScTc1ZkRSZjlhTEMwQ3BjR3ZJM01KdllXMll4aHpBVzJrTENNalIxaWJnbzN1TXowdmpha0lKaS1FUTY3MVR3MVVsSGdqZGM5QnFGRU16bmVLY3Eza1MtZmpJU2NoOG9fYk9W?oc=5",
-        "published_at": "2026-10-25T03:42:26+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU MEPs to visit China over trade deficit & market access - Fibre2Fashion",
-        "source": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNlk3UGFvVnRuQ1JTcXN1U2JKNzFCdVZPRGJzcFhZNlV3UVRaN0p2ZVdJMkFCTDFHMm9NY0pNTXRCRWhXNWs0QUdEa0E1WkNuX1dReldDX282eTI5Q0NSb2FkdlAzeFQ2OHp2c0xtbWpBQmhvV0V5cXNndy1EU0NOMUh1bkdRTms3UUl6WEpwXzRzbUs3WHB6MFlrYTdfSGhUT3FPeVo3LWRHVkpvTklpX0hmWjNfRjU1YjVCTFFOT1NCdw?oc=5",
-        "published_at": "2026-10-25T02:58:02+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "‘27 shades of grey’: Different ties to China complicate EU trade response - EU Perspectives",
-        "source": "EU Perspectives",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBocDBDV3RRZTFzSFo1cGRVMzM4Y3E4OWxlRF9HODRxNnFuN1ZvMnUyTFZiQmxyR2EtUmlteEZrSlZWc0swMC1Sakh4Tzh1TG51VHJiRnFXTlRna3U5MENOdVQ0ZGNOZzktWmlNNHhudUw5WWFhQURKOVlB?oc=5",
-        "published_at": "2026-10-25T02:54:44+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
-        "published_at": "2026-10-25T02:43:21+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Old Saudi fire photo miscaptioned as recent Houthi attack - Yahoo",
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVERjMVQxWWxyX0NVYzN6ZHJNTTU5Zm50eGFmdmVOZTVaQjNadHphN0RLZ3JkYXFCU0lBcTNSbU1aMl9zVjF5dHhYWXd5S2JoYWZsLXc4cGh6anRDcS10U0lCUlEwR1Vqc29ZSzQ1S0ZFVVBReUh1YnQzOHBsRVF1YWJqOTAyYkE?oc=5",
-        "published_at": "2026-10-25T02:26:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Massive Ukrainian drone attack hits shopping center in Russia's Belgorod Oblast, locals say - The Kyiv Independent",
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmh0VVFpaWJhdGhtR1ZQMjZCcmlPTi1uOTgyVGpZRXhjNVgwdVV2MEFWNmkzTlVvamU4TVFVaHlNR1h4N1BfbllSUTNCM21ndDVoRXF3eUtuUFFwX1Y3ZC1yNUQ3R1BiWG9SdWJiRURZLXk1dHUxbXRFV0t0LVFDSGxZbFhFWlh0dXd5VUw1QVN2Q1FDWWREeUhtSnFBQUVuZEZUcVRIMGJMdzJfeHllWnpUbTMwN3R6SHc?oc=5",
-        "published_at": "2026-10-24T23:27:09+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "MEPs to visit China to discuss trade challenges and opportunities - European Interest",
-        "source": "European Interest",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcTZHWDN3M3RRRHRHcWUwUkRxbGNXR01kbzhMNVlPZVA0eU12b1huZWZONk1KV09pTDNybXQ4eXBYOE16c3JWVUlMbUFWa1hrVEYxVmNOQ3hmVGVCUEtaZGk2VmQ5bFNMRDMxSnFIM2pfeEY1ZzBBMmZmMEt4YktZVTZDUGhGZVRkT01OQWgzVjItbjViRlJ0eHIzV2tRNkE?oc=5",
-        "published_at": "2026-10-24T23:24:42+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine Says Starlink Speeds Restored After SpaceX Throttling Over Drone Strikes: 20 outlets compared - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbl9qSFFDaDQ1TGJqNG9DclVrb1hmdi15MGVOY1NhWnkwVmJ3cTVyUklFY0tyV2U0NV9KbThqZFdJb3NWMTlwVWN0Tzl4UEdjNFozV2pTRTBLSnhCbGp4RmtUdG5QQzd2Z19xV2RQOWNiYU5EdUxiRUdsb0dTLWNQLWFjTXhCOFBZVXZScEJfUjItQUhkd0tjeXF6bWVKU0FYM0ZGLTRnYUh2ZW4xcHJLZVNhSTVDSUFzTTAwNkQtRTBwdGFjSXBLV09ObHlQb3ZlVkI1TE9jeXJqelFUQUEycHFEUTF0OXZvZlE?oc=5",
-        "published_at": "2026-10-24T23:23:10+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "What to know about the Melania Trump-brokered ceasefire in Russian-occupied Oleshky - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONllIN0YycVhheUhkdFhFSTdabU5DMmJGMFNIQS15NWYwQV9BTS0tV3lPeHJkUGVsWmNNX3FZMkI5bEdzUF9sNXAtUklUb2JsRDZ1UkNScEFJMHRjRWZITGJxMS1hTWdyM0hhdjk3eUM2dkNiTG1IVjQta28takE4YUUwaWYtQ0MyNGE1aFkzUS1VQXQyNkEweDl4TWZYRGx4NlpZU2szYi1tdw?oc=5",
-        "published_at": "2026-10-24T21:05:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trade Expansion between North Korea and China - GV Wire",
-        "source": "GV Wire",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTBfVm8yY05zbFF6OWI1M09ZeWgtVlBWd2x6XzJ2X0k0Y0lwLXhJNXF1QU9LVkNFM3lNdUk0ZU01cmpqVGNaNU8zZVZwS3U4WF9hN1NLSUhhRDlyQ2VFTlQzU090X3g2Mmlkb2ZzX0o4Q05ETmREbzBFdkFpOFhfalljSk1VWjc5ZmxmbC15bWxqcVliV3Iyb3hOczA?oc=5",
-        "published_at": "2026-10-24T20:08:20+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      }
-    ],
-    "corporate": [
-      {
-        "title": "First Generic Weekly Estrogen-Progestin Patch Wins FDA Approval as Women Still Struggle to Fill Menopause Prescriptions - Medical Daily",
-        "source": "Medical Daily",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbHVYU09iZU9TLTM0RGpWUzRISFRPWDV3a0tuckNLYlE4OFdqNXV3Tllrd29FQ0NWcGJQTFdxMEtVcVVRU0Z0SHlqRWpYaDdpaDloX0hXYWdCU0tUOFozdUJNZ2Vud2lUV3dmcFNwYjN3Szk0U3N6d0E1bDF3bGxMNk9pN1hobU1fc2E1SWVmQVhYNGI5YUZndUo0eG1mN0pp?oc=5",
-        "published_at": "2026-10-25T02:37:53+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "🧭 Nebius’s $3.5B Loan, Microsoft’s 1.1GW NiSource Deal, Aolani’s ~500MW LOIs - Global Data Center Hub",
-        "source": "Global Data Center Hub",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ybVVHaDFGVGo0T0xpTDAwNXhVUkJ1aWMwd21CY051d2JhMkQ0NFVrTU01TVlaTThka1NFTzhidE1tUnE1RFhVa1ZTUl9hR01EM2szUzVXVDFacWN1N0pVd1RTRFo2YU1QTHdzaTViaFVEUzlvVEZPa25R?oc=5",
-        "published_at": "2026-10-25T02:00:52+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet, Microsoft and Amazon lead 10 major earnings reports next week - Opening Bell Daily",
-        "source": "Opening Bell Daily",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNVFUb1Y2UUttRllqcnRmVzJFOTYyN3lNYkkyWWNaNnktaE9WT043cFBxT3U1QmFocXJ1ejRzdUkza3F4MGJDWTVOVk45b3gyYnJwTjZ6NWZiTjVyM2dEb1JveFlqTWd1d1dSRFM0djkwSl9aZUxEU1VpRm43dHc?oc=5",
-        "published_at": "2026-10-24T23:47:48+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Edwards PASCAL Precision Wins FDA Approval as the Second Catheter Repair Option for Severely Leaking Tricuspid Valves - Medical Daily",
-        "source": "Medical Daily",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZW44RTNja1BTUEFiN2pRVnNER1l1bmhoX2VnZ3RoWm5xcnpiUDVtUHVFSXNFQUtoWnNGeGQtb1VFVC1yUUVVeTNUSmVYc2RRRU4xazlUMThYM284NjZlTWU5aFQ4akJVTFAzSFltSG5tdGsteFlfV0hqN2pKVF9ad2RzdURROC1WZzZNN01PazhyQQ?oc=5",
-        "published_at": "2026-10-24T16:48:31+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOEI4Q3BYOTQxY3YxX2k5MEpWWEo1eXpyQ1Q4TTRKRm5XVHVsWHZwUl95X1EzbHZVdUVtaXFublpuajhKUFVhdTNCbFh2Z3hSMHk4T1RwbURlWmdWRm9FNnJEWUFfUE96TElZa0sxdW5KYjdKX1RYbWxxbTlyclh6SDFGQnpfNDh2cjRzZkxpZlRGc2dDLThaeA?oc=5",
-        "published_at": "2026-10-24T16:15:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMVZZdm1LNU1hQXdJN2dval9rNUpjVUp4SXhONjdFOUVQc0JVZXcxaVR3QWVpVlcyVW9ZeHBJUXdxcUxSMWM0UVliN1ZnWGxTWFdDTXAwTWFDMGlvcVdHZXlyMFpWMmQ5ZXJVYnpPYlRBcGF4dUt0dFdCRDVvZzBDdHg4V2NSNnhYaXlhZ2pvaGRvMmswQmFxaw?oc=5",
-        "published_at": "2026-10-24T15:35:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ebola Vaccine Trial Begins in Congo With Three Shots in Sight - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2JZN2FCT3F0UlZGUGF3czZWOEgyMXNRWkFybmpyNGJRb0phR0tsbW5Mbzg3VFcwZmZudEhvZUJMUDU0Mk5uOXRhSWlkc3ZqSWoyX0Fjbjlha0JkbDRPZnpJSTUxXzJqM05aLXNkdmtITmlXSndTbGVwcG9jN0dBMjZyT2JHODJoOHpTczBBUUNtWHZobHZxNHlGMVY3RWVyOVFBSWw1RG9WRlVIQUEtVkNn?oc=5",
-        "published_at": "2026-10-24T14:35:12+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA approves Moderna's mRNA seasonal flu vaccine - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
-        "published_at": "2026-10-24T06:01:49+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
-        "published_at": "2026-10-24T03:58:24+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      }
-    ],
+    "geopolitics": [],
+    "corporate": [],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
   "archive_count": 148,
