@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-25T02:40:58.361047+00:00",
+  "generated_at": "2026-10-25T03:10:29.223575+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.44000244140625,
-    "wti_change_pct": 3.9911542897184793,
-    "brent": 111.66000366210938,
-    "brent_change_pct": -1.334271035846224,
+    "wti": 103.2699966430664,
+    "wti_change_pct": 3.820242661837203,
+    "brent": 111.69999694824219,
+    "brent_change_pct": -1.2989319117144849,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.0,
+    "macro_score": 36.3,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T02:40:48.532455+00:00",
+    "updated_at": "2026-10-25T03:10:18.096723+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,14 +51,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
@@ -77,12 +77,39 @@
     ],
     "geopolitics": [
       {
+        "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
+        "published_at": "2026-10-25T02:43:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Kyiv says Starlink restored as attacks in Ukraine and Russia continue - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOWNkcVZKWlJMQ0Zxd0RrS0w0bWdFY1E0QzlrZnRKWWpBOG84MFNVRVFlRE9wYmJpd1IzOFZTVGJ3ek5EYVFwMDdxYmU0TWtFckZ6LXBDMHc3ZUxDeC1ubm95YlZBR1N2UmRmT0FWUXJ0NXlialV3Q1VjcENyaXJ0QXFhenk4NnpwYnlrZjkydUw5THdKdVp5blNSOFRxV2w5eDdFeUpUM2RRdnBUdkdEeWQtX3PSAboBQVVfeXFMT0NEdmVTblBycGotZklrLUF6LXhEZ1pmSnU1ZFhSai1uOUFtdnNMMUVHU0dBbFhjY1ZjZWNLOVpYa0RuNkRjcG9zRUl4VURxWWlHM3J6N1NsLUNRU1pGN3NaTV9kZ25EQnlIY2lGcnNFU0NTY3h2UHF3VXRBNHNETi1BNHNwcTJYVUQxTU9Ya3QtenNPRTRoTE1MZ0hZb2ZlMTJIcnJkYlhzY2RqNkQwZEtiQlhXbUlzRGNR?oc=5",
+        "published_at": "2026-10-25T02:36:30+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Old Saudi fire photo miscaptioned as recent Houthi attack - Yahoo",
         "source": "Yahoo",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVERjMVQxWWxyX0NVYzN6ZHJNTTU5Zm50eGFmdmVOZTVaQjNadHphN0RLZ3JkYXFCU0lBcTNSbU1aMl9zVjF5dHhYWXd5S2JoYWZsLXc4cGh6anRDcS10U0lCUlEwR1Vqc29ZSzQ1S0ZFVVBReUh1YnQzOHBsRVF1YWJqOTAyYkE?oc=5",
         "published_at": "2026-10-25T02:26:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What Drives China’s Exports? Central Bank Points to Industry, Not a Weaker Yuan | China Responds - iChongqing",
+        "source": "iChongqing",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOEw4cHI4NkoxeHpDajlLdS1hSllhRkwtUml6d3dGbWJYWk1HSUhaQTRsYnV1ak9iVXlLU2t3OVZSc0xfcjM4WmNJVVhtWkRWNXJNaTlCV19WRnhCT3lVckxoRVZZbnJOYWxhUGFHRVNyVUYtbDJWYTdYOFU5N3pNUWt1TEdYQnAxSDByaVhMWW9zX0NQMWR0MWsyQ1NZQ3h5aU5Ia05UWEJmZF9uazU3QmhRLWZiVWVXTnlWYUZRRmVFci1pYmhINjl1UdIB0AFBVV95cUxQME5SQjRDSFVmSWllUG44cE5QOTBvd1lLMF92U0k2bmRpZTVCTnNqNTJ2RDJ1bXlaX2txSG50eHV1c1dWeG1lTEYxWkxjdEFQTlVSajNnOU1pWWExRzdVWHdLQXRQM2ZwRlZrVzZtZWhnVnBqaTF0aWxyTlNxWFVyeTg3cUZRYlVnX0JSUmdma21fR01KZ1hzUmduS2x3NjB0QTNockpmTWlaM3VXamRBekZSWGItS0k1bGhFRjZPUFFFMFk5dFJYQXkxZ2FwZEJl?oc=5",
+        "published_at": "2026-10-25T02:05:24+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -113,6 +140,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDhaTnZBOUF0LWEyaWtpc0ZfOXZ6bXlKTmxDTE44TENjVnQwaW9EOUI0SDFIenBFeEVXcFBOVmw0NThCSThhQkt4VGZMMmJmYTQ3eC11bjMwOHJQUHFEQkR0VVhEcTAtOE5JR1JJUXdXekNMcHdsTDlKSWFMMUZlYl9qNFZNdGl4c0xGXy1rUkFfOVVKMFlTVmlpSThXU2g5YmNXQTZxelJuSE9Bbzd0ZUh2WdIBuAFBVV95cUxPclRDQVdQV1JBNENBdDhhTmR5b2lRRFc1X1JlcGFIZ2FmdXRmX0NjMjQwN0N3SmFjMDh3Rnh0eUh3UnlTZTk4WGFoWGM0TFd2cG84WUtEc2M0V2ZaOXU1elJMX1RmVzZNZTNEVndQTFJsREFRQ3ZzQmg1ZXRtTDZhRjFWaHZxRFRiRlZkdzZSWHBycEZOOEdMOXlPX29RZzZkT2Nhdl9fbkNlWlpBbnpXdUFQTnVHemc3?oc=5",
+        "published_at": "2026-10-25T00:40:44+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Bulgaria votes for president in wake of deadly Black Sea drone strikes - San Luis Obispo Tribune",
         "source": "San Luis Obispo Tribune",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbHRnbjAyTmdnZ0dqV29aUDlWWnYxVmtQdGwwQ0tLM2R0cHE2d25LWDdHNUNhR1JPbHBvV0MxQ1JwdXB4ZmtrWHRzRXVNbkJacXdRQktkN3NnMmdHajI4STVwbjVQcjRXUjJGZXRYVFU3d1lxa1V4bVNXdWExakNESQ?oc=5",
@@ -131,6 +167,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Massive Ukrainian drone attack hits shopping center in Russia's Belgorod Oblast, locals say - The Kyiv Independent",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmh0VVFpaWJhdGhtR1ZQMjZCcmlPTi1uOTgyVGpZRXhjNVgwdVV2MEFWNmkzTlVvamU4TVFVaHlNR1h4N1BfbllSUTNCM21ndDVoRXF3eUtuUFFwX1Y3ZC1yNUQ3R1BiWG9SdWJiRURZLXk1dHUxbXRFV0t0LVFDSGxZbFhFWlh0dXd5VUw1QVN2Q1FDWWREeUhtSnFBQUVuZEZUcVRIMGJMdzJfeHllWnpUbTMwN3R6SHc?oc=5",
+        "published_at": "2026-10-24T23:27:09+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "MEPs to visit China to discuss trade challenges and opportunities - European Interest",
         "source": "European Interest",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcTZHWDN3M3RRRHRHcWUwUkRxbGNXR01kbzhMNVlPZVA0eU12b1huZWZONk1KV09pTDNybXQ4eXBYOE16c3JWVUlMbUFWa1hrVEYxVmNOQ3hmVGVCUEtaZGk2VmQ5bFNMRDMxSnFIM2pfeEY1ZzBBMmZmMEt4YktZVTZDUGhGZVRkT01OQWgzVjItbjViRlJ0eHIzV2tRNkE?oc=5",
@@ -140,47 +185,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine Says Starlink Speeds Restored After SpaceX Throttling Over Drone Strikes: 20 outlets compared - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbl9qSFFDaDQ1TGJqNG9DclVrb1hmdi15MGVOY1NhWnkwVmJ3cTVyUklFY0tyV2U0NV9KbThqZFdJb3NWMTlwVWN0Tzl4UEdjNFozV2pTRTBLSnhCbGp4RmtUdG5QQzd2Z19xV2RQOWNiYU5EdUxiRUdsb0dTLWNQLWFjTXhCOFBZVXZScEJfUjItQUhkd0tjeXF6bWVKU0FYM0ZGLTRnYUh2ZW4xcHJLZVNhSTVDSUFzTTAwNkQtRTBwdGFjSXBLV09ObHlQb3ZlVkI1TE9jeXJqelFUQUEycHFEUTF0OXZvZlE?oc=5",
-        "published_at": "2026-10-24T23:23:10+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPandBSUd6MV9Kb0FrYWc3YVN4RnVMa1h3WTVieVpjVE4zSzU1SVBBLWl3WS1VMks0cXJvMW54MktYOTZZLVp1ME9hOXhlNHlFMFRKR3draWgtVTJmTVk2N2lvcnNQcjdkWmlFTTRlb1RKZTVOZnloRHRWQzk3eDdXWUZmSUx5Y25oSWdvaVZEUU5meWYxcm5UMlMzSXY5SXppM09tZ1lBZDNiSHdLWGFpQXF3REplckXSAbwBQVVfeXFMTTdyXy1EcVQyNHkweWN3SUhQOFFuTFZJTlFsckMtYWxqamVQb0o3VGtxaU5VR3JYeXFIaTFTUklmSGltUVNiOHZKVDJDYXdoVVFzUEtPaU5kU0FSUnZwSmJFUEVLQ3U1ekZRVjV0eVhqZzNkTkRlOU1kcWpUZlVLTEZtVW14UGpyN3B3RnlRRlprUWFzMUVULThwVVpKRW5aaW5aTEhoeWlhSV9hQi1NZDF5bTY2QWFRVzJmTG0?oc=5",
-        "published_at": "2026-10-24T23:11:29+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_DISTENSIONE_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
-        "published_at": "2026-10-24T22:06:52+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trade Expansion between North Korea and China - GV Wire",
         "source": "GV Wire",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTBfVm8yY05zbFF6OWI1M09ZeWgtVlBWd2x6XzJ2X0k0Y0lwLXhJNXF1QU9LVkNFM3lNdUk0ZU01cmpqVGNaNU8zZVZwS3U4WF9hN1NLSUhhRDlyQ2VFTlQzU090X3g2Mmlkb2ZzX0o4Q05ETmREbzBFdkFpOFhfalljSk1VWjc5ZmxmbC15bWxqcVliV3Iyb3hOczA?oc=5",
         "published_at": "2026-10-24T20:08:20+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
-        "published_at": "2026-10-24T18:24:00+00:00",
-        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -198,15 +207,6 @@
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdCMFZITTNtTGgySnppY3lMbG5zMGFVNEFTVnRaemJDN0VQUmJhejRvX2pTZFdfbC1MbmlmN3lZOHZTUVk4eWhadHlKa0ZFRjJzbUR2Q1VMOGViS05iQXVfUFlXc01xR2pVSjRnWUhyZm5fT0t5b08zZW1vNHM4UFlnbUU2ZU5HR0szaUVCTnN3QmpSOG1PUHpJQ2dxMmVuQ1hZTE9yZ0x1bDgxTENxV3pn0gGyAUFVX3lxTFBnYkNqQ3pndXdzTE5OaF9xeFRXMU9aRjlpQUNzUnRSSWZ6cFRyRzlOSF9JUVJEb1JhWlQxN2dyM1d0bnp5ZGN2cXhJQ3Y4SmNmLTBnQU41QURYa2xIOU5GUlFZMnRVV29PRlBKcmVDTkNWZ1Q3dkUyeWtBWlY0OVNZal9HczBKbjhiUmpzeGpacm9BZllWbjN4b3F0akQwWVFtWGpXVDVfLXZPczdPalRvSUE?oc=5",
         "published_at": "2026-10-24T08:30:09+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's economy accelerated in the July-September quarter on robust exports - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTENEdTFqcEVDV0MxeHJOT3pDOUJHU0ZfbTJ2ODJyV0UyRnhXNmdKZk9FZ1RBOGFpMldEMl9hcjllZW1ZYlJhY1U0anRrdkhKMjEwOV8zcEZjM1d2NDRMakVlajgwRVZFclk1T2k1eThpUjFOWEV5RTlHR1FTdHNCTi0wdUlKWnZaY1F1NjdfS28yMEFiRmhGSFJyOEZ1c2VRSm1DZVNrRWdnTk5VRV91ZE5aenZsNkd60gG-AUFVX3lxTE9Cd0gteUVkR0k4MVByQnBkdi1Zc2NUXzJ2eWQ0aVFtY0NpRm1QMWE5OGpaOHlQeEZEdGxFeG9GN2pkMEZMQUdVV0xWYUMwcll0SXV2elQxM0hQUTVKVlZqSG1wcklsYjZmbWMtOU5XMG00c25FZnp1QlpVaVQ3TWhPVWNGN2lMMV93QWFlWEJPS21XSTIxcWF1S3hIM1JKbTFCRGRyU2JHVUlERTFmSGV6Z091T3ZsTFljOXJnQVE?oc=5",
-        "published_at": "2026-10-24T07:36:11+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
