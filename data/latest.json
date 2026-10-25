@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T03:10:29.223575+00:00",
+  "generated_at": "2026-10-25T03:38:50.801166+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -31,10 +31,53 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "211a71551f6d",
+      "ticker": "E",
+      "company": "Eni",
+      "category": "Energy",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Earnings Beat Could Change The Case For Eni Stock - Yahoo Finance",
+      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUQ3WjBXTkx5aGZBVVIzRS1pUkYyQWhFYk9GN0VRWXdJQ2RoOXU1NUI4WjBXNmw0amVFQWNhdWMwUExFS0tSX1RKLVhwMWxPT0hXRFV0WnNVODZpMWRFNzhOZVQ3aVNUYUxTNUhraFpGMEhRcVZhZUljdExhaGhxUWJfeWNqbV96Ny1vRzFySjlCQQ?oc=5",
+      "published_at": "2026-10-25T02:14:00+00:00",
+      "age_label": "84 min fa",
+      "catalyst_type": "earnings_beat",
+      "current_change_pct": 4.28,
+      "short_term_change_pct": 0.1,
+      "relative_volume": 2.09,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-23T20:00:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1898.8,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 55.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-25T02:14:00+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "E",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 75,
+        "catalyst_strength": 78,
+        "freshness": 90,
+        "volume": 72,
+        "momentum": 51,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T03:10:18.096723+00:00",
+    "updated_at": "2026-10-25T03:38:39.904237+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +94,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -72,19 +115,10 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
-      {
-        "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
-        "published_at": "2026-10-25T02:43:21+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
       {
         "title": "Kyiv says Starlink restored as attacks in Ukraine and Russia continue - Al Jazeera",
         "source": "Al Jazeera",
@@ -101,15 +135,6 @@
         "published_at": "2026-10-25T02:26:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "What Drives China’s Exports? Central Bank Points to Industry, Not a Weaker Yuan | China Responds - iChongqing",
-        "source": "iChongqing",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOEw4cHI4NkoxeHpDajlLdS1hSllhRkwtUml6d3dGbWJYWk1HSUhaQTRsYnV1ak9iVXlLU2t3OVZSc0xfcjM4WmNJVVhtWkRWNXJNaTlCV19WRnhCT3lVckxoRVZZbnJOYWxhUGFHRVNyVUYtbDJWYTdYOFU5N3pNUWt1TEdYQnAxSDByaVhMWW9zX0NQMWR0MWsyQ1NZQ3h5aU5Ia05UWEJmZF9uazU3QmhRLWZiVWVXTnlWYUZRRmVFci1pYmhINjl1UdIB0AFBVV95cUxQME5SQjRDSFVmSWllUG44cE5QOTBvd1lLMF92U0k2bmRpZTVCTnNqNTJ2RDJ1bXlaX2txSG50eHV1c1dWeG1lTEYxWkxjdEFQTlVSajNnOU1pWWExRzdVWHdLQXRQM2ZwRlZrVzZtZWhnVnBqaTF0aWxyTlNxWFVyeTg3cUZRYlVnX0JSUmdma21fR01KZ1hzUmduS2x3NjB0QTNockpmTWlaM3VXamRBekZSWGItS0k1bGhFRjZPUFFFMFk5dFJYQXkxZ2FwZEJl?oc=5",
-        "published_at": "2026-10-25T02:05:24+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -185,6 +210,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
+        "published_at": "2026-10-24T22:06:52+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Trade Expansion between North Korea and China - GV Wire",
         "source": "GV Wire",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTBfVm8yY05zbFF6OWI1M09ZeWgtVlBWd2x6XzJ2X0k0Y0lwLXhJNXF1QU9LVkNFM3lNdUk0ZU01cmpqVGNaNU8zZVZwS3U4WF9hN1NLSUhhRDlyQ2VFTlQzU090X3g2Mmlkb2ZzX0o4Q05ETmREbzBFdkFpOFhfalljSk1VWjc5ZmxmbC15bWxqcVliV3Iyb3hOczA?oc=5",
@@ -210,6 +244,15 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China's economy accelerated in the July-September quarter on robust exports - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTENEdTFqcEVDV0MxeHJOT3pDOUJHU0ZfbTJ2ODJyV0UyRnhXNmdKZk9FZ1RBOGFpMldEMl9hcjllZW1ZYlJhY1U0anRrdkhKMjEwOV8zcEZjM1d2NDRMakVlajgwRVZFclk1T2k1eThpUjFOWEV5RTlHR1FTdHNCTi0wdUlKWnZaY1F1NjdfS28yMEFiRmhGSFJyOEZ1c2VRSm1DZVNrRWdnTk5VRV91ZE5aenZsNkd60gG-AUFVX3lxTE9Cd0gteUVkR0k4MVByQnBkdi1Zc2NUXzJ2eWQ0aVFtY0NpRm1QMWE5OGpaOHlQeEZEdGxFeG9GN2pkMEZMQUdVV0xWYUMwcll0SXV2elQxM0hQUTVKVlZqSG1wcklsYjZmbWMtOU5XMG00c25FZnp1QlpVaVQ3TWhPVWNGN2lMMV93QWFlWEJPS21XSTIxcWF1S3hIM1JKbTFCRGRyU2JHVUlERTFmSGV6Z091T3ZsTFljOXJnQVE?oc=5",
+        "published_at": "2026-10-24T07:36:11+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
@@ -218,6 +261,15 @@
         "source": "Medical Daily",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbHVYU09iZU9TLTM0RGpWUzRISFRPWDV3a0tuckNLYlE4OFdqNXV3Tllrd29FQ0NWcGJQTFdxMEtVcVVRU0Z0SHlqRWpYaDdpaDloX0hXYWdCU0tUOFozdUJNZ2Vud2lUV3dmcFNwYjN3Szk0U3N6d0E1bDF3bGxMNk9pN1hobU1fc2E1SWVmQVhYNGI5YUZndUo0eG1mN0pp?oc=5",
         "published_at": "2026-10-25T02:37:53+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Keytruda Wins Full FDA Approval for High-Mutation Tumors, but a Stricter Cutoff Could Narrow Who Qualifies - Medical Daily",
+        "source": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQkNndXdZRmd3dVlES3RrVUtma2h0NWlwZlFRVHpSc3ZuLWZqTjBwb0dnMjFaZG9JWVdNTXExdHVtTV85RGlrQzcxbkRsUzByTGpUYnk0RkdEa1hxeWQ1cFYzeDdpUC00eVVzNnJ0QXFDLVBfWW55TGkwMnRKaWl4RGh6cjhpTFZqZ3dqeDFndmdMcEc5aDF1Mml3?oc=5",
+        "published_at": "2026-10-25T02:30:12+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -275,20 +327,11 @@
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna-Merck personalized mRNA melanoma vaccine cuts relapse risk in late-stage trial - wtvcfox",
-        "source": "wtvcfox",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMGtJWGdnWm9IeVVlZjllbmFWeWxWU1kwZmVaY3ZOM05IdXBmUVoyVEw3X2tpSXhoc0NZTlozQzN4Z2xicmJheXVsQzhPM1VHRWJrS1dhUmxudWFvQkdkSmNLLURzc1RkMklTZjJwN0M1X3J3R1Jrc3hXVWVVM1hvNGg2RVFDeHJVMjY5YnN3MHNKYklHdldoSmtqVEwxTlJMQ1ZzaThoTlZrV2ZEanRvMFl6V2dFenFWM1JNaXQyRFdtNmV6TU50NDNsUQ?oc=5",
-        "published_at": "2026-10-24T05:34:11+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 147,
+  "archive_count": 148,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
