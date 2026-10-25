@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T08:12:43.233582+00:00",
+  "generated_at": "2026-10-25T08:42:59.175402+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -31,53 +31,10 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "211a71551f6d",
-      "ticker": "E",
-      "company": "Eni",
-      "category": "Energy",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Earnings Beat Could Change The Case For Eni Stock - Yahoo Finance",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUQ3WjBXTkx5aGZBVVIzRS1pUkYyQWhFYk9GN0VRWXdJQ2RoOXU1NUI4WjBXNmw0amVFQWNhdWMwUExFS0tSX1RKLVhwMWxPT0hXRFV0WnNVODZpMWRFNzhOZVQ3aVNUYUxTNUhraFpGMEhRcVZhZUljdExhaGhxUWJfeWNqbV96Ny1vRzFySjlCQQ?oc=5",
-      "published_at": "2026-10-25T02:14:00+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": 4.28,
-      "short_term_change_pct": 0.1,
-      "relative_volume": 2.72,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-23T20:00:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 2172.6,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 52.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-25T02:14:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "E",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 75,
-        "catalyst_strength": 78,
-        "freshness": 62,
-        "volume": 81,
-        "momentum": 51,
-        "macro": 50,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T08:12:32.852184+00:00",
+    "updated_at": "2026-10-25T08:42:48.590084+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -108,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 3
       },
       {
         "area": "Farmaceutica e settori",
@@ -120,6 +77,24 @@
     ],
     "geopolitics": [
       {
+        "title": "Three people killed and 14 injured in Ukrainian attacks on Russia's Belgorod region, governor says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHRUX2c1M1VjUTdxb1pfekVNSTlXNlpIQzFJRkZjSXhCVEZyaXZ3MHk0RWlKalZhVjhwTHNQYWU1V0pWRHAzZ3A5UkR5TXpPVzYyblFTcDFKNmdDNmh2NEU0T1lZMy1BSllDck9UeU5JbEpWeUdmdlhBTDNDZnpUaEx5M3hCS0lXVUUwblRWaU9TWS0xaGRnNUNVb0ZTS1BZU29KaDc0cnphWEJWVXJ4Y0dyWDg?oc=5",
+        "published_at": "2026-10-25T08:19:46+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Drone attack injures five people, damages industrial facility in Russia’s Perm region, governor says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQlpoQ2lWbHFpTkRvZUpZV1ZOVFlJNjY3RDY4UHBmS01keXdDNndROG1PY2lRRjJGWG5zVjRadmRua1hJNU1kUHZ1RUxyVHA4Z213eWN4Z3VjMnc0bVM3aW41eG9ucUpyZXFpQmtRNzJHM012TXBIa2tnZU5teFhpTnNwMWljQ01JMHZSdHNPUHFzUk5abDJBWXJWcEZ1UTdDbThaUE9PWTlGc3dWVmdDS3FrbVE2UGdiSGY0OURUWQ?oc=5",
+        "published_at": "2026-10-25T08:01:54+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "USTR Moves to Extend China-Linked Ship Port Fee Suspension Into January 2027 - Global Trade Magazine",
         "source": "Global Trade Magazine",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdnZteU9wSnJvbEFvUi14NmtVT1N6cHdkSkRuRXpIb29CWFZWb0N6Q1ZxLUpkVTluNlhVZHNTQ0lERXpjWW9GbXB4WnN2UnZmcWsyeFc1dEZwZklnYVJKVVI2MUs0a1JRblk0c3dFU0tKbjhscHZCZjFqY1NYNkd5OGpTcXNaZldmUHItRHN0U2JTZC1VVGNoczV3clZrOURIMzF1aHN5Q212V25I?oc=5",
@@ -129,11 +104,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Drone attack injures five people, damages industrial facility in Russia’s Perm region, governor says - Arab News",
-        "source": "Arab News",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmpaZGNZTXdRZkk1VExQempDSjVYd0JJRXEtemV6SFN6MU5yQzctSWlTaXZSQ1M5anNyQlg5d3BCMXJwUkFYQUZIYlU4ZndXbDhkTkR5TWowblRuNDJveGlLYkVuc01FYktoRjQyOWdWcUllQlc5V21tWUVmQlNheHltVmRUSlQ5WE1PNTI1VHZwS0M4VEJoV0l2ZXF1aTdjdDk3VjNMRGI0VVczSkthTG1RdDFMY2R1T1ZjMmR1ellpclltOV9iOVpNandUTDlVSEE?oc=5",
-        "published_at": "2026-10-25T07:38:32+00:00",
-        "area": "Russia / Ucraina",
+        "title": "Iran’s oil lifeline is drying up. The biggest pain may fall on ordinary citizens - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSWx3QTQxTzFwY1hWS1BkcWJSdFd4bG1jTlNFRnJJdFFTNlJ1ZUFnTURFaXBkbWlQUTJJR1lOQ3FHa2lmTGw2c3Q4TUExaXNvcU1ndXdlYk52NmthYUpWRlJSUERPWEdFblE5WExJM3o3MFdSektNazhLNXFYN2dMaEhoS1B2ZklaY1BNeVBicmZKMlE0WFhIX1hJUzNVczh5QTkw0gGoAUFVX3lxTE5QVUlwamdhOUVyZk1lVk9aRFA1c0xQM0VPTjBHYWZJTks1U0JBRlFsR3ZVdjZOYUpWUC1KVnhnMldBLVlPZzlGc2t6M0h1aHBHdE5DY3VwZVdpOF9DdHVOUHppNXRFSkkwZFhKSGdDMVc2ay1jY1lLdFIxeTgxT3BibTVMTFVsQzI4QkJtTnJBQV9GU21ieWo3bEZPOTZ0aUZtcnhWUFNHRA?oc=5",
+        "published_at": "2026-10-25T08:00:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Live - Trump says Iran strike possible tomorrow, report points to post-election plans - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
+        "published_at": "2026-10-25T07:27:04+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -201,15 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
-        "published_at": "2026-10-25T02:43:21+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Kyiv says Starlink restored as attacks in Ukraine and Russia continue - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOWNkcVZKWlJMQ0Zxd0RrS0w0bWdFY1E0QzlrZnRKWWpBOG84MFNVRVFlRE9wYmJpd1IzOFZTVGJ3ek5EYVFwMDdxYmU0TWtFckZ6LXBDMHc3ZUxDeC1ubm95YlZBR1N2UmRmT0FWUXJ0NXlialV3Q1VjcENyaXJ0QXFhenk4NnpwYnlrZjkydUw5THdKdVp5blNSOFRxV2w5eDdFeUpUM2RRdnBUdkdEeWQtX3PSAboBQVVfeXFMT0NEdmVTblBycGotZklrLUF6LXhEZ1pmSnU1ZFhSai1uOUFtdnNMMUVHU0dBbFhjY1ZjZWNLOVpYa0RuNkRjcG9zRUl4VURxWWlHM3J6N1NsLUNRU1pGN3NaTV9kZ25EQnlIY2lGcnNFU0NTY3h2UHF3VXRBNHNETi1BNHNwcTJYVUQxTU9Ya3QtenNPRTRoTE1MZ0hZb2ZlMTJIcnJkYlhzY2RqNkQwZEtiQlhXbUlzRGNR?oc=5",
@@ -228,15 +203,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran sends conflicting signals on US deal as Trump raises prospect of strikes - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9reFd6eFdFdzZFLUg1dS1pd3BGYmtJMjBzZktXY1NSaXc5QkJwZE5xQ0FMMDVwQzl0OG1kcWtReEtlZjE0dFdzUUJ2LXgxTU1Pc1E?oc=5",
-        "published_at": "2026-10-25T01:35:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones - ABC News - Breaking News, Latest News and Videos",
         "source": "ABC News - Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDhaTnZBOUF0LWEyaWtpc0ZfOXZ6bXlKTmxDTE44TENjVnQwaW9EOUI0SDFIenBFeEVXcFBOVmw0NThCSThhQkt4VGZMMmJmYTQ3eC11bjMwOHJQUHFEQkR0VVhEcTAtOE5JR1JJUXdXekNMcHdsTDlKSWFMMUZlYl9qNFZNdGl4c0xGXy1rUkFfOVVKMFlTVmlpSThXU2g5YmNXQTZxelJuSE9Bbzd0ZUh2WdIBuAFBVV95cUxPclRDQVdQV1JBNENBdDhhTmR5b2lRRFc1X1JlcGFIZ2FmdXRmX0NjMjQwN0N3SmFjMDh3Rnh0eUh3UnlTZTk4WGFoWGM0TFd2cG84WUtEc2M0V2ZaOXU1elJMX1RmVzZNZTNEVndQTFJsREFRQ3ZzQmg1ZXRtTDZhRjFWaHZxRFRiRlZkdzZSWHBycEZOOEdMOXlPX29RZzZkT2Nhdl9fbkNlWlpBbnpXdUFQTnVHemc3?oc=5",
@@ -244,23 +210,14 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Bulgaria votes for president in wake of deadly Black Sea drone strikes - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOE5IMGRMTzd6dTFDS21qbTdmVDBkUzcteU1OWlQ0aWt2Z1Z6d0cxRGRVbEhGNkVkSnRGQVN1WVlLdU9vRkJmVHphOWk5RUFCNmJuUzJ0TGVaNC1tenk5NGNmUldFSnVXVkQ1bHd4aHJzZHFlWWJ2UHU0VHhETDFVNFpoaXdsQXpDZ21rMllSTlplRTItdnNuNUt6X1JjckV5OWJrWA?oc=5",
-        "published_at": "2026-10-25T00:03:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Gaming PC deal with 16GB VRAM variant of NVIDIA’s RTX 5060 Ti graphics card is an excellent way to pick up an affordable 1440p gaming rig - PC Guide",
-        "source": "PC Guide",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWEUzYkQxS0FqX2lKV3RUUDg2REtpOUZURlFCZ21HajlkLVNoNUNjY3ZXMzBzUmdGYlVyQU92ck5zTWlkbjBrV090b1R2RmF6Z3N2MXNOVDQySnB4UVIzanBVTDZZNm1PTUFqenNBbkdROUhKb2Nwc2xtMzVWendFR1AzZTlZNWpURmthazRFNHdxZ1cyS0pmSWJyLTVRWFFneGp0b0QxWFJPUU1TOWxsb2lVTXpKTlhIa2dCcXJmSm5wOHhDX3Mzb3lFV1hKemFKcGx2N1FRNjVnUENYWW9OZjdHT3pKdnVNZXBjdjBFYmt4ZFduZFpFT3dzOA?oc=5",
-        "published_at": "2026-10-25T03:50:26+00:00",
+        "title": "Intel CEO’s $10 million stock bet is down nearly $1 million ahead of earnings - CTech",
+        "source": "CTech",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BX0tQSkk1VzlYeTVnOElwMDhDTHVjWUNhUlVhT0VFVHF3bWcteFR4TVB5bWI1Smdka2ZVdzh4WDd6Tlg4TjdxbU8wQ09BUlBVMFBDRmgyVzZsckt0T0NIZl9LV01UdTA?oc=5",
+        "published_at": "2026-10-25T08:23:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -297,24 +254,6 @@
         "source": "Opening Bell Daily",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNVFUb1Y2UUttRllqcnRmVzJFOTYyN3lNYkkyWWNaNnktaE9WT043cFBxT3U1QmFocXJ1ejRzdUkza3F4MGJDWTVOVk45b3gyYnJwTjZ6NWZiTjVyM2dEb1JveFlqTWd1d1dSRFM0djkwSl9aZUxEU1VpRm43dHc?oc=5",
         "published_at": "2026-10-24T23:47:48+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOEI4Q3BYOTQxY3YxX2k5MEpWWEo1eXpyQ1Q4TTRKRm5XVHVsWHZwUl95X1EzbHZVdUVtaXFublpuajhKUFVhdTNCbFh2Z3hSMHk4T1RwbURlWmdWRm9FNnJEWUFfUE96TElZa0sxdW5KYjdKX1RYbWxxbTlyclh6SDFGQnpfNDh2cjRzZkxpZlRGc2dDLThaeA?oc=5",
-        "published_at": "2026-10-24T16:15:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMVZZdm1LNU1hQXdJN2dval9rNUpjVUp4SXhONjdFOUVQc0JVZXcxaVR3QWVpVlcyVW9ZeHBJUXdxcUxSMWM0UVliN1ZnWGxTWFdDTXAwTWFDMGlvcVdHZXlyMFpWMmQ5ZXJVYnpPYlRBcGF4dUt0dFdCRDVvZzBDdHg4V2NSNnhYaXlhZ2pvaGRvMmswQmFxaw?oc=5",
-        "published_at": "2026-10-24T15:35:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
