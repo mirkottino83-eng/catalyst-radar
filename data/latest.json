@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T23:48:22.132462+00:00",
+  "generated_at": "2026-10-25T00:04:15.774165+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.2699966430664,
-    "wti_change_pct": 3.820242661837203,
-    "brent": 111.69999694824219,
-    "brent_change_pct": -1.2989319117144849,
+    "wti": 103.44000244140625,
+    "wti_change_pct": 3.9911542897184793,
+    "brent": 111.66000366210938,
+    "brent_change_pct": -1.334271035846224,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.3,
+    "macro_score": 36.0,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-24T23:48:10.539630+00:00",
+    "updated_at": "2026-10-25T00:04:01.330677+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -77,6 +77,15 @@
     ],
     "geopolitics": [
       {
+        "title": "Trump votes in West Palm Beach, FLOTUS weighs in on Ukraine ceasefire after casting ballot - KUTV",
+        "source": "KUTV",
+        "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPaFM5aGtKdFNoRmNpenRPSEZNOG5UdjdoQTdKM3pydTZDbmYySzc1cUpTWWtReW5Ub0kyRmhBQW41WEhfdzh2N1pwR01EMk94RlNCajczUU9LWjExQkxQNEExUXhIYUhWdjEtcVprX0tGb2NqMEllbS01R2hKZVRWM1ZoUVNtaHlaY2wwaUpyX2cwZTduZXlJdDBRT0R0UkdLZ0lNZUFxcTBvNUJPOXRjeGdQN1ZGYU9leHhvS2lYcEdIS0pFUWxWRlZaeDV4UDB4QTBqNGo2ckxoTHFyRGZtZVowWU5WOUZIVjhsQlpQN3JwNll3SS1Oenp5U2tXZ2E2ZXdaXzJaaTFmazh2Vm5YWEZBQ2E0SzhZX04tZmRxMHBFUl9ZZXFrLXNuR09SckpMYVBHMnZmaVhkMEtYV05rUURSVlFGMjhPY0hQOFVLMEU3ZzJQbkFRMDE0T0xhbVBoUFhTOTUyNmw0aks0OUxtZlg3dE1zclA1UGVlaWVLckVCQmR5UmFjS0tGOTdGM0toMmc?oc=5",
+        "published_at": "2026-10-24T23:48:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "MEPs to visit China to discuss trade challenges and opportunities - European Interest",
         "source": "European Interest",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcTZHWDN3M3RRRHRHcWUwUkRxbGNXR01kbzhMNVlPZVA0eU12b1huZWZONk1KV09pTDNybXQ4eXBYOE16c3JWVUlMbUFWa1hrVEYxVmNOQ3hmVGVCUEtaZGk2VmQ5bFNMRDMxSnFIM2pfeEY1ZzBBMmZmMEt4YktZVTZDUGhGZVRkT01OQWgzVjItbjViRlJ0eHIzV2tRNkE?oc=5",
@@ -92,6 +101,15 @@
         "published_at": "2026-10-24T23:23:10+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump votes in West Palm Beach, FLOTUS weighs in on Ukraine ceasefire after casting ballot - KPIC",
+        "source": "KPIC",
+        "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxQNldOUTZyQnpvajgzc3RrNVhib1MwWHpkZktLY1YzNXRpcHFUZXZIS2UyUVdfSHlKam1IWlo3R2tBazJBaW5JakpXNC14UXEtYkZkbEtPWVZfZE41YzFiYnNrUktuajJFOGtoa0xRWHI3YjlpbkxRS0VXaW56MDlpNk1EZEJac2drM2dzRlR6RTZhVkZaTWM2TXRld0w3LVpoSkphUnhwOS0yWHdvTzE0U05lSnVoRGRTSjVpZ1VwSTlWTXUycWNtUk9PWEptSUdzeEpwZGRKekpMdFZ1NHZQU1hTUUhZRV9XdEc3QXo0cE9WNlZkVDJUREhWYlJsUG1nQ2UtSmRzcEFpc3VOeVFrdUg1VjVFa3hHNTlsS1BRZjhJS1o0b280RThlS2RMMzBRS0FJaE5lV192bzBudGtTVmVWMklnLWdiQ1kwZjFsWDlmTkEwTDNxNTZkWlRfMUt3NXhXUzR5Y1FxeW8xOEJqMVEybXVDeGpkOHpiSUxpeUxBa3Q0SEhCWVBHWmFrblp6ZXc?oc=5",
+        "published_at": "2026-10-24T23:00:34+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -122,15 +140,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Pentagon drafts Iran attack plans as Tehran threatens aggressive retaliation - Yahoo",
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSWw1U0twTFFmcVBSWGtSdDdBT202OENLVjlDLVJuRlctdVBVc2c3amRNcWdlekxFYjlqZ2dlS1NFazIxU3FGeDhYUzdXWEhUdlVZSEVBcTF0Q1BabnJKbjZleHJhRnFmcl83ZEZGTTJIbThKb1lnWFAzS1FBYmJiWG5Ec3ZKWFVRVnhuaEFJeW5CU0MyZHJRcw?oc=5",
-        "published_at": "2026-10-24T21:00:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trade Expansion between North Korea and China - GV Wire",
         "source": "GV Wire",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTBfVm8yY05zbFF6OWI1M09ZeWgtVlBWd2x6XzJ2X0k0Y0lwLXhJNXF1QU9LVkNFM3lNdUk0ZU01cmpqVGNaNU8zZVZwS3U4WF9hN1NLSUhhRDlyQ2VFTlQzU090X3g2Mmlkb2ZzX0o4Q05ETmREbzBFdkFpOFhfalljSk1VWjc5ZmxmbC15bWxqcVliV3Iyb3hOczA?oc=5",
@@ -140,19 +149,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump votes in West Palm Beach, FLOTUS weighs in on Ukraine ceasefire after casting ballot - WPEC",
-        "source": "WPEC",
-        "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxPLXFHOFp6VTh4VXRoUVRidmpqeVYtQlN3a21sM0lhbDB2a0U5RmhVSjcya3VWeElmTnlFMFp4ODg4djE5SDdENlpyQm1OOGxJanJQMlE0OURrWVUwa0Q2c0luTmV3M2hqS21MUmJwZ2hSOEIza3hCMzFPVlk5dGFST0x3eHFTZVRfYVQ5Mmt1aXdBM1Q4VGxEdUVhNHl4VUcwT1YwYnpxdThwQ3EwRXFiRHhvYXE1QnEwb2RoQzEzSmVBYzQ1OWwtRDFianVEQTBmNUxENHA4T0dVcjN1WnBOcHZIRVVfNDVLeXhjYTN5aGk1RFZRcGZJSW11Sm9JWHJqMEU2WWVyX1hyb2p4SUQxRnNoRTM1Vy04MXVETU1Rb01rV0ZpZnJLS0xmQkpuMnNabF9DN3A2Vno1UWhjX0hXTUdycElraGRHdW8wd2c4Um5rZTJ6cVhRTWQwcm1UQzA4V0w1dWFrVExKaGFOcnRVeDBzNFk3TnE1MmNUSW94eGU5WC1PcEc0aW1B?oc=5",
-        "published_at": "2026-10-24T19:31:32+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Bank of Israel against Netanyahu: Crypto cannot be used to circumvent sanctions - Haaretz",
         "source": "Haaretz",
         "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPNnpGUmFZZUpkZHhDRGJOMkhaQjhaQ3VETFI0V0Z0U25OelhvUVhWU3lPMUo3a2tFTzVMNXpyby1tUW1RRmNtWEhSUHhzQ3Y4aWNWVTZmOUdQWmdRRkpvaXlNMUpxQ0VqNGhtUWRKZWt6LU5xc19LTDdkZzRmM3FzTnZxcE9XMVZMQ2FaQkxYN1RuNUxZcEIxTlBHYm50Y1hzMkU2STk0WHlWcXhfazM5ck53UThvdG9ReE9LOXN5SEdOa0htbDByejhyM2dlQVV4Ry1FdmE3RmtrZW9HVEtQVDdRcFctQng1NElld0FXUFB3VDNpWjJiVHhad2pJRnJlUUhLQkpiRkdsZko5b3pIYzRYODZKa0MyM29sdVZPdElPT2hWcUNzVm9GejFvNko2?oc=5",
         "published_at": "2026-10-24T19:24:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bank of Israel Rejects Netanyahu Cryptocurrency Plan To Bypass Sanctions - The Media Line",
+        "source": "The Media Line",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZjJDZlRscE9oc3hUdEVRTjA0dzhzakxQV25vMVhCUTFUYkRfeW5BOUdJeGx6MDRrYUVHbXFFRmUtUHVvNk15OU9uVzFsSWkzbUdUVnR5VnJZU3djZllVRjh5YnVGeUgtUGJhQzJ5ZWhxa3A4QldwdzhUUWx5VS05WHdPck00NF83cGFwdXR2NWJEaTBmdk01cWVYT2tUQzZRSm5QSFJ4dWdHT0oz?oc=5",
+        "published_at": "2026-10-24T19:16:19+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -167,21 +176,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
-        "published_at": "2026-10-24T18:22:09+00:00",
+        "title": "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpKM24wMFppRmlxekFEd0lVTXFXMlp0N2xnN29USnpaeENOWklXX2pyTVY2bC1TRW00YjNSelZIT3Q0cGZxWHhpWEFONkhLaWgxUUsxUUlJdlpjazF0TVFNYVR4QjVWcW9oN3RFb01pSHBCRXpoTk5WMzd3WDR6R0dqOFdhaTZVUUxuQldXMllLeFF3bGxudHJTX0hEcEN5ZGRlZl9Ucm5ZNzB4WVRPb3lJc0VkUVRWYTNWdFpuVjd1Zw?oc=5",
+        "published_at": "2026-10-24T18:24:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Robert Murray, candidate in 4th District race, not convinced Russia sanctions are effective - WTVR.com",
-        "source": "WTVR.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ2hVTUg0RnJaMVlIS3JGZzNHdUs5NEZJM3VTYjB5ZFlGQ0R2cnQtVGtHQUliRERXanU0RGcwekFTWmJja0pQQUtvVGlqdDk5X013QkczSTRhUUN0aHUtNHZnSW5wVHdwcm5GNjlOUUhhdUl4TW9WRldoN3U3ci1CVENnOTJOaG43emdSRmhlM0VCY0dhakllUG13RXZSVjZpSjNncWo5T19OQQ?oc=5",
-        "published_at": "2026-10-24T17:24:02+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -214,29 +214,20 @@
     ],
     "corporate": [
       {
+        "title": "Alphabet, Microsoft and Amazon lead 10 major earnings reports next week - Opening Bell Daily",
+        "source": "Opening Bell Daily",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNVFUb1Y2UUttRllqcnRmVzJFOTYyN3lNYkkyWWNaNnktaE9WT043cFBxT3U1QmFocXJ1ejRzdUkza3F4MGJDWTVOVk45b3gyYnJwTjZ6NWZiTjVyM2dEb1JveFlqTWd1d1dSRFM0djkwSl9aZUxEU1VpRm43dHc?oc=5",
+        "published_at": "2026-10-24T23:47:48+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Moderna Melanoma Therapy Cuts Recurrence Risk 42% in Phase 3 Trial - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5",
         "published_at": "2026-10-24T22:02:03+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AbbVie Won FDA Approval for At-Home Skyrizi Starts in Crohn’s. Here’s When It Should Show Up in Sales - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFZlb05xenVUdVhRMnVXX2phVXlISEMyM1RwX1VIWFJiaHR2YzBNeUlfUm1OSEJlTUxXUnJDSGZicVdLNmJaeHpoemcwWmp0cnlFNm9HSDhVMTBnNXpaWXRVWmpQU0VXYUhpVTR3RDJ6NV9XdWROM0tVbHRlaXc4bWZ5OEJPZ3pTVjlrd3A2cTJCN2M?oc=5",
-        "published_at": "2026-10-24T20:24:25+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet, Microsoft and Amazon lead 10 major earnings reports next week - Opening Bell Daily",
-        "source": "Opening Bell Daily",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNVFUb1Y2UUttRllqcnRmVzJFOTYyN3lNYkkyWWNaNnktaE9WT043cFBxT3U1QmFocXJ1ejRzdUkza3F4MGJDWTVOVk45b3gyYnJwTjZ6NWZiTjVyM2dEb1JveFlqTWd1d1dSRFM0djkwSl9aZUxEU1VpRm43dHc?oc=5",
-        "published_at": "2026-10-24T17:47:48+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -272,6 +263,15 @@
         "source": "ABC News - Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
         "published_at": "2026-10-24T06:01:49+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
+        "published_at": "2026-10-24T03:58:24+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
