@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-25T23:28:26.818202+00:00",
+  "generated_at": "2026-10-25T23:50:20.517709+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 102.27999877929688,
-    "wti_change_pct": -0.9586500396540854,
-    "brent": 110.80999755859375,
-    "brent_change_pct": -5.063402673320994,
+    "wti": 102.30000305175781,
+    "wti_change_pct": -0.939279193221243,
+    "brent": 110.58000183105469,
+    "brent_change_pct": -5.260451786698028,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.77200317382812,
+    "dollar_index": 101.71900177001953,
     "macro_score": 43.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -0.96%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -0.94%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-25T23:15:00+00:00",
-      "brent": "2026-10-25T23:15:00+00:00",
+      "wti": "2026-10-25T23:40:00+00:00",
+      "brent": "2026-10-25T23:35:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
       "vix": "2026-10-23T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T23:28:14.877346+00:00",
+    "updated_at": "2026-10-25T23:50:09.128526+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,38 +44,47 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       }
     ],
     "geopolitics": [
+      {
+        "title": "Oil Edges Lower From Six-Month High as Traders Assess Iran Risks - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNFpHYTlFcXR2RGt0NHhpMWtQcTRwdTktRHJKZGJIODZ4RldHbUFZODFIMXBRZkRObXAzN3lxZE1NV0QtOVlmaDc3S0R1YWV0S2ExZmpJTWlYb1RITGIzZTYyR0xkT0c0WXdvNHExUVZJUURPbEZ2MWoyc3NyNkRWNzB5c3VUVVFwMHppaWRIWmxoaDVNRjM5dndha3hTZw?oc=5",
+        "published_at": "2026-10-25T22:04:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "What the EU–China trade deal means for Asia - East Asia Forum",
         "source": "East Asia Forum",
@@ -110,24 +119,6 @@
         "published_at": "2026-10-25T20:35:12+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "President: Ukraine ready to halt strikes on oil refineries if Russia stops attacks on energy sector - Ukrinform",
-        "source": "Ukrinform",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd2dVMVpuN1d2WjlZTDg4bkJ5eE9wN29pcktxcVBMNVFRUG9TSW1vRkVodm10d2JfMGtraVk2RzlkT2VsOGZjejdQZVNUaVdDOFA2SGhYLXZnbjZvM2ZRQXhqS2h4S1pHLVdZZnFxRS1wVHhZY25OMHpzMk9DY0VHdlUwVkpCbEtLNUhpcHJwc0FuNGlhaGVDTFUyY2FYek83TjQ3TWdOQlBGcElQRXdBa19pcjJfMEV0WU5fLVdRdHFLWkwxci1xR2xuSEJFU3UyRTlJcGxYdHh3d2h0ZVVKcmlB0gHnAUFVX3lxTE14ZUltQnZFOExEem1YbFg5YWgzR2hjYXYxSTYxaTRfZ0Iyb1RSU3lUMm1vYm1WVUNlcDhCUFd4YUJDV1QybUxRN0VycHJVR2NvNE1CNUJweEcxcXJpRndwSG1pWmRUdFpxajYzaHhrM19RRVhHMEtJa3l3dTA0N1I0dTZ6bjFxMExJdWNvbzJ6aGZwOGpEXzNWQ3VtbEVja1FLMGpHRUVucVRYazh2YmlLcGQzakFRSjBZZDNxekItRWtmX210b3lSd2Q3aG1PZ0RVWjBzYWRqcFc3MWRycm1DTWwtOHM5Yw?oc=5",
-        "published_at": "2026-10-25T20:28:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
-        "published_at": "2026-10-25T20:18:29+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -176,20 +167,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
-        "published_at": "2026-10-25T17:05:03+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China studying Ukraine’s drone war to strengthen training and defenses - Interesting Engineering",
         "source": "Interesting Engineering",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcXVwLVNxem1BQ3d6Rnc2eDJTVmZxUTdLNmRTUE5JZFlRWm1GZmZvb2Q1Q0MwZGI1SlJuWE5UQkI2Q1AxazRVa0IxRnRhd2JhMTJRMHk3RmpqLVo1Skw2YmM4S2RDR01QeEY5MHdfZFdaWGFDYmJsdWFCZmdvbmJBOW1HeG92cGdvcmF3b0k3bjFGQUZ0MVZj?oc=5",
         "published_at": "2026-10-25T16:59:00+00:00",
-        "area": "USA / Cina / Taiwan",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Four killed in two drone attacks in Russia's Belgorod region - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHRUX2c1M1VjUTdxb1pfekVNSTlXNlpIQzFJRkZjSXhCVEZyaXZ3MHk0RWlKalZhVjhwTHNQYWU1V0pWRHAzZ3A5UkR5TXpPVzYyblFTcDFKNmdDNmh2NEU0T1lZMy1BSllDck9UeU5JbEpWeUdmdlhBTDNDZnpUaEx5M3hCS0lXVUUwblRWaU9TWS0xaGRnNUNVb0ZTS1BZU29KaDc0cnphWEJWVXJ4Y0dyWDg?oc=5",
+        "published_at": "2026-10-25T15:56:13+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -207,6 +198,15 @@
         "source": "The Next Web",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZG9RWEx0RjF1YWhreWp3UnhFeWNLcGR0SHplMDJhVDdLN2dNYlJibWZpeUhLbi1NR0ppVnFOQUtKNkpvdGh0ZVprWGphaEt3WERDVkdVeWI3V0RkMEtXWVNFOWxNaTVLQVZkd04wWW40SXhVbm1DOGJIcUl1a0tmUWZ2TjI?oc=5",
         "published_at": "2026-10-25T11:13:22+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s export controls around PV cells could slow India’s upstream solar push - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc0Q3YWgwdTlvdWVmQkl5R2d3ekd1RURwWDQ1dTlFVFNDQ1hIUWZyNWdEdnJxVmtkNmQteWpZZkIycGt6RmlRdU9mZHJaV3pPemN4UGZ4QmpJbHFSOWFxd2dtUnFBVEJrTGt5MEVxa0dRSE01SVRPUnQwXzJxMW9qOWQ4ZDMxWEt1YllBMU9NdS0yVHdkVW10U1VsV3huT1R1d1NPU0xnSkgzcWtzdGtkMld1Ny1sTTF5RW03ODQ5TnJFLVdBWk5RRzFSTHc3OEZq?oc=5",
+        "published_at": "2026-10-25T10:09:04+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -237,6 +237,15 @@
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbkdyVGljVUJVQWdULUphcThyYWNxRzdYaFFCSEpBakFJS0lBYTZkc1phOUZDVjRPbDNqZXVQVU56VkdFWnVJRXFQVEZDcWZmRnM0Vy1heE5Vc190UXBXeS1mYlJJaGw3NWo4RDdEWk5fd0xzYnFFa3VKdV84VWp3RWlwb1RkQVpfUFh1MGRMZF9PbTAxZkRvY2xlYk1DNldzUHpfOTJvbThidmxfOXZmU1pyQ1RLWVBLaDZGLWJ5M2ZfOUVXdDVodTZ1OHE3aldmNlU0M3JjcFpwbDBmb1dRd2Fn0gHnAUFVX3lxTE1Ca1BJbnhwRVNfNlhlSE5aX0VhRnRRQjVJZi1ZZ3hzd0tHU1YxNDhvbHF4RGktU3pYVUk2UWQ1dlNMeXFwZ0xZaWIwV2c1djVCcHZHcXpQcTFqb3hYMThtNlhyeXRBSjNYX2F1ZU8zQm5PVlptWE5jTHhLMVVpdDdPdk12d3BCY1JNaWJnaXNQeWxVV0gySWhIVXNuWGhnd2NEajdISEdxT1BDSHJqdUFXQ0VhejJISFp1YW03VzFsdWlOa2RCV0YwRU9WRWdZWnhkc21RbTB1NmpFc3RZelRsWmxBT0RKYw?oc=5",
         "published_at": "2026-10-25T18:33:28+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Teams Up With 6 Supply Chain Partners to Expand Its Global AI Manufacturing Capacity - Barchart.com",
+        "source": "Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ3M3d3NXNGE1UGZ6UHUtVDFOMFQ4LTNfV0c0WWhpc1BuU0hmSE82T3N2UXZEdjNZVFQtR19lSTd3TExwTzBTTHdBUHhZaERMclJKLXZzM19TSnlQYlhGakNGdHRHc1RZNWtHRkc2Y3ZoZHhnY190VlZ0Q09ZeDVHS0kwZ1ZTR3otMEFiRHByZ2Ffbi04UUdoSmduU21YdHFNTnlXNkl3Zkh6VTc5VWhyMmgzU1ZraFNaUHBGZnp0U3YtUVhFRGhrTHdBb29yZVJq?oc=5",
+        "published_at": "2026-10-25T18:30:02+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -290,15 +299,6 @@
         "source": "Moomoo",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYllYSk03WEh0bF9lWVYtZ2V1THFSUXdaeW51X1RKU3Q2dFowNTVZdkc5ejAyQVlaT0F6dUp6ODBuZlEzcmhNZmFPQTdWUmJoTFhOS3gyRHhhNHVQN2oyTkkwSjRRQTQ4WWpiQVlOVkFPeHpPR3daTHJxT3VXRmNUT0tuR3lPUl9sM2NnNDZEY1l5bjREWGg3Zk1aUjVxS3FoelE1TGxUZVlwelU?oc=5",
         "published_at": "2026-10-25T07:57:56+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Two AI Chipmakers Make Up 34% of America’s Earnings Boom - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaHhLUi1IeDVOLXZPSmlYYVpxRnZDUVBiMDRTTUdtMnQxRE5DcEUyenlyaWhZWXdfVno3ZU5FUzZUYkg4ODVlY0VDV0hneFdYUG1nX090Wml0dmk4b2NBM2k2QzA2VV9FNUVtM2lVczJGbjc2c3EyVmN2LVVGeUh0ZXllRnMxaUFfcVIyQmVuYXVPVGROeEk4akxUbmxKcElHUXU4eE42TFBwdkVj?oc=5",
-        "published_at": "2026-10-25T02:00:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
