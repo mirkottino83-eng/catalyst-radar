@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-25T00:38:25.109878+00:00",
+  "generated_at": "2026-10-25T01:15:20.856818+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.44000244140625,
-    "wti_change_pct": 3.9911542897184793,
-    "brent": 111.66000366210938,
-    "brent_change_pct": -1.334271035846224,
+    "wti": 103.2699966430664,
+    "wti_change_pct": 3.820242661837203,
+    "brent": 111.69999694824219,
+    "brent_change_pct": -1.2989319117144849,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,9 +16,9 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.0,
+    "macro_score": 36.3,
     "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.99%.",
+    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
       "wti": "2026-10-23T20:55:00+00:00",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T00:38:13.916396+00:00",
+    "updated_at": "2026-10-25T01:15:09.405200+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +44,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -77,21 +77,12 @@
     ],
     "geopolitics": [
       {
-        "title": "Bulgaria votes for president in wake of deadly Black Sea drone strikes - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOE5IMGRMTzd6dTFDS21qbTdmVDBkUzcteU1OWlQ0aWt2Z1Z6d0cxRGRVbEhGNkVkSnRGQVN1WVlLdU9vRkJmVHphOWk5RUFCNmJuUzJ0TGVaNC1tenk5NGNmUldFSnVXVkQ1bHd4aHJzZHFlWWJ2UHU0VHhETDFVNFpoaXdsQXpDZ21rMllSTlplRTItdnNuNUt6X1JjckV5OWJrWA?oc=5",
-        "published_at": "2026-10-25T00:03:00+00:00",
+        "title": "Massive Ukrainian drone attack hits shopping center in Russia's Belgorod Oblast, locals say - The Kyiv Independent",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmh0VVFpaWJhdGhtR1ZQMjZCcmlPTi1uOTgyVGpZRXhjNVgwdVV2MEFWNmkzTlVvamU4TVFVaHlNR1h4N1BfbllSUTNCM21ndDVoRXF3eUtuUFFwX1Y3ZC1yNUQ3R1BiWG9SdWJiRURZLXk1dHUxbXRFV0t0LVFDSGxZbFhFWlh0dXd5VUw1QVN2Q1FDWWREeUhtSnFBQUVuZEZUcVRIMGJMdzJfeHllWnpUbTMwN3R6SHc?oc=5",
+        "published_at": "2026-10-24T23:27:09+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump votes in West Palm Beach, FLOTUS weighs in on Ukraine ceasefire after casting ballot - WJAR",
-        "source": "WJAR",
-        "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxPdWxuS1ljY1RHQ2Y1VWFhcnF5T25YSkZtNkRzMlZmT0g5NWRleXMxaEZiSWdZS2FLR2hZNTFjQVc4Wnk4NzJtV2pnOGtfLURPWEtGX0l6RFJjWWlQSXFsX3dlTjRsd05VSnJFRlB4cU1OYlR5NzNZSkJ2ZFhmTnVOcW9ZWHhiXzRZbFdzN0hjSUcwNmlrSzNrZ1R5TjZycms1aWNEaFRhYjdjRHVGdWYxYXUwOGd0NVpwVUVnNDQ0ekNCZVlUbmdpNEF3SGtyNnhIa050ODBQVTVKRzRkOE93VFgxbnZKSVVxMkk4al9nbHJZQS1PSkQzektmZDBqbHZyVG1sWDFjTWVzSjVxLWxtQm1oWmo2S3ZxWXl4TEZnRTBQcm1zd3lQOG85UEhBRnBIOFl6bEhpY25tRmNHMzNIX0sxakEwc3lQWTBFa0RVQzlHakppOThfSU9RaFMzOUdXa1Yycm5HenpPVkxDZWNOblIwRTFibC1tN0t4NDc4NjNxUHZ6UnA0bExTRldwT1RNWVhOSzFycw?oc=5",
-        "published_at": "2026-10-25T00:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -140,15 +131,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "What to know about the Melania Trump-brokered ceasefire in Russian-occupied Oleshky - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONllIN0YycVhheUhkdFhFSTdabU5DMmJGMFNIQS15NWYwQV9BTS0tV3lPeHJkUGVsWmNNX3FZMkI5bEdzUF9sNXAtUklUb2JsRDZ1UkNScEFJMHRjRWZITGJxMS1hTWdyM0hhdjk3eUM2dkNiTG1IVjQta28takE4YUUwaWYtQ0MyNGE1aFkzUS1VQXQyNkEweDl4TWZYRGx4NlpZU2szYi1tdw?oc=5",
-        "published_at": "2026-10-24T21:05:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Pentagon drafts Iran attack plans as Tehran threatens aggressive retaliation - The Hill",
         "source": "The Hill",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM2k3eTl5VVh2RUxsbWREby1mUFRZblNhdGhfTkhNSHhuZlJkWHR5TkpZdG1LeEJLTUttSlNIcnZkdDRhRHFGY0lHWWJvWjJEXzBFelFYakdTUzRpNW54R0czY3pZeVIwV2xDcmNCZ2xFUl9RZldxcDQ2WWNQVldkUUZBTHBDZjFlbkJj0gGQAUFVX3lxTE1vN0R0YlVPa0dCSVRPNG5BYTUtYnhlMlZ1TEJJTU1vM1ZqMmVlLW93dmpjRG14X1pERG1mUF9hbnU1TkZDTlZaVFZPSFo4dXRyVEo5d0Vqakt6WVR1U0NBOFV4NmViS3BlZk51NW11WnRpNHBLNmttdHhUT3hESEc5Yy13ZHRRaWVUMk50b2ZLTg?oc=5",
@@ -182,6 +164,24 @@
         "published_at": "2026-10-24T18:24:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Robert Murray, candidate in 4th District race, not convinced Russia sanctions are effective - WTVR.com",
+        "source": "WTVR.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ2hVTUg0RnJaMVlIS3JGZzNHdUs5NEZJM3VTYjB5ZFlGQ0R2cnQtVGtHQUliRERXanU0RGcwekFTWmJja0pQQUtvVGlqdDk5X013QkczSTRhUUN0aHUtNHZnSW5wVHdwcm5GNjlOUUhhdUl4TW9WRldoN3U3ci1CVENnOTJOaG43emdSRmhlM0VCY0dhakllUG13RXZSVjZpSjNncWo5T19OQQ?oc=5",
+        "published_at": "2026-10-24T17:24:02+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine regains critical Starlink service after restrictions disrupt drone operations - Fox Business",
+        "source": "Fox Business",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSnpPdXJvR0kzLUpzdmpBSXY0MkdGUHlOMlhEdXlqUFJYcUFPcHp3THJ0UGU2R1NaTXR5dy1Ed2M3NmNnWVlQOVhnb3RzVFdQWG55Qi1mbEFZZTRRODBsanR3aHV4MUl4ZWVsZ2tuOGFQazBWbGJ5RTV2TUc5SnJRZmZJV1dmTGt0VlpweGl5RnIwLXhRX1dZSmk1dDB0dTRQbEVSblJNc095QVU0SWVjN0o3N0dheDliWF9INl8za9IBxAFBVV95cUxQcDdjSUY2eVlWRVVBbXltNmNld0R1Q0dWX2NuZThaOFpyaDFqMGt2cHhzaUJwN09OTS03M0xXSnlLWGxpNXM2ZmUtY0ZjMTB4X29TaFNueDUtR1ZnNWZTcTk2VDNyaWJCUnVCTWstRzVONUs5RzRSS3ZnblBNRTFSdG9mQWp3RG5HZXRjZjRKc1pSUS0xS096U1AzTDA1ZERZcUtFYWdZaE4tSkl6YVdMelY2aC1semQzNTRzZWRvalpFTC1w?oc=5",
+        "published_at": "2026-10-24T15:37:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
