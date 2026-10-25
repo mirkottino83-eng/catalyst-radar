@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-25T22:00:24.209262+00:00",
+  "generated_at": "2026-10-25T22:20:48.764071+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 103.2699966430664,
-    "wti_change_pct": 3.820242661837203,
-    "brent": 111.69999694824219,
-    "brent_change_pct": -1.2989319117144849,
+    "wti": 101.7300033569336,
+    "wti_change_pct": -1.4912301115448945,
+    "brent": 110.12000274658203,
+    "brent_change_pct": -5.654556549944944,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
@@ -16,13 +16,13 @@
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
     "dollar_index": 101.80999755859375,
-    "macro_score": 36.3,
-    "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI +3.82%.",
+    "macro_score": 43.9,
+    "tech_bias": "neutral",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.49%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-23T20:55:00+00:00",
-      "brent": "2026-10-23T20:55:00+00:00",
+      "wti": "2026-10-25T22:10:00+00:00",
+      "brent": "2026-10-25T22:10:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
       "vix": "2026-10-23T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T22:00:11.553965+00:00",
+    "updated_at": "2026-10-25T22:20:36.796595+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -58,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
@@ -76,15 +76,6 @@
       }
     ],
     "geopolitics": [
-      {
-        "title": "Netanyahu on reported clash with IDF chief over Iran strike: It’s ‘nonsense’ - The Times of Israel",
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMUVaOVF3NmlLUVJEejUzc3puODVqYV96QkwyU28yUXhjM2djd0hHdHBqRkNORFpFZ2tFdUVkUWk2ZGcyRzJ2OS1fdWdKUmVZSFhpS0NyY1JoT1YzbXNMWWJTY1JSRGZEZzA3YW9ZbUplQ21BZG9adVRuX2hlamVCOWlNRHlodlJOV0pkQ1R0YnpfaE1MdC00aGpZcnI0NkNDbG11QlZHYUhyd0VlNlMyeHUyajBVQjV5U0E?oc=5",
-        "published_at": "2026-10-25T21:18:58+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
       {
         "title": "What the EU–China trade deal means for Asia - East Asia Forum",
         "source": "East Asia Forum",
@@ -113,21 +104,30 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "President: Ukraine ready to halt strikes on oil refineries if Russia stops attacks on energy sector - Ukrinform",
-        "source": "Ukrinform",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeGVJbUJ2RThMRHptWGxYOWFoM0doY2F2MUk2MWk0X2dCMm9UUlN5VDJtb2JtVlVDZXA4QlBXeGFCQ1dUMm1MUTdFcnByVUdjbzRNQjVCcHhHMXFyaUZ3cEhtaVpkVHRacWo2M2h4azNfUUVYRzBLSWt5d3UwNDdSNHU2em4xcTBMSXVjb28yemhmcDhqRF8zVkN1bWxFY2tRSzBqR0VFbnFUWGs4dmJpS3BkM2pBUUowWWQzcXpCLUVrZl9tdG95UndkN2htT2dEVVowc2FkanBXNzFkcnJtQ01sLThzOWPSAecBQVVfeXFMTXhlSW1CdkU4TER6bVhsWDlhaDNHaGNhdjFJNjFpNF9nQjJvVFJTeVQybW9ibVZVQ2VwOEJQV3hhQkNXVDJtTFE3RXJwclVHY280TUI1QnB4RzFxcmlGd3BIbWlaZFR0WnFqNjNoeGszX1FFWEcwS0lreXd1MDQ3UjR1NnpuMXEwTEl1Y29vMnpoZnA4akRfM1ZDdW1sRWNrUUswakdFRW5xVFhrOHZiaUtwZDNqQVFKMFlkM3F6Qi1Fa2ZfbXRveVJ3ZDdobU9nRFVaMHNhZGpwVzcxZHJybUNNbC04czlj?oc=5",
-        "published_at": "2026-10-25T20:28:00+00:00",
-        "area": "Russia / Ucraina",
+        "title": "‘27 shades of grey’: Different ties to China complicate EU trade response - EU Perspectives",
+        "source": "EU Perspectives",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBocDBDV3RRZTFzSFo1cGRVMzM4Y3E4OWxlRF9HODRxNnFuN1ZvMnUyTFZiQmxyR2EtUmlteEZrSlZWc0swMC1Sakh4Tzh1TG51VHJiRnFXTlRna3U5MENOdVQ0ZGNOZzktWmlNNHhudUw5WWFhQURKOVlB?oc=5",
+        "published_at": "2026-10-25T20:35:12+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran Update, October 25, 2026 - Critical Threats",
+        "source": "Critical Threats",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91ZWpMdzRhSW8xX003ZmJaUGdaWGpBeE5yVjBqd2dYMkhOOVRIMFRBdkJUVkxDRUg1SDJxSG9BcXczU1I1bUdRSzFaM3lKbnFFMGV5ejhNUTdzMmlqb2JIQXhGNzd6RXZNY2U2dmlrU1hsYmZEcUNB?oc=5",
+        "published_at": "2026-10-25T19:45:08+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
-        "published_at": "2026-10-25T20:18:29+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Iran says it has never left negotiating table, accuses US of imposing unilateral demands - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUk80U05aVWxibWlSLXd6dU1hMmpEVWt3dkpYRHNuOHVjYWtvSm0tbmJvbGJVb0VlRm1meDhVV0RDamtXeWFIU1R3clIxdWZwd25DVkxtOWpjVURqRDRuTG83ZEhkQk5WWlVCakljMjQzaG1wU0lCQTR0eUx6YTY4MEVPb2c4ZU5mM1k3UGFuN1gwVExUR0liYjlIMWlPS1BabkxYN1RLMUxyMFRIY294QzI2X3VtVFJvcm1WLVRJbXVhOHNoeEM3WTZtM3A?oc=5",
+        "published_at": "2026-10-25T19:44:56+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -136,6 +136,15 @@
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwdXRraG93cVdZRVBESjVTT0JEREpoejljd3hHakVyOFR3TWw5MjNiVko5ZXpGZmZFVXlndm50R1NtcGpfX0F6dmJDdURab2tQU0ZfZXFB?oc=5",
         "published_at": "2026-10-25T19:39:24+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelensky warns against lifting sanctions on Russia “just to have chat” - Ukrinform",
+        "source": "Ukrinform",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSFZkTXVGbTlYamVKYVVDS2dNMHFFYU5CVjVPMmJ6LS1WZ1kyaVdndE10aXdibFphRTJSZ2RwbkduRWJSWHJKd3VuaDZ0VjRwSEJ0Tk56YklGdlp1b2NxbXBpS1RLN2oxZXNlTEk5VjBYUkNRWTN5UjlEWTdJVE9kSzFBV1BXaFdWanlzeVZuVE1rNEVXS2dQVDBLMUNpd0hrdGkySlZNWE9xWHNnM2pqWFRQc3NvNzU0QWJDem05ejdPclZLZVHSAcYBQVVfeXFMTkhWZE11Rm05WGplSmFVQ0tnTTBxRWFOQlY1TzJiei0tVmdZMmlXZ3RNdGl3YmxaYUUyUmdkcG5HbkViUlhySnd1bmg2dFY0cEhCdE5OemJJRnZadW9jcW1waUtUSzdqMWVzZUxJOVYwWFJDUVkzeVI5RFk3SVRPZEsxQVdQV2hXVmp5c3lWblRNazRFV0tnUFQwSzFDaXdIa3RpMkpWTVhPcVhzZzNqalhUUHNzbzc1NEFiQ3ptOXo3T3JWS2VR?oc=5",
+        "published_at": "2026-10-25T19:00:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -158,20 +167,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Saudi-Led Troops Had Just Gathered When a Houthi Missile Left Dozens Dead - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTklwa1VfWlRmOHVxeVoyMHh6SU5yZGtJZXdZaUs2VWJqLXdEUWdZakxha3l4clhyajc1Q0xmdWpuZ0FUbHd6SjZ1OWhFc0hJOWZ6QWVFQ3psb3dmbDVUTVNpQWtUQWk2Z2pqY2t6aXZxalQxX3VVSUNjM2VDWTZ6VmRldC16bWJ5U2lSelNlZ0paQTItLXh5SFFJRFlfMzlDRDJTSFBXaW56NGNsb0RDTjd1MUlRMlNUSy1UdA?oc=5",
-        "published_at": "2026-10-25T15:00:00+00:00",
+        "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
+        "published_at": "2026-10-25T17:05:03+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "A New Level of Threat and Fear Risks Pushing the U.S. and Iran Back to Full War - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOenJjWWFLN0xjSXdjOHdmUFJ5ekx1M0FLLWR0dGxDc1p6X2xJbDAzM2Zia0lIZFhwdTBJOExfNnVseXd4M1RzUjRDV2MySDBTTTFuQTFKYmVrd2JEWTdOUG9BM3kzU24waU9zQlJMV0d3cFR1VXJrdVZzd1FITEV4Y3lMbHVOM1hZWlFnQlZKd3FvVDA?oc=5",
-        "published_at": "2026-10-25T14:38:00+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "China studying Ukraine’s drone war to strengthen training and defenses - Interesting Engineering",
+        "source": "Interesting Engineering",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcXVwLVNxem1BQ3d6Rnc2eDJTVmZxUTdLNmRTUE5JZFlRWm1GZmZvb2Q1Q0MwZGI1SlJuWE5UQkI2Q1AxazRVa0IxRnRhd2JhMTJRMHk3RmpqLVo1Skw2YmM4S2RDR01QeEY5MHdfZFdaWGFDYmJsdWFCZmdvbmJBOW1HeG92cGdvcmF3b0k3bjFGQUZ0MVZj?oc=5",
+        "published_at": "2026-10-25T16:59:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -198,15 +207,6 @@
         "source": "TradingView",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc0Q3YWgwdTlvdWVmQkl5R2d3ekd1RURwWDQ1dTlFVFNDQ1hIUWZyNWdEdnJxVmtkNmQteWpZZkIycGt6RmlRdU9mZHJaV3pPemN4UGZ4QmpJbHFSOWFxd2dtUnFBVEJrTGt5MEVxa0dRSE01SVRPUnQwXzJxMW9qOWQ4ZDMxWEt1YllBMU9NdS0yVHdkVW10U1VsV3huT1R1d1NPU0xnSkgzcWtzdGtkMld1Ny1sTTF5RW03ODQ5TnJFLVdBWk5RRzFSTHc3OEZq?oc=5",
         "published_at": "2026-10-25T10:09:04+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "U.S.-China trade negotiations Archives - Global Trade Magazine",
-        "source": "Global Trade Magazine",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GZUh3Q210QVZEQjFkQzZucWU1VVNmM0tPY0NVUVJvQ3V5c1RnbXJqUUZDdVhuQU9UQ3ByWVFSbjZCaXVpb25rN19kZmpieDEwc1RDeUlGYkVsdERNSVQ5YV8tUWJRdUpHcW9iaGRhV2xUZw?oc=5",
-        "published_at": "2026-10-25T08:00:49+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
