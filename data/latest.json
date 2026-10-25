@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:38:58.353738+00:00",
+  "generated_at": "2026-10-25T06:06:48.152406+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-23T20:00:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 2018.9,
+      "quote_age_minutes": 2046.7,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T05:38:45.546410+00:00",
+    "updated_at": "2026-10-25T06:06:37.519415+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,21 +87,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
@@ -119,6 +119,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "US To Strike Iran Today? Trump Keeps World On Edge With \"Maybe\" Response - NDTV",
+        "source": "NDTV",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWl2Mmota2RQZEZha3NhRGU3UVRxUnVJaUlpT0FjNG1ZeS01dXFsUDZWUk5FMFNnRHdBR01rbGpvQnJXQXBIZzYzMnQ2bTA4TDE4dHdYZkRwUWRJVy1mdnFxRWszR05RQnpfSkJHTDNkM2FZTFE0YjVYRUxrX0xOMllHRElDN1hkNGE2UkRZYnBfMmtDTGFmenJsS1V3VGVuNUFabFljS2wwcjlFYmJYd2RLNmR3ODRHU0hVZnY1TdIBxwFBVV95cUxQcDBmd0prQVZuNnpyczIwcDZFdlcyM20yS2s5VHdsMGpVelYyeW81VE1yS3Z0djZ1ajBZVmtfYVFSUWphRGp5VFc1TC0zQVhJMThqaHBvTWhNdVJGZU5LRThyYjdMY0E0Y2YzTDlWNVpPamJnOGxJUVVnek1QVVppNk5vRjhnOGROVzlkNDlkYWVjY1FkVExpWWNwa1FralY3dTRya1FIUXV2TzhFTjIwVDRjSnNaUFpQZy1NWlVwem05bmVqOWhZ?oc=5",
+        "published_at": "2026-10-25T05:07:31+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Trump votes in West Palm Beach, FLOTUS weighs in on Ukraine ceasefire after casting ballot - WTVC",
         "source": "WTVC",
@@ -192,37 +201,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDhaTnZBOUF0LWEyaWtpc0ZfOXZ6bXlKTmxDTE44TENjVnQwaW9EOUI0SDFIenBFeEVXcFBOVmw0NThCSThhQkt4VGZMMmJmYTQ3eC11bjMwOHJQUHFEQkR0VVhEcTAtOE5JR1JJUXdXekNMcHdsTDlKSWFMMUZlYl9qNFZNdGl4c0xGXy1rUkFfOVVKMFlTVmlpSThXU2g5YmNXQTZxelJuSE9Bbzd0ZUh2WdIBuAFBVV95cUxPclRDQVdQV1JBNENBdDhhTmR5b2lRRFc1X1JlcGFIZ2FmdXRmX0NjMjQwN0N3SmFjMDh3Rnh0eUh3UnlTZTk4WGFoWGM0TFd2cG84WUtEc2M0V2ZaOXU1elJMX1RmVzZNZTNEVndQTFJsREFRQ3ZzQmg1ZXRtTDZhRjFWaHZxRFRiRlZkdzZSWHBycEZOOEdMOXlPX29RZzZkT2Nhdl9fbkNlWlpBbnpXdUFQTnVHemc3?oc=5",
-        "published_at": "2026-10-25T00:40:44+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Bulgaria votes for president in wake of deadly Black Sea drone strikes - San Luis Obispo Tribune",
-        "source": "San Luis Obispo Tribune",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbHRnbjAyTmdnZ0dqV29aUDlWWnYxVmtQdGwwQ0tLM2R0cHE2d25LWDdHNUNhR1JPbHBvV0MxQ1JwdXB4ZmtrWHRzRXVNbkJacXdRQktkN3NnMmdHajI4STVwbjVQcjRXUjJGZXRYVFU3d1lxa1V4bVNXdWExakNESQ?oc=5",
-        "published_at": "2026-10-25T00:22:07+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Live - Trump says Iran strike possible tomorrow, report points to post-election plans - Iran International",
         "source": "Iran International",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
         "published_at": "2026-10-24T23:48:49+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Yemen's Houthis launch new attacks on Saudi Arabia after accusing the kingdom of strikes that killed 17 - Le Monde.fr",
-        "source": "Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOc1FJSllUcDRqd3g1dzd3cVhyOVZLdzFEMGNqemRNY1c1cVhZemlyd1MxRFM5TlhKZVUwME5TbEIzSklmUHVuMnZhUkdELTM3OGIzaDV1V3ZKUVp1NDllbXlPcmEtRjczdFFNX0RJUEpzODBaQnZPc194MU9sYVEtSTU3VzNYRldMejV1VXRNMlF6VXZ2Y0hRRU9lV2R1NWZ5R3VIVDNfam1uck8tb3FJYmJibXl2WFdYNk04VFBraXRUQjFVR0xZQ182Q0RTdHNxQnN0YjVrTUwwdlBOMjRUUElNVGZsMUppYXNtbmxXZzJGS1dqdWdyQXlEekgxLXduUHo4VXFjd1o?oc=5",
-        "published_at": "2026-10-24T23:34:34+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -242,6 +224,24 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcTZHWDN3M3RRRHRHcWUwUkRxbGNXR01kbzhMNVlPZVA0eU12b1huZWZONk1KV09pTDNybXQ4eXBYOE16c3JWVUlMbUFWa1hrVEYxVmNOQ3hmVGVCUEtaZGk2VmQ5bFNMRDMxSnFIM2pfeEY1ZzBBMmZmMEt4YktZVTZDUGhGZVRkT01OQWgzVjItbjViRlJ0eHIzV2tRNkE?oc=5",
         "published_at": "2026-10-24T23:24:42+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine Says Starlink Speeds Restored After SpaceX Throttling Over Drone Strikes: 20 outlets compared - NewsCord",
+        "source": "NewsCord",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbl9qSFFDaDQ1TGJqNG9DclVrb1hmdi15MGVOY1NhWnkwVmJ3cTVyUklFY0tyV2U0NV9KbThqZFdJb3NWMTlwVWN0Tzl4UEdjNFozV2pTRTBLSnhCbGp4RmtUdG5QQzd2Z19xV2RQOWNiYU5EdUxiRUdsb0dTLWNQLWFjTXhCOFBZVXZScEJfUjItQUhkd0tjeXF6bWVKU0FYM0ZGLTRnYUh2ZW4xcHJLZVNhSTVDSUFzTTAwNkQtRTBwdGFjSXBLV09ObHlQb3ZlVkI1TE9jeXJqelFUQUEycHFEUTF0OXZvZlE?oc=5",
+        "published_at": "2026-10-24T23:23:10+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What to know about the Melania Trump-brokered ceasefire in Russian-occupied Oleshky - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONllIN0YycVhheUhkdFhFSTdabU5DMmJGMFNIQS15NWYwQV9BTS0tV3lPeHJkUGVsWmNNX3FZMkI5bEdzUF9sNXAtUklUb2JsRDZ1UkNScEFJMHRjRWZITGJxMS1hTWdyM0hhdjk3eUM2dkNiTG1IVjQta28takE4YUUwaWYtQ0MyNGE1aFkzUS1VQXQyNkEweDl4TWZYRGx4NlpZU2szYi1tdw?oc=5",
+        "published_at": "2026-10-24T21:05:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
