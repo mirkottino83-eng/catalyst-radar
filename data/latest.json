@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T03:38:50.801166+00:00",
+  "generated_at": "2026-10-25T04:12:19.852432+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -44,19 +44,19 @@
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUQ3WjBXTkx5aGZBVVIzRS1pUkYyQWhFYk9GN0VRWXdJQ2RoOXU1NUI4WjBXNmw0amVFQWNhdWMwUExFS0tSX1RKLVhwMWxPT0hXRFV0WnNVODZpMWRFNzhOZVQ3aVNUYUxTNUhraFpGMEhRcVZhZUljdExhaGhxUWJfeWNqbV96Ny1vRzFySjlCQQ?oc=5",
       "published_at": "2026-10-25T02:14:00+00:00",
-      "age_label": "84 min fa",
+      "age_label": "118 min fa",
       "catalyst_type": "earnings_beat",
       "current_change_pct": 4.28,
       "short_term_change_pct": 0.1,
-      "relative_volume": 2.09,
+      "relative_volume": 2.72,
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-23T20:00:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 1898.8,
+      "quote_age_minutes": 1932.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 55.0,
+      "confidence_score": 54.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-25T02:14:00+00:00",
@@ -66,8 +66,8 @@
       "factors": {
         "source_quality": 75,
         "catalyst_strength": 78,
-        "freshness": 90,
-        "volume": 72,
+        "freshness": 78,
+        "volume": 81,
         "momentum": 51,
         "macro": 50,
         "extension_penalty": 0,
@@ -77,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-25T03:38:39.904237+00:00",
+    "updated_at": "2026-10-25T04:12:07.146855+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -108,7 +108,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -119,6 +119,33 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "EU MEPs to visit China over trade deficit & market access - Fibre2Fashion",
+        "source": "Fibre2Fashion",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONlJLUmFHcXJNbktvdXdNWDFTWHM4WHNkR0NVNGltcDBXZjJsS3F2R3VQTndkUDBEczdzQXUyNlVrUVFobGZua1VTVWpBakZTVUw1SzdzTnBia1BFWVE4Z2luVTBqanNEMFJaVENtbWdmVDF0cWlIS1RvWUN5NlVvTndTTWVqMnJzYkRpLWRoVloxWUtvd2VsZko3N3hYVW1nd0txWVdTa2N0Vy11bGUtZnJJc3JGeUo0ZHV4aWctOU1jNklldTdOUk5QSmVVUQ?oc=5",
+        "published_at": "2026-10-25T03:00:03+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "‘27 shades of grey’: Different ties to China complicate EU trade response - EU Perspectives",
+        "source": "EU Perspectives",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBocDBDV3RRZTFzSFo1cGRVMzM4Y3E4OWxlRF9HODRxNnFuN1ZvMnUyTFZiQmxyR2EtUmlteEZrSlZWc0swMC1Sakh4Tzh1TG51VHJiRnFXTlRna3U5MENOdVQ0ZGNOZzktWmlNNHhudUw5WWFhQURKOVlB?oc=5",
+        "published_at": "2026-10-25T02:54:44+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
+        "published_at": "2026-10-25T02:43:21+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Kyiv says Starlink restored as attacks in Ukraine and Russia continue - Al Jazeera",
         "source": "Al Jazeera",
@@ -133,6 +160,24 @@
         "source": "Yahoo",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVERjMVQxWWxyX0NVYzN6ZHJNTTU5Zm50eGFmdmVOZTVaQjNadHphN0RLZ3JkYXFCU0lBcTNSbU1aMl9zVjF5dHhYWXd5S2JoYWZsLXc4cGh6anRDcS10U0lCUlEwR1Vqc29ZSzQ1S0ZFVVBReUh1YnQzOHBsRVF1YWJqOTAyYkE?oc=5",
         "published_at": "2026-10-25T02:26:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What Drives China’s Exports? Central Bank Points to Industry, Not a Weaker Yuan | China Responds - iChongqing",
+        "source": "iChongqing",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQME5SQjRDSFVmSWllUG44cE5QOTBvd1lLMF92U0k2bmRpZTVCTnNqNTJ2RDJ1bXlaX2txSG50eHV1c1dWeG1lTEYxWkxjdEFQTlVSajNnOU1pWWExRzdVWHdLQXRQM2ZwRlZrVzZtZWhnVnBqaTF0aWxyTlNxWFVyeTg3cUZRYlVnX0JSUmdma21fR01KZ1hzUmduS2x3NjB0QTNockpmTWlaM3VXamRBekZSWGItS0k1bGhFRjZPUFFFMFk5dFJYQXkxZ2FwZEJl0gHQAUFVX3lxTFAwTlJCNENIVWZJaWVQbjhwTlA5MG93WUswX3ZTSTZuZGllNUJOc2o1MnZEMnVteVpfa3FIbnR4dXVzV1Z4bWVMRjFaTGN0QVBOVVJqM2c5TWlZYTFHN1VYd0tBdFAzZnBGVmtXNm1laGdWcGppMXRpbHJOU3FYVXJ5ODdxRlFiVWdfQlJSZ2ZrbV9HTUpnWHNSZ25LbHc2MHRBM2hySmZNaVozdVdqZEF6RlJYYi1LSTVsaEVGNk9QUUUwWTl0UlhBeTFnYXBkQmU?oc=5",
+        "published_at": "2026-10-25T02:05:26+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says US could attack Iran ‘maybe tomorrow’ as Tehran denies offering deal to reopen Hormuz | World News - Hindustan Times",
+        "source": "Hindustan Times",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONXFRR0VPek1zVFZ4bHBJOF9td2NRU2FSdTBOLTFXMzU5a0QzWWo0MWVrdmotaklBeWJGSHNoLWppU3V4OS1XNmlrMG5mbzFWNTJrY2thQWxld2xWSF9jRjVLS0pKQ3BKc0VCdDdBeGVNOHVvRy1VdVEyaW4wcEhjY3pxZjZmdUxfSFNhWFVNbHJVNEZTOGVTaHNmcXRTeTNXeDdFaHNpdWxRdzJoVkZuZWVXZVN6YUVkeEQtdWlXOFB1a2cyYnNpZk5BSkwxQWhBbWhYTUZzVDZGclBBbGItMWNyMUc3NDBkakFLQWt4ZzNHZ1XSAfgBQVVfeXFMT21acExXNmNLcUNmNVhiZkRvQWJiazNIVmpBMVpaalNQdXQxc0RjdnlwNXItLUVpb09BU3plMjY5aXVGRlpkdzV4ZUs5Nno1c0l4dkNsX0c3SDRVRUNIb2dBSzJ4X3VSVkF3VHRPZEJ0M0xTYVkzVjBrVFB0YjNDTHBnczJkQ0NlM0VUTmRybVZwamlHQVBUQlEwd1JPMlUyTjNUMHc1UnZmd0xRMGNxQXZQWTlldVh4VkR5c21YMFZTT1JmX2xHUld1TUpBVmFiamdBR0J4UGsxdEZQNWRLdnduN1BRRi1STWJqSFdzVHhhSlZZWXVJd0E?oc=5",
+        "published_at": "2026-10-25T01:41:47+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -156,12 +201,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "A New Level of Threat and Fear Risks Pushing the U.S. and Iran Back to Full War - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOenJjWWFLN0xjSXdjOHdmUFJ5ekx1M0FLLWR0dGxDc1p6X2xJbDAzM2Zia0lIZFhwdTBJOExfNnVseXd4M1RzUjRDV2MySDBTTTFuQTFKYmVrd2JEWTdOUG9BM3kzU24waU9zQlJMV0d3cFR1VXJrdVZzd1FITEV4Y3lMbHVOM1hZWlFnQlZKd3FvVDA?oc=5",
-        "published_at": "2026-10-25T00:56:51+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Trump votes in West Palm Beach, FLOTUS weighs in on Ukraine ceasefire after casting ballot - WTVC",
+        "source": "WTVC",
+        "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxOVFp5amU2T05ZNlZqV01oa0R4YWlrdWdXSmhjYWRKcG1iLVVLT2lNTTE4ZzZ2UTlqUmJVbE5Fb2lnbUJKTDNTMk0wM21JVEtpZXF1Nkp0cmRpQWJUVktMaHZKVFJWMWRwdHpSU25LMWNNeVlBWmpVZXllTTdhSUpudVhZTUdWYkNLWHZON0pXSGt2WVNaVFJ1YkNjM252SjhPVnh6MDhpMW1GRGZPamZRYVhkZEc4YVZLWXBTRko0S3dOMXhTNVVLS3pnbHBDTkJsb0JVM3YwN0hqMGhTWXIxR0xrd1l2R3gxdW5XYTIybU1sa1djWkViZ0Q1bGtXTXYwSEhCVllNUllTcER6X2R3YmdYMzVPazcyeUhxZ05KY0pvOGZlZTRibjA3bnMyWC1VdzdDanpHekNScTc1ZkRSZjlhTEMwQ3BjR3ZJM01KdllXMll4aHpBVzJrTENNalIxaWJnbzN1TXowdmpha0lKaS1FUTY3MVR3MVVsSGdqZGM5QnFGRU16bmVLY3Eza1MtZmpJU2NoOG9fYk9W?oc=5",
+        "published_at": "2026-10-25T01:18:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -183,15 +228,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump votes in West Palm Beach, FLOTUS weighs in on Ukraine ceasefire after casting ballot - WLOS",
-        "source": "WLOS",
-        "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxOWlhzUXhDVDdGNENZRU1nT3NfQlh0ZXdZZVVNQXdaRnhDX1ozdElWbTdydDNhX2UzZUtMSGhvVjJleVBnd3NpMTU0WlNubERJVGhhM0VYdDZLRVRneVpzMEdLdmFneGwxX1dSSEEtX0U5UXJMTzZoRTZ0WnpzS1VLdl9sbjJweGs4cGhKVkVtWkMxbnRjdUVWaHc0VnNHYzNsbHJxZlhMeGZGcWszdm9JNTlkNnRhWTRSVXBnNTR3ZDFPSERYNjRIZXJlSl9mbEl6MjdLeXI1bElNWEpIM1pLUnRScGNxTVJUU29WZ1pldmtZZUJ6UlhrdFFXZWc1MENLX0xuOUdzcXFLaG0zcl9jTE1za3pxd3RBVFBzbl8yYzNYblJQay1FSENXdXZadERNSGNfc1BXTkFuU1FmaW81TFFoWnl1NmxqMnM3QzdvUXFHUUpZN1FiZ3plZjI1aDQ3OXJlbEpKSXp3NlhHZUhZT2gwVVhvLVM5VHRsME1IN3N0SFN2T25ZZzR3d2hwYVpxMlE?oc=5",
-        "published_at": "2026-10-25T00:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Massive Ukrainian drone attack hits shopping center in Russia's Belgorod Oblast, locals say - The Kyiv Independent",
         "source": "The Kyiv Independent",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmh0VVFpaWJhdGhtR1ZQMjZCcmlPTi1uOTgyVGpZRXhjNVgwdVV2MEFWNmkzTlVvamU4TVFVaHlNR1h4N1BfbllSUTNCM21ndDVoRXF3eUtuUFFwX1Y3ZC1yNUQ3R1BiWG9SdWJiRURZLXk1dHUxbXRFV0t0LVFDSGxZbFhFWlh0dXd5VUw1QVN2Q1FDWWREeUhtSnFBQUVuZEZUcVRIMGJMdzJfeHllWnpUbTMwN3R6SHc?oc=5",
@@ -210,15 +246,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
-        "published_at": "2026-10-24T22:06:52+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trade Expansion between North Korea and China - GV Wire",
         "source": "GV Wire",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTBfVm8yY05zbFF6OWI1M09ZeWgtVlBWd2x6XzJ2X0k0Y0lwLXhJNXF1QU9LVkNFM3lNdUk0ZU01cmpqVGNaNU8zZVZwS3U4WF9hN1NLSUhhRDlyQ2VFTlQzU090X3g2Mmlkb2ZzX0o4Q05ETmREbzBFdkFpOFhfalljSk1VWjc5ZmxmbC15bWxqcVliV3Iyb3hOczA?oc=5",
@@ -226,36 +253,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Kim Jong Un Visits China as new border bridge signals expanding trade - Straight Arrow",
-        "source": "Straight Arrow",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdVR4V1YtR0RLb2gtN0piSzZiVW9rZXhVZmZPSEV0TTBPcGNoV1Y4NnZmaUl5eEFabE9WTEFNYi1nOWNiZEI3Ri1XT3BSbFpHVWE2cDRVTElZdHlfM3pGNEVSM2wtS18xQ2RYZ2tIa1p6TUM2SHBzaHNNUTVMUjk1d1lkczdwb3ExLThKR0c4SU5QRVk?oc=5",
-        "published_at": "2026-10-24T15:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Opinion | The US has South Korea over a trade barrel – and the world should take notes - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdCMFZITTNtTGgySnppY3lMbG5zMGFVNEFTVnRaemJDN0VQUmJhejRvX2pTZFdfbC1MbmlmN3lZOHZTUVk4eWhadHlKa0ZFRjJzbUR2Q1VMOGViS05iQXVfUFlXc01xR2pVSjRnWUhyZm5fT0t5b08zZW1vNHM4UFlnbUU2ZU5HR0szaUVCTnN3QmpSOG1PUHpJQ2dxMmVuQ1hZTE9yZ0x1bDgxTENxV3pn0gGyAUFVX3lxTFBnYkNqQ3pndXdzTE5OaF9xeFRXMU9aRjlpQUNzUnRSSWZ6cFRyRzlOSF9JUVJEb1JhWlQxN2dyM1d0bnp5ZGN2cXhJQ3Y4SmNmLTBnQU41QURYa2xIOU5GUlFZMnRVV29PRlBKcmVDTkNWZ1Q3dkUyeWtBWlY0OVNZal9HczBKbjhiUmpzeGpacm9BZllWbjN4b3F0akQwWVFtWGpXVDVfLXZPczdPalRvSUE?oc=5",
-        "published_at": "2026-10-24T08:30:09+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's economy accelerated in the July-September quarter on robust exports - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTENEdTFqcEVDV0MxeHJOT3pDOUJHU0ZfbTJ2ODJyV0UyRnhXNmdKZk9FZ1RBOGFpMldEMl9hcjllZW1ZYlJhY1U0anRrdkhKMjEwOV8zcEZjM1d2NDRMakVlajgwRVZFclk1T2k1eThpUjFOWEV5RTlHR1FTdHNCTi0wdUlKWnZaY1F1NjdfS28yMEFiRmhGSFJyOEZ1c2VRSm1DZVNrRWdnTk5VRV91ZE5aenZsNkd60gG-AUFVX3lxTE9Cd0gteUVkR0k4MVByQnBkdi1Zc2NUXzJ2eWQ0aVFtY0NpRm1QMWE5OGpaOHlQeEZEdGxFeG9GN2pkMEZMQUdVV0xWYUMwcll0SXV2elQxM0hQUTVKVlZqSG1wcklsYjZmbWMtOU5XMG00c25FZnp1QlpVaVQ3TWhPVWNGN2lMMV93QWFlWEJPS21XSTIxcWF1S3hIM1JKbTFCRGRyU2JHVUlERTFmSGV6Z091T3ZsTFljOXJnQVE?oc=5",
-        "published_at": "2026-10-24T07:36:11+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Gaming PC deal with 16GB VRAM variant of NVIDIA’s RTX 5060 Ti graphics card is an excellent way to pick up an affordable 1440p gaming rig - PC Guide",
+        "source": "PC Guide",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWEUzYkQxS0FqX2lKV3RUUDg2REtpOUZURlFCZ21HajlkLVNoNUNjY3ZXMzBzUmdGYlVyQU92ck5zTWlkbjBrV090b1R2RmF6Z3N2MXNOVDQySnB4UVIzanBVTDZZNm1PTUFqenNBbkdROUhKb2Nwc2xtMzVWendFR1AzZTlZNWpURmthazRFNHdxZ1cyS0pmSWJyLTVRWFFneGp0b0QxWFJPUU1TOWxsb2lVTXpKTlhIa2dCcXJmSm5wOHhDX3Mzb3lFV1hKemFKcGx2N1FRNjVnUENYWW9OZjdHT3pKdnVNZXBjdjBFYmt4ZFduZFpFT3dzOA?oc=5",
+        "published_at": "2026-10-25T03:50:26+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "First Generic Weekly Estrogen-Progestin Patch Wins FDA Approval as Women Still Struggle to Fill Menopause Prescriptions - Medical Daily",
         "source": "Medical Daily",
@@ -306,6 +315,15 @@
         "source": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOEI4Q3BYOTQxY3YxX2k5MEpWWEo1eXpyQ1Q4TTRKRm5XVHVsWHZwUl95X1EzbHZVdUVtaXFublpuajhKUFVhdTNCbFh2Z3hSMHk4T1RwbURlWmdWRm9FNnJEWUFfUE96TElZa0sxdW5KYjdKX1RYbWxxbTlyclh6SDFGQnpfNDh2cjRzZkxpZlRGc2dDLThaeA?oc=5",
         "published_at": "2026-10-24T16:15:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMVZZdm1LNU1hQXdJN2dval9rNUpjVUp4SXhONjdFOUVQc0JVZXcxaVR3QWVpVlcyVW9ZeHBJUXdxcUxSMWM0UVliN1ZnWGxTWFdDTXAwTWFDMGlvcVdHZXlyMFpWMmQ5ZXJVYnpPYlRBcGF4dUt0dFdCRDVvZzBDdHg4V2NSNnhYaXlhZ2pvaGRvMmswQmFxaw?oc=5",
+        "published_at": "2026-10-24T15:35:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
