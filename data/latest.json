@@ -1,41 +1,35 @@
 {
-  "generated_at": "2026-10-26T10:02:02.424073+00:00",
+  "generated_at": "2026-10-26T10:39:15.620124+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 100.98999786376953,
-    "wti_change_pct": -2.2078036732946393,
-    "brent": 109.66999816894531,
-    "brent_change_pct": -6.040098507561808,
+    "wti": 101.25,
+    "wti_change_pct": -1.9560343843605943,
+    "brent": 110.1500015258789,
+    "brent_change_pct": -5.628855060069061,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
-    "vix": 19.18000030517578,
-    "vix_change_pct": -1.3881771062864812,
-    "dollar_index": 101.79499816894531,
-    "macro_score": 48.4,
+    "vix": 19.459999084472656,
+    "vix_change_pct": 0.05140525008231478,
+    "dollar_index": 101.8280029296875,
+    "macro_score": 48.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.21%. Geopolitica: EXCLUSIVE: How purchases of sanctioned Iranian jet fuel were disguised by Myanmar - Reuters",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.96%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T09:50:00+00:00",
-      "brent": "2026-10-26T09:50:00+00:00",
+      "wti": "2026-10-26T10:25:00+00:00",
+      "brent": "2026-10-26T10:25:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
-      "vix": "2026-10-26T09:45:00+00:00"
+      "vix": "2026-10-26T10:20:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "EXCLUSIVE: How purchases of sanctioned Iranian jet fuel were disguised by Myanmar - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWl4SlBja1R4RkhhaTMxemplMld0aldQMmlzbzdsOVlPMnJFWVNwRVVMa1dnanFtOVctTlEyWjl0SnI4Q3I4TzQ4QU5LRjRtX3BKSXc2RE5tQTNRSWhKYXlvX01QdE1OZWlQc1d4ZkZwWWxVQTVGLUR1NWFVWjZYcFNvNDJXS1hOYXUtVWRQSkdwMVZ5MGtUcHpjUTI3TjZ6M0VZaUdhLVdSTzA5UXkyYXlWUTFyRHlXb0tF?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [
     {
@@ -50,19 +44,19 @@
       "source": "UA.NEWS",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ29qWUxCN0pmeEtDMm1BeW02MzVjemJkRUxzSk16QnhsckdVUDMzY040ZnhNNHpFUVlWYmMxQmJuTDBxUzdBR2xNNFJrMUFzNVJHY2RzOXVFMmtyWDZTemVaMlI2allOQWREb2tET2l1NFJvbGxpU01lRk1JRkl2dHdhcTN2WWIxNjlGSXBiWi1CcWdqRHJiMm05RHNXWW9FR0dWUUNGSXY?oc=5",
       "published_at": "2026-10-26T08:54:08+00:00",
-      "age_label": "67 min fa",
+      "age_label": "105 min fa",
       "catalyst_type": "fda_approval",
-      "current_change_pct": -8.05,
-      "short_term_change_pct": -1.58,
+      "current_change_pct": -9.63,
+      "short_term_change_pct": -2.34,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T10:00:00+00:00",
+      "quote_at": "2026-10-26T10:35:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 1.9,
+      "quote_age_minutes": 4.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 69.0,
+      "confidence_score": 66.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-26T08:54:08+00:00",
@@ -72,9 +66,9 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 98,
-        "freshness": 90,
+        "freshness": 78,
         "volume": 28,
-        "momentum": 31,
+        "momentum": 22,
         "macro": 48,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -83,36 +77,22 @@
   ],
   "movers": [
     {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
+      "ticker": "MELI",
+      "company": "MercadoLibre",
+      "category": "LatAm E-commerce / Fintech",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -8.44,
-      "short_term_change_pct": 1.13,
+      "current_change_pct": -9.04,
+      "short_term_change_pct": 2.48,
       "relative_volume": null,
-      "quote_at": "2026-10-26T09:55:37+00:00",
+      "quote_at": "2026-10-26T10:35:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
-    },
-    {
-      "ticker": "MSTR",
-      "company": "Strategy",
-      "category": "Bitcoin / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.31,
-      "short_term_change_pct": 0.9,
-      "relative_volume": null,
-      "quote_at": "2026-10-26T10:00:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MSTR"
+      "tradingview_symbol": "MELI"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-26T10:01:51.084885+00:00",
+    "updated_at": "2026-10-26T10:39:04.037345+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -122,7 +102,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Russia / Ucraina",
@@ -136,14 +116,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 14
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 10
       },
       {
         "area": "Farmaceutica e settori",
@@ -155,11 +135,29 @@
     ],
     "geopolitics": [
       {
-        "title": "Saudi-led coalition says it has destroyed Yemeni rebels' missile facilities, and other Mideast news - WRAL",
-        "source": "WRAL",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPV05jNGp6aEpCOUMzd3pUY09qdnZzZTNFUjlYcnFBSDZPTTNSY24zMlFINk9PRzk4Q0V1Y3dRMmNSbDNyWmJIQmI5NVJIUk1fQ1N3ZlV4bldMWFhHbnQ5NWM5YlNjV0RhbTdKZmxhYi1CNmF1WXZaRUtvVWpnUlhnN3p4MHdFS3RiQmh5aGlWeVZaZ21HNXBwdnJvdWIyd0RqeE5XUnR1dHZ1VGREYmhYRG5ZLXFtZ2NDRUdwdURjeVhtQm5UbEVqeGdlckpxQQ?oc=5",
-        "published_at": "2026-10-26T09:51:57+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Ukraine war briefing: Trilateral peace talks with Russia to restart, says Zelenskyy - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczVkSVc5NFRncGJOaGdaeVIzblFSRkNfd3Y0akhLdE1HVUhmQmRrdnJNelU2Y1p2ZFpUZ2VRdHYxVTkxVkVIRE5xQWFEYVQtUFRPcUx4ODZDeWhpSEdUZ2YtRWxkNGVyakhvZXpXc3drSjIyTWJZVHBJMW9majFiR0xwSElGelpJRTBjSGZIREJSZDMyN0x2NXlGeWs1T29kQWNRNUp2VnpCSEg2YmFjMGpjTnoyWmJIVkE?oc=5",
+        "published_at": "2026-10-26T10:07:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China drafts rules to protect trade secrets from ‘foreign entities’ - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUhJdTc5bDkzaFRyOU9kSGJUVjJnaV9tZDltSUU5ZkJzbkJHZkw1WTdZRU5veHJZLUQzZWhzX0xEQ0dsM0NhTTRVTW1HeG1kZUJkMzNMWWNYUUdtMjJCX1hxNjZJc2ZyRnQzQUVfSUlSWlRoWXpGV2Mzb21EUWZuMVl0a1o3eW9XUWdRTExSZnFNVzBwQlFzaFVXb3JSUEFVWlVoWGxGbEVNcnlyRUHSAa4BQVVfeXFMTThPUl8xNkZxbjExTUs3ZkF4VmZGdDBKS3lEWkhYTVpEWDdzZ0FldHpjRkV2QmptcWNxVFllUDlWelpzVzdwTnRjUzNYbVI4QmxsSExmb1FPc3JzeE1SUkhDaFRncnRVMzhnUEhiamdUMlQ0U1lGQU9IbGJOX1NzN19EY1FmV3ZsdS0xZF96TXB4T0dvMEVCeEVNdDFqY1FXZm9tSENtT184YXk0RGFB?oc=5",
+        "published_at": "2026-10-26T10:02:23+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Deadly Ukrainian drone attack hits Russia’s Voronezh region - TRT World",
+        "source": "TRT World",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwbFd6THZ2dnZyMUhqNXhkSjRWYjlmeDRYUXU1cTYyMGNLTUJMN1luWnpocGMwZTYwRnJJRHRRQ2pSNjJ3WThHVmZVMkMxSU1HMU9F?oc=5",
+        "published_at": "2026-10-26T09:43:11+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -200,11 +198,29 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Iran says it’s prepared to go back to war amid threat from the U.S. and Israel - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTWF4R1g5cjkxZXNYdDVVa0N4SWVoY3FiOVVsdnJ3Nll4Si1lbVNnemhBQi05aWF3NEllLWtKTHM5Qlh3bGRmcVhiWXpFZWt2VW5iRzJCN1dzNFlqX09sVWZsTG81OEpMa0tKbnZ2T0NRMWE0el9kYkQxNjhyWVE1NkF4RGhGVUNnV1hHZGo1eUZvZUZ3c01zN1Z4WjVLNmhJdlEtU3U4VlU2SHRxOFUyeG5LbWJzaDI0X2xVel93?oc=5",
+        "published_at": "2026-10-26T08:40:27+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Massive Drone Barrage Rocks Russia’s Voronezh, Hits Aircraft Plant, Chemical Factory, and Key Bridge - UNITED24 Media",
         "source": "UNITED24 Media",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcnZUU0dOMS1wZTVZUkMyQWsySjgzejlUQXJxem5YaDBXRy1CcGI0cHh5U09YSjlYRDNEVVozaUxISy1ET0pIeGpYNEpxNFdYWUhOTGppcVpsUmZ6aENPRjM4R1RuTWRVUTFJbk1nX21SaDFRbE80UVV2MXJoeUN5YTFPVWlwdERLeUVsWDdfdGt0SDl1c3d6VDRTUGkzbTYwTjRwb0JqdnVmSGsteENNeFAwYmczRWpFZTREZndDaHgxalBGTEhPS0VES0NTQXNEcFlmeHF6MlY0TFU?oc=5",
         "published_at": "2026-10-26T08:38:37+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Netanyahu rejects CNN report that Trump blocked Iran strike - Israel National News",
+        "source": "Israel National News",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwX1RBREpidGd1LWdZaDNxTklEVmZadHAxOGtfRnIxeFNzc01ldzJOTUNvVUcyLUJYZmFJOUZsWXktcUE4ajFSblIwZDgwcThCWmNJbXVjcmk2dw?oc=5",
+        "published_at": "2026-10-26T08:33:24+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -218,28 +234,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Deadly Ukrainian drone attack hits Russia’s Voronezh region - TRT World",
-        "source": "TRT World",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWnZuZGFmNnY1UTlSMjZxWXNJazFkRmZYNlhYcjJoTXhXSDhuWjNpM3BwZDFaTVlRRXZ5Y19RMUlsTFd2cTh5LU5qRkw1RjdYVFVPT1pKT1NZcklKTmdZb1poczdsdWRqLWlhcXY0QmFjTmppMVczV3dBX241WnJ3dTQzVm5rUzJvOUVPTjFiTkI2cWJFcDZKOHJORWRrenJGdVkyRTN6aDRUdkpjM0RicUJKVGhtRVNyVlg0ZFJOQWpCcUN0THlGTE1FT1k1cFhlbFJJcDRhdGYxVHR4NWs1VFVXNWo0QmZINE13?oc=5",
-        "published_at": "2026-10-26T08:28:49+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Developing | China drafts rules to protect trade secrets from ‘foreign entities’ - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUhJdTc5bDkzaFRyOU9kSGJUVjJnaV9tZDltSUU5ZkJzbkJHZkw1WTdZRU5veHJZLUQzZWhzX0xEQ0dsM0NhTTRVTW1HeG1kZUJkMzNMWWNYUUdtMjJCX1hxNjZJc2ZyRnQzQUVfSUlSWlRoWXpGV2Mzb21EUWZuMVl0a1o3eW9XUWdRTExSZnFNVzBwQlFzaFVXb3JSUEFVWlVoWGxGbEVNcnlyRUHSAa4BQVVfeXFMTThPUl8xNkZxbjExTUs3ZkF4VmZGdDBKS3lEWkhYTVpEWDdzZ0FldHpjRkV2QmptcWNxVFllUDlWelpzVzdwTnRjUzNYbVI4QmxsSExmb1FPc3JzeE1SUkhDaFRncnRVMzhnUEhiamdUMlQ0U1lGQU9IbGJOX1NzN19EY1FmV3ZsdS0xZF96TXB4T0dvMEVCeEVNdDFqY1FXZm9tSENtT184YXk0RGFB?oc=5",
-        "published_at": "2026-10-26T08:28:14+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Breaking | China drafts rules to protect trade secrets from ‘foreign entities’ - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLS1TcVdBMmMyZ0piMnBrYmhPblFwNm9SbURZS1JETjlLSFItdlJtYmthM1p0MGFrYmZPdmxuTFctem1taHBMYk5rdDNIamtwQVY1YWlCUlRzNnZwQ29henRKR3BoZmQ0d0hlOGtSX2lGdmxWdV9RRlY0MFJIbFBybmNCS2l3QVBfQnhHS2hKODF5SmNqSDdqMkE3U0czdUpQY25yTGxGU1l4eUx6dWlndjBKX1VyWUhKV0RlUDc5cw?oc=5",
-        "published_at": "2026-10-26T08:28:14+00:00",
+        "title": "Can trade blocs withstand China Shock 2.0? - I by IMD",
+        "source": "I by IMD",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVTBEbGpQWDZaSHA3bU1kMWlGd0tQN2ZkUDJEZ3hibDA3Wk5oa3dSZEQxTDdVQ2hub0VSOXFSQlFTM29GTnBiME9WNTVmcFdNVmlrazdnYkpjcWZfbllDUnRLUTBGNU42Sm9oeTRmSHRDUjdUd1V0VGNjcUtnLXVmZWtKSHpKZ0E3?oc=5",
+        "published_at": "2026-10-26T08:29:37+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -249,15 +247,6 @@
         "source": "www.israelhayom.com",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFEtVzRyZkJUTGtVZlhPeWl5Ri1Gd1FQZ19IUGdJQWp4cExpYXJoWDExcWZqdkl3T0lmdFFRZFlqT2pacmJHVVVPS1Q0TnpZYVlqZGdmc1ZvU2NFNmoyM2pKaTFEYlN6eGtJWlBCQmsydV83UXkwX0FxX0tjdVlYTkVDbFkxNkloMDJ1VW5xbDlwNW14SHByZ20yNFdtOFlRTGJMcUYwYVltMnhUcWZ3am1LVDk?oc=5",
         "published_at": "2026-10-26T08:18:01+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US ready to strike Iran 'within 96 hours' of Trump's order, Israel pushes for joint attack - report - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZU1JDSGJNNVB1VHM4YWpqZlhIRjRoVU41TnJYVjVKSlJEUjNma2tJdUNBczh2Z01rcDAyUi1MZDVxdl9fQ0pUdzZMVXJ2NzFYWHl6bE1vblhpVl85dUs3RGxDY1V5UU43ZXc?oc=5",
-        "published_at": "2026-10-26T08:10:29+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -279,23 +268,59 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine drone attack on Russia's Voronezh kills two, wounds 17 - The New Indian Express",
-        "source": "The New Indian Express",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2g1RXlmUlZZd01JTkV3TDlURzYzcXN2UUdwZmV3YWFaX053SWJQUmVWUjBfVjdCSkdpN0VoWGFkSWZOMV9rRTdRSVJWZzZPT2U1cmhTUWJqRWFKYXNmSmxkRWIzVFpqdjJFUllhU21RRDJaeXpLbFZ5Rmt5YzhFY09rTk5CVFpZNmVSQ2FVU1JtZ0hiTUVaeUJIa01MbEIwdllialVYN1RBcVM5RHpiMdIBvgFBVV95cUxOZWNuNHk1cjVhTGJSQ1dDdnBsS0I0cTlHYkpVTXVZb3hLOUtSeXBNY1dqQi1RSjlwUnVpRTRwREMtOFdfSjJvVG9BNmlKdVo5cGphdDl3Z2tRZHlBRDdEQ1djc0pwa1hnSTlJaW1iTVUzeU0xaDduSEoxc044Y2VSUVFPZ3RDWXFCVDdVcUY5UHBhXy1HV203a1NLMlJXV2J1dFlMU1VyZlBycFBFb0p4RU1CNnFGUzVYN0dLeUlB?oc=5",
-        "published_at": "2026-10-26T07:24:34+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
+        "title": "Clinical trial aims to advance gene therapy for sickle cell disease - Scientist Live",
+        "source": "Scientist Live",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmZsQmJORDVCSTkxRTFQWlJ0Zkxmc0VTaVdvQzlyN29pR2hQODZGdkYzTTlDY2hvRVhsM0RjNTZDYVZrdFdJaTk4TUNNT2oxdldKRUlvME1YUGVIa0oyMFhqUjI3SlMwTWJaS3Y3SjBBcTZBdzVoX3hoN1VaaFRNeGVncXFWZWpSSVhLWVdiSERqVzFadEFGcUZWbnVfWGM?oc=5",
+        "published_at": "2026-10-26T10:34:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Amanat Announces $377M Corxel Obesity Biotech Merger - grafa.com",
+        "source": "grafa.com",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcmR1V2pPSENCVGctOXZxdG8wWE9od0hTRDEtcE9DQzl0bUJsc2t2ajBqZ09pX19xYkIxRzl1VTVDeWcweHktMnNHN0xwMDBmWDZlQW5SU09ja21lM2syN0JpMFZOWjhnV185TVJHcHVtVVVZUTg3N2pJb0ctS1llQURla2ppNHNuYV9nbDdaT29xZw?oc=5",
+        "published_at": "2026-10-26T10:21:11+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+        "source": "Morningstar",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR0pwSzdVaGNDeWswQ3cxeWh4MncyN2RlanBUWFRIdnFraU9zVEQ5YkNic0hBTVlrX1FlYUZmZzczV0wxeEljMll4OW9mSUlmUWpjUDhaMWEtZVdLcjVscG43VTU4ZG1UdE1URjZleVZISERncVA2NnNNekd6c0dRbThuNHRnUFViRDVNNm9JMWd1Sk1YYkUtazcyNXJtaFhtVFJaU0NtVQ?oc=5",
+        "published_at": "2026-10-26T10:06:48+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia floats $2,000-per-GPU software fee to run AI agents - Dealroom",
+        "source": "Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTTFJVDVBTEN4QmxYLThpZXBPUkxjaUU3RFhfUnRaN19oLVBYWXlCOThwckZTQ0VsSWNlTm5neFBuNGhDNE5wX2FTVlFxWGdfaUlTbTEyMlJmMnF2TmZOVDZkYlVzSDNmckdXemhyU0hhYW00U08tMU5HOFRnb0FodVlvT3U1OWJBeHFBanZSbC0tODNnV2c?oc=5",
+        "published_at": "2026-10-26T09:59:38+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "The Mixed Blessing From Tech Earnings Weighing on Nvidia Stock - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMTFwZFVteGpUWTFvanFsalB1MUlMcmVua0FsbzB6c2tRUFhaQXpZWXNpaXVtUVAyaVZ3UFF1Vnk3SXI0NlhMTGgtWXdIM3hjdERWeDZOdkZlbjI3SjgzdHRlVU1USDN0TzNJeHdPcUtIbVZXcTBZSTFRc1hQYnpHbHpXVQ?oc=5",
+        "published_at": "2026-10-26T09:57:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Schneider Electric, NVIDIA, HPE introduce edge AI agents for industrial monitoring, cybersecurity and energy optimization - Industrial Cyber",
         "source": "Industrial Cyber",
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeEpzUXVOelJ4UVFyOWkyU3pwSFlWZnNOT3cwdk5QeGxKRTltbWJPdGRMVTlaUElaSzN3V0k1dFkwMk50U1RVMVpCeHR1SVdSak10VzRrY2thbjdHci1Ld0szTTVSbmF4TnlyTFVJd29sYTVfTE1BaExaRjVYSlBPbXNrM2Qxbm5YV3BESXYyazZ0YVJLMTBvU0lYUEtaMXZWZlVILVBPQ2RfTE10UFFBUVRFcjhLSW9RRGlfOXpFWmxoY21HNnpZVzJ0dFhxN0wyV2lzWUtZejJoQTVCNUNkWUVVUGVjQQ?oc=5",
-        "published_at": "2026-10-26T09:50:23+00:00",
+        "published_at": "2026-10-26T09:49:53+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -310,29 +335,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Here’s What a $10,000 Investment in Micron Stock Will Be Worth by 2030 - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSkN2MjJhU0NQUkpOaTRMQ3cxTXgwRExnRmtIWHN1MTlHNWJGczFPOWNKZXpEUm40MC1UTENYTVl2YmRBR0EwVFlTSHpDaVNWTm82RlpYalNFSWZHNFhRcndkcERTcld4WDZHdE5Ic1JsTWstY1VuS0RXZzdLWjhlX3VLRmxEYVhsYjdhVnJ2ckFRSFF2d2ZaS1ZQVWJSWTh3VGM5MUhnMFZDcm5oMDZsb3UwLW5Kdw?oc=5",
-        "published_at": "2026-10-26T09:11:09+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Moderna seeks FDA approval for intismeran as soon as possible — STAT News - UA.NEWS",
         "source": "UA.NEWS",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ29qWUxCN0pmeEtDMm1BeW02MzVjemJkRUxzSk16QnhsckdVUDMzY040ZnhNNHpFUVlWYmMxQmJuTDBxUzdBR2xNNFJrMUFzNVJHY2RzOXVFMmtyWDZTemVaMlI2allOQWREb2tET2l1NFJvbGxpU01lRk1JRkl2dHdhcTN2WWIxNjlGSXBiWi1CcWdqRHJiMm05RHNXWW9FR0dWUUNGSXY?oc=5",
         "published_at": "2026-10-26T08:54:08+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Two AI Chipmakers Make Up 34% of America’s Earnings Boom - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaHhLUi1IeDVOLXZPSmlYYVpxRnZDUVBiMDRTTUdtMnQxRE5DcEUyenlyaWhZWXdfVno3ZU5FUzZUYkg4ODVlY0VDV0hneFdYUG1nX090Wml0dmk4b2NBM2k2QzA2VV9FNUVtM2lVczJGbjc2c3EyVmN2LVVGeUh0ZXllRnMxaUFfcVIyQmVuYXVPVGROeEk4akxUbmxKcElHUXU4eE42TFBwdkVj?oc=5",
-        "published_at": "2026-10-26T08:31:24+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -346,37 +353,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Honeywell Technologies Launches Forge Plant Cognition with Dangote, Built with NVIDIA AI and Dell Technologies Capabilities - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSHhaYTRVbjZiM3Z6M25aelV4RDFOYTBWLXlGN0ZfRGJWeklzWFRwWm9PbnY5c00tb1VNNnR0c09sM3dYWTRVVlFjaVdYdF9sd3luc3RkamhqUTNpS01yTzZYb0xHa2VlU0hYY0tuSzZSeVFtYmtINEpUM2gxdXloR1lSekdoeno2MVNteWh4Q3ptb09FQUFhQWpKbkdOYXQ4X0JlQUhfSG5PMWM?oc=5",
-        "published_at": "2026-10-26T08:00:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Brookline Capital Markets Estimates Moderna FY2030 Earnings - MarketBeat",
-        "source": "MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ1Zrek5fVC1SNV91WkN3Wi1tckxSeFpLaWZ3a0U1QXk2N3RWVUt2UG02UE91Tkx4Mm92Z1lESDhnYjRha2J0cFRBNW1NY1BnZFB3VVQwWGZwN3lzMC1HTl83V1I3YjBERUJVM3dnaS1Qd19wVm5SWEZRWkdnX1gwQ3lmRmoweE1Rc2xoOUZLclVyM1h6QmtxRWpWUWxoamNsVjVFRnpSaTd5dFo1M2xzLXl0V0puTjJtU1BBWGRBajU?oc=5",
-        "published_at": "2026-10-26T05:53:03+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Australia’s clinical trial advantage gains ground amid U.S. uncertainty - BioSpace",
         "source": "BioSpace",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNE54T3pfUmFpa3IzdGx3V2drSnBLSG9TSVJpQmJZLW9NVlY1RHJfbnB3TFNnNTgzOU55a0FWcVdtbU9TUmd1Sktyd2dMelg5SmdPczRpYjhtR0toblduRXE2NDFpVjV4c050LTRJZHlkTUxOZDhqSUtNZElBOTdEVVVMYjZNZnRZcFphaDZ2cF9DNC1xeXg3N0ZRazQ4dTJMZW1uWDFoUVc3RFlYa3dXSQ?oc=5",
         "published_at": "2026-10-26T04:52:05+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Stocktwits Pharma Pulse: Big Pharma Earnings, Cancer Updates And 2 FDA Deadlines — The Week’s Biotech Watchlist - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmlCU2xxSUFGbTUzT3dnSHBBb0poSFdvNkxOX2g4cFlEUG5UTm5xZVdlMHdKQzBZSGRkZG4xQ09CQXlJdHlOSVRieWs4M3hjY05mYWg2N040S2NGQ2FjalRJSjR6Z1hOeWkyRmk3SlBCQXNDNGtsMzFGdmZrUjB1RW8xLS03cmhGWVppbjd1M0ptNW05dlIwQzNIQQ?oc=5",
-        "published_at": "2026-10-26T02:28:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
