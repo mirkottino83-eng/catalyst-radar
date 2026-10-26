@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-26T02:15:11.748318+00:00",
+  "generated_at": "2026-10-26T02:50:27.421439+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 101.30000305175781,
-    "wti_change_pct": -1.9076146560917495,
-    "brent": 109.91000366210938,
-    "brent_change_pct": -5.834473515569016,
+    "wti": 101.0999984741211,
+    "wti_change_pct": -2.101286181353823,
+    "brent": 109.66999816894531,
+    "brent_change_pct": -6.040098507561808,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.61000061035156,
+    "dollar_index": 101.59400177001953,
     "macro_score": 43.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.91%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.10%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T02:00:00+00:00",
-      "brent": "2026-10-26T02:00:00+00:00",
+      "wti": "2026-10-26T02:40:00+00:00",
+      "brent": "2026-10-26T02:35:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
       "vix": "2026-10-23T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-26T02:15:00.867340+00:00",
+    "updated_at": "2026-10-26T02:50:16.032832+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +44,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -76,6 +76,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "The Do-or-Die Race for China's Optical Chips Under the U.S. FCC Regulatory Shadow - 36Kr",
+        "source": "36Kr",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kWXowTldYZE0wbGJrcmhnNkFHdXZkUVoxOFBNSEdMNmRwS0VJb3dqNlo3WkswSUk3OFRxUFhjbWpiZkFkSEpxR3JGbUs5WE83bnQ0?oc=5",
+        "published_at": "2026-10-26T02:35:15+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Drone sank Black Sea cargo ship near Romania, killing 1 (Video) - Shipping Telegraph",
         "source": "Shipping Telegraph",
@@ -149,6 +158,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Trump Snaps Back At Russia Sanctions Critics, Defends Moscow Oil Relief Amid Backlash - The Times of India",
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcUhnNTRxajVWNXRzTXhoMEZKZG1LRjhIblhPdUw1Y21QSWlHZTBSV0N5LUtCck5CNmZzTmVTOW9aaE8zRThhN0xBbmU3QU1KTXA1N2ZJTEFadUZGWGJBdnhzSzBmc1NWWU9NSU9SRFlxSVZtdmFoZk1Ec0VlQWF5cWNJbDhKLUljLUZaUzRCV1BNbTBWcGpYb1FvSWxQYVBGRmdNdFhxSWRWTkJiUS1kLURGbDd0UXAwTWlUSlhFbHlIcDVIYzgyYjVOWFowbVFmVDBfUFZRSzF1UWJfbldmWHBmYzNxbXc1b0FmUGVyY1R4OW1lZVMtadIB_gFBVV95cUxNcG4wNXBxcW1sYkVoR3ZJdUZYYmtXZUFDeGgwTm1kZDM2dGFqZ0V2aFJJR2JscmxMdUdVTzFxRWFPYnI1YlpJUXhuaF9Qb2hHNUx3Nm1YOC1jbV83R3kyeF9ndkxUOW00VFZXMFNnWWJGNkZ5bUFzaHlHSGVpRTdIR0N6Q3FrZHdnUnBzYzV0bHJiSjYxQzdPVlFWelFFUmg3MnVDMU53Z05OQkQwNmt1dUhzNXZxVWRZUS1qbUFidk9UTFBHYTZsMm15T21uRG42X3pzR1Z0eXRXbTBFelEzSjRrSFVFSHRYdlJqSVgydFNsQnhZWmRZLWdHZlVNdw?oc=5",
+        "published_at": "2026-10-25T23:34:35+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUW9UZ0JLbE5OTy1EYlY0RTdEVS1iZm81X241Nk5GRVFLYzhzbVdOR0drbHZZeU44M3JiV1RqaW1aWVNjdWZUQ1A4dFZKakp2UjFyd1hvdXFhLXBQY2VkT0V2ZmtQaGZ4dGYzZktvT01LTWZmNnJudFNRZXdUbk42WTk5a193ZngzMFU3eXJPeFdhNUplRmxN?oc=5",
@@ -176,24 +194,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "President: Ukraine ready to halt strikes on oil refineries if Russia stops attacks on energy sector - Ukrinform",
-        "source": "Ukrinform",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd2dVMVpuN1d2WjlZTDg4bkJ5eE9wN29pcktxcVBMNVFRUG9TSW1vRkVodm10d2JfMGtraVk2RzlkT2VsOGZjejdQZVNUaVdDOFA2SGhYLXZnbjZvM2ZRQXhqS2h4S1pHLVdZZnFxRS1wVHhZY25OMHpzMk9DY0VHdlUwVkpCbEtLNUhpcHJwc0FuNGlhaGVDTFUyY2FYek83TjQ3TWdOQlBGcElQRXdBa19pcjJfMEV0WU5fLVdRdHFLWkwxci1xR2xuSEJFU3UyRTlJcGxYdHh3d2h0ZVVKcmlB0gHnAUFVX3lxTE14ZUltQnZFOExEem1YbFg5YWgzR2hjYXYxSTYxaTRfZ0Iyb1RSU3lUMm1vYm1WVUNlcDhCUFd4YUJDV1QybUxRN0VycHJVR2NvNE1CNUJweEcxcXJpRndwSG1pWmRUdFpxajYzaHhrM19RRVhHMEtJa3l3dTA0N1I0dTZ6bjFxMExJdWNvbzJ6aGZwOGpEXzNWQ3VtbEVja1FLMGpHRUVucVRYazh2YmlLcGQzakFRSjBZZDNxekItRWtmX210b3lSd2Q3aG1PZ0RVWjBzYWRqcFc3MWRycm1DTWwtOHM5Yw?oc=5",
-        "published_at": "2026-10-25T20:28:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
-        "source": "Scripps News",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
-        "published_at": "2026-10-25T20:18:29+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran says it has never left negotiating table, accuses US of imposing unilateral demands - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUk80U05aVWxibWlSLXd6dU1hMmpEVWt3dkpYRHNuOHVjYWtvSm0tbmJvbGJVb0VlRm1meDhVV0RDamtXeWFIU1R3clIxdWZwd25DVkxtOWpjVURqRDRuTG83ZEhkQk5WWlVCakljMjQzaG1wU0lCQTR0eUx6YTY4MEVPb2c4ZU5mM1k3UGFuN1gwVExUR0liYjlIMWlPS1BabkxYN1RLMUxyMFRIY294QzI2X3VtVFJvcm1WLVRJbXVhOHNoeEM3WTZtM3A?oc=5",
@@ -203,11 +203,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China studying Ukraine’s drone war to strengthen training and defenses - Interesting Engineering",
-        "source": "Interesting Engineering",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcXVwLVNxem1BQ3d6Rnc2eDJTVmZxUTdLNmRTUE5JZFlRWm1GZmZvb2Q1Q0MwZGI1SlJuWE5UQkI2Q1AxazRVa0IxRnRhd2JhMTJRMHk3RmpqLVo1Skw2YmM4S2RDR01QeEY5MHdfZFdaWGFDYmJsdWFCZmdvbmJBOW1HeG92cGdvcmF3b0k3bjFGQUZ0MVZj?oc=5",
-        "published_at": "2026-10-25T16:59:00+00:00",
-        "area": "USA / Cina / Taiwan",
+        "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zZEVnZGFIdVlkM2pfTFJET2U3V3lmOFRXN056cEtoTlEtMjNuYmlSSXdnNGM0dkJZQWx6c3Q2bFVRS2FFTzFZWHZDd0ZaY3BvVUhnNUNmSVlfZG1LdWxpM3lSR1R6anpqVmVYWmNqYmNoVGFkNjZMb19IeV_SAYIBQVVfeXFMT1NhaEV1bVRTRUp2LWRJTFRrQk9ZR2ViTkFaRnBaNTdLSXVLUnRBbTdmWHFOTm5vQU5obUFITGktQTJUMmxvbXdrVm0zQTlsQ3B3YVU4VXdKZmNkNjI2SC1rNjdWYy02YTZ4eUs3bW5Xdm8xXzktXzJ4cXRrajFNTFhpUQ?oc=5",
+        "published_at": "2026-10-25T18:18:30+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
