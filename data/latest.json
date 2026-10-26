@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-26T03:20:06.449022+00:00",
+  "generated_at": "2026-10-26T03:58:43.536541+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 101.0199966430664,
-    "wti_change_pct": -2.178754791458648,
-    "brent": 109.43000030517578,
-    "brent_change_pct": -6.245716963061754,
+    "wti": 100.95999908447266,
+    "wti_change_pct": -2.2368525551306306,
+    "brent": 109.45999908447266,
+    "brent_change_pct": -6.220015473185869,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.64299774169922,
+    "dollar_index": 101.62699890136719,
     "macro_score": 43.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.18%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.24%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T03:05:00+00:00",
-      "brent": "2026-10-26T03:05:00+00:00",
+      "wti": "2026-10-26T03:45:00+00:00",
+      "brent": "2026-10-26T03:45:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
       "vix": "2026-10-23T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-26T03:19:55.210190+00:00",
+    "updated_at": "2026-10-26T03:58:33.919219+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
@@ -58,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,46 +77,55 @@
     ],
     "geopolitics": [
       {
+        "title": "The US-China biotech trade war that isn’t - Asia Times",
+        "source": "Asia Times",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKMlZLUVNGSkRYQWV3ajVIZzkweHJQMEt5Ymp1Y0FwbDNuUDJPbVlSTGd5cW1Wb2xZenpodzFfZkl5TUJWWldjZHpEaWtYV0dWVVZZVjFUZEp1Ykk2bG9ILWU4VHY4R1dLc2xiV1pHd0I0MjhrWldaVEZTMA?oc=5",
+        "published_at": "2026-10-26T03:20:16+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Soybeans Hit 2-Month Low as Lula’s Win Lifts China Trade Outlook - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0dXZW51Tlp0SEJNc0ZJaEpHX3JWcE9tbUVhOHQ3Y2xlNko1X0RDVkxVc2xMc2RjYVc5NUt0OHJQeXBOeF9NT1J3V2N2RXFvcG5Mb3RTNzRxVDhvWHhibUVJUG9RdDFselg4emFuNVcwcUNOc2tJNldZMXcxLXFPY3RGbUx2Y3FFT2tEOHcxR1hJVFdtMl9kNl9mVk5yVl9LWUNWel95bkFDMXR2aUYxcDhBQnJjQQ?oc=5",
+        "published_at": "2026-10-26T03:18:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Exclusive | Death Threats, Lawsuits and Billions in Play: The Battle Over Moving Russian Oil - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ2pKeW4wX3ViQlR1WmVGcnJZLXl5MVFBb3BXUTFZOWYwWEdvNkdUZS1LNzdPSlk1WDdrc18zZ21lZXhTNUFNbVYwb3R0bWNzbjZHdERNUkVaS2xsNFJ4WXZIS1lPeTZLNm5hZW9Dc082cDNPVUNrRjQxLUZGVVkyTDRtSHZKNFIzamp5QVptREJPZkNBOGdBVEdMS01hVDRDVXVmU3dLdnB6eUgzNjRmaG9BSWhFUlNIMmNJcg?oc=5",
+        "published_at": "2026-10-26T03:03:09+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Exoskeletons, anyone? China showcases next-gen technology at annual trade fair - South China Morning Post",
         "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZ2dNME9ERF8zTWw3QTRHY3RaTm9hdWNGNmZoYlZJaktFVFNQWEZQVjkyT2ZpemhFU0tUc3VHcDBBZ0Mxd0hvQmRtQS00N3gtWU5OY2FKWHZ4WGdjcXgtalhJX3dWMk9XSVRXa0NVTEFycUl0ZkI0RGVBdVd3Z1BQcVY3dXZrNmRCZk04WnZHLU1CQ2NLbTdNaFRYVi1lSmp5Y3hKMy1JVHJ6ZE5pcEZ6alZnazRVVWE3RXQ0UVgtT3pXMklWUzJscVVNTm9oV1kya3JhTzRwVWk1T0RTOUE?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUFpDTmlNTndCaDV5NkxqckJLR2JlQjJ3VHJRNW9CbUJIZHN1a01BWDM2ZmVhWnhIWFNscE1RUC1LTWstMnJObEFFdFozV21PWDdycTEwb0ZuVGIxdmh4TDFxOEhRMGtoVWpZVmtIWnBfSS13U04za0xNb0ZuSDN6OTJ6R2VacHhjUzN0dVJnbEIyRUZuRk1CeWMxemw0S2R4dGdxbkhaaXhVRzJVa1BSelRzc3VUWHc2aGQzRFRHZ0xWdy1XeFVQdVNJSEnSAcwBQVVfeXFMTlB5bXc2OWIzYmN0Tm9FdHUyMFhyeUo4R2lYRFk1UXhKcDRmVXFYNGVVa3pFUTdPOXJxYXB6V2duTlB2Mnd4YXJpX3pMTmZFMGlhMXpvRkExaTEyZ2dWb3JKa1FLRG40cmZiaUdXdkNobkxqSWhVVzJRa0lmbTJzTG5wSzg5eFMtd2IwLVVuaG42Zy1HMlRtOU5mUFpXTGFZaHdhZE1oVTFITUs4eHVBVVh1R3lzZ0ltYVJBMUtvSzNZT0JJSU5pNFc2dEFp?oc=5",
         "published_at": "2026-10-26T03:00:12+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘Physically impossible’: Ukraine hits back at Musk over Starlink restrictions, disputes offensive drone s - The Times of India",
-        "source": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxORXVRVUxoLVNyWTcyM0pCWXFzM2VKX2x0eVNiZ1FDY2g3MzlHYW5pUTI4eXBpUlFON0VnN0ExTWVsVkp0VDBpa3FCWFp6X0paWWNpZjZRR2lCZVk2UFg1eS1kMFNJX2I2QVJrWEdZR2lDSGsxVE05Zms4NTZlRWtPdmtnYVNkQVV3ZmFOSW90a3lzZS1GcHNNUEoxTkw2RWY0Rk5BaE5TX29CQjEwSXRmWXVxUzRnSVVjdkdRNkYwYjBueDdoY2dCNnB2VWNvQ1FKNEY5WmRQRTJDN01Rc2lhX01BOUp2TjN4NmZNV1EzM0RlR3FyQ3E1ZkVoSXVxR3k2NDN6VTRVbS0teVdoSnFCZElYODFlTkZlRkxPctIBogJBVV95cUxQYmhkZzRuYlVmTFNiaUpkRnR0enBfM3k4RXhqeTZnbWRDRDdQLWNmOVRkMGNyaG1ObThTTXNhUzhVRl9WZTAzZTVXcUlNdXBzT3BuaU9QWlB5M3FFbjhuQkxDdmJoMHRrX2tqUEw2XzJfY2oxenZGdFc1a19ab2J1ZU5QYXpoUGllVmhWYnRhVTZjWTFhSXhRekVWSXB1dDRQWWVFZWlHNXpqX1A3UUxEdGpzX1ZtLVJLQkVnTk9HMnU0TkRGUmdkYW5rWjBXc1BpTVl1R2NTOF9DaTd0WjlycmpXZVhmenE2c01zcjJ5STkyX01zRFZFWFJFVzhVZkdMS2ItU2pHcXJPa0pZQVlJRi1rdWhkQVk3Qm0xeWJoMFBZUQ?oc=5",
-        "published_at": "2026-10-26T02:56:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "The Do-or-Die Race for China's Optical Chips Under the U.S. FCC Regulatory Shadow - 36Kr",
         "source": "36Kr",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kWXowTldYZE0wbGJrcmhnNkFHdXZkUVoxOFBNSEdMNmRwS0VJb3dqNlo3WkswSUk3OFRxUFhjbWpiZkFkSEpxR3JGbUs5WE83bnQ0?oc=5",
-        "published_at": "2026-10-26T02:35:15+00:00",
+        "published_at": "2026-10-26T02:34:58+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Drone sank Black Sea cargo ship near Romania, killing 1 (Video) - Shipping Telegraph",
-        "source": "Shipping Telegraph",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaUZiY3ctX2pCRVZSWlk0TDdSckNBTVlTRTBzcC1FSllsZjU2cE1mdWJfY1dBRUk0UUZMSjNGbldzbmpvOW1yb2xHX1pQWFVXaF92ZzM2d0RnTlVQS2huZEZoQVhXMmlZME1xRl8wd1RNOTNkN2Z1V0lfa05sZTdORDFrOUo1UkVNT0RReDVQRXNGQjRISzhCbU5IdnVRZ0V6Z2k0NUJiREFiSkRh?oc=5",
-        "published_at": "2026-10-26T02:02:22+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "What happened during Russia’s latest drone attack on Ukraine? - Latest news from Azerbaijan",
-        "source": "Latest news from Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVDRpUDdROVlvZThGa0JlMUpYQmVtMW5ydk5XSnZHUVJRamdlRHBBTmlxamN4NnFVa1JiSlRWQU9mb0phTHFvYUpENjhoQXVGNEtxM0RMdU5Uek93VkZGcVNfSTFrNUFuX1NvQk9HMEttbUJNMUU0TDUyQXJlWnplWDlIQ0JqWFk?oc=5",
-        "published_at": "2026-10-26T01:40:15+00:00",
+        "title": "Ukraine war briefing: Trilateral peace talks with Russia to restart, says Zelenskyy - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczVkSVc5NFRncGJOaGdaeVIzblFSRkNfd3Y0akhLdE1HVUhmQmRrdnJNelU2Y1p2ZFpUZ2VRdHYxVTkxVkVIRE5xQWFEYVQtUFRPcUx4ODZDeWhpSEdUZ2YtRWxkNGVyakhvZXpXc3drSjIyTWJZVHBJMW9majFiR0xwSElGelpJRTBjSGZIREJSZDMyN0x2NXlGeWs1T29kQWNRNUp2VnpCSEg2YmFjMGpjTnoyWmJIVkE?oc=5",
+        "published_at": "2026-10-26T01:27:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -140,29 +149,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Washing away the US: Tariff evasion on the other side of the US–China trade war - CEPR",
-        "source": "CEPR",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdXFOOE9ybUFrVGNraFdvaWNEdDM1YXlVdU1xTVNFdW1aTUVlYkNyeUtoRGJVNXJkeUF3WXE4Y3c0ZVJsTldybDA4UFEydDdEcUN0TnBlTHVJcnhDb1ZPSTBMcFBLSU5fdERrRlNONEx4bUItMEZiaVRLMzBmbnFBLVRLTTR4MlZzNFl2UE1IMlc0VURjeUE?oc=5",
-        "published_at": "2026-10-26T00:55:04+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Israel drills for surprise attack with massive military exercise as expert invokes 1973 war - Fox News",
         "source": "Fox News",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTEpKSGFOVGozVnNXR0cyU3Uzc0ZsX2EzZ2RwZDdhNXlVYklkbWt0M1lCZk56M1UtbmpHeXBYZWdoNG8yOHhfZlBhR1JLeTYwVndtYWRiTFNyS0NNRVpvOGpRcDg2bktyV1Rva1dadUFmRUszSzA3TGxJTHA4X0t0QlJVS0VMUExUeHFJUnMtckxlYnlmYnNYNUpaWXlBb1M2OEN3T1VZempvcVpUMGfSAbMBQVVfeXFMT2JNb3lNQnlfb1FPYlZFNmtFZjNQZEtRQlMzSkotZDVPMnFtenE1THMwcU1IOUI1ODlpdjRzNmdqa0JYTUQ1M2ttMGFYaWJ6WkhVdzJRZkZ3d0NEWTFSUTN0YUtkMHRxR0xiTlpCOXc3X3h0M3F0OFdqeHVuc2NMMEZiOFIzanVNSkJIVkI5dHpJeWp1NWdtTXE2Rk13UjB6OXRmNWZIOWRzOFZmUjZiekh1eHc?oc=5",
         "published_at": "2026-10-26T00:42:24+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China warns of countermeasures over expanded US investment curbs on biotech - FXStreet",
-        "source": "FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYTkya3lGeTFsa3BaMVVxdWk4anJsMl94cnlrejliY29hT1I5YXdUd082RGhtMVNlVW4zd20wZmo4TVNUZEtyU0xrN3JXZzBJZ0F3ak00NkxjeGpZNC1JWEJsckRYUjlkeExVVmlBMkN5VnI5WG9tcGh3eFc4elI0SmprNUpsMkZKbVY0S0g0WnJEY2EzbUNtd1ZPeU5XWm9qY0ZHQ3d2NjZ4MncwZW9CUzJRc0NJNC02R0E?oc=5",
-        "published_at": "2026-10-26T00:40:58+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -203,6 +194,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - Scripps News",
+        "source": "Scripps News",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1d5XzA0bUVScklOWHgxMGJJajc0M0gxd09xeEJGYlZrS3FqZlA4a1RLX3BUdEx3RG5GaHZkNFBOdUZEdXlORndDaDc2WHduYWM5WkVDR2ttdVNOZWVKVDY3RkJaeTNhdHNVQ2E1cXJOR29ZQlBJUzdMN0VuNlVPUzJ2Q1NvbzRaTEEzWHVaQUVlcGpmUWpDemVmSktnWU0zem1Pd3ZGYXl1ZkUwcy1NbjBtRWE0Uk1vTVE3UkNxLXdxVm94NUE?oc=5",
+        "published_at": "2026-10-25T20:18:29+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Iran says it has never left negotiating table, accuses US of imposing unilateral demands - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUk80U05aVWxibWlSLXd6dU1hMmpEVWt3dkpYRHNuOHVjYWtvSm0tbmJvbGJVb0VlRm1meDhVV0RDamtXeWFIU1R3clIxdWZwd25DVkxtOWpjVURqRDRuTG83ZEhkQk5WWlVCakljMjQzaG1wU0lCQTR0eUx6YTY4MEVPb2c4ZU5mM1k3UGFuN1gwVExUR0liYjlIMWlPS1BabkxYN1RLMUxyMFRIY294QzI2X3VtVFJvcm1WLVRJbXVhOHNoeEM3WTZtM3A?oc=5",
@@ -219,15 +219,6 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmlCU2xxSUFGbTUzT3dnSHBBb0poSFdvNkxOX2g4cFlEUG5UTm5xZVdlMHdKQzBZSGRkZG4xQ09CQXlJdHlOSVRieWs4M3hjY05mYWg2N040S2NGQ2FjalRJSjR6Z1hOeWkyRmk3SlBCQXNDNGtsMzFGdmZrUjB1RW8xLS03cmhGWVppbjd1M0ptNW05dlIwQzNIQQ?oc=5",
         "published_at": "2026-10-26T02:28:00+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia Turns to Samsung to Shake Up the AI Substrate Market. Unimicron and Kinsus Face a New Threat - 天下雜誌",
-        "source": "天下雜誌",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zOHJLY2wzVHpWdE85OGNvbVdkV251b2VWRnd0LXh3Mk4tNk5kTDU3ejdxQWd6UE5PTENUR2RZYUl5Slp2ekNwR0VsbGxxbE1JSm0wYmw2T3N0eUVwY3VSMFo3dVcyYms?oc=5",
-        "published_at": "2026-10-26T02:17:23+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -299,6 +290,15 @@
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0l5dnFfdUxybkFnYjFMWUtiZFRVWVNieXI2bEJhSi1ZUDhfQmJSa3lDekl5bkQwcDRZTWdhQUF4cnIxc2U5aERBcmk3OTgyMUwtOWxYVTZ0TjhfcllPalFSLV9zTUVueTlhLUZPYThDdzlaeTVhR2QxQkNtOXJ6REpB?oc=5",
         "published_at": "2026-10-25T11:54:08+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "This week's earnings exceeded last week's. $NEBIUS (NBIS.US)$$SpaceX (SPCX.US)$$Dell Technologies (DELL.US)$$Marvell Technology (MRVL.US)$$Tesla (TSLA.US)$$SanDisk (SNDK.US)$ - Moomoo",
+        "source": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYllYSk03WEh0bF9lWVYtZ2V1THFSUXdaeW51X1RKU3Q2dFowNTVZdkc5ejAyQVlaT0F6dUp6ODBuZlEzcmhNZmFPQTdWUmJoTFhOS3gyRHhhNHVQN2oyTkkwSjRRQTQ4WWpiQVlOVkFPeHpPR3daTHJxT3VXRmNUT0tuR3lPUl9sM2NnNDZEY1l5bjREWGg3Zk1aUjVxS3FoelE1TGxUZVlwelU?oc=5",
+        "published_at": "2026-10-25T07:57:56+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
