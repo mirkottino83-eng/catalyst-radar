@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-26T02:50:27.421439+00:00",
+  "generated_at": "2026-10-26T03:20:06.449022+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 101.0999984741211,
-    "wti_change_pct": -2.101286181353823,
-    "brent": 109.66999816894531,
-    "brent_change_pct": -6.040098507561808,
+    "wti": 101.0199966430664,
+    "wti_change_pct": -2.178754791458648,
+    "brent": 109.43000030517578,
+    "brent_change_pct": -6.245716963061754,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.59400177001953,
+    "dollar_index": 101.64299774169922,
     "macro_score": 43.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.10%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.18%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T02:40:00+00:00",
-      "brent": "2026-10-26T02:35:00+00:00",
+      "wti": "2026-10-26T03:05:00+00:00",
+      "brent": "2026-10-26T03:05:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
       "vix": "2026-10-23T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-26T02:50:16.032832+00:00",
+    "updated_at": "2026-10-26T03:19:55.210190+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,31 +51,49 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Exoskeletons, anyone? China showcases next-gen technology at annual trade fair - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZ2dNME9ERF8zTWw3QTRHY3RaTm9hdWNGNmZoYlZJaktFVFNQWEZQVjkyT2ZpemhFU0tUc3VHcDBBZ0Mxd0hvQmRtQS00N3gtWU5OY2FKWHZ4WGdjcXgtalhJX3dWMk9XSVRXa0NVTEFycUl0ZkI0RGVBdVd3Z1BQcVY3dXZrNmRCZk04WnZHLU1CQ2NLbTdNaFRYVi1lSmp5Y3hKMy1JVHJ6ZE5pcEZ6alZnazRVVWE3RXQ0UVgtT3pXMklWUzJscVVNTm9oV1kya3JhTzRwVWk1T0RTOUE?oc=5",
+        "published_at": "2026-10-26T03:00:12+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "‘Physically impossible’: Ukraine hits back at Musk over Starlink restrictions, disputes offensive drone s - The Times of India",
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxORXVRVUxoLVNyWTcyM0pCWXFzM2VKX2x0eVNiZ1FDY2g3MzlHYW5pUTI4eXBpUlFON0VnN0ExTWVsVkp0VDBpa3FCWFp6X0paWWNpZjZRR2lCZVk2UFg1eS1kMFNJX2I2QVJrWEdZR2lDSGsxVE05Zms4NTZlRWtPdmtnYVNkQVV3ZmFOSW90a3lzZS1GcHNNUEoxTkw2RWY0Rk5BaE5TX29CQjEwSXRmWXVxUzRnSVVjdkdRNkYwYjBueDdoY2dCNnB2VWNvQ1FKNEY5WmRQRTJDN01Rc2lhX01BOUp2TjN4NmZNV1EzM0RlR3FyQ3E1ZkVoSXVxR3k2NDN6VTRVbS0teVdoSnFCZElYODFlTkZlRkxPctIBogJBVV95cUxQYmhkZzRuYlVmTFNiaUpkRnR0enBfM3k4RXhqeTZnbWRDRDdQLWNmOVRkMGNyaG1ObThTTXNhUzhVRl9WZTAzZTVXcUlNdXBzT3BuaU9QWlB5M3FFbjhuQkxDdmJoMHRrX2tqUEw2XzJfY2oxenZGdFc1a19ab2J1ZU5QYXpoUGllVmhWYnRhVTZjWTFhSXhRekVWSXB1dDRQWWVFZWlHNXpqX1A3UUxEdGpzX1ZtLVJLQkVnTk9HMnU0TkRGUmdkYW5rWjBXc1BpTVl1R2NTOF9DaTd0WjlycmpXZVhmenE2c01zcjJ5STkyX01zRFZFWFJFVzhVZkdMS2ItU2pHcXJPa0pZQVlJRi1rdWhkQVk3Qm0xeWJoMFBZUQ?oc=5",
+        "published_at": "2026-10-26T02:56:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "The Do-or-Die Race for China's Optical Chips Under the U.S. FCC Regulatory Shadow - 36Kr",
         "source": "36Kr",
@@ -125,7 +143,7 @@
         "title": "Washing away the US: Tariff evasion on the other side of the US–China trade war - CEPR",
         "source": "CEPR",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdXFOOE9ybUFrVGNraFdvaWNEdDM1YXlVdU1xTVNFdW1aTUVlYkNyeUtoRGJVNXJkeUF3WXE4Y3c0ZVJsTldybDA4UFEydDdEcUN0TnBlTHVJcnhDb1ZPSTBMcFBLSU5fdERrRlNONEx4bUItMEZiaVRLMzBmbnFBLVRLTTR4MlZzNFl2UE1IMlc0VURjeUE?oc=5",
-        "published_at": "2026-10-26T00:45:00+00:00",
+        "published_at": "2026-10-26T00:55:04+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -158,30 +176,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump Snaps Back At Russia Sanctions Critics, Defends Moscow Oil Relief Amid Backlash - The Times of India",
-        "source": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcUhnNTRxajVWNXRzTXhoMEZKZG1LRjhIblhPdUw1Y21QSWlHZTBSV0N5LUtCck5CNmZzTmVTOW9aaE8zRThhN0xBbmU3QU1KTXA1N2ZJTEFadUZGWGJBdnhzSzBmc1NWWU9NSU9SRFlxSVZtdmFoZk1Ec0VlQWF5cWNJbDhKLUljLUZaUzRCV1BNbTBWcGpYb1FvSWxQYVBGRmdNdFhxSWRWTkJiUS1kLURGbDd0UXAwTWlUSlhFbHlIcDVIYzgyYjVOWFowbVFmVDBfUFZRSzF1UWJfbldmWHBmYzNxbXc1b0FmUGVyY1R4OW1lZVMtadIB_gFBVV95cUxNcG4wNXBxcW1sYkVoR3ZJdUZYYmtXZUFDeGgwTm1kZDM2dGFqZ0V2aFJJR2JscmxMdUdVTzFxRWFPYnI1YlpJUXhuaF9Qb2hHNUx3Nm1YOC1jbV83R3kyeF9ndkxUOW00VFZXMFNnWWJGNkZ5bUFzaHlHSGVpRTdIR0N6Q3FrZHdnUnBzYzV0bHJiSjYxQzdPVlFWelFFUmg3MnVDMU53Z05OQkQwNmt1dUhzNXZxVWRZUS1qbUFidk9UTFBHYTZsMm15T21uRG42X3pzR1Z0eXRXbTBFelEzSjRrSFVFSHRYdlJqSVgydFNsQnhZWmRZLWdHZlVNdw?oc=5",
-        "published_at": "2026-10-25T23:34:35+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUW9UZ0JLbE5OTy1EYlY0RTdEVS1iZm81X241Nk5GRVFLYzhzbVdOR0drbHZZeU44M3JiV1RqaW1aWVNjdWZUQ1A4dFZKakp2UjFyd1hvdXFhLXBQY2VkT0V2ZmtQaGZ4dGYzZktvT01LTWZmNnJudFNRZXdUbk42WTk5a193ZngzMFU3eXJPeFdhNUplRmxN?oc=5",
         "published_at": "2026-10-25T21:39:45+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "What the EU–China trade deal means for Asia - East Asia Forum",
-        "source": "East Asia Forum",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRC1xd2RNdG44dE5tb0UwclFheHc1Q1g2ZlF6UER4VGcwNDhoRmdLamY1QkVCSEdZeUx5V1g1LXpIMHZCai0xRUJwX1hoUmtZWGNvVTVCRVcwSm9rSGpMbF92RVVmZUZ2Z0ZxQmdvRmpYUFVUSXdnbFB5TGhKZl8xamQ0Ti1oNDRz?oc=5",
-        "published_at": "2026-10-25T21:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -194,6 +194,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "President: Ukraine ready to halt strikes on oil refineries if Russia stops attacks on energy sector - Ukrinform",
+        "source": "Ukrinform",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd2dVMVpuN1d2WjlZTDg4bkJ5eE9wN29pcktxcVBMNVFRUG9TSW1vRkVodm10d2JfMGtraVk2RzlkT2VsOGZjejdQZVNUaVdDOFA2SGhYLXZnbjZvM2ZRQXhqS2h4S1pHLVdZZnFxRS1wVHhZY25OMHpzMk9DY0VHdlUwVkpCbEtLNUhpcHJwc0FuNGlhaGVDTFUyY2FYek83TjQ3TWdOQlBGcElQRXdBa19pcjJfMEV0WU5fLVdRdHFLWkwxci1xR2xuSEJFU3UyRTlJcGxYdHh3d2h0ZVVKcmlB0gHnAUFVX3lxTE14ZUltQnZFOExEem1YbFg5YWgzR2hjYXYxSTYxaTRfZ0Iyb1RSU3lUMm1vYm1WVUNlcDhCUFd4YUJDV1QybUxRN0VycHJVR2NvNE1CNUJweEcxcXJpRndwSG1pWmRUdFpxajYzaHhrM19RRVhHMEtJa3l3dTA0N1I0dTZ6bjFxMExJdWNvbzJ6aGZwOGpEXzNWQ3VtbEVja1FLMGpHRUVucVRYazh2YmlLcGQzakFRSjBZZDNxekItRWtmX210b3lSd2Q3aG1PZ0RVWjBzYWRqcFc3MWRycm1DTWwtOHM5Yw?oc=5",
+        "published_at": "2026-10-25T20:28:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Iran says it has never left negotiating table, accuses US of imposing unilateral demands - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUk80U05aVWxibWlSLXd6dU1hMmpEVWt3dkpYRHNuOHVjYWtvSm0tbmJvbGJVb0VlRm1meDhVV0RDamtXeWFIU1R3clIxdWZwd25DVkxtOWpjVURqRDRuTG83ZEhkQk5WWlVCakljMjQzaG1wU0lCQTR0eUx6YTY4MEVPb2c4ZU5mM1k3UGFuN1gwVExUR0liYjlIMWlPS1BabkxYN1RLMUxyMFRIY294QzI2X3VtVFJvcm1WLVRJbXVhOHNoeEM3WTZtM3A?oc=5",
@@ -201,18 +210,27 @@
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zZEVnZGFIdVlkM2pfTFJET2U3V3lmOFRXN056cEtoTlEtMjNuYmlSSXdnNGM0dkJZQWx6c3Q2bFVRS2FFTzFZWHZDd0ZaY3BvVUhnNUNmSVlfZG1LdWxpM3lSR1R6anpqVmVYWmNqYmNoVGFkNjZMb19IeV_SAYIBQVVfeXFMT1NhaEV1bVRTRUp2LWRJTFRrQk9ZR2ViTkFaRnBaNTdLSXVLUnRBbTdmWHFOTm5vQU5obUFITGktQTJUMmxvbXdrVm0zQTlsQ3B3YVU4VXdKZmNkNjI2SC1rNjdWYy02YTZ4eUs3bW5Xdm8xXzktXzJ4cXRrajFNTFhpUQ?oc=5",
-        "published_at": "2026-10-25T18:18:30+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Stocktwits Pharma Pulse: Big Pharma Earnings, Cancer Updates And 2 FDA Deadlines — The Week’s Biotech Watchlist - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmlCU2xxSUFGbTUzT3dnSHBBb0poSFdvNkxOX2g4cFlEUG5UTm5xZVdlMHdKQzBZSGRkZG4xQ09CQXlJdHlOSVRieWs4M3hjY05mYWg2N040S2NGQ2FjalRJSjR6Z1hOeWkyRmk3SlBCQXNDNGtsMzFGdmZrUjB1RW8xLS03cmhGWVppbjd1M0ptNW05dlIwQzNIQQ?oc=5",
+        "published_at": "2026-10-26T02:28:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Turns to Samsung to Shake Up the AI Substrate Market. Unimicron and Kinsus Face a New Threat - 天下雜誌",
+        "source": "天下雜誌",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zOHJLY2wzVHpWdE85OGNvbVdkV251b2VWRnd0LXh3Mk4tNk5kTDU3ejdxQWd6UE5PTENUR2RZYUl5Slp2ekNwR0VsbGxxbE1JSm0wYmw2T3N0eUVwY3VSMFo3dVcyYms?oc=5",
+        "published_at": "2026-10-26T02:17:23+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Why Nebius Took a One-Year Loan to Build for Five-Year Contracts - Global Data Center Hub",
         "source": "Global Data Center Hub",
@@ -237,15 +255,6 @@
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb0djWEJIbkxUamlqeWtpMWpvVUp3dTZCblRoLWF5UWRxcGVRaFkxTFR0TVpCYWV4TXBQZTg4SVV1eXdDbWtKZEFhOEVYdFZaVENMMHpDSDA0c2VJNnU1WjVsck5zYXlQY0RYTWx2YWY4WXpnZTh1RDQyTjVPUXh5OFpfMTBZVWNQYnZrdndMTjE?oc=5",
         "published_at": "2026-10-25T21:13:50+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "health news today fda approval weight loss drug - emy",
-        "source": "emy",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNWtmRGJXTmY5ZUlpaXM4MHRUZG50dEE5WHJwZ1dHMTBQN1J1VzE0cm1GVU1DQTdJcGF5c1htZW1lMlJBX3hEd3d3OGZwWEh5VWI3VjVlMlotNm9ZZS1NR09JbExMVjRXSWRnbHRMOGpfMGtZMHVOUWc1YW1oRWN3UzdldFh5VWV0UGZKMXBuWHc2QQ?oc=5",
-        "published_at": "2026-10-25T20:56:50+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -277,10 +286,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Opus Genetics Eyes 2029 Runway as Presbyopia Drop Wins FDA Approval - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeUlGVVNvUV9jRzVScVBLV0NyN241a0xRMTF0Q2ZHTFc5MWFkR3VkdV9iMUNxVG55ZEw0Y0c1WGJNWGdFeDBXaXNnSWU3ejBVdGM1TDRPVWNmdE9ILUFWeHJKMDhnUkw1VEI5Sm1odzVXMFVwMFVDWEdPM3pEeTIxc1pXNTRZV2l0NGg4Vmp5S1N6NzR6M2c?oc=5",
-        "published_at": "2026-10-25T12:02:03+00:00",
+        "title": "health news today fda approval weight loss drug - emy",
+        "source": "emy",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQmR0RlBwcnRRX0FSSDBNbHRua3IwQ3lXV1NYSkpLQ1JqYjlFSDVKSVNTTnROd0o5Q2tiUFR4SDV5c1RnNm50MHFKT3NnaGE5Ym8xcGh6eGNBbGZuT29IT3dYam1GQ2UwRmlKNE9DcklEZFdmc3ZyUTlNM0w5SjB3M0dmb2YwTGFTNmlFMzdhWFc4dw?oc=5",
+        "published_at": "2026-10-25T13:14:19+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -290,15 +299,6 @@
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0l5dnFfdUxybkFnYjFMWUtiZFRVWVNieXI2bEJhSi1ZUDhfQmJSa3lDekl5bkQwcDRZTWdhQUF4cnIxc2U5aERBcmk3OTgyMUwtOWxYVTZ0TjhfcllPalFSLV9zTUVueTlhLUZPYThDdzlaeTVhR2QxQkNtOXJ6REpB?oc=5",
         "published_at": "2026-10-25T11:54:08+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "This week's earnings exceeded last week's. $NEBIUS (NBIS.US)$$SpaceX (SPCX.US)$$Dell Technologies (DELL.US)$$Marvell Technology (MRVL.US)$$Tesla (TSLA.US)$$SanDisk (SNDK.US)$ - Moomoo",
-        "source": "Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYllYSk03WEh0bF9lWVYtZ2V1THFSUXdaeW51X1RKU3Q2dFowNTVZdkc5ejAyQVlaT0F6dUp6ODBuZlEzcmhNZmFPQTdWUmJoTFhOS3gyRHhhNHVQN2oyTkkwSjRRQTQ4WWpiQVlOVkFPeHpPR3daTHJxT3VXRmNUT0tuR3lPUl9sM2NnNDZEY1l5bjREWGg3Zk1aUjVxS3FoelE1TGxUZVlwelU?oc=5",
-        "published_at": "2026-10-25T07:57:56+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
