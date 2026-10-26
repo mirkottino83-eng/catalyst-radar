@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-26T07:04:49.381382+00:00",
+  "generated_at": "2026-10-26T07:52:46.028794+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 101.31999969482422,
-    "wti_change_pct": -1.8882511974721905,
-    "brent": 110.02999877929688,
-    "brent_change_pct": -5.731667556065457,
+    "wti": 101.5,
+    "wti_change_pct": -1.7139505186429593,
+    "brent": 110.2300033569336,
+    "brent_change_pct": -5.560313396071459,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
-    "vix": 19.450000762939453,
-    "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.67400360107422,
-    "macro_score": 43.9,
+    "vix": 19.59000015258789,
+    "vix_change_pct": 0.7197911781844146,
+    "dollar_index": 101.8030014038086,
+    "macro_score": 46.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.89%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.71%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T06:50:00+00:00",
-      "brent": "2026-10-26T06:50:00+00:00",
+      "wti": "2026-10-26T07:40:00+00:00",
+      "brent": "2026-10-26T07:40:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
-      "vix": "2026-10-23T20:15:00+00:00"
+      "vix": "2026-10-26T07:35:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-26T07:04:39.030427+00:00",
+    "updated_at": "2026-10-26T07:52:35.349356+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +44,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 10
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -77,11 +77,29 @@
     ],
     "geopolitics": [
       {
-        "title": "Oil declines after Trump rules out imminent attack on Iran - Arabian Gulf Business Insight | AGBI",
-        "source": "Arabian Gulf Business Insight | AGBI",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaTR3aktfRTQxbHZzdG1TQUNfbkdIdWQ1aG9TZlRjcDlxRHhBak5mSVVFQTRPNDJqUnFyTGJFQnZ2MEdDQjE0TzZTWV9WdWd3di1QVndXZUNxUFpnRUVuaHFXSXA5S3FrbXpoM2hOWnFjLVZUVnBLOE5oYzhhZWxqUklNbk9aQ0k2Z1B6a3ZGeDlyaGluR1RFUkNpSWhOVUJTWGc?oc=5",
-        "published_at": "2026-10-26T06:57:57+00:00",
+        "title": "US ready to strike Iran if Donald Trump gives order as Israel pushes for joint attack - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZU1JDSGJNNVB1VHM4YWpqZlhIRjRoVU41TnJYVjVKSlJEUjNma2tJdUNBczh2Z01rcDAyUi1MZDVxdl9fQ0pUdzZMVXJ2NzFYWHl6bE1vblhpVl85dUs3RGxDY1V5UU43ZXc?oc=5",
+        "published_at": "2026-10-26T07:37:49+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine drone attack on Russia's Voronezh kills two, wounds 17 - The New Indian Express",
+        "source": "The New Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2g1RXlmUlZZd01JTkV3TDlURzYzcXN2UUdwZmV3YWFaX053SWJQUmVWUjBfVjdCSkdpN0VoWGFkSWZOMV9rRTdRSVJWZzZPT2U1cmhTUWJqRWFKYXNmSmxkRWIzVFpqdjJFUllhU21RRDJaeXpLbFZ5Rmt5YzhFY09rTk5CVFpZNmVSQ2FVU1JtZ0hiTUVaeUJIa01MbEIwdllialVYN1RBcVM5RHpiMdIBvgFBVV95cUxOZWNuNHk1cjVhTGJSQ1dDdnBsS0I0cTlHYkpVTXVZb3hLOUtSeXBNY1dqQi1RSjlwUnVpRTRwREMtOFdfSjJvVG9BNmlKdVo5cGphdDl3Z2tRZHlBRDdEQ1djc0pwa1hnSTlJaW1iTVUzeU0xaDduSEoxc044Y2VSUVFPZ3RDWXFCVDdVcUY5UHBhXy1HV203a1NLMlJXV2J1dFlMU1VyZlBycFBFb0p4RU1CNnFGUzVYN0dLeUlB?oc=5",
+        "published_at": "2026-10-26T07:24:34+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "World’s second-largest economy boosts trade with Africa’s largest economy to $15 billion as South Africa grows wary of U.S. ties despite 125,000 jobs at stake - Business Insider Africa",
+        "source": "Business Insider Africa",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcnMwZDA3ajN3Ums0S3RVaDR3eXJ4TnFua3NnUHFOb2VuV3NJaVVXeVRKZ2d1VmxBS0ZVVmZkbE5OalJQVkdQZnhSTXc0UGpzaUYySzF6eDhLQ0xid2VYWkM1VFdKemtub2ZsZ1VZNm10OE5KZ0VKUjdXMzhHN1hibUhTbVVJWWVRY1dvZW8wcU1ONGlvMk1Sa0hERENZX1Y5RWhRX3NvbzR3bVRwVWF6UURDUWU5aG5QdC03bWVmS3lXT3ZwNnVteTQtZERtZnl0dmJr?oc=5",
+        "published_at": "2026-10-26T07:12:20+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -119,15 +137,6 @@
         "published_at": "2026-10-26T05:02:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "For Russia’s sanctions-busting A7 payment service, international transfers start with bags of cash at Moscow markets. At its peak, it processed at least 58 metric tons in a single month. - Meduza",
-        "source": "Meduza",
-        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPa3F4SDVST0N4bGtmcjFaVnNXcHNfRHpBVXBjTVR4YUlJb3cwX3lOdGZsekEycEZJWkVjQUg5dzlVWE1IOGp4dW9uSUpWZEFENlRwcWJFUW0yWkcyOFhuVm9JTEw4Q01lSzh3N0kxdXU0c1Q3T1Vkd2oxVnZ2TThsX3dLM29qTWlxVWhQMFE2bm0tTkl3TGZfWWctRTk2MXJRM01GejBfckNiNm5ObWxib2J0ak0tRnFJa2ZZY09WTG1fU0lHYnEycDFvd0I1X3o2NzlKd01IMTVaYmhJTEQ1ZDFBMEZTMjJqRk1UQVdNRl8tSnl4ME42QVI3U0lWSDRkeVNZZHUyLUgxalBfTlB6ekZNMFMzNXVWZ2MtN3MxNmp2bW1sNjRlYlBTSTV6cTdWeDJnUnNjWU4yb2k0cnJPa1RfaFPSAcoCQVVfeXFMTUpBRmNDbVQtNTZIanh6LUFKM3c3eFBEamZ6b0luU0JGMHR3UHJMLXRuRFlwWjJLUjk0aExhTW5hb1YzZ2dHZDROTWJUaXR1ME5aWnMyTVRjd195ZVNZNmNETVFVdE94VS12YnF0UmYzSXZFdlYzamFSZmxLSHd1NjVnSDNGOVVuWi16TWtOMUUwemJKdUVIVzFITDhqR2pNZ0tVOGItV1NLNVZPRmJfNms4MkpCVkM0YXlENDZRd2prdDBrMnY4ay1RNXhuYUNRY2R5SXNvNzBQdlltZlNLenp3VUZvc005enBfaHVrMzc1Qy10UkNjeVV4NWFOVk5OcDZfbkNaOUVUUUVwVmFBaTRtamhvQ0F4dk1vMWlENm1yY3h0ZmFXMzR4YTlFeWNFZE1wT0w4Y2FOX3BOOEVkYVdFMkRiSVBTUlJR?oc=5",
-        "published_at": "2026-10-26T04:40:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -176,19 +185,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "The Do-or-Die Race for China's Optical Chips Under the U.S. FCC Regulatory Shadow - 36Kr",
-        "source": "36Kr",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kWXowTldYZE0wbGJrcmhnNkFHdXZkUVoxOFBNSEdMNmRwS0VJb3dqNlo3WkswSUk3OFRxUFhjbWpiZkFkSEpxR3JGbUs5WE83bnQ0?oc=5",
-        "published_at": "2026-10-26T02:34:58+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump says decision nearing on Iran: Strike deal or resume attacks - The Japan Times",
         "source": "The Japan Times",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQdERyUmxTcmVpNm5HY2hOck5uekNNOWZZUU1wLWsxZlkwWklIT0xuTUs3SG5TZkhaZi1yeXhZeTY5Qk1qdnlGX1hjb3Rwa2JlZlpfb3NRZGFrM3pkRE5kc2JjMDNJaldUUktQZ25oMlRwTWp1bVE?oc=5",
         "published_at": "2026-10-26T01:26:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israel drills for surprise attack with massive military exercise as expert invokes 1973 war - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTEpKSGFOVGozVnNXR0cyU3Uzc0ZsX2EzZ2RwZDdhNXlVYklkbWt0M1lCZk56M1UtbmpHeXBYZWdoNG8yOHhfZlBhR1JLeTYwVndtYWRiTFNyS0NNRVpvOGpRcDg2bktyV1Rva1dadUFmRUszSzA3TGxJTHA4X0t0QlJVS0VMUExUeHFJUnMtckxlYnlmYnNYNUpaWXlBb1M2OEN3T1VZempvcVpUMGfSAbMBQVVfeXFMT2JNb3lNQnlfb1FPYlZFNmtFZjNQZEtRQlMzSkotZDVPMnFtenE1THMwcU1IOUI1ODlpdjRzNmdqa0JYTUQ1M2ttMGFYaWJ6WkhVdzJRZkZ3d0NEWTFSUTN0YUtkMHRxR0xiTlpCOXc3X3h0M3F0OFdqeHVuc2NMMEZiOFIzanVNSkJIVkI5dHpJeWp1NWdtTXE2Rk13UjB6OXRmNWZIOWRzOFZmUjZiekh1eHc?oc=5",
+        "published_at": "2026-10-26T00:42:24+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -201,18 +210,27 @@
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Qatar pushes for Iran deal, new US strikes remain possible - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WQlR2UGtzTUQ5TU9ybDdqUVdlVHlCeUVoRXZLVVNMZDd0NVJKbEpJUmo0M2NqWnlBZlNDQTBKc3Z5d3pzUWJiSGpxVHI0TWNveFE?oc=5",
-        "published_at": "2026-10-25T23:42:43+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Two Chipmakers Are Carrying America's Earnings Boom - Money Morning",
+        "source": "Money Morning",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQTBBOXVIdmFmRHBtdnQ2dnRUTWpRRmx0VzRMeWtFbmg0dnZ3clFIWUZCWlR5dXRZd2NtTUM1ZVh4dzB5aUR1NUNaQzVNNi02NVNMV3k5a2thMERZZGwtZ3ppcE1QTXphblZhWFlTT1dlZFpfbXl6NG5tTC1qZUNUQV90NUdFTmFKcmF5aW05V3lMUUlocUE?oc=5",
+        "published_at": "2026-10-26T07:27:20+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alphabet, Microsoft and Amazon Earnings – The Bearish Sentiment Might Help - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeEo0SVhmRGV5MlQybGVmN29iY3FVRmtPOW5NUWdwd2JBTHJvX01yRExGdWMwWlpha1g5OXJvLVd0QWJNWDM3X2RFOGdEbVVKbVNVems5NndGNHdhYTFCR3ZQanJuLTJGemFfbXN4WmZnOVMzZGJNbUQ1NWduUG9JQWxLd3M2T05Qdnk4MmpGVlN4Nm96WVNlVDZBVU91N3RLVzZsLXhCRmNnWWNWclltMG5yZTlXMExu?oc=5",
+        "published_at": "2026-10-26T07:10:20+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Brookline Capital Markets Estimates Moderna FY2030 Earnings - MarketBeat",
         "source": "MarketBeat",
@@ -263,24 +281,6 @@
         "source": "天下雜誌",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zOHJLY2wzVHpWdE85OGNvbVdkV251b2VWRnd0LXh3Mk4tNk5kTDU3ejdxQWd6UE5PTENUR2RZYUl5Slp2ekNwR0VsbGxxbE1JSm0wYmw2T3N0eUVwY3VSMFo3dVcyYms?oc=5",
         "published_at": "2026-10-26T02:17:23+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Intel Earnings Preview: Is the Biggest Surprise Still Ahead? - Moomoo",
-        "source": "Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWkcwZjUyZGEtR0p0b01wWGkzZTlTZ2ZDSGlGYUgzdHpMOUc3RVVIVG03V3VyQWRtVHl2MTVxNnc0Wk4ycUZQMG8wZmNNcTE5VWFEZzlvbm9Zc3FkTUR1bDhsQnpMZnpCblB5M3pfbGZIV2xIRmZfeXhIZ3A3MmxIM2N4dXh6LTVscWRHRVZBTm5TZ3BKMlpPd1ozbWNVLVhwNjBpb3JNdlI3QTBTU1hXTl9R?oc=5",
-        "published_at": "2026-10-26T02:09:32+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Nebius Took a One-Year Loan to Build for Five-Year Contracts - Global Data Center Hub",
-        "source": "Global Data Center Hub",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1RndqTTZwTlJ6VllpQkNJWkwwRG5CM0RVWWRPOHBvdW40bFBfTk01cHdXcXFmSHBZcm9MOVZCLVJyamZHeGp3MG53SmVtRHoyS3FSa3FVdWRQSENhX1puZ2c3bjFFT1IwWnkwUnJ0MzdWc1ZuQnd2aGI0RU53VkE?oc=5",
-        "published_at": "2026-10-26T02:00:52+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
