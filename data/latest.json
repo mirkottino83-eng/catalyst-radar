@@ -1,40 +1,308 @@
 {
-  "generated_at": "2026-10-26T08:30:27.631083+00:00",
+  "generated_at": "2026-10-26T09:17:10.876248+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 101.43000030517578,
-    "wti_change_pct": -1.7817337055313631,
-    "brent": 110.22000122070312,
-    "brent_change_pct": -5.56888273819437,
+    "wti": 100.81999969482422,
+    "wti_change_pct": -2.372418928907438,
+    "brent": 109.69999694824219,
+    "brent_change_pct": -6.0143970176859245,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
-    "vix": 19.719999313354492,
-    "vix_change_pct": 1.3881672998671712,
-    "dollar_index": 101.78600311279297,
-    "macro_score": 45.6,
+    "vix": 19.25,
+    "vix_change_pct": -1.028281517194285,
+    "dollar_index": 101.7760009765625,
+    "macro_score": 48.4,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.78%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.37%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T08:20:00+00:00",
-      "brent": "2026-10-26T08:20:00+00:00",
+      "wti": "2026-10-26T09:05:00+00:00",
+      "brent": "2026-10-26T09:05:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
-      "vix": "2026-10-26T08:15:00+00:00"
+      "vix": "2026-10-26T09:00:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
-  "movers": [],
+  "catalysts": [
+    {
+      "id": "0e7e7f642741",
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Moderna seeks FDA approval for intismeran as soon as possible — STAT News - UA.NEWS",
+      "reason": "Possibile evento fda approval indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ29qWUxCN0pmeEtDMm1BeW02MzVjemJkRUxzSk16QnhsckdVUDMzY040ZnhNNHpFUVlWYmMxQmJuTDBxUzdBR2xNNFJrMUFzNVJHY2RzOXVFMmtyWDZTemVaMlI2allOQWREb2tET2l1NFJvbGxpU01lRk1JRkl2dHdhcTN2WWIxNjlGSXBiWi1CcWdqRHJiMm05RHNXWW9FR0dWUUNGSXY?oc=5",
+      "published_at": "2026-10-26T08:54:08+00:00",
+      "age_label": "22 min fa",
+      "catalyst_type": "fda_approval",
+      "current_change_pct": -6.48,
+      "short_term_change_pct": 0.27,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-26T09:15:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 2.1,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 72.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-26T08:54:08+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "MRNA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 98,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 53,
+        "macro": 48,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    }
+  ],
+  "movers": [
+    {
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "category": "AI / Cloud",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": -3.37,
+      "short_term_change_pct": 1.67,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:15:45+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "NBIS"
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": 1.51,
+      "short_term_change_pct": 1.15,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:16:54+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "INTC"
+    },
+    {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "current_change_pct": 1.73,
+      "short_term_change_pct": 1.05,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:13:35+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "AMD"
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro Computer",
+      "category": "AI Infrastructure",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": -2.76,
+      "short_term_change_pct": 1.64,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:13:20+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "SMCI"
+    },
+    {
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "category": "Space / Technology",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 2.28,
+      "short_term_change_pct": 1.33,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:10:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "RKLB"
+    },
+    {
+      "ticker": "SAP",
+      "company": "SAP",
+      "category": "Europe Software / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 0.37,
+      "short_term_change_pct": 1.28,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:10:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "SAP"
+    },
+    {
+      "ticker": "MU",
+      "company": "Micron Technology",
+      "category": "Semiconductors / Memory",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 3.2,
+      "short_term_change_pct": 1.24,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:15:37+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MU"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "category": "AI / Cloud",
+      "priority": "high",
+      "satispay_status": "unavailable",
+      "current_change_pct": -5.61,
+      "short_term_change_pct": 1.24,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWV"
+    },
+    {
+      "ticker": "CRDO",
+      "company": "Credo Technology",
+      "category": "Semiconductors / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -9.44,
+      "short_term_change_pct": 1.24,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:05:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRDO"
+    },
+    {
+      "ticker": "MARA",
+      "company": "MARA Holdings",
+      "category": "Bitcoin Mining",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -4.97,
+      "short_term_change_pct": 1.05,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:15:39+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MARA"
+    },
+    {
+      "ticker": "MSTR",
+      "company": "Strategy",
+      "category": "Bitcoin / Software",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -2.08,
+      "short_term_change_pct": 1.04,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:15:15+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MSTR"
+    },
+    {
+      "ticker": "ASML",
+      "company": "ASML Holding",
+      "category": "Semiconductor Equipment",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 1.36,
+      "short_term_change_pct": 0.92,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:10:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "ASML"
+    },
+    {
+      "ticker": "CRWD",
+      "company": "CrowdStrike",
+      "category": "Cybersecurity",
+      "priority": "normal",
+      "satispay_status": "unavailable",
+      "current_change_pct": 8.22,
+      "short_term_change_pct": 0.9,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:10:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "CRWD"
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "category": "EV / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 1.37,
+      "short_term_change_pct": 0.89,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "TSLA"
+    },
+    {
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "category": "Europe Semiconductors",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 0.66,
+      "short_term_change_pct": 0.86,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:16:02+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "STM"
+    },
+    {
+      "ticker": "PLTR",
+      "company": "Palantir Technologies",
+      "category": "AI / Software",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 0.82,
+      "short_term_change_pct": 0.85,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T09:10:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "PLTR"
+    }
+  ],
   "news_watch": {
-    "updated_at": "2026-10-26T08:30:16.868662+00:00",
+    "updated_at": "2026-10-26T09:17:00.293804+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +312,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +333,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 11
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,10 +345,73 @@
     ],
     "geopolitics": [
       {
+        "title": "CNN: Netanyahu pushed for Iran strike before election, Trump refused but signaled there will be joint action soon; PMO denies report - The Times of Israel",
+        "source": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOaHRkSzc1X2M3aWd6bU1CTE9FU01RbVlEazZlazRFOWFvbjI2TnpTMFFpTDB1aE9EbEJGbm0xU1FUNzBESmpiQ0Nzd00xUExQZDlHWTNjYnpRbTNNTVBGbUs0ZXFmRGVBU0tfREdMa3dVa1RsTlFibXk0WEdWU3Z0eGdkZkpIM2tfNlkyUUtYWUZMZGVrVlBKTWR0MGYzc2FSeTdWMlV3eWgtOHFNTmRTRC1iUi12YkMxU2o0UF9sdXRnN2pOOF8wQmsyYWhWX2taRmNwZnBhWHhyQ3dsSkdlMGdoVkZiSHdHbjlLMXdvRVNMZ3ZKZm8xa0dTdVNUWWZNYWJCNmFB?oc=5",
+        "published_at": "2026-10-26T09:01:54+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia and China planning to expand bilateral seafood trade - SeafoodSource",
+        "source": "SeafoodSource",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMWNRS0xvNklUS0MxeU5MREZCLVRkYUtuSjdCZ3V6aWx4Z2NIVE1IMUx0MjVfQVhLbnpwTlBMdGJyaktjbmdJUXRYZmpiVmw0aUhYSVA1Z0FuMW41S3RZWnc2dGpmVVZmZTY3TlI5bG9TRW8yaW80S0lvdFJnVlNiT0lXMlo1bHJ0TjRCODZlTl9vMWZrRldkRDNB?oc=5",
+        "published_at": "2026-10-26T09:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israel not planning Iran attack before election, defence minister says - Yahoo",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdHhaVFBpYkpYUHUzcUJ5MDd3S19BNE9PZXpmcTE3S2hRVXdrOUdOZktKaG1wbVBlRmpGaXZiSDhCZ2hkZVlrOG1tQ3lvTDRINTZzR0tLSFZzWWsyT05FeUp0ZEF6dGV2ak9tOHJrazlMeWNRUllvVEI5ZHVjZXcwcHJUdVQ0SS1zTkNsMTdycEtrdw?oc=5",
+        "published_at": "2026-10-26T08:48:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iranian president to visit Russia for gas summit, meet Putin - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGVSU3RMN2l1VWVtbG9FLVlLNjZ5UFFvdkJGUjN1dDl6c3Zrc19veTJlbXJCWlRkWmdOU0g5RWs4WjItaHVKWWRlZFNvWDZISnhKZzk5cTJ1SFp2Nnoyd0VHQUkzQlNqX1E4ZEl5SmVadE5ndVNSTjhWQ3BNNnk1d1JxMnJFM0luTEczNGVPUVBSRGJCWFU5VUlFVUxyZXc?oc=5",
+        "published_at": "2026-10-26T08:32:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China proposes measures against foreign entities' infringement of trade secrets - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaFN3cElBOU1objdKSy03cXN3RVJyRURxMjJqMnFGdEhoclhqa18teVhGRzU3MWk2SXdnUDIwdUl1SkdxUUZMamJJWXQ0a1JaTmEwWHFMaUYyZWJzMmlyZEQyMEdkZThQcGxsOUgtTm95VWFzaHQ2SUFhdm10WVNBQUVDZjNpOHltWVVOZVZTeEZfdXA0RkdKRmVpODR3MUxydGROWlNWN0E5bUFEcHZzd2FWLUR0SEhneXVfcXdHS2dTcGVoZHl5bnlB?oc=5",
+        "published_at": "2026-10-26T08:29:43+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Breaking | China drafts rules to protect trade secrets from ‘foreign entities’ - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUhJdTc5bDkzaFRyOU9kSGJUVjJnaV9tZDltSUU5ZkJzbkJHZkw1WTdZRU5veHJZLUQzZWhzX0xEQ0dsM0NhTTRVTW1HeG1kZUJkMzNMWWNYUUdtMjJCX1hxNjZJc2ZyRnQzQUVfSUlSWlRoWXpGV2Mzb21EUWZuMVl0a1o3eW9XUWdRTExSZnFNVzBwQlFzaFVXb3JSUEFVWlVoWGxGbEVNcnlyRUE?oc=5",
+        "published_at": "2026-10-26T08:28:14+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Netanyahu pushed for Iran strike, US held back after warning from IDF chief - www.israelhayom.com",
         "source": "www.israelhayom.com",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFEtVzRyZkJUTGtVZlhPeWl5Ri1Gd1FQZ19IUGdJQWp4cExpYXJoWDExcWZqdkl3T0lmdFFRZFlqT2pacmJHVVVPS1Q0TnpZYVlqZGdmc1ZvU2NFNmoyM2pKaTFEYlN6eGtJWlBCQmsydV83UXkwX0FxX0tjdVlYTkVDbFkxNkloMDJ1VW5xbDlwNW14SHByZ20yNFdtOFlRTGJMcUYwYVltMnhUcWZ3am1LVDk?oc=5",
         "published_at": "2026-10-26T08:18:01+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US ready to strike Iran 'within 96 hours' of Trump's order, Israel pushes for joint attack - report - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZU1JDSGJNNVB1VHM4YWpqZlhIRjRoVU41TnJYVjVKSlJEUjNma2tJdUNBczh2Z01rcDAyUi1MZDVxdl9fQ0pUdzZMVXJ2NzFYWHl6bE1vblhpVl85dUs3RGxDY1V5UU43ZXc?oc=5",
+        "published_at": "2026-10-26T08:10:29+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -98,16 +429,7 @@
         "title": "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy, Saudi Attacks - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdHd1Q1FTWEFlUlUtZ1FQRWJfYm1QYm5KZW1jTVA2cS01R0cxb0xsNVNrdXJVNm44VTd2ZWN4WnY1R0tla0JuM3NVUmpBVF9GLTl2WEdFRmNUTFpEVUpHVHQzdUREUFBwN2ZEZ2xGcThUa0lKamdzaEY2c19pRy1PcXZCd2hPUmRfTmQ4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEI?oc=5",
-        "published_at": "2026-10-26T07:46:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US ready to strike Iran 'within 96 hours' of Trump's order, Israel pushes for joint attack - report - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZU1JDSGJNNVB1VHM4YWpqZlhIRjRoVU41TnJYVjVKSlJEUjNma2tJdUNBczh2Z01rcDAyUi1MZDVxdl9fQ0pUdzZMVXJ2NzFYWHl6bE1vblhpVl85dUs3RGxDY1V5UU43ZXc?oc=5",
-        "published_at": "2026-10-26T07:37:49+00:00",
+        "published_at": "2026-10-26T07:48:21+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -118,24 +440,6 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2g1RXlmUlZZd01JTkV3TDlURzYzcXN2UUdwZmV3YWFaX053SWJQUmVWUjBfVjdCSkdpN0VoWGFkSWZOMV9rRTdRSVJWZzZPT2U1cmhTUWJqRWFKYXNmSmxkRWIzVFpqdjJFUllhU21RRDJaeXpLbFZ5Rmt5YzhFY09rTk5CVFpZNmVSQ2FVU1JtZ0hiTUVaeUJIa01MbEIwdllialVYN1RBcVM5RHpiMdIBvgFBVV95cUxOZWNuNHk1cjVhTGJSQ1dDdnBsS0I0cTlHYkpVTXVZb3hLOUtSeXBNY1dqQi1RSjlwUnVpRTRwREMtOFdfSjJvVG9BNmlKdVo5cGphdDl3Z2tRZHlBRDdEQ1djc0pwa1hnSTlJaW1iTVUzeU0xaDduSEoxc044Y2VSUVFPZ3RDWXFCVDdVcUY5UHBhXy1HV203a1NLMlJXV2J1dFlMU1VyZlBycFBFb0p4RU1CNnFGUzVYN0dLeUlB?oc=5",
         "published_at": "2026-10-26T07:24:34+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Smoke and Fires in Voronezh: Drone Hits 25-Story Business Center as 7 Fuel Tankers Burn in Russia - Kyiv Post",
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1COXBQbTVwVXI3ODhma2VscmtwZnZBdXNvSl9YbjNvbnBLSFYyOWM4N1ZvU3pIdG9zMEdiQlBPNDlDamx1QkFCX3ptWQ?oc=5",
-        "published_at": "2026-10-26T07:15:46+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "World’s second-largest economy boosts trade with Africa’s largest economy to $15 billion as South Africa grows wary of U.S. ties despite 125,000 jobs at stake - Business Insider Africa",
-        "source": "Business Insider Africa",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcnMwZDA3ajN3Ums0S3RVaDR3eXJ4TnFua3NnUHFOb2VuV3NJaVVXeVRKZ2d1VmxBS0ZVVmZkbE5OalJQVkdQZnhSTXc0UGpzaUYySzF6eDhLQ0xid2VYWkM1VFdKemtub2ZsZ1VZNm10OE5KZ0VKUjdXMzhHN1hibUhTbVVJWWVRY1dvZW8wcU1ONGlvMk1Sa0hERENZX1Y5RWhRX3NvbzR3bVRwVWF6UURDUWU5aG5QdC03bWVmS3lXT3ZwNnVteTQtZERtZnl0dmJr?oc=5",
-        "published_at": "2026-10-26T07:12:20+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -174,45 +478,36 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US has plans for major Iran strikes if Trump chooses - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGMkYxX0xCdEJNR19IcUM5QTlEN09sZS1zODJGam1TWTNMZGxUN0dRVTJNR0hhRENuYWo1SURGd2pQbTJYNGdiNmVMdlBCRmE4QUZDLXFXMjVnLWRSNXZfb3JERnBYa1U2a0d1ZnVPQnpEZm1w?oc=5",
-        "published_at": "2026-10-26T04:00:15+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "The US-China biotech trade war that isn’t - Asia Times",
-        "source": "Asia Times",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKMlZLUVNGSkRYQWV3ajVIZzkweHJQMEt5Ymp1Y0FwbDNuUDJPbVlSTGd5cW1Wb2xZenpodzFfZkl5TUJWWldjZHpEaWtYV0dWVVZZVjFUZEp1Ykk2bG9ILWU4VHY4R1dLc2xiV1pHd0I0MjhrWldaVEZTMA?oc=5",
-        "published_at": "2026-10-26T03:20:16+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Soybeans Hit 2-Month Low as Lula’s Win Lifts China Trade Outlook - Yahoo Finance UK",
-        "source": "Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJWnZ6c0w0eGh0bVpWRkhhR05qcy15anpXZUhZQTZ1TDFVUnNseXJfaDJYSktPN1NmdUQyVWNsX3hjZHdTdkplTGNvbmVqaGt0MDVzU09aaWR4Y1JEaWdEWDl2c0VJVDF4ZXVWWFZuT1V6b0ViR0E4My0wTjllQQ?oc=5",
-        "published_at": "2026-10-26T03:18:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says decision nearing on Iran: Strike deal or resume attacks - The Japan Times",
-        "source": "The Japan Times",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQdERyUmxTcmVpNm5HY2hOck5uekNNOWZZUU1wLWsxZlkwWklIT0xuTUs3SG5TZkhaZi1yeXhZeTY5Qk1qdnlGX1hjb3Rwa2JlZlpfb3NRZGFrM3pkRE5kc2JjMDNJaldUUktQZ25oMlRwTWp1bVE?oc=5",
-        "published_at": "2026-10-26T01:26:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Moderna seeks FDA approval for intismeran as soon as possible — STAT News - UA.NEWS",
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ29qWUxCN0pmeEtDMm1BeW02MzVjemJkRUxzSk16QnhsckdVUDMzY040ZnhNNHpFUVlWYmMxQmJuTDBxUzdBR2xNNFJrMUFzNVJHY2RzOXVFMmtyWDZTemVaMlI2allOQWREb2tET2l1NFJvbGxpU01lRk1JRkl2dHdhcTN2WWIxNjlGSXBiWi1CcWdqRHJiMm05RHNXWW9FR0dWUUNGSXY?oc=5",
+        "published_at": "2026-10-26T08:54:08+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Two AI Chipmakers Make Up 34% of America’s Earnings Boom - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaHhLUi1IeDVOLXZPSmlYYVpxRnZDUVBiMDRTTUdtMnQxRE5DcEUyenlyaWhZWXdfVno3ZU5FUzZUYkg4ODVlY0VDV0hneFdYUG1nX090Wml0dmk4b2NBM2k2QzA2VV9FNUVtM2lVczJGbjc2c3EyVmN2LVVGeUh0ZXllRnMxaUFfcVIyQmVuYXVPVGROeEk4akxUbmxKcElHUXU4eE42TFBwdkVj?oc=5",
+        "published_at": "2026-10-26T08:31:24+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Packaging Deal Puts OSAT Stocks Like ASE Technology Holding In Focus - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONU9Yb0hVNDUteWNkOEJqU3N2akh6enY1ZWw5cG9HNWMyMFZ3S1R3c0M3Q1hXeWR3TTVoSk9sbnAzVXlkLXJGVVd3RExrWEhXRXlEclNvYkN2d2lwTlBrLWg1WTZiNkVMemdJNVhsa05KS1p1TW9vMjBGN05fdUJ4bTdheVZ2Ny1kdGpMT3R3aVNjM05aNE80M0ROOA?oc=5",
+        "published_at": "2026-10-26T08:07:39+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Microsoft, Alphabet Set to Report Q3 Earnings. Who’s Spending More on AI Buildout? - TradingView",
         "source": "TradingView",
@@ -241,15 +536,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "NVDA Stock Ticks Higher Overnight: a16z Data Shows GPU Rental Prices Rising Sharply, Even For Older Chips - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVzhIbU14cHlhdjlKTUNmTkpxbXBMTXRHb2U5Wk1rMVg0dEhwX216VVJmUEhfT3l5SUtKZVB0ZU91QklIdERHMDRzSXhmcExnMmJxSUxNMUhJNmpYdEN4bUFMTXlwbjY4WjRENmZyR0JfQWMwTWxramtEVi0teDZWOUVMTUVFRjJSTGg2NjJ6eTVXYmFxWllIT1BQeHFGemM?oc=5",
-        "published_at": "2026-10-26T07:02:31+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Brookline Capital Markets Estimates Moderna FY2030 Earnings - MarketBeat",
         "source": "MarketBeat",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ1Zrek5fVC1SNV91WkN3Wi1tckxSeFpLaWZ3a0U1QXk2N3RWVUt2UG02UE91Tkx4Mm92Z1lESDhnYjRha2J0cFRBNW1NY1BnZFB3VVQwWGZwN3lzMC1HTl83V1I3YjBERUJVM3dnaS1Qd19wVm5SWEZRWkdnX1gwQ3lmRmoweE1Rc2xoOUZLclVyM1h6QmtxRWpWUWxoamNsVjVFRnpSaTd5dFo1M2xzLXl0V0puTjJtU1BBWGRBajU?oc=5",
@@ -264,15 +550,6 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNE54T3pfUmFpa3IzdGx3V2drSnBLSG9TSVJpQmJZLW9NVlY1RHJfbnB3TFNnNTgzOU55a0FWcVdtbU9TUmd1Sktyd2dMelg5SmdPczRpYjhtR0toblduRXE2NDFpVjV4c050LTRJZHlkTUxOZDhqSUtNZElBOTdEVVVMYjZNZnRZcFphaDZ2cF9DNC1xeXg3N0ZRazQ4dTJMZW1uWDFoUVc3RFlYa3dXSQ?oc=5",
         "published_at": "2026-10-26T04:52:05+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway. - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFA1bzFTby1DOGNCX2VmUEQzSUJoV1hRbjRxcUR3bmZ4Nk5jclRsdkJ6c2dXZFNYZHAtLVQ4emxnWE0zQUR2dy1rcHVPSk1CN2tVRklkNldSMTVXdWdFV21FNzJPV2FWZkJDNWppRnBaRU1mczhQMDBGLTFkWVl6ajhJSWdGVnc2LUlTYmZGS2NVSlJCR19ob1FB?oc=5",
-        "published_at": "2026-10-26T04:20:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -293,20 +570,11 @@
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-        "source": "Medical Economics",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-        "published_at": "2026-10-25T19:58:50+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 148,
+  "archive_count": 149,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
