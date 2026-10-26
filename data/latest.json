@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-26T10:39:15.620124+00:00",
+  "generated_at": "2026-10-26T11:17:51.423644+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 101.25,
-    "wti_change_pct": -1.9560343843605943,
-    "brent": 110.1500015258789,
-    "brent_change_pct": -5.628855060069061,
+    "wti": 101.08000183105469,
+    "wti_change_pct": -2.120649639973393,
+    "brent": 109.81999969482422,
+    "brent_change_pct": -5.911584521689517,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
-    "vix": 19.459999084472656,
-    "vix_change_pct": 0.05140525008231478,
-    "dollar_index": 101.8280029296875,
-    "macro_score": 48.3,
+    "vix": 19.719999313354492,
+    "vix_change_pct": 1.3881672998671712,
+    "dollar_index": 101.85800170898438,
+    "macro_score": 45.6,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.96%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.12%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T10:25:00+00:00",
-      "brent": "2026-10-26T10:25:00+00:00",
+      "wti": "2026-10-26T11:05:00+00:00",
+      "brent": "2026-10-26T11:05:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
-      "vix": "2026-10-26T10:20:00+00:00"
+      "vix": "2026-10-26T11:00:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,19 +44,19 @@
       "source": "UA.NEWS",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ29qWUxCN0pmeEtDMm1BeW02MzVjemJkRUxzSk16QnhsckdVUDMzY040ZnhNNHpFUVlWYmMxQmJuTDBxUzdBR2xNNFJrMUFzNVJHY2RzOXVFMmtyWDZTemVaMlI2allOQWREb2tET2l1NFJvbGxpU01lRk1JRkl2dHdhcTN2WWIxNjlGSXBiWi1CcWdqRHJiMm05RHNXWW9FR0dWUUNGSXY?oc=5",
       "published_at": "2026-10-26T08:54:08+00:00",
-      "age_label": "105 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "fda_approval",
-      "current_change_pct": -9.63,
-      "short_term_change_pct": -2.34,
+      "current_change_pct": -9.12,
+      "short_term_change_pct": 3.31,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T10:35:00+00:00",
+      "quote_at": "2026-10-26T11:15:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 4.1,
+      "quote_age_minutes": 2.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 66.0,
+      "confidence_score": 72.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-26T08:54:08+00:00",
@@ -68,8 +68,8 @@
         "catalyst_strength": 98,
         "freshness": 78,
         "volume": 28,
-        "momentum": 22,
-        "macro": 48,
+        "momentum": 90,
+        "macro": 46,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -77,22 +77,36 @@
   ],
   "movers": [
     {
-      "ticker": "MELI",
-      "company": "MercadoLibre",
-      "category": "LatAm E-commerce / Fintech",
-      "priority": "normal",
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": -9.04,
-      "short_term_change_pct": 2.48,
+      "current_change_pct": -9.12,
+      "short_term_change_pct": 3.31,
       "relative_volume": null,
-      "quote_at": "2026-10-26T10:35:00+00:00",
+      "quote_at": "2026-10-26T11:15:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "MELI"
+      "tradingview_symbol": "MRNA"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta Platforms",
+      "category": "Megacap Tech / AI",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 0.02,
+      "short_term_change_pct": 1.17,
+      "relative_volume": null,
+      "quote_at": "2026-10-26T11:15:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "META"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-26T10:39:04.037345+00:00",
+    "updated_at": "2026-10-26T11:17:40.526176+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -102,7 +116,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Russia / Ucraina",
@@ -116,14 +130,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
@@ -134,6 +148,15 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Bulgarian PM reiterates there is no evidence of Russian attacks in the Black Sea - БНР Новини",
+        "source": "БНР Новини",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSC1aVEJhM2JpZnJSTV9xLWVJYXV1TGdJeWp0d253M3Z0dmc1cVVjZHI1Z0VhOGw2bkMxSFQ3d2lPd0ZObzRRWk85bjVOQ2I2UVlOMkJvX0NqbDRLM3Q0QTZQSEhwc0czVU02dHRLRWRWQU9IdDFZU3hiNHc4ZXVXd1psTkdtRXNueWhzejZLVGc5aGlLblYxX0FLTDRTVExudnhRd3NUajQtZmJnV0RSdUFBT2s?oc=5",
+        "published_at": "2026-10-26T11:04:53+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Ukraine war briefing: Trilateral peace talks with Russia to restart, says Zelenskyy - The Guardian",
         "source": "The Guardian",
@@ -180,15 +203,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "CNN: Netanyahu pushed for Iran strike before election, Trump refused but signaled there will be joint action soon; PMO denies report - The Times of Israel",
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOaHRkSzc1X2M3aWd6bU1CTE9FU01RbVlEazZlazRFOWFvbjI2TnpTMFFpTDB1aE9EbEJGbm0xU1FUNzBESmpiQ0Nzd00xUExQZDlHWTNjYnpRbTNNTVBGbUs0ZXFmRGVBU0tfREdMa3dVa1RsTlFibXk0WEdWU3Z0eGdkZkpIM2tfNlkyUUtYWUZMZGVrVlBKTWR0MGYzc2FSeTdWMlV3eWgtOHFNTmRTRC1iUi12YkMxU2o0UF9sdXRnN2pOOF8wQmsyYWhWX2taRmNwZnBhWHhyQ3dsSkdlMGdoVkZiSHdHbjlLMXdvRVNMZ3ZKZm8xa0dTdVNUWWZNYWJCNmFB?oc=5",
-        "published_at": "2026-10-26T09:01:37+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia and China planning to expand bilateral seafood trade - SeafoodSource",
         "source": "SeafoodSource",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMWNRS0xvNklUS0MxeU5MREZCLVRkYUtuSjdCZ3V6aWx4Z2NIVE1IMUx0MjVfQVhLbnpwTlBMdGJyaktjbmdJUXRYZmpiVmw0aUhYSVA1Z0FuMW41S3RZWnc2dGpmVVZmZTY3TlI5bG9TRW8yaW80S0lvdFJnVlNiT0lXMlo1bHJ0TjRCODZlTl9vMWZrRldkRDNB?oc=5",
@@ -207,21 +221,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Massive Drone Barrage Rocks Russia’s Voronezh, Hits Aircraft Plant, Chemical Factory, and Key Bridge - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcnZUU0dOMS1wZTVZUkMyQWsySjgzejlUQXJxem5YaDBXRy1CcGI0cHh5U09YSjlYRDNEVVozaUxISy1ET0pIeGpYNEpxNFdYWUhOTGppcVpsUmZ6aENPRjM4R1RuTWRVUTFJbk1nX21SaDFRbE80UVV2MXJoeUN5YTFPVWlwdERLeUVsWDdfdGt0SDl1c3d6VDRTUGkzbTYwTjRwb0JqdnVmSGsteENNeFAwYmczRWpFZTREZndDaHgxalBGTEhPS0VES0NTQXNEcFlmeHF6MlY0TFU?oc=5",
-        "published_at": "2026-10-26T08:38:37+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Netanyahu rejects CNN report that Trump blocked Iran strike - Israel National News",
         "source": "Israel National News",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwX1RBREpidGd1LWdZaDNxTklEVmZadHAxOGtfRnIxeFNzc01ldzJOTUNvVUcyLUJYZmFJOUZsWXktcUE4ajFSblIwZDgwcThCWmNJbXVjcmk2dw?oc=5",
         "published_at": "2026-10-26T08:33:24+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Melania Trump’s Adviser Claims Pope Leo Followed Her Lead on Ukraine Ceasefire - Yahoo",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLUVFX1JmcG9OSHRRWnAwUDFNYVZqY19rREZMUFcycExGVWFQekI4UG9jMlNxdmtucTVOU3R3NFRBV3k1bExfVVpfOTRyb0hPRTdxVTdROWdZaXJsWUZsSDZFQVZ0MnVKZmxxalluNG4xdHpiNVg3M3R2X1FVMkZzUUxMUWVVSXdVLUdZbFh1ZWxqYzBQVHN5Zw?oc=5",
+        "published_at": "2026-10-26T08:31:59+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -252,11 +266,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Zelensky Offers 3 Conditions for Energy Truce, Warns Against Lifting Russia Sanctions Before Talks - Kyiv Post",
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82dGtYc1pEczFVREJMVXVuVzQ3Ri1HR0ZNMkZvWEtsSjNZbEhDMnQ0ZHV6LWNfSndCMVJpZmFIaDRmVGFPdlZaLVVOOA?oc=5",
-        "published_at": "2026-10-26T07:53:37+00:00",
-        "area": "Russia / Ucraina",
+        "title": "Katz: Israel never planned pre-election strike on Iran - Israel National News",
+        "source": "Israel National News",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12NUcydU9qOF9KZGluUmNrSVgwbDBBM2NSczFDMEVMYTk1U2hqQVhTUkdPeTdPNXIzYW9SZEZfS0NiX2c2bm5FeDBwemFKcjZhMjlOcFZDdGNoZw?oc=5",
+        "published_at": "2026-10-26T07:54:50+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -264,13 +278,31 @@
         "title": "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy, Saudi Attacks - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdHd1Q1FTWEFlUlUtZ1FQRWJfYm1QYm5KZW1jTVA2cS01R0cxb0xsNVNrdXJVNm44VTd2ZWN4WnY1R0tla0JuM3NVUmpBVF9GLTl2WEdFRmNUTFpEVUpHVHQzdUREUFBwN2ZEZ2xGcThUa0lKamdzaEY2c19pRy1PcXZCd2hPUmRfTmQ4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEI?oc=5",
-        "published_at": "2026-10-26T07:46:00+00:00",
+        "published_at": "2026-10-26T07:48:21+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "A New Hair Loss Pill Moves Closer To FDA Approval After A Positive Clinical Trial Involving Over 500 Balding Men - IFLScience",
+        "source": "IFLScience",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSVByR3JCcW9pNXpkQi1Pb0FLeWhDWFM4VjJVamtQS2ZVNnVIUG1zVWNDRGw0SUdLMVhESWZNOURNd1JmTjRZcG8tOHdQQThGX1J1bXZQanFuT0hJZ1VqZWF5Q1AtbFFGZnZCOHY3XzJpS01HcUVNak1UUUhFQS1uSndjVE9YQ0ZQYVRtUHdZbjY5YjRGaFRyN3p6Q240MlhKeDNidkcyVlhpSEJ0bml1dmJITmpJMVFqai1SSDdoVWEwNFo5eEc5YXlIbER4eXYwZ0NORlE3amQ5LTFucGc?oc=5",
+        "published_at": "2026-10-26T10:56:38+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+        "source": "Morningstar",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV1ZIYktJQlA3UzhUV0R2SmZCOWJvMlJPWDFqemlnTC1fY2NXd3V0T3lRUXdKMUxQTnlWVi05eWdlbXlQb1B4eFBZeDZKLUlfeUZ4Ykw3YUNlNW9YRmtCN2FFWVBlelpLV01vTG0yYWVHcEFMWFkyQkc1cnNUdGlmN3VWejA0UUpiazc1b2ZfTTVhWEtsTUYzb1g1Z0V2U1YzRnZKazJvYw?oc=5",
+        "published_at": "2026-10-26T10:56:22+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Clinical trial aims to advance gene therapy for sickle cell disease - Scientist Live",
         "source": "Scientist Live",
@@ -286,15 +318,6 @@
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcmR1V2pPSENCVGctOXZxdG8wWE9od0hTRDEtcE9DQzl0bUJsc2t2ajBqZ09pX19xYkIxRzl1VTVDeWcweHktMnNHN0xwMDBmWDZlQW5SU09ja21lM2syN0JpMFZOWjhnV185TVJHcHVtVVVZUTg3N2pJb0ctS1llQURla2ppNHNuYV9nbDdaT29xZw?oc=5",
         "published_at": "2026-10-26T10:21:11+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
-        "source": "Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR0pwSzdVaGNDeWswQ3cxeWh4MncyN2RlanBUWFRIdnFraU9zVEQ5YkNic0hBTVlrX1FlYUZmZzczV0wxeEljMll4OW9mSUlmUWpjUDhaMWEtZVdLcjVscG43VTU4ZG1UdE1URjZleVZISERncVA2NnNNekd6c0dRbThuNHRnUFViRDVNNm9JMWd1Sk1YYkUtazcyNXJtaFhtVFJaU0NtVQ?oc=5",
-        "published_at": "2026-10-26T10:06:48+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -349,15 +372,6 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONU9Yb0hVNDUteWNkOEJqU3N2akh6enY1ZWw5cG9HNWMyMFZ3S1R3c0M3Q1hXeWR3TTVoSk9sbnAzVXlkLXJGVVd3RExrWEhXRXlEclNvYkN2d2lwTlBrLWg1WTZiNkVMemdJNVhsa05KS1p1TW9vMjBGN05fdUJ4bTdheVZ2Ny1kdGpMT3R3aVNjM05aNE80M0ROOA?oc=5",
         "published_at": "2026-10-26T08:07:39+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Australia’s clinical trial advantage gains ground amid U.S. uncertainty - BioSpace",
-        "source": "BioSpace",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNE54T3pfUmFpa3IzdGx3V2drSnBLSG9TSVJpQmJZLW9NVlY1RHJfbnB3TFNnNTgzOU55a0FWcVdtbU9TUmd1Sktyd2dMelg5SmdPczRpYjhtR0toblduRXE2NDFpVjV4c050LTRJZHlkTUxOZDhqSUtNZElBOTdEVVVMYjZNZnRZcFphaDZ2cF9DNC1xeXg3N0ZRazQ4dTJMZW1uWDFoUVc3RFlYa3dXSQ?oc=5",
-        "published_at": "2026-10-26T04:52:05+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
