@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-26T06:14:50.492621+00:00",
+  "generated_at": "2026-10-26T07:04:49.381382+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 100.91999816894531,
-    "wti_change_pct": -2.275586860183043,
-    "brent": 109.48999786376953,
-    "brent_change_pct": -6.194313983309985,
+    "wti": 101.31999969482422,
+    "wti_change_pct": -1.8882511974721905,
+    "brent": 110.02999877929688,
+    "brent_change_pct": -5.731667556065457,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.69200134277344,
+    "dollar_index": 101.67400360107422,
     "macro_score": 43.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -2.28%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.89%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T06:00:00+00:00",
-      "brent": "2026-10-26T06:00:00+00:00",
+      "wti": "2026-10-26T06:50:00+00:00",
+      "brent": "2026-10-26T06:50:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
       "vix": "2026-10-23T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-26T06:14:39.401622+00:00",
+    "updated_at": "2026-10-26T07:04:39.030427+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,14 +44,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -77,12 +77,30 @@
     ],
     "geopolitics": [
       {
-        "title": "Oil Prices Fall as Hopes for US-Iran De-Escalation Grow - Caspian Post",
-        "source": "Caspian Post",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeGEtZ0doeUtZdHVoS25waUJRM1lEUmJDOENneHlwX2RMTFdGY1NIZUJsVVpHWk9KM25yWG84THlaU2VNQWhUdVlHbkFqMUJrOFNhTFVNMWwya2F4WENaeXdGb1BIWVlHWXVDZmVTZ1ZUVnY1TjZUM0dpaEpvRGtOdEdLeXdvZHN1amZYTw?oc=5",
-        "published_at": "2026-10-26T05:27:00+00:00",
+        "title": "Oil declines after Trump rules out imminent attack on Iran - Arabian Gulf Business Insight | AGBI",
+        "source": "Arabian Gulf Business Insight | AGBI",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaTR3aktfRTQxbHZzdG1TQUNfbkdIdWQ1aG9TZlRjcDlxRHhBak5mSVVFQTRPNDJqUnFyTGJFQnZ2MEdDQjE0TzZTWV9WdWd3di1QVndXZUNxUFpnRUVuaHFXSXA5S3FrbXpoM2hOWnFjLVZUVnBLOE5oYzhhZWxqUklNbk9aQ0k2Z1B6a3ZGeDlyaGluR1RFUkNpSWhOVUJTWGc?oc=5",
+        "published_at": "2026-10-26T06:57:57+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran-Russia gas deal nears finalization: Caretaker Oil Minister - IranOilGas",
+        "source": "IranOilGas",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnBoZDU2bnBzUUdIRTZFckdNeUdFOWJObGpQTml3a05ySmM3Q3ltYkFha3dSM25xTHhoN3gzY1FieFg2RjhrRU9nXzYtSGtkRmNPSmNkT3AyNVkzclZCSjdLSU42N3ppNUJUNk1LZ3JlT29UTS1CNW9OOVFZZXpDaERGbldJalJkZzluM3ZVUWxpeHFjR0NwdWV4TldyYlRCb2RGVmFrb0FzRjJUcTczTjhIMEM5ZXBqTDM4SVhHcUVaS3c?oc=5",
+        "published_at": "2026-10-26T06:37:10+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What is Russia’s Filin missile, and why are Ukrainian experts worried? - The Indian Express",
+        "source": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVVZ6NFlZLUMyaFBDbUtveGFveE1QLV80S2k4d3VialVmTGEteUFzNWo3a0ZmSXZ3WnVHcjBQYUJ4WUdJbmFqYVpMLUlGY2VpLUhZTVRNTGdKTHJYczMzVDBFbUdrcnVNNlRzancya0pPamtKc0R6b0JPNzRMM1FsYkNMR2IyeFUxcl9POEFOdlk5RU5pbXRxVE1lejdMMmVudndCa09GYlZEb2NVeEU2OUFYRUJpVlg4b3ZLNm9pNzJXVzBhSzBHZjdoU25EcWtTUVFUb0hFT0hIUdIB4AFBVV95cUxPc0tXVGc4LWx6UDZfWm5HTC11S29yb0d4QXZaRFNoeE9abjVfYnh6LTJFY2NtSHE0RlNzeE1UcWNueTNpd2w4aHNvUU9iZ0tkR09TS0tRR3J4b2JtV3hIUlh2UU93MXp5Y0lxWld3bnlGTXROMXlxN1Q0ck5URWl3T2FjRExKbmJZZWl3S3ZXampGMXhlUHhwVFc4VlVscWR0UzZzamtRNDRXd3M0a3dTbnF4dldaTzBIeU9SWjkzcEZqNDExWFZoUkNmUVBTQjFXSDU5a1JSZUlFcnkzQWlMQg?oc=5",
+        "published_at": "2026-10-26T05:42:16+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -92,6 +110,15 @@
         "published_at": "2026-10-26T05:02:49+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Soybeans Hit 2-Month Low as Lula’s Win Lifts China Trade Outlook - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0dXZW51Tlp0SEJNc0ZJaEpHX3JWcE9tbUVhOHQ3Y2xlNko1X0RDVkxVc2xMc2RjYVc5NUt0OHJQeXBOeF9NT1J3V2N2RXFvcG5Mb3RTNzRxVDhvWHhibUVJUG9RdDFselg4emFuNVcwcUNOc2tJNldZMXcxLXFPY3RGbUx2Y3FFT2tEOHcxR1hJVFdtMl9kNl9mVk5yVl9LWUNWel95bkFDMXR2aUYxcDhBQnJjQQ?oc=5",
+        "published_at": "2026-10-26T05:02:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -140,15 +167,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Soybeans Hit 2-Month Low as Lula’s Win Lifts China Trade Outlook - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0dXZW51Tlp0SEJNc0ZJaEpHX3JWcE9tbUVhOHQ3Y2xlNko1X0RDVkxVc2xMc2RjYVc5NUt0OHJQeXBOeF9NT1J3V2N2RXFvcG5Mb3RTNzRxVDhvWHhibUVJUG9RdDFselg4emFuNVcwcUNOc2tJNldZMXcxLXFPY3RGbUx2Y3FFT2tEOHcxR1hJVFdtMl9kNl9mVk5yVl9LWUNWel95bkFDMXR2aUYxcDhBQnJjQQ?oc=5",
-        "published_at": "2026-10-26T03:18:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Exoskeletons, anyone? China showcases next-gen technology at annual trade fair - South China Morning Post",
         "source": "South China Morning Post",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUFpDTmlNTndCaDV5NkxqckJLR2JlQjJ3VHJRNW9CbUJIZHN1a01BWDM2ZmVhWnhIWFNscE1RUC1LTWstMnJObEFFdFozV21PWDdycTEwb0ZuVGIxdmh4TDFxOEhRMGtoVWpZVmtIWnBfSS13U04za0xNb0ZuSDN6OTJ6R2VacHhjUzN0dVJnbEIyRUZuRk1CeWMxemw0S2R4dGdxbkhaaXhVRzJVa1BSelRzc3VUWHc2aGQzRFRHZ0xWdy1XeFVQdVNJSEnSAcwBQVVfeXFMTlB5bXc2OWIzYmN0Tm9FdHUyMFhyeUo4R2lYRFk1UXhKcDRmVXFYNGVVa3pFUTdPOXJxYXB6V2duTlB2Mnd4YXJpX3pMTmZFMGlhMXpvRkExaTEyZ2dWb3JKa1FLRG40cmZiaUdXdkNobkxqSWhVVzJRa0lmbTJzTG5wSzg5eFMtd2IwLVVuaG42Zy1HMlRtOU5mUFpXTGFZaHdhZE1oVTFITUs4eHVBVVh1R3lzZ0ltYVJBMUtvSzNZT0JJSU5pNFc2dEFp?oc=5",
@@ -158,30 +176,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘Physically impossible’: Ukraine hits back at Musk over Starlink restrictions, disputes offensive drone s - The Times of India",
-        "source": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxORXVRVUxoLVNyWTcyM0pCWXFzM2VKX2x0eVNiZ1FDY2g3MzlHYW5pUTI4eXBpUlFON0VnN0ExTWVsVkp0VDBpa3FCWFp6X0paWWNpZjZRR2lCZVk2UFg1eS1kMFNJX2I2QVJrWEdZR2lDSGsxVE05Zms4NTZlRWtPdmtnYVNkQVV3ZmFOSW90a3lzZS1GcHNNUEoxTkw2RWY0Rk5BaE5TX29CQjEwSXRmWXVxUzRnSVVjdkdRNkYwYjBueDdoY2dCNnB2VWNvQ1FKNEY5WmRQRTJDN01Rc2lhX01BOUp2TjN4NmZNV1EzM0RlR3FyQ3E1ZkVoSXVxR3k2NDN6VTRVbS0teVdoSnFCZElYODFlTkZlRkxPctIBogJBVV95cUxQYmhkZzRuYlVmTFNiaUpkRnR0enBfM3k4RXhqeTZnbWRDRDdQLWNmOVRkMGNyaG1ObThTTXNhUzhVRl9WZTAzZTVXcUlNdXBzT3BuaU9QWlB5M3FFbjhuQkxDdmJoMHRrX2tqUEw2XzJfY2oxenZGdFc1a19ab2J1ZU5QYXpoUGllVmhWYnRhVTZjWTFhSXhRekVWSXB1dDRQWWVFZWlHNXpqX1A3UUxEdGpzX1ZtLVJLQkVnTk9HMnU0TkRGUmdkYW5rWjBXc1BpTVl1R2NTOF9DaTd0WjlycmpXZVhmenE2c01zcjJ5STkyX01zRFZFWFJFVzhVZkdMS2ItU2pHcXJPa0pZQVlJRi1rdWhkQVk3Qm0xeWJoMFBZUQ?oc=5",
-        "published_at": "2026-10-26T02:56:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "The Do-or-Die Race for China's Optical Chips Under the U.S. FCC Regulatory Shadow - 36Kr",
         "source": "36Kr",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kWXowTldYZE0wbGJrcmhnNkFHdXZkUVoxOFBNSEdMNmRwS0VJb3dqNlo3WkswSUk3OFRxUFhjbWpiZkFkSEpxR3JGbUs5WE83bnQ0?oc=5",
         "published_at": "2026-10-26T02:34:58+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine war briefing: Trilateral peace talks with Russia to restart, says Zelenskyy - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczVkSVc5NFRncGJOaGdaeVIzblFSRkNfd3Y0akhLdE1HVUhmQmRrdnJNelU2Y1p2ZFpUZ2VRdHYxVTkxVkVIRE5xQWFEYVQtUFRPcUx4ODZDeWhpSEdUZ2YtRWxkNGVyakhvZXpXc3drSjIyTWJZVHBJMW9majFiR0xwSElGelpJRTBjSGZIREJSZDMyN0x2NXlGeWs1T29kQWNRNUp2VnpCSEg2YmFjMGpjTnoyWmJIVkE?oc=5",
-        "published_at": "2026-10-26T01:27:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -203,10 +203,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil drops from near six-month highs on hopes Iran war hostilities to ease - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb2J2QlNheno1OW9FdmN3RTJWVHF1RXdLX0VQSGlKSkZlZEtNTnFxU3FUd1Zab1FPME1felpOVl9oM1oyNXc0T2xkdDZhc0JfUVlSTFU4Vm9aYWRrd1BhQmw1QThZRDZHbEZZR3Y5UlhNaDlWWm8tbjU2bjVtaFRVM0VMcml2OXY4TUtxNXRZU2c3c0lC?oc=5",
-        "published_at": "2026-10-25T23:24:00+00:00",
+        "title": "Qatar pushes for Iran deal, new US strikes remain possible - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WQlR2UGtzTUQ5TU9ybDdqUVdlVHlCeUVoRXZLVVNMZDd0NVJKbEpJUmo0M2NqWnlBZlNDQTBKc3Z5d3pzUWJiSGpxVHI0TWNveFE?oc=5",
+        "published_at": "2026-10-25T23:42:43+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
