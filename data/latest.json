@@ -1,79 +1,37 @@
 {
-  "generated_at": "2026-10-26T18:56:33.961025+00:00",
+  "generated_at": "2026-10-26T19:34:04.887235+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.986000061035156,
     "treasury_10y_change_bp": -0.1999855041503827,
-    "wti": 101.91999816894531,
-    "wti_change_pct": -1.3072513973125366,
-    "brent": 110.76000213623047,
-    "brent_change_pct": -5.106236310949852,
-    "nasdaq_level": 26185.66796875,
-    "nasdaq_change_pct": 0.8874016922396866,
-    "sox_level": 11141.9892578125,
-    "sox_change_pct": 3.3631489721074104,
-    "vix": 18.399999618530273,
-    "vix_change_pct": -5.398463255640995,
-    "dollar_index": 101.95800018310547,
-    "macro_score": 84.2,
+    "wti": 102.4000015258789,
+    "wti_change_pct": -0.8424471244968479,
+    "brent": 111.29000091552734,
+    "brent_change_pct": -4.652159225828245,
+    "nasdaq_level": 26200.365234375,
+    "nasdaq_change_pct": 0.9440269019787229,
+    "sox_level": 11131.498046875,
+    "sox_change_pct": 3.2658230302186952,
+    "vix": 18.34000015258789,
+    "vix_change_pct": -5.7069437882315555,
+    "dollar_index": 101.98799896240234,
+    "macro_score": 83.9,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +0.89%, SOX +3.36%, US10Y 4.99, WTI -1.31%.",
+    "summary": "Tech bias strong positive. Nasdaq +0.94%, SOX +3.27%, US10Y 4.99, WTI -0.84%.",
     "quote_times": {
-      "treasury_10y": "2026-10-26T18:40:00+00:00",
-      "wti": "2026-10-26T18:45:00+00:00",
-      "brent": "2026-10-26T18:45:00+00:00",
-      "nasdaq": "2026-10-26T18:55:00+00:00",
-      "sox": "2026-10-26T18:55:00+00:00",
-      "vix": "2026-10-26T18:40:00+00:00"
+      "treasury_10y": "2026-10-26T18:55:00+00:00",
+      "wti": "2026-10-26T19:20:00+00:00",
+      "brent": "2026-10-26T19:20:00+00:00",
+      "nasdaq": "2026-10-26T19:30:00+00:00",
+      "sox": "2026-10-26T19:30:00+00:00",
+      "vix": "2026-10-26T19:15:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [
-    {
-      "id": "0fe532708ab0",
-      "ticker": "MRNA",
-      "company": "Moderna",
-      "category": "Biotech",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "FDA approves Moderna's mRNA seasonal flu vaccine - ABC News - Breaking News, Latest News and Videos",
-      "reason": "Possibile evento fda approval indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
-      "published_at": "2026-10-26T15:06:49+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "fda_approval",
-      "current_change_pct": -1.63,
-      "short_term_change_pct": -0.8,
-      "relative_volume": 0.7,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T18:55:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 1.6,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 5.8,
-      "confidence_score": 72.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-26T15:06:49+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "MRNA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 98,
-        "freshness": 78,
-        "volume": 32,
-        "momentum": 40,
-        "macro": 84,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    },
     {
       "id": "f9777314d782",
       "ticker": "NBIS",
@@ -86,19 +44,19 @@
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONjVDSGpoLUNZYlRYR1pxMUZPR3hzMWhZZDNhT2x6UVI3MnpiQm1kMWlWUl9xVmkwakdyekZhWkJleWdobkZXbHZvSXRFa3ZfdC1UZHdaLXZfMFB2SFFFMlI3ai1aMVhHV1U1OWtSYWhDQTQ0NXp4Qi1JcjFsSUIxZ2lZdw?oc=5",
       "published_at": "2026-10-26T17:33:35+00:00",
-      "age_label": "82 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "analyst_upgrade",
-      "current_change_pct": 0.33,
-      "short_term_change_pct": -1.29,
-      "relative_volume": 1.55,
+      "current_change_pct": -0.31,
+      "short_term_change_pct": -1.05,
+      "relative_volume": 2.27,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T18:55:00+00:00",
+      "quote_at": "2026-10-26T19:30:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 1.5,
+      "quote_age_minutes": 4.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 1.4,
-      "confidence_score": 66.0,
+      "estimated_impact_pct": 1.5,
+      "confidence_score": 67.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-26T17:33:35+00:00",
@@ -108,9 +66,51 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 60,
-        "freshness": 90,
-        "volume": 61,
-        "momentum": 34,
+        "freshness": 78,
+        "volume": 75,
+        "momentum": 37,
+        "macro": 84,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "0fe532708ab0",
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "FDA approves Moderna's mRNA seasonal flu vaccine - ABC News - Breaking News, Latest News and Videos",
+      "reason": "Possibile evento fda approval indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
+      "published_at": "2026-10-26T15:06:49+00:00",
+      "age_label": "4 h fa",
+      "catalyst_type": "fda_approval",
+      "current_change_pct": -1.88,
+      "short_term_change_pct": -0.78,
+      "relative_volume": 0.44,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-26T19:30:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 4.1,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": 5.4,
+      "confidence_score": 67.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-26T15:06:49+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "MRNA",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 98,
+        "freshness": 62,
+        "volume": 15,
+        "momentum": 41,
         "macro": 84,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -119,18 +119,46 @@
   ],
   "movers": [
     {
-      "ticker": "DDOG",
-      "company": "Datadog",
-      "category": "Cloud / Software",
+      "ticker": "SAP",
+      "company": "SAP",
+      "category": "Europe Software / AI",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 4.68,
-      "short_term_change_pct": 0.01,
-      "relative_volume": 2.96,
-      "quote_at": "2026-10-26T18:55:00+00:00",
-      "early_move": false,
+      "current_change_pct": 0.05,
+      "short_term_change_pct": 0.34,
+      "relative_volume": 6.76,
+      "quote_at": "2026-10-26T19:30:00+00:00",
+      "early_move": true,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "DDOG"
+      "tradingview_symbol": "SAP"
+    },
+    {
+      "ticker": "UBER",
+      "company": "Uber Technologies",
+      "category": "Mobility / Technology",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -0.3,
+      "short_term_change_pct": 0.71,
+      "relative_volume": 1.81,
+      "quote_at": "2026-10-26T19:30:00+00:00",
+      "early_move": true,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "UBER"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "category": "Cloud / Software / AI",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 0.29,
+      "short_term_change_pct": 0.51,
+      "relative_volume": 1.67,
+      "quote_at": "2026-10-26T19:30:00+00:00",
+      "early_move": true,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "ORCL"
     },
     {
       "ticker": "MELI",
@@ -138,17 +166,59 @@
       "category": "LatAm E-commerce / Fintech",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -8.67,
-      "short_term_change_pct": 0.19,
-      "relative_volume": 2.54,
-      "quote_at": "2026-10-26T18:55:00+00:00",
+      "current_change_pct": -7.91,
+      "short_term_change_pct": 1.31,
+      "relative_volume": 3.52,
+      "quote_at": "2026-10-26T19:30:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "MELI"
+    },
+    {
+      "ticker": "ARM",
+      "company": "Arm Holdings",
+      "category": "Semiconductors",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 6.74,
+      "short_term_change_pct": 0.79,
+      "relative_volume": 1.85,
+      "quote_at": "2026-10-26T19:30:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "ARM"
+    },
+    {
+      "ticker": "RDDT",
+      "company": "Reddit",
+      "category": "Internet / AI",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -4.17,
+      "short_term_change_pct": 0.83,
+      "relative_volume": 1.4,
+      "quote_at": "2026-10-26T19:30:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "RDDT"
+    },
+    {
+      "ticker": "NKE",
+      "company": "Nike",
+      "category": "Consumer",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 1.46,
+      "short_term_change_pct": 0.92,
+      "relative_volume": 0.34,
+      "quote_at": "2026-10-26T19:30:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "NKE"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-26T18:56:22.312584+00:00",
+    "updated_at": "2026-10-26T19:33:52.136717+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -158,21 +228,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Titoli tech e AI",
@@ -186,10 +256,37 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       }
     ],
     "geopolitics": [
+      {
+        "title": "Netanyahu pushed for Iran strike before election but Trump refused, CNN says - The Times of Israel",
+        "source": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSllVZTRWSlotR3pRbDliYldYLWFOMy1jNUtSRHVCVDNUQWN4MTFPYVdzUEU0T2ZhZE95czU2aWVLd3FXNU1fX2ZqMTVTdDdmQnQwYjFBQ3ZxbmRNU1NVM2J6Wk10d0RIWEYyT2hobzlyblNfSmRDN0hPZmx4RGxDaWN0MERQWVREa3JKVVdNbW4yZ21qWGtraURZcEh1YTZNZGhLSDktV2J5d9IBrwFBVV95cUxPdHRXNUhRc213aVBLeVkwWlBWTlZQMTBxTmYwS2NpRnF3dFZfTVpmcXN4aGdiRFBBakdxMFFfLXozd25MVzRFbmNnVmlaTXJRcWs4cV9WbFlac0VrMENjYlZIS3VfR0x5YzAxTHIzNTR5SmJhbnVxUUsySE4zb1FORllTWkdtWE5oeXVsMHBiYklvbGVuem5EQ0RmMlJESWtHbU5ES0tqdWpvX0dLMFM4?oc=5",
+        "published_at": "2026-10-26T19:07:30+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "A Sanctions Reprieve - Riddle Russia",
+        "source": "Riddle Russia",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0zSDAtQzB3U0xQU3FxbGhEWjhoX0NGUmZZb3NLbC1IRjAyRzNXVHdYLWZNUWFMMHBBVl9sVWdhQXQzcHl2OEZIX0NSREFTQQ?oc=5",
+        "published_at": "2026-10-26T18:56:50+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Tanker Disabled in Strait of Hormuz Attack, Another Vessel Reported on Fire in Persian Gulf - gCaptain",
+        "source": "gCaptain",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZXdSSlRvOG9QTF9sc3dEeFNaRWtuNVdlZTY3Yll0MUhWVVR0bVlGU1RnWmpfSFVNWUtaTnh3LXlSSlNVakxVeUtNS1l4UHk4MTRHTUIyQXJBRHZlQlZjenctT0VyTkdGbTJSb2lhbzNta2xWd2FkNWpwRkFCNVhaY2lYMTNqeERfOThYRDdMVkFndTN6Q0NYa2R1UjlTZjk3T1Z5UndiaVFyQmx6czNrNEp3?oc=5",
+        "published_at": "2026-10-26T18:46:03+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Musk accuses Ukraine of violating Starlink terms with deadly drone strikes - Ars Technica",
         "source": "Ars Technica",
@@ -209,28 +306,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Russia's Severstal says power restored at Belgorod region plant after drone attack - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRm5VaGNtWkpmQ0R3UHA3b0F6SDQ5TGtHczMtOW9ncjlqRjAxSWNQWnVBYUYxQmZjZmN2OHlaYjZYbkJpY1dxSk5yWjRnWmVYc1NLLWl6N01rQ3YtVVVjNW1aRjdVdTJKWU9PT1lvUnRJbnZvZ0VGNjVUSEJKb1c4OFFsVTFNeHJaX1BnbllnWnp1eUc3VVBqUzExOUF0enNYUEp3a1RqSkxraFE1dVE0X1pGWjZjTjVwUGxqZA?oc=5",
+        "published_at": "2026-10-26T17:37:43+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaXpnLU1DZ3RHdUdUUEpLT1gyNHBacVNZczhrSkhzd3dLZV9RMl9HNUszaFNXRTN6dEctQnRoSVA4Q3Rfc1dFMlBmQ29vWExwa0kyRzdfSUl4RDNIcDA5ZllHQ25SYXhUdHd0VXF1OEN2LTYxdmU5aEt1UDgza0IwRGg0bnJRZjlLV0ozelVEdU1EVGNJLTJkREtWTjZUaGZrVEJlb0NkTGFVQdIBrwFBVV95cUxQQlZtUG9QcDFJVTdxOGdrb1R1NFVnZUFPRVk3VDhSZ1kxNEhJNmFEdVRQMm9OWDlsQ255bG00SlBsaElJM3RhVFZfWXBkU0R4a09yUlFLbHl3WnFMdWtPazVhYVFfSmdSalJtZDJLbnN0a0RLR0g3NlZqSEZ2eE9jOFB0VU00ZUxkOVRlLXY2MGx1ZHFSMDdnaHhKeTJoZW51RU9iVEJfTFB0Wl85TG9r?oc=5",
-        "published_at": "2026-10-26T17:30:46+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukrainian Troops Evacuate Two Wounded Soldiers by Air With StarGate CASEVAC Drone in One Week - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTGU1em00T1ZKNXpZdzVDclZ6RHZDQXBzcV9KYjBYamU4dFIxcks4aFlnMHJnMzRGWGQ0VE1KMW1pZFJNMWF5U2JhZnBTWnhoOW1EREw2REs3eTFIb3cxaVVJa3VfLXVaMHhLRnM4bWNKQlM2TUViWUhzaC1qYnZ4S1FEeE9wUEE5TS1fMGNrRXZrTDlHc2JyMWpqSjQ1eTlYV1hpUm1JZzZ5bmxPMXp5U29xRXJVYWE2MzlXWUdyLXpDNXAzb2h5TmJjd1RPajB1XzRhZjNlcw?oc=5",
-        "published_at": "2026-10-26T17:20:11+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia: flames engulf buildings after Ukrainian drone attack in Voronezh region - Africanews",
-        "source": "Africanews",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVzJ6bmdoRFVMcl84WW03alFoYXFYd19zdkNGNndfTUhONVhhNlVyZDRFQ1BjM3FNSU85YnE3S2N6WTBHd0hWTUtxVDMwQXRWT3cwUFlSWmhCU0NyVDNYaEU2dzJ4eW1nblR3N2hhT3JLaXJBQmNnWW50RVl6dldDcno0VEVkUHJWMTNiR0ExU0l0Z3BkQlNKSkI2T2tPOUpzZTJYYUZEeFhibkR2dEZOd0VmQWdNemRm0gG-AUFVX3lxTE9PYUQwc3JuNXlERTJjYTJ4YmIzbkJnaWYyUmNnR05qVTBGV3g2QUlvTlNlSXBxVzhzSXFOS2pjbXZDV3JBUU5FTE52LWdTN1NuYTI3UEZtbURWV01ucVN5WExZWVEyeVR4N0pob2xJWmluWV9PcFJWUzhINXVMUlZCaTZwd1Boajd6c1RHbHROaGtuQjJHNjBXZTVubzZfbHQ4SE9mRmpSNjI0ZUtBeVhlS3lwOWFjaUJPODBQdFE?oc=5",
-        "published_at": "2026-10-26T17:19:51+00:00",
+        "published_at": "2026-10-26T17:28:01+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -254,24 +342,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Prices Rise on Fears of Middle East Conflict Escalation - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM1hJV09vQ2pHZVVPLU5uUVVCSTdEVk56TzBQSW5Walc2eU5XTTVqWmZLVUdJSGRFRUhUR2RJb18xbWVGOFN1OHJyZWpNYXNQU1d4R3RTcnRjTkJNc3FPTFVUa1lhRDFreU9Dc3JucjNvR0tTNUJScmtBYWdwLVZiUDUwaVFnMEZrQkRWdzNqNDNGRTVmZWc?oc=5",
-        "published_at": "2026-10-26T16:32:14+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Netanyahu pushed for Iran strike before election but Trump refused, CNN says - The Times of Israel",
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSllVZTRWSlotR3pRbDliYldYLWFOMy1jNUtSRHVCVDNUQWN4MTFPYVdzUEU0T2ZhZE95czU2aWVLd3FXNU1fX2ZqMTVTdDdmQnQwYjFBQ3ZxbmRNU1NVM2J6Wk10d0RIWEYyT2hobzlyblNfSmRDN0hPZmx4RGxDaWN0MERQWVREa3JKVVdNbW4yZ21qWGtraURZcEh1YTZNZGhLSDktV2J5d9IBrwFBVV95cUxPdHRXNUhRc213aVBLeVkwWlBWTlZQMTBxTmYwS2NpRnF3dFZfTVpmcXN4aGdiRFBBakdxMFFfLXozd25MVzRFbmNnVmlaTXJRcWs4cV9WbFlac0VrMENjYlZIS3VfR0x5YzAxTHIzNTR5SmJhbnVxUUsySE4zb1FORllTWkdtWE5oeXVsMHBiYklvbGVuem5EQ0RmMlJESWtHbU5ES0tqdWpvX0dLMFM4?oc=5",
-        "published_at": "2026-10-26T16:01:40+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China seeks input on new rules to protect trade secrets, targeting foreign entities posing risks to national interests - Global Times",
         "source": "Global Times",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UdzZOMUxmV0hpQXZMdUVYSXB0Njd2TlJBcHNWcUxMaVhvSXFqc0FFbGpTMlFuUF9OTlg1M3Bzb3RZTFhRNnFYZTZLV1NIQjZWUWY4RmZTbjM0MFk1Yl9neXhn?oc=5",
@@ -290,29 +360,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran’s anti-negotiation hardliners turn against President Pezeshkian - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcnUwS3FoUk9pTEFPUVNTbXpMN0tDWGg3cjZIejB5ajFxUTJIcVNNeVFTdzIzTnlwZGhmUVZnNDRvbEFWZHRpSVZBU3ltLTJnQzRrMFp1ak1pSUFXVXdTcUczTTVkRzZRUENzaWVkNnR5N2VHWDhRRGlWb0RRYXQ0U1QxSDVOeEY0bmtnY1N4amRoMl9HNFpyWGp6UGVDbDlKUzhma2U2TDZnVFFqVUHSAbMBQVVfeXFMTkxJYjR3d1VkRmpuZksydHJrU3JkOVIzMmhxUGVyQUNyb0Q1M2tVSGc1am9ZQzJKMUUydjVfU0tLOWN4bDZmMFd6d2FiMTBWOG50eE5PbEZCMHNiS2kyWDdhektmTVQySUhvdFNZbWpDVklRZUhZTkZHZkV0UXBiQmgtZ3l1dnY5RktNOEY1OWQ3Z1BWcGN3NHpiOW5ja3QycGY3cDFJd01FSVc2UFVVUmxaRWM?oc=5",
-        "published_at": "2026-10-26T14:35:08+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "USTR proposes two-month extension of China maritime trade fee suspension - Logistics Management",
-        "source": "Logistics Management",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObmFfNTVsVzBHWG94Y01Ob0V2Z0t0Z0dHcmV4UVFGa2JqYUZIbG1Gc1BCTzV6MFF3R1V6X25LWlEwa2s2ZFV0emJXdllYQ1lfN0wzdy16a3FYdzFsZ282VEp2dlE5MVJvSXEwU0tETmhucFFuRnQzbG1HZ05KLVVGUmtlZTFRUGRhUkpIOGF4dGt3NjRqdlVjRlNXZ0ZhQjE1VjFfeWVXT3htNWRDWFdR?oc=5",
-        "published_at": "2026-10-26T14:20:26+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Iran says messages still passing to US as Trump rules out Sunday strike - NewsNation",
         "source": "NewsNation",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcHZWQ3FuUkRhdEYwZ3ZvTWJMZUgwcDNQaUpIMEJaSGhSU2xNc0ZyaVpQVmhfZnQta20xRmF3Y2hlcWM0YzRwbDJOWGt4NTA1TmxzVWFEQUoyMHZlMVdLa3lqM3B5Z0lHaTYyTHFzVUxRU3QxR0pMLWtfVy1aT0l0dnVCR18yVmxoWHJV0gGQAUFVX3lxTE5Cbm0zYUI1Y0pmeEZNYTZIbDJ6SGdqV0xndm1nMlpWRGptRnhaSkxhdEN3dGlfVTZncW1qZlItZmJrM2xIZks0R2hPODhJMEtMSWl5aTB4RlNNUWlaUlhZTHpTczdyY3pmWGVfUExJOFo1WXhkMXZWYjBGUWtBZXRFcFJmdTh5VGFLdzVndXJxdw?oc=5",
         "published_at": "2026-10-26T14:15:22+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Taiwan to Expand Artillery and Drone Units in Military Overhaul - The Defense Post",
+        "source": "The Defense Post",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SVHBFUW0xTWl5N2ExVUNPVnRNYjk1Y05WdzNtbzNLbGpsalp3bVdGWmZadEVKUzZXZDNRT3M2LVcwTndic1NnRDRqeDdvR0NGaHEwa0xlM25YdlNXY25tdFotbldxQ1FUaVRGNE1rQUFBSWQ0VnfSAXtBVV95cUxNMlFJNUJCLXZLMndQMms5Yi0wZnBGU1dJTjg3Um5QVnRheE5qeTBoLVZ3NDB6cDBqZ0ZPeUtyaWpjQnNkMnhobkhfdTNwdEdwY3NLYlRNdEZ6R3hxOEtYUWtaWEZtZGlNWHhHT3NtLWk5NVA5OHlLd3BBTjg?oc=5",
+        "published_at": "2026-10-26T14:09:07+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -324,9 +385,27 @@
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy, Saudi Attacks - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdHd1Q1FTWEFlUlUtZ1FQRWJfYm1QYm5KZW1jTVA2cS01R0cxb0xsNVNrdXJVNm44VTd2ZWN4WnY1R0tla0JuM3NVUmpBVF9GLTl2WEdFRmNUTFpEVUpHVHQzdUREUFBwN2ZEZ2xGcThUa0lKamdzaEY2c19pRy1PcXZCd2hPUmRfTmQ4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEI?oc=5",
+        "published_at": "2026-10-26T12:15:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Pfizer’s TALZENNA Plus XTANDI FDA-Approved For Earlier-Stage Metastatic Prostate Cancer - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcTloMklJUEQ4V0RWTTN1THlpYk5wOHZGN3FLN05xVHpHVzBLSWdPRzk1NGFiUjlWWlJfR1Nma3p4MzZicVl2LVVrVFZxWnhyNVJ6TG1pc19ieUFXdEhCekRjcUFIeGN3OUlWVjc1TXRIZ2oteHVmOEdYX1NjbDR3Mzh6VzdyUl9NemEzeDJpMHd1SWNiTWVEcjBDWGVwTTdxZFg2d1J2ZDVyb1A1Y194MzMyMGZxNDN0UjZqQ1oxWk11S0g1VkZDVElfOWFoMDRaZXllZnN3U2tfTTdLSWh1WFNQREdtU1JubnhLamlR?oc=5",
+        "published_at": "2026-10-26T18:36:46+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "FDA Extends Talzenna-Xtandi to Hormone-Sensitive Prostate Cancer - Pharmaceutical Executive",
         "source": "Pharmaceutical Executive",
@@ -351,6 +430,15 @@
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUWt6NW5UdXZnZG1qcFpDZ0s5T0p3WjRtWElFRmtMWlJodkVPSXNVbUdQOGpUWnE0Q2VDNlBZRE1xWmUwSUU4czFZM0RnMVJldFFMWEcyT1I1bXpuV0xNSUN3Y2dtWDBLVG85aW9pYUdKRllEcnViT2hzTkkxMkZTWnNaQXpkaEdJS29pQVZCUDRCMjBqN3pFSURFZmlldG1wOTF5MHI1VV9GQ1JOdnlkUEtfd2tqQjA?oc=5",
         "published_at": "2026-10-26T17:54:22+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Cadence unveils suite of AI models that chipmakers can run in-house - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXZrWlJVYTllelhNczNoX2dHZ2pQYk1FTUZtLVNPYUdZUEdEVElSZGpLR0QzWTJZS25DOUNHdXdvakRCcHBLVmxKbFBwVmNXWUhtZllwZ2p5ZzdjdnBUb3ZkOWRmT3VzbUNLQ09YRVVJQk5WSWtncHVkRjZUWlJYbDJ2TzRFM0hEM1YtOHd0c05XaW1GRFJhMU1aZEpzOVJZaU5UQTZCMi1EMExhNnRKRmRmR2gyaGZq?oc=5",
+        "published_at": "2026-10-26T17:22:18+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -391,28 +479,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA approves Moderna's mRNA seasonal flu vaccine - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
-        "published_at": "2026-10-26T15:06:49+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Meta’s $95B Equity Deal Echoes Alphabet’s Offering. Convertible Stock Could Yield 6%. - Barron's",
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPREt1M0lURWZfNXpiVjRNLTRkcWFyWDN5MlpZdDJmZU93Wkd5ZExBTTc4TWpKWFpaN200Q1V2N3Q5RFdIZEhPQS1PZnhHMkhMRWZDUnpyYXd4am9VYloteTdNblJSS1ZhM0d3RDY5TDFGYkFKcWlGaG1PVVZvblNvbHpBei00RTFydkRiSVk4RmZYbW9GUFk5MnZ4aDROX1FkcmxDd25zR0Y?oc=5",
         "published_at": "2026-10-26T14:37:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AI Critic Claims “200 Billion Dollars Worth” of Nvidia Chips Sit in Warehouses - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeDQ5R082OGxfQnFxZ20zUWptckh5czlPN29ZODNKM2p6OERZZ0RtSVZrSFo1YXZJcHpHQThLNVF3VklwaEV4NUlOVGNfd2pJb0RqeXI4c1dhaC0zYzJ6U3dfOFVYVWpSRjVyakxjVlBRak13c01SRFgwTldVelhnakFrUDFlbjVub0NabUNDMHBtRkM1bGZnWg?oc=5",
-        "published_at": "2026-10-26T14:14:20+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
