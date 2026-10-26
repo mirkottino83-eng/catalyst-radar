@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-26T01:36:07.592558+00:00",
+  "generated_at": "2026-10-26T02:15:11.748318+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.98799991607666,
     "treasury_10y_change_bp": 3.499984741210974,
-    "wti": 101.47000122070312,
-    "wti_change_pct": -1.7429994004789506,
-    "brent": 110.05000305175781,
-    "brent_change_pct": -5.714528871819635,
+    "wti": 101.30000305175781,
+    "wti_change_pct": -1.9076146560917495,
+    "brent": 109.91000366210938,
+    "brent_change_pct": -5.834473515569016,
     "nasdaq_level": 25955.341796875,
     "nasdaq_change_pct": -0.20576672492005343,
     "sox_level": 10779.4638671875,
     "sox_change_pct": 0.44244767846683963,
     "vix": 19.450000762939453,
     "vix_change_pct": 2.20704183467888,
-    "dollar_index": 101.64900207519531,
+    "dollar_index": 101.61000061035156,
     "macro_score": 43.9,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.74%.",
+    "summary": "Tech bias neutral. Nasdaq -0.21%, SOX +0.44%, US10Y 4.99, WTI -1.91%.",
     "quote_times": {
       "treasury_10y": "2026-10-23T18:55:00+00:00",
-      "wti": "2026-10-26T01:25:00+00:00",
-      "brent": "2026-10-26T01:25:00+00:00",
+      "wti": "2026-10-26T02:00:00+00:00",
+      "brent": "2026-10-26T02:00:00+00:00",
       "nasdaq": "2026-10-23T20:00:00+00:00",
       "sox": "2026-10-23T20:00:00+00:00",
       "vix": "2026-10-23T20:15:00+00:00"
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-26T01:35:56.531931+00:00",
+    "updated_at": "2026-10-26T02:15:00.867340+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,7 +51,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -76,6 +76,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Drone sank Black Sea cargo ship near Romania, killing 1 (Video) - Shipping Telegraph",
+        "source": "Shipping Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaUZiY3ctX2pCRVZSWlk0TDdSckNBTVlTRTBzcC1FSllsZjU2cE1mdWJfY1dBRUk0UUZMSjNGbldzbmpvOW1yb2xHX1pQWFVXaF92ZzM2d0RnTlVQS2huZEZoQVhXMmlZME1xRl8wd1RNOTNkN2Z1V0lfa05sZTdORDFrOUo1UkVNT0RReDVQRXNGQjRISzhCbU5IdnVRZ0V6Z2k0NUJiREFiSkRh?oc=5",
+        "published_at": "2026-10-26T02:02:22+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What happened during Russia’s latest drone attack on Ukraine? - Latest news from Azerbaijan",
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVDRpUDdROVlvZThGa0JlMUpYQmVtMW5ydk5XSnZHUVJRamdlRHBBTmlxamN4NnFVa1JiSlRWQU9mb0phTHFvYUpENjhoQXVGNEtxM0RMdU5Uek93VkZGcVNfSTFrNUFuX1NvQk9HMEttbUJNMUU0TDUyQXJlWnplWDlIQ0JqWFk?oc=5",
+        "published_at": "2026-10-26T01:40:15+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Ukraine disputes Musk’s claim Starlink was used for offensive drone strikes - WXLV",
         "source": "WXLV",
@@ -95,15 +113,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine disputes Musk’s claim Starlink was used for offensive drone strikes - The National News Desk",
-        "source": "The National News Desk",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ1ktN3M4cmpfaFpOcm1vNFdsUThMMVl4aGRsdy1zSk1la1NEOWt2c216al9pUWNMNUdmdWp3endGT19Zd3dKN1BnbXpkMGgtVHI1VFRQZGEyNU5pMTZqa0pXWDd5YW5MdTFaQUpIY1BYbGZiRUVxRmlsVEN1ZFI5dy1DbHBnYTBBQ1ZQamNHcTY0SVBNN0hxUE5INksxaWFNNVJ1WW9jNWJxMzdEQ2RGeDk1SXZoX1JHbm81MzV1VllYTkU?oc=5",
-        "published_at": "2026-10-26T00:46:07+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Washing away the US: Tariff evasion on the other side of the US–China trade war - CEPR",
         "source": "CEPR",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdXFOOE9ybUFrVGNraFdvaWNEdDM1YXlVdU1xTVNFdW1aTUVlYkNyeUtoRGJVNXJkeUF3WXE4Y3c0ZVJsTldybDA4UFEydDdEcUN0TnBlTHVJcnhDb1ZPSTBMcFBLSU5fdERrRlNONEx4bUItMEZiaVRLMzBmbnFBLVRLTTR4MlZzNFl2UE1IMlc0VURjeUE?oc=5",
@@ -115,7 +124,7 @@
       {
         "title": "Israel drills for surprise attack with massive military exercise as expert invokes 1973 war - Fox News",
         "source": "Fox News",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTEpKSGFOVGozVnNXR0cyU3Uzc0ZsX2EzZ2RwZDdhNXlVYklkbWt0M1lCZk56M1UtbmpHeXBYZWdoNG8yOHhfZlBhR1JLeTYwVndtYWRiTFNyS0NNRVpvOGpRcDg2bktyV1Rva1dadUFmRUszSzA3TGxJTHA4X0t0QlJVS0VMUExUeHFJUnMtckxlYnlmYnNYNUpaWXlBb1M2OEN3T1VZempvcVpUMGc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTEpKSGFOVGozVnNXR0cyU3Uzc0ZsX2EzZ2RwZDdhNXlVYklkbWt0M1lCZk56M1UtbmpHeXBYZWdoNG8yOHhfZlBhR1JLeTYwVndtYWRiTFNyS0NNRVpvOGpRcDg2bktyV1Rva1dadUFmRUszSzA3TGxJTHA4X0t0QlJVS0VMUExUeHFJUnMtckxlYnlmYnNYNUpaWXlBb1M2OEN3T1VZempvcVpUMGfSAbMBQVVfeXFMT2JNb3lNQnlfb1FPYlZFNmtFZjNQZEtRQlMzSkotZDVPMnFtenE1THMwcU1IOUI1ODlpdjRzNmdqa0JYTUQ1M2ttMGFYaWJ6WkhVdzJRZkZ3d0NEWTFSUTN0YUtkMHRxR0xiTlpCOXc3X3h0M3F0OFdqeHVuc2NMMEZiOFIzanVNSkJIVkI5dHpJeWp1NWdtTXE2Rk13UjB6OXRmNWZIOWRzOFZmUjZiekh1eHc?oc=5",
         "published_at": "2026-10-26T00:42:24+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -167,18 +176,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "‘27 shades of grey’: Different ties to China complicate EU trade response - EU Perspectives",
-        "source": "EU Perspectives",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBocDBDV3RRZTFzSFo1cGRVMzM4Y3E4OWxlRF9HODRxNnFuN1ZvMnUyTFZiQmxyR2EtUmlteEZrSlZWc0swMC1Sakh4Tzh1TG51VHJiRnFXTlRna3U5MENOdVQ0ZGNOZzktWmlNNHhudUw5WWFhQURKOVlB?oc=5",
-        "published_at": "2026-10-25T20:35:12+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "President: Ukraine ready to halt strikes on oil refineries if Russia stops attacks on energy sector - Ukrinform",
         "source": "Ukrinform",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeGVJbUJ2RThMRHptWGxYOWFoM0doY2F2MUk2MWk0X2dCMm9UUlN5VDJtb2JtVlVDZXA4QlBXeGFCQ1dUMm1MUTdFcnByVUdjbzRNQjVCcHhHMXFyaUZ3cEhtaVpkVHRacWo2M2h4azNfUUVYRzBLSWt5d3UwNDdSNHU2em4xcTBMSXVjb28yemhmcDhqRF8zVkN1bWxFY2tRSzBqR0VFbnFUWGs4dmJpS3BkM2pBUUowWWQzcXpCLUVrZl9tdG95UndkN2htT2dEVVowc2FkanBXNzFkcnJtQ01sLThzOWPSAecBQVVfeXFMTXhlSW1CdkU4TER6bVhsWDlhaDNHaGNhdjFJNjFpNF9nQjJvVFJTeVQybW9ibVZVQ2VwOEJQV3hhQkNXVDJtTFE3RXJwclVHY280TUI1QnB4RzFxcmlGd3BIbWlaZFR0WnFqNjNoeGszX1FFWEcwS0lreXd1MDQ3UjR1NnpuMXEwTEl1Y29vMnpoZnA4akRfM1ZDdW1sRWNrUUswakdFRW5xVFhrOHZiaUtwZDNqQVFKMFlkM3F6Qi1Fa2ZfbXRveVJ3ZDdobU9nRFVaMHNhZGpwVzcxZHJybUNNbC04czlj?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd2dVMVpuN1d2WjlZTDg4bkJ5eE9wN29pcktxcVBMNVFRUG9TSW1vRkVodm10d2JfMGtraVk2RzlkT2VsOGZjejdQZVNUaVdDOFA2SGhYLXZnbjZvM2ZRQXhqS2h4S1pHLVdZZnFxRS1wVHhZY25OMHpzMk9DY0VHdlUwVkpCbEtLNUhpcHJwc0FuNGlhaGVDTFUyY2FYek83TjQ3TWdOQlBGcElQRXdBa19pcjJfMEV0WU5fLVdRdHFLWkwxci1xR2xuSEJFU3UyRTlJcGxYdHh3d2h0ZVVKcmlB0gHnAUFVX3lxTE14ZUltQnZFOExEem1YbFg5YWgzR2hjYXYxSTYxaTRfZ0Iyb1RSU3lUMm1vYm1WVUNlcDhCUFd4YUJDV1QybUxRN0VycHJVR2NvNE1CNUJweEcxcXJpRndwSG1pWmRUdFpxajYzaHhrM19RRVhHMEtJa3l3dTA0N1I0dTZ6bjFxMExJdWNvbzJ6aGZwOGpEXzNWQ3VtbEVja1FLMGpHRUVucVRYazh2YmlLcGQzakFRSjBZZDNxekItRWtmX210b3lSd2Q3aG1PZ0RVWjBzYWRqcFc3MWRycm1DTWwtOHM5Yw?oc=5",
         "published_at": "2026-10-25T20:28:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -203,16 +203,25 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zZEVnZGFIdVlkM2pfTFJET2U3V3lmOFRXN056cEtoTlEtMjNuYmlSSXdnNGM0dkJZQWx6c3Q2bFVRS2FFTzFZWHZDd0ZaY3BvVUhnNUNmSVlfZG1LdWxpM3lSR1R6anpqVmVYWmNqYmNoVGFkNjZMb19IeV_SAYIBQVVfeXFMT1NhaEV1bVRTRUp2LWRJTFRrQk9ZR2ViTkFaRnBaNTdLSXVLUnRBbTdmWHFOTm5vQU5obUFITGktQTJUMmxvbXdrVm0zQTlsQ3B3YVU4VXdKZmNkNjI2SC1rNjdWYy02YTZ4eUs3bW5Xdm8xXzktXzJ4cXRrajFNTFhpUQ?oc=5",
-        "published_at": "2026-10-25T18:18:30+00:00",
-        "area": "Russia / Ucraina",
+        "title": "China studying Ukraine’s drone war to strengthen training and defenses - Interesting Engineering",
+        "source": "Interesting Engineering",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcXVwLVNxem1BQ3d6Rnc2eDJTVmZxUTdLNmRTUE5JZFlRWm1GZmZvb2Q1Q0MwZGI1SlJuWE5UQkI2Q1AxazRVa0IxRnRhd2JhMTJRMHk3RmpqLVo1Skw2YmM4S2RDR01QeEY5MHdfZFdaWGFDYmJsdWFCZmdvbmJBOW1HeG92cGdvcmF3b0k3bjFGQUZ0MVZj?oc=5",
+        "published_at": "2026-10-25T16:59:00+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Why Nebius Took a One-Year Loan to Build for Five-Year Contracts - Global Data Center Hub",
+        "source": "Global Data Center Hub",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1RndqTTZwTlJ6VllpQkNJWkwwRG5CM0RVWWRPOHBvdW40bFBfTk01cHdXcXFmSHBZcm9MOVZCLVJyamZHeGp3MG53SmVtRHoyS3FSa3FVdWRQSENhX1puZ2c3bjFFT1IwWnkwUnJ0MzdWc1ZuQnd2aGI0RU53VkE?oc=5",
+        "published_at": "2026-10-26T02:00:52+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says - CNBC",
         "source": "CNBC",
@@ -223,20 +232,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Musk Claims SpaceX Closed $40 Billion Debt Deal for AI Chips - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbVAyZmZTRzViZmxwNzRUSGd5MXpWNlRFLWlzT3RBMWx2cUhhaFhXUGRHeHRjam9LUldoZUpJNnVyTk9JcGdzVC1FTzNhQWVnWUJlV2hEZ1lFRzR6aE1TWXFiUG1tYWF1c3FjX00tX3FoMXk5bUtrNm1Sd2k3QTd1b0dYUUlhbHBJRDRabHg5VmdyLTV5TXRtZ1ZMWmJIeF9iYWh5T1dqMUZYbkF0ZlVBaWtn?oc=5",
-        "published_at": "2026-10-25T22:38:58+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "More pain may be coming for the AI trade. Why I’m not giving up on it - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb0djWEJIbkxUamlqeWtpMWpvVUp3dTZCblRoLWF5UWRxcGVRaFkxTFR0TVpCYWV4TXBQZTg4SVV1eXdDbWtKZEFhOEVYdFZaVENMMHpDSDA0c2VJNnU1WjVsck5zYXlQY0RYTWx2YWY4WXpnZTh1RDQyTjVPUXh5OFpfMTBZVWNQYnZrdndMTjE?oc=5",
         "published_at": "2026-10-25T21:13:50+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "health news today fda approval weight loss drug - emy",
+        "source": "emy",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNWtmRGJXTmY5ZUlpaXM4MHRUZG50dEE5WHJwZ1dHMTBQN1J1VzE0cm1GVU1DQTdJcGF5c1htZW1lMlJBX3hEd3d3OGZwWEh5VWI3VjVlMlotNm9ZZS1NR09JbExMVjRXSWRnbHRMOGpfMGtZMHVOUWc1YW1oRWN3UzdldFh5VWV0UGZKMXBuWHc2QQ?oc=5",
+        "published_at": "2026-10-25T20:56:50+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -255,15 +264,6 @@
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbkdyVGljVUJVQWdULUphcThyYWNxRzdYaFFCSEpBakFJS0lBYTZkc1phOUZDVjRPbDNqZXVQVU56VkdFWnVJRXFQVEZDcWZmRnM0Vy1heE5Vc190UXBXeS1mYlJJaGw3NWo4RDdEWk5fd0xzYnFFa3VKdV84VWp3RWlwb1RkQVpfUFh1MGRMZF9PbTAxZkRvY2xlYk1DNldzUHpfOTJvbThidmxfOXZmU1pyQ1RLWVBLaDZGLWJ5M2ZfOUVXdDVodTZ1OHE3aldmNlU0M3JjcFpwbDBmb1dRd2Fn0gHnAUFVX3lxTE1Ca1BJbnhwRVNfNlhlSE5aX0VhRnRRQjVJZi1ZZ3hzd0tHU1YxNDhvbHF4RGktU3pYVUk2UWQ1dlNMeXFwZ0xZaWIwV2c1djVCcHZHcXpQcTFqb3hYMThtNlhyeXRBSjNYX2F1ZU8zQm5PVlptWE5jTHhLMVVpdDdPdk12d3BCY1JNaWJnaXNQeWxVV0gySWhIVXNuWGhnd2NEajdISEdxT1BDSHJqdUFXQ0VhejJISFp1YW03VzFsdWlOa2RCV0YwRU9WRWdZWnhkc21RbTB1NmpFc3RZelRsWmxBT0RKYw?oc=5",
         "published_at": "2026-10-25T18:33:28+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia Teams Up With 6 Supply Chain Partners to Expand Its Global AI Manufacturing Capacity - Barchart.com",
-        "source": "Barchart.com",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ3M3d3NXNGE1UGZ6UHUtVDFOMFQ4LTNfV0c0WWhpc1BuU0hmSE82T3N2UXZEdjNZVFQtR19lSTd3TExwTzBTTHdBUHhZaERMclJKLXZzM19TSnlQYlhGakNGdHRHc1RZNWtHRkc2Y3ZoZHhnY190VlZ0Q09ZeDVHS0kwZ1ZTR3otMEFiRHByZ2Ffbi04UUdoSmduU21YdHFNTnlXNkl3Zkh6VTc5VWhyMmgzU1ZraFNaUHBGZnp0U3YtUVhFRGhrTHdBb29yZVJq?oc=5",
-        "published_at": "2026-10-25T18:30:02+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -295,11 +295,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "health news today fda approval weight loss drug - emy",
-        "source": "emy",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWVFlbUNZcHFkdURMUW5sZzlwYms0V2t0cjZaX3NHNWl1WThwMDFRSGFpYkZmNHJscm9zOHpMQ2d6MlhYemlSWG50OFY2MXcxWHRXMHFpeHBfYlIweDZzd1dXTW91X0F2alVBUTRGYTlfNFhQR1JtTEVHTWpEekFSbW1hWjg1WWtROXVkM1VTajJqdw?oc=5",
-        "published_at": "2026-10-25T11:09:51+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "This week's earnings exceeded last week's. $NEBIUS (NBIS.US)$$SpaceX (SPCX.US)$$Dell Technologies (DELL.US)$$Marvell Technology (MRVL.US)$$Tesla (TSLA.US)$$SanDisk (SNDK.US)$ - Moomoo",
+        "source": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYllYSk03WEh0bF9lWVYtZ2V1THFSUXdaeW51X1RKU3Q2dFowNTVZdkc5ejAyQVlaT0F6dUp6ODBuZlEzcmhNZmFPQTdWUmJoTFhOS3gyRHhhNHVQN2oyTkkwSjRRQTQ4WWpiQVlOVkFPeHpPR3daTHJxT3VXRmNUT0tuR3lPUl9sM2NnNDZEY1l5bjREWGg3Zk1aUjVxS3FoelE1TGxUZVlwelU?oc=5",
+        "published_at": "2026-10-25T07:57:56+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
