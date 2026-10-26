@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T22:45:06.840630+00:00",
+  "updated_at": "2026-10-26T23:13:15.681971+00:00",
   "events": [
+    {
+      "id": "2d8e12e1511e",
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "headline": "Intel to Acquire Startup Classiq in Quantum Computing Push - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNnJjaGVYODVacVE0QlNxazBqMEZRMVhScmV5ME9yLVJRYkZ1dDhBRDhjNm85NU0xeGpFYlVJTm1ybFNTMmxMNEVRZkpyellvMGpEN3VaNzRxWkowT2ZfS19NNlp5WU0tYjhqbmpXZWZjdDRhQWE2blp4VVpQUkUtZ0FJMTBSUVlSVkZ6cHZWTmwyV1B2cjNFQU54YXRDdEthb0NwVV9jNUZMUURZejh5VkpzMA?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-26T21:42:17+00:00",
+      "first_seen_at": "2026-10-26T23:13:15.681971+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 74.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 0.9,
+      "price_at_publication": 91.28,
+      "publication_quote_at": "2026-10-26T21:40:00+00:00",
+      "pct_at_detection": 4.37,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "70ace9a699ed",
       "ticker": "INTC",
@@ -45,7 +69,11 @@
       "publication_quote_at": "2026-10-26T20:55:00+00:00",
       "pct_at_detection": 4.69,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": 0.3,
+          "price": 91.08,
+          "quote_at": "2026-10-26T22:55:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -227,7 +255,11 @@
           "price": 198.0,
           "quote_at": "2026-10-26T20:05:00+00:00"
         },
-        "8": null
+        "8": {
+          "return_pct": -0.98,
+          "price": 196.3899,
+          "quote_at": "2026-10-26T23:05:00+00:00"
+        }
       }
     },
     {
