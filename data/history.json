@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T19:33:48.478761+00:00",
+  "updated_at": "2026-10-27T20:12:27.908765+00:00",
   "events": [
     {
       "id": "52004c3d16f9",
@@ -187,6 +187,62 @@
       }
     },
     {
+      "id": "dc187df5a067",
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "category": "Cloud / Software / AI",
+      "headline": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT - OpenAI",
+      "source": "OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ca1otcHJaQVN6SUk5ck9iOTRENVdhWW82Q3o4aW9DTjZIaXhhUngxSDFQNXAtbVRkSGh0a1M5OFp4LVM4Qm5HaXJCbHYxMjU2WEVPZG1KZVlLWjhY?oc=5",
+      "catalyst_type": "partnership",
+      "published_at": "2026-10-27T16:12:24+00:00",
+      "first_seen_at": "2026-10-27T20:12:27.908765+00:00",
+      "estimated_impact_pct": 1.5,
+      "confidence_score": 67.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 4.32,
+      "price_at_publication": 131.50771,
+      "publication_quote_at": "2026-10-27T16:10:00+00:00",
+      "pct_at_detection": 3.4,
+      "checkpoints": {
+        "2": {
+          "return_pct": 0.15,
+          "price": 131.71001,
+          "quote_at": "2026-10-27T18:10:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "d4889e5d25c7",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Nvidia revenue soars 106%, beats expectations as AI chips stay in high demand - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdlSVdfanZLZVB3elBDNkpjOXRrVEtqODlaaVJEakxvWUhTLU9zNEpkUkUzbUpGWVhDNEQtc2JNSEpwRFlTQUpnNkw4eU5xakpQd09OaXAzQUw2ZEJaVHRlb1N5cU1rcFZ3XzYxMl9RNWx0dGwzMGtvb1dORHNqbUVmdmd1RDZXdEFIcXc4Vmp2MEFmc1hmYXpzONIBoAFBVV95cUxQbExCZEYxVi1YOTlRaVdpZVlpb1NSZVZUWExBazBJSVBhUlZtOUM3YzhpUG1EZGE0WGZ5VkNoNDM4LTBqTG82bXktaGdzb2tmcFY5dVV3VEpseDZhNXc5SGVjOTZIWFNscmRFNDJkd0IzdHJCYkZHSUFHZG1KcVdldGdOYkd4b3NnYVFMRnB0NW9lRkxIdVhRRjFHZ0lsVm92?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-27T15:42:47+00:00",
+      "first_seen_at": "2026-10-27T20:12:27.908765+00:00",
+      "estimated_impact_pct": 2.4,
+      "confidence_score": 72.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 1.25,
+      "price_at_publication": 218.7099,
+      "publication_quote_at": "2026-10-27T15:45:00+00:00",
+      "pct_at_detection": 0.73,
+      "checkpoints": {
+        "2": {
+          "return_pct": -0.31,
+          "price": 218.03191,
+          "quote_at": "2026-10-27T17:45:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
       "id": "a2701d2a878d",
       "ticker": "INTC",
       "company": "Intel",
@@ -210,7 +266,11 @@
           "price": 93.84,
           "quote_at": "2026-10-27T17:10:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 0.46,
+          "price": 93.4556,
+          "quote_at": "2026-10-27T20:10:00+00:00"
+        },
         "8": null
       }
     },
@@ -238,7 +298,11 @@
           "price": 93.84,
           "quote_at": "2026-10-27T17:10:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 0.46,
+          "price": 93.4556,
+          "quote_at": "2026-10-27T20:10:00+00:00"
+        },
         "8": null
       }
     },
@@ -266,7 +330,11 @@
           "price": 93.68,
           "quote_at": "2026-10-27T16:50:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 0.79,
+          "price": 93.73,
+          "quote_at": "2026-10-27T19:55:00+00:00"
+        },
         "8": null
       }
     },
