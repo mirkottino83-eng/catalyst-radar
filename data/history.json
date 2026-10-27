@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T21:52:13.960006+00:00",
+  "updated_at": "2026-10-27T22:22:43.912605+00:00",
   "events": [
+    {
+      "id": "69baa872be54",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "category": "Megacap Tech / Cloud",
+      "headline": "US agency approves Amazon Leo’s $11.5 billion acquisition of Globalstar - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2pZY3J4T2Fvd0hub09FM2RkaHJQc21pOWRWal80cHpZMXN2RS1La2M2WmpVY1hnbzlnUHNBZG5rQ3hWTFZPdmh0cmFPMHVHV0ttRlhzXzZ2SVdFOTd5ZU42YWFTblZtQnRPQUZNcENPSWJUeEF2TE5JRFFXaUdCRlZmLUFCT1JhT0wxWGpKNlZXYnowUG52dlBqc1JYS2EwcE1PS3gwVzhhYWZ4RkJURTh0LWl6SWxEOVIzT3RXbG1EZw?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-27T20:49:21+00:00",
+      "first_seen_at": "2026-10-27T22:22:43.912605+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 76.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 0.21,
+      "price_at_publication": 253.64,
+      "publication_quote_at": "2026-10-27T20:50:00+00:00",
+      "pct_at_detection": 1.86,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "89ed72a806c8",
       "ticker": "AMZN",
@@ -21,7 +45,11 @@
       "publication_quote_at": "2026-10-27T20:15:00+00:00",
       "pct_at_detection": 1.7,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": 0.21,
+          "price": 254.0,
+          "quote_at": "2026-10-27T22:15:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -134,7 +162,11 @@
           "price": 559.82001,
           "quote_at": "2026-10-27T18:55:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 0.45,
+          "price": 562.29,
+          "quote_at": "2026-10-27T21:55:00+00:00"
+        },
         "8": null
       }
     },
@@ -162,7 +194,11 @@
           "price": 93.59,
           "quote_at": "2026-10-27T18:55:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.39,
+          "price": 93.6,
+          "quote_at": "2026-10-27T21:55:00+00:00"
+        },
         "8": null
       }
     },
