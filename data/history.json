@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T20:12:27.908765+00:00",
+  "updated_at": "2026-10-27T20:44:43.974906+00:00",
   "events": [
+    {
+      "id": "89ed72a806c8",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "category": "Megacap Tech / Cloud",
+      "headline": "FCC gives OK for Amazon Leo’s acquisition of Globalstar - Fierce Network",
+      "source": "Fierce Network",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTmZham5aUDFWTURhQXdsX3I0MVVRd0p6cFN6QVJ0NjhPRVNERThQRlMzODRuZWd6dVpQYS01Z1p1Um45TlQycXg1OWsyMWFtM1VBQ3R1OVN0MC1QX1ZTbk1DOWMtTzhFVVVHTGpQaVlfMlFJa3gybG1QWkEwUDRJdkVCcmN1MHZlelJBMXBqeWw?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-27T20:13:00+00:00",
+      "first_seen_at": "2026-10-27T20:44:43.974906+00:00",
+      "estimated_impact_pct": 4.5,
+      "confidence_score": 80.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 0.15,
+      "price_at_publication": 253.48,
+      "publication_quote_at": "2026-10-27T20:15:00+00:00",
+      "pct_at_detection": 1.7,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "52004c3d16f9",
       "ticker": "META",
@@ -69,7 +93,11 @@
       "publication_quote_at": "2026-10-27T18:45:00+00:00",
       "pct_at_detection": 2.05,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.39,
+          "price": 253.32,
+          "quote_at": "2026-10-27T20:40:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -238,7 +266,11 @@
           "price": 218.03191,
           "quote_at": "2026-10-27T17:45:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.47,
+          "price": 217.68,
+          "quote_at": "2026-10-27T20:40:00+00:00"
+        },
         "8": null
       }
     },
