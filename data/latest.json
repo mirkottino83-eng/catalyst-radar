@@ -1,79 +1,37 @@
 {
-  "generated_at": "2026-10-27T12:20:23.394874+00:00",
+  "generated_at": "2026-10-27T13:11:52.923348+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
-    "treasury_10y": 4.986000061035156,
-    "treasury_10y_change_bp": -0.1999855041503827,
-    "wti": 101.12000274658203,
-    "wti_change_pct": -0.6289302046118661,
-    "brent": 110.08000183105469,
-    "brent_change_pct": -4.947755675963972,
+    "treasury_10y": 4.98799991607666,
+    "treasury_10y_change_bp": 0.1999855041503572,
+    "wti": 101.19999694824219,
+    "wti_change_pct": -0.550319552114964,
+    "brent": 110.27999877929688,
+    "brent_change_pct": -4.775061649145607,
     "nasdaq_level": 26169.380859375,
     "nasdaq_change_pct": 0.8246511774205878,
     "sox_level": 11083.4697265625,
     "sox_change_pct": 2.8202689812538706,
-    "vix": 17.829999923706055,
-    "vix_change_pct": -3.0451304215790342,
-    "dollar_index": 102.16400146484375,
-    "macro_score": 79.4,
+    "vix": 17.739999771118164,
+    "vix_change_pct": -3.5345276786477364,
+    "dollar_index": 102.18199920654297,
+    "macro_score": 79.0,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +0.82%, SOX +2.82%, US10Y 4.99, WTI -0.63%.",
+    "summary": "Tech bias strong positive. Nasdaq +0.82%, SOX +2.82%, US10Y 4.99, WTI -0.55%.",
     "quote_times": {
-      "treasury_10y": "2026-10-26T18:55:00+00:00",
-      "wti": "2026-10-27T12:10:00+00:00",
-      "brent": "2026-10-27T12:05:00+00:00",
+      "treasury_10y": "2026-10-27T12:55:00+00:00",
+      "wti": "2026-10-27T13:00:00+00:00",
+      "brent": "2026-10-27T13:00:00+00:00",
       "nasdaq": "2026-10-26T20:00:00+00:00",
       "sox": "2026-10-26T20:00:00+00:00",
-      "vix": "2026-10-27T12:05:00+00:00"
+      "vix": "2026-10-27T12:55:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [
-    {
-      "id": "b416d858ef16",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Blockmate Enters AI Neocloud Market with Acquisition of NVIDIA B200 Compute Node - TMX Newsfile",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "TMX Newsfile",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR0x5Tk1ZOExnLS1acVItS2Q5bkFlUzJaaFp4UTRVRnZSTk9tMDhDMmRJWkVfaThHUW9CME5jZU1ESGFIZ0tteXA0OVVsa185VzMxaDZXVVk5R1c0eWRDNmg2Q19vNk5DaVhjTF9LNzVHNDlfSG5SZm1PamFBeS10cll3d0dYTHVvM29WUUpMTElhRjVwbS1XaGdiNnYzR0VubTVJUHY5eDdPOURnei13UzVuM1ktVXVnWGtkWEZBdnA2QQ?oc=5",
-      "published_at": "2026-10-27T11:11:00+00:00",
-      "age_label": "69 min fa",
-      "catalyst_type": "ma",
-      "current_change_pct": 3.28,
-      "short_term_change_pct": 0.19,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-27T12:20:06+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.3,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 71.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-27T11:11:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 90,
-        "volume": 28,
-        "momentum": 52,
-        "macro": 79,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    },
     {
       "id": "7614b22b2821",
       "ticker": "INTC",
@@ -86,19 +44,19 @@
       "source": "ForkLog",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeXJPYTkzaV9CZEh4OU43N0FWNTJ4dTdJNW1CTERqM3oxa1lnajhSTEU2TzNzbTRqeUU4VkM0RmV5UU5LV1M2dkgtRWVfdUJWTThOMldReXZHa0E3b2NRRXVXOUFMaFpwRXY2YW5Jc0duQUY0Ni0tdndnTWNPbW5oUjN3?oc=5",
       "published_at": "2026-10-27T08:40:00+00:00",
-      "age_label": "3 h fa",
+      "age_label": "4 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": 5.68,
-      "short_term_change_pct": -0.08,
+      "current_change_pct": 5.95,
+      "short_term_change_pct": 0.46,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-27T12:20:07+00:00",
+      "quote_at": "2026-10-27T13:10:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.2,
+      "quote_age_minutes": 1.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 67.0,
+      "confidence_score": 64.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-27T08:40:00+00:00",
@@ -108,117 +66,33 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 78,
+        "freshness": 62,
         "volume": 28,
-        "momentum": 49,
+        "momentum": 56,
         "macro": 79,
-        "extension_penalty": 3,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "b507590991ab",
-      "ticker": "SOFI",
-      "company": "SoFi Technologies",
-      "category": "Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "SoFi Technologies earnings beat, revenue topped estimates - Investing.com",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUTlubWdfTjVjSzVpcm9YZGFLZ0N3bWdZd0c4NU9hNXhUdEcwdHNPRGFmVHh5Snk3cE85bVpZVlZWTTJiVEpLVnFIMGdXTUlXQTJmemNtZnpvM1BhWWkwZTdyTFU4QWVDQ0dQT1dvOEVXS0dYUFE3QzQxbjFDNjNoYy00WkNROERFc3VTV0ZZdzg1Sk9ibWNfa1kwY2VWN3VLMXdfWWNlWQ?oc=5",
-      "published_at": "2026-10-27T11:28:39+00:00",
-      "age_label": "51 min fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": 9.61,
-      "short_term_change_pct": 3.68,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-27T12:20:05+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.2,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 54.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-27T11:28:39+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "SOFI",
-      "risk_flags": "Titolo già esteso: attenzione a inseguire il movimento.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 78,
-        "freshness": 90,
-        "volume": 28,
-        "momentum": 94,
-        "macro": 79,
-        "extension_penalty": 18,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "9d00d6d7f0f4",
-      "ticker": "SOFI",
-      "company": "SoFi Technologies",
-      "category": "Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "SoFi Technologies earnings beat, revenue topped estimates By Investing.com - Investing.com UK",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Investing.com UK",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVlczOWI5cFFfaEJSR21NR016VXNWWklVV0gyNU9qc0RxMC1fa0VvQjBPVmotRnU1R3V1akp2dGlrRWY1djd4YzdEMkpRcFR2WkVyVEhBdUUyTVJYSXZRZE54Rm5KaXU1V1ZwcTMwUWktLTk0S3d3eEwzb01tVXJCYTQ4R0ZSckxhdEM3WV9xVFBlVElqQm9YbWI0S3gzVVFIUWJSM193?oc=5",
-      "published_at": "2026-10-27T11:14:00+00:00",
-      "age_label": "66 min fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": 9.61,
-      "short_term_change_pct": 3.68,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-27T12:20:05+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.2,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 54.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-27T11:14:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "SOFI",
-      "risk_flags": "Titolo già esteso: attenzione a inseguire il movimento.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 78,
-        "freshness": 90,
-        "volume": 28,
-        "momentum": 94,
-        "macro": 79,
-        "extension_penalty": 18,
+        "extension_penalty": 4,
         "stale_quote_penalty": 0
       }
     }
   ],
   "movers": [
     {
-      "ticker": "SOFI",
-      "company": "SoFi Technologies",
-      "category": "Fintech",
+      "ticker": "MARA",
+      "company": "MARA Holdings",
+      "category": "Bitcoin Mining",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 9.61,
-      "short_term_change_pct": 3.68,
+      "current_change_pct": -0.0,
+      "short_term_change_pct": 0.86,
       "relative_volume": null,
-      "quote_at": "2026-10-27T12:20:05+00:00",
+      "quote_at": "2026-10-27T13:10:16+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SOFI"
+      "tradingview_symbol": "MARA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-27T12:20:12.535381+00:00",
+    "updated_at": "2026-10-27T13:11:40.323340+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -228,38 +102,74 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Ceasefire negotiated by Melania Trump holds in Russia-occupied Ukrainian city - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMEpab1JYaGJHemRETzNWYlZETWUzY3RTcTIzdnZRc3owRG1QR3pBS1c5M3JWM1JpTkMyeUJLY1VhX2Vqa0VNc3VCTHZSZDlVRThIVGtnZWZCLV9CQ25IWnZYellRaUwxYzRoVi1wN1pFaEpxenpyc0tXa1dXWUFOdTBQOFRQY0pwQzVDTnM3SHFjSHJZeFBKaWtCaTlZeUdWR2xn0gGoAUFVX3lxTE9YVGJQTmNtNVJqSENBYk00UGw5ZE5oTVN3MXR5QUYyMFBlS1UwOXJ6OTdEVUJ6ZW5CWGx1Q1lMdlRjQ3JYTS0zdVZqaGVTbkQ0NWZ3Y3c2Y2pOdWF0S1RVMDdxQm5XRGd0RmVUT0ZsdjRSS1RkZTdTVm4zVE9vSVdaWnoyZEZ4M0Q1M0gyOUJ0aFB6YXZ5Q2t0N3F5N20xUFMwZE5JZ3RVZA?oc=5",
+        "published_at": "2026-10-27T12:41:20+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "South Korean shipping company comes under threat of Iranian 'legal action' - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuS2NhbjVITm1vSlk3bEhpdlZBZ0xvaGZKbnNqdl9jNTBvY3hJVUFZRWNnZWpsSHRLd2w5R2hMSlV6QWJuMGoxMExxS2R1bWFpNHJ3Q0dtelJkdW1HWHBHTDR1dmNwbDFmUEE?oc=5",
+        "published_at": "2026-10-27T12:40:03+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia Gas Summit - Post Register",
+        "source": "Post Register",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRzNfR2pSM1BDZEpsSFhWdW5Ib3FCb3VnbW10WWp2eGthYXlLQmFsYXA1ZHVQTnhUZUZJWmMtRVdrQzd1RUlselNaLW4zbjc2ajhiY05RSW4yWVRxQUd1QVM0aUtuZDloT2pGSGhmdVgxZXpETkRIYzU1bFlnQ2NEQnlyTEJsV0xNWXVMMU9XM1FiQWxvNUVjeGc2VUtMTlBJLWc3NTFzWXI?oc=5",
+        "published_at": "2026-10-27T12:29:09+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.K. Police Charge British Man With Assisting Iran in Foiled Air-Base Attack - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY0RYTHBkV0Y4OGdwdlBLSUtISTZ2ZEhfbWlRS2luMVhjTU55ZVhnQWpVbWI4UHRCMFRDLVRuejY1dFlXOWtEOEUzLWRnSUJZMTNyampPdlY0OWxvMkN3b2VaeEhLT09fbVpXYWhTdWV6V0lCZHZPbWp4WTJxRnZKWUFsanYxOW9FSUNheGxwcUs5NVYyRjBoYzBpdzhYckl4dEhCU1JhZndRdTNYVEZOTTNCZE1Ya3NpdnB5UXdaaw?oc=5",
+        "published_at": "2026-10-27T12:07:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "US, Japan rehearse strikes to challenge PLA control of waters near Taiwan - South China Morning Post",
         "source": "South China Morning Post",
@@ -270,19 +180,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "First lady Melania Trump secures one-city ceasefire between Russia and Ukraine - KBTX News 3",
-        "source": "KBTX News 3",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3FxWE9vZUZocnR4NnJNXzVWMEVaaEJBaWFMSXpXWUhwREFGOHdCM1BQbGJLczBwNVFNUjZnSVdnYWZIYkFjbnR2LV9heGp4dWtQeFNPSVNrclBlUVAwV1lqMGhRUDY0UHVYMS1CdUpEOXhkVE9LM2Y5bVJpdXE2OVptVzl5YlNQSjM5NVJfNVNZY3pWdVNFTkFRZ08wQ2tPaUtPeVRuNDJQWFQxMXo5N21ucw?oc=5",
+        "title": "First lady Melania Trump secures one-city ceasefire between Russia and Ukraine - FOX Carolina News",
+        "source": "FOX Carolina News",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMkxjdllyYUxzNEpEc3pLc0Q2SVJNc3pRMHBGaERxZDdxZks0N1JOM2dxSzVoSHZ6aDZkblI1U1JobkJwMUlsZ2VsOEh0N0ZkWk5qS2NCZ2MyeWNMWk5lV0otUWJYVXZ6NmZFbmMtSDM2bzhhUHkwamIzcUs4ZmdhWGQwYl9fMDB3QzZKX2J5RnlMOW9NbE80N3I3Nm5IWUVNY1E0T1h3RTQ5QmlJNjNkU0duOWpoV3JsZ0otQQ?oc=5",
         "published_at": "2026-10-27T11:03:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Localized ceasefire brokered by Melania Trump starts as Nordic leaders speak to Putin and Zelenskyy - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVkZvYUdad3FWZ0VGLUk4emZUR3RUODJqUlhVbEJzSkdIU25PaGgzU2ZhNUN5c0dzY3dLcXpDOU5ZUU5kRUU4TEFtSTdVVUZKTlBTNUpESldXYXMxaW1RZy0wTnc4MjFpY21DZTh1S0l5dHNDbU43TmVIb01UUzFDdFRDSmpyajZMalhCdg?oc=5",
-        "published_at": "2026-10-27T10:52:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -315,24 +216,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ceasefire brokered by Melania Trump goes into effect in Russian-occupied town ‘on the brink of disaster’ - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWHZER19tTExKeXZxank1RXlBY1AyUl9ETWRLd05mX09uWkg1TnNxckVSRWs4dHJnS3JDYS1TOThqVkZxUHhTajhGc2FGbGxTYWZhT09uMDdUMjAtR1U0eFBmam84Q2RwMEZrQVlaQ05jWXR6RHNmX1NZNzBzRVJHTkVOWG13XzhCdEZ2N3lWVW9nbjFMUnN1LVpqN1dFcjJjUEFEcy16M01PWWNudnRHZlJScTBhZEwtVGtR?oc=5",
-        "published_at": "2026-10-27T10:23:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil extends turn higher as Houthi attacks offset push to ease Mideast conflict - Investing.com",
-        "source": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZmhnX3hiX3JoTzJ3QXhFcEdXenJkODNxd1J3cUdUUHo3dVJEdDNZaS1NbkhrLW5CSklla1VYTF9pRTJzdXJkQkc5WElVQkJZTDluOWZkX0NuLXFGeEtIczhGRGYtcTVEbDY3WF90MFVndktlMDJEdWZESGZEQ1A0ZUtNMHY1bmw2MC1ZekpVUzlEcmdfcV82SEliSGYtZEFIakhVclZVc0xUb2pKRjl4UlFFZlQ5ZGNfRngybXZpNA?oc=5",
-        "published_at": "2026-10-27T10:15:24+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Saudi-led coalition says it downed Houthi missiles, drones aimed at kingdom - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaXlqZ2hqcnVxVFQ5c1dTTEZYVWdybnItSno1SHNHRnVNUmNvU3phanJwODI3U1FoZEpFYkllQmtYSVhEUUtGU1RhR1dvaXNKMHJMOFIyaS1aWk5xdWo0TTl0OXJHY0JHbjRuazNOaVJsMFVER1llQjdMU2poMUZmU3VzR3JzUDRtSVkzM2VzTVpmQk3SAZgBQVVfeXFMTzcyYWktUzV0Nk5zNzRWck1Ub3pXald0MDJldUdNVVgyUUxjMTJ2eXZVa1J0VW9QbFlJVktNekNudVRER2diN09fY2w4YS1VNGFQb2pMZ0JybFI0SUthU3ZPTXV3RTBMaEduVlFiSDNBVHhWSDZpRGNlc2RiT2FiVWRxVFd1dmlfNWpxdzlCVXRST1ZkRk5xN2Y?oc=5",
@@ -351,19 +234,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China’s economy keeps growing despite Trump’s tariffs. What Goldman Sachs’ warning means for US investors - MoneyWise.com",
-        "source": "MoneyWise.com",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcUNmeU9kcUFBcnpCMUtmcXpJYlJtcjZSeUdieGd2ZlFIQTU3QkZIeDc3cmdvZ0lzdHpmdnJkSkI1TFhOdmZ1U2tZVGM1ems2RnVKWThOSW15Q21XQVY4ODNtVGNsY3hNbXFEZUFBdUhpajJmTndSTjRvVHA2UW9MdDE1eE5OdkJmRlVFOHM2aEtzX0dadW9IWg?oc=5",
-        "published_at": "2026-10-27T09:30:36+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China urges EU not to abuse trade remedies - chinadailyhk",
-        "source": "chinadailyhk",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JNWpmZXg5N0pBVVpPNGIyRjlrd3NIM3dQTHloelpqR3RLak96S3hWb1EydVJWbUk2d3VPV2I0cmFMUVg2TE4walpvcW9fRnVVMmVyVV9VRHo?oc=5",
-        "published_at": "2026-10-27T09:29:24+00:00",
+        "title": "Alibaba wins injunction against Pentagon contract restrictions tied to China blacklist - Merced Sun-Star",
+        "source": "Merced Sun-Star",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOZ01PN2xST2Q5OVBjbVpqV0FDRG5YamJ1UDRaSHVPS0NWRlN5ODZ0U3JqRTVPUzhYMXh2QTFqNFVmN01FVGlidmZVVFhuQUt3NHA2UlRFV0padzBrMVpfZS1tRVJBdERWRmJ4Q2xMT2ZxLVU?oc=5",
+        "published_at": "2026-10-27T09:59:06+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -387,16 +261,43 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Prices Fall as Traders Assess Iran Diplomacy, Saudi Attacks - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklkQ3dLbGJfaEt1ZDNyR3BZbk5JcjlJWVNEVnRrSVFudjJsOFA1S20zSlNxdVpoVkFJM1liUUdaTXExS25HTzFnUFYxWUNkWUFTVU9mODVlX3VwOGdzRGJEdHUzQzhyekVZeUhmN1RTTUhMM05peURpTFBRTFcyZ3RyX2dRT1lDT3k5YmtWeHRhYTJGdWNqWFRXZFVJMWMxMlM3YWcyZWlMZHV5SGc?oc=5",
-        "published_at": "2026-10-27T07:34:13+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "OPINION: U.S.-China trade truce reflects detente, not reconciliation - Japan Wire by Kyodo News",
+        "source": "Japan Wire by Kyodo News",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nWkQybjQxUVF0aUpibmxWX2djenZxb3FCSW1rSGFYQU51VlJ3RE44clZSRVdsNUs1UnBLeWRiemVXOXh2YjUxX2JKeWgzQThyTVFLbjNBaER6UQ?oc=5",
+        "published_at": "2026-10-27T07:10:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "The Last Month Exposed The Risk Narrative Between Nvidia Vs.Taiwan Semiconductor - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRGdwejU0cjNMRHN5aWNSLXAxOVpyWDNBRHd1a1d4N0ZVcXpKcVhYNUM0dUR2aktHTVdjRktMVDFjT1NZLVlFMTBIWlVOdVFjWWVPLWdhS1NBeHNqSGdNVVUxT3BFaUxyR3RUcDFYMFItUzJZdHE4S3U2THZFX25QNTdudTRVYXRQNFh5UUh6d29tZEhkZFEwaF9jQm15c3AzN3RlNXdhbnhEVWFrRVQ5SHZyLUQycUN1YTh0eTdGZDVVdw?oc=5",
+        "published_at": "2026-10-27T12:54:43+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Moderna Cancer Vaccine Trial, 42% Recurrence Drop & Key Reality Check - India Today - India Today",
+        "source": "India Today",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMnhyM0xISFljUjF1QjZfWkJ2YjF5RzcwZ3B1bW41ZzFWN000TDFXakhNSXg1UGpKWVZ4cV9qQTZuZkpRblp3ejFyaEJwRTU4a1FtTFBxMWFPYmw0MWdWSXlXaTFYTC1qckg0Mzl1dGE5Q0V3TlI5el84Q3E0V2diN2w4azhiWWRaSTNob1lUYmRibUxDdUNxeTdjU3h3bDZmT1h1dWJMS3kyenRQUXNqcnBUM09rb1dsd2NETlVydWNfTFk4WGfSAcsBQVVfeXFMTS02NktaREhRY0lMSnlmSVZYSW9IM3N6UmZoQWs0M3NsYkRrTV8tX1dvby1hREQzM0NCZ3VBVWFLbU84QkFkRWhpNEg5OGxUQ3VEZkRpMDVaUGJaTDlyUHNKSVhtb0hPNk5rN2FOLVZ2N04xM3kyWEF3YnJBc3diaVFsRmhpeUtteEw0TnN0bmswdW95UlU0NXIyTHhELW8tWlg2V3NXY0FYZWM1b3ZJWE9IUGFheEVheXhVemg4QlZnRlVZVi1IeXZEM1E?oc=5",
+        "published_at": "2026-10-27T12:47:47+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Vincora Receives FDA Approval to Initiate U.S. Early Feasibility Study of Transcatheter Chordal Repair System - Chinook Observer",
+        "source": "Chinook Observer",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR1dJMVdrNVVsTmY0ejVxRk1fbkJBSXJzX25Bb3JleUVCeV90Nk10WGp3WkhfY3pZRUEtNXRSTWlWUVF3V3gyOVVJcWY3QUc1YUFZRENxb1hyWjNnc3FlNmNzYy13U3R4NGZwWUlERE1aU0xXU2JHR2o0Z013RHR0WVNCdm5Yb2xfbGVjcEZNREhQX09aNjQwZzBUcmVhTW9xS2pNdWhfaDBad2FUM25mOVBuWG5tM01HY3NPTUZKTE9pbVpDVmtiaG1YZFltX2s1VmZtckE5Qkd1TEFQYVJiTG4zaE53VzZuMXJ0cVB0X1N1Sm0xaW1ZRWxGZlE4NnlV?oc=5",
+        "published_at": "2026-10-27T12:23:48+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Nvidia is investing $3 billion in Meta's equity offering in expanded AI deal - Quartz",
         "source": "Quartz",
@@ -416,6 +317,24 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Cancer vaccines move a step forward. Moderna-Merck trial finds lower death risk in trial - ThePrint",
+        "source": "ThePrint",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEZISy1CMEtJMUN2X3oxQUo2ZUlxRnVpOHBQdlFsZjhzUGlfOE11MGlUY183MjdjdXQ0U19QUWgyM2piazU1WmJ1elBSWldQMXNQaGZHZVZfR1VKVnNWVWJva2QtQzVnSmFkMzd4cWVEck1IMnYtMU5WN0xzUnF5TVFOYUd0SnRYNmwtVGNGc9IBlAFBVV95cUxPYWd5dWQxZTNpNkZfR29DZFYwTTlFN2pycDBxd3NFS3REZHdJVjJ0WllTNlRlNDdVSy0wZnJmaXRDOWI4RzJiTGQ3OVYtcVFHdmhDb0RPUGx3NUxhTG9jODFfaUlJRFdzazVsenRNdk10cFlMcU1saDBnbnpGb3NaM2plbkNvZUJSRFNKZ3RyNTRtaV9y?oc=5",
+        "published_at": "2026-10-27T11:19:24+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "[TCM Biotech FY2026 Q3 Earnings Call] U101 U.S. Phase III Trial Launch Imminent; Subsidiary TCM Life Science Valued at $550 Million, Raising $55 Million in Series A - finance.biggo.com",
+        "source": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DYTljOGdCVVRQSEJibEl4NVNha0t5aWhSMFZZNW44cHdYLWRUMEpkVWM1MXpKVnpXOUZHN1Z0NjhLUVhyeDdHdU9BdnMzR3VGb09yVk1jbUZSdXd1b2pHaGJ3?oc=5",
+        "published_at": "2026-10-27T11:14:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "intelligence bets on quantum with deal for Israeli software startup Classiq - The Jerusalem Post",
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PcWw1R0Y5SFVTR2Nzc2dLR1VzNHltdEJoX09JbERWSUVPekJ1UGU3VVZHRmMwSG9nelNEaG82RGRydUpFMkxmSk0zRGJwaC1kLXJJd1VCeGpPM1o3OEZoRmFQU0RvYVpPRU5NUw?oc=5",
@@ -425,64 +344,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Paradromics Receives FDA Approval to Expand Brain Implant Trial Recruitment - HLTH",
-        "source": "HLTH",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWY4S0JjdjJxc0owazY0a0F1Z0lqeDRrX29KOHBIWGFSN184SnRhcVA2dnZRRUxRZWNDZ1l0ZmxFRU5WTFFxTzVPcGYxdFJTeEdaUlRmRHc2elQySUh6d0R1VGIxLTZaR25zTUpVQ2hPQ1ZCdFRtZDlHTmNMM0k2d0dnNTNETkczWWJCbjB0SnNqc2tuaXlzTzdWN19vYmVtdFEzNVV4VjZtQQ?oc=5",
-        "published_at": "2026-10-27T09:38:28+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia Invests $3 Billion in Meta in Deeper AI Partnership - The Information",
-        "source": "The Information",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONHpmQkNoMXNXTjdkVWRtMVViNlVISW41N3hialhDdkFBNlNXQUx1MmtvbXJObDdyZ3Yzd0ZkM2FrTGpBNEp4TDVkRUhyemdyNWZoTVNYM2NzTWJGdWJaRlMtR0tGU3EyLWNfaEo2V0JQY2J5bzBuMG5tNlpzQVJsb2xZOWVZSl9McmkzaGEtVHZGR1kzSDBz?oc=5",
-        "published_at": "2026-10-27T08:58:00+00:00",
+        "title": "Naver seals $9 billion Brookfield deal for Nvidia-backed AI factories - KED Global",
+        "source": "KED Global",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEZ1ZjcmQ3bF9oVmFpRjhXQzN6YUcxLWo0eWo0QWZqc0NtaVdtcU9HNlExVU5vMVktRHF0empleUliTHlqVzdTWnlZakZ2SUt6SnpwS1B6M2lHRVlEYUhoaHdCdkFmWnZPdlFMbUdwWlphd3F3bVhaMHdYNA?oc=5",
+        "published_at": "2026-10-27T08:45:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia, Meta deepen AI ties with $3 billion investment deal - WTVB",
-        "source": "WTVB",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOengySlFleDNBN1FaRGF1ell3bk9zUS1yQkdZX2NvMFZiNV84VlVieGQ1SXMzS0FPWFhaaWpldnhNeEFlaFNTLW5fMHh1SFpIZnVhUDNraldxcUpyRmk1RmhRdTl4ZzAyV2NZRGh4d19pcF9ocXRHZkhGckwzYkd1RHJFdk1ObW5BSElBaE03OTZxNngyaV9J?oc=5",
-        "published_at": "2026-10-27T08:48:45+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Pfizer's Talzenna plus Xtandi wins FDA approval in earlier prostate cancer setting - Dealroom",
-        "source": "Dealroom",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdmpzZWZzN3dsWHpqRFdDaG03V1hZMU50bG5ob05iUjdaVUpYX0syTDFhbHhUSzJnd0JrRWx4TmtLWDRpNF84c3MzQUw0akxZUXNIUGd5TGdXM1ZNVkZhSWRDWEdlZm1Yc3BrN1dGM2pXeWJLdmludWJrQ3Z0YXpxbmdCUlhBSm1mLXloRmxnMnBIMHExVGZmY3lRZFV2amZhZzRKREFiaHVwdHl0QTJYRU5RS01lZFU?oc=5",
-        "published_at": "2026-10-27T08:09:49+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "GSK’s B7-H3 ADC drives 67% cancer risk reduction in Hansoh's phase 3 China trial - Fierce Biotech",
-        "source": "Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcFBjdG02QV9jYjVQZlV2ZHdIeWFJTF93elFaVnF3Vm5xUzlvdktvempjWkFQTVltcGEyM3l3LXl4LUotb1JvUk9oRFR5SXBOWnVLS05fQ2JvWkhycURJZlh1MFpyYURra0RXZnNOMjBUODNMcHpBbTM3Y19DVUlyUi05NzA2SU1QdGY1RWVvR3Z6TGJjT0o4?oc=5",
-        "published_at": "2026-10-27T07:28:38+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "REG - RTW Biotech Opp. - Corxel US to go public via merger with Amanat - TradingView",
+        "title": "Rtw Biotech Opp Says Corxel US To Go Public Via Merger With Amanat - TradingView",
         "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONlNuNk0tczlrWDJwcFdBOFNKSUNyUmZFMjdYaHk4RExJZENjYUhJc21QajB4T2VhZkpTbG9XaG54SXVsYjdkdkdJaDBhblNyMF9oVmZTYmlkVEEtR3JLR1BBUnhCNzRPZUxNWXVpalRuT083YjlQT0V6ME5NQ3ZQaFkyUXVGSkhZOGdWbXBZLXM5SmVjTUF2V1RzenRuSXdHQUhOaDRBX3EyS0dydXpCNHJPRTVBZ1BWUk1YOW1vdmIwNE9FSW9lbENPTUp6cXUzYjZuUXhILTc?oc=5",
-        "published_at": "2026-10-27T07:00:03+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
-        "published_at": "2026-10-27T04:39:10+00:00",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWmhnTTJuMm1ueVFsZVIxV2tlOGNtOFh6TmYtSTEzb29za0J1eF8zMXZ0ckdBNkdTM05HaTFGeG5WTzJSQndqRHVoVWwyR3pzd3c5Q3hoM0RfRG9KcUFqSEhwcVdFcFhURVI0YzRmbHJBeWstclNkSmI0R1NXREpCQ2d5QzNpYnBxYzVXZEhDS3c4cmMzSW9PN3FoM2xZYnlKTG1VVHBFNUtpLVJDNTg2WUxmbWFMZFBIYWJBSU1DOHp5dTMzN0xqQkM3OGNsV0VNVXc?oc=5",
+        "published_at": "2026-10-27T07:53:28+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
