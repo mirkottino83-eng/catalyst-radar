@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27T05:54:57.015123+00:00",
+  "generated_at": "2026-10-27T06:24:28.033255+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.986000061035156,
     "treasury_10y_change_bp": -0.1999855041503827,
-    "wti": 100.93000030517578,
-    "wti_change_pct": -0.8156464363508253,
-    "brent": 109.91999816894531,
-    "brent_change_pct": -5.085916167702543,
+    "wti": 101.08000183105469,
+    "wti_change_pct": -0.6682392795800407,
+    "brent": 110.18000030517578,
+    "brent_change_pct": -4.861408662554789,
     "nasdaq_level": 26169.380859375,
     "nasdaq_change_pct": 0.8246511774205878,
     "sox_level": 11083.4697265625,
@@ -18,11 +18,11 @@
     "dollar_index": 102.08200073242188,
     "macro_score": 79.4,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +0.82%, SOX +2.82%, US10Y 4.99, WTI -0.82%.",
+    "summary": "Tech bias strong positive. Nasdaq +0.82%, SOX +2.82%, US10Y 4.99, WTI -0.67%.",
     "quote_times": {
       "treasury_10y": "2026-10-26T18:55:00+00:00",
-      "wti": "2026-10-27T05:40:00+00:00",
-      "brent": "2026-10-27T05:40:00+00:00",
+      "wti": "2026-10-27T06:10:00+00:00",
+      "brent": "2026-10-27T06:10:00+00:00",
       "nasdaq": "2026-10-26T20:00:00+00:00",
       "sox": "2026-10-26T20:00:00+00:00",
       "vix": "2026-10-26T20:15:00+00:00"
@@ -32,48 +32,6 @@
     "geopolitical_headlines": []
   },
   "catalysts": [
-    {
-      "id": "d43d7960c0a2",
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Intel to Acquire Classiq: Strategic Move Creates Full-Stack Quantum Computing Platform - Quantum Computing Report",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Quantum Computing Report",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lQlo5UmpraUFZbXNDQWNtbGhLdDFyM1hFOUgxM2llOGFyN0ZDMlZmSm5RUHV3NVlOcFpHUnJNSUR3YkpfTS1wN1JaVXpGTUpQQXhydk9hVVZ1WFlGS3hrekdiakZPM0g3cHpKWdIBckFVX3lxTFA2b3JXY1pJU2x3T3YxT1dKZURrZlFmZ0xwcFVjQlo4dXFaSV9JZkwtNjZ0TFl0Y0tuYVhGVWJIczNlOU9zelVQdmpZZWI0S1hPelJFOHBqM2hHZGdDa3RwNHVTeExqRmkwWF9qZVpOTDEwUQ?oc=5",
-      "published_at": "2026-10-27T03:48:31+00:00",
-      "age_label": "2 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": 5.15,
-      "short_term_change_pct": 0.39,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 359.9,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 51.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-27T03:48:31+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 55,
-        "macro": 79,
-        "extension_penalty": 1,
-        "stale_quote_penalty": 18
-      }
-    },
     {
       "id": "6fb449ec4c7a",
       "ticker": "INTC",
@@ -94,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-26T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 359.9,
+      "quote_age_minutes": 389.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -136,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-26T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 359.9,
+      "quote_age_minutes": 389.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -170,7 +128,7 @@
       "source": "KuCoin",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjBxY2pON0k4emxHZFh5UFZ6OV8zcTd2MEZUMzFjbnVqTUlsaEt5VE1jRmVEd0RRc0RWcWtvMTlpSXBPRXRNNVlWQVVpWFZFX0VvdEhYdDljTlh0RWFPajhhVVJIMHBVU3lUUWZmSWNZMHhZSDlzeENzV0ZpbkpxNUJVbmdsUS1kaklfVWQyTUF5TnlFZ2FtUUdFLWhXVVBJNUk5TFFXM0NFcmNWQi1Yakw5Y3RsQ0FmWGUtTnFR?oc=5",
       "published_at": "2026-10-27T04:06:23+00:00",
-      "age_label": "108 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "ma",
       "current_change_pct": 5.15,
       "short_term_change_pct": 0.39,
@@ -178,7 +136,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-26T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 359.9,
+      "quote_age_minutes": 389.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -193,6 +151,48 @@
         "source_quality": 68,
         "catalyst_strength": 90,
         "freshness": 78,
+        "volume": 28,
+        "momentum": 55,
+        "macro": 79,
+        "extension_penalty": 1,
+        "stale_quote_penalty": 18
+      }
+    },
+    {
+      "id": "d43d7960c0a2",
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Intel to Acquire Classiq: Strategic Move Creates Full-Stack Quantum Computing Platform - Quantum Computing Report",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Quantum Computing Report",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2b3JXY1pJU2x3T3YxT1dKZURrZlFmZ0xwcFVjQlo4dXFaSV9JZkwtNjZ0TFl0Y0tuYVhGVWJIczNlOU9zelVQdmpZZWI0S1hPelJFOHBqM2hHZGdDa3RwNHVTeExqRmkwWF9qZVpOTDEwUdIBckFVX3lxTFA2b3JXY1pJU2x3T3YxT1dKZURrZlFmZ0xwcFVjQlo4dXFaSV9JZkwtNjZ0TFl0Y0tuYVhGVWJIczNlOU9zelVQdmpZZWI0S1hPelJFOHBqM2hHZGdDa3RwNHVTeExqRmkwWF9qZVpOTDEwUQ?oc=5",
+      "published_at": "2026-10-27T00:58:14+00:00",
+      "age_label": "5 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": 5.15,
+      "short_term_change_pct": 0.39,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-26T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 389.4,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 49.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-27T00:58:14+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "INTC",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 62,
         "volume": 28,
         "momentum": 55,
         "macro": 79,
@@ -220,7 +220,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-26T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 359.9,
+      "quote_age_minutes": 389.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -245,7 +245,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-27T05:54:47.359496+00:00",
+    "updated_at": "2026-10-27T06:24:18.639488+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -255,7 +255,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -276,7 +276,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
@@ -287,6 +287,24 @@
       }
     ],
     "geopolitics": [
+      {
+        "title": "Oil Prices Drop Despite Threat of New U.S. Strikes on Iran - Crude Oil Prices Today | OilPrice.com",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTVA2X2dDbFFrc1RTYlJqd1FVQVp4VzZVNDFQQURLYWUzSVRMNExqVHZLcUNtbHRhUU1pYUFKbXJJd0J0Q0ZtNmR2MWJybUdWQ3VzNWxsSU1tM1RlZmR2amVyei1ZbnhnakVub0UwLXk2UG41TldZbnBwQmN2aVBSd2NjU0tXeVNZV3luU2FhOUhiLWd4Q1FqQzRFM2JyREZWMGM4OU9GQkJ2RzlJSUdJOUR30gG3AUFVX3lxTFBuMVp5czk0SmZuQkFDNzgwTkJpQkk5V0NSRTh5OGxMcmF3amlIbjN2U2RmUHItY1Mzb1FLVGcwcHNYZklBTWhIa3NMT2xSbFRvQ0otTlc0eDFtQ1JEdllST0MzS0JRenBMcTVDOXptcFNodkJKMFpJUWZSWmhoR21heXpLMDVMNHlDUm10TzB4aXlmeDVkMG1PakxxOUpMQzNxN3NwNGhtTTNHQTVJZVlTYU5fOGVTSQ?oc=5",
+        "published_at": "2026-10-27T06:15:57+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96c25NUTRRUWRJQ3doVDR3cTVmWnBPdTljNDRlUDlUTlg5QUV2MVlFWlhfSGk4Y25xeHdtZ1BQdkw1eUJGZGVMTGNCUWVXQnIzaXFDMnFTV0xWUEkyNmJRR2VIZUNiTC04UTFhblVR?oc=5",
+        "published_at": "2026-10-27T05:26:58+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Russia Suspends Strikes On Kherson As Melania Trump Ceasefire Begins In Oleshky: 10 outlets compared - NewsCord",
         "source": "NewsCord",
@@ -312,6 +330,15 @@
         "published_at": "2026-10-27T05:11:56+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine as Russia attacks other areas - Gulf Coast News and Weather",
+        "source": "Gulf Coast News and Weather",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTFlMNkxjR1RPeEVSUUtZUWRScGZDRHE3dzRVZ05uR3FIUWNvZkMzZW1YTmItM3YtQndJNTlZYUZqU29lczUwTk9vWUZmOVFKakdla3FCWXI4WnF5VVJzNkxvN2tOTC1KX1VFa2g0cXN5Q2NEQkMybEdQZjJvNXRBcWl3ODVFRWRxdUl4eHhB?oc=5",
+        "published_at": "2026-10-27T05:10:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -351,46 +378,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine and Russia begin Melania Trump-brokered ceasefire to allow aid into occupied Oleshky - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SRHBlZzJMM3EzZGpwU0VkbkM2SE1YUFl5aXlKYmJmOGxvbS1YNV9iQmRZQ1h6UUY5NkM5QXdOZUZFSXNGQTNEVE4xXzE0VXUyQlpxelVMQnFDYXVpN0ZPRmxBWXlvY1ZENDZXN01uT1paeWVWY0x3ZtIBeEFVX3lxTE1MT29iOVZ3eHIzOGhIZEFDaDVIMXcwNUR6R1FkNkRnTXE0OUVhSmFCdkdYTHA5MXVzSHRRMEtKbHBnWkZCNHBGUGUzNnlucnlQOTBvMmpnTFJSVHh6WTVsQ0Y0Z2wzT3kwTHQ2VlpmMWl3UTBNZTFwNQ?oc=5",
-        "published_at": "2026-10-27T03:56:42+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine as Russia attacks other areas - The Seattle Times",
-        "source": "The Seattle Times",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYVlEWHVKdllGWkJpbVMtZ1lNY2dGaEZrbVFiWE5EX2VGeEllRmRUS3dlOV94eXBoS2tDUjBibzFXd1ZjX0JxVFVZZ1RseWl0dnJUT091Z2EzZTFNdW9UNHgzcWNuQ201WkcwUEd4bUtleXZySjg3bWw3a3JlMlBHYkVVdW5xNkFvMzNTMkxheVh4YTdLOVVUNzNCcl8xUDh4Z1FVUjVvVDVBZ28tSW5kblV1YUNpQQ?oc=5",
-        "published_at": "2026-10-27T03:53:20+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alibaba wins injunction against Pentagon contract restrictions tied to China blacklist - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRjJxU2NlM1pNUlgtWmxpSUhtRC1POThkZ1ZacXljTlNvbTM0Q2MxV19jZl9OVTRmVGhhUWx1MTBrUWdHa3ZFeGVZamVMSVZEWWNZTWRtQU13eFZqZ0gxV3l5ZEhfN2FPUGtZckxXTlJTcENsZGo2a1h6Tk9iaTFkVEZjWTRZcFFQRnVvZC1aQVZmdG1UMXYzanB0VFNqT0JwbVBqb3ROTmttNVctMDNETng1RWJfdTJuZkktN1VnN0dSUU9Y?oc=5",
-        "published_at": "2026-10-27T03:48:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "CENTCOM drafts new Iran strike options as Trump weighs post-midterm escalation - KRCG",
         "source": "KRCG",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLVluY1lCZDY3RWp5SWVSekhYN05GSXNtMEdHMW5JYzJzb1RlRHVpbWctSmNtTTR6WU1COFpQUDdsY01sdWZnSjJzTkhIbTNxUnpmTzdwUzJWbDBSLUdSeWotekFtSmJWY3hLbTNkMl9VUVNrbnBxVmhrZGt0Q0VRU2tjNm0wOFdhdDhUdk15aDZmTWNEOTdIVUJFbUdGcjZTeWY1R0haQWVrT0dELUJSU05GRzNIc2NPeDhaWC1CZU01dDVPbmhBMlFVaWhlVXhfRnJnNUx6NE5mR2s?oc=5",
         "published_at": "2026-10-27T03:07:04+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Saudi, Turkish, Pakistani Officials Set For Iran Talks Amid Houthi Attacks - Radio Free Europe/Radio Liberty",
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "published_at": "2026-10-27T03:05:14+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -421,32 +412,32 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China proposes measures against foreign entities' infringement of trade secrets - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaFN3cElBOU1objdKSy03cXN3RVJyRURxMjJqMnFGdEhoclhqa18teVhGRzU3MWk2SXdnUDIwdUl1SkdxUUZMamJJWXQ0a1JaTmEwWHFMaUYyZWJzMmlyZEQyMEdkZThQcGxsOUgtTm95VWFzaHQ2SUFhdm10WVNBQUVDZjNpOHltWVVOZVZTeEZfdXA0RkdKRmVpODR3MUxydGROWlNWN0E5bUFEcHZzd2FWLUR0SEhneXVfcXdHS2dTcGVoZHl5bnlB?oc=5",
+        "published_at": "2026-10-26T20:51:27+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Alphabet earnings: what to look for from GOOGL - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUEZWaG9TQUdXRGViU3Q1Xy1BTllUa2w4RWtLcVl2bk1sREw1Y0xzMHNuTzZ6ZUdTT21zUlU2VkFSZUJKM0hDZFV4OVZkN3pOX0V4R3NCY0RlOXF4X1NlS2FZc2dmU0ZKeUJJakpJNktYOGpiSUU2VnJ0N2diUDQ4Z2d0YnZheUVSb3BnOGJUVWxZY0VWdk90RA?oc=5",
+        "published_at": "2026-10-27T05:42:47+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Dow Jones Futures: Elon Musk-Led Tesla Leads Market Higher; Amazon, Alphabet, Microsoft Earnings On Deck - Investor's Business Daily",
         "source": "Investor's Business Daily",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmluRnNVZjR4UlRKZ0gtbEh3NTc3Y1I1TVkxT2ZxUjBYX2ZiMThxbXhRVjFOWGt2VWdwZGw0YzFKM2VCU1BJS2NxMk1Ca0VscldVVDhIVHp6d2hiX29rdnRkUkVfSzFHd0JYTTFKbWItSzVfNHZBRjZubnFXeVFnU3ozWFJXUlZzUFpaOGk1MGJXMm4zNnI1N2xOQ21tbWx1YlNVQmxKazZNNEJSbDJ0b1JoSVFzVTZiWWZsb19SQy1lZEk5M3pNajZDM2VwSnlpOHVuTi1QTC04ZVk?oc=5",
         "published_at": "2026-10-27T02:39:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia revenue soars 106%, beats expectations as AI chips stay in high demand - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdlSVdfanZLZVB3elBDNkpjOXRrVEtqODlaaVJEakxvWUhTLU9zNEpkUkUzbUpGWVhDNEQtc2JNSEpwRFlTQUpnNkw4eU5xakpQd09OaXAzQUw2ZEJaVHRlb1N5cU1rcFZ3XzYxMl9RNWx0dGwzMGtvb1dORHNqbUVmdmd1RDZXdEFIcXc4Vmp2MEFmc1hmYXpzONIBoAFBVV95cUxQbExCZEYxVi1YOTlRaVdpZVlpb1NSZVZUWExBazBJSVBhUlZtOUM3YzhpUG1EZGE0WGZ5VkNoNDM4LTBqTG82bXktaGdzb2tmcFY5dVV3VEpseDZhNXc5SGVjOTZIWFNscmRFNDJkd0IzdHJCYkZHSUFHZG1KcVdldGdOYkd4b3NnYVFMRnB0NW9lRkxIdVhRRjFHZ0lsVm92?oc=5",
-        "published_at": "2026-10-27T01:53:35+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Q2 earnings recap: Intel (NASDAQ:INTC) tops processors and graphics chips stocks - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNXAtU3VmY3lBcy1mTGFNZjBzaUdVWUNRUnhabzF0eUhvMlUwcVVIYk1DTHBHS1FYVzE1bmh4X2U4cXZocUpsV1VRZlZzZHZrcFVRNkZRSXR3Zjk5Ujh2aWZRTjctT0NBaEZaQ3lKcTdaRDRBbmZXaG9xQUQ1VkdfWk5zNlNhNGlRWEgtR2R2aXg0anJYRmcxMDEwcw?oc=5",
-        "published_at": "2026-10-26T23:34:47+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -470,18 +461,18 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Classiq founders set to pocket up to $100 million each in Intel’s $2.3 billion deal - CTech",
-        "source": "CTech",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kNmZLR2NCa1ROc0ZPeHZzMVN0RUZMY1EtdHBFNUliT09RVjZnU3RDQmw3blRmUHRkZjYxazFhNXhaOW1ObnNaSFBKeDJta3A1Sk1wRFhrb19lZlZKdUlZSlBOOEhreHc?oc=5",
-        "published_at": "2026-10-26T20:09:00+00:00",
+        "title": "AI is the main character in Big Tech's earnings stories - www.marketplace.org",
+        "source": "www.marketplace.org",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRUQ2U3B5bGZwbFctbkVWUFY4cXAteHY2a1pSemI0N2h1UjFkb1NzOEFBV0VwYkNraUl6Qy01Qk55OW1RX3JHMDZGS3pMNzlhWWw5enlrTWxJV2NTZmR3ZUdTV2ZENjF5QTFxSHZOMUgtQWtzLWVMX01zYk15M1FLdTFNRXk2YkdjN0dtMmNJVW8xQ1Q4dF9kTS1tNDNZV2hl?oc=5",
+        "published_at": "2026-10-26T21:15:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Intel CEO Lip-Bu Tan backed Classiq years before its acquisition - CTech",
+        "title": "Classiq founders set to pocket up to $100 million each in Intel’s $2.3 billion deal - CTech",
         "source": "CTech",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tSExvLWlFUm9Nci12cHI2YWJlRnlYOFZQQjNjZUltcEJqeThseWxqeWQ2bzFsb2NBWjU2SXJZLUJvSzY3c2hIWEFRWnJrdVQtUFRvMV9maUtfbUJrRWpVdzhBZGV6N1U?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kNmZLR2NCa1ROc0ZPeHZzMVN0RUZMY1EtdHBFNUliT09RVjZnU3RDQmw3blRmUHRkZjYxazFhNXhaOW1ObnNaSFBKeDJta3A1Sk1wRFhrb19lZlZKdUlZSlBOOEhreHc?oc=5",
         "published_at": "2026-10-26T20:09:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
@@ -511,6 +502,15 @@
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWU5ZN1Q3RTFDZTNkZ1JPX3FHM0twMm96ZE0xaGVIMHBBNWRqQTlac1lGRHo2WlFGYlpUNW5BSTNtelZYcDhYVUlQRUxmejdJSExXRlpQMVpMdkI5N2ZyRTFJMVptSWE4bU1icW1qNlJnUl9YcU9BTGJLZ0FadnBEc2RGYWFLWkF6Mzh1cThJRGhacHZLTk9xTlNyd0t3TUlTTnZvSWpFNXp3RUJxWkFnUE1kUllPbDA?oc=5",
         "published_at": "2026-10-26T19:04:00+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Cadence unveils suite of AI models that chipmakers can run in-house - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXZrWlJVYTllelhNczNoX2dHZ2pQYk1FTUZtLVNPYUdZUEdEVElSZGpLR0QzWTJZS25DOUNHdXdvakRCcHBLVmxKbFBwVmNXWUhtZllwZ2p5ZzdjdnBUb3ZkOWRmT3VzbUNLQ09YRVVJQk5WSWtncHVkRjZUWlJYbDJ2TzRFM0hEM1YtOHd0c05XaW1GRFJhMU1aZEpzOVJZaU5UQTZCMi1EMExhNnRKRmRmR2gyaGZq?oc=5",
+        "published_at": "2026-10-26T17:22:18+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
