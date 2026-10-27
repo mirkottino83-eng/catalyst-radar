@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-27T03:11:18.998453+00:00",
+  "generated_at": "2026-10-27T03:42:37.508980+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.986000061035156,
     "treasury_10y_change_bp": -0.1999855041503827,
-    "wti": 100.7699966430664,
-    "wti_change_pct": -2.420838657176283,
-    "brent": 109.63999938964844,
-    "brent_change_pct": -6.0657999974376935,
+    "wti": 100.83999633789062,
+    "wti_change_pct": -2.353055470287879,
+    "brent": 109.81999969482422,
+    "brent_change_pct": -5.911584521689517,
     "nasdaq_level": 26169.380859375,
     "nasdaq_change_pct": 0.8246511774205878,
     "sox_level": 11083.4697265625,
     "sox_change_pct": 2.8202689812538706,
     "vix": 18.389999389648438,
     "vix_change_pct": -5.449878312142642,
-    "dollar_index": 102.05400085449219,
+    "dollar_index": 102.0459976196289,
     "macro_score": 79.4,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +0.82%, SOX +2.82%, US10Y 4.99, WTI -2.42%.",
+    "summary": "Tech bias strong positive. Nasdaq +0.82%, SOX +2.82%, US10Y 4.99, WTI -2.35%.",
     "quote_times": {
       "treasury_10y": "2026-10-26T18:55:00+00:00",
-      "wti": "2026-10-27T02:55:00+00:00",
-      "brent": "2026-10-27T02:55:00+00:00",
+      "wti": "2026-10-27T03:30:00+00:00",
+      "brent": "2026-10-27T03:30:00+00:00",
       "nasdaq": "2026-10-26T20:00:00+00:00",
       "sox": "2026-10-26T20:00:00+00:00",
       "vix": "2026-10-26T20:15:00+00:00"
@@ -32,48 +32,6 @@
     "geopolitical_headlines": []
   },
   "catalysts": [
-    {
-      "id": "2d8e12e1511e",
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Intel to Acquire Startup Classiq in Quantum Computing Push - Bloomberg.com",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNnJjaGVYODVacVE0QlNxazBqMEZRMVhScmV5ME9yLVJRYkZ1dDhBRDhjNm85NU0xeGpFYlVJTm1ybFNTMmxMNEVRZkpyellvMGpEN3VaNzRxWkowT2ZfS19NNlp5WU0tYjhqbmpXZWZjdDRhQWE2blp4VVpQUkUtZ0FJMTBSUVlSVkZ6cHZWTmwyV1B2cjNFQU54YXRDdEthb0NwVV9jNUZMUURZejh5VkpzMA?oc=5",
-      "published_at": "2026-10-26T21:42:17+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": 5.15,
-      "short_term_change_pct": 0.39,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 196.3,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 54.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-26T21:42:17+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 93,
-        "catalyst_strength": 90,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 55,
-        "macro": 79,
-        "extension_penalty": 1,
-        "stale_quote_penalty": 18
-      }
-    },
     {
       "id": "957e6b4c1a76",
       "ticker": "INTC",
@@ -94,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-26T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 196.3,
+      "quote_age_minutes": 227.6,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -136,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-26T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 196.3,
+      "quote_age_minutes": 227.6,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -178,7 +136,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-26T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 196.3,
+      "quote_age_minutes": 227.6,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -220,7 +178,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-26T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 196.2,
+      "quote_age_minutes": 227.5,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -241,53 +199,11 @@
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
-    },
-    {
-      "id": "70ace9a699ed",
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Intel to Acquire Israeli Quantum Computing Startup Classiq in $2.3 Billion Deal - Haaretz",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Haaretz",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQM2JLOHhqZFdHZTZjcFpFVjhEanJoR3hsaGlZcG81aDdFekpVMTlqVkpmRGFEWFBwOTlkZE1XN1dRVHdhMnFza1ppdWlKRldSVTlTRHdaVXZRc2N6ai1HeVNaQ3k1Y3NwWjJkaG5WbHpyOHBUMGpCNDdvaklZM3U3NkNGOWNNTDF6a1o4REg1VEhKNHR5U0x3Yy13bUVCNWF4Ml9oOVRKdmptdzkxRWdWdmhrUl9MaGpfWXZHby1HYzY5c3h3ajVKLXhCVmFrWlFEaTJFVE0zVi1rUDJsdUlIcTFEdE1WejVxX0hMd1ZlMUhfLTZhcTIyREp6MlczUUFqVXE5Q19BX2VSSjdYRElBU2tkWkNieFlZZTE0ag?oc=5",
-      "published_at": "2026-10-26T21:33:00+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": 5.15,
-      "short_term_change_pct": 0.39,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 196.3,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 49.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-26T21:33:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 55,
-        "macro": 79,
-        "extension_penalty": 1,
-        "stale_quote_penalty": 18
-      }
     }
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-27T03:11:08.010681+00:00",
+    "updated_at": "2026-10-27T03:42:27.541098+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -297,7 +213,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
@@ -318,7 +234,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
@@ -330,12 +246,39 @@
     ],
     "geopolitics": [
       {
+        "title": "Local ceasefire in besieged Oleshky begins, Ukrainian, Russian officials say - The Kyiv Independent",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUHBLMmk2aU9VUm4zNF8zbzBPd1BwZkhHVVpRc3RoVXgwZnc1WnhJbmJhQ3FRdkZndFRtRFJkQlA3T2lmMGdXVnQ3MWxSMnNrM19DaWN4OGVvZ2pJbUl3b0pYMERpVTljTjI4NGpKaW1uSkR6SExDR1pzWUQ1NEZtMzFWS0FjMjVhUmRtSlNfSnkzbEVYWUNqVDdfZ0RzVERHR2g2U1ZB?oc=5",
+        "published_at": "2026-10-27T02:58:18+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Remembrance event in Greenville for 3rd anniversary of Hamas attack on Israel - FOX Carolina News",
+        "source": "FOX Carolina News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR0RzWkJWTE1xRGR5RXBHQkljckpEejFFYkF5UmxqOTNFZUF2azJHTDJFeXdnOUVneDVZX1p1T3d6d0hORDdnQnhxSGZ3YV9YcDZQZXY4UXIxVzhXa2UzSThMSVhFQU5LNUt4U1U5cVNqcFBwSWdrdGQtUEplVGN5S0FjRWc2TUlONkZSYUJ4VktPV3lrc2Fsci1wZk0tODlUd2RlTmRvZUN6WlFjdmxV?oc=5",
+        "published_at": "2026-10-27T02:56:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Russia halts strikes on Ukraine’s Kherson as Oleshky ceasefire takes effect - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRUNVXzhQTkV3bDBvQnd2MnFDY2R5TUxrelhNM3NZTXdQa3RLMmVhMnFRVkJTWW9UX0trdjlNbDRHdHl6VlRxNUJKQklhcU9EaXQydU1uSzFJSVVPaklRWGprUThwUTdoRWZDOWtqX0I5MTBnTlhYdXZBcXJJZWFvTXFUeEU1dVpZQWFHRjFFdlBpbHVvdW9LdTN2alVpWEM3ejlBcHVJU0NUdlNfajItZk9QS01pTXfSAbwBQVVfeXFMTlIyc3FoR0x2Z0xuS0p5UGNHLVIzUWxaZGI1cG8xWTBxUzJPS0RBQ3NORVJ6RDBtWGhTeHhySm4yX01YU0tFcHJjWDA1SGJXTjRYZXlralIzbGVGU3VNZ3FCenBLQUZjR3ZfMFVKdVdsZ0VlaGU0RU9UNEJSUVBzeTJOaWZ6bVhaa2VqWE5FWG5HYlE5azN3a1pic0lDLTJXRC10Q3VyV2Z3WE0xRzhCak4zbmxnbVdJNjZ6Ujg?oc=5",
         "published_at": "2026-10-27T02:34:57+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia, Ukraine Begin Localised Ceasefire to Allow for Humanitarian Operation in Oleshky - U.S. News & World Report",
+        "source": "U.S. News & World Report",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRGZ3bHFBaENkN0VSRzN2YlVfM2VQdGxVSVpaeDdsYTd4bDRrWF81WkEtSlVEQW9WNEl3Rm1ZbEhMRm55ZzlxaHN1Y0VNaE1feE5kNmRkTVlYMHVxYUVKU25sMjN5TEtyYXluVlg0LUppQk1hQ3RwZWM3NzRxMHF5UHpJSU9fRWlIbUp3dnV1bm5lc2RULTdIRzNpc3JqOW51UjA5akJ0X1hENEh4REpocHB2LVVIMVAtZE9TS1JiS1cybzQwNHMwQ2dSUy10VXNKSmRYbGpaenA?oc=5",
+        "published_at": "2026-10-27T01:59:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -354,24 +297,6 @@
         "published_at": "2026-10-27T01:52:27+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Localized Russia-Ukraine ceasefire starts in deal brokered by Melania Trump; more attacks in Kyiv - Ottumwa Courier",
-        "source": "Ottumwa Courier",
-        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOODBBN0NJOFdydVZzc3BEdElwNHF6WEdrRTU2OExIVGJZMHdnbmx2Q3BiblN5bHdSVy1uV2RkSUJuSHdLbHhtbFN0djFOV2o3NVVmQXdSR1d6NU00eWhBUmNydGRxLXlTT0NMc0pUQTE1R3A3UXRKd3VLUnBIRTdzeEljMmdkUE9KRnlMZVBhYWdQSE9LWGlQQW9BUFdzZGUtQ3hCY3d2UHk0a3ZtRjdTNlpJZ0dneWNSdTYybkFhSHFvakRLaUF0eVNHeFcta3JMQ2FDcndIaWhFbGNDUVk3MkJhOHh4cndUTTdvUGtFMFFKb3MxUEtzXzVDQUhBS3EyN2VMQ1JGM2NYSldWenBoVmpXZDNTT1oxVnR0bkN5ZWZsUQ?oc=5",
-        "published_at": "2026-10-27T01:52:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ceasefire brokered by Melania Trump goes into effect in Russian-occupied town ‘on the brink of disaster’ - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWHZER19tTExKeXZxank1RXlBY1AyUl9ETWRLd05mX09uWkg1TnNxckVSRWs4dHJnS3JDYS1TOThqVkZxUHhTajhGc2FGbGxTYWZhT09uMDdUMjAtR1U0eFBmam84Q2RwMEZrQVlaQ05jWXR6RHNmX1NZNzBzRVJHTkVOWG13XzhCdEZ2N3lWVW9nbjFMUnN1LVpqN1dFcjJjUEFEcy16M01PWWNudnRHZlJScTBhZEwtVGtR?oc=5",
-        "published_at": "2026-10-27T01:42:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -411,28 +336,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "CENTCOM drafts new Iran strike options as Trump weighs post-midterm escalation - KBAK",
-        "source": "KBAK",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaFZQMWdoQmlBRTlGOHI2amUtUVhtdkpwVjF0QkFnZDNDUXYyaUhsTDdRbUQwZ1hvTFlaZWlCSUxHOGg4SENBNXFyaldrdVA3NTNPWmZxSk4ySkM1LUhLMXdmODZLckh2UEl2M1Q5NTRyTXBtc1FIZWxReUZFWFlxb3R0YWIyZlBBTlhYc0J0X3NUdWM2NnhMLUV1Vm9WbEpTby1TYjk3SjNaSWJXODZaUU5COGhNVkJsWGE0R3BZX0JFVl9ZdENxMDJWTUNDZG9aUzBlVkFxSzN1TTQtRnQzeXk4VVMtQQ?oc=5",
-        "published_at": "2026-10-26T22:51:19+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "CENTCOM drafts new Iran strike options as Trump weighs post-midterm escalation - WCTI",
-        "source": "WCTI",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcE9wNWE4OGlxZmVmV2owNnVsMUQ4UUVoRFBYVFpuWF9Qc3BjbElERlE4czdaSkg3ZlJrc2ZmZjR2ZFhRRWxoTXdCdTcwYk5yeEpjWDg1UkROd1N2dVZDemlUaWpvTHZ3TGdqMjNzUkRxbEFtN0Y0MTJ4YUJNTm9BcTFiaVYwVzFVNVlJSFBjczdFVzFxQWZmc2EteVdwNVlRTE15bGI0end1cHN0MFV5cUZ0S2Zjck1VendDSnlzOVV2OEZjOXVHM0dTd21DLXNkd3dSQjJLc0Rqam0ySUFyVE1YT3huSlJsNFdXT202RElRV045R1RxLQ?oc=5",
-        "published_at": "2026-10-26T21:35:24+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "CENTCOM drafts new Iran strike options as Trump weighs post-midterm escalation - KEYE",
-        "source": "KEYE",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMG9KVjZmeWhFbk9WVjJ0UHlKbjRGcGZrUjZwLXhmT3d1aGxLeGZNcDdGZjJmUEF2WHhWN2FUTE1EWnc4UVNLRS1KT0ltai00dmQ2d1huVGwzM1h0TGJKZUwwNWg0M25OYjJtODdqb0RzSGNxM2RaWE9LRVRSZXEwb2F4ZWNOd1QyblFHUlhZMkEyMkdHVmFGOVYtVEZBS0FybFJ0cVBQNnlpaTIwZDc3UXpiVlc3dk92RjhDUkxzMUNEcjM1bzhRVEprSkpJUHRra1ZYUkd0YTF4VkxBSlow?oc=5",
-        "published_at": "2026-10-26T21:32:28+00:00",
+        "title": "CENTCOM drafts new Iran strike options as Trump weighs post-midterm escalation - 13WHAM-TV",
+        "source": "13WHAM-TV",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTXhBaDZqZTNacUFyc3dXX3gxT2ZfOEh5SE5kNU9DTGE4ZzBTaTlHSXY3ZFNnYWFXaFdfUFhrR3pOQTREUVB2VS1jYnMtNm9vVUtMNjdzV1pZRm1lbVVET2psQjg2bklvN3dlS2Nnd3c5TUl1eU9Ua2pmQ0lWaTFmbFlTVGRGdEU1WVc5djB5WmU1TlFyRHhWdDlNWlhrU3RPQTdhaUpGYTFhU2diT3NrRWxTVzlqaG5KSlhqU3JueXhwR1QxUDgzWlRudVN5RkI5V3RqUEIyNUJ3OWlpWlp1WEc0cGpKc2F0Qy1GQlpUcWJrU1B5alZCdQ?oc=5",
+        "published_at": "2026-10-26T21:31:56+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -462,6 +369,15 @@
         "published_at": "2026-10-26T20:51:27+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia and allies Turkey, Pakistan travel to Iran for negotiations to end Houthi attacks, wider war - New York Post",
+        "source": "New York Post",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeGozN0EzVV8wMm1fUFNFQ2d5UUhCSmRmMXBqcVlDSUx0b3VVc01ic1dRUFNFcmpsS3podHhiYi1uMlpXQ0lhcVM1QmF0c2FReGVHYlkwd0xsaGJPcmFGVHR1bjhqR1M5cHJHeDhDMDJuRF9HMjhFMDhYWWRRX3RaVl9nRjRYdlV3eTdFQWlTQkVIMGQ5aTRnY0wyMFh5ckRDOEFnSU5SRFVMUnFwNU1jM3cySQ?oc=5",
+        "published_at": "2026-10-26T20:32:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
@@ -512,6 +428,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "AI is the main character in Big Tech's earnings stories - www.marketplace.org",
+        "source": "www.marketplace.org",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRUQ2U3B5bGZwbFctbkVWUFY4cXAteHY2a1pSemI0N2h1UjFkb1NzOEFBV0VwYkNraUl6Qy01Qk55OW1RX3JHMDZGS3pMNzlhWWw5enlrTWxJV2NTZmR3ZUdTV2ZENjF5QTFxSHZOMUgtQWtzLWVMX01zYk15M1FLdTFNRXk2YkdjN0dtMmNJVW8xQ1Q4dF9kTS1tNDNZV2hl?oc=5",
+        "published_at": "2026-10-26T21:15:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Classiq founders set to pocket up to $100 million each in Intel’s $2.3 billion deal - CTech",
         "source": "CTech",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kNmZLR2NCa1ROc0ZPeHZzMVN0RUZMY1EtdHBFNUliT09RVjZnU3RDQmw3blRmUHRkZjYxazFhNXhaOW1ObnNaSFBKeDJta3A1Sk1wRFhrb19lZlZKdUlZSlBOOEhreHc?oc=5",
@@ -530,15 +455,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Obesity Biotech Corxel Is Going Public in a Merger as Oral GLP-1 Heads to Phase 3 - MedCity News",
-        "source": "MedCity News",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdHZfYjU2M3kxSHVlR3NDazRDMzFReC13UjN0U2ZEUm9DT3RSZXc0N3hDYVhIQ2xxcFlzNC1iRENwTFU4bnJ4U0NKMmplS2MyWU9sQ0tKbjFYZ2RzRGptOXVFaUFlTGNqODA5Y21KLVpHbWp2V1ItT2x0SW9BZzJTWEtlV2gtVVhvQ0I2N1pHWVZ4VG5JaXdGdEhB?oc=5",
-        "published_at": "2026-10-26T20:06:24+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "FDA Expands Approval of Pfizer’s Talzenna Plus Xtandi for Earlier Prostate Cancer Treatment - Contract Pharma",
         "source": "Contract Pharma",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTVUNUx5ZmtYSURJWlhjanpONktiT20xVmJlZFN5UVg2RzRXSEd5MWJRUUlLOGdfX2tORVRoVFF6bjNISnFHcEVDR1lrTTlHRkdKMHhtdjFFZlhaUTlwejlTSXIxblhxVEp6ZFRFUWpfUEI3OFZuSUdKTmVCVXdBVnhxUmhISVVKM0hiNGtqYXMzLU9zUzJhX1RnM2JkTDdHUDBDLTNsQ3FYR3p6WnNha1Jya09mYWNNeFBwTGU5T24wZExyZVVxeWlfTWFpZ0t1ZFE?oc=5",
@@ -548,11 +464,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Cadence unveils suite of AI models that chipmakers can run in-house - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXZrWlJVYTllelhNczNoX2dHZ2pQYk1FTUZtLVNPYUdZUEdEVElSZGpLR0QzWTJZS25DOUNHdXdvakRCcHBLVmxKbFBwVmNXWUhtZllwZ2p5ZzdjdnBUb3ZkOWRmT3VzbUNLQ09YRVVJQk5WSWtncHVkRjZUWlJYbDJ2TzRFM0hEM1YtOHd0c05XaW1GRFJhMU1aZEpzOVJZaU5UQTZCMi1EMExhNnRKRmRmR2gyaGZq?oc=5",
-        "published_at": "2026-10-26T17:22:18+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Pfizer’s Talzenna combo moves up treatment line with new FDA nod in prostate cancer - Fierce Pharma",
+        "source": "Fierce Pharma",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUDRFY2RITmw5eVlBN0Nfd1hjdmc4VmtYYU01OW5nbWFtY0dfTU5CeEVuUWNNTVZ6UDA3MXp4SDlWQm9JY1ZDdG9kWWdYeHFwZEdrV1VqS1h3bzd3aDRsMHZnSGRUV0N3UF82dndkUGJDd0dHT0hsWmtuVUg0am5BMTZ4THdZQ0VuTURzTWhOeWd4bGV2T3hkdHVhQ0QzcVVMWl9KWUx3?oc=5",
+        "published_at": "2026-10-26T19:27:27+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
