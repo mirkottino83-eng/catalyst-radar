@@ -1,79 +1,37 @@
 {
-  "generated_at": "2026-10-27T08:00:45.363343+00:00",
+  "generated_at": "2026-10-27T08:38:22.664879+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.986000061035156,
     "treasury_10y_change_bp": -0.1999855041503827,
-    "wti": 102.0999984741211,
-    "wti_change_pct": 0.3341158910703079,
-    "brent": 111.05999755859375,
-    "brent_change_pct": -4.101545721557198,
+    "wti": 102.77999877929688,
+    "wti_change_pct": 1.0023551706503486,
+    "brent": 111.86000061035156,
+    "brent_change_pct": -3.4107564385740474,
     "nasdaq_level": 26169.380859375,
     "nasdaq_change_pct": 0.8246511774205878,
     "sox_level": 11083.4697265625,
     "sox_change_pct": 2.8202689812538706,
-    "vix": 18.450000762939453,
-    "vix_change_pct": 0.3262717524873393,
-    "dollar_index": 102.12999725341797,
-    "macro_score": 78.0,
+    "vix": 18.350000381469727,
+    "vix_change_pct": -0.21750412999592683,
+    "dollar_index": 102.1729965209961,
+    "macro_score": 77.4,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +0.82%, SOX +2.82%, US10Y 4.99, WTI +0.33%.",
+    "summary": "Tech bias strong positive. Nasdaq +0.82%, SOX +2.82%, US10Y 4.99, WTI +1.00%.",
     "quote_times": {
       "treasury_10y": "2026-10-26T18:55:00+00:00",
-      "wti": "2026-10-27T07:50:00+00:00",
-      "brent": "2026-10-27T07:50:00+00:00",
+      "wti": "2026-10-27T08:25:00+00:00",
+      "brent": "2026-10-27T08:25:00+00:00",
       "nasdaq": "2026-10-26T20:00:00+00:00",
       "sox": "2026-10-26T20:00:00+00:00",
-      "vix": "2026-10-27T07:45:00+00:00"
+      "vix": "2026-10-27T08:20:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [
-    {
-      "id": "8cd5fe51c174",
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Intel to Acquire Israeli Startup Classiq to Build Full-Stack Quantum Computing Platform - KuCoin",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjBxY2pON0k4emxHZFh5UFZ6OV8zcTd2MEZUMzFjbnVqTUlsaEt5VE1jRmVEd0RRc0RWcWtvMTlpSXBPRXRNNVlWQVVpWFZFX0VvdEhYdDljTlh0RWFPajhhVVJIMHBVU3lUUWZmSWNZMHhZSDlzeENzV0ZpbkpxNUJVbmdsUS1kaklfVWQyTUF5TnlFZ2FtUUdFLWhXVVBJNUk5TFFXM0NFcmNWQi1Yakw5Y3RsQ0FmWGUtTnFR?oc=5",
-      "published_at": "2026-10-27T04:06:23+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": 5.15,
-      "short_term_change_pct": 0.39,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 485.7,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 51.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-27T04:06:23+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 55,
-        "macro": 78,
-        "extension_penalty": 1,
-        "stale_quote_penalty": 18
-      }
-    },
     {
       "id": "d43d7960c0a2",
       "ticker": "INTC",
@@ -88,32 +46,32 @@
       "published_at": "2026-10-27T03:48:31+00:00",
       "age_label": "4 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": 5.15,
-      "short_term_change_pct": 0.39,
+      "current_change_pct": 3.6,
+      "short_term_change_pct": null,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 485.7,
+      "quote_at": "2026-10-27T08:35:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 49.0,
+      "confidence_score": 65.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-27T03:48:31+00:00",
       "event_occurred_at": null,
       "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
         "freshness": 62,
         "volume": 28,
-        "momentum": 55,
-        "macro": 78,
-        "extension_penalty": 1,
-        "stale_quote_penalty": 18
+        "momentum": 35,
+        "macro": 77,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
       }
     },
     {
@@ -130,32 +88,32 @@
       "published_at": "2026-10-27T03:43:37+00:00",
       "age_label": "4 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": 5.15,
-      "short_term_change_pct": 0.39,
+      "current_change_pct": 3.6,
+      "short_term_change_pct": null,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 485.7,
+      "quote_at": "2026-10-27T08:35:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 49.0,
+      "confidence_score": 65.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-27T03:43:37+00:00",
       "event_occurred_at": null,
       "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
         "freshness": 62,
         "volume": 28,
-        "momentum": 55,
-        "macro": 78,
-        "extension_penalty": 1,
-        "stale_quote_penalty": 18
+        "momentum": 35,
+        "macro": 77,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
       }
     },
     {
@@ -172,38 +130,80 @@
       "published_at": "2026-10-27T02:53:15+00:00",
       "age_label": "5 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": 5.15,
-      "short_term_change_pct": 0.39,
+      "current_change_pct": 3.6,
+      "short_term_change_pct": null,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-26T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 485.7,
+      "quote_at": "2026-10-27T08:35:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.4,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 49.0,
+      "confidence_score": 65.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-27T02:53:15+00:00",
       "event_occurred_at": null,
       "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
         "freshness": 62,
         "volume": 28,
-        "momentum": 55,
-        "macro": 78,
-        "extension_penalty": 1,
-        "stale_quote_penalty": 18
+        "momentum": 35,
+        "macro": 77,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "8cd5fe51c174",
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Intel to Acquire Israeli Startup Classiq to Build Full-Stack Quantum Computing Platform - KuCoin",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjBxY2pON0k4emxHZFh5UFZ6OV8zcTd2MEZUMzFjbnVqTUlsaEt5VE1jRmVEd0RRc0RWcWtvMTlpSXBPRXRNNVlWQVVpWFZFX0VvdEhYdDljTlh0RWFPajhhVVJIMHBVU3lUUWZmSWNZMHhZSDlzeENzV0ZpbkpxNUJVbmdsUS1kaklfVWQyTUF5TnlFZ2FtUUdFLWhXVVBJNUk5TFFXM0NFcmNWQi1Yakw5Y3RsQ0FmWGUtTnFR?oc=5",
+      "published_at": "2026-10-27T04:06:23+00:00",
+      "age_label": "4 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": 3.6,
+      "short_term_change_pct": null,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-27T08:35:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 3.4,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 65.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-27T04:06:23+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "INTC",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 62,
+        "volume": 28,
+        "momentum": 35,
+        "macro": 77,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
       }
     }
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-27T08:00:34.697755+00:00",
+    "updated_at": "2026-10-27T08:38:12.421740+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -213,28 +213,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
@@ -246,10 +246,28 @@
     ],
     "geopolitics": [
       {
+        "title": "U.S. Military Prepares New Iran Strike Options as Trump Weighs Decision - KCCR-AM",
+        "source": "KCCR-AM",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNFNrdkRKRm5OWFotNDBrOTBzNlEwZDhZQzEyT0J1VTJUTHFUS2lBZFZ2SkRqREQwTFpjVHE3OFRqcnNoMzVlVnpvNHVOZXdPZ2N5YzZCTy1xNmFMUjBwbUdDX0ZpMDB6emxaaEd1d2tGdkhmbU1WOWVORXV6eWdNZDMzRGxJZHhYLS1KYWR1WG8xLXJyU2pCem9xc2JNR2xyNDd0eUtJblNVVUJ6?oc=5",
+        "published_at": "2026-10-27T08:29:16+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran, Saudi Arabia, Turkiye and Pakistan agree to continue talks for peace - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbjZqVnhxNmJJMDNWWEZkYjAtSWVxbVBKZENjMDZqd1JfcGpWdUhWdGJ1S2tHM0lDcEp0clVQVUV3Nl9mcjZqVGJ4UWdENU1CSGZmMEdVMml2T0UwOU9VTmZlamhxNDlOa1VENzl0Z2xITmNnbjNMTC1uNndyS0hNb3hoUUtPUzgwU0lhUTk4Zk45YjZWZnFwY295RXBzbEJPTHR5ZTJ6ZGJ2RHM1WmkxU1czc2VlWjlESzU00gHAAUFVX3lxTE04TzhkRlV1Ym5FMms4ZmVYY05fOWxfeExwb181SW1QTzh1UlVfei1nZS1FZzNIcURMMFd1Z1cxSDZxY01MV2Z0S0tCYkNQUEFmNHg5bEpCMnE1cWlTd1BtVC01cHZHUDVsOVIxVWZaMnBpaTNMMm44UGpHVW55U013RmxtY3FtTGpOREJ5UFVpWUtWb2htZzRGYWRSVFR6R3F4NVkyYWRUaTFHd0x5dHNjZFQ3WHI0U1NIRUtxMXFvVA?oc=5",
+        "published_at": "2026-10-27T07:54:46+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Oil Prices Fall as Traders Assess Iran Diplomacy, Saudi Attacks - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklkQ3dLbGJfaEt1ZDNyR3BZbk5JcjlJWVNEVnRrSVFudjJsOFA1S20zSlNxdVpoVkFJM1liUUdaTXExS25HTzFnUFYxWUNkWUFTVU9mODVlX3VwOGdzRGJEdHUzQzhyekVZeUhmN1RTTUhMM05peURpTFBRTFcyZ3RyX2dRT1lDT3k5YmtWeHRhYTJGdWNqWFRXZFVJMWMxMlM3YWcyZWlMZHV5SGc?oc=5",
-        "published_at": "2026-10-27T07:33:00+00:00",
+        "published_at": "2026-10-27T07:34:13+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -282,6 +300,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Oil slips 1% as Iran diplomacy eases supply fears - Arab News",
+        "source": "Arab News",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM3g0ZV9hNmZjYmNUVDNudXJUdmtoTUNsdDdBN3ltQzhoaDRObWkzQ1FfdUNxaE5GQjhnM01scHZud3J3T2h4NV9YNEJOclo2dXEzUFhXeldkUFh6M2Y3emxMMXo0WDlzX2JUWUlqUzNPOFd3UGN6TUZaOGNxQ0FJbThGeUl3RjRQRTFfbHllcV82UQ?oc=5",
+        "published_at": "2026-10-27T06:56:41+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Israeli Military Chief Resisted Netanyahu's Iran Attack Plan: NYT - Kurdistan24",
         "source": "Kurdistan24",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV1lWMjZkRjNwRzdVU25pS2VNM0VzaFhwZHJsbEdwelp5bzFsWXNEU0FUaDJMb3ljT1FnblhDWURCamx4UjdxaVNUSHFsc2c2am5SM0hwTWlpam5uNzZ0aWFKM2ZvdHVSX0RHYURCZ1NGQUtXTGxKQ19JQ2N4OGVhMk9OdVQ5NW9fNU1QY3Y0aVVDT3ZYdy1scUdPVnRfeGt2RkFFRWZOXzVFOEk?oc=5",
@@ -296,24 +323,6 @@
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05REVIblF3clJVYWdvejVRdVFGMV81bTNUbFp2eXJ0YTE4TUlzNVN4UnZVMHNyU2RXaDQ1X1JiWHZlRkdzMjdBM19kak9oMzV5c1hkM0JKVk5sdTkzMTF2dmZfbHJxZVdSY0NBcS1mbVg0SzJvUHo3TlpHX20?oc=5",
         "published_at": "2026-10-27T06:30:30+00:00",
         "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US-brokered ceasefire begins in Russian-occupied Oleshky as strikes hit Kyiv - Euronews.com",
-        "source": "Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ2s4M0VkZndlZmJtTlZmNXBQbEQ2YkJrWko3MC1MQVhfNXB2YnJZS0ZDTkM5V1hCMk5HcWFoMVZJVWNQQUhoMW40TzV6M3lJNk96Zmh3dFZQVDd6dnI5NWF6eVdDb1hrLUNVMHVHeWQ4ejdMYTFLTlhoSWlQcmRVSnpNZGUwTDVCS1NDX3RrU3NYU3FrMXF5ejNfWmRncmxEcmhmY25hVVl3NF9ybXBMTFlB?oc=5",
-        "published_at": "2026-10-27T06:27:57+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Prices Drop Despite Threat of New U.S. Strikes on Iran - Crude Oil Prices Today | OilPrice.com",
-        "source": "Crude Oil Prices Today | OilPrice.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTVA2X2dDbFFrc1RTYlJqd1FVQVp4VzZVNDFQQURLYWUzSVRMNExqVHZLcUNtbHRhUU1pYUFKbXJJd0J0Q0ZtNmR2MWJybUdWQ3VzNWxsSU1tM1RlZmR2amVyei1ZbnhnakVub0UwLXk2UG41TldZbnBwQmN2aVBSd2NjU0tXeVNZV3luU2FhOUhiLWd4Q1FqQzRFM2JyREZWMGM4OU9GQkJ2RzlJSUdJOUR30gG3AUFVX3lxTFBuMVp5czk0SmZuQkFDNzgwTkJpQkk5V0NSRTh5OGxMcmF3amlIbjN2U2RmUHItY1Mzb1FLVGcwcHNYZklBTWhIa3NMT2xSbFRvQ0otTlc0eDFtQ1JEdllST0MzS0JRenBMcTVDOXptcFNodkJKMFpJUWZSWmhoR21heXpLMDVMNHlDUm10TzB4aXlmeDVkMG1PakxxOUpMQzNxN3NwNGhtTTNHQTVJZVlTYU5fOGVTSQ?oc=5",
-        "published_at": "2026-10-27T06:15:57+00:00",
-        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -336,30 +345,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran, Saudi Arabia, Turkiye And Pakistan Agree To Continue Talks In Tehran Amid Houthi Attacks: 23 outlets compared - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNEVKYllJTWJQZlVLbVJtTWZBdEdQUVM0dGhKQ01ER184TG1qY0lhUGdKc0h3dUpjaXh0ZEdtbEJFRkxmYV9mYjlsaGdJdzJnU1Q0RHZXdklrWEM2Z3BidmZ0TXRpV3Bhb0lGOGF5VC10bWU5NUVyUDViRjhaSkd1VDlVeWZ5dGExWWZOVlVYOFNNcDVNTHMxX0FhU0pNdG5lNDJaYjUxN0FvLUdtTzAwRjBRUHdWS1JJSkRMTVBvQnJpWVlIc3NDcXFHdmVGZ3pQa2FHaEFSUHFWVzFzN0xBdGRUbVFLcnljMmc?oc=5",
-        "published_at": "2026-10-27T05:24:19+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine as Russia attacks other areas - Gulf Coast News and Weather",
+        "source": "Gulf Coast News and Weather",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTFlMNkxjR1RPeEVSUUtZUWRScGZDRHE3dzRVZ05uR3FIUWNvZkMzZW1YTmItM3YtQndJNTlZYUZqU29lczUwTk9vWUZmOVFKakdla3FCWXI4WnF5VVJzNkxvN2tOTC1KX1VFa2g0cXN5Q2NEQkMybEdQZjJvNXRBcWl3ODVFRWRxdUl4eHhB?oc=5",
+        "published_at": "2026-10-27T05:10:00+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump Says He Reached An Agreement With Iran, Orders Action To Finish Them Off: how 7 outlets framed it - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbXBqVUhlX0JidkRvMDJpZHo1OGc3QlRINnlfdFBYNE4wMmFzSmZOdTdqWENuVkNweTM4enBnemhOSHFHWWhWLXFtSTFITzRleHJWMzIyd3dpdkcyS3hmQlkxVEdiTWUydk9ubW1OTGVHWHVuMDBHWVpNNld5T2lnQlowUVlhdDc4blk4ZURrem5zbnhsblVKaEpIQ1JvdXJQS01UQnF2VDBMSnhNdHZVS0VHcm1zSThDU0xKbUY5WnUxSEotOGhkMi1oOA?oc=5",
-        "published_at": "2026-10-27T05:23:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China seeks public comments on trade secret protection rules - chinadailyhk",
-        "source": "chinadailyhk",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKckFBVFgySTRzZnFFQTRCbHBzWVl3T2dVWXdadUdNRmhyY2NweTN3S3QwOTdlanJ5bEwwUnVRMWhvdVQ5YUNjUmYyVktrcVg2THhzQVlOVG0?oc=5",
-        "published_at": "2026-10-27T05:11:56+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -379,9 +370,36 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s Ministry of Commerce Releases Draft Provisions Targeting Foreign Entities Over Trade Secret Infringement - The National Law Review",
+        "source": "The National Law Review",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVkpyS21jcUYxbFhGQTJQWTA0M0p3SmQ1ak5iLU5id0FVcmN6eXFUVUwydXkxelZrZkFJd1R3Qzl1UWMxd0phbE9BWUxlQU1EOEZJTkxfa0o2ODBMME9JeFhNbklFYlUtUF8wX3JNNU4xc0lQUDlHUWZpOHR0d3hKeXl1RHNqUEpSSHBxWlhfaktRZ05DdkdmRl9KQW55eWtEY0NkOXpLRE5qSUxka0E0cG82bWQzd9IBuwFBVV95cUxONFZSZlpLd1pCT0thMVozcnBUclRYNjlXTW00NE9abzhISUY3NXdaNzFTT3pvQ0NMbmEyZ0RXVzlKajVHYWR3NEZxejRwOXhWSmFTTmhhd29uZmEyYi1JWkc1WWdWbVkxdUNwcHdpdFN2M25yQjVacHhPTWE1blVNaEI4WHN0NFVLSVdzSE1YUEVqYTBhWWctNmtHR1BDY2xOdy1mZy1ZTDB6dkFZTWVXdWJuZjZ6VnJkN0Fv?oc=5",
+        "published_at": "2026-10-26T20:54:51+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Alphabet (GOOGL) Q3 earnings preview: US$200 billion AI capex test puts major uptrend at risk - www.marketpulse.com",
+        "source": "www.marketpulse.com",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTjBfSnRtNzBqeHZxYUZ3SzZBcFhHMUhSMVFHbmdnX3ZuRHgtOHQwUlJZSTQtNEJESVNVcG54YmhydUZnY1h0dndiUXhud0c1OTNxM212emgxdTlhNy02THFMX1hNblVaT3hzTGZZUi1idjRXSlRFaHQxOXB6M3NmcUEtQnV1YlliekxHSFRPRWdJYzNSYlNmS0JraFY0YmkzZjJ2MUR0dTNsNGhFemtoOGRidHRVZ3lOM3hYM2lQLXkwRktj?oc=5",
+        "published_at": "2026-10-27T08:16:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pfizer's Talzenna plus Xtandi wins FDA approval in earlier prostate cancer setting - Dealroom",
+        "source": "Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdmpzZWZzN3dsWHpqRFdDaG03V1hZMU50bG5ob05iUjdaVUpYX0syTDFhbHhUSzJnd0JrRWx4TmtLWDRpNF84c3MzQUw0akxZUXNIUGd5TGdXM1ZNVkZhSWRDWEdlZm1Yc3BrN1dGM2pXeWJLdmludWJrQ3Z0YXpxbmdCUlhBSm1mLXloRmxnMnBIMHExVGZmY3lRZFV2amZhZzRKREFiaHVwdHl0QTJYRU5RS01lZFU?oc=5",
+        "published_at": "2026-10-27T08:09:49+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership - WSJ",
         "source": "WSJ",
@@ -410,19 +428,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Dow Jones Futures: Elon Musk-Led Tesla Leads Market Higher; Amazon, Alphabet, Microsoft Earnings On Deck - Investor's Business Daily",
-        "source": "Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmluRnNVZjR4UlRKZ0gtbEh3NTc3Y1I1TVkxT2ZxUjBYX2ZiMThxbXhRVjFOWGt2VWdwZGw0YzFKM2VCU1BJS2NxMk1Ca0VscldVVDhIVHp6d2hiX29rdnRkUkVfSzFHd0JYTTFKbWItSzVfNHZBRjZubnFXeVFnU3ozWFJXUlZzUFpaOGk1MGJXMm4zNnI1N2xOQ21tbWx1YlNVQmxKazZNNEJSbDJ0b1JoSVFzVTZiWWZsb19SQy1lZEk5M3pNajZDM2VwSnlpOHVuTi1QTC04ZVk?oc=5",
-        "published_at": "2026-10-27T02:39:00+00:00",
+        "title": "Alphabet earnings: what to look for from GOOGL - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQclM1WEFiRVNxYWp2TUY1VVNfSkdJRi1wbnRGeXR0SFB1dlVRaEZTUEhZNXJzamhaeWx1VnRwTUl2aDNQcmJxTmV2YmJkeExvbWlQS3AxVnhZMWVYZndxYTNaUFRjQjlINXlwd2xzdXRQdE1NTUJHbkdxbWQzT0xFQmR1QQ?oc=5",
+        "published_at": "2026-10-27T05:42:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia revenue soars 106%, beats expectations as AI chips stay in high demand - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdlSVdfanZLZVB3elBDNkpjOXRrVEtqODlaaVJEakxvWUhTLU9zNEpkUkUzbUpGWVhDNEQtc2JNSEpwRFlTQUpnNkw4eU5xakpQd09OaXAzQUw2ZEJaVHRlb1N5cU1rcFZ3XzYxMl9RNWx0dGwzMGtvb1dORHNqbUVmdmd1RDZXdEFIcXc4Vmp2MEFmc1hmYXpzONIBoAFBVV95cUxQbExCZEYxVi1YOTlRaVdpZVlpb1NSZVZUWExBazBJSVBhUlZtOUM3YzhpUG1EZGE0WGZ5VkNoNDM4LTBqTG82bXktaGdzb2tmcFY5dVV3VEpseDZhNXc5SGVjOTZIWFNscmRFNDJkd0IzdHJCYkZHSUFHZG1KcVdldGdOYkd4b3NnYVFMRnB0NW9lRkxIdVhRRjFHZ0lsVm92?oc=5",
-        "published_at": "2026-10-27T01:53:35+00:00",
+        "title": "Dow Jones Futures: Elon Musk-Led Tesla Leads Market Higher; Amazon, Alphabet, Microsoft Earnings On Deck - Investor's Business Daily",
+        "source": "Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmluRnNVZjR4UlRKZ0gtbEh3NTc3Y1I1TVkxT2ZxUjBYX2ZiMThxbXhRVjFOWGt2VWdwZGw0YzFKM2VCU1BJS2NxMk1Ca0VscldVVDhIVHp6d2hiX29rdnRkUkVfSzFHd0JYTTFKbWItSzVfNHZBRjZubnFXeVFnU3ozWFJXUlZzUFpaOGk1MGJXMm4zNnI1N2xOQ21tbWx1YlNVQmxKazZNNEJSbDJ0b1JoSVFzVTZiWWZsb19SQy1lZEk5M3pNajZDM2VwSnlpOHVuTi1QTC04ZVk?oc=5",
+        "published_at": "2026-10-27T02:39:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -451,24 +469,6 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTk8waEpwdW5jZlRZX0tjand3SklCZXEzdTRNOVplUjJEN0Jvd0dkdE9JOXJaSy1aSElOc3FhX2kyM2tBSWdNZ0pTVXRfYXVUZjdJZDJfS00xNkZ5VFFPX1pkTW51TWZxazJVR0ZEczlzV21RckY3TDVBWDRfZ2d3TzdJM1JlNTFXOWctT3NKMm5TU21L?oc=5",
         "published_at": "2026-10-26T22:55:21+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA clears Pfizer's Talzenna-Xtandi combo for earlier-line prostate cancer - FirstWord Pharma",
-        "source": "FirstWord Pharma",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RaEw3NGthbGh1ZWFPRmhaT1ByX1JLSmFwS0VnMTg3Z3p3RUVxRjYzMU1WYnhERS1DZW4wa0JOZTVBdnBaYTVETFZPTXRWd1JiLXM0?oc=5",
-        "published_at": "2026-10-26T22:43:28+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Classiq founders set to pocket up to $100 million each in Intel’s $2.3 billion deal - CTech",
-        "source": "CTech",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kNmZLR2NCa1ROc0ZPeHZzMVN0RUZMY1EtdHBFNUliT09RVjZnU3RDQmw3blRmUHRkZjYxazFhNXhaOW1ObnNaSFBKeDJta3A1Sk1wRFhrb19lZlZKdUlZSlBOOEhreHc?oc=5",
-        "published_at": "2026-10-26T20:09:00+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
