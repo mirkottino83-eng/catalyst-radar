@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T18:14:02.436036+00:00",
+  "updated_at": "2026-10-27T18:55:56.629842+00:00",
   "events": [
     {
       "id": "d459c404a02a",
@@ -21,7 +21,11 @@
       "publication_quote_at": "2026-10-27T16:55:00+00:00",
       "pct_at_detection": 5.27,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": 0.01,
+          "price": 559.82001,
+          "quote_at": "2026-10-27T18:55:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -45,7 +49,11 @@
       "publication_quote_at": "2026-10-27T16:55:00+00:00",
       "pct_at_detection": 3.66,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.4,
+          "price": 93.59,
+          "quote_at": "2026-10-27T18:55:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -69,7 +77,11 @@
       "publication_quote_at": "2026-10-27T16:45:00+00:00",
       "pct_at_detection": -1.16,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.15,
+          "price": 622.82001,
+          "quote_at": "2026-10-27T18:45:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -93,7 +105,11 @@
       "publication_quote_at": "2026-10-27T16:45:00+00:00",
       "pct_at_detection": 5.37,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": 0.35,
+          "price": 559.58502,
+          "quote_at": "2026-10-27T18:45:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -183,6 +199,70 @@
       }
     },
     {
+      "id": "e7669bc0dfa8",
+      "ticker": "META",
+      "company": "Meta Platforms",
+      "category": "Megacap Tech / AI",
+      "headline": "AMD, Meta Deepen Strategic Partnership to Enhance Meta Services, AI Infrastructure - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVnc5SHZyNGs4ajg3ejhTSXRVY202XzVDc1BLdGk0ejBUNk8waFdWQ0IyRGpycFRfNnRVWmlmcUx4aDVjdi1UajhpYjNsakVWeGM5d0JpX0Rac2dSMF9RSHBYdnpsRzZQMUJsZzA2NlpiTXltYXo4dy1PY1FjeDU4M1lBMWF1bjNsekswNklKMWw2LTZpb3hPN1lUZkk5SGtfbFc4?oc=5",
+      "catalyst_type": "partnership",
+      "published_at": "2026-10-27T13:41:20+00:00",
+      "first_seen_at": "2026-10-27T18:55:56.629842+00:00",
+      "estimated_impact_pct": 2.2,
+      "confidence_score": 70.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -0.85,
+      "price_at_publication": 625.19,
+      "publication_quote_at": "2026-10-27T13:40:00+00:00",
+      "pct_at_detection": -1.27,
+      "checkpoints": {
+        "2": {
+          "return_pct": 0.05,
+          "price": 625.52002,
+          "quote_at": "2026-10-27T15:40:00+00:00"
+        },
+        "5": {
+          "return_pct": -0.37,
+          "price": 622.85999,
+          "quote_at": "2026-10-27T18:40:00+00:00"
+        },
+        "8": null
+      }
+    },
+    {
+      "id": "35e552f85317",
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "category": "Semiconductors / AI",
+      "headline": "AMD, Meta Deepen Strategic Partnership to Enhance Meta Services, AI Infrastructure - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVnc5SHZyNGs4ajg3ejhTSXRVY202XzVDc1BLdGk0ejBUNk8waFdWQ0IyRGpycFRfNnRVWmlmcUx4aDVjdi1UajhpYjNsakVWeGM5d0JpX0Rac2dSMF9RSHBYdnpsRzZQMUJsZzA2NlpiTXltYXo4dy1PY1FjeDU4M1lBMWF1bjNsekswNklKMWw2LTZpb3hPN1lUZkk5SGtfbFc4?oc=5",
+      "catalyst_type": "partnership",
+      "published_at": "2026-10-27T13:41:20+00:00",
+      "first_seen_at": "2026-10-27T18:55:56.629842+00:00",
+      "estimated_impact_pct": 1.0,
+      "confidence_score": 64.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 4.24,
+      "price_at_publication": 553.80951,
+      "publication_quote_at": "2026-10-27T13:40:00+00:00",
+      "pct_at_detection": 5.37,
+      "checkpoints": {
+        "2": {
+          "return_pct": 0.96,
+          "price": 559.10498,
+          "quote_at": "2026-10-27T15:40:00+00:00"
+        },
+        "5": {
+          "return_pct": 1.07,
+          "price": 559.72998,
+          "quote_at": "2026-10-27T18:40:00+00:00"
+        },
+        "8": null
+      }
+    },
+    {
       "id": "b4e56e1e4c2e",
       "ticker": "SOFI",
       "company": "SoFi Technologies",
@@ -206,7 +286,11 @@
           "price": 16.565,
           "quote_at": "2026-10-27T15:35:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 2.89,
+          "price": 16.375,
+          "quote_at": "2026-10-27T18:35:00+00:00"
+        },
         "8": null
       }
     },
@@ -234,7 +318,11 @@
           "price": 556.85999,
           "quote_at": "2026-10-27T15:35:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 1.17,
+          "price": 559.495,
+          "quote_at": "2026-10-27T18:35:00+00:00"
+        },
         "8": null
       }
     },
@@ -262,7 +350,11 @@
           "price": 624.71002,
           "quote_at": "2026-10-27T15:35:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.4,
+          "price": 622.57001,
+          "quote_at": "2026-10-27T18:35:00+00:00"
+        },
         "8": null
       }
     },
@@ -290,7 +382,11 @@
           "price": 556.10498,
           "quote_at": "2026-10-27T15:20:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 3.71,
+          "price": 560.03497,
+          "quote_at": "2026-10-27T18:20:00+00:00"
+        },
         "8": null
       }
     },
@@ -318,7 +414,11 @@
           "price": 625.16998,
           "quote_at": "2026-10-27T15:20:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.55,
+          "price": 622.94,
+          "quote_at": "2026-10-27T18:20:00+00:00"
+        },
         "8": null
       }
     },
@@ -346,7 +446,11 @@
           "price": 556.10498,
           "quote_at": "2026-10-27T15:20:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 3.71,
+          "price": 560.03497,
+          "quote_at": "2026-10-27T18:20:00+00:00"
+        },
         "8": null
       }
     },
@@ -374,7 +478,11 @@
           "price": 625.16998,
           "quote_at": "2026-10-27T15:20:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.55,
+          "price": 622.94,
+          "quote_at": "2026-10-27T18:20:00+00:00"
+        },
         "8": null
       }
     },
