@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T15:27:53.156735+00:00",
+  "updated_at": "2026-10-27T16:11:42.991100+00:00",
   "events": [
     {
       "id": "a2701d2a878d",
@@ -20,6 +20,30 @@
       "price_at_publication": 93.03,
       "publication_quote_at": "2026-10-27T15:10:00+00:00",
       "pct_at_detection": 3.02,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "8d719a324e84",
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "headline": "Intel strengthens its position in quantum computing with acquisition of Classiq - marketscreener.com",
+      "source": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdGl1d2hvLUF0d1hnZDFPbURiVV81WHdDS254cmJwS00wajRwcHdRSmE3cVRCNUxqWXlueU1CLUVtc1Z4dTF6cU14RmlkdXQxNXJPV0JnVS1qN1ZYcGFrN0Z5R2RacnhlOHpUWXQtUUUxdFNaNmVBYVJlaFNZVEh1NDRzQTAxaXBPMWRDdXliS19ZaHZURF95NjFiWGNJS1Z0aTFlNm8wa1JtZ3MxNHYtbXRNVUJJWF9idlBYLWRnYldHWmZ3OV9TNWJpY2I?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-27T15:07:37+00:00",
+      "first_seen_at": "2026-10-27T16:11:42.991100+00:00",
+      "estimated_impact_pct": 3.6,
+      "confidence_score": 74.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 2.83,
+      "price_at_publication": 93.03,
+      "publication_quote_at": "2026-10-27T15:10:00+00:00",
+      "pct_at_detection": 4.02,
       "checkpoints": {
         "2": null,
         "5": null,
@@ -69,7 +93,11 @@
       "publication_quote_at": "2026-10-27T13:35:00+00:00",
       "pct_at_detection": 11.45,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": 4.08,
+          "price": 16.565,
+          "quote_at": "2026-10-27T15:35:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -93,7 +121,11 @@
       "publication_quote_at": "2026-10-27T13:35:00+00:00",
       "pct_at_detection": 3.18,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": 0.7,
+          "price": 556.85999,
+          "quote_at": "2026-10-27T15:35:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -117,7 +149,11 @@
       "publication_quote_at": "2026-10-27T13:35:00+00:00",
       "pct_at_detection": -1.1,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.05,
+          "price": 624.71002,
+          "quote_at": "2026-10-27T15:35:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -342,7 +378,11 @@
           "price": 217.76,
           "quote_at": "2026-10-27T13:10:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 0.56,
+          "price": 218.73,
+          "quote_at": "2026-10-27T16:10:00+00:00"
+        },
         "8": null
       }
     },
