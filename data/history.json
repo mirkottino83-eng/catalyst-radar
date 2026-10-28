@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T10:15:16.331773+00:00",
+  "updated_at": "2026-10-28T12:15:22.126211+00:00",
   "events": [
+    {
+      "id": "d69d576ced5e",
+      "ticker": "AVGO",
+      "company": "Broadcom",
+      "category": "Semiconductors / AI",
+      "headline": "ENERZAi Expands Broadcom Partnership with On-Device AI Demos at Network X 2026 - AiThority",
+      "source": "AiThority",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZG9WMFhMYkFZTS1jNmZLWWVFc1A2ODBPaDEwcGpkeTFEQy1NS2NmVFRLUVRnRGNDbnhuX1dVby1sNTNUcUw0Q2F2NHdBMlVneHJrbGxZWXhFeFB4X2lVSU9VSm1FV2haNXhqTWVESkJBVy1KTGN6Vm56eWhFSy12X0ZEaERSNHo1Nmxqa0g0RmJNOXJKUmV0bXg1c3JSMEVxQTJHTjFlNERQUlRmNlhxeTIzcGxtNVd0ZEE?oc=5",
+      "catalyst_type": "partnership",
+      "published_at": "2026-10-28T11:58:54+00:00",
+      "first_seen_at": "2026-10-28T12:15:22.126211+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 65.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 1.73,
+      "price_at_publication": 348.25,
+      "publication_quote_at": "2026-10-28T12:00:00+00:00",
+      "pct_at_detection": 5.75,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "e227e0841da8",
       "ticker": "AMZN",
@@ -21,7 +45,11 @@
       "publication_quote_at": "2026-10-28T10:05:00+00:00",
       "pct_at_detection": 1.85,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.11,
+          "price": 253.35,
+          "quote_at": "2026-10-28T12:00:00+00:00"
+        },
         "5": null,
         "8": null
       }

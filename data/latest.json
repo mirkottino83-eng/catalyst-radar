@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-28T11:33:52.731827+00:00",
+  "generated_at": "2026-10-28T12:15:22.144226+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.993000030517578,
     "treasury_10y_change_bp": 0.6999969482421392,
-    "wti": 101.56999969482422,
-    "wti_change_pct": 1.671669813250909,
-    "brent": 111.16000366210938,
-    "brent_change_pct": -2.3884735308306815,
+    "wti": 101.6500015258789,
+    "wti_change_pct": 1.7517517249953762,
+    "brent": 111.20999908447266,
+    "brent_change_pct": -2.344571683650243,
     "nasdaq_level": 26477.810546875,
     "nasdaq_change_pct": 1.1785899298015101,
     "sox_level": 11482.5048828125,
     "sox_change_pct": 3.600272893728196,
-    "vix": 17.5,
-    "vix_change_pct": -0.11415786096516944,
-    "dollar_index": 102.39099884033203,
-    "macro_score": 84.2,
+    "vix": 17.530000686645508,
+    "vix_change_pct": 0.05707893048259027,
+    "dollar_index": 102.3219985961914,
+    "macro_score": 83.9,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI +1.67%.",
+    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI +1.75%.",
     "quote_times": {
       "treasury_10y": "2026-10-27T18:55:00+00:00",
-      "wti": "2026-10-28T11:20:00+00:00",
-      "brent": "2026-10-28T11:20:00+00:00",
+      "wti": "2026-10-28T12:05:00+00:00",
+      "brent": "2026-10-28T12:05:00+00:00",
       "nasdaq": "2026-10-27T20:00:00+00:00",
       "sox": "2026-10-27T20:00:00+00:00",
-      "vix": "2026-10-28T11:15:00+00:00"
+      "vix": "2026-10-28T12:00:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,15 +44,15 @@
       "source": "Silicon Republic",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYzFPX1R0U2V2UGdHOWc2LXJyX0plOEY4UFVwd1FWVlZlcXFuVFlRci00OE93QUJrQ2ZxNVkxdzNBOVB0cmV1aUFGb0VGalJMU2thQ3dkRWdtbWhZWk1lQTEwOUNzYkIwckR3elVHaWJ3bjAzOEF1ZFltZmx6YjVfR19LbXdzSmdRMDBJaQ?oc=5",
       "published_at": "2026-10-28T10:02:12+00:00",
-      "age_label": "91 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": 1.83,
-      "short_term_change_pct": -0.02,
+      "current_change_pct": 1.73,
+      "short_term_change_pct": -0.05,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-28T11:30:00+00:00",
+      "quote_at": "2026-10-28T12:15:02+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 3.8,
+      "quote_age_minutes": 0.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -68,16 +68,58 @@
         "catalyst_strength": 90,
         "freshness": 78,
         "volume": 28,
-        "momentum": 50,
+        "momentum": 49,
         "macro": 84,
         "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
+    {
+      "id": "d69d576ced5e",
+      "ticker": "AVGO",
+      "company": "Broadcom",
+      "category": "Semiconductors / AI",
+      "priority": "high",
+      "satispay_status": "check",
+      "headline": "ENERZAi Expands Broadcom Partnership with On-Device AI Demos at Network X 2026 - AiThority",
+      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "AiThority",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZG9WMFhMYkFZTS1jNmZLWWVFc1A2ODBPaDEwcGpkeTFEQy1NS2NmVFRLUVRnRGNDbnhuX1dVby1sNTNUcUw0Q2F2NHdBMlVneHJrbGxZWXhFeFB4X2lVSU9VSm1FV2haNXhqTWVESkJBVy1KTGN6Vm56eWhFSy12X0ZEaERSNHo1Nmxqa0g0RmJNOXJKUmV0bXg1c3JSMEVxQTJHTjFlNERQUlRmNlhxeTIzcGxtNVd0ZEE?oc=5",
+      "published_at": "2026-10-28T11:58:54+00:00",
+      "age_label": "16 min fa",
+      "catalyst_type": "partnership",
+      "current_change_pct": 5.75,
+      "short_term_change_pct": -0.05,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-28T12:10:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 5.3,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 65.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-28T11:58:54+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "AVGO",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 74,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 49,
+        "macro": 84,
+        "extension_penalty": 3,
         "stale_quote_penalty": 0
       }
     }
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-28T11:33:42.719582+00:00",
+    "updated_at": "2026-10-28T12:15:11.795080+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,7 +129,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -101,7 +143,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
@@ -115,10 +157,37 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       }
     ],
     "geopolitics": [
+      {
+        "title": "China voices concern over EU trade restrictions - chinadailyhk",
+        "source": "chinadailyhk",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81dnd2andrNjcyMVBPRU1sYkNhOUItN0tjSXZfcEY4SkFQa0UyREIwLTlKRk5zNU53LTJUQzZoaGdYWlMtMnFtU3U5b2h5UGNVbnVwSk5mT2s?oc=5",
+        "published_at": "2026-10-28T12:11:01+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US warns China is expanding its space toolkit with spaceplane and energy weapons - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeHRWYTdHclZuMXpGb2dsOFBHUDlCOEI4VWZtRGh1dVJGYnRKSXM1eEJPZk16d3R3amJfclp4QllNSTJwTGFld016cnhrWHllaVUzTFo2dFk3UTlUQnNFS0hqcExJVHp0cjB0T3JQdUktQl9lenJQVjNmR3dBbHRlaG9DSUMzV1lFUWNVcUR5OG1tamVvbXdLRVZnMlRxQVRhVUJrZVJaOEpoTzE0TWFaRlV4UWFzNnRUQmExcmV1bWcxYWVveFhjVmJabVR5dm13X05UbkJVLUw?oc=5",
+        "published_at": "2026-10-28T12:01:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s military holds talks in France and Germany despite rising trade tensions - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ0NaRjhSSHdqOEtOblBzTGdEN2pHdUhlenVvWFBUX3lHcmloRHp6OVZ0SnBYbFY3eVVmeTh5WlFleGczdjZaTXoxT3ltZXpqVzdVbmxnR2Vocm9ybWdtZXQydklHbzNUaTRyeXY5TXltNWZ0NVdnWF91YzFwZ2VLOXFHNzBnQ1kwZExrVml3SW5YMC1FX3Nha3VXeGFFajJLVkozTDgxSjZxaUlUSHJJMmFTSV9idml2TUFpTmFxeURjRnN3ODBWUnNhamVjQdIBzgFBVV95cUxORDlYTnoxM3JfMEEzcDFPSXNGNmt5MDlJa3dHSlM1OEFVaDhKMEJud2JQam1SZmhMdEk1YkVqdVZWR19rSW8zMGRMRFlVQzZucHBtcVVtV2tQZDloTFQ3VWI1Rkp2cnJQUTFpYnhfak56emRwY2RwSnpzVUNzdlY3TU5fcm5tQU41cEZYTm9mQ213M1NNUlZ6cGlJekJLa21XT09UTjM1RGl3My1iSDRjUFhTMG5TMm53eFViYTRvVTVpbGpUeFhTQ0ZuM09mQQ?oc=5",
+        "published_at": "2026-10-28T11:43:40+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Russia-Ukraine ceasefire in effect after Melania Trump, Pope Leo appeal to Putin - 2 News Oklahoma KJRH Tulsa",
         "source": "2 News Oklahoma KJRH Tulsa",
@@ -160,6 +229,15 @@
         "source": "The Times of Israel",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUTQ0TEI0SlZjRkVFMmQ0MU1nQ3lrUHRWMG1Cbzl3ZUxWSmlzU2twbHBlaE12cnRYUlJaS3ByMGI3eDZUQThSVTVka0ZBeFh1Ty1ub3VQUXFvU0lRTUtaUjhaemIzOGNwWThXTDZMSzB2NWptYl9GNy1kMnFiNk5NYXVtb3FodkNVZFVNT2pqVk5HSnZqS3RUUTEwOWR2OFpMNEdfdHk3bUlHNldyVDI5eG5DUkZZWFN4WDhwWm5DTV90eEVGbUc1dA?oc=5",
         "published_at": "2026-10-28T10:33:22+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US deploys Patriot system in Israel amid preparations for Iran strikes - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MeGxMWXcyX3piREtnVDJPOGF3OTdFQmVoUHNxZlM0ODA5bk45aGdoNDhvVUVZc21XVlJ1VEthSktfRnVtWm84NVRFdTVSNHl4VWxqemlIM2NJYy13T0dET212V3ZpTnBySFNjZERR?oc=5",
+        "published_at": "2026-10-28T10:32:07+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -210,46 +288,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil prices rise as Houthi attack claims renew Saudi supply concerns - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXVqQXFYeTlydVBobEZ1Q2NHVzVMdnIxNlhJYzllOXF4bUZ2VENnRndHMl9zVzNtWXlQRE5XRnhVRWRuTE9MMW9iM3k4eGJfSlFzOGZ2anNUU2hUTlFpYXd4MEV0M2VXcWRwV2VVWkhJTkdfaDJnVERFVEdTZ3l5VzluZjdWWnVkWUY2LVRjbVJYU21xelozaU12bElXZUpVMENHb0VJa0o5cUhndXhJ?oc=5",
-        "published_at": "2026-10-28T08:30:09+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China calls on Germany, EU to be rational on trade, supply chain issues - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFB5V1F5MG1uQ01IbWo5VHEwa1Z3YlNKaEROendtSWxhelJURE9BMzlvc0p6VzJWc203cjA1SnhlTHU5VEVXYXMxeFhLMnBlUXUyUzI4NlZ2Ul9XWUJaUkVNTGdFLW0zVlgwc1VKMkE4QUI0NUVKR2tSV1lHMDRKRmpVdFNscTY0ak53UTNLQ01FUXVaeHdEU1ZSV2JKdFR2Nkh4dElyaVptMFJ0?oc=5",
         "published_at": "2026-10-28T07:36:09+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Tensions set to flare over trade at COP31 as China makes it a priority - Climate Home News",
-        "source": "Climate Home News",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX0hfQ3diVkJkT1h6LWo3bGh0UVl4ZG9WMWdXcElpbVk4ZlczcXF3Y05kMDk4T0kxX2Y4WThYbmpNSkF4Z0JzVlpNbHQ1OGhoN25wQU9Lc1BFdDd5Z1pzQVptTTI2YjkzWVBhYkI2d3RJWWhONVA1ajNqQWxZLWJuODYwZHJ3WDZPdnpZWUpoQTZTZlNFUklPY2l5S0hJV0RMZExOSC1hNXFzbERvS3JENDFUakp5M2M?oc=5",
-        "published_at": "2026-10-28T06:01:43+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Exclusive | EU plans high-level China currency talks as fears of new trade shock mount - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeXRFRE5UVHpHakJSNjZQdWlLT0dtOHZnY1hyLU5lVVh0aDEzZVdpcnRrVW5LWGFJbEFyVXNyNVpWTk9GblJLSDhhanZoWldzbXBZUG5obnBDSjU0X1dRQjFKWmNEeDZkakNsQWxreElpVWRicTNZazBvSGQ5VHduRXNsVk52MGZBVlZpYmdZZW45MF9jZ2ZnQ0I5RS1seGcydml2VnlOc09KVWdMOFFyZmZpYXY3UEtQdS1fRDREbnoxV2JU0gHEAUFVX3lxTFAwbjZhVTBsM3dOc1BIX3hZRGZhTTRPTGVNTXZPR2h1OW4zbFhrU3NjQUUwZF9xblhoemZLU3Y1WUdmZlRxZGpDb05MS21WWkd5MU5VOU40eUtDUjkycHlyT0lkMW56dEFITkVPbGtCcTBiLVptelBZT2c2bXVEdjI0bVdUdVBFQjZYMnN4VkY1ZldWdlhibzNUaF9kVmVSN2Ixc1pQMk1UNUxRcUdDUFFEM05abThkby1BZ21CbnRJVzM5YmY?oc=5",
-        "published_at": "2026-10-28T05:00:07+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China rushes to shore up markets as AI trade sours - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fVVJTTkxTTXJOWTFYd2RjQTlnTUFMbTFSODdBX3Z2V2RQWkNGeDNobEVadzhRejdYcWNXcjNWOXdPTVU0SHhyaGdFSnhFcTdkT0hiTW1Lejg2ZHkzdG1FSDdEMldNRXFrdzhEVXpCdmJSajBPNkJ2Q1A?oc=5",
-        "published_at": "2026-10-28T03:54:50+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -260,7 +302,16 @@
         "title": "OpenAI Is Buying Google’s AI Chips, a Hit to Nvidia’s Biggest Customer Bond - 24/7 Wall St.",
         "source": "24/7 Wall St.",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOU41VEhZT0hhZFRRQXVmRWhKWml6Q3FSLVRxeXpRYU9xLW5xQ21MT080OTJvNEtmcmQ5ZW05Tl9XRG4zeVZ1VVhNLWphbXB3ODJpcTBaY0hXc2J4RHBtQm1wVFJHUTlBeC02YkJydmF2QUFTS0s4eFU5UVB1bkZhdmZpUlQ4NnJSZHFlTnpoVzVYVmZmbnJ3NkMtbHZfT2N6M1p1VXk1QUNsWjdWVmpUeU9VZ0dCWGs?oc=5",
-        "published_at": "2026-10-28T11:29:07+00:00",
+        "published_at": "2026-10-28T11:27:32+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Google alters its cloud playbook, enlisting partners to sell more AI chips - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUUR4ZTBBTHlNVnF1OTExeDhvT0NkSG9uamZQc3NXaVc4R0VkVHdGZ295cGFHVmhNSjRPVWY0Rm9BaDRxNG5vS3dId2VtMnpfS2VqTWtzODZuSEJSUXB4T194ajlRbTZqc3FVNVN6UUxXY0wxSnpQNUFjT0l5NGl5TDhEbWdjSGgzNDRwNTdfelUyV0pwTHhjN3hubXRKNnNqNlBxRTlvRjduUjDSAbABQVVfeXFMT2kxR0E5NTByTkZwcHdqaHlCaFpnMFRvWE16dzV1SGl1NGVBLXVSbFd2VGQ1cGVvS1g2b2NRRUEtTHJFbTJSY0hxOXhHS25qUHQzT0tqWWhHeFdvM3djWHBqd1c0SXN6anRUZXdCYW93TVZmTzE3WHdRbG5uUlNJMnVzdEFBdm9oYTlYbjloWE9mVnVXYUtzR1pjUHM1TjFWTVcxRUxQTHMxVzZnVU81WkY?oc=5",
+        "published_at": "2026-10-28T11:00:01+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -293,29 +344,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Shenzhen YHLO Biotech : Reagent growth and margin gains drove sharply higher 9M earnings and cash flow - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQX2dPVVhtUWtkZ3l5RVdHU2l1SmdfU1NmVmcwNnJhdUVkTUhnZFlFaXpxUFE3OUxvUEhwX0o1b05MUUw4RzUwZ1Ffa2dmX2VCeEpjWW1Fc0pYWVVEY1RfeGdUVG9WYTN4TTlDcWlaaTlhdXhPZnE5Sm12ZkpsTjBIQlR6a0x1TWpYTHMyQmpQb3hpWGNfc0N6dEpZXy1ZYTNMWWQxUUJ2RlBPXzVBbkdRcTJzaXU3QktleEFwN1B5ZnJaNE56RFlPWndrVy1WQ3ZuOFZjeDk1UlZOby1LR090YjRUTlZVOXIxLUdTbjVWck1oQkZHNEZ5RmRuUEpDSXFLQVpwUDU5U2JfeTh3QW9uTg?oc=5",
+        "published_at": "2026-10-28T09:13:26+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Microsoft and Alphabet Earnings Put Focus on AI Cash Flow Drain - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaGpuODBWVHpLV2lPSklYTm1ld1BhMHB0NHBiNFZOUGtvNGFtZ0pBalJwdW4ycEdKbXhudmV5NVhVa21mUHl0bzNCZnI2TG9saTZIdVg2V1o4b2hFVGtHd1h6RGYyNFNyWmpOR0hKYXc3cnhscm9aXzRIZ09INUdmbjJyd2FXYkV1RmdJcVZpX0JHY3pTand0V1NaSm1Wa0hPUVZJMHVHa0t2TG4zZURhRmFSRDU?oc=5",
         "published_at": "2026-10-28T09:01:49+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Alphabet’s Own AI Chips May Be Its Quietest Advantage - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOTVGQ2dvMXdxSEtsVnA1MGNKa2UwVWZaOHA1cmlDUFhIR2JCdkpTVnp6RGtFelNITGs1ZFJrUmJMT0JHQmlNQ0xlRWEyU25uM1ZuV3Q5U1Bjb1Y4am80UjNUcEo1bGp5NXVHQkVWaWF0ZDZOdzQzM1daaURocy0xYVJSanBNN2tqUkFwVmRJcGxHbDdORWpOeHJUZjk3RmJpd3c?oc=5",
-        "published_at": "2026-10-28T08:14:17+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Legend Biotech (LEGN) Stock Could Trade Below Its Sales Backdrop - Yahoo Finance Singapore",
-        "source": "Yahoo Finance Singapore",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN0hUQl9fNG9DZDRMRnktWXE5NVB4dkZpRGJEd05kQ3l2LUY1LU5ocEwwQkMwZUZoaVhUSEg3bXhUOHBZZllWTjZCVXZYT25VcTd0REFKSUp0dVhmVG16MmhGY1N0TUJnREQ2NEVHWTRRekhlcGx3ekRuZ290YUROcWdZWHc3eGs?oc=5",
-        "published_at": "2026-10-28T06:20:15+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -329,6 +371,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Positive Melanoma mRNA Vaccine Trial Data Sparks Personalized Medicine Hope - The Scientist",
+        "source": "The Scientist",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDBYNUgzcS1PQUhFaU1lajQzLWhFOGNibFFXWFlDRG9QbWZxRmRRUVlDVW5Ja0IwdWNhejMwcjBTMzJnTXZodlVNWmN5WTdiTF9rcmJTOEV0R2Etc2J6eEdYWjliZFRpQ1poNjJOQkFQYzZ1VmtmNnNUdEF5elBGSnBoMjh5RktpeVFjYjJ1cWlFX1Ayc2ZSX3RTRzd4Z0prWmNiZlQxaXNNWm1HOE8yaw?oc=5",
+        "published_at": "2026-10-28T04:23:31+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "San Diego biotech lays off nearly all its staff after drug trial failure and 2 patient deaths - San Diego Union-Tribune",
         "source": "San Diego Union-Tribune",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZDRDQkJpWTRLN2U5cThUWVE2YXZ4N3BnQmgtQ3Q1V3BaUDVaVWw2ejNHREFvNjQ0UEFscDd3emoyVnpWMHhMU2R2ajRhTVZFa3ozbkZwZEN4NGVqbHJ0c0NyaTFoajdGQ1FhdzRVb2M5dTFCOE5idWs3azY4TWM5dEIyMFZHRFdaN0h4QjM3NzJENG8zNGQ5cVpUOVp5ZFVQcWNONjZtcjdYN20xUlZTNnBYWlBpRnlRdjBBX3k0WHFWb2tZT1lVdGhNcEpIdmc3RjBtdmF4ZnJlQQ?oc=5",
@@ -336,20 +387,11 @@
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Melanoma vaccine trial reveals promising results - WGRZ",
-        "source": "WGRZ",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeml3dHEwc1IxMzQ3NjVmTWlWUXdQeGpBd3B2UWRvTDNhR0VoR1E0WTFlRUVOeFUxT3c3R3hTUUlhZGRBSlRPYnJpazZ5VW1hRks3Z0VpRlpnRFM5NGJ3TElpWkNGZnRsZXpMbUpmUV9BTmxPbU1RMktpcW43YklvNXRNQ3poQnlhMW5wUWg3MDEtZk1yaUNOMURaelZEdUd4ZzFYYXRYNThnVThET0tsRGxRMXFLMXZ5UWU2c3g5TTUtd2dIVlg5Wm9wWmdkbEF2OTVB?oc=5",
-        "published_at": "2026-10-27T22:57:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 204,
+  "archive_count": 205,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
