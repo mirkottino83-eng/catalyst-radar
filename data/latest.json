@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-28T03:26:23.472964+00:00",
+  "generated_at": "2026-10-28T04:12:46.061808+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.993000030517578,
     "treasury_10y_change_bp": 0.6999969482421392,
-    "wti": 101.05999755859375,
-    "wti_change_pct": -0.687897565783846,
-    "brent": 110.73999786376953,
-    "brent_change_pct": -4.377860117179488,
+    "wti": 101.30999755859375,
+    "wti_change_pct": 1.411407418597066,
+    "brent": 110.86000061035156,
+    "brent_change_pct": -2.6519114119277543,
     "nasdaq_level": 26477.810546875,
     "nasdaq_change_pct": 1.1785899298015101,
     "sox_level": 11482.5048828125,
     "sox_change_pct": 3.600272893728196,
     "vix": 17.520000457763672,
     "vix_change_pct": -4.730826322781068,
-    "dollar_index": 102.38600158691406,
-    "macro_score": 87.5,
+    "dollar_index": 102.41200256347656,
+    "macro_score": 84.7,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI -0.69%.",
+    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI +1.41%.",
     "quote_times": {
       "treasury_10y": "2026-10-27T18:55:00+00:00",
-      "wti": "2026-10-28T03:15:00+00:00",
-      "brent": "2026-10-28T03:15:00+00:00",
+      "wti": "2026-10-28T04:00:00+00:00",
+      "brent": "2026-10-28T04:00:00+00:00",
       "nasdaq": "2026-10-27T20:00:00+00:00",
       "sox": "2026-10-27T20:00:00+00:00",
       "vix": "2026-10-27T20:15:00+00:00"
@@ -33,18 +33,18 @@
   },
   "catalysts": [
     {
-      "id": "102776191aa7",
+      "id": "b8d818ed464a",
       "ticker": "INTC",
       "company": "Intel",
       "category": "Semiconductors",
       "priority": "critical",
       "satispay_status": "check",
-      "headline": "Intel expands chip-making capacity with Tower acquisition - TechTarget",
+      "headline": "Intel to Acquire Israeli Quantum Software Firm Classiq - Israel Defense",
       "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "TechTarget",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLU1CNXRMTHluMk1qd0VlSUdzb3dqMXBMOHhfd3ZhRjlab1ZyblNwVDlSUnN6QVNUTGcxcm51UXNVMmNJbE5KQmRjLUJMckkxbjZSVzBEdzl2U19QYUZ0aUdJMTh3NGYxV2tMOGpXNFZyVXdIc0Fad2xyai14VVphT1E4eUxxV28zM2ViVHlTeVdKM205Nlpqd1Uxa2Y3dw?oc=5",
-      "published_at": "2026-10-28T00:05:15+00:00",
-      "age_label": "3 h fa",
+      "source": "Israel Defense",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyZHA1V2pYZVNEQ1Q5YldLSjJXUXFhdVpGd0RDWF9sUFhUV1Roam9xbXpWeGtxMjRidEhKSUYtUmhFSjVpNXJrbVlEOHFWZnRGcTlzSjRfYjg?oc=5",
+      "published_at": "2026-10-28T03:47:35+00:00",
+      "age_label": "25 min fa",
       "catalyst_type": "ma",
       "current_change_pct": 4.06,
       "short_term_change_pct": 0.55,
@@ -52,24 +52,24 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-27T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 211.4,
+      "quote_age_minutes": 257.7,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 53.0,
+      "confidence_score": 56.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-28T00:05:15+00:00",
+      "headline_published_at": "2026-10-28T03:47:35+00:00",
       "event_occurred_at": null,
       "tradingview_symbol": "INTC",
       "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 78,
+        "freshness": 100,
         "volume": 28,
         "momentum": 57,
-        "macro": 88,
+        "macro": 85,
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
@@ -86,7 +86,7 @@
       "source": "36Kr",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90WEEwZWZVeVUxbkZadThjRlhFQU5ZUXh4N1hidkg4a0lzT2NJNEdpalJvUTlxUFZuY1FKMXI4OUprV2JCVk9tcXdUVi1PR05QRS13?oc=5",
       "published_at": "2026-10-28T01:08:47+00:00",
-      "age_label": "2 h fa",
+      "age_label": "3 h fa",
       "catalyst_type": "ma",
       "current_change_pct": 4.06,
       "short_term_change_pct": 0.55,
@@ -94,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-27T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 211.4,
+      "quote_age_minutes": 257.7,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -111,7 +111,49 @@
         "freshness": 78,
         "volume": 28,
         "momentum": 57,
-        "macro": 88,
+        "macro": 85,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    },
+    {
+      "id": "102776191aa7",
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Intel expands chip-making capacity with Tower acquisition - TechTarget",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "TechTarget",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLU1CNXRMTHluMk1qd0VlSUdzb3dqMXBMOHhfd3ZhRjlab1ZyblNwVDlSUnN6QVNUTGcxcm51UXNVMmNJbE5KQmRjLUJMckkxbjZSVzBEdzl2U19QYUZ0aUdJMTh3NGYxV2tMOGpXNFZyVXdIc0Fad2xyai14VVphT1E4eUxxV28zM2ViVHlTeVdKM205Nlpqd1Uxa2Y3dw?oc=5",
+      "published_at": "2026-10-28T00:05:15+00:00",
+      "age_label": "4 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": 4.06,
+      "short_term_change_pct": 0.55,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-27T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 257.7,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 50.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-28T00:05:15+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "INTC",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 62,
+        "volume": 28,
+        "momentum": 57,
+        "macro": 85,
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
@@ -119,7 +161,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-28T03:26:12.208822+00:00",
+    "updated_at": "2026-10-28T04:12:35.709474+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -157,15 +199,24 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       }
     ],
     "geopolitics": [
       {
-        "title": "Yemen: Houthi Attack on Taizz Road Threatens Lives, Welfare, HRW Says - Eurasia Review",
-        "source": "Eurasia Review",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVlpFY2RsdnpiV2Q4NzdSb1hMXzlibFVhOGdrT1ZMZWM0UE92RTY2a0czSkthQXhqVGNCS05tMkFNNE50eGl5dUQtNlowczB5Njl4b3oxMVNFaDB6bEJIUTc1NWZESWt4OWtYbXh1a0NKUUV1ZWNlX3BSWldiNTlsRVJIZDAxbElqU04zLWx0ZUhuWTJxWHV0QndUV2ptUFdBTjIybnZDLVZTdw?oc=5",
-        "published_at": "2026-10-28T02:12:38+00:00",
+        "title": "Russia-Ukraine ceasefire in effect after Melania Trump, Pope Leo appeal to Putin - NBC26",
+        "source": "NBC26",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWdTZ1c4RnkxTEJzZ285UFRSamNuSF9PWEhUNTFqUmR4UzdRVjVOWWpUSk5XRzhwa05FRGpKRndVOVEtejFlbU9jOVhVYXJMbmJEV3pPRGNMV2NnRXozcFFPQ3hYcnhiWFdxZ2hSVWV5QTdNRFZnMk9rQkZkbC1nZlpOa1VwMWRhbXJGX3otSFdSSjNBbWxOZlBIMGRKSDdHNk12NUJmYUMzVS1ZSHRleDNETWl3R0NveFpn?oc=5",
+        "published_at": "2026-10-28T04:00:33+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Prices Climb as Houthi Attacks Reignite Saudi Supply Fears - Crude Oil Prices Today | OilPrice.com",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb0I4Y1FvYjEzSmVqN205clo4TFpnSkU4WjdnQ3VzcUhLRnRvUTluTXZrbHMtQnZkaUdZZnRFbkRCYTJCeTdwY1pCejF0UU1aNUxIbWJFbzVsdVQ4R3hGWXhRSlVJU0gtZFVicmE3cVJGdlpDcDBVR0VpcGFqdS1seFRzZFMyUmxpRDVTX1EyeGNpcVBDa19kS1VEYWtjR2YzYUdwcEJLREVwV2tRN3NHT1ctTFJQRVV1d2fSAb8BQVVfeXFMTlJpYmRqako1bTB2MnRZZkNCdl84Vm80ZDZ5WVNwdXZ2YU1Kbm9nVUgyT2dOREpfX0F1NGRnRXNtMU9ld0Z1QU40TVlyTzdHVHJQUkpIaVBpSjNCZHMwSGZ3ZjZYRFdPTVNNSlhhY1lCZmk4Z1F0RWYwTnNIdkl5aGRCOWF2WUN1Rmh2M0ctN0F5aWMtcGhWZ1lqMHNUeE5rb3J0LUNzSGVFOFdjZWkwVk5kMDhyaWlMLU1uZTRtRTQ?oc=5",
+        "published_at": "2026-10-28T03:53:19+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -174,7 +225,25 @@
         "title": "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXd0OHZEUnBrMFNkRjJ5dHFUakFsTDU0NUxhdzhQUnpPQ0JxMllJanhoeVFQWm1GMmk2RkRUdDFWLVR2N0VwczZOQmZmbG9BanpUSTE2VEhnSS1xd29mUzFzbEdRTVBDWGRSOW1hRW41WU04eE9OSUo4QmFoSG9DUUhUNi13bzNkbEZaWlFUaVUzUzZPWGtMc2JDeEZyODg2Q09JdFZBekl1WnNJdDVBYnZQMzhieGt4bjFuOFZnMA?oc=5",
-        "published_at": "2026-10-28T02:00:00+00:00",
+        "published_at": "2026-10-28T03:48:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Holds Decline as Traders Track Result of Israeli Election - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWozMmJ3RFc4TndManlWbTRGeDhET1NHdGJDeFpnZVIySnk4OUZheXBfUjJaNWVmUHZId05VZFQ4bkVkZWc0NWxETW50QjhzbTUwTlJYelZMTEk4RUsybjNkel9yMXl4T1l0M0VMdl9OOU1xZmw4Z3dBWUpXZFNKVG5ZT0t5SXhnNzVKRWVvR2VEOHR5WjJQTVE5TURXZw?oc=5",
+        "published_at": "2026-10-28T02:51:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says - The National",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFJlRWh6RjRRdWJxRDBZM0lmaW9tOTkxS2JCTnpjSTJ3aGhrd2xJSW1MN2dDeWt6SzNMeWJva3Rhcm80NGx1OHoweGdKSGJZUklZQzliNE94UGVJeEpJdlo5WDlJbFpwRmctMTNIRnZSMEhlRTJoamZlblNtNi1lWjJhdy1aWFhTTk1MeGYtUVFKZw?oc=5",
+        "published_at": "2026-10-28T02:40:16+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -189,11 +258,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Holds Decline as Traders Track Result of Israeli Election - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWozMmJ3RFc4TndManlWbTRGeDhET1NHdGJDeFpnZVIySnk4OUZheXBfUjJaNWVmUHZId05VZFQ4bkVkZWc0NWxETW50QjhzbTUwTlJYelZMTEk4RUsybjNkel9yMXl4T1l0M0VMdl9OOU1xZmw4Z3dBWUpXZFNKVG5ZT0t5SXhnNzVKRWVvR2VEOHR5WjJQTVE5TURXZw?oc=5",
-        "published_at": "2026-10-28T01:50:00+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "China Is Building Its Way Around Europe’s EV Tariffs - Foreign Policy",
+        "source": "Foreign Policy",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjRONGxRUmF1UHlpdzlacU1FcEZ1b1dIUmNWR29MRDI3Q2RkMmRpVzlaaEkxNnVFMmZlY0JDSllJZW5vdWhsM2c3T1F3U0ZfeGliU05rOFJZdkx0N3pYdVhtcU52aXJrY0lIeEFXVm5XbG85ZTFCc2Z2NThZRm9NQWF0ajJqOGlEN09MN2NRZjdWNnZ3YzVGd1NYYk9rdUlkeFBNbE9hcVJmZVE?oc=5",
+        "published_at": "2026-10-28T01:32:30+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -243,15 +312,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China Is Building Its Way Around Europe’s EV Tariffs - Foreign Policy",
-        "source": "Foreign Policy",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjRONGxRUmF1UHlpdzlacU1FcEZ1b1dIUmNWR29MRDI3Q2RkMmRpVzlaaEkxNnVFMmZlY0JDSllJZW5vdWhsM2c3T1F3U0ZfeGliU05rOFJZdkx0N3pYdVhtcU52aXJrY0lIeEFXVm5XbG85ZTFCc2Z2NThZRm9NQWF0ajJqOGlEN09MN2NRZjdWNnZ3YzVGd1NYYk9rdUlkeFBNbE9hcVJmZVE?oc=5",
-        "published_at": "2026-10-27T21:01:44+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Why Russia's Central Crimean Drone Base Is Hard For Ukraine To Destroy - Radio Free Europe/Radio Liberty",
         "source": "Radio Free Europe/Radio Liberty",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlQtd3ZaV2dQWERkb1NSZk1QSTNibTd3bUdnNlNjeXFvS2h6enF4cXFWZ0dLX05Gb2JKd05MQWFZSUZtME16ZTdVR0RMQ01aQ1kwbFkwcnlvamhNSVIzbUlKZXFLWWRZWmE1M2Q5TDlTbWNfdS05dld0Q0lKSEJ4ZVA3Q1MyMmFrbzVJ0gGOAUFVX3lxTE5pcFNia2g1Y3dmdzQ3RXJtSExrZDA3ZmFsQVozN25fdDhsb1hmalRjYjFCVmt6T3lraFRlbWE4emxYeFRJeFlYeWVnaTExOGlxU29lak9QTk4xd1BGWVNTbmdxczhmUmdmYUg1OFU2b3VFZDRodTNkX1lIelBKTG8tcW1zVUs0Z0c5MFdMRnc?oc=5",
@@ -270,15 +330,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Pares Gains as Traders Weigh Oman-Iran Talks - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkRDMFpXeE42Qm9QVHJRRG9GYkVKMm44QnBJZmVLUHZXZXRkWUI0VUQ2ZUEwX1BXVm9FYjZtMk5hTVhHdWlBZ2twN2tFN21xaUg0NGpxTG90dEQ1ZlhfNnJhZkc2NURoVVJXVTVjOXVkV0FZZWQ4WTQ1TTVpZE5RMVV0bG55Zw?oc=5",
-        "published_at": "2026-10-27T18:16:03+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "The U.S.-Taiwan ART’s Export Control Puzzle - Lawfare",
         "source": "Lawfare",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVkhxSlNNd1gtOE1GcWhBbHczaWZrYnBJMWUzQzg0ajBqMUtNMko3a0dXanFjYzlsX05WM2ZPVEo1VUxVcGo5OXFoeHdzek5pbUJDVG1UZUJ6ZUV4TGNhMEJnV2xISU5SUWNpNDhIaW5icWFIejk4ck9nM3dYLUhDT2VoZkhjbTQ?oc=5",
@@ -286,23 +337,14 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdHZ2c2JMQTZCSDJGZWdLc1B3dkNlQW5Ici16QUU2LXdkQURUZnA3YzFHcVFZVmtMcHdXT3ZDMGZBZzZ3LVZlNFN1RDVRTU50bnUxYWhvOXI0WkxQTHFzQS10MkFJNmVFYXZzc0pNTjFNeTNaR1VLQTN4R2Z0c0oxMU9aUDBCdw?oc=5",
-        "published_at": "2026-10-27T17:30:52+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "OpenAI plans to buy Google's AI chips, The Information reports - San Luis Obispo Tribune",
-        "source": "San Luis Obispo Tribune",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4S3NGT1RjRWpibVVZZWxSVWRXUEsyeUt4eDZISUozbEVUMUhndlVZeW9hckNVMGhNZ1E2RUxHTGRCZkNidko0RXZEWlV6a3d6ci05LUFxVTBFSTk2cjlQa29LazBYSU1aSUthYm9ZT19nM2M?oc=5",
-        "published_at": "2026-10-28T01:51:06+00:00",
+        "title": "OpenAI plans to buy Google's AI chips, The Information reports - Centre Daily Times",
+        "source": "Centre Daily Times",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SY0VNdnl5aDNKMnd5NFBaU19LVXVCOGtEd3RlT1BjVkw0dThGNzI1YTJVSWNkZE9Rc0NoTEVYNHMwemFJUkpIUHpuUTRYT2RHQ3FJai1SVHBXakZiZDVySUw1R01OZmxWTEdnaXBDWWs?oc=5",
+        "published_at": "2026-10-28T01:53:06+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -317,8 +359,8 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia-Backed Firm Launches $3.1 Billion GPU Loan into Market - Bloomberg.com",
-        "source": "Bloomberg.com",
+        "title": "Nvidia-Backed Firm Launches $3.1 Billion GPU Loan into Market - Bloomberg",
+        "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWG4yWWNoTk85a0VzNWR5dnhLNTZUU3RmTVJWSnNJWmZta1FURTYxdXExMmR3ekxwVmRiUU9LaW40ellxb0JFWDJ1RHQ0c3JCSFlxSEF5UmZWNWJ5d2cyaVR5Vl9LMG1EODd2TjhuNnloRXotNzJDZGp5U3V0TXBLYTdhVW44TTlfdVFZUXRPS0ZWRVBQaDFHWVJZWkpqbE1MNUcydEZPckVqU1VBOWs4Tw?oc=5",
         "published_at": "2026-10-28T01:14:00+00:00",
         "area": "Titoli tech e AI",
@@ -353,6 +395,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Billionaire Stanley Druckenmiller Added to Revolution Medicines Before Its FDA Win. Is the Stock Still a Buy After a 134% Run? - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUlMwVldjR3RRblJVUnVhaGctWTF6NHNsUFB5djZDbHNvV05MQm1OSnJJQ0pBcGc5RVU1WGVodENKYTZTYU1odzZHUjMtNmpCWDlrZXZYUUhYVjhmSWhhLTNjY3lKcXd2cC1sd1ZXamozdzRYWmVtOGRJbHUtQUdZcnNCTGIyR2h4a3NwUm5sckoxMjRXUXdUcA?oc=5",
+        "published_at": "2026-10-27T22:41:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "FDA approves Moderna's mRNA seasonal flu vaccine - ABC News - Breaking News, Latest News and Videos",
         "source": "ABC News - Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
@@ -378,20 +429,11 @@
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "After two deaths in autoimmune cell therapy trial, Artiva is shutting down - STAT",
-        "source": "STAT",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQWJtZC1SYVFaMVhpZ3ltY05ic3hQdDJmc1Jkeno5ZFZhb19PWjZ4VDByVTZNMWQtdzlxU3g3V2JCMkxpaVlEZ3lTcVBkTnpKV29kSndSQjRUSWlOZ2hJbDFFRUxVeTBmM3pvZ0JrX1ktcmw5WWNJSXh5Xzc3c1lmcmRlajFoVnJYVld6NUs0NEVmaE82UTZoMk1iWnZUUk5kTWc?oc=5",
-        "published_at": "2026-10-27T18:06:15+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 200,
+  "archive_count": 201,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
