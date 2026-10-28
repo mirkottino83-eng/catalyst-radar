@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-28T07:01:51.383536+00:00",
+  "generated_at": "2026-10-28T07:56:14.601597+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.993000030517578,
     "treasury_10y_change_bp": 0.6999969482421392,
-    "wti": 101.68000030517578,
-    "wti_change_pct": 1.781780532641708,
-    "brent": 111.29000091552734,
-    "brent_change_pct": -2.274320688757203,
+    "wti": 102.12000274658203,
+    "wti_change_pct": 2.222223410204882,
+    "brent": 111.61000061035156,
+    "brent_change_pct": -1.9933234086886853,
     "nasdaq_level": 26477.810546875,
     "nasdaq_change_pct": 1.1785899298015101,
     "sox_level": 11482.5048828125,
     "sox_change_pct": 3.600272893728196,
-    "vix": 17.520000457763672,
-    "vix_change_pct": -4.730826322781068,
-    "dollar_index": 102.46399688720703,
-    "macro_score": 84.0,
+    "vix": 17.510000228881836,
+    "vix_change_pct": -0.05707893048259027,
+    "dollar_index": 102.4209976196289,
+    "macro_score": 83.1,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI +1.78%.",
+    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI +2.22%.",
     "quote_times": {
       "treasury_10y": "2026-10-27T18:55:00+00:00",
-      "wti": "2026-10-28T06:50:00+00:00",
-      "brent": "2026-10-28T06:50:00+00:00",
+      "wti": "2026-10-28T07:46:00+00:00",
+      "brent": "2026-10-28T07:46:00+00:00",
       "nasdaq": "2026-10-27T20:00:00+00:00",
       "sox": "2026-10-27T20:00:00+00:00",
-      "vix": "2026-10-27T20:15:00+00:00"
+      "vix": "2026-10-28T07:40:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,7 +44,7 @@
       "source": "Israel Defense",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyZHA1V2pYZVNEQ1Q5YldLSjJXUXFhdVpGd0RDWF9sUFhUV1Roam9xbXpWeGtxMjRidEhKSUYtUmhFSjVpNXJrbVlEOHFWZnRGcTlzSjRfYjg?oc=5",
       "published_at": "2026-10-28T03:47:35+00:00",
-      "age_label": "3 h fa",
+      "age_label": "4 h fa",
       "catalyst_type": "ma",
       "current_change_pct": 4.06,
       "short_term_change_pct": 0.55,
@@ -52,11 +52,11 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-27T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 426.8,
+      "quote_age_minutes": 481.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 53.0,
+      "confidence_score": 50.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-28T03:47:35+00:00",
@@ -66,52 +66,10 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 57,
-        "macro": 84,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    },
-    {
-      "id": "bcba4d06b010",
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Intel Unveiled Major Acquisition Deal Worth 15.3 Billion Yuan - 36Kr",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90WEEwZWZVeVUxbkZadThjRlhFQU5ZUXh4N1hidkg4a0lzT2NJNEdpalJvUTlxUFZuY1FKMXI4OUprV2JCVk9tcXdUVi1PR05QRS13?oc=5",
-      "published_at": "2026-10-28T01:08:47+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": 4.06,
-      "short_term_change_pct": 0.55,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-27T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 426.8,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 50.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-28T01:08:47+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
         "freshness": 62,
         "volume": 28,
         "momentum": 57,
-        "macro": 84,
+        "macro": 83,
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
@@ -119,7 +77,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-28T07:01:41.099639+00:00",
+    "updated_at": "2026-10-28T07:56:03.805939+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -129,7 +87,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
@@ -143,24 +101,60 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       }
     ],
     "geopolitics": [
+      {
+        "title": "Oil Prices Rise as Houthi Militants Target Saudi Energy - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSlpYejlRTmd1MFprTGxzTHhIQi1taDhJVkMtTThYN1Y5UktONWZxcVM5TEJ2Sy1Jd25QZXFCem5uNDkzOGU3Z0NONzE1V0ZPT2E2QlJTdjZreDg0eXA5Z21MandpYmI3azQ5Q0h4azVTdHpYQnVQVGdYR3pEajBid0QtT0taZl9OVktOSUhIWjl6eGdqYlJ5RFZOd3p1LVRkVjVCVg?oc=5",
+        "published_at": "2026-10-28T07:51:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China calls on Germany, EU to be rational on trade, supply chain issues - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFB5V1F5MG1uQ01IbWo5VHEwa1Z3YlNKaEROendtSWxhelJURE9BMzlvc0p6VzJWc203cjA1SnhlTHU5VEVXYXMxeFhLMnBlUXUyUzI4NlZ2Ul9XWUJaUkVNTGdFLW0zVlgwc1VKMkE4QUI0NUVKR2tSV1lHMDRKRmpVdFNscTY0ak53UTNLQ01FUXVaeHdEU1ZSV2JKdFR2Nkh4dElyaVptMFJ0?oc=5",
+        "published_at": "2026-10-28T07:36:09+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Germany set for record trade deficit with Asia-Pacific in 2026, report says - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc1hiQjB4TXVnajYySTdWWVVNbVVuZGE5S3JaZ0hBRV9aUVAtMEVRcG9ucm9VWWVNWkJJcFkyUm5zWFl2ZzYtLVNCY0NkYWxxRm9yc3QwMUFiY09iUldhUlJvUEo3OFdQb2xHTE5IcmItR1ZaRklGdWNGbjd0MENaU255Tmo0Ukwy?oc=5",
+        "published_at": "2026-10-28T07:05:26+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China-Germany trade reaches 1.2 trillion yuan in first three quarters - Ecns.cn",
+        "source": "Ecns.cn",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEY2xmcC1NUHFRcUlIZGdHOFByLTNTNEhVbl8yT1MtcUlMdGtuLXlrVVU3cm1kbW9aZkV0TFE2eTFRd19hVm8yTmV0b3JocS1FNlFGYjVBVkNMdXBNNmZXZmdidlFWS1JPXzI4bXQwMFo4RTQ4czU4VWZ3UFYySDQ?oc=5",
+        "published_at": "2026-10-28T06:03:25+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Tensions set to flare over trade at COP31 as China makes it a priority - Climate Home News",
         "source": "Climate Home News",
@@ -189,29 +183,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Holds Decline as Traders Track Result of Israeli Election - Bloomberg",
-        "source": "Bloomberg",
+        "title": "Oil Holds Decline as Traders Track Result of Israeli Election - Bloomberg.com",
+        "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWozMmJ3RFc4TndManlWbTRGeDhET1NHdGJDeFpnZVIySnk4OUZheXBfUjJaNWVmUHZId05VZFQ4bkVkZWc0NWxETW50QjhzbTUwTlJYelZMTEk4RUsybjNkel9yMXl4T1l0M0VMdl9OOU1xZmw4Z3dBWUpXZFNKVG5ZT0t5SXhnNzVKRWVvR2VEOHR5WjJQTVE5TURXZw?oc=5",
         "published_at": "2026-10-28T05:23:00+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Is Building Its Way Around Europe’s EV Tariffs - Asociación Almendrón",
-        "source": "Asociación Almendrón",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZmE2ZnN3WGNBRV9zQ09WaWVybHlacnY5eWlEWUVoZktuYl9VcVgwb3RSbDdEVktZbzBXMTR6NzQtMGF5SGRfem9QNy1qZnlXLVNwb0gzenlkSlFJWWNGeUR5QThLUWlUTVpVWEE0aEYxNXFUSUZjYU1ISTB6QkRHTlJZdWY2ZFo5SGN0QVJ4OA?oc=5",
-        "published_at": "2026-10-28T05:06:31+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Exclusive | EU plans high-level China currency talks as fears of new trade shock mount - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeXRFRE5UVHpHakJSNjZQdWlLT0dtOHZnY1hyLU5lVVh0aDEzZVdpcnRrVW5LWGFJbEFyVXNyNVpWTk9GblJLSDhhanZoWldzbXBZUG5obnBDSjU0X1dRQjFKWmNEeDZkakNsQWxreElpVWRicTNZazBvSGQ5VHduRXNsVk52MGZBVlZpYmdZZW45MF9jZ2ZnQ0I5RS1seGcydml2VnlOc09KVWdMOFFyZmZpYXY3UEtQdS1fRDREbnoxV2JU0gHEAUFVX3lxTFAwbjZhVTBsM3dOc1BIX3hZRGZhTTRPTGVNTXZPR2h1OW4zbFhrU3NjQUUwZF9xblhoemZLU3Y1WUdmZlRxZGpDb05MS21WWkd5MU5VOU40eUtDUjkycHlyT0lkMW56dEFITkVPbGtCcTBiLVptelBZT2c2bXVEdjI0bVdUdVBFQjZYMnN4VkY1ZldWdlhibzNUaF9kVmVSN2Ixc1pQMk1UNUxRcUdDUFFEM05abThkby1BZ21CbnRJVzM5YmY?oc=5",
-        "published_at": "2026-10-28T05:00:07+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -234,12 +210,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Prices Climb as Houthi Attacks Reignite Saudi Supply Fears - Crude Oil Prices Today | OilPrice.com",
-        "source": "Crude Oil Prices Today | OilPrice.com",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb0I4Y1FvYjEzSmVqN205clo4TFpnSkU4WjdnQ3VzcUhLRnRvUTluTXZrbHMtQnZkaUdZZnRFbkRCYTJCeTdwY1pCejF0UU1aNUxIbWJFbzVsdVQ4R3hGWXhRSlVJU0gtZFVicmE3cVJGdlpDcDBVR0VpcGFqdS1seFRzZFMyUmxpRDVTX1EyeGNpcVBDa19kS1VEYWtjR2YzYUdwcEJLREVwV2tRN3NHT1ctTFJQRVV1d2fSAb8BQVVfeXFMTlJpYmRqako1bTB2MnRZZkNCdl84Vm80ZDZ5WVNwdXZ2YU1Kbm9nVUgyT2dOREpfX0F1NGRnRXNtMU9ld0Z1QU40TVlyTzdHVHJQUkpIaVBpSjNCZHMwSGZ3ZjZYRFdPTVNNSlhhY1lCZmk4Z1F0RWYwTnNIdkl5aGRCOWF2WUN1Rmh2M0ctN0F5aWMtcGhWZ1lqMHNUeE5rb3J0LUNzSGVFOFdjZWkwVk5kMDhyaWlMLU1uZTRtRTQ?oc=5",
-        "published_at": "2026-10-28T03:53:19+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "China Is Building Its Way Around Europe’s EV Tariffs - Foreign Policy",
+        "source": "Foreign Policy",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjRONGxRUmF1UHlpdzlacU1FcEZ1b1dIUmNWR29MRDI3Q2RkMmRpVzlaaEkxNnVFMmZlY0JDSllJZW5vdWhsM2c3T1F3U0ZfeGliU05rOFJZdkx0N3pYdVhtcU52aXJrY0lIeEFXVm5XbG85ZTFCc2Z2NThZRm9NQWF0ajJqOGlEN09MN2NRZjdWNnZ3YzVGd1NYYk9rdUlkeFBNbE9hcVJmZVE?oc=5",
+        "published_at": "2026-10-28T02:55:41+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -248,24 +224,6 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT2x2VWlZaW1uOFZwazYzWmdMbW5MREFZbWVkWW05VUdnSk9oT2w4a2FNYlNvRTJodWY3TGdhVVhzc1pYbnBfWUp2WW9BUzFQVU5DbE9sLUx4NlF2R1daLUEwS09LN2wyV2R5ZFF6d1h4bTdVSnJGT0pZTW5BaEVaYkRERGtRV3daSWtRQmRoU2dmQ0pkS2hhbGZvU2RzNUdOTmFQN3YzWkxqcEpNMGNnOVQ1NGt2ZU1LTWxLb25RT2NKdHJU?oc=5",
         "published_at": "2026-10-28T02:47:00+00:00",
         "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How China’s ancient capital staked a claim to the nation’s fastest export growth - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY0p0Q2FLZTVsaEFsa256WmZTdVVGYVFBN0dvazdkQjJEOGY0QlBhSXdxSFY5bUduUW02czN3UXNucTgwSkFIdmJfNnlOQzY4UjFhUmlJR2JoTDcwWTJaRndjbmhjenE1OXdVeXdKNXlBb0ZhZkJqbWttN0dieGZHVFZxdlBDU0NxNzM5V0V2RDlqX3B5UDlpMnlYWUhpcDJaXzhXanJKYi1VckpKVFExUldrTWQ1M0VlMXBOSzk1VTRUeEFFekVJ0gHHAUFVX3lxTE04d1Fsd0Zkcm5LdUV0V2d5MVRiZDJPQ0ZRZ1JjZ08yZ2ZNSGhPcEYxTU8wLUdWcVRkZzRpakh4WFFjQ3otSjYwbFRqemJEeVlwWEFobm9lMHJyRmlpa3laU3JfakM4Rml5MW1xbmRrLW5qT1JGRzJGTEZLN3BHejFQS25DZl9vSEtZd0RpUjBLdmYtaWVWV1pCNExsX3pGTFlnSU1IMUpsOHdQS0xSUFBxOVltTGktZ0lSSDZNV0RubnRqR2YtcXM?oc=5",
-        "published_at": "2026-10-28T01:00:08+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Spotlight on EU-China Trade Relations - Asia Society",
-        "source": "Asia Society",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd1lscUxCSS1fSmRha1UxZ0lBOXI0T19RYU1PbThqMDd0STBUNWFPeVNlQk5mVGt4aUhEQi1lSzlJZUFWLVNnaDRXdWNHUF9KNHlrVW9qSWxUTV9mTVN4NXJEMEh2cHRlWko0dmpfb3ZOdGJScU5meVFieHNKOW5TWA?oc=5",
-        "published_at": "2026-10-27T23:35:09+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -299,11 +257,20 @@
     ],
     "corporate": [
       {
-        "title": "Legend Biotech (LEGN) Stock Could Trade Below Its Sales Backdrop - Yahoo Finance Singapore",
-        "source": "Yahoo Finance Singapore",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN0hUQl9fNG9DZDRMRnktWXE5NVB4dkZpRGJEd05kQ3l2LUY1LU5ocEwwQkMwZUZoaVhUSEg3bXhUOHBZZllWTjZCVXZYT25VcTd0REFKSUp0dVhmVG16MmhGY1N0TUJnREQ2NEVHWTRRekhlcGx3ekRuZ290YUROcWdZWHc3eGs?oc=5",
-        "published_at": "2026-10-28T06:20:15+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Why Alphabet’s Own AI Chips May Be Its Quietest Advantage - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOTVGQ2dvMXdxSEtsVnA1MGNKa2UwVWZaOHA1cmlDUFhIR2JCdkpTVnp6RGtFelNITGs1ZFJrUmJMT0JHQmlNQ0xlRWEyU25uM1ZuV3Q5U1Bjb1Y4am80UjNUcEo1bGp5NXVHQkVWaWF0ZDZOdzQzM1daaURocy0xYVJSanBNN2tqUkFwVmRJcGxHbDdORWpOeHJUZjk3RmJpd3c?oc=5",
+        "published_at": "2026-10-28T07:51:59+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alphabet Earnings Preview: Wall Street Expects 25% Revenue Growth in Q3 - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQU5WdjhOdTN0TlVBdUNFeVpFZWM5c1dGcjlHcEVTemlCaE1jSmljMVdOaXJIRjJmbWtQTk5ORm5LeFl2eW5SWnJDelZyRkF2bnZTTlBjaS16V3hlQzRGOVdRLWFKYTJCYkRvYUhaekR2enlTWmtraDhscVdkOGdWbWZoWXdsRVY0dkFnbHFodkhmSVBKNDlsVWZhM0dxR2dLWl83bExaZG5xSWxNUmE3WEFocnc?oc=5",
+        "published_at": "2026-10-28T06:49:48+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -371,20 +338,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Intel and Oracle expand OCI partnership to scale enterprise and... - Intel",
-        "source": "Intel",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZHBQWFRVeGoyYW9mNXRXazlNTDB4VlZwcEpQR2xRMHNzTE9vejRJcC1oNklwM2ppekVvMFNUdUhCVjR6MDYwV21fLTlISUNEMnZZWmM5SGduOHl6TDZ6WHZqZWJWdExHNVRwZ1RDT0MyWFpib3I4U19vSGlCSXdGYzVlU1pHdkdfSE5ZYTg2N3F1cEVIcEZONWlBQkhab19kakQtVWNnSzBwLTZnZ2RGQWxHMVlCTTVWRVhPN0VoWQ?oc=5",
-        "published_at": "2026-10-27T16:03:08+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oracle, in effort to reduce reliance on Nvidia, adds AI chips from Google, Cerebras, and SambaNova - Yahoo Finance",
+        "title": "How FDA Approval Will Impact Viridian Therapeutics Stock - Yahoo Finance",
         "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMGFVTVNjTklMQTVqWjhmaVNOSzM5dC1BbWFnRTRPTG51b2xOSFhmamF0RkN2RWJjcVdhbGFQaEZPaUdkMnRjcW5aWFROYVhZblFFUkVaVVBtOV9HRHpoeUdmZTJNYnh0UWxKWFZtSVJRMkZ5NjBDSDR0eXRLN1hLM21PWDg2V1dSckZ0Q1hTN3hheUlPdzhHNml1QnBPT2FBdGlITDZWV3d0V1pZTjRsNlRZNkhnTTJmUXM2Vnptc3o4V0t6dmU4bzRUc2hybnc0c3kxMDZPTFhROUZmZEdjbmpSZXNEdHhCU3c?oc=5",
-        "published_at": "2026-10-27T16:00:00+00:00",
-        "area": "Titoli tech e AI",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORjdxaTFIS0NmOTBrN2ZhUHFYMUJqT01sb19BQmg2dDVEVzg4TlRXaDlycGgzVllfRmFkcm5oVEduejlCQUtnX1F0ZUN1RUFoc3JPRmpxQVIzckwySUlURWZfdE01ODhMQU9TWDJvbmoxemdtMTctNzVDZUJpb21BcDdtQ0RKbWt2RURYX2VRWnFpWTlaOG5tQmxiTUpaS2xOY1ZSTg?oc=5",
+        "published_at": "2026-10-27T18:08:29+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
