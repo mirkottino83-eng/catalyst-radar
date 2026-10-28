@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-28T10:58:19.844154+00:00",
+  "generated_at": "2026-10-28T11:33:52.731827+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.993000030517578,
     "treasury_10y_change_bp": 0.6999969482421392,
-    "wti": 101.31999969482422,
-    "wti_change_pct": 1.4214195668230012,
-    "brent": 111.0,
-    "brent_change_pct": -2.5289755206167497,
+    "wti": 101.56999969482422,
+    "wti_change_pct": 1.671669813250909,
+    "brent": 111.16000366210938,
+    "brent_change_pct": -2.3884735308306815,
     "nasdaq_level": 26477.810546875,
     "nasdaq_change_pct": 1.1785899298015101,
     "sox_level": 11482.5048828125,
     "sox_change_pct": 3.600272893728196,
-    "vix": 17.459999084472656,
-    "vix_change_pct": -0.34247358289551943,
-    "dollar_index": 102.39800262451172,
-    "macro_score": 84.7,
+    "vix": 17.5,
+    "vix_change_pct": -0.11415786096516944,
+    "dollar_index": 102.39099884033203,
+    "macro_score": 84.2,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI +1.42%.",
+    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI +1.67%.",
     "quote_times": {
       "treasury_10y": "2026-10-27T18:55:00+00:00",
-      "wti": "2026-10-28T10:45:00+00:00",
-      "brent": "2026-10-28T10:45:00+00:00",
+      "wti": "2026-10-28T11:20:00+00:00",
+      "brent": "2026-10-28T11:20:00+00:00",
       "nasdaq": "2026-10-27T20:00:00+00:00",
       "sox": "2026-10-27T20:00:00+00:00",
-      "vix": "2026-10-28T10:40:00+00:00"
+      "vix": "2026-10-28T11:15:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -44,19 +44,19 @@
       "source": "Silicon Republic",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYzFPX1R0U2V2UGdHOWc2LXJyX0plOEY4UFVwd1FWVlZlcXFuVFlRci00OE93QUJrQ2ZxNVkxdzNBOVB0cmV1aUFGb0VGalJMU2thQ3dkRWdtbWhZWk1lQTEwOUNzYkIwckR3elVHaWJ3bjAzOEF1ZFltZmx6YjVfR19LbXdzSmdRMDBJaQ?oc=5",
       "published_at": "2026-10-28T10:02:12+00:00",
-      "age_label": "56 min fa",
+      "age_label": "91 min fa",
       "catalyst_type": "ma",
       "current_change_pct": 1.83,
-      "short_term_change_pct": -0.14,
+      "short_term_change_pct": -0.02,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-28T10:55:00+00:00",
+      "quote_at": "2026-10-28T11:30:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 3.2,
+      "quote_age_minutes": 3.8,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 72.0,
+      "confidence_score": 70.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-28T10:02:12+00:00",
@@ -66,47 +66,18 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 90,
+        "freshness": 78,
         "volume": 28,
-        "momentum": 48,
-        "macro": 85,
+        "momentum": 50,
+        "macro": 84,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
     }
   ],
-  "movers": [
-    {
-      "ticker": "ENPH",
-      "company": "Enphase Energy",
-      "category": "Clean Energy",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -18.87,
-      "short_term_change_pct": 1.76,
-      "relative_volume": null,
-      "quote_at": "2026-10-28T10:57:56+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ENPH"
-    },
-    {
-      "ticker": "DELL",
-      "company": "Dell Technologies",
-      "category": "AI Infrastructure",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 9.96,
-      "short_term_change_pct": 1.51,
-      "relative_volume": null,
-      "quote_at": "2026-10-28T10:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "DELL"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-28T10:58:10.629634+00:00",
+    "updated_at": "2026-10-28T11:33:42.719582+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -116,43 +87,52 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 9
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       }
     ],
     "geopolitics": [
       {
-        "title": "Operation Orchard: Israel’s Secret 2007 Strike on Syria’s Reactor - MiGFlug",
-        "source": "MiGFlug",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOFVBcXV0QVZQV3JUeHNXamstTzdnWHBxWUp3X0FIdnp2RDJLUE1iS3RjOFFIUzc1WHlJOHhqSENCSnFvakFTckJnWmpqNDRJcVRYMjdId0V3TTMxRTcwamJNZ1lYakUyb1JIdWtjcTAzdW9MNnhlM1FLcmZ5M19uaVcwNmxManZVZ2VXUzNqZzBoYld0QnpV?oc=5",
-        "published_at": "2026-10-28T10:52:29+00:00",
+        "title": "Russia-Ukraine ceasefire in effect after Melania Trump, Pope Leo appeal to Putin - 2 News Oklahoma KJRH Tulsa",
+        "source": "2 News Oklahoma KJRH Tulsa",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVXdmVDRWMm8yUnpaaTk1RDdWOWNEOEd1YnRQSE1Vb2JPczlHaGt3Q3FhYU1xZklXeThyeElBSGFaZ3RxOUY0UnZjbVVyYURSOWw3eW1GWlE0eTJqSWY4dkpnZzlacF9ZSzlVWFpqaFRZOUZMRWlaMEs5MXV2bjJJbUFsVGhnM1Q4YmVibHBtWENSc2hzSVo5WjV5MHRmUDRpb3BzUllCWTNjSS0zbnNueUotMF80cm9ld1E?oc=5",
+        "published_at": "2026-10-28T11:20:36+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXd0OHZEUnBrMFNkRjJ5dHFUakFsTDU0NUxhdzhQUnpPQ0JxMllJanhoeVFQWm1GMmk2RkRUdDFWLVR2N0VwczZOQmZmbG9BanpUSTE2VEhnSS1xd29mUzFzbEdRTVBDWGRSOW1hRW41WU04eE9OSUo4QmFoSG9DUUhUNi13bzNkbEZaWlFUaVUzUzZPWGtMc2JDeEZyODg2Q09JdFZBekl1WnNJdDVBYnZQMzhieGt4bjFuOFZnMA?oc=5",
+        "published_at": "2026-10-28T11:12:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -176,12 +156,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China rushes to shore up markets as AI trade sours - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fVVJTTkxTTXJOWTFYd2RjQTlnTUFMbTFSODdBX3Z2V2RQWkNGeDNobEVadzhRejdYcWNXcjNWOXdPTVU0SHhyaGdFSnhFcTdkT0hiTW1Lejg2ZHkzdG1FSDdEMldNRXFrdzhEVXpCdmJSajBPNkJ2Q1A?oc=5",
-        "published_at": "2026-10-28T10:18:45+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "Iran’s Araghchi: Any ‘Israel-instigated’ attack would be ‘devastating’ for global markets - The Times of Israel",
+        "source": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUTQ0TEI0SlZjRkVFMmQ0MU1nQ3lrUHRWMG1Cbzl3ZUxWSmlzU2twbHBlaE12cnRYUlJaS3ByMGI3eDZUQThSVTVka0ZBeFh1Ty1ub3VQUXFvU0lRTUtaUjhaemIzOGNwWThXTDZMSzB2NWptYl9GNy1kMnFiNk5NYXVtb3FodkNVZFVNT2pqVk5HSnZqS3RUUTEwOWR2OFpMNEdfdHk3bUlHNldyVDI5eG5DUkZZWFN4WDhwWm5DTV90eEVGbUc1dA?oc=5",
+        "published_at": "2026-10-28T10:33:22+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Rivals in Israel Election Strike Tone of Triumph, but Outcome Is Far From Clear - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MUTJ0MEpwV0JKTERtX2pIX0ktV2FvM3owbDV0TktEcVdwRThUQzRjbnZNRWR6aGNKRlhxdTNSdG1BRHlTR2VSTWpqLU5kcEZiaDBXcTE1NU80MnNGb044NngzQzRiSFYyc183bTdPdw?oc=5",
+        "published_at": "2026-10-28T10:25:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -221,39 +210,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine’s Drone Hunters Take Down Russia’s Rare $100,000 “Knyaz Veshchiy Oleg” UAV Over Sumy Region - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUGZrYUpwSEVaYktBNzI4Wm12ZFNnVUpENUQxVDJ5MjdlQ2lKWkFvdjBQeERrajRyVjVpaEREVl91VDZRdEtUSHpDMjkxa0JOLUU4S0g0Q0VwM245SEJCSk41UHRyVzFxSXVKSnB1SXF6QnZGSjdKVnRmTk5HWm1mRTBOZlgtcUFXRlBwSVk3aEhTai1Xc1F2aWItQnJ4dDBhN2JSOXk1RS0tVnlQekEyZlNiYmVCOUItNUcwSEJ5b0FCRW1SUm5ZcnFFTGFSYWp6R1VycXpWMA?oc=5",
-        "published_at": "2026-10-28T08:36:33+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil prices rise as Houthi attack claims renew Saudi supply concerns - Anadolu Ajansı",
         "source": "Anadolu Ajansı",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXVqQXFYeTlydVBobEZ1Q2NHVzVMdnIxNlhJYzllOXF4bUZ2VENnRndHMl9zVzNtWXlQRE5XRnhVRWRuTE9MMW9iM3k4eGJfSlFzOGZ2anNUU2hUTlFpYXd4MEV0M2VXcWRwV2VVWkhJTkdfaDJnVERFVEdTZ3l5VzluZjdWWnVkWUY2LVRjbVJYU21xelozaU12bElXZUpVMENHb0VJa0o5cUhndXhJ?oc=5",
         "published_at": "2026-10-28T08:30:09+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Middle East latest: Qatari mediators present Iran with deal to end war, official says - The National",
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lem9tb1QwUDdzdGVId2ZLZXBTc0tsTGs1aTdHS29mRjR1di1IOThPYVFLQUp6MFdoN3VBZF9GWWZzQVp4RmpRQTFucmhOMEF6eUZpdXpCa05SQjlkVVdhbFJOVnFBMDVXaFg0WDBfZi1nQmsyYnVCdXhFQmVRdw?oc=5",
-        "published_at": "2026-10-28T08:28:24+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Prices Rise as Houthi Militants Target Saudi Energy - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSlpYejlRTmd1MFprTGxzTHhIQi1taDhJVkMtTThYN1Y5UktONWZxcVM5TEJ2Sy1Jd25QZXFCem5uNDkzOGU3Z0NONzE1V0ZPT2E2QlJTdjZreDg0eXA5Z21MandpYmI3azQ5Q0h4azVTdHpYQnVQVGdYR3pEajBid0QtT0taZl9OVktOSUhIWjl6eGdqYlJ5RFZOd3p1LVRkVjVCVg?oc=5",
-        "published_at": "2026-10-28T07:51:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -282,9 +244,36 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China rushes to shore up markets as AI trade sours - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fVVJTTkxTTXJOWTFYd2RjQTlnTUFMbTFSODdBX3Z2V2RQWkNGeDNobEVadzhRejdYcWNXcjNWOXdPTVU0SHhyaGdFSnhFcTdkT0hiTW1Lejg2ZHkzdG1FSDdEMldNRXFrdzhEVXpCdmJSajBPNkJ2Q1A?oc=5",
+        "published_at": "2026-10-28T03:54:50+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "OpenAI Is Buying Google’s AI Chips, a Hit to Nvidia’s Biggest Customer Bond - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOU41VEhZT0hhZFRRQXVmRWhKWml6Q3FSLVRxeXpRYU9xLW5xQ21MT080OTJvNEtmcmQ5ZW05Tl9XRG4zeVZ1VVhNLWphbXB3ODJpcTBaY0hXc2J4RHBtQm1wVFJHUTlBeC02YkJydmF2QUFTS0s4eFU5UVB1bkZhdmZpUlQ4NnJSZHFlTnpoVzVYVmZmbnJ3NkMtbHZfT2N6M1p1VXk1QUNsWjdWVmpUeU9VZ0dCWGs?oc=5",
+        "published_at": "2026-10-28T11:29:07+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Concord Biotech Q2 2027 Earnings Call Is Live - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONGhweHBxLWN5bi1yS2IwT3hueGkzLXBYSmlxWGNYSnQ1VzJ0SnRBUHNXQlp1YUdVZl8tZ3YwYUNVRnhNQjdIanhBRmtSQTFBX29QZXd0ODVDa3lHbmhDV090UWpiWjB0aHZuakx6bjFqVzR0czFJTk9aMVRKcHNiTnZjTkUzQzB3ZWhQMEgzX082NmZwY2NpUEFpN3hENzhaM1N4UEdoTWdUemhTMGFZeGYxOUo?oc=5",
+        "published_at": "2026-10-28T09:57:40+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Fed decision and Alphabet, Microsoft, Amazon earnings could shake up the AI trade over the next 48 hours - Business Insider",
         "source": "Business Insider",
@@ -300,15 +289,6 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFJOLTVRVEVXZGU5SXFvSnhOT0VOc1hfdjF6Ry1SSnRPcTBIcUtyc29RR0E5d013UGw4U1FZcmtsSExoT3BPejd2LXIxUm1BRWZYTUhzSnE1OTRoeGVudjlWYldZX0hLdG1rQU95NUtGZEpjNllDaUVMS01WTGZkaldwaXlHUU5hVlJ6a2dB?oc=5",
         "published_at": "2026-10-28T09:25:03+00:00",
         "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Shenzhen YHLO Biotech : Reagent growth and margin gains drove sharply higher 9M earnings and cash flow - TradingView",
-        "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQX2dPVVhtUWtkZ3l5RVdHU2l1SmdfU1NmVmcwNnJhdUVkTUhnZFlFaXpxUFE3OUxvUEhwX0o1b05MUUw4RzUwZ1Ffa2dmX2VCeEpjWW1Fc0pYWVVEY1RfeGdUVG9WYTN4TTlDcWlaaTlhdXhPZnE5Sm12ZkpsTjBIQlR6a0x1TWpYTHMyQmpQb3hpWGNfc0N6dEpZXy1ZYTNMWWQxUUJ2RlBPXzVBbkdRcTJzaXU3QktleEFwN1B5ZnJaNE56RFlPWndrVy1WQ3ZuOFZjeDk1UlZOby1LR090YjRUTlZVOXIxLUdTbjVWck1oQkZHNEZ5RmRuUEpDSXFLQVpwUDU5U2JfeTh3QW9uTg?oc=5",
-        "published_at": "2026-10-28T09:13:26+00:00",
-        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -331,11 +311,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Why Alphabet’s Own AI Chips May Be Its Quietest Advantage - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY19YYzdXczBfN193VXZlTWsxWEQzeW9MUWdHNkFOcFB1RHZxai0zaWFXT0pfZkZqT1J0WUZFM3VVQTFGOV9ONlY0azBBT1R1SUVMRkh4SGd6Wmp1SF94LVJMeF9QLW43X1Z3UXJmLXp6Smo1V0lQVmNZQnpEdDNqSDBXdVhSZVp6dEFKaDg5Znlxa2s?oc=5",
-        "published_at": "2026-10-28T08:10:02+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Legend Biotech (LEGN) Stock Could Trade Below Its Sales Backdrop - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN0hUQl9fNG9DZDRMRnktWXE5NVB4dkZpRGJEd05kQ3l2LUY1LU5ocEwwQkMwZUZoaVhUSEg3bXhUOHBZZllWTjZCVXZYT25VcTd0REFKSUp0dVhmVG16MmhGY1N0TUJnREQ2NEVHWTRRekhlcGx3ekRuZ290YUROcWdZWHc3eGs?oc=5",
+        "published_at": "2026-10-28T06:20:15+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -344,15 +324,6 @@
         "source": "Vicente LLP",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUEFyZnptRDc5MGUxNVZtMzZqNTdTemY2TTB2Q0oyX0pIY3JSRnUyQXJpQzhVY1NUdDhLOS1RcWVtLVJVaS0yWFFleFZzVml2cl82VXZXSFVCQ2o3TXJpSkllaHpHVmMzNnBzVVg1SzJUSHlLbFViaEw0Z3JkTS0xLVk5Z2REMWNtWlN6RjFsZ2o4eHdjNERSODhrSWlJNF8wX2Y4ZTJiUDlOVlB5WnVmSUxhNGNCSjAwT0NhbHBRa3NJSzY1LUZmdUZR?oc=5",
         "published_at": "2026-10-28T05:05:14+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Positive Melanoma mRNA Vaccine Trial Data Sparks Personalized Medicine Hope - The Scientist",
-        "source": "The Scientist",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDBYNUgzcS1PQUhFaU1lajQzLWhFOGNibFFXWFlDRG9QbWZxRmRRUVlDVW5Ja0IwdWNhejMwcjBTMzJnTXZodlVNWmN5WTdiTF9rcmJTOEV0R2Etc2J6eEdYWjliZFRpQ1poNjJOQkFQYzZ1VmtmNnNUdEF5elBGSnBoMjh5RktpeVFjYjJ1cWlFX1Ayc2ZSX3RTRzd4Z0prWmNiZlQxaXNNWm1HOE8yaw?oc=5",
-        "published_at": "2026-10-28T04:23:31+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
