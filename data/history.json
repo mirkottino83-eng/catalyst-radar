@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T22:41:15.852323+00:00",
+  "updated_at": "2026-10-28T23:49:56.545783+00:00",
   "events": [
+    {
+      "id": "42f48c0e993d",
+      "ticker": "DDOG",
+      "company": "Datadog",
+      "category": "Cloud / Software",
+      "headline": "Upwind raises $400 million after rejecting Datadog acquisition offer — TechCrunch - UA.NEWS",
+      "source": "UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSF80Vkl1bGFWMlNYTUtzUDBTeUpEM1BqY3E0Q3pBVkcyZ29POXZZcTVyMWZGWnBUZm5PNl9Cb2wxcGdfdEJPcmZWVDB3WmliVEk4QkozRm1RZjYydlF0SmpuWGNDYXlqUW8xcHFpRF9RcjZtdFRlZFFTaGhSY1ltQUxtSjFIQW5pQ3h6MklVd1dQRURCUlRQTEFTbzhndU94QUtFbFBfbjhUS1ZkRGV6NzRRbFpKcVNESVBFS09R?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-28T23:28:09+00:00",
+      "first_seen_at": "2026-10-28T23:49:56.545783+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 52.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": null,
+      "price_at_publication": null,
+      "publication_quote_at": null,
+      "pct_at_detection": -3.01,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "26e03008108f",
+      "ticker": "DDOG",
+      "company": "Datadog",
+      "category": "Cloud / Software",
+      "headline": "Upwind raises $400M after walking away from Datadog acquisition offer - TechCrunch",
+      "source": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTl9CSENzOGw2a0dXM0xzWnM1RWY2RUpjelY5TndOTmp1VTd3aklseGNnZnRiOXZ6SDdxT21ZemdHRTBQOHRDdWszUnc4cVJrX2NQMEM5U1Jld3JXanJBdV9HVEV1dEtRVG9fdG9NVUJFOUpCQkxzOXNtSG5LSDBDSlNzamxvTHZLNzJ2MnhyMUNVWHRCTmxSY2kyVnJmRUdTb21HcUJB?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-28T23:15:00+00:00",
+      "first_seen_at": "2026-10-28T23:49:56.545783+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 51.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": null,
+      "price_at_publication": null,
+      "publication_quote_at": null,
+      "pct_at_detection": -3.01,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "cb25e9c77567",
       "ticker": "MSFT",
@@ -21,7 +69,11 @@
       "publication_quote_at": "2026-10-28T21:20:00+00:00",
       "pct_at_detection": 3.71,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -1.07,
+          "price": 544.5,
+          "quote_at": "2026-10-28T23:20:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -195,6 +247,38 @@
       }
     },
     {
+      "id": "20ccd598018d",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "DOJ reviewing Nvidia’s acquisition of Hugging Face, Reuters reports - TipRanks",
+      "source": "TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMERTWk9UWU9Uazg2MEhVMkh0NkNXRjRINUtSRVRpektXNThWbU1lV283NXljdmppT0JwckdfamZEYnJ3cHZzS0cxS2czcUgzbGpzd295T3ZMLURKczhZalRVU3dDVW9NZ0xKRXRNS0hyYmFhSEU3cVVwbGVNcjI2WG5NU1lpSG5EbC1ZeFdEU2EyRU9XaHNGOGwwOV9jZEh4cWJuZVp2ZkFoaTVyMk1RbGdqVTUxUQ?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-28T18:47:51+00:00",
+      "first_seen_at": "2026-10-28T23:49:56.545783+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 65.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -0.77,
+      "price_at_publication": 216.27,
+      "publication_quote_at": "2026-10-28T18:50:00+00:00",
+      "pct_at_detection": -1.83,
+      "checkpoints": {
+        "2": {
+          "return_pct": -1.24,
+          "price": 213.59,
+          "quote_at": "2026-10-28T20:50:00+00:00"
+        },
+        "5": {
+          "return_pct": -1.07,
+          "price": 213.9483,
+          "quote_at": "2026-10-28T23:45:00+00:00"
+        },
+        "8": null
+      }
+    },
+    {
       "id": "dd657c2a9985",
       "ticker": "NVDA",
       "company": "NVIDIA",
@@ -218,7 +302,11 @@
           "price": 213.0693,
           "quote_at": "2026-10-28T20:40:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -1.44,
+          "price": 213.93,
+          "quote_at": "2026-10-28T23:40:00+00:00"
+        },
         "8": null
       }
     },
@@ -246,7 +334,11 @@
           "price": 213.03,
           "quote_at": "2026-10-28T20:35:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -1.54,
+          "price": 213.94,
+          "quote_at": "2026-10-28T23:35:00+00:00"
+        },
         "8": null
       }
     },
