@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T21:25:23.364912+00:00",
+  "updated_at": "2026-10-28T22:04:55.411144+00:00",
   "events": [
+    {
+      "id": "cb25e9c77567",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "category": "Megacap Tech / AI",
+      "headline": "Microsoft Stock Jumps on Earnings Beat. Capex Was Lower Than Expected. - Barron's",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbW9XUTM0bmRYT0FiWE9Va2JjdF9YN3lZdXhLZEUyeXpaT3BFTG9CaWdxMG5Ndk9BR25uTWJ6dHk5MndaQ01fNFlkUG5BT1JZMmp3Szg4NTJxcHJ4VXI5VFp1dDVmQnJzcmdjSFdqUjVYT0NtZ2xHZ2VBOTVuV0NLdQ?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-28T21:18:00+00:00",
+      "first_seen_at": "2026-10-28T22:04:55.411144+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 67.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 3.65,
+      "price_at_publication": 550.4,
+      "publication_quote_at": "2026-10-28T21:20:00+00:00",
+      "pct_at_detection": 3.71,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "f9cf22799c11",
       "ticker": "MSFT",
@@ -93,7 +117,11 @@
       "publication_quote_at": "2026-10-28T19:45:00+00:00",
       "pct_at_detection": -1.31,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.49,
+          "price": 214.1345,
+          "quote_at": "2026-10-28T21:45:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -234,7 +262,11 @@
           "price": 95.48,
           "quote_at": "2026-10-28T18:50:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.73,
+          "price": 93.5394,
+          "quote_at": "2026-10-28T21:50:00+00:00"
+        },
         "8": null
       }
     },
