@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-28T00:16:07.548251+00:00",
+  "generated_at": "2026-10-28T01:17:21.944278+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.993000030517578,
     "treasury_10y_change_bp": 0.6999969482421392,
-    "wti": 100.30999755859375,
-    "wti_change_pct": -1.4249258521983332,
-    "brent": 109.83999633789062,
-    "brent_change_pct": -5.154996413571822,
+    "wti": 101.05000305175781,
+    "wti_change_pct": -0.6977192114463127,
+    "brent": 110.58999633789062,
+    "brent_change_pct": -4.507383931220687,
     "nasdaq_level": 26477.810546875,
     "nasdaq_change_pct": 1.1785899298015101,
     "sox_level": 11482.5048828125,
     "sox_change_pct": 3.600272893728196,
     "vix": 17.520000457763672,
     "vix_change_pct": -4.730826322781068,
-    "dollar_index": 102.33499908447266,
+    "dollar_index": 102.39800262451172,
     "macro_score": 87.5,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI -1.42%.",
+    "summary": "Tech bias strong positive. Nasdaq +1.18%, SOX +3.60%, US10Y 4.99, WTI -0.70%.",
     "quote_times": {
       "treasury_10y": "2026-10-27T18:55:00+00:00",
-      "wti": "2026-10-28T00:05:00+00:00",
-      "brent": "2026-10-28T00:05:00+00:00",
+      "wti": "2026-10-28T01:05:00+00:00",
+      "brent": "2026-10-28T01:05:00+00:00",
       "nasdaq": "2026-10-27T20:00:00+00:00",
       "sox": "2026-10-27T20:00:00+00:00",
       "vix": "2026-10-27T20:15:00+00:00"
@@ -33,42 +33,42 @@
   },
   "catalysts": [
     {
-      "id": "69baa872be54",
-      "ticker": "AMZN",
-      "company": "Amazon",
-      "category": "Megacap Tech / Cloud",
-      "priority": "normal",
+      "id": "bcba4d06b010",
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "priority": "critical",
       "satispay_status": "check",
-      "headline": "US agency approves Amazon Leo’s $11.5 billion acquisition of Globalstar - Reuters",
+      "headline": "Intel Unveiled Major Acquisition Deal Worth 15.3 Billion Yuan - 36Kr",
       "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2pZY3J4T2Fvd0hub09FM2RkaHJQc21pOWRWal80cHpZMXN2RS1La2M2WmpVY1hnbzlnUHNBZG5rQ3hWTFZPdmh0cmFPMHVHV0ttRlhzXzZ2SVdFOTd5ZU42YWFTblZtQnRPQUZNcENPSWJUeEF2TE5JRFFXaUdCRlZmLUFCT1JhT0wxWGpKNlZXYnowUG52dlBqc1JYS2EwcE1PS3gwVzhhYWZ4RkJURTh0LWl6SWxEOVIzT3RXbG1EZw?oc=5",
-      "published_at": "2026-10-27T20:49:21+00:00",
-      "age_label": "3 h fa",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90WEEwZWZVeVUxbkZadThjRlhFQU5ZUXh4N1hidkg4a0lzT2NJNEdpalJvUTlxUFZuY1FKMXI4OUprV2JCVk9tcXdUVi1PR05QRS13?oc=5",
+      "published_at": "2026-10-28T01:08:47+00:00",
+      "age_label": "8 min fa",
       "catalyst_type": "ma",
-      "current_change_pct": 1.87,
-      "short_term_change_pct": 0.09,
+      "current_change_pct": 4.06,
+      "short_term_change_pct": 0.55,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-27T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 21.0,
+      "quote_age_minutes": 82.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 58.0,
+      "confidence_score": 56.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-27T20:49:21+00:00",
+      "headline_published_at": "2026-10-28T01:08:47+00:00",
       "event_occurred_at": null,
-      "tradingview_symbol": "AMZN",
+      "tradingview_symbol": "INTC",
       "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
       "factors": {
-        "source_quality": 95,
+        "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 78,
+        "freshness": 100,
         "volume": 28,
-        "momentum": 51,
+        "momentum": 57,
         "macro": 88,
         "extension_penalty": 0,
         "stale_quote_penalty": 18
@@ -86,7 +86,7 @@
       "source": "Fierce Network",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTmZham5aUDFWTURhQXdsX3I0MVVRd0p6cFN6QVJ0NjhPRVNERThQRlMzODRuZWd6dVpQYS01Z1p1Um45TlQycXg1OWsyMWFtM1VBQ3R1OVN0MC1QX1ZTbk1DOWMtTzhFVVVHTGpQaVlfMlFJa3gybG1QWkEwUDRJdkVCcmN1MHZlelJBMXBqeWw?oc=5",
       "published_at": "2026-10-27T20:13:00+00:00",
-      "age_label": "4 h fa",
+      "age_label": "5 h fa",
       "catalyst_type": "ma",
       "current_change_pct": 1.87,
       "short_term_change_pct": 0.09,
@@ -94,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-27T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 21.0,
+      "quote_age_minutes": 82.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -115,53 +115,11 @@
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
-    },
-    {
-      "id": "9f9bea88c815",
-      "ticker": "AMZN",
-      "company": "Amazon",
-      "category": "Megacap Tech / Cloud",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "FCC approves Amazon Leo's Globalstar acquisition (AMZN:NASDAQ) - Seeking Alpha",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON25iWmpFQ1I0RDJHRER3NmZ3N2VfbF9ZMUJvRERxU1E4UkdzU3hmQUJDWE5pYXVJM1pzUkQxQlZoYXlyRVZvY09vV3UycnV3aGZja0ZveUVrbW5DSXUxbGJZVzc0MnpwX0FFTHJfSlBzLTNMUndzSU9ZZm45SEI0eFZXejBxX283a3NZM2Vn?oc=5",
-      "published_at": "2026-10-27T18:44:02+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": 1.87,
-      "short_term_change_pct": 0.09,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-27T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 21.0,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 50.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-27T18:44:02+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "AMZN",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 62,
-        "volume": 28,
-        "momentum": 51,
-        "macro": 88,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
     }
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-28T00:15:57.324150+00:00",
+    "updated_at": "2026-10-28T01:17:11.656834+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -192,17 +150,35 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "How China’s ancient capital staked a claim to the nation’s fastest export growth - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY0p0Q2FLZTVsaEFsa256WmZTdVVGYVFBN0dvazdkQjJEOGY0QlBhSXdxSFY5bUduUW02czN3UXNucTgwSkFIdmJfNnlOQzY4UjFhUmlJR2JoTDcwWTJaRndjbmhjenE1OXdVeXdKNXlBb0ZhZkJqbWttN0dieGZHVFZxdlBDU0NxNzM5V0V2RDlqX3B5UDlpMnlYWUhpcDJaXzhXanJKYi1VckpKVFExUldrTWQ1M0VlMXBOSzk1VTRUeEFFekVJ0gHHAUFVX3lxTE04d1Fsd0Zkcm5LdUV0V2d5MVRiZDJPQ0ZRZ1JjZ08yZ2ZNSGhPcEYxTU8wLUdWcVRkZzRpakh4WFFjQ3otSjYwbFRqemJEeVlwWEFobm9lMHJyRmlpa3laU3JfakM4Rml5MW1xbmRrLW5qT1JGRzJGTEZLN3BHejFQS25DZl9vSEtZd0RpUjBLdmYtaWVWV1pCNExsX3pGTFlnSU1IMUpsOHdQS0xSUFBxOVltTGktZ0lSSDZNV0RubnRqR2YtcXM?oc=5",
+        "published_at": "2026-10-28T01:00:08+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump administration discussing Russian deals with U.S. oil firms in Ukraine peace talks - FT - Seeking Alpha",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMjBKVkZJdWVnaUprYjBYSldMRFRjZ0VGaUozNEVMcjR3TUgtcTd3em1yRS1wNERyS01ReFBJVGhuZllPSndRa3EyNlBVOFVfZFhKNGJpV2NLcG9ERFZiSGk3VHBQd1RZTV9BSURmVEhTc2JFd0FuWC1RdUg2SlpFV3ZtblJGa2RNVHhHY3dWX3gyQTdYUkVrUmhXdTRYVlZONWw3NnhmeVd0amwzaEdVUldyZDNrZ0x3M3hhcGl6bzZLdFFqVTlmOQ?oc=5",
+        "published_at": "2026-10-27T23:45:19+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Russia-Ukraine ceasefire in one city in effect after Melania Trump, Pope Leo appeal to Putin - Scripps News",
         "source": "Scripps News",
@@ -222,29 +198,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Localized Ukraine ceasefire brokered by Melania Trump starts as Nordic leaders speak to Putin - Charleston Gazette-Mail",
-        "source": "Charleston Gazette-Mail",
-        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPdnlZM05RUTFBTy02X015RFlRM1F0Q3BWS2lfTlFtaFdVbFVkM2pvUnlKQnEyMmJjeGpJb0trd1pxaFppYUhlSlZSa0hyZXlTaHVEWUlWbWR5RTJvWXFPcEV0WWFRSXJYeDRwd2QzSzE0WTN6Z0ZfQTBfWVoweUloVkZiR0hrMFdrOGNTb1dSNVJFVXRiczVreTRiNzNsWElFc0ZJZ2wyWTQ2ekJtb1EyTml0U2dpelFJRFhlRWhYUzFfdkVBRGZ1Ti01cTAwZ3IxRkhIQk1uclh3Mm5LN1k3dnR0NGlPX21rU1FsM0c3UTA2M1p4a1RzZ3hVVzNZbWNTVFVXbXU0TUhQcnpMZ01tRlp0T2ppZlJ1aFE?oc=5",
-        "published_at": "2026-10-27T22:45:00+00:00",
+        "title": "Does Trump's Russian diesel deal betray the U.S.? - WBUR",
+        "source": "WBUR",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQUhjSTA2cjNOVDZ6Smd5bFJNVGhCQmp0LUY0M2p6WFFPZzZqV0ZqSU5DMm1OcE9BeFhQaEJhd3dISzJYMzJPM3RQMGlEZ2JuWmdGVUFCWnNwcWtET0NPbkExRWdlV2dlLWl3LW9FXzAyTEhrYzVLVU5rOFRjcU1JY2h3RQ?oc=5",
+        "published_at": "2026-10-27T22:30:56+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "For Russia, Trump’s diesel deal was just the first ask - Atlantic Council",
-        "source": "Atlantic Council",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcHlKSGZVSWRzVm53RVpoaDEzMmNtanFqWjNZd2cwa3lBQ0NQYmxPYlg5U3pzNDNoVWU2aHpLYW1YLXZLOHlWWUtrT0haQ3B1dEkwS29ZdVRLaXA0TDdtY1FDSklJN0JoY3g0NmFIVU9hQ2xMT21vakxlcVl6NTNjQWNIQktYTi1qUVRYYS1lc0t6aENsVXd6TWIzU2Y?oc=5",
-        "published_at": "2026-10-27T22:12:44+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Is Building Its Way Around Europe’s EV Tariffs - Foreign Policy",
-        "source": "Foreign Policy",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjRONGxRUmF1UHlpdzlacU1FcEZ1b1dIUmNWR29MRDI3Q2RkMmRpVzlaaEkxNnVFMmZlY0JDSllJZW5vdWhsM2c3T1F3U0ZfeGliU05rOFJZdkx0N3pYdVhtcU52aXJrY0lIeEFXVm5XbG85ZTFCc2Z2NThZRm9NQWF0ajJqOGlEN09MN2NRZjdWNnZ3YzVGd1NYYk9rdUlkeFBNbE9hcVJmZVE?oc=5",
-        "published_at": "2026-10-27T21:01:44+00:00",
-        "area": "USA / Cina / Taiwan",
+        "title": "Oil Slips as Iran Diplomacy Picks Up - Rigzone",
+        "source": "Rigzone",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLVQ2MkZfdUpxb2MwLTNWZkxqQ3EyTUo3ajJWcnZDRXNBNEFjaTc5dlNZQXNXc1VpOGFBc0xVdGp0SVRvaGg2bzR0ZXVDM0o1ZERhYzhlcDJXS0RYSXF1Qm0wcTQ0UVdlT2p5cmVtcXRkYmF2ZkJtOU1jSDl0M2JRUGstMHVuUnp5Si1OeUVDTnF1UWVtVFNRRGs4cGdGaDQ?oc=5",
+        "published_at": "2026-10-27T21:11:02+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -254,6 +221,15 @@
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlQtd3ZaV2dQWERkb1NSZk1QSTNibTd3bUdnNlNjeXFvS2h6enF4cXFWZ0dLX05Gb2JKd05MQWFZSUZtME16ZTdVR0RMQ01aQ1kwbFkwcnlvamhNSVIzbUlKZXFLWWRZWmE1M2Q5TDlTbWNfdS05dld0Q0lKSEJ4ZVA3Q1MyMmFrbzVJ0gGOAUFVX3lxTE5pcFNia2g1Y3dmdzQ3RXJtSExrZDA3ZmFsQVozN25fdDhsb1hmalRjYjFCVmt6T3lraFRlbWE4emxYeFRJeFlYeWVnaTExOGlxU29lak9QTk4xd1BGWVNTbmdxczhmUmdmYUg1OFU2b3VFZDRodTNkX1lIelBKTG8tcW1zVUs0Z0c5MFdMRnc?oc=5",
         "published_at": "2026-10-27T20:36:41+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran targets Gulf countries' energy infrastructure after Israeli strike on gas field - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMXdXYnRzQjhrelUzSGk2YV9CTFJjSm4tU1d5WVI1ZHI3ZHNIUkRVOV9DZU5PSGY0QThIanBjQWV0cDJLSGJqRGVNbmFCeW53a19OQkd5WFBCSmhiNElncFlfbk1QNTFjNUYwOEZJRHVWay1ZSmo3QmkycVZvQW5pYzN2dDZjMlV5cnhyWnhCdEQyREFEVkcyOGlpMHJBckI2ZFM4SVU2d0JaTGJNODhuaHFuSFA4cjjSAbwBQVVfeXFMUEExNGNzZERwWmJQUHFxZ204bVNPSEI2TXp4UEJhcVpkOENMdTVRejQ0SDlLYXVuWVhodnJucHlFUmtKb2liOFJ3Zll1aDlvNE5wSWVheW8zd1dKWXBLcWdtQXZ5M1NZa2lvQVVJczlSTUdZSUtSaGs2MHRJdHJGaXhNQWdMUFV2RnBSU3dFSU9iQWdtaE9MdGk1SXN0T2RkcXFyYXJKdXFmajBWX0xQRS1oZVhqMENFOW0zY00?oc=5",
+        "published_at": "2026-10-27T20:07:38+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -303,15 +279,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
-        "published_at": "2026-10-27T17:33:11+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "US Army looks to high-flying balloons to help see, strike along front lines with China - Army Times",
         "source": "Army Times",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVlVGMGtHVUNXd3F0eUlPbjVEUlJ0cUlnTUR2WThwRnUwb3MzLTMzSlJwQU5JQjQ0d0NjcWd3dmRUREZuU0dGQlVVbFZ4TGd4a0xVSHJLSVE2LTJMUHVPWl96VE10WVh6Z3ViNDE2bzh1b1pXV2YyUFBwa25TMmRJdG85Ynp0dVZrbXJDb1RfNDFQajRPS1ZKQXBmbHh2VFRLU01BUkFRQ3RHMUlXd3ZuWTlra3c0RHluTC1ZRlk4QUM3OVk4dHV3?oc=5",
@@ -321,19 +288,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Yemen's Houthis claim attacks on Saudi oil refinery and defense ministry - Le Monde.fr",
-        "source": "Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMXpUR0wxU1lsSE1neWl4QVY4XzhKb2s3OWpDaFV4TGxWbEM0Sjg2RlNDa1EwUk5hRjVuSXc1bldFU19qYVg4S282eHpWazBqTVJKU3VxRWZyMnVtT3pEVGRVMUxvajg0NFZOMF9OSWRzU1M0aUNtLWg2b3FaMHJMVy0yeWNrUTVzdzM0ZnhjVm13QmluM3F6ZS1UWFQ3NzI2TWdHVzctZHlGanM3NVRIQ2NjcXhyZDQ0RkZSMjNGS0hIRDUxUEEzNWExOTdCNmdNOHp5SUNvT1hpQ1NpSjNJ?oc=5",
-        "published_at": "2026-10-27T16:59:54+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Is Building Its Way Around Europe’s EV Tariffs - Asia Society",
-        "source": "Asia Society",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeWliSnppWkIyeXBHYXJvaWJwaXF3RVpRbzZWOVl2OUxOME9JOWkzakdLMHJwYm5MM05SUl82aFJJTC1XRWJrWmpESFpaUVh4SENsbzBCcWducldsM3I4a0wzSGM4R0hYakhoQXpIbWE0SDFtWlQyWHd4djJuX1BxRUU5Z3ZOY1V3WWZTUXVLbjBLTms?oc=5",
-        "published_at": "2026-10-27T15:05:00+00:00",
+        "title": "OPINION: U.S.-China trade truce reflects detente, not reconciliation - Japan Wire by Kyodo News",
+        "source": "Japan Wire by Kyodo News",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nWkQybjQxUVF0aUpibmxWX2djenZxb3FCSW1rSGFYQU51VlJ3RE44clZSRVdsNUs1UnBLeWRiemVXOXh2YjUxX2JKeWgzQThyTVFLbjNBaER6UQ?oc=5",
+        "published_at": "2026-10-27T07:10:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -386,6 +344,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "How FDA Approval Will Impact Viridian Therapeutics Stock - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORjdxaTFIS0NmOTBrN2ZhUHFYMUJqT01sb19BQmg2dDVEVzg4TlRXaDlycGgzVllfRmFkcm5oVEduejlCQUtnX1F0ZUN1RUFoc3JPRmpxQVIzckwySUlURWZfdE01ODhMQU9TWDJvbmoxemdtMTctNzVDZUJpb21BcDdtQ0RKbWt2RURYX2VRWnFpWTlaOG5tQmxiTUpaS2xOY1ZSTg?oc=5",
+        "published_at": "2026-10-27T18:08:29+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "After two deaths in autoimmune cell therapy trial, Artiva is shutting down - STAT",
         "source": "STAT",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQWJtZC1SYVFaMVhpZ3ltY05ic3hQdDJmc1Jkeno5ZFZhb19PWjZ4VDByVTZNMWQtdzlxU3g3V2JCMkxpaVlEZ3lTcVBkTnpKV29kSndSQjRUSWlOZ2hJbDFFRUxVeTBmM3pvZ0JrX1ktcmw5WWNJSXh5Xzc3c1lmcmRlajFoVnJYVld6NUs0NEVmaE82UTZoMk1iWnZUUk5kTWc?oc=5",
@@ -404,24 +371,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
-        "published_at": "2026-10-27T17:15:23+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AMD stock rallies on expanded Meta AI infrastructure deal and broader chip rally - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTDhaMUlBSC1CWUlWZGcxLU5GRnJ3NlZROGRCdHpOZW5VZDlYOTJCRlprelVEX1ZoM2xWdGVJdFUtNUFfMFpOQzh5T1V0ZGZ5N3VsWmNZUi0wU19feVJCRUVSd25jTzlFOEFUbnBRVlFneF95WThxZlROVVYxS0JFdU51RTBmSmp6QkJmd1NuLVZKOHZ0VjFQaGhrRQ?oc=5",
-        "published_at": "2026-10-27T16:44:17+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Intel and Oracle expand OCI partnership to scale enterprise and... - Intel",
         "source": "Intel",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZHBQWFRVeGoyYW9mNXRXazlNTDB4VlZwcEpQR2xRMHNzTE9vejRJcC1oNklwM2ppekVvMFNUdUhCVjR6MDYwV21fLTlISUNEMnZZWmM5SGduOHl6TDZ6WHZqZWJWdExHNVRwZ1RDT0MyWFpib3I4U19vSGlCSXdGYzVlU1pHdkdfSE5ZYTg2N3F1cEVIcEZONWlBQkhab19kakQtVWNnSzBwLTZnZ2RGQWxHMVlCTTVWRVhPN0VoWQ?oc=5",
@@ -429,11 +378,20 @@
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oracle, in effort to reduce reliance on Nvidia, adds AI chips from Google, Cerebras, and SambaNova - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMGFVTVNjTklMQTVqWjhmaVNOSzM5dC1BbWFnRTRPTG51b2xOSFhmamF0RkN2RWJjcVdhbGFQaEZPaUdkMnRjcW5aWFROYVhZblFFUkVaVVBtOV9HRHpoeUdmZTJNYnh0UWxKWFZtSVJRMkZ5NjBDSDR0eXRLN1hLM21PWDg2V1dSckZ0Q1hTN3hheUlPdzhHNml1QnBPT2FBdGlITDZWV3d0V1pZTjRsNlRZNkhnTTJmUXM2Vnptc3o4V0t6dmU4bzRUc2hybnc0c3kxMDZPTFhROUZmZEdjbmpSZXNEdHhCU3c?oc=5",
+        "published_at": "2026-10-27T16:00:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 198,
+  "archive_count": 199,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
