@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T15:28:35.256603+00:00",
+  "updated_at": "2026-10-29T16:22:19.205935+00:00",
   "events": [
     {
       "id": "9f24bba4e428",
@@ -45,7 +45,11 @@
       "publication_quote_at": "2026-10-29T14:15:00+00:00",
       "pct_at_detection": 0.92,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": 0.13,
+          "price": 29.725,
+          "quote_at": "2026-10-29T16:15:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -69,7 +73,11 @@
       "publication_quote_at": "2026-10-29T14:10:00+00:00",
       "pct_at_detection": -0.88,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.29,
+          "price": 524.09003,
+          "quote_at": "2026-10-29T16:10:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -153,6 +161,34 @@
           "return_pct": -1.92,
           "price": 47.56,
           "quote_at": "2026-10-29T13:50:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "07c2816482a9",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Nvidia Faces DOJ Scrutiny Over $13 Billion Hugging Face Acquisition - Tekedia",
+      "source": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWx2SERzekxROU5NeVV4LXNJZWoybE1WSW9zNlhrazRUc3ZkbXU2c1pCb2l2NkduRGtKaFRHSXJmSjc2QXJTOW50NTQ0blB1azVSTElpZXZneHBPaTlhLXpzaDdpMjBiSlRaQUU4MzdHeW00ZUo2cFNLbHQyUTZkdmJTUTZEY2JTakdnVGpadmp1dzFKTVE?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-29T11:44:37+00:00",
+      "first_seen_at": "2026-10-29T16:22:19.205935+00:00",
+      "estimated_impact_pct": 4.4,
+      "confidence_score": 73.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -0.46,
+      "price_at_publication": 214.4,
+      "publication_quote_at": "2026-10-29T11:45:00+00:00",
+      "pct_at_detection": -0.95,
+      "checkpoints": {
+        "2": {
+          "return_pct": -0.59,
+          "price": 213.14,
+          "quote_at": "2026-10-29T13:45:00+00:00"
         },
         "5": null,
         "8": null
@@ -251,7 +287,11 @@
           "price": 108.76,
           "quote_at": "2026-10-29T13:20:00+00:00"
         },
-        "8": null
+        "8": {
+          "return_pct": -1.21,
+          "price": 107.83,
+          "quote_at": "2026-10-29T16:20:00+00:00"
+        }
       }
     },
     {
