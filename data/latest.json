@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-29T04:20:14.059865+00:00",
+  "generated_at": "2026-10-29T05:05:56.761856+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.045000076293945,
     "treasury_10y_change_bp": 5.200004577636773,
-    "wti": 101.41000366210938,
-    "wti_change_pct": -1.3329394176481157,
-    "brent": 110.19999694824219,
-    "brent_change_pct": -4.4398220257815595,
+    "wti": 101.37999725341797,
+    "wti_change_pct": -1.3621342114288004,
+    "brent": 110.26000213623047,
+    "brent_change_pct": -4.387788390551695,
     "nasdaq_level": 26549.8515625,
     "nasdaq_change_pct": 0.2720807126309177,
     "sox_level": 11684.0,
     "sox_change_pct": 1.754844328325711,
     "vix": 16.90999984741211,
     "vix_change_pct": -3.481738552588065,
-    "dollar_index": 102.1449966430664,
+    "dollar_index": 102.19499969482422,
     "macro_score": 61.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI -1.33%.",
+    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI -1.36%.",
     "quote_times": {
       "treasury_10y": "2026-10-28T18:55:00+00:00",
-      "wti": "2026-10-29T04:05:00+00:00",
-      "brent": "2026-10-29T04:05:00+00:00",
+      "wti": "2026-10-29T04:55:00+00:00",
+      "brent": "2026-10-29T04:50:00+00:00",
       "nasdaq": "2026-10-28T20:00:00+00:00",
       "sox": "2026-10-28T20:00:00+00:00",
       "vix": "2026-10-28T20:15:00+00:00"
@@ -44,7 +44,7 @@
       "source": "KuCoin",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94TnpPYVRiR3JQV2VxOWxGTVhxekEtOE1DUUk3ZEF0cWt3VmV2am5UQUlKakRjVVhSR2Q2U0JZYXBDMzBxazhRQkxnSDZzbkRIVllYOFhWbEFtV1VULUx2ZTVwWmdMR01aZU93RlVzeHk4emc?oc=5",
       "published_at": "2026-10-29T02:38:18+00:00",
-      "age_label": "101 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "ma",
       "current_change_pct": -1.87,
       "short_term_change_pct": -0.05,
@@ -52,7 +52,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-28T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 265.2,
+      "quote_age_minutes": 310.9,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -73,53 +73,11 @@
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
-    },
-    {
-      "id": "483e6966ff2b",
-      "ticker": "INTC",
-      "company": "Intel",
-      "category": "Semiconductors",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Intel Signs Deal to Acquire Classiq for Quantum Software - FindArticles",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "FindArticles",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91MlAtZ1FZQXlmUlMzTnVFclZOREtOVzJyZzdpT3lSdEtQZkwxY21ySFlGa0ltYk9zQzNBU2lEdEFCb0x5eUlwVGthMm83b0ItZDNNVThHbk52M3hwcTgtVUlGcmc4V1dQZjJRRFVEUjMwbEljUkMtS2Z2QVpNZ9IBhgFBVV95cUxQeGp6VURmQWQxYzJ5M3RVU283Tk5TdHFQZlBISmFrZFdydVV2QlV1ZDY3cnkzYVlYN2lTZWgtSUhQZ296aTZJem85c05OMkRZZXpwUmMwQU44QVo0azVtSVFySUpZY3YtYTJkUnpVd2xPUWVmSXJQeTMweGVFWG5GaU0xaGg2QQ?oc=5",
-      "published_at": "2026-10-29T01:04:55+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -0.77,
-      "short_term_change_pct": -0.34,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-28T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 265.2,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 49.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-29T01:04:55+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "INTC",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 46,
-        "macro": 61,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
     }
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-29T04:20:02.726090+00:00",
+    "updated_at": "2026-10-29T05:05:46.412209+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -143,24 +101,51 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 7
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "China AI Export Controls: 40 Technologies Listed [2026] - https://tech-insider.org/",
+        "source": "https://tech-insider.org/",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
+        "published_at": "2026-10-29T04:51:43+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine sends drones towards Moscow, Russia strikes Kharkiv, officials say - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3F1YnVQRFlzek5JbUlNWWRDWEQySFVzemNFQ0p0VHhjUTBMdnQ3VktON3FFaWE5VENiVFJSaTl3TTlzZVluQnlTT1NFR3gybTMyTjR2eVRsN0lrNlJSVkVweGFyTW5odGtDYm52SW85Smx1LWEyYnhUaWZNMUxjZHpXNG1VdDVpR3NmcWh4SnpFVVByVlZJQWNySjBFM1R3NWwwUThYZmRJX2toQzRGTjdEcnI4ZzdmLUo4SVpR?oc=5",
+        "published_at": "2026-10-29T04:20:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Yemen: Houthi Attack on Taizz Road Threatens Lives, Welfare - Informed Comment",
+        "source": "Informed Comment",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50MlVMWEJZVFhTNW5rdEVIajdkZTE1T1NxU0VRVnhxUEk2SlBhOFRMOVMzR0xlalF0LWFLU2tqMjJlTUZBOWoxYmxWdTNKU0ZPTFFMOUJ0NkxKNDllWGJUT1p2LTRFR0RYN2E5Mm51SQ?oc=5",
+        "published_at": "2026-10-29T04:08:03+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Oil Declines as Traders Parse Signs of Fresh Diplomacy on Iran - Bloomberg",
         "source": "Bloomberg",
@@ -216,12 +201,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Rises with Iran Attack Report, Israeli Election in Focus - Rigzone",
-        "source": "Rigzone",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUHRTLXNHOUx3cTJJbGlkd28yeDhncC0zNEo5Y0NmZUlpODJ5YlRFVkE5Zk9YbGkzUkVJWlY1b3J1akp3WThhaURoTm9mQ0hrT0lJOWk5YXplR19vMGNkWnZoS09YMkdxaVZIMnVxcUNlVlc2RU0zLWdmVDZ0SF81M2ZGa3F4emZQTzRsbGtkU1VaTzk3OVZVRTA0SVNnM2Myd1RzLXdUb0xFZzlOU0tmZ1E3bmQyRzNzOHVza3RB?oc=5",
-        "published_at": "2026-10-28T21:50:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "A ceasefire in a Ukrainian city is holding, officials say, as Moscow and Kyiv await US-led talks - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ2Jza1NQeWx6dzNEMm5FaG5GWDN3SlFjcERUWXRLdktnWlB6cHNLcHd3VTR2RXZqcTVCVUxKUHRvTEpmNy1lMDhsaVRJb05FcE83QnNScEVXMTdydExIZWlsZGJUZGg5QWVPZkhVVE1semFMM0NNOTZCal9jYnJyZjFFR0tpWEQzSVVjY0VmLVZ4Rl9DZEl2OXc3cDRra20xdTk0UWp0SW5waW5KRVI4aUNnUjFDUDZRYXpEajhuT1p2aUdRQnBLbVM4Q2hXOTA?oc=5",
+        "published_at": "2026-10-28T21:09:22+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -234,21 +219,21 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Company Linked to Darline Graham’s Husband Was Sanctioned for Arming Russia Against Ukraine - Drop Site News",
-        "source": "Drop Site News",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNT0ViYkJuaXVBR1dOandYZXBjcUFLb3AxLUFlamNwNG5mWWhmQmRMNTFvVTEyX0dhRHY0b3B4OF95NEY4MWFWYlJKNVpiRGZZRllyVUVMMUhaWmVrbXk2RllrUE1TcFNrS2EycHBIa0U0WW9jUnVXX250RHl2UGJJc0xMQVBJLWlocWJwV2ZkMA?oc=5",
-        "published_at": "2026-10-28T20:24:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Will the Next Congress Block Tariffs? - Alliance for American Manufacturing",
+        "source": "Alliance for American Manufacturing",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOalRtQUZtX3pleG1uc053TFRqZHFtNEdMNnM2V3cxTTRKS1cySVBrNVJ1T2dnLXhiYnplWE5MbEdwX2dQblp4VHUyWDNaYTRWZUhtcEZkU21kRlZOaU5zQWxPc3lQQWpQa0k3dVJabUNrd2pTWDB1RlZpbkh2SXhKcVZvY0loNGM?oc=5",
+        "published_at": "2026-10-28T17:50:57+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Could Melania Trump Win Nobel Peace Prize Over Ukraine Ceasefire Deal? - Newsweek",
-        "source": "Newsweek",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZFY4YkJoYTBmYmdNNWt6ZDFId0FIa2trajNwS2ZENG1vejVTSTcxR09hek5WTzlpZXg2SHhvOVl6SGRYbGh5bzR5SWNpOUpvb05fbFFxSEpEdFNZeUJJX2pZbnhjUjhWaU1SVVhQXzBUYzBSanRaQUFoZW54UnVCM29vbWQzcHM4bUlMd0p1V1dYUERmOUVzRkg5eWtZTl9VNm9vekFR?oc=5",
-        "published_at": "2026-10-28T18:36:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_DISTENSIONE_DA_VERIFICARE",
+        "title": "Key Bessent trade adviser leaves Treasury for Netflix - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UNk13anIyN2oyNlRPNndXTlZNRG1rT19HTjN1aDFpVkVsZFZNbFNPUmRGb05GUlljUHVrTVZNLUJBbG8yM1Q5WHRhSWZsZ3VVYk5mRTJGb0NlZ0dJTnB0T0pIek5WbzdYZl91VUN5VzdnSGFWQTZfTEhKbw?oc=5",
+        "published_at": "2026-10-28T17:47:58+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -268,36 +253,18 @@
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "President Trump’s Steel and Aluminum Tariffs: 1.0 vs. 2.0 - The American Action Forum",
-        "source": "The American Action Forum",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcWJGdlVBWU54VE1ZdVlmTTFTRkV5SEl5YXhVSTI3UmdLMkxZYVZKTGZMcEtnaF95Slh2OVZEcXkyQUtYVnFCSVlVTTBya1dfWktUOWNDeVJ0Y1ZiLXlYMXBZVngwZm5PUjlseG9rQTljakd2bVM3QUswbHNLWC1Hb1lWd1R4X24yZnVYTjR4bjJmQXc4Y25MVkJ0Q2ZjcnZx?oc=5",
-        "published_at": "2026-10-28T13:50:52+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Merz invites Japan to back trade alliance as China asks Germany to be 'rational' - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTJSV296X1JIblZreVlzNk5SRzZqYkhwSXpaX3cyT1RuX3NUeGtlQUo1YkFxRy1KMkJXNS1iRFhHRVkzSzBuT2FUanRGMlNnWmEtc3Jmb3A1NDV6aWI5V1NhMXVvYm5jcGl5aXVUWTE4SG1veHRQWXQyWnJlTTFXVDFFNVlNOFZ6RUkyekVzQzVQZWpwNGhxck5Ra0FYVTI1MUw3QUJvNmlwNVAtSEI1QjhrZTA4VGpD?oc=5",
-        "published_at": "2026-10-28T12:10:02+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s military holds talks in France and Germany despite rising trade tensions - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ0NaRjhSSHdqOEtOblBzTGdEN2pHdUhlenVvWFBUX3lHcmloRHp6OVZ0SnBYbFY3eVVmeTh5WlFleGczdjZaTXoxT3ltZXpqVzdVbmxnR2Vocm9ybWdtZXQydklHbzNUaTRyeXY5TXltNWZ0NVdnWF91YzFwZ2VLOXFHNzBnQ1kwZExrVml3SW5YMC1FX3Nha3VXeGFFajJLVkozTDgxSjZxaUlUSHJJMmFTSV9idml2TUFpTmFxeURjRnN3ODBWUnNhamVjQdIBzgFBVV95cUxORDlYTnoxM3JfMEEzcDFPSXNGNmt5MDlJa3dHSlM1OEFVaDhKMEJud2JQam1SZmhMdEk1YkVqdVZWR19rSW8zMGRMRFlVQzZucHBtcVVtV2tQZDloTFQ3VWI1Rkp2cnJQUTFpYnhfak56emRwY2RwSnpzVUNzdlY3TU5fcm5tQU41cEZYTm9mQ213M1NNUlZ6cGlJekJLa21XT09UTjM1RGl3My1iSDRjUFhTMG5TMm53eFViYTRvVTVpbGpUeFhTQ0ZuM09mQQ?oc=5",
-        "published_at": "2026-10-28T11:43:40+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "FDA narrows Keytruda eligibility after confirmatory data fail to support tumors with TMB scores of 10 to 12 - Medical Daily",
+        "source": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sXzBBTGI4MVdRTnRLamNKdmVIWFY4TmFqLU5ianZ1VGoxSGd4Y1pKWldqR25fWE5GcVBva0FtcVBaczdoZFJkR3k2dWIwSkpBMlA2RVEwV0lUVFRfYkIyNkNXZ0FCTldyTkNucjRoanA2MGYtQVEzRGNmeDE?oc=5",
+        "published_at": "2026-10-29T02:58:39+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "New FDA-approved prostate cancer combination cuts progression risk by 52%—but serious anemia affected about half of patients - Medical Daily",
         "source": "Medical Daily",
@@ -335,15 +302,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "What investors need to know about Alphabet's stock-busting earnings report - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tOWlJU2Y5c0gwTU9fWnpQeGFqaWh1TUIwcHhYUGFsRWRCT1V1aWRvemFDa2RhQ1Vzc0R4bVRITlFyWXZJTmpWZ19JbXJGdE5vbGtwTkNqRy1YSXZEVEZNWkkzOWstelV0YjFuSUZYcW5FelBWb1E?oc=5",
-        "published_at": "2026-10-29T00:23:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObFpfZDBQNy1JbzJMVnAyQTNXeTdvWDZnSGpoQi03MkZfLU1NXzJyekZrbzl5WDl6SV83bFVuUm9qVGIzOWVydFdfdzVDdDgxTFB2c0k1T3l4MlVSRS1iV19MY25iOFhMSEpLYjVkQmZyR09xa1g2aHZoYUY5UXJXYTNleE52QkVtUzJPWU5XVmliLXhGYlNMb2FzZ3dYRHMzbkZKSlR0TXF5UQ?oc=5",
@@ -362,19 +320,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "NCH Rooney Heart Institute Performs Nation’s First Tricuspid Valve Repair with PASCAL Precision System Following FDA Approval - Florida Hospital News and Healthcare Report",
-        "source": "Florida Hospital News and Healthcare Report",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV3VzVEVhbEZQVmF6MkE3MU8yUm1NckQ1M05NNThKUFRydUtLbGNzaEdydXJxRVYyUXM2SUViLW1MVTNndjlkd2xqMjdZc243UXlKcWFYMS16ckFLN1NpeWlBU09PYzI0OWJyS09LZWo0bTdsbFBjUGY5YXR4eXc1bXc5NlhfNnNwN2Y4ZFJpUnpfU3psZUJjUUpVNGVSeHRiY3JSaFQtLWlPZzU2QWk4M0FhekV1bGpEZ2J1SS1yTUdEejQ0SmI5NVlVcThOR3RKSDZEZVp4U0Ntem1jTk5RSGU5aDMzYVVGV0tvZlVZZXRQT0J0dXV6Mjd3Nm02azlqbGE0?oc=5",
-        "published_at": "2026-10-28T19:25:34+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Intel to report Q3 earnings as chip stocks continue to rebound - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbkctcG9uQk10dUx1NUxmQXFvcTg4TkVzQTJBVWhMVmJjdVo5S0lGOWxXYWFmdnZyX3JGOVBmaWhYRFNmTHZ1Rkk2T2RKTXFxa3VrU3lRQ2ZBM3B3eDhzUGQ1NlpSbjlGMWpRajJXOXEzbDBob0xaRTlna2hxeE94X0JNdmdaLUU0UUR4eURaYlhmTmY0SERKNFk1R1dzTGZ6anBmQVZFLVgtQVh4OUFMYU96Mzk1NHBZVUJ1VWJqMA?oc=5",
+        "published_at": "2026-10-28T22:17:13+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA’s rare disease framework aims to ‘stand the test of time’ - Fierce Biotech",
-        "source": "Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ1dIeklyRGpZUkVCb05hVXF0S3BqZDlDQVpLVUVzd196MC1QTkFSTlAyWVpOUkVqWk9YNVhTcVpKMklZM3FZWUM0SWF0V3BXaVFQbENJZ09rdzBNLTlrRWphenR5eFBKUlVuc3ZHd1AyTkJYVEJxeUNHSm9JUWJXbEpIenVnbjBITzVwMFlXaw?oc=5",
-        "published_at": "2026-10-28T19:16:43+00:00",
+        "title": "NCH Rooney Heart Institute Performs Nation’s First Tricuspid Valve Repair with PASCAL Precision System Following FDA Approval - Florida Hospital News and Healthcare Report",
+        "source": "Florida Hospital News and Healthcare Report",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV3VzVEVhbEZQVmF6MkE3MU8yUm1NckQ1M05NNThKUFRydUtLbGNzaEdydXJxRVYyUXM2SUViLW1MVTNndjlkd2xqMjdZc243UXlKcWFYMS16ckFLN1NpeWlBU09PYzI0OWJyS09LZWo0bTdsbFBjUGY5YXR4eXc1bXc5NlhfNnNwN2Y4ZFJpUnpfU3psZUJjUUpVNGVSeHRiY3JSaFQtLWlPZzU2QWk4M0FhekV1bGpEZ2J1SS1yTUdEejQ0SmI5NVlVcThOR3RKSDZEZVp4U0Ntem1jTk5RSGU5aDMzYVVGV0tvZlVZZXRQT0J0dXV6Mjd3Nm02azlqbGE0?oc=5",
+        "published_at": "2026-10-28T19:25:34+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
