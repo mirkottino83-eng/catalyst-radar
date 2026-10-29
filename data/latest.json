@@ -1,37 +1,79 @@
 {
-  "generated_at": "2026-10-29T09:13:11.743281+00:00",
+  "generated_at": "2026-10-29T09:59:03.795052+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.045000076293945,
     "treasury_10y_change_bp": 5.200004577636773,
-    "wti": 101.0199966430664,
-    "wti_change_pct": -1.7123975064543329,
-    "brent": 110.02999877929688,
-    "brent_change_pct": -4.587236324598054,
+    "wti": 101.61000061035156,
+    "wti_change_pct": -1.138351997315834,
+    "brent": 110.54000091552734,
+    "brent_change_pct": -4.1449868123017435,
     "nasdaq_level": 26549.8515625,
     "nasdaq_change_pct": 0.2720807126309177,
     "sox_level": 11684.0,
     "sox_change_pct": 1.754844328325711,
-    "vix": 17.100000381469727,
-    "vix_change_pct": 1.1235986739922765,
-    "dollar_index": 102.21900177001953,
-    "macro_score": 58.8,
+    "vix": 17.09000015258789,
+    "vix_change_pct": 1.0644607143703189,
+    "dollar_index": 102.2760009765625,
+    "macro_score": 58.9,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI -1.71%.",
+    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI -1.14%.",
     "quote_times": {
       "treasury_10y": "2026-10-28T18:55:00+00:00",
-      "wti": "2026-10-29T09:00:00+00:00",
-      "brent": "2026-10-29T09:00:00+00:00",
+      "wti": "2026-10-29T09:45:00+00:00",
+      "brent": "2026-10-29T09:45:00+00:00",
       "nasdaq": "2026-10-28T20:00:00+00:00",
       "sox": "2026-10-28T20:00:00+00:00",
-      "vix": "2026-10-29T08:55:00+00:00"
+      "vix": "2026-10-29T09:40:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
   "catalysts": [
+    {
+      "id": "e2718d5f33d6",
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "category": "Europe Semiconductors",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "Earnings call transcript: STMicroelectronics posts revenue beat in Q3 2026 By Investing.com - Investing.com UK",
+      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Investing.com UK",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSE94VGc2QjBWQklldXp0cl9kWktuTjkzX1B1SXhBeEU5RWN2VGhqYWwwV0Zhdm9zdlc3Q1VxVUZCSmNnLWhqUmlvZURQbFNzS2pKZFJ0aFd4cXdLelYzVExaN05oR2xmZDBqYXdaTXVmdDlFLW4yRk1zQjUtT1hLSjRVVTMxQ1g5bF9nZHFfN3lxWENMMmlsV0Iwc000NzdkeUx1Z0JDMjhIVURSUVROWTFCUWM1b1JKTWpjc3RUdUNuYVFLWWctRldCQ1diQW8?oc=5",
+      "published_at": "2026-10-29T09:46:00+00:00",
+      "age_label": "13 min fa",
+      "catalyst_type": "earnings_beat",
+      "current_change_pct": 0.66,
+      "short_term_change_pct": 1.94,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-29T09:50:00+00:00",
+      "quote_status": "RECENT_UNOFFICIAL",
+      "quote_age_minutes": 9.0,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 69.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-29T09:46:00+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "STM",
+      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 78,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 73,
+        "macro": 59,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 0
+      }
+    },
     {
       "id": "f045b88ec522",
       "ticker": "NVDA",
@@ -44,19 +86,19 @@
       "source": "digitimes",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVGJMQ2ZIQ251Q3hxZm5JbVFpTi1kQk8yMlVkbGt5X1BuelU5NFFLSDc5YVk0Ylpsc3pSanZoMDNiWEh2LW4xZ2Y3TG1zc1YtcFptZmc0Y1hzUTAtQ3VVd241VEdNazBNcFZZdF90XzZXRjU1NDBXMC1Qb0JVenBTdmQtbm5wV1lvSXhzQmllVDhLS3FRakUxbQ?oc=5",
       "published_at": "2026-10-29T07:26:11+00:00",
-      "age_label": "107 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": -1.72,
-      "short_term_change_pct": 0.28,
+      "current_change_pct": -1.84,
+      "short_term_change_pct": 0.05,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-29T09:10:00+00:00",
+      "quote_at": "2026-10-29T09:55:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 3.2,
+      "quote_age_minutes": 4.1,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 68.0,
+      "confidence_score": 67.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-29T07:26:11+00:00",
@@ -68,7 +110,7 @@
         "catalyst_strength": 90,
         "freshness": 78,
         "volume": 28,
-        "momentum": 53,
+        "momentum": 51,
         "macro": 59,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
@@ -77,102 +119,18 @@
   ],
   "movers": [
     {
-      "ticker": "NBIS",
-      "company": "Nebius Group",
-      "category": "AI / Cloud",
-      "priority": "critical",
-      "satispay_status": "check",
-      "current_change_pct": 0.55,
-      "short_term_change_pct": 0.81,
-      "relative_volume": null,
-      "quote_at": "2026-10-29T09:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "NBIS"
-    },
-    {
-      "ticker": "ORCL",
-      "company": "Oracle",
-      "category": "Cloud / Software / AI",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 9.83,
-      "short_term_change_pct": 1.77,
-      "relative_volume": null,
-      "quote_at": "2026-10-29T09:10:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ORCL"
-    },
-    {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "category": "Europe Semiconductors",
       "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": 0.04,
-      "short_term_change_pct": 1.59,
+      "current_change_pct": 0.66,
+      "short_term_change_pct": 1.94,
       "relative_volume": null,
-      "quote_at": "2026-10-29T09:09:11+00:00",
+      "quote_at": "2026-10-29T09:50:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
-    },
-    {
-      "ticker": "COIN",
-      "company": "Coinbase",
-      "category": "Crypto / Fintech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.61,
-      "short_term_change_pct": 1.11,
-      "relative_volume": null,
-      "quote_at": "2026-10-29T09:05:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "COIN"
-    },
-    {
-      "ticker": "SHOP",
-      "company": "Shopify",
-      "category": "E-commerce / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 1.61,
-      "short_term_change_pct": 1.0,
-      "relative_volume": null,
-      "quote_at": "2026-10-29T09:03:21+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SHOP"
-    },
-    {
-      "ticker": "RKLB",
-      "company": "Rocket Lab",
-      "category": "Space / Technology",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.29,
-      "short_term_change_pct": 0.98,
-      "relative_volume": null,
-      "quote_at": "2026-10-29T09:10:05+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "RKLB"
-    },
-    {
-      "ticker": "CRWD",
-      "company": "CrowdStrike",
-      "category": "Cybersecurity",
-      "priority": "normal",
-      "satispay_status": "unavailable",
-      "current_change_pct": -5.62,
-      "short_term_change_pct": 0.94,
-      "relative_volume": null,
-      "quote_at": "2026-10-29T09:10:45+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRWD"
+      "tradingview_symbol": "STM"
     },
     {
       "ticker": "PLTR",
@@ -180,31 +138,31 @@
       "category": "AI / Software",
       "priority": "high",
       "satispay_status": "check",
-      "current_change_pct": -0.53,
-      "short_term_change_pct": 0.89,
+      "current_change_pct": -0.24,
+      "short_term_change_pct": 1.11,
       "relative_volume": null,
-      "quote_at": "2026-10-29T09:10:00+00:00",
+      "quote_at": "2026-10-29T09:50:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
       "tradingview_symbol": "PLTR"
     },
     {
-      "ticker": "SMCI",
-      "company": "Super Micro Computer",
-      "category": "AI Infrastructure",
-      "priority": "high",
+      "ticker": "MARA",
+      "company": "MARA Holdings",
+      "category": "Bitcoin Mining",
+      "priority": "normal",
       "satispay_status": "check",
-      "current_change_pct": -0.77,
-      "short_term_change_pct": 0.81,
+      "current_change_pct": 0.56,
+      "short_term_change_pct": 0.85,
       "relative_volume": null,
-      "quote_at": "2026-10-29T09:10:00+00:00",
+      "quote_at": "2026-10-29T09:55:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SMCI"
+      "tradingview_symbol": "MARA"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-29T09:13:00.533596+00:00",
+    "updated_at": "2026-10-29T09:58:51.914411+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -221,14 +179,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Titoli tech e AI",
@@ -242,33 +200,42 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 14
       }
     ],
     "geopolitics": [
       {
-        "title": "How AI drones are influencing the course of the Ukraine war - WXXI News",
-        "source": "WXXI News",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTkw4blo3TUNKbGUwLURvMHNBUlBST0pkMzJoYzRHNWhiYlpUVC1QMGZjUkJHZ1FEVGJTeTV2UVlKUlV3U1ZIa0JfTkQtRmJ1SVl5Rl9fN0QzbGs2MkdKZFhxVjJFUGcxUVpRMVhfQWlubGl4aHJHbnpGNkFFdVlScEJ4QUsxT0Q4T0FzV19rTS0tR3dVTEh4TEhHQUE1dmstMW5jX2pHRQ?oc=5",
+        "title": "China reshapes global whitefish trade as imports surge - IntraFish",
+        "source": "IntraFish",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVmM0QTB4TGZsLVpMMnQtcWtCOFE2QVRzMmJYWE5RRm9DZERZbXhmeno1NUIzTWJoWFl2R0hkVzQ1RWZ3WW5kTmM5dXlHbW5NeDk2enFveW9rY00zWFRlYnlwUzFVRHpsSHdicHRlWXNzU1p2X1h5bzllSFh3SDd2YXI1dF80cG1PTG82UDdjZGsxMmo3eUo4b1VaeEpwX0Rkb2c?oc=5",
+        "published_at": "2026-10-29T09:50:29+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China stresses dialogue, opposes discriminatory EU trade curbs - chinadailyhk",
+        "source": "chinadailyhk",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OS29GUTN1NFEwMTVidVdWbUFqLXhqNkxpeFRad0N5WXNONDY1WU9DT1FvcFhpQ0dMN3RPbXpwWkV2MHBIQUtJUFpuTGZSa3FIYlNTa3c5WU8?oc=5",
+        "published_at": "2026-10-29T09:44:18+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How AI drones are influencing the course of the Ukraine war - NPR",
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qdXhNZHo1TFh4QmdLbVVmc3dZdlZRVEUwak9VT3lSUVBPNndwMUQ2c1BGcVJJd2N2TUs3OW1wTWNiTVM5TGc4aU01eEFDMTNXY2FrMVIzMTNOS2pic3dXQjdKWnFJYWV2alEyM3UyV1NWaVg5Z3l2d09zTQ?oc=5",
         "published_at": "2026-10-29T09:02:00+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China unveils 16 measures to further liberalize Hainan Free Trade Port trade - chinadailyhk",
-        "source": "chinadailyhk",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtbTEyTGlRaWtTVXEtYXJpaGlhTzhONWtnZ0Nsc2FpWkZoZWZPS1dlbmxsdnZubGd1emxkdFFvSE9sOFVKN1dLSE1LRUdvdl9YMEwwbmhrNWI?oc=5",
-        "published_at": "2026-10-29T08:19:21+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Shell profits double to $10.8bn as Iran war pushes up profit margin on oil - The Guardian",
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdUZ5dFJPeFNSVHdMcWlFazJSWmYzVGwwUnZHOGcyQXpyYTlPcTVGXzU0eXJSN0prQ2dHNXBjaWxfWnlLc2RrandVX1JyQ245M2E4UUFYZDFVVUVyU1ZYUTJaQWd3MDZRMkdKRlJxRDZIRXdJREVBWURaUDlWR2RwVVE4MzJTSGlXVXR2Tkk4VW02c2huMFBDM0YyczMwOHBIMnR3aldyZlJFT3dBenc?oc=5",
-        "published_at": "2026-10-29T08:01:00+00:00",
+        "published_at": "2026-10-29T08:17:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -313,7 +280,7 @@
         "title": "Vance reportedly contacted top Iran security official in bid to restart peace talks - The Times of Israel",
         "source": "The Times of Israel",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNU94Q29pdUFIbXY3Y1V4aUh3RFNiTG5OdkpYYzJUeFQwb2tkTGtCQUlXM2RwdGVTbjJMMEk1NWhTdWZudHZwMWhUa2cyMHJNUjhQVm5fR0hYdGtGczdLcVFXc3FnZEoyaVhiMXlfN0dvNFJTSjNtY3BUOEc5N1FjdTJyUzhLbHF1TXhybUZlcTlnaUEwV2I4OXhsLVJMY3Y4d2pzUm1CeDJid04zT3RZS21ZOE7SAboBQVVfeXFMTjFmLVc3S2kzdFh0Y2doM0FwSHZDWmZwbnNhVEVZbmtXWXkyMWdGdE5JbllmVXVfWHo0ekpsWFdkcmdrX3hiWGo5YVVkU2x1Y29VX255Skx1UHFLb3dNOGFrQ1lldzlWZEFnQ2U1dFFlSlJhdGtTQ1hqbFhTYnRKVnhLdUdiV2ZHa3dwWEg2Z1ZqTGtvYUYxLVdhWHhsVjhOcmF2bHROa0JDc0NkX0JPTl92ZXhZbTJPN3VR?oc=5",
-        "published_at": "2026-10-29T06:33:45+00:00",
+        "published_at": "2026-10-29T06:40:10+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -355,15 +322,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China AI Export Controls: 40 Technologies Listed [2026] - https://tech-insider.org/",
-        "source": "https://tech-insider.org/",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
-        "published_at": "2026-10-29T04:51:43+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Drones strike a container ship off Bulgaria's Black Sea coast and its crew members are rescued - AP News",
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFVkeGE0Tmxsa1RWWmRlM2g0Y29GRTNfUmxoUm5qME01RFhJbVd5YjlDdUpVS3FDakd0WHphVmkyQXV5Ry1xZTl4RnJtcEJFX1ZxMGxlYlhLbmE2dmdiQkt6OEhmSVNOa0RkQVhuVGFzNVN1Uk5qbVk4TXdMSkdmcEhWaE5BOHREajl3bnQ0UmE0bkRzRHdYX1g4ODdTdzdjTjRhZFhOTjI2Zw?oc=5",
@@ -384,6 +342,33 @@
     ],
     "corporate": [
       {
+        "title": "Obesity Pipeline vs. COVID Drag: The Hidden Numbers Deciding Pfizer’s Q3 Fate on Nov. 3 - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcDFoQmJmYXBqejJBdE9kdlNueXVKcHB4MFNfQV94NWhMM29zdTBFaGZkdHZjTGwxWUlHTXZseHYxUG1Ra01haDlQX1l2dy14M0pSb2pfUnVLRktHWUZ2Tlh6ajZIVnBrRW9makhqazQwVGdnVG4xZjFwQlRYc1hSRGtDeEF2NHIyWERLRGtOZEJYTFhCVkRCa19pRTZuRC1WNWhBb0JMd0JGbHlRVXAwNkpLcDVyNXJxVEtFTnZxNHl6dnctd1E?oc=5",
+        "published_at": "2026-10-29T09:43:32+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ascletis’ challenger to Lilly’s Foundayo hits goals in phase 2 diabetes trial - Fierce Biotech",
+        "source": "Fierce Biotech",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU05ReGJfemh6ZVR1Yjl5NXk4NjVsRWVJaF9KVWlqcWFnaGhUVU1IdlNLdDdHTk14RkNObHEwWDdjWUJPalpTaUVjSUE1Z2RubWh5YXNENG51SjNFeG00VWoydjRGc2dCUlFJNEN5SjNjQzVnQ3Vua1dGNWhJWG4yaXJLcUNfemM3VEt5dHkzNzVTdGZndmstakNIdVZkamxoN2pfdVdBTXQ0Z3BBTzcxZA?oc=5",
+        "published_at": "2026-10-29T09:11:17+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Google stock gets shredded after earnings—here's 2 reasons why investors hated the quarter - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObUdnZkYxXzBTRmhYR29adzI1M0oxMjZMU1VhX2F0cFpEdkFGNnd3Sk42Y21QZXVNLXA5NTJiQmlXZUpFVWhFNlptbjQyYWR0a09jRUZCZGdoVDJnTGlrOWthVE5qaXhCQkI4a0tWVzV1bTg4dGx6b3YwbUtWUk03UDRjdlh3Nlppd3FiVTgwVUlNSXdfaWdKR0hpTnJuVS1CRENOTGhSN05RbXlpaFdaZG5uOC1HMU1zTWJ1MnFjN1hVUEpubGpnaEZoQmRMdVBzSG1Wcmk2NGdHTmpWWkdxYS1scW54elU?oc=5",
+        "published_at": "2026-10-29T09:01:08+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "3 Renewable Energy Stocks With At Least 18% Earnings Growth - Simply Wall St",
         "source": "Simply Wall St",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcTRJYlp5ckw5NGtsMm9FOWwtbkVzUWktd01ZQ3BEVHhsQ3NpVWk2OVdwLTB3eFlyR2k0TFowaENzYkpNWFJRRFZMRzVWMldfX2p6Zmp4MkZmRXlPa0Frci1xNEhQQnBYNUV4MmYwYUdWa3pqdEtkcklWNmJ3ZkttTXlXNUE2eHdNbm5acC1lcEYtTGhJcFFkRUdZSWNKYXVUN1JNUF9LelhDTFFBb3VCbWFFaWRINXRxcmJERGpUdWViSHVETUtyamlmc9IB0AFBVV95cUxQVGVSdlVlTGdhQmtvdjZIdV9tUlRoc1E5OVFSMDc0bVNtbTBZMl92ak9oc2FPbThiUGFBTmJaUHBpVXFvUW9NbXRKSXpvbkppS181Nko4UU1xallIRGVUTEI5X0JWVzJoUEtyTHhoSWtBbVY3clplRkM5dDY1QXU2MnVaYnE5UXBGNHh5SFJIMXotSXRHSlUtdk5zT2pHS3RiRVFLTERON3QwMm1LX1FJQkJyRkliUnIzQjlBV2cwM2lmczQtcFJzYURMbVRrNjZU?oc=5",
@@ -402,10 +387,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Shares mixed after Google parent Alphabet's earnings disappoint - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSDRIcnk1Q0E1YW1keXdqMXZQcmVXWnVTYXpMN0huQUctV19zVllYU1VxeWQ2Q3RSQ1VOZ0tydGdXMTVUVFl4d0llVzB3TFlwS1hPQ2hHYlQwTVhtWjBfZ2haMGV3eWVEQ2ZPbXl6Z2hIeHJzdHo5RVR3Z3A2NW01YVVKb0YtNkVPcDBpZWpBNXF3bXNwZ01LM3VoUFlua3gzZlNv?oc=5",
-        "published_at": "2026-10-29T07:02:16+00:00",
+        "title": "Shares mixed after Google parent Alphabet's earnings disappoint - Euronews.com",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON2w0SU1uaWZ5MGhqMWtBNzRwVnhFQlJkYWFQTXB0V3p3VDcwWFotZHRlbUpqZU9xUmJ4a1Z4NkdGTVZTNnlsaG03ZVBpUlNkRXB0OVppc0pjWDFRNUdBYlBOejhGQ1ZNUGZ1bUoyVnNCWFBGSGF2SlZjMGxST0NJS0FRV3hFMV83NF96QlRkaVhUTXBxS2wtQVRFbHp6VUwzajNFQk5vRTNiUXNGcTBZSFlxSQ?oc=5",
+        "published_at": "2026-10-29T08:13:10+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -429,24 +414,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeVBNdzlMTTN3TWNmZmkyRFNZREhOcThOQWhMRk14VWlReXF4LW5DR2hsSjJneG1JeEdQM0VmX2tPNHJrVXdrdHhZbURadXZMdXczRkxjakpQbWFGQzBGX0lMN09mc0hQamNGX21PUnFNNDliVHZuQi02YWhucmE1SEVPcG5nSGc2aktVRUo5T1hpaEZtSnJyQTZDdHFGaXVTN1FyeU04U0YyaU5rcEZKbkhvTVdoMXFNMVE?oc=5",
-        "published_at": "2026-10-29T04:56:33+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "FDA narrows Keytruda eligibility after confirmatory data fail to support tumors with TMB scores of 10 to 12 - Medical Daily",
-        "source": "Medical Daily",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sXzBBTGI4MVdRTnRLamNKdmVIWFY4TmFqLU5ianZ1VGoxSGd4Y1pKWldqR25fWE5GcVBva0FtcVBaczdoZFJkR3k2dWIwSkpBMlA2RVEwV0lUVFRfYkIyNkNXZ0FCTldyTkNucjRoanA2MGYtQVEzRGNmeDE?oc=5",
-        "published_at": "2026-10-29T02:58:39+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "New FDA-approved prostate cancer combination cuts progression risk by 52%—but serious anemia affected about half of patients - Medical Daily",
         "source": "Medical Daily",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaU1lQ1pTY2tGb2NHN1RCRE84XzMwVm5EOGR1SFIwT00tekZtZnVvdURVVWNGQnN3ZEVLVG83S184bHN5QnFpallrLU96aktkLXB4YW1vaGF0d293SUhXOGZaSDlFY2o0Uy15RjBSVHE2WnZoMzlrU01OWVZONmR6SjRnNDRuWm8?oc=5",
@@ -463,20 +430,11 @@
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NCH Rooney Heart Institute Performs Nation’s First Tricuspid Valve Repair with PASCAL Precision System Following FDA Approval - Florida Hospital News and Healthcare Report",
-        "source": "Florida Hospital News and Healthcare Report",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV3VzVEVhbEZQVmF6MkE3MU8yUm1NckQ1M05NNThKUFRydUtLbGNzaEdydXJxRVYyUXM2SUViLW1MVTNndjlkd2xqMjdZc243UXlKcWFYMS16ckFLN1NpeWlBU09PYzI0OWJyS09LZWo0bTdsbFBjUGY5YXR4eXc1bXc5NlhfNnNwN2Y4ZFJpUnpfU3psZUJjUUpVNGVSeHRiY3JSaFQtLWlPZzU2QWk4M0FhekV1bGpEZ2J1SS1yTUdEejQ0SmI5NVlVcThOR3RKSDZEZVp4U0Ntem1jTk5RSGU5aDMzYVVGV0tvZlVZZXRQT0J0dXV6Mjd3Nm02azlqbGE0?oc=5",
-        "published_at": "2026-10-28T19:25:34+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 222,
+  "archive_count": 223,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
