@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-29T06:23:25.106040+00:00",
+  "generated_at": "2026-10-29T07:29:08.289896+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.045000076293945,
     "treasury_10y_change_bp": 5.200004577636773,
-    "wti": 101.33999633789062,
-    "wti_change_pct": -1.4010531801021076,
-    "brent": 110.12000274658203,
-    "brent_change_pct": -4.509189179676676,
+    "wti": 101.75,
+    "wti_change_pct": -1.0021393184763805,
+    "brent": 110.63999938964844,
+    "brent_change_pct": -4.0582729080477336,
     "nasdaq_level": 26549.8515625,
     "nasdaq_change_pct": 0.2720807126309177,
     "sox_level": 11684.0,
     "sox_change_pct": 1.754844328325711,
     "vix": 16.90999984741211,
     "vix_change_pct": -3.481738552588065,
-    "dollar_index": 102.28099822998047,
+    "dollar_index": 102.2490005493164,
     "macro_score": 61.0,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI -1.40%.",
+    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI -1.00%.",
     "quote_times": {
       "treasury_10y": "2026-10-28T18:55:00+00:00",
-      "wti": "2026-10-29T06:10:00+00:00",
-      "brent": "2026-10-29T06:10:00+00:00",
+      "wti": "2026-10-29T07:15:00+00:00",
+      "brent": "2026-10-29T07:15:00+00:00",
       "nasdaq": "2026-10-28T20:00:00+00:00",
       "sox": "2026-10-28T20:00:00+00:00",
       "vix": "2026-10-28T20:15:00+00:00"
@@ -31,53 +31,10 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "368645a3dfe9",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "US DOJ is probing Nvidia’s roughly $13 billion acquisition o - KuCoin",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94TnpPYVRiR3JQV2VxOWxGTVhxekEtOE1DUUk3ZEF0cWt3VmV2am5UQUlKakRjVVhSR2Q2U0JZYXBDMzBxazhRQkxnSDZzbkRIVllYOFhWbEFtV1VULUx2ZTVwWmdMR01aZU93RlVzeHk4emc?oc=5",
-      "published_at": "2026-10-29T02:38:18+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -1.87,
-      "short_term_change_pct": -0.05,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-28T23:55:00+00:00",
-      "quote_status": "STALE",
-      "quote_age_minutes": 388.4,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 50.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-10-29T02:38:18+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 49,
-        "macro": 61,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 18
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-29T06:23:13.521843+00:00",
+    "updated_at": "2026-10-29T07:28:57.513669+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -87,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -101,7 +58,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
@@ -115,10 +72,46 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
+      {
+        "title": "NATO's drone-predicting AI, called No. 13, gives troops a map of tomorrow's strikes - Business Insider",
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1lPLXRDX0VoeEk4TW5IbVpsR2pPTG1WaU81bTVkazNIdDM0akhHM1NqeE01SEE1ZWtSdGJUNmI0RV9HSzRkaTA5Y1FkTFV4cEp6eURSN3JDRDFtVmlCVloyTHlQNkRSeUhvNnFnZ2VnaHhHNjBRVjdVajlPMnc4YmF5THdlUGU0MGhsNzJTRmU3RHpHZy1nUDduNEpoZjNyQXVVTm1OTDB2RWk2OGI4Zg?oc=5",
+        "published_at": "2026-10-29T06:50:40+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. Restricts Trade With Chinese Genomics Company - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTRzdFQxSHZIbmVzTlMtUmk0NHNjN3o5elI3U3ctZjlvLTc5UEJoWUYtbDlyN21HSnpQSGtRVjVnWTM5SUpqWDdraUlhOXNVb1duZXF6VUJQMVZTcXZlNnEzTTBNNFMzWlBQYVpBZWxxWURTVExPS19EdDhHREVLUw?oc=5",
+        "published_at": "2026-10-29T06:42:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Vance reportedly contacted top Iran security official in bid to restart peace talks - The Times of Israel",
+        "source": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNU94Q29pdUFIbXY3Y1V4aUh3RFNiTG5OdkpYYzJUeFQwb2tkTGtCQUlXM2RwdGVTbjJMMEk1NWhTdWZudHZwMWhUa2cyMHJNUjhQVm5fR0hYdGtGczdLcVFXc3FnZEoyaVhiMXlfN0dvNFJTSjNtY3BUOEc5N1FjdTJyUzhLbHF1TXhybUZlcTlnaUEwV2I4OXhsLVJMY3Y4d2pzUm1CeDJid04zT3RZS21ZOE7SAboBQVVfeXFMTjFmLVc3S2kzdFh0Y2doM0FwSHZDWmZwbnNhVEVZbmtXWXkyMWdGdE5JbllmVXVfWHo0ekpsWFdkcmdrX3hiWGo5YVVkU2x1Y29VX255Skx1UHFLb3dNOGFrQ1lldzlWZEFnQ2U1dFFlSlJhdGtTQ1hqbFhTYnRKVnhLdUdiV2ZHa3dwWEg2Z1ZqTGtvYUYxLVdhWHhsVjhOcmF2bHROa0JDc0NkX0JPTl92ZXhZbTJPN3VR?oc=5",
+        "published_at": "2026-10-29T06:33:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia and US discussing sanctions relief for Moscow’s sovereign wealth fund, Kremlin aide says - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX3RtTjdiTklWeVlfbTUwdFowWHJBZzl4dG43UEd3c0RVLUpNYk05RG41SlNtUVdMNFR3bHg4MTlNS3BEeDdiSXVuZnNwcUZ2RGFFYWxFYXFFLTBDUE5rbkthaldwMVotX21WWk45YWhZQ3ZSTHY0ZFpvcWxueTBqcThxWlBDZHBFaGc?oc=5",
+        "published_at": "2026-10-29T06:26:29+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Oil Declines as Traders Parse Signs of Fresh Diplomacy on Iran - Bloomberg.com",
         "source": "Bloomberg.com",
@@ -129,10 +122,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "What the China AI Export Controls Draft Actually Says - shattered.io",
-        "source": "shattered.io",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUFFjXy05STZLRHA1RHJLNjlRR3BTUmRHaWJJbkQwa2pKNWNXY3lkQWRLeC1xVTZNZThaaFF3RmxRQlU2U1VDd2IzVDRxdm1OUGhNY3E0U3kwYVBzdERkZTdtSEdvWUlETFFrbVFBeUxFUzZURGQ5RDhSWFU2ekg3SQ?oc=5",
-        "published_at": "2026-10-29T05:15:00+00:00",
+        "title": "Taiwan Makes the World’s AI Chips. Can It Build Its Own AI Future? - HackerNoon",
+        "source": "HackerNoon",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdGhyNTQxdEZrLTRLZlRzZVBsNnhqVC1ZZkVVTTMzSkUwcHZNWHFZWVAtTlBKSnl5MGdtTmI2SHFXNzM2ZWdCakxxUFpVSGJGdURJV0pvNE1Vd09BMWpfTHNycG1RMWxVQVI1bHA3bEpJS1V3aUJoSWRyc2kyY0FIdDVqMlI0QzZvbVZORVBJTQ?oc=5",
+        "published_at": "2026-10-29T05:03:59+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -141,9 +134,18 @@
         "title": "Israel vote leaves door open to Iran attack - Financial Times",
         "source": "Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPclExdndUblNPem1VbXVhY093WGtoRkNqaHBYd25leDl0SXZMRi1VcDkyVTNKLW0yODFsUWVjQW54WjhRSTlwbTB5ZkRPUmxVQWJSYS01a3Bjdk9SaVpsX0FQOXpEekZwMkpYRGRiVy1qeU5GMHRIUlE4UFhhbE9qLVpzNFU?oc=5",
-        "published_at": "2026-10-29T05:00:30+00:00",
+        "published_at": "2026-10-29T05:02:36+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s New Export Controls: Selling the Output, Keeping the Capability - orfonline.org",
+        "source": "orfonline.org",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdkg1d1RTNzlQbDdNaElmQkdPRkQxdDVNbnZPR0xocEhZeUFMY2RndTNtcmd5UVcxb1JHb2FFMlFrNzhydEFZUXU2QlhoNnZkeUVIb0hrbnYyaHAxOTZ2ei02OHd1ZjZSQmhJaXlQTXp3VXhEVF90OEk4ZlN5WGlJX0EyM2dsclNJRVJlNDAxQ1ZYc3VLeWxtb0x1eUNIUkNLc2gxaGUzSQ?oc=5",
+        "published_at": "2026-10-29T04:56:45+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -183,15 +185,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Vance reportedly contacted top Iran security official in bid to restart peace talks - The Times of Israel",
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNU94Q29pdUFIbXY3Y1V4aUh3RFNiTG5OdkpYYzJUeFQwb2tkTGtCQUlXM2RwdGVTbjJMMEk1NWhTdWZudHZwMWhUa2cyMHJNUjhQVm5fR0hYdGtGczdLcVFXc3FnZEoyaVhiMXlfN0dvNFJTSjNtY3BUOEc5N1FjdTJyUzhLbHF1TXhybUZlcTlnaUEwV2I4OXhsLVJMY3Y4d2pzUm1CeDJid04zT3RZS21ZOE7SAboBQVVfeXFMTjFmLVc3S2kzdFh0Y2doM0FwSHZDWmZwbnNhVEVZbmtXWXkyMWdGdE5JbllmVXVfWHo0ekpsWFdkcmdrX3hiWGo5YVVkU2x1Y29VX255Skx1UHFLb3dNOGFrQ1lldzlWZEFnQ2U1dFFlSlJhdGtTQ1hqbFhTYnRKVnhLdUdiV2ZHa3dwWEg2Z1ZqTGtvYUYxLVdhWHhsVjhOcmF2bHROa0JDc0NkX0JPTl92ZXhZbTJPN3VR?oc=5",
-        "published_at": "2026-10-29T03:20:11+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Vance Proposes Restarting Peace Talks in Outreach to Iranian Official - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNemZJSjRtc0JweVpHQnlEQmdXV3FWYkJFSUo4RVJPQkhrdTlydXBYdzk2M08zd2QyaVdxRmlfY2xNVGdLaEtPN2dVNkgwam5oZ2ZKRmRnTGZkLXdFTWhCWHhYNTY5YkJNMHBnRXFfcE8zeUo3MVhTTjJVSGRXaWh1bnN0cjBzbTNM?oc=5",
@@ -210,46 +203,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Local Ukraine Ceasefire Holds for Second Day - ASHARQ AL-AWSAT English",
-        "source": "ASHARQ AL-AWSAT English",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU3FnSEJuZGxSTnlkOHZTTTFiUVY0RDFKekwwcFFmVFJrZDlxWEJ0VFVkTXNaTzh2S0ctOGUtZE94cnhJWTdERVp3M090TkNnVXBBUC1hNFNmNl94OFJMbmhPek9XbXVxZVpjRW5nSTF5YmZMMlEzNk9NZU0ya3RFbERURjkxSmRW?oc=5",
-        "published_at": "2026-10-28T20:36:20+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Company Linked to Darline Graham’s Husband Was Sanctioned for Arming Russia Against Ukraine - Drop Site News",
-        "source": "Drop Site News",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNT0ViYkJuaXVBR1dOandYZXBjcUFLb3AxLUFlamNwNG5mWWhmQmRMNTFvVTEyX0dhRHY0b3B4OF95NEY4MWFWYlJKNVpiRGZZRllyVUVMMUhaWmVrbXk2RllrUE1TcFNrS2EycHBIa0U0WW9jUnVXX250RHl2UGJJc0xMQVBJLWlocWJwV2ZkMA?oc=5",
-        "published_at": "2026-10-28T20:24:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Will the Next Congress Block Tariffs? - Alliance for American Manufacturing",
-        "source": "Alliance for American Manufacturing",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOalRtQUZtX3pleG1uc053TFRqZHFtNEdMNnM2V3cxTTRKS1cySVBrNVJ1T2dnLXhiYnplWE5MbEdwX2dQblp4VHUyWDNaYTRWZUhtcEZkU21kRlZOaU5zQWxPc3lQQWpQa0k3dVJabUNrd2pTWDB1RlZpbkh2SXhKcVZvY0loNGM?oc=5",
-        "published_at": "2026-10-28T17:50:57+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China's Sanctions Warning Puts U.S. Soybean Sales in the Firing Line - StoneX",
-        "source": "StoneX",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYm9VOHlWa0JNNmFLMlJPUlp6WUVfekZKNVdNXzJCSzEyeHluSzlwRWMzemc2dmJaTENHQjZoS09qeHBEaERyRC1DbmJ0Y05LWVJTeE5qU3JiamVCY2lGSWU4UGFGTE02V2xXQlg5Q2c3d1poNTNlckNiaXBqWXA4a2hsMHY2d2g1UDhiQTVETTVYNmxqYlI3MldwV1NfeWVUNnJqclhn?oc=5",
-        "published_at": "2026-10-28T15:02:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "President Trump’s Steel and Aluminum Tariffs: 1.0 vs. 2.0 - The American Action Forum",
-        "source": "The American Action Forum",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcWJGdlVBWU54VE1ZdVlmTTFTRkV5SEl5YXhVSTI3UmdLMkxZYVZKTGZMcEtnaF95Slh2OVZEcXkyQUtYVnFCSVlVTTBya1dfWktUOWNDeVJ0Y1ZiLXlYMXBZVngwZm5PUjlseG9rQTljakd2bVM3QUswbHNLWC1Hb1lWd1R4X24yZnVYTjR4bjJmQXc4Y25MVkJ0Q2ZjcnZx?oc=5",
-        "published_at": "2026-10-28T13:50:52+00:00",
+        "title": "Key Bessent trade adviser leaves Treasury for Netflix - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UNk13anIyN2oyNlRPNndXTlZNRG1rT19HTjN1aDFpVkVsZFZNbFNPUmRGb05GUlljUHVrTVZNLUJBbG8yM1Q5WHRhSWZsZ3VVYk5mRTJGb0NlZ0dJTnB0T0pIek5WbzdYZl91VUN5VzdnSGFWQTZfTEhKbw?oc=5",
+        "published_at": "2026-10-28T17:47:58+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -275,6 +232,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeVBNdzlMTTN3TWNmZmkyRFNZREhOcThOQWhMRk14VWlReXF4LW5DR2hsSjJneG1JeEdQM0VmX2tPNHJrVXdrdHhZbURadXZMdXczRkxjakpQbWFGQzBGX0lMN09mc0hQamNGX21PUnFNNDliVHZuQi02YWhucmE1SEVPcG5nSGc2aktVRUo5T1hpaEZtSnJyQTZDdHFGaXVTN1FyeU04U0YyaU5rcEZKbkhvTVdoMXFNMVE?oc=5",
+        "published_at": "2026-10-29T04:56:33+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "FDA narrows Keytruda eligibility after confirmatory data fail to support tumors with TMB scores of 10 to 12 - Medical Daily",
         "source": "Medical Daily",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sXzBBTGI4MVdRTnRLamNKdmVIWFY4TmFqLU5ianZ1VGoxSGd4Y1pKWldqR25fWE5GcVBva0FtcVBaczdoZFJkR3k2dWIwSkpBMlA2RVEwV0lUVFRfYkIyNkNXZ0FCTldyTkNucjRoanA2MGYtQVEzRGNmeDE?oc=5",
@@ -293,7 +259,7 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Asian shares fall as Alphabet earnings miss drags Wall St futures lower - Reuters",
+        "title": "Asian shares wobble as Alphabet earnings miss drags Wall St futures lower - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbTZuQXNrYUZEUEdVMGdDOEljdHJ1bW0zeHR6Yl9nYXp5dWd0cXU2WGk2QXVITW5xOVhlOUNVYm83QzFaRDZXcFdaZDZXa2xUd2otaXRjcmhmaWZ2aF8zVC03WFc5RkliNkhLZjk1MzhqUHBGZ3NmdmRKbF9CSklOUzhBQQ?oc=5",
         "published_at": "2026-10-29T02:28:00+00:00",
@@ -315,15 +281,6 @@
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbFpOOFBvUDRZTWd5M0dtdGItOWtyV24za2ZuLTMteDMtZ21XcGFvcnk4LXZtWFVZb2dDalNxVTlKZkRpRldBSlk3WFQxMDQzaHhGbVplWVVoNjRib3FiZHBwNlg5MXJCUVlsUkxtUzl0QjNZaE94M3dkRTNoellnWFlkVEYwYy1CRXk2ZkRIMEJHM0JCcTlyQTNoOGY0dHdKR3IxTWk5NWZfcU1mUnJIcDEyd1pVRHVmV0oxbmZkUEZ4bnVDZ0p1bEdKNA?oc=5",
         "published_at": "2026-10-29T01:10:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet, Microsoft earnings reveal surging AI demand as spending soars - Fox Business",
-        "source": "Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOczBCR3lMOUs2T2htM19DTlFzak8tVGNlTWZtUXpVU1ZDN05VMzBJOVU5bW9PV1lFOHRIYnR3SmhtV2tvUHQ2dWs3SEVBOEU4LUhjOFQyNHlFeV9HSVNCWW5STWtCdkJOc3d2VzNGMndvNUhMbERiempLNEhhZFRuWllWYkJxTndrM0FQYndUUkVEYzRsVjFSRWplYWpxUmFDTGFrQXhTd3FvZ9IBrwFBVV95cUxPMUtPOHJ1NUdHS3lXb3M1MVVBZklOanF6aFY2WkVCUE9pR0N3Z05ZOU01T3R5LUpFejJEUGVjQ3g1YjNBSEhqXzBxanphYXRHeVR0MzR1MTg2LXNlMzBNOFduaG9ZVGozeDRlSFFERUpEU1BERTY3ejJ2MWJaVDZPRUhpSkh5cXd1b2RJWmZudnJTRW5yRll1Qm81TTgyLXMtbUtqQ1RZZjFncEI0dmg0?oc=5",
-        "published_at": "2026-10-29T00:45:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
