@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-29T10:41:03.835198+00:00",
+  "generated_at": "2026-10-29T11:22:12.889461+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.045000076293945,
     "treasury_10y_change_bp": 5.200004577636773,
-    "wti": 101.55999755859375,
-    "wti_change_pct": -1.1870025639160398,
-    "brent": 110.33999633789062,
-    "brent_change_pct": -4.318421236656578,
+    "wti": 101.22000122070312,
+    "wti_change_pct": -1.517802663087775,
+    "brent": 110.0199966430664,
+    "brent_change_pct": -4.595909699777501,
     "nasdaq_level": 26549.8515625,
     "nasdaq_change_pct": 0.2720807126309177,
     "sox_level": 11684.0,
     "sox_change_pct": 1.754844328325711,
-    "vix": 17.06999969482422,
-    "vix_change_pct": 0.9461847951263813,
-    "dollar_index": 102.2030029296875,
-    "macro_score": 59.1,
+    "vix": 16.979999542236328,
+    "vix_change_pct": 0.413954437941233,
+    "dollar_index": 102.1449966430664,
+    "macro_score": 60.2,
     "tech_bias": "positive",
-    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI -1.19%.",
+    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI -1.52%.",
     "quote_times": {
       "treasury_10y": "2026-10-28T18:55:00+00:00",
-      "wti": "2026-10-29T10:30:00+00:00",
-      "brent": "2026-10-29T10:30:00+00:00",
+      "wti": "2026-10-29T11:10:00+00:00",
+      "brent": "2026-10-29T11:10:00+00:00",
       "nasdaq": "2026-10-28T20:00:00+00:00",
       "sox": "2026-10-28T20:00:00+00:00",
-      "vix": "2026-10-29T10:25:00+00:00"
+      "vix": "2026-10-29T11:05:00+00:00"
     },
     "geopolitical_risk_score": null,
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
@@ -46,13 +46,13 @@
       "published_at": "2026-10-29T07:26:11+00:00",
       "age_label": "3 h fa",
       "catalyst_type": "ma",
-      "current_change_pct": -1.66,
-      "short_term_change_pct": 0.38,
+      "current_change_pct": -1.54,
+      "short_term_change_pct": 0.27,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-29T10:35:00+00:00",
+      "quote_at": "2026-10-29T11:20:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 6.1,
+      "quote_age_minutes": 2.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -68,8 +68,8 @@
         "catalyst_strength": 90,
         "freshness": 78,
         "volume": 28,
-        "momentum": 55,
-        "macro": 59,
+        "momentum": 53,
+        "macro": 60,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -86,19 +86,19 @@
       "source": "Investing.com UK",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSE94VGc2QjBWQklldXp0cl9kWktuTjkzX1B1SXhBeEU5RWN2VGhqYWwwV0Zhdm9zdlc3Q1VxVUZCSmNnLWhqUmlvZURQbFNzS2pKZFJ0aFd4cXdLelYzVExaN05oR2xmZDBqYXdaTXVmdDlFLW4yRk1zQjUtT1hLSjRVVTMxQ1g5bF9nZHFfN3lxWENMMmlsV0Iwc000NzdkeUx1Z0JDMjhIVURSUVROWTFCUWM1b1JKTWpjc3RUdUNuYVFLWWctRldCQ1diQW8?oc=5",
       "published_at": "2026-10-29T09:46:00+00:00",
-      "age_label": "55 min fa",
+      "age_label": "96 min fa",
       "catalyst_type": "earnings_beat",
-      "current_change_pct": -0.0,
-      "short_term_change_pct": 0.23,
+      "current_change_pct": 0.53,
+      "short_term_change_pct": 0.95,
       "relative_volume": null,
       "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-10-29T10:38:58+00:00",
+      "quote_at": "2026-10-29T11:20:00+00:00",
       "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 2.1,
+      "quote_age_minutes": 2.2,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 66.0,
+      "confidence_score": 65.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-29T09:46:00+00:00",
@@ -108,10 +108,10 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 78,
-        "freshness": 90,
+        "freshness": 78,
         "volume": 28,
-        "momentum": 53,
-        "macro": 59,
+        "momentum": 61,
+        "macro": 60,
         "extension_penalty": 0,
         "stale_quote_penalty": 0
       }
@@ -119,22 +119,64 @@
   ],
   "movers": [
     {
-      "ticker": "SHEL",
-      "company": "Shell",
-      "category": "Energy",
-      "priority": "normal",
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "priority": "critical",
       "satispay_status": "check",
-      "current_change_pct": 4.3,
-      "short_term_change_pct": 1.03,
+      "current_change_pct": -1.12,
+      "short_term_change_pct": 1.08,
       "relative_volume": null,
-      "quote_at": "2026-10-29T10:35:00+00:00",
+      "quote_at": "2026-10-29T11:20:00+00:00",
       "early_move": false,
       "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SHEL"
+      "tradingview_symbol": "INTC"
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro Computer",
+      "category": "AI Infrastructure",
+      "priority": "high",
+      "satispay_status": "check",
+      "current_change_pct": 0.03,
+      "short_term_change_pct": 1.06,
+      "relative_volume": null,
+      "quote_at": "2026-10-29T11:20:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "SMCI"
+    },
+    {
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "category": "Europe Semiconductors",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": 0.53,
+      "short_term_change_pct": 0.95,
+      "relative_volume": null,
+      "quote_at": "2026-10-29T11:20:00+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "STM"
+    },
+    {
+      "ticker": "MT",
+      "company": "ArcelorMittal",
+      "category": "Materials / Steel",
+      "priority": "normal",
+      "satispay_status": "check",
+      "current_change_pct": -0.0,
+      "short_term_change_pct": 0.88,
+      "relative_volume": null,
+      "quote_at": "2026-10-29T11:20:28+00:00",
+      "early_move": false,
+      "status": "ANOMALY_NOT_A_CATALYST",
+      "tradingview_symbol": "MT"
     }
   ],
   "news_watch": {
-    "updated_at": "2026-10-29T10:40:53.268529+00:00",
+    "updated_at": "2026-10-29T11:22:00.762906+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -144,21 +186,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 11
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 5
       },
       {
         "area": "Titoli tech e AI",
@@ -172,23 +214,50 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
       {
-        "title": "Russian drone hits 2 trains stopped at a station in central Ukraine, killing 13, officials say - CT Insider",
-        "source": "CT Insider",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHkxdFJOWEppbVZ6WmtTY2lDN204Nlh4VVNhWWFROVVjNVFJVndYRk00QWJxRkM5M3VIRXZMMGN1STl4anRfREwySklnWTNMOG9sLWd1c1hRaXNrZVBFcFFDNjB1eTBOcjgzN2wtbWVYU2xydFI0NWlUUmZYajhTWUVKYWp0RmhibVZPUUVqMU5fNmcxUHZ6bzQtTEJaWDc0blB2YUJJb3ptazZpN2pXNQ?oc=5",
-        "published_at": "2026-10-29T10:37:47+00:00",
+        "title": "Most Americans Believe Putin Is Stalling Ukraine Peace Talks, Back More Weapons and Sanctions, Poll Finds - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdEFDMUtEbjU1T1JSdlpmbmdtUVYyRUpUQjkyVENwQ1Y1Znd4OWF0OGduNFpxeVJEYjd2bjFCVnh0X2RWWXhlaU4wM1RWUU92QTlJdUh2cXBfMWN4b3hZSC1vYWRNejVLcEZTaThyQk1LaDR4dUVRa201WkVXeFRPcVNDekJVZFF2OFRzVGdfSFFPZGZTa0hJZGE3cGNTaVBJU0pIQWNlVkVNN0RLUGpaQ2ZJLUN3VE0zd1UxOTdsV21mVzJsd1RQcG9PRjFXQ09GZzFKQ2NNOGo?oc=5",
+        "published_at": "2026-10-29T11:03:34+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russian drone hits 2 trains stopped at a station in central Ukraine, killing 13, officials say - reflector.com",
-        "source": "reflector.com",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOMlVFbmJzWjNsQ2NhdWJRUDZKYTU4cHZYNTUwZFZ2eDJ2dkNVNmUzVVgyeWdFRTVpQ3dCNTlTTy1hSzBHNjhiR3hydEVxZll6aUNNUTdJTGhMd3l0djF3VFRaSVJySC1mMTEycktWZ0JlQWFVV1RBRDUtQ0cyRlZNamFxeW1teFpnZXVVUUNmTnR5QWl2eE1NUUY1TmNMaWpCZGRYV0FDdC03bHdzSDBadHh0aW5tdDNEX28tcjB0bjYxX09pb2l3ZkU3N1lzVnRTaE5CUWpMcHhPa3BldkV6UHQtV2l6NzFzNURyeWdqZEQwM29oYUtsekF5X09BcE5tOFNTYU9aMHE?oc=5",
+        "title": "Melania Trump’s Ukraine ceasefire clings on as humanitarian aid arrives - The Independent",
+        "source": "The Independent",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ2JxRTFQdVNSV3NHMjFKUWpnTlktcUxoYXRiaGZCM3padThlMkxKNHQ5bng2NVpNSV9aTmJkdTNvRVBseDc3NXowREN1ZzRuQ19aMHJESGJiSWZpbV9jZlN2RG94SEhJZjZEanEzYzZIbXhhcnd2V3RFcGNVTDZ1NjlSeWQzZVRRYWpPeFM1SFBMV1lwSGhGSjFycWlja1NrcHdJ?oc=5",
+        "published_at": "2026-10-29T10:51:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Declines as Traders Parse Signs of Fresh Diplomacy on Iran - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWhmOUJoc0lkWEs5QlBSaDVpMjd4QlRILTVyTmk4dlRNU1FNRE0tS0N2NHdQZFZGQjZxZjlSOFVwSGhaQVhrUmJrb1JySXlhZDctVHdqMUIyU0gtUnFENDdoRkh4QnlxR1pfeGxMMU1UUWJydnhxSFJ1d3djdjZYQ1ZUcUxZMVBEVFFwaWN6VkhKYnNtMTdBWk4ycjJSaEczeXhONWtaN3ZXUjFZNW1aS3NMVQ?oc=5",
+        "published_at": "2026-10-29T10:39:24+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Carlyle Group to sell its Romanian Black Sea offshore natural gas producer - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUHM4VnVPbGdBamY1WXk0YnhXYXFSbzZGS1N6cmhuWXFOaW5FY2JjZkZEbzM4al8yeXZpVkF2MDA0VXRfakROVnA1b0wxSjd6eDVfU1JJR0NUbG9uQngzb2dXd1FwTEtYa3BQOUk0UENhUjhadXU2Rll2ZnFSbU5FcFRyQnd1ei1JcjJtcTNRZjlsVUVFUXFBRGpac28wQmMzWTJ3SkZmTWh2VWpPZEJ1QXVER09ycDNUTzVwRkQ1N1h4dw?oc=5",
+        "published_at": "2026-10-29T10:34:11+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russian drone hits 2 trains stopped at a station in central Ukraine, killing 13, officials say - Union-Bulletin",
+        "source": "Union-Bulletin",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTGtMX3g0cENBUGI5TF8yM3J2SFM2V3FGSTV2ZGNhckFUTHNrT3E4WlllcmE1RHdJbER6Y2xfMnJSVzdOVTYyaEMwTVNMaXZRTWlxSVpxRjQxRTU0emkyb2FPTzFMWXhXUHk3c1ZMNE5ycXJjb3N3aXJZa3piYzNCQjE1cDE1bDRsNmFIWWVSOHdFNnprTkh1QjJzb0x5WTliVHRJdE9nSms4RWJxM3pWQUpyUlNwUnFUNV9CMllMT0xfWmNEaUNCcGxBYkpMTEhNdU9ScUhwX1lGazh3cXptdDBmY3gzbTMtV1lpS2dqOU5OekpiMFNlWDFkb3dDNVZoT2lmVDF4Y3E1bzly?oc=5",
         "published_at": "2026-10-29T10:31:31+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
@@ -204,11 +273,20 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ship sinks off Bulgaria's Black Sea coast after being hit by drones - Audacy",
-        "source": "Audacy",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORmRIQm81RldJY1UxSWNRTjdSNjRUX0p2cmNwTVVzT01vQmJrM1VMQnVxb0E3Q3dIVU82dm9tMGViMFIwUVpKcmJ1SVN3Yy10NzduN3RjR2xaRnZFc0MySW8wQldFYlI4R0tMcE8yQ0owbXVKYTJlbWw1WWhtd1hjRjFNbmZBNnlObUdyOWtERC1uV0xybTRKTUYtSzZiamtnanFaRXlvTzhMWm9kNEJvQ0h5VDE3U09SdWc?oc=5",
-        "published_at": "2026-10-29T10:04:56+00:00",
+        "title": "Russia strikes Dnipro train station, killing 13 - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUlQ1UWYtd0hPSWtJakxQc1ViaUlLYXMxNXd0aTZWekZ0QlFzZUVxalBEZHE5bkpXV3g5Mjdjd2p5OUNiLXM4R3pOM3RSUzRDNjBWTGdLWEdVcWdneFU0MHRlRzh2WjFlMWVVa3NGdm9BNjQ0ZGV6LWItX29Lekk4Zl9IT2hrTXFOT2NNNWhYWQ?oc=5",
+        "published_at": "2026-10-29T10:19:01+00:00",
         "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Shell profits double to $10.8bn as Iran war pushes up margin on oil - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdUZ5dFJPeFNSVHdMcWlFazJSWmYzVGwwUnZHOGcyQXpyYTlPcTVGXzU0eXJSN0prQ2dHNXBjaWxfWnlLc2RrandVX1JyQ245M2E4UUFYZDFVVUVyU1ZYUTJaQWd3MDZRMkdKRlJxRDZIRXdJREVBWURaUDlWR2RwVVE4MzJTSGlXVXR2Tkk4VW02c2huMFBDM0YyczMwOHBIMnR3aldyZlJFT3dBenc?oc=5",
+        "published_at": "2026-10-29T10:06:00+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -219,42 +297,6 @@
         "published_at": "2026-10-29T09:50:29+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How AI drones are influencing the course of the Ukraine war - WXXI News",
-        "source": "WXXI News",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTkw4blo3TUNKbGUwLURvMHNBUlBST0pkMzJoYzRHNWhiYlpUVC1QMGZjUkJHZ1FEVGJTeTV2UVlKUlV3U1ZIa0JfTkQtRmJ1SVl5Rl9fN0QzbGs2MkdKZFhxVjJFUGcxUVpRMVhfQWlubGl4aHJHbnpGNkFFdVlScEJ4QUsxT0Q4T0FzV19rTS0tR3dVTEh4TEhHQUE1dmstMW5jX2pHRQ?oc=5",
-        "published_at": "2026-10-29T09:02:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Shell profits double to $10.8bn as Iran war pushes up profit margin on oil - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdUZ5dFJPeFNSVHdMcWlFazJSWmYzVGwwUnZHOGcyQXpyYTlPcTVGXzU0eXJSN0prQ2dHNXBjaWxfWnlLc2RrandVX1JyQ245M2E4UUFYZDFVVUVyU1ZYUTJaQWd3MDZRMkdKRlJxRDZIRXdJREVBWURaUDlWR2RwVVE4MzJTSGlXVXR2Tkk4VW02c2huMFBDM0YyczMwOHBIMnR3aldyZlJFT3dBenc?oc=5",
-        "published_at": "2026-10-29T08:17:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Destinus' monthly output tops Europe's pre-war annual cruise missile production - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTENYVFdnSUZIT0JQeUFlUHA4R0hldnV2aGlscjhOblppeVdka2VmdDFHcTNhYWp5MWhKM1BnMmNNYnRib2djRVNzU1BzenhsbzhpMWItQUtjaFVMRFYycTE0dFQwdE51b0tacGc0ajdiTnBHU3BwMU5WbTVKcEFPaDJJNFpLXzVFeHAyYUJpNzVHQUkwbDI2QzFNV2o0XzFOdWd5UFF3ak45OWYyZnhVTzRFblhwa09QWThKR3p0Y2diRFYwaDFnYldBaG52djZjekpXbkZDUQ?oc=5",
-        "published_at": "2026-10-29T08:16:11+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Japan and US strike deal on missile assembly as Tokyo expands long-range arsenal - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa0tDQWFuLW5KWmFmR2U4RUpjYTQweWJaR1Nmd3FsQmdaYWM3RkZWTmlDZkNrWXJ4MHotLTYxLXpIdFRMUUFNd0FTczhLaVkxV0ZXRVdxOWVHdUpPMWpKSnZLSk5ySHBoY2thT3pSYURvX2JkYkFEVWdQQk9MMVdGbWcyZUloSldzcUtMRTRFcTdaOHhPRlVtbUZ2OXotN0pNVTVlMHBfRnZOYnJ1dVQxVnVERV9wZnRKS3hhUDhkZnhNejc3VUR5cHFFY9IBywFBVV95cUxPWmVIWEJvZnFobmYyN1duczgycUUxSGVuY05tVlNxdVJDeTZFdFkyY2Vmc2ZMWUphLXNuUDdYQS1BSldEeXVCRjB2RXZvandRTDE5Wnlnem93VjVQbTNBRERMMC1YU0Q5SHc2UER3NW1STkVLbFZuYVZOMUpwQVJIUW56bU1DY0h2TktmLUZEY2ZkaUh3cFVMODJRUUJIaWxEdU5LbEFsTk8yN1Y4R05hTmx3WVhhUExTa01Fdk9YMkZFNlZaWTZRTndKMA?oc=5",
-        "published_at": "2026-10-29T07:53:28+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -294,16 +336,43 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Prices Fall as Vance Moves to Restart Iran Peace Talks - Crude Oil Prices Today | OilPrice.com",
-        "source": "Crude Oil Prices Today | OilPrice.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN1RaR1NCMnlGSS05S2xESkEwaHRTd1dBRUhLUzJFUWNhQ0NoNVpwd05qaHlsSlNrQkJrVENJejJoTFRpdGNRNGhEWERWWTAzRkx1TUxpNno1c3lBODNMSkMwVWExRjlFVjhGYjVxdlBJNWJ4QkNKeG4yQmg0aS1TZDNURDVwOEZNTmFzVUpydXo2X2U0a0oydEdjVGI1QkxfYjdfMlF6RFpNMWw0V1c5NnloUm_SAboBQVVfeXFMT20xZXdXWGhOUW5WQUJkSXJYM1dlclNtX1B3UkxJSW5JZnRuRmZORWZKdGdsXzV0X1EtemMyNy1QMXBtaGhxZWxWcm44ZC1JZHRtZjlsMVFlVHpDWTdKT0UxaHFTUjN2VGVKd1pXbjhBeHBpajFfUEI4ejB4NzdfY0R5aWN3cXE0d2NLakhORm5rRktYZFJ2R1lHNkJzZng4VWJBVk96NUZNYXFzSnNFb3MyLUNzdC1WVHR3?oc=5",
-        "published_at": "2026-10-29T06:05:36+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "China AI Export Controls: 40 Technologies Listed [2026] - https://tech-insider.org/",
+        "source": "https://tech-insider.org/",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
+        "published_at": "2026-10-29T04:51:43+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Taiwan flags 'obvious' threat from 50 Chinese vessels in wide sweep of waters - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNelRKZ21DWjJBX09xRTJyZnBicWsyLWJTQk1CcmVoVFJYLXBIcWt6LWpwdDRyeGhzbFpNaUFmV0ZhM0NuWmNVRXpKd2s2QnY3bTdwTUFJSFBoUEVUNjlWbThFLXpxN0dkRklMYy1JQVZhWW5abUNtQlZYc21la2htWWVzUWVBMjhTMHc5OF80V3EzLWVPQmFhZnFyOExtWEVfeFhsMnVOYzdfakc1NHdIMjN3?oc=5",
+        "published_at": "2026-10-29T02:24:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jam9HMHZIWF9Qa012UFpWSDdXR05uS19yQTdoNnhxQzF5TE9KQ1VSYm1RR2YtZ2pvelkzUnQ4QncyamJtOXEwUk0xMGdFdWJIWFkyM0h4UGFmcVlWRHQ3angtYzl3ZTJsUkJENlpnS3hXWUZNdUh6WlBGNNIBgAFBVV95cUxNNHc4N2kwVENwVmxsU1pPY0FkX1FDd2FlYW83MDlFd2QweG02NkdoQU5lMmZCVVh3bXhLclJzVXAxcTF5ZU5uQXAtZGp3Qy1ZdWFpWUszT1hQNXhIMVhYZFR3aXF3a0NhaUF1T05XcnNIUHVMZEVBdGpKT3NZVFI1WQ?oc=5",
+        "published_at": "2026-10-29T11:00:02+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "World shares and U.S. futures are mixed after Google parent Alphabet's earnings disappoint - LancasterOnline",
+        "source": "LancasterOnline",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxON2FPazlwVGlaekRyeEYyMzVtVHlsSHFQQjh3em9sMUFxMUhDUEZ4OEZPemJQS0d6dU5JTlVxalVDRU1BNnhfTVZfOVZ3czFwX0p0NnhwYlNVOXI5YXV2UXQzU0d3eWNTci1TRUdsQnpzQXdCbTFaVko1TDJLang2dkxHLVF2MlNUaU5UbmtaS3lYNFRBNGhtWW9fZUpJYkRWa2VuMU9nRnBsOFJGWEI1aFJyQkkzLWJYMjg0ckQ3WHo3VTZtdWhtSHp3R193NVJjQ05ZajhuWWlJUXdhYlhkRUg5OWxkdkJlMTZ0dFd3bkRWNTNod2ZER3NDRW9wVDZCRm1vNjFYeW1YQmEzY005YXc5d05BNkU?oc=5",
+        "published_at": "2026-10-29T10:11:38+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "AI Stocks Fall After Alphabet Earnings Disappoint - WSJ",
         "source": "WSJ",
@@ -341,28 +410,19 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "3 Renewable Energy Stocks With At Least 18% Earnings Growth - Simply Wall St",
+        "source": "Simply Wall St",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcTRJYlp5ckw5NGtsMm9FOWwtbkVzUWktd01ZQ3BEVHhsQ3NpVWk2OVdwLTB3eFlyR2k0TFowaENzYkpNWFJRRFZMRzVWMldfX2p6Zmp4MkZmRXlPa0Frci1xNEhQQnBYNUV4MmYwYUdWa3pqdEtkcklWNmJ3ZkttTXlXNUE2eHdNbm5acC1lcEYtTGhJcFFkRUdZSWNKYXVUN1JNUF9LelhDTFFBb3VCbWFFaWRINXRxcmJERGpUdWViSHVETUtyamlmc9IB0AFBVV95cUxQVGVSdlVlTGdhQmtvdjZIdV9tUlRoc1E5OVFSMDc0bVNtbTBZMl92ak9oc2FPbThiUGFBTmJaUHBpVXFvUW9NbXRKSXpvbkppS181Nko4UU1xallIRGVUTEI5X0JWVzJoUEtyTHhoSWtBbVY3clplRkM5dDY1QXU2MnVaYnE5UXBGNHh5SFJIMXotSXRHSlUtdk5zT2pHS3RiRVFLTERON3QwMm1LX1FJQkJyRkliUnIzQjlBV2cwM2lmczQtcFJzYURMbVRrNjZU?oc=5",
+        "published_at": "2026-10-29T08:43:26+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Alphabet falls 10% in premarket, putting it on course for its biggest ever post-earnings drop - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc0dhT2FxS3RWNmx0Y1ZrbFY4OFBwZHpINU9Od01NMlcxZTMyYTd3X1NiOTZYYzJLRmpzQ2N0OWNJdzk1akxtSERuUl9aT0E1ZUFBRTJTZTMxSVBRTmJtQjBaWVgwMWMwanpsb1ExZEVPUEVQR1ZINW1zOGlWR0o5bkljQjJUcFA1M0NKNDdOLUNyb2PSAZgBQVVfeXFMUEtscFE2UFdzM0pIME56Ty1ZQlBvLUFSVUttY3NNU3ZWYmROUDFkaVZWYkdSZVZzSlYzNGdGMU9FclMxZ0VNZzZiR0JScmI3azBJWWxXVV9rSXNQRC0tTElRLUxNWTBSM2lhZ0NER3RuRGxRY3dmcC1FVVY4RHJza0RBaWVLNGFUZVV1VHg5R0RJYU9WWkp6VUI?oc=5",
         "published_at": "2026-10-29T08:35:01+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Shares mixed after Google parent Alphabet's earnings disappoint - Euronews.com",
-        "source": "Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON2w0SU1uaWZ5MGhqMWtBNzRwVnhFQlJkYWFQTXB0V3p3VDcwWFotZHRlbUpqZU9xUmJ4a1Z4NkdGTVZTNnlsaG03ZVBpUlNkRXB0OVppc0pjWDFRNUdBYlBOejhGQ1ZNUGZ1bUoyVnNCWFBGSGF2SlZjMGxST0NJS0FRV3hFMV83NF96QlRkaVhUTXBxS2wtQVRFbHp6VUwzajNFQk5vRTNiUXNGcTBZSFlxSQ?oc=5",
-        "published_at": "2026-10-29T07:00:41+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Intel Stock Enters Earnings With a ‘Strong’ Setup, Analysts Say - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yZXdLdExYS3hHN19GX0xPbTJSa0h4MTUyUm9oejU5UGEyaVl0RmhnaGMzdXBjbmJtbnNhMGdEYXpPaHdTMzk1d1hZM3BXLVhOdEJ0QzVzTExWNzFZbzZRSmd3dkZfTkdsOC10eXN4UkhpTjAwTVZn?oc=5",
-        "published_at": "2026-10-29T06:00:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -381,15 +441,6 @@
         "source": "Medical Daily",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaU1lQ1pTY2tGb2NHN1RCRE84XzMwVm5EOGR1SFIwT00tekZtZnVvdURVVWNGQnN3ZEVLVG83S184bHN5QnFpallrLU96aktkLXB4YW1vaGF0d293SUhXOGZaSDlFY2o0Uy15RjBSVHE2WnZoMzlrU01OWVZONmR6SjRnNDRuWm8?oc=5",
         "published_at": "2026-10-29T02:33:56+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Melanoma vaccine awaits FDA approval after late-stage trial - KOLD",
-        "source": "KOLD",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkdLTlFGOHdQTzE1R21palU5RFBDdklfVFJLNnl1OHNZbzdwWThfMWVGSTg2Q250dmNpQXg5WW9KZGFIclFuT1JkakdmU1N2U3U0Z1doaXptRllTY1VSY0xIenNOQ1RuNGhiblctSmRVVThTLWFSdTAweGMxRl9PaUpuU0pxSDlrMEJ1cUwxYktVcl9SQkFF0gGrAUFVX3lxTE9VeWtYblp5VEVQampFel9XcndBUmJDeHc4bjBpWENGdlNWcEg5QTUzWVNMZ0daTHJaM0RSMklVbEpOLWJpSTNWbktCRjZuUmFuNGpJUjJ1dHJfUlROZnZrd3p4NU9LNUtQbVhlMVpLT0gwQXpSTnRWdjJSOHRLclptbWt0b2J2bTlFNXhjU2pXclFlUFRET0Z2aEpqTzVYeDNSMzRmZXk0emZyNA?oc=5",
-        "published_at": "2026-10-29T01:45:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
