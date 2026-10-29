@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T09:59:03.771757+00:00",
+  "updated_at": "2026-10-29T12:04:10.827416+00:00",
   "events": [
     {
       "id": "e2718d5f33d6",
@@ -21,7 +21,39 @@
       "publication_quote_at": "2026-10-29T09:45:00+00:00",
       "pct_at_detection": 0.66,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.12,
+          "price": 48.72,
+          "quote_at": "2026-10-29T11:45:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "61776b17668e",
+      "ticker": "SHEL",
+      "company": "Shell",
+      "category": "Energy",
+      "headline": "Shell ADR earnings beat by $0.47, revenue topped estimates - Investing.com",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkxWaHNQTU5rbzZlNktUTzBpQnJHWG5RQmRPRi1NemVBb1VfdVJsSUp0MjRUZWprV19Cd2NmQWI5UWJZRTdFekRkSFhtMFIwSWlDR1ctaEpmaW5kbGRxWHdmZkN2a2QycWY5OHJiNzlIZE01NTRoNHBuSXpST3h5WXh1RmNIMjJ6aVU3eGhOcWFXLUVUeExaWktvTXFfTDBCLXZYSHN3?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-10-29T08:21:08+00:00",
+      "first_seen_at": "2026-10-29T12:04:10.827416+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 63.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 3.76,
+      "price_at_publication": 109.15,
+      "publication_quote_at": "2026-10-29T08:20:00+00:00",
+      "pct_at_detection": 4.07,
+      "checkpoints": {
+        "2": {
+          "return_pct": 0.36,
+          "price": 109.54,
+          "quote_at": "2026-10-29T10:20:00+00:00"
+        },
         "5": null,
         "8": null
       }
