@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T16:22:19.205935+00:00",
+  "updated_at": "2026-10-29T17:14:49.544398+00:00",
   "events": [
+    {
+      "id": "2de9f440306f",
+      "ticker": "INTC",
+      "company": "Intel",
+      "category": "Semiconductors",
+      "headline": "Hogan Lovells Cadwalader advises Intel in pending acquisition of Classiq Technologies - Legal Desire",
+      "source": "Legal Desire",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcTlvM0twdTMzSmllZEV1Z2UySWRjajEzM0hhajJFVGRBQzRzaW9PV1Q0YVVrSXRiTXpGX3ZGXzlIem9QQmtRMURld2Y3TUEwX2lFQkNpQWVWRGp2bVhUTlptRXlRa0hNOVhZU1FsOHEybnFBbWVjVXNaclZjRS1wSTZ4SUVYVzRucENjZFRoTmozZDhzSjdEZlpTNGlVU3JzaVpYVVd3Q3NPM0I2OWdn?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-10-29T17:09:06+00:00",
+      "first_seen_at": "2026-10-29T17:14:49.544398+00:00",
+      "estimated_impact_pct": 4.3,
+      "confidence_score": 72.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -3.73,
+      "price_at_publication": 91.968,
+      "publication_quote_at": "2026-10-29T17:10:00+00:00",
+      "pct_at_detection": -3.73,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "9f24bba4e428",
       "ticker": "MSFT",
@@ -21,7 +45,11 @@
       "publication_quote_at": "2026-10-29T14:25:00+00:00",
       "pct_at_detection": -0.88,
       "checkpoints": {
-        "2": null,
+        "2": {
+          "return_pct": -0.17,
+          "price": 525.21503,
+          "quote_at": "2026-10-29T16:25:00+00:00"
+        },
         "5": null,
         "8": null
       }
@@ -162,7 +190,11 @@
           "price": 47.56,
           "quote_at": "2026-10-29T13:50:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": 2.38,
+          "price": 49.645,
+          "quote_at": "2026-10-29T16:50:00+00:00"
+        },
         "8": null
       }
     },
@@ -190,7 +222,11 @@
           "price": 213.14,
           "quote_at": "2026-10-29T13:45:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -0.54,
+          "price": 213.25,
+          "quote_at": "2026-10-29T16:45:00+00:00"
+        },
         "8": null
       }
     },
@@ -255,7 +291,11 @@
           "price": 221.2,
           "quote_at": "2026-10-29T13:40:00+00:00"
         },
-        "8": null
+        "8": {
+          "return_pct": 1.44,
+          "price": 218.16,
+          "quote_at": "2026-10-29T16:40:00+00:00"
+        }
       }
     },
     {
