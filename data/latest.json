@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-29T02:12:27.517138+00:00",
+  "generated_at": "2026-10-29T02:55:19.690733+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.045000076293945,
     "treasury_10y_change_bp": 5.200004577636773,
-    "wti": 101.79000091552734,
-    "wti_change_pct": 1.891891252032507,
-    "brent": 110.5199966430664,
-    "brent_change_pct": -2.950474790471347,
+    "wti": 101.66000366210938,
+    "wti_change_pct": 1.7617638732213114,
+    "brent": 110.45999908447266,
+    "brent_change_pct": -3.003159686889323,
     "nasdaq_level": 26549.8515625,
     "nasdaq_change_pct": 0.2720807126309177,
     "sox_level": 11684.0,
     "sox_change_pct": 1.754844328325711,
     "vix": 16.90999984741211,
     "vix_change_pct": -3.481738552588065,
-    "dollar_index": 102.11399841308594,
-    "macro_score": 57.2,
+    "dollar_index": 102.13200378417969,
+    "macro_score": 57.5,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI +1.89%.",
+    "summary": "Tech bias neutral. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI +1.76%.",
     "quote_times": {
       "treasury_10y": "2026-10-28T18:55:00+00:00",
-      "wti": "2026-10-29T02:00:00+00:00",
-      "brent": "2026-10-29T02:00:00+00:00",
+      "wti": "2026-10-29T02:45:00+00:00",
+      "brent": "2026-10-29T02:40:00+00:00",
       "nasdaq": "2026-10-28T20:00:00+00:00",
       "sox": "2026-10-28T20:00:00+00:00",
       "vix": "2026-10-28T20:15:00+00:00"
@@ -32,6 +32,48 @@
     "geopolitical_headlines": []
   },
   "catalysts": [
+    {
+      "id": "368645a3dfe9",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "US DOJ is probing Nvidia’s roughly $13 billion acquisition o - KuCoin",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94TnpPYVRiR3JQV2VxOWxGTVhxekEtOE1DUUk3ZEF0cWt3VmV2am5UQUlKakRjVVhSR2Q2U0JZYXBDMzBxazhRQkxnSDZzbkRIVllYOFhWbEFtV1VULUx2ZTVwWmdMR01aZU93RlVzeHk4emc?oc=5",
+      "published_at": "2026-10-29T02:38:18+00:00",
+      "age_label": "17 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": -1.87,
+      "short_term_change_pct": -0.05,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-10-28T23:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 180.3,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 52.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-10-29T02:38:18+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 100,
+        "volume": 28,
+        "momentum": 49,
+        "macro": 58,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    },
     {
       "id": "7eb891144d3a",
       "ticker": "NVDA",
@@ -44,7 +86,7 @@
       "source": "Firstpost",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVWtEYVhvUjdTempueng5Szd0dEEwZWhPS3Z6TXczZElwcTJBbkFYQVhLTjlKY3Z3cUUtOHFMM3BuQjBnak9UanFidk1wSHpHZHp6TGtTU3d1aEdNcWJIZ24xdFZCclJIRHhPNnNMNjNvOXQzaHFiR241NDM4V2x6d0hMYWo2bTVvTGJmRjV3dE5PM1hsczFFUnRzMUZKZVFI0gGmAUFVX3lxTE5WSzl6MTN6WHFnRE5sUVdkYjJmREJPQ3dmSFZmaG9FM3ozX1RkTWFnVVBweVI3bnZSclI5d3RCOXJDZ0h5c2JPMHhVM3N2TkNKV1VmVk1UYXpCSFNvRklEaUtWeHpvcmN6WGg5djNFblI1NEJWTTBFWlR1UU1aY08wYlNXWWIwZmNVVjFiU0Y0cUxUbHVfeFNNdlZib09hVGZYYTFPWWc?oc=5",
       "published_at": "2026-10-29T00:16:53+00:00",
-      "age_label": "115 min fa",
+      "age_label": "2 h fa",
       "catalyst_type": "ma",
       "current_change_pct": -1.87,
       "short_term_change_pct": -0.05,
@@ -52,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-28T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 137.4,
+      "quote_age_minutes": 180.3,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -69,7 +111,7 @@
         "freshness": 78,
         "volume": 28,
         "momentum": 49,
-        "macro": 57,
+        "macro": 58,
         "extension_penalty": 0,
         "stale_quote_penalty": 18
       }
@@ -77,7 +119,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-29T02:12:16.925133+00:00",
+    "updated_at": "2026-10-29T02:55:08.320715+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -120,19 +162,10 @@
     ],
     "geopolitics": [
       {
-        "title": "Saudi Aramco Headquarters Suffered Extensive Damage in Houthi Attack, Sources Say - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUmNPY0wtSGNST2o5SDJCUWpnWDBEdWFoQTAwUWl3Ml9IYXlkZHVGcUFfeFlyTmdtM0dnUC05Q24zcVB6eFFDeUxmR1Q1M1h0cVEyVU9nQ01ZaEo2TjkwS3BmSkZ4eEN1NEVKM0lRakxSVnpNLS1tMWRhYUNPTmJSU0VubTFGS3VJMnBJN28tVmhmZDFmTXhRNHVQa1JuRzdjQkZfUi1NMnBTZTNoajF0Mw?oc=5",
-        "published_at": "2026-10-29T00:48:20+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil Declines as Traders Parse Signs of Fresh Diplomacy on Iran - Bloomberg",
         "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWhmOUJoc0lkWEs5QlBSaDVpMjd4QlRILTVyTmk4dlRNU1FNRE0tS0N2NHdQZFZGQjZxZjlSOFVwSGhaQVhrUmJrb1JySXlhZDctVHdqMUIyU0gtUnFENDdoRkh4QnlxR1pfeGxMMU1UUWJydnhxSFJ1d3djdjZYQ1ZUcUxZMVBEVFFwaWN6VkhKYnNtMTdBWk4ycjJSaEczeXhONWtaN3ZXUjFZNW1aS3NMVQ?oc=5",
-        "published_at": "2026-10-29T00:18:00+00:00",
+        "published_at": "2026-10-29T02:25:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -174,12 +207,39 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "Petrobras Pumps at Record as Iran War Upends Oil Markets - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTXNGeGQ2VmF4Vm9OY2RiSExjNHMxNFdIeGtZQXpjbUNoTmJzSXgtbktKMkl1QmdDN09mUGtTb2xXZWZaSUZ1ZVRYMjJKV3pYbXU5Z0Z6cE9kS3hjNWJ2X1A2U1l6SGlURHJnclIxZDhiSElCTzcwYlBHdnI5VGZxbFZadXBMN0o1OENtUFdOSUpSOUw4NG5KMTVRMElkazUzQV8tV0Y5VGdnUVU?oc=5",
+        "published_at": "2026-10-28T23:06:04+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "A ceasefire in a Ukrainian city is holding, officials say, as Moscow and Kyiv await US-led talks - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ2Jza1NQeWx6dzNEMm5FaG5GWDN3SlFjcERUWXRLdktnWlB6cHNLcHd3VTR2RXZqcTVCVUxKUHRvTEpmNy1lMDhsaVRJb05FcE83QnNScEVXMTdydExIZWlsZGJUZGg5QWVPZkhVVE1semFMM0NNOTZCal9jYnJyZjFFR0tpWEQzSVVjY0VmLVZ4Rl9DZEl2OXc3cDRra20xdTk0UWp0SW5waW5KRVI4aUNnUjFDUDZRYXpEajhuT1p2aUdRQnBLbVM4Q2hXOTA?oc=5",
+        "published_at": "2026-10-28T21:09:22+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Local Ukraine Ceasefire Holds for Second Day - ASHARQ AL-AWSAT English",
         "source": "ASHARQ AL-AWSAT English",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU3FnSEJuZGxSTnlkOHZTTTFiUVY0RDFKekwwcFFmVFJrZDlxWEJ0VFVkTXNaTzh2S0ctOGUtZE94cnhJWTdERVp3M090TkNnVXBBUC1hNFNmNl94OFJMbmhPek9XbXVxZVpjRW5nSTF5YmZMMlEzNk9NZU0ya3RFbERURjkxSmRW?oc=5",
         "published_at": "2026-10-28T20:36:20+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Company Linked to Darline Graham’s Husband Was Sanctioned for Arming Russia Against Ukraine - Drop Site News",
+        "source": "Drop Site News",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNT0ViYkJuaXVBR1dOandYZXBjcUFLb3AxLUFlamNwNG5mWWhmQmRMNTFvVTEyX0dhRHY0b3B4OF95NEY4MWFWYlJKNVpiRGZZRllyVUVMMUhaWmVrbXk2RllrUE1TcFNrS2EycHBIa0U0WW9jUnVXX250RHl2UGJJc0xMQVBJLWlocWJwV2ZkMA?oc=5",
+        "published_at": "2026-10-28T20:24:39+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -192,30 +252,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Could Melania Trump Win Nobel Peace Prize Over Ukraine Ceasefire Deal? - Newsweek",
-        "source": "Newsweek",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZFY4YkJoYTBmYmdNNWt6ZDFId0FIa2trajNwS2ZENG1vejVTSTcxR09hek5WTzlpZXg2SHhvOVl6SGRYbGh5bzR5SWNpOUpvb05fbFFxSEpEdFNZeUJJX2pZbnhjUjhWaU1SVVhQXzBUYzBSanRaQUFoZW54UnVCM29vbWQzcHM4bUlMd0p1V1dYUERmOUVzRkg5eWtZTl9VNm9vekFR?oc=5",
-        "published_at": "2026-10-28T18:36:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_DISTENSIONE_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "U.S. Restricts Trade With Chinese Genomics Company - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTRzdFQxSHZIbmVzTlMtUmk0NHNjN3o5elI3U3ctZjlvLTc5UEJoWUYtbDlyN21HSnpQSGtRVjVnWTM5SUpqWDdraUlhOXNVb1duZXF6VUJQMVZTcXZlNnEzTTBNNFMzWlBQYVpBZWxxWURTVExPS19EdDhHREVLUw?oc=5",
-        "published_at": "2026-10-28T17:38:31+00:00",
+        "published_at": "2026-10-28T17:38:32+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia Builds New Drone Base Near Ukraine Capable of Launching 100 Attack Drones Daily - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaTZvNTNlMmpEbFVQT0F2ZGVsY25QbVk5Nzh3TEQySDV2bmtJNGZVdW1pb0tFRzdTZURpN0FiUTVvOExxRmRRNndMMDdkcmkwX1FoLTloS3pJS2UtZE8xWkpOTVlNeWZBSFBna0N2NlhkYXJNOVpPQkV1OTlxZU9IMGtpWVhXTWszOFVTN29wcW1xdW5haGZIVzdfSnB5OFFKV2h5MXUyQTVfMDhEOHRzR2FDMVNhX3FHS1RwUnBMV3NZUQ?oc=5",
-        "published_at": "2026-10-28T16:56:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -257,9 +299,27 @@
     ],
     "corporate": [
       {
+        "title": "New FDA-approved prostate cancer combination cuts progression risk by 52%—but serious anemia affected about half of patients - Medical Daily",
+        "source": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaU1lQ1pTY2tGb2NHN1RCRE84XzMwVm5EOGR1SFIwT00tekZtZnVvdURVVWNGQnN3ZEVLVG83S184bHN5QnFpallrLU96aktkLXB4YW1vaGF0d293SUhXOGZaSDlFY2o0Uy15RjBSVHE2WnZoMzlrU01OWVZONmR6SjRnNDRuWm8?oc=5",
+        "published_at": "2026-10-29T02:33:56+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Asian shares fall as Alphabet earnings miss drags Wall St futures lower - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbTZuQXNrYUZEUEdVMGdDOEljdHJ1bW0zeHR6Yl9nYXp5dWd0cXU2WGk2QXVITW5xOVhlOUNVYm83QzFaRDZXcFdaZDZXa2xUd2otaXRjcmhmaWZ2aF8zVC03WFc5RkliNkhLZjk1MzhqUHBGZ3NmdmRKbF9CSklOUzhBQQ?oc=5",
+        "published_at": "2026-10-29T02:28:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Melanoma vaccine awaits FDA approval after late-stage trial - KOLD",
         "source": "KOLD",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkdLTlFGOHdQTzE1R21palU5RFBDdklfVFJLNnl1OHNZbzdwWThfMWVGSTg2Q250dmNpQXg5WW9KZGFIclFuT1JkakdmU1N2U3U0Z1doaXptRllTY1VSY0xIenNOQ1RuNGhiblctSmRVVThTLWFSdTAweGMxRl9PaUpuU0pxSDlrMEJ1cUwxYktVcl9SQkFF?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkdLTlFGOHdQTzE1R21palU5RFBDdklfVFJLNnl1OHNZbzdwWThfMWVGSTg2Q250dmNpQXg5WW9KZGFIclFuT1JkakdmU1N2U3U0Z1doaXptRllTY1VSY0xIenNOQ1RuNGhiblctSmRVVThTLWFSdTAweGMxRl9PaUpuU0pxSDlrMEJ1cUwxYktVcl9SQkFF0gGrAUFVX3lxTE9VeWtYblp5VEVQampFel9XcndBUmJDeHc4bjBpWENGdlNWcEg5QTUzWVNMZ0daTHJaM0RSMklVbEpOLWJpSTNWbktCRjZuUmFuNGpJUjJ1dHJfUlROZnZrd3p4NU9LNUtQbVhlMVpLT0gwQXpSTnRWdjJSOHRLclptbWt0b2J2bTlFNXhjU2pXclFlUFRET0Z2aEpqTzVYeDNSMzRmZXk0emZyNA?oc=5",
         "published_at": "2026-10-29T01:45:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
@@ -302,15 +362,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "How SpaceX Hurt Alphabet’s Third-Quarter Earnings - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFJ1QlYxMm1aQkpTdzVZcnZqV3FVZ2luc1JCcmd6YURnakpiZHZwaHM1d3pTTXNjTFhGcmFySFB0UzZzSkMwNGZjTUtGNmZFbDBDUHNaOWY1T05XbHdKdEdQNXBZYm05Tk51ZTJxU0xCSVFqdS1Ta3FZd0JLbThDYQ?oc=5",
-        "published_at": "2026-10-28T21:58:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "NCH Rooney Heart Institute Performs Nation’s First Tricuspid Valve Repair with PASCAL Precision System Following FDA Approval - Florida Hospital News and Healthcare Report",
         "source": "Florida Hospital News and Healthcare Report",
         "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV3VzVEVhbEZQVmF6MkE3MU8yUm1NckQ1M05NNThKUFRydUtLbGNzaEdydXJxRVYyUXM2SUViLW1MVTNndjlkd2xqMjdZc243UXlKcWFYMS16ckFLN1NpeWlBU09PYzI0OWJyS09LZWo0bTdsbFBjUGY5YXR4eXc1bXc5NlhfNnNwN2Y4ZFJpUnpfU3psZUJjUUpVNGVSeHRiY3JSaFQtLWlPZzU2QWk4M0FhekV1bGpEZ2J1SS1yTUdEejQ0SmI5NVlVcThOR3RKSDZEZVp4U0Ntem1jTk5RSGU5aDMzYVVGV0tvZlVZZXRQT0J0dXV6Mjd3Nm02azlqbGE0?oc=5",
@@ -336,20 +387,11 @@
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Blood Plasma Name Hits Highs On FDA Approval As Earnings Loom - Investor's Business Daily",
-        "source": "Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0OUlTVm9HN0N2VW15TDduQ2NvRy1UQ2llaWp5NThCWTJSeUFKVXk5LXFsb1pOdGJqS3ZTLURRVU4tWEZVblNwX0Q2bUxuUWFBd0FzT2lKbndMaUJyT3JQQVlDNUhQbnVqN2YzdHQyckhCZXozWWdud0Rn?oc=5",
-        "published_at": "2026-10-28T18:12:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 219,
+  "archive_count": 220,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
