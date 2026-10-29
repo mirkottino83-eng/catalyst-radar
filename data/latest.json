@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-29T02:55:19.690733+00:00",
+  "generated_at": "2026-10-29T03:32:54.323379+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.045000076293945,
     "treasury_10y_change_bp": 5.200004577636773,
-    "wti": 101.66000366210938,
-    "wti_change_pct": 1.7617638732213114,
-    "brent": 110.45999908447266,
-    "brent_change_pct": -3.003159686889323,
+    "wti": 101.37999725341797,
+    "wti_change_pct": 1.4814771821156203,
+    "brent": 110.25,
+    "brent_change_pct": -3.1875635238558298,
     "nasdaq_level": 26549.8515625,
     "nasdaq_change_pct": 0.2720807126309177,
     "sox_level": 11684.0,
     "sox_change_pct": 1.754844328325711,
     "vix": 16.90999984741211,
     "vix_change_pct": -3.481738552588065,
-    "dollar_index": 102.13200378417969,
-    "macro_score": 57.5,
-    "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI +1.76%.",
+    "dollar_index": 102.1510009765625,
+    "macro_score": 58.0,
+    "tech_bias": "positive",
+    "summary": "Tech bias positive. Nasdaq +0.27%, SOX +1.75%, US10Y 5.05, WTI +1.48%.",
     "quote_times": {
       "treasury_10y": "2026-10-28T18:55:00+00:00",
-      "wti": "2026-10-29T02:45:00+00:00",
-      "brent": "2026-10-29T02:40:00+00:00",
+      "wti": "2026-10-29T03:20:00+00:00",
+      "brent": "2026-10-29T03:20:00+00:00",
       "nasdaq": "2026-10-28T20:00:00+00:00",
       "sox": "2026-10-28T20:00:00+00:00",
       "vix": "2026-10-28T20:15:00+00:00"
@@ -44,7 +44,7 @@
       "source": "KuCoin",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94TnpPYVRiR3JQV2VxOWxGTVhxekEtOE1DUUk3ZEF0cWt3VmV2am5UQUlKakRjVVhSR2Q2U0JZYXBDMzBxazhRQkxnSDZzbkRIVllYOFhWbEFtV1VULUx2ZTVwWmdMR01aZU93RlVzeHk4emc?oc=5",
       "published_at": "2026-10-29T02:38:18+00:00",
-      "age_label": "17 min fa",
+      "age_label": "54 min fa",
       "catalyst_type": "ma",
       "current_change_pct": -1.87,
       "short_term_change_pct": -0.05,
@@ -52,11 +52,11 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-28T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 180.3,
+      "quote_age_minutes": 217.9,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
-      "confidence_score": 52.0,
+      "confidence_score": 51.0,
       "source_verified": false,
       "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
       "headline_published_at": "2026-10-29T02:38:18+00:00",
@@ -66,7 +66,7 @@
       "factors": {
         "source_quality": 68,
         "catalyst_strength": 90,
-        "freshness": 100,
+        "freshness": 90,
         "volume": 28,
         "momentum": 49,
         "macro": 58,
@@ -86,7 +86,7 @@
       "source": "Firstpost",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVWtEYVhvUjdTempueng5Szd0dEEwZWhPS3Z6TXczZElwcTJBbkFYQVhLTjlKY3Z3cUUtOHFMM3BuQjBnak9UanFidk1wSHpHZHp6TGtTU3d1aEdNcWJIZ24xdFZCclJIRHhPNnNMNjNvOXQzaHFiR241NDM4V2x6d0hMYWo2bTVvTGJmRjV3dE5PM1hsczFFUnRzMUZKZVFI0gGmAUFVX3lxTE5WSzl6MTN6WHFnRE5sUVdkYjJmREJPQ3dmSFZmaG9FM3ozX1RkTWFnVVBweVI3bnZSclI5d3RCOXJDZ0h5c2JPMHhVM3N2TkNKV1VmVk1UYXpCSFNvRklEaUtWeHpvcmN6WGg5djNFblI1NEJWTTBFWlR1UU1aY08wYlNXWWIwZmNVVjFiU0Y0cUxUbHVfeFNNdlZib09hVGZYYTFPWWc?oc=5",
       "published_at": "2026-10-29T00:16:53+00:00",
-      "age_label": "2 h fa",
+      "age_label": "3 h fa",
       "catalyst_type": "ma",
       "current_change_pct": -1.87,
       "short_term_change_pct": -0.05,
@@ -94,7 +94,7 @@
       "volume_metric": "1h vs previous NY trading session same clock window",
       "quote_at": "2026-10-28T23:55:00+00:00",
       "quote_status": "STALE",
-      "quote_age_minutes": 180.3,
+      "quote_age_minutes": 217.9,
       "early_signal": false,
       "signal_status": "NEWS_TO_VERIFY",
       "estimated_impact_pct": null,
@@ -119,7 +119,7 @@
   ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-29T02:55:08.320715+00:00",
+    "updated_at": "2026-10-29T03:32:44.340215+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -136,7 +136,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -157,15 +157,33 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
+      {
+        "title": "Russian \"Susanin\" drone component may push Ukraine into nighttime blackouts. Roads and highways would go dark first, presidential adviser says - Euromaidan Press",
+        "source": "Euromaidan Press",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNeFdVVkZIMGVKdkFkNS1fWGJBa2VQY0hIc3FCSDNSYUY2N2tmNWlLQnlKa19JY0lOVGFfSnBMRFQyU3kzTDRXMzZ0RG04RUw5TzhOSE9hNFJwc0cwMlZ5Zl84dG9ta21sOUZBZ281a2J1RWVMcTVSczRRWXNIVnd0ZDN2eFZJczBhLTR2dTRJNnZkN012VHExY3E0d2ZncV80Ym42RGJaeDlLSHlsZzk3NkktSmF6Y0JiWllVM2xOZnBoYVVVc1MtaWN2SUZyOHhnMXRnM3JMVXpxT1dTb2NPMlJNTkxVaXJid0V0UllfRjYzUmdLOE9zZko1WHhpUE5SRUhTSnpmMXdRZw?oc=5",
+        "published_at": "2026-10-29T03:11:06+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Oil Declines as Traders Parse Signs of Fresh Diplomacy on Iran - Bloomberg",
         "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWhmOUJoc0lkWEs5QlBSaDVpMjd4QlRILTVyTmk4dlRNU1FNRE0tS0N2NHdQZFZGQjZxZjlSOFVwSGhaQVhrUmJrb1JySXlhZDctVHdqMUIyU0gtUnFENDdoRkh4QnlxR1pfeGxMMU1UUWJydnhxSFJ1d3djdjZYQ1ZUcUxZMVBEVFFwaWN6VkhKYnNtMTdBWk4ycjJSaEczeXhONWtaN3ZXUjFZNW1aS3NMVQ?oc=5",
         "published_at": "2026-10-29T02:25:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Vance Proposes Restarting Peace Talks in Outreach to Iranian Official - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNemZJSjRtc0JweVpHQnlEQmdXV3FWYkJFSUo4RVJPQkhrdTlydXBYdzk2M08zd2QyaVdxRmlfY2xNVGdLaEtPN2dVNkgwam5oZ2ZKRmRnTGZkLXdFTWhCWHhYNTY5YkJNMHBnRXFfcE8zeUo3MVhTTjJVSGRXaWh1bnN0cjBzbTNM?oc=5",
+        "published_at": "2026-10-29T02:12:02+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -207,15 +225,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Petrobras Pumps at Record as Iran War Upends Oil Markets - Bloomberg",
-        "source": "Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTXNGeGQ2VmF4Vm9OY2RiSExjNHMxNFdIeGtZQXpjbUNoTmJzSXgtbktKMkl1QmdDN09mUGtTb2xXZWZaSUZ1ZVRYMjJKV3pYbXU5Z0Z6cE9kS3hjNWJ2X1A2U1l6SGlURHJnclIxZDhiSElCTzcwYlBHdnI5VGZxbFZadXBMN0o1OENtUFdOSUpSOUw4NG5KMTVRMElkazUzQV8tV0Y5VGdnUVU?oc=5",
-        "published_at": "2026-10-28T23:06:04+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "A ceasefire in a Ukrainian city is holding, officials say, as Moscow and Kyiv await US-led talks - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ2Jza1NQeWx6dzNEMm5FaG5GWDN3SlFjcERUWXRLdktnWlB6cHNLcHd3VTR2RXZqcTVCVUxKUHRvTEpmNy1lMDhsaVRJb05FcE83QnNScEVXMTdydExIZWlsZGJUZGg5QWVPZkhVVE1semFMM0NNOTZCal9jYnJyZjFFR0tpWEQzSVVjY0VmLVZ4Rl9DZEl2OXc3cDRra20xdTk0UWp0SW5waW5KRVI4aUNnUjFDUDZRYXpEajhuT1p2aUdRQnBLbVM4Q2hXOTA?oc=5",
@@ -243,12 +252,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine war latest: Oleshky ceasefire holds as Zelensky secures new aid pledges - The Kyiv Independent",
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX201R2dMN1c5NjJpb1VnS21ic2dRYWJQU3VzcDJ0Z1d5cF9zX3hoVmxwb3d2T3QwUTZJNl80OUZyVUZoZC1KcE9yYUFYR2tsNlF5V193ZWVZd2FzanJrdkhvRk5wZ2ROM1dNZU9KdVZ0Z3JyUWhDRlJqR3VCaFBkSnoxQ203cW85NmlWSjBkQVBYLV92MEYyYTBZX1JxWjRzS2tBSUw2V1RwNDA?oc=5",
-        "published_at": "2026-10-28T20:20:22+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Will the Next Congress Block Tariffs? - Alliance for American Manufacturing",
+        "source": "Alliance for American Manufacturing",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOalRtQUZtX3pleG1uc053TFRqZHFtNEdMNnM2V3cxTTRKS1cySVBrNVJ1T2dnLXhiYnplWE5MbEdwX2dQblp4VHUyWDNaYTRWZUhtcEZkU21kRlZOaU5zQWxPc3lQQWpQa0k3dVJabUNrd2pTWDB1RlZpbkh2SXhKcVZvY0loNGM?oc=5",
+        "published_at": "2026-10-28T17:50:57+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -286,23 +295,14 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US warns China is expanding its space toolkit with spaceplane and energy weapons - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZC1yNU1RTVhGZF9PSGhDcGotaXZreXB1ZVpWcVQ1Z1EtSEMxX0swNkZVaF9LaXdwVlZxcngzcXRHU01DUkVGbHlfV25Cd2ItbkF5c1VkalplZEtCVGg0OHhieEdlUUthbW9lQU9TUHQzLXBVNmZYVGM2eFJQNTgwZTd6M3FnR2hEeXZBTUduMGsyU1JiYmt2cHNYVW1KdkJKeFJmV1dVd3VHdjIwekZKQVJlaFo1UnhueU01S3lDQjBLZVNNaDVCONIByAFBVV95cUxOUno1ZC1vbmtyc1NHWDZCZUlFWGtKWU4tM0tNOXpRTkRZbTJqcjlSMFFnbUN3VlZ4ZU82MzlCbU9seFlURlFwdXJIMUtGb3EyWUxOeE9WdmREbmRaVkJ0QW5GV082VDBwcndKY2Juc0tvY0RtOS1uZDZWeXQtUXVSQkFGcGtnczNkTWVGX0tITk1keC1Eem5Obl85bk5LT01RaW5PaUFLZGlNbFR6dmRJYWxQQnNPT2ktdndZQTlhTlM3M1h0WF9tQw?oc=5",
-        "published_at": "2026-10-28T12:01:05+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "New FDA-approved prostate cancer combination cuts progression risk by 52%—but serious anemia affected about half of patients - Medical Daily",
+        "title": "FDA narrows Keytruda eligibility after confirmatory data fail to support tumors with TMB scores of 10 to 12 - Medical Daily",
         "source": "Medical Daily",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaU1lQ1pTY2tGb2NHN1RCRE84XzMwVm5EOGR1SFIwT00tekZtZnVvdURVVWNGQnN3ZEVLVG83S184bHN5QnFpallrLU96aktkLXB4YW1vaGF0d293SUhXOGZaSDlFY2o0Uy15RjBSVHE2WnZoMzlrU01OWVZONmR6SjRnNDRuWm8?oc=5",
-        "published_at": "2026-10-29T02:33:56+00:00",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sXzBBTGI4MVdRTnRLamNKdmVIWFY4TmFqLU5ianZ1VGoxSGd4Y1pKWldqR25fWE5GcVBva0FtcVBaczdoZFJkR3k2dWIwSkpBMlA2RVEwV0lUVFRfYkIyNkNXZ0FCTldyTkNucjRoanA2MGYtQVEzRGNmeDE?oc=5",
+        "published_at": "2026-10-29T02:58:39+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -335,6 +335,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "What investors need to know about Alphabet's stock-busting earnings report - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tOWlJU2Y5c0gwTU9fWnpQeGFqaWh1TUIwcHhYUGFsRWRCT1V1aWRvemFDa2RhQ1Vzc0R4bVRITlFyWXZJTmpWZ19JbXJGdE5vbGtwTkNqRy1YSXZEVEZNWkkzOWstelV0YjFuSUZYcW5FelBWb1E?oc=5",
+        "published_at": "2026-10-29T00:23:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObFpfZDBQNy1JbzJMVnAyQTNXeTdvWDZnSGpoQi03MkZfLU1NXzJyekZrbzl5WDl6SV83bFVuUm9qVGIzOWVydFdfdzVDdDgxTFB2c0k1T3l4MlVSRS1iV19MY25iOFhMSEpLYjVkQmZyR09xa1g2aHZoYUY5UXJXYTNleE52QkVtUzJPWU5XVmliLXhGYlNMb2FzZ3dYRHMzbkZKSlR0TXF5UQ?oc=5",
@@ -348,15 +357,6 @@
         "source": "Investor's Business Daily",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVDdBTW9ka2FSLWY4ZDNxTWY1TUNOZnBlWVd3SlZZOGhPa3hsWndTZTVja0VPbDk0Z0hCMlZFTXE1YXVlRENkNTkwbmdUMjFhNlBWYndVV3FhdXI2QnFNcFFiQWtLMWpCLV94WjRNbDMtLWJqU1gxTDNlU0JwV3phX0RmN0RVLWZzRnc?oc=5",
         "published_at": "2026-10-28T23:26:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Intel to report Q3 earnings as chip stocks continue to rebound - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbkctcG9uQk10dUx1NUxmQXFvcTg4TkVzQTJBVWhMVmJjdVo5S0lGOWxXYWFmdnZyX3JGOVBmaWhYRFNmTHZ1Rkk2T2RKTXFxa3VrU3lRQ2ZBM3B3eDhzUGQ1NlpSbjlGMWpRajJXOXEzbDBob0xaRTlna2hxeE94X0JNdmdaLUU0UUR4eURaYlhmTmY0SERKNFk1R1dzTGZ6anBmQVZFLVgtQVh4OUFMYU96Mzk1NHBZVUJ1VWJqMA?oc=5",
-        "published_at": "2026-10-28T22:17:13+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
