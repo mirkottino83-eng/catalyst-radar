@@ -1,40 +1,46 @@
 {
-  "generated_at": "2026-10-30T00:29:36.010418+00:00",
+  "generated_at": "2026-10-30T06:17:49.714896+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.988999843597412,
     "treasury_10y_change_bp": -5.600023269653293,
-    "wti": 102.75,
-    "wti_change_pct": -0.02918737074641964,
-    "brent": 111.44999694824219,
-    "brent_change_pct": -3.3558816829893923,
+    "wti": 103.23999786376953,
+    "wti_change_pct": 1.2156841801661988,
+    "brent": 112.22000122070312,
+    "brent_change_pct": -2.3154562119696576,
     "nasdaq_level": 26184.724609375,
     "nasdaq_change_pct": -1.3752431948656718,
     "sox_level": 11518.19921875,
     "sox_change_pct": -1.4190412636939431,
     "vix": 17.200000762939453,
     "vix_change_pct": 1.7149669907993825,
-    "dollar_index": 101.85399627685547,
-    "macro_score": 29.8,
-    "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -1.38%, SOX -1.42%, US10Y 4.99, WTI -0.03%.",
+    "dollar_index": 101.80699920654297,
+    "macro_score": 27.3,
+    "tech_bias": "strong_negative",
+    "summary": "Tech bias strong negative. Nasdaq -1.38%, SOX -1.42%, US10Y 4.99, WTI +1.22%. Geopolitica: Oil spills from Iran’s tanker attacks wash up on UAE beaches - Financial Times",
     "quote_times": {
       "treasury_10y": "2026-10-29T18:55:00+00:00",
-      "wti": "2026-10-30T00:15:00+00:00",
-      "brent": "2026-10-30T00:19:00+00:00",
+      "wti": "2026-10-30T06:05:00+00:00",
+      "brent": "2026-10-30T06:05:00+00:00",
       "nasdaq": "2026-10-29T20:00:00+00:00",
       "sox": "2026-10-29T20:00:00+00:00",
       "vix": "2026-10-29T20:15:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 44,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Oil spills from Iran’s tanker attacks wash up on UAE beaches - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdGlRTmV5a3hRNGR2eFVFVUlfRWdOc1F4X01JbEg4MklzOUJzV3lCamtReWFsQmpCZ21OMVgwa0xkX0kzSHplTHcybHA5TlZFdGhpTDA2YTEzU2FYaUU5X0E3RS1ZbU9XZDJxSk5GTmQ0ODk1U1gwOFJDRk1OUW56bDlxWTU?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-30T00:29:24.633974+00:00",
+    "updated_at": "2026-10-30T06:17:38.493704+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,37 +57,100 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 4
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 5
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
       {
+        "title": "Ukraine pauses strikes on Russian oil refineries amid US pressure: Report - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSUVjNVhzcjY1b1hEMEFwakJWcFNxWFEwcE1kdTFTQWo4Z2NMSUZuN1h4WHd2NHJEUmwtQWxKNkJaQnE3WXg0WlNveWJlSUhHa2pDd2lFYXJ1bXc5bENYNTVHQU1yRi1BamtFdkI3VVA4R0VoRU8wYkpJS1ZweGVCM3RYZTU1OUFVLTN4TTR0VTVJYzY4VlpBa2oyX1ZnVDB1NDRfQ0J4Mlh1cFUycUcwZTQtQ0lueTVlaF85Q0dXaUR1dw?oc=5",
+        "published_at": "2026-10-30T04:20:57+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Peru's updated trade deal with China is now in force, but it does not deliver broad new tariff cuts - Latin Times",
+        "source": "Latin Times",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ0FpX2hQVWdjNXJqcXVZbEIyZ0RhdjZlZFlObXgxN2EwdkJoMkF3WjVRUG9aLUpFdWdrSmliMjNTWjBIS1J4RWRveGtXY2lNbjlLbGFpTXNibmFqQUt1dml4TFI5aUNCanVBWW1ZazBWdTNlak01bFVFeWN3YkllNTBNOA?oc=5",
+        "published_at": "2026-10-30T03:47:17+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US tells allies to prepare for possible Iran strikes after midterms - NewsNation",
+        "source": "NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeVdwSHdHMjZxNjNBWEx2VnotY0xqbzJwZXBtVTVmN19ZNnNjMkJQcjZadXRocmYzWW5kRnRRaEs2Tm0zN0c4RFFzVW1fQ2RMcU5YMUl6bHEtNDJ2UXZVY1ROLWtfb1hjRjNQQ1RBOTQ2R1VMSWY2c2ttMVZGbmNmd0diWDRKQzJxWjFXWNIBkgFBVV95cUxPVUotY3ZEaXJXei1UUkxaeDNRRmY4WnpldkVRRmRLU3VQMVA2VnI0RU1SY09ya2VIMGZkbmpzcVFFUVhHcnFVZ2M0ZkVXTlpELWNZUzRaWFhYWU1hNGdBRHVSU2R1bGI3Tkd0UF8yVnl0Wm83RnlVb29SUjJ1ZmdReHVCekhFM0UwOXZrUUdMUEZkZw?oc=5",
+        "published_at": "2026-10-30T02:28:53+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "ANZ Raises Oil Price Forecast as Market Tightens on Iran War - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaVo3eEdoNjYtcFBpS1AwZjJRWUN4N3pXN0tOUHBRcUpSRllDeThuc1ctSk5JTm53Y0l1Qm5yLVFXS1QxWVV1emJLa0RSUzBTS0lBRWFybVRSZlFtcXpKY3pTZDNwdzdKeWo5ZlpLN09LSG92YXBKT0llQXo2ZnpxOUU4cmJINV9raVVYZlkxUjlpc0lmMFd5WUQ2VWJWYzRqNE95aG96Zkk4aTAyejdoNg?oc=5",
+        "published_at": "2026-10-30T02:18:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine war briefing: Outrage in Europe after Russian drone kills 14 on rail platform in Dnipro - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSWt0VWJyTE1EbGtrSXlMd0NBcVZuZE1nMV9tMkNTVzVrQzFjTTVrZ1F5alhlVEJPdExmakltQkkybkRmNmd5X1ZEMTJ0QnZFNGFNejRPMG1jenhjQVRadEVUZTVnNmtJNDNnVzVPNlBSbGNIYjVGRml0QmlWc3Iyb1lEY09nbVE4TnluamRxdXJyZzR2SFA0a2J0QzQ4QlRFSUtJZ1d3X0FLNF9T?oc=5",
+        "published_at": "2026-10-30T02:00:00+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine temporarily halts strikes on Russian oil refineries after pressure from Trump - report - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FQThJTHdmem5jajQxLVVQNXZjeHdoTjlkdkZQX0dHWlFEdFVzeVNHQjlraGFQNTZxMmlrYXM4SzhLMkh6aXFaN29kb2I3bmtUUkRJd2dzR091RjZNbk40?oc=5",
+        "published_at": "2026-10-30T01:05:37+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Houthi forces claim six attacks on Saudi airports, oil facilities - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTEhERlpWem04ZnozTFJCeEcwbmNLVkN6eUtjUFgtdDJnNU1iVFVWWExvTU9WQ09EQ3g0SmJYZ011OWh4TTlUd2pKLURkQUljS3VDNzNmcktLMEZYZTRydklucHl3RF9PeDF1VW5QTlFCbEs0U2ZfbEtqdlpVczB5VTBiUFM0VnZ3Mkl6dVdoZWRvanJCS3VmUW9Ma2hwQ18zbFA3T2lmMU5Hd9IBrwFBVV95cUxNNDBlaUpwVUU2NTFwc0ZhYXdwUmxTa2JjdklXNUVudHZDa25DV29LMUZWa2hRRTBtWml6QTA3Y2ZPNEJOMHo3c2RVSDdYbkNLTzBLbWJXczlBZEY4bWQ3dlZ4amtOOGVtUm90MFpXZWQ2cXZSdk1RNnU0R1BQNWtGRG5YUW5ibVBUa2hPSHA0eEVYVGRNS2Nta3V3bE1mTU4zNllDOEV1N2J6MWd2ODlv?oc=5",
-        "published_at": "2026-10-30T00:11:44+00:00",
+        "published_at": "2026-10-30T00:15:13+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Army commander: China invasion of Taiwan by April remains real threat - Washington Times",
+        "source": "Washington Times",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVlEzLVdGWTZMZXNrZnRkQlU1WF9abWtOMG16NHFuT1FGRTR3WHJjU1B2RG9EU3hqV1hfUk5BOTFfbEFsS0FNdG13NnIyMmtpM01WNkY4ajZuS2ljZGVPRWFzVm9ISzhiOUxOdDNJZEJaTy1weU9Ld2ZlQzJsWW9OVkxVTkg3Zl9LQXJGZjRnYkZFd3pTcGpSVUduUTE0UkEyZmw4NnpUWEhwbTRyelZ1MWtGajRhRGZsMGdn?oc=5",
+        "published_at": "2026-10-29T23:29:46+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -95,12 +164,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China trade accord with Swiss bucks wider trend towards protectionism - TradingView",
-        "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWTd1RV96dTl0bnZuRmVYOW9IX09oSEhxc0djSklrck03UW1mNGJGWks0Uks3WTZYZEF3ZkRpdG9qT3F1N2pPUFV6NjNZbW5Zb2dyOXZDWWEtLXRrWTlUZEZ5WG1ZblZmbnFMbjlIOFZxMHhiUllWTlNjYzZLemVzQ3d3Ui1iZ1ZKZFAwR21JaUNaN0doZlBZZ2kxOTlvX19HVU9ZaG9mRFNwSkxIamtPeF9qWE5pVVdEdzhwbmhWWWN2cXZlWmRPR3VSeUNjSmxZWjd0ZmNR?oc=5",
-        "published_at": "2026-10-29T23:01:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "title": "Oil Pares Gains as Traders Weigh Oman-Iran Talks - EnergyNow.com",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkRDMFpXeE42Qm9QVHJRRG9GYkVKMm44QnBJZmVLUHZXZXRkWUI0VUQ2ZUEwX1BXVm9FYjZtMk5hTVhHdWlBZ2twN2tFN21xaUg0NGpxTG90dEQ1ZlhfNnJhZkc2NURoVVJXVTVjOXVkV0FZZWQ4WTQ1TTVpZE5RMVV0bG55Zw?oc=5",
+        "published_at": "2026-10-29T22:20:58+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -113,83 +182,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Top U.S. Middle East commander briefs Trump on Iran blockade - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX2pVTGZCQ3oyNjhZekVWemhzeGwyR0t5TFlFbS1IcTZTZmlzQXg4RkVVN0JXcloxbFBFZlF3V2ZXUTIyUS1IeDROcERqTnJaYXNnMFlxM25oUkxQRl84bUJrVUFqMUxQRVJ0anJCYTkybUItMmxFaFR2NzNMZWswRGh3dw?oc=5",
-        "published_at": "2026-10-29T21:39:02+00:00",
+        "title": "Oil Prices Ease as Mediators Propose US-Iran Ceasefire - EnergyNow.com",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDB0V3RDU2JhYnVtVXlzLUlZdXVMNTBuUHpYWGZRd044VXg3VjNqZWdXbExlM0d3cEFFa0tJbWxxV3puZjZIRHBmS0VQYWh2QlgwbFdKVUZwQTJHUW5vZW1xQnBaSXhtRkpxZVRUN1Z3dWpDRERQTmYtZzl4R0pIRW83eTc4ZGlXcFBHVFJKenlla0g4aDFEZlNHY1hxdUJ6QzhVYTBuSm1EQWo0V3VncjdZRQ?oc=5",
+        "published_at": "2026-10-29T22:04:44+00:00",
         "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian drone strike kills at least 14 on Ukrainian rail platform - CBC",
-        "source": "CBC",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTm8tLUMxSUtMYWtCdS1fZTY3NGdwUU5rMTJ4RnZVQUdtRHdNVERzSi1fTW1wZ0lCUUpzbU9OVTFCcjlOYlJqS2tSaGlIdU9maENzdGpaTFhqWkUyUmZxUEFqLWFVcldzc2N3Tl9pdV9nZDhrMFJ0Vl9YcURjbDNKdGF2NXRFS1RY?oc=5",
-        "published_at": "2026-10-29T21:36:57+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US tells allies to prepare for possible Iran strikes after midterms - NewsNation",
-        "source": "NewsNation",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeVdwSHdHMjZxNjNBWEx2VnotY0xqbzJwZXBtVTVmN19ZNnNjMkJQcjZadXRocmYzWW5kRnRRaEs2Tm0zN0c4RFFzVW1fQ2RMcU5YMUl6bHEtNDJ2UXZVY1ROLWtfb1hjRjNQQ1RBOTQ2R1VMSWY2c2ttMVZGbmNmd0diWDRKQzJxWjFXWNIBkgFBVV95cUxPVUotY3ZEaXJXei1UUkxaeDNRRmY4WnpldkVRRmRLU3VQMVA2VnI0RU1SY09ya2VIMGZkbmpzcVFFUVhHcnFVZ2M0ZkVXTlpELWNZUzRaWFhYWU1hNGdBRHVSU2R1bGI3Tkd0UF8yVnl0Wm83RnlVb29SUjJ1ZmdReHVCekhFM0UwOXZrUUdMUEZkZw?oc=5",
-        "published_at": "2026-10-29T21:21:45+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine’s drone defenses debunk the myth of inevitable Russian victory - Atlantic Council",
-        "source": "Atlantic Council",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNUpHSnhYdUV5N1BUWEhLczF5QUIwcFBQa0FRS3dnMmlTV3NRcmlMMERvTTFiTHozdVE4dGpuMC1aRTlTVjdPQlFvS1hpaFlnUUtEbW8wMS1WUmNBTGZRd2xvT1h5ZEhjclNFcmxrTTdGOHY1X0QzOXRSTmZWeVBZRGlfdmFTdDZWOUhpUV9EQjdEY0NwdWxrSDFiYWRnOFgzOTNLX0NLQkw2TkV5eTlNbHhURFJIYUdHS1hrZm5B?oc=5",
-        "published_at": "2026-10-29T21:06:46+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran Shipping Update – October 29, 2026 - United Against Nuclear Iran | UANI",
-        "source": "United Against Nuclear Iran | UANI",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc3hLcEdCMHV4RzhmOV9weTZJZmVrNFhjSTNYbTdKLXctYXVYUUVkWDd1X3FBUWhxZ0wxUTFQNlA1UWRpS3V5REF2Rk8wS0t2SHpjTk41cEVkTHhpV185YWZKWm1wd09ZZ0xqY2gzV3Mxb0NxeDVob2twUy1BcmdvZ3gwNDNfNk1MWEVlSVBWMA?oc=5",
-        "published_at": "2026-10-29T20:43:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ceasefire holds near Ukraine's occupied Oleshky as humanitarian aid and evacuation effort begin - VOA - Voice of America English News",
-        "source": "VOA - Voice of America English News",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY0Vna0ZRTUxXbnJlMk1QZGt0Rk1vZy05WGlpcFFnbV91YVBfeXBmY0RtRDRyLVlnRlQyQlU4RE8tSzhVZG1jM2JKb0Qtb2dfcllBdHlrVDkySnVPSTVjZlROSjJJTmdDMHlLNHhWVWM2Z1ZubEZqZmkzTk82N1FsWWd1SmVoNC1xdFFadGthZkZjSXlnM01WLTVrVnlqcklfM3VqMUR4TFdDRWEyUXZYTGtFOVVOU1JKeUZSLWdWdXp4c3BRRlVYMXpHZF9zWjjSAdIBQVVfeXFMUGZUMWxaUDJWdUZlMWpPZHJGcFYxRGtFd2ZzSXdOUk9uemJJbVNmUUJSSW1xdS1BREZ4U2ZMRTBXM0lOTDZ4UTZGZENqUWl1TUVLUGs1TnVYNDM1anV2djR3aFJoVlo2MWhYNFhzeU9TVTVRWW42OXhLNk9ia0xMLUktYWhQQWotOTJzRUZZZTlnRXZ4cDA1MGl6U05Oc2wwR254NGZBUTFMUjR1ZXptQWRyUUJCZXZWZHR1YlE0YTluM0c3X2p2bm9ES3ctN0o0VlBR?oc=5",
-        "published_at": "2026-10-29T20:38:32+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "CENTCOM chief briefs Trump on Iran strike options - Al-Monitor",
-        "source": "Al-Monitor",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONmpsOXVncmRBSkN1djBTTVlqYTlsdy1NU2ptYTdUUU1zVEltRk4ta2NzNkpXWmwxUmY1TWd4WGhseUdvWjhLU0lKYjlzUkl5eEowcER1ZThDWVhDNWRpSlV3RVNGUUFmejZnejN3a0VCSVQ3aHd3ejljdUt2Ul9SdlZ3Q1c4Tk9yV2RLMkNhZlU3NldsaVE?oc=5",
-        "published_at": "2026-10-29T20:38:27+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s Proposed Biopharma and AI Technology Export Controls: Pre-Export Registration Already Applies - The National Law Review",
-        "source": "The National Law Review",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUo4UFR4b0ZicWJVclJDRkJERElfaUw3aGlJdkpzZUNKLW8yal9lYzBCRzVZQWlJbzZKVHB0ZnRZekU5dFVlbXNIazl4UWFzSjc4LTF5V1R3NVJUaTY4V1IxUmFFSWdtdDJTX3hDMDBqYWhYOEt3aXlDWVhQeWlzOVo5aFFTRjJHSVZ2WF9IM2pHa2hMeGdCaVVRMVpjT0ZoX003Sk1WM0lya2F3NGNYSzB1VGROYW_SAbwBQVVfeXFMT1ZocURFS1JoTlJTZjlVS2lUZnA1S2F0LTBId2NYc0Q2RGVDMzNmb0p4ZGlBUk0zU0wwajBONzkwYlB2ZFpKY0VBQmNGME1JZVhvcDl1RkIyeHdKbjhGY3Q0UW01c1M1aFZsNDYyQVNRVVhmRTlxcllMbm1wVnVHZVZNQjJGVGQ1S3dEakdnYzFqZmtPMTZEeGFpdHFFU3BMZVp6ZTlVcmtMM09QQTFfcVEyOWJKWkNDTmoxbGc?oc=5",
-        "published_at": "2026-10-29T19:24:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NEWSLETTER: Dispatch from Motor City: fears swirl over tariffs and China - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOTVRVkhYTVhTNTBLbHlOWVRDUS1YUXRwcWRUUmdweEVlX242TmxIamJHekk4cjNTZWpxNzJwWVlDRUh4Mmp2eUZfV3ozTGhZaDJBaWRJSlVLNlNhb3dETGNZVUtPbEktZVdDVGRfc1NKRWtvU3JoVXFVVldjUkdLUmVXb25lRmFxVmlVN0p1cEVGTExEOEJtQWZZa216TlFZX1RnTTEwNmtETXlGVjBybDJUNy1GMTA?oc=5",
-        "published_at": "2026-10-29T17:56:24+00:00",
-        "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -203,16 +200,52 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Volkswagen posts $6.8 billion quarterly loss with China slump, Trump tariffs and Porsche writedown - Fortune",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZXRDZVd0bXhzXzNvWjhWcnR6dGZhdXJlT0NsRlc5NDlVZnh4ckx1Q1R4SXhJdi1QcHpWTlBQcEg4ZHJ4enA2TG16RlhEdDVEdXBicWZMb3czQ2QxcHU0R19GLU41Q0loVmpQUUVfVjk2a0k1d2JORGlKc2FLY2dhOFByaG51Zw?oc=5",
-        "published_at": "2026-10-29T15:55:00+00:00",
+        "title": "EU-China Relations: Finding the Right Balance Between Engagement and Stronger Trade Action - Teneo",
+        "source": "Teneo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeTYtdkRva3BYQmNIRDNUS1ZvcjhULW9Cc0thNkgtc3pXR084RVhmcjFVV2oyRjlwNVRMdXBWR1dDVnE3OUlCVFp3eU5Ia0t2WHRfVWpaM3BndEpSVVhaTE1HME8zU1g2dVBqN05heW5uVE5USGEwQnZmTkpXZHU2YmJqQXVwb2hIb3lid1NYTzl1VndUVG1GWG4zX1QwMnBvYzZMUy1SQS1Nenk5OVJUb2UyVmpnSXZJMjFkTjFyeXRubVBtTkVZOUhB?oc=5",
+        "published_at": "2026-10-29T14:21:35+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "How Investors May Respond To Pfizer (PFE) Phase 3 Cancer Trial Win - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY2xpOUpJZHlybnYtNWZVOEszc21hMGptcWF0cmZsdVc2SkFxUHh1V3ZfWTdvMkRWNnVXWllEbHhhbDVCY2hqMnNfSmZIMnB0WTVQZDIwc2NISi1rQUtvRDlyRTlZLTc4MHhla1NhTmtiRXB2UFVUblhYanc2V1BwQVliUFdwUmdKeXpycE5vUk9rUEhoTk5iQw?oc=5",
+        "published_at": "2026-10-30T05:16:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "RAS Inhibitor Daraxonrasib Redefines Pancreatic Cancer Treatment After FDA Approval - Bioengineer.org",
+        "source": "Bioengineer.org",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS0tRZmlhMzdjZ1ZUa0xMaVJVMTBlRmJFMWx5ZXI2VTZBNE9ZM0otYmQ1UDdRUENxVm1xRzh6REV0SGdPZnlkdmJwSmY4UnYwVUowWlNNLTRwTjBXbGF5XzVCR245ekVsejBCekJxOGc2ZF9wUkVDUWpUZjR4TmtUbDRlazM4bUFtcXlMaS1JQl9LeUhQY1BVVUZzWFktRnlSWVN3RV9mc251Tkwx?oc=5",
+        "published_at": "2026-10-30T03:37:35+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. stock futures sink, Nasdaq down 2% as Amazon, Intel earnings underwhelm - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN3BsVkRQZGpDVUx3bC1nOVUxZFVxcTdNdWk5ZHB6SFJpNjlRNjBoNUNFME9TUENNZXVNczFjeFNHM1c0Wloya2dXenBtSlNHRmV5QTc4bUxLaUJIeTc1ZjFBbFpUNHVUNXJOMl95M3QtZGxOcEpmYWJSczExdVNUeF9sOEhWTUlJMVFCOWhzVU9qcS10SkFF?oc=5",
+        "published_at": "2026-10-30T01:36:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Is Alphabet Stock a Buy After Its Post-Earnings Drop? - The Motley Fool",
+        "source": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSW5oN1Ytb2N6Q1VacjllbjVwSTlBM0tWUldKb1JtLVBkOUVkMVFzLXVfQ1ZOR3JrMkFFSHFwVWh5WUhscURENDJ1d1lyZjZWaUV0a3k4dTZoTEdnd2w4aHNPQWZJbUFhU1NLa3Y2dWh0bnVXYzZNQ2RLbzh6VDZ0WnctbjBxZHNNYVNGN2N1aTZHdkw0T3lFcWdlQQ?oc=5",
+        "published_at": "2026-10-30T00:47:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Intel Stock Tanks On Weak Q4 Guidance After Mixed Q3 Results - Investor's Business Daily",
         "source": "Investor's Business Daily",
@@ -232,6 +265,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "New FDA approval expands embolization options for peripheral arterial bleeding - Radiology Business",
+        "source": "Radiology Business",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVnc5NnllWE5EOXhmaXkwUFV3QjgtYkxxdDd2bzZKSUJBZVZxbjRSd1Jra3NlOGFhU1JRSTc3WE1DV1U4cDE4UUFqVWNNc0ZLbWxoaGNoSzdGRXdIdF9oeHdCdE4xc3hGWXFYTHBRdndoNm5QVW8waG5vWk9nTDhGX2Q5S2F0LXBfazlFOElaV1phUzNZU2dWWjFsTVBVX1QwOXpsNjJ3STY3WXdRNnhUamZZbVpIOWFkU0tSNlV5MmFMNVZ0SnFuLU8zemJTVDRwVW9OZ0VzcDJueTJuTkd1OHctajUxZw?oc=5",
+        "published_at": "2026-10-29T20:36:22+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlczFWcC1WVTdsdENmNVdsNnJpczI0SzZqRkZuel9NLTdsUG85UlJDVEV4NllwUmRUXy1QZGV6ci1BamdFQTVtQ2hlelhiR21LNzJsQ2dCSzdTc1JCQUdDVU90bGY2a3hIeldPa043TnYtelgtZFh2b04xblrSAYIBQVVfeXFMT0lPRHpDdlR4ZlpnZWc1SS1mTHNjZGE3VVItSnA5bndoU3ByQVFPa2Rzakx2QlFoWW52ZVM1dF9aWjdlczFEby05eHhwaEQ5YllseUJlbjkwRzNva0VWdkM0Tkp3a2tZcTZydktHUXdmZEZwamdwMTBuUUNwY3hDZHRDZw?oc=5",
@@ -241,11 +283,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Intel tops Q3 earnings estimates, but falls short of Q4 outlook on sluggish PC sales as stock plunges 20% - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSHRPQjh0UXlpMWE2LWdyS1dmZHg3NjRGX3FfZFo1RVJTa0stbDkyYS1VOERZUVVqTXJWOVB4cnJ2QmNhcEh3OHJYZEtvUUxZaDBIX0ptUjNCelRaclUwTjE2SWZHTmR4UEFBTlFWOWlrMDRtcGJDdFlZMEUweHpYU1ZuZ0t6UV9tZHkySnJFdXJmMl80VEVTb084NjN2azIycjg2SjByQkFYaE9Ld3AwY1FzZEhISV9YVXEyZW1ZSF96X0dZVmJQc0JzemY2ZDdSa1NDQUFXUnRfa3ZvV082d2UycGFJaEVXTGxFMUpydmNEb1l6N0E?oc=5",
-        "published_at": "2026-10-29T20:01:14+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Watch These 4 Energy Stocks for Q3 Earnings: Beat or Miss? - Zacks Investment Research",
+        "source": "Zacks Investment Research",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMlVxQUxHU3AyTjJQbktRUXlHc09yNXBjemtqR3labHlWakNHLVR4bnZieF9EMk1QOE5DWjBjSnNUdUo4NHR3c0FWN3ExNnhUWWZwSkd1YjN6QXZhVWFENHlBemoyNEhtY0NLLWxIR1lYVXhsVGV5bmdsMzNxdU9qMG9GSjhmQ05jdm9RMEF5ZUxCdHRpb3dhSjkxR1Yxdw?oc=5",
+        "published_at": "2026-10-29T18:42:37+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -255,51 +297,6 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeDhvRTVDNDd3cnc0VjJPamtUVDdyYnBuNm53LVUyamxldGp1TlNhUjNtZElmOWpLd2hvdUVrNktaTUFFM01lSVZaV3REQjJmU2pXTHB4ZG5pVVpSdE90Y2FUaWQ2LUxMRXMtemJyRzVTTDFTY3l0Y3hBbDNYd09fU0dnNHNpT3ZvUV9RSjVTVDlKODJYZ0RxYVh3bw?oc=5",
         "published_at": "2026-10-29T16:38:00+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Watch These 4 Energy Stocks for Q3 Earnings: Beat or Miss? - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjdfQWF3OE5VOENwcXFaTWRKNW5tNUFHZ01rMkJYem9JN0IxYW5yMi1OSXRER2pCeGZ1OWpvakUxNkxWVTYyd1dXZlFJUXJqWXctVXBLci00MV9ROXhVVDhwemhxX1hsQ3ZBWC01N3ZtVm1NcVVEVjhFQWFyYnp4a3Nlbi10VnA5?oc=5",
-        "published_at": "2026-10-29T15:29:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "These IBD 50 Energy Stocks Show Gigantic Earnings Growth - Investor's Business Daily",
-        "source": "Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZmtaZkxLMUtubnN1RDBOdlZNNlVLZEhmbDBlX2drUkx1LVhobTJlek9lYjZJR1F1bzNZdC04dndpMXV0Zl82TXYxeWRPOVpXQlZvRXE4T0l0RGVqTnBfYkV2SDNyRzhqd016NUQwMUJJT054UE8xWXFKX1lpME85TkFzcHdzdmV4QWJuMg?oc=5",
-        "published_at": "2026-10-29T14:39:26+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "HHS green lights six peptides, despite concerns from FDA scientists - STAT",
-        "source": "STAT",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSzN5Rk05N2pHWGp5SHcyWV9LRWJiQmJabTAxaU1mMlpUNGJVRll5SzlubEZOeFNpdy1ZU1ZIcUxqNzdGWW9lTW9tZ3F1Z2NrX0N2Yy0zcFBpeS1ucERoeU9qZks4aWpXVFdmaXQxX0NibHpvQi1FSjJHMllvRkR3VlI4SzdBTnNnY3dKOGhXZ0M?oc=5",
-        "published_at": "2026-10-29T13:45:32+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Flagship brings 3 biotech platforms together to launch AI drug discovery player Etcelera - Fierce Biotech",
-        "source": "Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNekdmU282MnZTSGtzemJ1OUpDUE9SZ3FjMm8yU0pGendOcTlXVmtHejUtLWVvNEtMYXdYbzVWTkRaTDQ2bUljTUpDaXA4a292REI0MWVBcVozZDhIX2x5bmFhZEFLOUZzQ1JYdElhM2FVU3NuZlU0eFRGbnhxemJld0NzT3VQNGh1SWEzREVDb092TzVQYWF0RnVSNC12VzhQLWt6Qg?oc=5",
-        "published_at": "2026-10-29T13:27:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jam9HMHZIWF9Qa012UFpWSDdXR05uS19yQTdoNnhxQzF5TE9KQ1VSYm1RR2YtZ2pvelkzUnQ4QncyamJtOXEwUk0xMGdFdWJIWFkyM0h4UGFmcVlWRHQ3angtYzl3ZTJsUkJENlpnS3hXWUZNdUh6WlBGNNIBgAFBVV95cUxNNHc4N2kwVENwVmxsU1pPY0FkX1FDd2FlYW83MDlFd2QweG02NkdoQU5lMmZCVVh3bXhLclJzVXAxcTF5ZU5uQXAtZGp3Qy1ZdWFpWUszT1hQNXhIMVhYZFR3aXF3a0NhaUF1T05XcnNIUHVMZEVBdGpKT3NZVFI1WQ?oc=5",
-        "published_at": "2026-10-29T11:00:02+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
