@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-31T01:46:59.151605+00:00",
+  "generated_at": "2026-10-31T07:33:26.006046+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.928999900817871,
     "treasury_10y_change_bp": -5.999994277954123,
-    "wti": 102.94999694824219,
-    "wti_change_pct": 0.9313695571001812,
-    "brent": 112.33000183105469,
-    "brent_change_pct": -2.2197035892490113,
+    "wti": 104.12000274658203,
+    "wti_change_pct": 2.078434065276502,
+    "brent": 113.43000030517578,
+    "brent_change_pct": -1.2621840032286835,
     "nasdaq_level": 25436.998046875,
     "nasdaq_change_pct": -2.8555685765277783,
     "sox_level": 10688.7998046875,
     "sox_change_pct": -7.200781168593828,
     "vix": 19.420000076293945,
     "vix_change_pct": 12.90697217954715,
-    "dollar_index": 101.96399688720703,
+    "dollar_index": 101.87999725341797,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.86%, SOX -7.20%, US10Y 4.93, WTI +0.93%. Geopolitica: U.S. blockade, sanctions crippling Iran's economy, Treasury report says - Axios",
+    "summary": "Tech bias strong negative. Nasdaq -2.86%, SOX -7.20%, US10Y 4.93, WTI +2.08%.",
     "quote_times": {
       "treasury_10y": "2026-10-30T18:55:00+00:00",
       "wti": "2026-10-30T20:55:00+00:00",
@@ -27,20 +27,14 @@
       "sox": "2026-10-30T20:00:00+00:00",
       "vix": "2026-10-30T20:15:00+00:00"
     },
-    "geopolitical_risk_score": 53,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "U.S. blockade, sanctions crippling Iran's economy, Treasury report says - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdzF5djNITmFUVkx2YXZ0YVcxaFZLS3ZvYkRKUTZYaDBFck1LUUJPdGd3aF9sYU5OdWZLM1N1RHAwR3NrT3gzZ1NMMHQ0MjUwcUZrelo3dkRZQ3V0MEFhZk5WLXRkc092MFBuMUZfRGQxal9KdXNlNmg3SldfWHc2bg?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-31T01:46:47.776960+00:00",
+    "updated_at": "2026-10-31T07:33:13.402179+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -57,36 +51,126 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 8
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 14
       }
     ],
     "geopolitics": [
       {
+        "title": "Swiss Firms Plan Investment Boost in China Drug, Finance Sectors - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUtxWHdTNzZKNDI5Z1RHdnhaT0d2Mm1BVUd5VzY5YV9oVnpnVGNRdFNlem1nbmhUaW44azVQTXZZaGZvcnVWMm9CY28yS1NXSW80V1l4NDl6aGM5d2FRU2FMNkh1ckcydGpKcGRaenNoZ0VaeGw2WEs1bXJzN1dXLXNpVHJLa1FqZjczLWc1MlNFNC1saTBVRkhTWlNxbmtmR01GX1pzZjFkcTcyNWJFbmdMdEI?oc=5",
+        "published_at": "2026-10-31T07:04:10+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US Treasury says Iran's oil revenue, trade hit hard by pressure campaign - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYeGpsU0k3ekV4cjVUeU5PUXBJcTJDYjU3dTk2RWNYajFPY2ZEcGNSUGxqSGswLWYzSlhNUDhOWFJRLWc0TU9hdkdOM2lVcWlEaGc?oc=5",
+        "published_at": "2026-10-31T05:38:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bad midterms could push Trump toward major Iran strike: Report - Türkiye Today",
+        "source": "Türkiye Today",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa2NwemFBei1vd0ViUnVDTzBHNVpZWWZYdmRodGxlLWhqWGIzVTB6RE5iSEU2eFRQdXdtVGwwRTFlcThoWFlIUG1GMWhGYjR2S3ZxMnJ3cjl0ekRfcUtOMUVPRk15MW9QZzEySGxvdHRhZ3lnS3RXQ0JGRFV4T1JVMXNZaTVxYkt5d1EzZHliRGVoekpaUVl6aXBZUWdRVkRnYi02Qzc2aw?oc=5",
+        "published_at": "2026-10-31T05:37:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "3 agencies identified for procuring drones said to contain Chinese-made chips - Focus Taiwan",
+        "source": "Focus Taiwan",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mcFdWaV80VkEwaV94MUQ0WWxObUR6V2ltRmZzTTZrWjdPRlpGQXVhOFNHeWdCMVNaeWYyU2lVa2tLUkI3TlNadW55bzh0ZFp2bmNyTmVtWQ?oc=5",
+        "published_at": "2026-10-31T05:26:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US greenlights $2.1bn Patriot missile sale to Ukraine - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1cyTlB6THpTdDl0WkItSDNsNDdnSjhfV00wRENpb1FEZzRXWXhfZ01CaWQ5bF9CY1pMQUJ5aHNKekJPUzRWbTNYVjNaSTAtd1RyVGRMSXd0MnRpX21VTlVrMkJOR3JWaWJvbEQ5TkVWZmxMVTF2V1hxTy05bDZPUXlHWmRDQjJzMVFKSmUwMGdBOVQyQ1NKS3RR0gGfAUFVX3lxTFBZWDhWYTAzUlFWVGFFVDZZU2IxZ0Rld3ZJZHEtazdrUjJlOWhtbmdLOEpRS1BlMFdtV0t6SGhkWUZtbDhUdTh4ZlNVc2tEZ3U5SXZHSUEyY0xKTENGWXBYX0xRa0hiMXA2eTdqbXJjaGpFUnFrZmpQMWtiZ2lDVTFRbTBxelA3dVBBU2FVTEhxRkJNTEtJWlhGOXBBMmxsTQ?oc=5",
+        "published_at": "2026-10-31T04:55:22+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China showcases world’s first catapult-capable drone carrier; stealth UAV completes takeoff, landing - Interesting Engineering",
+        "source": "Interesting Engineering",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV3Itd1R0NTNnZUMwSjRScXIwc29zdC05WEFuTU5IQmVkVW5ubnMyamMzbHFsRUVUbDB6T014QXBkS2IwTThwT2l3U2kxdG5ZSjFUcXBqZWs4YVJVNXBxYzZMS3JfVVFfYjlFLU9NSF9uZkx0dW5QTmU3TjRSaGFDQ2pzdklHYk0?oc=5",
+        "published_at": "2026-10-31T04:21:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s factory activity slips as new export orders weaken - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVHFQN3lvOFIzeTFWRktqMEFKdzgwYjRGQko1WWFOSzZiQmEydzZRMTQ5N0U3OTRKNW9USUc5ZEc2WGNyaWV5S1NGZjFKOVVUNWZzSDVBTTBlUi1Ub2tjZHhtcjluX1Ntb0R2YmVib0Z6SGxRWVVaQTRFWjg3ZGZwVlgyb21RbXFSS0JsdGRhc3dXSHJPbHdPSw?oc=5",
+        "published_at": "2026-10-31T04:13:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oman rescues 25 from burning oil tanker in Strait of Hormuz - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSmtrMGdTY1l0TXhmX2xJcFdJRllzTXpsT0lSSFhhbWQ2Y3NPbUhLSTByYVdFaU1MdmJuVTA0UWRoNjF2TlBYWjBNWk1fYmhhV0dMRzg2b2RJblNabTVXREhvVkFXaFRtYzJ3T0ZaNU4zNWNkQ3ZRRVU2THhmeEE1OEJ6bE4zU3o0MXQtekFiNXg2andqVnFEWTFRLVhYX2xHVGp30gGoAUFVX3lxTE9GV3BYaG9nbDM0LWQyOWduOXZIeV9nWVl6NGR6cVlqLTB4cHdFWkV3U2NQTjRhNGpkSnF5QWQ4RFhVV0JvRTNVRUo4SmVWZHI1Vll3emlOTWRkQUd4bHdpNmZubGg4WEhRYzloYXNQUVZ4ZVFtTHVhbW9JMlNLOV9ncFRZNGlSdmVvWEhMTkN6emJ0QlEzYU13bzFqSHYwOHBDSHRUZUxjcw?oc=5",
+        "published_at": "2026-10-31T04:11:38+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Xi meets president of Swiss Confederation, calling for more certainty for China-Europe economic, trade cooperation - CCTV.com English",
+        "source": "CCTV.com English",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6NF9ZZnhkdVBfSVY0SXg0bGpKV3phV2UycnM0aVFoQ3R0NUhyNUdYVTZ2bWUxTU9hYzJGZmNOUGFKblI5RlItVmFWWDBhQ21VeUx2ZVFfdEJmRzYwdmEtaV9kajV3T0pGOGlUYjJDaHRMemZDajhYbll1anI?oc=5",
+        "published_at": "2026-10-31T03:21:11+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbTc2b1lwVlZZb3NjVjlHMW9GeHFXRU9sa2xvaVhvV0ZTLWNSakJqNXlYT0FwNDNON3lSSmllTzBaZ19CRzZ5Sy1vejBzN200NmdwSFNFWFFnQ2NmeHVOQTdoQ0toZEF5QzEwc2FRcGtlcDg0UEp1a2FLTi1nejJJRkNVRWhseTFqNlZqUW1Lb1U2NEJEZmNpSDJGME9Wa2NiUEhGQlN4dmgxWHk5R1pMa3BqUzVpQlpIUFBVNVZ2NldUUTZfeG1NSmFmQWtHOGlnd1E?oc=5",
+        "published_at": "2026-10-31T02:20:23+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Qataris hold marathon talks in Tehran in bid for U.S.-Iran deal before midterms - Axios",
         "source": "Axios",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTg1UTZmdFFiVndiNS1OTnU2cUhBSk1lTVJDMWFOTEdKNmhtLV9wc0hJSlBqaEk0d2Z3UTdqQTRpbE1UMjV3WG1kaUE5TEFrOWp2clJGTTBFc2JkN0tXNXR5dnd3RGdjWlNhTkFRRFRwSmo5YW1Val83VWZuN3VYQnUteDFtdw?oc=5",
-        "published_at": "2026-10-31T01:05:58+00:00",
+        "published_at": "2026-10-31T01:23:16+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -95,18 +179,18 @@
         "title": "Iran Update, October 30, 2026 - Critical Threats",
         "source": "Critical Threats",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2ZGJ6NllPMDJCdW4xbTRlR1JFSWFQYTgyTFZiMVpCVGJDQkxpU3Z5YmRvSkxFd09TYjUwc1hoalJYZ2NaeGo3SURsM3lCYlRnVF9PaW02S29oZjlkRjdRRGZkVU1NN001ZnlRNnJLODFJUTBTZVlV?oc=5",
-        "published_at": "2026-10-31T00:53:21+00:00",
+        "published_at": "2026-10-31T01:09:13+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Pares Gains as Traders Weigh Oman-Iran Talks - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkRDMFpXeE42Qm9QVHJRRG9GYkVKMm44QnBJZmVLUHZXZXRkWUI0VUQ2ZUEwX1BXVm9FYjZtMk5hTVhHdWlBZ2twN2tFN21xaUg0NGpxTG90dEQ1ZlhfNnJhZkc2NURoVVJXVTVjOXVkV0FZZWQ4WTQ1TTVpZE5RMVV0bG55Zw?oc=5",
-        "published_at": "2026-10-30T22:17:58+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "title": "US approves sale of 500 Patriot missiles to Ukraine - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PNHJSbm1sZDVnWnkwVlhKWG5pcVRXWnNXeW1qUEZTemJvZ3hoN3Q4MjRhUW5USTRndUU4aHlJSjBhUVpvZm9Md0huODJhQWZzUUpOVnVZM3NyREU?oc=5",
+        "published_at": "2026-10-31T00:40:43+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -119,42 +203,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "China-Switzerland Free Trade Deal Update: 99.8% Tariff Exemptions - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOXhLU284Wk1lLWxzb29CdTd5dk1oblhFVmh5clRUdUcwV0txb3FVMUg4S0lBSVdKVGNmOC0yYjFXQ0cwcXg3TnhOV2h1bGFKQ010aVJuVmN4LVNxZXlVMmhrSUstNk5PdnZ3VGlkd2tjU1lOQmg5WkdrMUwzRE5pQWU3cXN3emNFbXRGVlZpZzdEWm81UUVCMi0ycS1GQmlDZm9uQ1Y1c1k?oc=5",
-        "published_at": "2026-10-30T21:50:21+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US approves $2.1 billion Patriot missile sale to Ukraine amid delayed missile deliveries - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc0E5d0VkVFhvS3lOLXZOSHljQ3laYVNvLWp2QjdubWRUbUJ4M2VlVVhFUjJuc0ZXc3N3ZVFtcFdSLXZfbzVIeTIwLVNuZWR5Vlp0R0tmZjRKbjBBbkMzODM0VWs4Z1RpX0ZWVnJaYkZfWE5WOEMwUmtfOV9qc1ZveUxHV2xEZGE0YVE?oc=5",
-        "published_at": "2026-10-30T21:30:37+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran says 3 tankers strike mines and catch fire in Strait of Hormuz, and other Mideast news - The Business Journal",
-        "source": "The Business Journal",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qaTRWajlrX1hRbmJ4Nllna1RHV0U0YTlvSWJ1dTE2RUtqSVE5SWJQR1JyWDUwcV9yU1dya1BfR25scS1rLWJ3RF9CeFhaamUtRTE4cUlvakh4UHprbkc4c1pCYW5Zb2VWMGI5UVczS3RsTmNCRmlwQWZ3dw?oc=5",
-        "published_at": "2026-10-30T21:18:40+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran says 4 tankers strike mines and catch fire in Strait of Hormuz, and other Mideast news - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOEpYN1k4WGRzNW1fT2pyNHVESDhKWVJlTVNDbTZLVmdhY1lRUDRqT0p2WlpZSmNCUm9McUx2bXROS3E0YVRMbEp4U3V4cDcyNzFEbGZsRVM3a2V5NXRnblpucGtMTFZUMFZsYXZ0M1VxQkR6eTRackRZWmd4VE42RkcyZ043b3hXX0FhazZPdEJjQQ?oc=5",
-        "published_at": "2026-10-30T21:10:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Russia, North Korea Test Missiles in the Western Pacific - USNI News",
         "source": "USNI News",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZFlUVWtwRFlMVDF2ZnVFOHJCY0h0bFZGNjNzUWxzMmx1c1lnLXAtdjhLbzFiRGc1QXlpZVlkbEZhMVhzSUZUeEliVnNTaVdCM0dpeW1oVTduUHAyV3pWZlRGbzhETXZLem9vVm8wUE91QnB4MWNWc1k4dzRzZHV6blpMQkxoVlJsS3djUDFkVzV4Zw?oc=5",
@@ -162,63 +210,18 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US approves $2.1 billion Patriot missile sale to Ukraine - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUGRTc1V3SzhDNWZQUUVuQ3hsWmlKcUY3V3ZJb0poUEh6ZGZjSVZlNzlaWlF2SVVwU1M3RklET3hzdmtnVU54NXEtb0ZCYUc1WjZMR3Vya1Vfa0ZhSzhEUEg1NkF6bjlIODVJQW9mN0htVWM3dDRKbFF1MjVsMjkwQUdmNGpmNHBkWWl6dmtDeVFIYmptQ2VZZ0FyTHhqWVplU2RkZFhONnZNN3F0UWVWQUlJeno?oc=5",
-        "published_at": "2026-10-30T19:23:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine: Oleshky ceasefire offers ‘hope’ for civilians as attacks on aid vehicles continue - UN News",
-        "source": "UN News",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zV2ZRYnVrVlZlNGNqRTBLd1hhUzloYXBiWVkwck9BbEtYbk9EQk5iMGNFTl9ZTEJxNWZ2T0VDbnFfVThWWm8wR25iUmZBTlZZXzUzR2FHNA?oc=5",
-        "published_at": "2026-10-30T18:48:24+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s proposed “special” trade secret rules raise the stakes for foreign companies - IAM Media",
-        "source": "IAM Media",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPODJ1RndWcEp3VU85VWxpNEx5d3RsRDhJWF92Wmh2cmVPU0V3U2E1cjBHaGtWZkVhRUFZMW9OSEo0WDNZMmtDRnBCNllJTkJiMVFqRnBwQi1tSENOX1RKeGpoYUlmVzBuMVV2eS0waTh6VzVRamhCOU1UYkVoV2U3VFV5MVh4dGpOaEY1S2cxaVE3U3JPVFBBZEx3ZmpQNllIMXRMRGt1SndHbEItQTBZcE1rOHEwLVJTbUJfUWNUOHlBUm8?oc=5",
-        "published_at": "2026-10-30T15:45:53+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China Pushes Back Against Potential EU Trade Safeguards - WWD",
-        "source": "WWD",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHNGSHQwNXdHTGpIVUtjV0g0WGVqOUt5dXZsaHptcDJCdXJfeEN4cEVLaXBsQzZ0TzlSTFY3N19kNC0xNElLS2RQQndSZTlIbzk3Nk9yVVVrVll6ejJqWEFTOTJhdHA1dUEyQkp1eHVJWVVuUnZlTi1OcXg4b2NjWnFFWlRreE9hSm5iQ3J3X3RpcE5RUmdJS1RORlg?oc=5",
-        "published_at": "2026-10-30T15:43:26+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China and US expand military drone flights near Japan and the South China Sea - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYlVJQ0ZwRGtFaVlZekxHMmZHQjVxMXVBMkpPbkNrVTk4T1pVS2xpNWNjZkJxYXpnd05kX2NNaDJlVHZpdkhtU1M0OVU5cmxPWFFQTHFRTEl4SVM4YW1LbUNMYVZhR0VuSlRtZWlxaXhWR19MNFI5aFNMZWtDdHZHaVdOVE40RWwzWjJCNXJydHF1OUd0QjFOMmF4eTVja0o4Z2hIaloyc2lHMWlIWW1UbURvQ0U4cXNzN2hzQXp1MTh4ZUxjc09VN1VB0gHKAUFVX3lxTE1vOHdrUGdTQWxfUGx6M3pEbFBZZm93ZmM5MHpsOS1SUFVJZDBWZVdOd3VObk1mQkliX3U2TWtEWWYxU3d0Y1docHZOSUJFd2M3cUx0NWFqdGUtTGxYTUVoNGZHRWxfWVA2ZE9Ma1Yyd1lSMVFHU2tqSkRha0NEd0RmbExrYWhPeHZnWlZiTkpnakl1WGdkMDJ2XzJYRVdUdHhFSXNpZEhSN2N5RVBCUDRZRUU1WEtMUmFEdkhfcmFKZzczTXlWNXdrakE?oc=5",
-        "published_at": "2026-10-30T13:54:47+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AI Export Controls Foisted On China Come Back To The Haunt The U.S. - Forbes",
-        "source": "Forbes",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmJXb3A1dC1LQ3hxU3FjdFR6SldXcDNhV240bVU0OGdIdC1YZGU1R3Z4YllXOHhSUG1zNW84T3lhYTZNYjBPTGYxM1JKSDhpbXBtazZqT25KWnZRbXdDenRiN1MwdWE0M1liUVRUelJSanBBVmt5aDB4QTJ3TE15cVpvR1J1Qmp1QTFnS3R2T0s3SW9zcmIzNk5uYnRFYU5qbUpRZ2xuSFlaQUlfOGlJamxhc2M0WlU?oc=5",
-        "published_at": "2026-10-30T13:00:30+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQmNYbU14T29fbUlGcmZXY1FYaE9vZEVSaWpRU3NvT25oSDBuS2NKMEg2Ykk2ZEVDWHlOVXV5MUNJb3V3M19vVlBfNlVSWGwtZmdtTlRoMURzRzNmTWZZd3E2cFk3UnpLZllLcW9seTlBdnA4N1dpS01zYnpzSHRhWEJ5VXF2OGFWVU55UDFQTlpIWGJrYnNDVFhtaDhoWDI3M3dlSnc5dDlvN2lxbFhGRg?oc=5",
+        "published_at": "2026-10-31T05:52:01+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Is Intel Stock a Buy After Its Post-Earnings Plunge? - Yahoo Finance",
         "source": "Yahoo Finance",
@@ -247,6 +250,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "PGEN Stock Craters 27% After-Hours After Rival Inovio's Rare Disease Drug Receives FDA Approval - Stocktwits",
+        "source": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUGMtSWpudWo0VW5sNml3Uy0xaFVfSUpabW0zREFHcENpbVk2SHEwMm5JS1QtS09DelVYazdveEtlbEJSdnE0RjFKR3FyMDJpTGtnaWtYQUhkNmJPdnR3U18weWtWaF9Md0Zzd0UwXzFTdG9yU1Voc1lTN1o0RzZ6ZnFpMFVPT01LWjdBdUV6ZF9TSHR3VVBSTHpGaWRDLTJKUHhYYWRyTEtnU0dHVE1oMjJCNWtTekx5WlR6djVkUHpJRGk2SVNBSWpKVnpXdWNoYS1YZ3lnaUxCd2NjUlVjb1p2aHNQeFdMTHQ4RXhJbw?oc=5",
+        "published_at": "2026-10-30T22:24:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5",
@@ -256,10 +268,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Inovio surges 280% following FDA approval of Voceryq for rare disease (INO:NASDAQ) - Seeking Alpha",
-        "source": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa0JXVVhzOGUyTDN4dEoyanJXOVp3RlJfNzNGZEdxTGxONmxTMHhidlJoTXdyUE55aDRoWFlQMHhUX2NHblJtNURJc3h4VFF6TXlzNW9WZjNRMUxUMFE3VjBzbUJwTEZOWHZZUmJHcVBiMEdsTmlpNHg1UzNBd0VlTU1aZ21lTmZzQ3hsSUtrejA5a1IwZUNrZ2VibmNGN3pROVZuSm9JdlZ4bmM?oc=5",
-        "published_at": "2026-10-30T21:35:42+00:00",
+        "title": "October FDA Approvals Bring Advances Across 5 Specialties - The American Journal of Managed Care",
+        "source": "The American Journal of Managed Care",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQlk4bDhmMlhVQUJHdmh2cGl1OUdjTFc1aGFIc2VRNWcxRGgtWks2WHZiSHpISTd5WGpjQklGeGQ2anJCWkhrMjBuYkdvZmNPVHhvM1pfSzlMN0xYNHlMc0s4Y2tKbDJIcWVGTWNVc3MyUldqYTM2TFdUWmh4dzNMdWFqVmJFQ09ncWtR?oc=5",
+        "published_at": "2026-10-30T20:57:37+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -288,24 +300,6 @@
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb2ZLWmwtVlZqNEp1MHBhM3lhVTdDY3cwS2lHWkhPMUEtaVZvVEtXVmNTQWZYaFdyczk5VXdlTHdLZHNjVGhmYWJXV1JXaUhFSjhMRkNybmtHeEhSUWF1dXlOS2YtbVFyOW9vbklZN3hEQ01lbEx0YkpHYkNEaHF1aE1iVXRIN1lIWmtHMGwzeEE5ZnpQRk4xVHlYdXJ3dm8td3Y1MUVSY1N4X2s2cEE?oc=5",
         "published_at": "2026-10-30T18:41:00+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Edison Scientific Inks AI Deal with Pfizer - Contract Pharma",
-        "source": "Contract Pharma",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVUR4clhMR3ZCWTRFaDZ3VVU1YVRkMHJOS0NtQUh1dTNxdWQzYkJGWWNMQ1Rub1N2MXBpS0R5VWR1RjhPNlZJeS1zdGFjQXhTTS1sdjJpRXlHZmVidE5sRnEwZXgtY25lNE00ZWFsWDRxS1E1MnZOSFJreWZfMkJ5cF92eHdHMk5rV3BGRDdudldtdw?oc=5",
-        "published_at": "2026-10-30T18:02:09+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Tech Stocks Sell Off as Amazon and Intel Earnings Spook Investors - Morningstar",
-        "source": "Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZlFhZllwNG5BdnJkTVpxS2F0TGtSUjltU0hLOEVrbEU2b25jdzRXV2phdThPRWdhVEg4aHJBUGs1Q0k1UzZlemk2cDF6dkV6RlF3V2dsSFdFM2tnQnFQRzR0V2RqbE85TnQ1UFNUaXkxWGFZVGdiRnROckVOem1NZXpyLVpHN3ZoVXdreE5aTy1aOUR2RWpwSXdOazVnMTdubW56M053?oc=5",
-        "published_at": "2026-10-30T17:23:12+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
