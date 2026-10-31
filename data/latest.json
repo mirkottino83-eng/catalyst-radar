@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:49:49.125598+00:00",
+  "generated_at": "2026-10-31T17:59:29.481886+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -18,7 +18,7 @@
     "dollar_index": 101.87999725341797,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.86%, SOX -7.20%, US10Y 4.93, WTI +2.08%. Geopolitica: U.S. blockade, sanctions crippling Iran's economy, Treasury report says - Axios",
+    "summary": "Tech bias strong negative. Nasdaq -2.86%, SOX -7.20%, US10Y 4.93, WTI +2.08%.",
     "quote_times": {
       "treasury_10y": "2026-10-30T18:55:00+00:00",
       "wti": "2026-10-30T20:55:00+00:00",
@@ -27,25 +27,14 @@
       "sox": "2026-10-30T20:00:00+00:00",
       "vix": "2026-10-30T20:15:00+00:00"
     },
-    "geopolitical_risk_score": 62,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "U.S. blockade, sanctions crippling Iran's economy, Treasury report says - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdzF5djNITmFUVkx2YXZ0YVcxaFZLS3ZvYkRKUTZYaDBFck1LUUJPdGd3aF9sYU5OdWZLM1N1RHAwR3NrT3gzZ1NMMHQ0MjUwcUZrelo3dkRZQ3V0MEFhZk5WLXRkc092MFBuMUZfRGQxal9KdXNlNmg3SldfWHc2bg?oc=5"
-      },
-      {
-        "title": "Shipping Strikes In Hormuz Leave Both Sides With Economic Pain - Bloomberg",
-        "source": "Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOHg3X0Rkemo5N2drTE8zV2lha0RVSm1MQ2FUWFVHRTZBQ3BHVVJ3aEZVSy1IZmJvQUYwaFI1ZGR5RmFOcTc3NTFqQTBfc1hQSkJUcTZRSGIzVUJrM3RuX2NLZGtZM2RLVjhDSEJTRHlIVUkxTlVyZWxMTExzd2p3V0U5WTd3aV9BQ0wzbHBjNDdqTVA2STA3TURNMDRXWFhSYk9wYnVZNjJOLWRmWDJuN2htMA?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-10-31T13:49:34.285428+00:00",
+    "updated_at": "2026-10-31T17:59:14.585588+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -55,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 9
       },
       {
         "area": "Russia / Ucraina",
@@ -76,22 +65,94 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 8
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       }
     ],
     "geopolitics": [
       {
-        "title": "Residents evacuated from Russian-occupied Oleshky reach Ukraine after localized ceasefire - WAPT",
-        "source": "WAPT",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Sa19rSzFfbUJfbHRmT3piQnRET25Wc2V1MGRzM184LWhycXkzYWt1LURHOG1nNDJYQWgwZDdPNTdFRm5YY0xtUDNyNTV0ZEYyTmdKVGp3R2pTZnRDWC0tT0xWUm1QZU9yOUFqaXdDNG53NjIzUXJQYjNR?oc=5",
-        "published_at": "2026-10-31T13:33:00+00:00",
+        "title": "US sees growing interest in limited ceasefire in Black Sea - Al-Monitor",
+        "source": "Al-Monitor",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcHhQM2xyNGIxdi1jZnZuVzBSd3dNOGhVTDAwaHMxUlZWSEpLa0hoc3FydjBLNUdkZE9hVmYwM2loZHNuUWt0QmM3aWdMRWlpT2Z6aEtkMGZ3dFgtdVNydkRlSzV4ZHdjd0NGMTJ0ZE1IVExsRktjOWZDRlFIQ1NMOFpzM0dxeC1lYmVLbGV4VnhDaUZWU1hJYXpxSFZPdw?oc=5",
+        "published_at": "2026-10-31T17:38:23+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Live - Tehran threatens wider strikes if attacked as talks continue in Doha - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xekJZZUdONFZIdzhFbVNUMUF1TXY3TTZfVVo1UEd6X0ktZGRwQURYcWFDNlcyaEg1Slo0bXdQVzZxVkItUVdOaWd5VF8tX1owdUcyNXZ2cWY0TUtSd3c?oc=5",
+        "published_at": "2026-10-31T17:30:16+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Evacuees from Russia-controlled Oleshky arrive back in Ukraine amid U.S.-brokered ceasefire - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbEZTWWlXYmdWb1l2VmJnODBRUnpXeTZPNmc3Y2lMR0lxVlpna091NHBWWWl6OW5ta2tPZDNCaXMxRUdtRUNCWmNPZTVvOEg4RWhuU0U4Vms0UGIyb3BBNDZYMm9rVVF3d2VzdnlqQWRpWTY5ZzAxU3BzNlQzeWdOYlF5X3F0V3R5YXfSAY8BQVVfeXFMTjZ1dHRRM0wydzQ4Z0ZlOGJ3THJMWHlHTXZWZW02Z2xrTVVIdHNDSG13NHFObzJyblBXQ1JmZEZGQUd5bUs1UDNXRTd1WU1Fa01zZzRwMjcyUTZVY0lreDhqeXU1T0FYNXBqR1ROcWRQTjAxaU1ZOEszd1lhRFNQWnBMMkZZci0xYmZCSEtrOFU?oc=5",
+        "published_at": "2026-10-31T17:25:40+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US, Iran race to revive Qatar talks as Trump weighs new strikes after midterms - New York Post",
+        "source": "New York Post",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQnN1SE9HNVFSSHE4S1VrZmVzM1R0N1UxRUNVMHBHbjBNZk5sWldDd1h2UHo2eFlvRTl5MFdQTURsZ1FzTW9vYWI2WWZVZGNrSThBS3dzeDZpakswMXAxOW5KVVdub1RwRnVzYU51UklFbHhiQkVKdkhSSXJWbUlES1duUzJGY2VWa2VnSk8xQjY?oc=5",
+        "published_at": "2026-10-31T16:59:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Starved residents of Russian-occupied Oleshky return to Ukraine during a rare local ceasefire - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWFpDMzF1UGlpLV9sdTZxWXRVLW04dWROZEtPTXE2V0JpNDM1c1pjOS1HbVlUNnd0THlRNnkzQTJfa1JxY3ZmR1llTHJTMnFpcll4SjN5TWdKMnY3VWRVWklVTkFxbkFJSEl5X3owR1FoU0RJZE9oUUJpTl9CUXpoV0k2al81eHpfWGNjclVrZU5lOXEyUnA4Y0JSd1dwVnR4LWVscXlza19fbF9nZmMwYlBITndMREZZTUlweF8tcTJSWDg?oc=5",
+        "published_at": "2026-10-31T16:26:58+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "European money for Patriot does not solve Ukraine’s missile shortage this winter - Tomorrow's Affairs",
+        "source": "Tomorrow's Affairs",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZkxTd3JRWVZrZzZhZkRVeURWN1BMeVdlTDEzUG44QTNZSVpUZTlKYzNsNnc2OGhLcEsyX3ZvX256cWN5YWlyUzBZTGE3SjJxOTBQdXM3WEZHcXFIRmlyc3YtOXdhYzZ5Q0lGTldHMXB0YnczQmRYaUsyUXc5alZreHNpbzFGWEZQcU9LMTJEMnhQWkh4VHZkRlV4YVpzcjBIWThHRWhuVDl0ajBD?oc=5",
+        "published_at": "2026-10-31T16:13:54+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
+        "published_at": "2026-10-31T14:57:43+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war - The National",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5",
+        "published_at": "2026-10-31T14:16:09+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Reunited after 1,711 days: Oleshky evacuees return to Ukraine under Melania Trump-brokered ceasefire - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSGhpMlhFeDZzcmJkMy1NWFRHTDU0NDhNTG5GQ0ZTbGw1TVFURXZ3LTlnYjRuYkEtckVNS2d4Z2ZnMWNvSHozc0p3ZzBJZy1CeS1DNHl3b1hmLV9JYURQUHpjZXBiaFNSZEN4SGNMVjdqRWVVUzdZanFmdmx6OWM4Ymt4ZXBsN3NqYWNEQQ?oc=5",
+        "published_at": "2026-10-31T13:07:47+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -106,24 +167,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace? - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1JxSV94cm1pZi0zZDZ5XzVYczB1aDcyQWhfSnpjcWlpV0FjeU54dVJGV1BYalFncXNBVmt3dFVwS2lVenFmdHB2TkpzVXNsdl93OHg5T01xWFJhZndQMWs1d1VqMDhKSW9DM2tZbUpyNGl0VFV2TU5Id3NqZWM2SXhkeXhINmtEcHdPWFdfbWFrQUMwUWlLQXZKUFFfY21ZM21fU1NQUFI5VDNtMFpCcNIBtgFBVV95cUxNVDM0QklRd0M2TkdmMWdnbGZORFc3bm9BZVRNYWdWU1NSV053eTRYR3NsMlk1TmxBeU5ROUZjRWhlYmR3WnNMemZwRENSSnVuaWFOTXoyRWc3dE85RXFudFRKemRGcF9VTllfLWdfZGFtekItVW5pS25fclpLU0ZYenMwSzg2YjhHaVk3RUdaYnpEa3lJa2FLY2U5RmNvX0JTRnBfWjFORWxpaGRkR2hCTS0zcUNQQQ?oc=5",
-        "published_at": "2026-10-31T12:25:38+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US approves sale of 500 Patriot missiles to Ukraine - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PNHJSbm1sZDVnWnkwVlhKWG5pcVRXWnNXeW1qUEZTemJvZ3hoN3Q4MjRhUW5USTRndUU4aHlJSjBhUVpvZm9Md0huODJhQWZzUUpOVnVZM3NyREU?oc=5",
-        "published_at": "2026-10-31T12:21:25+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiRHpqS0x5SmJQb3ZZSFpkMXZXS0lVdzl4NTdaWGltUWdRWFpOOU1CbGFXVFNZSnNiZlRyMC1YQ0hGb0NDQjdOSGRQQVJpS2ZqR3ZBLUFhTEhhNnVPUEp5QTlTY0dTTU1wUGlWc29uc1NLeDBS0gF6QVVfeXFMUG4zZG1qRkdIS3diX2R1Qkt2dTIxc2Y1R3E1MG4wSFBVcktzUmRfdXVVRmNTSm44ZjBIZ01fbWpCVF84LXpPd29RSjIzMmMxcVh0WlhUWld6N1RNRGEzTWtPcHhmWWczMEVNY2ktamdrdXd3QjYtZG5HLVE?oc=5",
@@ -133,66 +176,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran's supreme leader orders \"maximum\" response to any U.S. attack - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcklRbXFqZnZtWHlsU2NLNVdnY2l5ZXlHQzZtYmFiMWFWOWlPbzFVME1YU092WjV5RjlRLWdzanVfOG1nbUpsUWxuT1hLeGRLZ0dQZmlOOGNveklydEdmWkVzRE82eDdpQ2VzRUhYZmFHSjNmWm5VV3hzaEZ5VkxlWGE0dEt0aW8?oc=5",
-        "published_at": "2026-10-31T11:51:12+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Shipping Strikes In Hormuz Leave Both Sides With Economic Pain - Bloomberg",
-        "source": "Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOHg3X0Rkemo5N2drTE8zV2lha0RVSm1MQ2FUWFVHRTZBQ3BHVVJ3aEZVSy1IZmJvQUYwaFI1ZGR5RmFOcTc3NTFqQTBfc1hQSkJUcTZRSGIzVUJrM3RuX2NLZGtZM2RLVjhDSEJTRHlIVUkxTlVyZWxMTExzd2p3V0U5WTd3aV9BQ0wzbHBjNDdqTVA2STA3TURNMDRXWFhSYk9wYnVZNjJOLWRmWDJuN2htMA?oc=5",
-        "published_at": "2026-10-31T10:30:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Civilians from war-ravaged Oleshky arrive in Belarus during Melania Trump-brokered ceasefire - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTzFXdlgzUDhJZW91dkY5ZW9GZmVHNjk4eG5KcmlBbmdGNDJlZlhQLVhXZXpxRTd1bGktSlFtYW1BaEtpOHNZVXlEYng1ZV9HTXV0eDdGS3dYZE8xSlBVZHhDUFJIbV96UENZWVJfaFFjTWIweWpVTzJjMUFoMU0tYnFDQXRLRmE2WFliU0t2S2g4N1NJRklqLXNpUmxEZ0pFdVltZ0k0TDlRUDJCLV93aUxJZ18?oc=5",
-        "published_at": "2026-10-31T10:28:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China and Switzerland Strengthen Strategic Cooperation for Free Trade, Innovation, and Multilateralism - elciudadano.com",
         "source": "elciudadano.com",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOREtiWDZxb3hHWXJsbzFIYkJVWV9WUGVMZVpNRDNXWklGODBFcTVqbDlKcjBkMXZuUV96U3NtYUpwRTU4YVd4U3MwYmFUTklFTnREUTVVWDNxNGJKNUw3RTB2MGluT05rUUNTa0J2NmVodFc2Y0gwbWxucC1EUklyM243WG8wc0hTMHFzdlJFT29KeEc1bGhjR3N6TU02RlduSmFYNGlRY0VWTUR4NmY4RTdZQVBiTS00c3BKekRGWFczU1ZtMHVOb1Rfb0dkWm12X0kxTw?oc=5",
         "published_at": "2026-10-31T09:58:17+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran fuel crisis deepens amid war and sanctions - DW.com",
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
-        "published_at": "2026-10-31T09:34:19+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire - Yahoo",
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeDZQaEpjVnFMVXlNWm15NzdlN1lQOFhwZmp2QVJYTlQ2WmtNWHhmaWVEemRKY3hlbHllZ0JZQlFwQkR6SGlDblRnMW13c25zOFE0NFdxc2hTd0RESGhMcVNwZjItUVJqU1JLb1BvcmZ4RERNVkdiMzlqd3BLcFI0T0JMWnNPaVBGeHduNjdITU1TcnJUd2kxMjJSWGlfQXB0bUE?oc=5",
-        "published_at": "2026-10-31T08:49:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "U.S. approves sale of 500 Patriot missiles to Ukraine, but Zelenskyy warns deliveries would take years - CBS News",
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ1NGZ2NwdXlKdktXTVlMNWl5VHBDajBPMndZWnpLV1JzTVBZcV9Rb2VmWVdvQ2w2ZGFjTllMdlNaTEVzMHhVaVB2bWJVbksxWTdrdExlaVRnc2lBM0FZRzdsa1RCLWY5NlNMTUgzOEh4NVFhNHlJVFl2cUtzbzdHYnBJVE1faV95M0xKbzNsblJpdw?oc=5",
-        "published_at": "2026-10-31T08:22:03+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -214,8 +203,8 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Swiss Firms Plan Investment Boost in China Drug, Finance Sectors - Bloomberg",
-        "source": "Bloomberg",
+        "title": "Swiss Firms Plan Investment Boost in China Drug, Finance Sectors - Bloomberg.com",
+        "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUtxWHdTNzZKNDI5Z1RHdnhaT0d2Mm1BVUd5VzY5YV9oVnpnVGNRdFNlem1nbmhUaW44azVQTXZZaGZvcnVWMm9CY28yS1NXSW80V1l4NDl6aGM5d2FRU2FMNkh1ckcydGpKcGRaenNoZ0VaeGw2WEs1bXJzN1dXLXNpVHJLa1FqZjczLWc1MlNFNC1saTBVRkhTWlNxbmtmR01GX1pzZjFkcTcyNWJFbmdMdEI?oc=5",
         "published_at": "2026-10-31T07:04:10+00:00",
         "area": "USA / Cina / Taiwan",
@@ -225,8 +214,26 @@
     ],
     "corporate": [
       {
-        "title": "AI Enthusiasm Is Collapsing and Tech Earnings Just Made It Worse - Bloomberg",
-        "source": "Bloomberg",
+        "title": "The Nasdaq 100 Briefly Fell Into a Correction as the AI Trade Cracks - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa3FRQURXcEZSbVktSU0zZGY3LTN2MlBwQVBkSmkzWXJlRVpIbV9oRmh3azlsUUR6QkE5a3lnU3NPcVBGckgtaThoYU14ZTVlWlpDNURsUnNHaFZBQWNCbENxQzB1UU1kTXZxM0g3d05IbmZGb1hSM3dPaFhGZXA1ZmJuMTZROUhVZ3F6VkZFTHJKZjBsaG50Y3FSZ19iNzJqYTNTaUJhcGRpUXVhRVJqaVpR?oc=5",
+        "published_at": "2026-10-31T15:32:55+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alphabet's Earnings Horror Show Continues, But GOOG Stock Is a Buy Below $300 - Barchart.com",
+        "source": "Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTjZsNndsR2wwWmt0R1VYT3ZlOFNXbGY3cU1VZVFIbmRHMG9jaldrVUZPeTdURWFkcDBkZWlLblo1VVhRN2V5MnVLOVNZeXhqZVBEMnc5VXliVFlwX0dKU05BVkR5bHJqUlNpM2dzd0toS3VGWURPN3ZfbjRuYnZyVE5qNWNKZ1UxcVY1SjBKaVU4elhMR0Y1MDRtajh2aVlqVXl6U1VyenN2aDNDaEQ0QlppUVVCTGVKUnhR?oc=5",
+        "published_at": "2026-10-31T13:48:57+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "AI Enthusiasm Is Collapsing and Tech Earnings Just Made It Worse - Bloomberg.com",
+        "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVVcxT2RHa3JpRWd5czIwSlFuR1Q0ZGszc2o1TE9JNmhmVTdwUzhYWm5nSVhhNUU3aFZOYWc2bVdtUVowMjhqaXdMbnZSbGJ4N0ZrUkZkM09nT1F6blc4MnZzamI3VGQydVRqT25zTEZlbW5GUFB4Q3ZjU3lsMmpMTWJZR3ZnYm04eEFxTm93VWpBNUVQaW9Gb2ZPZG9WNjFQSE1tc3ExdHBzYVVoNFVjM21TMEQtQQ?oc=5",
         "published_at": "2026-10-31T13:00:00+00:00",
         "area": "Titoli tech e AI",
@@ -238,15 +245,6 @@
         "source": "MarketWatch",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOclh4d1VCTjRJSHVjZFZQbU8tX3c5Mi1uVmNMaWJ6WFo4VUI4aERWaG8zLU0ydWxVeFVqOFEtZmxKR0diWWp4dEZzcWE0a2lrdjBZeWR3R0FDbU9zbU9rd1pjTGd3aVQxdGszeWZBOWxkUXJEZkZwczV5blNrU2MwZ1NxMGtSYndyRVAwSWxZQWtjZnNzRGVJOV9DdnFKYjRob1VLalVwSDFVS09pWjZhQTRMdEtMcnFVd0VKdlNrcFpwSnFiUWtqOENtaE4tVWVBZE9IeUM2R1N3OGtfRDNndFhTTUVOR1FuUlZB?oc=5",
         "published_at": "2026-10-31T12:30:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Intel (INTC) shares plunge 29% as investment banks slash targets after Q3 earnings - Beinsure",
-        "source": "Beinsure",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWG1oVEtyLXByaV9hRXlmZUhPLWVxVk55RjRld1JHbmhFWnVDM3psSmJycEowN0wwMW5scUZpbnhZbTZ0V25rUHlISXExM2NzSFBjMUtwOThpcGtMLXF2X25abnpCbnFSRzBBemJaYWdBdGtOSDJDVDU3VHhndkxLRU1BNDdUekJlNExaYXB3?oc=5",
-        "published_at": "2026-10-31T09:25:20+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -288,11 +286,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Tech Stocks Sell Off as Intel, Amazon Earnings Spook Investors - Morningstar",
-        "source": "Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUtOUzlBVExJN1Y3RDZTaWF3ZFVacGt1Wnc4UEJHZnJUZzNLZk1nQ3dzNVNfbS1RZWRUSFFqeF8xM09RRm52dFlwNzMwa2w4VUl4VXc2T212akJ3bDNfNGRxOExVTFlnVFhhWGRhRDduXzRzcTNYTmVxX19LTENXMllIVjhPUktURHV4RG5DSWNYSXlhTHJMMXdB?oc=5",
-        "published_at": "2026-10-30T20:30:59+00:00",
-        "area": "Titoli tech e AI",
+        "title": "These IBD 50 Energy Stocks Show Gigantic Earnings Growth - Investor's Business Daily",
+        "source": "Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZmtaZkxLMUtubnN1RDBOdlZNNlVLZEhmbDBlX2drUkx1LVhobTJlek9lYjZJR1F1bzNZdC04dndpMXV0Zl82TXYxeWRPOVpXQlZvRXE4T0l0RGVqTnBfYkV2SDNyRzhqd016NUQwMUJJT054UE8xWXFKX1lpME85TkFzcHdzdmV4QWJuMg?oc=5",
+        "published_at": "2026-10-30T18:56:00+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -301,15 +299,6 @@
         "source": "The Business Journals",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb2ZLWmwtVlZqNEp1MHBhM3lhVTdDY3cwS2lHWkhPMUEtaVZvVEtXVmNTQWZYaFdyczk5VXdlTHdLZHNjVGhmYWJXV1JXaUhFSjhMRkNybmtHeEhSUWF1dXlOS2YtbVFyOW9vbklZN3hEQ01lbEx0YkpHYkNEaHF1aE1iVXRIN1lIWmtHMGwzeEE5ZnpQRk4xVHlYdXJ3dm8td3Y1MUVSY1N4X2s2cEE?oc=5",
         "published_at": "2026-10-30T18:41:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Edison Scientific Inks AI Deal with Pfizer - Contract Pharma",
-        "source": "Contract Pharma",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVUR4clhMR3ZCWTRFaDZ3VVU1YVRkMHJOS0NtQUh1dTNxdWQzYkJGWWNMQ1Rub1N2MXBpS0R5VWR1RjhPNlZJeS1zdGFjQXhTTS1sdjJpRXlHZmVidE5sRnEwZXgtY25lNE00ZWFsWDRxS1E1MnZOSFJreWZfMkJ5cF92eHdHMk5rV3BGRDdudldtdw?oc=5",
-        "published_at": "2026-10-30T18:02:09+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
