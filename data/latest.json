@@ -1,108 +1,46 @@
 {
-  "generated_at": "2026-11-02T23:57:56.944564+00:00",
+  "generated_at": "2026-11-03T05:29:26.129755+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.894000053405762,
     "treasury_10y_change_bp": -3.4999847412109384,
-    "wti": 96.31999969482422,
-    "wti_change_pct": -7.49135886093113,
-    "brent": 104.33999633789062,
-    "brent_change_pct": -11.305680993507494,
+    "wti": 97.04000091552734,
+    "wti_change_pct": 0.6012874109057043,
+    "brent": 105.20999908447266,
+    "brent_change_pct": 0.41996989167163434,
     "nasdaq_level": 25164.36328125,
     "nasdaq_change_pct": -1.0718116080905782,
     "sox_level": 10328.3291015625,
     "sox_change_pct": -3.372415142127727,
     "vix": 21.149999618530273,
     "vix_change_pct": 8.908339523376952,
-    "dollar_index": 101.79900360107422,
-    "macro_score": 0.2,
+    "dollar_index": 101.75900268554688,
+    "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -1.07%, SOX -3.37%, US10Y 4.89, WTI -7.49%. Geopolitica: Iran says contacts over ending war continue after talks finish with no breakthrough - Reuters",
+    "summary": "Tech bias strong negative. Nasdaq -1.07%, SOX -3.37%, US10Y 4.89, WTI +0.60%. Geopolitica: Oil edges up after report of US strike on Iran's Qeshm Island - Reuters",
     "quote_times": {
       "treasury_10y": "2026-11-02T19:55:00+00:00",
-      "wti": "2026-11-02T23:45:00+00:00",
-      "brent": "2026-11-02T23:45:00+00:00",
+      "wti": "2026-11-03T05:19:00+00:00",
+      "brent": "2026-11-03T05:15:00+00:00",
       "nasdaq": "2026-11-02T21:00:00+00:00",
       "sox": "2026-11-02T21:00:00+00:00",
       "vix": "2026-11-02T21:15:00+00:00"
     },
-    "geopolitical_risk_score": 46,
+    "geopolitical_risk_score": 44,
     "geopolitical_risk_status": "INDEXED_INDICATIVE",
     "geopolitical_headlines": [
       {
-        "title": "Iran says contacts over ending war continue after talks finish with no breakthrough - Reuters",
+        "title": "Oil edges up after report of US strike on Iran's Qeshm Island - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5"
-      },
-      {
-        "title": "Oil Declines Ahead of Midterm Elections Despite Hormuz Attacks - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQemlrUnpqR1g0OFFfbnJHTUktSE94dmx1MUQxbFpseThLLWNLaFVmdUp1ZFBHMjloZDFSR1Z2aDFVRHU0bmN4aE1vMGJRR1c4UldXMW9iWDY4clhNODVZVV9OQ0VvelF0Y2pKWlo2T0o3OWVCRTlGeU9fVXNiNEZfNTF5cnU0Rk5yX1htSDd6UW9oSDBNdU93NXNmV08?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTFpzbEJURFlBbkE1RzNfclduVWpDY29HaWY3dnZJNUFuTHFsckZXSU5iTGJHdUFzQkVmeVhvdk9IME9Hdkxwc0NQZzg4dFFzckltYVlzcGdWY2xhYmJWMWlMVmFyNml3YmFoSDBZMGdPZWlpU25IM3UtMW5iR3d1dGZrMGF4SzQ2MklEeG5lWU1iRUZjVDd5Nnhjc0dQamdDdEtUc3NMcFZDMTQ?oc=5"
       }
     ]
   },
   "catalysts": [],
-  "movers": [
-    {
-      "ticker": "PDD",
-      "company": "PDD Holdings",
-      "category": "China E-commerce",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 5.55,
-      "short_term_change_pct": 1.21,
-      "relative_volume": null,
-      "quote_at": "2026-11-02T23:55:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "PDD"
-    },
-    {
-      "ticker": "PLTR",
-      "company": "Palantir Technologies",
-      "category": "AI / Software",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": -5.98,
-      "short_term_change_pct": 0.98,
-      "relative_volume": null,
-      "quote_at": "2026-11-02T23:55:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "PLTR"
-    },
-    {
-      "ticker": "SHOP",
-      "company": "Shopify",
-      "category": "E-commerce / Software",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 0.64,
-      "short_term_change_pct": 0.94,
-      "relative_volume": null,
-      "quote_at": "2026-11-02T23:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "SHOP"
-    },
-    {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -5.85,
-      "short_term_change_pct": 0.83,
-      "relative_volume": null,
-      "quote_at": "2026-11-02T23:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
-    }
-  ],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-02T23:57:45.411515+00:00",
+    "updated_at": "2026-11-03T05:29:15.372490+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -112,28 +50,28 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 4
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -145,56 +83,20 @@
     ],
     "geopolitics": [
       {
-        "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXdSUzdCZE1aZDlWYzNjZ0hTQ1NIclRrN2hvT2trYnM3djdIajN1Nk8zWEViT3FHQ1lPMEJNSDZDR1ZxMUNuS1lMeGM3RVdrckJXZWpERVpzakZVb3htaG1kcC1aNEVuLVhxSVRxUWZPNnd0THU2aF93R0xhdUNUQkM4aGNtMVpyb2FxeWlUZ2V0SWFPcGZOWWRxMG9WeWl2ZDJPR1VyZUluQTdZbUHSAbMBQVVfeXFMTnBxd2VhLVdiSEE4akU0M2FNUUJYT0gtWXIyVnFOM29RTElPVFFGczNaWHAyOFNmMl9UTjgzSlhyOHREaFNXU0dxdldFZXBJSXBWaldWel9rU1IxZ1N4aVd6azVEMXVSczM4Mko2RlBnQTZIWjZXdk95MzdrWlBNdFF4MWw1cnJ3QXJmTXVGbFJZcnFFcFU3VExWbUpNMWlTWnptRnY4YUxjTTdIal8wU0xBeDg?oc=5",
-        "published_at": "2026-11-02T23:41:53+00:00",
-        "area": "USA / Cina / Taiwan",
+        "title": "Russian drone attacks turn the Black Sea into the world’s deadliest waterway - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HanVrUDZ2T0g4NDRMQVJlVm1Da0gxY1Q0Q0xYcTFyd2JkaXduMXRLVDUtaEFLVktLdmliR1JPeVhyeWtEV2x1X3g2dnoyTkZWMGd2R0pncUxUTC1JcTVQSnJsUW9sdkkwaDdQaGRfeGpzZmNsZWZJQUV2a3NLQzQ?oc=5",
+        "published_at": "2026-11-03T05:01:16+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "How Trump’s trade policy is handing Asia to Beijing - Fortune",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWWR6M2dPSURHeDRiNnlycm9fWG9iR3IzU0U1c1R2V2pRYlBEUVNSVDllVDJXMlZiYU13X3drQkpuUVNhT0RPMUotM0tadjFxMlZHVHdqV1d3aXJXREZ5WEF3bzBVZWFMT1VCNjJldGl6SWJUUEpPWmJlS3FkanRlVnFfamk2ZVZMUVE?oc=5",
-        "published_at": "2026-11-02T23:00:00+00:00",
+        "title": "Democratic Party campaign ads address tariffs ahead of midterms - China Daily Global Edition",
+        "source": "China Daily Global Edition",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZHJZR1dDNV8tWkg4QS1IQ196Z0ZVSTVZUmN0Z1NTeTJ2ZVBRMzJ4NlFpODQzLWtNRWF4NXB0THo0UzJrVFVKSHdZS09sSlZiNWJiRWlKV0lqVDJ4M2d1MXRoVnF1d0h3cWRUUFM5bFB5WkJmVzdfdTIxQzltLUVZVlZR?oc=5",
+        "published_at": "2026-11-03T04:59:43+00:00",
         "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Exclusive | U.S. Pushes to Restore Russian Gas Sales to Europe Via Ukraine - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGJ5czJUY0hNMkJORml6Z2ptY3h0SWp1MXNFVDhlNjNJY0RqQVRweDl0eGtJQ0RWZndidWFsM3VhLV82bTQ2TEYxUlRtVV9qdk1wSDd6RWM0QklacEhOWnFjeEQ0S0tZNXRDVlZiTk82cmdxZU1BY2J2dGE4aTlzcDJveW1tUUJtb0hudHI2cmJ0d2JvZDh4XzZ0Z0wtY2FwMG5YVGJn?oc=5",
-        "published_at": "2026-11-02T22:44:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Taiwan Tourism Brings #100WaysToWonder to San Diego Travel Trade - Kitsap Sun",
-        "source": "Kitsap Sun",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOEVieVhmYm1mbWZaYy01OWtVczlGTzVtS3U4Qms4SkhIbGdJQXNiM1BCVXlSM3RDNXdBWG9JeW5kOVFMRDhUcEZ0UXUtVjA2OW1TTTNlbTYtRy1IRWZvLS1uR1ZKbm0tclE0TmUwLXFNTTQwcllXSkR4QUNna0xrWkgxY3BkT2NvbzhlQkVzaE9sOVpNTjZDOGhaNVBpaEhYQ29QSEU2bUJwbHdaUktNMm1uQkl0Z0Vu?oc=5",
-        "published_at": "2026-11-02T22:37:09+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "UN humanitarian chief commends Ukraine ceasefire in Oleshky amid ongoing humanitarian crisis - Jurist.org",
-        "source": "Jurist.org",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQjJjOGFwaFRjbUVVazUxUnJNVXdtbEJVOEFFM0VrTlduUUNYWWFVZW1lRTZyVUp6XzQ3aWM1eUFjMF9fSnpvR1Z5SFVaYmRpWWkxbC1KcmlrTTlzRnVyWWg4dEpLRE85SVpHcXFZQjVfa2VRZG5MbGFwc0FsZ2RtUDhVdTcyYVFwNEhuWWtUWUhvWGxWazhWX3JBU1N4Tnp3NWllRDZXSkRiZDNmbWt5YV8xa1lxd2w2azVPa2twVG9YU3VtZFZlYQ?oc=5",
-        "published_at": "2026-11-02T22:31:33+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "A brief ceasefire in Ukraine's Kherson region has ended - NPR",
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMUtJN2tXRS1xeEFMbl9Uam1JSzR6cDZwTlJIZjFkcmplOFE3QUZNNm40UHdaWnZmb28ySG1BWjBOUXQ5UmE2OHFpQmdDUnZwcUNwM2w0a3E4SUh0Q0hkNXJnR0x3MlV1UDBWdVJfNHlhaDJwUEZtQUR0ejJYeGs0RnVfTGxuekVKRy1SYnowa2lMR3pFb3U0dHlnZUZVNk9u?oc=5",
-        "published_at": "2026-11-02T22:27:06+00:00",
-        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -202,85 +104,148 @@
         "title": "Russo-Ukrainian war, day 1713: Ukraine hits Samara Oil hub blending up to half of Russian crude exports - Euromaidan Press",
         "source": "Euromaidan Press",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSXRkeTM2TEJMQWtwc0pxOTg3dlJfUjI2X0pvUnlWR1drdi10T1RMWkw2c0ttZFpEbGI5S3h2YlBZX3BJclNMd2hpSklVa3MyLVpRcmVHellpTmlZYVdwSlI3WVpOSkVMVHdfUFBvbmx1WExzbkJ1UWxFZnFjcG9kc3dselIzeHRzdnM0c3dZZWZjRjBYNUh6UEY1VnYwc29UZEhWSVJXWWZVcXl5U203bWJJdlhxSmt4Smo2WHkzbHBxYzVXdzNxWlZReVkwS0RVRUVjV3dxajg?oc=5",
-        "published_at": "2026-11-02T22:24:08+00:00",
+        "published_at": "2026-11-03T04:13:56+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUnhpZVZHQUliUnJIQUJWb3JmbVl6VV9GZ3NJN0M3X0EzZU9pa2N4SEcybGNlakZkcmxyeVNqV0E5LWRxTU1VZUM4Uk9TdGZTS0RJLU1CZ1JVVFBlM0pTcWFPd2U0b1RFTkVyV2oxSzNwZzYzMjBwVmRtbUFvWUowS1RPSEQ3eE1Qa2ZQQVJ5SExsbzVXQTQtNlZYRC1Bbnh2YmpnZ2VGaHZLQlJDRWJRZEZOU2VCZ1hPcENQcTUtYw?oc=5",
-        "published_at": "2026-11-02T21:59:48+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Netanyahu pushes for new strikes on Iran, officials tell AP, and other Mideast news - AP News",
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNXJ0RGVaUDJtb3ktRXNHZG40Slp3eTVjblNKRWwyOXdHR1MwaUthTzR2ZEZ0UFM5MmVzOHFwa3JoSlBDNjJmdW9NU2NLYVpOV3VKRk5iUXpCYnhNUU9XS2FVY2NrSHRBdnY0cDhWNzJucDQ5YlRQNGJZTnJkNC1kVmRJZ2MtdkIxV01Cb0U3dFVtZw?oc=5",
-        "published_at": "2026-11-02T21:57:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil prices slide in biggest drop since July on hope for more Iran talks - NBC News",
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYVVQOC1mS2E0QXZsLVItNXdTc1VzNXVEeWFTZzFma01nVGpUekFNT1ZvNG56RmZ3WDJXY3VGRWJqZEdCeUlkdmIwbFlrc2xSUWFRdl9HclJqQTNlTzg3M0NUQ3k2YTlEazNRdF96TkNTVVRjQTNVcG9xa1F6X3J0dWxLbEFHV3dZRFU0WUppazZrVWc?oc=5",
-        "published_at": "2026-11-02T21:32:02+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Netanyahu is pressing Trump to attack Iran after the midterms, officials tell AP - WRAL",
-        "source": "WRAL",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON1A2Sjg2Q3NpY2N3ZW9scjdubS1RVUZNTnNrZnQ5RDhVRldocDFrR0V3a2FEMi1oSm04UVRoWTNIenphcFAyRTk2WGFXajI2WVY0RGZyLXJoQUxwT3FETkttZDZVVVVYZTJmTDlIUXJIbjd4QVZ0cTZkVG04bGo2cHZLUzk5NDBiYjNWdA?oc=5",
-        "published_at": "2026-11-02T20:57:04+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran Shipping Update – November 2, 2026 - United Against Nuclear Iran | UANI",
-        "source": "United Against Nuclear Iran | UANI",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSERQaGRKcHIzaVlyNzB5N2FCUnNoOUFzNVpYd1FjalRQYnM4SXZhNjRjZDZTSWdSTzZTWm9OcE9WdGZDa2o1bDNNLVpSQzlLTnlPQXJDOV9LM3RPY0NtVFFaX3QxVEdaTkhtN1pKZF9uUXkxMU1MNWJfX1N6b0lCVFg1MXRBeFFZY3NrT0RkOA?oc=5",
-        "published_at": "2026-11-02T20:54:43+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVGZTblZsbjZNdDJDekcwZEpYeXN6V0k5dnl2RnRzNzJuQkNsb2UwYzlyRUFzbXpTX01VREdNRnVGcG5UNDBzeE1VRWdTUkhJTFF3dWlzZjBFZVNHLThzQ08zRmVGVnB5Qkt0V084UzUtbzc0SC1QbmNuV09UaTgwQmVMUlJGTlFka2Yw?oc=5",
-        "published_at": "2026-11-02T20:25:34+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "$1 Million Criminal Penalty for Sanctions and Export Violations - Sandler, Travis & Rosenberg, P.A.",
-        "source": "Sandler, Travis & Rosenberg, P.A.",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa1NpNXhaaFJRZXpHWHNiWG4wWGQ2aS03d1VXTXo5bjlOdnVkZFh4MWlWM1VPNGJCSnFFdXlQOERpbnBFa1B0VUkzUUptV194bUlHSzQxRzRBYTJxc21waVpKSTBRb0Y2Uk9TT1VBdXdoUnkyT2FWMldZVXFSd1h1LVNVbjFoUjl2XzUyQ01tUnBqQ29PZmtqR21rLVY0R0Rob2ptUmtyM18zMVBCYmZCSmtRM25mQlAydEkyb2ZqQTdCY2thTGtkX19FT1FnNmc?oc=5",
-        "published_at": "2026-11-02T19:16:18+00:00",
+        "title": "Sea drone makers compete in Taiwan for soaring investment - The Japan Times",
+        "source": "The Japan Times",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWE1sZ1dkUnpQSDRrdmIwUzdlV0JFdzl3YnVkSUpSbV94S182V095Mmo5TWx1WDAxWlB2MmJhZG14STFrd2ExWE5MZVJOSi1PT0d5aWt5cHFicEhxVGhvbGVPbW9KOWJCODdCRXIwVVM5Mnc3cFZWZC1kOHR4UlU3TFRxZG9Id01HYkhsTXdINA?oc=5",
+        "published_at": "2026-11-03T04:04:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Taiwan to criminalize Nvidia AI chip smuggling to China - Asia Times",
-        "source": "Asia Times",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUWxfTkwxZS03OThDWFpBX3ktSUU2RC01UkhiMm5WdEI5dmVkWll1T3Y2dFZXcWp5LW1YazVuS3FrSEcyZUhfYzRGSTQ3aFNfMlY2b2VNcUJaaEpjcWJBU3ZCRzIzV2sydmhkQ2l2WFBzN0NqZ1VyYWhfdS14M1FLLThJbkcwakVvd3ZqRUpGcw?oc=5",
-        "published_at": "2026-11-02T16:55:28+00:00",
+        "title": "US reportedly strikes Iran’s Qeshm Island as Vance voices optimism about a deal - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd3daWnVFR1JkRnZ1NTVRbEE5Vk15QTVMR2p1WXJSRXh5TEFpc0FFV1JBdWJhNWVvWnEtNmQ0UGF6c3g0YW1zMmpnYVdLSXVBVEJDc25odUEtS25LeDB5VUE0aGlQenlweXhoUmVPMkRENFpTWm5hZFlISzUtMHBJLQ?oc=5",
+        "published_at": "2026-11-03T03:20:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US strikes Iranian targets in Strait of Hormuz, and other Mideast news - AP News",
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNXJ0RGVaUDJtb3ktRXNHZG40Slp3eTVjblNKRWwyOXdHR1MwaUthTzR2ZEZ0UFM5MmVzOHFwa3JoSlBDNjJmdW9NU2NLYVpOV3VKRk5iUXpCYnhNUU9XS2FVY2NrSHRBdnY0cDhWNzJucDQ5YlRQNGJZTnJkNC1kVmRJZ2MtdkIxV01Cb0U3dFVtZw?oc=5",
+        "published_at": "2026-11-03T02:58:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Khamenei Empowers Talks as Trump Says Iran Deal Could Happen - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ19KMnR3VkhXQVpwVGNCTkJWNnVlay0zMTFzMDkwMkRkRDQxc01Rb3dnVXdWWFh4Ri1iTHR6Ul9DWWdyZ21RMnhRRGJKRTN5MHN5N1RsMG41UDA4TDZuQnFhV3J0VHF5Q2JXa1BTYlh2T203RHFiMHFaX3E2cVJsaXVjbS13NjlyekNlNnkwMTNySHpXWTJ3UW9OcGl5VXl4eGZQWFlQQmYtMDNvRnFWRw?oc=5",
+        "published_at": "2026-11-03T02:52:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oVkhVTWNlZWlkazhuT2Fvd2tnNjYyeXBJQkVLb3ZDbEZDbUxtWnNvX3pmSW13SDdOX1hJZV9oX1RYZVFHdC1jY3pxY3A5V1Q3WW1sdUtxZnRidDdMQXdmSWZ2T3VZT2NvUlNtLTdsRDE1d9IBd0FVX3lxTE5haElDNDVjaFNhV1V4d3U5OTNVcWZtREJsOU5FN2lYZUszSGNkUEc5UC1YZUVoX3d4TjRORFFIMWxYcjNROWZSUE9XXzRjbFR1UXJXbzcwSjdsZmtvQUZvV2k3dnpNR2Q2Tk84T1Z2M3BRVmdoOU9F?oc=5",
+        "published_at": "2026-11-03T02:51:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russian oil refinery in Yaroslavl reportedly struck, multiple fires reported - The Kyiv Independent",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPamxTSkozakFvRXNhZExMRnVrdjU2MTc2Z00wNlJmOTU4eENkVGVuQXpwdmtDYnVHSndjTmxqX3drX0JrU2JPU3pTSTA3b05odWNWUFpndnRpRWItX3BzT3pwZTNXc19ZZzJFN3VNTlplblBKOHVSN0k3d0VHekdNbXdYQk5HTzYwdktMdHNMYUlab25ydy01WVlvM3NHWlZkOThTbmd6cw?oc=5",
+        "published_at": "2026-11-03T02:38:51+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Exclusive | U.S. Strikes Iran’s Qeshm Island as Trump Talks Down War Risks - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmVhWVpoUFY5Q2J4OGY3SlRPdnpxbFhHaWlOT2V6NUdXaXl0SjVQWnNMVXdIQV9KaFdfY3dOMFpqRFF5VzF6WWh4dnNERlJidUVhbEliWmt6ZVhuUThYN1pac2NHWTR4MnE2Q2JPLWVJVkFzckZucFNMRWFHQ3RkU1JwdTBGM1B0X0dEckpoRHFzSG5Mb0V1MkF1M2hHSW1obXZuSGhGQ0dodEk?oc=5",
+        "published_at": "2026-11-03T02:38:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelenskyy warns of large scale Russian missile, drone attacks against Ukraine - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuS0pfeF9wS2t6SVBxVGVYaWRGcjJiZloxcHhaREtTa0ljTEpOeURzUnhNOHRSRU1jLW1LcHJMQXlHdXJJVkI3Yk9aQmlLMWVDNXRGUlpR?oc=5",
+        "published_at": "2026-11-03T01:20:49+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russian strikes kill 26 in Ukraine after longest ceasefire ends - France 24",
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZjM3VVhycm9NYlVkZF9nbmRzb09DQ3Zud2hSTDVqNUE3cVBjVnRYemU2WU9WaHd5ZkNEQm5HRHVwNXRkNDJYQWZtWTlJT1ZRcDllZDNVRUNBUDdQSjhwcGllRDFBN2FsaldEZldwaGQwOWoxd1RPNU1ldzBkcUVzQUVET19MXzJrX2NWSlN4VlJGSXVKdUpTZDZkU0s1aXlqeHRYcldPd2tJNjg?oc=5",
+        "published_at": "2026-11-03T01:18:44+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How Smugglers Get Expensive Memory Chips to China from South Korea - The Information",
+        "source": "The Information",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSjFHcGdwUGJIbTlrcDkwQmxIMjViWVcwdXdLOG55R1l5MlpKVDVzeERyNm44WmZfNjI4by0tUHpjOHM1NUpYLWZIUFpSY1hsTUxWNGUzTzV2VDVEMzlOcU5jMnJMSlJIZDRPZWhRNXVRbDllbGQwZV9wVklfalR0WVRwejJiOWZNVkN5ajZDRFFsMFBWTUkyZmxR?oc=5",
+        "published_at": "2026-11-03T01:07:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXdSUzdCZE1aZDlWYzNjZ0hTQ1NIclRrN2hvT2trYnM3djdIajN1Nk8zWEViT3FHQ1lPMEJNSDZDR1ZxMUNuS1lMeGM3RVdrckJXZWpERVpzakZVb3htaG1kcC1aNEVuLVhxSVRxUWZPNnd0THU2aF93R0xhdUNUQkM4aGNtMVpyb2FxeWlUZ2V0SWFPcGZOWWRxMG9WeWl2ZDJPR1VyZUluQTdZbUHSAbMBQVVfeXFMTnBxd2VhLVdiSEE4akU0M2FNUUJYT0gtWXIyVnFOM29RTElPVFFGczNaWHAyOFNmMl9UTjgzSlhyOHREaFNXU0dxdldFZXBJSXBWaldWel9rU1IxZ1N4aVd6azVEMXVSczM4Mko2RlBnQTZIWjZXdk95MzdrWlBNdFF4MWw1cnJ3QXJmTXVGbFJZcnFFcFU3VExWbUpNMWlTWnptRnY4YUxjTTdIal8wU0xBeDg?oc=5",
+        "published_at": "2026-11-02T23:54:34+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How Trump’s trade policy is handing Asia to Beijing - Fortune",
+        "source": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUVkxeUZzWVc4UWVJYW9uWTJ1cHRQaVZKaXF1ZlU5QXRiZ2lwNHFXM2I2bzVBeGhVR3FCRV9nLTNCTWZpLVotejhRa0FDZFFkZEpwUVJxd3ZTc2Y3MmVZQ1k1NjVjLXNsZ1pYVW1YRDB0andMMHIyXzVRbjA2YUhxOEJubmJqazJN?oc=5",
+        "published_at": "2026-11-02T23:00:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Nvidia’s Huang Gave Blessing to Marvell-Lumentum Megadeal - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVGc4MkZNbUd3YTNkQkFXYWFOeXYxNzFTeFlJekFzWmFtcjFfbnJLZlR0ODB2RkFiU2p3YVRROU9zSDhQaWpUTlpUdGhXbDZTWk9QYjJHQVFEeS1XUkZ6R01FeEd5V3g4eXhRYmZkeU9EeFNiUkdqZ1hxSGswWXhla2VGQ1lKcEQ2bVQ2VmFYbVdwOEswTEhhSEpxZ1lBQ0pfSXhHOWlPNVN6aDVw?oc=5",
+        "published_at": "2026-11-03T03:11:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Is Krystal Biotech (KRYS) Undervalued On Earnings, Buybacks, And Vyjuvek Growth? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYXN1MnlRRzZZUnM1LXU3OXVmZWx1NnMtTURJbGdNaDQ2TmRHSnVGU2wyajc5OVN3R3VyY0dsUmdfLUtTZU4zMzBuanZ6X1hJYjVTWFhlN2lHajk3OC1KTFRveE94VGxxS2hOenZNNkFOaEF3bE1OMFZiS1REaGQxVFpYcjdDMm4tbkh4X1VwVWhkelk5UGZ4UHhuOERaaVFXZy1kTmNfaFE3Zw?oc=5",
+        "published_at": "2026-11-03T02:16:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Why AMD Stock Is In Focus Before Q3 Earnings And AI Partnership Updates - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRFZqQnJQc2E5bXlQbldmdWlHd1h5S3BhclFTYmNfNm1NQ0J5bmdfYkpEZXZ2dWZFX25NSW1vMEtUT2ZFQnd3N3d5SEw2SDRLTWp2QmM1czRxT09tVjdENldBY1hqcXdLLV9oVF9wWWZUS2Jvc1JkVnVOZEtzdzVBV2N3R0lCZEdXeTZhRXZmTk0?oc=5",
+        "published_at": "2026-11-03T02:15:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Why Intel Stock Is Down After Weak Q4 Guidance - Yahoo Finance",
         "source": "Yahoo Finance",
@@ -291,9 +256,9 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Krystal Biotech Inc (KRYS) (Q3 2026) Earnings Call Highlights: Vyjuvek Revenue Jumps 30% to ... - Yahoo Finance Singapore",
-        "source": "Yahoo Finance Singapore",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZEF0d3lYaDhwQWZydVgyVVRraXh5aUJ1djFRa2VvR3U4Q0paWkxQY0tnbzZpaW1vNFA4bjZrSWlsUGhYYUFPaGpleXY5VjBnYzZvQlRWWndOQVM1S3BxTllDemlROHVJbDRjeUx4Vk1zS2dNcmhQc2psQndxa1JfUkln?oc=5",
+        "title": "Krystal Biotech Inc (KRYS) (Q3 2026) Earnings Call Highlights: Vyjuvek Revenue Jumps 30% to ... - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcWNqMV9XeGwxc2d1bUQtWVNPTmVRUGpCSEo0ZEpsLUQ3bGVaM09aZS01TlpnREd3bkxyMDNPdHNBVXdiWXJmQlVoU0VIN1VOcnFoWTY2WXQzeHhycGw1d2ppUnMzWVhkQUlhRmFpRXM3NTAyWmRhd1BJNmxaQlBqQUJPRS1feEppRWRPZUhWVnBtUQ?oc=5",
         "published_at": "2026-11-02T23:03:01+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
@@ -309,15 +274,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "AMD Earnings Preview: Q3 2026 Expectations and Key Risks - tastylive",
-        "source": "tastylive",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZjMtSWpoQ3U5MHNYSGlOVjIyUnYyYl9leW5zcjVuOHdKLXhHNE03YjR5dy05LWlRLWtyekRGTkZfVFdtaXltSkUxVXBIMW4zUmUteVhueEZfQnNZQ19VZTlGUElJMFdMcmxVOWNKU2U1RVhQUTBvYkZnN1d5RlE2S3dEbUVpOEthMmtHZXNuNlN1cy1IQ080SndEdWI0RFdUM0p4d0JKVQ?oc=5",
-        "published_at": "2026-11-02T20:55:10+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Update: Inovio Shares Surge After HC Wainwright Upgrade Following FDA Approval for Voceryq - Yahoo! Finance Canada",
         "source": "Yahoo! Finance Canada",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMDl4d2lrN3JiZk96dlBITERyUVlEUzdUcXFHVzJ3SVlueHNsSy1RWGVMdmFZWXhoZHFJTFFKbTZ4SUNhTG94RlkyTnNTV2J4UHB2cUVOUGlLS1NIU19UWHdGaDNBOG8zWWNFRHJTRTlTRUN0cjlJdFNHN0lXVVRsdlVGUmQwcVZBZ2c?oc=5",
@@ -327,10 +283,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Krystal Biotech, Inc. Q3 2026 Earnings Call Summary - Yahoo Finance",
+        "title": "What Is Moderna (MRNA) Answering As FDA Vaccine Betting Markets Grow? - Yahoo Finance",
         "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWEZ5VTM1RGhYM2t4OU1JekZ1NFhBUk1QdExGa0JWZ1ZneWIzY2VuRFdveGtVeERMN0F4aGlPMG1CWnp5Tk5HWEtyT1M5NVhjV08xanBZVUE3RWpBRXZrOEk1WnZoSk9vdUF4V3Y4ZFR3MzIzS0RaTVgzWkFHYlVwd2RSaGpRREhsTmlYWk50UlF2UQ?oc=5",
-        "published_at": "2026-11-02T17:57:52+00:00",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMDhiRUwxOEJIbHZYM1JfNHNKMnc3d0hLX29RcnVrNmxORVpwb2cxYjRxMWF0TEtxa0NpTlpfbk44S3BZZ3NXUjd0Wl96RmV2d00xMkZGSzRpTlIta3lBQTNOX3lPT2FFVjVsalVjQ1oxSjdwaVl6VVFtSzdHX2RidVZYemVpbS0tUXJhMmU4M2drWGtFVnBVakN1cw?oc=5",
+        "published_at": "2026-11-02T19:09:36+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -345,19 +301,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Approves First Plasmid DNA-Based Immunotherapy for Adults With RRP - The American Journal of Managed Care",
-        "source": "The American Journal of Managed Care",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbnBLQi1ELUczdkp3ejJWSmRjdTV1X3dvLVY2MHd4WXhOYWV6bmp4S0ZGc1lFeXNoRmEwNmNOSEdDd0dvd1dpUjZRQTdwejltSHVjSnZ3blc2NENJREFTUWNnYjlzU0FoQzhNa3NwOFJOX3g4Z2RhVFpwS05iYmpOX2c2dU9RdEVNYzZ5cHd1MWJveVF1ay1icEVPWEY?oc=5",
-        "published_at": "2026-11-02T17:07:49+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AMD (AMD) Q3 earnings: what to expect - Yahoo Finance",
+        "title": "Micron is the Real Loser in Lumentum Deal Which Assumes “Market Will Collapse in Two to Three Years” - Yahoo Finance",
         "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkxjc3FEazRqZlNFVEdITkpZeDhQRUxjNjMzN25oZ280ZUpKTkxlcXAySEVVUERPU3ZqOGtpSDZBYW5TR2gtczdiajZYUW5mam1JTWprVG1raW52X0tITmN4dUpJZUNPNmR6SUlBQnloa3h4RUEtdUxrWWxycE16OFFLb2pWdFNCQ01oNWFnbmR5Tzd4Q1E?oc=5",
-        "published_at": "2026-11-02T11:57:36+00:00",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeGxLa3pNZmJCekw5Rk53S3RTY1lFM0ZQR3JDX2ctZTJHeXViUU5tZkk2TjAtU0tjM0FyV2NaYnFja2lwYVM4T1hIZTB1VHI5LThCT1I4Zm1taFlqZENmQVZ4bXFjT2ppNUJnTDRVLXBhcWtOLWVfd011Q3RRd21ETUVMdlFBRFFpQkRWaWpJS2JFYUN5djdFUkVWbVc?oc=5",
+        "published_at": "2026-11-02T16:22:07+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
