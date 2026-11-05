@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-05T01:23:31.318884+00:00",
+  "generated_at": "2026-11-05T07:59:49.420429+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.894000053405762,
     "treasury_10y_change_bp": -5.800008773803699,
-    "wti": 87.77999877929688,
-    "wti_change_pct": -8.648140155373197,
-    "brent": 94.37999725341797,
-    "brent_change_pct": -8.899615208977297,
+    "wti": 87.94000244140625,
+    "wti_change_pct": -0.20426724871245305,
+    "brent": 95.11000061035156,
+    "brent_change_pct": 0.5178586446270561,
     "nasdaq_level": 25736.513671875,
     "nasdaq_change_pct": 1.4366378919806522,
     "sox_level": 10268.654296875,
     "sox_change_pct": -3.1295619177120537,
     "vix": 16.610000610351562,
     "vix_change_pct": -20.259238256414136,
-    "dollar_index": 101.33999633789062,
+    "dollar_index": 101.40799713134766,
     "macro_score": 42.3,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq +1.44%, SOX -3.13%, US10Y 4.89, WTI -8.65%.",
+    "summary": "Tech bias neutral. Nasdaq +1.44%, SOX -3.13%, US10Y 4.89, WTI -0.20%.",
     "quote_times": {
       "treasury_10y": "2026-11-04T19:55:00+00:00",
-      "wti": "2026-11-05T01:10:00+00:00",
-      "brent": "2026-11-05T01:10:00+00:00",
+      "wti": "2026-11-05T07:45:00+00:00",
+      "brent": "2026-11-05T07:45:00+00:00",
       "nasdaq": "2026-11-04T21:00:00+00:00",
       "sox": "2026-11-04T21:00:00+00:00",
       "vix": "2026-11-04T21:15:00+00:00"
@@ -31,10 +31,53 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "b801e17dea26",
+      "ticker": "JD",
+      "company": "JD.com",
+      "category": "China E-commerce",
+      "priority": "normal",
+      "satispay_status": "check",
+      "headline": "EU Grants Conditional Approval to JD.com's Ceconomy Acquisition; Shares Jump Over 5% Intraday - BigGo Finance",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YMmFoWHVGQjE2cmc0cEQxU0NTMXgtQVVhdWVzTnJ6TTAwQzRseUVnWDBUcHRIclkxQnRPV284UTJ1cU1wb3FOVWNPLU51UW1seU1VaWE5eThUZnpEbHlMZzN6R010X0xnR3J5Nm83Zm5HMHBGMVE?oc=5",
+      "published_at": "2026-11-05T04:05:00+00:00",
+      "age_label": "3 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": 3.31,
+      "short_term_change_pct": 0.11,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-11-05T00:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 424.8,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 49.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-11-05T04:05:00+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "JD",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 51,
+        "macro": 50,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-05T01:23:21.899372+00:00",
+    "updated_at": "2026-11-05T07:59:40.250331+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,168 +94,204 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 8
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       }
     ],
     "geopolitics": [
       {
+        "title": "Oil sell-off may be premature as Trump-Iran escalation risk remains high: Analyst - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMjRXU0ZyWVQ3d3dtaUFWejhRVEtBcFFrQVpzck9RUzZLZWtuYlVNYUowaVJNMGNmdjY3a3N6N3dMdzhLMW01b2FpTDVVeVRLbFRoQUE3T1ZxM0ZlZHNmWkxYMmM3R2FyQ3VoZmlZXzlXYnBTcmp5bjBEWExfbm81SmxZWDVOU3A3SVVxdTFzR2tXTVM4SHdRdUNVOFdmUXRTSXotWk5jOXloWmNR?oc=5",
+        "published_at": "2026-11-05T07:49:03+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China says trade barriers block tech imports, fueling its surplus - Nikkei Asia",
+        "source": "Nikkei Asia",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUjB5V2tLQ0ZzaGF4Tjg2X1o0VF9YODZma0phamhGUDB1S1Q1ckxmOGRjTVk3RU9HV2ZwOVo2RDZHZnJxSkczTXBpbzQzOHVHbEhIbmkwdGpZY3lKREJFb3hBVVZtV05WOUczbUduazdDaWl6N084OGM5c3VjdG85LU5feVFnR1p2Y0NheDJKTVIxNGxzTHlnY21QMzYtTVVyTEdWQg?oc=5",
+        "published_at": "2026-11-05T07:19:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "‘Squeeze narrative’ on China’s trade surplus belies reality: official - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWjlqQWRtNXpVVjJ5b1BSWlNSWENZYkRFOWVRNWtfVXFKbktXci1OWlk4R1V1SkdKNzI4S2liajNUT0E4T19TNDF1SVU4Z2ZwNWpHQW1VXzVXc0g0WDk3Sld3S3YtLU5DUEI3N2VtYmZkNmg2ZnFKZk5hemhFeXNFT3JzNldLOF85Wkpkb09PNmcyWXdoMGdvRHBZN0cxNXlxWC05elRYTWhSeThlcllhSkg5dElaQdIBtgFBVV95cUxNWjlqQWRtNXpVVjJ5b1BSWlNSWENZYkRFOWVRNWtfVXFKbktXci1OWlk4R1V1SkdKNzI4S2liajNUT0E4T19TNDF1SVU4Z2ZwNWpHQW1VXzVXc0g0WDk3Sld3S3YtLU5DUEI3N2VtYmZkNmg2ZnFKZk5hemhFeXNFT3JzNldLOF85Wkpkb09PNmcyWXdoMGdvRHBZN0cxNXlxWC05elRYTWhSeThlcllhSkg5dElaQQ?oc=5",
+        "published_at": "2026-11-05T07:00:05+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
+        "published_at": "2026-11-05T06:55:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "New US Congress Could Force Trump to Impose Tougher Russia Sanctions, Restore Ukraine Aid – Brzezinski - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLOFA1Q3BvTnZlNVU0ZnFuSGlGSEFYYzZ0QWNxYm9vb0FUaEQ2R0RvSHVjMmV3U0NDS3FtM25yRzhZc1A3SjIzR1Q1WQ?oc=5",
+        "published_at": "2026-11-05T05:41:14+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US first lady to address Ukraine ceasefire at White House - Macau Business",
+        "source": "Macau Business",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQzBGTEFlWTExSjJjTlphc2NlTXF4RmJUeEZlblJLS2ZydG0yWnZaelA3TE9MckFCX1R5Mk9HM2FOTjdCNnJ2SmhKUkNyb2RzNkpXcW9wUnBHZmx4NEsxZG96V2J4NXQtWmJRNEZYSGo3WEFFbEZGV01uME4zWjhWdkMxY0o4M0RtNlJVTA?oc=5",
+        "published_at": "2026-11-05T05:14:13+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia Weighs Moving Data Centers Underground After Ukrainian Drone Strikes - The SOFX Report",
+        "source": "The SOFX Report",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOUp5RHZibDFvUm1GUG8xRVhVWFdWS0htYlVrSUJqbExMajJnYlNqcUVFS3lBTjN4czU0NkV6Q2hxOXNSekJHZmdYbk5CZHZEV2Q1ajdzblFzQ3dVeXZ3d2ZyWWNqR3k2bUExelduQWZVZW9oOTVYNWl2dFJrTUVoM1V0RVBhd3lkLVI3eV9DX1ZJaVE1b3pZZTNfLVhEUQ?oc=5",
+        "published_at": "2026-11-05T04:02:06+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China's services trade maintains brisk growth amid push for new drivers, opening up - State Council Information Office",
+        "source": "State Council Information Office",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Gb1RjUXpUSWNSUFJWTWtJbS1ybnFFNkUyWXBjRVdmdnpkNmtmSDRLTlViZnpVVVhMZ3JzRlQ0VVZtYjBWZXotQjFNTTk3M2M5dms5VFRHbjdjUEhJRFBUYXFyY25UdkhvRUlJNW9nNHYwaFpQNTE1Um1fblA?oc=5",
+        "published_at": "2026-11-05T03:46:46+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOanRQS1NxX3lCdmRsYWJ1STlUY3B4SDIwaHpITTBOUnh2ejlJNUlkQW9QWkJXcTFFckhBLWlCTnRPUTJYaWd1Q0tVSDhIQjNkd2NQRFpXSkhaTVJiZHF4cG9CbnhDSVYzejkxX3JDS0kwaGs2NmM2RGJNWjJSSmNzU1FHT2PSAYoBQVVfeXFMTmJ2eEhROHc3V3Y5RGwwQUVCUC1oTFpqbnQ4WjdNbE83Uzd2SFpXUWJCdloxT0VqdWM4Z3RPM1UwVS1rWHFLLUo1Y2ZScGFjSkZqQ3NQSl9RMnV5SjRPcXZEZ0sxLUJWWTZxbldMcFc5WENINlJnTVo4QmMzLWFXSzB5Uk1Xb1oyRjVR?oc=5",
+        "published_at": "2026-11-05T03:44:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "New Iran sanctions issued - KTVN",
+        "source": "KTVN",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVkhwME84VmpUMVFCck9kSHpWX2pWRXAzdHhkVHpvQnBMcWtjOXd6Q3AyRHdmVmhRYkwxYi1IRk44UHBOZzl0bnpRdklNRU5YLXRPZ2lUbE9qWTlkQm4yRkIzRnkxTDdzYzRLVGg3QnFSOU1CNmhrMUpLa3Z1Wk42TmtHdlpUNFBWUXJITG1kaUtiTFBNU3BVcUNoZjlfUUNCU1JvWFl4NmhaQQ?oc=5",
+        "published_at": "2026-11-05T03:28:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi Arabia Has No Easy Choices as It Weighs How to Combat Houthi Threat - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVVhxQjdGQlQ0S0NwQjVReFpaVlpSOUM3c1I4YTVMS0FhWC1zYmQ0YTEwclNHRl9uaFdseHJtenlvM2tJakhPeENNWW1hSWtfQXlBOGs5NFFQUlZHVHgzeTF2SnV2SUxUalVuT0JLRWVOeDQxdGJGTUVOTGwtc1ROcmF2VFhUaVNJUnp3TDdWU2U4bzB4M1dsR0o5VVd1OHNaOHJrYkxGLXcxV2hmeG5XOG96UGtnTlVVMDN3Wg?oc=5",
+        "published_at": "2026-11-05T03:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil falls for a fourth day on expectations for lower risk of Iran war escalation - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdzM2c3YzcktwU285aS1QaVVzTk51WFR0UnpxMXlnaFdEd2RtZWYzMm81TDZQUTJZS0ZlLXFVV3ZhcGFibkdLZm9Remo3YjlhNHJTd1lxSXNMUFNzejhIMkt0TlFRXy1RZl9TdTkxbDhfdjQxUEIzcUhaYlpOMjZJSVViNmVPV0dRV0RmaTJ3dDJ3QUs4TTFleFlnZnNyUHhVYlQ5NldaZVRZRFd5dU5nVnRKVUQ0UFE?oc=5",
+        "published_at": "2026-11-05T02:20:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oleshky Ceasefire Demonstrates That Russia Has the Capability, but Not the Will, to End Civilian Suffering in Ukraine - Institute for the Study of War",
+        "source": "Institute for the Study of War",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxObUtrMGdpN1lUU0RqM2JlQm5KanJLeWtnNXFzZWFnWjdscHdNYzNwQmRaLUI1Q1F2dzQ4ZkNQT2pNWC03a2JuYlloZUlad29EVzU4U19hQkh2QVdTeUFvTzIxNFdSczZfdjZEWldaYVFtWGJESnNmYUx1RnREQUVHT0kza29qeVZLbGtrX2NhclhjeEFMQnlDaDdDS0Q5RE14cHBCeGZiYVVrd1RrbXRoZzJ0cXhsTjcxTndidHViNGhlZFFtbk5yaDdwSzZsV0JqbW1VYV9aSmQ5WFQzcHVUU2JaV0cxWi1hcWJnZy02cWw3WmNmZU5YYnpITnZRUQ?oc=5",
+        "published_at": "2026-11-05T01:15:23+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Moscow Courts Africa, Seeks Opec-Style Coordination for Gas Suppliers - Energy Intelligence",
         "source": "Energy Intelligence",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA5Tllpb0QxSkJ6cWl3SVIxNFJPMVM1S2dzbWZjUktnMEZUdnpoSVZJRFB3STd5VnpBb3dPMS03aGppSEFTMzBJcDRpazFxZi1ZS1RGZWhJRng0bkhEUHRUSWFtYUIxb1RjTzRESks5bUhjZw?oc=5",
-        "published_at": "2026-11-05T00:22:30+00:00",
+        "published_at": "2026-11-05T00:29:56+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "In Ukraine, a ceasefire gives Kherson residents a breath of fresh air: 'I fear that hell will return' - Le Monde.fr",
-        "source": "Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQemZsanpILTZIdzEwajRuWUNJYXpGQy11eUVDQkJMdllqQUZuN3lzM0o5a2ZBSWhfRkZTUXVaYktFdERJQ2sxcThTTk5VaXp6Zkl6UElZRUFTcVN3T20yNW8xamFLOElkd0JsS1h6cXc0dmRPSEd2OWxHQ2VSY25FWGJWcDdiakY2UVhBbGhCNHEzRHZVMllTM2VoaFM0WjJINmFQVmR1eTB0WFEyeHFteW5FbjZnc2V0TVBuR1IxdURSTGxFblZrVU5wUkp3RFQ2Yjc3YjNwWjNxRDN0UFg5VzUxOVNla0lraGxLcFI5VV9LdkxtZU5wc2stYjhIdVNL?oc=5",
-        "published_at": "2026-11-05T00:08:58+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Beaten at home, Trump faces stark choice on Iran: deal or escalation - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc3dTRDFGYS1HSWtZcGh3ZTh2MjRleFhNUkwtR0wwSUd3TWlsQU1tcjI2ZG1fa1RxNHEyRDJsSUpjTzNGb0xTRE90Umh1RVdncGxtN29NNVhXel9PMlZ3UEQ1bDJzTkh4V052MEh5UFFteDRHakRVTzVQLS1rdjEzM2xjZDlYdjhCWkxwMkZOMjVSUlhOV2NCVl9ETFROeEN3ZENWQmZiejJhLXctcHFDUkc5d3k?oc=5",
-        "published_at": "2026-11-04T23:39:14+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China and the EU: Navigating Trade Resilience and Global Economic Stability - Alwihda Info",
-        "source": "Alwihda Info",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWtZZFRBeVktbHRLOVdHZHNjNF92NkoyYzJIbjA0Rm0tQlBpNFZlOHN6bXgxS0N5bWRVa1BNTHFSeVdTMjhOTUR0dDVTeW05S1UyblZnOU5nd2JoRDZTaTU0QXRjYzRmdlhlSF91MUhjZVBTbzBNTkdKTlR0V3ZhTk1XX0N3RmlLTXUtMGQ1b19fdFEtUW5tQlBycmNVNDdSUFJQZExR?oc=5",
-        "published_at": "2026-11-04T23:37:07+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "What Trump’s Midterm Defeat Means for Iran and Oil Prices - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeTg3TkZ0TWJkWUt2Sl9OTG1LRU9JZGhqazhzSWxEVTl4SDFwYU9HcktqMGRQS2VOd2libmF3a1pDb2NESTN1bmthUWhlc2NFV1k4WDRrdEE1SVBJOW54X3ZTN04wUjJOeldDSUNhdU8wanFqZXlTV3U0RGw1TFVhOWNta3RXb21IQXFHQl8wWQ?oc=5",
-        "published_at": "2026-11-04T23:36:59+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia arming drones with propaganda, cyber threats, Ukraine's drone commander warns - The Kyiv Independent",
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkxaX3pEZTZNU1dGbkgtYW9rRlg0MjJlelNZMzZZbTMwMC14ZWhZa0VUMDR4N1luYVBjYTdoRWlIdURxUmNmYlFjODdMNzZuNXBKcFYzQlFkVGZVNVBaNXV5MWZTQmN2Vl9XUXkyUWdraWRQdndoSWYwa1ZieGd3aUtleFNLQXdDaEh3WjhkUnh5OXlXbUJDX3BPLTFRQzlBanBHQzJTdEFldDUxaHRJ?oc=5",
-        "published_at": "2026-11-04T23:23:52+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Zelensky awards Melania Trump Ukraine's highest honor for women after brokering Oleshky ceasefire - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jdFotNkNza2pjeEJZQVU0M01GempGbzZEYTF0QTk0NXFoUm1KMHdOdXVEXzh3Sk9ZR3dDbGhSVUNqbGxnb2xUZG1iMjhjenh4alktSndnVmM1ZndBN2Fz?oc=5",
-        "published_at": "2026-11-04T23:01:08+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Prices Ease as Mediators Propose US-Iran Ceasefire - EnergyNow.com",
+        "title": "Trump Denies Offering Iran Sanctions Relief, Tehran Says Ready for Talks - EnergyNow.com",
         "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDB0V3RDU2JhYnVtVXlzLUlZdXVMNTBuUHpYWGZRd044VXg3VjNqZWdXbExlM0d3cEFFa0tJbWxxV3puZjZIRHBmS0VQYWh2QlgwbFdKVUZwQTJHUW5vZW1xQnBaSXhtRkpxZVRUN1Z3dWpDRERQTmYtZzl4R0pIRW83eTc4ZGlXcFBHVFJKenlla0g4aDFEZlNHY1hxdUJ6QzhVYTBuSm1EQWo0V3VncjdZRQ?oc=5",
-        "published_at": "2026-11-04T22:50:15+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Canada-China Trade Deal Through 2028 Raises Stakes for Agricultural Markets - AgroLatam",
-        "source": "AgroLatam",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTXI2TmtaUTJHaC14bDFNX082VFIyOEd2cU02T1BGQ3ZickdLbVNab0l2Y3RMY0k3STJVbG9ockNhNVp6djR2OXF3VjNjZE5vS29GQWNjaURUSTIzLU50X3FkNW5IaThWcHhfcWo3bEQwTWw4bHVzQWxhMmpWWC1KZ3NXRzdCX3JtV0tXNlFB?oc=5",
-        "published_at": "2026-11-04T21:40:44+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Futures Fall as Market Holds Out Hope for Middle East Diplomacy - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklkQ3dLbGJfaEt1ZDNyR3BZbk5JcjlJWVNEVnRrSVFudjJsOFA1S20zSlNxdVpoVkFJM1liUUdaTXExS25HTzFnUFYxWUNkWUFTVU9mODVlX3VwOGdzRGJEdHUzQzhyekVZeUhmN1RTTUhMM05peURpTFBRTFcyZ3RyX2dRT1lDT3k5YmtWeHRhYTJGdWNqWFRXZFVJMWMxMlM3YWcyZWlMZHV5SGc?oc=5",
-        "published_at": "2026-11-04T21:13:35+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil prices fall on Vance's post-midterms Iran war repudiation - Politico",
-        "source": "Politico",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0Q5aFRYMzZ5OEhGUU54cXg2VzMwSVozdjNrNjRQWGx4cGxvZHM5Ry11RHh5RlZDUzNicUtpMFVVQ0I4SGkyVzU3WEdOQlRDcTZlbEVvazEtdGtfUGlvWjJGcER6RDJqejBQclVKWFZyWlBUUVAyS0ttTUJTYkdWdmN5elVjN2lBWW00?oc=5",
-        "published_at": "2026-11-04T20:46:00+00:00",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLS12MFI4WlFKSGpvRi1JZ2xzSFMwNUhXUXJaOUVmbExLRUhOV29CcDBmS2ZjaTVDVGl4SEYyOVB4Mjk4MDQ2RGdHNmNjVDljemx1Z1NGdndXR3dBSDljM3k1QU9BZTdwYVNyWjc4SVd1cGszX1Z4QzBXRW14TXo0SER6NEpFRGc1MW1MdDQzZENhaG1Ic1NUQ3Z4RTQwNzQxWWpBQw?oc=5",
+        "published_at": "2026-11-04T23:13:54+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Can American Small Businesses Make Missiles for Ukraine? The US Air Force Thinks So - The National Interest",
-        "source": "The National Interest",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdzlNR0lYLUd3ckRzQUhnd0Jxam5qem1odkVFSm1SRHNTRDZXODY5V3VWRVhrSHdjNXhvOVdyYWRiUl9QWlg0QWJ4Z3AwUFVhQ3hibUhDY0Z2SGFsZmVHUGZILXZ5aTR6a2lham5mRjdkcV9IMjcyT2I3MWhyZ3JvS0NfTTFJcm51bndVZUM0XzhSbjd2RncxRTVvdXZYMTJibEdqWHhybzB1UQ?oc=5",
-        "published_at": "2026-11-04T20:32:29+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "In the News: Election Impact, Trade Deals - Sandler, Travis & Rosenberg, P.A.",
-        "source": "Sandler, Travis & Rosenberg, P.A.",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLVpyb2swN09hMVk3NHYydUFrN0k3Unlrblg4M1VLdWo5T3c2X2RkVlJ2R1hRanVDQ2xWY3lfdkhqdnFXYVpXakFqa1NZamJ5T29kbjg3bTNwTGVqSUpIVnBlNTBZNlJVeDg0Z0NaTmp0TlVoRGJENThwb09PSTNIMDVZRnFkajdRNlJCS3FaRHhpM2VmNFFTWG50Umt6X2hiMVRPSDJtd29zQmo1ZmRxLQ?oc=5",
-        "published_at": "2026-11-04T19:44:26+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NVIDIA curbs China's backdoor access to AI chips with new cloud partner rules - Fox Business",
-        "source": "Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lbG93UVN3U2MtaFpieXhEci02Z0hWZE83SWpzRTdfTHB1bnc4YllKYjFGQ3REaGU3OWxRbHhRWmIya3BpZ0NxZU9QSWxmZ284cGFCZUZySnJJV0k?oc=5",
-        "published_at": "2026-11-04T19:21:51+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump's midterm drubbing could give trade partners room to resist - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1l2eFV1eVp6bE01NW40RDUtcmU2REdDOUZDRU5JSmdDN0MtNElwaUZXQ3VVUUVqV0tuSFZNb3RaeTBNd2JXanAyRlJ6UUU0S1pPMVdzYjV6OUpyRW1yc1hST1o4SFozN0JZYzU4dldLSXNkc05VeUwyV0E5TXotUC1lYXhEN2FtaTBXN3hOdHR2T1FaSE1Kc2ZHdnExcFZuWUpxVWwxQQ?oc=5",
-        "published_at": "2026-11-04T18:36:31+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Moderna Earnings Preview: The Melanoma Breakthrough Is Real, But $221 Is Way Too Much - Seeking Alpha",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaFdObVhaYnAwQWtuUnZWNzdMM3hjZl9kZHZ2WnhRRk5IejlKa0dzT3NSNzQ5SDIwZ3ZVajA4UnI0VVJ0WnBsRDctbkhSUnNNb2Voem5oc3NpNW94WDFoQXc3V0NlTzQ1VWJQamUtUHpucUkxQ0RxWldNVWNhMXJmV2d4NW9vTnFHYy1lVUsxdF8zZExzd0pnenhQd1JaMnF2QjlhdlEyaXpyZG1waWQyX2V3ZzdJbzduZ01RanJXcUw?oc=5",
+        "published_at": "2026-11-05T06:23:59+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Micron Hits 3-Month Low Amid Chip Rout After Top Democratic Lawmaker Calls For AI Regulation, Pause In Development - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNlJnUmhfZU9xakkweHc1elZzOGNaa3hlZ0s4enRZX0Fad0dEQXpiZ3NaZVc1X0ZIeU5xWTgxWURNOEp1VklpRDN3UHYwWDc3S2NWd2h2SldVUUtqOTE2M21DYXR6T0VwY2FYUDFYMXR0V2d2NHRYd2Y5bmtpeFZrdzlza1BOczhPc3Q3aDRkc1o?oc=5",
+        "published_at": "2026-11-05T05:13:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Moderna (MRNA) Q3 earnings report preview: what to look for - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQ1dJU3kxa0xaNFJGTjA0bXpHS09qYjJGcC12Q0xqbDkyTm1EQU5EcjlDeHFlRktyYUU3RkxUX2w2dXFmTXlBeUVWYVBHZWRlQXE5QUJ3NmFOdjQtZWozV3pvRXFpQlNHcXJEOWQ3MW5zLXpnbzNlMGZSRk42Zk5NVzZIdDBLVzZxREF1aENYbmYtMG5TY1ppQTNHUElVbndDdFVpRXltdFJGMU9YV002SHh0VExhZWZF?oc=5",
+        "published_at": "2026-11-05T03:02:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Pfizer (PFE) Q3 Earnings Rebuild Confidence As New Drugs Gain Ground - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdGlHb0hXbkJuS1BabHRTakp0TVN4SURLT1dZeDI5dVlHRXRLQXhWNkViNVRZekNlRFJHdUJlRmNfTnE0RjVlcHNQelJZMGh1cHdvRWlFeXFNMHIyZ2NwYmlVR0RhUEY1aU0xSTBkemh0V3pRaklCMTBMN2tyQ1pZR1Zyb1JPN3I5b2dVUG1FVjY5RWk4Q3c?oc=5",
+        "published_at": "2026-11-05T02:10:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Vir Biotech earnings beat by $0.17, revenue fell short of estimates - Investing.com",
         "source": "Investing.com",
@@ -232,65 +311,11 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism - MarketWatch",
-        "source": "MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUzBIQjltbVJSandzcHJKd0pRaDdUSkFXcmRqc2Q5QjQwS3QtX1hZQWNwbTJhQkEwVFNwUDQ2czk5VFc0NE1mX1RyZ0hTM3ZrYTh1ZTIzY2RwYUZ5MzFZTzRod3RHQWxwR2lOMTZYZU51TU9vNkZkOXFqZFdHNkhYajFvVzVRN0V6TEZpMS1UTG9IbXhuVjV2S2s5LVdibXlOcGtXeHg1b202Q0hTVG9qUVlFcktIbjRtd1I4Q01GeFlhV2p0U3B1LXpLRVhIUDU2LUFUWW5R?oc=5",
-        "published_at": "2026-11-04T21:55:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Grail Q3 Revenue up 4 Percent as Firm Awaits FDA Approval of MCED Test - GenomeWeb",
-        "source": "GenomeWeb",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX19mcFNYb3dsd0pzZDY4VnNQb05LV2ZySkl6dUFLVXZFQmZoVVNnaVE0WDViQnd6UkRLa29uWnpEV2dKdlFXNXFmdTRrQWcxRVZNa0pqeTdETmFoSkhkc1dlRHZIM3ZuRE9teHBNbVV3cHBFY1R5SWFSUmRucFBoMm51ZW5ud2hDOW1xQ2ZvMDkxMVNQdElfUUlZU1BIWVRoWUVIblRB?oc=5",
-        "published_at": "2026-11-04T21:55:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "NeuroVoices: Cindy Zadikoff, MD, MSc, on the FDA Approval of Tavapadon for Parkinson Disease - NeurologyLive",
         "source": "NeurologyLive",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPazliek5RVTh3VGpkNGpUMlpxMkJ1dEgtWEZmUDlCRlluenpmdDRNOW9HNDJWNlRlZ0tOWjVGb09RdVUxZWFTZ29BUXNmRjNrSGJkYXlqYWk0STZvUWk5SWJvU0hOdGJxVkZIblo0eXNMTnJhY1VIOWtiLXBxQ0V4bjRzUEg4c0ROQXVFVWd5QVlfWmhvejJDODJMTDdwd25iTGZ6Yw?oc=5",
         "published_at": "2026-11-04T20:39:29+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "New FDA Approved Flu Vaccine for Adults 50+ from Moderna - WHAS11",
-        "source": "WHAS11",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWmptQ0FQN0JNUjZRYmdpbUVxd01XbFM4QkVPSG52UXM3TWVHZEhMVHhkSlR3bmw3TXFrMlV0WmxKOGlwLTB5c1dmNHRHazh2elltYWZqbl9ySDJDYUE2QzItU1lQYnZpS20tX0s4ZkVVMjNvVEtyRm9oZ0dveG5jeXU4RkpzRHg3ckVmNjdfcTVLdGktbXNaemZfR2JoTWpNeTB2REpvZlYtVjI1NHlVQ0FVQXNnYUJTLXlRSF8zTGhrQUF0dHhjUUJsaUJfaFFNXzMzOTNpVFFmangxTWpVS2JzQ25SUQ?oc=5",
-        "published_at": "2026-11-04T20:33:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "NVIDIA curbs China's backdoor access to AI chips with new cloud partner rules - Fox Business",
-        "source": "Fox Business",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lbG93UVN3U2MtaFpieXhEci02Z0hWZE83SWpzRTdfTHB1bnc4YllKYjFGQ3REaGU3OWxRbHhRWmIya3BpZ0NxZU9QSWxmZ284cGFCZUZySnJJV0k?oc=5",
-        "published_at": "2026-11-04T19:21:51+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "GDL: New FDA Approved Flu Vaccine for Adults 50+ from Moderna - WHAS11",
-        "source": "WHAS11",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPa28xanBsZUtGVmc0SVh6MVAxQUMxSmZfY0pzUEtHMFl5b0V1S1VOZ0ZLMmduSXR2V2diSGdQTy1vVGdFVmQ3ZkZucExWZXphWUFsRVRNWE04b1RYWE9rVndiZENRTXFnTW1LOGVwSHl2U0VodnVBellWUzZHVGVmNmRhUlVBRXd0N3k5ZzI1MlhUSngzTFVnX3BCRlM0Sjhseno5WWRHUWNBRnFlMVpPRmprS3o4Z2xfLTNqX0FfWGtJOWZPZkpWX1hZelhyMmR1Tk1fazFDQ294ZV9UZEduQTZxRGRWdjBj?oc=5",
-        "published_at": "2026-11-04T19:13:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "AMD earnings analysis: questions answered and next catalysts - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjlPM3hVZXJETkMzZTBGRVZiUlVCZlZRMHZZby1mZVpLeDlERTFKejZZQ1luMGpteE9kemVOVFNvdEc5VWxPaUk1Y2ZGcTlLVk1TV2hRcngtbWhubGdDNUNaMmR3NUlrcWh5SENYY3UyRDRHWVVyUUgyM3ptT1RrNks1a0wxQmY2MkNFM0VEeGdKa05xWUJtdUhqWkFEeVUtdmU1RDlxbHk?oc=5",
-        "published_at": "2026-11-04T18:00:46+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -302,11 +327,29 @@
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "AMD stock flat following strong Q3 earnings beat, as data center revenue climbs 97% - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZFRPNElwa3FUajNsNFhOR1NIWlNSZkhZcXN0a0ZydjJtQ0h0UFVTMzQ3TXFRcUhnUHJjTWVrSUNjTkc2cUhFaTRXWTREQVZCUUd3M2pDNVoyMHRxOXpCaWY0U0U3dXM3c1JkR0JpME15V2RXQlVVNF8tOEktS1QtMU50SEFwdFRyZUZTNVZEc0cyODA4djdEU3Y2MmppdklRbjBueDE4eGtPTDAzMWF2OXFCV0x1WFNXUXMxR05TQ182MFo3NDJrem1yRFVzdENTaHhYZllURDY?oc=5",
+        "published_at": "2026-11-04T15:49:19+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "AMD earnings beat the Street. Here's what analysts are saying - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAyZGQ0QXhqYkxYQUljejlZY0ZzU3lmNU0wRXZIaVZrS0hHQlZCM1ZCTDNiWHhlYkdSYXU2c1JzT2xsMEpUN3RlX3dfNEdIOFhVQjh5UzJ3d1NxTWQ2VEdfQzVNQWpNWFA3OUVYYUNhSXN1ejlSVHdr?oc=5",
+        "published_at": "2026-11-04T12:44:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 280,
+  "archive_count": 281,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
