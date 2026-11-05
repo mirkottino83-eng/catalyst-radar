@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T16:18:51.259366+00:00",
+  "updated_at": "2026-11-05T22:07:01.486735+00:00",
   "events": [
+    {
+      "id": "c8d40ac82f7d",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Box Expands Partnership With Nvidia on Enterprise AI - marketscreener.com",
+      "source": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUJuQVZXMzExSkFkdlQ3b1ZjV0lrd3ktQ3pKYllQUXdlSVlEVXpiQ2wweWxYWVJnNXdPc2JhZ0VkQjZWVXVMb2ZCcWJObU40c3RUZ1Vxak1ucEgzRnI0MnNHWXJsYWN4T2RUOWJHVFpENFhWS01RdS1NMUtIZjQ0eWVqeW5LVmxlQUZZVXlmWklXZmc3c2NpRURPLUt6ZHlCOEtYM1BzdWc?oc=5",
+      "catalyst_type": "partnership",
+      "published_at": "2026-11-05T17:46:30+00:00",
+      "first_seen_at": "2026-11-05T22:07:01.486735+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 54.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -8.6,
+      "price_at_publication": 182.92,
+      "publication_quote_at": "2026-11-05T17:45:00+00:00",
+      "pct_at_detection": -9.18,
+      "checkpoints": {
+        "2": {
+          "return_pct": 0.9,
+          "price": 184.56,
+          "quote_at": "2026-11-05T19:45:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "823f6cdd944a",
       "ticker": "NVDA",
@@ -26,7 +54,11 @@
           "price": 185.87,
           "quote_at": "2026-11-05T16:10:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -6.54,
+          "price": 183.83141,
+          "quote_at": "2026-11-05T19:10:00+00:00"
+        },
         "8": null
       }
     },
@@ -54,7 +86,11 @@
           "price": 102.44,
           "quote_at": "2026-11-05T15:40:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -1.42,
+          "price": 101.1248,
+          "quote_at": "2026-11-05T18:40:00+00:00"
+        },
         "8": null
       }
     },
