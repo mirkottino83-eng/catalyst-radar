@@ -1,7 +1,63 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T16:54:39.683419+00:00",
+  "updated_at": "2026-11-06T21:52:42.910461+00:00",
   "events": [
+    {
+      "id": "7b6da6ede1c7",
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "headline": "MRNA Q3 Earnings Beat on COVID Sales, Raises '26 Outlook, Stock Rises - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTGljRXZkY0JvWE1GckFtemkybWNBb0xPbGNRS1dNMzdYbEtDN3VKb2tnd1pvMlp4cV9rdTQtV2JvT1hCdWNYYjNDMjNrbktkOHZhUHh5MS1obVByZlNCbUNkNUJrNnJ6OG0zaXVvWGRGR0hrTkhzaG1pZDJ0SVRfRjRuQ2QzNHhXOUxyNW9uc0ZjVVctOG9QNGtYRmF1NnJNUFA5cjlBdnhVZTl4c2hsZTBUTnBWei1iZTlvT1pyVQ?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-11-06T19:52:07+00:00",
+      "first_seen_at": "2026-11-06T21:52:42.910461+00:00",
+      "estimated_impact_pct": 1.2,
+      "confidence_score": 67.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 8.67,
+      "price_at_publication": 262.38501,
+      "publication_quote_at": "2026-11-06T19:50:00+00:00",
+      "pct_at_detection": 5.85,
+      "checkpoints": {
+        "2": {
+          "return_pct": -2.59,
+          "price": 255.5888,
+          "quote_at": "2026-11-06T21:45:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "8ee249a60f8c",
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "category": "Biotech",
+      "headline": "Moderna's COVID vaccine carries stellar Q3 revenue beat - Fierce Pharma",
+      "source": "Fierce Pharma",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYkZVV3dHRDFpeUxHazIxSVhpWlV4Ty0zSG80N3pELUUtWEdiV2tpV3l2S0hCby1QcjF0RVU2RUVHUWJVWWEwV1VJaklJT1F0TVNUMHYtQ3YtRnd0NWt1QXdGaURwd0lyQ0l3MGctRlZjYTd1ZlBOaVJDbHhObHpEOWV3d3hGTk1yc3dIdU1laV9fTFF4?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-11-06T17:00:00+00:00",
+      "first_seen_at": "2026-11-06T21:52:42.910461+00:00",
+      "estimated_impact_pct": 1.1,
+      "confidence_score": 65.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 8.72,
+      "price_at_publication": 262.51999,
+      "publication_quote_at": "2026-11-06T17:00:00+00:00",
+      "pct_at_detection": 5.85,
+      "checkpoints": {
+        "2": {
+          "return_pct": -0.95,
+          "price": 260.01501,
+          "quote_at": "2026-11-06T19:00:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "c346a89d7f7f",
       "ticker": "MRNA",
@@ -21,8 +77,16 @@
       "publication_quote_at": "2026-11-06T16:30:00+00:00",
       "pct_at_detection": 10.53,
       "checkpoints": {
-        "2": null,
-        "5": null,
+        "2": {
+          "return_pct": 0.9,
+          "price": 263.14499,
+          "quote_at": "2026-11-06T18:30:00+00:00"
+        },
+        "5": {
+          "return_pct": -2.13,
+          "price": 255.25,
+          "quote_at": "2026-11-06T21:30:00+00:00"
+        },
         "8": null
       }
     },
@@ -45,8 +109,16 @@
       "publication_quote_at": "2026-11-06T15:05:00+00:00",
       "pct_at_detection": 10.53,
       "checkpoints": {
-        "2": null,
-        "5": null,
+        "2": {
+          "return_pct": 0.73,
+          "price": 262.23499,
+          "quote_at": "2026-11-06T17:05:00+00:00"
+        },
+        "5": {
+          "return_pct": 1.94,
+          "price": 265.38501,
+          "quote_at": "2026-11-06T20:05:00+00:00"
+        },
         "8": null
       }
     },
@@ -74,7 +146,11 @@
           "price": 45.4,
           "quote_at": "2026-11-06T16:05:00+00:00"
         },
-        "5": null,
+        "5": {
+          "return_pct": -3.58,
+          "price": 45.67,
+          "quote_at": "2026-11-06T19:05:00+00:00"
+        },
         "8": null
       }
     },
@@ -102,8 +178,16 @@
           "price": 55.32,
           "quote_at": "2026-11-06T15:20:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": 1.36,
+          "price": 55.94,
+          "quote_at": "2026-11-06T18:20:00+00:00"
+        },
+        "8": {
+          "return_pct": 2.41,
+          "price": 56.52,
+          "quote_at": "2026-11-06T21:20:00+00:00"
+        }
       }
     },
     {
@@ -130,8 +214,16 @@
           "price": 254.99001,
           "quote_at": "2026-11-06T15:15:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": 8.52,
+          "price": 257.95401,
+          "quote_at": "2026-11-06T18:15:00+00:00"
+        },
+        "8": {
+          "return_pct": 7.24,
+          "price": 254.91,
+          "quote_at": "2026-11-06T21:15:00+00:00"
+        }
       }
     },
     {
@@ -158,8 +250,16 @@
           "price": 260.1947,
           "quote_at": "2026-11-06T14:50:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": 1.43,
+          "price": 257.23001,
+          "quote_at": "2026-11-06T17:50:00+00:00"
+        },
+        "8": {
+          "return_pct": 0.45,
+          "price": 254.75,
+          "quote_at": "2026-11-06T20:50:00+00:00"
+        }
       }
     },
     {
