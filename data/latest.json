@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T14:10:11.382416+00:00",
+  "generated_at": "2026-11-07T18:44:36.256674+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -31,10 +31,137 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "287e63be5b10",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Google Reveals $548M Qualcomm Stake From AI Acquisition as Nvidia Chip Rivalry Grows - Coinpaper",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Coinpaper",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeFpUejNnWWRQdVZIdFIyaVdNX3V3al9Ic3RsZkxBUWhDVDIteHhJaGJ0S3gzWXlfdWtKcEFZLUdBZzZ4YWY2aXB5bVF3VXFqdDhGcW90dHZZVlhjSUQyaEtWczQ4X1Y3d3BVMVZwSjRZTkx2X2UtYk53Z2Y4UkpDNVRzZi1HS1RUSGlmYkpVRU40QXBLSVdtVlVrVzZWQUdXYWIxV3hNQWF5M0NLeUdqa2ZR?oc=5",
+      "published_at": "2026-11-07T17:18:20+00:00",
+      "age_label": "86 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": 3.91,
+      "short_term_change_pct": 0.33,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-11-07T00:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1069.6,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 55.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-11-07T17:18:20+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "NVDA",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 90,
+        "volume": 28,
+        "momentum": 54,
+        "macro": 89,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    },
+    {
+      "id": "6b2348cd10bb",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "category": "Megacap Tech / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Google Reveals $548M Qualcomm Stake From AI Acquisition as Nvidia Chip Rivalry Grows - Coinpaper",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Coinpaper",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeFpUejNnWWRQdVZIdFIyaVdNX3V3al9Ic3RsZkxBUWhDVDIteHhJaGJ0S3gzWXlfdWtKcEFZLUdBZzZ4YWY2aXB5bVF3VXFqdDhGcW90dHZZVlhjSUQyaEtWczQ4X1Y3d3BVMVZwSjRZTkx2X2UtYk53Z2Y4UkpDNVRzZi1HS1RUSGlmYkpVRU40QXBLSVdtVlVrVzZWQUdXYWIxV3hNQWF5M0NLeUdqa2ZR?oc=5",
+      "published_at": "2026-11-07T17:18:20+00:00",
+      "age_label": "86 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": 1.01,
+      "short_term_change_pct": -0.03,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-11-07T00:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1069.6,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 54.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-11-07T17:18:20+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "GOOGL",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 90,
+        "volume": 28,
+        "momentum": 50,
+        "macro": 89,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    },
+    {
+      "id": "8dca1f166f46",
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "category": "Semiconductors",
+      "priority": "high",
+      "satispay_status": "check",
+      "headline": "Google Reveals $548M Qualcomm Stake From AI Acquisition as Nvidia Chip Rivalry Grows - Coinpaper",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Coinpaper",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeFpUejNnWWRQdVZIdFIyaVdNX3V3al9Ic3RsZkxBUWhDVDIteHhJaGJ0S3gzWXlfdWtKcEFZLUdBZzZ4YWY2aXB5bVF3VXFqdDhGcW90dHZZVlhjSUQyaEtWczQ4X1Y3d3BVMVZwSjRZTkx2X2UtYk53Z2Y4UkpDNVRzZi1HS1RUSGlmYkpVRU40QXBLSVdtVlVrVzZWQUdXYWIxV3hNQWF5M0NLeUdqa2ZR?oc=5",
+      "published_at": "2026-11-07T17:18:20+00:00",
+      "age_label": "86 min fa",
+      "catalyst_type": "ma",
+      "current_change_pct": 5.77,
+      "short_term_change_pct": 0.2,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-11-07T00:50:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1074.6,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 51.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-11-07T17:18:20+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "QCOM",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 90,
+        "volume": 28,
+        "momentum": 52,
+        "macro": 89,
+        "extension_penalty": 3,
+        "stale_quote_penalty": 18
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-07T14:10:01.063118+00:00",
+    "updated_at": "2026-11-07T18:44:26.478770+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -51,21 +178,21 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 13
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 2
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,11 +204,92 @@
     ],
     "geopolitics": [
       {
+        "title": "China Defends Cooperation With Cuba Amid Illegal US Sanctions - Orinoco Tribune",
+        "source": "Orinoco Tribune",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTzdySGo0eTFGWmUtUWRyQlAtRzZQWmJTRndEOTFXZ1ctZ0FZUVhncUZNYWxKSFhvUUlMeTczUXJNWGk0OWszd1RCOEhQaktXQ3N0V2NRdW5KWHdjdTgtRllmYTktblZGYUI3QjZNTXBVcWRxRWx1TnJJaHI2M25tVDRReFFRdFN0Qmx4UmNVbG84OGc?oc=5",
+        "published_at": "2026-11-07T18:24:51+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US Thwarted Netanyahu’s Planned Iran Strike Ahead of Israeli Elections, Report Says - The Media Line",
+        "source": "The Media Line",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPajVWMU13S2FsQUJOZWFZZnVWODdSbTR3RmJGdGpzbVVtNWxESkt1S3hOeG1ncElhY0RTRm1VeTR6RmFxd3o1MjRLbk5PMUJsY2JONlhXTnJnVXF4UkFXVnVBMlFQdVNVSHF2TDRpeDFMTW5JUWpJU2pEVk5jYkZMVS1HUHl5YkdPVUFSRm8xSmE4aGpaeS1VZkhIaURlVVEtLWI2amFCM3ltM1JXbXNHclItemUzUGFr?oc=5",
+        "published_at": "2026-11-07T18:14:41+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. carries out targeted strikes on Iran as Tehran’s leaders weigh mediator’s proposals - Los Angeles Times",
+        "source": "Los Angeles Times",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZldIY0JYNjllYmVNb1AyYzFHOGNyMzNXYmxvbERBQmpqX0VWYks5ZVVacDUyQk5TRTMxQU5QNUI4Z1ZKeG45dFZTVWZPTEdzdzl5M1F5V3BHOHpXWEMwbU1DRVF3R0pIWlR3TGRYcHNKNWRnb0JSaEZxem9XSlA0NkhVYUktUFU2RG1EcmpiVHhlNzdiRVU2eEdxMnVyQUhEMnZwck5NeGhWM3J4T2sxQllmcW9lMFdvc0NFdU9zdW5ydXM?oc=5",
+        "published_at": "2026-11-07T17:34:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthis say at least 25 killed in Saudi air strike - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01Z21MaS1UMnZrUWRfSE8zM2x0NnVrVkRaYXJiQ1lMVWJJWjZtRGpLWm9rcFljaWVNVm9VRWExbUxOZUV3WUJQNEd0Sm5ZZXBFdnkwRldXTTN3OTA?oc=5",
+        "published_at": "2026-11-07T17:09:24+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelensky says Oleshky ceasefire shows Russia can halt fighting but Putin is unwilling - The Kyiv Independent",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN1BtZlNobVdMbWF0bXo4TktwcV9aZnltbXNaMHg5aFJLeXJzUi1abUpramNtTlVCSWFfalRXdW5fMW5wSjM3ZzBuQkpCOFVQazR3VjdiRHE0elhIdUtXRnhsemRTeXdoX2VLeFVKOGJmSmJzYkk2NnpUWG9iVzFvTmc5OWNIYmdGLUJscl9jMlBqcC10clFJb2pweEtuYUJYOW1sUXRQWVNudTdCUjVUSTNObEU?oc=5",
+        "published_at": "2026-11-07T16:13:52+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia's H200 Chips Reached China Through Ghost Company - The Tech Buzz",
+        "source": "The Tech Buzz",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR0JKT2N5OXBlRDFDSG5xSE5VYTJYcG9LMTZ4dGpmaTRKd3B1MTI2V0hIZ1FxVVBqOUt0Rkl2eGg5ZDc0QThiX0xyeUQ4STZweGI0a1pSWDZ2aURwUVpjZnVXV0RaVHMzTldpeFZMaWh4SGhlVXBBRDV5bVlIX0RReld6VTI0OTlpY05PakFtYU9HZw?oc=5",
+        "published_at": "2026-11-07T16:06:29+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Drone and missile attacks wound 9 as Ukraine prepares for talks with Russia and the US - Ottumwa Courier",
+        "source": "Ottumwa Courier",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNblZrR0VadmNOWXA5RkZQOVBLN0ZiZS1HVjNpYm02VDQ3V01FQUVfRTlKTEszdWdWZ2tMZ3l4ck9CZ25CSnlLUzB4QWNIc2h5UlZRRFhJcDkyaUtGZzFmRVVVbk16X0VScTVMYnFoS3dMZzEwbVFEWE9sVjlhV0I5ZjdGWXJsZkRwTmFjNTJPUlQzRWFDNGNnVWkwd1ZvR2loeFFZelRVWUJCSF9sOG9sNFNqZjQzT256dnpKd1YzQ1h6YUdoV0Q1M3pfbFQwbEZ3MnlCTkc1UmtHdmU2NDJfVFlFREdWVGU2X2U1ZlFUWTY4MGhsbnZJT01ZRmg0OEloVXM3VWZIM0swYjZ5bmthbA?oc=5",
+        "published_at": "2026-11-07T14:58:25+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Live - US seeks to extend Iran blockade to land and Caspian routes - Iran International",
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95U0ZtQmdNa0ZLb1ZDczdBNHVhcXJEdTRNLThfVWpPZW1WSjRwY0RERFEwTzFlOVJyb09UZ1h0aUh5OG1PNWI0YVFQeXhzbkdxOU0yX25yaDVwUFlHVWc?oc=5",
+        "published_at": "2026-11-07T14:06:10+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Why EU-China Trade Relations Have Deteriorated - The National Interest",
         "source": "The National Interest",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeWg4TEtKUGZZR01TQU1PWld4amNpUndGaTdLQkNkM3Fmdm02U01HdkcweFFIaUxrRjFaSWdhMjVUWkVKRDhuTDBtNVNEQlBtUEl5OHZ6bm1rendlODBLYmZ2MGVtN2RaZEFTWm5kMEVVNzdWazBOYkdaNjlEQm4wVklBb3FwNGEwOTlV?oc=5",
         "published_at": "2026-11-07T13:53:55+00:00",
         "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil tanker on fire in Strait of Hormuz after mine collision - Middle East Eye",
+        "source": "Middle East Eye",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOG1jOUlLV1E3anZOMFd3dnJPMTVZNEpldVhaR2xjbHR2ODZMLWRrTnNKaWp5QWhjNUlUdGh0eWE3a2V6REFZM1B1SE80d3hoaWxwMDBfaTJELWVRWEloUjExcXNKOER6ZUFNOHJZb0kzVHZoOW1HQ0w3QVRSNC0xUmxabEZETXR6VHhkZU9VR3hlak4xX2tEeHBXS1Zncjg3RXpvYlF0bjNYWTA?oc=5",
+        "published_at": "2026-11-07T13:20:00+00:00",
+        "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -95,24 +303,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Missile attacks wound 9 as Ukraine prepares for talks with Russia and the US - Newsday",
-        "source": "Newsday",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORldad1QzUUstcXhFN2cwTHB5VmluZXJJWldWdTBpNzVZRkJKMlp2ZFJvSVZwYm84VVhIOHY4MFRfTFhvQTRFdVhLWVpiMEdVU05xWkN4YnFsbzFvM1FtWkFORUF6T2YtOThpZ2hWVFlVY3p1QmhtaXBFY3VrbUpHbmRpY1hvUnk5U1E?oc=5",
-        "published_at": "2026-11-07T13:11:36+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Qatar PM says US-Iran mediation making progress, deal still possible - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vWV9YSkJDZ2NSd0o0anNUZUFicnI2WEI0Ui00NGZPN2VNNkJOTjktMTdqWUVMSDc4M0lRamZ1b1hQeTNkNnBOSU40TFFiT0Y3LXJ5aDdhaFZZUkxK?oc=5",
-        "published_at": "2026-11-07T12:57:51+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "At least 5 hurt in missile explosions in Kyiv, Ukraine - WPLG Local 10",
         "source": "WPLG Local 10",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMXctNnRMdHphUl9JODB6TUJfeGZhOWdCT2k1NjJpbkQ5T0U0S0NBSFFoem1GVE9JaFd1S3ZxeS1PLTg4Q0d3a3BucHJ2bGJ2N016WlRZbEZYUFBTOGh4YlgzOEVPeG9MV1lyMWZjQzNtNkcwVy1FUkptV19uVWhLTnVBSUNCYm84WkhOa3FRTmg1R1R3eFAtWTBfVEstem5mR1E?oc=5",
@@ -122,10 +312,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine strikes Russian missile launchers, air defense systems in Bryansk Oblast, General Staff says - The Kyiv Independent",
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObldubGUzY1JZWm1TN3pmRmRYMlV1T3ZfN0lCVWd4Q1VFaXd5MHdjeWhHVUZyTWFiTHNTTUZKNURSbVcwT2FGN21BeW04SHY1Tk92ck1kVkVianhnWnhrRnlWdVFvUlplSnhvUWpmRWVObHd1UDhXeDYxZnRzeWdULXJpRGRCWnJuWndzV0dmMFhXZ0dPM1lwLU9Oc1BSZnpSX3dKejBLUVpiN29fb1pzcFBmWVd0ZzRIMHNmNENOTzJGaEY5cFE?oc=5",
-        "published_at": "2026-11-07T12:38:32+00:00",
+        "title": "Missile attacks wound 9 as Ukraine prepares for talks with Russia and the US - WPXI",
+        "source": "WPXI",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT2NZWFFEZVE2cmptWnNJQW1la3d5aExKU2JnLTNDb05ELXZJMVpkZHFqejlDOHZ1RDdWeDFOejBSaTVCQ1BwWm1TWkdSM0h0N3dWLVpSVlp6bWE4UXBNN1lsOFZBcE0tM29NMWlXNzM3bERxbnJhTG1mb3NkVUMtU1Jyd1dVenfSAZsBQVVfeXFMTUtxWDVKYzdST01FdHNrZ05Nc2dhUUV1eWt4RXNQS0hvTlUzRWc5STZJZkFvS2NnaXA3QmpmbnI3VGhSdERFRWVDY25CbmNNQm15azNYWlY4QkNNZG4ySF95dEJsZnhjSnBBLUNkY2ZsT3Z5bzF6bXdqZGJiMUF6YmFfdVFTOW5wOVlxcDlqeTN2aXRFRS1xa05hblk?oc=5",
+        "published_at": "2026-11-07T12:42:06+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -140,73 +330,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal? - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXQ0d0dpVEhkVm5NVjJNZ1I3dGRaUHZCOUZzRGtXelc4ZGVHTnNmX2tmcHdLTXpvbFF1X3FzYmc3a1dtMmVlQ3lIVHg0OHJxZXBGUHV2R05peGRiM3g4SHJRbGdHTmtuTGxnbzdkNVdjN0ROR0ZzVXBmcDRFWUdtbWk0MWxpcDNiRFRNUkN0d2NTT3FaUWxjMVpOSlpJNHRJNFlZWHplWlpUWjhGcThzWVp5ZnDSAboBQVVfeXFMUFYyNTVITzd1b19BQzhMZWhVbzViclBBcHI5a2JXdWEyZTZnUThWek5lcDdJQjZRUlhKdVo1b2M0Wk5MeVVNYjNZZkNXNlA5Uk95dU1YRUdkYm40UE1uOURxVnBYSXNiRnJaRHphd09NOWVLbWI2N29JRHEzT2JNbEoxMmEzWS1DazJQdkxzWGt2Z2JMOXloRTZlT0oxeEdNdGdhcG1PMjJRdVhqeGxpMzlISlRtRTR1Zjln?oc=5",
-        "published_at": "2026-11-07T12:28:07+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil giants made billions on the Iran War. Here's how they're spending the profit - Houston Chronicle",
-        "source": "Houston Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWWxiUGw2U3NWX1hvcFZxR1J3TWZQTnhIbjI2MllNVjBxUUExenlONnZHOTYtYXJnSnBQQndfQWg1MUdLVV9kbktLTU5FZXB0V3VIU2NPdkZLak95blpjUkxfd21NMjJRZUp5OWZEUDl6VGF4NWlIRWVpSlR6Y0FwV2ZfeEd3eGdLMDNDbUtQMnpuQ0VHb0VqVU5oNlJHWkNLbW56ZkMzS1FqQ2RUcVg1S0lqOA?oc=5",
-        "published_at": "2026-11-07T12:12:41+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran - Euronews.com",
-        "source": "Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON0xoU1lGQTExZWlZZkVZY2ZyUk1XY2hMeFBwZzVjOGxSR0g1QUdVR0JJNXJwU0tSYUQxbVlPRV9DeXBkRWR4VGpIcm5RMWNFSXJIbHVYTjJJaHhwMTRZSlU0WGhtX3lESXFka3l5Z3B6OE05d1NOWXJaTmhMNkFHb0FRRGpIRVRpMC1lYUlzTXZjRnVDWkJZOFVBMTFBVFFWMHFFNkRwOGlVMnRHQjlLNzFxSnI3T2dOLVNxLW1Pbw?oc=5",
-        "published_at": "2026-11-07T11:35:53+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "U.S. Treasury Sanctions Eight Canadian Money-Exchange Firms Over Iran Sanctions Evasion: 6 outlets compared - NewsCord",
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRWh1dUhaOUNCUHFCMmhSS1hRVjZaTlhwNGZ1QjY3a0FKV2pXWUNuR0hzRWdBSnBPbkgxZGNJUEFaNnhwTUxMamlSdkJSMDJPNkRhYkx2U3hDZ2EyREUtTkVkOUUwWmJTSWVnblQ5RnNoLXdESEh2UE9jckJhM0VBLVlhc045UU1jZm5VdUNJS2Rxc0s3VTRkTWVVazYxcjJ2SXQ5Wi1kTXBnM3QwZFpYbFk0UHZ1TFZDaV9ha2x3d3NOb3g0RjhvVW4zTlc4bVYzRUpOWVRza0s2LXdoY1dNTENOMkVRT25zWHc?oc=5",
-        "published_at": "2026-11-07T11:20:18+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump claims 'minor strikes' on Iran's Qeshm Island, but says talks ongoing - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdEFOdUh3VnBYcjVGMzJNY0E5X0l2SHZKOWQ0VDFSNWhiLVFJNkhtMWlmSS1qSlpzQko5Z0VSRHJiNjlRZGlGeVNlQTdpc09PODJ2dmtvU3g5c0MzQlVxWF9pV2N1bmRRSF8xLUtfRUlGNzdGLWZ6Tm9qYzNJcTl4ZW1ValAzbXFaVDJwSGNDLWx1MFEzWi0xZGFEZURSekRmclEtcENabmtIdy01U1YzeUNLNnpXSW8xWTJXbzRTOUxzaG5LRWl3?oc=5",
-        "published_at": "2026-11-07T11:03:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3OFpBR0Q1QW1FTTNkU2t6YzllLTlhM0hxbFUzS3VuUzhOdi1vNURJOXBzZHI4eHZ0WURLcmljcTQ3ZEM4b2c1YVRPd3hoS3phLVVtbE5YcHA5MXExajJCQUl5R2VnOFZlSGNfbUxKNjlF?oc=5",
-        "published_at": "2026-11-07T10:00:40+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US buyers at China’s largest trade fair soar over 20% after Xi-Trump meeting - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeThpaGNjUmZPTjZKZGpaZnRhVWxqZzkxa0NYdVMyTEJGdGZYOXZITmJKNlNyZk1lSmlncm0tUFFtdHZ1N2M5OEZWc3lwMHJNU1dlNHVYcGtmZ1VwQWFMUHNiWE1ZQU5RdEx2SmxabldETDNqa2ZRc3Bxa0RWeDRZYzAxZnp3TkYtYW9iYXVQZkkwRTAzZ2VLZEhJb3BjVFVsS3VBcmU2YzFsRFJTZ2VNOW1HaVB0TnZhOXF2ZkMxTWRjWi0xdklFOUN30gHKAUFVX3lxTFBZckNVZ3hVd2RnTGtHV00tOHdrLVRVbWFFMzMyQ0ZPNW5MaGtKV20zWVo3R0RNZVZzLTBVVENORjI3akJabjBOMTJTc3hGcHpSQktWYnlFY1p5Y3htMi1CSjVkcFhKSnBQb2RGanJuU0ZUeE1ZYURFS3BQc05mNG9XOGNEdW5XV1BoVTZETlpwSjNHbHpteGduSVJGbjNqbUY5TGpQZmtoOXhzS2Y4V1hEZ0F0RDh5aXFZdEFxRlYwMkVuWkJCT09nZEE?oc=5",
-        "published_at": "2026-11-07T10:00:06+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Senior US, China officials exchange trade concerns as APEC summit nears - Türkiye Today",
-        "source": "Türkiye Today",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTGVIWnlvZ0NWN2NWbWhva2pkQ2FFa3p0RG9DbDZrYklaMm5NTmxBcGFJUnNmYnd2cVMyVldVcTVLcl80aDFCdXNaZGROeVBsX2pwRjNwMFhOU1hDa1kwYlpudkFNdkVfaWQ0X1MzUkFxUWsyRjFnd29zeWRzUVFONXZwU3dGSU43dkJJaWl4aGVsMENiUGN3OVZ3ZGRURFhlT0V6S1lCWG5QYU5ROUhYRkNVYw?oc=5",
-        "published_at": "2026-11-07T09:35:55+00:00",
+        "published_at": "2026-11-07T10:00:41+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -214,20 +341,56 @@
     ],
     "corporate": [
       {
-        "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3OFpBR0Q1QW1FTTNkU2t6YzllLTlhM0hxbFUzS3VuUzhOdi1vNURJOXBzZHI4eHZ0WURLcmljcTQ3ZEM4b2c1YVRPd3hoS3phLVVtbE5YcHA5MXExajJCQUl5R2VnOFZlSGNfbUxKNjlF?oc=5",
-        "published_at": "2026-11-07T10:00:40+00:00",
+        "title": "Older Nvidia Chips Just Cost Oracle Its Microsoft AI Deal - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVpHMU9kNjRsUWlWREtkdlBPbGU4WlRZdXVaYUlGaS1HUWFBeTY5MWUtZ0sxUFVtOEpnRi1mVl9rWEV2U2dOcmFaZExsdzh1dGlyUHBpQmVtcmdMMzJrMmZ2V1RBZnROZDJIU2ctdWpIdlByUG0tTUlwd3hvMkY2Rm1jU3p3ZmFQOTBkS2xEOTI5U3dtNHRPb25IZkV2RloyOUxv?oc=5",
+        "published_at": "2026-11-07T18:08:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "3 Renewable Energy Stocks With Up To 16% Earnings Growth - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcDdwT1lyUW9YNExxLXExb21kUzVhRXhMelhNQ3VKdTVTbjJUbTVCSkVQazJKTjBramNhVmprakhKUUNjM2QwZmh6Q2V0dmJZTVlOSF9fR2dhUU5idkRaV28xQUN6d3FJYW9LbHBEQ0J3a2cyckpqYlMtOExJXzdoakZMcGJqQWRmamtNTnZn?oc=5",
-        "published_at": "2026-11-07T05:18:00+00:00",
+        "title": "Revolution Medicines Announces FDA Approval of RAS(ON) Inhibitor and Q3 2026 Progress - Oncodaily",
+        "source": "Oncodaily",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ROG81NWxSUW9vSjVPWHFIQWF6eHc1SERIbkRsY0toRFZhTEtMbTZ4V1lOeUhzenZfQ1I2eDdDd05hd1pXZzNHWkRLS2ZldVZBeGx4aHpKVVRYdHdPaEt3aWFCUUN0YjdFSHc?oc=5",
+        "published_at": "2026-11-07T17:49:14+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia's H200 Chips Reached China Through Ghost Company - The Tech Buzz",
+        "source": "The Tech Buzz",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR0JKT2N5OXBlRDFDSG5xSE5VYTJYcG9LMTZ4dGpmaTRKd3B1MTI2V0hIZ1FxVVBqOUt0Rkl2eGg5ZDc0QThiX0xyeUQ4STZweGI0a1pSWDZ2aURwUVpjZnVXV0RaVHMzTldpeFZMaWh4SGhlVXBBRDV5bVlIX0RReld6VTI0OTlpY05PakFtYU9HZw?oc=5",
+        "published_at": "2026-11-07T16:06:29+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "The US let Nvidia sell chips to an empty office in China - The Verge",
+        "source": "The Verge",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRWY3V3lvSXNva3FsVmVuN3p0WndDSjhJSE5hMWhrSWUtajR3dmNtY2FrNWViNkNRUXAxOXVsLVJ4WnJyMFpjamM2MTlqcFU0Y3ljNjZiam5NWU5oSWFaeTF0TXFUOGtGSUkwOFk0MG5sZ3dKNWE4UFNKZFA0eWVaZVJQbk9vWGFXWmdQN1l6dERzVkdOMEJvc3Z2WHY3UEJKUmFGaw?oc=5",
+        "published_at": "2026-11-07T15:43:45+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "TSMC Jumped 6% on a Report It Could Make Memory Chips for Nvidia - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLThISkFpaFQ2b3BIQVVMTXFDcWdTX3d4ZnFzQVFEc2U3WGRNZUp1dlkwZmc5V29vQUVGcXZCZ3Y5X2RTRGltWC0wdkNia1VnM2pCZFlLdXFRV1UyM3lWZ2tDWUZ2Y21Bc1hrcktOUGNmRFlNSFlWNmRNVGdXekxNNkJueHdkOWtkU29yeHBERkV4RGc0azJONTJzTERxT0JOaXJValBKb1RQSzg?oc=5",
+        "published_at": "2026-11-07T15:13:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US approved Nvidia chip sales to China-linked firms - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTZ4MjlOX3BvY0VpUnZMa0Y3anNIRTJRS1p4M3RpenY0YWxfZFVfbE1qN2VtbkQyc3Q2WEhBY0JMOVJOUzFFN1BSNDZGbVc2ZVh2cTNSV1ZRcmZWWXNTMkhiQTRWbFpFNmhCTzIxWDIzVjBWTzNrS2JlTGg2eU8zT3JUazV5QQ?oc=5",
+        "published_at": "2026-11-07T14:52:37+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -236,15 +399,6 @@
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWEZjMWV1VjRtbDZXWTJxZ0s0Y1FWQXlsNXVRbE0yN1lyVXl3UUlyWVdRX0Q4amYtT19SaGx1NnNaUVptUGpydXAyc01sclF4aFFvelRQLVNWYUVUT0hyN1BOZ3dpWHJMWWxscngzWl9Ec1JjdzN1S0RHbWxNRUpwTGJJLXFHZTZaeWx1VFotYURLb183b1lxNw?oc=5",
         "published_at": "2026-11-07T00:16:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna Stock Is Up 700% on Cancer Vaccine Hype. Earnings Reveal That Covid Still Counts. - Barron's",
-        "source": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kOWFzMlZxTk56OVVRTk5oNWRwVG5kUURKVElTRmJDMWt3WTZHUEVpY3ZQQWsycGhoZnVPdm5DYU5mQU1UemhZYl81X1ZPVWtaN0hJbHAtdWQzX2Q4NTdwYV9fUDh3V2h6RXFZUU5QZlBud2dyRVB0WnJB?oc=5",
-        "published_at": "2026-11-06T22:47:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -268,18 +422,18 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "When does Nvidia report earnings? Tuesday, November 17, after this week's AI stock rout - Nacionale",
-        "source": "Nacionale",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTTk2Y2loXzFVbHZfNDZXZWFSR3BrRkNDbEc2aFp4UE5nNm9MZkdHZmV6dTdLdHZDRWpnb24zM0ZpTFpuaTYzUXlRMUk1ellzb1pFOVZaNHlYY3FDbmJOU1hCR0hCVXBkbHZpYUwyd0IwYTJLdnhjSVhQYXFDNGhPTDBvcjFyM0U1Vi1zTjdmWEUwRWRCNEx3Qk1rOHNaR0lEYjBKOEVfOXFYcGloVmNGbzh6U1A?oc=5",
-        "published_at": "2026-11-06T21:32:49+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Moderna Inc (MRNA) Q3 2026 Earnings Call Highlights: Revenue Surges 29% as Guidance Raised and ... - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSEthLXFoWnVCZnFONDdrdHQzalY3WEN6SXFQY193cnpFeXhHOGE1cHJTM3hwM1RvSklxdkEwRnZkNDNDR3pVRHc3aVhzakV4blJzYmxWTS1uaGNZM3hicGpZWmhULXg1OWlyQU43eHMxY1B0UE9NRUdYczdCbTZ6a0JQQmh4cGFuRnpCLVln?oc=5",
+        "published_at": "2026-11-06T21:14:44+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 293,
+  "archive_count": 296,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
