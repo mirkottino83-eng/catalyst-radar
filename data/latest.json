@@ -1,314 +1,40 @@
 {
-  "generated_at": "2026-11-06T21:52:42.949925+00:00",
+  "generated_at": "2026-11-07T01:20:08.739237+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.859000205993652,
     "treasury_10y_change_bp": 2.2000312805175435,
-    "wti": 90.5199966430664,
-    "wti_change_pct": 0.0,
-    "brent": 97.94000244140625,
-    "brent_change_pct": -0.3560875682785736,
+    "wti": 90.33999633789062,
+    "wti_change_pct": -0.19885142714437531,
+    "brent": 97.76000213623047,
+    "brent_change_pct": -0.5392194265542494,
     "nasdaq_level": 24579.423828125,
     "nasdaq_change_pct": 1.0874926100143956,
     "sox_level": 9390.25,
     "sox_change_pct": 4.207129912011043,
     "vix": 25.639999389648438,
     "vix_change_pct": -9.013487892194327,
-    "dollar_index": 102.2969970703125,
+    "dollar_index": 102.27899932861328,
     "macro_score": 90.1,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.09%, SOX +4.21%, US10Y 4.86, WTI +0.00%. Geopolitica: US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
+    "summary": "Tech bias strong positive. Nasdaq +1.09%, SOX +4.21%, US10Y 4.86, WTI -0.20%.",
     "quote_times": {
       "treasury_10y": "2026-11-06T19:55:00+00:00",
-      "wti": "2026-11-06T21:40:00+00:00",
-      "brent": "2026-11-06T21:40:00+00:00",
+      "wti": "2026-11-06T21:55:00+00:00",
+      "brent": "2026-11-06T21:55:00+00:00",
       "nasdaq": "2026-11-06T21:00:00+00:00",
       "sox": "2026-11-06T21:00:00+00:00",
       "vix": "2026-11-06T21:15:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "7b6da6ede1c7",
-      "ticker": "MRNA",
-      "company": "Moderna",
-      "category": "Biotech",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "MRNA Q3 Earnings Beat on COVID Sales, Raises '26 Outlook, Stock Rises - TradingView",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTGljRXZkY0JvWE1GckFtemkybWNBb0xPbGNRS1dNMzdYbEtDN3VKb2tnd1pvMlp4cV9rdTQtV2JvT1hCdWNYYjNDMjNrbktkOHZhUHh5MS1obVByZlNCbUNkNUJrNnJ6OG0zaXVvWGRGR0hrTkhzaG1pZDJ0SVRfRjRuQ2QzNHhXOUxyNW9uc0ZjVVctOG9QNGtYRmF1NnJNUFA5cjlBdnhVZTl4c2hsZTBUTnBWei1iZTlvT1pyVQ?oc=5",
-      "published_at": "2026-11-06T19:52:07+00:00",
-      "age_label": "2 h fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": 5.85,
-      "short_term_change_pct": -0.19,
-      "relative_volume": 1.33,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-11-06T21:45:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 7.7,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 1.2,
-      "confidence_score": 67.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-11-06T19:52:07+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "MRNA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 78,
-        "freshness": 78,
-        "volume": 55,
-        "momentum": 48,
-        "macro": 90,
-        "extension_penalty": 3,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "c346a89d7f7f",
-      "ticker": "MRNA",
-      "company": "Moderna",
-      "category": "Biotech",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Moderna Stuns Wall Street With Surprise Profit, Raises Outlook - Benzinga",
-      "reason": "Possibile evento guidance raise indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ1g3VzJfeEtYTTRvVzFwM01ZSXhwTVFKblRNNDN4YkQyd1JyNlhjVWtWdFp2M09pbDZ1SmhuNmMxY0M1Ymw2SjRkNzZNQ0lTeGtSMW1RaDc5U3pSb19UaGtnRkc3X0lCbjZ6bWlpdVZRdm9yTEFiVG9VYzNRdHBkX2tQa2ZoZUU5dTVXNEMwbkhVOHhiaGliMmsxTGVZNHJ5TkZCVkZuckFqd2VLemxjTkV0T1NYc3lJYWc?oc=5",
-      "published_at": "2026-11-06T16:31:21+00:00",
-      "age_label": "5 h fa",
-      "catalyst_type": "guidance_raise",
-      "current_change_pct": 5.85,
-      "short_term_change_pct": -0.19,
-      "relative_volume": 1.33,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-11-06T21:45:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 7.7,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 1.8,
-      "confidence_score": 67.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-11-06T16:31:21+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "MRNA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 84,
-        "freshness": 62,
-        "volume": 55,
-        "momentum": 48,
-        "macro": 90,
-        "extension_penalty": 3,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "8ee249a60f8c",
-      "ticker": "MRNA",
-      "company": "Moderna",
-      "category": "Biotech",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Moderna's COVID vaccine carries stellar Q3 revenue beat - Fierce Pharma",
-      "reason": "Possibile evento earnings beat indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "Fierce Pharma",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYkZVV3dHRDFpeUxHazIxSVhpWlV4Ty0zSG80N3pELUUtWEdiV2tpV3l2S0hCby1QcjF0RVU2RUVHUWJVWWEwV1VJaklJT1F0TVNUMHYtQ3YtRnd0NWt1QXdGaURwd0lyQ0l3MGctRlZjYTd1ZlBOaVJDbHhObHpEOWV3d3hGTk1yc3dIdU1laV9fTFF4?oc=5",
-      "published_at": "2026-11-06T17:00:00+00:00",
-      "age_label": "4 h fa",
-      "catalyst_type": "earnings_beat",
-      "current_change_pct": 5.85,
-      "short_term_change_pct": -0.19,
-      "relative_volume": 1.33,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-11-06T21:45:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 7.7,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": 1.1,
-      "confidence_score": 65.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-11-06T17:00:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "MRNA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 78,
-        "freshness": 62,
-        "volume": 55,
-        "momentum": 48,
-        "macro": 90,
-        "extension_penalty": 3,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
-  "movers": [
-    {
-      "ticker": "ORCL",
-      "company": "Oracle",
-      "category": "Cloud / Software / AI",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 0.88,
-      "short_term_change_pct": 0.48,
-      "relative_volume": 4.94,
-      "quote_at": "2026-11-06T21:50:28+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "ORCL"
-    },
-    {
-      "ticker": "BABA",
-      "company": "Alibaba Group",
-      "category": "China Tech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 1.36,
-      "short_term_change_pct": 0.55,
-      "relative_volume": 2.61,
-      "quote_at": "2026-11-06T21:51:03+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "BABA"
-    },
-    {
-      "ticker": "PFE",
-      "company": "Pfizer",
-      "category": "Pharma",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": -1.84,
-      "short_term_change_pct": 0.17,
-      "relative_volume": 1.77,
-      "quote_at": "2026-11-06T21:45:42+00:00",
-      "early_move": true,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "PFE"
-    },
-    {
-      "ticker": "DELL",
-      "company": "Dell Technologies",
-      "category": "AI Infrastructure",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 4.45,
-      "short_term_change_pct": 0.44,
-      "relative_volume": 6.61,
-      "quote_at": "2026-11-06T21:51:38+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "DELL"
-    },
-    {
-      "ticker": "HIMS",
-      "company": "Hims & Hers Health",
-      "category": "Health / Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 8.25,
-      "short_term_change_pct": 0.39,
-      "relative_volume": 1.72,
-      "quote_at": "2026-11-06T21:45:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "HIMS"
-    },
-    {
-      "ticker": "PLTR",
-      "company": "Palantir Technologies",
-      "category": "AI / Software",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 3.48,
-      "short_term_change_pct": 0.08,
-      "relative_volume": 1.67,
-      "quote_at": "2026-11-06T21:51:48+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "PLTR"
-    },
-    {
-      "ticker": "APP",
-      "company": "AppLovin",
-      "category": "Software / Adtech",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 9.53,
-      "short_term_change_pct": 1.08,
-      "relative_volume": 1.21,
-      "quote_at": "2026-11-06T21:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "APP"
-    },
-    {
-      "ticker": "TSM",
-      "company": "Taiwan Semiconductor",
-      "category": "Semiconductors",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 6.93,
-      "short_term_change_pct": 1.0,
-      "relative_volume": 0.92,
-      "quote_at": "2026-11-06T21:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "TSM"
-    },
-    {
-      "ticker": "AVGO",
-      "company": "Broadcom",
-      "category": "Semiconductors / AI",
-      "priority": "high",
-      "satispay_status": "check",
-      "current_change_pct": 1.53,
-      "short_term_change_pct": 1.28,
-      "relative_volume": 0.48,
-      "quote_at": "2026-11-06T21:50:00+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "AVGO"
-    },
-    {
-      "ticker": "CRDO",
-      "company": "Credo Technology",
-      "category": "Semiconductors / AI",
-      "priority": "normal",
-      "satispay_status": "check",
-      "current_change_pct": 7.86,
-      "short_term_change_pct": 1.43,
-      "relative_volume": 0.36,
-      "quote_at": "2026-11-06T21:50:05+00:00",
-      "early_move": false,
-      "status": "ANOMALY_NOT_A_CATALYST",
-      "tradingview_symbol": "CRDO"
-    }
-  ],
+  "catalysts": [],
+  "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-06T21:52:32.385490+00:00",
+    "updated_at": "2026-11-07T01:19:58.383027+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -318,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "Russia / Ucraina",
@@ -332,31 +58,94 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 3
+        "accepted": 7
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 13
       }
     ],
     "geopolitics": [
       {
-        "title": "US Treasury Sanctions Canadian Money Services Firms Over Iran-Related Transactions - U.S. News & World Report",
-        "source": "U.S. News & World Report",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQX3JxNnZBOGc3NWFuNEw5ZUlCQW9uWXA5UWJUWTJpRnVWcF9vZWlBbHZxM1hjTWpJNWxBdmo0QUExWDExLTN2VUdoaS1YTGZ5ZXJTMUprTVo5WGIyVVBrR0JqaTBSbkY5SmNUUGViTld0U0l1aGliU3N0YUhZeU91c2dITUVnMzlHalFkX1JrSVptUEpDOWFaRFloNGlOSHNIZ3pPOTkwWFBhZEtHUVVXSVRLTjh6Si02OGpZNkVhNmY2MXRSSUhQU0FjRDExcDI5QWc?oc=5",
-        "published_at": "2026-11-06T20:58:00+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "China’s Draft Financial Law Proposes New Anti-Sanctions Rules - Geopolitechs",
+        "source": "Geopolitechs",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XWXlIZFpEWGhCeG81QjlqWEVzSUF4Q0w1SVB2dFdzVUFuRHlrSEhzS29PV3JrTW1QREdyZGZhckpyc3BQQlBoX05NNnMtWVduREJGVW9BOUJGRm5YTHFhak9DQjdNcVh1d2ZjYjlNT0dMR19M?oc=5",
+        "published_at": "2026-11-07T00:52:50+00:00",
+        "area": "USA / Cina / Taiwan",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "World's most powerful military revives Pacific air base used to launch atomic bombing missions against Japan as it prepares for possible conflict with China - Business Insider Africa",
+        "source": "Business Insider Africa",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU2JsZk9aVkVQZlB6NE9Sb1JtYndRNUdLdlh0SW9RTkdsc2lHc3p1RGlYaS1ydmxjUlFLZERXTW9rdkVWRnFuOHF1Z0pucjRjNzZzcVhjYkNLOXJnVHdDVl9HejN4cFdzY28yTFNwQ3BBMjVjeHgteHdEVjYya0lxMWx4ZEVuMUgxamxWYjhLYWlIT2pUbnd3RFA2RjltN0M2WHhSTFJhaW11dDgwRk0wd3lGVGtXSU1jOXNpQUw0VmcwRVhMSTM1Rzl3SENCZTg4SElNa09Gcnk?oc=5",
+        "published_at": "2026-11-06T23:33:58+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukrainian drone strikes are reshaping the Russian economy - The World from PRX",
+        "source": "The World from PRX",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd2F3ZzhLemxnaVFyTktUS1N0aTVPZHRrdmx5WGlYZHB5N0xxQkJXWGRMaVozUFFSLXdkWVFxTTc5RzBsQ0I4eUNzcm8zUERpWlVQaF9PQ1QtRUkyU08wckg3aGNVcF9fS1NxSmRVZEo3Um92UVR3bHlodmNVX1ZrZDk1TlRHekV3ekxlcFc3UHJoenJmZ21rMXhLcUpqeTQ?oc=5",
+        "published_at": "2026-11-06T23:20:11+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US urges China to honour Busan trade deal commitments - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOemI4U2V6Z1BYeGlHbDlHSENZR1JaR1VxQ0hZVFRZWTlpNGhfMDdDel9udEcyVTM5eThkaDJENTUzdURpTGFwTFl0WkRpVjl5dGFvZEgydXk3ZDRNN1ZTZHZIRXVvclY3OGRPemk1eWtCSWdTY2RvdVpLSjByTXNkR202ZDZxNFNUNmh1SnBQUW1BNjdwRzRUajRTYnZxZ9IBowFBVV95cUxOajB4Y3FQZHRmZlp5ZHNiMThkUk5ZMEt0cjNyZDBmY1JhREVQRkRRbnZiRWxUZzdEaUJqcDZDMEc3c2xqMVkzSmZwaUdvSk5jMHdOLWlfTU12bzJWaVBTeVYzYUFiNlRoQnlTOXc4TkpKWGRYQjZReEFaTG9CYkxTTUQ5Y0tScWpQVVhjLWtrNlNNUzJkVE9NSFFZM184YTJhQWNN?oc=5",
+        "published_at": "2026-11-06T23:07:24+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US, China trade chiefs hold call ahead of Trump-Xi summit in Shenzhen - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQODVTbG5PRGFYaVRPT1FGZ2pTTlpVeTNiVExObUFqcFFxUU5uZW9XbzlrVDZ5NEIya2d0REkzTlJPTk5hdF9mQmtHOU1aejBZcnJFY01MN2pUZmxLNUh2YWdPWlFYYjJDbDdHeVZUSlNON2g4M1VwUFZmSVFnem1mMU1jX1FkbFc2eVZhY0FMaHU1bHdGaGxneHpOM21qcmZmYXZ4d2FIdGNLUnJZaWs4N21VTDRUN01OcHNNOXlGU0Q4LU9lNjZvWlFn0gHKAUFVX3lxTE43UmQ4YTNqQ1RQajlMZ3FuY1d2bjd6czBST0cyZExtN1BLT3hIdnl2U0g0SWpXck16RUhPYld4YmV5YmF3dWdDLTlfeXpLVHhmTHN4SE5VSHBraUVaMGpuWm8yeTA0UXVzMi1IYkZ2ZzNQY1E4OVRBeGRVTEMyN19nSVlobUc4cXI5VW5oTU43OC05UHNwb2w2anRWNTBNZi11VUNDdWFJSy00VWtmMkpBUExjMTY4SUItbERkVlpOQnY5NUczRWRQcnc?oc=5",
+        "published_at": "2026-11-06T22:59:09+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Vance leads behind-the-scenes push for new Iran deal - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KTEp6MWZCeDhmaF9pcWdHYjB4STJHVlJ0TjBMT3dub2Q1OXE5d1owd0VZbnRjVWx6M3FpY2lzT0hJX1VNblYzLURFM0ctajQ1OGxlVm9ndTJjZzI4R2lEUWhPeHZGSUNSYUdLOC1kdzY?oc=5",
+        "published_at": "2026-11-06T22:44:28+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Report: Russia in Talks to Supply Iran With Advanced Air Defense Systems - Haaretz",
+        "source": "Haaretz",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPaUxtczRKU3p4UEhzNnBwSnRwS1NVSVZTNVBVNWF3bUhhaGllY1d4dzdtMGR4VnlRT2hRRGhYWnpuUWVlUzNtVFlLZVlJNjVEUFBHN3NwMlpFRUtNajRKWEZJTlhLR2YxbkVHdmt3VjlYdXhMTFJodGtSWV9JWmgtV01mZ2Y1NU11ZmRXMURhN25WSmxwS1ZVRXNfNFJPRHdSazVNSzBzU2dBQ1FyV0hJX1ZHUlVIVlNuZ0J3bElfMlpTaXYxOHZKeXlscXhHdXV0cTBhRGt5WDdZaVdDQnl6RFpmRHVpalYxbWtTbkJNOVpndTFUUGpwaEpkOXhGQjJTMk5RdUFaTQ?oc=5",
+        "published_at": "2026-11-06T22:12:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US-China Trade: Washington Presses Beijing on Soybean Purchases Ahead of Trump-Xi Talks - AgroLatam",
+        "source": "AgroLatam",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVTlTckRGanNCN3RxVS1QeEYwbTJEYnpnakN5WkVEa1lXbmRjS0sxYzEzY3JhdkFSR2tqMTU4M1lZN2xRR3B3OTVPVVowU2FVaXQ2Rkh5eVZyMmJzQ21UNTRJUkFnaThOZDhNemptVHAyS0dXOWFlTDJwU3JCQjVLRURRTkZZTm9oemc?oc=5",
+        "published_at": "2026-11-06T21:15:20+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -369,30 +158,12 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "The Week Ahead: Tariffs, Import Compliance, Carbon Border Charges - Sandler, Travis & Rosenberg, P.A.",
-        "source": "Sandler, Travis & Rosenberg, P.A.",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNnIwaEhCbDZ1M244VVItWUtWQ3hzV1M5OS0zelpJTUxXSWtFRE9KaXhvYXhsbnU5MExyOXpiVG1hS2tPWEpIV3dpbkRxYThxZVBuVHBOcUxmUDdrUENnUHlFMWNCX0l3RnQ5MHdkMC02RmwySWotTF91TUhIcjl2bkwtbk5pSi1oNkJnd0dPZmJndEhnamFncTZnVDZUSXRJWVgzcERBdUJBUVZWa295VU1XMUt3bFhVR2xKWG5PM0czeTRhLWRnTmI2WW1HQUE?oc=5",
-        "published_at": "2026-11-06T19:29:17+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Oil Prices Rise After Ship Attacks, US-Iran Talks Deadlock - EnergyNow.com",
         "source": "EnergyNow.com",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSXFwRjliNjJSakhhNDA1YlQ3S20zRG82UUhOMnhxanFONHdpT09sWlVGb3Q4RmRqbTBzSWg4RVVKb3piREVQUjI1cFphaVpiQi03Y1IyMFRWMmkwOEc2RVN0bF9jajNiYWdHWU84SGcycGwzY2N2czV0NHJhOHlrc3JfSXMtYTQzS3dBLTZhN3FHdw?oc=5",
         "published_at": "2026-11-06T19:24:34+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Bessent, Greer Raise Concerns on China Trade Deal Actions - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUThIM0tOMDlPV2h4TURPZHZyVlJjUGRLWlZOV21nb3gwS3RON3RQdk1PZUFNOTVpZ2k0VG4tQ0xyWWd1R0JrZzV2MVhwS3B6dzY0eGtkbWxXajRreGpIRlZWUXVkc2haWVVsaXNZaUwzYWdmaU8tS21KS1ZaRlVZT3dNanpJamNZRURtOVRibHFpMERibTF0OGNwQnFkWENSVXJScXpJclFuamc?oc=5",
-        "published_at": "2026-11-06T19:04:36+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -417,45 +188,9 @@
         "title": "US-Iran talks show signs of progress even as Trump weighs renewed strikes - The Times of Israel",
         "source": "The Times of Israel",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTjA3Q1BhbURndWpNWDRLRFB4Y3BsMVpOQjRTRDdDeWhicmVDa2o4MGVZREszSGNCa2pvRC1rM09QWTJ2TEV3aUxITy1OMTlDNHVNWmw4SjlYTHBsMFAtc3d1clkwX01qUjlqV1ZLQmxoMG1OUng1TzAxTE01dHlMelhlVlBKdVpQNnF5STJWTTBZQ0xLU0pHZmYxVURPVW5EQjhwTTE0d9IBrAFBVV95cUxQSUpvQVRXbDJvaVY0MDdFd0U3SkgxQVF1enNvM3hBeEdtMzdld2pCNU05anE1VUdUS2FEdERPMzlBR0V0RzZqR2RhbGp0RndQazBld1ZrTF8zSUpERzVQSTNwWFZoQVVYWUg2WHpzVGEtZ1RxUGlGSjY3b3NxUGxVZGhaZ2RiNzYteUZxQkM2U3FQRllodFpwVUgzSXZkaGFzcDJWLUppWmZ5TG5U?oc=5",
-        "published_at": "2026-11-06T18:48:24+00:00",
+        "published_at": "2026-11-06T18:41:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Breaking | US, China trade chiefs hold call ahead of Trump-Xi summit in Shenzhen - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQODVTbG5PRGFYaVRPT1FGZ2pTTlpVeTNiVExObUFqcFFxUU5uZW9XbzlrVDZ5NEIya2d0REkzTlJPTk5hdF9mQmtHOU1aejBZcnJFY01MN2pUZmxLNUh2YWdPWlFYYjJDbDdHeVZUSlNON2g4M1VwUFZmSVFnem1mMU1jX1FkbFc2eVZhY0FMaHU1bHdGaGxneHpOM21qcmZmYXZ4d2FIdGNLUnJZaWs4N21VTDRUN01OcHNNOXlGU0Q4LU9lNjZvWlFn?oc=5",
-        "published_at": "2026-11-06T18:34:11+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s military developing weapons to disable US satellites, intelligence report warns - National Security News",
-        "source": "National Security News",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV3VqX0t5YlZhUTdxSHpPblR5OHJIaWwtRk5BdFlzeFgxV1R6bEoyZktMRjBqRFpLUmhPQ0gwcWpHSnoxR09EQUU5aFlxdzM3WUtJbUhuNEtTckIxeHgzV1pDMG5SOVhBaVpXZWltZGxfaW0xWTBLM21NQkNQOHVfb0xWdmVTMGZvZ0F6eWZYcERDUUw3UmpuelVkWHA3M09HQ1BjU1JtYVBYSHRObUZ5REFPVjg5cEhLRmF6RU9zRUhDX1YxdUE?oc=5",
-        "published_at": "2026-11-06T18:00:17+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Two oil tankers struck by mines in Strait of Hormuz - NewsNation",
-        "source": "NewsNation",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ybjUtX3JLMmFGeWNyN0JmTU9xUm5MbGhKb2FjMXAwM3NZM2FxUUN4Sk1oZnowbkswSVBVMDlZMjBrZTJHTjFERVhHOERmcXBaUm1kTlJSOUItQVlFczE1Y2hKSF9mR1NPcHo1dndWTXRtQWlycGs0amZLVdIBgAFBVV95cUxPUVpoWGtMRVYzVjFBaWNLLXhWWUo0cFRJTl82bzFwM3YyU040MWRPMF96dmJNU1VkNEVEczVXWFpyeWFXaEM1SFU0bUd5aTBQcjlQV1laSlBwckpnQmxwV1l0MmpRTU00Zl9Dd1J2MmNqOTBlTnI5NmpoUDNndVFRYw?oc=5",
-        "published_at": "2026-11-06T17:54:39+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US presses China to honor Busan trade truce as rare earth shipments fall short. - investingLive",
-        "source": "investingLive",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcExYZThRWWdOcFN0dzBJelYtOXVsbnhrTHpoYmdQYTdCX2hLU3ZKNVRpTEJKSU85WTBSZE41SUhNYVhWZW83YldlRUUtNXN5OGNoV0ZNNW1ZNE5XVHVnU1ZOcTVLSHdLN2RYSkx0d25oUnVKRTBzVVk1ZjdYTUdwRDZiUlZVblc4SWxKZEVjb3FWSEJzZ2Q4Um9SMkFMc0ZhWm0zcWhOWFA5cFV0TmFn?oc=5",
-        "published_at": "2026-11-06T17:39:09+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -475,33 +210,78 @@
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Gas-rich Iran turns to Russia for an energy lifeline - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TM1VkLTE3WTJFV1pNbFRtWFVUanJ2SEpXQzdjRElxU1ktdWJDdTRYQy1panlOTzM1S0drSjJOOFYzeDNZU1Y0NlVpMnVabE92OVE?oc=5",
-        "published_at": "2026-11-06T15:50:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Moderna Inc (MRNA) Q3 2026 Earnings Call Highlights: Revenue Surges 29% as Guidance Raised and ... - Yahoo Finance",
+        "title": "Moderna (MRNA) Stock Climbs As Q3 Earnings Mark Return To Profit - Yahoo Finance",
         "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSEthLXFoWnVCZnFONDdrdHQzalY3WEN6SXFQY193cnpFeXhHOGE1cHJTM3hwM1RvSklxdkEwRnZkNDNDR3pVRHc3aVhzakV4blJzYmxWTS1uaGNZM3hicGpZWmhULXg1OWlyQU43eHMxY1B0UE9NRUdYczdCbTZ6a0JQQmh4cGFuRnpCLVln?oc=5",
-        "published_at": "2026-11-06T21:14:44+00:00",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWEZjMWV1VjRtbDZXWTJxZ0s0Y1FWQXlsNXVRbE0yN1lyVXl3UUlyWVdRX0Q4amYtT19SaGx1NnNaUVptUGpydXAyc01sclF4aFFvelRQLVNWYUVUT0hyN1BOZ3dpWHJMWWxscngzWl9Ec1JjdzN1S0RHbWxNRUpwTGJJLXFHZTZaeWx1VFotYURLb183b1lxNw?oc=5",
+        "published_at": "2026-11-07T00:16:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Approval for RYBREVANT FASPRO issued to JANSSEN BIOTECH - Quantisnow",
-        "source": "Quantisnow",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQREg2eUFVV2xHRktpRmt5d3k2MkM0UDJjZExKTk80Z3BsbWlleEpub2F2YTlsTUtudTZMYkszV2E2YUIwdE5FT1lMNmk5YURheGVVNU5KVVhHVFAwOW84clpYWnlUc0pBT0lubTJQOEhOc2x2aW5TLXdoZkl2YjVVMlI5SUpZMnJCWElxZzllZ3dZOWJjZXRnemRFSnFwSGs?oc=5",
-        "published_at": "2026-11-06T20:46:04+00:00",
+        "title": "Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN1JEN0RQUFk0X2kzYTNTX3NqR0tWY3lXSThhZmNRVzExaU5pazlieXNfc25nT2xYanJGdlZFdy1UTExFdkhSWVNzTTlGWW9MNlpYUWFHUGFxZnJIcklpQm1VbzdsOUFXc1NLM0JTM1lEclR5MUlPLTRFZnc3eUwzcWw2bzU5cFVhVkM5aG5zZXZMZ1k?oc=5",
+        "published_at": "2026-11-06T22:56:15+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Moderna Stock Is Up 700% on Cancer Vaccine Hype. Earnings Reveal That Covid Still Counts. - Barron's",
+        "source": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kOWFzMlZxTk56OVVRTk5oNWRwVG5kUURKVElTRmJDMWt3WTZHUEVpY3ZQQWsycGhoZnVPdm5DYU5mQU1UemhZYl81X1ZPVWtaN0hJbHAtdWQzX2Q4NTdwYV9fUDh3V2h6RXFZUU5QZlBud2dyRVB0WnJB?oc=5",
+        "published_at": "2026-11-06T22:47:00+00:00",
         "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bispecific J&J Drug Wins Speedy FDA Approval for Treating Head & Neck Cancer - MedCity News",
+        "source": "MedCity News",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYUpvM3ZLSjFNOXdFbEtsZHhQVjhrbi1vUE9lMWF6dndaSHQySm1USl9JRkJ5aW9nWTZjZUNrc1FHeFFaSDV6S0l3WjdGYlFzZ1p4bHRzb29sOG8wQXo1SVI2VUpIbHZ6U1hJaERyamlLRDk1Q2dnVDdvVWsyMXVFYUNja0Y3ZzhJOFRzazcwZmo0aUJkaTRuT3I1NnlHZUN5YjRLLXNXSHBON3M1VHZ1T1MwN2ZTRFhtSkFJTDB2VmZLOXJJQVpfMTY4RlFTM2UyZnYw?oc=5",
+        "published_at": "2026-11-06T22:36:58+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Bernstein's Courtney Breen talks what is driving Moderna's post-earnings gains - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMEpPMDdYY1BNVXBSVGZfNDhsYXZPYWc4N3h4akotdTdVRk5zZmNXaHpKT1l0ZUZ3NUJQdVpDejZ1QlgyRnkyY0x6RTNwVnZQbC1kckp1YXlSd1dJTWw1ZnVPZEh5aXNRR1BaZzFRaWc4Q3RqSE9zYWI2Uk1ud3IxcEx0ck1kNm5OWFcxNVBYODJhX1VVc0J0ekdULXJWcmtNN2xBalg4SjJxOWpJSkcwUi0xR1htdlRoWEp3?oc=5",
+        "published_at": "2026-11-06T22:06:17+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Cannabis firm InMed becomes migraine biotech Mentari in merger backed by $490M - Dealroom",
+        "source": "Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYkppdUpkeFlVc0FDVmRqeUMwU0Nmc0szQzVyT1JXNko2VGJnNEFCNnhBbkdNUmF3MXZKaXZtRnJmZW5VSXVYeTdlc1BVTi1nM01OODVHYXZoNmQ3Z3hKYlVMeHN3TTljdDBzVHdFd0ltRHdwSHN1WmlJZEg3UENqaDZYREhINkY2d2FyZm5xSGJXRno1M09zVmtOYnZuT045Sl9SRzhpOTlubEltajRxMA?oc=5",
+        "published_at": "2026-11-06T21:35:05+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "When does Nvidia report earnings? Tuesday, November 17, after this week's AI stock rout - Nacionale",
+        "source": "Nacionale",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTTk2Y2loXzFVbHZfNDZXZWFSR3BrRkNDbEc2aFp4UE5nNm9MZkdHZmV6dTdLdHZDRWpnb24zM0ZpTFpuaTYzUXlRMUk1ellzb1pFOVZaNHlYY3FDbmJOU1hCR0hCVXBkbHZpYUwyd0IwYTJLdnhjSVhQYXFDNGhPTDBvcjFyM0U1Vi1zTjdmWEUwRWRCNEx3Qk1rOHNaR0lEYjBKOEVfOXFYcGloVmNGbzh6U1A?oc=5",
+        "published_at": "2026-11-06T21:32:49+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging - Benzinga",
+        "source": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXJBTDJKOXhBbkRBNlU2Ym1kVTNWZVE1X2RoZllySTJabEpZaXF3NnBVSktZM2Q5UVE2VHhoV0p4NEllODBjRFkzVFdTUEx0TlNnaWFuZUZvYWR2MkYyc3pIa1VFd2lzM2JRY21wUkRMZ3o3WXlkM2phS1lTbVFwdkJCWUVldDQ4RTF2WXZCMndtUQ?oc=5",
+        "published_at": "2026-11-06T20:30:07+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -510,42 +290,6 @@
         "source": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdVM5RWx2cGx4U3R0Z3pJMzRzQ1NWaURpbkhvRnRXbzhPU3dVcVRmbVBuT05DOUJ4aXduWGhWYXBzQVZSbVhpU3FHVkQxdnBIWEFLSHBzNGJuc2VWR0Exb3F4dkFSazFNM0ZvQkhrYm1jMzlQcDVGVGQ0RUlYWW5ZVUIzRng1Z3YxZFZmaC1TbWUzSVhoTUJfY3Nn?oc=5",
         "published_at": "2026-11-06T19:57:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna (MRNA) Wins Canada Approval For Two MRNA Flu Vaccines - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ1NkSnFkTnBPWHozbFUzdHdCR0lUN2tmN2d4MFU0Wm92LTZ4eExzNzkybWZSNXpTRU5zM2FfcGxoOExadG1LVmFQNGo2d2xFNHJ2aTA0amVJRThOanJ3T1JTbXhLbE1YMnNmd04yQ0xYb2NQUk5tako2NFpGcmt0NnFKS2U5Z1FPNUphRWpfZ001S09yQ3ZkZThn?oc=5",
-        "published_at": "2026-11-06T19:20:12+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna (MRNA) Stock Hits 52-Week Highs After Q3 Earnings: Buy, Hold, or Sell? - Zacks Investment Research",
-        "source": "Zacks Investment Research",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWklrT0xab1dNU3FtLWVlQ2pTbDZkOU1HTjJTeHd6ZFUtRk15eFhSeWNVdXVZOG1MX0NpRnNkbThxUnZaVU5USW5DLWtTRXNKLThpRldXeFJqNWZDS2dlRjZyVGEtTGxPWnBoeUl2SUR2eDczZmlLRml3Yk1tT1FHallNMGhVclNRWGVvZDlrcUYtcFlUSjFya1FGb1dYRkp1aWc2TTVjU3dQZ0F2NWg1djBPUQ?oc=5",
-        "published_at": "2026-11-06T19:00:32+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna (MRNA) Stock Hits 52-Week Highs After Q3 Earnings: Buy, Hold, or Sell? - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWXF6S3g4SzVIVzQzUDN1dDhPX014VDBNVUdjZk1RempiLTVHbFBPRTJsbDc4U2p1SDdPbDdEUzFsUkxWeFlBMUMwMkFERUx5c1JFQ0xfS2xFRGFJdVppTl9DWXVFdU91NEpwUWk5Tlljc3J0NXFzT21YWWFpU09tNw?oc=5",
-        "published_at": "2026-11-06T18:55:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Investors Seek Financing Visibility From CoreWeave, Nebius Earnings -- Market Talk - Moomoo",
-        "source": "Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZHNZdUxBSnVjTWNfU2IxTG5GXzlVZGtiYlZpekd4dXNPNks4d2h5bTZXcVJJcjgxWXE1dHdWOV9IaUpMdm1RS1RpQ1N3OEFjSEN3OGE1aHZ4bTlOcURtQnhzVHJJUjN2ZEZyczZxUFRCMG9FOXlSNDhYRkZ6Qk9TMDVyVXJ5UHpZb1pmRlljZ29tbkdFN2JBeFdzeEw3THdQR0pkME41UVlNbzNlVTBQdUl2QWdCQW5ManlHSV9yaw?oc=5",
-        "published_at": "2026-11-06T17:58:27+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
