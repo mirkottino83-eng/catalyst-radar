@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:05:03.024017+00:00",
+  "generated_at": "2026-11-08T22:48:56.696126+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -18,7 +18,7 @@
     "dollar_index": 102.30000305175781,
     "macro_score": 89.4,
     "tech_bias": "strong_positive",
-    "summary": "Tech bias strong positive. Nasdaq +1.09%, SOX +4.21%, US10Y 4.86, WTI +0.34%.",
+    "summary": "Tech bias strong positive. Nasdaq +1.09%, SOX +4.21%, US10Y 4.86, WTI +0.34%. Geopolitica: Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike - CNBC",
     "quote_times": {
       "treasury_10y": "2026-11-06T19:55:00+00:00",
       "wti": "2026-11-06T21:55:00+00:00",
@@ -27,14 +27,20 @@
       "sox": "2026-11-06T21:00:00+00:00",
       "vix": "2026-11-06T21:15:00+00:00"
     },
-    "geopolitical_risk_score": null,
-    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
-    "geopolitical_headlines": []
+    "geopolitical_risk_score": 46,
+    "geopolitical_risk_status": "INDEXED_INDICATIVE",
+    "geopolitical_headlines": [
+      {
+        "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0l6UllaNWstdHV3YXVHY3FsaTV6blctcjJ2aDl5dnNwZF9OOFdrRXM5RlN6bUYzU2ZnTGU1bndLek5kTDFTWG1LZUFuamZLbFUwUmJiMDF1a21pOFNhcjI2SzdLVHRtWWYzOHVJVl9qMk9CY3E3Y2lEY1VOZ2txYTRHOA?oc=5"
+      }
+    ]
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-08T19:04:53.670642+00:00",
+    "updated_at": "2026-11-08T22:48:48.010397+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,71 +50,152 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 12
       },
       {
         "area": "USA / Cina / Taiwan",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 11
+        "accepted": 12
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 6
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
-        "fetched": 13,
-        "recent": 13,
-        "accepted": 12
+        "fetched": 9,
+        "recent": 9,
+        "accepted": 6
       }
     ],
     "geopolitics": [
       {
-        "title": "Trump says he is 'highly unlikely' to order Iran attack if talks progress - Haaretz",
-        "source": "Haaretz",
-        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPMkpMbGhiaHd1OEhpcDZQOWZZT1lfQURudHFlaEtNLWo0aV9YMjJsV0E2YTh2TVNFNGFoLXR0Y01HaXNITjhCQzFHNVpTVkpOTWY2T0V3TXZ5RjBvdjYwT2JtZkFXV213S1ljNk80ZlZGeFdsVFZubUxCRzdzSmdhUkFBc0NpN3FteXNYZE1lREJIRHNkbFV3QktqbjVCWXdaanRleWJQYjAzRXFDVjRMcEdzSmpVSnpKSDllcDBLMWhpaXE3T2JQQllpaHd4OTduMFRlQ252QUxBV2ZaWjlpY3dsLWF4ZnNvU1RKNnJNbVBmQ2tUaGRSZXBaUkV6UnNnVHVwTGlYdw?oc=5",
-        "published_at": "2026-11-08T18:33:00+00:00",
+        "title": "Quo vadis: EU-China trade relations – from de-risking to technical fixes - Pekingnology",
+        "source": "Pekingnology",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94VGJ1MWFOQ2JUekp2eGY1Mmd1SVBBS3Y1Vk9JNTVld2JwejZybENQaVhwMDhpelZsWTBrWVJTZW5LRldETWJjWXFoMzdXTGhiRzFXdER6cXBwRkxnZzBQbnZCb29VaEstaHluOWQtSncyNWM?oc=5",
+        "published_at": "2026-11-08T21:54:18+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3OFpBR0Q1QW1FTTNkU2t6YzllLTlhM0hxbFUzS3VuUzhOdi1vNURJOXBzZHI4eHZ0WURLcmljcTQ3ZEM4b2c1YVRPd3hoS3phLVVtbE5YcHA5MXExajJCQUl5R2VnOFZlSGNfbUxKNjlF?oc=5",
+        "published_at": "2026-11-08T21:48:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Zelensky says Russia used North Korean missile in Ukraine attack - upi",
+        "source": "upi",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjIta3NfSHR3T3l5Unpyc1RzMDJ3NkltUkZNZVMtTlZWQ2ktcDNpTlJVTWRHMS11Z2puNHVuaGpOSHJMZWdLZ29aOS1hV21mR3FhOWxCYU1NTVVDWG1JdXhOeGVIUTYwS1lHVU1qZmJyMGp6WmV5QVVXdlg5VXNYSXNkZE5DTTZacHEtTGFkemRNZGljakxYWWJ5VGx3bkFtX2JV0gGoAUFVX3lxTFAzTnN6Rk1aWl9jLXBENzI2cTFwa1JmNnlvX0tFMGxyYUhfZ0U4OTdFczdodE03UVgtb3Aza01pNTRlNGd6YVhXVFJTdzBYNHBhLXVLeWlnM09Zel9JbVNrWmUyaFJLaER4ZEpwa0o2THQydlVLTS1mckJjcnVrbW50TFRVbEZ1OENPTXdSOWtSeFN1UGdsUHhGN1BBd1VtSmpkZ1JUTndPQg?oc=5",
+        "published_at": "2026-11-08T21:43:06+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump held off on Iran strike as Israel, US prepared for military operation, sources tell 'Post' - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GallITURTbUFkN1FiTHJHWFpQU2wxaWg1UzNBa0ctUkxvNENtU095bTV5M0IwU0s0ZkhWenNVWlUzYXBhMXVrTWNyTVVoaVN3dlkyS1ZmdnlPZGN2anVzR0pPY1Zyb096b3c?oc=5",
+        "published_at": "2026-11-08T21:28:50+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says he is unlikely to order Iran attack if talks progress, CNN reports - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbV96cm81eEtLUU91T0xKaWxycHdBV3c4VGNZb2dCbzA0M2M0V2ZPZXp2R1NRcmJ1Wl9TLUxZZWtQRDRtazg2dHVzRWlIdGpmWVRJTUl3cU95cUNheHJtMFJFU2lKM2c2cndGc2ZTbmFqZUpaT0hWRFRyZ1VPYzFFbXlSZUVCR1NuLWFqM0dFaUo2UHI4dWFKZlRoUHEwZ2UwNF95T0NzUGNHME15MFQtMWpMeXZaWDhGQnNkZDNRYnQyTjlQcUE?oc=5",
-        "published_at": "2026-11-08T18:00:09+00:00",
+        "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0l6UllaNWstdHV3YXVHY3FsaTV6blctcjJ2aDl5dnNwZF9OOFdrRXM5RlN6bUYzU2ZnTGU1bndLek5kTDFTWG1LZUFuamZLbFUwUmJiMDF1a21pOFNhcjI2SzdLVHRtWWYzOHVJVl9qMk9CY3E3Y2lEY1VOZ2txYTRHOA?oc=5",
+        "published_at": "2026-11-08T21:28:12+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump says he is unlikely to order Iran attack if talks progress, CNN reports - Central Oregon Daily",
-        "source": "Central Oregon Daily",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUW1PREt3amxJbS1xamlGZmhiWnFVa1RTd1RiS0h2dDhLMGRFeXRQcjRadjBTVWZsMFEyVG9oeHJpcE9YR1dCb2JybzZyTG50ZjZoT0FKcng4Yld6ZXdsczVCMXZoVzYwQ2FnUlpHMTUwR04tQjZaZDhUNHFsMVl1TEZQR3JhVTN1ZjNManJuNFp2Q09sa2hQNGcxdkRzUkNFcWQzcXJFZmhVLTZfT3lGNk52dEFWMHR1aVJWQ1E1djhTeVdvNGt2aGRDZ2k2bTFmcV80YlNWeXBPWkJsV0tVbi1UOEFBMGxGOFhYT2plNHV2bFJYZk1ZVjZWQk5HWUNPbVV6MkZ6NndXb2M?oc=5",
-        "published_at": "2026-11-08T17:59:46+00:00",
+        "title": "Trump says attacks on Iran 'highly unlikely' if talks show progress - upi",
+        "source": "upi",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xVmdRaXhSVXZYYW1OLVJhTDhVNE9hX2cyZWUyUnd6UmN0SWN4QzNZZVlKUGFtVUFmSWdlekhfRTBUUzQxODVDYkdrcmZvWU52UDVDaVYtdWpYSEZVcEh4VUU2QXk0Rlk4UVJYV3lHNG1HN0JFMlhPbW54Y3AwS0nSAYQBQVVfeXFMTXFqb0hjc0pRZjREa0xCRlUwR1duVXg1ZnhvYUphVlZ3LXlJTTNJb2w1eGJXM1dMZWJsa3pqUDI3WnRoNnJoZUEtcHlRUU50SkpaY0h6N210RVVIZnJjUXlCbzZGaWNITDY0aVRoX2ZScnhPSUZ5cm1EbnZCZnBucUVvai12?oc=5",
+        "published_at": "2026-11-08T21:27:02+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Live - Tensions remain high in Persian Gulf with tanker fire report, attacks on Riyadh - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95U0ZtQmdNa0ZLb1ZDczdBNHVhcXJEdTRNLThfVWpPZW1WSjRwY0RERFEwTzFlOVJyb09UZ1h0aUh5OG1PNWI0YVFQeXhzbkdxOU0yX25yaDVwUFlHVWc?oc=5",
-        "published_at": "2026-11-08T17:49:39+00:00",
+        "title": "Sanctions, AI Boom Cut Global Semiconductor Sales to China - 조선일보",
+        "source": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZV9WQU1SQVNZNUJzRHVWNWZmT3pTY0Jfdy1PM0xKLTRWVkYtaVQ0SEkzN2FfaFJRZUpzM1lFd0RTZFp5TUl2U0pDRTR3TFpyNnMtOUpaZEFDczNoanRPSDU5dlEwdVROSFhzYjBZLXU2SmVvb0Y5cFFtRm9TaVRHMTBNcFNJSjRu?oc=5",
+        "published_at": "2026-11-08T21:03:37+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump says he’s ‘unlikely’ to renew attacks on Iran if talks show progress - The Hill",
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZEVGSElHLXdFZzN0cVotRXI5aW4wd0M2cDMxMURDZmNhbFNwandxWjNObExoY0RHTEhPdGtySFdzM2IybkYyZGhReUlXZDdkdS15c01nbnZ2QWVuQldRWGNJUElVTXpreWVFZ18xSXRtOHNtQzBDU2pIQlhaX2FCNHJwbVpld9IBiwFBVV95cUxOSmNqMkhGX3phd0VTdnZDRkhaX3lsM050bnptTFVaOGpQOXdvcTdXU0JLVXZwbmF4aEVHMmFHV3dURkxwTG5Oc1NWcEpwbmNKWXZyZ2VNd1JncTlkc1pYNWpzcDJvZXkxSVJBM0s0NzBoVHgtLXgyWDlWOUxCRlA1VGFVV05DSWhCa3RB?oc=5",
+        "published_at": "2026-11-08T21:02:00+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran: Trump says strikes unlikely if peace talks keep moving - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmJ1ZUpQbVJBVkZJRFduUlpvQllXakM0QzUwYWdObVFtd2tKTG5SNVFQM0lheTlVR00xYnBfZ2RHX0tzdktEZ0dHRk1jRnEtSzJZRE56VVJsbDZNcVM1bnZQckVmaGNlbjBXTThKVl9FZWkxVVdnRWp4cWJHNTVkTXVwQTJENHBpYV92MTJYZ1Fsdk02Q0pn?oc=5",
+        "published_at": "2026-11-08T21:00:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Panama lawmaker defies Beijing, calls for Taiwan trade office - IntelliNews",
+        "source": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdU5zT2NQRm44UlNhVXlzN0htNEl2Rk9vRUxraTFDR0R4djdoYkQyUEdpVjJEWnRPdTZDVGUwOEFJUVRybjAyb0UyZnI1Zm81eWdzLXdfQ2trRUNKSG5Hdy15YXVvUTR6Sm1SS0pFdDh0TmdlXzBVenBnX0RDVVFMcHZrNlBzU3BVdXdvWTBLZHZLWDZ4cGNOZTd2QXM?oc=5",
+        "published_at": "2026-11-08T20:36:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "The Kremlin hopes the U.S. election shake-up won't shift Trump's negotiations on Ukraine - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNm8yQ0YtMGJKeEdYeExoS1BCMFJ1X2lCcnMyS1VSTmpaY3FUMzFFcjR5WXA5QTNoZHJTRkVmdTg1dkF3SXYzd3pISk9EOUJmSTVVSDJ6R291SWVjRlBEQ2FweUFNUU9HbGthMEpodHZSWGRGemhSWDJTUXRBZDB3dDA3N01jMUlpNUVNWUw5U2NKcjJ4dVRrNjd3RTBRR0FLRjg0c3lQd0pVWmJuTTc3NE5RQ0REcHZ3dlhIb9IBwgFBVV95cUxQNEZZdW8xdTZfR2RMbmIxZ0pjYTF4dUpuRUdqa1VrRi1ZRWxpcGNYNnFyM0hVX1JVVzQxVWx1dW1TM2E3a1lJWXdINmRnZFpnWEFLYUxIYnhuT3UyU1ZiRFNRTGh3aFRhSUxiN1FyN1RiR1ZucXVtZnUwSHFPaUtJVTQwQ1NoZ2dqdkFKVHpqSmx3MDl1M3NiUVhhVTdxVG5xU3llTHJoMW8zV1Q2amxyblNFbGpxdVNxNlJlZGR6UVFCQQ?oc=5",
+        "published_at": "2026-11-08T20:15:36+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "LIVE: Ukraine reports massive Russian drone attacks: Strikes hit military targets - Latest news from Azerbaijan",
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZWx5MjFDLVVSVF8zTDdOOERGYXZzb0hDbkdYTk5ldUtwczVqUUlOb0piQW5kcGk4bzhfc3h5QzRTMmltNC1xRWlFd2tsalpsY1Z5YmJ1TGZVSVJkdGFYT0cyZkdSZGFpZWgzZUxZbElxM1E0MHRVSUk5TnQ3WlNZYlZNMzNvMkwzcnRkRXFSYjFqMTZqLWEwOVhjbTdhb2JnbFE?oc=5",
+        "published_at": "2026-11-08T19:00:45+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia targets emergency crews at the site of a deadly strike in southern Ukraine - ABC News - Breaking News, Latest News and Videos",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcmt3dmZtVkhucHJYZW1NSGk0SEF0eVlwdjJDYXpaYU5jUlFtaWpCUU1mQzRCVjBYWWJBaF8wcEpqczlSRjNKdzVNVHJfMFZUeUlBYTBBeVJaeE83R05fcXlUY1FfSWljdzRqdGRBSjkwYmNEOWozY05qYmlMOWx2NkVQcnk1cG10aFVrVm1TSUdva2U5Z3BnaWNHV0xRZmRBRlhQdDk2bUdOYWdlZFFzTWp30gG3AUFVX3lxTE1hbUtqNlV3YUhIMTdaQWYwWFBoVjExazBXVjZWUFlzNWd0Z0hMbmZ6OU4wMVVKNjBLcEhGYTVoSE90bURVbVZFSkpJS2NDeXRZYUY5SGNUeTIwc09kX1h2RGtFaWxkRnFVOWVRWllmbWdkc1JBUkRCME9hSlNJOUZXdUVmbm1xYlNVTlV1eVYxdmJldWxrYXNZbWFYQ0diMUIzZHAtNnpxXzU5cDFCR25XSkIyZnNIaw?oc=5",
+        "published_at": "2026-11-08T18:20:48+00:00",
+        "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -122,69 +209,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukrainian drones hit key bridge, power stations in Russia's Rostov Oblast, governor says - The Kyiv Independent",
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZmQ1d1UzdVVDY2tYeFM3dE5sczNmZHlKeWRuWi1sQm9IZmpYd1NuWWNSTF9SUUhla21WZVdFUGtFSHNkbEhOc0VYd0Z6SkJ0VE9lNkFudkNnODF6SVltOS13NUNsRHQ4czFyYzZZeHJxQVBhcXhoNy1adC16MXdxRF9UbVQ4T3hxZkU0VlV3anJHYUE1UG5GWEVJRXpPZndmaW8zdUJVQnBrQm01ZnFtdUdMVVE?oc=5",
-        "published_at": "2026-11-08T17:39:36+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump says renewed attacks on Iran “highly unlikely” if talks show progress - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRcFFDS2FTak9Bd3ZyWUJkVUh4NDdfamp4bDNDd1A1NXpleGxxeFFTRmhsV3IyZE56R19qLVVRYmhNSFZISXpjaEhwYmJHeE1YTzlJVFRDdmJYbHczRnozVjUyYWttNkxyMThCMGJrNW0?oc=5",
-        "published_at": "2026-11-08T17:28:27+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Panamanian lawmaker urges Taiwan to establish trade office - Taipei Times",
-        "source": "Taipei Times",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FT292WkpNQ3EtNzE0Q2FqMHdIb2p3U1R2MjV4aFdnOFV0RC01MUhLeEdaRmZNUUpCdVJwd3kyUXVXckwzVUd4Zl9DZThzb0VUWlk0TlZ6VFRGcnFuNXlLdktwVVV1ZWwxQnFvWDlLNWEtRXVaa29UV2Z3?oc=5",
-        "published_at": "2026-11-08T16:00:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Concrete steps key to stable Sino-US trade - China Daily",
-        "source": "China Daily",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvbzNSRU5qVHdwTzBqcFBNbzkzREdqUEFrLWZLUXdkWGRRYlMxTk5LbEw4VVkwSUxQLVZma213SHI1M1o2Z0JuSTRCOU1rZlhPbTFCcXNGRXNiM3p5TFBITmF1WE53enVXQWJCOF9KVDlkWTBSOXM1OWlIZ0RuZw?oc=5",
-        "published_at": "2026-11-08T15:57:19+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine says it has struck four Russian drone control centres - Yahoo",
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0NTQjJHbGpYUi1DYmZqM0NiMFVEREpyZHB1NEpsSHFEWDNTLXpSVzN2emtyV011ZVk0dll5eW9Td0pTbmdicWtYREs0STNVTXl3Wkt1T0hQSjhjMzRmMjQtUkdEUTBHMGdZSm43SVQtc1pjanVxRmJveURUcmRJcFVmNVFwV1ZsWUVYQlZuOHJGVGs?oc=5",
-        "published_at": "2026-11-08T15:48:38+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian strikes on Ukraine leave 850,000 without power as Zelenskyy reports drone attack on Komyshuvakha - Euronews.com",
-        "source": "Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUE54ZG1CVzhqcWc0MmI4dnNFYU1zM2t3b3VVU3phOFRvM29rU2x6Z1daelJCZlgwYkM2YUt4aXZPMkF2RF8waFFTY2NfQ2dVT1RIODAwSUFaTGpCbUtaczhud3ZHYW5UM3RlMUFtRlhyV3R4TlNVNUo1RTBEbGxZTktKTENCaG02WjQzei1wYXB5RGVRUldEemxVNXZRclVSV01GeW9iUDRlSzdvQ0FkUU9xNnJ0ZzVaVDhSRk1kcjJMbkxa?oc=5",
-        "published_at": "2026-11-08T14:48:18+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine builds combat robots to hunt Russian troops in underground gas pipelines — UGVs adapted following 15-kilometer subterranean assault - Tom's Hardware",
-        "source": "Tom's Hardware",
-        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNeml2dDh0ekNTWnFpRnV2dXA1RHRMN05IX2FUVFRwVlYyZjZRa0lxc1BpVUxHbEw0YmNIQkt5b0tsRy1RUFZTblRmUmdMQUN2eENCSjdBeWc3eENlYk9EQkVHYXBxNExIUGFWeXVrSUh1em8zUGRHVElHcXd2T2xvT25ORU1UUjV5TFVVZVlUUHRBLS0tUm9RZV9vUFB1OHV2NndQWVpzZmlyTFFCeC14ZHlXcXNHTlFEc2tpbTJUR3NQRnVmU3hqVy1wdTgxOEp2cWFJUHVjTERIRUlEN1hSY1lyMXlRZXJEVW11UlBBMXZjUXMxQ3dpdTNMYVY2VDdYYkJmZFk4RHotUVdYRDBzVFdaUDFQaDNR?oc=5",
-        "published_at": "2026-11-08T14:36:39+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "China’s Push to Expand Yuan Use in Africa: Strategy, Trade and Financial Influence - Modern Diplomacy",
         "source": "Modern Diplomacy",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNzRZSllzNm9Ja0xmajcwOVlZWjhzaXUzWHZrUE9rMEhVOTBnN1lXbEJGN0pTTWkwYTd4b2g3UV9pbWdSMmpjaXpVNjNMemVZQnRJVWpMLVQzOXM3RmJoR05RMklOZ29OZnItNGN5WVVkaEZYZlZOLTdjNHY2dC02U19pTEhWSlBlenJsUEVLRzBDTGxKSVZtUktyXzg2UTlSb29Vb09oMG9NWTloMk5uV3dJcS0wWXY4UGc?oc=5",
@@ -192,69 +216,60 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Is China getting faster at integrating new nuclear missiles into its forces? - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONlFlUWtta09hcWpEaDlGd0FkSG1VOWdHRGE4QXRGMWVjZG81MVRwVGFaaFZ1ak93VXg0TzlTcklRYWVES2dHejV0Sm53Q1dENUZoSmZYMGMzbnotMFFFN3VlRUVKX0ExaDl3VWxIV05CMUNaeXJEQWpiX29rNHBkNHJVdTlWTU02X3o2SVNhMEdHUER0TnhEOG92eEY1VktqaThPZmRfMGxLUXZFYU1mblVFTmtrMFVaMkgzeEJ30gG-AUFVX3lxTE4zWlRvUV9xZ2xxX04xblpmTzBXTFBIMDFaVHVkLXZ5YjZOX21mTnhaT19LQkVQQkxFamJuNXk5N2ttSGtPSnVpVnBlYTkwNnBQTnVxM21MZ3FWS0l1TmQzei1vd0hHbkp5TmZ4bjAtOGdZZ2JEbk9VYmJjbHRMLWk5aWZlNkExMFBzdHMxMUlzRzdvQ2xaUnE4LWVuOW03eU5KcUhteTdPSk8yak51TEQ1MTBuNGZKU2dteWpGTFE?oc=5",
-        "published_at": "2026-11-08T13:00:24+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Heidelberg mayor urges pragmatic China-Germany cooperation amid EV trade tensions - Global Times",
-        "source": "Global Times",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JVmppNVhyby1aRFRWblRVdkNDVVBBRVY1Q0xPT3hZTVVtOU1FUGtTQ0JLVzFBTHUtU1dWMUkzYWhfeVFGNGt2ZUVfM0pNNVpRZHFBZVU2YXBqMjI2bXYxNU9R?oc=5",
-        "published_at": "2026-11-08T12:26:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
+        "title": "US chipmaker Nvidia investigates CEO Jensen Huang over affair - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM2c5MDNuN29vR3VHTlVkZ1QyNXd4RWRmLWx1V2VXalh3MzhaWDBIQTF1VnlBTm4yQXpIbDNXUWtnQ2RDYXJ5eUZEdVhkdmR2YkRBYUFaQmlMaDdFTC1FVjdlU290aFZheDJwUmZoNFVIUC1uRUF1WF9XclVGZVFwVm5MWm5SRnZtOVZMLVNBSGUwZ1RHMlB5QjNYYW5zMFVqeDFiRw?oc=5",
+        "published_at": "2026-11-08T22:18:25+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3OFpBR0Q1QW1FTTNkU2t6YzllLTlhM0hxbFUzS3VuUzhOdi1vNURJOXBzZHI4eHZ0WURLcmljcTQ3ZEM4b2c1YVRPd3hoS3phLVVtbE5YcHA5MXExajJCQUl5R2VnOFZlSGNfbUxKNjlF?oc=5",
+        "published_at": "2026-11-08T21:48:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia launches investigation into reported Chinese spy effort targeting Jensen Huang - Politico",
+        "source": "Politico",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb1NiMWVSNmdOTXZDZmxLajZyaU1vbjEwT0c5VzFGdTZVbUV5QnRBekVNM2RnOWxTNnJIMGNod0w5Rk9fbm5BVGZrZzdYbC1fbE5oQzRxUlNlUGpPOU5RUVkxRjZtUjkwOVpXaG9ZYUpHWW5oNkhtT2RtOWR6aEdfWUFWRUdjQ2ZmWHItUWVBakVYY3A1dHpTM0NuNHhlQUp4M3UxMw?oc=5",
+        "published_at": "2026-11-08T21:44:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Jensen Huang Just Handed Nvidia Shareholders a Warning No Earnings Report Can Fix - 24/7 Wall St.",
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUXliaGQyLUNnU2wxZ1pMSF9VYUE4MFpjQ3NONTJyaUxjU01QUEJONGVsZ2tGVXk4RHAzTUlNRUdzOU55QXd6dGlhb1Nlbm9Dcmk5ZVBlUmdfY1h3eU1rbGE4SWFyWHFqREpnSm50cUhXcnlwVXF4Q01WZ2x2aUo1d3gyWEh0MlNGc3lQUFBkTF90N1dlMnhRaFIzdlBpQkd5SXdkSlJsajdEZHJSQW9jN1ktSHVGVnFIcmoxZDgzMWc2eEk?oc=5",
+        "published_at": "2026-11-08T21:38:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement With Chinese Spy - The New York Times",
         "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPamFxcDYtMTJyVWJKMWh0T3E3NXItSTRyTVA1YS1Ua2dhR0p4QjNFaUpXRUNpUTMyOFROM20xU3p1eGZqUXdkRHdoYTdYZW14OGk2clRhSnV3dnk2RVp3YTBROWZDUnRZcUlJeUJtVl9FWFF6NUR0aXN3Mmg1a0xsUVNWMWp2dlBsVk13TV82NjVXeXlTWVdMemdWeGRXLXp1SE1LQm11cEZUUW9FWVZvUFF5MU5pa3hIbUZDWVM0RGlrQQ?oc=5",
-        "published_at": "2026-11-08T18:37:04+00:00",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxajB0RktZWnprNjVaMXRsTXNncDhaaVdOV2FFTmp5dkoweFAtS1RuWkNscmEtSV9zZ3BMSXpOdHRoQkFJeWVIbElOMV9zTFZGMjFENGVuOFFwUktqT3B4NkZKbURUMzJuNDljY19VcFl1SG5XSXVPYmhYaFU?oc=5",
+        "published_at": "2026-11-08T21:11:51+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia Stock Loses Key Support, Enters Bear Market as Earnings Loom - Benzinga",
-        "source": "Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQek1PQXZzR2VoMExaNmRkc0p6WTZCaXJBOTl5SUlzcnotZVBLTnRHdFdoZjhwdC14a3owc0lNeGlLeElma1N3dHhQdWk2SlF5Z1d1djNpQUlBRWozSC1vWnltd2dRaFZISThLRU4xVDFTTHFYLWJzcW1FczRwcnNSb0J3VUdqaGRXdlhzeDNyRGpueXJ6VUVKcFNwd3VsZDRCd0VoV1ZKU1ZEc085amppYUFOcWRIbWdHREJiVk0yZUI?oc=5",
-        "published_at": "2026-11-08T17:45:05+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Nvidia at 13 Times Expected Earnings Still Isn’t Cheap - 24/7 Wall St.",
-        "source": "24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTHhUYzVkM2RpVFVab2JJd2Eza0hydjlmc2I0Y25fdlNtenFjRXhlc19hNG1EYk5hc2c0LWI4UjBhSXJhU2pnLTdtdWRDSGdxNG5zYUFNNXo5N1EtMXlOS0ppdVZTUTNiUWdkMGg5RUg3cnFCZVlfYXRNN203dHZFT1pUc0IxZUczWmV4OUJ1bW52NUtYWS1Ld3p2YmhNM2ZrZlpV?oc=5",
-        "published_at": "2026-11-08T16:08:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Why Nvidia at 13 Times Expected Earnings Still Isn’t Cheap - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSEhJbGo5Z213RFlZOGstMFRLUW52OVk0NmF1NVl6TlJVbHlzay0tZm4zLVIySnNnSjM2SFduV2psMzk2M1YxVEtSWmpyZ3JCcVQ5MXZFX2ZrdlJkM0t0UDc2a1JvMi03R2xpbVJTeU9PcG5jNTlWVUR3Zi1YVlF6dXhDa2wzM0lOazh5anRyRmlJaTBodFcxUA?oc=5",
-        "published_at": "2026-11-08T16:08:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Apple, Palantir, AMD and Nvidia Put AI and Earnings in the Spotlight and More: This Week In Tech - Benzinga",
-        "source": "Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVTB0TXA5VFJuOGtXek5qUWV2cVFXNjdMT2J1Y29rNjh4MXZaWHRuNFZ4M2hvdU1VQ0NzTi1sN013dGZnNXlLVnF6RmhYb0Y4RmZTb1kxWjIyc25WSWVVdWlzRFE0S0M2VV9ZTWlCd0VERWdDdExmWEdFMmVZc2JoWllzajZETFhRaUdLMzVNQkM?oc=5",
-        "published_at": "2026-11-08T14:00:08+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Janux Therapeutics (JANX) Earnings Beat Puts Its Pricey Valuation Back In Focus - Simply Wall St",
+        "source": "Simply Wall St",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWVVXcVp6bk5TOXdxZW5BaE8xQ3dfa1BwckxQcE1sUXdUYzQ0ZENrejhHQlpMZ2R1ekQ1Y2xlQ2NlU0VURVRyc0JkaFVrYkNvNzYta1BFVjIxaHM5RFBuS3VoZW5vbG9NaTBxeFJnVHI5dkltLVNSTGY5b2tMSzRFb3RucnRHUjExWnZqd2VYaTY1elNVcnZrYzg2cDNoVWF5c285RHdrT2ozRkFvN2xOU2lSblB4S3FxTktxVms5aHhGTDBaTnVDQXZfRTRqRkN5RWpmSC1FX2l6bWdfVWp3WVBRV1JVN2fSAewBQVVfeXFMTlNIQ0tQbUNNYVU0Wm9tOVVOLU5PNGtZRlpiVjdPaTgtd0tYU2RQVWZvYzJxeFYyMkpXNFZ2eHJnRUlMSDZUNEtSalhjRkdFcWxWZXFPUnZSaU96TUpJMUthaktwUU9mSk5IWUZrVGVTYkE5RUNlQXNCZEdKcTViU1pPNWNuOEtlUWpISndiaWRoZmdza2ZwYTllX3d4Ulc4R3ZYaVRVSm44Q1hhU3BuYTBEdW1EdkkzREYxZFl3TjZ3bVpXM1ZlRERsSjBleGEtMXRBWE1kSVF2aTc4VFFnQlhDVENOdl9Ba0E0dlg?oc=5",
+        "published_at": "2026-11-08T10:37:02+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -290,15 +305,6 @@
         "source": "MarketBeat",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOendzRkxTd21wX0U4RmFyaFg1SnNOVlN1aDNDaE50MFFiNlBzUTRIVGtwUDlpRXVnSU5IN1IwQjNaaGNSQ2lCSmdQWHpFaGJoc09qUjFpMkVaWU1EQ3pJU0Y3MGo4Z1VyazBwVXJ3enhxYkZSd05peXlEcHIxLWNHM1RJcEctVHBwZ1gxUkFFYjVXUzlZQV93WFo0dFRhVk5wVHczLVR1TUVnY3Rqc3ZBY2RiSVRsUEN4RkU5WS1RaUpXb3hRZmJfMDMzLUd5eE9S?oc=5",
         "published_at": "2026-11-07T00:29:51+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Moderna (MRNA) Stock Climbs As Q3 Earnings Mark Return To Profit - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWEZjMWV1VjRtbDZXWTJxZ0s0Y1FWQXlsNXVRbE0yN1lyVXl3UUlyWVdRX0Q4amYtT19SaGx1NnNaUVptUGpydXAyc01sclF4aFFvelRQLVNWYUVUT0hyN1BOZ3dpWHJMWWxscngzWl9Ec1JjdzN1S0RHbWxNRUpwTGJJLXFHZTZaeWx1VFotYURLb183b1lxNw?oc=5",
-        "published_at": "2026-11-07T00:16:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
