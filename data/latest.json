@@ -1,46 +1,40 @@
 {
-  "generated_at": "2026-11-11T02:45:49.808980+00:00",
+  "generated_at": "2026-11-11T09:53:07.637866+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 4.9830002784729,
     "treasury_10y_change_bp": 11.900043487548794,
     "wti": 86.63999938964844,
-    "wti_change_pct": -0.24179515044577826,
-    "brent": 92.4000015258789,
-    "brent_change_pct": -0.18364283191719677,
+    "wti_change_pct": 0.6973482888617877,
+    "brent": 92.62000274658203,
+    "brent_change_pct": 1.235113027869006,
     "nasdaq_level": 25065.875,
     "nasdaq_change_pct": -0.7415538042607306,
     "sox_level": 9998.330078125,
     "sox_change_pct": -0.35479229458174055,
-    "vix": 19.459999084472656,
-    "vix_change_pct": -2.3092419179692625,
-    "dollar_index": 102.25,
-    "macro_score": 29.0,
-    "tech_bias": "negative",
-    "summary": "Tech bias negative. Nasdaq -0.74%, SOX -0.35%, US10Y 4.98, WTI -0.24%. Geopolitica: Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say - Reuters",
+    "vix": 18.84000015258789,
+    "vix_change_pct": -3.18601727160136,
+    "dollar_index": 102.50599670410156,
+    "macro_score": 27.6,
+    "tech_bias": "strong_negative",
+    "summary": "Tech bias strong negative. Nasdaq -0.74%, SOX -0.35%, US10Y 4.98, WTI +0.70%.",
     "quote_times": {
       "treasury_10y": "2026-11-10T19:55:00+00:00",
-      "wti": "2026-11-11T02:35:00+00:00",
-      "brent": "2026-11-11T02:35:00+00:00",
+      "wti": "2026-11-11T09:40:00+00:00",
+      "brent": "2026-11-11T09:40:00+00:00",
       "nasdaq": "2026-11-10T21:00:00+00:00",
       "sox": "2026-11-10T21:00:00+00:00",
-      "vix": "2026-11-10T21:15:00+00:00"
+      "vix": "2026-11-11T09:35:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNXZLZlE1TldPUHRna1pNTU91YTJWVHJ5NmxEZERoWGFudjU4WFI1SHlqVXl1TzFmeHBFcjNjZHhOTkNSVTIzcmFsbnktdzR3MDFaY2FYQzVlaHhBc3V5Nm52R3pvZU5vdHJhZndaV3R2LXh1cVZxUkhvcDQ0Z3lMNXA2THdaM05kZVpNOWliNGQ0cHBNOFhYYU44U3hWaVRkYldWNS11ZUtwNUs5YjBJbVdLYjhidklfMnZwYWVwRHpyMGYyMS1Z?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-11T02:45:39.922763+00:00",
+    "updated_at": "2026-11-11T09:52:58.438253+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 14
       },
       {
         "area": "Russia / Ucraina",
@@ -64,184 +58,229 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 16
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 7
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 13
       }
     ],
     "geopolitics": [
       {
-        "title": "Treasury Secretary Scott Bessent calls for more balanced US-China trade ties ahead of Trump-Xi talks - CT Insider",
-        "source": "CT Insider",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdFdTa1VuZG84Mllub2Jkdmx5MmluQkF6MjgtdzU2ZVk1TlVwaUN2aUViYXlLUnZGM0FNZ29qUENJdl9NX19sSHUwUTdGYmhOUF9iWWtDUE9QQVhCZ0FLN19VWF9yWXNnUlZ0MDBuWTB5YVN1UjFlRkJVbnRDeGNPTVpkWS1rVktQVE1xVGMyWE5WOUJtQ1hodThtakMyR0pnMXM0REt3?oc=5",
-        "published_at": "2026-11-11T02:41:31+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Deal vs Deal? US, China trade calls to honour commitments before Trump-Xi summit - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUE9IeC1zRXNEQ2QwSDA1b3NZR0Z1OXB3RW96SzNaZGRmOXNOMjdMYmpFTzAwYTFsUU1pN05GYXIzWlZqX1VYV3ZJbW4xNFdxU2dsenZHbTM1QmU0cEh4cUlNdG5ULXRCSXNsbEhCQTljbzdENEpKYnUxVWJqdjRHT2tHSUlKMDFCUXJ0OGEzTlVIR1hrUUJVSjRVQmFud3JSMG9ma0tjUVp3NTd4T0c0S2lBUlZFNGRObHJqekVTRS0?oc=5",
-        "published_at": "2026-11-11T02:34:23+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Treasury Secretary Scott Bessent calls for more balanced US-China trade ties ahead of Trump-Xi talks - The Seattle Times",
-        "source": "The Seattle Times",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUndVcjlLOVlDZnV1TFJDeV9XczYwam1SM25vS19BM1Nwa0pRMUZNYTFpVnNVVmFzSDFrV3lmVjZLUjlnazZlTENvNE5QSkNxSFZ6SXl2NFBTNHZUbWQ3bmdLMEVfZnF2bDAtUjVuOTVPdFU1eEs3RFJNV3ZPOXB1MUxlV3YtTnBXSElhMVRpcWo2OXJKZlZOX3BZWG43NjFGTk91LTEtVlhUczh1b0dHaXh3QS1TVXBXWVBXMDEtUHllRUF6S09ZLXV2eFpGakw4WEVFbFhn?oc=5",
-        "published_at": "2026-11-11T02:29:12+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Treasury Secretary Scott Bessent calls for more balanced US-China trade ties ahead of Trump-Xi talks - Eagle-Tribune",
-        "source": "Eagle-Tribune",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPX2lZRGk0YUN2SGprejFQT1lBeDJzd21LRmtjUUcxVTRvSGdMcGI3V0xLQUlVQ1lTME9SNkxmX3pMYUNLMGdDOUZBeHVKQlBZVE9IU1lHV2hnaC1qZm5qbTNjTHlLY19NNmxHU1RQYmg5cE1EbE5SRnpJb3lvdF9mYTFVampSd2pDX0V0M3hhbzJEUmtjV2QxbHdBdDBIYVlhTkRUVEFlb3lvMXAyYkhGR3k0UHQtQlBJV1pjcDNPcEItV1dzY25uSld3Zkl1a2tLOXJXcW5veElWWXk0Q3J4c2tSLWhQRWRLeW5PMGhKTGx0VnZNajA4NjRXTkVvRFBwb2twV05EMUE?oc=5",
-        "published_at": "2026-11-11T02:28:44+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US lawmakers push for tougher China export controls in defense bill amid Nvidia scrutiny - The Korea Times",
-        "source": "The Korea Times",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORDYwV0s4aDdiUW9zM2YzOHVZZ0t6X1VvaWgzbE9qUm1BZWlCYXhDSjZyN2w5S0lCNlhKbGtxZTVvWE5xWXNKUHFmVWRBcXJjczZZMF90d3NhMmJUX2NoT0lGZUVQWnlDMnY0Nm1TdXIxY0psX1VaODJ5X3lWOGgzOUpISWZHdzk2dzA2SEpEUlZESk5pc3djQXJkNmJhdkVNbGhDUjZ5NDV2LTlPS3N3Z09Uc2g5YVFpNF9DZWRYTzFLc0RvRjY0eE5XWETSAdIBQVVfeXFMT1hDMVdVa0k3YnFLVlpDRUl2U2xpSlhQLXFDREJDWEh3UXozVHVjb2wxUGVCUC1CQmd3Y2NJV3cyRl85LWxIS3ItVU80TXNrUExSMU5KWkFIYVQ1dFpMODM3ZFI1aWhxTFpkcV90N01sYTVPS0lIdVYwMTNvVUxZZWNfcHBkZW95RklqVEVSWG1mXzZJMEF3QUkxMGUyX3ZXX1VuNVRZZzA0RllPY3Z4aTV6dXY3bGlVbjlCazc5NExGNEdEc0NjbjdIWlFIVE1vRlln?oc=5",
-        "published_at": "2026-11-11T01:31:03+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU-Ukraine Drone Alliance advances joint development of drone defence systems - INSIGHT EU MONITORING",
-        "source": "INSIGHT EU MONITORING",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcUl4REpzTjdPZUZPdkxUTS1CU2kyMU01TnlHYzVieU5DdkxjS3pZcTJacW9MZ25XR0pRV19rTGlmVW42Rlo3N0RnNV9XaDRiOTJ6NUpWd09fMzFIazhMdkNYenZhZ1Y4WENlOG96cWJlUUU5LUM1MTBMaEtJSDdDUnJiRExfVmhPQmlFbzBBUXhqemVUVGNyTHlyaWFxUGF2Vnl0UUFTQ21rLTd1WWs0YXUwc2VKTVZDZ05WTkloTGI1cEhHM0NrWURHMlhmWjY2UVZ0SHRDUkNaVjAwX2c?oc=5",
-        "published_at": "2026-11-11T01:19:28+00:00",
+        "title": "Advocacy Groups Urge US Congress to Tighten Russia Sanctions and Speed Military Aid - Mezha.net",
+        "source": "Mezha.net",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NdnE3eS1SWWpXUFlzV0FBZGd4ak85RVlWUWFfUlRhYmRldW52eHJmNUdZTlV1RVh0V3NhalZKV0YyUTkzV2RuazcwUUhSZHRWZlVYelVTRXJoR2w1dVRsb1ZwQ2JxSmt0VXc?oc=5",
+        "published_at": "2026-11-11T09:25:28+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Iran Update, November 10, 2026 - Critical Threats",
-        "source": "Critical Threats",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZ1ZPdnFJUlZFNTZXbUI2QVBKV1BtaDZqVUtIQjJIZlN4RndpNVdDY1BTeXgxNWhtNVZ0ZE1JOEx4dC1CcHUzRkowNm1MZEZzVENwQWE1UWZvbHFKd2VMa0ZWX2J1dzRabkFEZDNTUlFkLWg4SEpHRw?oc=5",
-        "published_at": "2026-11-11T01:10:53+00:00",
+        "title": "Oil prices rise amid tanker attacks in Strait of Hormuz - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNal9fQlN3Vlp6QU5la3pxQ1kyYS12bHhsQTQxT2ZkRVgwR05oTDJrcnF1T1Y3bm1XQmZ5VmFwQmpfTVVIaWMwamNRWFlib21GTnlocXJKNDhwaF93b044dW9iR1RiSkhYSVdmRnNVREc0eURpb1NCUEtrNWFWZVZvaS10RVJKZEo5TUFpcERlSTVkeS02SWxYc1BJOXF1QdIBpgFBVV95cUxQOUZMaTFWZVB1NzgzUEY3M1NNejRIbnRURk03amRtRjNhb1JvS0NMTV9GSEVkSE1zbnpaVHpJYzYyanhLeWI5LVF2T2RGSktQWDZBdEZ1OV9HWmVBWGlVOHpzOHUxbVZ2WWI2ZE5IckhPaUwzWFM1WnFaWHZ6UHVNS1VJNUQxRnJkc0h3azRLZzBnNzRWVzlrMWFRbFBHcTdmMDFSYkdB?oc=5",
+        "published_at": "2026-11-11T09:15:02+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Russian Drones Strike Kryvyi Rih, Disrupt Power and Heating - Kyiv Post",
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5za2RpTjU1cjJkNXhfaXBiNnBVcjRuempsbGF2TW50Mnd2SUJSZnZLT1E3b1NNdHV1eUxLZnRzamh3ancybmhkVTJRNA?oc=5",
-        "published_at": "2026-11-11T01:08:58+00:00",
+        "title": "US Congress Urged To Tighten Russia Sanctions, Speed Military Aid - Radio Free Europe/Radio Liberty",
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeGF3U2tCLTFBaXpjalZBb3Q5UXBlNE1wM3IxS0w5YTgxZkpRNTg0REpQR0xrYk9DZGZLd3U1UTZpXzJGWGdkVjcyZ3h6Ump0Q082bm1ZZGxDdVlnQkJ0TnhmMkZ3VE43Vld6SU1RdHVabWNNSXF3WjNlU0ozMXoxSWxBVDlkZTcxU0IzNHhJZzAwV0UtOFlxbkEtQXlZd0FkV0tXTWdR0gGoAUFVX3lxTE9rRmlDNHZnVFpGemQtRGJ1S001R0FBc2lEOVR3Z3o4V05QRzREUEE0cHhGaDRZeTY5dFJ2bVM3X0NjeUU0QlAzX3NldVhWUDBHTExDVlRUdlBYNG5NVUtud0QxenAxQ05PVUlvc1dIazZaU2lTYkQtYTFKTFJkVmE1X1BFR1ZLWnZBUGpFMU5mb0YtcEQwbjF5VXFwT0F6a1JzR0dha09LUw?oc=5",
+        "published_at": "2026-11-11T09:07:32+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Ukraine 20km Fiber Drones Hit by AI Fiber Squeeze [2026] - shattered.io",
-        "source": "shattered.io",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQenlvOXJvWkg4VUpOMzJWdDcxNTlqUUNaM00zc2d3NXFZdFRrbmFQWUpMZEgza0xSVW5uTnZ1ZDdmaFZQVy1DandxSTlWX21hYmZuZWd3bWJIWERWa2h3R1BKY2JPU09zSzFKVWc4c29oOWhIS2ZYUW1reTlUcU1tZ3FrNnRJVld0Vm1ZYWozdkJNbmc?oc=5",
-        "published_at": "2026-11-11T00:59:50+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian Push to Escape Dollar for Yuan Collapses Under Sanctions - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZm8xX0JMOVl3aFFhaTBKeFFsUXE0eXg4NDliVk9QNFc1bUVhZVpJVFpWSG9qMld5dVQ5WklsSDZsaDJ6ZVk3YzRiV05QODFjTWw4dTI0cm5SNmowNldtQmRqUEJaMkVxY210eGhtbnB4THBaRDJTXzZSZDJVWEVOcGZOZVYyQVFLbmp0QjZBWmFPcHdKT3JjQWhYY0YzaE1va3FtU0VNWWcyVVV2XzZMOUNjRWU3UQ?oc=5",
-        "published_at": "2026-11-11T00:00:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine’s new drone blitz cuts Russian oil refining capacity by 30 percent - Atlantic Council",
-        "source": "Atlantic Council",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMlhmdTN4ZmVpSzdZQ0FxS0k5aTNob0hEbEVmaHBMNGY4Y3NpaFlCNmIzRHRvazBNa3pycEpEQ3lMMlNFaFhRX3NHelZIbndpTmlSN2ZXMG9yOVNxVWhuam5LRkVQWTRNSVA5N3NJWGZrU3NkdE5sclItU3RDYlgyZXdOeWF2WG9kLU1RcmlLanhIclgzTy13MEdVMWg5YjY0N1ZsRFRyUnowcmJjQ0RqcDdOY01mZnVkOTkta096MTBhQjQ?oc=5",
-        "published_at": "2026-11-10T21:54:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Mojtaba Khamenei aide's chilling '40 years' warning surfaces amid US push for Iran deal - Fox News",
-        "source": "Fox News",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMndxTThzZHp3TkRyb3FNTEpGejNTamlqWGNJbTZtclVQMTgxcVozaGxodzVTZ1JmdXk0OVp1UlowUHZ1UnlpaWZ5Y1FBTlZsTjZhWHNCZUVhb09pRURzazI1aXB3TmhEcHVadVN6M1lQeG9MaUtIci1TSUowaEc2bFlJcnN1RWpoMWRsVFFtX2tGUXZ5ZXZSMUlxVHhyT0VPTzhaYVVCc9IBrAFBVV95cUxNZTF6ai1NWWE2UndXZTNDd3hHU1R0ZWIzM2JZOTBYekJzWFRHU1NicUFmcVZiRTM5YXlGQzRFTnVILWxEX2M4YkJlQ1d1WHF4aDRibmNRc3ltZTNBemJwMGRqUlh5U1lmM2h4bDgyVExRRW8ySlczYXBtRWtYS0Yzbk9OTENhY0xhNTFDdWZzUDJ2eVdRYXJMUTgxSDhhLTJUTTloY1haaVgzVXFj?oc=5",
-        "published_at": "2026-11-10T21:33:04+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran Shipping Update – November 10, 2026 - United Against Nuclear Iran | UANI",
-        "source": "United Against Nuclear Iran | UANI",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeTFLdXRZRG1MZjlPVm1oc2w4NTBFX3daZnJQR2VfeHdMNmZFVTA3bjVXaVdGQ2xhNzNXNXEzd2JhYkNRd09MWTdBMDU0NGsycnl6RjRTMzJydW5HbFdLSU83TE1xTTlhSktJZ3BoRXh3Smc4andGQkV4dXF2T2RGaDN3N0FCdk5iQVhjOUNqN0w?oc=5",
-        "published_at": "2026-11-10T21:19:35+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Prices Extend Decline After Trump Signals Restraint on Iran - WSJ",
+        "title": "Oil Rebounds After Two-Day Drop on U.S.-Iran Conflict Uncertainty - WSJ",
         "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWY0eGlzV2FfSkxTRE1BTWZaTjNtWmIxSjJocnF1a2YzbzczUWlWUFBLMDhlWFdkN0s2MFJDNThNTUQyQlRkT0s5bTRfZUpWbnE0QWlmV0lDbXQxQlVXUk41M3M3UF9lWVZ2ekM4QnQ5WXE2N0d0RWNRY3NRNHc2YnBQblFkZTFhQ0ZWWURxa3ljN2FBSU5TWERiMlZqektRZl85YTBqb09zNDNZNjNQVVJn?oc=5",
-        "published_at": "2026-11-10T20:43:00+00:00",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVWlUN29aYldzSEZmOWV5Yi1pNEIxY2F1d1Y2TFU1S2dGZGo3V1Y1bE9NR0VJT2ZiU2RQUDl2S1l1Y2Zid05VT2p5VUJFS3d3UjhuVzR2NkUza3MtUmdyd1NsVVBWeHJrWVB0cUNFNENTYmczdTJRNmdLOHJqeExOUF9acTE0NXYxQzRnNzEyUmh1NlZSc19wRzRR?oc=5",
+        "published_at": "2026-11-11T09:07:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Qatar PM warns of major US-Iran disagreements despite two-week reprieve from pos - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BN0UxYXRjbnM0VnQ0aG5scm9jTWV1VlRTSFdEOXVZN1lzWVU4VFY3b1pmSWx3X3ZKcGFERGt6eXlaSEYyWlctQWppRzhJa3A5MlBoVlFIejRfc2kx?oc=5",
-        "published_at": "2026-11-10T19:57:17+00:00",
+        "title": "Yemeni forces, Houthis exchange attacks, claim to inflict heavy losses - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbnJlaDBPVHFnakdjcW9wclBST3dmUFdIX2lRY3F4eWwtX3pmNWtQbVZFOURieHdsUTdxLXJIY20zYVp2eFNXNk00NnhxZ21DMmRnWTJualhnWml6SUxKYWlza0NiZmVkdUF0Mjl3VGtRUHZ1WlVrMm1XMm90Wk11UDA4aDFNbDFpdUFNMll2Q3pVUWpYdEVBY1Jnc0FSR1BhcW13X1lZZEtCWmRYM1Fz0gG0AUFVX3lxTFBkLVo4clNIWUgxSlBVR1E0YjJEYU9KdWRCa1pTSENmNl96SEtRWFJKVmc3ZERyYkY2b084eWxibE5tcUhQdkNSOWk4Yk92WWJiZjRvZ2sxTU5wdTRmWDJCWkdFaEFmX0hqMURBZEVGTzFPaURCR3kxZ1h0T21fMkJodXF2RUZMektmdEVDaTJRNmMwbmg3MzE3UFZ1N1hHWkpDT3RPeDdySE1qZ19rVExRTk55VQ?oc=5",
+        "published_at": "2026-11-11T08:58:38+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine hits Russian oil port as Abu Dhabi talks enter second day - Yahoo",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNmNVc1hYRmRPbzEyWEdWY3BFaWxJem9QUGs5UF9IdTV0UmI5cktpMUtNd3lrNndVZFNFUGhkeVdySE1hNENOTW9MN1c5TC1lMUdWXzJQQVY0YkNiNEwxOWNERnBLWHducG9CMnRBWDhmUVZtR3cxWTBwUUZ6QnZxN1JNQ2NTMDZmYTZJMXVYVQ?oc=5",
+        "published_at": "2026-11-11T08:48:33+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "2 killed in Ukrainian drone attack on Russia’s Smolensk region, Leningrad region hit by largest attack this year - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUkI4eFBuQlh3MEo2RnVuNnhNdFMtWkc2MFJzbDY5ZFVUc1NwRWdLa1F5QW9jRnFRdmM4NU9VcXdFVTdQc3NBOHY2d0RDcGlJczFnSWN3ckpfVFllNXY0OWcyWjBFUjVSVTNpNS1EZlJ0ZExDUHl3cFNZY0xGamR6ODdNbXBoRDc2dHYyTDFXMVRTUVc0V1BKa1BMM1dORE53Z1lDSEI0aFRXMExPMGxiUHRHRW12d2RBMG9PODlURXk5R1JpS3BCbkQwNl9acEtyaHcySXFqdEJ3QjNXYVRvVFJQVU9vX0dpZVZiREFHeC0?oc=5",
+        "published_at": "2026-11-11T08:40:05+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Why China’s $1 trillion trade surplus isn’t all good news for its economy - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZV95STRtMWZoX0pmMWxWa3JBcVZsRFdoNERTNU9uTTNFYjBRb2RYY2NFZ1R5cEtDV2R6Y0ZwMG42TVNGVk1NR3EzS0FLUmpJWDJoMVVNWXFSenU3Q2ZSYjJwb0taaVh2NmxkQ29jc2FSaGd2ZlpNYWk1Z0FGMUljSGo3UnBjVGEwYktIbjV6YndCcFNPU3EyM0VZMzRJendqUEpVVVdtdS02dUkxaXU5NG9uRnowUdIBuwFBVV95cUxPMHhkXzZLYjk1SDNuOF80RGNKdF9YVEVVd0hVb3lsbzRYU0NJRi1LRFUwN3ZWRjJ2V0o1Tldpa3Y0RTRYM0NjQ29TZEluNjZPRmxjMkg5UzVzUGxJMUhtdi1tSlBFS2J5Nnp6RlJKSjNVLWsycWhfSUtuWnBuOXpiODdKRE02TDF6T29NcWxxQ1RTX0F4Qm5JdXowUWZoN0JFRnN4SUNnN1lETFNHRmRLTWdlNTYydnNuSHRZ?oc=5",
+        "published_at": "2026-11-11T08:36:09+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China backs Cuba in opposing sanctions, blockades; pledges ‘firm support’, Xinhua reports - The Mighty 790 KFGO",
+        "source": "The Mighty 790 KFGO",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQW16d2VWQ2FTU1gwTnM4d0lXaml3RmpHeWxpNUdNXzJzaEViSDVoeEYzcUdaQ3B0emFVQjFHN2lPSTBNVGdrMTdFcXROUnVWOGt6elQzN3BOanlldnNvMHJ2aDZHWHpLWmVEX0I1NjBZSUQtMzVMMU5QUm1sMFV3VmVlTUtiYUFIZjNMMG9fSlRTLUI0MkFSaDNxM1BfV3AtcXVPdUdjc1pWVzZzRlQ1by0wNA?oc=5",
+        "published_at": "2026-11-11T08:15:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Two Russian Missiles Enter Moldova as 163 Drones Hit Ukraine, Leaving at Least 8 People Injured - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB6cUs2Qy1aalNWWlpHY0F3VDUzVEZLbnpGejNqNVBVY253a0hEUWRaUEJ5T3NobWtGM1Vzb1JsVlZ0cXRNUkdrSjJDWQ?oc=5",
+        "published_at": "2026-11-11T08:03:03+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Strait of Hormuz Shipping Risks Push Oil Prices Up From Two-Month Lows - KBOI",
+        "source": "KBOI",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa0FRbjhRc2FVOVlNM01IQlVwZERaWjhNUEQ3aGs2R0NUYmRTLWFOd2c1TDN5bjdvMnBPanBrcU9mZU9BQ0o5dXhCVmhTcG96QlJ4aHQtUXlFLU5qVHBtcjR2TkY2YlpERlpWN2R1RElUbzZKaG55azhqN1BTOUIxbnJpRV9ZVWVnZklOYWZ4RXF4QUNvQlAyYkgtNWxfWFRmM294bUR3?oc=5",
+        "published_at": "2026-11-11T07:19:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China's trade surplus surpasses $1 trillion for 2nd straight year - timesdaily.com",
+        "source": "timesdaily.com",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSzA3dHlJOVpyd1dpN2RxaDBpTWlSTnJfT0NyZWpzWldoemNpRmFGQ3RHYnBjbFl0ZHBPZW1MTHJ1Q1hoU1N0XzRWcHdTMDI3VTdPeFlUd1o1eFdYZ0k3elBuVnNESmNlb0lWSFlCZVV4R2NUZi1fVmt3dnFCYlpDNjVSdkhRenZrRzY5bnVyejk0QUllUDJGMUxTVF9HZ0lULWtvZFYwa1J0UUh3ZWZidnZYaFNYa1FiTE1Ub2RLYWhYS1lZYzh1RHA0TVZ5bl9sTm9xQTlVLUU4TWx3MGc?oc=5",
+        "published_at": "2026-11-11T06:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Oil Prices Rise as Iran Peace Optimism Fades - Crude Oil Prices Today | OilPrice.com",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWDBsRzB0VFR6VEJuTEY2ZjUyUGkzc3p1Ym1TbU5tVGF5LWxpX1V2NGdMNHBPYWtMeTNITk4tdS1xVTFIVGJrTzRUV2NZRVhtTTJYdjJaV0s5cEpzd01KcHhKZlhDUnFJQzJSVjhYc3UwQ3ppdVdnYnNWWi1xMUpwWXkyalhRNEdPQ3haMHZJUE9xWS1IQmdxbFNFZjFROWpyY3fSAacBQVVfeXFMUG53NEdOV1U4QUNwemlVcWJoZFNhcjVUMFJMa0hEaDAzakNSbWFjblJoQnc5MDFvZ1E4c0ROOW43Ri1SR3FVQVcwb0YxYlIyT09jWTRkZFA3Y2VicERZdTFwdUdBYnQ3RUlodmktVHdhN0sxUkEwUDRlTW1xZWNZSTlHZ1l1QkFSNWpIVklSZTZra3NLRWx6ZnBqS0xjaEZ4QlUyX19vTXM?oc=5",
+        "published_at": "2026-11-11T05:45:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "EXCLUSIVE: Chinese university bought Nvidia H200 chips despite US blacklist - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIaVF0c2hJYzN2WFBlYmdDbHJFeVVJQk5PNzA5WTBmQlNudWpFaHpyZDBGaFJEbGMwd0FlQWNrTWpxZW9kWE5sVGxtbl9sWEljZlBtQmMyMHp1b29wNmVSdnpYOVdGcHcxclo5TjRPNXRVMFNoUUdsWnc4ZUFDM0lZMXZOa3lfQWtlN25rWHFXcFF1RXRGcmI2TmFveEli?oc=5",
+        "published_at": "2026-11-11T05:13:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia spy scandal exposes Singapore’s role in China’s AI chip trade - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWc2RWkwdFhTMDdpYjlfY1pQcWNnVkVDYXBYZmtEUEJVQkVpYmtZZlNpNmRIa2duTy1zeUtONHZ4eGx1UmgzbkctUHhxNERXSTJCVWhhU1BkVmhxc1FRalBONUdZS3lzc0ZTMlBZOXhUbVVzUFBXb29qOVp6N2hickhiOXU?oc=5",
+        "published_at": "2026-11-11T05:00:22+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Scoop: Commerce Department received national security warning on Nvidia CEO affair - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NTWlEVTREeTZ0V3J5d1VBblV3Q1JiV0tqTWJUSGVJQ2MxSElWWHpVVG9lTkxKR3ctY2RDVHJUaTdWak1oS2lGSGhPbUJ6MU9CZ2xJdGY1Ui0zQy1uaFliV3c1MXprY3RDejF2eXp2WWc2WWJRSTZiOEljZw?oc=5",
-        "published_at": "2026-11-10T23:48:33+00:00",
+        "title": "PLA-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show - New York Post",
+        "source": "New York Post",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU2FMNXpLWHRnMHgyVWcyVjJtTUg1ZndqNWNwTnJBLTZRUDB6SG55aG1nWElScEI5blJla0R0NDZLRXhtQVAxZm1BVE9EcC1HRnViYVlVQlpkWVZGQ01VTGljZlRMVTJHRlRKV3JPSmxaY1hpOVVSQnBDSTI3bVllMHF2ZUVGSnZnb3B1dUxzUVVaem1sck5WN0hYS2dTYmJTN1BBNTNwOHcxUnRRLVZTTm52Qm42WUFpeUJTTWZpTGljelNuTlM4?oc=5",
+        "published_at": "2026-11-11T08:31:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "INO: VOCERYQ’s FDA approval launches commercialization, backed by financing into late 2027 - TradingView",
-        "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPSlp4eW1QUmhZQjRhSjFGZUk1SF9WbkluTXV5NFVPaUo1dXNFQkRyVkRUZGZUazRKeWFyTkgyZlNOZ3doYkVidWt2c0ZFOGYyM2RSR3dVM1U2VjFDZ2pYWDVQT1VaaHhpd1lXUjVZZnVDRFVTRVM1bkNPVjJwT3BXZDVwNTJKcU1ULW9aSElVQmJBazFLYVpwWkl6RkdvTlUzUmtmX3RpSzZQS3dYaUh0UEo1aFgxRTc3UGZGR0ZfRVNWNlZVMkV2cHNVWFA0Szhma3YtV1NCZjBLbUp5MHd5eXlScVFuRHc0YWd1QVlFMVE4RXJlRm9mVTRWRS1CcWtqd0wxYWhB?oc=5",
-        "published_at": "2026-11-10T23:18:02+00:00",
+        "title": "Chinese university buys Nvidia AI H200 chips despite US ban, records show - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQzNzRzNMbFdRYllVV3d2QUlfMnFRSmtoTXRXR3N3Tl9Ba3ZIZDRWVVFxUjhtZzl0QzNqQ19ZN1R5dDJZbzdWUWxkV3E2cmU3aGo0aDJnN0FYSENCRjgwejJlbjBabjVpbTVraVEwUDR5NTN6N1RsUDNHT3U1TkhMSTVtVGN3MjN2YXQ0RV9rZmdmLVVoQ2JUU3pGYU9yV0NLRVBnZ1htVUI2bjhTd2c2MVo3bTTSAboBQVVfeXFMT0FRdDZJNzZxQ2kyMnhLc1Z5N1hJUEo2RkFvU2FseElhZDk5aWhtVE9JREhCUFdaeHgwaUN2U3laZC1tMjJxTV9MdXV1QUY4U1JoamhQREc3YWo2V0t5NzJaelp6cUs4YXpvUjRKcFh6NXdkVEozOXRuNGlxelhYVFMxSkxsdUZIeUtBZ2tRYUtLWnQwN1VWNGZ5aGpfYmRKU2NoVmxiN0dXV0ZSR0xGZkJXNXlQTkMxcG93?oc=5",
+        "published_at": "2026-11-11T07:30:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Abbott nabs FDA approval, CE Mark for implantable cardioverter-defibrillator lead - Fierce Biotech",
+        "source": "Fierce Biotech",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ0I1dC1sT29CRHRPWVdPR3pqa1VxTVluT1dOQXpnZE1paDBsM3JBTGN2SGl4enc5MHdxOVI5VHZDbDQ4Wk5ESlM2SDFjOXJQazB0U25VY0MzVFVOUkFWOHBMY1V5aGpsNkVsY3JHNTB4TmNPcDJaX1BJVVhYM1B0U1FaTmJwQ3ZFd1B1MEF3TEpaQU1KdmJkWXBTSWFHT1dGdlZfLS1YeTQ2bmR0b3Rxakk1eVU?oc=5",
+        "published_at": "2026-11-11T06:25:04+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia’s spy scandal threatens America’s AI edge - Politico",
-        "source": "Politico",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tUnRhLTd0OV9sOXkybXVjb0NLVlNUX09mZkpnb0JCRVpLU0t1cWhGY3Myeks5YlJTYmRjQ2xDaUVaa0ZPRnV2WDdRMHJMUmIwcDQ3MkxuRWluMHlTWndlTWI2VVg4NGdka3I5RU5JdlVSbHFnbnpkeTJPYw?oc=5",
-        "published_at": "2026-11-10T23:14:00+00:00",
+        "title": "EXCLUSIVE: Chinese university bought Nvidia H200 chips despite US blacklist - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIaVF0c2hJYzN2WFBlYmdDbHJFeVVJQk5PNzA5WTBmQlNudWpFaHpyZDBGaFJEbGMwd0FlQWNrTWpxZW9kWE5sVGxtbl9sWEljZlBtQmMyMHp1b29wNmVSdnpYOVdGcHcxclo5TjRPNXRVMFNoUUdsWnc4ZUFDM0lZMXZOa3lfQWtlN25rWHFXcFF1RXRGcmI2TmFveEli?oc=5",
+        "published_at": "2026-11-11T05:13:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia spy scandal exposes Singapore’s role in China’s AI chip trade - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWc2RWkwdFhTMDdpYjlfY1pQcWNnVkVDYXBYZmtEUEJVQkVpYmtZZlNpNmRIa2duTy1zeUtONHZ4eGx1UmgzbkctUHhxNERXSTJCVWhhU1BkVmhxc1FRalBONUdZS3lzc0ZTMlBZOXhUbVVzUFBXb29qOVp6N2hickhiOXU?oc=5",
+        "published_at": "2026-11-11T05:00:22+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "PIMJETMI® (pimicotinib) Developed by Abbisko Therapeutics and Licensed by Merck KGaA, Darmstadt, Germany Receive U.S. FDA Approval for TGCT - PR Newswire",
+        "source": "PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxON1lUYkttZ3JPd1FzNXZxQmM3OTczbGVDTkVVdjNLV195eGtiUDR4R082bFlKYW1sVU1OR0U2Vi11RXFTOGRROEUzOGt6UzlsWk9WSmtVVUdsRXJCSjNKVmpfR0hrNXVTbGJOUnl6d0UyWXdtdV9SR3UxNUVuYVQ5QU5lOTdaYlZ2UDl0azVHLUdYcENiRVZwUHMzMU1LQXFLOHpZMndoR25reHpSX0tHT3VxWFpoN1VheVJrOHZiNnIxeWktYU1iRVBIZGU4Ry1fOEdUU3B2M1RjRVhJWHpVUmhIU2JVRDVMT1RSRVJKRWlSQ0dJQ0x4LS0zZkpWMDVUUlQ1V0F5SVlLUUxKVm9YelVDZy1NbUk?oc=5",
+        "published_at": "2026-11-11T04:05:00+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "FDA Approves PIMJETMI® (pimicotinib) for Patients with Tenosynovial Giant Cell Tumor - Merck Group",
+        "source": "Merck Group",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kMjZPRzlNcUFfVW9TaXppR3hzQWdocE9acl92VlFZQlRUZi10WWVYOXB2SG5TMk93OVJncWZnYlVmRW5qZHU3R2lRNHZFTS13WTlCVWF2bHE5TGNQTnMxYXhkcGpiWnZEOUlENEg1cHdkQWlfcFZmTm1B?oc=5",
+        "published_at": "2026-11-11T04:01:12+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FNi1GS1ZoRTI5MUsxZ3RMZnE5bEpuYUxXaTRiNV9wVmFYMFg1NlNlOHVWVkdoZHJkTnZRcTR1RTZIamZXcjNyaG85NUt6NlFfTmlhX2p4WlM1Njg?oc=5",
+        "published_at": "2026-11-11T03:08:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -261,51 +300,6 @@
         "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTGlwTWVEN1ZHY2l3ZGdYTTJqT2tGQWFOSmVsWkZXMzZBMkxrZTgtNFJfVFJaek92TlFZMW90S0Z5N1JFWVRXLXBUSk1uaGJpaEVKLVBfSUNqdHpsZGVLZ0t0ZTFFT3pzNFZHVld0XzVrVS1udXVCdC1hbTdDaGN4aHJBRUtLeVlMZ05HalNicVRJOEFaSXZwQmJmVFkxQmM2WVhFZjNfNEtUalc1NFRXU3kzMWVHNGhBdG1zZ1hKbE9LWmtJcm1QcV93VENxNFl3Snp2WGlpQkpjWEZDU1ZUbGwyWEVFajBFU3JsbA?oc=5",
         "published_at": "2026-11-10T21:41:00+00:00",
         "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Legend Biotech Corp (LEGN) Q3 2026 Earnings Call Highlights: CARVYKTI Sales Jump 36% as ... - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUjU2OFRHMjdHMVBMSHB3dG9xQ21QU1BRRUxMcEoybFBPcEM1aHM0UTFVdFpnVklnTENDdms1c2pTLTVpZmpvUUY0RVA0QklrckdQYUVJWW4wbWlIeXJ3MXNtSm9HLVpMUmVsRkpqbnl3RTF2WWhvWTNnMG1zclJhOWdDM2xWVVd5RFBsUXNDTUpFdw?oc=5",
-        "published_at": "2026-11-10T21:05:19+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ahead of Nebius Earnings, Here's What Barchart Data Says Comes Next for NBIS Stock - Barchart.com",
-        "source": "Barchart.com",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTnZUQU9VTko3dDd4UC1nMkhtUW9sdUJEWks4RVJoeWs3Rmx4N3FNOFVlbWJiRlB6R0Q3VmlIaGFUalJ5VFNTZFhtaU83UmE5dlh1SlVWeFZlLVg4RjVDa2M2cFhiTlBaT2RZUXhESUNEQ3hUaWZscHUtTDdnaGhBYVB0QWFqbEJCaXBsZTZJUGdKdXBKd1pZRG1zWFVrRXZSLW9aQldXTmJ4T2t2YV94UG5fenFmTVMwWVlLUDZxRVdJLWs?oc=5",
-        "published_at": "2026-11-10T20:56:52+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Another Option for Rare Benign Soft-Tissue Tumor Wins FDA Approval - MedPage Today",
-        "source": "MedPage Today",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5YVVSZmIxQUVneHhJMkxIV1pwRXY2RmhRT2xhZlU3VDFRZEdCYTExRVljc1FrTTkteWRIUVFxTFRTWnZValJsRWtSajBYUVJzYXJuT2ZuMjNDOGlGNkhGaUhTbTRUOUFzckRDaXBYQzUzS2h5Qnc?oc=5",
-        "published_at": "2026-11-10T20:22:55+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US lawmakers push China chip rules after Nvidia CEO allegations - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWxqUnFpSkZaOE5LVFZnaWZJaHhteVV2dkdiQnRnX1Zua2Jnd0N3VVBxSzBtOWhETm92Mk9EY0JMbEZMNV9ibThnaWhjd1Y5RTZfMEoxYkk0TTF4Zlk4cmd2RnV2bV85VExSZmswbEJFNmZuZGNBMHYwUklvTjNmdDR1cEIteDdzSlJDc2ZVT3FrS0lZaUVJb1J2MDBvdWtNR0l5NllodU1WUQ?oc=5",
-        "published_at": "2026-11-10T20:06:00+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alice Huang reportedly instrumental in securing over $7.5 billion of Nvidia AI GPU imports during three-year relationship with Jensen Huang — helped move 240,000 banned chips into China, mostly H100 and H200 - Tom's Hardware",
-        "source": "Tom's Hardware",
-        "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPODVQMTRCLVJQcXJlS2RtYlg5UHY4NllheFpvbFdSZm1JRTNqX1VidG5VdEVfdlM5ZEhUQ3lBeEdpb0pIRHNBaXdpUHozTzZwb29MV19EaEtEc3lJSEViNG5JSzFLbVFmVXhMVU5RT2hJUEJ0MG1lU3ctZHk4bTNDVEl3TlUwcEo4akxweDRiZVBNS3RmeG9NWDUxLW9nOThScWIzSWRYUUE3YmNPc1RITXpVd2lQQW5tOWptOG1WMjA4N0JzcHV1WndtNHRTdU8ybFlrUnUzbUdWclpRcnlNQm84bW16TnBEUU11bFVOd1RtOVNRSkgweEw4c3duNDIzZWp3SkpNY1puZDdzbUstZy0zZE9EWXdwQm5jZjFPaUpYUXdnT1RQRExRWHlEb2JUbkZRdlQ1TnpYbmtSS1lyWURBV1pwWjF0Qk9JUjZQMmtNZUpyTEIxUFVkYnhnOXNfYkdsWS1YQ1ZzQWNKNlJxTW9R?oc=5",
-        "published_at": "2026-11-10T16:50:02+00:00",
-        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
