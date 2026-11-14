@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T15:29:21.547551+00:00",
+  "generated_at": "2026-11-14T20:02:09.248368+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -7,8 +7,8 @@
     "treasury_10y_change_bp": 5.100011825561474,
     "wti": 88.55999755859375,
     "wti_change_pct": -0.20284010537402475,
-    "brent": 96.08000183105469,
-    "brent_change_pct": 0.2713443300548457,
+    "brent": 95.83999633789062,
+    "brent_change_pct": 0.020868965904918824,
     "nasdaq_level": 25136.2734375,
     "nasdaq_change_pct": -0.9059985502914425,
     "sox_level": 10146.3232421875,
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-14T15:29:10.251208+00:00",
+    "updated_at": "2026-11-14T20:01:59.946502+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 13
       },
       {
         "area": "Russia / Ucraina",
@@ -65,7 +65,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 6
+        "accepted": 5
       },
       {
         "area": "Farmaceutica e settori",
@@ -77,75 +77,111 @@
     ],
     "geopolitics": [
       {
-        "title": "Ukraine’s FREYJA Missile Interceptor Ready as Denmark Delivers Key Radar, Zelenskyy Says - UNITED24 Media",
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYmRuZUhMbS1McDNHNzNYVXJ4dU1RelZ0UGRseVBIYWQtMXRsMFlobmtPQ2F2QXRKVWRyWG4xMkhGU1VyMnd3VVJKejRxd0JjMmVJajdMYjZUOUt2R2dLeXhTbkhPUWl6WVgzZXFmejZEOWJnbWdUOWtDMjNRaS16alVtLVpCYjc1aUN5TGs5bkpOOEN0NUxFT19yUkhFX2JtZm81bGJDNlF0a2JUd0o2QUFMTjZlWnl6UTRqMEQ4VU1mOTNPdndrME9wOENDUQ?oc=5",
-        "published_at": "2026-11-14T14:19:46+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine's Security Service strikes key Russian oil export preparation hub - Українська правда",
-        "source": "Українська правда",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4Z2xvRXJ3UjB1NExscjhlNGJLWU9nX0NUREpmbVZfZUZwOVRGcnplVVFIV3VjbldEc3k5d2JYN2w3Si00SU1EdHNPVGNLRi0yXzdFMVpnYlFUVmtMQTVCR2ZVLWzSAXBBVV95cUxPUjQ2cnlqd0hHUXVzYklsTjlWRFdsVVRRR0ZrUTBOYXpwaUpEZ185NjJQRTc2MXJIU2l4OUx1ZTNJZHFlTV9WcjJtNlpTMkFGZHdDTlBxNVVQSUhMdWZ6THR0Y2VGNElSTTlnWkl1YnV0?oc=5",
-        "published_at": "2026-11-14T13:56:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine hits key Russian oil hub, military airbase in latest long-range strikes - The Kyiv Independent",
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPREdVN2lkREJIaFF5ZDlqa0NIaGhxZnpnMXQ1OHhIa1NyaHo4T2JkcGIzdTJ1T051WEF4M05UTFp2ODQ0ZkN3ZnNQWW5IN0h4WThtY0hOcUZwWFJJWGtrUlhsVGwwS2hvc2FDNnRNb09KSVpMWW1EQ0hycEJ1VURRNmtFZUthdnNySzFqQWgyTGRybVFhSl80NkY3WXJGcDNEa3g3RE9SNzM3NVU?oc=5",
-        "published_at": "2026-11-14T13:29:02+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine's naval drones made their name attacking Russian warships. Now they're taking the fight onto land. - Business Insider",
-        "source": "Business Insider",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS1ZFWERqakJtZzlUZlo3QXp2WFNwRFZyVXBMTGp3VXV2TjFoZjlTYzJMZ0tnUlJXTlIxcDFlb3o0elI4YW5vU2p0aUV2V2VCeEJUQ1VnWURkZEpGU09fQlg1RnZMSEYwbU10TW1acTlocW1rMlZrT1I2X2ZMNUxKMjRMVG1tYmlQbGJLUFNUbWQxNUUtMTVpeDROaDV2MlZMLXc?oc=5",
-        "published_at": "2026-11-14T12:51:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil tanker on fire in Strait of Hormuz: Iran's navy - Middle East Eye",
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQzBlRnRNaVYwR0l3Ml9yVEZvSmlMZUxXZnNFQWpHNFcya2ZrQ00xdHpHWlNsYXc1V0N6MDRMaWhDQ0JtcERKZnlNVlVCVjN6RlI2V1pvdV9aZGhqTF8ydVZtZUV6N1lwaXBaQ3lfeTNCWlJQRWJmaUg3a2FsRE5yczBrcG9LVDJXMmZZMVBwVUVMb3IxcjVCdE9YcFY?oc=5",
-        "published_at": "2026-11-14T12:27:00+00:00",
+        "title": "This Week in Palestine: Israel Kills Surgeon in Hospital Attack and a Baby Dies of Hypothermia in Gaza - Zeteo",
+        "source": "Zeteo",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HdG5rZXFacDlxYWVhRktPUVViaE5ETXNtbHIzSmVKOHpiMFFBb0dTYUdDZUVCTjhZMm1zbi1ySmVEZy1TckxhVHdxd0xMS1hwSHFMdHlOSkRYamJOdzAxMDhPb2VIYjZvY0w4?oc=5",
+        "published_at": "2026-11-14T19:30:36+00:00",
         "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Israeli drone strike kills 2 Palestinians in Gaza, and other Mideast news - WTOP News",
+        "source": "WTOP News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaldld1dQTEU4T1ZsM3VvU2FLcWdsc3cxLS0wb25ONkt1a0FPamRMRzNUOTB3WGh2Ulo4dzlDSEsweXlRWWdUM3RkUzYzcVQzYTlObE9KNDRYLUlPZFMwVXFad0Jvay14UFZ5SFY4Z1VWdHROdWdhb0tFX0xCdXhEZmpZeC15dWNueVRXeFdIOGdyUTQwbEZ5SEo3al96VGhtMy1NOF9TbkVOVGM?oc=5",
+        "published_at": "2026-11-14T18:46:28+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China and Russia lose their grip on Venezuelan oil as US takes control of $12 billion in revenues but faces a billionaire's growing grip on prized African crude - Business Insider Africa",
+        "source": "Business Insider Africa",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPc1RNNWNER1l4NXE5RF9QamFLczFZZExoMHdtUWVVdVVrOVZJT3JUMDRzVTM1cXhtZkRjNm1RWEVQTk5Yc05FSkxxNTluejZjUVBOcW9RNnVBLVU3aGxpRXh5UW1lcjVNd29KLVVQNXJrR3A1LTVyd2gwQzVoMlVsVHE1c1BEdHhkanpXTFVUN3YzcGRsaE9QQmtON09kQjNVdnhnV2VlLW5tVDFFcERjYldJUHZGNm9odXNBYmNiTmJxR1R0c2xrdUtPSENzcVZWOVkzRElR?oc=5",
+        "published_at": "2026-11-14T18:30:49+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US appears to have pushed China and Russia out of Venezuelan oil deals but faces a billionaire's growing grip on prized African crude - Business Insider Africa",
+        "source": "Business Insider Africa",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdEFZeXhUejVXQjltUVdleU8yNlBoV0Zoa0JCcllhbDMzZGpCeHhFYi1JNE95SXNGejdyamkyR2VDSl8tWUdfOWxfcnZ4NjNWVnBqZkwxVGVKdDVsdGEwOGVZZWpWS1RPZ05ubzNaZFh1ZGJ5SFhPR1c4bXBsbU1hUDN1ZW9kMmxxcWhCaXVQMkU0eUZHam5MRDJTOEs5MUZVNTZFSmFkQURjTV95NTkzRXdQajZJcnFxSVk5aXh4N01GVmRLOFF1V2JJWEhKWGxNY0ZEdmNB?oc=5",
+        "published_at": "2026-11-14T17:58:49+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Clashes Escalate in Southern Yemen as Gov’t Forces Repel Houthi Attack - Yemen Online",
+        "source": "Yemen Online",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUeTJZMHBKMTBlVFdiNi12OUlLc1ZLa2hWOVZLME9iR3dsQlhfbTl2Wk1jUWFNRjN4clFUa09PSVctWV8xYU5kS2VXaVp3UDdycV9COVRXWkNoQQ?oc=5",
+        "published_at": "2026-11-14T17:36:35+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
         "title": "Oil tanker hits naval mine, catches fire in Strait of Hormuz - NewsNation",
         "source": "NewsNation",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhMWdfVFdKTGhEeHE3ck9CT1Z1SGZYWkdhZDhiSE1yRFdDTDk1dmlQNkNCOFpvR3pmMTFPOTZZY3JnaWlEU21UV3lxeGdIOWxIWWcxaGRzRTNZYm5WWW1YUy1Tc0V5dC1vUzF3OFZ1SElXallNNEpaWNIBfkFVX3lxTE1lcGpPTEQ3U2ZtckRMMjRwOXRSaFBLa21qUEtWNnhmLWdVb210eDk1dzgxV3pvTURPVG1NRG9wZzBKYmRyMndUcVlTRHZKckpGOUp4UWkyd0lXQlFxTXpBSUtWQ3lpSmcweF9aUGRkOXVWem84Wm9jQlBNWVhyZw?oc=5",
-        "published_at": "2026-11-14T12:23:58+00:00",
+        "published_at": "2026-11-14T17:33:52+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US and China consult on trade issues ahead of Xi-Trump summit - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOHVpTnNJX0g3ZTU2VkNSYWp0enpnRkhxQ01JbG9FbEFSaENaRkRRNXhoM0FkVDRUUktlOUpxUFFHeHBxQ2xzVGhVbGpVWFRuOEJFQ3VLUEV2bXVtTzEzeUpEeVp2VWYtYjZyaWZpaEFLRXNOUVNseWV6NHJMOU1NYWUyOHF0Z3pnOGRBeDl1RWtoTDV5aWJRci13?oc=5",
-        "published_at": "2026-11-14T12:18:22+00:00",
+        "title": "US warns citizens of rapid escalation risk after Houthi attacks on Saudi Arabia - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6U3pGc3g0dWJYN0J0eVdpY2xseUUzT2dFemlJMHBoZDdicHE4Tjg0bVUtWVg4aUdyRWxWblpORVZYY241cmVuNUNEUWlxdlBYNkFsMWFQamRTLU1I?oc=5",
+        "published_at": "2026-11-14T17:15:44+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China and US Discuss Tariff Cuts and Agricultural Trade - 8AM Media",
+        "source": "8AM Media",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV2tZdFM3QXhFSlJkZDRBVmVJMVR4VGtCTzlyQUhSZGp3VlFjRElGVENZVkJhRXdXYXgyWkVMZm1LekMwZVdkZHRDX2g4bGlPY18tZnNaS1EzLVg5RnItUWEzblp6ZlR1VDRHMllpdy1iOUk3ZjhDOEItOXhzSWUyd0FMY0k?oc=5",
+        "published_at": "2026-11-14T17:13:54+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz, Iranian state media says - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNVjhPM3hwZ1NUdmp1cjJsTjZpc1hhYlBObHFZeVBYX0VhbTBPVEd4RHhrbmxMOG9ISEQ5MWFVSG5VQWR4d1NCQ1pjQWtCMkk3dGNyV2dGYTN5UzRlZXVBTVRzaEVScTVBd1E?oc=5",
-        "published_at": "2026-11-14T12:00:58+00:00",
-        "area": "Medio Oriente / energia",
+        "title": "Ukraine Says It Hit Oil-Pumping Station in Russia’s Samara - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNW9JZkVCYkpRVW80SWVjRVdRQk1QWkhQZl8yZjhxdE0zOWJTNW5mSkdvbnFWMm45dENoYXdfd0l3RnJEZVBpMlpwcm93WURZMHd2WmxMY01IQ0ZSOWx4UGFpamZTVXRZNGdHZjgwWHNZakhlZklMNmdXU2pLc1RuSjRHX3ZCOVJFVjBLNTVNQlhNYllzX1dZQ0VUSUZEdlB2WWJNclBGZWFCTnNPM1E?oc=5",
+        "published_at": "2026-11-14T16:59:20+00:00",
+        "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia Uses Upgraded Iskander Missiles With Terminal Seekers to Hit Kyiv Bridges - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNYzRxSXl3ZWpGcXB3ckZ4ZGlYT0g3NHE0SFVybkZqSlVlUHpBdlJ3SHd0WWVrWlk2MnNSbVFVdU5EeXBVQjJCSWlKWQ?oc=5",
+        "published_at": "2026-11-14T15:05:56+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How the Nvidia scandal lifted the curtain on a loophole that’s giving China access to US chips - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUElic3FIZV9PSkhtTmZzSzlnYjdWa1BPWnBrM2s2Z201c2xvMUdMTk8tcUtKRU4zUnl2WnJMSFdJZlBxNzFubVpkbW4zRm5rcWYtNlVRWVNpSXNZOWJNSndtQWRLRzB2bzJUb2I5Ql9vTmZ2b25ObG4ybS1GUFdlVA?oc=5",
+        "published_at": "2026-11-14T15:00:15+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine Strikes Key Russian Urals Oil Export Hub and Damages Military Airfield in Lipetsk - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN09td21oQ2lTanUyNXN4Zlh0RFJ4OGw4bElIOEZVZVpEZGtmZGVKWjBDQjgxaDk1Vi1wLUIzdnQwRXRBbF9JMm1KMWVNc1FaSnVUSWxub1A2eFV4R0k4SnB5RWhsd2RrMmM1ZnR0RUxpbk1mVmdLNjhiWEpnemJ0WGh2aXhjUlM2OTJGcjBCalJ4MzQ4aDJld1RYRXNJdzloN2hfa0VfQ1VrNTlFNmN1eG04ZDlfSExSUmwzcXY3Wk9aMmkwX0hRckJzeEl1TGJfalE?oc=5",
+        "published_at": "2026-11-14T14:36:18+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -158,6 +194,15 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
+        "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting - The New Arab",
+        "source": "The New Arab",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVhXSU9VNTVyLUgzS0NsMUIxZXhQTFdfZFBjN3V1U2k0WEtZdm5JR0t1eWRxNndTWVJZQjJ4dDdreUFjWGhwZVdrRXBGWUVZSHJheWlURFViUlBTTHoycE5jdFB2SExkYmh1X29adnA4WGU1d1Z4QnN5a0JzTW8tTnR6UnhtS2hDaUlSRVVkaHk?oc=5",
+        "published_at": "2026-11-14T11:50:47+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
         "title": "China’s steel exports find new routes amid rising trade barriers - S&P Global",
         "source": "S&P Global",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeEZ0TkRJTElfUWFRN0xrR0tEc2dPWFg4WDNVMVQtTkl6aGxZUDRHTDdIZUxVS1I2dVFxSkJVVVBib29xWjJWbENxMU9CZnh2Nnh0QzFLbVp0c0I4M2dpdmUwMzEtOHdhZVpwOVNDeVN1SDFQZ0VzTTZCWHMtV0hLTmVHTThudHYweG10blhlNnNFWHFWVUV3UzRjUEt0dGFaMXFCZkFpNzQ5TWdhRGoxZEY1cWpMenc1RFlYV01KTW9ONV90OVYxSjZleVpIUQ?oc=5",
@@ -165,54 +210,36 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "SSU drones strike oil facility in Russia’s Samara region - Ukrinform",
-        "source": "Ukrinform",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRE9EbHdHV1hqSm96R0JHWHBQcDJsVDJaU2Vkc1h0SzZ1a1o0UThENUFxMzM2Q0F2MGN0a0pPRElYSVJYdVU5Zjk0djRJMUhvTzJpcTVWZTY5cVpOZGJTRHNoNzkxb1ZUN2owS2tqeXJMMHIwTTFUeXdrTExHUkhsR21MRXBsNGRZaGUtYUViMW52djA5NmQwME1kZFlmTnJHc0pCc0Rpb3pXNDTSAbABQVVfeXFMTktjckM0VUhSNGJRRnpqOVFSQm5YZElzZXZXelk1cnVjQ0NqaDFaQlloQm1GYXdRVGhMU3ZHOFY1WXd1VS1DTUU4UTBOc21LZjloWUhKQ3lMQUJVamJTZFY5UDVWOWlvaVhGNlJYRUZwUFV3NkU1Mk5lQUk5dEJMOUVqdFpyLTE4OFdiek1wYm1MR0cyY2Jhalh1RzFsSXc5R0FBVWRlVUxPd1BGZGUxUjM?oc=5",
-        "published_at": "2026-11-14T11:10:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Yemen’s government-aligned forces repel Houthi attack as fighting has displaced over 340,000 people - Middle East Monitor",
-        "source": "Middle East Monitor",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNjNQN2x2ejV0WUg4dXowRG9MZHltQjJEbGcxWFB0ekhRR0R6bTNENWhqVnJCUnBpWmlEbFpldUF4dnhJTXdUb1Jqa20tX1RJUVRTWGp3ZVBST3hWbl90UThCNExnRS1UXzFMWjY5dldJaDF2c0hfSzAyR1N5QlNUU0ExbTh5ZWdvSkZRcm9HQk5vOW82T2R4cjFtd20wV0t6bFF2ZVpwd2JWa1VIaTVxZVFDekFGbldaYlk4Q3NwazU2UG5lcXlPcFNDQlRkQjhpODBqNktiVnXSAd4BQVVfeXFMTnNEcHBmall0NFJwRFVwUGFrOWVUU040WG4xU2hieFVpdEFwcmt3ZkFRODJCMWNtMS0wNHY5M3NaTWY3ZnZ6NU41cE91aTBLbDdBdlNwU1pQSTFXazJUR2dSaDVoZm9fWGxtUVUyZDhFZUx2OHJvVENQMnhIampFa0pVODhwQ2t4WTFhRWNwQzZ3T3RnU1dLcGhCLXJGeC0xd2IwYUZLY2dBVzZlQl9HRXAyMGFFeWdmaU9JNV9IZWZLRmJwd0YzRlN3UnBYN2MxdU0zdEdJSVVBNFh6Q2hB?oc=5",
-        "published_at": "2026-11-14T10:55:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Yemen's government-aligned forces repel Houthi attack as fighting has displaced over 340,000 people - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU1EyM3l0OUoxdVRHemxRWFRvMjBrOUNkT3hnVGZlN19Md0RkWnlZSU84S2l1T29mNUV3dlFhRTFzN0hidThXbjhka1dGXzVWbzJGeW03eTlrT2dLLTZ5TEFveG5HQlhaLV9MZzdBbVU2aXQ0b3dmYkJTOWlEMXZub3Vzd2tXS1h1Vjk3SDVoS3lOSWtZYmZhQm9CaGdVSTdLNjE1cHBqcjdYN1FqM3I2R3FFVmhPU1RJSmFFQmYxRkxSR2JjNHF0bmdzLV80Y2ZGYUJJcmFB?oc=5",
-        "published_at": "2026-11-14T08:53:36+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SX0FBdkdnb0NoRXdMaWlrZlpyQk1oaEo0bnZSTXJxTDlacFpWTTZldUtrSkg5TGdFcHBxUzFwUlhoOGYtMHh5QUhwbEpFZEtndVhPSEZBNHRRWU1fYndac2VKbXZOWHoyOE1UV3JOcHprWWZFYS1kdS1B0gF_QVVfeXFMT3dWUTRlMEN4SDVQQ3lKWnJlM1AtVHdxakxDNnJ4Wl9QWHdjcURIMndkSzIwdUFyQlVTZXpYdEMxYWoxR0JWaFZBNmYwYm4zYmZfY3NvTDVzb2h3UE4tT18xZmFGd3ZubnVpc1NpLW9IZXBpSTNUVTVoSEIzOTlvMA?oc=5",
-        "published_at": "2026-11-14T08:16:44+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China, US Discuss Tariffs in First Meeting of Trade Council - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU1l3WlBYaHhmZFVJSDZ0OHdibV8ybWVSUXZfLU1nY3JWMlVmT1RXR3BraTBqaWItVVNFX1l3YWFnNS1hb2RBcGJQUnJ4TFJMOU8xaXpoekJ6WlRjOFNFU3loUlpfdk5tTEJqVTVWUEZIb1RvZkpKTEp3bUNOUGxkbVl4SGNzUXgwOVdfTGV0eDJMVExaN2pxZlBkVnZnVDNHQ01May01UlhoUUJIRTBoM0p3SQ?oc=5",
-        "published_at": "2026-11-14T07:46:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
+      {
+        "title": "Micron Technology (MU): Does a Low Earnings Multiple Understate Its AI Opportunity? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmFxb0NFNGNaVzBRdzExcGJ6a2Jremg4N1JFQk1lRHlQME04V3NnQ2ZocVlBR2RkeVpVWmwzQ3BaVmZSZjhrTFZZTndQSTJNR2hieUtXSzdaNUdraVFlU3ZUNllBRFpNTUtTZUFJeTg3TTdIWGtib0ZKZmROZGk1NHVSeERfLXZoOHNGNmY1TTlqZGpVWjl2Sg?oc=5",
+        "published_at": "2026-11-14T19:30:08+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What's next for Red Sox after Jake Bauers deal? Plus more intel from the MLB GM Meetings - CBS Sports",
+        "source": "CBS Sports",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOajgwM2xEUHFLaWkwYjR1Z1k2UnNkVXpvNEI5TEs0TlNPLUE5VlptNVdWM09DeDNqcUpRRU9ySnlZMnpuSGpveDdvVjFZSUhMcmsyVEVSQWRzbWV4MHhHeFZOYlFYUDk3enpMa3ZNUTVEVEtHV212VmVxQnJDNE5CSXRpQThJSnN3S242T1Bfaw?oc=5",
+        "published_at": "2026-11-14T19:05:41+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "How the Nvidia scandal lifted the curtain on a loophole that’s giving China access to US chips - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUElic3FIZV9PSkhtTmZzSzlnYjdWa1BPWnBrM2s2Z201c2xvMUdMTk8tcUtKRU4zUnl2WnJMSFdJZlBxNzFubVpkbW4zRm5rcWYtNlVRWVNpSXNZOWJNSndtQWRLRzB2bzJUb2I5Ql9vTmZ2b25ObG4ybS1GUFdlVA?oc=5",
+        "published_at": "2026-11-14T15:00:15+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
       {
         "title": "Tom Powles: New FDA Approval Brings Another Perioperative Option to MIBC Care - Oncodaily",
         "source": "Oncodaily",
@@ -232,19 +259,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Jensen Huang's Nvidia Resignation Sends a Warning to Investors Counting on AI for Retirement - KATU",
-        "source": "KATU",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ObTZ1akpnU28xcTB5RUstQ3dVVm9PQ3NKaUl2TGo5ZkFnenJrS1RpZWd0a3pNOGdpZ0Q2Y0F1cm56NC1KUjdjaWc3ZnVGUGUwNGZrQVhVUWttb1Y4SDVwODdpM1prZEUtclhUVFdVYjhCekhnNHFGTzNHeW1hT3c?oc=5",
-        "published_at": "2026-11-14T13:06:51+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Smart Investor: What’s Next for Nvidia, Undervalued Earnings Crushers, and is Anthropic a Buy? - Morningstar",
         "source": "Morningstar",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObXNlT1FTZV9Wa2dIVjg5QVU0UE5UV1E0VWstcURydndlU3A0c3BOZlVwRUpKYjlOSzNOeHo1U1NYaE11THBCT0twbHJKWlhJSU91Qk5NclpMM2xXb3VFdXU2MXo2Vlplc244cEdDN3laWEJnSm0tekF3NEo1ZXNYMGMwV2xqWUU4RGVOV0swT1JQQkFBT0o4LVFBcUpEYU0tU0V1eTVYYkdyc0tXekQ5MXV4MzVSUQ?oc=5",
-        "published_at": "2026-11-14T12:07:33+00:00",
+        "published_at": "2026-11-14T12:09:14+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -259,15 +277,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Investor Focus: Nvidia CEO Crisis, Anthropic IPO Valuation, and Undervalued UK Stocks After Earnings - Morningstar",
-        "source": "Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSi1TSllfc0ZQWDhWSlhyRkMzTjFXemdoX3o5azdSeWl6TWVtUEtQYzZubmtGNWVfWnppYklfTDR3U1V3Zk1WVnE3ZV9FMWt4SnF4VzN1bm42cE44VGpMVTBzUW51UlRlR0lId1M1MW92T0psZDBaNF92QWJkY2MyVjN0OV9VZ2RCZ3ZTejZBQVBRaDg1eTUweElTakVYWXlYenFYNXBWMU96eDBRckdwWk1RVnd6VE9XTWlnc2JRUU5wM3RzUGVrcE1mNnJMdHdCdFkwNA?oc=5",
-        "published_at": "2026-11-14T08:02:37+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "3 cancer-linked chemicals lose FDA approval for use in US food coloring and produce inks - Yahoo",
         "source": "Yahoo",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPU1lfVTNIYXlsY0RoZXdJd2c3ZXh0N2N0aWlWanlpUUJfVjUtdTUzNjBneFkyV2JWd0lydENVSGh0X1FIc0JTNDRUNFBwV3gxSHBWZU42bmlHaG8yWkc3anRsdWEzV1ZLRTVjQ3RhRzZPd0tUdDRha3FZaWNvcURBNXF0Y3dMNG9PaFFiUg?oc=5",
@@ -277,10 +286,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "PearlBone gets FDA clearance for world's largest orthopaedic market - ABC News & Headlines – Australian Broadcasting Corporation",
-        "source": "ABC News & Headlines – Australian Broadcasting Corporation",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMWFVSXJEMG5BZW1QYU9ITFVuYVNncFpOaEFGUGZ6ZXhELTZwV3E3MmpMWmFOd2RrbWNrTVpVTDNMM3dvbjVoZEI4dGdMc1B6QTRUYzZaWTBDVWlLOU8ySTMxb2R1M1B6MzhFYk5mdkJZTWVDeXdBaWJuZWNWMV84anJVaXczWUJkVkthWV9saHhWX01fUDc3djlsVFNsbkgtQnJDdlFtR3hFQQ?oc=5",
-        "published_at": "2026-11-14T02:06:28+00:00",
+        "title": "Fortress Biotech, Inc. Q3 2026 Earnings Call Summary - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOVl6elFhVmdzQ0NtT1VIY2tRbE9HcDNLZWFoVndpRE42dXJ3OGhYNi1rY1QyblBwdm5FNDJIbmZGSjdoMU5pLWVfV0h3ZTlqYVhuLVlmLWk3RmJkSDdGNjUweDc1VFl1OHdlSWJyYXl2S2NPVmJJeEhmT0llek1hTUZyZUFNUF9kNFdCOWpwUXp2T0k?oc=5",
+        "published_at": "2026-11-14T02:30:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -290,15 +299,6 @@
         "source": "PBS",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEdCMktMcUhKb3pUNmdCdjcxdTJrUVMzNlJkRmZHLWVBd0RoTWRuSlZHM09ySGwzYXo4U0FwZGdzNTdGOGYzRndsZ052cG1SakY0NEdLb1ZOOXhlbklZN3VYZzNUMGJWNFo0LTIzeTJUQWxRWlNvY21KZkxHNlZxVjZfOEFvazlaMDBWYUFNTHY1bkMxYkltVDZZYnZJeDBQRjlxZEJsMllyVGhYcUQ2aUttOA?oc=5",
         "published_at": "2026-11-13T23:50:51+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen! - TechCrunch",
-        "source": "TechCrunch",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQM2RjMXJ5cnYyUmVXT3FXVVVIeENJN0hQT3E0ZTg1YlpRSEItczBNaW1SZzlIM2hBNEZldVVzUjEwQzRDczhvVkQwMjZlLXh4U1pqd1NFcTFJOHh6MUMtQktSVmFmZUtzTUowb2hCdU1tVzY5NFFwWURpT3c5RW9zMUJOVHNvcG5aVG9lTUIzVUNqMW8yWkNzcXpidmtNRnlia3hySVpfbGRfQ3phbjJmbGZuYlhwS0E?oc=5",
-        "published_at": "2026-11-13T18:40:30+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
