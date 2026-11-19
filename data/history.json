@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T16:42:05.097087+00:00",
+  "updated_at": "2026-11-19T23:14:50.252783+00:00",
   "events": [
+    {
+      "id": "be660e5ddd1a",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Nvidia Nears Acquisition of Diffusion AI Developer for More Than $500 Million - The Information",
+      "source": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjI2ZmljcWphUkcxbzlYMXNKeFZFRkw3Zzh1Y1dHVFVVSXBIbTNFNFlyNnY1UktVV3VRNlBIMVJKaXBGd1kzM2RyMkN4eGpNbVVwSzhwRm9mWXcwSGZlcjg5eFdxZHpqMlVCQjExZ084dVZCUDBBeW05Ni1vaUNNWTdvcDFDMjRiRl9oS2czcUJSbTZuemRRLVBtMWtFWTZ0?oc=5",
+      "catalyst_type": "ma",
+      "published_at": "2026-11-19T22:43:00+00:00",
+      "first_seen_at": "2026-11-19T23:14:50.252783+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 63.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": 0.39,
+      "price_at_publication": 146.5499,
+      "publication_quote_at": "2026-11-19T22:45:00+00:00",
+      "pct_at_detection": -3.44,
+      "checkpoints": {
+        "2": null,
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "a0fa85d30464",
+      "ticker": "NKE",
+      "company": "Nike",
+      "category": "Consumer",
+      "headline": "Nike Extends Partnership With Chicago Marathon Through 2036 - WWD",
+      "source": "WWD",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTXV4b2FyUHZPa3ktYzdoRXEtU2xHMktPN0c3REpRV3J2X2t0eS1HSFVYVWxwYjZ5eGlscldNU3lScGRDd3BldE5KTjk4c2ZUOVdkZnhpcUVHTUhPc1Q0RTBLRDV4S090VFlqV3hTM19MdzNhbmhreEFtendPMGxVeHBpby13T29UWFYzdmRPVnBDdzBsZnk2TzRRRU5kWDd0LV9acTE3UDBXS0todzNhN3FZM2phdkpI?oc=5",
+      "catalyst_type": "partnership",
+      "published_at": "2026-11-19T19:25:59+00:00",
+      "first_seen_at": "2026-11-19T23:14:50.252783+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 62.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -5.41,
+      "price_at_publication": 34.345,
+      "publication_quote_at": "2026-11-19T19:25:00+00:00",
+      "pct_at_detection": -5.89,
+      "checkpoints": {
+        "2": {
+          "return_pct": -0.33,
+          "price": 34.2317,
+          "quote_at": "2026-11-19T21:25:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
     {
       "id": "b9baaa029a69",
       "ticker": "NVDA",
@@ -21,9 +73,21 @@
       "publication_quote_at": "2026-11-19T14:45:00+00:00",
       "pct_at_detection": 1.67,
       "checkpoints": {
-        "2": null,
-        "5": null,
-        "8": null
+        "2": {
+          "return_pct": -3.12,
+          "price": 152.44,
+          "quote_at": "2026-11-19T16:45:00+00:00"
+        },
+        "5": {
+          "return_pct": -6.02,
+          "price": 147.88,
+          "quote_at": "2026-11-19T19:45:00+00:00"
+        },
+        "8": {
+          "return_pct": -6.86,
+          "price": 146.5499,
+          "quote_at": "2026-11-19T22:45:00+00:00"
+        }
       }
     },
     {
@@ -50,8 +114,16 @@
           "price": 543.1,
           "quote_at": "2026-11-19T14:15:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": -11.98,
+          "price": 479.04999,
+          "quote_at": "2026-11-19T17:15:00+00:00"
+        },
+        "8": {
+          "return_pct": -10.86,
+          "price": 485.1254,
+          "quote_at": "2026-11-19T20:15:00+00:00"
+        }
       }
     },
     {
