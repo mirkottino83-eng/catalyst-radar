@@ -1,7 +1,67 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T18:02:42.364364+00:00",
+  "updated_at": "2026-11-19T00:13:46.482159+00:00",
   "events": [
+    {
+      "id": "b2c327d06d39",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Nvidia earnings beat puts AI demand and investor confidence in focus - Fox Business",
+      "source": "Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhN3c4WlI0UUpNN0x6bEd6WXl3c3dCQllXNm9HcFZjZW4wWXlCdUNJWDhMXy03TzNsb0ZSaE9fbTl1d2NfNC11bGoyMWpWb1NZbVBHYVZmWHNPWTQ?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-11-18T21:34:40+00:00",
+      "first_seen_at": "2026-11-19T00:13:46.482159+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 64.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -0.36,
+      "price_at_publication": 150.4175,
+      "publication_quote_at": "2026-11-18T21:35:00+00:00",
+      "pct_at_detection": -2.23,
+      "checkpoints": {
+        "2": {
+          "return_pct": 1.25,
+          "price": 152.3,
+          "quote_at": "2026-11-18T23:35:00+00:00"
+        },
+        "5": null,
+        "8": null
+      }
+    },
+    {
+      "id": "8b8827856849",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "category": "Semiconductors / AI",
+      "headline": "Nvidia earnings beat lifts Bitcoin mining stocks - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWDdqU3IxaG5vNl96cGxFMlA2ZzdHVjd2UktaU1ZRbEp5dzJhckZxNFYxV19HRXhieW9Kcm4yMDhmWGFSNGxFUVVRU3dna1lycEhraE5Dak45cmV0SHg1QTdkYWJMbTRLTi1nN0VVa2x0cFdmRk9xUEFDUkN4S1QweHc2elRrd1pHajFXSlk5cGpzX3ZNTk51eWJXRXZRN3JZ?oc=5",
+      "catalyst_type": "earnings_beat",
+      "published_at": "2026-11-18T18:16:12+00:00",
+      "first_seen_at": "2026-11-19T00:13:46.482159+00:00",
+      "estimated_impact_pct": null,
+      "confidence_score": 63.0,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "pct_at_publication": -2.36,
+      "price_at_publication": 151.78999,
+      "publication_quote_at": "2026-11-18T18:15:00+00:00",
+      "pct_at_detection": -2.23,
+      "checkpoints": {
+        "2": {
+          "return_pct": -0.7,
+          "price": 150.73,
+          "quote_at": "2026-11-18T20:15:00+00:00"
+        },
+        "5": {
+          "return_pct": -0.16,
+          "price": 151.55,
+          "quote_at": "2026-11-18T23:15:00+00:00"
+        },
+        "8": null
+      }
+    },
     {
       "id": "822fb523e6e5",
       "ticker": "NVDA",
@@ -26,8 +86,16 @@
           "price": 151.935,
           "quote_at": "2026-11-18T17:50:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": -1.17,
+          "price": 150.89999,
+          "quote_at": "2026-11-18T20:50:00+00:00"
+        },
+        "8": {
+          "return_pct": -0.54,
+          "price": 151.86,
+          "quote_at": "2026-11-18T23:50:00+00:00"
+        }
       }
     },
     {
@@ -54,8 +122,16 @@
           "price": 47.555,
           "quote_at": "2026-11-18T17:15:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": -0.99,
+          "price": 47.605,
+          "quote_at": "2026-11-18T20:15:00+00:00"
+        },
+        "8": {
+          "return_pct": -0.37,
+          "price": 47.9,
+          "quote_at": "2026-11-18T23:15:00+00:00"
+        }
       }
     },
     {
@@ -82,8 +158,16 @@
           "price": 512.75,
           "quote_at": "2026-11-18T17:15:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": 1.62,
+          "price": 522.13,
+          "quote_at": "2026-11-18T20:15:00+00:00"
+        },
+        "8": {
+          "return_pct": 2.84,
+          "price": 528.4,
+          "quote_at": "2026-11-18T23:15:00+00:00"
+        }
       }
     },
     {
@@ -110,8 +194,16 @@
           "price": 349.89999,
           "quote_at": "2026-11-18T17:15:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": 0.62,
+          "price": 354.89999,
+          "quote_at": "2026-11-18T20:15:00+00:00"
+        },
+        "8": {
+          "return_pct": 1.25,
+          "price": 357.1296,
+          "quote_at": "2026-11-18T23:15:00+00:00"
+        }
       }
     },
     {
@@ -138,8 +230,16 @@
           "price": 152.19,
           "quote_at": "2026-11-18T17:15:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": -2.32,
+          "price": 150.73,
+          "quote_at": "2026-11-18T20:15:00+00:00"
+        },
+        "8": {
+          "return_pct": -1.79,
+          "price": 151.55,
+          "quote_at": "2026-11-18T23:15:00+00:00"
+        }
       }
     },
     {
@@ -166,8 +266,16 @@
           "price": 105.485,
           "quote_at": "2026-11-18T16:40:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": 5.64,
+          "price": 108.1745,
+          "quote_at": "2026-11-18T19:40:00+00:00"
+        },
+        "8": {
+          "return_pct": 2.66,
+          "price": 105.12,
+          "quote_at": "2026-11-18T22:40:00+00:00"
+        }
       }
     },
     {
@@ -194,8 +302,16 @@
           "price": 151.5701,
           "quote_at": "2026-11-18T16:40:00+00:00"
         },
-        "5": null,
-        "8": null
+        "5": {
+          "return_pct": -2.25,
+          "price": 150.98,
+          "quote_at": "2026-11-18T19:40:00+00:00"
+        },
+        "8": {
+          "return_pct": -2.45,
+          "price": 150.6746,
+          "quote_at": "2026-11-18T22:40:00+00:00"
+        }
       }
     },
     {
