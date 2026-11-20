@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-19T23:14:50.283724+00:00",
+  "generated_at": "2026-11-20T03:59:49.849925+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
     "treasury_10y": 5.052000045776367,
     "treasury_10y_change_bp": -1.3999938964843905,
-    "wti": 83.08999633789062,
-    "wti_change_pct": -0.20418663701410322,
-    "brent": 90.05000305175781,
-    "brent_change_pct": -2.0663338331091685,
+    "wti": 83.05000305175781,
+    "wti_change_pct": -0.25222084924890753,
+    "brent": 90.08999633789062,
+    "brent_change_pct": -2.022839230107354,
     "nasdaq_level": 23879.19921875,
     "nasdaq_change_pct": -2.2541315031164966,
     "sox_level": 9419.72265625,
     "sox_change_pct": -2.414606675301767,
     "vix": 28.440000534057617,
     "vix_change_pct": 15.798050295138122,
-    "dollar_index": 103.9229965209961,
+    "dollar_index": 103.83000183105469,
     "macro_score": 0,
     "tech_bias": "strong_negative",
-    "summary": "Tech bias strong negative. Nasdaq -2.25%, SOX -2.41%, US10Y 5.05, WTI -0.20%.",
+    "summary": "Tech bias strong negative. Nasdaq -2.25%, SOX -2.41%, US10Y 5.05, WTI -0.25%.",
     "quote_times": {
       "treasury_10y": "2026-11-19T19:55:00+00:00",
-      "wti": "2026-11-19T23:00:00+00:00",
-      "brent": "2026-11-19T21:55:00+00:00",
+      "wti": "2026-11-20T03:45:00+00:00",
+      "brent": "2026-11-20T03:45:00+00:00",
       "nasdaq": "2026-11-19T21:00:00+00:00",
       "sox": "2026-11-19T21:00:00+00:00",
       "vix": "2026-11-19T21:15:00+00:00"
@@ -31,95 +31,10 @@
     "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
     "geopolitical_headlines": []
   },
-  "catalysts": [
-    {
-      "id": "be660e5ddd1a",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "category": "Semiconductors / AI",
-      "priority": "critical",
-      "satispay_status": "check",
-      "headline": "Nvidia Nears Acquisition of Diffusion AI Developer for More Than $500 Million - The Information",
-      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "The Information",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjI2ZmljcWphUkcxbzlYMXNKeFZFRkw3Zzh1Y1dHVFVVSXBIbTNFNFlyNnY1UktVV3VRNlBIMVJKaXBGd1kzM2RyMkN4eGpNbVVwSzhwRm9mWXcwSGZlcjg5eFdxZHpqMlVCQjExZ084dVZCUDBBeW05Ni1vaUNNWTdvcDFDMjRiRl9oS2czcUJSbTZuemRRLVBtMWtFWTZ0?oc=5",
-      "published_at": "2026-11-19T22:43:00+00:00",
-      "age_label": "31 min fa",
-      "catalyst_type": "ma",
-      "current_change_pct": -3.44,
-      "short_term_change_pct": -0.44,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-11-19T23:10:00+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 4.8,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 63.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-11-19T22:43:00+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NVDA",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 90,
-        "freshness": 90,
-        "volume": 28,
-        "momentum": 45,
-        "macro": 0,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    },
-    {
-      "id": "a0fa85d30464",
-      "ticker": "NKE",
-      "company": "Nike",
-      "category": "Consumer",
-      "priority": "normal",
-      "satispay_status": "check",
-      "headline": "Nike Extends Partnership With Chicago Marathon Through 2036 - WWD",
-      "reason": "Possibile evento partnership indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
-      "source": "WWD",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTXV4b2FyUHZPa3ktYzdoRXEtU2xHMktPN0c3REpRV3J2X2t0eS1HSFVYVWxwYjZ5eGlscldNU3lScGRDd3BldE5KTjk4c2ZUOVdkZnhpcUVHTUhPc1Q0RTBLRDV4S090VFlqV3hTM19MdzNhbmhreEFtendPMGxVeHBpby13T29UWFYzdmRPVnBDdzBsZnk2TzRRRU5kWDd0LV9acTE3UDBXS0todzNhN3FZM2phdkpI?oc=5",
-      "published_at": "2026-11-19T19:25:59+00:00",
-      "age_label": "3 h fa",
-      "catalyst_type": "partnership",
-      "current_change_pct": -5.89,
-      "short_term_change_pct": -0.05,
-      "relative_volume": null,
-      "volume_metric": "1h vs previous NY trading session same clock window",
-      "quote_at": "2026-11-19T23:14:31+00:00",
-      "quote_status": "RECENT_UNOFFICIAL",
-      "quote_age_minutes": 0.2,
-      "early_signal": false,
-      "signal_status": "NEWS_TO_VERIFY",
-      "estimated_impact_pct": null,
-      "confidence_score": 62.0,
-      "source_verified": false,
-      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
-      "headline_published_at": "2026-11-19T19:25:59+00:00",
-      "event_occurred_at": null,
-      "tradingview_symbol": "NKE",
-      "risk_flags": "Notizia RSS da verificare alla fonte originale.",
-      "factors": {
-        "source_quality": 68,
-        "catalyst_strength": 74,
-        "freshness": 78,
-        "volume": 28,
-        "momentum": 49,
-        "macro": 50,
-        "extension_penalty": 0,
-        "stale_quote_penalty": 0
-      }
-    }
-  ],
+  "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-19T23:14:41.013683+00:00",
+    "updated_at": "2026-11-20T03:59:39.751587+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -129,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
@@ -143,14 +58,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 10
+        "accepted": 11
       },
       {
         "area": "Farmaceutica e settori",
@@ -162,156 +77,147 @@
     ],
     "geopolitics": [
       {
-        "title": "California AG issues subpoena to Nvidia in probe of China chips - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVB4dzhBNkMxNmJSVG1wSVNOWEpGcElVS2dSMl82bHV0SzJ4SXpuNkp4cTJwbTk4eVNjaUMxbS1nZjYyWXVBSWRWcV9nNnZ5S1dUR0dsUDZ5SHQ3YlZMQVpBYlBXWkJfTGZIZTVQVWxsTmVBVzlWNGNBQkxtWnBEZEtwSzV4ZXN50gGOAUFVX3lxTE80LW5HNkNja2V1OXpuT0QwRG9lNzdVQVVrc2NPVUVhN3FJQmpDUGsyQVdhNHN5NFVlSzZHQUt5cFFXLVF3dEcwQ2E4V3AwM0ZFZThiRE5UT09HSlo1VTM0VC10UnZPY25UWlctdVhHWDU5OTNzcng3emp1bDZuaHo4eDJIMGxtbDVyRERkb2c?oc=5",
-        "published_at": "2026-11-19T22:49:04+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi attack damages Riyadh's tallest building - The New Arab",
-        "source": "The New Arab",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMzlib1pvNmpJejZuX2NRX1V1bk05WEZPcnp0SjhlZll3M3lQeFBHMHVlanBObXduWnNOZkRpZlJJWUxjUGU1Q2FERnZHYU9nemkyVk40OWVZZWtkT2MtWE9UTnpWOXZTdTZlcDN2eTFBdEJweUE2YkN0ZzYtaXJJR9IBhgFBVV95cUxPb09IbXRNc1lNcWdzcWloVWxVc2lEVldDZHpXSlh2N0hIZnNzWFVHa2pTUXFwZjNqR1BocjJSMV9GM2hsU3QxenBnMzNGMnJFTVRDOVBuLTBnSzlNVGx5bFI0RnA3Qmk3N0wzQS0zcElNLVlZNHY2UWJZRUJZY1BQZ0U0R1lqQQ?oc=5",
-        "published_at": "2026-11-19T22:44:50+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "In Shenzhen, U.S.-China Trade Talks Muddle Along - RANE Worldview",
-        "source": "RANE Worldview",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV25CT0xXUWowaHdGRURBcGp2a09OS2h1UkJpUm9idzVQNGRJTFh0TzBydnZpLTdBTHVMZnd1NnRjcl9rNjA2U0RJSlF0NXdiVUV3aW9HNU02Y2xORWFfelRmZWVSVGtnMURmbzQ5anpqUV9hejZZenNVSFRVdklDUVVNZnE2YnRtblZ3cy14SG9McUVmczVNQllvRHIxVWlXT0R6bldfSE9uUVh0NS1sMG1haWdYOWFTbVRNSE43TWhJcms?oc=5",
-        "published_at": "2026-11-19T22:34:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Alarming reason China is desperately seeking US Nvidia chips: ‘Intelligentized warfare’ - New York Post",
-        "source": "New York Post",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYUh4MVVlTHdaUjFEd21KVm43QU1xX0hVWDU2alJEMVhGSEstTlJZdFBqdXFLeDA5aEVkdk9PbHhERVdXZENOQUxfQnI1RjllUDJyOWU4ZVh4OE9BZmdtRFBxSk9xWVRCRGxvbTM0WEQ0aFNBZ3ZMV2tyU1NJSVc4Z0VRZno5WXFZcXhjaVMzZm03T3VRNnZMQVl1Yi1LYW51XzNiZlZHZDMyRlFWbDFOMFl0UUJzRENQVllB?oc=5",
-        "published_at": "2026-11-19T22:24:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Protecting Norway’s Gas From Russia - Center for European Policy Analysis (CEPA)",
-        "source": "Center for European Policy Analysis (CEPA)",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MbUlZdlRRamNEUG1pcEFyOEF0VlE0dDhLTWVIVWNBZlJjb0ZHdVR3TjdGZ3IteXpaaXlaQWhkbnNLUklabWZrLWh1RzY1bWkxQVd5aUNpOWZyOU0yLXd6UHUtNUpyUURleWZSYQ?oc=5",
-        "published_at": "2026-11-19T22:06:06+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "US signed off on sales of nearly 900,000 AI chips to China in six months - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNblFuUDdEWUg1ZWIwNTZNbHlaYmNJZzVIZWw4ZzlJQnBnWUdFOHRLVXlPb0Yzb04ybzlTWG81Vk5NcERaTFF3emJvQjU3emdyMEIzQnQ4TUZ5NXl5eWVVYnhWODVoR01nRjJiX3RTWkZqQm9NbzFsdklxN3QxRVFsVHhVZXBwUHI0blg3T0p6QzJfQVhQaDNTRF9EMEF2VUYzdkFTNnZQRE80SGVfMDBOQVg0ZmZlVlHSAbwBQVVfeXFMUFIzdGJGR3ZPOHVNc2c3cmROaWtaUFhhSE55NkQ4YVVvQVhjU3o0MTBqT25XTzZYUF90alpxMk1ROWxpTFl6Mm83YXhhQW5uOHZqczF3VGRlcTRUNWdWeUVaMmQ4eGVrQ3RtVXFvZzl5aWx5OTBoNV9ybG5QMzBNTGRHcF9wWmZIYjMwc0JPUmhyM3A1VGJWMmxvUG9mT1UwZnRZZlFGS1o3ekgxZUxQY1pxWHhXc2lYU24wUDY?oc=5",
-        "published_at": "2026-11-19T22:05:55+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Trump says Putin wants peace in Ukraine even as Putin vows to fight - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOTFVbkFhdmgzdWpnTFowc0ZpY2FYTWFJTkpMT0NPY2oxdXdMMkVzTXVJelFoTHZWWjZZbUxzVlVqMVNLX0h1Y2pMR3ZkNnlzZFdza3pvdVNYNXdodnVDRExvSEx2UG02YzM4eUt6d2FOTm1lVmx6MWpQSHV1VzRxdW11VGUwdEZ3SzFaY1RrbkZUU3g5YWNfNnBrS0I4Y1l5NURvWDhyb3JyT1E?oc=5",
-        "published_at": "2026-11-19T22:02:25+00:00",
+        "published_at": "2026-11-20T03:45:39+00:00",
         "area": "Russia / Ucraina",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "South Korea sees progress on China trade, cultural restrictions - upi",
-        "source": "upi",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdGV6T0w0OFktcGYzZUYwdEVZM1d5Tnd3Vi1hNml2WVJHZUZxM1JRZU9SQVMta1hNRDc3dW8xbUN0Z0U0a1ZoQTlHOUdaeDhUc2JUdHdyQTFSVFdtVDVHNjBlZnNtNjZwdzdTQ3JhMzNib21wZjVvT0JiQmdRWERIVGhGbERmT0FwZFltZGM2bnpxVEI4ZTFUVG53Vy1ZNlNMd1HSAacBQVVfeXFMTjNETm9QRm81MWVuYXNFcGxvcWU5NkZOVUJ1NVQ4aHk0VmJxV0hwLUtzWGU0RVdtZzQ1QlhoQnRFbjh5UjFieF9uMlMtY3ktakJkZnB1dDVSVWJOYTZFamlGd0hGTE80a0JtUW53QWpxb1dPc3BkRU1VMzNnRnlPN0U1aXRoRnJPaEhvbVJpVkJJMU9NbkZZdEJtVE9VTzY2dms3SkxMekk?oc=5",
-        "published_at": "2026-11-19T21:50:32+00:00",
+        "title": "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcGVKcXlHY1EycS1qaFBrcVduLWwzS1B4RmhJeDg5eFlxR0FIeVNFclFqZVczdXFBVGVLa0xpcHZXZkVWa3JEeHJxVXA5YWxVa3YtejhlaHd1T1JmWDd1NHp3V1E1SEdsS0tkOEc2bVpZNER2elNveGdNTk9xanNjSDZZM2NwSXhULUVPSk84TW1JRFJUbkRRZVBYN2JHd0NnQkYxN0hhVDhVaVYzUEtlTGUwUUpuZw?oc=5",
+        "published_at": "2026-11-20T03:10:34+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China’s AI Firms Are Addicted to Nvidia Chips. Now They Are Facing Withdrawal. - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeHpsUWpRNHV2N1B5QVI4LUdwb1VMWjB1aXRnV2I0YkowdGZDRnBLeGJWYWx3UERrRXNWWmh4QV9wQkd0UlUydEp6WDVYMVJBMHNSOXJUMHhHUUMtbjUzUFp1aXdlX283dWt1aDlUaWhYQW5oNkozeGY2dUVSbkxiZjQ2Nkd0QjBfVjVLRW44YktRbTMtdEx5ZWZuTGl6LVVvRWpWS1hfZU9pR0RVVkRYUUh3?oc=5",
+        "published_at": "2026-11-20T03:00:00+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Houthi strike damages Riyadh’s tallest skyscraper - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlellNcl9iOFk5YURTaUJXSTRKZkVTWk13NUhyS3ptX3VUOVMzVkV4VFdGQjZpQU9DMFdkNUNXMUZuNWl5SWxxdTZUcXIyNE1NM3VaOHBGWG41RThNQjJ3WjA1Tm0zU28?oc=5",
-        "published_at": "2026-11-19T21:43:38+00:00",
+        "title": "Houthi Attack On Tower At King Abdullah Financial District Causes Damage, Saudi Civil Defense Says - Eurasia Review",
+        "source": "Eurasia Review",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUkZJS0I2aS1yUlcxNi1rYzNza2J0Nm41TE9QalRQdVVPb3FYYU55d2gtbHNMUW15OFpGZElpRnpuR2pTMkZsLVh4dXR1VExYQTZKeUkzZXFtazYxeW9lY1J3TEFrWWF5LXpDQ00xRG9nNlpZYjNMcWtiZ2QyR0tnM3BRM3Z5QXdzblZHeGtUWGJSZVBJY04xUGtUZEwySkJicTRkcEVpczJpRG94WjU1TXp5R3BQVENnYzQycXN0YlZTd0c3cTJkRURBLXYzZzR2bmFR?oc=5",
+        "published_at": "2026-11-20T02:14:06+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Suspected arson attack on mosque in northern Israel; Arab lawmakers blame incitement. - Jewish Telegraphic Agency",
-        "source": "Jewish Telegraphic Agency",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMDZJWG5SN2lJRzNyUjdMNTVfejZhdHZneno0WGZyUHplX1pLbDhTSzVHTFVBdUNYZFBXSUFaX05jZTJmY1ctaFVOVFh5eWdyeXR3RF9DTWtQd01nQ3Q1SlpnQThndFl3dVdwc3BTMDdMdEZHTzNScGRTV0V1OTBnWUtEakx6SVRrRDZEdlR0RmNIOEJWSTdtWUR0WjNGY3JXQW4ycmdYM2VqUHlCYUNpdVNiYVJhWDhYMkpKQkJB?oc=5",
-        "published_at": "2026-11-19T21:27:00+00:00",
+        "title": "News Wrap: Russian drone attack damages cathedral in Ukraine - THIRTEEN - New York Public Media",
+        "source": "THIRTEEN - New York Public Media",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCVDA1dDNpT29Fb0g2X2dlbzhHY1MwTXhpNk5nTWdpS1B3ZUlrdUI4S201Y0RWS3ZZWk0yNVA5U2VTMi0yTkhCUlBhNHZjNEF5LWFGTzVaNkRaUDBtZlEyQ2xraVlXTW1sQ2xkRmpXeXljc2ZTQmJj?oc=5",
+        "published_at": "2026-11-20T01:52:14+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthi Attack Damages Saudi Capital’s Tallest Tower - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa0hZSmpRQXJwM2pNbUxHY01JZUd1TkdjdU5YNGZYd1hqMmNES3RoTWRCVm9GYjMwX0x5NkMwb2FicHNjWkhMZ1dQUVNsUW1hblVuQjVLVkhlVUZZRDFiMlcxdWNweTV0NjR6TG43MmFYMjczckZ1SmhzSlZtOFdtZVVsNHZpSk1UVWdRZ0phakNPT05NRUxmOFFmNGtMZw?oc=5",
+        "published_at": "2026-11-20T01:42:00+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US Committee Urges Sanctions Over China’s Detention of Panama-Flagged Ships - The Maritime Executive",
+        "source": "The Maritime Executive",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUHBQVllrWHAxNTVSQ0FZdlp6N1BkZ01sWEZUVmFvTjdSei0zcnhMR3N1bUx2ZjhXRU4xYmw1V0k4YUZIMDg5ak05bXlzUGR4WWpqNHFXOEZ5cHN0b3doME1XNVNCY2N4MFJKLUh1VTRJaFNNenRuRmVGa2ZGam5CdDRLT0hnc0ttdlN1Q2dUYWRRcHhTZmJBeExFbUlHUDIzZlkxM3JVWG1UT0x2cnI2a2NMLVE?oc=5",
+        "published_at": "2026-11-20T01:39:29+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Asked to Sell Chips to Companies Tied to Chinese Military and Megaspeed - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUVRIQ2VxbEYxSjhPenZGVUItLXdSQzJhMzdMQjVSaDB2aXlsMUdhVk44aTRRZzY1bllnTGJRdmVXLVZsaG5KZW5EclNCUjNHT0FiRDEtZ2Nqb05BaG9Nc2hvR0xneFpWUzNJNk5CQ3IyU1ZMTGMwMWNWM3RsNGlLenpaS1Z4ZUkwYk5yVl9ialFDRzk1?oc=5",
+        "published_at": "2026-11-20T01:13:37+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Canadian winery considers shifting business to China as Trump tariffs raise concerns for New York economy - Spectrum News",
+        "source": "Spectrum News",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcWluSVNRLUt6RFRXWExqbEJrUEJ2Sm84b1NMdWw2LWxLX3E0QUUyU3BLNEE4SlJHUElDVkRXdXY0WlRNUDJqNmhSaUYtc1hyTEhKVVg4RXV6TjFvZEVEUFJhWFZRSUtHRTB0OW1BVnViVkhXeDJYSmN1SnVuUjdYT3F1NnQxNTNrVHRRc2JwN0JvYWdWdVpneE5VWG5DdnFtOTV0R2FzOUgtYzhfeFd4ekpvZw?oc=5",
+        "published_at": "2026-11-20T01:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthi Attack Targets Saudi Arabia’s Financial Hub as Riyadh Braces for Protracted Conflict - الحرة",
+        "source": "الحرة",
+        "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9wTTBDZDZEMVZoV01iUlhzdU9zZVpxbHRaVXdxS1VrRTZtOTBDOFgwN1p2OU83X3VBM1ZhNVlPZkFqZw?oc=5",
+        "published_at": "2026-11-20T00:14:43+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "U.S.-China Trade Talks Leave Questions Over Agricultural Purchases - RFD-TV",
+        "source": "RFD-TV",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeUo1VDRMd1I1MmEwM1RBd1lWYU9aMlVDNXZTel9DS1dPUDNmazVSZUxXMmdoRFdfZkRBRG0tSDBhdDRUUnNwRmRVSWx3Q1FOUFRzZ0xlMEYxZjhDdDBOcnRSTG1hRU1lY0MzWUh5bnVqc1p5YlFWZDRmZHd5a3pmNTJzUkdxWVg1d0tqbG5tLXg?oc=5",
+        "published_at": "2026-11-20T00:10:06+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump Pushes Iran Strike Decision to Next Year: 'We've Got Time' - Haaretz",
+        "source": "Haaretz",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaDJOakhVVnVOMmVma0kxYTNVZDAyZkF1ZjF4QXpLb1ZhVF9FVlRfNWZxTndhN1Rwa3h0aTRPMzd1VFBVRVVIUGlWaXdXTDAwcy1mRTg5UE1hT2Q3RmVVemJSZ3gwQXgxemg0ZmgyVFNXS2dQNms3ZEN0dm1GbEp0MXRzZE9JSDVJS3FNMDYxZmRTdWlCWjBEMXBiTml6R2lGQnZISEcycHFPRzV4SkI4djVJZjItendHWEJfMG96S1VFMHJCcUJkX2JvcjVTeG8xQy1fcHI0T0R3NUUyN2FQUUxSWHRkQQ?oc=5",
+        "published_at": "2026-11-19T23:42:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia launches mass missile attack against Ukraine after Putin vows retaliation - The Kyiv Independent",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQblM4Z1VFYS10TkllLVVhc3VmdFd0Tnp6RzVMbzktcmktcmlnc196OG5rQ1dKZklrUER2ckw2T2Y4WVhTWDZ3eXBVX3Y4VGJoSUhBQjk2Y1luNU51NmxxRGl4RlFRSlJKLVdzeEc0ME5jZlFIaFdQYjlYOFJ6V2pMWDlZeVlYMWpjMnMxLXlfZGl0LVUwMTlFaU1MQTk2elVTTXExUVJ0WmI?oc=5",
+        "published_at": "2026-11-19T23:41:36+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "The U.S., China, and Russia agreed to increase the flow of oil. But how? - Marketplace.org",
+        "source": "Marketplace.org",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMksxbnhUb296Mjg2U0F0Qmk0RW9USEJIelk1UEJrRHBDODJxQmlPeGg5TDhTSkpyMmpNSWc3TFMxY1BibWlHMzlROWw4LXFnb1VXY0FxRElNSU5zWUZDVlRqSnhQakloQnFVVm1yNHVIZDRGUTlCNEtFdTZ5Vkl0SHJwQmJfRHB5ZHBDS0pqZFJMd2ZfZEtoTFpyRGowVV9WRVlUag?oc=5",
+        "published_at": "2026-11-19T22:00:44+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
         "title": "The Sanctions Puzzle: 10 Key Areas to Watch in 2027 and Beyond - JD Supra",
         "source": "JD Supra",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbmpZVVY2MEdjVG5pTGJqeHExNHV2LVJLUFdld2huQVhmN1YwTW15d1Q0aXMxT3ZiclRFTWN3VzFrN25WbVBCc1gwREdIeXFBeVVaWm5wNGJvUE5VNHR6SDNpY0FxZnc5QUREU3RxM1M0LUJneUZuMVVFLWJ5Mjh0MTV6VlJNdw?oc=5",
-        "published_at": "2026-11-19T21:11:28+00:00",
+        "published_at": "2026-11-19T21:17:04+00:00",
         "area": "Russia / Ucraina",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China tightens export controls on drone parts used by Russia, but key components remain exempt - Euromaidan Press",
-        "source": "Euromaidan Press",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcXpHLVlqT0VhaGl6RUhDNzM3dGE1TVl6eEdnZkxNZjZGVE0zYS1wcTF4cVBoeXh2SzFMRHM0VDFGeURwN2l4YnNHQ2FHcFVqT05xcHlzMUtlWkxUU04wd3hyTDRRbXpCM21UUFlfRmFpVlcwTURDT0xNdG1CNk42ZGduREoxREtLbXdFWXpwREZtLWNRQkcxQWhPUFFMRjFrdkE?oc=5",
-        "published_at": "2026-11-19T20:57:52+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Kyiv’s partners should prioritize Ukraine’s domestic drone production - Atlantic Council",
-        "source": "Atlantic Council",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNVlOcUdBSG41MWJKQkFCYjN6Z0FhX3g0QzJPUGk0bWJoeG5JMG5DSlhqcng3MXlrdk5ZMGIyRnFqVVZCbFpTV210ZFU1cXJiMnZuNlNhMXk2NTdRVVo3WFVDVW5Id0tPdjQ5bm90ektDam1HTHY3RWh1dDZsZ3VZR0tqMC1hTFlmUVlnQjJTUlFwREUzUU5MbHhLd1NiZHNWbWZvZjduZ1E0dnBLUWg1WTFoS0pkZlMxQW1n?oc=5",
-        "published_at": "2026-11-19T20:39:00+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Houthi missile attack damages Riyadh’s tallest building - Iran International",
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtM0pINzl0MlU5X0prTF96Rk1KaTdBMmNZQ3FKN2tTQklWSzRyMFdUNjM0dmpIWk9wYmdsWklXdmZVS1lWQWMwTlplbkRaaXpmaWc?oc=5",
-        "published_at": "2026-11-19T19:33:08+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran Shipping Update – November 19, 2026 - United Against Nuclear Iran | UANI",
-        "source": "United Against Nuclear Iran | UANI",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaG5RQjF0eXczRGd1bW52ZENYZmoyZ1VSbTEyTzNnUlMxSlA3RFZuY0dPRU4xNC1FMm9xMGZNZlB2OGhSeVRWLVZ2VjBGc1MtM2hPNHhTbFdiQ0lzaGZCSnZYdHFlcWxkTHJ3ekVkVHU2cm8wMnUzNjFUdjVGeXN1ZWdncTh4c0dqNHRFbjJ5elc?oc=5",
-        "published_at": "2026-11-19T19:24:34+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "California subpoenas Nvidia as questions about CEO affair, AI chips mount - Los Angeles Times",
-        "source": "Los Angeles Times",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUlI2V2VNMGV2S3F0ekpsVE45V2Vael9kX0dQZFROUnkzUXo2VzBUbmJUMndfNlRqellfbk9WdHI2ZmhZOVpyWDhRaFREM1M0RmtrS2JFRmVsdm9aUWczSjZXRTAzbE9yalotejdxM19SRnVUM2czNVVXbjNxRHhuS0tLTjVsM3JsR0xSUF92bDdUSjllZExQQTVQM3JMNW5mQkhXYTNXZGhWTmJyeVpmYXJpVVJhR0NjTXA3a0ZTMzFsZw?oc=5",
-        "published_at": "2026-11-19T23:04:44+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "California AG issues subpoena to Nvidia in probe of China chips - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVB4dzhBNkMxNmJSVG1wSVNOWEpGcElVS2dSMl82bHV0SzJ4SXpuNkp4cTJwbTk4eVNjaUMxbS1nZjYyWXVBSWRWcV9nNnZ5S1dUR0dsUDZ5SHQ3YlZMQVpBYlBXWkJfTGZIZTVQVWxsTmVBVzlWNGNBQkxtWnBEZEtwSzV4ZXN50gGOAUFVX3lxTE80LW5HNkNja2V1OXpuT0QwRG9lNzdVQVVrc2NPVUVhN3FJQmpDUGsyQVdhNHN5NFVlSzZHQUt5cFFXLVF3dEcwQ2E4V3AwM0ZFZThiRE5UT09HSlo1VTM0VC10UnZPY25UWlctdVhHWDU5OTNzcng3emp1bDZuaHo4eDJIMGxtbDVyRERkb2c?oc=5",
-        "published_at": "2026-11-19T22:49:04+00:00",
+        "title": "China’s AI Firms Are Addicted to Nvidia Chips. Now They Are Facing Withdrawal. - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeHpsUWpRNHV2N1B5QVI4LUdwb1VMWjB1aXRnV2I0YkowdGZDRnBLeGJWYWx3UERrRXNWWmh4QV9wQkd0UlUydEp6WDVYMVJBMHNSOXJUMHhHUUMtbjUzUFp1aXdlX283dWt1aDlUaWhYQW5oNkozeGY2dUVSbkxiZjQ2Nkd0QjBfVjVLRW44YktRbTMtdEx5ZWZuTGl6LVVvRWpWS1hfZU9pR0RVVkRYUUh3?oc=5",
+        "published_at": "2026-11-20T03:00:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -320,16 +226,34 @@
         "title": "Nvidia Asked to Sell Chips to Companies Tied to Chinese Military and Megaspeed - The New York Times",
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUVRIQ2VxbEYxSjhPenZGVUItLXdSQzJhMzdMQjVSaDB2aXlsMUdhVk44aTRRZzY1bllnTGJRdmVXLVZsaG5KZW5EclNCUjNHT0FiRDEtZ2Nqb05BaG9Nc2hvR0xneFpWUzNJNk5CQ3IyU1ZMTGMwMWNWM3RsNGlLenpaS1Z4ZUkwYk5yVl9ialFDRzk1?oc=5",
-        "published_at": "2026-11-19T22:29:09+00:00",
+        "published_at": "2026-11-20T01:13:37+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US signed off on sales of nearly 900,000 AI chips to China in six months - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNblFuUDdEWUg1ZWIwNTZNbHlaYmNJZzVIZWw4ZzlJQnBnWUdFOHRLVXlPb0Yzb04ybzlTWG81Vk5NcERaTFF3emJvQjU3emdyMEIzQnQ4TUZ5NXl5eWVVYnhWODVoR01nRjJiX3RTWkZqQm9NbzFsdklxN3QxRVFsVHhVZXBwUHI0blg3T0p6QzJfQVhQaDNTRF9EMEF2VUYzdkFTNnZQRE80SGVfMDBOQVg0ZmZlVlHSAbwBQVVfeXFMUFIzdGJGR3ZPOHVNc2c3cmROaWtaUFhhSE55NkQ4YVVvQVhjU3o0MTBqT25XTzZYUF90alpxMk1ROWxpTFl6Mm83YXhhQW5uOHZqczF3VGRlcTRUNWdWeUVaMmQ4eGVrQ3RtVXFvZzl5aWx5OTBoNV9ybG5QMzBNTGRHcF9wWmZIYjMwc0JPUmhyM3A1VGJWMmxvUG9mT1UwZnRZZlFGS1o3ekgxZUxQY1pxWHhXc2lYU24wUDY?oc=5",
-        "published_at": "2026-11-19T22:05:55+00:00",
+        "title": "California subpoenas Nvidia as questions about CEO affair, AI chips mount - Los Angeles Times",
+        "source": "Los Angeles Times",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUlI2V2VNMGV2S3F0ekpsVE45V2Vael9kX0dQZFROUnkzUXo2VzBUbmJUMndfNlRqellfbk9WdHI2ZmhZOVpyWDhRaFREM1M0RmtrS2JFRmVsdm9aUWczSjZXRTAzbE9yalotejdxM19SRnVUM2czNVVXbjNxRHhuS0tLTjVsM3JsR0xSUF92bDdUSjllZExQQTVQM3JMNW5mQkhXYTNXZGhWTmJyeVpmYXJpVVJhR0NjTXA3a0ZTMzFsZw?oc=5",
+        "published_at": "2026-11-20T00:27:46+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVB4dzhBNkMxNmJSVG1wSVNOWEpGcElVS2dSMl82bHV0SzJ4SXpuNkp4cTJwbTk4eVNjaUMxbS1nZjYyWXVBSWRWcV9nNnZ5S1dUR0dsUDZ5SHQ3YlZMQVpBYlBXWkJfTGZIZTVQVWxsTmVBVzlWNGNBQkxtWnBEZEtwSzV4ZXN50gGOAUFVX3lxTE80LW5HNkNja2V1OXpuT0QwRG9lNzdVQVVrc2NPVUVhN3FJQmpDUGsyQVdhNHN5NFVlSzZHQUt5cFFXLVF3dEcwQ2E4V3AwM0ZFZThiRE5UT09HSlo1VTM0VC10UnZPY25UWlctdVhHWDU5OTNzcng3emp1bDZuaHo4eDJIMGxtbDVyRERkb2c?oc=5",
+        "published_at": "2026-11-19T22:49:04+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Nears Acquisition of Diffusion AI Developer for More Than $500 Million - The Information",
+        "source": "The Information",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjI2ZmljcWphUkcxbzlYMXNKeFZFRkw3Zzh1Y1dHVFVVSXBIbTNFNFlyNnY1UktVV3VRNlBIMVJKaXBGd1kzM2RyMkN4eGpNbVVwSzhwRm9mWXcwSGZlcjg5eFdxZHpqMlVCQjExZ084dVZCUDBBeW05Ni1vaUNNWTdvcDFDMjRiRl9oS2czcUJSbTZuemRRLVBtMWtFWTZ0?oc=5",
+        "published_at": "2026-11-19T22:43:00+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -344,15 +268,6 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "US signed off on sales of nearly 900,000 AI chips to China in six months, committee says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKYzUycHNKbTdKZUE2clNGYUp5WFFBOTdaWndZbVdDZW0xSTQzUi1EZlRsRElldE00bktXMUFMaG1Sclo4eGdCVnZab1JUbWJwZHQ4cGFSTzgyNkZSZmF0WHAzR0hTa1B3eUQ5cmJRTGRfd1ZBdkFiSzNpU1RDeF8wU0pmbXBqWXYxeFNuaWdmV01QLWk0MWdrclJDV2ZYNVFFN0puWU9B?oc=5",
-        "published_at": "2026-11-19T21:37:20+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
         "title": "Recon: FDA approves drugs for four rare diseases; Pfizer signs $2.6B licensing deal in China for in vivo CAR-T - RAPS",
         "source": "RAPS",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbGhVbWZFdzB2bzI2TTBOemVQUkkzdW5vb0dENnp3REF5M3pBLS0tTWRMdGZIMndkckZTTGhJUFppQzJ3UXJsYXZUTkJZcktYemtUbkJGWkVVODE0ZVl3cXNTTlk5ZmlwQ3ZyRW9yNnUwaWw0Uy1WN0hwbTZGNU5NUUhydURRZTNiajAtdkxRS2JVWWxwRFNVbnpXUWhoRWQwQlI5Y0xYaHVNMTl4NnMyQ2FfSXFrSUtmWE1iNlBxRDBVNTBmOVc1MHppb1hYVHFybUtiYzdzU0lvdw?oc=5",
@@ -362,28 +277,28 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Regeneron wins FDA approval for first siRNA treatment for myasthenia gravis - 더파마뉴스",
-        "source": "더파마뉴스",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CdVYzdEZNMUNIRjg2MnNycUFjQk1YeHBjR21yRU9pd1hlck56NzROYXBaUkZudy04bktLcENlZ3pBalpfVm9yenZLQWRLSGZ2ZDQ3QmdxV2dleUJRNHJUUGZpRjRqVE1ObFFTTDZGcXduWGhYQ2dN?oc=5",
-        "published_at": "2026-11-19T16:29:00+00:00",
+        "title": "Truist reiterates Buy on Regeneron stock after FDA approval - Investing.com",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZXdCb0xqa0QzZkMwcWk0amd6RDRiWVZYUHR4SWF1aGZTNlNnbGUyRHVGMWw4aFVKamxMS1A4RE9DWEFSRTEwTEpXdldBQnhHN3ZxNW0wUGQwNjNmMFlyMkh1ZmdwRk8walJ0TDQ1aFAyeHRhN0FZcXNVMllZM3ppemprOHRDNzF0WDRtandCaGtES091NGNiM0pRMklGQ0haOFdDSVFyektxZHlna2c0anRfaVNub1NMcXFn?oc=5",
+        "published_at": "2026-11-19T14:35:32+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "ALK-Positive Lung Cancer Community Celebrates FDA Approval of Neladalkib - Oncodaily",
-        "source": "Oncodaily",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wM3RKakRkazQweVZFcnNRYmhoRmtRblItS1BMOGVxMEd0SnVPbVo5a2RwMmYzSlpvZGdpSl9qODlFZkNjYWwybENBZ29pb0FhbDlWX09SRzVyTFdHZ2o0?oc=5",
-        "published_at": "2026-11-19T15:25:56+00:00",
+        "title": "Sanofi secures first FDA approval to treat neurological symptoms in rare metabolic disease - BioSpace",
+        "source": "BioSpace",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNkRmSGoxOENoVUtsLWtFLWNxcHYzakFRTkJoNDVySUljY2U2N25SdU1fYkVlbl94aE1BbTBKeEtGQkVjaVoyUXFTOFBReDcxdDl4Z2JTdktHTW1oVGtEbEhVSVYtTzkzeUZfQjBiblZBY2lvMDhwSkVFRmlFRFFpWWZaTm1HdnYyMjA0WlpzVXI1elMtRURGZXVjNUVBM2UxZ21VbDQ5bWNHTzVBWjZjYkZLOHAxZ0wwSm1V?oc=5",
+        "published_at": "2026-11-19T14:25:59+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "FDA Approval for LIVSAYIS issued to REGENERON PHARMACEUTICALS - Quantisnow",
-        "source": "Quantisnow",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaDFudHNkMl9vMng2VTlwa1d4N1JJdExOQ1JvQlktcmFMUk11UWFjT3ozZzl3TVA0cHhiVUlIbFNDTWJqYVlycGN1M3dyTjdzaWxDSnpOdy11VE1BRGg0ZGEyMkg4a25xaHg4MXJLTm56RFUyNWtiSnZOTFZNM0lHWlEwdktJejQ0aS1FeDlJSVo2QmhrcWNRdDEyRk5EUTQ2TlRaTjZfYw?oc=5",
-        "published_at": "2026-11-19T15:16:18+00:00",
+        "title": "Oral Infilbray Wins Early FDA Approval as First Treatment for Brain-Related Symptoms of Type 3 Gaucher Disease - Medical Daily",
+        "source": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3NmVDRzcUlaNDR3RkV5YnowZWQxOXFyemwtODdaVHowM01fcE9PanVWanJUTVp2X0VqVWRTWVNnNFoyTDVCcHNwdUZ0R0lWcjZLZUplXzNMSWtMX2VxUEZwTGVGLW1FSjNKRUlwWVJheVVONnFRN2YyWGJodmZIMWN2d2dBZ2NZ?oc=5",
+        "published_at": "2026-11-19T14:10:32+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
