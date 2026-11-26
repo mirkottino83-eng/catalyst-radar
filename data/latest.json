@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:35:10.363083+00:00",
+  "generated_at": "2026-11-26T20:30:23.987681+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -13,34 +13,71 @@
     "nasdaq_change_pct": -0.6224791327410162,
     "sox_level": 8774.8623046875,
     "sox_change_pct": -0.6525637737050616,
-    "vix": 27.040000915527344,
-    "vix_change_pct": -4.418522303100813,
-    "dollar_index": 103.78199768066406,
+    "vix": 26.799999237060547,
+    "vix_change_pct": -5.266884518370551,
+    "dollar_index": 103.7699966430664,
     "macro_score": 43.7,
     "tech_bias": "neutral",
-    "summary": "Tech bias neutral. Nasdaq -0.62%, SOX -0.65%, US10Y 4.85, WTI +0.88%. Geopolitica: Hormuz Tanker Traffic Rises This Month Even as Attacks Increase - Bloomberg.com",
+    "summary": "Tech bias neutral. Nasdaq -0.62%, SOX -0.65%, US10Y 4.85, WTI +0.88%.",
     "quote_times": {
       "treasury_10y": "2026-11-25T19:55:00+00:00",
       "wti": "2026-11-26T04:55:00+00:00",
       "brent": "2026-11-26T04:55:00+00:00",
       "nasdaq": "2026-11-25T21:00:00+00:00",
       "sox": "2026-11-25T21:00:00+00:00",
-      "vix": "2026-11-26T11:15:00+00:00"
+      "vix": "2026-11-26T16:30:00+00:00"
     },
-    "geopolitical_risk_score": 44,
-    "geopolitical_risk_status": "INDEXED_INDICATIVE",
-    "geopolitical_headlines": [
-      {
-        "title": "Hormuz Tanker Traffic Rises This Month Even as Attacks Increase - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQck13clVLM3Z3YkFxWGJyYmZYQTllN3AzR3lBZzlQNm00R2RQckxMczVRRXUwU3hlWEVsNzd0dTBYQVVPNU1lWkl3WDFYNk96MEsydHBtYk4tLUNwOVJtVWJtSzZtaTdoWGxla240NjFJRWNublpNRXY3eE43Nkt4dG5xa01kSnBQbk5CSmo3NkhGYVpidGt1UW5ZNnBfNjZzbFZSa0Qyal82SHdtcUJCTjAxTWI?oc=5"
-      }
-    ]
+    "geopolitical_risk_score": null,
+    "geopolitical_risk_status": "UNKNOWN_NO_RECENT_VERIFIED_HEADLINES",
+    "geopolitical_headlines": []
   },
-  "catalysts": [],
+  "catalysts": [
+    {
+      "id": "afb3cf0ebdf3",
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "category": "Semiconductors / AI",
+      "priority": "critical",
+      "satispay_status": "check",
+      "headline": "Advanced Micro Devices (AMD) Completes Taalas Acquisition - Simply Wall St",
+      "reason": "Possibile evento ma indicizzato da Google News. La data e quella della pubblicazione: verificare fonte primaria e data dell'evento prima di considerarlo un catalyst nuovo.",
+      "source": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORElYcHdIdGVmSE8xSFdldFR5bTB5eTZzY3JpQktJanZ3a3daTVBUOU1heXBaZ1FqaEdJaV9qUDJkVGJiNGFJRzlqMVhPekZiNWpDVVU4NEtHYW9TNnlYUzdoWjBjVVFqNXNCMzdCZ2VQM25TNnpkeUlWSWRya1NmX0lySGhFTHVQZkY2QWRGbEU3WlhQd2NHWUJraG5FdU1TcG9ia3pNbVJsSW9aQjdUeXBCZmF1Ty1yTm5nblVsYW9EMUVvbVBuNlBQYjV2eFRjUXhBVjB3NmkzZjl4MnfSAd4BQVVfeXFMTkRJWHB3SHRlZkhPMUhXZXRUeW0weXk2c2NyaUJLSWp2d2t3Wk1QVDlNYXlwWmdRamhHSWlfalAyZFRiYjRhSUc5ajFYT3pGYjVqQ1VVODRLR2FvUzZ5WFM3aFowY1VRajVzQjM3QmdlUDNuUzZ6ZHlJVklkcmtTZl9JckhoRUx1UGZGNkFkRmxFN1pYUHdjR1lCa2huRXVNU3BvYmt6TW1SbElvWkI3VHlwQmZhdU8tck5uZ25VbGFvRDFFb21QbjZQUGI1dnhUY1F4QVYwdzZpM2Y5eDJ3?oc=5",
+      "published_at": "2026-11-26T18:09:43+00:00",
+      "age_label": "2 h fa",
+      "catalyst_type": "ma",
+      "current_change_pct": 0.13,
+      "short_term_change_pct": 1.42,
+      "relative_volume": null,
+      "volume_metric": "1h vs previous NY trading session same clock window",
+      "quote_at": "2026-11-26T00:55:00+00:00",
+      "quote_status": "STALE",
+      "quote_age_minutes": 1175.4,
+      "early_signal": false,
+      "signal_status": "NEWS_TO_VERIFY",
+      "estimated_impact_pct": null,
+      "confidence_score": 50.0,
+      "source_verified": false,
+      "verification_status": "RSS_INDICIZZATO_DA_VERIFICARE",
+      "headline_published_at": "2026-11-26T18:09:43+00:00",
+      "event_occurred_at": null,
+      "tradingview_symbol": "AMD",
+      "risk_flags": "Quotazione non aggiornata: non trattare il momentum come live.",
+      "factors": {
+        "source_quality": 68,
+        "catalyst_strength": 90,
+        "freshness": 78,
+        "volume": 28,
+        "momentum": 67,
+        "macro": 44,
+        "extension_penalty": 0,
+        "stale_quote_penalty": 18
+      }
+    }
+  ],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-26T11:35:01.557485+00:00",
+    "updated_at": "2026-11-26T20:30:13.790247+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -50,14 +87,14 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 15
       },
       {
         "area": "Russia / Ucraina",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 14
+        "accepted": 16
       },
       {
         "area": "USA / Cina / Taiwan",
@@ -71,248 +108,248 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 9
+        "accepted": 10
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 16
+        "accepted": 15
       }
     ],
     "geopolitics": [
       {
-        "title": "Are Trump’s tariffs aimed at securing US-friendly trade deals? - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdWVQTU9Bem1UcHdtT2s5T005dlJvaDZfMTZ3aTQ1UHpDVUNMbERrRTFpQ0pKNFI0alRqWWp6ODBNYTJuSVNIX2JBMEpDRFh2RmlvYkNISXByQlJrR0dvb1BvQ0hxZmlPSXhtY3FfZjB6eUl0S0dtb2hxcHJwZ2U3X3ZudWpyMFRodlVackNmbU5DOVJENVhmS0s5bzQ2Z3BSMEdyZNIBqgFBVV95cUxPc2NjTE95RV9JMXdFTy1CdVNSdm1mRUt3cGxydjdid21HVFAza2pLcGRiY2FzOEUxeHhKNHZRcjdFeHRxQ0h5ZjYzZHRFWWhMSTFqSnJmVU9BNnB5WnB4VGpYN2Z3RU5vT24wVlhQeXpqYURoWnlXLW5QbXNvWS1DSzd5VGVNM0dPcnkyQkE1NEJCRlROejRDaE0tSXR0aXFYakJyMVNQYkRyZw?oc=5",
-        "published_at": "2026-11-26T11:16:29+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "How Trump's proposed tariffs for India compare with rival nations - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNazJTSjI3dk40ZnhoM2ZJR2N2eXp0NUFoaWUxNUI4NW9wV19YWEtpd24tS0t5YnFHV2YzSkRmSXdiTnR6cjRuMTROY1d1VlQ2NUR3UjNNMUJkeU5XQVBOeUQ1VnVTQmtQU3BVOUNndHdyeUhvWDcxdmRHMGtheVJCREs4UzdCWS1VVDQwcmdQYWtILXltMHRhN1UxeTVtdGhuMFhpemlOdDRkLTB5?oc=5",
-        "published_at": "2026-11-26T11:10:56+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China warns of 'necessary measures' after new US tariffs - AFP.com",
-        "source": "AFP.com",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE84QTBmYUJCaGVPOVVCSHVjZm9ZNWtKSFBqc0lWZW9ORi1vMC0ybVZ5a2J0MFJwT3g4Mlprcm5hbHBITDZkY2M1YmJURQ?oc=5",
-        "published_at": "2026-11-26T10:47:29+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Eisenkot accelerates coalition talks amid fears Netanyahu could launch Iran strike - The Jerusalem Post",
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54cjV1TWc3ekFNQm1raW1kSFoxMkdDSkRuenBtZFpBQzdsV3pwTnRGTm9CeEpVUUlQc0VjZC13Q2hfZ3ltZ2wtSTJUQWMxS1ZuV2lBM0x0QnhLMngzQVRtVTRCdl9FUHh2bXZVZUN1WWR3RjlkY2NFVnFRcw?oc=5",
-        "published_at": "2026-11-26T10:46:42+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine War, Day 1,736: Trump Mega-Donor Acquires Overseas Assets of Russia's Largest Private Oil Company - EA WorldView",
-        "source": "EA WorldView",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52NUI2OExHNW9GUnZEeXlRbjNzTlUzOTM0SURXWkV0Vk5Vd1JwN19reE9MdDJKbkxPRy00bklDNDFSYUxJQkFILVZ0akJiUUNJQ010aUZ3NEFrWmp4eEp5c3hYaDZhVzY5azUybDJPR3AwTUpGVzZaOENiZGRPbzQ?oc=5",
-        "published_at": "2026-11-26T10:20:11+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine drone attack kills five in Russian-occupied Zaporizhia - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkJGcFdNRHNsLUJweEJkN3dwUmF0YV9zQXNFZFp4OWVfaTRzcVJqdkZSUGFqLUhzdExCNnlIOVJLZ29vNFVSa2hETEdBXy04SnpvampYVE9JR3lQYnZ2RUxuZThQbTNzT2NMcE9FcEg2S1c1czRCbVBoS1lIZzhjVmx1TXBzN0lJeGtjQ3o2eTFWc1h3MVRTTl9kUDJYLVhKQkRsM0dtUdIBrAFBVV95cUxPOE5mb2V4WnlCR2JvSHV1R3dkTXBrdURVU25yekZwZlVrNk5ndDJtN2Qzc0oxM0NwTkRyZDhqZHYtaTFFcXJtUWlZYlJlSkNPVVd6NDFzdHplYVk4b3M3VENrTlpTUkRKMzBGcUpWc0JiNHhVT2JINk1xQmVSRW5uX3k0LU1TT2lrMllIY01tOUw5T1FZQm1WSk1UaDU0aWtlUXVFS0lrRmlYQ2lC?oc=5",
-        "published_at": "2026-11-26T10:07:30+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWkZ2VEFwQUxLd1YzSWVWVkJhTWhLaVVyYjZUYkoyNk95RElmLXFGTVdpdkVQOXpDXzJGVFZoay04S21qVjJ6VENIYWVCTk91UElFcnFrWUk1cmdESlVyLTRqNUVaX3FZalhmbVVReGFOQTdQUVc2b1hXOFFjSzVybHJiMjhQSXpSY0JPSTJKOEp6OHgxNjV2MG1UWC1JcVA2bkxsMXc0bkhDT0otcUU1UkkwOWRaRGh6NHc2V0NNdw?oc=5",
-        "published_at": "2026-11-26T10:02:00+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russian occupation authorities say five killed in Ukraine drone strike - Yahoo",
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOXpMVVMtUElMZmIwRGsyNVFrTEYtRVNMVkcxN0F0N0ZleERGTTBKeGE1anhDcUlsN2NQN0RRZlhZT29yRjFSdFV2bS13d2RSaDNnRGsxMTF5TmxwUkRINGR1eWE0N1JaR0N2by1OZGxfcFFEUGQ4SEFKU3lmakFwcVM1WWdxWXRXYlpSQ2xWbWJ6TDJfYVZmazgxeW1NYjZj?oc=5",
-        "published_at": "2026-11-26T09:48:27+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Russia slams Kyiv in ballistic missile attack, hits shopping center, injures 7 - The Kyiv Independent",
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNkcxUnVPcG5WWUU5V2IxdHg1SmN5TzN5YkxtY0ZrVUt6RkRVRHd3MHA3OWlIUFBxWnBXMDhFMVpmcmtQZ3k1OHJSXzFUU0g0X3lNMHhkaWQ1Q0ZWWUM3TmxrX2xHdlE4c3ltcW04NVRab2preWEzSUtqLURwZUllUU1xZ3BvZUMtQ2R5MjM0T1pFV0l6cjUzaldRRQ?oc=5",
-        "published_at": "2026-11-26T09:37:41+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Satellite Images Point To Houthi Fortifications Near Key Red Sea Shipping Route - i24NEWS",
-        "source": "i24NEWS",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcW53cVRvYmMzSzg5blJpMmd2OWFIeWJ6TE82TmNGVTFYS0hIaERoUG9QbFZTdTlEZFF6WWxGRlQ0RmdZbkF0SEgyM0x1SVMxdGVxSS10YjNObEhSRVlVcy0xRUtiSlZmaXdBU3RIMVl4RmtrdVZQbEVzandOOXp1Z2kweFJtd056a01zWFIwRHl2cGRIaDFzbXZ0NkZlWkpiWldlNU92SW1wZC1RT2w3T3hnUk5vY0UxODlVdUtGR0Q0WlZNb2c?oc=5",
-        "published_at": "2026-11-26T09:26:29+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukrainian Strikes Cut Russia’s Oil Refining to Lowest Level in Over 20 Years - Мілітарний",
-        "source": "Мілітарний",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVDF6OGhsN0FHcWN1WkRXa1hYTGpDNHpZT1NQbEV6NzBsMUxPNlFnNkJyUks0WWZTNks2MWpUWGtyVzJvWWFFUHNQWWU4c0MzcW8wOV9UaThtS2lYc0tnS0JmN190Wmt1NDVYZUZfUC1RTVJ0ZHk0cXJGTTZPTFlQZGl0a0xsbmxobUpCRHRBbUdyVldwaDd2bFhMaVh0YVlJR3ZhWXNGYWVBNFpa?oc=5",
-        "published_at": "2026-11-26T09:07:54+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Iran’s Hormuz Strategy Backfires as Global Oil Markets Adapt and Its Economy Falters - Jerusalem Center for Security and Foreign Affairs",
-        "source": "Jerusalem Center for Security and Foreign Affairs",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT1M1R2VHN1JleGhaWXlnUlJwcVNUbUVwaFk3VDFDVzBpZUpfOXdGVXJaN0wybk41MVo3bGRoR0syX2RZTVBXNkFCWlpUMTBxald3d1R1NUNVU3g3ZWs4UWRvX2JZUk4xRlhITkNhdkZ3V2JObFVDVDMxaUFlVDVTSU5lWmdrOW5lT29zU2x2eUl1eEdlVzBCNVExaHdJaHV5anZZ?oc=5",
-        "published_at": "2026-11-26T09:03:48+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump Riles Trade Partners With Tariffs That Undercut ‘China+1’ - Bloomberg.com",
+        "title": "Oil Extends Gains as Middle East Tensions Fuel Market Jitters - Bloomberg.com",
         "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNalFybkwxanpDZHdLeGlnSHN6dTBsUnoxS0Zrc3FjaDJ1ZDhGS3Y4Y09qRnNEMmhMazJfeXRlMVdnNy1RM2RoenR0VDlCOWpfZTdWME5pY19lcFlkbzIzUDgwYkN0RXVlcTRET0dEMGNpUnFUcnhkUDQ0a1dzZGpzaXByMnRvTGFMQlZZRVlMOHlBdDRfNUV2VlBPZklRdmFyeTZRWC1lZGdGX1R4MmdGRU1R?oc=5",
-        "published_at": "2026-11-26T08:42:23+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "New Tariffs on China Risk Undermining Trade Truce With U.S. - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWUcwQ3JjLUlNWjhSZnFuYWMzVEFGd0RMR2lZT2VmWUdBejNHckpxbWFSb0lsTUNuTzktdm9qTk94eTgxMXFRQkplOTdZZkFDSEVaUkVZcWFfb1lEMTNEVzFHd013bXhoRFU4ajZjOTB0UXFhM1FacVliRVdqcFY5dG11UURVYmFZang5ZEpaZEVCazhBMjFz?oc=5",
-        "published_at": "2026-11-26T08:42:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Israel's Democrats renew talks with Eisenkot after halt over Likud negotiations - Haaretz",
-        "source": "Haaretz",
-        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNdVE5ajRXMTNvNUw0M0t4Y1lVMUtGTWE5MFVQTDZncEhKMjlxcmtuWXktcl9KQWJLSWRVejRwQ3JWOGd3RW8zQ2R4ZWNuemU5XzM3LTBSRHdGYVpDZXVBQ0RZcklXX1FnOWtURk52V2x0VEgzd1lOZWRhUU5MTWJQMjB6U3B5bzFDaW85OXZOM1BxOXFFWmZRWmRpanJIeTNzNlBPV0JiZEhXWk50WjRuZ1hrcklFcHNHaTktYzdkWVYxUng1b1p3NHFFelVadnJyMnFDbzZVQ3ZFaWFWR3NoRE1UY0pQdEF1SUJjNjFqdndzdlZuLS1HeUYzOF9GcnRadExVR296bGR0bGlORUxCaWhCSHVpQy12N0NSMzhfVlFGTEVJ?oc=5",
-        "published_at": "2026-11-26T08:16:00+00:00",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWM5bTBpVVdXcm1DeXd5eTFMWXRUWVFIalFzYnE5bGVqS3dVbldzMXFralFtOWdoaXZDS0NtbE83ME5ZS3cwZkdaRFJsTFlzcFlhQnhmbGF3a1hSdmVsUU9Dc1VLWXJmV2J2aTlETkhSWXd1dlNCamZOeEdlSnN6dXdCN3p5TUd5bDJsVlVpM0J6UVN3TzNEd2wyQ2ZpQQ?oc=5",
+        "published_at": "2026-11-26T20:14:56+00:00",
         "area": "Medio Oriente / energia",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "China extends suspension period for its ban on export of critical minerals to US - VOA - Voice of America English News",
+        "source": "VOA - Voice of America English News",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcHdQcW5kWW5acVB5V3dlOWZHTXZ3d19kb3Zjd0VnRGJZemVPZFJsUWs3TXBFV3VUZzZSVlR3Y1R2TXBvMmVhSm9NdGpIS0Z2RUxmVV9pUFJTOUlrbGttSzJpOUs1LUZ2RHFaNWhTdWZBSkNiY3YtUFIzLXNudjBnYTc4YW5vQVN6MHp6QXVMSUtwUDhWQXd2Vk4weUtjWnpfSXpJMEJaXzNuVEJKVlZFdTM3ajBudzNXRFNzejdXdWczODAwMTZN0gHKAUFVX3lxTFBlRUFKQi1ldTZNSGZRMkpadnkyUGpYSVo5X05wSVd3NWRVMjJZSE1pWHV2YzJWYjBSakZQcy1GVWszN2dzMHh0ZGF2UEVlV3VNdm9yWTd0UlVic0RSeEg2SU9XdUYtMV9PV1VmekYxalFzallhLU91M09HTmZVWm1jOVRPRHl2U1dWSVFoSzcxd0lkNmM3NTlQOElTZlhQR3JzdWc2VHFpMnkyRWE2QUVsR045QjBmb1lKOGN1OFI3MmpxNVA0c0pxQUE?oc=5",
+        "published_at": "2026-11-26T19:54:44+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82VmIyOXM0dFF5ZVFScjVxU0IzbUV3cU53d1JybkZ3eEJxaUFCTXR4Y0dmS3FjREhrcVZ4QW5GN3AtMHJNdWFDT1JaeWppVkZrXzkteDgzZ0MzTFk?oc=5",
+        "published_at": "2026-11-26T19:27:45+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukrainian intelligence says North Korea paused missile deliveries to Russia amid friction over South Korea - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbWt2UTQ3alhqQnBfQjF2NUdST0pPMVY5NVVteHJReWFwekk3cVAwTkdaTmZrUnpKRGhNQTZJZk5OQ1FDd2o2ZWc3UWJsVVZvblI1TFdla2xNME9qTlJDelNtSURtYlREeF8ySmdBeWREaFYyWUZORVk0ZDc1SDhGUzdfeVBlS203X0FadTVCYjZaZ1hqMjhRejdZa1RRX3NCVE5NNlp1UTFWU3NIT2NIS3lVUS1TZUs0bVHSAb8BQVVfeXFMTkdqM0xoT3c4Q1BCZzdTQTJxSUlvNTZhM1Z2a2t0ZnN2M0g2LWVLSF81WjBQOS1uaDVYYkhkaUJudjFxR04yVFdSQ25jel9Gb0U4NDhreHBMak5XdGdmVnk3SzZIYnJYaU5pOEU1WnhVeW9aUFBsalVva21TcFBCZnlvYVE0VDg1NzZxRTRhcWRnMEJVeFo0XzhwYVloQWRpb0JJbjVrTi01U3hjMGptd0dHQ0Rmel83T183REVVTW8?oc=5",
+        "published_at": "2026-11-26T19:10:13+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi coalition says Houthis attacked Aramco Jazan refinery - The Jerusalem Post",
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EU3FJVnZUTnF1dk1zY295aktkbkprTTJ3cktIU1lfWHRBYWltV3lNeHlDRDI5RDc4bmV2V0J1dWJlZkdfV0ZNc2VoNXFIZ01scGRSWmx0NlEtRmZ4?oc=5",
+        "published_at": "2026-11-26T18:58:14+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "What are tariffs, how do they work and why is Trump using them? - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBweHdveUp5S2F0aGJwSEs2U2lOMkF6NzRNZTd3bEJUdTQwVjhRX0pjZmFzZ25hRzk4MHE0WW9KVkEtUjIxRUNWbXRzX3pmd1A5UWhyaE5Ja1ZWdw?oc=5",
+        "published_at": "2026-11-26T18:54:51+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Houthi attack targets Saudi oil refinery in Jazan: Coalition - Muslim Network TV",
+        "source": "Muslim Network TV",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZDhmc3otMHlJRW9xSk42MDZ6cGMzQl9NNVVFcTNlMS1EODQ1TlBidGRueEpRR0NNUTl5M1c3c2R1b0lZVFZTVTZ4R01Jc3hQNklUMDJILUozdmxfclZKcmNPSHgxQWJydHpqNElIZm55QzBnVzNjTWFXajAzOGN3RXZnN2FzZmIzWFpMTXVuOENvM2M?oc=5",
+        "published_at": "2026-11-26T18:45:00+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump admin.: New tariffs on 14 countries, including China and Japan - Denver Gazette",
+        "source": "Denver Gazette",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbXViTVlRQWNTUTBUeFRRWVdQZjFiOGZhbnZDR0JfRXNzOTZjQ3FjNVNZdGh1bG85cUdnLXFtd29Mek96ZWNLbWRhcm9SX1U4NGVPX2VURlo1TFp3VzJnT3BlRnF2aFNqOG9VeHR5MGJZOWYyUENYZTFRMWNiRXNROFZSOFlXLUtWRnI2UktUTklUU1ptbHNiNmVrLTZaZjZqWmJlOFlES09ndWM?oc=5",
+        "published_at": "2026-11-26T17:41:22+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran Attack on Kuwait Kills Two Italian Rheinmetall Workers - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVE9yWG9JenZCTFpSOFJUeGxZcDVXTXE1eXRUOTdkRW5nelVQcU9DU2RfNmQzTlBWWnZXdlFoWmpGNktHUnJBTjdaV0w0M2tZUlFjZzA2SEljMzlHVklrOU80R09oenRVRG9FT2puQWVhcjVFNjV6dDlvRmhta1NCMWF4c3ZUbFBSMzlaMU5Vd2syOHozTzNCQ0VMc1JCdjA5NW9kTjdkQ1F4Q0Q5cXRF?oc=5",
+        "published_at": "2026-11-26T17:33:36+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China - The New York Times",
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1odENQTk1RR0JMbTlRYWhYcnh6cGdvcktJUGVNZURvbUFtTHZ0end3RjhpclNNNEF0ZnZFTDVHTy1Vcy1jMF90U240MEZFUURvdkJDN3I2aE55R193X1VjVW9PaU5sVWZvU1Y4dmt5M3ZmeE1YcVE?oc=5",
+        "published_at": "2026-11-26T17:03:31+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US traders fear proposed tariffs on China may weigh on farm trade - S&P Global",
+        "source": "S&P Global",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMU11aWxHdGl0T1B2akFxaTV2Z1d3Vkd1clhiS3NJVU5kakNKMGFqZjZWRnZMUkJDOGxYMktLcnlsU3NGQkFKTHZkS1VjWmt4Y1V6VkdQTC1HMHdqS21LcGMtVk00d2dGaHRJSGxBNjFBTC1kQUJvNlhPRjJ3cWVHcnNza0YxcVdPbjBaLVlJa2oxRHBCMlpqaHZmUnppSE1uSmRmYlh2SUdsZkdoTndjQlNsTjVnTWV6Z3RwVTJJNDRQcVg0S01jN2txRTZzRVRSTGpLbDd6bGkyODBidWc?oc=5",
+        "published_at": "2026-11-26T16:55:06+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Mural near Dutch embassy in Moscow depicts missile supplies for Ukraine - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdlRFQ2E5TGktOUVrZlJQQmwtNjFXVnpkbmFUSUhOcExIZEIzNTJRcWFSOURzYkpONlJIQkhBN1NaemtMQi1oYmhWdTJkYUhIRmIyYjE5bjdSSXRpeUJWU2NhSFN6WTZybFJiQS1QSXpyLXdpekxlZ3VMem10R0dtbWs1alpndTRCMTVpOVVoZnFOdkFhb3owcXJYeXBQU01lUmhUQi1oa3ptTGFkUVFlUnRWSWZGVkNjOWRoSVN2elNHZ1dUSFM5WHdJQVRPRjJvVWtz?oc=5",
+        "published_at": "2026-11-26T16:42:38+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine Strikes Russian Assault Staging Point in Huliaipole, Says Up to 20 Troops Killed, Video - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLWs3RFJiRWdaYUNTZU1JSDVMcnJPb2FBaWRpV0xaTmdxZ1RsQU9iTzVHUWg2OHlobl9mM0N5U2ozejJHSElRZU1weVpmRERoelVjRjBLR0lSQVZTRkw1RnFmVTFuZkxJWkR2MG5Wb2ZmY1cxODVUQkFkMEFWUTJPWUhnSGtxc2FNdWlRMFUya2NQSEkzMnM4RTJYQjlveUFXQmNoNG44cFRrTDU0TG5XSGpQSWlzV1NMTFBfTkpXbnBtSDU1RFpnaUN0ZWJMbnRLT2RhbXVDdw?oc=5",
+        "published_at": "2026-11-26T16:42:30+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukrainian Drone Strike Sparks Fire and Inflicts Serious Damage at Krasnodar Refinery - The Moscow Times",
+        "source": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQzBVVmlnemRJa0tfOV9GbUZNTEhKT2gwc01aZnFxTnUxMkFzTDVVVVM2MlBmeWY1d2hGaEJIUENiYUtrMnZlT2hoWVdXWkdCREFnSEZwMzZ5UnlYOGZ5cFE0ZHJXUUlTNE1zazlQS1JVUTZOMTg0ZHJERUZWaV8wRFNiaVdOZHYxV2xocnBjWVBQbURSUG1jNVBNR292X1EzNkl2c0NacEc1X2w4UTVBTWdBQkFxQzNTUkxWaDlGbTVMbGc?oc=5",
+        "published_at": "2026-11-26T15:59:43+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Video. At least three killed in Russia's missile and drone barrage on Ukraine - Euronews.com",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUnp2TGhwajV5Vzc1VjdnTFNZWGJ2S3VMQlJGSWlvdlM3NEgtWjZGUXU1eWF2WURpUkpmdDQtTE9uTUkwOGpUdVZ2ZDdoVElGa25oNlNLQnJha25lenpXaFNqYm1zRU1JY2RmQXgwNEdlMERBdDJhRnVEcnBsdFRCSWgxcVJxRkZqYkJFd1p3NnN2MExlZ1FCbkNJTFA1bjZTZEw4djBnUGlaaEtZYkh6Rm5jRXowRHVFS01OY2doS09YMkVQWGc?oc=5",
+        "published_at": "2026-11-26T14:02:41+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "Nvidia Halts Server Shipments To 4 Southeast Asian Countries Amid New U.S. Export Curbs, Report Says - Forbes",
-        "source": "Forbes",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNT2IzeDRBUHdXNi1LQjBNUEl3S21Va0NyeGN6eFZQZmdHUU5STk5FRXZTSFVhd2tYbTBHNjRfUkNDS29yNDlXYXdYMXZGMVZOZzE1STd1dEdVdk1iM0szN3B4ai1QWkpHTDlnVGZzZzNlQ09acXRCRklnWTgwMGV2Q3MtbWtYbkg0SnV1bjNCMV9tbW5zMUVEUU1IOTBNRHdDZUpGWXZuaG1MLWlSV3p2UkZFQVhoeF94RDY3Yzh6MkdtamtCVGQzamRsQ1VkbTU3X1huQ3NJTQ?oc=5",
-        "published_at": "2026-11-26T11:17:43+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Neuralink Obtains FDA Approval for ALS Brain Implant Trial - Gizmodo",
-        "source": "Gizmodo",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3Y2SXhMQ0JNTFVidGdnVTh5VmxiRHVHanF2QkxxRktHemNmY1lWdjI5QVdOQ3BPUVBCYm84NHljOXh6RDQ4ZHBDdS1BdkNTVEx4MVJ6NmNpbVV5REVnVUlaYWszdFpuV1hWb2tqSlNfRjNCTk1DLTJmc2NHdkktdjBYVEcwQk9TRlJlQzR3bVFhbXM?oc=5",
-        "published_at": "2026-11-26T10:00:16+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Musk's Neuralink gets FDA approval for pivotal brain implant trial - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWWFVcXJ6cmF2T1Q4cGtyamRRZHZOTlBDMWZxb2ZLcldvV21aN2JXX1E0OXI3R09Eb2huZTd6UW9CZDZpVXdiZE9lbjg4SmwxYnk5RERzc0F4aUpzTVFDeEVhc2tBN1NoX1VHb3NvUHhQZzNEREpobENNQURPX24xbFFOSzd6QVRHdWFQYlRjQlV5VEkxVWI0OVlPdVVFdmlRaG1XRDBkc0hSdw?oc=5",
-        "published_at": "2026-11-26T09:42:42+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia halts chip shipments to 4 Southeast Asian countries: Report - Anadolu Ajansı",
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPanJncGMyTDR2Nl9tMS1KZjlwTTV4cThDdDdzRWtJa25hUDg5R3VJSVgySUowby1QX19kWEJQeV9wX2wwdjljUHlZbGo0aVU2UnBvd1F2TXhBR3k5OTlmRDM5Q2d0UkhYUHZETi1uMnpMSkxDdXdtbThKTm5FWUJrR0wwSTB2bHFVUjFoRVNaVjNiMnhydFNXLVNzMGhlQ3VMSUtRRWNVbi14UQ?oc=5",
-        "published_at": "2026-11-26T09:42:29+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Elon Musk’s Neuralink gets FDA approval for study on brain-computer interface - Al Arabiya English",
-        "source": "Al Arabiya English",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa1lObW0tWEl0Zk4tWWFaRjhEb3Z4TmNfeWN6VU45eDdST2VibjUwaXFyTktUZFF2QThnc2V4eS1jUFVkaFpwcnNJZ2czWU5iWTVIZnpDei1MMG9SMnAtdS12SFMxX1ZhUGVTakhrekNjV1FFWnptQzF0bjlHOHVkLVJYbTlOdzlDRzZuQnpwSEFEMEJMNlVYUVpaM2NLa19GY3RlWXctRkt2NW4tS2pESFFsRDRkRUczQWt2N3dNM0ptMWt5aUpsNEtUclpXNmg3ZmfSAdcBQVVfeXFMTTRCM2ROZkVLRkxhYkphY0g4WWlBOUpxcEhmbVpYLUZZOElENlNLYU43OHp1ZVczUzI1NUo0anEtbEk3ZVZZN3BLdHJTbFFJMXhBWktMSmZTS0RDVXAtc0U4RmRIcXBqMC1Ha0JmYlBNRTRMb3BTeGlRbDNhNU9HNDU3Q0taOGtKMXo5dVpodGdFRzZIY1ROa2FNY0l4RFhKYlpDNnM1bVJNbG9HTklwQUdTRFNNbmZsVEpUQ2cxUXU1MEZlZ2xjYVFVTHdjRnFRMFd0MVY4UHM?oc=5",
-        "published_at": "2026-11-26T08:39:00+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Neuralink Wins FDA Approval for a Pivotal ALS Trial of Its Brain Implant - Startup Fortune",
-        "source": "Startup Fortune",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTktnYjlOTmQwUFd4N1dsOEQtcTZPSG93RUdEWFA4RldQbEdLUXRaWUhPaFlhWWx5RWhHanV6TVFEOU9oVVg3ZE00by11eS1hUkJSMEpBZ3VReFBubUNhaTdycS10ZHJuSjMzUTJZMGxrWU9Sd3dySXBGTkxlR1Y1Zlo4VF9HU19Gc29zYndaVGxxOEtSd1QtYnZWaFctYVpNRVE?oc=5",
-        "published_at": "2026-11-26T08:25:21+00:00",
-        "area": "Farmaceutica e settori",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Neuralink Receives FDA Approval For 'Pivotal' Brain Implant Trial In ALS Patients - Engadget",
+        "title": "NVIDIA Reportedly Halts AI Chip Shipments To Southeast Asia - Engadget",
         "source": "Engadget",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ1ZrSnZRTS1ndFpITTNpLVE2QVlDNkhUTkMzTWZBdmQ5ZVZlRGxMMVlzUzkwOGdjanNHeFVheFV1VlNfUXBjVkxLMElVNllIQ0hMSEVpZ21rT1p5VXdJVzEzNmxIOV9xSEhSVEg2anY5cm9WbXlGd1JWbFVkbE8tSVRtcTBoWERVZ0w1YUtmQzdoS3RLdDNtblh3OTJLX2RKYXpwaDJRNmU?oc=5",
-        "published_at": "2026-11-26T07:28:21+00:00",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY0M2ckFncU1tMHdoOUZjN29SeDlkd2JXZkk2TkRWYUNoVmtHdlBLT3Z2Q3R3NnlkeVE0cnNhM250TmtSWFl1bXRBWEk5eGpxbzlUZmdGRUZKRktaakxTaHUtY2JMVnhCZnBPMGpoNloyR3RreDZCVC1FMkMyWXI2b1dQRGpGSF9pZUdaRkZ0UWgzczh1?oc=5",
+        "published_at": "2026-11-26T18:09:18+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "AI Trade Doubts: 2 Investors Question Nvidia Growth - shattered.io",
+        "source": "shattered.io",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQUItYVN4ak5iRGg4M3ZVYzlXZVpuTjZEaW9GZVYyNm9kelpWYTI1RDZmbktOQjBMdThvckZzUnVpMFpWcDdpa0ZNSUNDLVpnaF9sTHFuQjVBMHNVSVFCOWMxSEhfVkFwZTBPVEVmOVVkZUJqVVlvdnFfTFVzNjhxWnhFRGJtRDF1QVE?oc=5",
+        "published_at": "2026-11-26T18:03:01+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Two Californian Nvidia AI chip customers are really Chinese-owned — companies used as workaround for government export controls - Tom's Hardware",
+        "source": "Tom's Hardware",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMnZuLWtQbHUzczNDS29VTDBUcTltQjdzQ0ZpMFZhOWtfWV9DbTZvNWFGVTk0Z0NCYVNyU3NPY0tORGlzTjhBejh3N3dBbEpkSkdULUVWM1ktcU81N2ZhZ0MtWnRsNG9PLTdLT0hlcFQyV3I4US04NEp0d2NSRGpURlZZMGRYTmlaYXZzTlFfN1JYcDgzV1hkb1FDN3VnWDAxLUxOb3hVVVNaSi10V2tqbFN3dnlBOVZjLU0yTFVHRktZbFFxRy1Bbm9JcnBOam12R0NhX0M4RGlNTVV6cWhxMDNLRl9mRXVCYzhwYnRfS3JMdTI3a0NfXzBDTWtZYV9pMm1YWXRRTGs?oc=5",
+        "published_at": "2026-11-26T18:00:00+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US-based but Chinese-owned firms buy Nvidia’s most advanced AI chips: Report - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeXdqNUZSZEJ3S1RsWVY2Y2swbnJOU0xDZkQ4YXVENXFvSnVFTHEwYWRnUkRiNExUVUZqLVpFY2VycUZNWFNjb3ZKcHVtNlBNTjEwVkxMcGVvZl9LMHJ2TTRPQWNQNGYtYi16YW1QYUhObXlra3dwVXpCQm1wb25FdHgzWmFRTm5uQWlMQmpjcGtHUGNON1F2OVo5WjNYSVZEbVBkVUdaMzhOTUlXaldxdE5DNA?oc=5",
+        "published_at": "2026-11-26T17:23:25+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Nvidia Pauses Advanced Chip Orders in Southeast Asia - Investing News Network",
+        "source": "Investing News Network",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TSEJuajdiT01OOU1kaEFxam54MDA5ZHB6Z1NEdEJHb3hrUGt0QzN3b3hSUGVycTNJMlZBMVJkOVRRd2NERndoQUtfLVl6MDVvVGFGLVAwSDg3NGhJRmFSQ0NMLXY0QnBJN2M0Yw?oc=5",
+        "published_at": "2026-11-26T17:00:04+00:00",
+        "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Shilpa Gupta: The Gap Between FDA Approval and Patient Access - Oncodaily",
+        "source": "Oncodaily",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Fd0ZnMzl4MjB5dXF2Uk5qVnFJX3lBY0tPYVowR3dpMXZGUGMtbDdVZnBIdTlrWlpaaDR0cE5yNC1GZWhoRHF1TW9QdGFnRUtIN0NtTHdNc0N5STFOejZfNVFOX0Y?oc=5",
+        "published_at": "2026-11-26T15:49:23+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia stops shipping AI servers to 4 Southeast Asian countries- FT - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQVZtX2ZuWFcxUVB0dkRVVlBMVkZNNkd0X2dPTFExMmF1YndMOE82TERFUDlENkZRcEVxQ2lmaTNxelllYm13dDdiWEtNMzhqVVRGYTN5VXlfOThLeUQ5bk1PMF81U0RCaVRtUGJhVEc2OFFUMWRRN2xxVERFb2s0aEJKRl9XY3JYQlBfVWtJOUk2aGJaTmNsMWFPYkM?oc=5",
-        "published_at": "2026-11-26T06:29:00+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Neuralink FDA Pivotal Study Follows 30+ Implant Users - shattered.io",
+        "source": "shattered.io",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdEx2SWdwdWowYXlyYzBPcmxvT0FPM0QwVDB2blA3eWVIX2I4a1BZZmhrbVB5Z1Fxbk1PaVF4cnc5b2NpakpUWEN4MTJXR21XZmZrQ1prb0tGZ1ByLWRjOS13T3QwQmI3c1l1LWRXc21pRUs2dVViOExFVnF2QnFFZHdGeXgtVmtRdXpzbFBoOA?oc=5",
+        "published_at": "2026-11-26T15:34:59+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "This Is When AI’s Circular Deals Bite Back - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPazBUcktOb0ZhZW9nOGpPM2FVdEFreHJpWjFCS2JSU1c3WWFxZ2t0VXVOcDV1Z3BzNlJlY2R5a0c5SHBKMHg5cWw3M3k1UGJBcEg0SS16SGdXUWEzLWFjQTBhS2JFSTFnQkJJa2c2UjB6OUVaSjVVWTJiRGhaQjM4dTh5ZHZSemNSZ0R4VklyNUpnNTlhb1hBa0hXT1ZNQm1mOTgtRDIwQy11Y0pzRTkyMktRZnNjbXdjOWE4?oc=5",
-        "published_at": "2026-11-26T05:35:30+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Neuralink Receives FDA Approval for Key Brain Implant Trials - ForkLog",
+        "source": "ForkLog",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaFJ2NzlDdW9rWDBKRUwtUEg1SXB3NzR0TlBZZU5zeWpoTzlraVhLaFhqLUtKUmpXb1N3c0Vqb3VKbHBWdXVuM2xRZWNYckFFUlRjUzlINnpOc3ZEZXRiV201WUZqUzc2LU5pclhONk9EZnd0Uk5wSHNLaEpJWW1icVN6SWlvMkM1eTRLUQ?oc=5",
+        "published_at": "2026-11-26T15:31:00+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "In backing Nvidia’s Huang, Trump deals his China hawks a setback - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcmJ6ZEs2YmJNVWgtVTAwMXIycHFWYWdGNlhfLUl6dThuMlY2ODFFZm9LVTlwaThWSWZodUpPbUMxR1pMSEVybEN2MEJ0bUlHV0xyeFpDLVVVZXp1UWtBVnBUUzVMSWlIMFpNQUhvRjlnbXpLaF91NWNFRExIejhjRUZuSmNuS2owVHVqdC1UYVVfSlFzdGtkUDJfY1ZvSG42OEVpYkI3MFNfU3c?oc=5",
-        "published_at": "2026-11-26T05:20:13+00:00",
-        "area": "Titoli tech e AI",
+        "title": "Neuralink gets FDA approval for a late-stage brain implant trial in ALS - The Next Web",
+        "source": "The Next Web",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zWkF1SHBENFU3VS03M0NKbUJ0eVduMlpJcDJxZjlTU3Njb0xSM1NNSU5PNUhwemtlRVJLS1NxTFpwTUdnQkhvN1lRbGZZcGtqeWtacVhWUUxTZVdyWS1OWWxpU1JzWmNJOHVza0RXYVZDcC1Xb2hDZ2VMMFd3Zw?oc=5",
+        "published_at": "2026-11-26T14:23:15+00:00",
+        "area": "Farmaceutica e settori",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Musk's Neuralink gets FDA approval for brain implant trial - MedWatch",
+        "source": "MedWatch",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya0VZTUloV3V2bEFqR1hLVkZybDNHYU4xSFF2Qm1PaWpQZndNQktiQkJiODJyS3Y5RGx2Mk81T1l4eGdwXzlBVnhoNHREak1kdVFjakotcVBfVTNoTWdRNldyUQ?oc=5",
+        "published_at": "2026-11-26T12:22:48+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "disclaimer": "RSS indicizzato, non notizia primaria verificata. Gli orari sono quelli degli articoli, non necessariamente dell'evento."
   },
-  "archive_count": 357,
+  "archive_count": 358,
   "background_schedule_minutes": 5,
   "push_configured": true,
   "fcm_configured": false,
