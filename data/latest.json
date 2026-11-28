@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T03:15:40.519602+00:00",
+  "generated_at": "2026-11-28T11:53:29.392759+00:00",
   "status": "ok",
   "monitoring_enabled": true,
   "macro": {
@@ -15,7 +15,7 @@
     "sox_change_pct": 4.693473019791861,
     "vix": 23.809999465942383,
     "vix_change_pct": -11.156715881481905,
-    "dollar_index": 104.01399993896484,
+    "dollar_index": 104.01000213623047,
     "macro_score": 97.1,
     "tech_bias": "strong_positive",
     "summary": "Tech bias strong positive. Nasdaq +2.31%, SOX +4.69%, US10Y 4.93, WTI -0.92%.",
@@ -34,7 +34,7 @@
   "catalysts": [],
   "movers": [],
   "news_watch": {
-    "updated_at": "2026-11-28T03:15:29.935812+00:00",
+    "updated_at": "2026-11-28T11:53:20.033300+00:00",
     "open_market_required": false,
     "window_hours": 48,
     "status": "OK",
@@ -44,7 +44,7 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 10
       },
       {
         "area": "Russia / Ucraina",
@@ -58,40 +58,139 @@
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 12
+        "accepted": 10
       },
       {
         "area": "Titoli tech e AI",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 13
+        "accepted": 9
       },
       {
         "area": "Farmaceutica e settori",
         "status": "OK",
         "fetched": 16,
         "recent": 16,
-        "accepted": 15
+        "accepted": 14
       }
     ],
     "geopolitics": [
       {
-        "title": "Iran Update, November 27, 2026 - Critical Threats",
-        "source": "Critical Threats",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vZkNYVExmZkJNeDRRUGJYTUUtckxLaEtOR0VkR05NVDFlSUE2NkNZWWpDU3NyZlVYTnhSVkFPWjBuT2lmRVRYVi0yTnJuREhhWEZ2WWJIcFJrdGs1bjZxdUVyR3UyYmJ0aWZ0czBvV2h2YVg1dVB2Zw?oc=5",
-        "published_at": "2026-11-28T01:45:07+00:00",
+        "title": "EU-Ukraine Drone Alliance to Expand From 18 to 80 Companies After Over 400 Firms Apply - Kyiv Post",
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJN2lFWFFqREVEZUVmTDJOZXVxaGhXQzJfRzBFcENhWDBYREplZWM1WWdQZ0tkbE56Y1ZySlZFSjVVYk1oeThLWVZlbw?oc=5",
+        "published_at": "2026-11-28T11:27:31+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine Hits Russian Logistics Hub in Kursk Region With HIMARS and Drone, Video - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNkNrbnk4anBlVV9XZmVXWjJJTGduSWhPOTdSb045OHM4dEtXbFpZQzV3TEplc3l4RHhrZ1hwQ0hJaUc4S2lpaDhoRlpSV25nRk54MDB5T1g5S0ZTWVFCakpveTJtWHctLVNVMnRHLUNwNi1VTG5DMFNzdkdEVkV5SGszQWJIZC1VTHkyYnFyYjlFZEM1ZUt4R2dWcWY1TXlyV1N6MUJWLXJSclhyU1NEdzR1b2p4UGVsVjZqdFFfZzk4M2M?oc=5",
+        "published_at": "2026-11-28T11:06:35+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine reportedly launches massive attack on Moscow Oblast with 460 drones - The Kyiv Independent",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTURZRDZkTE10Q2xtY2dvU0ZwQmtIOUxvMUdiRGZxZjdCV0FpT3FqTXM2a3lueThxdzNTa3FOZ1Z4R256OUVJa1ZKMDlmVlB2N1paMFA4eE54WWMybjkwQXhOR09rWDFpLWpXbmhmcWNsMDNYZWVEdi1lY3QxTXU1ZUhmS195bDR4WDc3YmhWcVpURFpiTGFvMjZsaDFWc0NUM200SDM4TQ?oc=5",
+        "published_at": "2026-11-28T10:05:08+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US targets China, EU with new tariffs, citing overcapacity - Fulton Sun",
+        "source": "Fulton Sun",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdmhpWms5Y1F3Zi1GM1hYZlVsbVFacDNod1g3ZVUyeEFZT3huaEppSnFta1JKa3RxMDZqVk9zbmdHOFpyRkFYQUYzVWNXejlpZTg0cTc0WVREZFRPN3AtN1JFUkNXSGxCZi1BYS1rdHBEeFRteDV3UGwzRHBNd0hxZVh2elFTRjFpZEhqREdGcU4?oc=5",
+        "published_at": "2026-11-28T10:00:00+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Taiwan Votes Under Chinese Military Pressure as Beijing Escalates Political Threats - Modern Diplomacy",
+        "source": "Modern Diplomacy",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMVJ0dTBkVGFEQ1JRNzQ2QWVaY2dzb0Y0ZGJQNm5mSUpoRVdfX2N0bWFNcnB3LUtHOGUxQnNmU3VlZEtHclBUazlNU0NDM3Q5VXJ2UjFlVEpCdzVxZzU2TG5NRF9NUjBtMDhfRHBhTURkSVdkSEttVGdFcllQWkpvVXJxZVhqNEdBWW1jc2JMQ0ZwUTdjLWtYemFJQjNqN3hoeHFSdmtnYTBGeXlpSHdheHlwSlJCNWRWV0VIMVRkWQ?oc=5",
+        "published_at": "2026-11-28T09:52:28+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Russia Oil Output Risks Fresh Decline as Ukraine Steps Up Attacks - EnergyNow.com",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZkQ5NFdYbmJKRDlMV0E4TU5ER0VuUmFLX1A2aEVzNDNhY2YxUUxjWEZlNHNqWEpyeUltcEVrc3hHaTUyWkNNR0tmTEZHQ3QwV3hHNmh0LVBQZ21tRXA4U3lOamVrUU9CcXBqVmNaMjlnUko3ZTFMM2Z0dWNQR3k4RHRZSXNvRUloeE1UWWMzQjkzd0FLc0V0OEx3YkY?oc=5",
+        "published_at": "2026-11-28T09:48:53+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Ukraine Sets Europe’s Largest Oil Storage Hub and Russian Refinery Ablaze Again - UNITED24 Media",
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM0ZwVmVRXzh2eGlQRFRrYUpYVGpUYUVJX24weUZVczJFLVF2MkY3S1B4R0p0RU9vVW5acFFIS0tZUzYyUzJ4ZUxCNG1pYzA2eFNGZWtBV2hYZGtnREo3Mmo5eFhGZkJGZ1YzNTBtUXY1T2pfejZtNEg4TDRwZ3piVkdScUtQaXlnRTZTZzJyVmszbHNGZmd1Ui1BUUhKcGowTzRLSFZ4bGZHS1FzS1BrNFVKN0dvUjRMZHV1eXdTdk93RDA?oc=5",
+        "published_at": "2026-11-28T09:38:32+00:00",
+        "area": "Russia / Ucraina",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Trump proposes 15% tariffs on allies, up to 40% on China: Can steep tariffs unlock rare earth supplies? - https://economy.ac/",
+        "source": "https://economy.ac/",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xeEFjVkMzVUtEOEFVOFY3MWRlMWVjbjEzSTFTcXMyenhNVHhzRFpkNkNYa05oS2UtQXAtb3pGaEpsVVdlbUtmNEFIVkFHQ29sdVoyZGpaSQ?oc=5",
+        "published_at": "2026-11-28T08:25:08+00:00",
+        "area": "USA / Cina / Taiwan",
+        "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "US military rejects Iranian claims of attack on aircraft carrier Abraham Lincoln - Arab News",
+        "source": "Arab News",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWU1vSFFpcmk3c2pESE5DLThnOFRfa1pnMzBzMk9oYWZIdlpBT1ZRZ3hJVXRUUno5QTNNZkt2VnVueTNSdHhSZGRUNGRrb0RyTVluNVhLbEhZZlMzM3pxYTd5TlpwNVlaOEZiTFdfaEtjeUhXa0VqN2hNcDZpYkt2SnBGM2VQaWM4UWJDclFPZ1VuMWRMR1NBcW1tZGI3dUFJLW00V3dlYWxnNUNGM0FleDFPVjNlcXN0Qy0zV2ZSSjlYNDQ?oc=5",
+        "published_at": "2026-11-28T08:19:35+00:00",
         "area": "Medio Oriente / energia",
         "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Trump's Tariff Era: Brazil Weighs Record VAT and 35% Crop Protection Tariffs - AgroLatam",
-        "source": "AgroLatam",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNHJ6b0VMMzhlRDV1dnJZS2FGeVRpVzJPS1o5U0gwOG85cS1aSnNmUnFTbWVab0xGc3h0R0ExQUtsbmZXcmtPV1BhSGdpeG9fOUlRUzUwY3U0VkNmeVBaRUdSM3dtMnBBMXVBQTRHd2MzLUZTbEp0YlBUT3Y0THo5ZGNzdWdvN0RPY2tVTWJvUXRlS3dVV1BOQlBfdnU4OFc3WHpmeTJ1Q2ltaVh6MGc?oc=5",
-        "published_at": "2026-11-27T22:32:23+00:00",
+        "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBERzVDQ2N4X01HRnV3NUd2Um9DWjU1TklvR0tHa1FSSjA3ZVJtMlk2VnBKbmpHTlBOd25COVhVaDdMVXpKbE1ncnNHTHRSSEVMMmNUWS1XVmd2Z0U?oc=5",
+        "published_at": "2026-11-28T06:52:05+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "New US tariff proposal puts the fragile Washington-Beijing trade truce under pressure before January 10 - Latin Times",
+        "source": "Latin Times",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWHVBUWJQM0NOV3lmZ3N2cjZhRXRXdWpBUmJkdFFrTXZUeDJNc2tPOVdodldXbGxGTk9HQXIyREV1VGV2SXFrRl81YU5wTkFzSkhfLTBXNG9aYXdMb3RrYkhFVGdIaFo3dVJqYWVNbDI0RlAzbHRfcUVsS1plSjdvZGFwbEhYWENN?oc=5",
+        "published_at": "2026-11-28T05:35:20+00:00",
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Saudi-led coalition intercepts Houthi cruise missile fired toward capital Riyadh - Anadolu Ajansı",
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVm13eFdjV0FEcHZWZlJJcjBDN2FSNVlFQzFldFk4NGhzZzFEcHBXWWRlUzlOMndwdnVZOTl3bHZKRWttZVNrNnpKQUVsWDRONFJiS2Y0cjhrclBCRXN2Y3JJd1RGVkpOX1BLNTFicEVuSEpPWm9kbklsN25fYWFQZVdWXzlScTNpRzdXbWQ5M1ZRYlNsRWhSaDlGblN4cWtZcVBCQ2p5WFE4VndEQjRsYlhJWkF2dGpuVFRYRnZnVFVOQk0?oc=5",
+        "published_at": "2026-11-28T04:09:39+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "Iran fuel crisis deepens amid war and sanctions - DW.com",
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
+        "published_at": "2026-11-28T00:39:41+00:00",
+        "area": "Medio Oriente / energia",
+        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
@@ -111,123 +210,33 @@
         "area": "USA / Cina / Taiwan",
         "classification": "CONTESTO_NON_CLASSIFICATO",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events - WHEC.com",
-        "source": "WHEC.com",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObllxQlM5RHVhX2JKUXVMZ1htRnlTWk1rZ01EeWtVaVpoal9HSlJGN2w5QXBLX3ctS1ZDOUJraHI5ODFiR0ZmWF9aTU9YdmstOHdyX0FSODVNRkhGdEo4RmJvNFVDNWk5bmtScXVmLTFzUG92U2tFU0NHZjk1dXhPNURjcEYwZWF5MTRLc2tIQV9fckJBZFBodkllOFo0NFQ5SXRxX2RubVl3SGNLZXU3S0Y2MnNra00?oc=5",
-        "published_at": "2026-11-27T21:29:48+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Pares Gains as Traders Weigh Oman-Iran Talks - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkRDMFpXeE42Qm9QVHJRRG9GYkVKMm44QnBJZmVLUHZXZXRkWUI0VUQ2ZUEwX1BXVm9FYjZtMk5hTVhHdWlBZ2twN2tFN21xaUg0NGpxTG90dEQ1ZlhfNnJhZkc2NURoVVJXVTVjOXVkV0FZZWQ4WTQ1TTVpZE5RMVV0bG55Zw?oc=5",
-        "published_at": "2026-11-27T21:27:22+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Kyiv offers Black Sea ceasefire to protect grain exports - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWW9taURHbFpkMjd6YkFzNEliSVpaOW5zal9CUEY1R0kyS3NWVU9HbkIzRkNhcWtoOWgxUi02WWdWN1dpQTU5UVVpc3dGa04yVVBQbk1NQVMzSFBLVmxvUllTNTVwVEdwR1FtdGI3Nnppb0lvNjNRMUZwYl9EaXI1akI0VE5SRGcxVkxzVzNZbFM2S0RCc2JOdi05R2s1dlg4eVZIdDBB0gGrAUFVX3lxTFB6OWM4c1NpYjVhZUp2MVV1eUppS1lVLW1lNjIwaktRN1lWUDlGOG5meWIySTByVVhUQ2tnSGh4d05pVXN0SWxnSFlFc0lzVzhmQzlWaFRZTW5ELU0yWUpNYTIwVV8tQmhqODBCVzhQMjBseHVydHcydEJya3lJREtMbFd2aW0zMmlndy1oV2M2RHZPbzh2V3FQcV8tNE5xMmx1S3Jfb1NXNXdHVQ?oc=5",
-        "published_at": "2026-11-27T21:17:40+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Oil Prices Rise After Ship Attacks, US-Iran Talks Deadlock - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSXFwRjliNjJSakhhNDA1YlQ3S20zRG82UUhOMnhxanFONHdpT09sWlVGb3Q4RmRqbTBzSWg4RVVKb3piREVQUjI1cFphaVpiQi03Y1IyMFRWMmkwOEc2RVN0bF9jajNiYWdHWU84SGcycGwzY2N2czV0NHJhOHlrc3JfSXMtYTQzS3dBLTZhN3FHdw?oc=5",
-        "published_at": "2026-11-27T21:14:17+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine submits Black Sea ceasefire offer, awaits Russian response - France 24",
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQXNRZXdNdVkybkZ1TXRQSlFzaXNXT2xNM252Xzg4TWpfUmVYUi1DVjhuREFHT1ZKbVdWNjc1U2pTUWJtZmRFeWtKa2Y1cFBXR1VZRGg4dHZ2NkxPSE80YTl1VG1rdnkyYW1OUFFDRUhzUGJnQzcxOEkxSlUxU0hXb19ZTjQxYmV6eUFCWUZZc24xMkJubE9BNFAxZlVuTXZTRG5OUGdlQTVmWVEyOEE?oc=5",
-        "published_at": "2026-11-27T21:09:12+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Ukraine says it used laser weapon to shoot down Russian drone for first time - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVGlzOS1SLVB4Wkh1eXNiT2VoM1pEeGhGd2xxdFFueW9lYmVmT0d5ZUhxUzByQ2I5eWIzaWk1UGxpek5TMDQxcjNDRkJHU0VpcUdyNWJBLU9pYmhTOUdfQTlDZ25xMW9GMDNtQ1BOczJmazQ5c0JmTFVqazZNWGNyQVZYeHhPNm9IMUMwWWdYdlhWZ1lvcXc5ME1aOXFrWjBicG9lNVhXekxoVng0ZjZBQ3BOSF9YU2ZuQWlpTkptcmpZNkhpcVhlMzJxSDJkSW9FQkV30gHTAUFVX3lxTE93Zmt4OXVUTHFsSXpNZ1FGaWtYNEUxQ1F4ZVVXTEJTOTcyeGxubkpUWnJJaS1jMzRGUkx6Z08xc2tPWmRnSk1DaG1peVBuYk10MmM4cGJUdERJVmdzN0ljZTZCbjJHVG9IeFFDakwtUlRZbXZITEl4VVhha3dvUXpwdjFvUG5CamRYNGEwV0wzUkZ6Nlk2bjhVd01zTXhscDZaTWl3MXo0R2hMcXU5bnlsTXJWb3h4MmhqaWUwOW13OWJLbTJyeDh1Z3JRaG13cURkekk?oc=5",
-        "published_at": "2026-11-27T21:08:33+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Trump's new tariffs aim to prise global trade from China's grip - Japan Today",
-        "source": "Japan Today",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVW9senpjREFDSWV2ai1IT3ZDeGdYRG1tSDBvMUVrbjFiUE9PZmlua3ZFaGlDMmVuMmVHQjg4NjJJU21neHkzVGwzcVB6TmZtWTdDTTd6cTRHOU9KYVRJeUgwamtyMmtWVk1QaUIweVNEX2VkdzFXT1pXVG1RMG1abEwyRmZFcnZ0T1U3RmI4MnRwR2VjRkI1dmhnZ2VBNDdqeFJ1enhTZGo2LTBuWFVVZ0VIZmVhbE1aRTBnc1NtcHlVUUJrR0E?oc=5",
-        "published_at": "2026-11-27T20:20:00+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike - Al Jazeera",
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRWRzVF9tUlQ1SlI5aGUwZ2FlbzEwOVpPQTlOMFdXaXFmTExVeEg4MEloXzY2cUxnQV9BRnAzWEJWUE9JSzhuZk8weWFlUkE0bmR2eHJ2ZWljZndSejBXaWFJaDNGMmQ0RndMOUNJRmY2SFJUTl9zYUUyTnhmYmktWGZFd3RmWW92b0t1bWJJcExjRGtDeDJOWmVFYmduWVhiMjM4NDRCQmdYU2xjYm9vZ0pn0gG3AUFVX3lxTE13eFhONFhWVVFPZ3RiSnp0N2ZmaURhR25tQW9oaHJ1MHZGSXhocndNa0FfSjl4Mzg2Y0tBXzRqekh2RXNCS1hGRktqM2M5OHpsYW9CS0FpTHprVkFta1hWclI5X0dxbWRXZ3lrZmNqYWNYZE1WZ1NpVjZoNnBYU3hIdm5peUdtVkxDaUg0MmVLVkZwZmcxemF2bmNJbUg2aF9OeW9xZ3gwVEN5bU5nYlVVSnNUaDYxRQ?oc=5",
-        "published_at": "2026-11-27T19:56:25+00:00",
-        "area": "Medio Oriente / energia",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajRDYnpkT2kwWEdlR2REeG93cnBZdkdsYmo3dTFmaVp3enZYN3Jid0RYVWZwNXJvcE00OG5FNjdwd0MzQXpFV1gzeUxkdnhxTVNoaGVNRmpnRllMTGY4emNtNW9VYnc4RWZVX0I2WExQNy1Ha21aV0FNWWVUb0FacnFLM01rUWRudjBCdGJpbGxCVUx3dl9KMEtZb0pyYURCTG1iWW5xUmNpaDlnc0lsMVpldmV6QQ?oc=5",
-        "published_at": "2026-11-27T19:18:51+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "Recent Ukrainian Attacks Have Reduced Russia’s Oil Processing Capacity by 30%, Sources Say - EnergyNow.com",
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZmU1aVJkeXAzcWZ6WVRfQndReFE4MkYyVnJTR0NBZm01N2NZeU5vRlpYdXF1VkdoNFNyY2lUY3VZLWhoNlh6M3VHNU91dFJVTzV2T0oyRV81SnI5OE9xci1yUkxjRmJvUzE2ZGhZekpQbkxPV0FaQmN4aUt0UHFYUWstN2xzZXc0Y3pLYWszcGVEeU4tdUE5SkxvUEx6TEZHUVpzXzVBZjdNSTlteGVrRGVSc3lWQXpCcGc?oc=5",
-        "published_at": "2026-11-27T18:49:19+00:00",
-        "area": "Russia / Ucraina",
-        "classification": "POSSIBILE_ESCALATION_DA_VERIFICARE",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "China’s AI trade - ISI Markets",
-        "source": "ISI Markets",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1najhaOFExelU0WEhLdzFENnJ3aDUyazRUX1BDR1UtVElpT3pGcjhjRmN6bFQ3LWdUWk5RN25jZlhid3VfUXg4Wld3OGd2ZDhHTjBTRFZCclMxblV2?oc=5",
-        "published_at": "2026-11-27T18:44:30+00:00",
-        "area": "USA / Cina / Taiwan",
-        "classification": "CONTESTO_NON_CLASSIFICATO",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
       }
     ],
     "corporate": [
       {
-        "title": "ToolGen and Vertex gear up for the first UK High Court CRISPR trial - Life Sciences IP Review",
-        "source": "Life Sciences IP Review",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDBWeTlSTXpMby1hRUR0Vjk2ck0tQzRPT3JnbXk0SXpSR3JuWnNOOGtjeEdPdDJILW1HMHRGWjJwejY5TXlFN2o0LUxUM2Z1YktHRGFqTEEwZGhMX1hVaXRVZUZRVFpLUVM5R1p1SXZRd1praU1aTlNkZy1ZWnRfcUhUTGNnUk9IVm9BZmNhX2s4QTU4UmRCRHVaRGF2NHVneTBKdVVsUVFjdWw0dGVJd1V3?oc=5",
-        "published_at": "2026-11-28T01:30:00+00:00",
-        "area": "Farmaceutica e settori",
+        "title": "Why are Nvidia’s AI chips special? - Fast Company",
+        "source": "Fast Company",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaTNDSVBXZzV2ekhocHpzWjh0UFV1bHIxZFNQbm9VaEdKdzJaWmIxT0k3Q0d2QlUtSnFvbkYwSU84S3RJMUF6cGRaRk42Tl9FODk4SW41cDhyUl84bU5lMGFVOUtRZXpTTW9RMHRTeGRPeWRDQ3dlYjQzbVA3Tzk1VHBzOExZTXc?oc=5",
+        "published_at": "2026-11-28T09:34:23+00:00",
+        "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Nvidia Stock Is Still Down 38% From Its Peak Despite Jensen Huang's Return. History Suggests a $10,000 Investment Today Will Be Worth This Much by Year-End 2027. - The Motley Fool",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNc3psZ3dCd3hiSU9ZOEU2MlF1N1YzYjdKcTZYdmNaUVJ4TFZWUVFzRnVMTEtibmwwQU1zSkE4bjE5dUFBWnB5ZzJJY1hsdlpuZjF6NFdLYWR5c2Vpd2s5OUF0bmJqbmxEdjJBZ0hFSEJmc2Z1cy02M2dJOERTbVUzMDhWeGhmY2pDY1o2Q2wxWGdZNXZmUjlZalVmZXBpTVlOamEzOTdYQjZxcFM5eHVaWFNfMWEzUkZaMWNCYkU2alJiWkJFY3VQdEs1Rjh1bV9ZQ0JFcGVhWGdIUU1LVVRjb2RKejlwU19rZTR1UzdsMUxnWXlwNVRvYlVsU0U5TkNNbHFKMllTNjVSekIzakRMZWZobWtWZ2ZrbUJyemNFTkp0dS1taTUwVmhBMA?oc=5",
-        "published_at": "2026-11-28T00:51:00+00:00",
+        "title": "OpenAI’s 457 MW TensorWave Deal Could Be Worth Up To $9.1B, Say Analysts: What It Means For AMD Stock - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGRqM2NVZ1N5V1hJY2lGNV80RGlqRk94Tl9fTkJJWUxUYWRzNkxqY0J3YkZieWZXV2YtOHNNbi1Kc296ZGRGOVNyX0RoQlRMQWM0MFcwUXBXblpxYjFvWWpmVHBmZnA0RnlqaUtjU1E0cmNIT3VZTzNxQ1JackdTSnh1RGhIaGxnS2FZZkxUaXUwUVV2T1h1Zg?oc=5",
+        "published_at": "2026-11-28T08:29:50+00:00",
         "area": "Titoli tech e AI",
+        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
+        "verification_status": "INDICE_RSS_DA_VERIFICARE"
+      },
+      {
+        "title": "ToolGen and Vertex gear up for the first UK High Court CRISPR trial - Life Sciences IP Review",
+        "source": "Life Sciences IP Review",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDBWeTlSTXpMby1hRUR0Vjk2ck0tQzRPT3JnbXk0SXpSR3JuWnNOOGtjeEdPdDJILW1HMHRGWjJwejY5TXlFN2o0LUxUM2Z1YktHRGFqTEEwZGhMX1hVaXRVZUZRVFpLUVM5R1p1SXZRd1praU1aTlNkZy1ZWnRfcUhUTGNnUk9IVm9BZmNhX2s4QTU4UmRCRHVaRGF2NHVneTBKdVVsUVFjdWw0dGVJd1V3?oc=5",
+        "published_at": "2026-11-28T01:36:28+00:00",
+        "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
@@ -241,10 +250,10 @@
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
       },
       {
-        "title": "Cogent Biosciences, Inc. (COGT) Discusses FDA Approval and Launch Strategy for EKITNA in Advanced GIST - Slideshow - Seeking Alpha",
-        "source": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeDRjOVVzLUF0SE1maE1MUUJPbVdWbzdSQjdhMF9fS1M2dWM1ZWkzYVRGdXRmOGdkcnM1ZTdXaFNodmd5cWZ0M0NKSHNDbmFha0FGYmV6MXBkZ0doN2M4SUp5M01IRUhiUlBrcTFBZDJ5UmtzTkxCR3ZGY1pFOGpsLXkzNjFEOEltNE5VV1F2ZkZPMjluS2hKSG43cFRCMll3bmV4dVJKRFNQQjE2bk9qQ3lhdzZSQkNXcllJMXVZeFgtV19zTTlDZHprZTl2bGpPSlZiRkoxNDRhSkZ6cnBJRU52NmFqRzlDQ2RocDVPZEY?oc=5",
-        "published_at": "2026-11-27T23:19:08+00:00",
+        "title": "Moderna Launches Ebola Vaccine Trial in Uganda - cwibc.co.id",
+        "source": "cwibc.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pdElQYXlqVVVjMTY2cUVSZERyTjdpemxrV1lfRDVEVkwtUHp3NXo0Q1p6U0VUQk5HVWpOajBVdURnSjB1NG9oRUtjU0VFT0V1cGJ3NWZBY3RKQ0o2OUpTQ19qVEhkM2Yw?oc=5",
+        "published_at": "2026-11-27T23:24:00+00:00",
         "area": "Farmaceutica e settori",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
@@ -272,15 +281,6 @@
         "source": "Engadget",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOWtYOThKWWFkTmR1eF9BUnF5OXhjU0hGZDh0NDNDOTNESWtYNWtxWVBEb1BLN21OLVBVYkRGcTlzenVOM2lkRkE2TzlBeE5IR1lCZjJ0bjdoam1CaklfTEJKY3ZKakhrelI2eDFlQXZONktnNWpXdWZCRkNSTXZxX1BpeTF1d29MN2VMeHBhaFNCaUJ3d3I3dU1xNlp5VVpuMEhGWVVTcUxxMHhDMDJzbGFfSEdETlRVT0xJ?oc=5",
         "published_at": "2026-11-27T19:45:23+00:00",
-        "area": "Titoli tech e AI",
-        "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
-        "verification_status": "INDICE_RSS_DA_VERIFICARE"
-      },
-      {
-        "title": "LG Chairman Koo Kwang-mo Takes His Nvidia Robotics Deal to Tennessee - Observer",
-        "source": "Observer",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOXh3bzdKNFVyTzFPTlJiYUlfZDEySXpTN2MtNEpaai1RSGFNQ0tkV0hOcGswUmVoLU5BaFI2bU4wWjJCVlBmZlRkbklBR0hOYy1VUTBmUUpTanpvZkoxaDVfNk5rMzRlSElHcjY4MG1xeG5UYlNpSUZkV3FjZ3BWOFA5NA?oc=5",
-        "published_at": "2026-11-27T19:28:26+00:00",
         "area": "Titoli tech e AI",
         "classification": "NOTIZIA_SOCIETARIA_NON_VERIFICATA",
         "verification_status": "INDICE_RSS_DA_VERIFICARE"
